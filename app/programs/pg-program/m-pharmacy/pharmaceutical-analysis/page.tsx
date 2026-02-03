@@ -276,7 +276,7 @@ export default function PharmaceuticalAnalysisPage() {
           {/* GPAT Benefits */}
           <div className="bg-[#FFF9E6] border-l-4 border-yellow-500 p-6 rounded-r-lg">
             <div className="flex items-start gap-2 mb-4">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h4 className="text-lg font-bold text-gray-900">GPAT Score Benefits:</h4>
             </div>
             <ul className="space-y-2 ml-8">
@@ -729,7 +729,7 @@ export default function PharmaceuticalAnalysisPage() {
           {/* Salary Progression */}
           <div className="bg-[#E8F5E9] border-l-4 border-green-500 p-6 rounded-r-lg mt-8">
             <div className="flex items-start gap-2 mb-4">
-              <span className="text-2xl">💰</span>
+              <IndianRupee className="w-10 h-10" />
               <h4 className="text-lg font-bold text-gray-900">Salary Progression for Pharmaceutical Analysis Specialists</h4>
             </div>
             <ul className="space-y-2 ml-8">
@@ -907,7 +907,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg mt-6">
             <div className="flex items-start gap-2 mb-2">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h4 className="text-lg font-bold text-gray-900">Key Insight:</h4>
             </div>
             <p className="text-gray-700 ml-8">
@@ -1181,7 +1181,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* Fee Structure */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl">💰</span>
+            <IndianRupee className="w-10 h-10" />
             <h2 className="text-3xl font-bold text-[#5B7FE5]">
               M.Pharm Pharmaceutical Analysis - Fee Structure
             </h2>
@@ -1278,7 +1278,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* Laboratory Infrastructure */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl">🔬</span>
+            <Microscope className="w-10 h-10" />
             <h2 className="text-3xl font-bold text-[#5B7FE5]">
               Essential Laboratory Infrastructure
             </h2>
@@ -1324,7 +1324,7 @@ export default function PharmaceuticalAnalysisPage() {
           {/* Warning Box */}
           <div className="bg-[#FFE5E5] border-l-4 border-red-500 p-6 rounded-r-lg">
             <div className="flex items-start gap-2 mb-2">
-              <span className="text-2xl">⚠️</span>
+              <AlertTriangle className="w-6 h-6" />
               <h4 className="text-lg font-bold text-gray-900">Important: Verify Laboratory Facilities</h4>
             </div>
             <p className="text-gray-700 ml-8">
@@ -1336,7 +1336,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* FAQ */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl">❓</span>
+            <HelpCircle className="w-10 h-10" />
             <h2 className="text-3xl font-bold text-[#5B7FE5]">
               Frequently Asked Questions
             </h2>
@@ -1429,7 +1429,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* Why Choose */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl">⭐</span>
+            <Star className="w-10 h-10" />
             <h2 className="text-3xl font-bold text-[#5B7FE5]">
               Why Choose M.Pharm in Pharmaceutical Analysis?
             </h2>
@@ -1506,7 +1506,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* Accreditation */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-4xl">✅</span>
+            <CheckCircle className="w-10 h-10" />
             <h2 className="text-3xl font-bold text-[#5B7FE5]">
               Accreditation & Recognition
             </h2>
@@ -1534,7 +1534,7 @@ export default function PharmaceuticalAnalysisPage() {
           {/* Warning Box */}
           <div className="bg-[#FFE5E5] border-l-4 border-red-500 p-6 rounded-r-lg mt-8">
             <div className="flex items-start gap-2 mb-2">
-              <span className="text-2xl">⚠️</span>
+              <AlertTriangle className="w-6 h-6" />
               <h4 className="text-lg font-bold text-gray-900">Verification Before Admission:</h4>
             </div>
             <p className="text-gray-700 ml-8">

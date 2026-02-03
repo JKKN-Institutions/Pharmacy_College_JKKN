@@ -20,26 +20,26 @@ export default function GalleryPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-[#f5f1e8]">
+    <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-12">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-6 sm:mb-8 md:mb-12">
           GALLERY
         </h1>
 
         {/* Gallery Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12">
           {galleryItems.map((item, index) => (
-            <div key={index} className="space-y-4">
+            <div key={index} className="space-y-2 sm:space-y-4">
               {/* Title */}
-              <h2 className="text-xl lg:text-2xl font-bold text-[#0F6B3E]">
+              <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0F6B3E]">
                 {item.title}
               </h2>
               {/* Image */}
-              <div className="w-full h-[280px] bg-gray-200 relative overflow-hidden rounded">
+              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg">
                 <img
                   src={item.image}
                   alt={item.title}

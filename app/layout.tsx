@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import Footer from '@/components/Footer'
+import { BottomNavWrapper } from '@/components/BottomNavWrapper'
+import ScrollToTop from '@/components/ScrollToTop'
 
 export const metadata: Metadata = {
   title: 'JKKN College of Pharmacy',
@@ -22,6 +24,8 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         {children}
         <Footer />
+        <ScrollToTop />
+        <BottomNavWrapper />
       </body>
     </html>
   )

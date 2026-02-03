@@ -2,18 +2,18 @@ import Header from '@/components/Header'
 
 export default function ResearchPage() {
   return (
-    <div className="min-h-screen bg-[#f5f1e8]">
+    <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-8">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
           Research at JKKN College of Pharmacy
         </h1>
 
         {/* Content */}
-        <div className="space-y-8 text-gray-700 leading-relaxed">
+        <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* Introduction */}
           <p className="text-justify">
             Research at JKKN College of Pharmacy is driven by our unwavering commitment to achieve our institution's vision and mission. As a leading global innovative solutions provider, we understand the paramount importance of research in addressing the ever-changing needs of society. Our vision puts us to excel in the field of pharmaceutical research and take on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, we firmly believe in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. Our research activities revolve around this concept, enabling us to create a platform that opens up exponential opportunities for all stakeholders.
@@ -21,7 +21,7 @@ export default function ResearchPage() {
 
           {/* Research Activities */}
           <div>
-            <h2 className="text-2xl font-bold text-black mb-4">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
               Research Activities:
             </h2>
             <p className="text-justify">
@@ -31,7 +31,7 @@ export default function ResearchPage() {
 
           {/* Publications */}
           <div>
-            <h2 className="text-2xl font-bold text-black mb-4">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
               Publications:
             </h2>
             <p className="text-justify mb-6">
@@ -49,7 +49,7 @@ export default function ResearchPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2024-2025</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">25</td>
                     <td className="border border-gray-300 px-6 py-4">
@@ -63,7 +63,7 @@ export default function ResearchPage() {
                       <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2022 - 2023</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
@@ -77,7 +77,7 @@ export default function ResearchPage() {
                       <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2020 - 2021</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">13</td>
                     <td className="border border-gray-300 px-6 py-4">
@@ -91,7 +91,7 @@ export default function ResearchPage() {
                       <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2018 - 2019</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
@@ -105,7 +105,7 @@ export default function ResearchPage() {
 
           {/* Research Facilities */}
           <div>
-            <h2 className="text-2xl font-bold text-black mb-4">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
               Research Facilities:
             </h2>
             <p className="text-justify mb-6">
@@ -122,8 +122,8 @@ export default function ResearchPage() {
           </div>
 
           {/* Institutional Ethics Committee */}
-          <div className="mt-12">
-            <h2 className="text-2xl font-bold text-black mb-6">
+          <div className="mt-8 sm:mt-10 md:mt-12">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4 sm:mb-6">
               Institutional Ethics Committee
             </h2>
             <p className="text-justify mb-4">
@@ -155,8 +155,8 @@ export default function ResearchPage() {
           </div>
 
           {/* Collaborations */}
-          <div className="mt-12">
-            <h2 className="text-2xl font-bold text-black mb-4">
+          <div className="mt-8 sm:mt-10 md:mt-12">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
               Collaborations:
             </h2>
             <p className="text-justify">
@@ -165,8 +165,8 @@ export default function ResearchPage() {
           </div>
 
           {/* Conferences and Symposia */}
-          <div className="mt-12">
-            <h2 className="text-2xl font-bold text-black mb-4">
+          <div className="mt-8 sm:mt-10 md:mt-12">
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
               Conferences and Symposia:
             </h2>
             <p className="text-justify">

@@ -9,22 +9,22 @@ export default function IQACPage() {
 
       {/* Main Content */}
       <main className="flex-1">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12 lg:py-16">
+        <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
           {/* Page Title */}
-          <h1 className="text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-8 lg:mb-10">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8 lg:mb-10">
             IQAC
           </h1>
 
           {/* Content */}
-          <div className="space-y-8 text-gray-700 leading-relaxed">
+          <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
             {/* Introduction */}
             <p className="text-justify">
               IQAC is the heart of our quest for excellence in higher education. It operates as a quality guardian, meticulously planning, guiding, and monitoring quality initiatives within our institution. Comprising distinguished faculty, administrators, and external experts, the IQAC focuses on continuous growth, setting benchmarks, facilitating internal reviews, and overseeing accreditation processes. Its mission is to cultivate a culture of excellence, transparency, and accountability, leading the way to comprehensive institutional growth and unwavering student satisfaction.
             </p>
 
             {/* Facets of IQAC */}
-            <div className="mt-10">
-              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
+            <div className="mt-6 sm:mt-8 md:mt-10">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Facets of IQAC:
               </h2>
 
@@ -63,8 +63,8 @@ export default function IQACPage() {
             </div>
 
             {/* Members and Their Roles */}
-            <div className="mt-10">
-              <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">
+            <div className="mt-6 sm:mt-8 md:mt-10">
+              <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Members and Their Roles:
               </h2>
 

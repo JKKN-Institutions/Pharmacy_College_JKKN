@@ -2,18 +2,18 @@ import Header from '@/components/Header'
 
 export default function AlumniPage() {
   return (
-    <div className="min-h-screen bg-[#f5f1e8]">
+    <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
-        <div className="bg-white rounded-lg shadow-sm p-8 lg:p-12">
+      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+        <div className="bg-[#FBFBEE] rounded-lg shadow-sm p-4 sm:p-6 md:p-8 lg:p-12">
           {/* Alumni Association Section */}
-          <h1 className="text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-8">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
             Alumni Association
           </h1>
 
-          <div className="space-y-6 text-gray-700 leading-relaxed mb-8">
+          <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
             <p>
               The Alumni Committee at J.K.K.Nattraja College of Pharmacy is an active body that maintains the alumni relations and interactions with the Institute. The Alumni Committee takes responsibility to organize a grand alumni meet and maintain an alumni database. The committee is actively involved in strengthening the relationship between alumni and the Institute. In addition, the committee strives to have general feedback on infrastructure of the college and teaching-learning process from alumni. The alumni meet is held in the month of December every year. The committee encourages alumni to speak in a free environment to share their current experiences and past thoughts with regard to academics.
             </p>
@@ -23,8 +23,8 @@ export default function AlumniPage() {
             </p>
           </div>
 
-          <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">
+          <div className="mb-4 sm:mb-6 md:mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
               The key objectives of the Alumni Committee of J.K.K.Nattraja College of Pharmacy are as follows:
             </h2>
 
@@ -74,8 +74,8 @@ export default function AlumniPage() {
             </ul>
           </div>
 
-          <div className="mb-8">
-            <p className="text-gray-700 leading-relaxed mb-6">
+          <div className="mb-4 sm:mb-6 md:mb-8">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6">
               The President of the committee conducts a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
             </p>
 
@@ -97,12 +97,12 @@ export default function AlumniPage() {
           </div>
 
           {/* Alumni Network Section */}
-          <div className="mt-12 mb-8">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          <div className="mt-8 sm:mt-10 md:mt-12 mb-4 sm:mb-6 md:mb-8">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
               ALUMNI NETWORK AND CONTRIBUTIONS
             </h2>
 
-            <div className="space-y-6 text-gray-700 leading-relaxed">
+            <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
               <p>
                 JKKNCP has a vibrant and active alumni network that plays a significant role in contributing to the institution's overall development and success. The alumni network serves as a valuable resource for the college, offering support and guidance to current students, faculty members, and the administration.
               </p>
@@ -130,15 +130,15 @@ export default function AlumniPage() {
           </div>
 
           {/* Composition Section */}
-          <div className="mt-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+          <div className="mt-8 sm:mt-10 md:mt-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
               Composition
             </h2>
 
             <div className="overflow-x-auto">
               <table className="w-full border-collapse border border-gray-300">
                 <thead>
-                  <tr className="bg-[#f5f1e8]">
+                  <tr className="bg-[#FBFBEE]">
                     <th className="border border-gray-300 px-6 py-4 text-left font-bold text-gray-900">
                       Sl. No
                     </th>
@@ -154,31 +154,31 @@ export default function AlumniPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">1.</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. M. Vijayabaskaran</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Professor</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Coordinator</td>
                   </tr>
-                  <tr className="bg-[#f5f1e8]">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2.</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. V. Sekar</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Professor</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Co-Coordinator</td>
                   </tr>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">3.</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. S. Ananda Thangadurai</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Vice Principal</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Member</td>
                   </tr>
-                  <tr className="bg-[#f5f1e8]">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">4.</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Mr. V. Venkateswaran</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Associate Professor</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Member</td>
                   </tr>
-                  <tr className="bg-white">
+                  <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">5.</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. S. Satheesh</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Assistant Professor</td>

@@ -1,6 +1,6 @@
 'use client'
 
-import { GraduationCap, Microscope, Scale } from 'lucide-react'
+import { GraduationCap, Landmark, Microscope, Scale } from 'lucide-react'
 import Header from '@/components/Header'
 
 export default function MPharmacyPage() {
@@ -11,7 +11,7 @@ export default function MPharmacyPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#5B6FD8] to-[#7C5FD8] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">🎓</div>
+          <GraduationCap className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm - Master of Pharmacy</h1>
           <p className="text-lg sm:text-xl">5 Specializations • Research Excellence • Career Advancement • GPAT/GATE Pathway</p>
         </div>
@@ -263,7 +263,7 @@ export default function MPharmacyPage() {
       {/* How to Choose Your M.Pharm Specialization */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎯</div>
+          <Target className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#5B6FD8]">How to Choose Your M.Pharm Specialization</h2>
         </div>
 
@@ -416,7 +416,7 @@ export default function MPharmacyPage() {
       {/* M.Pharm Eligibility & Admission Process */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📋</div>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#5B6FD8]">M.Pharm Eligibility & Admission Process</h2>
         </div>
 
@@ -580,7 +580,10 @@ export default function MPharmacyPage() {
         </div>
 
         <div className="bg-green-50 rounded-lg p-6 mt-6 border-l-4 border-green-500">
-          <h4 className="text-lg font-bold text-green-800 mb-3">💡 Strategic Admission Advice:</h4>
+          <h4 className="text-lg font-bold text-green-800 mb-3 flex items-center gap-2">
+            <Lightbulb className="w-5 h-5" />
+            Strategic Admission Advice:
+          </h4>
           <ul className="space-y-2 text-gray-800">
             <li className="flex items-start">
               <span className="text-green-600 font-bold mr-2">•</span>
@@ -697,7 +700,7 @@ export default function MPharmacyPage() {
           {/* Do M.Pharm Immediately If */}
           <div className="mb-8">
             <h3 className="text-xl font-bold text-[#5B6FD8] mb-4 flex items-start gap-2">
-              <span className="text-green-600">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Do M.Pharm Immediately If:</span>
             </h3>
             <ul className="space-y-3 text-gray-800 ml-8">
@@ -793,7 +796,7 @@ export default function MPharmacyPage() {
       {/* M.Pharm Fee Structure & ROI Analysis */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💰</div>
+          <IndianRupee className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#5B6FD8]">M.Pharm Fee Structure & ROI Analysis</h2>
         </div>
 
@@ -944,7 +947,7 @@ export default function MPharmacyPage() {
       {/* Top Institutions for M.Pharm in India */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🏛️</div>
+          <div className="text-4xl"><Landmark className="w-6 h-6" /></div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#5B6FD8]">Top Institutions for M.Pharm in India</h2>
         </div>
 
@@ -1020,7 +1023,7 @@ export default function MPharmacyPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">❓</div>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#5B6FD8]">Frequently Asked Questions About M.Pharm</h2>
         </div>
 

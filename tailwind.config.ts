@@ -11,6 +11,16 @@ const config: Config = {
       colors: {
         'jkkn-green': '#1a7f5a',
         'jkkn-pink': '#d4145a',
+        primary: {
+          DEFAULT: '#1a7f5a',
+          light: '#2e9d74',
+          dark: '#0d5f3f',
+        },
+        secondary: {
+          DEFAULT: '#FFC107',
+          light: '#FFD54F',
+          dark: '#FFA000',
+        },
       },
       screens: {
         'xs': '320px',
@@ -42,6 +52,20 @@ const config: Config = {
       maxWidth: {
         '8xl': '90rem',
         '9xl': '100rem',
+      },
+      animation: {
+        'fade-in': 'fadeIn 0.3s ease-in-out',
+        'slide-down': 'slideDown 0.3s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideDown: {
+          '0%': { transform: 'translateY(-10px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
       },
       minHeight: {
         'screen-ios': '-webkit-fill-available',

@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube } from 'lucide-react'
 
 export default function PharmacyPracticePage() {
   return (
@@ -10,7 +11,7 @@ export default function PharmacyPracticePage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#00BFFF] to-[#00D4FF] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">💊</div>
+          <Pill className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmacy Practice 2026</h1>
           <p className="text-lg sm:text-xl">Master Clinical Pharmacy & Patient Care for Healthcare Excellence</p>
         </div>
@@ -52,7 +53,7 @@ export default function PharmacyPracticePage() {
       {/* Core Clinical Competencies & Skills Developed */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎯</div>
+          <Target className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Core Clinical Competencies & Skills Developed</h2>
         </div>
 
@@ -224,7 +225,7 @@ export default function PharmacyPracticePage() {
       {/* Eligibility Criteria & Admission Requirements */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📋</div>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
@@ -272,7 +273,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#00BCD4]">
           <div className="flex items-start gap-3 mb-4">
-            <div className="text-2xl">💡</div>
+            <Lightbulb className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Important Note for Pharmacy Practice Aspirants:</h3>
           </div>
 
@@ -346,7 +347,7 @@ export default function PharmacyPracticePage() {
       {/* M.Pharm Pharmacy Practice - Course Structure with Clinical Training */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📚</div>
+          <BookOpen className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">M.Pharm Pharmacy Practice - Course Structure with Clinical Training</h2>
         </div>
 
@@ -522,7 +523,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">🏥</div>
+            <Hospital className="w-8 h-8" />
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Clinical Rotation Details (Total: 20 weeks minimum)</h2>
           </div>
 
@@ -585,7 +586,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">🔬</div>
+            <Microscope className="w-8 h-8" />
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Typical Research Project Topics in Pharmacy Practice:</h2>
           </div>
 
@@ -629,7 +630,7 @@ export default function PharmacyPracticePage() {
       {/* Career Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💼</div>
+          <Briefcase className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Career Opportunities After M.Pharm Pharmacy Practice</h2>
         </div>
 
@@ -880,7 +881,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💰</div>
+            <IndianRupee className="w-8 h-8" />
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Salary Progression for Pharmacy Practice Specialists</h2>
           </div>
 
@@ -922,7 +923,7 @@ export default function PharmacyPracticePage() {
       {/* Top Recruiters */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🏢</div>
+          <Building2 className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Top Recruiters for M.Pharm Pharmacy Practice Graduates</h2>
         </div>
 
@@ -990,7 +991,7 @@ export default function PharmacyPracticePage() {
       {/* Pharm.D vs M.Pharm Pharmacy Practice - Detailed Comparison */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⚖️</div>
+          <Scale className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Pharm.D vs M.Pharm Pharmacy Practice - Detailed Comparison</h2>
         </div>
 
@@ -1098,7 +1099,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#00BCD4]">
           <div className="flex items-start gap-3 mb-6">
-            <div className="text-2xl">💡</div>
+            <Lightbulb className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Key Decision Factors:</h3>
           </div>
 
@@ -1163,7 +1164,7 @@ export default function PharmacyPracticePage() {
       {/* Higher Education & Research Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎓</div>
+          <GraduationCap className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Higher Education & Research Opportunities</h2>
         </div>
 
@@ -1333,7 +1334,7 @@ export default function PharmacyPracticePage() {
       {/* Admission Process & Timeline */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📝</div>
+          <FileText className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Admission Process & Timeline</h2>
         </div>
 
@@ -1421,7 +1422,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-gradient-to-br from-[#FFCDD2] to-[#EF9A9A] rounded-xl p-8 lg:p-10 border-l-4 border-[#D32F2F]">
           <div className="flex items-start gap-3 mb-4">
-            <div className="text-3xl">⚠️</div>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Verification for Pharmacy Practice Programs:</h3>
           </div>
 
@@ -1429,37 +1430,37 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-3 text-gray-800 mb-6">
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Hospital Partnerships:</span> Does the college have MoUs with PCI-approved teaching hospitals for clinical rotations?
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Active Clinical Pharmacy Department:</span> Do affiliated hospitals actually have functioning clinical pharmacy services?
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Qualified Clinical Preceptors:</span> Are there clinical pharmacists or physicians who will supervise rotations?
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Previous Batch Rotations:</span> Ask current students if clinical rotations actually happened or were just on paper.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Rotation Quality:</span> Will you get actual patient interaction or just observe from distance?
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <div>
                 <span className="font-bold text-[#00BCD4]">Faculty Expertise:</span> Do faculty members have clinical pharmacy experience or just theoretical knowledge?
               </div>
@@ -1475,7 +1476,7 @@ export default function PharmacyPracticePage() {
       {/* Fee Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💰</div>
+          <IndianRupee className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">M.Pharm Pharmacy Practice - Fee Structure</h2>
         </div>
 
@@ -1604,7 +1605,7 @@ export default function PharmacyPracticePage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">❓</div>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Frequently Asked Questions</h2>
         </div>
 
@@ -1674,7 +1675,7 @@ export default function PharmacyPracticePage() {
       {/* Why Choose M.Pharm in Pharmacy Practice? */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⭐</div>
+          <Star className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Why Choose M.Pharm in Pharmacy Practice?</h2>
         </div>
 
@@ -1738,7 +1739,7 @@ export default function PharmacyPracticePage() {
       {/* Accreditation & Quality Standards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">✅</div>
+          <CheckCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#00BCD4] border-b-4 border-[#00BCD4] pb-2">Accreditation & Quality Standards</h2>
         </div>
 
@@ -1784,7 +1785,7 @@ export default function PharmacyPracticePage() {
         {/* Critical Pre-Admission Checklist */}
         <div className="bg-gradient-to-br from-[#FFCDD2] to-[#EF9A9A] rounded-xl p-8 lg:p-10 border-l-4 border-[#D32F2F]">
           <div className="flex items-start gap-3 mb-6">
-            <div className="text-3xl">⚠️</div>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Pre-Admission Checklist for Pharmacy Practice:</h3>
           </div>
 
@@ -1792,35 +1793,35 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-3 text-gray-800 mb-6">
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Ask for copies of hospital MoUs. Visit at least one affiliated hospital.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Meet clinical pharmacy faculty. Verify their clinical pharmacy experience (not just Ph.D in Pharmacology).</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Talk to current M.Pharm Pharmacy Practice students about rotation quality.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Check if hospitals have dedicated clinical pharmacy departments or if students just observe.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Verify clinical rotation schedule from previous batch logbooks.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Check faculty publications in pharmacy practice journals (not just pharmaceutical chemistry).</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Ensure college has drug information resources (textbooks, online databases) for clinical training.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#4CAF50] text-xl mr-3">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Verify placement records specifically for Pharmacy Practice graduates (not overall college placement).</span>
             </li>
           </ul>

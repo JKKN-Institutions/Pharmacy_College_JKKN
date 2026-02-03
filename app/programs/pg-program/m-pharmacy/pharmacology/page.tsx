@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube } from 'lucide-react'
 
 export default function PharmacologyPage() {
   return (
@@ -10,7 +11,7 @@ export default function PharmacologyPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#5B6FD8] to-[#7C5FD8] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">🎓</div>
+          <GraduationCap className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmacology 2026</h1>
           <p className="text-lg sm:text-xl">Master Drug Action, Toxicology & Preclinical Research</p>
         </div>
@@ -52,7 +53,7 @@ export default function PharmacologyPage() {
       {/* Core Research Areas & Competencies */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎯</div>
+          <Target className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Core Research Areas & Competencies</h2>
         </div>
 
@@ -224,7 +225,7 @@ export default function PharmacologyPage() {
       {/* Eligibility Criteria & Admission Requirements */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📋</div>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
@@ -258,7 +259,7 @@ export default function PharmacologyPage() {
         {/* Important Consideration */}
         <div className="bg-gradient-to-br from-[#FFE4E8] to-[#FFD6E8] rounded-xl p-8 border-l-4 border-[#DC2626]">
           <div className="flex items-start gap-3 mb-4">
-            <span className="text-3xl">⚠️</span>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-[#DC2626]">Important Consideration for Pharmacology Aspirants:</h3>
           </div>
           <p className="text-gray-800 leading-relaxed mb-4">
@@ -336,7 +337,7 @@ export default function PharmacologyPage() {
         {/* GPAT Benefits */}
         <div className="bg-gradient-to-br from-[#FFF8DC] to-[#FFFACD] rounded-xl p-8 mt-8 border-l-4 border-[#F59E0B]">
           <div className="flex items-start gap-3 mb-4">
-            <span className="text-3xl">💡</span>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Benefits for Pharmacology Students:</h3>
           </div>
           <ul className="space-y-3 text-gray-800">
@@ -371,7 +372,7 @@ export default function PharmacologyPage() {
       {/* M.Pharm Pharmacology - Detailed Course Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📚</div>
+          <BookOpen className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">M.Pharm Pharmacology - Detailed Course Structure</h2>
         </div>
 
@@ -540,7 +541,7 @@ export default function PharmacologyPage() {
         {/* Typical Research Project Topics */}
         <div className="bg-gradient-to-br from-[#E8F4FD] to-[#D4F1F8] rounded-xl p-8 border-l-4 border-[#5B6FD8]">
           <div className="flex items-start gap-3 mb-4">
-            <span className="text-3xl">🔬</span>
+            <Microscope className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmacology:</h3>
           </div>
           <ul className="space-y-2 text-gray-800">
@@ -591,7 +592,7 @@ export default function PharmacologyPage() {
       {/* Career Opportunities After M.Pharm Pharmacology */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💼</div>
+          <Briefcase className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Career Opportunities After M.Pharm Pharmacology</h2>
         </div>
 
@@ -840,7 +841,7 @@ export default function PharmacologyPage() {
         {/* Salary Progression */}
         <div className="bg-gradient-to-br from-[#D4F8E8] to-[#E8F8F4] rounded-xl p-8 mt-10 border-l-4 border-[#10B981]">
           <div className="flex items-start gap-3 mb-4">
-            <span className="text-3xl">💰</span>
+            <IndianRupee className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmacology Specialists</h3>
           </div>
           <ul className="space-y-2 text-gray-800">
@@ -874,7 +875,7 @@ export default function PharmacologyPage() {
       {/* Top Recruiters for M.Pharm Pharmacology Graduates */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🏢</div>
+          <Building2 className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Top Recruiters for M.Pharm Pharmacology Graduates</h2>
         </div>
 
@@ -1018,7 +1019,7 @@ export default function PharmacologyPage() {
       {/* M.Pharm Pharmacology vs Other Specializations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⚖️</div>
+          <Scale className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">M.Pharm Pharmacology vs Other Specializations</h2>
         </div>
 
@@ -1135,7 +1136,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#D4F1F8] to-[#E8F4FD] rounded-xl p-8 border-l-4 border-[#5B6FD8]">
           <div className="flex items-start gap-3 mb-4">
-            <span className="text-3xl">💡</span>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
           </div>
 
@@ -1188,7 +1189,7 @@ export default function PharmacologyPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">❓</div>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Frequently Asked Questions</h2>
         </div>
 
@@ -1278,7 +1279,7 @@ export default function PharmacologyPage() {
       {/* Why Choose M.Pharm in Pharmacology */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⭐</div>
+          <Star className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Why Choose M.Pharm in Pharmacology?</h2>
         </div>
 
@@ -1356,7 +1357,7 @@ export default function PharmacologyPage() {
       {/* Accreditation & Critical Facilities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">✅</div>
+          <CheckCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#7C5FD8]">Accreditation & Critical Facilities</h2>
         </div>
 
@@ -1410,7 +1411,7 @@ export default function PharmacologyPage() {
           {/* Verification Box */}
           <div className="bg-gradient-to-br from-[#FFE4E8] to-[#FFD6E8] rounded-xl p-8 border-l-4 border-[#DC2626]">
             <div className="flex items-start gap-3 mb-4">
-              <span className="text-3xl">⚠️</span>
+              <AlertTriangle className="w-8 h-8" />
               <h3 className="text-2xl font-bold text-[#DC2626]">Mandatory Verification Before Admission:</h3>
             </div>
 
@@ -1420,23 +1421,23 @@ export default function PharmacologyPage() {
             <h4 className="text-lg font-bold text-gray-800 mb-3">Animal House Facilities:</h4>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Ask to see CPCSEA registration certificate. Note the registration number and validity date.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Visit the animal house. Check if it's actually operational (not just constructed but unused).</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Verify animals are currently available. Ask about animal procurement and supply chain.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Check animal house cleanliness, ventilation, lighting, and animal welfare standards.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Confirm availability of different animal species (rats, mice, guinea pigs, rabbits).</span>
               </li>
             </ul>
@@ -1445,23 +1446,23 @@ export default function PharmacologyPage() {
             <h4 className="text-lg font-bold text-gray-800 mb-3">Research Equipment:</h4>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Actophotometer, Rotarod, Analgesiometer (for pharmacology screening)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Plethysmometer, Convulsiometer (for behavioral studies)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Spectrophotometer, ELISA reader (for biochemical analysis)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Histopathology facilities: Microtome, microscope</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Check if equipment is functional, not just displayed</span>
               </li>
             </ul>
@@ -1470,19 +1471,19 @@ export default function PharmacologyPage() {
             <h4 className="text-lg font-bold text-gray-800 mb-3">Faculty & Research:</h4>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Meet pharmacology faculty. Verify their Ph.D credentials and research experience.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Ask about recent research publications. Check if faculty actively publish.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Review previous M.Pharm pharmacology theses (check library).</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 font-bold mr-2 text-xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span className="text-gray-800">Talk to current M.Pharm students about research quality and faculty guidance.</span>
               </li>
             </ul>

@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header'
 import Image from 'next/image'
+import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube } from 'lucide-react'
 
 export default function PhDPage() {
   return (
@@ -12,7 +13,7 @@ export default function PhDPage() {
       <div className="bg-gradient-to-r from-[#0B5D82] to-[#1A9BB8] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-block bg-[#FF6B35] px-6 py-2 rounded-full text-white font-bold text-sm mb-6">
-            <span className="mr-2">🎓</span>
+            <GraduationCap className="w-10 h-10" />
             DOCTORAL PROGRAM 2026
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">Ph.D (Doctor of Philosophy) in Pharmacy</h1>
@@ -24,7 +25,7 @@ export default function PhDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-white rounded-2xl p-8 lg:p-12 border-l-4 border-[#FF6B35]">
           <div className="flex items-start gap-4 mb-6">
-            <span className="text-4xl">📚</span>
+            <BookOpen className="w-10 h-10" />
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">What is Ph.D in Pharmacy?</h2>
           </div>
 
@@ -40,32 +41,32 @@ export default function PhDPage() {
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">⏱️</div>
+              <Clock className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Duration</h3>
               <p className="text-gray-900 font-semibold text-lg">3-5 Years (Min 3, Max 6)</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">📋</div>
+              <ClipboardList className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Eligibility</h3>
               <p className="text-gray-900 font-semibold text-lg">M.Pharm/M.Sc + GPAT/NET/GATE</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">🎯</div>
+              <Target className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Focus</h3>
               <p className="text-gray-900 font-semibold text-lg">Original Research & Thesis</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">💰</div>
+              <IndianRupee className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Fellowship</h3>
               <p className="text-gray-900 font-semibold text-lg">₹31,000 - ₹42,000/Month</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">📊</div>
+              <BarChart className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Career Salary</h3>
               <p className="text-gray-900 font-semibold text-lg">₹10-40 LPA (Professor/Scientist)</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
-              <div className="text-4xl mb-4">📝</div>
+              <FileText className="w-10 h-10" />
               <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Publications Required</h3>
               <p className="text-gray-900 font-semibold text-lg">Minimum 2-3 Research Papers</p>
             </div>
@@ -88,7 +89,7 @@ export default function PhDPage() {
       {/* Why Pursue Ph.D in Pharmacy Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">💡</span>
+          <Lightbulb className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Why Pursue Ph.D in Pharmacy?</h2>
         </div>
 
@@ -146,7 +147,7 @@ export default function PhDPage() {
       {/* Ph.D Specializations Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-gray-50">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">🔬</span>
+          <Microscope className="w-10 h-10" />
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82] mb-4">Ph.D Specializations in Pharmacy</h2>
             <p className="text-gray-700">Choose your doctoral specialization based on your M.Pharm background, research interests, and career aspirations. Each specialization offers unique research opportunities and career pathways.</p>
@@ -156,7 +157,7 @@ export default function PhDPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Pharmaceutics */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#FF6B35]">
-            <div className="text-4xl mb-4">💊</div>
+            <Pill className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmaceutics</h3>
             <p className="text-gray-700 mb-4">Focus on drug formulation, novel drug delivery systems (NDDS), nanotechnology, and pharmaceutical product development.</p>
             <ul className="space-y-2 mb-6">
@@ -193,7 +194,7 @@ export default function PhDPage() {
 
           {/* Pharmacology */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#1A9BB8]">
-            <div className="text-4xl mb-4">🧬</div>
+            <Dna className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmacology</h3>
             <p className="text-gray-700 mb-4">Study drug mechanisms, therapeutic effects, toxicology, and develop new pharmacological interventions.</p>
             <ul className="space-y-2 mb-6">
@@ -230,7 +231,7 @@ export default function PhDPage() {
 
           {/* Pharmaceutical Chemistry */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#FF6B35]">
-            <div className="text-4xl mb-4">⚗️</div>
+            <FlaskConical className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmaceutical Chemistry</h3>
             <p className="text-gray-700 mb-4">Design and synthesize new drug molecules, study structure-activity relationships, and develop therapeutic agents.</p>
             <ul className="space-y-2 mb-6">
@@ -267,7 +268,7 @@ export default function PhDPage() {
 
           {/* Pharmacognosy */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-green-600">
-            <div className="text-4xl mb-4">🌿</div>
+            <Leaf className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmacognosy</h3>
             <p className="text-gray-700 mb-4">Research natural products, phytochemistry, herbal drug development, and ethnopharmacology.</p>
             <ul className="space-y-2 mb-6">
@@ -304,7 +305,7 @@ export default function PhDPage() {
 
           {/* Pharmaceutical Analysis */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#1A9BB8]">
-            <div className="text-4xl mb-4">📊</div>
+            <BarChart className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmaceutical Analysis</h3>
             <p className="text-gray-700 mb-4">Develop analytical methods, bioanalytical techniques, and quality control protocols for pharmaceuticals.</p>
             <ul className="space-y-2 mb-6">
@@ -341,7 +342,7 @@ export default function PhDPage() {
 
           {/* Pharmacy Practice */}
           <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#FF6B35]">
-            <div className="text-4xl mb-4">🏥</div>
+            <Hospital className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Ph.D in Pharmacy Practice</h3>
             <p className="text-gray-700 mb-4">Research clinical pharmacy, pharmacovigilance, pharmacoeconomics, and patient care optimization.</p>
             <ul className="space-y-2 mb-6">
@@ -393,7 +394,7 @@ export default function PhDPage() {
       {/* Eligibility Criteria Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">📋</span>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Eligibility Criteria for Ph.D in Pharmacy</h2>
         </div>
 
@@ -509,7 +510,7 @@ export default function PhDPage() {
       {/* Fellowship & Financial Support Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-white">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">💰</span>
+          <IndianRupee className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Fellowship & Financial Support</h2>
         </div>
 
@@ -628,7 +629,10 @@ export default function PhDPage() {
         </div>
 
         <div className="bg-[#FFF8DC] rounded-xl p-8 mt-12 border-l-4 border-yellow-500">
-          <h4 className="text-xl font-bold text-gray-800 mb-4">⚠️ Important Fellowship Information</h4>
+          <h4 className="text-xl font-bold text-gray-800 mb-4 flex items-center gap-2">
+            <AlertTriangle className="w-6 h-6" />
+            Important Fellowship Information
+          </h4>
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
               <span className="mr-2">•</span>
@@ -657,7 +661,7 @@ export default function PhDPage() {
       {/* Ph.D Program Structure & Timeline Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">📖</span>
+          <BookOpen className="w-6 h-6" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Ph.D Program Structure & Timeline</h2>
         </div>
 
@@ -755,7 +759,7 @@ export default function PhDPage() {
       {/* Trending Research Areas Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">🔬</span>
+          <Microscope className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Trending Research Areas in Pharmacy Ph.D</h2>
         </div>
 
@@ -763,7 +767,7 @@ export default function PhDPage() {
           {/* Nanotechnology */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">💉</div>
+              <Syringe className="w-6 h-6" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Nanotechnology</h3>
               <p className="text-gray-700 text-sm">Nanoparticles, nanoemulsions, quantum dots for targeted drug delivery</p>
             </div>
@@ -772,7 +776,7 @@ export default function PhDPage() {
           {/* 3D Printing */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">🖨️</div>
+              <div className="text-5xl mb-4"><Printer className="w-6 h-6" /></div>
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">3D Printing</h3>
               <p className="text-gray-700 text-sm">Additive manufacturing of personalized medicines and implants</p>
             </div>
@@ -781,7 +785,7 @@ export default function PhDPage() {
           {/* Gene Therapy */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">🧬</div>
+              <Dna className="w-12 h-12" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Gene Therapy</h3>
               <p className="text-gray-700 text-sm">Nucleic acid delivery systems, viral vectors, CRISPR therapeutics</p>
             </div>
@@ -790,7 +794,7 @@ export default function PhDPage() {
           {/* AI in Drug Discovery */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">🤖</div>
+              <Bot className="w-6 h-6" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">AI in Drug Discovery</h3>
               <p className="text-gray-700 text-sm">Machine learning for drug design, predictive modeling, virtual screening</p>
             </div>
@@ -799,7 +803,7 @@ export default function PhDPage() {
           {/* Vaccine Development */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">💉</div>
+              <Syringe className="w-6 h-6" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Vaccine Development</h3>
               <p className="text-gray-700 text-sm">mRNA vaccines, nanoparticle adjuvants, mucosal immunization</p>
             </div>
@@ -808,7 +812,7 @@ export default function PhDPage() {
           {/* Phytomedicine */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">🌿</div>
+              <Leaf className="w-6 h-6" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Phytomedicine</h3>
               <p className="text-gray-700 text-sm">Herbal drug standardization, phytosomes, botanical drug development</p>
             </div>
@@ -817,7 +821,7 @@ export default function PhDPage() {
           {/* Biosimilars */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">💊</div>
+              <Pill className="w-12 h-12" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Biosimilars</h3>
               <p className="text-gray-700 text-sm">Biologic drug development, characterization, regulatory science</p>
             </div>
@@ -826,7 +830,7 @@ export default function PhDPage() {
           {/* Pharmacovigilance */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">📊</div>
+              <BarChart className="w-12 h-12" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Pharmacovigilance</h3>
               <p className="text-gray-700 text-sm">Drug safety monitoring, adverse event analysis, signal detection</p>
             </div>
@@ -835,7 +839,7 @@ export default function PhDPage() {
           {/* Biomarker Discovery */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">🔬</div>
+              <Microscope className="w-12 h-12" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Biomarker Discovery</h3>
               <p className="text-gray-700 text-sm">Diagnostic markers, companion diagnostics, precision medicine</p>
             </div>
@@ -853,7 +857,7 @@ export default function PhDPage() {
           {/* Digital Therapeutics */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">📱</div>
+              <Smartphone className="w-6 h-6" />
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Digital Therapeutics</h3>
               <p className="text-gray-700 text-sm">Digital health solutions, smart pills, medication adherence tech</p>
             </div>
@@ -862,7 +866,7 @@ export default function PhDPage() {
           {/* Green Chemistry */}
           <div className="text-center">
             <div className="bg-white rounded-xl p-6 shadow-lg mb-4">
-              <div className="text-5xl mb-4">♻️</div>
+              <div className="mb-4"><Recycle className="w-12 h-12 mx-auto" /></div>
               <h3 className="text-xl font-bold text-[#0B5D82] mb-3">Green Chemistry</h3>
               <p className="text-gray-700 text-sm">Sustainable synthesis, eco-friendly processes, green solvents</p>
             </div>
@@ -887,7 +891,7 @@ export default function PhDPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Regulatory Affairs Expert */}
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <div className="text-4xl mb-4">📋</div>
+            <ClipboardList className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Regulatory Affairs Expert</h3>
             <div className="mb-4">
               <span className="bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full">₹12-30 LPA</span>
@@ -915,7 +919,7 @@ export default function PhDPage() {
 
           {/* Postdoctoral Researcher */}
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <div className="text-4xl mb-4">🌐</div>
+            <Globe className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Postdoctoral Researcher</h3>
             <div className="mb-4">
               <span className="bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full">$50K-80K/Year (Abroad)</span>
@@ -943,7 +947,7 @@ export default function PhDPage() {
 
           {/* Entrepreneur / Consultant */}
           <div className="bg-white rounded-xl p-8 shadow-lg">
-            <div className="text-4xl mb-4">💡</div>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#0B5D82] mb-4">Entrepreneur / Consultant</h3>
             <div className="mb-4">
               <span className="bg-green-600 text-white text-sm font-semibold px-4 py-2 rounded-full">Variable (High Potential)</span>
@@ -986,7 +990,7 @@ export default function PhDPage() {
       {/* Top Institutions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">🏛️</span>
+          <span className="text-4xl"><Landmark className="w-6 h-6" /></span>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Top Institutions for Ph.D in Pharmacy in India</h2>
         </div>
 
@@ -1090,7 +1094,7 @@ export default function PhDPage() {
       {/* Ph.D Admission Process */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">📝</span>
+          <FileText className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Ph.D Admission Process</h2>
         </div>
 
@@ -1177,7 +1181,7 @@ export default function PhDPage() {
         {/* Important Admission Tips */}
         <div className="bg-[#FFF8DC] rounded-xl p-8 mt-12 border-l-4 border-yellow-500">
           <h4 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <span>⚠️</span>
+            <AlertTriangle className="w-10 h-10" />
             <span>Important Admission Tips</span>
           </h4>
           <ul className="space-y-3 text-gray-700">
@@ -1212,7 +1216,7 @@ export default function PhDPage() {
       {/* Ph.D vs M.Pharm Comparison */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">📊</span>
+          <BarChart className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Ph.D vs M.Pharm: Detailed Comparison</h2>
         </div>
 
@@ -1284,7 +1288,7 @@ export default function PhDPage() {
       {/* FAQs Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">❓</span>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Frequently Asked Questions (FAQs)</h2>
         </div>
 
@@ -1425,7 +1429,7 @@ export default function PhDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="bg-gradient-to-r from-[#0B5D82] to-[#1A9BB8] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 flex items-center justify-center gap-3">
-            <span className="text-4xl">🎓</span>
+            <GraduationCap className="w-10 h-10" />
             <span>Ready to Embark on Your Doctoral Journey?</span>
           </h2>
           <p className="text-xl mb-8">Join our Ph.D program and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, state-of-the-art facilities, and industry connections await you.</p>
@@ -1444,7 +1448,7 @@ export default function PhDPage() {
       {/* Accreditation & Quality Assurance */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
-          <span className="text-4xl">✅</span>
+          <CheckCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0B5D82]">Accreditation & Quality Assurance</h2>
         </div>
 
@@ -1515,40 +1519,40 @@ export default function PhDPage() {
         {/* Verification Checklist */}
         <div className="bg-[#FFE4E8] rounded-xl p-8 border-l-4 border-red-400">
           <h4 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <span>⚠️</span>
+            <AlertTriangle className="w-10 h-10" />
             <span>Verification Checklist Before Ph.D Admission</span>
           </h4>
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Verify university recognition from UGC website (ugc.ac.in)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Check Ph.D program approval and research guide recognition</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Visit research laboratories and check functional equipment</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Review guide's publications (Google Scholar, SCOPUS) and h-index</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Verify fellowship disbursement track record with current scholars</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Check previous scholars' thesis topics and publication records</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Confirm availability of research consumables and contingency funds</span>
             </li>
             <li className="flex items-start">
-              <span className="text-green-600 mr-2">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <span>Inquire about scholar-to-guide ratio (ideal: 6-8 scholars per guide)</span>
             </li>
           </ul>

@@ -1,6 +1,6 @@
 'use client'
 
-import { GraduationCap, Scale, BookOpen, Briefcase, TrendingUp, ClipboardCheck, Calendar, IndianRupee, Building2, Globe } from 'lucide-react'
+import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, ClipboardCheck, Globe, GraduationCap, IndianRupee, Scale, Search, TrendingUp } from 'lucide-react'
 import Header from '@/components/Header'
 
 export default function PharmDPage() {
@@ -11,7 +11,7 @@ export default function PharmDPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#14B8A6] to-[#0D9488] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">💊</div>
+          <Pill className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Pharm.D - Doctor of Pharmacy</h1>
           <p className="text-lg sm:text-xl">Clinical Pharmacy Excellence • Patient Care Focus • Hospital Practice</p>
         </div>
@@ -202,7 +202,7 @@ export default function PharmDPage() {
         {/* Key Similarities */}
         <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#FCD34D]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">💡</span>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Key Similarities Between Pharm.D and Pharm.D (PB):</h3>
           </div>
 
@@ -703,7 +703,7 @@ export default function PharmDPage() {
         {/* Clinical Clerkship Experience */}
         <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#0D9488]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">📋</span>
+            <ClipboardList className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Clinical Clerkship Experience - What Students Actually Do:</h3>
           </div>
 
@@ -1178,7 +1178,7 @@ export default function PharmDPage() {
         {/* Factors Affecting Pharm.D Salary in India */}
         <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#14B8A6]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">💰</span>
+            <IndianRupee className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Factors Affecting Pharm.D Salary in India:</h3>
           </div>
 
@@ -1232,14 +1232,14 @@ export default function PharmDPage() {
       {/* Pharm.D Scope in India - Honest Assessment */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <span className="text-4xl">🔍</span>
+          <Search className="w-6 h-6" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#0D9488]">Pharm.D Scope in India - Honest Assessment</h2>
         </div>
 
         {/* Growing Opportunities & Positive Trends */}
         <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#0D9488] mb-8">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-2xl">✅</span>
+            <CheckCircle className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Growing Opportunities & Positive Trends:</h3>
           </div>
 
@@ -1355,7 +1355,7 @@ export default function PharmDPage() {
         {/* Challenges & Limitations - Reality Check */}
         <div className="bg-gradient-to-br from-[#FECACA] to-[#FCA5A5] rounded-xl p-8 border-l-4 border-[#EF4444]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-2xl">⚠️</span>
+            <AlertTriangle className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Challenges & Limitations - Reality Check:</h3>
           </div>
 
@@ -1467,7 +1467,7 @@ export default function PharmDPage() {
         {/* Strategic Career Planning for Pharm.D Success */}
         <div className="mt-8 bg-gradient-to-br from-[#DBEAFE] to-[#BFDBFE] rounded-xl p-8 border-l-4 border-[#3B82F6]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">💡</span>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Strategic Career Planning for Pharm.D Success:</h3>
           </div>
 
@@ -1645,7 +1645,7 @@ export default function PharmDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#FEF3C7] to-[#FDE68A] rounded-xl p-8 border-l-4 border-[#F59E0B]">
           <div className="flex items-center gap-3 mb-6">
-            <span className="text-3xl">🎯</span>
+            <Target className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Decision Framework - Which Program to Choose:</h3>
           </div>
 
@@ -2758,7 +2758,7 @@ export default function PharmDPage() {
 
         <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border-l-4 border-green-600 mt-8">
           <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
-            <span className="mr-2">💡</span>
+            <Lightbulb className="w-10 h-10" />
             Realistic International Career Strategy for Indian Pharm.D Graduates:
           </h3>
 
@@ -2871,9 +2871,7 @@ export default function PharmDPage() {
       {/* Final Guidance for Prospective Pharm.D Students */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center text-white text-xl">
-            🎯
-          </div>
+          <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center text-white text-xl"> <Target className="w-10 h-10" /> </div>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#14B8A6]">Final Guidance for Prospective Pharm.D Students</h2>
         </div>
 
@@ -2900,7 +2898,7 @@ export default function PharmDPage() {
         {/* Reconsider Pharm.D If */}
         <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-8 border-l-4 border-red-500 mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <span className="mr-3 text-orange-500">⚠</span>
+            <span className="mr-3 text-orange-500"><AlertTriangle className="w-6 h-6" /></span>
             Reconsider Pharm.D If:
           </h3>
 
@@ -2920,7 +2918,7 @@ export default function PharmDPage() {
         {/* Maximizing Success in Pharm.D Career */}
         <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl p-8 border-l-4 border-cyan-500">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <span className="mr-3">💡</span>
+            <Lightbulb className="w-10 h-10" />
             Maximizing Success in Pharm.D Career:
           </h3>
 

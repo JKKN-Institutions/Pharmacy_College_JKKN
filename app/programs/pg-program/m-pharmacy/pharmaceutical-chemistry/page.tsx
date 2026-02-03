@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Laptop, Lightbulb, Microscope, Pill, Scale, School, ScrollText, Sparkles, Star, Target, TestTube, User } from 'lucide-react'
 
 export default function PharmaceuticalChemistryPage() {
   return (
@@ -10,7 +11,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#E94B8D] via-[#EC5BA5] to-[#D958A8] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">🎓</div>
+          <GraduationCap className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmaceutical Chemistry 2026</h1>
           <p className="text-lg sm:text-xl">Master Drug Design, Medicinal Chemistry & Organic Synthesis</p>
         </div>
@@ -52,7 +53,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Core Research Areas & Chemical Competencies */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎯</div>
+          <Target className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Core Research Areas & Chemical Competencies</h2>
         </div>
 
@@ -224,7 +225,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Eligibility Criteria & Prerequisites */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📋</div>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Eligibility Criteria & Prerequisites</h2>
         </div>
 
@@ -262,7 +263,7 @@ export default function PharmaceuticalChemistryPage() {
         {/* Critical Prerequisite */}
         <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#E94B8D]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">⚠️</div>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Prerequisite for Pharmaceutical Chemistry:</h3>
           </div>
 
@@ -375,7 +376,7 @@ export default function PharmaceuticalChemistryPage() {
         {/* GPAT Advantage Box */}
         <div className="bg-gradient-to-br from-[#FFF9E5] to-[#FFF4D4] rounded-xl p-8 mt-8 border-l-4 border-[#FFC107]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💡</div>
+            <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Advantage for Pharmaceutical Chemistry Students:</h3>
           </div>
 
@@ -411,7 +412,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Course Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📚</div>
+          <BookOpen className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">M.Pharm Pharmaceutical Chemistry - Detailed Course Structure</h2>
         </div>
 
@@ -585,7 +586,7 @@ export default function PharmaceuticalChemistryPage() {
         {/* Typical Research Project Topics */}
         <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#E94B8D]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">🎓</div>
+            <GraduationCap className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmaceutical Chemistry:</h3>
           </div>
 
@@ -637,7 +638,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Career Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💼</div>
+          <Briefcase className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Career Opportunities After M.Pharm Pharmaceutical Chemistry</h2>
         </div>
 
@@ -888,7 +889,7 @@ export default function PharmaceuticalChemistryPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-8 border-l-4 border-[#2ECC71]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💰</div>
+            <IndianRupee className="w-8 h-8" />
             <h2 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmaceutical Chemistry Specialists</h2>
           </div>
 
@@ -924,7 +925,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Top Recruiters */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mb-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🏢</div>
+          <Building2 className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Top Recruiters for M.Pharm Pharmaceutical Chemistry Graduates</h2>
         </div>
 
@@ -1029,7 +1030,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* M.Pharm Pharmaceutical Chemistry vs Other Specializations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⚖️</div>
+          <Scale className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">M.Pharm Pharmaceutical Chemistry vs Other Specializations</h2>
         </div>
 
@@ -1146,7 +1147,7 @@ export default function PharmaceuticalChemistryPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#D4F1F4] to-[#C8E8ED] rounded-xl p-8 border-l-4 border-[#2EBFCC]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💡</div>
+            <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
           </div>
 
@@ -1206,7 +1207,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Higher Education & Research Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎓</div>
+          <GraduationCap className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Higher Education & Research Opportunities</h2>
         </div>
 
@@ -1349,7 +1350,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Admission Process & Timeline */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📝</div>
+          <FileText className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Admission Process & Timeline</h2>
         </div>
 
@@ -1449,7 +1450,7 @@ export default function PharmaceuticalChemistryPage() {
         {/* Critical Infrastructure Verification */}
         <div className="mt-12 bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#E94B8D]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">⚠️</div>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Infrastructure Verification for Pharmaceutical Chemistry:</h3>
           </div>
 
@@ -1458,32 +1459,32 @@ export default function PharmaceuticalChemistryPage() {
           <div className="space-y-6">
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="text-2xl">🧪</div>
+                <TestTube className="w-6 h-6" />
                 <h4 className="text-lg font-bold text-gray-800">Synthesis Laboratory Facilities:</h4>
               </div>
               <ul className="space-y-2 text-gray-700 ml-8">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Well-equipped organic synthesis laboratory with fume hoods, rotary evaporators, magnetic stirrers</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Chemical storage facility with proper categorization and safety measures</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Availability of common organic reagents and solvents</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Glassware inventory (round bottom flasks, condensers, separating funnels, etc.)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Column chromatography and TLC facilities for purification</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Melting point apparatus, refractometers for characterization</span>
                 </li>
               </ul>
@@ -1491,20 +1492,20 @@ export default function PharmaceuticalChemistryPage() {
 
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="text-2xl">📊</div>
+                <BarChart className="w-6 h-6" />
                 <h4 className="text-lg font-bold text-gray-800">Spectroscopy & Analytical Equipment:</h4>
               </div>
               <ul className="space-y-2 text-gray-700 ml-8">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span><span className="text-[#E94B8D] font-bold">FTIR Spectrometer:</span> Functional group identification. Should be accessible to students.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span><span className="text-[#E94B8D] font-bold">UV-Visible Spectrophotometer:</span> Basic characterization tool.</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span><span className="text-[#E94B8D] font-bold">HPLC:</span> For purity analysis and compound characterization.</span>
                 </li>
               </ul>
@@ -1512,20 +1513,20 @@ export default function PharmaceuticalChemistryPage() {
 
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="text-2xl">💻</div>
+                <Laptop className="w-6 h-6" />
                 <h4 className="text-lg font-bold text-gray-800">Computational Chemistry Facilities:</h4>
               </div>
               <ul className="space-y-2 text-gray-700 ml-8">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Computer lab with molecular modeling software (ChemDraw, PyMOL, AutoDock, etc.)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>CADD software or open-source alternatives</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Training provided in computational methods</span>
                 </li>
               </ul>
@@ -1533,24 +1534,24 @@ export default function PharmaceuticalChemistryPage() {
 
             <div>
               <div className="flex items-center gap-2 mb-3">
-                <div className="text-2xl">👨‍🏫</div>
+                <User className="w-6 h-6" />
                 <h4 className="text-lg font-bold text-gray-800">Faculty Expertise:</h4>
               </div>
               <ul className="space-y-2 text-gray-700 ml-8">
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Faculty with Ph.D in Pharmaceutical/Medicinal/Organic Chemistry (not just M.Pharm)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Recent publications in chemistry journals (not just predatory journals)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Active synthetic research projects (check previous M.Pharm theses)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-green-500 mr-2">✅</span>
+                  <CheckCircle className="w-10 h-10" />
                   <span>Faculty who actually conduct synthesis research, not just teach theory</span>
                 </li>
               </ul>
@@ -1562,7 +1563,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* M.Pharm Pharmaceutical Chemistry - Fee Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💰</div>
+          <IndianRupee className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">M.Pharm Pharmaceutical Chemistry - Fee Structure</h2>
         </div>
 
@@ -1690,7 +1691,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">❓</div>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Frequently Asked Questions</h2>
         </div>
 
@@ -1780,7 +1781,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Why Choose M.Pharm in Pharmaceutical Chemistry */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⭐</div>
+          <Star className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Why Choose M.Pharm in Pharmaceutical Chemistry?</h2>
         </div>
 
@@ -1862,7 +1863,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Accreditation & Critical Facilities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mb-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">✅</div>
+          <CheckCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#E94B8D]">Accreditation & Critical Facilities</h2>
         </div>
 
@@ -1888,7 +1889,7 @@ export default function PharmaceuticalChemistryPage() {
         {/* Non-Negotiable Pre-Admission Verification */}
         <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#E94B8D]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">⚠️</div>
+            <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Non-Negotiable Pre-Admission Verification:</h3>
           </div>
 
@@ -1897,32 +1898,32 @@ export default function PharmaceuticalChemistryPage() {
           {/* Must-Have Laboratory Facilities */}
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-4">
-              <div className="text-2xl">🧪</div>
+              <TestTube className="w-6 h-6" />
               <h4 className="text-xl font-bold text-gray-800">Must-Have Laboratory Facilities:</h4>
             </div>
             <ul className="space-y-3 text-gray-700 ml-8">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Organic Synthesis Laboratory:</span> With fume hoods, rotary evaporators, heating mantles, magnetic stirrers, oil baths</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Chemical Storage:</span> Organized storage with proper labeling, MSDS availability, segregation of incompatible chemicals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Safety Equipment:</span> Eye wash stations, safety showers, fire extinguishers, fume hood certification</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Reagent Availability:</span> Common organic reagents, solvents, and chemicals actually available (not just "we'll procure")</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Purification Facilities:</span> Column chromatography setup, TLC chamber, distillation apparatus</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">Basic Characterization:</span> Melting point apparatus, refractive index measurement, pH meters</span>
               </li>
             </ul>
@@ -1931,20 +1932,20 @@ export default function PharmaceuticalChemistryPage() {
           {/* Must-Have Spectroscopy Access */}
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-4">
-              <div className="text-2xl">📊</div>
+              <BarChart className="w-6 h-6" />
               <h4 className="text-xl font-bold text-gray-800">Must-Have Spectroscopy Access:</h4>
             </div>
             <ul className="space-y-3 text-gray-700 ml-8">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">FTIR Spectrometer:</span> Must be in-house and accessible. Should be functional, not just displayed.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span><span className="text-[#E94B8D] font-bold">UV-Visible Spectrophotometer:</span> Working condition, available for student use.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Ask to see characterization data from previous M.Pharm chemistry projects.</span>
               </li>
             </ul>
@@ -1953,20 +1954,20 @@ export default function PharmaceuticalChemistryPage() {
           {/* Computational Facilities */}
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-4">
-              <div className="text-2xl">💻</div>
+              <Laptop className="w-6 h-6" />
               <h4 className="text-xl font-bold text-gray-800">Computational Facilities:</h4>
             </div>
             <ul className="space-y-3 text-gray-700 ml-8">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Computer lab with molecular modeling software (ChemDraw, ChemSketch, PyMOL, etc.)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>CADD software (open-source) - AutoDock, or similar</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Internet access for literature search (SciFinder, PubMed, Google Scholar)</span>
               </li>
             </ul>
@@ -1975,28 +1976,28 @@ export default function PharmaceuticalChemistryPage() {
           {/* Faculty Verification */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="text-2xl">👨‍🏫</div>
+              <User className="w-6 h-6" />
               <h4 className="text-xl font-bold text-gray-800">Faculty Verification:</h4>
             </div>
             <ul className="space-y-3 text-gray-700 ml-8">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Faculty have M.Pharm/ Ph.D in Chemistry/Pharmaceutical Chemistry (verify on Vidwan or Google Scholar)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Check recent publications (last 3 years) in chemistry journals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Ask about ongoing research projects - faculty should describe their current work</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Talk to current M.Pharm students - do they actually synthesize compounds or just literature review?</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <span>Check previous batch thesis topics - are they genuine synthesis projects with NMR/Mass data?</span>
               </li>
             </ul>

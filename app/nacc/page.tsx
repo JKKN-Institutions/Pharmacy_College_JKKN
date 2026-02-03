@@ -24,15 +24,15 @@ export default function NACCPage() {
       <Header />
 
       {/* Main Container */}
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-6 sm:py-8">
         {/* Page Title */}
-        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-10">NACC</h1>
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 lg:mb-10">NACC</h1>
 
         {/* Content Area with Sidebar */}
-        <div className="flex flex-col lg:flex-row gap-8">
+        <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
           {/* Sidebar Navigation */}
           <aside className="lg:w-72 flex-shrink-0">
-            <div className="bg-white rounded-lg shadow-sm overflow-hidden sticky top-4">
+            <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
               {/* Section Header */}
               <div className="bg-[#0F6B3E] text-white px-6 py-4">
                 <h2 className="text-lg font-bold">OVER VIEW</h2>
@@ -47,7 +47,7 @@ export default function NACCPage() {
                     className={`block w-full text-left px-6 py-4 text-sm font-semibold transition-all border-l-4 ${
                       activeTab === section.id
                         ? 'bg-[#D4F1E8] text-[#0F6B3E] border-[#0F6B3E]'
-                        : 'bg-white text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
+                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
                     }`}
                   >
                     {section.label}
@@ -59,7 +59,7 @@ export default function NACCPage() {
 
           {/* Main Content Area */}
           <main className="flex-1 min-w-0">
-            <div className="bg-white rounded-lg shadow-sm">
+            <div className="bg-[#FBFBEE] rounded-lg shadow-sm">
               <div className="p-8 lg:p-10">
                 {/* Overview Tab Content */}
                 {activeTab === 'overview' && (

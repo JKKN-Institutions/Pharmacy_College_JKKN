@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Store, Target, TestTube, TrendingUp } from 'lucide-react'
 
 export default function BPharmLateralEntryPage() {
   return (
@@ -12,7 +13,7 @@ export default function BPharmLateralEntryPage() {
         <div className="max-w-7xl mx-auto">
           {/* Graduation Cap Icon and Title */}
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-5xl">🎓</div>
+            <GraduationCap className="w-12 h-12" />
             <h1 className="text-4xl lg:text-5xl font-bold">
               B.Pharm - Bachelor of Pharmacy
             </h1>
@@ -43,7 +44,7 @@ export default function BPharmLateralEntryPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* B.PHARM DURATION */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center border border-white/20">
-              <div className="text-4xl mb-3">📚</div>
+              <BookOpen className="w-10 h-10" />
               <h3 className="text-sm uppercase tracking-wider mb-3 font-semibold">
                 B.PHARM DURATION
               </h3>
@@ -61,7 +62,7 @@ export default function BPharmLateralEntryPage() {
 
             {/* ENTRY SALARY */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center border border-white/20">
-              <div className="text-4xl mb-3">💰</div>
+              <IndianRupee className="w-10 h-10" />
               <h3 className="text-sm uppercase tracking-wider mb-3 font-semibold">
                 ENTRY SALARY
               </h3>
@@ -70,7 +71,7 @@ export default function BPharmLateralEntryPage() {
 
             {/* SENIOR SALARY */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 text-center border border-white/20">
-              <div className="text-4xl mb-3">📊</div>
+              <BarChart className="w-10 h-10" />
               <h3 className="text-sm uppercase tracking-wider mb-3 font-semibold">
                 SENIOR SALARY
               </h3>
@@ -100,7 +101,7 @@ export default function BPharmLateralEntryPage() {
         {/* What is B.Pharm Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">📖</div>
+            <BookOpen className="w-6 h-6" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               What is B.Pharm (Bachelor of Pharmacy)?
             </h2>
@@ -118,7 +119,7 @@ export default function BPharmLateralEntryPage() {
           {/* Why Choose B.Pharm Box */}
           <div className="bg-[#FEF3C7] border-l-4 border-[#F59E0B] p-6 rounded-r-lg">
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h3 className="text-xl font-bold text-gray-900">Why Choose B.Pharm?</h3>
             </div>
 
@@ -187,7 +188,7 @@ export default function BPharmLateralEntryPage() {
         {/* B.Pharm vs B.Pharm Lateral Entry Comparison */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">🎯</div>
+            <Target className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               B.Pharm vs B.Pharm Lateral Entry - Complete Comparison
             </h2>
@@ -356,7 +357,7 @@ export default function BPharmLateralEntryPage() {
         {/* Key Points About B.Pharm Lateral Entry */}
         <div className="bg-[#DBEAFE] border-l-4 border-[#0BA5C9] p-8 rounded-r-lg mb-16">
           <div className="flex items-center gap-2 mb-6">
-            <span className="text-2xl">💡</span>
+            <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-900">Key Points About B.Pharm Lateral Entry:</h3>
           </div>
 
@@ -401,7 +402,7 @@ export default function BPharmLateralEntryPage() {
         {/* Parameter Comparison Table */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">📊</div>
+            <BarChart className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               B.Pharm vs B.Pharm Lateral Entry - Parameter Comparison
             </h2>
@@ -488,7 +489,7 @@ export default function BPharmLateralEntryPage() {
         {/* Eligibility Criteria Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">✅</div>
+            <CheckCircle className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Eligibility Criteria - B.Pharm Admission 2026
             </h2>
@@ -578,7 +579,7 @@ export default function BPharmLateralEntryPage() {
           {/* Documents Required */}
           <div className="bg-[#D1FAE5] border-l-4 border-[#10B981] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">📄</span>
+              <FileText className="w-6 h-6" />
               <h3 className="text-2xl font-bold text-gray-900">Documents Required for Admission:</h3>
             </div>
 
@@ -630,7 +631,7 @@ export default function BPharmLateralEntryPage() {
         {/* B.Pharm Curriculum Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">📚</div>
+            <BookOpen className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               B.Pharm Curriculum - Year-wise Subjects
             </h2>
@@ -795,7 +796,7 @@ export default function BPharmLateralEntryPage() {
           {/* Practical Training Components */}
           <div className="bg-[#E0F2FE] border-l-4 border-[#0BA5C9] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">🔬</span>
+              <Microscope className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">Practical Training Components:</h3>
             </div>
 
@@ -837,7 +838,7 @@ export default function BPharmLateralEntryPage() {
         {/* Career Opportunities Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">💼</div>
+            <Briefcase className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Career Opportunities After B.Pharm
             </h2>
@@ -853,7 +854,7 @@ export default function BPharmLateralEntryPage() {
             {/* Pharmaceutical Production */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🏭</span>
+                <Factory className="w-6 h-6" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Pharmaceutical Production</h3>
               </div>
               <div className="mb-4">
@@ -895,7 +896,7 @@ export default function BPharmLateralEntryPage() {
             {/* Quality Control (QC) */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🔬</span>
+                <Microscope className="w-10 h-10" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Quality Control (QC)</h3>
               </div>
               <div className="mb-4">
@@ -937,7 +938,7 @@ export default function BPharmLateralEntryPage() {
             {/* Quality Assurance (QA) */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">✅</span>
+                <CheckCircle className="w-10 h-10" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Quality Assurance (QA)</h3>
               </div>
               <div className="mb-4">
@@ -979,7 +980,7 @@ export default function BPharmLateralEntryPage() {
             {/* Research & Development */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🧪</span>
+                <TestTube className="w-10 h-10" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Research & Development</h3>
               </div>
               <div className="mb-4">
@@ -1021,7 +1022,7 @@ export default function BPharmLateralEntryPage() {
             {/* Medical Representative */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">💊</span>
+                <Pill className="w-12 h-12" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Medical Representative</h3>
               </div>
               <div className="mb-4">
@@ -1063,7 +1064,7 @@ export default function BPharmLateralEntryPage() {
             {/* Hospital Pharmacy */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🏥</span>
+                <Hospital className="w-10 h-10" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Hospital Pharmacy</h3>
               </div>
               <div className="mb-4">
@@ -1105,7 +1106,7 @@ export default function BPharmLateralEntryPage() {
             {/* Community Pharmacy */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🏪</span>
+                <Store className="w-6 h-6" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Community Pharmacy</h3>
               </div>
               <div className="mb-4">
@@ -1147,7 +1148,7 @@ export default function BPharmLateralEntryPage() {
             {/* Regulatory Affairs */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">📋</span>
+                <ClipboardList className="w-10 h-10" />
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Regulatory Affairs</h3>
               </div>
               <div className="mb-4">
@@ -1189,7 +1190,7 @@ export default function BPharmLateralEntryPage() {
             {/* Government Jobs */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🏛️</span>
+                <span className="text-3xl"><Landmark className="w-6 h-6" /></span>
                 <h3 className="text-xl font-bold text-[#0B4C6C]">Government Jobs</h3>
               </div>
               <div className="mb-4">
@@ -1233,7 +1234,7 @@ export default function BPharmLateralEntryPage() {
         {/* B.Pharm Salary - Detailed Breakdown */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">💰</div>
+            <IndianRupee className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               B.Pharm Salary - Detailed Breakdown
             </h2>
@@ -1312,7 +1313,7 @@ export default function BPharmLateralEntryPage() {
           {/* Salary Enhancement Tips */}
           <div className="bg-[#FEF3C7] border-l-4 border-[#F59E0B] p-8 rounded-r-lg mt-8">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">Salary Enhancement Tips:</h3>
             </div>
 
@@ -1354,7 +1355,7 @@ export default function BPharmLateralEntryPage() {
         {/* Top Recruiters Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">🏢</div>
+            <Building2 className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Top Recruiters for B.Pharm Graduates
             </h2>
@@ -1457,7 +1458,7 @@ export default function BPharmLateralEntryPage() {
         {/* Higher Studies After B.Pharm */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">📈</div>
+            <TrendingUp className="w-6 h-6" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Higher Studies After B.Pharm
             </h2>
@@ -1468,7 +1469,7 @@ export default function BPharmLateralEntryPage() {
             {/* M.Pharm */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">🎓</span>
+                <GraduationCap className="w-10 h-10" />
                 <h3 className="text-2xl font-bold text-[#0B4C6C]">M.Pharm</h3>
               </div>
               <div className="mb-6">
@@ -1499,7 +1500,7 @@ export default function BPharmLateralEntryPage() {
             {/* MBA (Pharma) */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">💼</span>
+                <Briefcase className="w-10 h-10" />
                 <h3 className="text-2xl font-bold text-[#0B4C6C]">MBA (Pharma)</h3>
               </div>
               <div className="mb-6">
@@ -1530,7 +1531,7 @@ export default function BPharmLateralEntryPage() {
             {/* Pharm.D (PB) */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
-                <span className="text-3xl">💊</span>
+                <Pill className="w-12 h-12" />
                 <h3 className="text-2xl font-bold text-[#0B4C6C]">Pharm.D (PB)</h3>
               </div>
               <div className="mb-6">
@@ -1563,7 +1564,7 @@ export default function BPharmLateralEntryPage() {
         {/* Admission Process Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">📝</div>
+            <FileText className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Admission Process - B.Pharm 2026
             </h2>
@@ -1744,7 +1745,7 @@ export default function BPharmLateralEntryPage() {
           {/* Important Admission Tips */}
           <div className="bg-[#FEE2E2] border-l-4 border-[#EF4444] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">⚠️</span>
+              <AlertTriangle className="w-6 h-6" />
               <h3 className="text-2xl font-bold text-gray-900">Important Admission Tips:</h3>
             </div>
 
@@ -1780,7 +1781,7 @@ export default function BPharmLateralEntryPage() {
         {/* B.Pharm vs D.Pharm Comparison */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">⚖️</div>
+            <Scale className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               B.Pharm vs D.Pharm - Which to Choose?
             </h2>
@@ -1844,7 +1845,7 @@ export default function BPharmLateralEntryPage() {
           {/* Choose B.Pharm If */}
           <div className="bg-[#D1FAE5] border-l-4 border-[#10B981] p-8 rounded-r-lg mb-6">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">Choose B.Pharm If:</h3>
             </div>
 
@@ -1875,7 +1876,7 @@ export default function BPharmLateralEntryPage() {
           {/* Choose D.Pharm If */}
           <div className="bg-[#DBEAFE] border-l-4 border-[#0BA5C9] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">Choose D.Pharm If:</h3>
             </div>
 
@@ -1903,7 +1904,7 @@ export default function BPharmLateralEntryPage() {
         {/* FAQ Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">❓</div>
+            <HelpCircle className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Frequently Asked Questions - B.Pharm
             </h2>
@@ -2065,7 +2066,7 @@ export default function BPharmLateralEntryPage() {
 
         {/* CTA Banner */}
         <div className="bg-gradient-to-r from-[#0B6E89] to-[#0BA5C9] text-white py-16 px-8 rounded-lg mb-16 text-center">
-          <div className="text-5xl mb-6">🎓</div>
+          <GraduationCap className="w-12 h-12" />
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">
             Ready to Start Your Pharmacy Career?
           </h2>
@@ -2088,7 +2089,7 @@ export default function BPharmLateralEntryPage() {
         {/* Final Guidance Section */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-4xl">🎯</div>
+            <Target className="w-10 h-10" />
             <h2 className="text-3xl lg:text-4xl font-bold text-[#0B4C6C]">
               Final Guidance for Aspiring B.Pharm Learners
             </h2>
@@ -2098,7 +2099,7 @@ export default function BPharmLateralEntryPage() {
           {/* B.Pharm is Right Choice If */}
           <div className="bg-[#D1FAE5] border-l-4 border-[#10B981] p-8 rounded-r-lg mb-6">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">✅</span>
+              <CheckCircle className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">B.Pharm is Right Choice If:</h3>
             </div>
 
@@ -2133,7 +2134,7 @@ export default function BPharmLateralEntryPage() {
           {/* Consider Alternatives If */}
           <div className="bg-[#FEE2E2] border-l-4 border-[#EF4444] p-8 rounded-r-lg mb-6">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">⚠️</span>
+              <AlertTriangle className="w-6 h-6" />
               <h3 className="text-2xl font-bold text-gray-900">Consider Alternatives If:</h3>
             </div>
 
@@ -2160,7 +2161,7 @@ export default function BPharmLateralEntryPage() {
           {/* Maximizing Success */}
           <div className="bg-[#E0F2FE] border-l-4 border-[#0BA5C9] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
-              <span className="text-2xl">💡</span>
+              <Lightbulb className="w-10 h-10" />
               <h3 className="text-2xl font-bold text-gray-900">Maximizing Success in B.Pharm Career:</h3>
             </div>
 

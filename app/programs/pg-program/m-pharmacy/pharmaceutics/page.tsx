@@ -1,6 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
+import { BookOpen, Briefcase, CreditCard, GraduationCap, HelpCircle, Lightbulb, Microscope, Pill, Star, Target } from 'lucide-react'
 
 export default function PharmaceuticsPage() {
   return (
@@ -10,7 +11,7 @@ export default function PharmaceuticsPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#FF69B4] to-[#FF1493] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="text-5xl mb-4">💊</div>
+          <Pill className="w-12 h-12 mx-auto mb-4" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmaceutics 2026</h1>
           <p className="text-lg sm:text-xl">Master Drug Formulation, NDDS & Pharmaceutical Product Development</p>
         </div>
@@ -52,7 +53,7 @@ export default function PharmaceuticsPage() {
       {/* Core Competencies & Technologies Mastered */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎯</div>
+          <Target className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Core Competencies & Technologies Mastered</h2>
         </div>
 
@@ -224,7 +225,7 @@ export default function PharmaceuticsPage() {
       {/* Eligibility Criteria & Admission Requirements */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📋</div>
+          <ClipboardList className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
@@ -305,7 +306,7 @@ export default function PharmaceuticsPage() {
         {/* GPAT Score Benefits */}
         <div className="bg-gradient-to-br from-[#FFF9E6] to-[#FFEDD5] rounded-xl p-8 border-l-4 border-[#FFA500]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💡</div>
+            <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Score Benefits for Pharmaceutics Aspirants:</h3>
           </div>
           <ul className="space-y-3 text-gray-700">
@@ -340,7 +341,7 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics - Detailed Course Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📚</div>
+          <BookOpen className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">M.Pharm Pharmaceutics - Detailed Course Structure</h2>
         </div>
 
@@ -509,7 +510,7 @@ export default function PharmaceuticsPage() {
         {/* Typical Research Project Topics */}
         <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#FF1493]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">🔬</div>
+            <Microscope className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmaceutics:</h3>
           </div>
           <ul className="space-y-3 text-gray-700">
@@ -552,7 +553,7 @@ export default function PharmaceuticsPage() {
       {/* Career Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💼</div>
+          <Briefcase className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Career Opportunities After M.Pharm Pharmaceutics</h2>
         </div>
 
@@ -801,7 +802,7 @@ export default function PharmaceuticsPage() {
         {/* Salary Progression */}
         <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💰</div>
+            <IndianRupee className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmaceutics Specialists</h3>
           </div>
           <ul className="space-y-3 text-gray-700">
@@ -832,7 +833,7 @@ export default function PharmaceuticsPage() {
       {/* Top Recruiters for M.Pharm Pharmaceutics Graduates */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🏢</div>
+          <Building2 className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Top Recruiters for M.Pharm Pharmaceutics Graduates</h2>
         </div>
 
@@ -890,7 +891,7 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics vs Other Specializations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⚖️</div>
+          <Scale className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">M.Pharm Pharmaceutics vs Other Specializations</h2>
         </div>
 
@@ -999,7 +1000,7 @@ export default function PharmaceuticsPage() {
         {/* Choosing Between Box */}
         <div className="bg-gradient-to-br from-[#D4F1F4] to-[#B8E6F0] rounded-xl p-8 border-l-4 border-[#4E9FFF]">
           <div className="flex items-center gap-3 mb-4">
-            <div className="text-3xl">💡</div>
+            <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Choosing Between Pharmaceutics and Pharmaceutical Analysis:</h3>
           </div>
           <div className="space-y-3 text-gray-700">
@@ -1019,7 +1020,7 @@ export default function PharmaceuticsPage() {
       {/* Higher Education & Research Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🎓</div>
+          <GraduationCap className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Higher Education & Research Opportunities</h2>
         </div>
 
@@ -1163,7 +1164,7 @@ export default function PharmaceuticsPage() {
       {/* Admission Process & Timeline */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">📝</div>
+          <FileText className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Admission Process & Timeline</h2>
         </div>
 
@@ -1249,7 +1250,7 @@ export default function PharmaceuticsPage() {
         {/* Important Dates Box */}
         <div className="bg-gradient-to-br from-[#FFF9E6] to-[#FFEDD5] rounded-xl p-8 border-l-4 border-[#FFA500] mt-8">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">🎯</div>
+            <Target className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Important Dates for M.Pharm Pharmaceutics Admission 2026:</h3>
           </div>
           <ul className="space-y-3 text-gray-700">
@@ -1284,7 +1285,7 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics - Fee Structure & Financial Aid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">💰</div>
+          <IndianRupee className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">M.Pharm Pharmaceutics - Fee Structure & Financial Aid</h2>
         </div>
 
@@ -1367,7 +1368,7 @@ export default function PharmaceuticsPage() {
         <h3 className="text-2xl font-bold text-[#C471ED] mb-6">Scholarships & Financial Support</h3>
         <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
           <div className="flex items-center gap-3 mb-6">
-            <div className="text-3xl">💳</div>
+            <CreditCard className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Available Financial Aid Options:</h3>
           </div>
           <ul className="space-y-3 text-gray-700">
@@ -1406,7 +1407,7 @@ export default function PharmaceuticsPage() {
       {/* Essential Laboratory Infrastructure for Pharmaceutics */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">🔬</div>
+          <Microscope className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Essential Laboratory Infrastructure for Pharmaceutics</h2>
         </div>
 
@@ -1533,7 +1534,7 @@ export default function PharmaceuticsPage() {
         {/* Infrastructure Verification Before Admission */}
         <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#FF1493]">
           <div className="flex items-start gap-3 mb-4">
-            <div className="text-2xl">⚠️</div>
+            <AlertTriangle className="w-6 h-6" />
             <h3 className="text-xl font-bold text-gray-800">Infrastructure Verification Before Admission:</h3>
           </div>
           <p className="text-gray-700 mb-4">
@@ -1574,7 +1575,7 @@ export default function PharmaceuticsPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">❓</div>
+          <HelpCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Frequently Asked Questions</h2>
         </div>
 
@@ -1664,7 +1665,7 @@ export default function PharmaceuticsPage() {
       {/* Why Choose M.Pharm in Pharmaceutics? */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">⭐</div>
+          <Star className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Why Choose M.Pharm in Pharmaceutics?</h2>
         </div>
 
@@ -1742,7 +1743,7 @@ export default function PharmaceuticsPage() {
       {/* Accreditation & Quality Standards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <div className="text-4xl">✅</div>
+          <CheckCircle className="w-10 h-10" />
           <h2 className="text-3xl sm:text-4xl font-bold text-[#FF1493]">Accreditation & Quality Standards</h2>
         </div>
 
@@ -1772,7 +1773,7 @@ export default function PharmaceuticsPage() {
         {/* Critical Verification Checklist */}
         <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#FF1493]">
           <div className="flex items-start gap-3 mb-4">
-            <div className="text-2xl">⚠️</div>
+            <AlertTriangle className="w-6 h-6" />
             <h3 className="text-xl font-bold text-gray-800">Critical Verification Checklist Before Admission:</h3>
           </div>
           <ul className="space-y-2 text-gray-700">
