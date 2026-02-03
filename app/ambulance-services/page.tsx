@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 
 export default function AmbulanceServicesPage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="bg-[#FBFBEE]">
       <Header />
 
       {/* Main Content */}

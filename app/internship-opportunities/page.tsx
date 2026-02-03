@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 
 export default function InternshipOpportunitiesPage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="bg-[#FBFBEE]">
       <Header />
 
       {/* Main Content */}

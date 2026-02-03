@@ -14,10 +14,10 @@ export default function DigitalCampusPage() {
           <div className="flex flex-col items-center justify-center p-8 bg-[#FBFBEE] rounded-lg">
             <div className="mb-4">
               <svg className="h-8 w-auto mb-2" viewBox="0 0 272 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <text x="0" y="40" fontFamily="Arial, sans-serif" fontSize="32" fill="#5f6368" fontWeight="400">
+                <text x="0" y="40" fontFamily="Poppins, sans-serif" fontSize="32" fill="#5f6368" fontWeight="400">
                   Google
                 </text>
-                <text x="120" y="40" fontFamily="Arial, sans-serif" fontSize="32" fill="#5f6368" fontWeight="300">
+                <text x="120" y="40" fontFamily="Poppins, sans-serif" fontSize="32" fill="#5f6368" fontWeight="300">
                   Workspace
                 </text>
               </svg>
@@ -87,7 +87,7 @@ export default function DigitalCampusPage() {
           {/* Canva */}
           <div className="flex items-center justify-center p-8 bg-[#FBFBEE] rounded-lg">
             <svg className="h-12 w-auto" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <text x="0" y="45" fontFamily="'Cereal', sans-serif" fontSize="48" fill="#00C4CC" fontWeight="600" fontStyle="italic">
+              <text x="0" y="45" fontFamily="Poppins, sans-serif" fontSize="48" fill="#00C4CC" fontWeight="600" fontStyle="italic">
                 Canva
               </text>
             </svg>

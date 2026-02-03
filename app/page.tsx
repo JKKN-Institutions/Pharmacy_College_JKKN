@@ -2,6 +2,7 @@
 
 import Header from '@/components/Header'
 import Link from 'next/link'
+import Image from 'next/image'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Scale, ScrollText, Search, Sparkles, Star, Target, TestTube, User } from 'lucide-react'
 
 export default function Home() {
@@ -69,11 +70,28 @@ export default function Home() {
 
             {/* Right Image */}
             <div className="relative mt-6 lg:mt-0">
-              <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-2xl sm:rounded-3xl p-4 sm:p-6 md:p-8 shadow-2xl">
-                <div className="relative w-full min-h-[200px] xs:min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[400px]">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    {/* Placeholder for pharmacy image - you can add actual image */}
-                    <Pill className="w-12 h-12" />
+              <div className="relative w-full min-h-[300px] xs:min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] xl:min-h-[550px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/Pharmacy-Homepage-Hero-Banner-Image.png"
+                  alt="JKKN College of Pharmacy"
+                  fill
+                  className="object-cover"
+                  priority
+                />
+
+                {/* Badges on Image */}
+                <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex flex-col gap-2">
+                  <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
+                    <span className="text-[10px] sm:text-xs font-bold text-[#006837]">PCI Approved</span>
+                  </div>
+                  <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
+                    <span className="text-[10px] sm:text-xs font-bold text-[#006837]">NAAC Accredited</span>
+                  </div>
+                </div>
+
+                <div className="absolute bottom-3 right-3 sm:bottom-4 sm:right-4">
+                  <div className="bg-[#7cb983]/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
+                    <span className="text-[10px] sm:text-xs font-bold text-white">Excellence in Education</span>
                   </div>
                 </div>
               </div>
@@ -476,7 +494,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 md:gap-8">
             {/* Pharmaceutics */}
-            <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/pharmaceutics" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <Pill className="w-12 h-12" />
               </div>
@@ -484,10 +502,10 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-600">
                 Drug delivery systems, formulation development, novel drug delivery
               </p>
-            </div>
+            </Link>
 
             {/* Pharmacology */}
-            <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/pharmacology" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <TestTube className="w-10 h-10" />
               </div>
@@ -495,10 +513,10 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-600">
                 Drug action mechanisms, toxicology, experimental pharmacology
               </p>
-            </div>
+            </Link>
 
             {/* Pharmaceutical Chemistry */}
-            <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+            <Link href="/pharmaceutical-chemistry" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
@@ -506,10 +524,10 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-600">
                 Drug synthesis, medicinal chemistry, computational drug design
               </p>
-            </div>
+            </Link>
 
                {/* Pharmaceutical Practice */}
-               <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+               <Link href="/pharmacy-practice" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
@@ -517,10 +535,10 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-600">
               Clinical pharmacy, patient care, medication management, hospital & community pharmacy practice
               </p>
-            </div>
+            </Link>
 
                   {/* Pharmaceutical Analysis */}
-                  <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300">
+                  <Link href="/pharmaceutical-analysis" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
@@ -528,7 +546,7 @@ export default function Home() {
               <p className="text-sm sm:text-base text-gray-600">
               Drug testing, quality assurance, analytical techniques, validation & regulatory standards
               </p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -839,192 +857,180 @@ export default function Home() {
       {/* Admissions Section */}
       <section className="bg-[#FBFBEE] py-12 sm:py-16 md:py-20 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1400px] mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-            {/* Left Content */}
-            <div>
-              <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
-                Admissions 2026-27
-              </p>
-              <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
-                Begin Your Pharmaceutical Journey at JKKN
-              </h2>
-              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                Take the first step towards a rewarding career in the pharmaceutical industry. Join J.K.K. Nattraja College of Pharmacy.
-              </p>
+          {/* Hero Section */}
+          <div className="text-center mb-8 sm:mb-12">
+            <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
+              Admissions 2026-27
+            </p>
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
+              Begin Your Pharmaceutical Journey at JKKN
+            </h2>
+            <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Take the first step towards a rewarding career in the pharmaceutical industry. Join J.K.K. Nattraja College of Pharmacy.
+            </p>
+          </div>
 
-  
-
-              {/* B.Pharm Eligibility */}
-              <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">B.Pharm Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">10+2 with Physics, Chemistry & Biology/Mathematics</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum 50% marks (45% for reserved)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Counseling or Management quota</span>
-                  </li>
-                </ul>
-              </div>
-
-                  {/* B.Pharm Lateral Entry */}
-                  <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">B.Pharm (Lateral Entry) Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Diploma in Pharmacy</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum pass marks</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* M.Pharm  Eligibility */}
-              <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">M.Pharm Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">B.Pharm from PCI-recognized institution</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
-                  </li>
-                </ul>
-              </div>
-
-                 {/*  Pharm.D Eligibility */}
-                 <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Pharm.D Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">10+2 with Physics, Chemistry & Biology/Mathematics</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum 50% marks (45% for reserved)</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Counseling or Management quota</span>
-                  </li>
-                </ul>
-              </div>
-
-                   {/* Pharm.D PB Eligibility */}
-                   <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-4 sm:mb-6 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Pharm.D (Post Baccalaureate) Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">B.Pharm from PCI-recognized institution</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
-                  </li>
-                </ul>
-              </div>
-
-
-                 {/* PhD Eligibility */}
-                 <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 mb-6 sm:mb-8 shadow-sm">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Ph.D Eligibility</h3>
-                <ul className="space-y-2 sm:space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">M.Pharm and Pharm.D from PCI-recognized institution</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Buttons */}
-              <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
-                <button className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-                  Talk to Admissions
-                </button>
-                <button className="w-full xs:w-auto border-2 border-[#006837] hover:bg-[#006837] hover:text-white text-[#006837] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-                  Email Us
-                </button>
-              </div>
+          {/* Eligibility Cards Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
+            {/* B.Pharm Eligibility */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">B.Pharm Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">10+2 with Physics, Chemistry & Biology/Mathematics</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum 50% marks (45% for reserved)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Counseling or Management quota</span>
+                </li>
+              </ul>
             </div>
 
-            {/* Right - Admission Process */}
-            <div className="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-6 md:p-8 shadow-xl mt-6 lg:mt-0">
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-4 sm:mb-6">Admission Process</h3>
-              <div className="space-y-4 sm:space-y-6">
-                <div className="flex gap-3 sm:gap-4">
-                  <div className="flex-shrink-0 w-9 h-9 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg">
-                    1
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-[#006837] mb-0.5 sm:mb-1 text-sm sm:text-base">Check Eligibility</h4>
-                    <p className="text-gray-600 text-xs sm:text-sm">
-                      Verify academic requirements for your chosen program
-                    </p>
-                  </div>
+            {/* B.Pharm Lateral Entry */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">B.Pharm (Lateral Entry) Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Diploma in Pharmacy</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum pass marks</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* M.Pharm  Eligibility */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">M.Pharm Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">B.Pharm from PCI-recognized institution</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
+                </li>
+              </ul>
+            </div>
+
+            {/*  Pharm.D Eligibility */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Pharm.D Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">10+2 with Physics, Chemistry & Biology/Mathematics</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum 50% marks (45% for reserved)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Counseling or Management quota</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* Pharm.D PB Eligibility */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Pharm.D (Post Baccalaureate) Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">B.Pharm from PCI-recognized institution</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* PhD Eligibility */}
+            <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-3 sm:mb-4">Ph.D Eligibility</h3>
+              <ul className="space-y-2 sm:space-y-3">
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">M.Pharm and Pharm.D from PCI-recognized institution</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-gray-700 text-sm sm:text-base">Minimum 50% aggregate marks</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Admission Process - Full Width */}
+          <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 shadow-xl mb-8 sm:mb-12">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-6 sm:mb-8 text-center">Admission Process</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
+              <div className="flex flex-col items-center text-center">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg sm:text-xl mb-3">
+                  1
                 </div>
-                <div className="flex gap-3 sm:gap-4">
-                  <div className="flex-shrink-0 w-9 h-9 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg">
-                    2
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-[#006837] mb-0.5 sm:mb-1 text-sm sm:text-base">Apply Online</h4>
-                    <p className="text-gray-600 text-xs sm:text-sm">
-                      Submit application via counseling portal or JKKN website
-                    </p>
-                  </div>
+                <h4 className="font-bold text-[#006837] mb-2 text-sm sm:text-base">Check Eligibility</h4>
+                <p className="text-gray-600 text-xs sm:text-sm leading-snug">
+                  Verify academic requirements for your chosen program
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg sm:text-xl mb-3">
+                  2
                 </div>
-                <div className="flex gap-3 sm:gap-4">
-                  <div className="flex-shrink-0 w-9 h-9 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg">
-                    3
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-[#006837] mb-0.5 sm:mb-1 text-sm sm:text-base">Counseling / Selection</h4>
-                    <p className="text-gray-600 text-xs sm:text-sm">
-                      Participate in TNEA/GPAT counseling or direct admission
-                    </p>
-                  </div>
+                <h4 className="font-bold text-[#006837] mb-2 text-sm sm:text-base">Apply Online</h4>
+                <p className="text-gray-600 text-xs sm:text-sm leading-snug">
+                  Submit application via counseling portal or JKKN website
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg sm:text-xl mb-3">
+                  3
                 </div>
-                <div className="flex gap-3 sm:gap-4">
-                  <div className="flex-shrink-0 w-9 h-9 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg">
-                    4
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-[#006837] mb-0.5 sm:mb-1 text-sm sm:text-base">Document Verification</h4>
-                    <p className="text-gray-600 text-xs sm:text-sm">
-                      Submit original documents for verification
-                    </p>
-                  </div>
+                <h4 className="font-bold text-[#006837] mb-2 text-sm sm:text-base">Counseling / Selection</h4>
+                <p className="text-gray-600 text-xs sm:text-sm leading-snug">
+                  Participate in TNEA/GPAT counseling or direct admission
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg sm:text-xl mb-3">
+                  4
                 </div>
-                <div className="flex gap-3 sm:gap-4">
-                  <div className="flex-shrink-0 w-9 h-9 xs:w-10 xs:h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-sm sm:text-lg">
-                    5
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-[#006837] mb-0.5 sm:mb-1 text-sm sm:text-base">Fee Payment & Enrollment</h4>
-                    <p className="text-gray-600 text-xs sm:text-sm">
-                      Complete payment and secure your admission
-                    </p>
-                  </div>
+                <h4 className="font-bold text-[#006837] mb-2 text-sm sm:text-base">Document Verification</h4>
+                <p className="text-gray-600 text-xs sm:text-sm leading-snug">
+                  Submit original documents for verification
+                </p>
+              </div>
+              <div className="flex flex-col items-center text-center">
+                <div className="flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg sm:text-xl mb-3">
+                  5
                 </div>
+                <h4 className="font-bold text-[#006837] mb-2 text-sm sm:text-base">Fee Payment & Enrollment</h4>
+                <p className="text-gray-600 text-xs sm:text-sm leading-snug">
+                  Complete payment and secure your admission
+                </p>
               </div>
             </div>
+          </div>
+
+          {/* Buttons */}
+          <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
+            <a href="tel:9345855001" className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+              Talk to Admissions
+            </a>
+            <a href="mailto:pharmacy@jkkn.ac.in" className="w-full xs:w-auto border-2 border-[#006837] hover:bg-[#006837] hover:text-white text-[#006837] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+              Email Us
+            </a>
           </div>
         </div>
       </section>
@@ -1150,9 +1156,9 @@ export default function Home() {
             <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="w-full xs:w-auto bg-[#FBFBEE] hover:bg-gray-100 text-[#006837] font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg flex items-center justify-center gap-2">
               Apply Now →
             </a>
-            <button className="w-full xs:w-auto border-2 border-white hover:bg-[#FBFBEE] hover:text-[#7cb983] text-white font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg flex items-center justify-center gap-2">
-              +91 4288 274747
-            </button>
+            <a href="tel:9345855001" className="w-full xs:w-auto border-2 border-white hover:bg-[#FBFBEE] hover:text-[#7cb983] text-white font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg flex items-center justify-center gap-2">
+              Call Us
+            </a>
           </div>
         </div>
       </section>

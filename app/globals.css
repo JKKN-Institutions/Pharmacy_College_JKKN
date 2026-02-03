@@ -16,9 +16,7 @@
 
   body {
     @apply antialiased overflow-x-hidden;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     min-height: -webkit-fill-available;
     width: 100%;
@@ -116,19 +114,19 @@
 
   /* Responsive heading styles */
   .heading-xl {
-    @apply text-3xl xs:text-4xl sm:text-5xl md:text-6xl font-bold leading-tight;
-  }
-
-  .heading-lg {
     @apply text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold leading-tight;
   }
 
+  .heading-lg {
+    @apply text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-tight;
+  }
+
   .heading-md {
-    @apply text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold;
+    @apply text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold;
   }
 
   .heading-sm {
-    @apply text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold;
+    @apply text-base xs:text-lg sm:text-xl md:text-2xl font-bold;
   }
 
   /* Responsive body text */
@@ -180,7 +178,7 @@
 
   /* Responsive stat numbers */
   .stat-number {
-    @apply text-2xl xs:text-3xl sm:text-4xl font-bold;
+    @apply text-xl xs:text-2xl sm:text-3xl font-bold;
   }
 
   .stat-label {
@@ -296,12 +294,12 @@
 
 /* Page title consistent styling */
 .page-title {
-  @apply text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 md:mb-10;
+  @apply text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8 md:mb-10;
 }
 
 /* Section heading */
 .section-heading {
-  @apply text-xl sm:text-2xl font-bold mb-3 sm:mb-4;
+  @apply text-lg sm:text-xl font-bold mb-3 sm:mb-4;
 }
 
 /* Content paragraph */
