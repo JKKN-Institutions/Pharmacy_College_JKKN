@@ -1,6 +1,6 @@
 'use client'
 
-import { GraduationCap, Landmark, Microscope, Scale } from 'lucide-react'
+import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle } from 'lucide-react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 

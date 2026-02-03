@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
-import { BookOpen, Briefcase, CreditCard, GraduationCap, HelpCircle, Lightbulb, Microscope, Pill, Star, Target } from 'lucide-react'
+import { AlertTriangle, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, CreditCard, FileText, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Pill, Scale, Star, Target } from 'lucide-react'
 
 export default function PharmaceuticsPage() {
   return (

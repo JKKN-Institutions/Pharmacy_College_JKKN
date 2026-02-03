@@ -2,7 +2,7 @@
 
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-import { GraduationCap, Target, BookOpen, TrendingUp, Users, Building2 } from 'lucide-react'
+import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users } from 'lucide-react'
 
 export default function PharmaceuticalAnalysisPage() {
   return (

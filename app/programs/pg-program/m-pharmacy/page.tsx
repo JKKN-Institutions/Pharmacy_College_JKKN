@@ -1,6 +1,6 @@
 'use client'
 
-import { GraduationCap, Landmark, Microscope, Scale } from 'lucide-react'
+import { CheckCircle, ClipboardList, GraduationCap, HelpCircle, IndianRupee, Landmark, Lightbulb, Microscope, Scale, Target } from 'lucide-react'
 import Header from '@/components/Header'
 
 export default function MPharmacyPage() {

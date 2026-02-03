@@ -1,0 +1,22 @@
+
+> jkkn-pharmacy-college@0.1.0 build
+> next build
+
+   ▲ Next.js 15.5.9
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully in 12.0s
+   Linting and checking validity of types ...
+Failed to compile.
+
+./app/pharm-d/page.tsx:15:12
+Type error: Cannot find name 'Pill'.
+
+[0m [90m 13 |[39m       [33m<[39m[33mdiv[39m className[33m=[39m[32m"bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8"[39m[33m>[39m
+ [90m 14 |[39m         [33m<[39m[33mdiv[39m className[33m=[39m[32m"max-w-7xl mx-auto text-center"[39m[33m>[39m
+[31m[1m>[22m[39m[90m 15 |[39m           [33m<[39m[33mPill[39m className[33m=[39m[32m"w-12 h-12"[39m [33m/[39m[33m>[39m
+ [90m    |[39m            [31m[1m^[22m[39m
+ [90m 16 |[39m           [33m<[39m[33mh1[39m className[33m=[39m[32m"text-3xl sm:text-4xl lg:text-5xl font-bold mb-4"[39m[33m>[39m[33mPharm[39m[33m.[39m[33mD[39m [33m-[39m [33mDoctor[39m [36mof[39m [33mPharmacy[39m[33m<[39m[33m/[39m[33mh1[39m[33m>[39m
+ [90m 17 |[39m           [33m<[39m[33mp[39m className[33m=[39m[32m"text-lg sm:text-xl"[39m[33m>[39m[33mClinical[39m [33mPharmacy[39m [33mExcellence[39m • [33mPatient[39m [33mCare[39m [33mFocus[39m • [33mHospital[39m [33mPractice[39m[33m<[39m[33m/[39m[33mp[39m[33m>[39m
+ [90m 18 |[39m         [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+Next.js build worker exited with code: 1 and signal: null

@@ -1,6 +1,6 @@
 'use client'
 
-import { BookOpen, Briefcase, Building2, Calendar, ClipboardCheck, Globe, GraduationCap, IndianRupee, Scale, Search, TrendingUp } from 'lucide-react'
+import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp } from 'lucide-react'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 
