@@ -1,7 +1,6 @@
 'use client'
 
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users } from 'lucide-react'
 
 export default function PharmaceuticalAnalysisPage() {
@@ -18,7 +17,7 @@ export default function PharmaceuticalAnalysisPage() {
               M.Pharm in Pharmaceutical Analysis 2026
             </h1>
           </div>
-          <p className="text-lg sm:text-xl text-blue-100 max-w-4xl">
+          <p className="text-lg sm:text-xl text-gray-100 max-w-4xl">
             Master Advanced Analytical Techniques for Quality Control & Pharmaceutical Research
           </p>
         </div>
@@ -28,7 +27,7 @@ export default function PharmaceuticalAnalysisPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* What is M.Pharm Section */}
-        <div className="bg-white rounded-lg shadow-sm border-l-4 border-blue-500 p-8 mb-12">
+        <div className="bg-white rounded-lg shadow-sm border-l-4 border-[#7cb983] p-8 mb-12">
           <h2 className="text-3xl font-bold text-[#006837] mb-6">
             What is M.Pharm in Pharmaceutical Analysis?
           </h2>
@@ -65,7 +64,7 @@ export default function PharmaceuticalAnalysisPage() {
         {/* Core Analytical Techniques */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
-            <Target className="w-8 h-8 text-[#E85757]" />
+            <Target className="w-8 h-8 text-[#7cb983]" />
             <h2 className="text-3xl font-bold text-[#006837]">
               Core Analytical Techniques Mastered
             </h2>
@@ -205,7 +204,7 @@ export default function PharmaceuticalAnalysisPage() {
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
-          <div className="bg-[#D4F1F4] border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-8">
+          <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-8">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Educational Qualification:</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -759,7 +758,7 @@ export default function PharmaceuticalAnalysisPage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['Sun Pharmaceutical', 'Dr. Reddy\'s Laboratories', 'Cipla Limited', 'Lupin Pharmaceuticals', 'Torrent Pharmaceuticals',
                 'Zydus Cadila', 'Glenmark Pharmaceuticals', 'Aurobindo Pharma', 'Alkem Laboratories', 'Biocon Limited'].map((company) => (
-                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:bg-blue-50 hover:border-blue-300 transition-all">
+                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
@@ -772,7 +771,7 @@ export default function PharmaceuticalAnalysisPage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['GlaxoSmithKline (GSK)', 'Pfizer India', 'Novartis India', 'Abbott Laboratories', 'Sanofi India',
                 'Merck India', 'AstraZeneca', 'Roche Diagnostics'].map((company) => (
-                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:bg-blue-50 hover:border-blue-300 transition-all">
+                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
@@ -785,7 +784,7 @@ export default function PharmaceuticalAnalysisPage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['Quintiles/IQVIA', 'Covance', 'Parexel', 'ICON plc', 'Lambda Therapeutic',
                 'Syngene International'].map((company) => (
-                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:bg-blue-50 hover:border-blue-300 transition-all">
+                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
@@ -798,7 +797,7 @@ export default function PharmaceuticalAnalysisPage() {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['SGS India', 'Intertek India', 'TÜV SÜD', 'Vimta Labs', 'Eurofins Scientific',
                 'Central Drug Laboratory (CDL)'].map((company) => (
-                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:bg-blue-50 hover:border-blue-300 transition-all">
+                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
@@ -810,7 +809,7 @@ export default function PharmaceuticalAnalysisPage() {
             <h3 className="text-2xl font-bold text-purple-700 mb-4">Government Research Institutes</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['CSIR Labs (CDRI, IICT)', 'ICMR Institutes', 'NIPER (All Campuses)', 'IIT Pharmaceutical Depts', 'CDSCO Regional Labs'].map((company) => (
-                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:bg-blue-50 hover:border-blue-300 transition-all">
+                <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
@@ -906,7 +905,7 @@ export default function PharmaceuticalAnalysisPage() {
             </table>
           </div>
 
-          <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg mt-6">
+          <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mt-6">
             <div className="flex items-start gap-2 mb-2">
               <Lightbulb className="w-10 h-10" />
               <h4 className="text-lg font-bold text-gray-900">Key Insight:</h4>
@@ -1013,7 +1012,7 @@ export default function PharmaceuticalAnalysisPage() {
 
             {/* Professional Certifications */}
             <h3 className="text-2xl font-bold text-purple-700 mb-6">Professional Certifications</h3>
-            <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg">
+            <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <ul className="space-y-3">
                 <li className="text-gray-700">
                   <span className="font-bold text-purple-700">• Six Sigma Certification:</span> Green Belt, Black Belt for quality management
@@ -1286,7 +1285,7 @@ export default function PharmaceuticalAnalysisPage() {
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
-          <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg mb-6">
+          <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-6">
             <h3 className="text-lg font-bold text-gray-900 mb-4">Sophisticated Analytical Instruments Required:</h3>
             <ul className="space-y-3">
               <li className="text-gray-700">
@@ -1447,7 +1446,7 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
 
             {/* Point 2 */}
-            <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg">
+            <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <h3 className="text-xl font-bold text-purple-700 mb-3">2. Standardized Career Progression</h3>
               <p className="text-gray-700">
                 Pharmaceutical analysis offers clear career paths: QC Analyst → Senior Analyst → Method Development → QC Manager → Head of QC/QA → Quality Director. Salary progression is predictable and merit-based. Unlike research roles where success depends on project outcomes, analytical roles have defined responsibilities and advancement criteria.
@@ -1471,7 +1470,7 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
 
             {/* Point 5 */}
-            <div className="bg-[#D4F1F4] border-l-4 border-blue-500 p-6 rounded-r-lg">
+            <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <h3 className="text-xl font-bold text-purple-700 mb-3">5. Technology-Driven Field</h3>
               <p className="text-gray-700">
                 Pharmaceutical analysis is at the forefront of analytical technology adoption. Professionals work with cutting-edge instruments (LC-MS/MS, UPLC, advanced spectroscopy), keeping skills updated and marketable. Continuous technological evolution provides learning opportunities throughout career.
@@ -1493,13 +1492,14 @@ export default function PharmaceuticalAnalysisPage() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             Ready to Master Pharmaceutical Analysis?
           </h2>
-          <p className="text-lg sm:text-xl mb-8 text-blue-100">
+          <p className="text-lg sm:text-xl mb-8 text-gray-100">
             Join our M.Pharm program and become an expert in analytical techniques and quality assurance!
           </p>
           <button className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-colors">
-            Apply Now for M.Pharm 2026
+            <span className="xs:hidden">Apply Now</span>
+            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
           </button>
-          <p className="text-sm mt-6 text-blue-100">
+          <p className="text-sm mt-6 text-gray-100">
             GPAT Qualified? | PCI Approved | State-of-the-art Analytical Lab | Industry Collaborations
           </p>
         </div>
@@ -1545,8 +1545,6 @@ export default function PharmaceuticalAnalysisPage() {
         </div>
 
       </div>
-
-      <Footer />
     </div>
   )
 }

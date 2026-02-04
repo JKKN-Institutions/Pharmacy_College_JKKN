@@ -1,7 +1,6 @@
 'use client'
 
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Laptop, Lightbulb, Microscope, Pill, Scale, School, ScrollText, Sparkles, Star, Target, TestTube, User } from 'lucide-react'
 
 export default function PharmaceuticalChemistryPage() {
@@ -12,7 +11,7 @@ export default function PharmaceuticalChemistryPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <GraduationCap className="w-12 h-12" />
+          <GraduationCap className="w-12 h-12 mx-auto mb-4" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmaceutical Chemistry 2026</h1>
           <p className="text-lg sm:text-xl">Master Drug Design, Medicinal Chemistry & Organic Synthesis</p>
         </div>
@@ -20,7 +19,7 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* What is M.Pharm in Pharmaceutical Chemistry Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#FFE5F0] via-[#FFEEF6] to-[#FFE5F0] rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#FBFBEE] to-[#FBFBEE] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmaceutical Chemistry?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
@@ -87,54 +86,54 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Organic Synthesis */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#EC5BA5] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#EC5BA5] mb-4">Organic Synthesis</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">Organic Synthesis</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Multi-Step Synthesis Strategies</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Named Reactions (Grignard, Wittig, etc.)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Heterocyclic Chemistry</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Synthetic Route Design</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Reaction Mechanism Studies</span>
               </li>
             </ul>
           </div>
 
           {/* Computer-Aided Drug Design (CADD) */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#D958A8] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#D958A8] mb-4">Computer-Aided Drug Design (CADD)</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">Computer-Aided Drug Design (CADD)</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Molecular Modeling & Docking</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Structure-Based Drug Design</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>QSAR (Quantitative SAR) Studies</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Pharmacophore Modeling</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Virtual Screening & In Silico Methods</span>
               </li>
             </ul>
@@ -168,54 +167,54 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Natural Product Chemistry */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#EC5BA5] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#EC5BA5] mb-4">Natural Product Chemistry</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">Natural Product Chemistry</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Phytochemical Extraction & Isolation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Natural Product Screening</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Total Synthesis of Natural Products</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Semi-Synthetic Derivatives</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#EC5BA5] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Bioactive Compound Identification</span>
               </li>
             </ul>
           </div>
 
           {/* Process Chemistry & Scale-Up */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#D958A8] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#D958A8] mb-4">Process Chemistry & Scale-Up</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">Process Chemistry & Scale-Up</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Process Development & Optimization</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Synthetic Route Selection</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Cost-Effective Synthesis</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Laboratory to Pilot Scale-Up</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#D958A8] mr-2">•</span>
+                <span className="text-[#006837] mr-2">•</span>
                 <span>Green Chemistry Principles</span>
               </li>
             </ul>
@@ -231,38 +230,38 @@ export default function PharmaceuticalChemistryPage() {
         </div>
 
         {/* Educational Qualification */}
-        <div className="bg-gradient-to-br from-[#D4F1F4] to-[#C8E8ED] rounded-xl p-8 mb-6 border-l-4 border-[#2EBFCC]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 mb-6 border-l-4 border-[#7cb983]">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Educational Qualification:</h3>
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>B.Pharm degree from PCI-approved institution</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Minimum aggregate:</span> 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Valid GPAT score:</span> Mandatory for government colleges and AICTE scholarship</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Strong organic chemistry background:</span> Good grasp of organic reactions, mechanisms, and synthesis</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Registration with State Pharmacy Council (beneficial but not always mandatory)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>No age limit for M.Pharm admission</span>
             </li>
           </ul>
         </div>
 
         {/* Critical Prerequisite */}
-        <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Prerequisite for Pharmaceutical Chemistry:</h3>
@@ -327,46 +326,46 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* GPAT Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#C77DB6] mb-8">GPAT (Graduate Pharmacy Aptitude Test)</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-8">GPAT (Graduate Pharmacy Aptitude Test)</h2>
 
         <div className="overflow-x-auto shadow-lg rounded-lg">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                 <th className="px-6 py-4 text-left text-white font-bold">Aspect</th>
                 <th className="px-6 py-4 text-left text-white font-bold">Details</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Conducting Authority</td>
                 <td className="px-6 py-4 text-gray-700">National Testing Agency (NTA)</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Exam Mode</td>
                 <td className="px-6 py-4 text-gray-700">Computer-Based Test (CBT)</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Duration</td>
                 <td className="px-6 py-4 text-gray-700">3 Hours (180 minutes)</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Questions</td>
                 <td className="px-6 py-4 text-gray-700">125 Multiple Choice Questions</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Total Marks</td>
                 <td className="px-6 py-4 text-gray-700">500 Marks (4 marks per question)</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Pharmaceutical Chemistry Weightage</td>
                 <td className="px-6 py-4 text-gray-700">Approximately 30-35 questions (24-28%) - Highest among all subjects</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Score Validity</td>
                 <td className="px-6 py-4 text-gray-700">3 Years from result declaration</td>
               </tr>
-              <tr className="hover:bg-[#FBFBEE]">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Negative Marking</td>
                 <td className="px-6 py-4 text-gray-700">No negative marking</td>
               </tr>
@@ -375,7 +374,7 @@ export default function PharmaceuticalChemistryPage() {
         </div>
 
         {/* GPAT Advantage Box */}
-        <div className="bg-gradient-to-br from-[#FFF9E5] to-[#FFF4D4] rounded-xl p-8 mt-8 border-l-4 border-[#FFC107]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 mt-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Advantage for Pharmaceutical Chemistry Students:</h3>
@@ -383,27 +382,27 @@ export default function PharmaceuticalChemistryPage() {
 
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Pharmaceutical Chemistry has the <span className="text-[#006837] font-bold">highest weightage</span> in GPAT (30-35 questions)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Students strong in organic chemistry have natural advantage in GPAT scoring</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Access to government colleges with excellent synthesis laboratories and instrumentation</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>AICTE stipend of ₹12,400/month for 24 months (Total: ₹2,97,600)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Better research facilities including NMR, mass spectrometry, and computational chemistry software</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Preference in Ph.D admissions at IITs, CSIR labs (CDRI, IICT, NCL), and NIPER</span>
             </li>
           </ul>
@@ -419,43 +418,43 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Semester 1 */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Semester 1 - Foundation & Advanced Organic Chemistry</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Semester 1 - Foundation & Advanced Organic Chemistry</h3>
           <div className="overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                   <th className="px-6 py-4 text-left text-white font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Subject</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Credits</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-101</td>
                   <td className="px-6 py-4 text-gray-700">Modern Pharmaceutical Analytical Techniques</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-102</td>
                   <td className="px-6 py-4 text-gray-700">Advanced Organic Chemistry I</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-103</td>
                   <td className="px-6 py-4 text-gray-700">Advanced Medicinal Chemistry</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-104</td>
                   <td className="px-6 py-4 text-gray-700">Chemistry of Natural Products</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-105</td>
                   <td className="px-6 py-4 text-gray-700">Pharmaceutical Chemistry Practical I</td>
                   <td className="px-6 py-4 text-gray-900">12</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-106</td>
                   <td className="px-6 py-4 text-gray-700">Seminar/ Assignment</td>
                   <td className="px-6 py-4 text-gray-900">7</td>
@@ -467,43 +466,43 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Semester 2 */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Semester 2 - Synthetic Chemistry & Drug Discovery</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Semester 2 - Synthetic Chemistry & Drug Discovery</h3>
           <div className="overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#D77DB6]">
+                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                   <th className="px-6 py-4 text-left text-white font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Subject</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Credits</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-201</td>
                   <td className="px-6 py-4 text-gray-700">Advanced Spectral Analysis</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-202</td>
                   <td className="px-6 py-4 text-gray-700">Advanced Organic Chemistry II</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-203</td>
                   <td className="px-6 py-4 text-gray-700">Computer Aided Drug Design</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-204</td>
                   <td className="px-6 py-4 text-gray-700">Pharmaceutical Process Chemistry</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-205</td>
                   <td className="px-6 py-4 text-gray-700">Pharmaceutical Chemistry Practical II</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-206</td>
                   <td className="px-6 py-4 text-gray-700">Seminar/ Assignment</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
@@ -515,33 +514,33 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Semester 3 */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Semester 3 - Research Project Phase I & Synthesis</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Semester 3 - Research Project Phase I & Synthesis</h3>
           <div className="overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                   <th className="px-6 py-4 text-left text-white font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Subject</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Credits</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-301</td>
                   <td className="px-6 py-4 text-gray-700">Research Methodology and Biostatistics</td>
                   <td className="px-6 py-4 text-gray-900">4</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-302</td>
                   <td className="px-6 py-4 text-gray-700">Journal Club</td>
                   <td className="px-6 py-4 text-gray-900">1</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-303</td>
                   <td className="px-6 py-4 text-gray-700">Discussion/ Presentation (Proposal Presentation)</td>
                   <td className="px-6 py-4 text-gray-900">2</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-304</td>
                   <td className="px-6 py-4 text-gray-700">Research Work</td>
                   <td className="px-6 py-4 text-gray-900">14</td>
@@ -553,28 +552,28 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Semester 4 */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Semester 4 - Research Project Phase II & Characterization</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Semester 4 - Research Project Phase II & Characterization</h3>
           <div className="overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#D77DB6]">
+                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                   <th className="px-6 py-4 text-left text-white font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Subject</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Credits</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-401</td>
                   <td className="px-6 py-4 text-gray-700">Journal Club</td>
                   <td className="px-6 py-4 text-gray-900">1</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-402</td>
                   <td className="px-6 py-4 text-gray-700">Research Work</td>
                   <td className="px-6 py-4 text-gray-900">16</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 text-gray-900">MPC-403</td>
                   <td className="px-6 py-4 text-gray-700">Discussion Final Presentation</td>
                   <td className="px-6 py-4 text-gray-900">3</td>
@@ -585,7 +584,7 @@ export default function PharmaceuticalChemistryPage() {
         </div>
 
         {/* Typical Research Project Topics */}
-        <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <GraduationCap className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmaceutical Chemistry:</h3>
@@ -647,7 +646,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Medicinal Chemist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-3">Medicinal Chemist</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹6-10 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -675,9 +674,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Synthetic Chemist (R&D) */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#EC5BA5]">
-            <h3 className="text-2xl font-bold text-[#EC5BA5] mb-3">Synthetic Chemist (R&D)</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-3">Synthetic Chemist (R&D)</h3>
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹5-9 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -705,9 +704,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Drug Discovery Scientist */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#D958A8]">
-            <h3 className="text-2xl font-bold text-[#D958A8] mb-3">Drug Discovery Scientist</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-3">Drug Discovery Scientist</h3>
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹7-12 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -737,7 +736,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Process Chemist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-3">Process Chemist</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹5-10 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -765,9 +764,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Analytical Research Scientist */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#EC5BA5]">
-            <h3 className="text-2xl font-bold text-[#EC5BA5] mb-3">Analytical Research Scientist</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-3">Analytical Research Scientist</h3>
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹5-9 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -795,9 +794,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Computational Chemist */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#D958A8]">
-            <h3 className="text-2xl font-bold text-[#D958A8] mb-3">Computational Chemist</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-3">Computational Chemist</h3>
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹6-11 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -827,7 +826,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Research Scientist (Natural Products) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-3">Research Scientist (Natural Products)</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹5-9 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -855,9 +854,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Academic Faculty / Researcher */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#EC5BA5]">
-            <h3 className="text-2xl font-bold text-[#EC5BA5] mb-3">Academic Faculty / Researcher</h3>
-            <div className="bg-[#2ECC71] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-3">Academic Faculty / Researcher</h3>
+            <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-sm font-bold mb-4">
               ₹40K-60K/Month
             </div>
             <ul className="space-y-2 text-gray-700">
@@ -888,7 +887,7 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* Salary Progression */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-8 border-l-4 border-[#2ECC71]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-8 h-8" />
             <h2 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmaceutical Chemistry Specialists</h2>
@@ -896,23 +895,23 @@ export default function PharmaceuticalChemistryPage() {
 
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Entry Level (0-2 Years):</span> ₹4-7 lakhs per annum (Junior Scientist, Research Associate)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Mid Level (3-5 Years):</span> ₹7-12 lakhs per annum (Medicinal Chemist, Senior Scientist)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Senior Level (6-10 Years):</span> ₹12-20 lakhs per annum (Principal Scientist, Group Leader)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Expert Level (10+ Years):</span> ₹20-35 lakhs per annum (Associate Director Chemistry, Discovery Lead)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Leadership (15+ Years):</span> ₹35-50 lakhs per annum (Head of Chemistry, VP Drug Discovery)</span>
             </li>
           </ul>
@@ -932,10 +931,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Multinational Pharmaceutical Companies */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Multinational Pharmaceutical Companies - Drug Discovery</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Multinational Pharmaceutical Companies - Drug Discovery</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['GSK (GlaxoSmithKline)', 'Pfizer India R&D', 'Novartis Healthcare', 'Sanofi India', 'AstraZeneca', 'Abbott Laboratories', 'Merck (MSD)', 'Bayer Pharmaceuticals', 'Eli Lilly', 'Johnson & Johnson'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -944,10 +943,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Indian Pharmaceutical Companies */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Indian Pharmaceutical Companies - R&D Centers</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Indian Pharmaceutical Companies - R&D Centers</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Dr. Reddy\'s Laboratories', 'Sun Pharma', 'Cipla R&D', 'Lupin Pharmaceuticals', 'Zydus Cadila', 'Aurobindo Pharma', 'Torrent Pharmaceuticals', 'Glenmark Discovery', 'Biocon Limited', 'Alembic Pharmaceuticals'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -956,10 +955,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Contract Research Organizations (CROs) */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Contract Research Organizations (CROs) - Chemistry Services</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Contract Research Organizations (CROs) - Chemistry Services</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Syngene International', 'GVK Biosciences', 'Jubilant Biosys', 'Piramal Discovery Solutions', 'TCG Lifesciences', 'Anthem Biosciences', 'Aurigene Discovery', 'Aragen Life Sciences', 'Advinus Therapeutics', 'Connexios Life Sciences'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -968,10 +967,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Academic & Research Institutes */}
         <div>
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Academic & Research Institutes - Ph.D. & Faculty Positions</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Academic & Research Institutes - Ph.D. & Faculty Positions</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['CSIR-CDRI Lucknow', 'CSIR-IICT Hyderabad', 'CSIR-NCL Pune', 'NIPER (All Campuses)', 'IIT-BHU Pharmacy', 'ICT Mumbai', 'BITS Pilani Pharmacy', 'JSS College of Pharmacy', 'Manipal College of Pharmacy', 'UDCT Mumbai'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -981,10 +980,10 @@ export default function PharmaceuticalChemistryPage() {
         {/* Additional Recruiter Categories from images */}
         {/* Indian Pharmaceutical R&D Companies */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Indian Pharmaceutical R&D Companies</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Indian Pharmaceutical R&D Companies</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Sun Pharmaceutical R&D', 'Dr. Reddy\'s Laboratories', 'Cipla Limited', 'Lupin Research', 'Biocon Limited', 'Cadila Healthcare (Zydus)', 'Glenmark Pharmaceuticals', 'Torrent Pharmaceuticals', 'Aurobindo Pharma', 'Alembic Pharmaceuticals'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -993,10 +992,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Biotechnology & Drug Discovery Companies */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Biotechnology & Drug Discovery Companies</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Biotechnology & Drug Discovery Companies</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Jubilant Biosys', 'Syngene International', 'GVK Biosciences', 'Advinus Therapeutics', 'Aurigene Discovery Technologies', 'Aragen Life Sciences', 'Anthem Biosciences', 'Connexios Life Sciences'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -1005,10 +1004,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* CSIR Labs & Government Research Institutions */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">CSIR Labs & Government Research Institutions</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">CSIR Labs & Government Research Institutions</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['CSIR-CDRI Lucknow', 'CSIR-IICT Hyderabad', 'CSIR-NCL Pune', 'CSIR-IIIM Jammu', 'NIPER (All 7 Campuses)', 'IIT Delhi/Mumbai/Kharagpur', 'ICT Mumbai', 'BITS Pilani'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -1017,10 +1016,10 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Pharmacy Colleges - Academic Positions */}
         <div>
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Pharmacy Colleges - Academic Positions</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Pharmacy Colleges - Academic Positions</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Government Pharmacy Colleges', 'NIPER Faculty Positions', 'Manipal College of Pharmacy', 'JSS College of Pharmacy', 'Jamia Hamdard', 'Poona College of Pharmacy', 'ICT Mumbai Faculty'].map((company, index) => (
-              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#FFE5F0] hover:border-[#7cb983] transition-all">
+              <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
                 <p className="text-gray-800 font-semibold text-sm">{company}</p>
               </div>
             ))}
@@ -1038,102 +1037,102 @@ export default function PharmaceuticalChemistryPage() {
         <div className="overflow-x-auto shadow-lg rounded-lg">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                 <th className="px-6 py-4 text-left text-white font-bold">Aspect</th>
                 <th className="px-6 py-4 text-left text-white font-bold">
                   Pharmaceutical Chemistry
-                  <span className="ml-2 px-3 py-1 bg-[#E94B8D] text-white text-xs rounded-full">Synthesis</span>
+                  <span className="ml-2 px-3 py-1 bg-[#7cb983] text-white text-xs rounded-full">Synthesis</span>
                 </th>
                 <th className="px-6 py-4 text-left text-white font-bold">
                   Pharmaceutics
-                  <span className="ml-2 px-3 py-1 bg-[#EC5BA5] text-white text-xs rounded-full">Formulation</span>
+                  <span className="ml-2 px-3 py-1 bg-[#7cb983] text-white text-xs rounded-full">Formulation</span>
                 </th>
                 <th className="px-6 py-4 text-left text-white font-bold">
                   Pharmaceutical Analysis
-                  <span className="ml-2 px-3 py-1 bg-[#5B9BD5] text-white text-xs rounded-full">Testing</span>
+                  <span className="ml-2 px-3 py-1 bg-[#7cb983] text-white text-xs rounded-full">Testing</span>
                 </th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Primary Focus</td>
                 <td className="px-6 py-4 text-gray-700">Drug design, organic synthesis, molecular structure modification</td>
                 <td className="px-6 py-4 text-gray-700">Drug formulation, product development, NDDS</td>
                 <td className="px-6 py-4 text-gray-700">Quality control, analytical testing, method validation</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Core Skills</td>
                 <td className="px-6 py-4 text-gray-700">Organic synthesis, spectroscopy, CADD, SAR studies</td>
                 <td className="px-6 py-4 text-gray-700">Formulation design, tablet technology, NDDS, scale-up</td>
                 <td className="px-6 py-4 text-gray-700">HPLC, GC-MS, LC-MS, spectroscopy, validation</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Work Nature</td>
                 <td className="px-6 py-4 text-gray-700">Laboratory synthesis, research-intensive, chemistry-focused</td>
                 <td className="px-6 py-4 text-gray-700">Creative, problem-solving, innovation-driven</td>
                 <td className="px-6 py-4 text-gray-700">Protocol-driven, precision-oriented, standardized</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Prerequisite Knowledge</td>
                 <td className="px-6 py-4 text-gray-700">Strong organic chemistry mandatory</td>
                 <td className="px-6 py-4 text-gray-700">Formulation science, minimal organic chemistry</td>
                 <td className="px-6 py-4 text-gray-700">Analytical techniques, basic chemistry</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Laboratory Work</td>
                 <td className="px-6 py-4 text-gray-700">Chemical synthesis, reactions, purifications</td>
                 <td className="px-6 py-4 text-gray-700">Formulation preparation, characterization</td>
                 <td className="px-6 py-4 text-gray-700">Instrument operation, sample testing</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Job Departments</td>
                 <td className="px-6 py-4 text-gray-700">Discovery Chemistry, Medicinal Chemistry, Process Chemistry</td>
                 <td className="px-6 py-4 text-gray-700">Formulation R&D, Production, Technical Services</td>
                 <td className="px-6 py-4 text-gray-700">QC/QA labs, Analytical R&D, Regulatory</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Industry Demand</td>
                 <td className="px-6 py-4 text-gray-700">Moderate (specialized drug discovery roles, research-focused)</td>
                 <td className="px-6 py-4 text-gray-700">High (R&D companies, innovation priority)</td>
                 <td className="px-6 py-4 text-gray-700">Very High (universal need across companies)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Starting Salary</td>
                 <td className="px-6 py-4 text-gray-700">₹5-7 lakhs (medicinal chemist, synthetic chemist)</td>
                 <td className="px-6 py-4 text-gray-700">₹5-8 lakhs (formulation scientist)</td>
                 <td className="px-6 py-4 text-gray-700">₹4-6 lakhs (QC analyst)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Salary Growth</td>
                 <td className="px-6 py-4 text-gray-700">Excellent (₹25-45 lakhs for head of chemistry)</td>
                 <td className="px-6 py-4 text-gray-700">Excellent (₹25-60 lakhs for senior formulation R&D)</td>
                 <td className="px-6 py-4 text-gray-700">Good (₹18-35 lakhs for QC/QA heads)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Academic Career</td>
                 <td className="px-6 py-4 text-gray-700">Excellent (high demand for chemistry faculty)</td>
                 <td className="px-6 py-4 text-gray-700">Good (pharmaceutics faculty needed)</td>
                 <td className="px-6 py-4 text-gray-700">Moderate (analytical faculty positions)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Ph.D Opportunities</td>
                 <td className="px-6 py-4 text-gray-700">Excellent (IITs, CSIR, drug discovery research)</td>
                 <td className="px-6 py-4 text-gray-700">Excellent (NDDS, nanotechnology research)</td>
                 <td className="px-6 py-4 text-gray-700">Good (analytical method development)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Innovation Potential</td>
                 <td className="px-6 py-4 text-gray-700">Very High (design new molecules, patents)</td>
                 <td className="px-6 py-4 text-gray-700">Very High (novel formulations, delivery systems)</td>
                 <td className="px-6 py-4 text-gray-700">Moderate (analytical method development)</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Work Environment</td>
                 <td className="px-6 py-4 text-gray-700">Synthesis labs, fume hoods, chemical storage</td>
                 <td className="px-6 py-4 text-gray-700">Formulation labs, pilot plants, R&D centers</td>
                 <td className="px-6 py-4 text-gray-700">Analytical labs, QC facilities, clean rooms</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 font-bold text-[#006837]">Best For</td>
                 <td className="px-6 py-4 text-gray-700">Organic chemistry lovers, molecular designers, research-minded</td>
                 <td className="px-6 py-4 text-gray-700">Creative thinkers, product developers, innovators</td>
@@ -1146,7 +1145,7 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* Choosing the Right Specialization */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#D4F1F4] to-[#C8E8ED] rounded-xl p-8 border-l-4 border-[#2EBFCC]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
@@ -1157,31 +1156,31 @@ export default function PharmaceuticalChemistryPage() {
               <p className="text-[#006837] font-bold text-lg mb-3">Choose Pharmaceutical Chemistry if you:</p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Love organic chemistry and found it the most interesting subject in B.Pharm</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Enjoy understanding molecular structures and chemical reactions</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Want to design and synthesize new drug molecules</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Are interested in drug discovery and medicinal chemistry research</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Aspire for academic career in chemistry (Ph.D and faculty)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Prefer laboratory synthesis work over formulation or analysis</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#2EBFCC] mr-3 mt-1">•</span>
+                  <span className="text-[#006837] mr-3 mt-1">•</span>
                   <span>Have patience for multi-step synthesis and reaction optimization</span>
                 </li>
               </ul>
@@ -1214,9 +1213,9 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Ph.D in Pharmaceutical Sciences */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutical Chemistry Specialization</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutical Chemistry Specialization</h3>
 
-          <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 mb-6 border-l-4 border-[#7cb983]">
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 mb-6 border-l-4 border-[#7cb983]">
             <h4 className="text-xl font-bold text-gray-800 mb-4">Research Areas in Pharmaceutical Chemistry:</h4>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
@@ -1257,34 +1256,34 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Ph.D Entrance Examinations & Fellowships */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Ph.D Entrance Examinations & Fellowships</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Ph.D Entrance Examinations & Fellowships</h3>
 
           <div className="overflow-x-auto shadow-lg rounded-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                   <th className="px-6 py-4 text-left text-white font-bold">Examination</th>
                   <th className="px-6 py-4 text-left text-white font-bold">Fellowship & Eligibility</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 font-bold text-[#006837]">CSIR-NET (Chemical Sciences)</td>
                   <td className="px-6 py-4 text-gray-700">JRF: ₹31,000/month → SRF: ₹35,000/month. Best for chemistry Ph.D at CSIR labs (CDRI, IICT, NCL).</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 font-bold text-[#006837]">UGC-NET (Pharmaceutical Sciences)</td>
                   <td className="px-6 py-4 text-gray-700">₹31,000/month → ₹35,000/month. For Ph.D at universities and academic research.</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 font-bold text-[#006837]">GATE (Chemistry/Biotechnology)</td>
                   <td className="px-6 py-4 text-gray-700">₹31,000/month. Valid for IITs and MHRD fellowship programs.</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 font-bold text-[#006837]">University Entrance</td>
                   <td className="px-6 py-4 text-gray-700">IIT, NIPER, ICT, BITS entrance tests. University-specific fellowships available.</td>
                 </tr>
-                <tr className="hover:bg-pink-50">
+                <tr className="hover:bg-green-50">
                   <td className="px-6 py-4 font-bold text-[#006837]">Direct Ph.D (Industry-Sponsored)</td>
                   <td className="px-6 py-4 text-gray-700">Some pharmaceutical companies sponsor Ph.D programs with salary continuation.</td>
                 </tr>
@@ -1295,24 +1294,24 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* International Opportunities */}
         <div className="mb-8">
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">International Opportunities</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">International Opportunities</h3>
 
-          <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-8 border-l-4 border-[#2ECC71]">
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <ul className="space-y-4 text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+                <span className="text-[#006837] mr-3 mt-1">•</span>
                 <span><span className="text-[#006837] font-bold">Ph.D in Medicinal Chemistry (USA):</span> Top universities like University of Michigan, UCSF, Purdue, University of Wisconsin. Duration: 5-6 years. Stipend: $28,000-35,000/year. Research in drug discovery, organic synthesis, chemical biology.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+                <span className="text-[#006837] mr-3 mt-1">•</span>
                 <span><span className="text-[#006837] font-bold">Ph.D in Organic Chemistry (USA/UK/Germany):</span> Focus on synthetic methodology. USA: $25,000-32,000/year. UK: £15,000-20,000/year. Germany: €1,500-2,000/month. Strong publication potential.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+                <span className="text-[#006837] mr-3 mt-1">•</span>
                 <span><span className="text-[#006837] font-bold">Postdoctoral Research:</span> 2-4 year positions after Ph.D in medicinal chemistry or organic synthesis. Salary: $50,000-65,000/year (USA), €45,000-60,000/year (Europe). Work with top chemistry groups.</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+                <span className="text-[#006837] mr-3 mt-1">•</span>
                 <span><span className="text-[#006837] font-bold">Medicinal Chemist Positions (International):</span> Pharmaceutical companies in USA, UK, Switzerland. Salary: $80,000-130,000/year. Requires Ph.D + postdoc or strong industry experience.</span>
               </li>
             </ul>
@@ -1321,7 +1320,7 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Professional Certifications */}
         <div>
-          <h3 className="text-2xl font-bold text-[#C77DB6] mb-6">Professional Certifications</h3>
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Professional Certifications</h3>
 
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
@@ -1359,7 +1358,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Step 1 */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E94B8D] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 1
               </div>
               <div className="flex-1">
@@ -1370,26 +1369,26 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Step 2 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#EC5BA5]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#EC5BA5] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 2
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#EC5BA5] mb-3">GPAT Registration (October-November 2025)</h3>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">GPAT Registration (October-November 2025)</h3>
                 <p className="text-gray-700">Register on NTA GPAT website. Pharmaceutical Chemistry has highest GPAT weightage (30-35 questions), giving chemistry-strong students an advantage. Pay fees (₹1,400 General, ₹700 SC/ST/OBC). Focus preparation on Pharmaceutical Chemistry section.</p>
               </div>
             </div>
           </div>
 
           {/* Step 3 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#D958A8]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#D958A8] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 3
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#D958A8] mb-3">GPAT Examination (January-February 2026)</h3>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">GPAT Examination (January-February 2026)</h3>
                 <p className="text-gray-700">Appear for 3-hour CBT exam. Pharmaceutical Chemistry section covers organic chemistry, medicinal chemistry, stereochemistry, and drug design concepts. Strong chemistry background helps achieve high percentile.</p>
               </div>
             </div>
@@ -1398,7 +1397,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Step 4 */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E94B8D] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 4
               </div>
               <div className="flex-1">
@@ -1409,26 +1408,26 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Step 5 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#EC5BA5]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#EC5BA5] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 5
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#EC5BA5] mb-3">Counseling & Seat Selection (May-July 2026)</h3>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">Counseling & Seat Selection (May-July 2026)</h3>
                 <p className="text-gray-700">Register for AICTE/state counseling. Submit preferences with Pharmaceutical Chemistry specialization. Prioritize colleges with active chemistry research. Accept seat and pay fees within deadline.</p>
               </div>
             </div>
           </div>
 
           {/* Step 6 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#D958A8]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#D958A8] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 6
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#D958A8] mb-3">Document Verification & Admission (July-August 2026)</h3>
+                <h3 className="text-xl font-bold text-[#006837] mb-3">Document Verification & Admission (July-August 2026)</h3>
                 <p className="text-gray-700">Report with original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Pay tuition fees. Apply for AICTE scholarship if GPAT qualified.</p>
               </div>
             </div>
@@ -1437,7 +1436,7 @@ export default function PharmaceuticalChemistryPage() {
           {/* Step 7 */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#E94B8D] text-white rounded-full flex items-center justify-center text-xl font-bold">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center text-xl font-bold">
                 7
               </div>
               <div className="flex-1">
@@ -1449,7 +1448,7 @@ export default function PharmaceuticalChemistryPage() {
         </div>
 
         {/* Critical Infrastructure Verification */}
-        <div className="mt-12 bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="mt-12 bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Critical Infrastructure Verification for Pharmaceutical Chemistry:</h3>
@@ -1571,34 +1570,34 @@ export default function PharmaceuticalChemistryPage() {
         <div className="overflow-x-auto shadow-lg rounded-lg mb-8">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-gradient-to-r from-[#D77DB6] to-[#E94B8D]">
+              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                 <th className="px-6 py-4 text-left text-white font-bold">College Type</th>
                 <th className="px-6 py-4 text-left text-white font-bold">Total Fees (2 Years)</th>
                 <th className="px-6 py-4 text-left text-white font-bold">Annual Fees</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-gray-200">
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 text-gray-900 font-semibold">Government Colleges</td>
                 <td className="px-6 py-4 text-gray-700">₹50,000 - ₹1,50,000</td>
                 <td className="px-6 py-4 text-gray-700">₹25,000 - ₹75,000</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 text-gray-900 font-semibold">NIPER / IITs / ICT</td>
                 <td className="px-6 py-4 text-gray-700">₹1,50,000 - ₹3,00,000</td>
                 <td className="px-6 py-4 text-gray-700">₹75,000 - ₹1,50,000</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 text-gray-900 font-semibold">State Government Colleges</td>
                 <td className="px-6 py-4 text-gray-700">₹80,000 - ₹2,00,000</td>
                 <td className="px-6 py-4 text-gray-700">₹40,000 - ₹1,00,000</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 text-gray-900 font-semibold">Private Colleges (Affiliated)</td>
                 <td className="px-6 py-4 text-gray-700">₹2,00,000 - ₹4,50,000</td>
                 <td className="px-6 py-4 text-gray-700">₹1,00,000 - ₹2,25,000</td>
               </tr>
-              <tr className="hover:bg-pink-50">
+              <tr className="hover:bg-green-50">
                 <td className="px-6 py-4 text-gray-900 font-semibold">Deemed Universities</td>
                 <td className="px-6 py-4 text-gray-700">₹4,00,000 - ₹8,00,000</td>
                 <td className="px-6 py-4 text-gray-700">₹2,00,000 - ₹4,00,000</td>
@@ -1608,43 +1607,43 @@ export default function PharmaceuticalChemistryPage() {
         </div>
 
         {/* Additional Expenses */}
-        <div className="bg-gradient-to-br from-[#FFF9E5] to-[#FFF4D4] rounded-xl p-8 border-l-4 border-[#FFC107]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Additional Expenses Specific to Pharmaceutical Chemistry:</h3>
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">GPAT Registration:</span> ₹1,400 (General), ₹700 (SC/ST/OBC)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Books & Study Materials:</span> ₹12,000-18,000 per year (chemistry textbooks and reference books)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Laboratory Chemicals & Reagents:</span> Usually included in tuition, but some colleges charge for expensive reagents used in research (₹5,000-15,000)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Spectroscopy Analysis Charges:</span> NMR/Mass spec analysis if sent to external facilities (₹3,000-10,000 per project)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Computational Chemistry Software:</span> Usually provided by college, but personal licenses if needed (₹5,000-20,000)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Safety Equipment:</span> Lab coat, safety goggles, gloves (₹2,000-3,000)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Hostel & Mess:</span> ₹30,000-80,000 per year</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Research Project:</span> ₹15,000-30,000 (chemicals, glassware, characterization)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FFC107] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Conference Registration:</span> ₹3,000-15,000 (chemistry conferences for presenting research)</span>
             </li>
           </ul>
@@ -1653,36 +1652,36 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* Scholarships & Financial Support */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mb-12">
-        <h2 className="text-3xl font-bold text-[#C77DB6] mb-8">Scholarships & Financial Support</h2>
+        <h2 className="text-3xl font-bold text-[#006837] mb-8">Scholarships & Financial Support</h2>
 
-        <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-8 border-l-4 border-[#2ECC71]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <ul className="space-y-4 text-gray-700">
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students. Chemistry students often qualify easily due to high GPAT weightage.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">CSIR/UGC Fellowships:</span> If you qualify NET/JRF during M.Pharm, receive ₹31,000/month for remaining duration and Ph.D continuation.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Merit Scholarships:</span> Top government colleges offer 25-100% fee waivers for high GPAT percentile (typically 85+ percentile).</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Research Assistantships:</span> Chemistry faculty often have CSIR/DBT funded projects offering ₹8,000-12,000/month to M.Pharm students.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">SC/ST/OBC Scholarships:</span> Central and state government post-matric scholarships through National Scholarship Portal.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">CSIR Lab Stipends:</span> If pursuing M.Pharm at CSIR labs (CDRI, IICT, NCL), receive institutional fellowship of ₹12,400-15,000/month.</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2ECC71] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="text-[#006837] font-bold">Educational Loans:</span> Banks offer up to ₹10 lakhs without collateral. Interest rates: 8-12% per annum. Repayment after course + 1 year.</span>
             </li>
           </ul>
@@ -1706,16 +1705,16 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Q2 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#EC5BA5]">
-            <h3 className="text-xl font-bold text-[#EC5BA5] mb-4">Q2: What is the salary after M.Pharm Pharmaceutical Chemistry?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q2: What is the salary after M.Pharm Pharmaceutical Chemistry?</h3>
             <p className="text-gray-700 leading-relaxed">
               Entry-level M.Pharm Pharmaceutical Chemistry graduates earn ₹4-7 lakhs per annum. Medicinal Chemists earn ₹6-10 lakhs, Synthetic Chemists earn ₹5-9 lakhs, Drug Discovery Scientists earn ₹7-12 lakhs, Process Chemists earn ₹5-10 lakhs, and Research Scientists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹12-20 lakhs. Senior positions like Principal Scientist or Head of Medicinal Chemistry earn ₹25-45 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security and research freedom. Salaries are highest in multinational pharmaceutical companies (GSK, Pfizer, Novartis) and biotech firms focusing on drug discovery. Organic synthesis expertise commands premium in pharmaceutical R&D.
             </p>
           </div>
 
           {/* Q3 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#D958A8]">
-            <h3 className="text-xl font-bold text-[#D958A8] mb-4">Q3: What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q3: What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?</h3>
             <p className="text-gray-700 leading-relaxed">
               Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programs. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimization of lead compounds for therapeutic use. In M.Pharm programs, both terms generally refer to the same specialization covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the program name, but the content and outcomes are essentially the same.
             </p>
@@ -1730,16 +1729,16 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Q5 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#EC5BA5]">
-            <h3 className="text-xl font-bold text-[#EC5BA5] mb-4">Q5: Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q5: Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?</h3>
             <p className="text-gray-700 leading-relaxed">
               Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialization is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, found it confusing, or lack genuine interest in molecular structures, this specialization will be very difficult and frustrating. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead. Success requires genuine aptitude and interest in organic chemistry, not just memorization.
             </p>
           </div>
 
           {/* Q6 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#D958A8]">
-            <h3 className="text-xl font-bold text-[#D958A8] mb-4">Q6: What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q6: What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?</h3>
             <p className="text-gray-700 leading-relaxed">
               Pharmaceutical Chemistry focuses on creating and designing drug molecules through organic synthesis, while Pharmaceutical Analysis focuses on testing and quality control of existing drugs using analytical instruments. Chemistry involves synthesis work (making compounds), mechanism studies, structure modification, and drug design. Analysis involves instrument operation (HPLC, GC-MS), method validation, quality testing, and regulatory compliance. Chemistry requires strong organic chemistry background; Analysis requires understanding of analytical techniques and instruments. Chemistry offers medicinal chemist roles in discovery R&D (₹6-12 lakhs); Analysis offers QC/QA roles across all pharma companies (₹4-8 lakhs). Chemistry has moderate specialized demand; Analysis has universal high demand. Choose Chemistry if you love organic synthesis; choose Analysis if you prefer instrument operation and quality testing.
             </p>
@@ -1754,16 +1753,16 @@ export default function PharmaceuticalChemistryPage() {
           </div>
 
           {/* Q8 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#EC5BA5]">
-            <h3 className="text-xl font-bold text-[#EC5BA5] mb-4">Q8: Can I work in formulation or production after Pharmaceutical Chemistry?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q8: Can I work in formulation or production after Pharmaceutical Chemistry?</h3>
             <p className="text-gray-700 leading-relaxed">
               Yes, but not ideal utilization of specialization. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialized formulation training in tablet compression, coating, NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D (method development), drug discovery. If you want formulation career, Pharmaceutics specialization is more appropriate choice than Chemistry. Choose specialization based on actual career interest, not as backup plan.
             </p>
           </div>
 
           {/* Q9 */}
-          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#D958A8]">
-            <h3 className="text-xl font-bold text-[#D958A8] mb-4">Q9: Is M.Pharm Pharmaceutical Chemistry difficult?</h3>
+          <div className="bg-white rounded-xl p-6 shadow-md border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Q9: Is M.Pharm Pharmaceutical Chemistry difficult?</h3>
             <p className="text-gray-700 leading-relaxed">
               Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry, found it interesting in B.Pharm, and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry, found it confusing, or dislike laboratory synthesis work, it will be very difficult. The program requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimization), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It's arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work), but similar to or easier than Ph.D level research. Success factors: Strong organic chemistry foundation, patience for experimental work, logical thinking for mechanism problems, genuine interest in molecular design. Choose based on aptitude, not perceived difficulty.
             </p>
@@ -1788,56 +1787,56 @@ export default function PharmaceuticalChemistryPage() {
 
         <div className="space-y-6">
           {/* Reason 1 */}
-          <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-6 border-l-4 border-[#2ECC71]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">1. Design Molecules That Become Medicines</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">1. Design Molecules That Become Medicines</h3>
             <p className="text-gray-700 leading-relaxed">
               Pharmaceutical Chemistry offers the unique opportunity to design and synthesize new chemical entities that could become life-saving drugs. Unlike formulation (arranging existing molecules) or analysis (testing molecules), you create the molecules themselves. This molecular design work is intellectually fulfilling and positions you at the origin point of drug discovery where medicines are conceptualized and brought into existence.
             </p>
           </div>
 
           {/* Reason 2 */}
-          <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-6 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">2. Strong Foundation for Drug Discovery Careers</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">2. Strong Foundation for Drug Discovery Careers</h3>
             <p className="text-gray-700 leading-relaxed">
               Medicinal chemistry is the heart of pharmaceutical R&D. Every new drug starts with medicinal chemists designing and synthesizing candidates. Your expertise in SAR, synthesis, and molecular modification makes you invaluable in discovery research. Whether in multinational pharma companies, biotech firms, or CSIR labs, your ability to create drug molecules positions you in the most innovative part of pharmaceutical industry.
             </p>
           </div>
 
           {/* Reason 3 */}
-          <div className="bg-gradient-to-br from-[#D4F1F4] to-[#C8E8ED] rounded-xl p-6 border-l-4 border-[#2EBFCC]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">3. Excellent Academic & Research Career Path</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">3. Excellent Academic & Research Career Path</h3>
             <p className="text-gray-700 leading-relaxed">
               Pharmaceutical Chemistry offers clear pathway to academic careers with high demand for chemistry faculty in pharmacy colleges. Ph.D opportunities abundant at IITs, CSIR labs (CDRI, IICT, NCL), NIPER, and ICT Mumbai with good fellowships (₹31,000-35,000/month). Chemistry research is publication-rich - synthesis projects generate papers in good impact factor journals. Academic positions provide intellectual freedom, research autonomy, and respect in scientific community.
             </p>
           </div>
 
           {/* Reason 4 */}
-          <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-6 border-l-4 border-[#2ECC71]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">4. Intellectual Challenge & Problem-Solving</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">4. Intellectual Challenge & Problem-Solving</h3>
             <p className="text-gray-700 leading-relaxed">
               If you enjoy puzzles and problem-solving, chemistry offers constant intellectual stimulation. Planning synthetic routes is like solving puzzles - working backward from target molecule to available starting materials. Optimizing reaction conditions, understanding why reactions fail, designing better molecules based on SAR - all require creative thinking and logical reasoning. This intellectual challenge makes work engaging and prevents monotony.
             </p>
           </div>
 
           {/* Reason 5 */}
-          <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-6 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">5. Patent & IP Generation Opportunities</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">5. Patent & IP Generation Opportunities</h3>
             <p className="text-gray-700 leading-relaxed">
               Medicinal chemists frequently generate intellectual property through novel chemical entities, synthetic routes, and drug modifications. Being inventor on pharmaceutical patents adds significant career value, provides recognition, and can generate royalty income. Patent portfolio demonstrates innovation capability valued in both industry and academic positions. Chemistry specialization offers more patent opportunities than most other pharmacy specializations.
             </p>
           </div>
 
           {/* Reason 6 */}
-          <div className="bg-gradient-to-br from-[#D4F1F4] to-[#C8E8ED] rounded-xl p-6 border-l-4 border-[#2EBFCC]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">6. Versatile Skill Set with Multiple Applications</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">6. Versatile Skill Set with Multiple Applications</h3>
             <p className="text-gray-700 leading-relaxed">
               Organic synthesis skills are transferable across pharmaceutical industry. Beyond drug discovery, chemistry expertise valuable in: process chemistry (manufacturing scale-up), analytical method development, impurity identification, stability studies, formulation science (drug-excipient interactions), regulatory submissions (chemical documentation). This versatility provides career flexibility and pivot options if research careers don't work out.
             </p>
           </div>
 
           {/* Reason 7 */}
-          <div className="bg-gradient-to-br from-[#D4F9E2] to-[#C8F2DA] rounded-xl p-6 border-l-4 border-[#2ECC71]">
-            <h3 className="text-2xl font-bold text-[#C77DB6] mb-4">7. Global Recognition & Mobility</h3>
+          <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-4">7. Global Recognition & Mobility</h3>
             <p className="text-gray-700 leading-relaxed">
               Medicinal chemistry is universally recognized and valued worldwide. Chemical structures, reactions, and synthesis principles are universal language transcending geographic boundaries. This makes international career migration easier. Ph.D programs abroad actively recruit students with strong chemistry backgrounds. Postdoctoral positions and industry jobs available globally. Your chemistry expertise travels with you regardless of location.
             </p>
@@ -1847,12 +1846,13 @@ export default function PharmaceuticalChemistryPage() {
 
       {/* Ready to Design Tomorrow's Medicines - CTA */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#D77DB6] via-[#E94B8D] to-[#EC5BA5] rounded-2xl p-12 text-center shadow-2xl">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-6" style={{ color: '#FF6B9D' }}>Ready to Design Tomorrow's Medicines?</h2>
+        <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] rounded-2xl p-12 text-center shadow-2xl">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-white">Ready to Design Tomorrow's Medicines?</h2>
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutical Chemistry program and become a medicinal chemistry expert!</p>
 
           <button className="bg-white text-[#006837] px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105">
-            Apply Now for M.Pharm 2026
+            <span className="xs:hidden">Apply Now</span>
+            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
           </button>
 
           <p className="text-white mt-6 text-sm">
@@ -1888,7 +1888,7 @@ export default function PharmaceuticalChemistryPage() {
         </ul>
 
         {/* Non-Negotiable Pre-Admission Verification */}
-        <div className="bg-gradient-to-br from-[#FFE5F0] to-[#FFEEF6] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <AlertTriangle className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Non-Negotiable Pre-Admission Verification:</h3>
@@ -2005,8 +2005,6 @@ export default function PharmaceuticalChemistryPage() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

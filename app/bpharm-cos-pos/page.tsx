@@ -1,11 +1,11 @@
-'use client'
-
-import { useEffect } from 'react'
+import ResponsivePDFViewer from '@/components/ResponsivePDFViewer'
 
 export default function BPharmCosPosPage() {
-  useEffect(() => {
-    window.location.replace('/pdf/COs-POs-B.PHARM.pdf')
-  }, [])
-
-  return null
+  return (
+    <ResponsivePDFViewer
+      pdfUrl="/pdf/COs-POs-B.PHARM.pdf"
+      title="B.Pharm Course Outcomes & Program Outcomes"
+      description="View the detailed Course Outcomes (COs) and Program Outcomes (POs) for B.Pharm program."
+    />
+  )
 }

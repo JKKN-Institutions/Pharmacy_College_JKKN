@@ -121,17 +121,17 @@ export default function IPABhavaniKumarapalayamPage() {
                     <tbody>
                       <tr className="bg-[#FBFBEE]">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">1.</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. V. Senthil</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. VENKATESAN M</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">President</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9842650602</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9092690231</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">pharmacyprincipal@jkkn.ac.in</td>
                       </tr>
                       <tr className="bg-gray-50">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">2.</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. S. Ananda Thangadurai</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. Kishor kumar</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Vice President</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9443367700</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">pharmacyviceprincipal@jkkn.ac.in</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9361829237</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">kishorkumar.v@jkkn.ac.in</td>
                       </tr>
                       <tr className="bg-[#FBFBEE]">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">3.</td>
@@ -149,10 +149,10 @@ export default function IPABhavaniKumarapalayamPage() {
                       </tr>
                       <tr className="bg-[#FBFBEE]">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">5.</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. M.S. Arun</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. Revanth Ramachandran</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Hon . Joint Secretary</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9994851232</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">arun.ms@jkkn.ac.in</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">6381258721</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">revanth@jkkn.ac.in</td>
                       </tr>
                       <tr className="bg-gray-50">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">6.</td>
@@ -163,17 +163,17 @@ export default function IPABhavaniKumarapalayamPage() {
                       </tr>
                       <tr className="bg-[#FBFBEE]">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">7.</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. B. Rajkapoor</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr. Krantikumar</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Council Member</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9486700029</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">rajkapoor.balasubramanian@jkkn. ac.in</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">8237896788</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">perlikrantikumar@jkkn.ac.in </td>
                       </tr>
                       <tr className="bg-gray-50">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">8.</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Mr. V. Vijayanandhan</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Dr Abilash R</td>
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">Council Member</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">6383480658</td>
-                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">vijayanandhan@jkkn.ac.in</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9940353960</td>
+                        <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">abilashreddy@jkkn.ac.in</td>
                       </tr>
                       <tr className="bg-[#FBFBEE]">
                         <td className="border border-gray-300 px-4 py-3 text-sm md:text-base text-gray-700">9.</td>

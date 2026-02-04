@@ -1,11 +1,11 @@
-'use client'
-
-import { useEffect } from 'react'
+import ResponsivePDFViewer from '@/components/ResponsivePDFViewer'
 
 export default function MPharmTimeTablePage() {
-  useEffect(() => {
-    window.location.replace('/pdf/M.-Pharm-Time-Table-2023-24.pdf')
-  }, [])
-
-  return null
+  return (
+    <ResponsivePDFViewer
+      pdfUrl="/pdf/M.-Pharm-Time-Table-2023-24.pdf"
+      title="M.Pharm Time Table 2023-24"
+      description="View the complete academic schedule and time table for Master of Pharmacy program."
+    />
+  )
 }

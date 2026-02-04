@@ -18,6 +18,12 @@ export default function DetailsOfStudentsPage() {
               B.Pharm : 100 seats
             </h2>
           </div>
+          {/* B.Pharm lateral entry Section */}
+          <div className="mb-4 sm:mb-6 md:mb-8">
+            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
+              B.Pharm (Lateral Entry) : 10 seats
+            </h2>
+          </div>
 
           {/* M.Pharm Section */}
           <div className="mb-4 sm:mb-6 md:mb-8">
@@ -29,7 +35,7 @@ export default function DetailsOfStudentsPage() {
                 Branch I – Pharmaceutics – 15 Seats
               </p>
               <p className="text-base sm:text-lg text-gray-900">
-                Branch II – Pharm. Chemistry – 08 Seats
+                Branch II – Pharm. Chemistry – 10 Seats
               </p>
               <p className="text-base sm:text-lg text-gray-900">
                 Branch IV – Pharmacology – 15 Seats

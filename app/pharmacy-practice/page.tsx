@@ -1,7 +1,6 @@
 'use client'
 
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube } from 'lucide-react'
 
 export default function PharmacyPracticePage() {
@@ -20,7 +19,7 @@ export default function PharmacyPracticePage() {
 
       {/* What is M.Pharm in Pharmacy Practice Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#D4F1F4] via-[#E0F7FA] to-[#B2EBF2] rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] shadow-sm">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-6 border-b-4 border-[#7cb983] pb-3 inline-block">What is M.Pharm in Pharmacy Practice?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
@@ -230,7 +229,7 @@ export default function PharmacyPracticePage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
-        <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 lg:p-10">
+        <div className="bg-white rounded-xl p-8 lg:p-10">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Educational Qualification:</h3>
 
           <ul className="space-y-4 text-gray-800">
@@ -272,7 +271,7 @@ export default function PharmacyPracticePage() {
 
       {/* Important Note for Pharmacy Practice Aspirants */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Lightbulb className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Important Note for Pharmacy Practice Aspirants:</h3>
@@ -585,7 +584,7 @@ export default function PharmacyPracticePage() {
 
       {/* Typical Research Project Topics */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 lg:p-10">
+        <div className="bg-white rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
             <Microscope className="w-8 h-8" />
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-800">Typical Research Project Topics in Pharmacy Practice:</h2>
@@ -1098,7 +1097,7 @@ export default function PharmacyPracticePage() {
 
       {/* Key Decision Factors */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-6">
             <Lightbulb className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Key Decision Factors:</h3>
@@ -1171,7 +1170,7 @@ export default function PharmacyPracticePage() {
 
         <h3 className="text-2xl font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmacy Practice Specialization</h3>
 
-        <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 lg:p-10 mb-10 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 lg:p-10 mb-10 border-l-4 border-[#7cb983]">
           <h4 className="text-xl font-bold text-gray-800 mb-4">Research Areas in Pharmacy Practice:</h4>
           <ul className="space-y-3 text-gray-800">
             <li className="flex items-start">
@@ -1688,13 +1687,13 @@ export default function PharmacyPracticePage() {
           </div>
 
           {/* Reason 2 */}
-          <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">2. Growing Demand in Healthcare Sector</h3>
             <p className="text-gray-800">Indian healthcare is evolving. NABH (National Accreditation Board for Hospitals) accreditation increasingly requires clinical pharmacy services. Corporate hospital chains are establishing dedicated clinical pharmacy departments. Government initiatives promote rational drug use and medication safety. This creates sustainable demand for clinical pharmacists, unlike cyclical manufacturing jobs dependent on industry conditions.</p>
           </div>
 
           {/* Reason 3 */}
-          <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">3. Work-Life Balance & Regular Hours</h3>
             <p className="text-gray-800">Clinical pharmacy positions in hospitals typically follow day shifts (9 AM - 6 PM) without production pressures or night shifts common in manufacturing. Regular hours allow better work-life balance, family time, and personal development. Unlike quality control, there's no batch release pressure. Unlike formulation, there are no project deadlines. Clinical work is steady, predictable, and less stressful.</p>
           </div>
@@ -1706,13 +1705,13 @@ export default function PharmacyPracticePage() {
           </div>
 
           {/* Reason 5 */}
-          <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">5. Interprofessional Healthcare Teamwork</h3>
             <p className="text-gray-800">Work alongside physicians, nurses, and other healthcare professionals. Participate in multidisciplinary ward rounds, contribute to treatment decisions, and be part of patient care teams. This collaborative environment is intellectually stimulating and professionally enriching. You're not isolated in a laboratory; you're part of the broader healthcare system making a difference.</p>
           </div>
 
           {/* Reason 6 */}
-          <div className="bg-gradient-to-br from-[#E0F7FA] to-[#B2EBF2] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">6. Strong International Recognition</h3>
             <p className="text-gray-800">Clinical pharmacy is well-established globally. Pharmacy Practice qualification is recognized in USA, UK, Canada, Australia, and Gulf countries. International migration is easier compared to manufacturing-focused specializations. Clinical pharmacy skills are universal – medication therapy management, patient counseling, and drug information services translate across healthcare systems. This provides excellent mobility for international career opportunities.</p>
           </div>
@@ -1731,7 +1730,8 @@ export default function PharmacyPracticePage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 border-b-4 border-white pb-4 inline-block">Ready to Make a Difference in Patient Care?</h2>
           <p className="text-white text-lg mb-8 mt-8">Join our M.Pharm Pharmacy Practice program and become a clinical pharmacy professional!</p>
           <button className="bg-white text-[#006837] px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-colors shadow-lg">
-            Apply Now for M.Pharm 2026
+            <span className="xs:hidden">Apply Now</span>
+            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
           </button>
           <p className="text-white mt-6">PCI Approved | Hospital Partnerships | Clinical Training | AICTE Scholarship Eligible</p>
         </div>
@@ -1853,8 +1853,6 @@ export default function PharmacyPracticePage() {
           </ul>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

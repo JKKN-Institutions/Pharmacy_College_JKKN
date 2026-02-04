@@ -1,7 +1,6 @@
 'use client'
 
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import Image from 'next/image'
 import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube } from 'lucide-react'
 
@@ -13,7 +12,7 @@ export default function PhDPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-block bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-sm mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-sm mb-6">
             <GraduationCap className="w-10 h-10" />
             DOCTORAL PROGRAM 2026
           </div>
@@ -24,7 +23,7 @@ export default function PhDPage() {
 
       {/* What is Ph.D in Pharmacy Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-white rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-4 mb-6">
             <BookOpen className="w-10 h-10" />
             <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">What is Ph.D in Pharmacy?</h2>
@@ -43,32 +42,32 @@ export default function PhDPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <Clock className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Duration</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Duration</h3>
               <p className="text-gray-900 font-semibold text-lg">3-5 Years (Min 3, Max 6)</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <ClipboardList className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Eligibility</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Eligibility</h3>
               <p className="text-gray-900 font-semibold text-lg">M.Pharm/M.Sc + GPAT/NET/GATE</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <Target className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Focus</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Focus</h3>
               <p className="text-gray-900 font-semibold text-lg">Original Research & Thesis</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <IndianRupee className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Fellowship</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Fellowship</h3>
               <p className="text-gray-900 font-semibold text-lg">₹31,000 - ₹42,000/Month</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <BarChart className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Career Salary</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Career Salary</h3>
               <p className="text-gray-900 font-semibold text-lg">₹10-40 LPA (Professor/Scientist)</p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-md border border-gray-200 text-center">
               <FileText className="w-10 h-10" />
-              <h3 className="text-[#FF6B35] font-bold text-sm mb-2 uppercase">Publications Required</h3>
+              <h3 className="text-[#006837] font-bold text-sm mb-2 uppercase">Publications Required</h3>
               <p className="text-gray-900 font-semibold text-lg">Minimum 2-3 Research Papers</p>
             </div>
           </div>
@@ -82,7 +81,7 @@ export default function PhDPage() {
             <p className="text-white text-xl font-semibold px-4 text-center">State-of-the-art pharmaceutical research laboratory for Ph.D Learners</p>
           </div>
         </div>
-        <div className="bg-[#0B5D82] text-white p-6 rounded-b-xl text-center">
+        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
           <p className="text-lg font-medium">State-of-the-art Research Laboratory equipped with advanced instrumentation for doctoral research in pharmaceutical sciences</p>
         </div>
       </div>
@@ -96,16 +95,16 @@ export default function PhDPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
-          <div className="bg-[#D4F1E8] rounded-xl p-8 border-l-4 border-green-500">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">1. Highest Academic Qualification</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">1. Highest Academic Qualification</h3>
             <p className="text-gray-800 leading-relaxed">
               Ph.D is the pinnacle of academic achievement in pharmacy, conferring the title of "Doctor" and establishing you as an expert in your specialized field. This credential opens doors to the most prestigious positions in academia, industry, and research institutions worldwide.
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#1A9BB8]">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">2. Intellectual Leadership</h3>
+          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">2. Intellectual Leadership</h3>
             <p className="text-gray-800 leading-relaxed">
               Doctoral research develops your ability to identify knowledge gaps, formulate research questions, design experiments, and contribute original insights that advance pharmaceutical sciences. You become a thought leader shaping the future of healthcare.
             </p>
@@ -113,23 +112,23 @@ export default function PhDPage() {
 
           {/* Card 3 */}
           <div className="bg-[#FFE4D6] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">3. Lucrative Career Opportunities</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">3. Lucrative Career Opportunities</h3>
             <p className="text-gray-800 leading-relaxed">
               Ph.D holders command significantly higher salaries (₹15-40 LPA) compared to M.Pharm graduates. Positions as Professor, Principal, Senior Scientist, R&D Director, and Consultant are exclusively available to doctoral degree holders.
             </p>
           </div>
 
           {/* Card 4 */}
-          <div className="bg-[#D4F1E8] rounded-xl p-8 border-l-4 border-green-500">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">4. Fellowship & Financial Support</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">4. Fellowship & Financial Support</h3>
             <p className="text-gray-800 leading-relaxed">
               Qualified candidates receive substantial fellowships (₹31,000-42,000/month) throughout the program duration. Over 3-4 years, this amounts to ₹12-18 lakhs, making Ph.D financially viable while you pursue your passion for research.
             </p>
           </div>
 
           {/* Card 5 */}
-          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#1A9BB8]">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">5. Global Recognition & Mobility</h3>
+          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <h3 className="text-xl font-bold text-[#006837] mb-4">5. Global Recognition & Mobility</h3>
             <p className="text-gray-800 leading-relaxed">
               Ph.D credentials are recognized internationally, enabling postdoctoral opportunities abroad, faculty positions at foreign universities, and collaborations with global pharmaceutical companies and research institutions.
             </p>
@@ -137,7 +136,7 @@ export default function PhDPage() {
 
           {/* Card 6 */}
           <div className="bg-[#FFE4D6] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-xl font-bold text-[#0B9DB8] mb-4">6. Contribution to Healthcare</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">6. Contribution to Healthcare</h3>
             <p className="text-gray-800 leading-relaxed">
               Your doctoral research can lead to new drug discoveries, innovative delivery systems, and therapeutic breakthroughs that directly impact patient lives and public health outcomes globally.
             </p>
@@ -194,7 +193,7 @@ export default function PhDPage() {
           </div>
 
           {/* Pharmacology */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#1A9BB8]">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#7cb983]">
             <Dna className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Ph.D in Pharmacology</h3>
             <p className="text-gray-700 mb-4">Study drug mechanisms, therapeutic effects, toxicology, and develop new pharmacological interventions.</p>
@@ -226,7 +225,7 @@ export default function PhDPage() {
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Research Intensive</span>
-              <span className="bg-[#0B5D82] text-white text-xs font-semibold px-3 py-1 rounded-full">Academic</span>
+              <span className="bg-[#006837] text-white text-xs font-semibold px-3 py-1 rounded-full">Academic</span>
             </div>
           </div>
 
@@ -268,7 +267,7 @@ export default function PhDPage() {
           </div>
 
           {/* Pharmacognosy */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-green-600">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#7cb983]">
             <Leaf className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Ph.D in Pharmacognosy</h3>
             <p className="text-gray-700 mb-4">Research natural products, phytochemistry, herbal drug development, and ethnopharmacology.</p>
@@ -300,12 +299,12 @@ export default function PhDPage() {
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Growing Field</span>
-              <span className="bg-[#0B5D82] text-white text-xs font-semibold px-3 py-1 rounded-full">AYUSH</span>
+              <span className="bg-[#006837] text-white text-xs font-semibold px-3 py-1 rounded-full">AYUSH</span>
             </div>
           </div>
 
           {/* Pharmaceutical Analysis */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#1A9BB8]">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-t-4 border-[#7cb983]">
             <BarChart className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Ph.D in Pharmaceutical Analysis</h3>
             <p className="text-gray-700 mb-4">Develop analytical methods, bioanalytical techniques, and quality control protocols for pharmaceuticals.</p>
@@ -374,7 +373,7 @@ export default function PhDPage() {
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="bg-green-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Clinical</span>
-              <span className="bg-[#0B5D82] text-white text-xs font-semibold px-3 py-1 rounded-full">Hospital</span>
+              <span className="bg-[#006837] text-white text-xs font-semibold px-3 py-1 rounded-full">Hospital</span>
             </div>
           </div>
         </div>
@@ -387,7 +386,7 @@ export default function PhDPage() {
             <p className="text-white text-xl font-semibold px-4 text-center">Ph.D Learners conducting advanced pharmaceutical research</p>
           </div>
         </div>
-        <div className="bg-[#0B5D82] text-white p-6 rounded-b-xl text-center">
+        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
           <p className="text-lg font-medium">Doctoral Scholars engaged in cutting-edge pharmaceutical research under expert Learning Facilitator guidance</p>
         </div>
       </div>
@@ -399,8 +398,8 @@ export default function PhDPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Eligibility Criteria for Ph.D in Pharmacy</h2>
         </div>
 
-        <div className="bg-[#D4E8F8] rounded-2xl p-8 lg:p-12 border-l-4 border-[#1A9BB8] mb-8">
-          <h3 className="text-2xl font-bold text-[#0B9DB8] mb-6">Academic Qualifications</h3>
+        <div className="bg-[#D4E8F8] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] mb-8">
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Academic Qualifications</h3>
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
@@ -429,8 +428,8 @@ export default function PhDPage() {
           </ul>
         </div>
 
-        <div className="bg-[#FFE4D6] rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
-          <h3 className="text-2xl font-bold text-[#0B9DB8] mb-6">Entrance Examinations (Any One Required)</h3>
+        <div className="bg-[#FFE4D6] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Entrance Examinations (Any One Required)</h3>
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
@@ -471,8 +470,8 @@ export default function PhDPage() {
           </ul>
         </div>
 
-        <div className="bg-[#D4F1E8] rounded-2xl p-8 lg:p-12 border-l-4 border-green-500 mt-8">
-          <h3 className="text-2xl font-bold text-[#0B9DB8] mb-6">Additional Requirements</h3>
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] mt-8">
+          <h3 className="text-2xl font-bold text-[#006837] mb-6">Additional Requirements</h3>
           <ul className="space-y-4">
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
@@ -522,8 +521,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">CSIR-NET JRF</h3>
             <div className="text-center mb-6">
-              <p className="text-4xl font-bold text-[#FF6B35] mb-2">₹37,000 -</p>
-              <p className="text-4xl font-bold text-[#FF6B35]">₹42,000/month</p>
+              <p className="text-4xl font-bold text-[#006837] mb-2">₹37,000 -</p>
+              <p className="text-4xl font-bold text-[#006837]">₹42,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center">
               <p>+ HRA (24% of fellowship)</p>
@@ -533,7 +532,7 @@ export default function PhDPage() {
           </div>
 
           {/* UGC-NET JRF */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#1A9BB8]">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">UGC-NET JRF</h3>
             <div className="text-center mb-6">
               <p className="text-4xl font-bold text-[#1A9BB8] mb-2">₹37,000 -</p>
@@ -550,7 +549,7 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">GPAT Fellowship</h3>
             <div className="text-center mb-6">
-              <p className="text-4xl font-bold text-[#FF6B35]">₹31,000/month</p>
+              <p className="text-4xl font-bold text-[#006837]">₹31,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center">
               <p>AICTE Scholarship</p>
@@ -560,7 +559,7 @@ export default function PhDPage() {
           </div>
 
           {/* GATE Fellowship */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-green-600">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">GATE Fellowship</h3>
             <div className="text-center mb-6">
               <p className="text-4xl font-bold text-green-600">₹31,000/month</p>
@@ -573,7 +572,7 @@ export default function PhDPage() {
           </div>
 
           {/* ICMR-JRF */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#1A9BB8]">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">ICMR-JRF</h3>
             <div className="text-center mb-6">
               <p className="text-4xl font-bold text-[#1A9BB8] mb-2">₹37,000 -</p>
@@ -590,8 +589,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">DBT-JRF</h3>
             <div className="text-center mb-6">
-              <p className="text-4xl font-bold text-[#FF6B35] mb-2">₹37,000 -</p>
-              <p className="text-4xl font-bold text-[#FF6B35]">₹42,000/month</p>
+              <p className="text-4xl font-bold text-[#006837] mb-2">₹37,000 -</p>
+              <p className="text-4xl font-bold text-[#006837]">₹42,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center">
               <p>+ HRA (as applicable)</p>
@@ -601,7 +600,7 @@ export default function PhDPage() {
           </div>
 
           {/* University Fellowship */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-green-600">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">University Fellowship</h3>
             <div className="text-center mb-6">
               <p className="text-4xl font-bold text-green-600 mb-2">₹15,000 -</p>
@@ -615,7 +614,7 @@ export default function PhDPage() {
           </div>
 
           {/* Industry Sponsored */}
-          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#1A9BB8]">
+          <div className="bg-white rounded-xl p-8 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xl font-bold text-[#006837] mb-4 text-center">Industry Sponsored</h3>
             <div className="text-center mb-6">
               <p className="text-4xl font-bold text-[#1A9BB8] mb-2">₹25,000 -</p>
@@ -714,8 +713,8 @@ export default function PhDPage() {
 
       {/* Mandatory Requirements for Ph.D Completion Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-[#D4E8F8] rounded-2xl p-8 lg:p-12 border-l-4 border-[#1A9BB8]">
-          <h3 className="text-2xl font-bold text-[#0B9DB8] mb-8">Mandatory Requirements for Ph.D Completion</h3>
+        <div className="bg-[#D4E8F8] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
+          <h3 className="text-2xl font-bold text-[#006837] mb-8">Mandatory Requirements for Ph.D Completion</h3>
           <ul className="space-y-4 text-gray-800">
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
@@ -882,7 +881,7 @@ export default function PhDPage() {
             <p className="text-white text-xl font-semibold px-4 text-center">Advanced research instrumentation facility for doctoral research</p>
           </div>
         </div>
-        <div className="bg-[#0B5D82] text-white p-6 rounded-b-xl text-center">
+        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
           <p className="text-lg font-medium">Central Instrumentation Facility with HPLC, LC-MS, NMR, FTIR, DSC and advanced analytical equipment</p>
         </div>
       </div>
@@ -900,19 +899,19 @@ export default function PhDPage() {
             <p className="text-gray-700 mb-4">Navigate complex drug approval processes</p>
             <ul className="space-y-2 text-gray-700 text-sm">
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Drug Controller General of India (DCGI)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Regulatory consultancy services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>FDA/EMA submission expertise</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Clinical trials regulation</span>
               </li>
             </ul>
@@ -928,19 +927,19 @@ export default function PhDPage() {
             <p className="text-gray-700 mb-4">Advanced research at international institutions</p>
             <ul className="space-y-2 text-gray-700 text-sm">
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>US, UK, Germany, Australia universities</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Cutting-edge research exposure</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>International publications and collaborations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Pathway to permanent faculty positions abroad</span>
               </li>
             </ul>
@@ -956,19 +955,19 @@ export default function PhDPage() {
             <p className="text-gray-700 mb-4">Start your own venture or consultancy</p>
             <ul className="space-y-2 text-gray-700 text-sm">
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Biotech/pharma startup founder</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Research and development consultancy</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Contract research organization (CRO)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#FF6B35] mr-2">→</span>
+                <span className="text-[#006837] mr-2">→</span>
                 <span>Academic consulting and training</span>
               </li>
             </ul>
@@ -978,8 +977,8 @@ export default function PhDPage() {
 
       {/* Career Growth Trajectory */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-[#D4F1E8] rounded-2xl p-8 lg:p-12 border-l-4 border-green-500">
-          <h2 className="text-3xl font-bold text-[#0B9DB8] mb-8">Career Growth Trajectory</h2>
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
+          <h2 className="text-3xl font-bold text-[#006837] mb-8">Career Growth Trajectory</h2>
           <div className="space-y-3 text-gray-800">
             <p><span className="font-bold">Academia:</span> Assistant Professor (₹60-80K/month) → Associate Professor (₹1-1.5L/month) → Professor (₹1.5-2L/month) → Dean/Principal (₹2-3L/month)</p>
             <p><span className="font-bold">Industry:</span> Senior Scientist (₹1-1.5L/month) → Principal Scientist (₹1.5-2.5L/month) → Research Director (₹3-5L/month) → VP R&D (₹5-8L/month)</p>
@@ -1049,8 +1048,8 @@ export default function PhDPage() {
 
       {/* Selection Criteria */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="bg-[#D4E8F8] rounded-2xl p-8 lg:p-12 border-l-4 border-[#1A9BB8]">
-          <h2 className="text-2xl font-bold text-[#0B9DB8] mb-8">Selection Criteria for Choosing Ph.D Institution</h2>
+        <div className="bg-[#D4E8F8] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
+          <h2 className="text-2xl font-bold text-[#006837] mb-8">Selection Criteria for Choosing Ph.D Institution</h2>
           <ul className="space-y-4 text-gray-800">
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
@@ -1103,7 +1102,7 @@ export default function PhDPage() {
           {/* Step 1 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 1
               </div>
               <div>
@@ -1116,7 +1115,7 @@ export default function PhDPage() {
           {/* Step 2 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 2
               </div>
               <div>
@@ -1129,7 +1128,7 @@ export default function PhDPage() {
           {/* Step 3 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 3
               </div>
               <div>
@@ -1142,7 +1141,7 @@ export default function PhDPage() {
           {/* Step 4 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 4
               </div>
               <div>
@@ -1155,7 +1154,7 @@ export default function PhDPage() {
           {/* Step 5 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 5
               </div>
               <div>
@@ -1168,7 +1167,7 @@ export default function PhDPage() {
           {/* Step 6 */}
           <div className="bg-white rounded-xl p-8 shadow-md">
             <div className="flex items-start gap-4">
-              <div className="flex-shrink-0 w-12 h-12 bg-[#0B5D82] rounded-full flex items-center justify-center text-white font-bold text-xl">
+              <div className="flex-shrink-0 w-12 h-12 bg-[#006837] rounded-full flex items-center justify-center text-white font-bold text-xl">
                 6
               </div>
               <div>
@@ -1455,8 +1454,8 @@ export default function PhDPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {/* Regulatory Approvals */}
-          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#1A9BB8]">
-            <h3 className="text-2xl font-bold text-[#0B9DB8] mb-6">Regulatory Approvals</h3>
+          <div className="bg-[#D4E8F8] rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <h3 className="text-2xl font-bold text-[#006837] mb-6">Regulatory Approvals</h3>
             <ul className="space-y-4 text-gray-800">
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
@@ -1487,7 +1486,7 @@ export default function PhDPage() {
 
           {/* Research Quality Indicators */}
           <div className="bg-[#FFE4D6] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#0B9DB8] mb-6">Research Quality Indicators</h3>
+            <h3 className="text-2xl font-bold text-[#006837] mb-6">Research Quality Indicators</h3>
             <ul className="space-y-4 text-gray-800">
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
@@ -1559,8 +1558,6 @@ export default function PhDPage() {
           </ul>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

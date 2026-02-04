@@ -98,10 +98,10 @@ export default function LibraryPage() {
             </h2>
 
             <p className="text-gray-700 mb-2">
-              <strong>Morning: 8.30 AM</strong>
+              <strong>Morning: 9.00 AM</strong>
             </p>
             <p className="text-gray-700">
-              <strong>Evening: 5.30 pm</strong>
+              <strong>Evening: 4.30 pm</strong>
             </p>
           </div>
 

@@ -63,7 +63,7 @@ export default function GeneralRulesPage() {
               </h2>
 
               <p className="mb-4">
-                The working day is divided into two sessions. The forenoon session and the afternoon session (College Timings: 9.00 am to 5.00 pm) and Lunch 1 hour.
+                The working day is divided into two sessions. The forenoon session and the afternoon session (College Timings: 9.05 am to 4.30 pm) and Lunch 1 hour.
               </p>
 
               <p className="mb-4">

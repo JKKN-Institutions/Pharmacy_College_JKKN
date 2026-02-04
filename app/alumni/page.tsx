@@ -19,7 +19,7 @@ export default function AlumniPage() {
             </p>
 
             <p>
-              At JKK Nattraja College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 900 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called J.K.K.Nattraja College of Pharmacy Alumni Association-Komarapalayam, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRC/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the J.K.K.Nattraja campus has hosted various alumni meets where alumni have given valuable suggestions.
+              At JKK Nattraja College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the J.K.K.Nattraja campus has hosted various alumni meets where alumni have given valuable suggestions.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export default function AlumniPage() {
               <li className="flex items-start">
                 <span className="text-gray-900 mr-3">•</span>
                 <span className="text-gray-700">
-                  To update the alumni during the alumni, meet with the latest developments and academic achievements of J.K.K.Nattraja College of Pharmacy.
+                  To update the alumni during the alumni meet with the latest developments and academic achievements of J.K.K.Nattraja College of Pharmacy.
                 </span>
               </li>
               <li className="flex items-start">
@@ -56,7 +56,7 @@ export default function AlumniPage() {
               <li className="flex items-start">
                 <span className="text-gray-900 mr-3">•</span>
                 <span className="text-gray-700">
-                  To maintain an alumni website (powered by Vave) for building and managing the alumni databases and successful reunions.
+                  To maintain an alumni website (powered by myjkkn) for building and managing the alumni databases and successful reunions.
                 </span>
               </li>
               <li className="flex items-start">
@@ -76,15 +76,15 @@ export default function AlumniPage() {
 
           <div className="mb-4 sm:mb-6 md:mb-8">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6">
-              The President of the committee conducts a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
+              The co-ordinators of the committee conducts a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              Name of the society: J.K.K.Nattraja College of Pharmacy Alumni association-Kumarapalayam,
+              Name of the society: JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM,
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Address: J.K.K.Nattraja Educational Institutions, NH-544 (Salem To Coimbatore)
+              Address: JKKN College of Pharmacy, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT), Tamil Nadu, 638183.
             </p>
 
             <a
@@ -168,8 +168,8 @@ export default function AlumniPage() {
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">3.</td>
-                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. S. Ananda Thangadurai</td>
-                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Vice Principal</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. N. Venkateswaramurthy</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Professor</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Member</td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
@@ -180,8 +180,8 @@ export default function AlumniPage() {
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">5.</td>
-                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Dr. S. Satheesh</td>
-                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Assistant Professor</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Mr. M. Eswaramoorthy</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-700">Associate Professor</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">Member</td>
                   </tr>
                 </tbody>

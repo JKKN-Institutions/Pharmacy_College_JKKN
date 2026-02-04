@@ -218,107 +218,102 @@ export default function InstitutionsInnovationCouncilPage() {
               <tbody>
                 <tr>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">1</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. V. Senthil</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. VENKATESAN M</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">President</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">3</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">2</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. V. Sekar</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">4</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">3</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. M. Vijayabaskaran</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Startup activity</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">5</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">4</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. N. Venkateshwaramurthy</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">NISP, NIRF</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">7</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. S. Ananda Thangadurai</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">5</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Venkateswarmurthy</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">8</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">6</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. B. Rajkapoor</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">9</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. K. Rajendran</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">7</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. VIJAYABASKARAN MANICKAM</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">ARIIA</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">10</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">8</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. V. Kishor Kumar</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">11</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">9</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. V. Venkateswaran</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">12</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">10</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Mrs. P. Devi</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">13</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Krishna Ravi</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">11</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Karthika J</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">14</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Minnu Skaria</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">12</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. KARTHICK S</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">15</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">13</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Ms. V. Thenmozhi</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">16</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. M.S. Arun</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">14</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Revanth Ramachandran</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Vice President</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">17</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">15</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr.R. Arun</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">IPR Coordinator</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">18</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. V. Vijayanandhan</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">16</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. Krantikumar</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">19</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">17</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. S. Karthickraja</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">20</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Dr. S. Satheesh</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
-                </tr>
-                <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">21</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mrs. M.V. Saranya</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">18</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. Saravanan .J</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr className="bg-[#f9f9f9]">
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">22</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Ms. K.S. Nilkhitha</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">19</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mrs. J. Shavitha</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
                 <tr>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">23</td>
-                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. M.Eswara Moorthi</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">20</td>
+                  <td className="border border-gray-400 px-4 py-3 text-gray-700">Mr. M. Eswara Moorthi</td>
                   <td className="border border-gray-400 px-4 py-3 text-gray-700">Member</td>
                 </tr>
               </tbody>

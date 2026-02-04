@@ -15,8 +15,8 @@ export default function HostelPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-start">
             {/* Boys Hostel Image */}
-            <div className="w-full max-w-md">
-              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg">
+            <div className="w-full">
+              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src="/images/hostel-1.webp"
                   alt="Boys Hostel"
@@ -65,8 +65,8 @@ export default function HostelPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-start">
             {/* Girls Hostel Image */}
-            <div className="w-full max-w-md">
-              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg">
+            <div className="w-full">
+              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg shadow-lg">
                 <img
                   src="/images/hostel-2.webp"
                   alt="Girls Hostel"

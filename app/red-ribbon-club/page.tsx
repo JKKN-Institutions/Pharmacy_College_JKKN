@@ -80,7 +80,7 @@ export default function RedRibbonClubPage() {
             <div className="space-y-4">
               {/* Member 1 */}
               <div>
-                <p className="font-semibold text-gray-700">1. Dr. V. SENTHIL, Chief Patron,</p>
+                <p className="font-semibold text-gray-700">1. Dr. VENKATESAN M, Chief Patron,</p>
                 <p className="text-gray-700">Principal,</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
                 <p className="text-gray-700">B. Kumarapalayam.</p>
@@ -88,8 +88,8 @@ export default function RedRibbonClubPage() {
 
               {/* Member 2 */}
               <div>
-                <p className="font-semibold text-gray-700">2. DR.S.ANANDA THANGADURAI, Patron,</p>
-                <p className="text-gray-700">Vice-Principal,</p>
+                <p className="font-semibold text-gray-700">2. DR. SEKAR V, Patron,</p>
+                <p className="text-gray-700">Professor and HOD analysis dept,</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
                 <p className="text-gray-700">B. Kumarapalayam.</p>
               </div>
@@ -104,16 +104,16 @@ export default function RedRibbonClubPage() {
 
               {/* Member 4 */}
               <div>
-                <p className="font-semibold text-gray-700">4. MR. G.K.BHOOPENDRA, Co- Convener,</p>
-                <p className="text-gray-700">III.B.Pharm Student (VI Sem),</p>
+                <p className="font-semibold text-gray-700">4. MR. Gowtham.M, Co- Convener,</p>
+                <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">Kumarapalayam.</p>
+                <p className="text-gray-700">B. Kumarapalayam.</p>
               </div>
 
               {/* Member 5 */}
               <div>
-                <p className="font-semibold text-gray-700">5. MR. S. DHEEPAKUMAR, Member,</p>
-                <p className="text-gray-700">III.B.Pharm Student (VI Sem),</p>
+                <p className="font-semibold text-gray-700">5. MR. N.Santhosh, Member,</p>
+                <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
                 <p className="text-gray-700">B. Kumarapalayam.</p>
               </div>

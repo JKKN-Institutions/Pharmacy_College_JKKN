@@ -127,7 +127,7 @@ export default function YouthRedCrossPage() {
         <div className="mb-4 sm:mb-6 md:mb-8">
           <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">COLLEGE LEVEL ADVISORY COMMITTEE</h2>
           <div className="text-sm sm:text-base text-gray-700 leading-relaxed space-y-1">
-            <p>1. Dr. V. SENTHIL, Chairman,</p>
+            <p>1. Dr. VENKATESAN M, Chairman,</p>
             <p>Principal,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
             <p>B. Kumarapalayam.</p>
@@ -135,19 +135,19 @@ export default function YouthRedCrossPage() {
             <p>Y.R.C. Programme Officer,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
             <p>B. Kumarapalayam.</p>
-            <p className="mt-3">3. Dr. S.ANANDA THANGADURAI, Member,</p>
-            <p>Vice-Principal,</p>
+            <p className="mt-3">3. Dr.SEKAR V, Member,</p>
+            <p>Professor and HOD analysis dept,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
             <p>B. Kumarapalayam.</p>
             <p className="mt-3">4. Mr. V. VENKATESWARAN, Member,</p>
             <p>Associate Professor,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
             <p>B. Kumarapalayam.</p>
-            <p className="mt-3">5. Mr. B.IBRAHIM, Unit Student Chairman,</p>
-            <p>III.B.Pharm Student (VI Sem),</p>
+            <p className="mt-3">5. Mr. K.Prabhu, Unit Student Chairman,</p>
+            <p>IV.B.Pharm Student (VII Sem),</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
             <p>B. Kumarapalayam.</p>
-            <p className="mt-4">Send your related queries to Email:  grievancesjkkncp@gmail.com</p>
+            <p className="mt-4">Send your related queries to Email: <b>grievancesjkkncp@gmail.com</b></p>
           </div>
         </div>
       </div>

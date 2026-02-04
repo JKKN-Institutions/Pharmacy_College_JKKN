@@ -1,11 +1,11 @@
-'use client'
-
-import { useEffect } from 'react'
+import ResponsivePDFViewer from '@/components/ResponsivePDFViewer'
 
 export default function FacultyProfilePage() {
-  useEffect(() => {
-    window.location.replace('/pdf/FACULTY-PROFILE.pdf')
-  }, [])
-
-  return null
+  return (
+    <ResponsivePDFViewer
+      pdfUrl="/pdf/FACULTY-PROFILE.pdf"
+      title="Faculty Profile"
+      description="View detailed profiles of our distinguished faculty members at JKKN College of Pharmacy."
+    />
+  )
 }

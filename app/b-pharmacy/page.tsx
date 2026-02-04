@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import { GraduationCap, ClipboardList, BookOpen, Briefcase, Building2, Scale, FileText, IndianRupee, Target, Star, HelpCircle, ScrollText, CheckCircle } from 'lucide-react';
 
 export default function BPharmacyPage() {
@@ -36,21 +35,21 @@ export default function BPharmacyPage() {
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#006837] font-bold text-sm mb-3 uppercase">Duration</h3>
-              <p className="text-gray-800 text-lg font-semibold">4 Years (8 Semesters)</p>
+              <p className="text-gray-800 text-sm xs:text-base sm:text-lg font-semibold">4 Years (8 Semesters)</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#006837] font-bold text-sm mb-3 uppercase">Eligibility</h3>
-              <p className="text-gray-800 text-lg font-semibold">+2 with PCM/B (50%)</p>
+              <p className="text-gray-800 text-sm xs:text-base sm:text-lg font-semibold">+2 with PCM/B (50%)</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#006837] font-bold text-sm mb-3 uppercase">Governing Body</h3>
-              <p className="text-gray-800 text-lg font-semibold">Pharmacy Council of India</p>
+              <p className="text-gray-800 text-sm xs:text-base sm:text-lg font-semibold">Pharmacy Council of India</p>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+            <div className="bg-white p-4 sm:p-5 md:p-6 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#006837] font-bold text-sm mb-3 uppercase">Average Salary</h3>
-              <p className="text-gray-800 text-lg font-semibold">₹3-6 Lakhs/Year</p>
+              <p className="text-gray-800 text-sm xs:text-base sm:text-lg font-semibold">₹3-6 Lakhs/Year</p>
             </div>
           </div>
         </div>
@@ -82,40 +81,40 @@ export default function BPharmacyPage() {
 
           {/* Entrance Examinations Table */}
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#006837] mb-4 sm:mb-6">Entrance Examinations Accepted</h3>
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
+          <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-xs sm:text-sm md:text-base">
               <thead>
                 <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                  <th className="px-6 py-4 text-left font-bold">Level</th>
-                  <th className="px-6 py-4 text-left font-bold">Examination</th>
-                  <th className="px-6 py-4 text-left font-bold">Applicability</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Level</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Examination</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Applicability</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">State Level</td>
-                  <td className="px-6 py-4 text-gray-700">MHT-CET</td>
-                  <td className="px-6 py-4 text-gray-700">Maharashtra</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">State Level</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">MHT-CET</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Maharashtra</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">State Level</td>
-                  <td className="px-6 py-4 text-gray-700">KCET</td>
-                  <td className="px-6 py-4 text-gray-700">Karnataka</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">State Level</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">KCET</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Karnataka</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">State Level</td>
-                  <td className="px-6 py-4 text-gray-700">TS EAMCET</td>
-                  <td className="px-6 py-4 text-gray-700">Telangana</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">State Level</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">TS EAMCET</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Telangana</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">State Level</td>
-                  <td className="px-6 py-4 text-gray-700">AP EAMCET</td>
-                  <td className="px-6 py-4 text-gray-700">Andhra Pradesh</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">State Level</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">AP EAMCET</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Andhra Pradesh</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Management Quota</td>
-                  <td className="px-6 py-4 text-gray-700">Direct Admission</td>
-                  <td className="px-6 py-4 text-gray-700">Based on +2 marks</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Management Quota</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Direct Admission</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Based on +2 marks</td>
                 </tr>
               </tbody>
             </table>
@@ -588,7 +587,7 @@ export default function BPharmacyPage() {
           {/* Pharmaceutical Companies */}
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#006837] mb-4 sm:mb-6">Pharmaceutical Companies</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:border-[#7cb983] hover:shadow-md transition-all">
                 <p className="text-gray-800 font-semibold">Sun Pharmaceutical</p>
               </div>
@@ -619,7 +618,7 @@ export default function BPharmacyPage() {
           {/* Multinational Corporations */}
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#006837] mb-4 sm:mb-6">Multinational Corporations</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:border-[#7cb983] hover:shadow-md transition-all">
                 <p className="text-gray-800 font-semibold">GlaxoSmithKline</p>
               </div>
@@ -644,7 +643,7 @@ export default function BPharmacyPage() {
           {/* Healthcare Chains */}
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-[#006837] mb-4 sm:mb-6">Healthcare Chains</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
               <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:border-[#7cb983] hover:shadow-md transition-all">
                 <p className="text-gray-800 font-semibold">Apollo Hospitals</p>
               </div>
@@ -675,46 +674,46 @@ export default function BPharmacyPage() {
           </h2>
           <div className="border-b-4 border-[#7cb983] w-full mb-4 sm:mb-6 md:mb-8"></div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
+          <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-xs sm:text-sm md:text-base">
               <thead>
                 <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                  <th className="px-6 py-4 text-left font-bold">Program</th>
-                  <th className="px-6 py-4 text-left font-bold">Duration</th>
-                  <th className="px-6 py-4 text-left font-bold">Specializations</th>
-                  <th className="px-6 py-4 text-left font-bold">Average Fees</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Program</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Duration</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Specializations</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Average Fees</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">M.Pharm</td>
-                  <td className="px-6 py-4 text-gray-700">2 Years</td>
-                  <td className="px-6 py-4 text-gray-700">Pharmaceutics, Pharmacology, Chemistry, QA, Pharmaceutical Analysis, Pharmaceutical Chemistry, Pharmacy Practice, Regulatory Affairs</td>
-                  <td className="px-6 py-4 text-gray-700">₹50,000-3 Lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">M.Pharm</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">2 Years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharmaceutics, Pharmacology, Chemistry, QA, Pharmaceutical Analysis, Pharmaceutical Chemistry, Pharmacy Practice, Regulatory Affairs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹50,000-3 Lakhs</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Pharm.D (Post Baccalaureate)</td>
-                  <td className="px-6 py-4 text-gray-700">3 Years</td>
-                  <td className="px-6 py-4 text-gray-700">Doctor of Pharmacy</td>
-                  <td className="px-6 py-4 text-gray-700">₹50,000-3 Lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Pharm.D (Post Baccalaureate)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">3 Years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Doctor of Pharmacy</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹50,000-3 Lakhs</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">MBA (Pharma)</td>
-                  <td className="px-6 py-4 text-gray-700">2 Years</td>
-                  <td className="px-6 py-4 text-gray-700">Pharmaceutical Management</td>
-                  <td className="px-6 py-4 text-gray-700">₹2-10 Lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">MBA (Pharma)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">2 Years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharmaceutical Management</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹2-10 Lakhs</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">M.Sc Clinical Research</td>
-                  <td className="px-6 py-4 text-gray-700">2 Years</td>
-                  <td className="px-6 py-4 text-gray-700">Clinical Trials, Research</td>
-                  <td className="px-6 py-4 text-gray-700">₹1-4 Lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">M.Sc Clinical Research</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">2 Years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Clinical Trials, Research</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹1-4 Lakhs</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Ph.D</td>
-                  <td className="px-6 py-4 text-gray-700">3-5 Years</td>
-                  <td className="px-6 py-4 text-gray-700">Pharmaceutical Sciences</td>
-                  <td className="px-6 py-4 text-gray-700">Research Fellowships Available</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Ph.D</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">3-5 Years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharmaceutical Sciences</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Research Fellowships Available</td>
                 </tr>
               </tbody>
             </table>
@@ -729,52 +728,52 @@ export default function BPharmacyPage() {
           </h2>
           <div className="border-b-4 border-[#7cb983] w-full mb-4 sm:mb-6 md:mb-8"></div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
+          <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-xs sm:text-sm md:text-base">
               <thead>
                 <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                  <th className="px-6 py-4 text-left font-bold">Feature</th>
-                  <th className="px-6 py-4 text-left font-bold">B.Pharm</th>
-                  <th className="px-6 py-4 text-left font-bold">D.Pharm</th>
-                  <th className="px-6 py-4 text-left font-bold">PharmD</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Feature</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">B.Pharm</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">D.Pharm</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">PharmD</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Duration</td>
-                  <td className="px-6 py-4 text-gray-700">4 years</td>
-                  <td className="px-6 py-4 text-gray-700">2 years</td>
-                  <td className="px-6 py-4 text-gray-700">6 years (incl. internship)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Duration</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">4 years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">2 years</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">6 years (incl. internship)</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Eligibility</td>
-                  <td className="px-6 py-4 text-gray-700">10+2 PCM/B</td>
-                  <td className="px-6 py-4 text-gray-700">10+2 PCM/B</td>
-                  <td className="px-6 py-4 text-gray-700">10+2 PCM/B</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Eligibility</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">10+2 PCM/B</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">10+2 PCM/B</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">10+2 PCM/B</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Focus</td>
-                  <td className="px-6 py-4 text-gray-700">Industrial pharmacy, research</td>
-                  <td className="px-6 py-4 text-gray-700">Clinical pharmacy basics</td>
-                  <td className="px-6 py-4 text-gray-700">Clinical pharmacy practice</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Focus</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Industrial pharmacy, research</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Clinical pharmacy basics</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Clinical pharmacy practice</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Career Scope</td>
-                  <td className="px-6 py-4 text-gray-700">Pharma industry, research, drug inspector, Government Pharmacist</td>
-                  <td className="px-6 py-4 text-gray-700">Retail pharmacy, Government Pharmacist</td>
-                  <td className="px-6 py-4 text-gray-700">Hospital clinical pharmacy, Government Pharmacist</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Career Scope</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharma industry, research, drug inspector, Government Pharmacist</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Retail pharmacy, Government Pharmacist</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Hospital clinical pharmacy, Government Pharmacist</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Higher Studies</td>
-                  <td className="px-6 py-4 text-gray-700">M.Pharm, MBA, Ph.D</td>
-                  <td className="px-6 py-4 text-gray-700">B.Pharm (lateral entry)</td>
-                  <td className="px-6 py-4 text-gray-700">Ph.D</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Higher Studies</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">M.Pharm, MBA, Ph.D</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">B.Pharm (lateral entry)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Ph.D</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-[#006837] font-bold">Average Salary</td>
-                  <td className="px-6 py-4 text-gray-700">₹3-6 lakhs</td>
-                  <td className="px-6 py-4 text-gray-700">₹2-3.5 lakhs</td>
-                  <td className="px-6 py-4 text-gray-700">₹4-8 lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Average Salary</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹3-6 lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹2-3.5 lakhs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹4-8 lakhs</td>
                 </tr>
               </tbody>
             </table>
@@ -906,30 +905,30 @@ export default function BPharmacyPage() {
             <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
               <thead>
                 <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                  <th className="px-6 py-4 text-left font-bold">College Type</th>
-                  <th className="px-6 py-4 text-left font-bold">Total Fees (4 Years)</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">College Type</th>
+                  <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-left font-bold">Total Fees (4 Years)</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-gray-800">Government Colleges</td>
-                  <td className="px-6 py-4 text-gray-700">₹20,000 - ₹1,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Government Colleges</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹20,000 - ₹1,00,000</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-gray-800">State Government Colleges</td>
-                  <td className="px-6 py-4 text-gray-700">₹50,000 - ₹2,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">State Government Colleges</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹50,000 - ₹2,00,000</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-gray-800">Private Colleges (Aided)</td>
-                  <td className="px-6 py-4 text-gray-700">₹2,00,000 - ₹4,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Private Colleges (Aided)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹2,00,000 - ₹4,00,000</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-gray-800">Private Colleges (Unaided)</td>
-                  <td className="px-6 py-4 text-gray-700">₹4,00,000 - ₹8,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Private Colleges (Unaided)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹4,00,000 - ₹8,00,000</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
-                  <td className="px-6 py-4 text-gray-800">Deemed Universities</td>
-                  <td className="px-6 py-4 text-gray-700">₹6,00,000 - ₹12,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Deemed Universities</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹6,00,000 - ₹12,00,000</td>
                 </tr>
               </tbody>
             </table>
@@ -1226,7 +1225,8 @@ export default function BPharmacyPage() {
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-xl mb-8">Join the next batch of B.Pharm and become a licensed pharmacist in 4 years!</p>
             <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-lg font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block">
-              Apply Now for B.Pharm 2026
+              <span className="xs:hidden">Apply Now</span>
+              <span className="hidden xs:inline">Apply Now for B.Pharm 2026</span>
             </a>
             <p className="mt-6 text-lg">Admission Open | Limited Seats Available | PCI Approved</p>
           </div>
@@ -1255,8 +1255,6 @@ export default function BPharmacyPage() {
           </ul>
         </div>
       </div>
-
-      <Footer />
     </div>
   );
 }

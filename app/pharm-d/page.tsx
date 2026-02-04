@@ -2,7 +2,6 @@
 
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp } from 'lucide-react'
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export default function PharmDPage() {
   return (
@@ -20,7 +19,7 @@ export default function PharmDPage() {
 
       {/* What is Pharm.D Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#CCFBF1] via-[#99F6E4] to-[#5EEAD4] rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#E8F5E9] via-[#C8E6C9] to-[#A5D6A7] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-6">What is Pharm.D (Doctor of Pharmacy)?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
@@ -201,7 +200,7 @@ export default function PharmDPage() {
         </div>
 
         {/* Key Similarities */}
-        <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#FCD34D]">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Key Similarities Between Pharm.D and Pharm.D (PB):</h3>
@@ -702,7 +701,7 @@ export default function PharmDPage() {
         </div>
 
         {/* Clinical Clerkship Experience */}
-        <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <ClipboardList className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Clinical Clerkship Experience - What Students Actually Do:</h3>
@@ -826,8 +825,8 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Clinical Pharmacist (Hospital)</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹25K-60K/Month Entry</span>
-                <span className="bg-orange-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹60K-1.5L/Month Senior</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹25K-60K/Month Entry</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹60K-1.5L/Month Senior</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -868,7 +867,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Critical Care/ICU Pharmacist</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹35K-70K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹35K-70K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -905,7 +904,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Oncology/Hematology Pharmacist</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹40K-80K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹40K-80K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -942,7 +941,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Clinical Research Associate/Coordinator</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹30K-60K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹30K-60K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -979,7 +978,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Drug Safety/Pharmacovigilance Specialist</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹30K-55K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹30K-55K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -1016,7 +1015,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Medical Affairs/MSL (Medical Science Liaison)</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹50K-90K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹50K-90K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -1053,7 +1052,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Regulatory Affairs Specialist</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹35K-65K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹35K-65K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -1090,7 +1089,7 @@ export default function PharmDPage() {
             <h3 className="text-xl font-bold text-[#006837] mb-4">Assistant Professor (Pharmacy Practice)</h3>
             <div className="space-y-3">
               <div className="flex flex-wrap gap-2">
-                <span className="bg-green-500 text-white text-xs font-semibold px-3 py-1 rounded-full">₹50K-70K/Month</span>
+                <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">₹50K-70K/Month</span>
               </div>
               <ul className="space-y-2 text-gray-700 text-sm">
                 <li className="flex items-start">
@@ -1177,7 +1176,7 @@ export default function PharmDPage() {
         </div>
 
         {/* Factors Affecting Pharm.D Salary in India */}
-        <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#14B8A6]">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Factors Affecting Pharm.D Salary in India:</h3>
@@ -1238,7 +1237,7 @@ export default function PharmDPage() {
         </div>
 
         {/* Growing Opportunities & Positive Trends */}
-        <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <div className="flex items-center gap-3 mb-6">
             <CheckCircle className="w-10 h-10" />
             <h3 className="text-2xl font-bold text-gray-800">Growing Opportunities & Positive Trends:</h3>
@@ -1793,7 +1792,7 @@ export default function PharmDPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">Post-Pharm.D Residency & Fellowship Programs</h2>
         </div>
 
-        <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">What are Pharmacy Residency Programs?</h3>
           <p className="text-gray-800 leading-relaxed mb-6">
             Pharmacy residency is organized, directed postgraduate training program in a defined area of practice. Duration typically 1-2 years. Residents work under supervision of experienced clinical pharmacists and physicians, gaining advanced clinical skills, specialized knowledge, and practice confidence. Similar to medical residency concept but for pharmacists.
@@ -1907,37 +1906,37 @@ export default function PharmDPage() {
           <h3 className="text-2xl font-bold text-[#006837] mb-6">Residency Specialty Areas</h3>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Critical Care Pharmacy</h4>
               <p className="text-gray-700 mb-3">Intensive care medication management, emergency protocols, hemodynamic support</p>
               <p className="text-sm text-[#006837] font-semibold">Best opportunities in: Apollo, Fortis, Manipal hospitals</p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Oncology Pharmacy</h4>
               <p className="text-gray-700 mb-3">Chemotherapy protocols, supportive care, adverse effect management</p>
               <p className="text-sm text-[#006837] font-semibold">Best opportunities in: Tata Memorial, Cancer specialty hospitals</p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Infectious Diseases Pharmacy</h4>
               <p className="text-gray-700 mb-3">Antimicrobial stewardship, infection prevention, resistance management</p>
               <p className="text-sm text-[#006837] font-semibold">Growing demand in all major hospitals</p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Cardiology Pharmacy</h4>
               <p className="text-gray-700 mb-3">Heart failure management, anticoagulation, cardiac medication optimization</p>
               <p className="text-sm text-[#006837] font-semibold">Specialty cardiac centers nationwide</p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Pediatric Pharmacy</h4>
               <p className="text-gray-700 mb-3">Pediatric dosing, neonatal intensive care, pediatric drug therapy</p>
               <p className="text-sm text-[#006837] font-semibold">Children's hospitals, major multi-specialty hospitals</p>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#14B8A6]">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Psychiatry Pharmacy</h4>
               <p className="text-gray-700 mb-3">Mental health medications, psychiatric care coordination</p>
               <p className="text-sm text-[#006837] font-semibold">Growing field with increasing recognition</p>
@@ -1947,13 +1946,13 @@ export default function PharmDPage() {
       </div>
 
       {/* How to Apply for Pharmacy Residency Programs */}
-      <div className="bg-gradient-to-br from-green-50 to-emerald-50 py-12 mt-8">
+      <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] py-12 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8">How to Apply for Pharmacy Residency Programs</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-8 space-y-6">
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">1</div>
+              <div className="flex-shrink-0 w-8 h-8 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">1</div>
               <div>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">Research Programs During Internship Year</h3>
                 <p className="text-gray-700">Start exploring programs 6-12 months before completion. Visit hospital pharmacy departments during rotations. Network with clinical pharmacists already in residency.</p>
@@ -1961,7 +1960,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">2</div>
+              <div className="flex-shrink-0 w-8 h-8 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">2</div>
               <div>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">Prepare Application Materials</h3>
                 <p className="text-gray-700">Letter of intent/statement of purpose, Updated CV highlighting clinical rotations, 2-3 letters of recommendation from clinical preceptors, Transcripts from Pharm.D program</p>
@@ -1969,7 +1968,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">3</div>
+              <div className="flex-shrink-0 w-8 h-8 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">3</div>
               <div>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">Submit Applications</h3>
                 <p className="text-gray-700">Most programs accept applications between September-December for programs starting next July. Check individual institution websites for specific deadlines and requirements. Some programs may have limited intake (2-4 residents only).</p>
@@ -1977,7 +1976,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">4</div>
+              <div className="flex-shrink-0 w-8 h-8 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">4</div>
               <div>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">Interview Process</h3>
                 <p className="text-gray-700">Shortlisted candidates invited for interviews (typically January-March). Panel interviews with pharmacy director, clinical coordinators, and sometimes physicians. Case-based discussions to assess clinical thinking. Questions about career goals and interest in specialty.</p>
@@ -1985,7 +1984,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex-shrink-0 w-8 h-8 bg-green-500 text-white rounded-full flex items-center justify-center font-bold mr-4">5</div>
+              <div className="flex-shrink-0 w-8 h-8 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">5</div>
               <div>
                 <h3 className="font-bold text-lg text-gray-800 mb-2">Selection and Placement</h3>
                 <p className="text-gray-700">Offers typically made March-April. Accept your chosen program and decline others promptly. Complete any required documentation and background verification. Residency typically begins July or August.</p>
@@ -1993,7 +1992,7 @@ export default function PharmDPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-green-100 rounded-lg p-6 border-l-4 border-green-600">
+          <div className="mt-8 bg-[#E0F2F1] rounded-lg p-6 border-l-4 border-[#7cb983]">
             <p className="font-semibold text-gray-800 mb-2">Pro Tip for Competitive Applications:</p>
             <p className="text-gray-700">Students with strong internship performance, clinical publications, case presentations at conferences, and active involvement in hospital pharmacy activities have significantly higher acceptance rates. Start building your clinical portfolio early!</p>
           </div>
@@ -2014,7 +2013,7 @@ export default function PharmDPage() {
           <div className="space-y-6">
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">1</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Eligibility Check</h4>
                 <p className="text-gray-700">Passed 10+2 (Physics, Chemistry, Biology/Mathematics) with minimum 50% marks (45% for SC/ST candidates). Completed from recognized board (CBSE, State Boards, etc.).</p>
               </div>
@@ -2022,7 +2021,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">2</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Entrance Exam Registration</h4>
                 <p className="text-gray-700">Register for NEET (for central government colleges and many state/private colleges) OR State-level entrance exams (varies by state - Maharashtra has MHT-CET, Karnataka has KCET, etc.) OR Institute-specific entrance tests. Registration typically opens December-February. Keep Aadhar card, 10th & 12th mark sheets, photographs ready.</p>
               </div>
@@ -2030,7 +2029,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">3</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Appear for Entrance Exam</h4>
                 <p className="text-gray-700">NEET typically conducted in May. State exams usually April-May. Download admit card 1-2 weeks before exam. Exam covers Physics, Chemistry, Biology (Botany & Zoology).</p>
               </div>
@@ -2038,7 +2037,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">4</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Counseling Registration</h4>
                 <p className="text-gray-700">After results announced (typically June), register for counseling. Central counseling for government colleges (through MCC - Medical Counseling Committee). State counseling for state quota seats. Private college direct counseling or state-level process.</p>
               </div>
@@ -2046,7 +2045,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">5</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Choice Filling & Seat Allotment</h4>
                 <p className="text-gray-700">Fill college/course preferences online. Research colleges carefully - consider location, hospital affiliations, clinical exposure. Allotment based on rank, category, preferences. Multiple rounds typically conducted (June-August).</p>
               </div>
@@ -2054,7 +2053,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">6</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Document Verification & Admission</h4>
                 <p className="text-gray-700">Report to allotted college with original documents. Required: 10th & 12th mark sheets & certificates, Transfer Certificate, Migration Certificate, NEET scorecard & admit card, Category certificate (if applicable), Domicile certificate, Aadhar card, Passport size photographs. Pay admission fee and complete formalities. Classes typically start August-September.</p>
               </div>
@@ -2069,7 +2068,7 @@ export default function PharmDPage() {
           <div className="space-y-6">
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">1</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Eligibility Verification</h4>
                 <p className="text-gray-700">Completed B.Pharm degree from PCI-approved institution. Minimum 55% aggregate marks (50% for SC/ST). Registered with State Pharmacy Council (registration certificate required).</p>
               </div>
@@ -2077,7 +2076,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">2</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Entrance Exam / Application</h4>
                 <p className="text-gray-700">Some colleges conduct entrance exam (GPAT scores may be accepted). Many institutions have direct admission based on B.Pharm marks. Check individual college websites for specific requirements. Application period typically March-June.</p>
               </div>
@@ -2085,7 +2084,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">3</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Merit List & Selection</h4>
                 <p className="text-gray-700">Colleges publish merit lists based on: B.Pharm percentage, Entrance exam score (if applicable), Work experience in clinical settings (bonus points at some institutions). Multiple selection rounds may be conducted.</p>
               </div>
@@ -2093,7 +2092,7 @@ export default function PharmDPage() {
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl mr-6">4</div>
-              <div className="flex-1 bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg p-6">
+              <div className="flex-1 bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg p-6">
                 <h4 className="font-bold text-xl text-gray-800 mb-3">Document Submission & Admission</h4>
                 <p className="text-gray-700">Required documents: B.Pharm degree certificate & all semester mark sheets, 10th & 12th certificates, State Pharmacy Council registration certificate, Transfer Certificate, GPAT scorecard (if applicable), Category & domicile certificates, Experience certificates (if any). Complete admission formalities and fee payment. Program typically starts July-August.</p>
               </div>
@@ -2167,7 +2166,7 @@ export default function PharmDPage() {
             </table>
           </div>
 
-          <div className="mt-6 bg-orange-100 rounded-lg p-4 border-l-4 border-orange-600">
+          <div className="mt-6 bg-[#E0F2F1] rounded-lg p-4 border-l-4 border-[#7cb983]">
             <p className="text-sm text-gray-800"><span className="font-semibold">Note:</span> These are tentative dates based on previous year patterns. Official dates will be announced by NTA (for NEET) and respective state counseling authorities. Always check official websites for confirmed schedules.</p>
           </div>
         </div>
@@ -2289,7 +2288,7 @@ export default function PharmDPage() {
               </div>
             </div>
 
-            <div className="mt-6 bg-teal-50 rounded-lg p-4 border-l-4 border-teal-600">
+            <div className="mt-6 bg-[#E0F2F1] rounded-lg p-4 border-l-4 border-[#7cb983]">
               <p className="text-gray-800"><span className="font-semibold">Total Investment Estimate:</span></p>
               <p className="text-gray-700 mt-2">• <span className="font-semibold">Government College (6-year):</span> ₹8-12 lakhs (including living costs)</p>
               <p className="text-gray-700">• <span className="font-semibold">Private College (6-year):</span> ₹15-25 lakhs (including living costs)</p>
@@ -2300,53 +2299,53 @@ export default function PharmDPage() {
       </div>
 
       {/* Scholarships & Financial Aid */}
-      <div className="bg-gradient-to-br from-green-50 to-emerald-50 py-12">
+      <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 mb-8">Scholarships & Financial Aid</h2>
 
           <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xl font-bold text-gray-800 mb-4">Central Government Scholarships</h3>
               <ul className="space-y-3 text-gray-700">
-                <li><span className="font-semibold text-green-700">SC/ST Students:</span> Post-Matric Scholarship - Up to ₹20,000/year</li>
-                <li><span className="font-semibold text-green-700">OBC Students:</span> Post-Matric Scholarship - Up to ₹15,000/year</li>
-                <li><span className="font-semibold text-green-700">Minorities:</span> Post-Matric Scholarship for Minorities - Varies</li>
-                <li><span className="font-semibold text-green-700">Merit-Based:</span> National Scholarship Portal (NSP) - Multiple schemes</li>
+                <li><span className="font-semibold text-[#006837]">SC/ST Students:</span> Post-Matric Scholarship - Up to ₹20,000/year</li>
+                <li><span className="font-semibold text-[#006837]">OBC Students:</span> Post-Matric Scholarship - Up to ₹15,000/year</li>
+                <li><span className="font-semibold text-[#006837]">Minorities:</span> Post-Matric Scholarship for Minorities - Varies</li>
+                <li><span className="font-semibold text-[#006837]">Merit-Based:</span> National Scholarship Portal (NSP) - Multiple schemes</li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xl font-bold text-gray-800 mb-4">State Government Scholarships</h3>
               <ul className="space-y-3 text-gray-700">
-                <li><span className="font-semibold text-green-700">Domicile-Based:</span> Most states offer scholarships for resident students</li>
-                <li><span className="font-semibold text-green-700">Merit-cum-Means:</span> For economically weaker sections with good academics</li>
-                <li><span className="font-semibold text-green-700">Girl Child Education:</span> Special schemes in many states</li>
-                <li><span className="font-semibold text-green-700">Professional Course Aid:</span> Specific support for pharmacy students</li>
+                <li><span className="font-semibold text-[#006837]">Domicile-Based:</span> Most states offer scholarships for resident students</li>
+                <li><span className="font-semibold text-[#006837]">Merit-cum-Means:</span> For economically weaker sections with good academics</li>
+                <li><span className="font-semibold text-[#006837]">Girl Child Education:</span> Special schemes in many states</li>
+                <li><span className="font-semibold text-[#006837]">Professional Course Aid:</span> Specific support for pharmacy students</li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xl font-bold text-gray-800 mb-4">Institutional Scholarships</h3>
               <ul className="space-y-3 text-gray-700">
-                <li><span className="font-semibold text-green-700">Merit Scholarships:</span> Based on entrance exam ranks (10-100% fee waiver)</li>
-                <li><span className="font-semibold text-green-700">Need-Based Aid:</span> For students from economically disadvantaged backgrounds</li>
-                <li><span className="font-semibold text-green-700">Sports Quota:</span> For state/national level athletes</li>
-                <li><span className="font-semibold text-green-700">Academic Excellence:</span> For top performers in each year</li>
+                <li><span className="font-semibold text-[#006837]">Merit Scholarships:</span> Based on entrance exam ranks (10-100% fee waiver)</li>
+                <li><span className="font-semibold text-[#006837]">Need-Based Aid:</span> For students from economically disadvantaged backgrounds</li>
+                <li><span className="font-semibold text-[#006837]">Sports Quota:</span> For state/national level athletes</li>
+                <li><span className="font-semibold text-[#006837]">Academic Excellence:</span> For top performers in each year</li>
               </ul>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-green-600">
+            <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xl font-bold text-gray-800 mb-4">Education Loans</h3>
               <ul className="space-y-3 text-gray-700">
-                <li><span className="font-semibold text-green-700">Public Sector Banks:</span> Up to ₹10 lakhs at 7-9% interest</li>
-                <li><span className="font-semibold text-green-700">Private Banks:</span> Up to ₹20 lakhs, flexible repayment</li>
-                <li><span className="font-semibold text-green-700">Moratorium Period:</span> Repayment starts after course completion + 1 year</li>
-                <li><span className="font-semibold text-green-700">Collateral:</span> Usually not required for loans under ₹7.5 lakhs</li>
+                <li><span className="font-semibold text-[#006837]">Public Sector Banks:</span> Up to ₹10 lakhs at 7-9% interest</li>
+                <li><span className="font-semibold text-[#006837]">Private Banks:</span> Up to ₹20 lakhs, flexible repayment</li>
+                <li><span className="font-semibold text-[#006837]">Moratorium Period:</span> Repayment starts after course completion + 1 year</li>
+                <li><span className="font-semibold text-[#006837]">Collateral:</span> Usually not required for loans under ₹7.5 lakhs</li>
               </ul>
             </div>
           </div>
 
-          <div className="mt-8 bg-green-100 rounded-xl p-6 border-l-4 border-green-600">
+          <div className="mt-8 bg-[#E0F2F1] rounded-xl p-6 border-l-4 border-[#7cb983]">
             <h3 className="font-bold text-lg text-gray-800 mb-3">How to Apply for Scholarships</h3>
             <ol className="space-y-2 text-gray-700 list-decimal list-inside">
               <li>Register on National Scholarship Portal (scholarships.gov.in) immediately after admission</li>
@@ -2366,7 +2365,7 @@ export default function PharmDPage() {
 
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">1</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Start Saving Early</h3>
@@ -2374,7 +2373,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">2</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Compare Total Costs</h3>
@@ -2382,7 +2381,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">3</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Explore All Scholarship Options</h3>
@@ -2390,7 +2389,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">4</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Consider Education Loans Wisely</h3>
@@ -2398,7 +2397,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">5</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Part-Time Opportunities</h3>
@@ -2406,7 +2405,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
-              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-4">
+              <div className="w-12 h-12 bg-[#7cb983] rounded-full flex items-center justify-center mb-4">
                 <span className="text-white text-xl font-bold">6</span>
               </div>
               <h3 className="font-bold text-lg text-gray-800 mb-3">Government vs Private Trade-off</h3>
@@ -2414,7 +2413,7 @@ export default function PharmDPage() {
             </div>
           </div>
 
-          <div className="mt-8 bg-blue-100 rounded-xl p-6 border-l-4 border-blue-600">
+          <div className="mt-8 bg-[#E0F2F1] rounded-xl p-6 border-l-4 border-[#7cb983]">
             <p className="font-semibold text-gray-800 mb-2">Investment Perspective:</p>
             <p className="text-gray-700">Pharm.D is a high-value degree. Starting salaries of ₹3-5 LPA in hospital pharmacy, growing to ₹8-15 LPA with experience, make this a worthwhile investment. Many graduates recover their education costs within 3-5 years of practice.</p>
           </div>
@@ -2432,7 +2431,7 @@ export default function PharmDPage() {
           <h3 className="text-2xl font-bold text-[#006837] mb-6">Premier Institutions for Pharm.D in India</h3>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">JSS College of Pharmacy, Ooty</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Established:</span> Pioneer in Pharm.D (2008)</p>
@@ -2440,7 +2439,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹2.5-3 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Manipal College of Pharmaceutical Sciences</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Manipal, Karnataka</p>
@@ -2448,7 +2447,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹2.8-3.2 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">JSS College of Pharmacy, Mysore</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Ranking:</span> Top 10 pharmacy college</p>
@@ -2456,7 +2455,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹2-2.5 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Tamil Nadu Dr. MGR Medical University</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> State University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Chennai, Tamil Nadu</p>
@@ -2464,7 +2463,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ₹50K-2L/year (varies by college)</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Rajiv Gandhi University of Health Sciences</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> State University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Bangalore, Karnataka</p>
@@ -2472,7 +2471,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ₹60K-2.5L/year (varies)</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Annamalai University</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> State University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Chidambaram, Tamil Nadu</p>
@@ -2480,7 +2479,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹80,000-1.2 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">KLE College of Pharmacy, Belgaum</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Private (Deemed University)</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Belgaum, Karnataka</p>
@@ -2488,7 +2487,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹1.5-2 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Madras Medical College</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Government College</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Chennai, Tamil Nadu</p>
@@ -2496,7 +2495,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹50,000-80,000/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Bombay College of Pharmacy</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Government-aided</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Mumbai, Maharashtra</p>
@@ -2504,7 +2503,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹1-1.5 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">NIPER (various campuses)</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Institute of National Importance</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Locations:</span> Mohali, Hyderabad, Ahmedabad</p>
@@ -2512,7 +2511,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹50,000-1 lakh/year + fellowship</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Bharati Vidyapeeth University</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Pune, Maharashtra</p>
@@ -2520,7 +2519,7 @@ export default function PharmDPage() {
               <p className="text-sm font-semibold text-[#006837]">Fee: ~₹1.8-2.2 lakhs/year</p>
             </div>
 
-            <div className="bg-gradient-to-br from-[#CCFBF1] to-[#99F6E4] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xl font-bold text-gray-800 mb-3">Amrita School of Pharmacy</h4>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
               <p className="text-sm text-gray-700 mb-2"><span className="font-semibold">Location:</span> Kochi, Kerala</p>
@@ -2558,7 +2557,7 @@ export default function PharmDPage() {
             </div>
           </div>
 
-          <div className="mt-6 bg-blue-100 rounded-lg p-4 border-l-4 border-blue-600">
+          <div className="mt-6 bg-[#E0F2F1] rounded-lg p-4 border-l-4 border-[#7cb983]">
             <p className="font-semibold text-gray-800 mb-2">Reality Check:</p>
             <p className="text-gray-700">A Pharm.D degree from a college with weak hospital affiliations is NOT worth it at any price. Your clinical skills and confidence - which determine your career success - depend entirely on quality of hospital exposure during your training. Choose wisely!</p>
           </div>
@@ -2569,11 +2568,11 @@ export default function PharmDPage() {
       <div className="bg-gradient-to-br from-purple-50 to-pink-50 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-8">
-            <Globe className="w-8 h-8 text-purple-600" />
+            <Globe className="w-8 h-8 text-[#006837]" />
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">International Opportunities & USA Practice Pathway</h2>
           </div>
 
-          <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-purple-600 mb-8">
+          <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-[#7cb983] mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Can Indian Pharm.D Graduates Practice in USA?</h3>
             <p className="text-gray-700 mb-4 text-lg">Yes, but it requires additional qualifications and examinations. Here's the complete pathway:</p>
           </div>
@@ -2581,7 +2580,7 @@ export default function PharmDPage() {
           <div className="space-y-6">
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">1</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">1</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">Educational Credential Evaluation</h4>
                   <p className="text-gray-700">Get your Indian Pharm.D degree evaluated by NABP (National Association of Boards of Pharmacy) or other approved credential evaluation services. They assess if your education meets US Pharm.D equivalency standards. Process takes 2-4 months.</p>
@@ -2591,7 +2590,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">2</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">2</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">FPGEE (Foreign Pharmacy Graduate Equivalency Examination)</h4>
                   <p className="text-gray-700">Comprehensive exam covering pharmaceutical sciences, clinical pharmacy, pharmacy practice. 250 multiple-choice questions, 5.5 hours duration. Passing score: 75/100 scaled score. Exam fee: ~$700-800. Can be taken in India at designated Prometric test centers.</p>
@@ -2601,7 +2600,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">3</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">3</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">TOEFL (Test of English as Foreign Language)</h4>
                   <p className="text-gray-700">Demonstrates English proficiency. Required minimum: TOEFL iBT 89+ (section minimums apply). Alternative: Some states accept IELTS or other English tests. Valid for 2 years.</p>
@@ -2611,7 +2610,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">4</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">4</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">Internship/Practical Experience Requirements</h4>
                   <p className="text-gray-700">Most states require US-based internship hours (varies 1000-1500 hours). Must work under licensed US pharmacist supervision. Can be challenging to secure from India - often need to be physically present in US. Some states may accept Indian clinical experience with documentation.</p>
@@ -2621,7 +2620,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">5</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">5</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">NAPLEX (North American Pharmacist Licensure Examination)</h4>
                   <p className="text-gray-700">Primary pharmacy licensure exam in USA. 250 questions, 6 hours, computer-adaptive test. Covers pharmacy practice, patient safety, drug therapy management. Passing score: 75/150 scaled score. Exam fee: ~$575. Must take in USA at Pearson VUE testing centers.</p>
@@ -2631,7 +2630,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">6</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">6</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">MPJE (Multistate Pharmacy Jurisprudence Examination)</h4>
                   <p className="text-gray-700">State-specific pharmacy law examination. Covers federal and specific state regulations. 120 questions, 2.5 hours. Passing score varies by state (typically 75/100). Required for final license in most states.</p>
@@ -2641,7 +2640,7 @@ export default function PharmDPage() {
 
             <div className="bg-white rounded-lg shadow-md p-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-10 h-10 bg-purple-500 text-white rounded-full flex items-center justify-center font-bold mr-4">7</div>
+                <div className="flex-shrink-0 w-10 h-10 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold mr-4">7</div>
                 <div>
                   <h4 className="font-bold text-xl text-gray-800 mb-3">State Licensure & Practice Authorization</h4>
                   <p className="text-gray-700">After passing exams, apply to specific state Board of Pharmacy for licensure. Background check, fingerprinting required. Initial license fee: $100-500 (varies by state). Must maintain license through continuing education (CE) credits. Some states easier for foreign graduates (California, Texas, Florida historically more open).</p>
@@ -2654,14 +2653,14 @@ export default function PharmDPage() {
 
       {/* Practicing Pharmacy in United States - Continuation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#14B8A6] mb-8">Practicing Pharmacy in United States</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-8">Practicing Pharmacy in United States</h2>
 
-        <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl p-8 border-l-4 border-cyan-500">
-            <p className="text-gray-800 mb-6"><span className="font-bold text-[#14B8A6]">Current Status (2026):</span> Indian Pharm.D programs are NOT accredited by ACPE (Accreditation Council for Pharmacy Education), the body recognized by US pharmacy boards. Therefore, direct licensure pathway extremely difficult and expensive.</p>
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">
+            <p className="text-gray-800 mb-6"><span className="font-bold text-[#006837]">Current Status (2026):</span> Indian Pharm.D programs are NOT accredited by ACPE (Accreditation Council for Pharmacy Education), the body recognized by US pharmacy boards. Therefore, direct licensure pathway extremely difficult and expensive.</p>
 
-            <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Pathway to US Pharmacy Licensure (Complex & Expensive):</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">Pathway to US Pharmacy Licensure (Complex & Expensive):</h3>
 
-            <h4 className="text-lg font-bold text-[#14B8A6] mb-4">Step 1: Foreign Pharmacy Graduate Equivalency Certificate (FPGEC)</h4>
+            <h4 className="text-lg font-bold text-[#006837] mb-4">Step 1: Foreign Pharmacy Graduate Equivalency Certificate (FPGEC)</h4>
             <ul className="space-y-2 text-gray-700 mb-6 ml-4">
               <li>• Apply to NABP (National Association of Boards of Pharmacy)</li>
               <li>• Submit educational credentials for evaluation by NABP</li>
@@ -2671,7 +2670,7 @@ export default function PharmDPage() {
               <li>• Success Rate: Only 40-50% of international graduates pass FPGEE on first attempt</li>
             </ul>
 
-            <h4 className="text-lg font-bold text-[#14B8A6] mb-4">Step 2: NAPLEX (North American Pharmacist Licensure Examination)</h4>
+            <h4 className="text-lg font-bold text-[#006837] mb-4">Step 2: NAPLEX (North American Pharmacist Licensure Examination)</h4>
             <ul className="space-y-2 text-gray-700 mb-6 ml-4">
               <li>• After receiving FPGEC certification, eligible to take NAPLEX</li>
               <li>• Computer-based exam testing pharmacy practice knowledge</li>
@@ -2679,44 +2678,44 @@ export default function PharmDPage() {
               <li>• Preparation requires 6-12 months of dedicated study</li>
             </ul>
 
-            <h4 className="text-lg font-bold text-[#14B8A6] mb-4">Step 3: MPJE (Multistate Pharmacy Jurisprudence Examination)</h4>
+            <h4 className="text-lg font-bold text-[#006837] mb-4">Step 3: MPJE (Multistate Pharmacy Jurisprudence Examination)</h4>
             <ul className="space-y-2 text-gray-700 mb-6 ml-4">
               <li>• State-specific pharmacy law examination</li>
               <li>• Required for licensure in specific state</li>
               <li>• Fee: Approximately $200</li>
             </ul>
 
-            <h4 className="text-lg font-bold text-[#14B8A6] mb-4">Step 4: Internship/Experience Requirements</h4>
+            <h4 className="text-lg font-bold text-[#006837] mb-4">Step 4: Internship/Experience Requirements</h4>
             <ul className="space-y-2 text-gray-700 mb-6 ml-4">
               <li>• Many states require supervised practice hours (500-1,500 hours) in US setting</li>
               <li>• Difficult to arrange from India without work authorization</li>
               <li>• Catch-22: Need visa to work but need work experience to get license</li>
             </ul>
 
-            <h4 className="text-lg font-bold text-[#14B8A6] mb-4">Step 5: State Licensure Application</h4>
+            <h4 className="text-lg font-bold text-[#006837] mb-4">Step 5: State Licensure Application</h4>
             <ul className="space-y-2 text-gray-700 mb-6 ml-4">
               <li>• After passing all exams and meeting internship requirements</li>
               <li>• Background checks, documentation, fees</li>
               <li>• Process takes additional 3-6 months</li>
             </ul>
 
-            <h4 className="text-xl font-bold text-[#14B8A6] mb-4">Total Investment & Timeline:</h4>
+            <h4 className="text-xl font-bold text-[#006837] mb-4">Total Investment & Timeline:</h4>
             <ul className="space-y-2 text-gray-700 ml-4">
-              <li>• <span className="font-bold text-[#14B8A6]">Cost:</span> $10,000-20,000 (₹8-16 lakhs) for exams, applications, preparations, travel</li>
-              <li>• <span className="font-bold text-[#14B8A6]">Time:</span> 2-4 years from starting process to obtaining license</li>
-              <li>• <span className="font-bold text-[#14B8A6]">Success Rate:</span> Less than 20% of Indian pharmacy graduates who attempt this pathway successfully obtain US pharmacy license</li>
-              <li>• <span className="font-bold text-[#14B8A6]">Visa Challenge:</span> Even after license, need H1-B visa sponsorship from US employer - highly competitive</li>
+              <li>• <span className="font-bold text-[#006837]">Cost:</span> $10,000-20,000 (₹8-16 lakhs) for exams, applications, preparations, travel</li>
+              <li>• <span className="font-bold text-[#006837]">Time:</span> 2-4 years from starting process to obtaining license</li>
+              <li>• <span className="font-bold text-[#006837]">Success Rate:</span> Less than 20% of Indian pharmacy graduates who attempt this pathway successfully obtain US pharmacy license</li>
+              <li>• <span className="font-bold text-[#006837]">Visa Challenge:</span> Even after license, need H1-B visa sponsorship from US employer - highly competitive</li>
             </ul>
           </div>
         </div>
 
       {/* Alternative International Pathways */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-3xl sm:text-4xl font-bold text-[#14B8A6] mb-8">Alternative International Pathways</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-8">Alternative International Pathways</h2>
 
-        <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl p-8 border-l-4 border-cyan-500 space-y-6">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983] space-y-6">
           <div>
-            <h3 className="text-xl font-bold text-[#14B8A6] mb-4">1. Middle East (UAE, Saudi Arabia, Qatar, Oman):</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">1. Middle East (UAE, Saudi Arabia, Qatar, Oman):</h3>
             <ul className="space-y-2 text-gray-700 ml-4">
               <li>• More receptive to Indian Pharm.D qualification</li>
               <li>• Requirements: Pharm.D degree, DataFlow verification, country-specific pharmacy licensure exam (Prometric/Pearson VUE)</li>
@@ -2728,7 +2727,7 @@ export default function PharmDPage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-[#14B8A6] mb-4">2. United Kingdom:</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">2. United Kingdom:</h3>
             <ul className="space-y-2 text-gray-700 ml-4">
               <li>• Indian Pharm.D not directly recognized by GPhC (General Pharmaceutical Council)</li>
               <li>• Would need to complete GPhC registration assessment and examination</li>
@@ -2738,7 +2737,7 @@ export default function PharmDPage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-[#14B8A6] mb-4">3. Canada:</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">3. Canada:</h3>
             <ul className="space-y-2 text-gray-700 ml-4">
               <li>• Similar to USA - requires pharmacy evaluating exam (PEBC - Pharmacy Examining Board of Canada)</li>
               <li>• Slightly more straightforward than US pathway but still challenging</li>
@@ -2747,7 +2746,7 @@ export default function PharmDPage() {
           </div>
 
           <div>
-            <h3 className="text-xl font-bold text-[#14B8A6] mb-4">4. Australia:</h3>
+            <h3 className="text-xl font-bold text-[#006837] mb-4">4. Australia:</h3>
             <ul className="space-y-2 text-gray-700 ml-4">
               <li>• Australian Pharmacy Council assessment required</li>
               <li>• May need to complete bridging program</li>
@@ -2757,7 +2756,7 @@ export default function PharmDPage() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border-l-4 border-green-600 mt-8">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983] mt-8">
           <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
             <Lightbulb className="w-10 h-10" />
             Realistic International Career Strategy for Indian Pharm.D Graduates:
@@ -2765,19 +2764,19 @@ export default function PharmDPage() {
 
           <ul className="space-y-4 text-gray-700">
             <li>
-              <span className="font-bold text-green-700">• Focus on Clinical Research Path:</span> Instead of direct practice, pursue clinical research roles - CRA/CRC positions with multinational CROs operating globally. Easier visa pathways and good salary (₹40-80K/month internationally).
+              <span className="font-bold text-[#006837]">• Focus on Clinical Research Path:</span> Instead of direct practice, pursue clinical research roles - CRA/CRC positions with multinational CROs operating globally. Easier visa pathways and good salary (₹40-80K/month internationally).
             </li>
             <li>
-              <span className="font-bold text-green-700">• Middle East Gateway:</span> Work 3-5 years in UAE/Saudi Arabia clinical pharmacist roles, gain international experience, earn well, save money. Then pursue further qualifications or opportunities in Western countries.
+              <span className="font-bold text-[#006837]">• Middle East Gateway:</span> Work 3-5 years in UAE/Saudi Arabia clinical pharmacist roles, gain international experience, earn well, save money. Then pursue further qualifications or opportunities in Western countries.
             </li>
             <li>
-              <span className="font-bold text-green-700">• Pursue International Master's:</span> After Indian Pharm.D, do Master's in Clinical Pharmacy or related field in target country (UK, Canada, Australia). Provides recognized qualification and easier licensure pathway. Cost: ₹25-40 lakhs but better ROI than attempting multiple licensure exams.
+              <span className="font-bold text-[#006837]">• Pursue International Master's:</span> After Indian Pharm.D, do Master's in Clinical Pharmacy or related field in target country (UK, Canada, Australia). Provides recognized qualification and easier licensure pathway. Cost: ₹25-40 lakhs but better ROI than attempting multiple licensure exams.
             </li>
             <li>
-              <span className="font-bold text-green-700">• Medical Affairs & Pharmaceutical Industry:</span> Medical Science Liaison (MSL) positions, regulatory affairs, pharmacovigilance roles in multinational pharma companies offer international opportunities without practice licensure barriers.
+              <span className="font-bold text-[#006837]">• Medical Affairs & Pharmaceutical Industry:</span> Medical Science Liaison (MSL) positions, regulatory affairs, pharmacovigilance roles in multinational pharma companies offer international opportunities without practice licensure barriers.
             </li>
             <li>
-              <span className="font-bold text-green-700">• Accept Indian Practice Reality:</span> Honestly, most Indian Pharm.D graduates will practice in India. International opportunities limited and expensive to pursue. Better to focus on building excellent clinical career in India, pursuing residency/specialization, and positioning for senior roles in corporate hospital chains.
+              <span className="font-bold text-[#006837]">• Accept Indian Practice Reality:</span> Honestly, most Indian Pharm.D graduates will practice in India. International opportunities limited and expensive to pursue. Better to focus on building excellent clinical career in India, pursuing residency/specialization, and positioning for senior roles in corporate hospital chains.
             </li>
           </ul>
         </div>
@@ -2790,67 +2789,67 @@ export default function PharmDPage() {
             <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
               ?
             </div>
-            <h2 className="text-3xl sm:text-4xl font-bold text-[#14B8A6]">Frequently Asked Questions About Pharm.D</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Frequently Asked Questions About Pharm.D</h2>
           </div>
 
           <div className="space-y-6">
             {/* Q1 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q1: What is Pharm.D course?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q1: What is Pharm.D course?</h3>
               <p className="text-gray-700">Pharm.D (Doctor of Pharmacy) is a professional doctorate program focusing on clinical pharmacy practice and patient care. Two pathways exist: (1) Pharm.D - 6 years after 12th standard (5 years academic + 1 year clinical clerkship), and (2) Pharm.D (PB) - 3 years after B.Pharm (2 years academic + 1 year clerkship). Unlike research-focused PhD, Pharm.D emphasizes direct patient care, medication therapy management, clinical decision-making, and hospital pharmacy practice. Curriculum includes pharmacotherapy, clinical pharmacokinetics, patient counseling, pharmaceutical care, evidence-based medicine, and extensive hospital rotations. Graduates work as clinical pharmacists in hospitals, participate in healthcare teams, conduct medication reviews, provide patient education, and ensure safe and effective drug therapy. Career options include hospital clinical pharmacist (₹25,000-60,000/month), critical care pharmacist, oncology pharmacist, clinical research, drug information services, and medication safety roles.</p>
             </div>
 
             {/* Q2 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q2: What is the salary after Pharm.D?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q2: What is the salary after Pharm.D?</h3>
               <p className="text-gray-700">Pharm.D graduate salaries in India vary significantly by hospital type and location. Government hospitals: ₹25,000-40,000/month for clinical pharmacist positions with job security and growth. Corporate hospitals (Apollo, Fortis, Max, Manipal): ₹30,000-60,000/month with performance incentives and better facilities. Specialty hospitals (cancer, cardiac): ₹35,000-70,000/month for specialized clinical roles. After residency programs (1-2 years): ₹45,000-80,000/month in major metros. Experience progression: 0-2 years ₹25-40K, 3-5 years ₹40-60K, 5-10 years ₹60-90K, 10+ years ₹80K-1.5L/month. Non-hospital opportunities: Clinical research organizations ₹30-50K, pharmaceutical companies (medical affairs) ₹40-70K, regulatory affairs ₹35-65K, academia (assistant professor) ₹50-70K. International opportunities significantly higher: USA clinical pharmacist $80,000-120,000/year, Middle East ₹80K-1.5L/month tax-free, UK/Australia/Canada competitive salaries. Reality check: Entry-level positions competitive, many start with internships/fellowships at lower pay (₹15-25K) before regular positions.</p>
             </div>
 
             {/* Q3 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q3: What is the difference between Pharm.D and Pharm.D (PB)?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q3: What is the difference between Pharm.D and Pharm.D (PB)?</h3>
               <p className="text-gray-700">Pharm.D and Pharm.D (PB) differ in duration, eligibility, and entry point but lead to same clinical pharmacist qualification. Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard, requires NEET qualification, integrated program covering basic pharmaceutical sciences before clinical focus, suitable for students wanting clinical career directly after 12th, total investment 6 years. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory, advanced clinical focus assuming pharmacy knowledge, for graduates wanting clinical specialization, total investment 7 years (4 years B.Pharm + 3 years PB). Both programs: Same clinical pharmacist designation, equivalent career opportunities, similar salary ranges, eligible for residency programs, can practice as clinical pharmacists in hospitals, recognized by Pharmacy Council of India. Career outcomes identical - no preference for Pharm.D over PB or vice versa. Choose Pharm.D if: Want clinical career from start, just completed 12th with NEET. Choose Pharm.D (PB) if: Already have B.Pharm, want clinical shift without research-heavy M.Pharm.</p>
             </div>
 
             {/* Q4 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q4: Is Pharm.D better than B.Pharm or M.Pharm?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q4: Is Pharm.D better than B.Pharm or M.Pharm?</h3>
               <p className="text-gray-700">Cannot definitively say one is 'better' - depends on career goals and interests. Choose Pharm.D if: Want clinical pharmacy career working directly with patients in hospitals, enjoy patient interaction and counseling, interested in medication therapy management and pharmaceutical care, prefer patient-focused work over laboratory research or manufacturing, aspire for critical care/oncology/cardiology pharmacy specialization. Choose B.Pharm if: Want broader career options (QC, production, marketing, regulatory, hospital), prefer 4-year degree with immediate job market entry, need financial flexibility (can work after 4 years), want to keep all pharmacy career doors open without clinical-only focus. Choose M.Pharm if: Want research and development careers, interested in drug discovery/formulation/analysis, prefer specialized technical roles in pharmaceutical R&D, academic career with higher teaching positions, better growth in pharmaceutical industry. Salary comparison: Entry level Pharm.D (₹25-40K) similar to B.Pharm (₹18-35K) and M.Pharm (₹25-45K). Growth: Pharm.D peaks at ₹80K-1.5L/month as senior clinical pharmacist. M.Pharm potentially higher in industry R&D (₹1-2L/month). B.Pharm diverse opportunities but lower ceiling in most roles. Job availability: B.Pharm highest, M.Pharm good in R&D companies, Pharm.D limited to hospitals with clinical pharmacy services (growing but still developing in India).</p>
             </div>
 
             {/* Q5 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q5: What is the scope of Pharm.D in India?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q5: What is the scope of Pharm.D in India?</h3>
               <p className="text-gray-700">Pharm.D scope in India is developing with both opportunities and challenges. Current reality: (1) Growing adoption - major corporate hospitals (Apollo, Fortis, Max, Manipal Hospitals) establishing clinical pharmacy departments, government medical colleges slowly creating positions, NABH accreditation driving clinical pharmacist employment. (2) Job availability - Limited compared to B.Pharm but steadily increasing. Estimated 5,000-8,000 clinical pharmacist positions nationally (growing 15-20% annually). Most opportunities in metros and Tier-1 cities. (3) Recognition - PCI-approved program since 2008, recognized as doctoral qualification equivalent to other professional doctorates (PharmD not PhD), eligible for teaching positions in pharmacy colleges, can use 'Dr.' prefix (professional doctorate). (4) Hospital opportunities - Multi-specialty hospitals hiring for medication safety, ICU pharmacy services, oncology pharmacy, antibiotic stewardship programs, drug information centers, patient counseling services. (5) Challenges - Many hospitals yet to establish clinical pharmacy departments, regulatory framework for clinical pharmacist scope still evolving, some states unclear on practice boundaries, competition from pharmacy practice M.Pharm graduates. (6) Best prospects - Corporate hospital chains in metros, specialty hospitals (cancer/cardiac), medical college hospitals, clinical research organizations, pharmaceutical companies (medical affairs). Future outlook: Promising as healthcare quality focus increases, clinical pharmacy services become standard of care, government regulations strengthen medication safety requirements.</p>
             </div>
 
             {/* Q6 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q6: Can Pharm.D graduates practice in USA?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q6: Can Pharm.D graduates practice in USA?</h3>
               <p className="text-gray-700">Indian Pharm.D graduates face significant challenges practicing pharmacy in USA. Indian Pharm.D programs NOT accredited by ACPE (Accreditation Council for Pharmacy Education), so direct recognition difficult. Complex pathway: (1) FPGEC certification - requires FPGEE exam pass (only 40-50% first-time pass rate) + TOEFL, cost $1,500-2,500, (2) NAPLEX exam - $575, requires 6-12 months preparation, (3) MPJE state pharmacy law exam - $200, (4) Supervised internship hours (500-1,500) in US setting - difficult without work visa, (5) State licensure application. Total investment: $10,000-20,000 (₹8-16 lakhs), Timeline: 2-4 years, Success rate: Less than 20% of Indian pharmacy graduates successfully obtain US license. Major barrier: Even after license, need H1-B visa sponsorship - highly competitive. Better alternatives: (1) Middle East (UAE/Saudi) more receptive - ₹80K-1.5L/month tax-free with simpler licensure, (2) Clinical research pathway - CRA/CRC roles with multinational CROs, easier visa, (3) Pursue Master's in Clinical Pharmacy in target country - provides recognized qualification, (4) Focus on excellent Indian clinical career - residency/specialization in corporate hospitals offering competitive salaries and growth.</p>
             </div>
 
             {/* Q7 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q7: What is clinical clerkship in Pharm.D?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q7: What is clinical clerkship in Pharm.D?</h3>
               <p className="text-gray-700">Clinical clerkship is intensive 1-year hospital-based practical training in final year of Pharm.D (Year 6 for regular, Year 3 for PB). Students rotate through different hospital departments gaining hands-on patient care experience. Typical rotations: General Medicine (2 months), Surgery & Orthopedics (1.5 months), Pediatrics (1.5 months), Obstetrics & Gynecology (1 month), Psychiatry (1 month), Critical Care/ICU (2 months), Specialty areas like Oncology/Cardiology (2 months), Community Pharmacy (1 month). Daily activities: Attend morning rounds with medical team, review patient charts and medication orders, conduct medication reviews checking for drug interactions and dosing errors, counsel 2-3 patients daily about medications, respond to drug information queries from doctors/nurses, maintain pharmaceutical care plans, present drug therapy recommendations to healthcare team, monitor adverse drug reactions, calculate drug doses based on patient parameters. Learning outcomes: Develop clinical decision-making confidence, learn effective healthcare team communication, understand real-world medication management challenges, build professional relationships with physicians and nurses, transition from theoretical knowledge to practical patient care skills. Evaluation: Based on clinical knowledge, patient interaction skills, professionalism, documentation quality, case presentations, and assessments by supervising physicians and clinical preceptors. Critical for career - many hospitals hire from their own clerkship students.</p>
             </div>
 
             {/* Q8 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q8: Should I do Pharm.D (PB) after B.Pharm or M.Pharm?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q8: Should I do Pharm.D (PB) after B.Pharm or M.Pharm?</h3>
               <p className="text-gray-700">Decision depends on career goals and interests. Choose Pharm.D (PB) if: (1) Want patient-facing clinical career in hospitals, not laboratory research, (2) Interested in direct patient care, medication counseling, clinical practice, (3) Prefer hospital setting over pharmaceutical company R&D, (4) Want clinical specialization (critical care, oncology) through residency programs, (5) Comfortable with 3-year additional investment for clinical shift, (6) Current job dissatisfying - want career change to patient care. Choose M.Pharm if: (1) Interested in pharmaceutical R&D - formulation development, drug discovery, analytical methods, (2) Want pharmaceutical industry career in technical roles, (3) Academic aspirations - teaching and research in pharmacy colleges, (4) Comfortable with laboratory-based work, not patient interaction, (5) Want higher salary ceiling in industry R&D (Principal Scientist ₹25-45L vs Clinical Pharmacist ₹15-25L), (6) Planning PhD afterward - M.Pharm better foundation for research doctorate. Career comparison: Pharm.D (PB) leads to clinical pharmacist ₹25-60K starting, growth to ₹80K-1.5L in senior positions. M.Pharm leads to scientist roles ₹30-50K starting, growth to ₹80K-2L in R&D management. Job availability: M.Pharm opportunities more diverse (multiple pharmaceutical companies), Pharm.D limited to hospitals with clinical pharmacy (growing but fewer total positions). Consider: Both are 7-year total investments (4 years B.Pharm + 3 years PB/M.Pharm). Choose based on genuine interest - patient care vs technical research - not perceived ease or market trends.</p>
             </div>
 
             {/* Q9 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q9: Can Pharm.D graduates become teachers/professors?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q9: Can Pharm.D graduates become teachers/professors?</h3>
               <p className="text-gray-700">Yes, Pharm.D graduates eligible for faculty positions in pharmacy colleges. Qualifications: (1) Pharm.D or Pharm.D (PB) from PCI-recognized institution recognized as doctoral qualification (professional doctorate), (2) Eligible for Assistant Professor positions in Pharmacy Practice, Clinical Pharmacy, Pharmacology, Pharmacotherapeutics departments, (3) Minimum 55-60% aggregate in Pharm.D program typically required. Advantages: (1) Can start as Assistant Professor directly with Pharm.D without Ph.D requirement, (2) Starting salary ₹50,000-70,000/month in private colleges, ₹60,000-80,000/month in government colleges (7th Pay Commission), (3) Job security and academic freedom, (4) Promotion pathway: Assistant Professor (0-5 years) → Associate Professor (5+ years, ₹70K-1L/month) → Professor (10+ years, ₹1-1.5L/month). Teaching subjects: Clinical pharmacy, hospital pharmacy practice, pharmacy practice, pharmacotherapy, clinical pharmacokinetics, patient counseling, pharmaceutical care. Additional requirements: (1) NET/SLET qualification preferred for government college positions (not always mandatory for Pharm.D holders), (2) Clinical experience (1-2 years as clinical pharmacist) strengthens profile, (3) Publications in clinical pharmacy journals beneficial. Career satisfaction: Combines clinical knowledge with teaching, mentor future pharmacists, research opportunities in clinical pharmacy practice, work-life balance better than hospital clinical practice. Consider: Faculty positions offer stability but require patience with administrative work, student mentoring responsibilities, continuous curriculum updates. Best for: Those who enjoy teaching, want to shape clinical pharmacy education, prefer academic environment over hospital clinical practice, value job security over highest salary.</p>
             </div>
 
             {/* Q10 */}
             <div className="bg-[#FBFBEE] rounded-lg p-6 border border-gray-200">
-              <h3 className="text-xl font-bold text-[#14B8A6] mb-4">Q10: What are residency programs after Pharm.D?</h3>
+              <h3 className="text-xl font-bold text-[#006837] mb-4">Q10: What are residency programs after Pharm.D?</h3>
               <p className="text-gray-700">Pharmacy residency is specialized 1-2 year postgraduate clinical training program after Pharm.D. Types: (1) General Pharmacy Practice Residency (PGY1 equivalent) - broad clinical training across specialties, foundation for advanced practice, (2) Specialized Residency (PGY2 equivalent) - Critical Care, Oncology, Infectious Diseases, Cardiology, Pediatrics. Available in India at: JSS College of Pharmacy Ooty, Manipal College, Apollo Hospitals, Manipal Hospitals, Tata Memorial Hospital (oncology), PGIMER Chandigarh (clinical training). Benefits: (1) ₹10-20K/month higher starting salary after completion, (2) Specialized expertise in critical care/oncology/infectious diseases, (3) Preferred for senior positions in corporate hospitals, (4) Enhanced clinical decision-making skills, (5) Strong professional network with physicians and administrators, (6) Essential for teaching positions in Pharm.D programs. Stipend during residency: ₹15,000-30,000/month depending on institution. Eligibility: Completed Pharm.D/Pharm.D (PB) with 60-65% minimum, strong clerkship performance, good recommendations. Application: Applications typically November-January for June-July start, competitive (10-20 applicants per position), written test + interview selection. Commitment: Intensive program - long hours including call duties, multiple clinical rotations, comprehensive exams, research project, case presentations. Worth it: Yes for those serious about clinical pharmacy career, wanting specialized practice, seeking academic positions, or aiming for senior clinical roles. Not necessary: For general hospital staff pharmacist positions, pharmaceutical industry roles, or those preferring work-life balance immediately after degree. Consider residency as equivalent to medical residency - rigorous but significantly enhances career trajectory and earning potential.</p>
             </div>
           </div>
@@ -2873,13 +2872,13 @@ export default function PharmDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center text-white text-xl"> <Target className="w-10 h-10" /> </div>
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#14B8A6]">Final Guidance for Prospective Pharm.D Students</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Final Guidance for Prospective Pharm.D Students</h2>
         </div>
 
         {/* Pharm.D is Right Choice If */}
-        <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-8 border-l-4 border-green-600 mb-8">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <span className="mr-3 text-green-600">✓</span>
+            <span className="mr-3 text-[#006837]">✓</span>
             Pharm.D is Right Choice If:
           </h3>
 
@@ -2897,9 +2896,9 @@ export default function PharmDPage() {
         </div>
 
         {/* Reconsider Pharm.D If */}
-        <div className="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl p-8 border-l-4 border-red-500 mb-8">
+        <div className="bg-[#E0F2F1] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <AlertTriangle className="mr-3 text-orange-500 w-5 h-5" />
+            <AlertTriangle className="mr-3 text-[#006837] w-5 h-5" />
             Reconsider Pharm.D If:
           </h3>
 
@@ -2917,30 +2916,30 @@ export default function PharmDPage() {
         </div>
 
         {/* Maximizing Success in Pharm.D Career */}
-        <div className="bg-gradient-to-br from-cyan-50 to-teal-50 rounded-xl p-8 border-l-4 border-cyan-500">
+        <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
             <Lightbulb className="w-10 h-10" />
             Maximizing Success in Pharm.D Career:
           </h3>
 
           <div className="space-y-4 text-gray-700">
-            <p><span className="font-bold text-[#14B8A6]">1. Excel in Clinical Clerkships:</span> Final year hospital performance most critical. Many hospitals hire from own clerkship students. Show initiative, professionalism, clinical competence. Build relationships with physicians and senior pharmacists - strongest job leads come from clerkship connections.</p>
+            <p><span className="font-bold text-[#006837]">1. Excel in Clinical Clerkships:</span> Final year hospital performance most critical. Many hospitals hire from own clerkship students. Show initiative, professionalism, clinical competence. Build relationships with physicians and senior pharmacists - strongest job leads come from clerkship connections.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">2. Pursue Specialty Residency:</span> 1-2 year post-Pharm.D residency in critical care, oncology, or infectious diseases significantly boosts employability and salary (₹10-20K/month increase). Investment worthwhile for serious clinical pharmacy career.</p>
+            <p><span className="font-bold text-[#006837]">2. Pursue Specialty Residency:</span> 1-2 year post-Pharm.D residency in critical care, oncology, or infectious diseases significantly boosts employability and salary (₹10-20K/month increase). Investment worthwhile for serious clinical pharmacy career.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">3. Build Clinical Research Profile:</span> Participate in research projects, present cases at conferences, publish in clinical pharmacy journals. Strengthens resume for competitive positions and academic roles. Even single case report publication adds credibility.</p>
+            <p><span className="font-bold text-[#006837]">3. Build Clinical Research Profile:</span> Participate in research projects, present cases at conferences, publish in clinical pharmacy journals. Strengthens resume for competitive positions and academic roles. Even single case report publication adds credibility.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">4. Develop Specialty Niche:</span> Don't remain generalist. Focus on specific area - critical care, oncology, infectious diseases, cardiology, or medication safety. Specialized clinical pharmacists command premium salaries and have better job security.</p>
+            <p><span className="font-bold text-[#006837]">4. Develop Specialty Niche:</span> Don't remain generalist. Focus on specific area - critical care, oncology, infectious diseases, cardiology, or medication safety. Specialized clinical pharmacists command premium salaries and have better job security.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">5. Network Actively:</span> Join professional associations (Indian Pharmaceutical Congress Association - Clinical Pharmacy division, Indian Society of Clinical Pharmacy), attend conferences, connect with clinical pharmacy community. Jobs often come through networking, not advertisements.</p>
+            <p><span className="font-bold text-[#006837]">5. Network Actively:</span> Join professional associations (Indian Pharmaceutical Congress Association - Clinical Pharmacy division, Indian Society of Clinical Pharmacy), attend conferences, connect with clinical pharmacy community. Jobs often come through networking, not advertisements.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">6. Consider Corporate Hospital Chains:</span> Apollo, Fortis, Max Healthcare, Manipal Hospitals have established clinical pharmacy departments with clear career paths. Better than small hospitals for growth. Once established in corporate chain, internal mobility good.</p>
+            <p><span className="font-bold text-[#006837]">6. Consider Corporate Hospital Chains:</span> Apollo, Fortis, Max Healthcare, Manipal Hospitals have established clinical pharmacy departments with clear career paths. Better than small hospitals for growth. Once established in corporate chain, internal mobility good.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">7. Stay Clinically Updated:</span> Medicine evolves rapidly. Subscribe to clinical pharmacy journals, attend CME programs, pursue continuing education. Stagnant knowledge means career stagnation. Consider certifications in antimicrobial stewardship, clinical research, medication safety.</p>
+            <p><span className="font-bold text-[#006837]">7. Stay Clinically Updated:</span> Medicine evolves rapidly. Subscribe to clinical pharmacy journals, attend CME programs, pursue continuing education. Stagnant knowledge means career stagnation. Consider certifications in antimicrobial stewardship, clinical research, medication safety.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">8. Keep Alternative Pathways Open:</span> If clinical pharmacy positions limited in your area, be open to related opportunities: clinical research (CRA/CRC roles), pharmacovigilance, medical affairs, regulatory affairs, drug safety. All value clinical pharmacy knowledge.</p>
+            <p><span className="font-bold text-[#006837]">8. Keep Alternative Pathways Open:</span> If clinical pharmacy positions limited in your area, be open to related opportunities: clinical research (CRA/CRC roles), pharmacovigilance, medical affairs, regulatory affairs, drug safety. All value clinical pharmacy knowledge.</p>
 
-            <p><span className="font-bold text-[#14B8A6]">9. Realistic Expectations:</span> Understand that Indian clinical pharmacy still developing. Entry-level competition exists, starting salaries moderate, growth requires patience and excellence. But for those truly passionate about patient care, job satisfaction high and scope genuinely growing.</p>
+            <p><span className="font-bold text-[#006837]">9. Realistic Expectations:</span> Understand that Indian clinical pharmacy still developing. Entry-level competition exists, starting salaries moderate, growth requires patience and excellence. But for those truly passionate about patient care, job satisfaction high and scope genuinely growing.</p>
           </div>
         </div>
       </div>
@@ -2961,8 +2960,6 @@ export default function PharmDPage() {
           <p className="mt-6 text-sm">PCI Approved | Clinical Excellence | Hospital Practice | Patient Care Focus</p>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

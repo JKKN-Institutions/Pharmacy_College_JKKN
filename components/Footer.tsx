@@ -12,7 +12,7 @@ export default function Footer() {
             {/* Google Maps Embed - Responsive */}
             <div className="mb-2 w-full aspect-video-responsive rounded overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.0891234567890!2d77.8123456789012!3d11.3456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDIwJzQ0LjQiTiA3N8KwNDgnNDQuNCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15641.93400155775!2d77.730733!3d11.444986!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9681dbc1ee209%3A0x3f44c8e40841c21b!2sJKKN%20College%20of%20Pharmacy!5e0!3m2!1sen!2sin!4v1770199740339!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -38,7 +38,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li>
                 <a
-                  href="https://jkkndental.org/"
+                  href="https://dental.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -48,7 +48,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkknahs.org/"
+                  href="https://ahs.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkknpharmacy.org/"
+                  href="https://pharmacy.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://ssinr.org/"
+                  href="https://nursing.sresakthimayeil.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -78,7 +78,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkknedu.org/"
+                  href="https://edu.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkknarts.org/"
+                  href="https://cas.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -98,7 +98,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkkncet.org/"
+                  href="https://engg.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -108,7 +108,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://jkknmatric.org/"
+                  href="https://school.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
@@ -118,7 +118,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://nattrajavidhyalya.org/"
+                  href="https://nv.jkkn.ac.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"

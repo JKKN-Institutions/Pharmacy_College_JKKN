@@ -1,7 +1,6 @@
 'use client'
 
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import { AlertTriangle, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, CreditCard, FileText, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Pill, Scale, Star, Target } from 'lucide-react'
 
 export default function PharmaceuticsPage() {
@@ -20,7 +19,7 @@ export default function PharmaceuticsPage() {
 
       {/* What is M.Pharm in Pharmaceutics Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-2xl p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] shadow-sm">
           <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmaceutics?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
@@ -60,7 +59,7 @@ export default function PharmaceuticsPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Conventional Dosage Forms */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Conventional Dosage Forms</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -87,7 +86,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Novel Drug Delivery Systems */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Novel Drug Delivery Systems</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -114,7 +113,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Modified Release Systems */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Modified Release Systems</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -141,7 +140,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Targeted Drug Delivery */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Targeted Drug Delivery</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -168,7 +167,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Pharmaceutical Technology */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Pharmaceutical Technology</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -195,7 +194,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Biopharmaceutics & Pharmacokinetics */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#FF69B4] shadow-lg">
+          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
             <h3 className="text-2xl font-bold text-[#006837] mb-4">Biopharmaceutics & Pharmacokinetics</h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
@@ -305,7 +304,7 @@ export default function PharmaceuticsPage() {
         </div>
 
         {/* GPAT Score Benefits */}
-        <div className="bg-gradient-to-br from-[#FFF9E6] to-[#FFEDD5] rounded-xl p-8 border-l-4 border-[#FFA500]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Score Benefits for Pharmaceutics Aspirants:</h3>
@@ -509,7 +508,7 @@ export default function PharmaceuticsPage() {
         </div>
 
         {/* Typical Research Project Topics */}
-        <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Microscope className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmaceutics:</h3>
@@ -899,11 +898,11 @@ export default function PharmaceuticsPage() {
         <div className="overflow-x-auto mb-8">
           <table className="w-full border-collapse bg-white rounded-lg overflow-hidden shadow-lg">
             <thead>
-              <tr className="bg-gradient-to-r from-[#C471ED] to-[#FF69B4]">
+              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983]">
                 <th className="px-6 py-4 text-left font-bold text-white">Aspect</th>
                 <th className="px-6 py-4 text-left font-bold text-white">
                   <div>Pharmaceutics</div>
-                  <span className="inline-block bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white text-xs px-3 py-1 rounded-full mt-1">Innovation</span>
+                  <span className="inline-block bg-[#7cb983] text-white text-xs px-3 py-1 rounded-full mt-1">Innovation</span>
                 </th>
                 <th className="px-6 py-4 text-left font-bold text-white">
                   <div>Pharmaceutical Analysis</div>
@@ -1028,7 +1027,7 @@ export default function PharmaceuticsPage() {
         <h3 className="text-2xl font-bold text-[#C471ED] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutics Specialization</h3>
 
         {/* Hot Research Areas */}
-        <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h4 className="text-xl font-bold text-gray-800 mb-4">Hot Research Areas in Pharmaceutics:</h4>
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
@@ -1171,7 +1170,7 @@ export default function PharmaceuticsPage() {
 
         <div className="space-y-6">
           {/* Step 1 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
               <div className="flex-1">
@@ -1182,7 +1181,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 2 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
               <div className="flex-1">
@@ -1193,7 +1192,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 3 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
               <div className="flex-1">
@@ -1204,7 +1203,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 4 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
               <div className="flex-1">
@@ -1215,7 +1214,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 5 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
               <div className="flex-1">
@@ -1226,7 +1225,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 6 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">6</div>
               <div className="flex-1">
@@ -1237,7 +1236,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Step 7 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#FF69B4]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">7</div>
               <div className="flex-1">
@@ -1249,7 +1248,7 @@ export default function PharmaceuticsPage() {
         </div>
 
         {/* Important Dates Box */}
-        <div className="bg-gradient-to-br from-[#FFF9E6] to-[#FFEDD5] rounded-xl p-8 border-l-4 border-[#FFA500] mt-8">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983] mt-8">
           <div className="flex items-center gap-3 mb-6">
             <Target className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Important Dates for M.Pharm Pharmaceutics Admission 2026:</h3>
@@ -1335,7 +1334,7 @@ export default function PharmaceuticsPage() {
         </div>
 
         {/* Additional Expenses */}
-        <div className="bg-gradient-to-br from-[#FFF9E6] to-[#FFEDD5] rounded-xl p-8 border-l-4 border-[#FFA500] mb-8">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">Additional Expenses to Consider:</h3>
           <ul className="space-y-3 text-gray-700">
             <li className="flex items-start">
@@ -1533,7 +1532,7 @@ export default function PharmaceuticsPage() {
         </div>
 
         {/* Infrastructure Verification Before Admission */}
-        <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <AlertTriangle className="w-6 h-6" />
             <h3 className="text-xl font-bold text-gray-800">Infrastructure Verification Before Admission:</h3>
@@ -1680,7 +1679,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Reason 2 */}
-          <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">2. Diverse Career Opportunities</h3>
             <p className="text-gray-700">
               Unlike other specializations that channel graduates into specific roles, Pharmaceutics opens doors to R&D, formulation development, production, technical services, regulatory affairs, quality by design, and academics. You're not limited to one department or one type of work. This diversity provides career flexibility and job security.
@@ -1704,7 +1703,7 @@ export default function PharmaceuticsPage() {
           </div>
 
           {/* Reason 5 */}
-          <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">5. Research & Publication Opportunities</h3>
             <p className="text-gray-700">
               Pharmaceutics offers abundant opportunities to publish research papers in high-impact journals. Novel drug delivery systems, nanotechnology, and formulation studies are hot research topics with strong publication potential. Publications enhance academic careers, Ph.D admissions, and industry credibility. International conferences welcome pharmaceutics research.
@@ -1735,7 +1734,8 @@ export default function PharmaceuticsPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Innovate in Pharmaceutical Formulation?</h2>
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutics program and become a formulation scientist driving pharmaceutical innovation!</p>
           <button className="bg-white text-[#006837] font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
-            Apply Now for M.Pharm 2026
+            <span className="xs:hidden">Apply Now</span>
+            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
           </button>
           <p className="text-white text-sm mt-6">GPAT Qualified Students Preferred | PCI Approved | Advanced Formulation Lab | Industry Partnerships</p>
         </div>
@@ -1772,7 +1772,7 @@ export default function PharmaceuticsPage() {
         </ul>
 
         {/* Critical Verification Checklist */}
-        <div className="bg-gradient-to-br from-[#FFE4F0] via-[#FFD4E8] to-[#FFC4E0] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <AlertTriangle className="w-6 h-6" />
             <h3 className="text-xl font-bold text-gray-800">Critical Verification Checklist Before Admission:</h3>
@@ -1813,8 +1813,6 @@ export default function PharmaceuticsPage() {
           </ul>
         </div>
       </div>
-
-      <Footer />
     </div>
   )
 }

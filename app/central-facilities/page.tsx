@@ -48,6 +48,8 @@ export default function CentralFacilitiesPage() {
               <li className="text-gray-700">6. Flame Photometer</li>
               <li className="text-gray-700">7. Potentiometer</li>
               <li className="text-gray-700">8. Ion Exchanger</li>
+              <li className="text-gray-700">9. Ph Meter</li>
+              <li className="text-gray-700">10. Weighing Balance</li>
             </ol>
           </div>
 
@@ -71,6 +73,10 @@ export default function CentralFacilitiesPage() {
               <li className="text-gray-700">12. Lyophilizer</li>
               <li className="text-gray-700">13. Autoclave</li>
               <li className="text-gray-700">14. Hot Air Oven</li>
+              <li className="text-gray-700">15. Sieve Analyser</li>
+              <li className="text-gray-700">16. Anderson Pippette</li>
+              <li className="text-gray-700">17. Incubator</li>
+              <li className="text-gray-700">18. Friabilator</li>
             </ol>
           </div>
 
@@ -91,16 +97,30 @@ export default function CentralFacilitiesPage() {
             </ol>
           </div>
 
-          {/* Department of Pharmacognosy */}
+     
+
+          {/* Department of pharmaceutical chemistry */}
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h2 className="text-lg sm:text-xl font-bold text-black mb-4">
-              Department of Pharmacognosy
+            Department of Pharmaceutical Chemistry
             </h2>
             <ol className="space-y-2 ml-6">
-              <li className="text-gray-700">1. Projection Microscope</li>
-              <li className="text-gray-700">2. Muffle Furnace</li>
-              <li className="text-gray-700">3. Electrical Bunsen Burner</li>
-              <li className="text-gray-700">4. Moisture Balance</li>
+              <li className="text-gray-700">1. Calorimeter</li>
+              <li className="text-gray-700">2. Melting point apparatus</li>
+              <li className="text-gray-700">3. Magnetic stirrer</li>
+              <li className="text-gray-700">4. Hot plate</li>
+              <li className="text-gray-700">5. Hot air oven</li>
+              <li className="text-gray-700">6. Refrigerator</li>
+              <li className="text-gray-700">7. Vacuum pump</li>
+              <li className="text-gray-700">8. pH (meter hand)</li>
+              <li className="text-gray-700">9. Weighing balance</li>
+              <li className="text-gray-700">10. Electrical water bath</li>
+              <li className="text-gray-700">11. Water still</li>
+              <li className="text-gray-700">12. Visual melting point apparatus</li>
+              <li className="text-gray-700">13. Heating mantle (2 litres)</li>
+              <li className="text-gray-700">14. Heating mantle (1 litres)</li>
+              <li className="text-gray-700">15. Heating mantle (0.5 litres)</li>
+              <li className="text-gray-700">16. Mechanical stirrer</li>
             </ol>
           </div>
         </div>

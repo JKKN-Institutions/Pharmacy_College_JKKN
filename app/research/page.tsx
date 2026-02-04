@@ -53,49 +53,49 @@ export default function ResearchPage() {
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2024-2025</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">25</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2024-2025.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2023-2024</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">08</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2023-2024.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2022 - 2023</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2022-2023.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2021 - 2022</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">08</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2021-2022.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2020 - 2021</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">13</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2020-2021.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2019 - 2020</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">12</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2019-2020.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2018 - 2019</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2018-2019.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                 </tbody>
@@ -105,12 +105,7 @@ export default function ResearchPage() {
 
           {/* Research Facilities */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
-              Research Facilities:
-            </h2>
-            <p className="text-justify mb-6">
-              To facilitate groundbreaking research, we have established state-of-the-art research facilities that provide our students and faculty with access to cutting-edge equipment and resources. Our laboratories are equipped with advanced instrumentation, enabling us to conduct sophisticated experiments and analyses. Additionally, our library boasts an extensive collection of scientific literature and research databases, further supporting our pursuit of knowledge.
-            </p>
+           
 
             {/* Button */}
             <a

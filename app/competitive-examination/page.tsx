@@ -75,10 +75,10 @@ export default function CompetitiveExaminationPage() {
           {/* Committee Members */}
           <div>
             <h3 className="text-lg sm:text-xl font-bold mb-3">COMMITTEE MEMBERS:</h3>
-            <p className="mb-2">Dr. R. ARUN. M.Pharm., Ph.D. (Coordinator)</p>
-            <p className="mb-2">Dr. M.S. Arun, Pharm.D. (Co-Coordinator)</p>
-            <p className="mb-2">Dr. KRISHNA RAVI. Pharm.D.</p>
-            <p className="mb-4">Ms. K.S. NIKITHA, M.Pharm.,</p>
+            <p className="mb-2">Dr. R. ARUN, M.Pharm., Ph.D. (Coordinator)</p>
+            <p className="mb-2">Dr. KARTHICK S, Pharm.D. (Co-Coordinator)</p>
+            <p className="mb-2">Mrs. BABYKALA M, Pharm.D.</p>
+            <p className="mb-4">Mrs. Devi P, M.Pharm.</p>
             <p className="mb-3">
               Our committee comprises experienced professionals and educators dedicated to your academic and career advancement.
             </p>

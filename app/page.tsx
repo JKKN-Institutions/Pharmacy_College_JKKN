@@ -136,15 +136,18 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Image */}
             <div className="relative order-2 lg:order-1">
-              <div className="bg-black rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
-                <div className="relative w-full min-h-[250px] xs:min-h-[300px] sm:min-h-[350px] md:min-h-[400px] flex items-center justify-center bg-gradient-to-br from-gray-800 to-black">
-                  {/* Placeholder for lab equipment image */}
-                  <Microscope className="w-12 h-12" />
-                </div>
+              <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
+                <Image
+                  src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
+                  alt="Our Institution"
+                  width={800}
+                  height={600}
+                  className="w-full h-auto"
+                />
                 {/* 100 Years Badge */}
-                <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-full w-20 h-20 xs:w-24 xs:h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl">
-                  <div className="text-2xl xs:text-3xl sm:text-4xl font-bold">100</div>
-                  <div className="text-[10px] xs:text-xs font-semibold uppercase">Years Legacy</div>
+                <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 flex flex-col items-center justify-center shadow-xl">
+                  <div className="text-lg xs:text-2xl sm:text-3xl font-bold">100</div>
+                  <div className="text-[7px] xs:text-[10px] sm:text-xs font-semibold uppercase">Years Legacy</div>
                 </div>
               </div>
             </div>
@@ -449,7 +452,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Doctor of Philosophy (PhD)</h3>
-                    <p className="text-gray-300 text-xs sm:text-sm">6 Years (5+1 Internship)</p>
+                    <p className="text-gray-300 text-xs sm:text-sm">3 Years </p>
                   </div>
                 </div>
               </div>
@@ -706,40 +709,40 @@ export default function Home() {
               <h3 className="text-lg xs:text-xl sm:text-2xl font-bold mb-4 sm:mb-6 md:mb-8">Our Top Recruiters</h3>
               <div className="grid grid-cols-2 xs:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Sun Pharma</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Sun Pharma</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Cipla</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Cipla</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Dr. Reddy's</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Dr. Reddy's</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Lupin</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Lupin</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Aurobindo</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Aurobindo</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Hetero</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Hetero</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Apollo</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Apollo</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">MedPlus</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">MedPlus</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Biocon</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Biocon</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Torrent</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Torrent</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Alkem</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Alkem</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[10px] xs:text-sm sm:text-base whitespace-nowrap">Glenmark</p>
+                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Glenmark</p>
                 </div>
               </div>
             </div>

@@ -312,4 +312,56 @@
   @apply grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6;
 }
 
+/* Responsive button groups */
+.btn-group-responsive {
+  @apply flex flex-col xs:flex-row flex-wrap gap-2 xs:gap-3 sm:gap-4;
+}
+
+.btn-group-responsive > * {
+  @apply w-full xs:w-auto;
+}
+
+/* Responsive list items with proper spacing */
+.list-responsive {
+  @apply space-y-2 sm:space-y-3 md:space-y-4;
+}
+
+.list-responsive li {
+  @apply text-sm sm:text-base leading-relaxed;
+}
+
+/* Responsive hero content wrapper */
+.hero-content {
+  @apply px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20 py-10 sm:py-12 md:py-16 lg:py-20;
+}
+
+/* Responsive feature cards */
+.feature-card {
+  @apply p-4 sm:p-5 md:p-6 lg:p-8 rounded-lg sm:rounded-xl md:rounded-2xl;
+}
+
+/* Ensure consistent responsive behavior across all devices */
+@media (max-width: 320px) {
+  /* Extra support for very small devices */
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    @apply text-xl leading-tight;
+  }
+
+  h2 {
+    @apply text-lg leading-tight;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Optimize for 4K and ultra-wide displays */
+  .container-responsive,
+  .max-w-content {
+    max-width: 1800px;
+  }
+}
+
 /* Bottom Navigation Bar Support - safe area handled by fixed nav */

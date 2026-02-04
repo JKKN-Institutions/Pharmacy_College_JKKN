@@ -99,7 +99,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Dr. M.S. Arun – Co-Coordinator</span>
+                    <span className="text-base md:text-lg text-gray-700">Dr. Kranti Kumar – Co-Coordinator</span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
@@ -107,7 +107,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Dr. Alwin Simon – Member</span>
+                    <span className="text-base md:text-lg text-gray-700">Dr. Revanth Ramachandran – Member</span>
                   </li>
                 </ul>
               </div>
