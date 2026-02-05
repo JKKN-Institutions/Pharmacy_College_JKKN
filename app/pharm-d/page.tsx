@@ -1351,117 +1351,6 @@ export default function PharmDPage() {
           </div>
         </div>
 
-        {/* Challenges & Limitations - Reality Check */}
-        <div className="bg-gradient-to-br from-[#FECACA] to-[#FCA5A5] rounded-xl p-8 border-l-4 border-[#EF4444]">
-          <div className="flex items-center gap-3 mb-6">
-            <AlertTriangle className="w-6 h-6" />
-            <h3 className="text-2xl font-bold text-gray-800">Challenges & Limitations - Reality Check:</h3>
-          </div>
-
-          <div className="space-y-6">
-            <div>
-              <h4 className="text-xl font-bold text-[#006837] mb-3">1. Limited Current Job Market:</h4>
-              <ul className="space-y-2 text-gray-800 ml-4">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Estimated only 5,000-8,000 clinical pharmacist positions nationally vs 3,000-4,000 Pharm.D graduates annually</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Many hospitals yet to establish clinical pharmacy services - cost considerations, lack of awareness</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Most opportunities concentrated in metros and Tier-1 cities - limited in smaller cities/towns</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Many "clinical pharmacist" positions actually hospital pharmacy/dispensing roles with limited clinical involvement</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-[#006837] mb-3">2. Regulatory Clarity Needed:</h4>
-              <ul className="space-y-2 text-gray-800 ml-4">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Scope of practice not clearly defined in many states - overlap with B.Pharm hospital pharmacists</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>No separate licensure for clinical practice - same registration as B.Pharm</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Prescribing rights and independent practice authority unclear</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Professional recognition by medical community varies - some doctors resistant to clinical pharmacy integration</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-[#006837] mb-3">3. Competition from Other Qualifications:</h4>
-              <ul className="space-y-2 text-gray-800 ml-4">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>M.Pharm (Pharmacy Practice) graduates competing for same clinical positions</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>B.Pharm graduates with hospital experience often preferred for cost reasons</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Some hospitals not differentiating pay between Pharm.D and B.Pharm for clinical roles</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-[#006837] mb-3">4. Entry-Level Challenges:</h4>
-              <ul className="space-y-2 text-gray-800 ml-4">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Many fresh graduates start with internships/fellowships at low pay (₹10-20K/month) for 6-12 months</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Limited openings for entry-level positions - need to wait for vacancies</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Initial years require building credibility with medical team - challenging for fresh graduates</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-xl font-bold text-[#006837] mb-3">5. International Recognition Issues:</h4>
-              <ul className="space-y-2 text-gray-800 ml-4">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Indian Pharm.D not automatically recognized by US pharmacy boards - requires extensive evaluation and additional exams (FPGEC, NAPLEX, MPJE)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>ACPE (Accreditation Council for Pharmacy Education) does not accredit Indian Pharm.D programs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Direct practice in USA/Canada/Australia difficult - pathway exists but complex and expensive</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span>Middle East (UAE, Saudi Arabia, Qatar) more receptive but still require licensure exams</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
 
         {/* Strategic Career Planning for Pharm.D Success */}
         <div className="mt-8 bg-gradient-to-br from-[#DBEAFE] to-[#BFDBFE] rounded-xl p-8 border-l-4 border-[#3B82F6]">
@@ -2261,39 +2150,7 @@ export default function PharmDPage() {
             </div>
           </div>
 
-          {/* Additional Costs */}
-          <div className="bg-white rounded-xl shadow-lg p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-gray-800 mb-6">Additional Costs to Consider</h3>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-bold text-lg text-[#006837] mb-3">One-Time Expenses</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex justify-between"><span>• Admission/Caution Deposit:</span><span className="font-semibold">₹10,000-50,000</span></li>
-                  <li className="flex justify-between"><span>• Books & Study Materials (entire program):</span><span className="font-semibold">₹30,000-50,000</span></li>
-                  <li className="flex justify-between"><span>• Laptop/Tablet:</span><span className="font-semibold">₹30,000-60,000</span></li>
-                  <li className="flex justify-between"><span>• White Coat, Stethoscope, etc.:</span><span className="font-semibold">₹5,000-10,000</span></li>
-                </ul>
-              </div>
-
-              <div>
-                <h4 className="font-bold text-lg text-[#006837] mb-3">Annual Recurring Costs</h4>
-                <ul className="space-y-2 text-gray-700">
-                  <li className="flex justify-between"><span>• Hostel Fees (if applicable):</span><span className="font-semibold">₹60,000-1,50,000/year</span></li>
-                  <li className="flex justify-between"><span>• Food & Living:</span><span className="font-semibold">₹40,000-80,000/year</span></li>
-                  <li className="flex justify-between"><span>• Transportation:</span><span className="font-semibold">₹15,000-30,000/year</span></li>
-                  <li className="flex justify-between"><span>• Exam Fees, Library, etc.:</span><span className="font-semibold">₹10,000-20,000/year</span></li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-6 bg-[#E0F2F1] rounded-lg p-4 border-l-4 border-[#7cb983]">
-              <p className="text-gray-800"><span className="font-semibold">Total Investment Estimate:</span></p>
-              <p className="text-gray-700 mt-2">• <span className="font-semibold">Government College (6-year):</span> ₹8-12 lakhs (including living costs)</p>
-              <p className="text-gray-700">• <span className="font-semibold">Private College (6-year):</span> ₹15-25 lakhs (including living costs)</p>
-              <p className="text-gray-700">• <span className="font-semibold">Deemed University (6-year):</span> ₹18-30 lakhs (including living costs)</p>
-            </div>
-          </div>
+          
         </div>
       </div>
 
@@ -2895,25 +2752,7 @@ export default function PharmDPage() {
           </ul>
         </div>
 
-        {/* Reconsider Pharm.D If */}
-        <div className="bg-[#E0F2F1] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
-          <h3 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <AlertTriangle className="mr-3 text-[#006837] w-5 h-5" />
-            Reconsider Pharm.D If:
-          </h3>
-
-          <ul className="space-y-3 text-gray-700">
-            <li>• Not comfortable with patient interaction or clinical setting makes you anxious</li>
-            <li>• Primarily motivated by "Dr." prefix without understanding clinical pharmacy work</li>
-            <li>• Want pharmaceutical industry careers in manufacturing, QC, formulation, or marketing</li>
-            <li>• Interested in research and laboratory work more than patient counseling</li>
-            <li>• Need maximum career flexibility and diverse job options - B.Pharm offers more</li>
-            <li>• Cannot relocate - want opportunities in smaller towns/cities (limited clinical positions)</li>
-            <li>• Expecting high immediate returns - entry salaries modest for 6-year investment</li>
-            <li>• Planning international practice without understanding complex licensure requirements</li>
-            <li>• Family/peer pressure driving decision - must be your personal career goal</li>
-          </ul>
-        </div>
+    
 
         {/* Maximizing Success in Pharm.D Career */}
         <div className="bg-gradient-to-br from-[#E8F5E9] to-[#C8E6C9] rounded-xl p-8 border-l-4 border-[#7cb983]">

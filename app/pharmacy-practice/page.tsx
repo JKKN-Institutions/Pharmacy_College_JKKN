@@ -269,46 +269,7 @@ export default function PharmacyPracticePage() {
         </div>
       </div>
 
-      {/* Important Note for Pharmacy Practice Aspirants */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-          <div className="flex items-start gap-3 mb-4">
-            <Lightbulb className="w-6 h-6" />
-            <h3 className="text-2xl font-bold text-gray-800">Important Note for Pharmacy Practice Aspirants:</h3>
-          </div>
-
-          <p className="text-gray-800 mb-4">
-            Unlike other M.Pharm specializations, Pharmacy Practice emphasizes <span className="font-bold text-[#006837]">patient interaction, clinical skills, and healthcare communication</span>. Students should have:
-          </p>
-
-          <ul className="space-y-3 text-gray-800">
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Strong communication skills (English & regional language for patient counseling)</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Empathy and compassion for patient care</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Willingness to work in hospital environments</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Interest in medical sciences and therapeutics</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Ability to work in interprofessional healthcare teams</span>
-            </li>
-          </ul>
-
-          <p className="text-gray-800 mt-4">
-            If you prefer laboratory work over patient interaction, consider Pharmaceutical Analysis or Pharmaceutics instead.
-          </p>
-        </div>
-      </div>
+     
 
       {/* GPAT & Alternative Entrance Exams */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -1418,60 +1379,7 @@ export default function PharmacyPracticePage() {
         </div>
       </div>
 
-      {/* Critical Verification Warning */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-br from-[#FFCDD2] to-[#EF9A9A] rounded-xl p-8 lg:p-10 border-l-4 border-[#D32F2F]">
-          <div className="flex items-start gap-3 mb-4">
-            <AlertTriangle className="w-8 h-8" />
-            <h3 className="text-2xl font-bold text-gray-800">Critical Verification for Pharmacy Practice Programs:</h3>
-          </div>
-
-          <h4 className="text-xl font-bold text-[#006837] mb-4">Before admission, verify these critical aspects:</h4>
-
-          <ul className="space-y-3 text-gray-800 mb-6">
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Hospital Partnerships:</span> Does the college have MoUs with PCI-approved teaching hospitals for clinical rotations?
-              </div>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Active Clinical Pharmacy Department:</span> Do affiliated hospitals actually have functioning clinical pharmacy services?
-              </div>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Qualified Clinical Preceptors:</span> Are there clinical pharmacists or physicians who will supervise rotations?
-              </div>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Previous Batch Rotations:</span> Ask current students if clinical rotations actually happened or were just on paper.
-              </div>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Rotation Quality:</span> Will you get actual patient interaction or just observe from distance?
-              </div>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <div>
-                <span className="font-bold text-[#006837]">Faculty Expertise:</span> Do faculty members have clinical pharmacy experience or just theoretical knowledge?
-              </div>
-            </li>
-          </ul>
-
-          <p className="text-gray-800 font-semibold">
-            <span className="text-[#006837]">Warning:</span> Many colleges offer M.Pharm Pharmacy Practice but lack proper hospital tie-ups. Without quality clinical rotations, your degree value diminishes significantly. Some colleges just send students to hospitals for observership without real clinical responsibilities. This defeats the purpose of specializing in Pharmacy Practice.
-          </p>
-        </div>
-      </div>
+     
 
       {/* Fee Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
@@ -1783,75 +1691,7 @@ export default function PharmacyPracticePage() {
           </li>
         </ul>
 
-        {/* Critical Pre-Admission Checklist */}
-        <div className="bg-gradient-to-br from-[#FFCDD2] to-[#EF9A9A] rounded-xl p-8 lg:p-10 border-l-4 border-[#D32F2F]">
-          <div className="flex items-start gap-3 mb-6">
-            <AlertTriangle className="w-8 h-8" />
-            <h3 className="text-2xl font-bold text-gray-800">Critical Pre-Admission Checklist for Pharmacy Practice:</h3>
-          </div>
-
-          <h4 className="text-xl font-bold text-[#006837] mb-4">Visit the college and verify these points personally:</h4>
-
-          <ul className="space-y-3 text-gray-800 mb-6">
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Ask for copies of hospital MoUs. Visit at least one affiliated hospital.</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Meet clinical pharmacy faculty. Verify their clinical pharmacy experience (not just Ph.D in Pharmacology).</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Talk to current M.Pharm Pharmacy Practice students about rotation quality.</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Check if hospitals have dedicated clinical pharmacy departments or if students just observe.</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Verify clinical rotation schedule from previous batch logbooks.</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Check faculty publications in pharmacy practice journals (not just pharmaceutical chemistry).</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Ensure college has drug information resources (textbooks, online databases) for clinical training.</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Verify placement records specifically for Pharmacy Practice graduates (not overall college placement).</span>
-            </li>
-          </ul>
-
-          <h4 className="text-xl font-bold text-[#006837] mb-4">Red Flags to Watch:</h4>
-
-          <ul className="space-y-3 text-gray-800">
-            <li className="flex items-start">
-              <span className="text-[#D32F2F] text-xl mr-3">❌</span>
-              <span>College claims hospital partnerships but cannot show MoU documents</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#D32F2F] text-xl mr-3">❌</span>
-              <span>Faculty have no clinical pharmacy or hospital experience</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#D32F2F] text-xl mr-3">❌</span>
-              <span>Current students report rotations are irregular or superficial</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#D32F2F] text-xl mr-3">❌</span>
-              <span>Hospital is far from college (50+ km) making regular rotations difficult</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#D32F2F] text-xl mr-3">❌</span>
-              <span>College has Pharmacy Practice program but no previous batch completed yet (risky)</span>
-            </li>
-          </ul>
-        </div>
+   
       </div>
     </div>
   )

@@ -76,13 +76,7 @@ export default function ResponsivePDFViewer({ pdfUrl, title, description }: Resp
             <Download className="w-4 h-4 sm:w-5 sm:h-5" />
             Download PDF
           </button>
-          <button
-            onClick={handleOpenNewTab}
-            className="border-2 border-[#7cb983] text-[#7cb983] hover:bg-[#7cb983] hover:text-white font-semibold px-4 xs:px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px] w-full xs:w-auto"
-          >
-            <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5" />
-            Open in New Tab
-          </button>
+         
         </div>
 
         {/* Loading State */}

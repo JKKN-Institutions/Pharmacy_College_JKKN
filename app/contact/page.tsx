@@ -55,7 +55,7 @@ export default function ContactPage() {
                         Email
                       </h3>
                       <p className="text-base sm:text-lg text-[#0F6B3E] break-all">
-                        nursing@jkkn.ac.in
+                        pharmacy@jkkn.ac.in
                       </p>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                         Address
                       </h3>
                       <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                        SRESAKTHIMAYEIL INSTITUTE OF NURSING & RESEARCH<br />
+                        JKKN COLLEGE OF PHARMACY<br />
                         NATARAJAPURAM, NH-544 (SALEM TO COIMBATORE),<br />
                         KOMARAPALAYAM – 638183, NAMAKKAL (DT)
                       </p>

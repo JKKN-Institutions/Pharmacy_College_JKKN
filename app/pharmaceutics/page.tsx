@@ -1531,45 +1531,7 @@ export default function PharmaceuticsPage() {
           </ul>
         </div>
 
-        {/* Infrastructure Verification Before Admission */}
-        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-          <div className="flex items-start gap-3 mb-4">
-            <AlertTriangle className="w-6 h-6" />
-            <h3 className="text-xl font-bold text-gray-800">Infrastructure Verification Before Admission:</h3>
-          </div>
-          <p className="text-gray-700 mb-4">
-            <span className="font-bold text-[#006837]">Extremely Important:</span> Before finalizing admission, personally visit the pharmaceutics laboratory. Many colleges list equipment they don't actually have or have non-functional machines. Check:
-          </p>
-          <ul className="space-y-2 text-gray-700 mb-4">
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Are tablet compression machines actually working? Ask to see a demonstration.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Is the coating pan functional? Many colleges have it but never use it.</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Are dissolution testers available and in working condition?</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Does the college have adequate chemicals and excipients stock for formulation work?</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Are characterization instruments (DSC, SEM, etc.) accessible or do students need external facilities?</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Check previous M.Pharm theses in the library to see quality of research conducted.</span>
-            </li>
-          </ul>
-          <p className="text-gray-700">
-            Good infrastructure directly impacts your research quality, publication potential, and placement opportunities. Don't compromise on this.
-          </p>
-        </div>
+   
       </div>
 
       {/* Frequently Asked Questions */}
@@ -1771,47 +1733,7 @@ export default function PharmaceuticsPage() {
           </li>
         </ul>
 
-        {/* Critical Verification Checklist */}
-        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-          <div className="flex items-start gap-3 mb-4">
-            <AlertTriangle className="w-6 h-6" />
-            <h3 className="text-xl font-bold text-gray-800">Critical Verification Checklist Before Admission:</h3>
-          </div>
-          <ul className="space-y-2 text-gray-700">
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Verify PCI and AICTE approval from official websites (not college brochures)</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Visit pharmaceutics laboratory and check functional equipment (tablet press, coating pan, dissolution tester)</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Review previous students' M.Pharm theses to assess research quality</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Check faculty qualifications – Ph.D in Pharmaceutics is essential for good research guidance</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Ask about industry collaborations and student placement records</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Verify availability of research chemicals and excipients for formulation work</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Check if college has MoUs with pharmaceutical companies for industrial training</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 mr-3 mt-1">☑</span>
-              <span>Inquire about previous batch's AICTE scholarship disbursement (many colleges delay)</span>
-            </li>
-          </ul>
-        </div>
+     
       </div>
     </div>
   )

@@ -74,18 +74,7 @@ export default function PhDPage() {
         </div>
       </div>
 
-      {/* Laboratory Image Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="relative w-full h-64 sm:h-96 rounded-xl overflow-hidden">
-          <div className="w-full h-full bg-gradient-to-r from-[#006837] to-[#7cb983] flex items-center justify-center">
-            <p className="text-white text-xl font-semibold px-4 text-center">State-of-the-art pharmaceutical research laboratory for Ph.D Learners</p>
-          </div>
-        </div>
-        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
-          <p className="text-lg font-medium">State-of-the-art Research Laboratory equipped with advanced instrumentation for doctoral research in pharmaceutical sciences</p>
-        </div>
-      </div>
-
+    
       {/* Why Pursue Ph.D in Pharmacy Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex items-start gap-4 mb-12">
@@ -379,17 +368,7 @@ export default function PhDPage() {
         </div>
       </div>
 
-      {/* Doctoral Research Image Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="relative w-full h-64 sm:h-96 rounded-xl overflow-hidden">
-          <div className="w-full h-full bg-gradient-to-r from-[#006837] to-[#7cb983] flex items-center justify-center">
-            <p className="text-white text-xl font-semibold px-4 text-center">Ph.D Learners conducting advanced pharmaceutical research</p>
-          </div>
-        </div>
-        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
-          <p className="text-lg font-medium">Doctoral Scholars engaged in cutting-edge pharmaceutical research under expert Learning Facilitator guidance</p>
-        </div>
-      </div>
+    
 
       {/* Eligibility Criteria Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -874,17 +853,7 @@ export default function PhDPage() {
         </div>
       </div>
 
-      {/* Advanced Research Instrumentation Image Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="relative w-full h-64 sm:h-96 rounded-xl overflow-hidden">
-          <div className="w-full h-full bg-gradient-to-r from-[#006837] to-[#7cb983] flex items-center justify-center">
-            <p className="text-white text-xl font-semibold px-4 text-center">Advanced research instrumentation facility for doctoral research</p>
-          </div>
-        </div>
-        <div className="bg-[#006837] text-white p-6 rounded-b-xl text-center">
-          <p className="text-lg font-medium">Central Instrumentation Facility with HPLC, LC-MS, NMR, FTIR, DSC and advanced analytical equipment</p>
-        </div>
-      </div>
+      
 
       {/* Career Opportunities Section - Additional Cards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -1178,39 +1147,7 @@ export default function PhDPage() {
           </div>
         </div>
 
-        {/* Important Admission Tips */}
-        <div className="bg-[#FFF8DC] rounded-xl p-8 mt-12 border-l-4 border-yellow-500">
-          <h4 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <AlertTriangle className="w-10 h-10" />
-            <span>Important Admission Tips</span>
-          </h4>
-          <ul className="space-y-3 text-gray-700">
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>Apply to multiple institutions to increase admission chances</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>Confirm guide availability before applying – limited seats per supervisor</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>NIPER conducts separate entrance exam (NIPER JEE) for Ph.D admission</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>Many universities require NOC from employer for part-time Ph.D</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>Check last date for GPAT/NET/GATE score validity</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-2">•</span>
-              <span>Prepare for subject-specific questions during interview</span>
-            </li>
-          </ul>
-        </div>
+       
       </div>
 
       {/* Ph.D vs M.Pharm Comparison */}
@@ -1516,47 +1453,7 @@ export default function PhDPage() {
           </div>
         </div>
 
-        {/* Verification Checklist */}
-        <div className="bg-[#FFE4E8] rounded-xl p-8 border-l-4 border-red-400">
-          <h4 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2">
-            <AlertTriangle className="w-10 h-10" />
-            <span>Verification Checklist Before Ph.D Admission</span>
-          </h4>
-          <ul className="space-y-3 text-gray-700">
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Verify university recognition from UGC website (ugc.ac.in)</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Check Ph.D program approval and research guide recognition</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Visit research laboratories and check functional equipment</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Review guide's publications (Google Scholar, SCOPUS) and h-index</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Verify fellowship disbursement track record with current scholars</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Check previous scholars' thesis topics and publication records</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Confirm availability of research consumables and contingency funds</span>
-            </li>
-            <li className="flex items-start">
-              <CheckCircle className="w-10 h-10" />
-              <span>Inquire about scholar-to-guide ratio (ideal: 6-8 scholars per guide)</span>
-            </li>
-          </ul>
-        </div>
+    
       </div>
     </div>
   )
