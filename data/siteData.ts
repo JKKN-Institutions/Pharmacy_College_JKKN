@@ -42,10 +42,7 @@ export const topMenuItems: NavItem[] = [
         label: "Affiliation Details",
         href: "/affiliation-details",
         submenu: [
-          { label: "Recognition Approval & Accrediation", href: "/recognition-approval-&-accrediation" },
-          { label: "AICTE Approval", href: "/aicte" },
-          { label: "Pharmacy Council Approval", href: "/pharmacy-council" },
-          { label: "University Affiliation", href: "/university" }
+          { label: "Recognition Approval & Accrediation", href: "/recognition-approval-&-accrediation" }
         ]
       },
       { label: "Institutional Development Plan", href: "/institutional-development-plan" },
@@ -79,8 +76,7 @@ export const topMenuItems: NavItem[] = [
               { label: "Pharmaceutics", href: "/pharmaceutics" }
             ]
           },
-          { label: "PHARM.D (Doctor of Pharmacy)", href: "/pharm-d" },
-          { label: "PHARM D (POST BACCALAUREATE)", href: "/pharm-d-post-baccalaureate" }
+          { label: "PHARM.D & PHARM.D (Post Baccalaureate)", href: "/pharm-d" },
         ]
       },
       { label: "PhD", href: "/phd" }

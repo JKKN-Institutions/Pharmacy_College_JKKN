@@ -11,7 +11,6 @@ export default function PharmDPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <Pill className="w-12 h-12" />
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Pharm.D - Doctor of Pharmacy</h1>
           <p className="text-lg sm:text-xl">Clinical Pharmacy Excellence • Patient Care Focus • Hospital Practice</p>
         </div>
@@ -2862,7 +2861,8 @@ export default function PharmDPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Pursue Clinical Pharmacy Excellence?</h2>
           <p className="text-xl text-white mb-8">Join our Pharm.D program and become a clinical pharmacy professional!</p>
           <button className="bg-white text-[#006837] font-bold text-lg px-12 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
-            Apply for Pharm.D Admission 2026
+            <span className="lg:hidden">Apply Now</span>
+            <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>
           </button>
           <p className="mt-6 text-white text-sm">PCI Approved | NEET/GPAT Accepted | Hospital Partnerships | Clinical Training Excellence</p>
         </div>
@@ -2951,7 +2951,8 @@ export default function PharmDPage() {
           <p className="text-xl mb-8">Choose your pathway - Pharm.D or Pharm.D (PB) - and become a Doctor of Pharmacy!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
-              Apply for Pharm.D Admission 2026
+              <span className="sm:hidden">Apply Now</span>
+              <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>
             </button>
             <button className="bg-[#F59E0B] text-white font-bold text-lg px-10 py-4 rounded-full hover:bg-[#D97706] transition-colors shadow-lg">
               Download Brochure

@@ -11,9 +11,8 @@ export default function BPharmLateralEntryPage() {
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          {/* Graduation Cap Icon and Title */}
-          <div className="flex items-center gap-3 mb-6">
-            <GraduationCap className="w-12 h-12" />
+          {/* Title */}
+          <div className="mb-6">
             <h1 className="text-4xl lg:text-5xl font-bold">
               B.Pharm - Bachelor of Pharmacy
             </h1>
@@ -2074,7 +2073,8 @@ export default function BPharmLateralEntryPage() {
             Join J.K.K. Nattraja College of Pharmacy - Where Learners Transform into Industry Leaders!
           </p>
           <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-lg px-8 py-4 rounded-full transition-colors">
-            Apply for B.Pharm Admission 2026
+            <span className="lg:hidden">Apply Now</span>
+            <span className="hidden lg:inline">Apply for B.Pharm Admission 2026</span>
           </button>
           <div className="mt-8 space-y-2">
             <p className="text-lg">

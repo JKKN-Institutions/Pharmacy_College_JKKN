@@ -168,9 +168,7 @@ export default function Footer() {
               </h3>
               <div className="flex flex-wrap gap-2">
                 <a
-                  href="https://www.facebook.com/jkkninstitutions"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/jkknpharmacy"
                   className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300"
                   aria-label="Facebook"
                 >
@@ -179,9 +177,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.instagram.com/jkkninstitutions/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/jkknpharmacy"
                   className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300"
                   aria-label="Instagram"
                 >
@@ -190,9 +186,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/school/jkkn-institutions/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/school/jkknpharmacy/"
                   className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300"
                   aria-label="LinkedIn"
                 >
@@ -201,9 +195,7 @@ export default function Footer() {
                   </svg>
                 </a>
                 <a
-                  href="https://www.youtube.com/@JKKNInstitutions"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="https://www.youtube.com/playlist?list=PL6QsTq-__Hhs0tz4hErvZYmnD9uZ4A4Gm"
                   className="w-9 h-9 bg-white/10 rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300"
                   aria-label="YouTube"
                 >

@@ -1496,8 +1496,8 @@ export default function PharmaceuticalAnalysisPage() {
             Join our M.Pharm program and become an expert in analytical techniques and quality assurance!
           </p>
           <button className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-colors">
-            <span className="xs:hidden">Apply Now</span>
-            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
+            <span className="lg:hidden">Apply Now</span>
+            <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </button>
           <p className="text-sm mt-6 text-gray-100">
             GPAT Qualified? | PCI Approved | State-of-the-art Analytical Lab | Industry Collaborations

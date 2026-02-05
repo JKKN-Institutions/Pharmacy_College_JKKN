@@ -10,8 +10,7 @@ export default function BPharmacyPage() {
       {/* Header Section */}
       <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] text-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 flex items-center justify-center gap-2 sm:gap-3">
-            <GraduationCap className="w-12 h-12 sm:w-14 sm:h-14" />
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
             Bachelor of Pharmacy (B.Pharm) Course 2026
           </h1>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100">
@@ -1225,8 +1224,8 @@ export default function BPharmacyPage() {
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-xl mb-8">Join the next batch of B.Pharm and become a licensed pharmacist in 4 years!</p>
             <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-lg font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block">
-              <span className="xs:hidden">Apply Now</span>
-              <span className="hidden xs:inline">Apply Now for B.Pharm 2026</span>
+              <span className="lg:hidden">Apply Now</span>
+              <span className="hidden lg:inline">Apply Now for B.Pharm 2026</span>
             </a>
             <p className="mt-6 text-lg">Admission Open | Limited Seats Available | PCI Approved</p>
           </div>

@@ -82,10 +82,10 @@ export default function Header() {
 
       {/* First Level Submenu */}
       {item.submenu && activeSubmenu === item.label && (
-        <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${['COMMITTEE', 'FACILITIES'].includes(item.label) ? 'min-w-[520px]' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'PLACEMENT'].includes(item.label) ? 'right-0' : 'left-0'}`}>
-          <div className={`${['COMMITTEE', 'FACILITIES'].includes(item.label) ? 'grid grid-cols-2 gap-0 relative' : ''}`}>
+        <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) ? 'min-w-[520px]' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'PLACEMENT'].includes(item.label) ? 'right-0' : 'left-0'}`}>
+          <div className={`${['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) ? 'grid grid-cols-2 gap-0 relative' : ''}`}>
             {/* Center divider line for 2-column layouts */}
-            {['COMMITTEE', 'FACILITIES'].includes(item.label) && (
+            {['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) && (
               <div className="absolute left-1/2 top-0 bottom-0 w-px bg-gray-300 transform -translate-x-1/2"></div>
             )}
 

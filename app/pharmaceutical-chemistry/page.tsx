@@ -1851,8 +1851,8 @@ export default function PharmaceuticalChemistryPage() {
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutical Chemistry program and become a medicinal chemistry expert!</p>
 
           <button className="bg-white text-[#006837] px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105">
-            <span className="xs:hidden">Apply Now</span>
-            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
+            <span className="lg:hidden">Apply Now</span>
+            <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </button>
 
           <p className="text-white mt-6 text-sm">

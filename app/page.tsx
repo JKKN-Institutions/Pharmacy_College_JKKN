@@ -30,7 +30,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="text-sm xs:text-base sm:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-                Join J.K.K. Nattraja College of Pharmacy — where pharmaceutical science meets patient care.
+                Join JKKN College of Pharmacy — where pharmaceutical science meets patient care.
                 Our PCI-approved programs prepare Learners for impactful careers in the pharmaceutical industry.
               </p>
 
@@ -118,7 +118,7 @@ export default function Home() {
               <div className="w-14 h-14 xs:w-16 xs:h-16 sm:w-20 sm:h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
                 <BookOpen className="w-10 h-10" />
               </div>
-              <p className="text-xs sm:text-sm font-medium text-gray-700 max-w-[120px] sm:max-w-none mx-auto">Tamil Nadu Dr. M.G.R. Medical University</p>
+              <p className="text-xs sm:text-sm font-medium text-gray-700 max-w-[120px] sm:max-w-none mx-auto">TNMGRMU</p>
             </div>
             <div className="text-center w-24 xs:w-28 sm:w-auto">
               <div className="w-14 h-14 xs:w-16 xs:h-16 sm:w-20 sm:h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-3">
@@ -161,8 +161,7 @@ export default function Home() {
                 A Century of Excellence in Progressive Pharmaceutical Education
               </h2>
               <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                J.K.K. Nattraja College of Pharmacy is a premier pharmaceutical institution under J.K.K.
-                Nattraja Educational Institutions (JKKN), founded on the vision of Founder J.K.K. Nataraja
+                JKKN College of Pharmacy is a premier pharmaceutical institution under JKKN Institutions, founded on the vision of Founder J.K.K. Nataraja
                 Chettiar (1895-1995).
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
@@ -306,10 +305,10 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
-                  {/* <div>
-                    <span className="text-3xl font-bold text-[#006837]">60</span>
+                  <div>
+                    <span className="text-3xl font-bold text-[#006837]">12</span>
                     <span className="text-gray-600 ml-1">Seats</span>
-                  </div> */}
+                  </div>
                   <Link href="/b-pharmacy-lateral-entry" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-sm sm:text-base">
                     Learn More →
                   </Link>
@@ -393,7 +392,11 @@ export default function Home() {
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
-                  <Link href="/pharm-d-post-baccalaureate" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-sm sm:text-base">
+                <div>
+                    <span className="text-3xl font-bold text-[#006837]">10</span>
+                    <span className="text-gray-600 ml-1">Seats</span>
+                  </div>
+                  <Link href="/pharm-d" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-sm sm:text-base">
                     Learn More →
                   </Link>
                 </div>
@@ -433,8 +436,8 @@ export default function Home() {
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-2xl sm:text-3xl font-bold text-[#006837]">15</span>
-                    <span className="text-gray-600 ml-1 text-sm sm:text-base">Seats/Branch</span>
+                    <span className="text-2xl sm:text-3xl font-bold text-[#006837]">60</span>
+                    <span className="text-gray-600 ml-1 text-sm sm:text-base">Seats</span>
                   </div>
                   <Link href="/m-pharmacy" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-sm sm:text-base">
                     Learn More →

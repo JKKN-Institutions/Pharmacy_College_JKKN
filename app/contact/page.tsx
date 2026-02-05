@@ -99,7 +99,7 @@ export default function ContactPage() {
 
               {/* Button */}
               <a
-                href="#"
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
                 className="inline-block px-8 sm:px-10 py-3 sm:py-4 bg-[#7CAF5A] text-white font-semibold text-base sm:text-lg rounded hover:bg-[#6B9E4E] transition-colors"
               >
                 Online Admissions 2026 - 2027

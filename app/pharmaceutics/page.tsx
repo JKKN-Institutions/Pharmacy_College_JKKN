@@ -1734,8 +1734,8 @@ export default function PharmaceuticsPage() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Innovate in Pharmaceutical Formulation?</h2>
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutics program and become a formulation scientist driving pharmaceutical innovation!</p>
           <button className="bg-white text-[#006837] font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
-            <span className="xs:hidden">Apply Now</span>
-            <span className="hidden xs:inline">Apply Now for M.Pharm 2026</span>
+            <span className="lg:hidden">Apply Now</span>
+            <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </button>
           <p className="text-white text-sm mt-6">GPAT Qualified Students Preferred | PCI Approved | Advanced Formulation Lab | Industry Partnerships</p>
         </div>
