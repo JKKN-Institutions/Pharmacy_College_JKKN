@@ -52,7 +52,7 @@ export default function InterdisciplinaryResearchPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Interdisciplinary Research</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Interdisciplinary Research strategic plan at J.K.K. Nattraja College of Pharmacy aims to break down traditional academic silos and foster collaborative research across multiple disciplines. This approach integrates pharmaceutical sciences with biotechnology, nanotechnology, clinical medicine, and computational sciences to address complex healthcare challenges.
+                      The Interdisciplinary Research strategic plan at JKKN College of Pharmacy aims to break down traditional academic silos and foster collaborative research across multiple disciplines. This approach integrates pharmaceutical sciences with biotechnology, nanotechnology, clinical medicine, and computational sciences to address complex healthcare challenges.
                     </p>
                   </div>
 

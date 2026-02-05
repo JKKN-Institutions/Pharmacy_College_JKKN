@@ -30,7 +30,7 @@ export default function CorporateRelationsPage() {
             </p>
 
             <p className="text-justify">
-              The Corporate Relations & Industry Interface (CR & II) strives to achieve excellent placement of students each year. A proven track record of consistent high quality placements year-on-year is one of the reasons for many bright students opting for admissions in JKKN Educational Institutions.
+              The Corporate Relations & Industry Interface (CR & II) strives to achieve excellent placement of students each year. A proven track record of consistent high quality placements year-on-year is one of the reasons for many bright students opting for admissions in JKKN Institutions.
             </p>
 
             {/* Mission Section */}

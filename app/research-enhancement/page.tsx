@@ -52,7 +52,7 @@ export default function ResearchEnhancementPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Research Enhancement</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Research Enhancement strategic plan at J.K.K. Nattraja College of Pharmacy is designed to strengthen our research capabilities, increase research output, and establish our institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, faculty research support, and student research engagement.
+                      The Research Enhancement strategic plan at JKKN College of Pharmacy is designed to strengthen our research capabilities, increase research output, and establish our institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, faculty research support, and student research engagement.
                     </p>
                   </div>
 

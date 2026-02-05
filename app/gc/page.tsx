@@ -52,7 +52,7 @@ export default function GCPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Guidance and Counseling (GC)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Guidance and Counseling (GC) strategic plan at J.K.K. Nattraja College of Pharmacy is designed to provide comprehensive support services that enhance student well-being, academic success, and career development. Our approach integrates academic advising, personal counseling, and career guidance to ensure holistic student development.
+                      The Guidance and Counseling (GC) strategic plan at JKKN College of Pharmacy is designed to provide comprehensive support services that enhance student well-being, academic success, and career development. Our approach integrates academic advising, personal counseling, and career guidance to ensure holistic student development.
                     </p>
                   </div>
 

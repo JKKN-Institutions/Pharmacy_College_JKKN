@@ -61,7 +61,7 @@ export default function InstitutionalStrategicPlanPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Strategic Plan Overview</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Institutional Strategic Plan of J.K.K. Nattraja College of Pharmacy is a comprehensive roadmap that outlines our vision, mission, and strategic initiatives for achieving excellence in pharmaceutical education, research, and community service.
+                      The Institutional Strategic Plan of JKKN College of Pharmacy is a comprehensive roadmap that outlines our vision, mission, and strategic initiatives for achieving excellence in pharmaceutical education, research, and community service.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       Our strategic plan is designed to align with national education policies, industry requirements, and global standards in pharmaceutical education while maintaining our commitment to innovation, quality, and inclusiveness.

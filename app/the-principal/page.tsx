@@ -47,7 +47,7 @@ export default function ThePrincipalPage() {
           {/* Message Content */}
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
             <p>
-              Welcome to our JKKN College of Pharmacy website. I salute the philanthropic efforts of Shri. J.K.K.Nattarajah, Founder of J.K.K. Nattraja Educational Institutions for establishing such an institution serving the noble cause of spreading education.
+              Welcome to our JKKN College of Pharmacy website. I salute the philanthropic efforts of Shri. J.K.K.Nattarajah, Founder of JKKN Institutions for establishing such an institution serving the noble cause of spreading education.
             </p>
 
             <p>

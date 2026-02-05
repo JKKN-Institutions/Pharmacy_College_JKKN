@@ -16,12 +16,12 @@ export default function SportsCommitteePage() {
         <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Introduction */}
           <p className="text-justify">
-            The Sports Committee was established to organize and coordinate sports events at J.K.K. Nattraja College of Pharmacy.
+            The Sports Committee was established to organize and coordinate sports events at JKKN College of Pharmacy.
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            To ensure the smooth arrangement and conduct of sports events at the J.K.K Nattraja College of Pharmacy, the following Sports Committee has been formulated:
+            To ensure the smooth arrangement and conduct of sports events at the JKKN College of Pharmacy, the following Sports Committee has been formulated:
           </p>
 
           {/* Committee Table */}

@@ -872,7 +872,7 @@ export default function Home() {
               Begin Your Pharmaceutical Journey at JKKN
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Take the first step towards a rewarding career in the pharmaceutical industry. Join J.K.K. Nattraja College of Pharmacy.
+              Take the first step towards a rewarding career in the pharmaceutical industry. Join JKKN College of Pharmacy.
             </p>
           </div>
 
@@ -1065,7 +1065,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-xl sm:text-2xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-3 sm:mt-4 leading-relaxed text-sm sm:text-base">
-                J.K.K. Nattraja College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specializations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
+                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specializations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
               </p>
             </details>
 
@@ -1076,7 +1076,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-xl sm:text-2xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-3 sm:mt-4 leading-relaxed text-sm sm:text-base">
-                Yes, J.K.K. Nattraja College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programs.
+                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programs.
               </p>
             </details>
 
@@ -1120,7 +1120,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-xl sm:text-2xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-3 sm:mt-4 leading-relaxed text-sm sm:text-base">
-                Yes, J.K.K. Nattraja College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year program including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
+                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year program including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
               </p>
             </details>
 
@@ -1156,7 +1156,7 @@ export default function Home() {
             Ready to Shape Healthcare's Future?
           </h2>
           <p className="text-sm xs:text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 md:mb-10 px-2">
-            Join J.K.K. Nattraja College of Pharmacy and become part of a century-long legacy of excellence. Applications for 2026-27 are now open.
+            Join JKKN College of Pharmacy and become part of a century-long legacy of excellence. Applications for 2026-27 are now open.
           </p>
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
             <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="w-full xs:w-auto bg-[#FBFBEE] hover:bg-gray-100 text-[#006837] font-bold px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-5 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg flex items-center justify-center gap-2">

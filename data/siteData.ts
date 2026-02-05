@@ -57,8 +57,8 @@ export const topMenuItems: NavItem[] = [
         label: "UG Program",
         href: "/programs/ug-program",
         submenu: [
-          { label: "B-Pharmacy", href: "/b-pharmacy" },
-          { label: "B-Pharmacy- Lateral Entry", href: "/b-pharmacy-lateral-entry" }
+          { label: "B.Pharm", href: "/b-pharmacy" },
+          { label: "B.Pharm (Lateral Entry)", href: "/b-pharmacy-lateral-entry" }
         ]
       },
       {
@@ -66,7 +66,7 @@ export const topMenuItems: NavItem[] = [
         href: "/programs/pg-program",
         submenu: [
           {
-            label: "M. Pharmacy",
+            label: "M.Pharmacy",
             href: "/m-pharmacy",
             submenu: [
               { label: "Pharmacology", href: "/pharmacology" },
@@ -76,7 +76,7 @@ export const topMenuItems: NavItem[] = [
               { label: "Pharmaceutics", href: "/pharmaceutics" }
             ]
           },
-          { label: "PHARM.D & PHARM.D (Post Baccalaureate)", href: "/pharm-d" },
+          { label: "Pharm.D & Pharm.D (Post Baccalaureate)", href: "/pharm-d" },
         ]
       },
       { label: "PhD", href: "/phd" }

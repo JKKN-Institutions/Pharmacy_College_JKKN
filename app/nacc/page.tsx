@@ -82,7 +82,7 @@ export default function NACCPage() {
                         National Assessment and Accreditation Council (NAAC)
                       </h2>
                       <p className="text-gray-700 leading-relaxed mb-4">
-                        J.K.K. Nattraja College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>. This recognition reflects our commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
+                        JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>. This recognition reflects our commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
                       </p>
                       <p className="text-gray-700 leading-relaxed mb-4">
                         Our accreditation by NAAC underscores:

@@ -122,7 +122,7 @@ export default function ResearchPage() {
               Institutional Ethics Committee
             </h2>
             <p className="text-justify mb-4">
-              J.K.K. Nattraja College of Pharmacy Institutional Ethics Committee(JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognized and approved Ethics Committee by the Department of Health Research, Government of India, we are entrusted with the responsibility of reviewing research proposals from within our institution as well as from external sources. The scope of our committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. We accept proposals for the following types of studies:
+              JKKN College of Pharmacy Institutional Ethics Committee(JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognized and approved Ethics Committee by the Department of Health Research, Government of India, we are entrusted with the responsibility of reviewing research proposals from within our institution as well as from external sources. The scope of our committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. We accept proposals for the following types of studies:
             </p>
             <ul className="space-y-2 ml-6">
               <li className="text-gray-700">• Academic Clinical trials</li>

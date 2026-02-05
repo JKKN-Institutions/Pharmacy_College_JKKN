@@ -61,7 +61,7 @@ export default function AffiliationDetailsPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Affiliation and Approval Overview</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      J.K.K. Nattraja College of Pharmacy is affiliated with The Tamil Nadu Dr. M.G.R. Medical University and approved by various regulatory bodies to ensure quality education in pharmaceutical sciences.
+                      JKKN College of Pharmacy is affiliated with The Tamil Nadu Dr. M.G.R. Medical University and approved by various regulatory bodies to ensure quality education in pharmaceutical sciences.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The college operates under the strict guidelines and regulations set by the All India Council for Technical Education (AICTE), Pharmacy Council of India (PCI), and is affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai.

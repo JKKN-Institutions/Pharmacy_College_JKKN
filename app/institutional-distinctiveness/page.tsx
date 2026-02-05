@@ -17,13 +17,13 @@ export default function InstitutionalDistinctivenessPage() {
 
           {/* Subtitle */}
           <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-gray-700 mb-4 sm:mb-6 md:mb-8">
-            J.K.K.Nattraja College of Pharmacy: Empowering Communities through Innovative Solutions
+            JKKN College of Pharmacy: Empowering Communities through Innovative Solutions
           </h2>
 
           {/* Content */}
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             <p className="text-justify">
-              J.K.K.Nattraja College of Pharmacy, located in Kumarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. Our institution has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
+              JKKN College of Pharmacy, located in Kumarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. Our institution has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
             </p>
 
             <p className="text-justify">
@@ -48,7 +48,7 @@ export default function InstitutionalDistinctivenessPage() {
                   In 2019 our Pharm.D students were awarded in the National Entrepreneurship Summit and Idea Challenge.
                 </li>
                 <li className="text-gray-700">
-                  Two teams from J.K.K. Nattraja College of Pharmacy participated in the Startup Tamil Nadu Residential Boot Camp-2018 .
+                  Two teams from JKKN College of Pharmacy participated in the Startup Tamil Nadu Residential Boot Camp-2018 .
                 </li>
                 <li className="text-gray-700">
                   Our College students secured the 2nd place in the State Level Tamil Nadu Student Innovators (TNSI)-2018 competition.
@@ -66,7 +66,7 @@ export default function InstitutionalDistinctivenessPage() {
                   Through various success stories, including StartupTN, TNSI, IIC, YUVA, EDII, and SDGHackathon, the institution has demonstrated its commitment to translating innovation into tangible positive outcomes. These achievements reflect the college's dedication to making a meaningful impact on society.
                 </li>
                 <li className="text-gray-700">
-                  In conclusion, J.K.K.Nattraja College of Pharmacy is an institution that stands out for its focus on empowering communities, fostering innovation, and promoting sustainability and social responsibility. By providing quality education, nurturing talent, and encouraging entrepreneurial endeavours, the college strives to be a leading global provider of innovative solutions for the ever-changing needs of society.
+                  In conclusion, JKKN College of Pharmacy is an institution that stands out for its focus on empowering communities, fostering innovation, and promoting sustainability and social responsibility. By providing quality education, nurturing talent, and encouraging entrepreneurial endeavours, the college strives to be a leading global provider of innovative solutions for the ever-changing needs of society.
                 </li>
               </ul>
             </div>
@@ -77,7 +77,7 @@ export default function InstitutionalDistinctivenessPage() {
             </p>
 
             <p className="text-justify">
-              In conclusion, J.K.K.Nattraja College of Pharmacy is an institution that stands out for its focus on empowering communities, fostering innovation, and promoting sustainability and social responsibility. By providing quality education, nurturing talent, and encouraging entrepreneurial endeavours, the college strives to be a leading global provider of innovative solutions for the ever-changing needs of society.
+              In conclusion, JKKN College of Pharmacy is an institution that stands out for its focus on empowering communities, fostering innovation, and promoting sustainability and social responsibility. By providing quality education, nurturing talent, and encouraging entrepreneurial endeavours, the college strives to be a leading global provider of innovative solutions for the ever-changing needs of society.
             </p>
 
             {/* Section Headers */}
@@ -197,7 +197,7 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="mt-6">
                 <p className="text-gray-700 text-justify">
-                  Two teams from J.K.K. Nattraja College of Pharmacy—Mr. Hariharan and Ms. Jeevika, Ms. Naziya Navas, Ms. Merin Shaji, and Ms. Denlia Tintu Alex—have been chosen for the final.The first-ever Tamil Nadu Residential Boot Camp took place at Trichy on February 28, 29, and March 1, 2020.
+                  Two teams from JKKN College of Pharmacy—Mr. Hariharan and Ms. Jeevika, Ms. Naziya Navas, Ms. Merin Shaji, and Ms. Denlia Tintu Alex—have been chosen for the final.The first-ever Tamil Nadu Residential Boot Camp took place at Trichy on February 28, 29, and March 1, 2020.
                 </p>
               </div>
 

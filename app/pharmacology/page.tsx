@@ -256,33 +256,7 @@ export default function PharmacologyPage() {
           </ul>
         </div>
 
-        {/* Important Consideration */}
-        <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#006837]">
-          <div className="flex items-start gap-3 mb-4">
-            <AlertTriangle className="w-8 h-8 text-[#006837]" />
-            <h3 className="text-2xl font-bold text-[#006837]">Important Consideration for Pharmacology Aspirants:</h3>
-          </div>
-          <p className="text-gray-800 leading-relaxed mb-4">
-            <span className="text-[#006837] font-semibold">Animal Experimentation is Mandatory:</span> M.Pharm Pharmacology requires extensive animal studies including handling, dosing, surgical procedures, and euthanasia. Students must be comfortable working with laboratory animals (rats, mice, guinea pigs, rabbits). If you are uncomfortable with animal experimentation or have ethical concerns, consider alternative specializations like:
-          </p>
-          <ul className="space-y-2 text-gray-800 mb-4">
-            <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
-              <span><span className="text-[#006837] font-semibold">Pharmaceutical Analysis:</span> Laboratory work with instruments, no animal studies</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
-              <span><span className="text-[#006837] font-semibold">Pharmaceutics:</span> Formulation work, minimal animal studies</span>
-            </li>
-            <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
-              <span><span className="text-[#006837] font-semibold">Pharmaceutical Chemistry:</span> Chemical synthesis, no animal work</span>
-            </li>
-          </ul>
-          <p className="text-gray-800 font-semibold">
-            Pharmacology is <span className="text-[#006837]">not suitable</span> for students who are squeamish about blood, uncomfortable handling animals, or philosophically opposed to animal experimentation. Be honest with yourself about this before admission.
-          </p>
-        </div>
+     
       </div>
 
       {/* GPAT (Graduate Pharmacy Aptitude Test) */}
@@ -1344,7 +1318,7 @@ export default function PharmacologyPage() {
 
       {/* CTA Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#8B5FD8] rounded-2xl p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
           <p className="text-xl mb-8">Join our M.Pharm Pharmacology program and become a pharmaceutical research scientist!</p>
           <button className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
@@ -1409,119 +1383,7 @@ export default function PharmacologyPage() {
             </li>
           </ul>
 
-          {/* Verification Box */}
-          <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#006837]">
-            <div className="flex items-start gap-3 mb-4">
-              <AlertTriangle className="w-8 h-8 text-[#006837]" />
-              <h3 className="text-2xl font-bold text-[#006837]">Mandatory Verification Before Admission:</h3>
-            </div>
-
-            <p className="text-gray-800 font-semibold mb-6">Visit the college personally and verify these critical points:</p>
-
-            {/* Animal House Facilities */}
-            <h4 className="text-lg font-bold text-gray-800 mb-3">Animal House Facilities:</h4>
-            <ul className="space-y-2 mb-6">
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Ask to see CPCSEA registration certificate. Note the registration number and validity date.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Visit the animal house. Check if it's actually operational (not just constructed but unused).</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Verify animals are currently available. Ask about animal procurement and supply chain.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Check animal house cleanliness, ventilation, lighting, and animal welfare standards.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Confirm availability of different animal species (rats, mice, guinea pigs, rabbits).</span>
-              </li>
-            </ul>
-
-            {/* Research Equipment */}
-            <h4 className="text-lg font-bold text-gray-800 mb-3">Research Equipment:</h4>
-            <ul className="space-y-2 mb-6">
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Actophotometer, Rotarod, Analgesiometer (for pharmacology screening)</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Plethysmometer, Convulsiometer (for behavioral studies)</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Spectrophotometer, ELISA reader (for biochemical analysis)</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Histopathology facilities: Microtome, microscope</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Check if equipment is functional, not just displayed</span>
-              </li>
-            </ul>
-
-            {/* Faculty & Research */}
-            <h4 className="text-lg font-bold text-gray-800 mb-3">Faculty & Research:</h4>
-            <ul className="space-y-2 mb-6">
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Meet pharmacology faculty. Verify their Ph.D credentials and research experience.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Ask about recent research publications. Check if faculty actively publish.</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Review previous M.Pharm pharmacology theses (check library).</span>
-              </li>
-              <li className="flex items-start">
-                <CheckCircle className="w-10 h-10 text-[#7cb983]" />
-                <span className="text-gray-800">Talk to current M.Pharm students about research quality and faculty guidance.</span>
-              </li>
-            </ul>
-
-            {/* Red Flags */}
-            <h4 className="text-lg font-bold text-[#006837] mb-3">Red Flags - Walk Away If:</h4>
-            <ul className="space-y-2 mb-6">
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">College refuses to show CPCSEA certificate or animal house ("under renovation" for months)</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">Animal house exists but no animals available, no staff, or visibly neglected</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">Faculty cannot show recent publications or have publications only in predatory journals</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">Previous batch students report they did "theoretical" projects instead of experimental work</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">Pharmacology equipment listed in brochure is absent or non-functional</span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2 text-xl">❌</span>
-                <span className="text-gray-800">College started Pharmacology program recently with no successful batch graduated yet</span>
-              </li>
-            </ul>
-
-            <p className="text-gray-800 font-bold">
-              <span className="text-[#006837]">Bottom Line:</span> M.Pharm Pharmacology without functional animal house and proper research facilities is worthless. It will harm your career, prevent meaningful research, block Ph.D admissions, and make you uncompetitive in job market. Don't compromise on infrastructure verification.
-            </p>
-          </div>
+         
         </div>
       </div>
     </div>

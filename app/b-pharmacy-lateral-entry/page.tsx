@@ -1741,40 +1741,7 @@ export default function BPharmLateralEntryPage() {
             </div>
           </div>
 
-          {/* Important Admission Tips */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">
-            <div className="flex items-center gap-2 mb-6">
-              <AlertTriangle className="w-6 h-6" />
-              <h3 className="text-2xl font-bold text-gray-900">Important Admission Tips:</h3>
-            </div>
-
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <div>
-                  <strong className="text-[#006837]">PCI Approval:</strong> ONLY join PCI-approved colleges - non-approved degrees invalid
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <div>
-                  <strong className="text-[#006837]">Deadline Alert:</strong> Never miss application/counseling deadlines
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <div>
-                  <strong className="text-[#006837]">Original Documents:</strong> Keep all original documents ready for verification
-                </div>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <div>
-                  <strong className="text-[#006837]">Lateral Entry Seats:</strong> Limited seats (typically 10%) - apply early
-                </div>
-              </li>
-            </ul>
-          </div>
+       
         </div>
 
         {/* B.Pharm vs D.Pharm Comparison */}
@@ -2070,7 +2037,7 @@ export default function BPharmLateralEntryPage() {
             Ready to Start Your Pharmacy Career?
           </h2>
           <p className="text-xl mb-8">
-            Join J.K.K. Nattraja College of Pharmacy - Where Learners Transform into Industry Leaders!
+            Join JKKN College of Pharmacy - Where Learners Transform into Industry Leaders!
           </p>
           <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-lg px-8 py-4 rounded-full transition-colors">
             <span className="lg:hidden">Apply Now</span>
@@ -2131,32 +2098,7 @@ export default function BPharmLateralEntryPage() {
             </ul>
           </div>
 
-          {/* Consider Alternatives If */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg mb-6">
-            <div className="flex items-center gap-2 mb-6">
-              <AlertTriangle className="w-6 h-6" />
-              <h3 className="text-2xl font-bold text-gray-900">Consider Alternatives If:</h3>
-            </div>
-
-            <ul className="space-y-3 text-gray-700">
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <span>Only interested in patient interaction - Pharm.D better suited for clinical focus</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <span>Not comfortable with chemistry - significant chemistry content in curriculum</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <span>Unwilling to relocate - best opportunities in pharma manufacturing hubs</span>
-              </li>
-              <li className="flex items-start">
-                <span className="mr-3">•</span>
-                <span>Want quick 2-year qualification - D.Pharm sufficient for retail pharmacy</span>
-              </li>
-            </ul>
-          </div>
+   
 
           {/* Maximizing Success */}
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">

@@ -52,7 +52,7 @@ export default function EDCPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Entrepreneurship Development Cell (EDC)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Entrepreneurship Development Cell (EDC) at J.K.K. Nattraja College of Pharmacy is dedicated to fostering an entrepreneurial culture among students and faculty. Our strategic plan focuses on developing innovative thinking, business acumen, and practical skills necessary for pharmaceutical entrepreneurship.
+                      The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering an entrepreneurial culture among students and faculty. Our strategic plan focuses on developing innovative thinking, business acumen, and practical skills necessary for pharmaceutical entrepreneurship.
                     </p>
                   </div>
 

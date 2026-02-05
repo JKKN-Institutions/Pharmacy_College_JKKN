@@ -58,7 +58,7 @@ export default function AICTEPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">AICTE Approval</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      J.K.K. Nattraja College of Pharmacy is approved by the All India Council for Technical Education (AICTE), New Delhi. AICTE is the statutory body and a national-level council for technical education in India.
+                      JKKN College of Pharmacy is approved by the All India Council for Technical Education (AICTE), New Delhi. AICTE is the statutory body and a national-level council for technical education in India.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The AICTE approval ensures that the institution maintains the required infrastructure, faculty qualifications, and academic standards mandated for technical education in India.

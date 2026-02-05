@@ -58,7 +58,7 @@ export default function UniversityAffiliationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">University Affiliation</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      J.K.K. Nattraja College of Pharmacy is affiliated with <strong>The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>, one of the most prestigious medical universities in Tamil Nadu.
+                      JKKN College of Pharmacy is affiliated with <strong>The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>, one of the most prestigious medical universities in Tamil Nadu.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The university affiliation ensures that our degrees are recognized and that our academic programs meet the high standards set by the university for pharmaceutical education.
