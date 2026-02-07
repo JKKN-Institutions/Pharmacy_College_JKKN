@@ -1074,10 +1074,10 @@ export default function MPharmacyPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
           <p className="text-xl mb-8">Choose your specialization and apply for M.Pharm admission 2026!</p>
-          <button className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
-          </button>
+          </a>
           <p className="mt-6 text-sm">PCI Approved | GPAT/GATE Accepted | 5 Specializations | Research Excellence</p>
         </div>
       </div>

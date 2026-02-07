@@ -1679,10 +1679,10 @@ export default function PharmaceuticalChemistryPage() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-white">Ready to Design Tomorrow's Medicines?</h2>
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutical Chemistry program and become a medicinal chemistry expert!</p>
 
-          <button className="bg-white text-[#006837] px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xl font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
-          </button>
+          </a>
 
           <p className="text-white mt-6 text-sm">
             PCI Approved | Well-Equipped Synthesis Labs | Advanced Spectroscopy Facilities | AICTE Scholarship Eligible

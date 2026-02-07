@@ -47,7 +47,7 @@ export default function BPharmLateralEntryPage() {
               <h3 className="text-xs sm:text-sm uppercase tracking-wider mb-3 font-semibold">
                 B.PHARM DURATION
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">4 Years (8 Semesters)</p>
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">4 Years (8 Semesters)</p>
             </div>
 
             {/* LATERAL ENTRY DURATION */}
@@ -56,7 +56,7 @@ export default function BPharmLateralEntryPage() {
               <h3 className="text-xs sm:text-sm uppercase tracking-wider mb-3 font-semibold">
                 LATERAL ENTRY DURATION
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">3 Years (6 Semesters)</p>
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">3 Years (6 Semesters)</p>
             </div>
 
             {/* ENTRY SALARY */}
@@ -65,7 +65,7 @@ export default function BPharmLateralEntryPage() {
               <h3 className="text-xs sm:text-sm uppercase tracking-wider mb-3 font-semibold">
                 ENTRY SALARY
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">₹18K - 35K/Month</p>
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">₹18K - 35K/Month</p>
             </div>
 
             {/* SENIOR SALARY */}
@@ -74,7 +74,7 @@ export default function BPharmLateralEntryPage() {
               <h3 className="text-xs sm:text-sm uppercase tracking-wider mb-3 font-semibold">
                 SENIOR SALARY
               </h3>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">₹60K - 2L/Month</p>
+              <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold">₹60K - 2L/Month</p>
             </div>
           </div>
         </div>
@@ -2039,10 +2039,10 @@ export default function BPharmLateralEntryPage() {
           <p className="text-xl mb-8">
             Join JKKN College of Pharmacy - Where Learners Transform into Industry Leaders!
           </p>
-          <button className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-lg px-8 py-4 rounded-full transition-colors">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-lg px-8 py-4 rounded-full transition-colors inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for B.Pharm Admission 2026</span>
-          </button>
+          </a>
           <div className="mt-8 space-y-2">
             <p className="text-lg">
               PCI Approved | AICTE Recognized | NAAC Accredited | 95%+ Placement Record

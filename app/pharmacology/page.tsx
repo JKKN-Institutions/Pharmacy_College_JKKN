@@ -1321,10 +1321,10 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
           <p className="text-xl mb-8">Join our M.Pharm Pharmacology program and become a pharmaceutical research scientist!</p>
-          <button className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
-          </button>
+          </a>
           <p className="mt-6 text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | AICTE Scholarship Eligible</p>
         </div>
       </div>

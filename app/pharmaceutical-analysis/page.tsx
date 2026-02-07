@@ -1486,10 +1486,10 @@ export default function PharmaceuticalAnalysisPage() {
           <p className="text-lg sm:text-xl mb-8 text-gray-100">
             Join our M.Pharm program and become an expert in analytical techniques and quality assurance!
           </p>
-          <button className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#FBFBEE] transition-colors">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#FBFBEE] transition-colors inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
-          </button>
+          </a>
           <p className="text-sm mt-6 text-gray-100">
             GPAT Qualified? | PCI Approved | State-of-the-art Analytical Lab | Industry Collaborations
           </p>

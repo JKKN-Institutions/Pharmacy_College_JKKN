@@ -2717,10 +2717,10 @@ export default function PharmDPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">Ready to Pursue Clinical Pharmacy Excellence?</h2>
           <p className="text-xl text-white mb-8">Join our Pharm.D program and become a clinical pharmacy professional!</p>
-          <button className="bg-white text-[#006837] font-bold text-lg px-12 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-12 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>
-          </button>
+          </a>
           <p className="mt-6 text-white text-sm">PCI Approved | NEET/GPAT Accepted | Hospital Partnerships | Clinical Training Excellence</p>
         </div>
       </div>
@@ -2789,10 +2789,10 @@ export default function PharmDPage() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Start Your Clinical Pharmacy Career with Pharm.D?</h2>
           <p className="text-xl mb-8">Choose your pathway - Pharm.D or Pharm.D (PB) - and become a Doctor of Pharmacy!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
               <span className="sm:hidden">Apply Now</span>
               <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>
-            </button>
+            </a>
             <button className="bg-[#F59E0B] text-white font-bold text-lg px-10 py-4 rounded-full hover:bg-[#D97706] transition-colors shadow-lg">
               Download Brochure
             </button>
