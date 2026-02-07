@@ -6,9 +6,9 @@ export default function SeminarHallPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
           Seminar Hall
         </h1>
 
@@ -38,7 +38,7 @@ export default function SeminarHallPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
             With its array of advanced amenities, the college boasts a fully-furnished seminar hall that serves as an optimal venue for academic gatherings and significant conferences. The hall is equipped with state-of-the-art features, including OHP, LCD projectors, screens, and whiteboards, facilitating seamless and impactful presentations. Whether it's engaging student presentations, faculty assemblies, or enlightening guest lectures, this versatile space provides the essential resources to elevate the success of any event.

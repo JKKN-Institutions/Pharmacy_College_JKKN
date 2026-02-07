@@ -204,16 +204,16 @@ export default function NSSPage() {
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">1.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Chairman</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. SENTHIL, Principal, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9842650602</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">senthil_v@jkkn.ac.in</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. VENKATESAN M, Principal, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9092690231</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">pharmacyprincipal@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">2.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Vice-Chairman</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. S.ANANDA THANGADURAI, Vice-Principal, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9443367700</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">pharmacyviceprincipal.r@jkkn.ac.in</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. Sekar, HOD of Analysis, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9842663659</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">hodpharmaceuticalanalysis@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">3.</td>
@@ -232,9 +232,9 @@ export default function NSSPage() {
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">5.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Member</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. M.S. ARUN, Assistant Professor, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9994851232</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">arun.ms@jkkn.ac.in</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. POOVARASU, Assistant Professor, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9790613123</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">poovarasu@jkkn.ac.in</td>
                   </tr>
                 </tbody>
               </table>

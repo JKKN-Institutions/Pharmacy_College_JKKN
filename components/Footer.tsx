@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* JKKN College of Pharmacy */}
           <div className="flex flex-col">
-            <h3 className="text-base sm:text-lg font-bold mb-3 border-b-2 border-white pb-2">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 border-b-2 border-white pb-2">
               JKKN COLLEGE OF PHARMACY
             </h3>
 
@@ -24,7 +24,7 @@ export default function Footer() {
               ></iframe>
             </div>
 
-            <p className="text-sm font-semibold mt-auto">
+            <p className="text-xs sm:text-sm font-semibold mt-auto">
               Best Innovation Focused<br />
               Multi-Disciplinary Campus
             </p>
@@ -32,10 +32,10 @@ export default function Footer() {
 
           {/* Our Institutions */}
           <div className="flex flex-col">
-            <h3 className="text-base sm:text-lg font-bold mb-3 border-b-2 border-white pb-2">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 border-b-2 border-white pb-2">
               OUR INSTITUTIONS
             </h3>
-            <ul className="space-y-3 text-sm">
+            <ul className="space-y-3 text-sm sm:text-base">
               <li>
                 <a
                   href="https://dental.jkkn.ac.in/"
@@ -131,10 +131,10 @@ export default function Footer() {
 
           {/* Contact Us */}
           <div className="flex flex-col sm:col-span-2 lg:col-span-1">
-            <h3 className="text-base sm:text-lg font-bold mb-3 border-b-2 border-white pb-2">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 border-b-2 border-white pb-2">
               CONTACT US
             </h3>
-            <div className="space-y-2.5 text-sm mb-4">
+            <div className="space-y-2.5 text-sm sm:text-base mb-4">
               <p className="flex flex-col sm:flex-row sm:items-center gap-0.5 sm:gap-2">
                 <strong className="font-semibold">Call:</strong>
                 <a
@@ -163,7 +163,7 @@ export default function Footer() {
 
             {/* Follow Us */}
             <div className="mt-auto">
-              <h3 className="text-base sm:text-lg font-bold mb-3 border-b-2 border-white pb-2">
+              <h3 className="text-lg sm:text-xl font-bold mb-3 border-b-2 border-white pb-2">
                 FOLLOW US
               </h3>
               <div className="flex flex-wrap gap-2">
@@ -210,7 +210,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-6 pt-4 border-t border-white/20 text-center">
-          <p className="text-sm">&copy; 2026 JKKN College of Pharmacy. All rights reserved.</p>
+          <p className="text-xs sm:text-sm">&copy; 2026 JKKN College of Pharmacy. All rights reserved.</p>
         </div>
       </div>
     </footer>

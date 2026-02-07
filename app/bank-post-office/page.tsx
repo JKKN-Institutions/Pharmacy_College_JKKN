@@ -6,9 +6,9 @@ export default function BankPostOfficePage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
           Bank & Post Office
         </h1>
 
@@ -39,7 +39,7 @@ export default function BankPostOfficePage() {
 
         {/* Content */}
         <div className="text-gray-700 leading-relaxed">
-          <p className="text-sm sm:text-base text-justify">
+          <p className="text-sm sm:text-base md:text-lg text-justify">
             JKKN Pharmacy College goes the extra mile to enhance the campus experience for students and visitors. A convenient Indian Bank ATM branch situated within the premises offers quick and easy access to banking services. This on-campus ATM ensures that financial transactions are hassle-free and accessible, catering to the needs of the entire college community. Furthermore, the college takes pride in its in-house Post Office, which facilitates effortless mailing and postal services. Designed to cater to the requirements of both students and faculty, these facilities exemplify JKKN Pharmacy College's dedication to providing utmost convenience and seamless services within the campus environment.At JKKN Pharmacy College, students and visitors have the advantage of a nearby Indian Bank ATM branch located on the campus premises. This ATM provides convenient access to banking services, ensuring easy transactions for everyone. Additionally, the college boasts an in-house Post Office, offering hassle-free mailing and postal services to cater to the needs of students and faculty. These facilities at JKKN Pharmacy College prioritize convenience and accessibility, creating a seamless experience for all individuals within the campus community.
           </p>
         </div>

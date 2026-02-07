@@ -6,9 +6,9 @@ export default function WifiPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
           Wifi
         </h1>
 
@@ -38,7 +38,7 @@ export default function WifiPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
             The campus boasts comprehensive Wi-Fi coverage, ensuring that students can seamlessly access the internet from any location on our premises. With a high-speed internet connection, students have the convenience of browsing the web regardless of their whereabouts. This connectivity empowers them to harness online resources, engage in research, and stay connected to digital learning platforms, enhancing their educational experience.

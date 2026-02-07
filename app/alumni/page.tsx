@@ -6,14 +6,14 @@ export default function AlumniPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         <div className="bg-[#FBFBEE] rounded-lg shadow-sm p-4 sm:p-6 md:p-8 lg:p-12">
           {/* Alumni Association Section */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
             Alumni Association
           </h1>
 
-          <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
+          <div className="space-y-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
             <p>
               The Alumni Committee at J.K.K.Nattraja College of Pharmacy is an active body that maintains the alumni relations and interactions with the Institute. The Alumni Committee takes responsibility to organize a grand alumni meet and maintain an alumni database. The committee is actively involved in strengthening the relationship between alumni and the Institute. In addition, the committee strives to have general feedback on infrastructure of the college and teaching-learning process from alumni. The alumni meet is held in the month of December every year. The committee encourages alumni to speak in a free environment to share their current experiences and past thoughts with regard to academics.
             </p>
@@ -24,7 +24,7 @@ export default function AlumniPage() {
           </div>
 
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
               The key objectives of the Alumni Committee of J.K.K.Nattraja College of Pharmacy are as follows:
             </h2>
 
@@ -75,7 +75,7 @@ export default function AlumniPage() {
           </div>
 
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
               The co-ordinators of the committee conducts a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
             </p>
 
@@ -102,7 +102,7 @@ export default function AlumniPage() {
               ALUMNI NETWORK AND CONTRIBUTIONS
             </h2>
 
-            <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
+            <div className="space-y-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
               <p>
                 JKKNCP has a vibrant and active alumni network that plays a significant role in contributing to the institution's overall development and success. The alumni network serves as a valuable resource for the college, offering support and guidance to current students, faculty members, and the administration.
               </p>

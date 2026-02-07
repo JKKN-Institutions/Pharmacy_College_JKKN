@@ -6,9 +6,9 @@ export default function LibraryPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-6 sm:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-6 sm:mb-8">
           Library
         </h1>
 
@@ -38,14 +38,14 @@ export default function LibraryPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 sm:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 sm:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* Library details Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 sm:mb-6">
               Library details
             </h2>
 
-            <h3 className="text-lg sm:text-xl font-semibold text-black mb-3 sm:mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black mb-3 sm:mb-4">
               Welcome to our College Library
             </h3>
 
@@ -60,7 +60,7 @@ export default function LibraryPage() {
 
           {/* Learning Resources Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-3 sm:mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4">
               Learning Resources
             </h2>
 
@@ -71,7 +71,7 @@ export default function LibraryPage() {
 
           {/* Technology and Connectivity Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-3 sm:mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4">
               Technology and Connectivity
             </h2>
 
@@ -82,7 +82,7 @@ export default function LibraryPage() {
 
           {/* Supporting Research and Academic Growth Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-3 sm:mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4">
               Supporting Research and Academic Growth
             </h2>
 
@@ -93,7 +93,7 @@ export default function LibraryPage() {
 
           {/* Library Timing Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-3 sm:mb-4">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-3 sm:mb-4">
               Library Timing
             </h2>
 
@@ -107,13 +107,13 @@ export default function LibraryPage() {
 
           {/* List of Subscribed E-resources Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 sm:mb-6">
               List of Subscribed E-resources
             </h2>
 
-            <div className="overflow-x-auto -mx-4 xs:-mx-5 sm:mx-0">
-              <div className="min-w-full inline-block align-middle px-4 xs:px-5 sm:px-0">
-                <table className="w-full border-collapse border border-gray-300 text-sm sm:text-base">
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <div className="min-w-full inline-block align-middle px-4 sm:px-0">
+                <table className="w-full border-collapse border border-gray-300 text-xs sm:text-sm md:text-base">
                   <thead>
                     <tr className="bg-gray-100">
                       <th className="border border-gray-300 px-3 sm:px-6 py-2 sm:py-4 text-center font-bold text-black">

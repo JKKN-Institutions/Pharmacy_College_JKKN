@@ -6,9 +6,9 @@ export default function FoodCourtPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
           Food Court
         </h1>
 
@@ -38,7 +38,7 @@ export default function FoodCourtPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
             Experience culinary delight at our College's vibrant food court, where an array of delectable dishes awaits. Boasting a diverse selection of food vendors, our food court serves as a bustling epicenter of gastronomic exploration. From local delicacies to global cuisines, our handpicked vendors ensure a fusion of quality, hygiene, and scrumptiousness in every bite. Whether it's a swift snack, a leisurely meal, or a coffee rendezvous with friends, our well-established canteen is designed to cater to your cravings and socializing needs. The food court isn't just a place to eat; it's a lively hub of activity where flavors from different corners of the world converge to offer an unforgettable culinary journey. Embrace the richness of taste and the tapestry of cultures at JKKN's food court – your gateway to a world of flavors!

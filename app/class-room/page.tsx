@@ -6,9 +6,9 @@ export default function ClassRoomPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
           Class - Room
         </h1>
 
@@ -38,7 +38,7 @@ export default function ClassRoomPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
             Remaining at the vanguard of educational technology is a source of pride for our college. Our steadfast dedication to infusing the latest instructional innovations into our classrooms and laboratories underscores our commitment to fostering exceptional learning environments. Uncompromising in our approach, we have established smart classrooms that boast cutting-edge multimedia amenities, such as LCD projectors, Tabs, and advanced audio-visual systems. These technological advancements amplify the teaching-learning dynamic, facilitating seamless information absorption for students and enabling educators to deliver content with utmost clarity and effectiveness.

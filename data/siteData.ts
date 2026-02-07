@@ -137,7 +137,7 @@ export const topMenuItems: NavItem[] = [
       { label: "Disabled-friendly and Barrier Free Environment", href: "/barrier-free-environment" }
     ]
   },
-  { label: "NACC", href: "/nacc" },
+  { label: "NAAC", href: "/nacc" },
   { label: "IQAC", href: "/iqac" },
   { label: "ALUMNI", href: "/alumni" },
   { label: "NIRF", href: "/nirf" },

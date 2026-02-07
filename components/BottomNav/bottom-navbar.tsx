@@ -39,7 +39,7 @@ const NAV_ICONS: Record<string, LucideIcon> = {
   'PROGRAMS OFFERED': GraduationCap,
   'ACADEMIC': BookOpen,
   'FACILITIES': Building2,
-  'NACC': Award,
+  'NAAC': Award,
   'IQAC': ClipboardCheck,
   'ALUMNI': Users,
   'NIRF': Award,

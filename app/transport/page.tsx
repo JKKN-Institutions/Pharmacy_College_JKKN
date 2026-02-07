@@ -6,9 +6,9 @@ export default function TransportPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
           Transport
         </h1>
 
@@ -38,7 +38,7 @@ export default function TransportPage() {
         </div>
 
         {/* Content */}
-        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
+        <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
             JKKN College boasts an extensive transport department, catering to the commuting needs of both students and staff hailing from diverse locations. Our well-structured transport service prioritizes convenience and safety, affording you the opportunity to dedicate your focus to academic pursuits and professional responsibilities, free from transportation concerns. Our modern fleet of buses, complete with essential amenities, guarantees a smooth and relaxing travel experience, enhancing your overall journey.

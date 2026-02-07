@@ -64,7 +64,7 @@ export default function Header() {
     >
       {item.submenu ? (
         <button
-          className="text-black hover:text-primary font-semibold text-[11px] lg:text-[11px] xl:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary font-semibold text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
           <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3 fill-current" viewBox="0 0 12 12">
@@ -74,7 +74,7 @@ export default function Header() {
       ) : (
         <Link
           href={item.href}
-          className="text-black hover:text-primary font-semibold text-[11px] lg:text-[11px] xl:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary font-semibold text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
         </Link>
@@ -101,7 +101,7 @@ export default function Header() {
                     className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between text-left"
                   >
                     <span>{subitem.label}</span>
-                    <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
+                    <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) && subitem.label !== 'Social Work Activities' ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
                       <path d="M4 1l5 5-5 5z" />
                     </svg>
                   </button>
@@ -116,7 +116,7 @@ export default function Header() {
 
                 {/* Nested Submenu */}
                 {subitem.submenu && activeNestedSubmenu === subitem.label && (
-                  <div className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
+                  <div className={`absolute top-0 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) && subitem.label !== 'Social Work Activities' ? 'right-full mr-0' : 'left-full ml-0'} bg-white shadow-lg py-2 min-w-[260px] border border-gray-200 z-50 overflow-visible`}>
                     {subitem.submenu.map((nestedItem) => (
                       <div
                         key={nestedItem.label}
@@ -204,7 +204,7 @@ export default function Header() {
               <div className="flex items-center flex-shrink-0">
                 <a
                   href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                  className="bg-[#0F6B3E] text-white px-3 lg:px-4 xl:px-6 py-2 lg:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[44px] flex items-center justify-center text-sm xl:text-base whitespace-nowrap"
+                  className="bg-[#0F6B3E] text-white px-3 lg:px-4 xl:px-6 py-2 lg:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[44px] flex items-center justify-center text-base md:text-lg whitespace-nowrap"
                 >
                   Apply Now
                 </a>
@@ -234,7 +234,7 @@ export default function Header() {
             {/* Apply Now Button */}
             <a
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-              className="bg-[#0F6B3E] text-white px-3 xs:px-4 sm:px-6 py-1.5 xs:py-2 sm:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[44px] flex items-center justify-center touch-manipulation text-xs xs:text-sm sm:text-base"
+              className="bg-[#0F6B3E] text-white px-2 xs:px-3 sm:px-6 py-1 xs:py-1.5 sm:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[36px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base md:text-lg"
             >
               Apply Now
             </a>
@@ -265,7 +265,7 @@ export default function Header() {
                     {item.submenu ? (
                       <button
                         onClick={() => toggleMobileMenu(item.label)}
-                        className="flex-1 py-3 px-3 xs:px-4 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg text-left flex items-center justify-between min-h-[44px] touch-manipulation transition-colors text-sm xs:text-base"
+                        className="flex-1 py-3 px-3 xs:px-4 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg text-left flex items-center justify-between min-h-[44px] touch-manipulation transition-colors text-sm sm:text-base md:text-lg"
                       >
                         <span>{item.label}</span>
                         <svg
@@ -278,7 +278,7 @@ export default function Header() {
                     ) : (
                       <Link
                         href={item.href}
-                        className={`flex-1 py-3 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg flex items-center min-h-[44px] touch-manipulation transition-colors text-sm xs:text-base ${item.label === 'HOME' ? 'px-6 xs:px-8' : 'px-3 xs:px-4'}`}
+                        className={`flex-1 py-3 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg flex items-center min-h-[44px] touch-manipulation transition-colors text-sm sm:text-base md:text-lg ${item.label === 'HOME' ? 'px-6 xs:px-8' : 'px-3 xs:px-4'}`}
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.label}
@@ -293,7 +293,7 @@ export default function Header() {
                             {subitem.submenu ? (
                               <button
                                 onClick={() => toggleMobileMenu(subitem.label)}
-                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs xs:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
+                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs sm:text-sm md:text-base text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
                               >
                                 <span>{subitem.label}</span>
                                 <svg
@@ -306,7 +306,7 @@ export default function Header() {
                             ) : (
                               <Link
                                 href={subitem.href}
-                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs xs:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs sm:text-sm md:text-base text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 {subitem.label}
@@ -321,7 +321,7 @@ export default function Header() {
                                     {nestedItem.submenu ? (
                                       <button
                                         onClick={() => toggleMobileMenu(nestedItem.label)}
-                                        className="flex-1 py-2 px-3 xs:px-4 text-xs text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
+                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
                                       >
                                         <span>{nestedItem.label}</span>
                                         <svg
@@ -334,7 +334,7 @@ export default function Header() {
                                     ) : (
                                       <Link
                                         href={nestedItem.href}
-                                        className="flex-1 py-2 px-3 xs:px-4 text-xs text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                         onClick={() => setIsMenuOpen(false)}
                                       >
                                         {nestedItem.label}
@@ -347,7 +347,7 @@ export default function Header() {
                                         <Link
                                           key={thirdLevelItem.label}
                                           href={thirdLevelItem.href}
-                                          className="block py-2 px-3 xs:px-4 text-xs text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                          className="block py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                           onClick={() => setIsMenuOpen(false)}
                                         >
                                           {thirdLevelItem.label}
@@ -369,7 +369,7 @@ export default function Header() {
               {/* Mobile Apply Now Button */}
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="w-full mt-3 sm:mt-4 py-2.5 xs:py-3 px-4 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 transition-opacity text-xs xs:text-sm sm:text-base"
+                className="w-full mt-3 sm:mt-4 py-2.5 xs:py-3 px-4 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 transition-opacity text-base md:text-lg"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Apply Now

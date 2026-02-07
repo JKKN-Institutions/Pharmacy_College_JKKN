@@ -6,10 +6,10 @@ export default function HostelPage() {
       <Header />
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Boys Hostel Section */}
         <div className="mb-6 sm:mb-8 md:mb-12">
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
             Boys Hostel
           </h1>
 
@@ -30,25 +30,25 @@ export default function HostelPage() {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     Experience contemporary living at our hostel, complete with top-notch amenities and pristine, cozy beds.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     Our restrooms sparkle with cleanliness, ensuring your comfort and hygiene.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     Brighten up your study sessions with well-ventilated rooms, flooded with ample natural light.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     Unwind and relax in our recreation rooms equipped with TVs, the perfect entertainment escape after a long day.
                   </span>
                 </li>
@@ -59,7 +59,7 @@ export default function HostelPage() {
 
         {/* Girls Hostel Section */}
         <div className="mb-6 sm:mb-8 md:mb-12">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
             Girls Hostel
           </h2>
 
@@ -80,13 +80,13 @@ export default function HostelPage() {
               <ul className="space-y-4">
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     Experience a melting pot of cultures and diverse backgrounds, blending together for an enriching and unforgettable adventure!
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base">
+                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                     UIT girl's hostel "Thendral Illam" is set amidst the green campus of UIT and has distinct features that foster the right kind of environment for enriching the personality, academic performance or any other developmental pursuits
                   </span>
                 </li>
@@ -101,42 +101,42 @@ export default function HostelPage() {
             JKKN College of Pharmacy Hostel Facilities
           </h2>
 
-          <p className="text-gray-700 text-sm sm:text-base leading-relaxed mb-4 sm:mb-6 md:mb-8">
+          <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6 md:mb-8">
             Welcome to JKKN College of Pharmacy's hostel accommodations, designed to provide learners with a comfortable and conducive living environment during their academic journey.
           </p>
 
           {/* Accommodation */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
               Accommodation
             </h3>
 
-            <p className="text-gray-700 text-sm sm:text-base font-semibold mb-4">
+            <p className="text-gray-700 text-sm sm:text-base md:text-lg font-semibold mb-4">
               Our hostel facilities feature:
             </p>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Separate hostels for boys and girls, with the girls' hostel conveniently located within the campus premises
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Spacious and well-ventilated rooms equipped with comfortable beds, study tables, and ample storage space
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Private bathrooms attached to each room ensuring privacy and convenience
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   24/7 high-speed Wi-Fi connectivity throughout the hostels to support academic needs.
                 </span>
               </li>
@@ -145,44 +145,44 @@ export default function HostelPage() {
 
           {/* Infrastructure & Amenities */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
               Infrastructure & Amenities
             </h3>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Well-maintained infrastructure with modern facilities and aesthetically built architecture
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Uninterrupted power supply with separate generators for students
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Dedicated study rooms available for students after college hours
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Multipurpose gyms separately available for boys and girls
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Indoor and outdoor game facilities for recreation
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Stationary shops within the campus premises
                 </span>
               </li>
@@ -191,26 +191,26 @@ export default function HostelPage() {
 
           {/* Dining & Food Services */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
               Dining & Food Services
             </h3>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Hygienic kitchen serving nutritious and delicious meals
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Modern dining halls offering both vegetarian and non-vegetarian food options
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Mineral water is provided to all, ensuring safe drinking water
                 </span>
               </li>
@@ -219,26 +219,26 @@ export default function HostelPage() {
 
           {/* Health & Wellness */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
               Health & Wellness
             </h3>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   24/7 medical facilities with free medicines
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Well-equipped fitness centres for physical wellbeing
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Regular yoga sessions for mental wellness
                 </span>
               </li>
@@ -247,32 +247,32 @@ export default function HostelPage() {
 
           {/* Management & Security */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-black mb-4">
+            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
               Management & Security
             </h3>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Dedicated hostel management committee headed by a Chief Warden.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Resident staff members ensuring strict adherence to hostel rules and regulations.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Safe and secure environment with round-the-clock supervision.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base">
+                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
                   Bus facility available for the Drop and pickup from campus
                 </span>
               </li>

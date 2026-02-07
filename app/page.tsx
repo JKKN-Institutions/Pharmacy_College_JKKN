@@ -19,17 +19,17 @@ export default function Home() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-[#FBFBEE]/10 backdrop-blur-sm rounded-full px-3 xs:px-4 sm:px-5 py-1.5 xs:py-2 mb-4 sm:mb-6">
                 <Star className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 text-yellow-300" />
-                <span className="text-xs xs:text-sm font-semibold">PCI Approved | NAAC Accredited</span>
+                <span className="text-sm font-semibold">PCI Approved | NAAC Accredited</span>
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 sm:mb-6 leading-tight">
                 Shape Healthcare's Future at{' '}
                 <span className="text-[#7cb983]">Tamil Nadu's Premier Pharmacy College</span>
               </h1>
 
               {/* Description */}
-              <p className="text-sm xs:text-base sm:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
+              <p className="text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
                 Join JKKN College of Pharmacy — where pharmaceutical science meets patient care.
                 Our PCI-approved programs prepare Learners for impactful careers in the pharmaceutical industry.
               </p>
@@ -37,19 +37,19 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
                 <div>
-                  <div className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#7cb983]">1500+</div>
+                  <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7cb983]">1500+</div>
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Learners</div>
                 </div>
                 <div>
-                  <div className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#7cb983]">95%</div>
+                  <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7cb983]">95%</div>
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement</div>
                 </div>
                 <div>
-                  <div className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#7cb983]">30+</div>
+                  <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7cb983]">30+</div>
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Recruiters</div>
                 </div>
                 <div>
-                  <div className="text-2xl xs:text-3xl sm:text-4xl font-bold text-[#7cb983]">6</div>
+                  <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#7cb983]">6</div>
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programs</div>
                 </div>
               </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 </a>
                 <button
                   onClick={() => document.getElementById('programs-section')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base"
+                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-base md:text-lg"
                 >
                   Explore Programs
                 </button>
@@ -146,8 +146,8 @@ export default function Home() {
                 />
                 {/* 100 Years Badge */}
                 <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 flex flex-col items-center justify-center shadow-xl">
-                  <div className="text-lg xs:text-2xl sm:text-3xl font-bold">100</div>
-                  <div className="text-[7px] xs:text-[10px] sm:text-xs font-semibold uppercase">Years Legacy</div>
+                  <div className="text-lg sm:text-2xl md:text-3xl font-bold">100</div>
+                  <div className="text-[10px] sm:text-xs font-semibold uppercase">Years Legacy</div>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
               <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
                 About Our Institution
               </p>
-              <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
                 A Century of Excellence in Progressive Pharmaceutical Education
               </h2>
               <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
@@ -217,7 +217,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
               Academic Programs
             </p>
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
               Comprehensive Pharmaceutical Education Programs
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto px-2">
@@ -237,7 +237,7 @@ export default function Home() {
                     <GraduationCap className="w-10 h-10" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Bachelor of Pharmacy (B.Pharm)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Bachelor of Pharmacy (B.Pharm)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">4 Years | Full-Time</p>
                   </div>
                 </div>
@@ -281,7 +281,7 @@ export default function Home() {
                     <Pill className="w-12 h-12" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Bachelor of Pharmacy (Lateral Entry)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Bachelor of Pharmacy (Lateral Entry)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">3 Years | Full-Time</p>
                   </div>
                 </div>
@@ -324,7 +324,7 @@ export default function Home() {
                     <User className="w-7 h-7 xs:w-8 xs:h-8 sm:w-10 sm:h-10" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Doctor of Pharmacy (Pharm.D)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Doctor of Pharmacy (Pharm.D)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">6 Years (5+1 Internship)</p>
                   </div>
                 </div>
@@ -368,7 +368,7 @@ export default function Home() {
                     <Microscope className="w-10 h-10" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Pharm.D (Post Baccalaureate)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Pharm.D (Post Baccalaureate)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">3 Years | Full-Time</p>
                   </div>
                 </div>
@@ -411,7 +411,7 @@ export default function Home() {
                     <Microscope className="w-10 h-10" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Master of Pharmacy (M.Pharm)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Master of Pharmacy (M.Pharm)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">2 Years | Full-Time</p>
                   </div>
                 </div>
@@ -454,7 +454,7 @@ export default function Home() {
                     <User className="w-7 h-7 xs:w-8 xs:h-8 sm:w-10 sm:h-10" />
                   </div>
                   <div>
-                    <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-white">Doctor of Philosophy (PhD)</h3>
+                    <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-white">Doctor of Philosophy (PhD)</h3>
                     <p className="text-gray-300 text-xs sm:text-sm">3 Years </p>
                   </div>
                 </div>
@@ -493,7 +493,7 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1400px] mx-auto">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
               M.Pharm Specializations Offered
             </h2>
           </div>
@@ -504,7 +504,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <Pill className="w-12 h-12" />
               </div>
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutics</h3>
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutics</h3>
               <p className="text-sm sm:text-base text-gray-600">
                 Drug delivery systems, formulation development, novel drug delivery
               </p>
@@ -515,7 +515,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <TestTube className="w-10 h-10" />
               </div>
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmacology</h3>
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmacology</h3>
               <p className="text-sm sm:text-base text-gray-600">
                 Drug action mechanisms, toxicology, experimental pharmacology
               </p>
@@ -526,7 +526,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Chemistry</h3>
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Chemistry</h3>
               <p className="text-sm sm:text-base text-gray-600">
                 Drug synthesis, medicinal chemistry, computational drug design
               </p>
@@ -537,7 +537,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Practice</h3>
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Practice</h3>
               <p className="text-sm sm:text-base text-gray-600">
               Clinical pharmacy, patient care, medication management, hospital & community pharmacy practice
               </p>
@@ -548,7 +548,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-green-100 rounded-full flex items-center justify-center mb-3 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Analysis</h3>
+              <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-[#006837] mb-2 sm:mb-3">Pharmaceutical Analysis</h3>
               <p className="text-sm sm:text-base text-gray-600">
               Drug testing, quality assurance, analytical techniques, validation & regulatory standards
               </p>
@@ -564,7 +564,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
               Career Opportunities
             </p>
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
               Diverse Career Paths After Pharmacy
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto px-2">
@@ -579,7 +579,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <Factory className="w-7 h-7 xs:w-8 xs:h-8 sm:w-10 sm:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharma<br className="xs:hidden" /> Industry</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharma<br className="xs:hidden" /> Industry</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Manufacturing, production, quality control & assurance
               </p>
@@ -590,7 +590,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <Microscope className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Research &<br className="xs:hidden" /> Development</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Research &<br className="xs:hidden" /> Development</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug discovery, formulation R&D, clinical trials
               </p>
@@ -601,7 +601,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <Hospital className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Clinical pharmacist, drug information, patient care
               </p>
@@ -612,7 +612,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <Briefcase className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Community<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Community<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Retail pharmacy, own pharmacy business
               </p>
@@ -623,7 +623,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <ClipboardList className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Regulatory<br className="xs:hidden" /> Affairs</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Regulatory<br className="xs:hidden" /> Affairs</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug registration, compliance, documentation
               </p>
@@ -634,7 +634,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <Search className="w-7 h-7 xs:w-8 xs:h-8 sm:w-10 sm:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmacovigilance</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmacovigilance</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug safety monitoring, adverse event reporting
               </p>
@@ -645,7 +645,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <FileText className="w-7 h-7 xs:w-8 xs:h-8 sm:w-10 sm:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Medical<br className="xs:hidden" /> Writing</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Medical<br className="xs:hidden" /> Writing</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Clinical documentation, regulatory writing
               </p>
@@ -656,7 +656,7 @@ export default function Home() {
               <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-2 sm:mb-4">
                 <BarChart className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharma<br className="xs:hidden" /> Marketing</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharma<br className="xs:hidden" /> Marketing</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Medical representative, product management
               </p>
@@ -674,7 +674,7 @@ export default function Home() {
               <p className="text-xs sm:text-sm font-bold text-white uppercase tracking-wider mb-3 sm:mb-4">
                 Training & Placements
               </p>
-              <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
                 Launching Careers in Pharmaceutical Industry
               </h2>
               <p className="text-sm sm:text-base text-gray-200 mb-4 sm:mb-6 leading-relaxed">
@@ -689,19 +689,19 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-6 lg:gap-8">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 xs:p-4 sm:p-6 text-center">
-                  <div className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white">95%+</div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-white">95%+</div>
                   <div className="text-xs sm:text-sm text-gray-300 mt-1 sm:mt-2">Placement Rate</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 xs:p-4 sm:p-6 text-center">
-                  <div className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white">8 LPA</div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-white">8 LPA</div>
                   <div className="text-xs sm:text-sm text-gray-300 mt-1 sm:mt-2">Highest Package</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 xs:p-4 sm:p-6 text-center">
-                  <div className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white">3.5 LPA</div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-white">3.5 LPA</div>
                   <div className="text-xs sm:text-sm text-gray-300 mt-1 sm:mt-2">Average Package</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-3 xs:p-4 sm:p-6 text-center">
-                  <div className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white">30+</div>
+                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-white">30+</div>
                   <div className="text-xs sm:text-sm text-gray-300 mt-1 sm:mt-2">Recruiters</div>
                 </div>
               </div>
@@ -709,43 +709,43 @@ export default function Home() {
 
             {/* Right - Top Recruiters */}
             <div className="mt-6 lg:mt-0">
-              <h3 className="text-lg xs:text-xl sm:text-2xl font-bold mb-4 sm:mb-6 md:mb-8">Our Top Recruiters</h3>
+              <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-4 sm:mb-6 md:mb-8">Our Top Recruiters</h3>
               <div className="grid grid-cols-2 xs:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Sun Pharma</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Sun Pharma</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Cipla</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Cipla</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Dr. Reddy's</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Dr. Reddy's</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Lupin</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Lupin</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Aurobindo</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Aurobindo</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Hetero</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Hetero</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Apollo</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Apollo</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">MedPlus</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">MedPlus</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Biocon</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Biocon</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Torrent</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Torrent</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Alkem</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Alkem</p>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-[8px] xs:text-sm sm:text-base whitespace-nowrap">Glenmark</p>
+                  <p className="font-semibold text-sm sm:text-base whitespace-nowrap">Glenmark</p>
                 </div>
               </div>
             </div>
@@ -760,7 +760,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
               Infrastructure
             </p>
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
               State-of-the-Art Pharmaceutical Facilities
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto px-2">
@@ -774,7 +774,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-purple-100 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <Pill className="w-12 h-12" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmaceutics<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmaceutics<br className="xs:hidden" /> Lab</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Tablet press, coating machines, formulation equipment
               </p>
@@ -785,7 +785,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-green-100 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Chemistry<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Chemistry<br className="xs:hidden" /> Lab</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 HPLC, UV-Vis spectrophotometer, analytical instruments
               </p>
@@ -796,7 +796,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-blue-100 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <TestTube className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmacology<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Pharmacology<br className="xs:hidden" /> Lab</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Animal house, organ bath, experimental pharmacology
               </p>
@@ -807,7 +807,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-green-200 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <Leaf className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Medicinal<br className="xs:hidden" /> Garden</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Medicinal<br className="xs:hidden" /> Garden</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 300+ medicinal plants for hands-on learning
               </p>
@@ -818,7 +818,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-gray-200 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <Landmark className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Drug<br className="xs:hidden" /> Museum</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Drug<br className="xs:hidden" /> Museum</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 500+ drug specimens, crude drugs collection
               </p>
@@ -829,7 +829,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-blue-200 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <Laptop className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Computer<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Computer<br className="xs:hidden" /> Lab</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug design software, molecular modeling tools
               </p>
@@ -840,7 +840,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-pink-100 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <BookOpen className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Digital<br className="xs:hidden" /> Library</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Digital<br className="xs:hidden" /> Library</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Journals, e-books, research databases
               </p>
@@ -851,7 +851,7 @@ export default function Home() {
               <div className="w-10 h-10 xs:w-12 xs:h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 bg-purple-200 rounded-full flex items-center justify-center mb-2 sm:mb-4">
                 <Hospital className="w-10 h-10" />
               </div>
-              <h3 className="text-[9px] xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-1 sm:mb-3 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Clinical training, patient counseling practice
               </p>
@@ -868,7 +868,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
               Admissions 2026-27
             </p>
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
               Begin Your Pharmaceutical Journey at JKKN
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -1048,7 +1048,7 @@ export default function Home() {
             <p className="text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
               FAQS
             </p>
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-[#006837] mb-3 sm:mb-4">
               Frequently Asked Questions
             </h2>
             <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto px-2">
@@ -1152,10 +1152,10 @@ export default function Home() {
       {/* Final CTA Section */}
       <section className="bg-gradient-to-r from-[#7cb983] to-[#6ba872] py-12 sm:py-16 md:py-20 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1000px] mx-auto text-center">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl md:text-5xl font-bold text-white mb-4 sm:mb-6">
             Ready to Shape Healthcare's Future?
           </h2>
-          <p className="text-sm xs:text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 md:mb-10 px-2">
+          <p className="text-base md:text-lg text-white mb-6 sm:mb-8 md:mb-10 px-2">
             Join JKKN College of Pharmacy and become part of a century-long legacy of excellence. Applications for 2026-27 are now open.
           </p>
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
