@@ -87,14 +87,14 @@ export const topMenuItems: NavItem[] = [
     href: "/academic",
     submenu: [
       { label: "Admission Process", href: "/admission-process" },
-      { label: "Academic Calendar", href: "https://calendar.google.com/calendar/embed?src=c_ef5ec993b1425c37ba43cb1a8797b2dd1a38ef6e1cea9640b2ed6c9b3c354f29%40group.calendar.google.com&ctz=Asia%2FKolkata&mode=AGENDA" },
+      { label: "Academic Calendar", href: "/pdf/2025-2026  Academic Calender.pdf" },
       {
         label: "Time Table",
         href: "/academic/time-table",
         submenu: [
-          { label: "B.Pharm Time Table 2024-25", href: "/bpharm-time-table" },
-          { label: "Pharm.D Time Table 2024-25", href: "/pharmd-time-table" },
-          { label: "M.Pharm Time Table 2024-25", href: "/mpharm-time-table" }
+          { label: "B.Pharm Time Table 2025-26", href: "/bpharm-time-table" },
+          { label: "Pharm.D Time Table 2025-26", href: "/pharmd-time-table" },
+          { label: "M.Pharm Time Table 2025-26", href: "/mpharm-time-table" }
         ]
       },
       { label: "Exam Schedule", href: "/exam-schedule" },

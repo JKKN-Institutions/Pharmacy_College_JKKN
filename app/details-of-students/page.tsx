@@ -21,7 +21,7 @@ export default function DetailsOfStudentsPage() {
           {/* B.Pharm lateral entry Section */}
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2">
-              B.Pharm (Lateral Entry) : 12 seats
+              B.Pharm (Lateral Entry) : 10 seats
             </h2>
           </div>
 

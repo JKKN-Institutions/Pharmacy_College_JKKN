@@ -204,7 +204,7 @@ export default function Header() {
               <div className="flex items-center flex-shrink-0">
                 <a
                   href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                  className="bg-[#0F6B3E] text-white px-3 lg:px-4 xl:px-6 py-2 lg:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[44px] flex items-center justify-center text-base md:text-lg whitespace-nowrap"
+                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 transition-opacity min-h-[40px] flex items-center justify-center text-sm md:text-base whitespace-nowrap"
                 >
                   Apply Now
                 </a>
@@ -234,7 +234,7 @@ export default function Header() {
             {/* Apply Now Button */}
             <a
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-              className="bg-[#0F6B3E] text-white px-2 xs:px-3 sm:px-6 py-1 xs:py-1.5 sm:py-2.5 rounded font-semibold hover:opacity-90 transition-opacity min-h-[36px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base md:text-lg"
+              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 transition-opacity min-h-[32px] sm:min-h-[40px] flex items-center justify-center touch-manipulation text-xs sm:text-sm md:text-base"
             >
               Apply Now
             </a>
@@ -369,7 +369,7 @@ export default function Header() {
               {/* Mobile Apply Now Button */}
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="w-full mt-3 sm:mt-4 py-2.5 xs:py-3 px-4 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 transition-opacity text-base md:text-lg"
+                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[40px] touch-manipulation hover:opacity-90 transition-opacity text-sm md:text-base"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Apply Now
