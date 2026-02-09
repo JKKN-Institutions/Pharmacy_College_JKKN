@@ -1,9 +1,17 @@
 'use client'
 
-import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle } from 'lucide-react'
+import React, { useState } from 'react';
+import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown } from 'lucide-react'
 import Header from '@/components/Header'
 
 export default function MPharmacyPage() {
+  const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setExpandedFAQ(expandedFAQ === index ? null : index);
+  };
+
+
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
@@ -29,22 +37,94 @@ export default function MPharmacyPage() {
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm mb-2">DURATION</h3>
-              <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">2 Years (4 Semesters)</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm mb-2">SPECIALIZATIONS</h3>
-              <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">5 Major Pathways</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm mb-2">STARTING SALARY</h3>
-              <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">₹25K-45K/Month</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm mb-2">SENIOR SALARY</h3>
-              <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">₹1L-2L/Month</p>
-            </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(0)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">DURATION</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 0 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 0 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                  2 Years (4 Semesters)
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(1)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SPECIALIZATIONS</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 1 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 1 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                  5 Major Pathways
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(2)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">STARTING SALARY</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 2 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 2 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                  ₹25K-45K/Month
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(3)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SENIOR SALARY</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 3 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 3 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
+                  ₹1L-2L/Month
+                </p>
+              </div>
+            )}
+          </div>
           </div>
         </div>
       </div>
@@ -1028,43 +1108,123 @@ export default function MPharmacyPage() {
 
         <div className="space-y-6">
           {/* Q1 */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q1: What is M.Pharm course?</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree program in pharmaceutical sciences offering specialized education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Program comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to premier institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(4)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q1: What is M.Pharm course?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 4 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 4 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                  M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree program in pharmaceutical sciences offering specialized education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Program comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to premier institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q2 */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q2: What are the M.Pharm specializations available?</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              M.Pharm offers 5 major specializations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(5)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q2: What are the M.Pharm specializations available?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 5 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 5 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                  M.Pharm offers 5 major specializations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q3 */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q3: Which M.Pharm specialization has best scope?</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              All M.Pharm specializations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on your college, research publications, skills, and networking than specialization choice. Top 10% students succeed in any specialization.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(6)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q3: Which M.Pharm specialization has best scope?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 6 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 6 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                  All M.Pharm specializations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on your college, research publications, skills, and networking than specialization choice. Top 10% students succeed in any specialization.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q4 */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q4: What is M.Pharm salary?</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              M.Pharm salaries vary by specialization, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialization-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(7)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q4: What is M.Pharm salary?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 7 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 7 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                  M.Pharm salaries vary by specialization, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialization-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q5 */}
-          <div className="bg-white rounded-lg p-6 shadow-sm">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q5: How to choose M.Pharm specialization?</h3>
-            <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              Choose M.Pharm specialization based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialization. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specializations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specializations before deciding.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(8)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q5: How to choose M.Pharm specialization?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 8 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 8 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+                  Choose M.Pharm specialization based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialization. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specializations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specializations before deciding.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -1,9 +1,17 @@
 'use client'
 
+import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube } from 'lucide-react'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacologyPage() {
+  const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setExpandedFAQ(expandedFAQ === index ? null : index);
+  };
+
+
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
@@ -12,15 +20,15 @@ export default function PharmacologyPage() {
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <GraduationCap className="w-12 h-12 mx-auto mb-4" />
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmacology 2026</h1>
-          <p className="text-lg sm:text-xl">Master Drug Action, Toxicology & Preclinical Research</p>
+          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">M.Pharm in Pharmacology 2026</h1>
+          <p className="text-xs sm:text-sm">Master Drug Action, Toxicology & Preclinical Research</p>
         </div>
       </div>
 
       {/* What is M.Pharm in Pharmacology Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-white via-[#FBFBEE] to-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmacology?</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmacology?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
@@ -30,22 +38,94 @@ export default function PharmacologyPage() {
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-sm mb-2">DURATION</h3>
-              <p className="text-gray-900 font-semibold text-lg">2 Years (4 Semesters)</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-sm mb-2">ELIGIBILITY</h3>
-              <p className="text-gray-900 font-semibold text-lg">B.Pharm + GPAT/Entrance Exam</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-sm mb-2">SPECIALIZATION FOCUS</h3>
-              <p className="text-gray-900 font-semibold text-lg">Drug Action & Toxicology</p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="text-[#006837] font-bold text-sm mb-2">AVERAGE SALARY</h3>
-              <p className="text-gray-900 font-semibold text-lg">₹4-10 Lakhs/Year</p>
-            </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(0)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">DURATION</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 0 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 0 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xs sm:text-sm">
+                  2 Years (4 Semesters)
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(1)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">ELIGIBILITY</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 1 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 1 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xs sm:text-sm">
+                  B.Pharm + GPAT/Entrance Exam
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(2)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">SPECIALIZATION FOCUS</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 2 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 2 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xs sm:text-sm">
+                  Drug Action & Toxicology
+                </p>
+              </div>
+            )}
+          </div>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(3)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">AVERAGE SALARY</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 3 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 3 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-900 font-semibold text-xs sm:text-sm">
+                  ₹4-10 Lakhs/Year
+                </p>
+              </div>
+            )}
+          </div>
           </div>
         </div>
       </div>
@@ -54,14 +134,14 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Target className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Core Research Areas & Competencies</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Core Research Areas & Competencies</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Systemic Pharmacology */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Systemic Pharmacology</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Systemic Pharmacology</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Cardiovascular Pharmacology</span>
@@ -87,8 +167,8 @@ export default function PharmacologyPage() {
 
           {/* Toxicology */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Toxicology</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Toxicology</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Acute & Chronic Toxicity Studies</span>
@@ -114,8 +194,8 @@ export default function PharmacologyPage() {
 
           {/* Molecular Pharmacology */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Molecular Pharmacology</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Molecular Pharmacology</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Receptor Pharmacology</span>
@@ -141,8 +221,8 @@ export default function PharmacologyPage() {
 
           {/* Preclinical Research */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Preclinical Research</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Preclinical Research</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Animal Handling & Experimentation</span>
@@ -168,8 +248,8 @@ export default function PharmacologyPage() {
 
           {/* Pharmacokinetics & Pharmacodynamics */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Pharmacokinetics & Pharmacodynamics</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Pharmacokinetics & Pharmacodynamics</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>ADME (Absorption, Distribution, Metabolism, Excretion)</span>
@@ -195,8 +275,8 @@ export default function PharmacologyPage() {
 
           {/* Alternative Methods & In Vitro Studies */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Alternative Methods & In Vitro Studies</h3>
-            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Alternative Methods & In Vitro Studies</h3>
+            <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Cell Culture Techniques</span>
@@ -226,12 +306,12 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Eligibility Criteria & Admission Requirements</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
         {/* Educational Qualification */}
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 mb-6 border-l-4 border-[#7cb983]">
-          <h3 className="text-2xl font-bold text-gray-800 mb-6">Educational Qualification:</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-6">Educational Qualification:</h3>
           <ul className="space-y-3 text-gray-800">
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
@@ -261,7 +341,7 @@ export default function PharmacologyPage() {
 
       {/* GPAT (Graduate Pharmacy Aptitude Test) */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-8">GPAT (Graduate Pharmacy Aptitude Test)</h2>
+        <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">GPAT (Graduate Pharmacy Aptitude Test)</h2>
 
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-lg shadow-lg">
@@ -312,7 +392,7 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 mt-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-            <h3 className="text-2xl font-bold text-gray-800">GPAT Benefits for Pharmacology Students:</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">GPAT Benefits for Pharmacology Students:</h3>
           </div>
           <ul className="space-y-3 text-gray-800">
             <li className="flex items-start">
@@ -347,12 +427,12 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Pharmacology - Detailed Course Structure</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">M.Pharm Pharmacology - Detailed Course Structure</h2>
         </div>
 
         {/* Semester 1 */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Semester 1 - Foundation & Core Pharmacology</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Semester 1 - Foundation & Core Pharmacology</h3>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg">
               <thead>
@@ -400,7 +480,7 @@ export default function PharmacologyPage() {
 
         {/* Semester 2 */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Semester 2 - Systemic Pharmacology & Advanced Toxicology</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Semester 2 - Systemic Pharmacology & Advanced Toxicology</h3>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg">
               <thead>
@@ -448,7 +528,7 @@ export default function PharmacologyPage() {
 
         {/* Semester 3 */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Semester 3 - Research Project Phase I</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Semester 3 - Research Project Phase I</h3>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg">
               <thead>
@@ -486,7 +566,7 @@ export default function PharmacologyPage() {
 
         {/* Semester 4 */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Semester 4 - Research Project Phase II & Thesis</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Semester 4 - Research Project Phase II & Thesis</h3>
           <div className="overflow-x-auto">
             <table className="w-full bg-white rounded-lg shadow-lg">
               <thead>
@@ -516,7 +596,7 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmacology:</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">Typical Research Project Topics in Pharmacology:</h3>
           </div>
           <ul className="space-y-2 text-gray-800">
             <li className="flex items-start">
@@ -567,14 +647,14 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Career Opportunities After M.Pharm Pharmacology</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Career Opportunities After M.Pharm Pharmacology</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Research Scientist (CROs) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Research Scientist (CROs)</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Research Scientist (CROs)</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-9 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -603,8 +683,8 @@ export default function PharmacologyPage() {
 
           {/* Toxicologist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Toxicologist</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Toxicologist</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-10 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -633,8 +713,8 @@ export default function PharmacologyPage() {
 
           {/* Medical Writer (Scientific) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Medical Writer (Scientific)</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Medical Writer (Scientific)</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-12 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -663,8 +743,8 @@ export default function PharmacologyPage() {
 
           {/* Drug Safety Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Drug Safety Scientist</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Drug Safety Scientist</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-9 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -693,8 +773,8 @@ export default function PharmacologyPage() {
 
           {/* Regulatory Affairs Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Regulatory Affairs Specialist</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Regulatory Affairs Specialist</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹6-11 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -723,8 +803,8 @@ export default function PharmacologyPage() {
 
           {/* Academic Faculty / Researcher */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Academic Faculty / Researcher</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Academic Faculty / Researcher</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹60K-80K/Month
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -753,8 +833,8 @@ export default function PharmacologyPage() {
 
           {/* Drug Discovery Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Drug Discovery Scientist</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Drug Discovery Scientist</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹6-12 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -783,8 +863,8 @@ export default function PharmacologyPage() {
 
           {/* Quality Assurance (Preclinical Studies) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-3">Quality Assurance (Preclinical Studies)</h3>
-            <div className="bg-green-500 text-white text-xs font-semibold px-4 py-2 rounded-full inline-block mb-4">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-3">Quality Assurance (Preclinical Studies)</h3>
+            <div className="bg-green-500 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
               ₹4-8 Lakhs/Year
             </div>
             <ul className="space-y-2 text-gray-700 mb-4">
@@ -816,7 +896,7 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-br from-[#D4F8E8] to-[#E8F8F4] rounded-xl p-8 mt-10 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h3 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmacology Specialists</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">Salary Progression for Pharmacology Specialists</h3>
           </div>
           <ul className="space-y-2 text-gray-800">
             <li className="flex items-start">
@@ -850,12 +930,12 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmacology Graduates</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmacology Graduates</h2>
         </div>
 
         {/* Contract Research Organizations (CROs) - Preclinical Services */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Contract Research Organizations (CROs) - Preclinical Services</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Contract Research Organizations (CROs) - Preclinical Services</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800 hover:border-[#7cb983] hover:shadow-lg transition-all">
               Vimta Labs
@@ -892,7 +972,7 @@ export default function PharmacologyPage() {
 
         {/* Pharmaceutical Companies - R&D & Drug Safety */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">Pharmaceutical Companies - R&D & Drug Safety</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Pharmaceutical Companies - R&D & Drug Safety</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800 hover:border-[#7cb983] hover:shadow-lg transition-all">
               Sun Pharmaceutical R&D
@@ -930,7 +1010,7 @@ export default function PharmacologyPage() {
 
       {/* Multinational Pharmaceutical Giants */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-8">Multinational Pharmaceutical Giants</h2>
+        <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">Multinational Pharmaceutical Giants</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">GSK (GlaxoSmithKline)</div>
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">Pfizer India</div>
@@ -947,7 +1027,7 @@ export default function PharmacologyPage() {
 
       {/* Government Research Institutions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-8">Government Research Institutions</h2>
+        <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">Government Research Institutions</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center font-semibold text-gray-800">
             CSIR-CDRI Lucknow<br/>(Central Drug Research Institute)
@@ -978,7 +1058,7 @@ export default function PharmacologyPage() {
 
       {/* Pharmacy Colleges - Academic Positions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-8">Pharmacy Colleges - Academic Positions</h2>
+        <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">Pharmacy Colleges - Academic Positions</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">Government Pharmacy Colleges (All States)</div>
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Campuses</div>
@@ -994,7 +1074,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Pharmacology vs Other Specializations</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">M.Pharm Pharmacology vs Other Specializations</h2>
         </div>
 
         <div className="overflow-x-auto">
@@ -1004,15 +1084,15 @@ export default function PharmacologyPage() {
                 <th className="px-4 py-4 text-left font-bold">Aspect</th>
                 <th className="px-4 py-4 text-left font-bold">
                   Pharmacology<br/>
-                  <span className="bg-[#7cb983] text-white text-xs px-3 py-1 rounded-full inline-block mt-1">Research</span>
+                  <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm px-3 py-1 rounded-full inline-block mt-1">Research</span>
                 </th>
                 <th className="px-4 py-4 text-left font-bold">
                   Pharmaceutics<br/>
-                  <span className="bg-[#7cb983] text-white text-xs px-3 py-1 rounded-full inline-block mt-1">Innovation</span>
+                  <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm px-3 py-1 rounded-full inline-block mt-1">Innovation</span>
                 </th>
                 <th className="px-4 py-4 text-left font-bold">
                   Pharmaceutical Analysis<br/>
-                  <span className="bg-[#7cb983] text-white text-xs px-3 py-1 rounded-full inline-block mt-1">Quality</span>
+                  <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm px-3 py-1 rounded-full inline-block mt-1">Quality</span>
                 </th>
               </tr>
             </thead>
@@ -1111,12 +1191,12 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h3 className="text-2xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
           </div>
 
           <div className="space-y-4 text-gray-800">
             <div>
-              <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Choose Pharmacology if you:</h4>
+              <h4 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2">Choose Pharmacology if you:</h4>
               <ul className="space-y-2 ml-4 sm:ml-6 md:ml-8">
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
@@ -1163,89 +1243,249 @@ export default function PharmacologyPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <HelpCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Frequently Asked Questions</h2>
+          <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">Frequently Asked Questions</h2>
         </div>
 
         <div className="space-y-6">
           {/* Q1 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q1: What is M.Pharm in Pharmacology?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              M.Pharm in Pharmacology is a 2-year postgraduate specialization focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The program includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialization is ideal for those interested in pharmaceutical research and drug discovery.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(0)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmacology?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 0 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 0 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  M.Pharm in Pharmacology is a 2-year postgraduate specialization focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The program includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialization is ideal for those interested in pharmaceutical research and drug discovery.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q2 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q2: What is the salary after M.Pharm Pharmacology?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Entry-level M.Pharm Pharmacology graduates earn ₹3.5-6 lakhs per annum. Research Scientists in CROs earn ₹5-9 lakhs, Toxicologists earn ₹5-10 lakhs, Medical Writers earn ₹5-12 lakhs, Drug Safety Scientists earn ₹5-9 lakhs, and Regulatory Toxicologists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Principal Scientist or Head of Pharmacology earn ₹20-35 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security. Salaries are highest in multinational pharmaceutical companies and leading CROs. Research-focused roles offer better growth than routine positions.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(1)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q2: What is the salary after M.Pharm Pharmacology?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 1 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 1 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Entry-level M.Pharm Pharmacology graduates earn ₹3.5-6 lakhs per annum. Research Scientists in CROs earn ₹5-9 lakhs, Toxicologists earn ₹5-10 lakhs, Medical Writers earn ₹5-12 lakhs, Drug Safety Scientists earn ₹5-9 lakhs, and Regulatory Toxicologists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Principal Scientist or Head of Pharmacology earn ₹20-35 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security. Salaries are highest in multinational pharmaceutical companies and leading CROs. Research-focused roles offer better growth than routine positions.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q3 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q3: Does M.Pharm Pharmacology involve animal studies?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specializations like Pharmaceutical Analysis or Pharmaceutics. Modern programs also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(2)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q3: Does M.Pharm Pharmacology involve animal studies?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 2 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 2 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specializations like Pharmaceutical Analysis or Pharmaceutics. Modern programs also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q4 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q4: Can I do PhD after M.Pharm Pharmacology?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions. Many pursue postdoctoral research abroad.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(3)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q4: Can I do PhD after M.Pharm Pharmacology?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 3 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 3 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions. Many pursue postdoctoral research abroad.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q5 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q5: Which is better: M.Pharm Pharmacology or Pharmaceutics?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Both are excellent but serve different purposes. Pharmacology is research-intensive, focusing on drug action, toxicology, and biological understanding through animal studies. Best for those interested in drug discovery, preclinical research, and academic careers. Requires comfort with animal experimentation. Pharmaceutics is product-focused, emphasizing formulation development and manufacturing. Best for those preferring product creation over biological research. Pharmacology offers CRO research roles (₹5-10 lakhs) and strong Ph.D pathways with excellent academic opportunities. Pharmaceutics offers formulation R&D (₹6-12 lakhs) and production management with higher industry salary ceiling. Pharmacology has more academic positions; Pharmaceutics has more industry positions. Choose based on genuine interest: biological research vs. product development.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(4)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q5: Which is better: M.Pharm Pharmacology or Pharmaceutics?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 4 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 4 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Both are excellent but serve different purposes. Pharmacology is research-intensive, focusing on drug action, toxicology, and biological understanding through animal studies. Best for those interested in drug discovery, preclinical research, and academic careers. Requires comfort with animal experimentation. Pharmaceutics is product-focused, emphasizing formulation development and manufacturing. Best for those preferring product creation over biological research. Pharmacology offers CRO research roles (₹5-10 lakhs) and strong Ph.D pathways with excellent academic opportunities. Pharmaceutics offers formulation R&D (₹6-12 lakhs) and production management with higher industry salary ceiling. Pharmacology has more academic positions; Pharmaceutics has more industry positions. Choose based on genuine interest: biological research vs. product development.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q6 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q6: What are CRO job opportunities for Pharmacology graduates?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Contract Research Organizations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(5)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q6: What are CRO job opportunities for Pharmacology graduates?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 5 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 5 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Contract Research Organizations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q7 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q7: Is M.Pharm Pharmacology good for academic career?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Yes, Pharmacology is excellent for academic careers. There's high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide students, and maintain work-life balance. Pharmacology faculty are particularly valued as it's a core subject with practical components requiring experienced teachers.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(6)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q7: Is M.Pharm Pharmacology good for academic career?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 6 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 6 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Yes, Pharmacology is excellent for academic careers. There's high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide students, and maintain work-life balance. Pharmacology faculty are particularly valued as it's a core subject with practical components requiring experienced teachers.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q8 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q8: Can I switch to medical writing from Pharmacology?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Yes, M.Pharm Pharmacology is excellent background for medical writing career. Pharmacology training provides deep understanding of drug mechanisms, clinical trial data, and scientific literature - essential for medical writing. Roles: Medical Writer, Scientific Writer, Regulatory Writer, Clinical Study Report Writer. Companies hiring: Pharmaceutical companies, CROs (Quintiles, Covance, PPD), medical communication agencies. Salaries: Entry ₹5-7 lakhs, experienced ₹8-15 lakhs, senior ₹15-25 lakhs. Additional skills needed: Excellent English writing, understanding of regulatory guidelines (ICH-GCP, CTD format), MS Office proficiency. Many pharmacology graduates transition to medical writing for better salary and work-life balance compared to bench research.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(7)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q8: Can I switch to medical writing from Pharmacology?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 7 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 7 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Yes, M.Pharm Pharmacology is excellent background for medical writing career. Pharmacology training provides deep understanding of drug mechanisms, clinical trial data, and scientific literature - essential for medical writing. Roles: Medical Writer, Scientific Writer, Regulatory Writer, Clinical Study Report Writer. Companies hiring: Pharmaceutical companies, CROs (Quintiles, Covance, PPD), medical communication agencies. Salaries: Entry ₹5-7 lakhs, experienced ₹8-15 lakhs, senior ₹15-25 lakhs. Additional skills needed: Excellent English writing, understanding of regulatory guidelines (ICH-GCP, CTD format), MS Office proficiency. Many pharmacology graduates transition to medical writing for better salary and work-life balance compared to bench research.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q9 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q9: Is M.Pharm Pharmacology difficult compared to other specializations?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it's not exceptionally difficult compared to core medical sciences or PhD programs. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than: Medicinal Chemistry (complex organic synthesis), Pharmaceutical Analysis (precision analytical work). Similar difficulty to: Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(8)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q9: Is M.Pharm Pharmacology difficult compared to other specializations?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 8 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 8 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it's not exceptionally difficult compared to core medical sciences or PhD programs. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than: Medicinal Chemistry (complex organic synthesis), Pharmaceutical Analysis (precision analytical work). Similar difficulty to: Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty.
+                </p>
+              </div>
+            )}
           </div>
 
           {/* Q10 */}
-          <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q10: What is the scope of Pharmacology internationally?</h3>
-            <p className="text-gray-800 leading-relaxed">
-              Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Requires relevant work visa. Ph.D programs fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programs with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide.
-            </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <button
+              onClick={() => toggleFAQ(9)}
+              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                expandedFAQ === 9 ? 'bg-green-50' : 'bg-white'
+              }`}
+            >
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q10: What is the scope of Pharmacology internationally?</h3>
+              <ChevronDown
+                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  expandedFAQ === 9 ? 'rotate-180' : ''
+                }`}
+              />
+            </button>
+            {expandedFAQ === 9 && (
+              <div className="p-6 bg-green-50 border-t border-gray-200">
+                <p className="text-gray-800 leading-relaxed">
+                  Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Requires relevant work visa. Ph.D programs fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programs with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide.
+                </p>
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -1254,13 +1494,13 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Star className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Why Choose M.Pharm in Pharmacology?</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Why Choose M.Pharm in Pharmacology?</h2>
         </div>
 
         <div className="space-y-6">
           {/* Point 1 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">1. Foundation for Drug Discovery Careers</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">1. Foundation for Drug Discovery Careers</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology is the gateway to drug discovery and development. You'll understand how drugs interact with biological systems, which is fundamental to discovering new therapeutics. Whether working in CROs, pharmaceutical R&D, or biotech companies, your pharmacology knowledge positions you at the heart of pharmaceutical innovation where new medicines are born.
             </p>
@@ -1268,7 +1508,7 @@ export default function PharmacologyPage() {
 
           {/* Point 2 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">2. Strong Academic & Research Career Path</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">2. Strong Academic & Research Career Path</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology offers the clearest pathway to academic careers among pharmacy specializations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at premier institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
             </p>
@@ -1276,7 +1516,7 @@ export default function PharmacologyPage() {
 
           {/* Point 3 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">3. Diverse Research Areas & Specializations</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">3. Diverse Research Areas & Specializations</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology encompasses multiple exciting research domains: neuropharmacology (brain disorders), cardiovascular pharmacology (heart diseases), cancer pharmacology (oncology research), toxicology (drug safety), molecular pharmacology (mechanisms), immunopharmacology (immune system). This diversity allows you to specialize in areas matching your interests and provides career flexibility to switch between research domains.
             </p>
@@ -1284,7 +1524,7 @@ export default function PharmacologyPage() {
 
           {/* Point 4 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">4. Critical Role in Drug Safety & Regulatory Affairs</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">4. Critical Role in Drug Safety & Regulatory Affairs</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacologists play vital roles in drug safety, toxicology assessment, and regulatory submissions. Every new drug requires extensive pharmacology and toxicology data for regulatory approval. This makes pharmacology expertise essential and creates steady demand in regulatory toxicology, pharmacovigilance, and drug safety positions across pharmaceutical industry.
             </p>
@@ -1292,7 +1532,7 @@ export default function PharmacologyPage() {
 
           {/* Point 5 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">5. Fundamental Understanding of Drug Action</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">5. Fundamental Understanding of Drug Action</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology provides the deepest understanding of how and why drugs work. This knowledge is invaluable across all pharmaceutical careers - whether you move into medical writing, clinical research, regulatory affairs, or drug safety. The biological insights you gain become your competitive advantage throughout your career, regardless of specific role.
             </p>
@@ -1300,7 +1540,7 @@ export default function PharmacologyPage() {
 
           {/* Point 6 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">6. Growing CRO Sector Opportunities</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">6. Growing CRO Sector Opportunities</h3>
             <p className="text-gray-800 leading-relaxed">
               India's CRO sector is expanding rapidly, driven by global outsourcing of preclinical research. Companies like Jubilant Biosys, Syngene, Vimta Labs, and GVK Bio are constantly recruiting pharmacology graduates. CRO work offers exposure to diverse drug candidates, international project experience, and good salary growth. The CRO boom creates sustainable demand for pharmacology expertise.
             </p>
@@ -1308,7 +1548,7 @@ export default function PharmacologyPage() {
 
           {/* Point 7 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">7. Intellectual Satisfaction & Scientific Contribution</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">7. Intellectual Satisfaction & Scientific Contribution</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology research contributes to scientific knowledge and potentially impacts patient care. Discovering a novel mechanism, identifying a potential drug candidate, or understanding disease biology provides immense intellectual satisfaction. Unlike manufacturing or quality control, pharmacology work directly advances pharmaceutical science and medicine, making it professionally fulfilling for research-minded individuals.
             </p>
@@ -1319,13 +1559,13 @@ export default function PharmacologyPage() {
       {/* CTA Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
-          <p className="text-xl mb-8">Join our M.Pharm Pharmacology program and become a pharmaceutical research scientist!</p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
+          <p className="text-xs sm:text-sm mb-8">Join our M.Pharm Pharmacology program and become a pharmaceutical research scientist!</p>
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="mt-6 text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | AICTE Scholarship Eligible</p>
+          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | AICTE Scholarship Eligible</p>
         </div>
       </div>
 
@@ -1333,7 +1573,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Accreditation & Critical Facilities</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Accreditation & Critical Facilities</h2>
         </div>
 
         <div className="space-y-6">

@@ -1,23 +1,30 @@
 'use client'
 
+import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users } from 'lucide-react'
+import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalAnalysisPage() {
+  const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setExpandedFAQ(expandedFAQ === index ? null : index);
+  };
+
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
 
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="flex items-center gap-4 mb-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+          <div className="flex items-center justify-center gap-4 mb-4">
             <GraduationCap className="w-12 h-12" />
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold">
               M.Pharm in Pharmaceutical Analysis 2026
             </h1>
           </div>
-          <p className="text-sm sm:text-base text-gray-100 max-w-4xl">
+          <p className="text-xs sm:text-sm text-gray-100 max-w-4xl mx-auto">
             Master Advanced Analytical Techniques for Quality Control & Pharmaceutical Research
           </p>
         </div>
@@ -28,34 +35,34 @@ export default function PharmaceuticalAnalysisPage() {
 
         {/* What is M.Pharm Section */}
         <div className="bg-white rounded-lg shadow-sm border-l-4 border-[#7cb983] p-8 mb-12">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-6">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
             What is M.Pharm in Pharmaceutical Analysis?
           </h2>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-6"></div>
 
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-8">
+          <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-8">
             M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialization program focusing on advanced analytical techniques, quality control methodologies, method development, and validation for pharmaceutical products. This program trains students in sophisticated instrumentation including HPLC, GC-MS, LC-MS/MS, UV-Visible spectroscopy, and other analytical tools essential for regulatory compliance, and research. Graduates become specialists in ensuring drug quality, safety, and efficacy through rigorous analytical testing.
           </p>
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-xs sm:text-sm md:text-base font-bold text-[#006837] mb-3 uppercase">Duration</h3>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Duration</h3>
               <p className="text-gray-900 font-semibold">2 Years (4 Semesters)</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-xs sm:text-sm md:text-base font-bold text-[#006837] mb-3 uppercase">Eligibility</h3>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Eligibility</h3>
               <p className="text-gray-900 font-semibold">B.Pharm + GPAT/Entrance Exam</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-xs sm:text-sm md:text-base font-bold text-[#006837] mb-3 uppercase">Specialization Focus</h3>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Specialization Focus</h3>
               <p className="text-gray-900 font-semibold">Quality Control & Analysis</p>
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-xs sm:text-sm md:text-base font-bold text-[#006837] mb-3 uppercase">Average Salary</h3>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Average Salary</h3>
               <p className="text-gray-900 font-semibold">₹4-10 Lakhs/Year</p>
             </div>
           </div>
@@ -65,7 +72,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Target className="w-8 h-8 text-[#7cb983]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Core Analytical Techniques Mastered
             </h2>
           </div>
@@ -74,120 +81,120 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Chromatographic Techniques */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Chromatographic Techniques</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Chromatographic Techniques</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• HPLC (High Performance Liquid Chromatography)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• HPLC (High Performance Liquid Chromatography)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• UPLC (Ultra Performance Liquid Chromatography)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• UPLC (Ultra Performance Liquid Chromatography)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• GC (Gas Chromatography)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• GC (Gas Chromatography)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• TLC (Thin Layer Chromatography)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• TLC (Thin Layer Chromatography)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Ion Chromatography</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Ion Chromatography</span>
                 </li>
               </ul>
             </div>
 
             {/* Mass Spectrometry */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Mass Spectrometry</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Mass Spectrometry</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• LC-MS/MS (Liquid Chromatography-Mass Spectrometry)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• LC-MS/MS (Liquid Chromatography-Mass Spectrometry)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• GC-MS (Gas Chromatography-Mass Spectrometry)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• GC-MS (Gas Chromatography-Mass Spectrometry)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Tandem Mass Spectrometry</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Tandem Mass Spectrometry</span>
                 </li>
               </ul>
             </div>
 
             {/* Spectroscopic Methods */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Spectroscopic Methods</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Spectroscopic Methods</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• UV-Visible Spectrophotometry</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• UV-Visible Spectrophotometry</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Infrared (IR) Spectroscopy</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Infrared (IR) Spectroscopy</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Atomic Absorption Spectroscopy (AAS)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Atomic Absorption Spectroscopy (AAS)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Fluorescence Spectroscopy</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Fluorescence Spectroscopy</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• NMR Spectroscopy (basics)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• NMR Spectroscopy (basics)</span>
                 </li>
               </ul>
             </div>
 
             {/* Electroanalytical Methods */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Electroanalytical Methods</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Electroanalytical Methods</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Potentiometry and pH Measurement</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Potentiometry and pH Measurement</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Conductometry</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Conductometry</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Polarography</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Polarography</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Ion-Selective Electrodes</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Ion-Selective Electrodes</span>
                 </li>
               </ul>
             </div>
 
             {/* Quality Assurance */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Quality Assurance</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Quality Assurance</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Method Development & Validation</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Method Development & Validation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Stability Testing (ICH Guidelines)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Stability Testing (ICH Guidelines)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Dissolution Testing</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Dissolution Testing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Impurity Profiling</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Impurity Profiling</span>
                 </li>
               </ul>
             </div>
 
             {/* Regulatory Standards */}
             <div className="border-2 border-[#7cb983] rounded-lg p-6">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">Regulatory Standards</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Regulatory Standards</h3>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• ICH Guidelines (Q2, Q3, Q6)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• ICH Guidelines (Q2, Q3, Q6)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• USP, IP, BP Monographs</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• USP, IP, BP Monographs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• FDA Analytical Requirements</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• FDA Analytical Requirements</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• GMP & GLP Compliance</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• GMP & GLP Compliance</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700">• Documentation & Audit Trails</span>
+                  <span className="text-xs sm:text-sm text-gray-700">• Documentation & Audit Trails</span>
                 </li>
               </ul>
             </div>
@@ -198,35 +205,35 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Eligibility Criteria & Admission Requirements
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
           <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Educational Qualification:</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-900 mb-4">Educational Qualification:</h3>
             <ul className="space-y-3">
               <li className="flex items-start">
-                <span className="text-sm sm:text-base text-gray-700">• B.Pharm degree from PCI-approved institution</span>
+                <span className="text-xs sm:text-sm text-gray-700">• B.Pharm degree from PCI-approved institution</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sm sm:text-base text-[#006837] font-semibold">• Minimum aggregate: 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
+                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Minimum aggregate: 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sm sm:text-base text-[#006837] font-semibold">• Valid GPAT score: Mandatory for government colleges and AICTE scholarship</span>
+                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Valid GPAT score: Mandatory for government colleges and AICTE scholarship</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sm sm:text-base text-gray-700">• Registration with State Pharmacy Council</span>
+                <span className="text-xs sm:text-sm text-gray-700">• Registration with State Pharmacy Council</span>
               </li>
               <li className="flex items-start">
-                <span className="text-sm sm:text-base text-gray-700">• No age limit for M.Pharm admission</span>
+                <span className="text-xs sm:text-sm text-gray-700">• No age limit for M.Pharm admission</span>
               </li>
             </ul>
           </div>
 
           {/* GPAT Section */}
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">GPAT (Graduate Pharmacy Aptitude Test)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">GPAT (Graduate Pharmacy Aptitude Test)</h3>
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full border-collapse">
@@ -277,14 +284,14 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
             <div className="flex items-start gap-2 mb-4">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-              <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837]">GPAT Score Benefits:</h4>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837]">GPAT Score Benefits:</h4>
             </div>
             <ul className="space-y-2 ml-8">
-              <li className="text-sm sm:text-base text-gray-700">• Eligibility for all government and most private colleges</li>
-              <li className="text-sm sm:text-base text-gray-700">• AICTE stipend/scholarship of ₹12,400 per month (if selected)</li>
-              <li className="text-sm sm:text-base text-gray-700">• Admission to NITs, IITs offering M.Pharm programs</li>
-              <li className="text-sm sm:text-base text-gray-700">• Higher preference in merit-based admissions</li>
-              <li className="text-sm sm:text-base text-gray-700">• Valid for 3 years - can apply for multiple admission cycles</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Eligibility for all government and most private colleges</li>
+              <li className="text-xs sm:text-sm text-gray-700">• AICTE stipend/scholarship of ₹12,400 per month (if selected)</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Admission to NITs, IITs offering M.Pharm programs</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Higher preference in merit-based admissions</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Valid for 3 years - can apply for multiple admission cycles</li>
             </ul>
           </div>
         </div>
@@ -293,7 +300,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               M.Pharm Pharmaceutical Analysis - Course Structure
             </h2>
           </div>
@@ -301,7 +308,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Semester 1 */}
           <div className="mb-10">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Semester 1</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Semester 1</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -349,7 +356,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Semester 2 */}
           <div className="mb-10">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Semester 2</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Semester 2</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -397,7 +404,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Semester 3 */}
           <div className="mb-10">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Semester 3</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Semester 3</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -435,7 +442,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Semester 4 */}
           <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Semester 4</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Semester 4</h3>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse">
                 <thead>
@@ -463,13 +470,13 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Research Project Topics */}
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-            <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-gray-900 mb-4">Research Project Topics (Examples):</h4>
+            <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900 mb-4">Research Project Topics (Examples):</h4>
             <ul className="space-y-2">
-              <li className="text-sm sm:text-base text-gray-700">• Development and validation of RP-HPLC method for simultaneous estimation of drug combinations</li>
-              <li className="text-sm sm:text-base text-gray-700">• Stability indicating assay method development using UPLC-MS/MS</li>
-              <li className="text-sm sm:text-base text-gray-700">• Impurity profiling and degradation pathway studies of pharmaceutical products</li>
-              <li className="text-sm sm:text-base text-gray-700">• Bioanalytical method development for therapeutic drug monitoring</li>
-              <li className="text-sm sm:text-base text-gray-700">• Quality by Design (QbD) approach in analytical method development</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Development and validation of RP-HPLC method for simultaneous estimation of drug combinations</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Stability indicating assay method development using UPLC-MS/MS</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Impurity profiling and degradation pathway studies of pharmaceutical products</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Bioanalytical method development for therapeutic drug monitoring</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Quality by Design (QbD) approach in analytical method development</li>
             </ul>
           </div>
         </div>
@@ -478,7 +485,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Building2 className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Career Opportunities After M.Pharm Pharmaceutical Analysis
             </h2>
           </div>
@@ -487,240 +494,240 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Quality Control Analyst */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Quality Control Analyst</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Quality Control Analyst</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹4-6 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Analyze raw materials and finished products</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Analyze raw materials and finished products</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Perform routine quality control testing</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Perform routine quality control testing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Execute HPLC, UV, and dissolution tests</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Execute HPLC, UV, and dissolution tests</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Maintain laboratory equipment and records</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Maintain laboratory equipment and records</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Ensure compliance with pharmacopeial standards</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Ensure compliance with pharmacopeial standards</span>
                 </li>
               </ul>
             </div>
 
             {/* Method Development Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Method Development Scientist</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Method Development Scientist</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹5-8 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Develop new analytical methods for drug testing</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Develop new analytical methods for drug testing</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Optimize chromatographic conditions</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Optimize chromatographic conditions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Perform method validation as per ICH guidelines</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Perform method validation as per ICH guidelines</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Transfer methods to QC departments</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Transfer methods to QC departments</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Troubleshoot analytical issues</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Troubleshoot analytical issues</span>
                 </li>
               </ul>
             </div>
 
             {/* Analytical Research Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Analytical Research Scientist</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Analytical Research Scientist</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹5-9 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Conduct pharmaceutical R&D projects</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Conduct pharmaceutical R&D projects</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Develop innovative analytical techniques</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Develop innovative analytical techniques</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Publish research in scientific journals</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Publish research in scientific journals</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Collaborate with formulation scientists</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Collaborate with formulation scientists</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Characterize novel drug molecules</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Characterize novel drug molecules</span>
                 </li>
               </ul>
             </div>
 
             {/* Regulatory Affairs Specialist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Regulatory Affairs Specialist</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Regulatory Affairs Specialist</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹6-10 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Prepare analytical sections for regulatory submissions</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Prepare analytical sections for regulatory submissions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Ensure compliance with FDA, EMA guidelines</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Ensure compliance with FDA, EMA guidelines</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Review analytical data for registration dossiers</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Review analytical data for registration dossiers</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Handle regulatory inspections and audits</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Handle regulatory inspections and audits</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Coordinate with international regulatory bodies</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Coordinate with international regulatory bodies</span>
                 </li>
               </ul>
             </div>
 
             {/* Stability Testing Specialist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Stability Testing Specialist</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Stability Testing Specialist</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹4-7 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Design and execute stability studies</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Design and execute stability studies</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Analyze stability samples using validated methods</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Analyze stability samples using validated methods</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Interpret stability data and trends</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Interpret stability data and trends</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Prepare stability reports for registration</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Prepare stability reports for registration</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Ensure ICH stability guideline compliance</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Ensure ICH stability guideline compliance</span>
                 </li>
               </ul>
             </div>
 
             {/* Quality Assurance Manager */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Quality Assurance Manager</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Quality Assurance Manager</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹7-12 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Oversee quality management systems</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Oversee quality management systems</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Conduct internal audits and CAPA investigations</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Conduct internal audits and CAPA investigations</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Review and approve analytical documentation</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Review and approve analytical documentation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Manage regulatory inspections</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Manage regulatory inspections</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Implement quality improvement initiatives</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Implement quality improvement initiatives</span>
                 </li>
               </ul>
             </div>
 
             {/* Bioanalytical Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Bioanalytical Scientist</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Bioanalytical Scientist</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹6-10 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Develop bioanalytical methods (LC-MS/MS)</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Develop bioanalytical methods (LC-MS/MS)</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Analyze biological samples for clinical trials</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Analyze biological samples for clinical trials</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Perform pharmacokinetic studies</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Perform pharmacokinetic studies</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Ensure compliance with bioanalytical guidelines</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Ensure compliance with bioanalytical guidelines</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Work with CROs and clinical research teams</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Work with CROs and clinical research teams</span>
                 </li>
               </ul>
             </div>
 
             {/* Academic / Research Faculty */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Academic / Research Faculty</h3>
-              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-xs sm:text-sm md:text-base font-bold mb-4">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Academic / Research Faculty</h3>
+              <div className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
                 ₹4-8 Lakhs/Year
               </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Teach pharmaceutical analysis to students</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Teach pharmaceutical analysis to students</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Guide M.Pharm research projects</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Guide M.Pharm research projects</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Publish research papers in peer-reviewed journals</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Publish research papers in peer-reviewed journals</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Supervise analytical laboratory operations</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Supervise analytical laboratory operations</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-sm sm:text-base text-gray-700">Pursue Ph.D while teaching</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Pursue Ph.D while teaching</span>
                 </li>
               </ul>
             </div>
@@ -730,14 +737,14 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg mt-8">
             <div className="flex items-start gap-2 mb-4">
               <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-              <h4 className="text-xl xs:text-2xl sm:text-3xl font-bold text-gray-900">Salary Progression for Pharmaceutical Analysis Specialists</h4>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900">Salary Progression for Pharmaceutical Analysis Specialists</h4>
             </div>
             <ul className="space-y-2 ml-8">
-              <li className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">Entry Level (0-2 Years):</span> ₹4-6 lakhs per annum</li>
-              <li className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">Mid Level (3-5 Years):</span> ₹6-10 lakhs per annum</li>
-              <li className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">Senior Level (6-10 Years):</span> ₹10-18 lakhs per annum</li>
-              <li className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">Expert/Manager Level (10+ Years):</span> ₹18-30 lakhs per annum</li>
-              <li className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">Head of QC/QA / Director:</span> ₹30-50 lakhs per annum</li>
+              <li className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">Entry Level (0-2 Years):</span> ₹4-6 lakhs per annum</li>
+              <li className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">Mid Level (3-5 Years):</span> ₹6-10 lakhs per annum</li>
+              <li className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">Senior Level (6-10 Years):</span> ₹10-18 lakhs per annum</li>
+              <li className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">Expert/Manager Level (10+ Years):</span> ₹18-30 lakhs per annum</li>
+              <li className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">Head of QC/QA / Director:</span> ₹30-50 lakhs per annum</li>
             </ul>
           </div>
         </div>
@@ -746,7 +753,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Building2 className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Top Recruiters for M.Pharm Pharmaceutical Analysis
             </h2>
           </div>
@@ -754,12 +761,12 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Pharmaceutical Companies */}
           <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Pharmaceutical Companies - R&D & QC Departments</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Pharmaceutical Companies - R&D & QC Departments</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['Sun Pharmaceutical', 'Dr. Reddy\'s Laboratories', 'Cipla Limited', 'Lupin Pharmaceuticals', 'Torrent Pharmaceuticals',
                 'Zydus Cadila', 'Glenmark Pharmaceuticals', 'Aurobindo Pharma', 'Alkem Laboratories', 'Biocon Limited'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
-                  <p className="text-xs sm:text-sm md:text-base font-semibold text-sm sm:text-base text-gray-700">{company}</p>
+                  <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
             </div>
@@ -767,12 +774,12 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Multinational Companies */}
           <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Multinational Pharmaceutical Companies</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Multinational Pharmaceutical Companies</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['GlaxoSmithKline (GSK)', 'Pfizer India', 'Novartis India', 'Abbott Laboratories', 'Sanofi India',
                 'Merck India', 'AstraZeneca', 'Roche Diagnostics'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
-                  <p className="text-xs sm:text-sm md:text-base font-semibold text-sm sm:text-base text-gray-700">{company}</p>
+                  <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
             </div>
@@ -780,12 +787,12 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* CROs */}
           <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Contract Research Organizations (CROs)</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Contract Research Organizations (CROs)</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['Quintiles/IQVIA', 'Covance', 'Parexel', 'ICON plc', 'Lambda Therapeutic',
                 'Syngene International'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
-                  <p className="text-xs sm:text-sm md:text-base font-semibold text-sm sm:text-base text-gray-700">{company}</p>
+                  <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
             </div>
@@ -793,12 +800,12 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Testing Labs */}
           <div className="mb-8">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Testing & Analytical Laboratories</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Testing & Analytical Laboratories</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['SGS India', 'Intertek India', 'TÜV SÜD', 'Vimta Labs', 'Eurofins Scientific',
                 'Central Drug Laboratory (CDL)'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
-                  <p className="text-xs sm:text-sm md:text-base font-semibold text-sm sm:text-base text-gray-700">{company}</p>
+                  <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
             </div>
@@ -806,11 +813,11 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Government Institutes */}
           <div>
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Government Research Institutes</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Government Research Institutes</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['CSIR Labs (CDRI, IICT)', 'ICMR Institutes', 'NIPER (All Campuses)', 'IIT Pharmaceutical Depts', 'CDSCO Regional Labs'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
-                  <p className="text-xs sm:text-sm md:text-base font-semibold text-sm sm:text-base text-gray-700">{company}</p>
+                  <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
                 </div>
               ))}
             </div>
@@ -821,7 +828,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <TrendingUp className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               M.Pharm Pharmaceutical Analysis vs Other Specializations
             </h2>
           </div>
@@ -838,11 +845,11 @@ export default function PharmaceuticalAnalysisPage() {
                   </th>
                   <th className="border border-gray-300 px-4 py-3 text-left text-white font-bold">
                     Pharmaceutics<br />
-                    <span className="inline-block bg-[#7cb983] text-white px-2 py-1 rounded text-xs font-bold">Formulation</span>
+                    <span className="inline-block bg-[#7cb983] text-white px-2 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-bold">Formulation</span>
                   </th>
                   <th className="border border-gray-300 px-4 py-3 text-left text-white font-bold">
                     Pharmacology<br />
-                    <span className="inline-block bg-[#7cb983] text-white px-2 py-1 rounded text-xs font-bold">Drug Action</span>
+                    <span className="inline-block bg-[#7cb983] text-white px-2 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-bold">Drug Action</span>
                   </th>
                 </tr>
               </thead>
@@ -908,7 +915,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mt-6">
             <div className="flex items-start gap-2 mb-2">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-              <h4 className="text-lg font-bold text-gray-900">Key Insight:</h4>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900">Key Insight:</h4>
             </div>
             <p className="text-gray-700 ml-8">
               <span className="font-bold">Pharmaceutical Analysis</span> offers the most consistent job opportunities as every pharmaceutical company, regardless of size or focus, requires quality control and analytical services. The specialization provides excellent job security, standardized career progression, and opportunities across manufacturing, R&D, regulatory, and testing sectors.
@@ -920,40 +927,40 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <GraduationCap className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Higher Education & Research Opportunities
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
           <div className="mb-8">
-            <h3 className="text-2xl font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences</h3>
 
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-6">
-              <h4 className="text-lg font-bold text-gray-900 mb-4">Research Areas in Pharmaceutical Analysis:</h4>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900 mb-4">Research Areas in Pharmaceutical Analysis:</h4>
               <ul className="space-y-3">
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Advanced Analytical Techniques:</span> Development of novel analytical methods, hyphenated techniques</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Advanced Analytical Techniques:</span> Development of novel analytical methods, hyphenated techniques</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Bioanalytical Chemistry:</span> LC-MS/MS methods for biological samples, pharmacokinetics</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Bioanalytical Chemistry:</span> LC-MS/MS methods for biological samples, pharmacokinetics</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Quality by Design (QbD):</span> Analytical QbD, design of experiments, method robustness</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Quality by Design (QbD):</span> Analytical QbD, design of experiments, method robustness</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Process Analytical Technology (PAT):</span> Real-time monitoring, spectroscopic methods</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Process Analytical Technology (PAT):</span> Real-time monitoring, spectroscopic methods</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Pharmaceutical Validation:</span> Method validation strategies, regulatory science</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Pharmaceutical Validation:</span> Method validation strategies, regulatory science</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-sm sm:text-base text-gray-700"><span className="font-bold text-[#006837]">• Green Analytical Chemistry:</span> Environmentally sustainable analytical methods</span>
+                  <span className="text-xs sm:text-sm text-gray-700"><span className="font-bold text-[#006837]">• Green Analytical Chemistry:</span> Environmentally sustainable analytical methods</span>
                 </li>
               </ul>
             </div>
 
-            <h4 className="text-xl font-bold text-gray-900 mb-4">Ph.D Entrance Examinations</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-4">Ph.D Entrance Examinations</h4>
             <div className="overflow-x-auto mb-6">
               <table className="w-full border-collapse">
                 <thead>
@@ -994,39 +1001,39 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
 
             {/* International Opportunities */}
-            <h3 className="text-2xl font-bold text-[#006837] mb-6">International Opportunities</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">International Opportunities</h3>
             <ul className="space-y-3 mb-6">
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• MS/Ph.D in USA:</span> Analytical Chemistry, Pharmaceutical Sciences (Assistantships $20,000-30,000/year)
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Ph.D in Europe:</span> Germany, UK, Switzerland (Fully funded positions €2,000-3,000/month)
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Postdoctoral Research:</span> Advanced analytical method development, bioanalytical research
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Industrial Research:</span> MNCs hire M.Pharm graduates for international R&D projects
               </li>
             </ul>
 
             {/* Professional Certifications */}
-            <h3 className="text-2xl font-bold text-[#006837] mb-6">Professional Certifications</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Professional Certifications</h3>
             <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <ul className="space-y-3">
-                <li className="text-sm sm:text-base text-gray-700">
+                <li className="text-xs sm:text-sm text-gray-700">
                   <span className="font-bold text-[#006837]">• Six Sigma Certification:</span> Green Belt, Black Belt for quality management
                 </li>
-                <li className="text-sm sm:text-base text-gray-700">
+                <li className="text-xs sm:text-sm text-gray-700">
                   <span className="font-bold text-[#006837]">• ISO 17025 Lead Auditor:</span> Laboratory accreditation and management
                 </li>
-                <li className="text-sm sm:text-base text-gray-700">
+                <li className="text-xs sm:text-sm text-gray-700">
                   <span className="font-bold text-[#006837]">• Regulatory Affairs Certification:</span> RAC (Regulatory Affairs Certification)
                 </li>
-                <li className="text-sm sm:text-base text-gray-700">
+                <li className="text-xs sm:text-sm text-gray-700">
                   <span className="font-bold text-[#006837]">• Good Laboratory Practice (GLP):</span> Compliance and documentation training
                 </li>
-                <li className="text-sm sm:text-base text-gray-700">
+                <li className="text-xs sm:text-sm text-gray-700">
                   <span className="font-bold text-[#006837]">• Chromatography Courses:</span> Advanced HPLC, LC-MS/MS operation and maintenance
                 </li>
               </ul>
@@ -1038,7 +1045,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Admission Process & Important Dates
             </h2>
           </div>
@@ -1051,8 +1058,8 @@ export default function PharmaceuticalAnalysisPage() {
                 1
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Register for GPAT (October-November)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Register for GPAT (October-November)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Register on NTA GPAT website. Upload required documents (photo, signature, B.Pharm certificate). Pay application fees (₹1,400 for general, ₹700 for SC/ST/OBC). Download admit card before exam date.
                 </p>
               </div>
@@ -1066,8 +1073,8 @@ export default function PharmaceuticalAnalysisPage() {
                 2
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Appear for GPAT Examination (January-February)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Appear for GPAT Examination (January-February)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Attend 3-hour computer-based test with 125 questions covering Pharmaceutics, Medicinal Chemistry, Pharmacology, and Pharmacognosy. Prepare thoroughly using GPAT preparation books and previous year papers.
                 </p>
               </div>
@@ -1081,8 +1088,8 @@ export default function PharmaceuticalAnalysisPage() {
                 3
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">GPAT Results & Scorecard (March)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">GPAT Results & Scorecard (March)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Check GPAT results on official NTA website. Download scorecard with percentile and all-India rank. GPAT score is valid for 3 years for admission purposes.
                 </p>
               </div>
@@ -1096,8 +1103,8 @@ export default function PharmaceuticalAnalysisPage() {
                 4
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Centralized Counseling Registration (May-June)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Centralized Counseling Registration (May-June)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Register for AICTE centralized counseling (if applicable) or state-level counseling. Submit preferences for colleges and specializations. Pay counseling fees and complete document verification online.
                 </p>
               </div>
@@ -1111,8 +1118,8 @@ export default function PharmaceuticalAnalysisPage() {
                 5
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">College Selection & Seat Allotment (June-July)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">College Selection & Seat Allotment (June-July)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Submit college preference list with Pharmaceutical Analysis specialization. Check seat allotment results. Accept allocated seat and pay seat acceptance fees within deadline to secure admission.
                 </p>
               </div>
@@ -1126,8 +1133,8 @@ export default function PharmaceuticalAnalysisPage() {
                 6
               </div>
               <div className="flex-1">
-                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Document Verification & Admission (July-August)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Document Verification & Admission (July-August)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Report to allotted college with original documents (B.Pharm degree, mark sheets, GPAT scorecard, PCI registration, caste certificate if applicable). Complete admission formalities and pay tuition fees.
                 </p>
               </div>
@@ -1141,8 +1148,8 @@ export default function PharmaceuticalAnalysisPage() {
                 7
               </div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Commencement of Classes (August)</h3>
-                <p className="text-sm sm:text-base text-gray-700">
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Commencement of Classes (August)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">
                   Attend orientation program. Receive course materials and laboratory access. Meet faculty advisors and understand research expectations. Begin coursework and familiarize with analytical instruments.
                 </p>
               </div>
@@ -1153,25 +1160,25 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg mt-8">
             <div className="flex items-start gap-2 mb-4">
               <span className="text-2xl">⏰</span>
-              <h4 className="text-lg font-bold text-gray-900">Important Dates for M.Pharm Admission 2026:</h4>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900">Important Dates for M.Pharm Admission 2026:</h4>
             </div>
             <ul className="space-y-2 ml-8">
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• GPAT Registration:</span> October-November 2025
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• GPAT Examination:</span> January-February 2026
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• GPAT Result:</span> March 2026
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Counseling Registration:</span> May-June 2026
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Seat Allotment:</span> June-July 2026
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Classes Begin:</span> August 2026
               </li>
             </ul>
@@ -1182,7 +1189,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               M.Pharm Pharmaceutical Analysis - Fee Structure
             </h2>
           </div>
@@ -1229,46 +1236,46 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* Additional Expenses */}
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-6">
-            <h4 className="text-lg font-bold text-gray-900 mb-4">Additional Expenses:</h4>
+            <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900 mb-4">Additional Expenses:</h4>
             <ul className="space-y-2">
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• GPAT Registration:</span> ₹1,400 (General), ₹700 (SC/ST/OBC)
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Books & Materials:</span> ₹10,000-15,000 per year
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Laboratory Expenses:</span> Usually included in fees
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Hostel Fees:</span> ₹30,000-80,000 per year
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Thesis/Project Expenses:</span> ₹10,000-25,000 (for chemicals, consumables)
               </li>
             </ul>
           </div>
 
           {/* Scholarships */}
-          <h3 className="text-2xl font-bold text-[#006837] mb-6">Scholarships & Financial Support</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Scholarships & Financial Support</h3>
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
             <ul className="space-y-3">
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• AICTE Scholarship:</span> ₹12,400/month for GPAT qualified students (subject to selection)
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Merit Scholarships:</span> Most government colleges offer 25-100% fee waivers
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Teaching Assistantships:</span> Some colleges provide ₹5,000-10,000/month for teaching support
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Research Fellowships:</span> Industry-sponsored projects offer stipends
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• SC/ST Scholarships:</span> Central and state government scholarships
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Educational Loans:</span> Banks offer loans up to ₹10 lakhs for M.Pharm
               </li>
             </ul>
@@ -1279,43 +1286,43 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Essential Laboratory Infrastructure
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
           <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg mb-6">
-            <h3 className="text-lg font-bold text-gray-900 mb-4">Sophisticated Analytical Instruments Required:</h3>
+            <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900 mb-4">Sophisticated Analytical Instruments Required:</h3>
             <ul className="space-y-3">
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• HPLC Systems:</span> Multiple units with UV, PDA, fluorescence detectors
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• GC Systems:</span> Gas chromatographs with FID, ECD, TCD detectors
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• LC-MS/MS:</span> Liquid chromatography coupled with mass spectrometry
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• UV-Visible Spectrophotometers:</span> Single and double beam instruments
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• FTIR Spectrometer:</span> For structural characterization
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Dissolution Apparatus:</span> USP Type I & II dissolution testers
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Stability Chambers:</span> For accelerated and long-term stability studies
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• pH Meters & Potentiometers:</span> For electrochemical analysis
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Karl Fischer Titrator:</span> For moisture content determination
               </li>
-              <li className="text-sm sm:text-base text-gray-700">
+              <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Reference Standards & Chemicals:</span> Comprehensive library
               </li>
             </ul>
@@ -1328,7 +1335,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <HelpCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Frequently Asked Questions
             </h2>
           </div>
@@ -1336,83 +1343,243 @@ export default function PharmaceuticalAnalysisPage() {
 
           <div className="space-y-6">
             {/* Q1 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q1: What is M.Pharm in Pharmaceutical Analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialization focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(0)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmaceutical Analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 0 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 0 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialization focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q2 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q2: Is GPAT mandatory for M.Pharm admission?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programs in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(1)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] pr-4">Q2: Is GPAT mandatory for M.Pharm admission?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 1 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 1 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programs in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q3 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q3: What is the salary after M.Pharm Pharmaceutical Analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Entry-level M.Pharm Pharmaceutical Analysis graduates earn ₹4-7 lakhs per annum. Quality Control Analysts earn ₹4-6 lakhs, Method Development Scientists earn ₹5-8 lakhs, Regulatory Affairs Specialists earn ₹6-10 lakhs, and Analytical Research Scientists earn ₹5-9 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like QC Head or Analytical R&D Manager earn ₹18-30 lakhs per annum. Salaries in multinational pharmaceutical companies are 30-40% higher than domestic companies.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(2)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] pr-4">Q3: What is the salary after M.Pharm Pharmaceutical Analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 2 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 2 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Entry-level M.Pharm Pharmaceutical Analysis graduates earn ₹4-7 lakhs per annum. Quality Control Analysts earn ₹4-6 lakhs, Method Development Scientists earn ₹5-8 lakhs, Regulatory Affairs Specialists earn ₹6-10 lakhs, and Analytical Research Scientists earn ₹5-9 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like QC Head or Analytical R&D Manager earn ₹18-30 lakhs per annum. Salaries in multinational pharmaceutical companies are 30-40% higher than domestic companies.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q4 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q4: Which is better: M.Pharm Pharmaceutics or Pharmaceutical Analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Both specializations have strong career prospects but serve different roles. Pharmaceutical Analysis focuses on quality control, analytical testing, and regulatory compliance with high demand in QC/QA departments. Pharmaceutics focuses on drug formulation, product development, and manufacturing. Analysis has more standardized roles with consistent demand, while Pharmaceutics offers innovation in product development. Analysis graduates find positions faster in QC labs, while Pharmaceutics graduates work in R&D and production. Salaries are comparable (₹4-10 lakhs entry level). Choose based on interest: laboratory analysis vs. product development.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(0)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q4: Which is better: M.Pharm Pharmaceutics or Pharmaceutical Analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 0 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 0 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Both specializations have strong career prospects but serve different roles. Pharmaceutical Analysis focuses on quality control, analytical testing, and regulatory compliance with high demand in QC/QA departments. Pharmaceutics focuses on drug formulation, product development, and manufacturing. Analysis has more standardized roles with consistent demand, while Pharmaceutics offers innovation in product development. Analysis graduates find positions faster in QC labs, while Pharmaceutics graduates work in R&D and production. Salaries are comparable (₹4-10 lakhs entry level). Choose based on interest: laboratory analysis vs. product development.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q5 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q5: Can I do PhD after M.Pharm Pharmaceutical Analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Yes, M.Pharm Pharmaceutical Analysis graduates can pursue Ph.D in pharmaceutical sciences through national exams like CSIR-NET, UGC-NET, GATE, or university-specific entrance tests. Research areas include analytical method development, bioanalytical techniques, quality by design (QbD), process analytical technology (PAT), and pharmaceutical validation. Ph.D opens opportunities in academic research (assistant professor positions), pharmaceutical R&D, regulatory science, and consulting. Many CSIR/ICMR labs and IITs offer Ph.D programs with fellowships of ₹31,000-35,000 per month.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(1)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q5: Can I do PhD after M.Pharm Pharmaceutical Analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 1 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 1 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Yes, M.Pharm Pharmaceutical Analysis graduates can pursue Ph.D in pharmaceutical sciences through national exams like CSIR-NET, UGC-NET, GATE, or university-specific entrance tests. Research areas include analytical method development, bioanalytical techniques, quality by design (QbD), process analytical technology (PAT), and pharmaceutical validation. Ph.D opens opportunities in academic research (assistant professor positions), pharmaceutical R&D, regulatory science, and consulting. Many CSIR/ICMR labs and IITs offer Ph.D programs with fellowships of ₹31,000-35,000 per month.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q6 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q6: What are job opportunities in pharmaceutical analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                M.Pharm Pharmaceutical Analysis graduates have excellent job opportunities in pharmaceutical manufacturing (QC departments), analytical R&D labs, contract testing organizations, CROs, regulatory affairs departments, government testing labs, and academic institutions. Every pharmaceutical company requires quality control services, ensuring consistent demand for analytical professionals. Job roles include QC Analyst, Method Development Scientist, Stability Testing Specialist, Regulatory Affairs Associate, and Analytical Research Scientist. Job availability is excellent with multiple openings across India and internationally.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(2)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q6: What are job opportunities in pharmaceutical analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 2 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 2 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    M.Pharm Pharmaceutical Analysis graduates have excellent job opportunities in pharmaceutical manufacturing (QC departments), analytical R&D labs, contract testing organizations, CROs, regulatory affairs departments, government testing labs, and academic institutions. Every pharmaceutical company requires quality control services, ensuring consistent demand for analytical professionals. Job roles include QC Analyst, Method Development Scientist, Stability Testing Specialist, Regulatory Affairs Associate, and Analytical Research Scientist. Job availability is excellent with multiple openings across India and internationally.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q7 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q7: Is M.Pharm Pharmaceutical Analysis good for girls?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Yes, M.Pharm Pharmaceutical Analysis is excellent for women professionals. The specialization offers laboratory-based work with regular hours (typically 9-6, unlike production shifts), safe working environment, professional growth opportunities, and gender-equal salary structures. Many QC/QA departments have women leaders. The role doesn't require physical labor, focuses on precision and accuracy, and provides work-life balance. Several pharmaceutical companies have diversity initiatives actively hiring women in analytical roles. Career break re-entry is also feasible with refresher courses.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(3)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q7: Is M.Pharm Pharmaceutical Analysis good for girls?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 3 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 3 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Yes, M.Pharm Pharmaceutical Analysis is excellent for women professionals. The specialization offers laboratory-based work with regular hours (typically 9-6, unlike production shifts), safe working environment, professional growth opportunities, and gender-equal salary structures. Many QC/QA departments have women leaders. The role doesn't require physical labor, focuses on precision and accuracy, and provides work-life balance. Several pharmaceutical companies have diversity initiatives actively hiring women in analytical roles. Career break re-entry is also feasible with refresher courses.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q8 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q8: Can I work abroad after M.Pharm Pharmaceutical Analysis?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Yes, M.Pharm Pharmaceutical Analysis graduates have good international opportunities. Many work in quality control labs and analytical R&D in USA, Canada, UK, Europe, Singapore, and Middle East. Requirements vary by country: USA requires NAPLEX for pharmacy practice but QC positions may not; UK, Ireland, and Canada accept Indian M.Pharm for analytical roles; Middle East actively recruits Indian analytical chemists. Salaries abroad range from $45,000-80,000 annually (₹35-65 lakhs). Some pursue MS/Ph.D in Analytical Chemistry abroad for better opportunities.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(4)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q8: Can I work abroad after M.Pharm Pharmaceutical Analysis?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 4 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 4 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Yes, M.Pharm Pharmaceutical Analysis graduates have good international opportunities. Many work in quality control labs and analytical R&D in USA, Canada, UK, Europe, Singapore, and Middle East. Requirements vary by country: USA requires NAPLEX for pharmacy practice but QC positions may not; UK, Ireland, and Canada accept Indian M.Pharm for analytical roles; Middle East actively recruits Indian analytical chemists. Salaries abroad range from $45,000-80,000 annually (₹35-65 lakhs). Some pursue MS/Ph.D in Analytical Chemistry abroad for better opportunities.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q9 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q9: What is the difference between M.Pharm and M.Sc in Pharmaceutical Chemistry?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                M.Pharm in Pharmaceutical Analysis is a professional degree focusing on applied pharmaceutical analysis, quality control, and regulatory aspects with strong industry orientation. M.Sc in Pharmaceutical Chemistry is more research-oriented focusing on organic chemistry, medicinal chemistry, and drug synthesis. M.Pharm provides direct entry to pharmaceutical QC/QA roles, while M.Sc graduates often pursue research or academic careers. M.Pharm has better industry placement opportunities. M.Pharm requires B.Pharm degree, while M.Sc accepts B.Sc/B.Pharm. Both can pursue Ph.D.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(5)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q9: What is the difference between M.Pharm and M.Sc in Pharmaceutical Chemistry?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 5 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 5 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    M.Pharm in Pharmaceutical Analysis is a professional degree focusing on applied pharmaceutical analysis, quality control, and regulatory aspects with strong industry orientation. M.Sc in Pharmaceutical Chemistry is more research-oriented focusing on organic chemistry, medicinal chemistry, and drug synthesis. M.Pharm provides direct entry to pharmaceutical QC/QA roles, while M.Sc graduates often pursue research or academic careers. M.Pharm has better industry placement opportunities. M.Pharm requires B.Pharm degree, while M.Sc accepts B.Sc/B.Pharm. Both can pursue Ph.D.
+                  </p>
+                </div>
+              )}
             </div>
 
             {/* Q10 */}
-            <div className="bg-white border border-gray-200 rounded-lg p-6">
-              <h3 className="text-lg font-bold text-[#006837] mb-3">Q10: Is AICTE scholarship available for M.Pharm?</h3>
-              <p className="text-sm sm:text-base text-gray-700">
-                Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programs in AICTE-approved institutions. The scholarship is awarded through centralized counseling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counseling process for eligible candidates.
-              </p>
+            <div className="border border-gray-200 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(6)}
+                className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q10: Is AICTE scholarship available for M.Pharm?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 6 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+              {expandedFAQ === 6 && (
+                <div className="p-6 bg-green-50 border-t border-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-700">
+                    Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programs in AICTE-approved institutions. The scholarship is awarded through centralized counseling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counseling process for eligible candidates.
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -1421,7 +1588,7 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <Star className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Why Choose M.Pharm in Pharmaceutical Analysis?
             </h2>
           </div>
@@ -1430,48 +1597,48 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="space-y-6">
             {/* Point 1 */}
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">1. Consistent High Demand Across Industry</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">1. Consistent High Demand Across Industry</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 Every pharmaceutical company, regardless of size or specialty, requires quality control services. This universal need creates consistent demand for analytical professionals, ensuring excellent job security and multiple career options. From small generic manufacturers to large MNCs, QC departments are essential for regulatory compliance.
               </p>
             </div>
 
             {/* Point 2 */}
             <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">2. Standardized Career Progression</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">2. Standardized Career Progression</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 Pharmaceutical analysis offers clear career paths: QC Analyst → Senior Analyst → Method Development → QC Manager → Head of QC/QA → Quality Director. Salary progression is predictable and merit-based. Unlike research roles where success depends on project outcomes, analytical roles have defined responsibilities and advancement criteria.
               </p>
             </div>
 
             {/* Point 3 */}
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">3. Work-Life Balance</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">3. Work-Life Balance</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 QC laboratories typically operate in regular day shifts (9 AM - 6 PM) unlike production departments requiring rotational shifts. This provides excellent work-life balance, important for family life and personal development. Weekend work is rare, usually limited to stability sampling schedules.
               </p>
             </div>
 
             {/* Point 4 */}
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">4. Lower Stress, Higher Job Satisfaction</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">4. Lower Stress, Higher Job Satisfaction</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 Analytical work follows established protocols and standard operating procedures (SOPs), reducing work-related stress compared to formulation development or production. Tasks are well-defined, deadlines are reasonable, and success metrics are clear. The precision-oriented work appeals to detail-oriented professionals.
               </p>
             </div>
 
             {/* Point 5 */}
             <div className="bg-white border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">5. Technology-Driven Field</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">5. Technology-Driven Field</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 Pharmaceutical analysis is at the forefront of analytical technology adoption. Professionals work with cutting-edge instruments (LC-MS/MS, UPLC, advanced spectroscopy), keeping skills updated and marketable. Continuous technological evolution provides learning opportunities throughout career.
               </p>
             </div>
 
             {/* Point 6 */}
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
-              <h3 className="text-xl font-bold text-[#006837] mb-3">6. Regulatory Importance</h3>
-              <p className="text-sm sm:text-base text-gray-700">
+              <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">6. Regulatory Importance</h3>
+              <p className="text-xs sm:text-sm text-gray-700">
                 Quality control is critical for regulatory approval and product release. This importance translates to respect within organizations, good compensation, and job security. Analytical departments are never cost centers to be eliminated; they're essential for business operations.
               </p>
             </div>
@@ -1480,13 +1647,13 @@ export default function PharmaceuticalAnalysisPage() {
 
         {/* CTA Section */}
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-lg p-12 mb-12 text-center text-white">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
             Ready to Master Pharmaceutical Analysis?
           </h2>
-          <p className="text-lg sm:text-xl mb-8 text-gray-100">
+          <p className="text-xs sm:text-sm mb-8 text-gray-100">
             Join our M.Pharm program and become an expert in analytical techniques and quality assurance!
           </p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-lg hover:bg-[#FBFBEE] transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-xs sm:text-sm hover:bg-[#FBFBEE] transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
@@ -1499,26 +1666,26 @@ export default function PharmaceuticalAnalysisPage() {
         <div className="bg-white rounded-lg shadow-sm p-8 mb-12">
           <div className="flex items-center gap-3 mb-6">
             <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
               Accreditation & Recognition
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
 
           <ul className="space-y-4">
-            <li className="text-sm sm:text-base text-gray-700">
+            <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• Pharmacy Council of India (PCI):</span> All M.Pharm programs must be PCI approved with required faculty, infrastructure, and laboratory facilities
             </li>
-            <li className="text-sm sm:text-base text-gray-700">
+            <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• AICTE Approval:</span> Required for AICTE scholarship eligibility and quality assurance
             </li>
-            <li className="text-sm sm:text-base text-gray-700">
+            <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• University Affiliation:</span> Program must be affiliated with UGC-recognized university with authority to award M.Pharm degrees
             </li>
-            <li className="text-sm sm:text-base text-gray-700">
+            <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• NAAC/NBA Accreditation:</span> Quality certification enhances program credibility and placement opportunities
             </li>
-            <li className="text-sm sm:text-base text-gray-700">
+            <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• ISO 17025 Laboratory:</span> Some colleges have ISO 17025 accredited analytical laboratories for enhanced training
             </li>
           </ul>
