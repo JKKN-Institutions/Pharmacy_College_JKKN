@@ -92,7 +92,7 @@ export default function InstitutionalDistinctivenessPage() {
             {/* Awards and Links Section */}
             <div className="space-y-6 mt-6">
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   Awarded "BAND- PROMISING" by ARIIA.-2021
                 </h4>
                 <a
@@ -106,7 +106,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   ADR case report competition on 22 September 2022
                 </h4>
                 <a
@@ -120,7 +120,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   4 * star rating grade  IIC 2020-21
                 </h4>
                 <a
@@ -134,7 +134,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   FOUR STAR" rating  IIC 2018-19
                 </h4>
                 <a
@@ -148,7 +148,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   Five-star rating IIC 2019-2020
                 </h4>
                 <a
@@ -162,7 +162,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div>
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   Startup Mania 7.0 – Students Innovators Award – 2022)" with a cash prize of Rs.30000.
                 </h4>
                 <a
@@ -182,7 +182,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div className="mt-6">
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   20-22 SEP'2019
                 </h4>
                 <a
@@ -230,7 +230,7 @@ export default function InstitutionalDistinctivenessPage() {
               </div>
 
               <div className="mt-6">
-                <h4 className="text-lg font-bold text-gray-700 mb-2">
+                <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 mb-2">
                   STARTUP ENTERPRENEURSHIP SUMMIT AND IDEA CHALLENGE
                 </h4>
               </div>

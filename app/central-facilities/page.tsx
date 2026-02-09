@@ -36,7 +36,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmaceutical Analysis */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold text-black mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4">
               Department of Pharmaceutical Analysis
             </h2>
             <ol className="space-y-2 ml-6">
@@ -55,7 +55,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmaceutics */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold text-black mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4">
               Department of Pharmaceutics
             </h2>
             <ol className="space-y-2 ml-6">
@@ -82,7 +82,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmacology */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold text-black mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4">
               Department of Pharmacology
             </h2>
             <ol className="space-y-2 ml-6">
@@ -101,7 +101,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of pharmaceutical chemistry */}
           <div className="mb-4 sm:mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold text-black mb-4">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black mb-4">
             Department of Pharmaceutical Chemistry
             </h2>
             <ol className="space-y-2 ml-6">

@@ -35,7 +35,7 @@ export default function OrdinancesPage() {
           <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
             {/* Objectives Section */}
             <div>
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Objectives:
               </h2>
               <ol className="list-decimal ml-6 lg:ml-8 space-y-3">
@@ -48,7 +48,7 @@ export default function OrdinancesPage() {
 
             {/* Conduct of Continuous Assessment (CA) */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Conduct of Continuous Assessment (CA):
               </h2>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -63,7 +63,7 @@ export default function OrdinancesPage() {
 
             {/* Conduct of Internal assessment (IA) */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Conduct of Internal assessment (IA)
               </h2>
               <p className="mb-4">
@@ -91,7 +91,7 @@ export default function OrdinancesPage() {
 
             {/* Conduct of University Theory Examination */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Conduct of University Theory Examination:
               </h2>
               <p className="mb-4">
@@ -107,7 +107,7 @@ export default function OrdinancesPage() {
 
             {/* Conduct of University Practical Examination */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Conduct of University Practical Examination:
               </h2>
               <p className="mb-4">
@@ -126,7 +126,7 @@ export default function OrdinancesPage() {
 
             {/* Learning Outcome Measurement */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Learning Outcome Measurement:
               </h2>
               <p className="mb-4">
@@ -168,7 +168,7 @@ export default function OrdinancesPage() {
 
             {/* Details of Weightage */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Details of Weightage for Internal and External Exam Components:
               </h2>
               <p className="mb-4">
@@ -187,7 +187,7 @@ export default function OrdinancesPage() {
 
             {/* General Duties of the Convener */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 General Duties of the Convener:
               </h2>
               <p className="mb-4">
@@ -212,7 +212,7 @@ export default function OrdinancesPage() {
 
             {/* Duties for the Members */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Duties for the Members:
               </h2>
               <p className="mb-4">
@@ -225,7 +225,7 @@ export default function OrdinancesPage() {
 
             {/* Collection of Internal Marks */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Collection of Internal Marks:
               </h2>
               <p className="mb-4">
@@ -235,7 +235,7 @@ export default function OrdinancesPage() {
 
             {/* Identification of Weak Students */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Identification of Weak Students:
               </h2>
               <p className="mb-4">
@@ -245,7 +245,7 @@ export default function OrdinancesPage() {
 
             {/* Documentation of Improvement */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Documentation of Improvement in Sessional Exam Marks:
               </h2>
               <p className="mb-4">
@@ -255,7 +255,7 @@ export default function OrdinancesPage() {
 
             {/* Dispatching of Parent-Guardian Correspondence */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Dispatching of Parent-Guardian Correspondence:
               </h2>
               <p className="mb-4">
@@ -265,7 +265,7 @@ export default function OrdinancesPage() {
 
             {/* Verification of Applications */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Verification of Applications for University Exams:
               </h2>
               <p className="mb-4">
@@ -275,7 +275,7 @@ export default function OrdinancesPage() {
 
             {/* Ensuring Completion */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Ensuring Completion of Overall Sessional Marks:
               </h2>
               <p className="mb-4">
@@ -285,7 +285,7 @@ export default function OrdinancesPage() {
 
             {/* Online Entry */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Online Entry of Internal Assessment on University Website:
               </h2>
               <p className="mb-4">
@@ -295,7 +295,7 @@ export default function OrdinancesPage() {
 
             {/* Issuing of Hall Tickets */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Issuing of Hall Tickets:
               </h2>
               <p className="mb-4">
@@ -305,7 +305,7 @@ export default function OrdinancesPage() {
 
             {/* Arrangements for Practical Examiners */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Arrangements for Practical Examiners:
               </h2>
               <p className="mb-4">
@@ -333,7 +333,7 @@ export default function OrdinancesPage() {
 
             {/* Ensuring Transparency */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Ensuring Transparency in the Evaluation Process:
               </h2>
               <p className="mb-4">
@@ -360,7 +360,7 @@ export default function OrdinancesPage() {
 
             {/* Retention and Disposal */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Retention and Disposal of Exam Papers and Records:
               </h2>
               <p className="mb-4">
@@ -370,7 +370,7 @@ export default function OrdinancesPage() {
 
             {/* Disposal of Exam Papers */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Disposal of Exam Papers and Records:
               </h2>
               <p className="mb-4">
@@ -380,7 +380,7 @@ export default function OrdinancesPage() {
 
             {/* Redressal of Exam-Related Grievances */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
                 Redressal of Exam-Related Grievances:
               </h2>
               <p className="mb-4">

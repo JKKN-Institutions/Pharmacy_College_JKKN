@@ -15,7 +15,7 @@ export default function BestPracticePage() {
         {/* Content */}
         <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* Header */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-700 uppercase">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-700 uppercase">
             BEST PRACTICE AT J.K.K. NATTRAJA COLLEGE OF PHARMACY
           </h2>
 

@@ -16,7 +16,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Overview Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Overview</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Overview</h2>
             <p className="text-justify">
               JKKN College of Pharmacy is committed to ensuring a transparent, fair, and effective mechanism for addressing student grievances related to academic, administrative, or other institutional matters. In accordance with the UGC (Redressal of Grievances of Students) Regulations, 2023, the institution has established a Student Grievance Redressal Committee (SGRC) at the institutional level and an Ombudsperson at the university level to resolve student concerns efficiently.
             </p>
@@ -24,7 +24,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Functions of the Grievance Redressal Committee */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Functions of the Grievance Redressal Committee</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Functions of the Grievance Redressal Committee</h2>
             <div className="space-y-3">
               <div className="flex items-start">
                 <span className="text-[#0F6B3E] font-bold mr-2">✓</span>
@@ -51,7 +51,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Procedure for Lodging a Grievance */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Procedure for Lodging a Grievance</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Procedure for Lodging a Grievance</h2>
             <div className="space-y-4">
               <div className="flex items-start">
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded bg-blue-500 text-white font-bold text-sm mr-3 flex-shrink-0">1</span>
@@ -105,7 +105,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Composition of the SGRC */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Composition of the SGRC (As per UGC Regulations 2023)</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Composition of the SGRC (As per UGC Regulations 2023)</h2>
             <div className="space-y-3">
               <div className="flex items-start">
                 <span className="text-[#0F6B3E] font-bold mr-2">✓</span>
@@ -128,7 +128,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Ombudsperson & Appeals */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Ombudsperson & Appeals</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Ombudsperson & Appeals</h2>
             <ul className="space-y-2 ml-6">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -147,7 +147,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Confidentiality & Anti-Retaliation Policy */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Confidentiality & Anti-Retaliation Policy</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Confidentiality & Anti-Retaliation Policy</h2>
             <div className="space-y-3">
               <div className="flex items-start">
                 <span className="text-[#0F6B3E] font-bold mr-2">✓</span>
@@ -166,7 +166,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
 
           {/* Ensuring Compliance */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Ensuring Compliance</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Ensuring Compliance</h2>
             <div className="space-y-3">
               <div className="flex items-start">
                 <span className="text-[#0F6B3E] font-bold mr-2">✓</span>

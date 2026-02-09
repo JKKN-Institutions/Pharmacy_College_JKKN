@@ -36,7 +36,7 @@ export default function CompetitiveExaminationPage() {
         <div className="space-y-6 text-sm sm:text-base text-gray-900 leading-relaxed">
           {/* Introduction */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
               Introducing CEGC: Your Path to Success
             </h2>
             <p className="mb-4">
@@ -46,7 +46,7 @@ export default function CompetitiveExaminationPage() {
 
           {/* Objectives */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3">OBJECTIVES:</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3">OBJECTIVES:</h3>
             <p className="mb-4">
               CEGC provides expert advice, resources, and mentorship for competitive exam success and informed career/higher education choices.
             </p>
@@ -54,7 +54,7 @@ export default function CompetitiveExaminationPage() {
 
           {/* Functions */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3">FUNCTIONS:</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3">FUNCTIONS:</h3>
             <p className="mb-3">
               Exam Insights: Get strategies and study materials for various competitive exams such as TOFL, NAPLEX, IELTS, GRE, PEBC, GPAT, GMAT, CAT, CLAT, MRB/DI, JAM and TNPSC/UPSC
             </p>
@@ -74,7 +74,7 @@ export default function CompetitiveExaminationPage() {
 
           {/* Committee Members */}
           <div>
-            <h3 className="text-lg sm:text-xl font-bold mb-3">COMMITTEE MEMBERS:</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-3">COMMITTEE MEMBERS:</h3>
             <p className="mb-2">Dr. R. ARUN, M.Pharm., Ph.D. (Coordinator)</p>
             <p className="mb-2">Dr. KARTHICK S, Pharm.D. (Co-Coordinator)</p>
             <p className="mb-2">Mrs. BABYKALA M, Pharm.D.</p>

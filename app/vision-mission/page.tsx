@@ -15,10 +15,10 @@ export default function VisionMissionPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
               {/* Vision Text */}
               <div>
-                <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
                   Vision
                 </h1>
-                <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
+                <p className="text-gray-700 text-lg md:text-xl lg:text-2xl leading-relaxed">
                   To be a Leading Global Innovative Solutions provider for the ever changing needs of the society.
                 </p>
               </div>
@@ -52,10 +52,10 @@ export default function VisionMissionPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
               {/* Mission Text */}
               <div>
-                <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
                   Mission
                 </h2>
-                <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed">
+                <p className="text-gray-700 text-lg md:text-xl lg:text-2xl leading-relaxed">
                   Create an innovative learning environment in pharmaceutical sciences that promotes bio convergence and cutting-edge research, Empower learners to become leaders in developing and applying novel drugs and healthcare solutions
                 </p>
               </div>

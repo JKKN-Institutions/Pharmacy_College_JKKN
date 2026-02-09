@@ -17,7 +17,7 @@ export default function AntiRaggingCommitteePage() {
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Introduction */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Introduction</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Introduction</h2>
             <p className="text-justify">
               The Anti-Ragging Committee at JKKN College of Pharmacy (JKKNCP) is established in compliance with the UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 and the directives of the Supreme Court of India. The committee ensures that students experience a safe, harassment-free, and inclusive learning environment.
             </p>
@@ -25,7 +25,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Objective */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Objective</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Objective</h2>
             <p className="text-justify mb-4">
               The primary objective of the Anti-Ragging Committee is to:
             </p>
@@ -53,7 +53,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Scope */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Scope</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Scope</h2>
             <p className="text-justify mb-4">
               The Anti-Ragging Committee's jurisdiction extends to:
             </p>
@@ -87,7 +87,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Composition of the Anti-Ragging Committee */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Composition of the Anti-Ragging Committee</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Composition of the Anti-Ragging Committee</h2>
             <p className="text-justify mb-4">
               As per UGC Regulations, 2009, the committee consists of:
             </p>
@@ -106,11 +106,11 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Responsibilities of the Anti-Ragging Committee */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4 sm:mb-6">Responsibilities of the Anti-Ragging Committee</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Responsibilities of the Anti-Ragging Committee</h2>
 
             {/* Prevention & Awareness */}
             <div className="mb-6">
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Prevention & Awareness</h3>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Prevention & Awareness</h3>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -135,7 +135,7 @@ export default function AntiRaggingCommitteePage() {
 
             {/* Policy Formulation & Compliance */}
             <div className="mb-6">
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Policy Formulation & Compliance</h3>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Policy Formulation & Compliance</h3>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -154,7 +154,7 @@ export default function AntiRaggingCommitteePage() {
 
             {/* Complaint Handling & Investigation */}
             <div className="mb-6">
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Complaint Handling & Investigation</h3>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Complaint Handling & Investigation</h3>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -179,7 +179,7 @@ export default function AntiRaggingCommitteePage() {
 
             {/* Disciplinary Action & Legal Compliance */}
             <div className="mb-6">
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Disciplinary Action & Legal Compliance</h3>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Disciplinary Action & Legal Compliance</h3>
               <p className="text-justify mb-3">✓ Take strict action against perpetrators, including:</p>
               <ul className="space-y-3 ml-12">
                 <li className="flex items-start">
@@ -200,7 +200,7 @@ export default function AntiRaggingCommitteePage() {
 
             {/* Support & Rehabilitation */}
             <div className="mb-6">
-              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Support & Rehabilitation</h3>
+              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Support & Rehabilitation</h3>
               <p className="text-justify mb-1">✓Provide counselling and support to victims of ragging.</p>
               <p className="text-justify">✓ Conduct behavioural reformation programs for offenders.</p>
             </div>
@@ -208,9 +208,9 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Redressal Mechanism for Ragging Complaints */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4 sm:mb-6">Redressal Mechanism for Ragging Complaints</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Redressal Mechanism for Ragging Complaints</h2>
 
-            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-4">Step-by-Step Procedure</h3>
+            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-4">Step-by-Step Procedure</h3>
 
             <div className="space-y-4 ml-6">
               <div>
@@ -283,7 +283,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Anti-Ragging Preventive Measures */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Anti-Ragging Preventive Measures</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Preventive Measures</h2>
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -314,7 +314,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Punishment & Consequences for Ragging */}
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Punishment & Consequences for Ragging</h2>
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Punishment & Consequences for Ragging</h2>
             <p className="text-justify mb-4">According to UGC Regulations, 2009, ragging may result in:</p>
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
@@ -349,7 +349,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Mechanism for Anti-ragging in JKKNCP */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
             <div className="flex justify-center mb-4 sm:mb-6 md:mb-8">
               <Image
                 src="/images/Mechanism-for-Anti-ragging-in-JKKNCP.png"
@@ -363,10 +363,10 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Composition */}
           <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Composition</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">Composition</h2>
 
             {/* Anti-Ragging Committee Table */}
-            <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Anti-Ragging Committee</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Committee</h3>
             <div className="overflow-x-auto mb-4 sm:mb-6 md:mb-8">
               <table className="w-full border-collapse border border-gray-400">
                 <thead>
@@ -449,7 +449,7 @@ export default function AntiRaggingCommitteePage() {
             </div>
 
             {/* Anti-Ragging Squad Table */}
-            <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">Anti-Ragging Squad</h3>
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Squad</h3>
             <div className="overflow-x-auto mb-4 sm:mb-6 md:mb-8">
               <table className="w-full border-collapse border border-gray-400">
                 <thead>

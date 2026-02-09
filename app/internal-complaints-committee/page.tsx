@@ -16,7 +16,7 @@ export default function InternalComplaintsCommitteePage() {
         {/* Content */}
         <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Section Title */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">INTERNAL COMPLAINTS COMMITTEE (ICC)</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">INTERNAL COMPLAINTS COMMITTEE (ICC)</h2>
 
           {/* Subtitle in italics */}
           <p className="italic text-gray-600 mb-4">
@@ -33,7 +33,7 @@ export default function InternalComplaintsCommitteePage() {
           </p>
 
           {/* KEY OBJECTIVES */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">KEY OBJECTIVES</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">KEY OBJECTIVES</h2>
           <ul className="space-y-3 ml-6 mb-6">
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -68,11 +68,11 @@ export default function InternalComplaintsCommitteePage() {
           </ul>
 
           {/* ROLES AND RESPONSIBILITIES OF ICC */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">ROLES AND RESPONSIBILITIES OF ICC</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">ROLES AND RESPONSIBILITIES OF ICC</h2>
 
           {/* Prevention & Awareness */}
           <div className="mb-4 sm:mb-6">
-            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Prevention & Awareness:</h3>
+            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Prevention & Awareness:</h3>
             <ul className="space-y-3 ml-12">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -91,7 +91,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Complaint Redressal & Investigation */}
           <div className="mb-4 sm:mb-6">
-            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Complaint Redressal & Investigation:</h3>
+            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Complaint Redressal & Investigation:</h3>
             <ul className="space-y-3 ml-12">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -116,7 +116,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Support & Confidentiality */}
           <div className="mb-4 sm:mb-6">
-            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Support & Confidentiality:</h3>
+            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Support & Confidentiality:</h3>
             <ul className="space-y-3 ml-12">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -141,7 +141,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Disciplinary Actions & Compliance */}
           <div className="mb-4 sm:mb-6">
-            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-3">Disciplinary Actions & Compliance:</h3>
+            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Disciplinary Actions & Compliance:</h3>
             <ul className="space-y-3 ml-12">
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
@@ -159,13 +159,13 @@ export default function InternalComplaintsCommitteePage() {
           </div>
 
           {/* ICC REDRESSAL MECHANISM */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">ICC REDRESSAL MECHANISM</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">ICC REDRESSAL MECHANISM</h2>
           <p className="text-justify mb-6">
             The ICC follows a structured and time-bound redressal process for handling complaints of sexual harassment:
           </p>
 
           {/* Complaint Handling Procedure */}
-          <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-4">Complaint Handling Procedure</h3>
+          <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-4">Complaint Handling Procedure</h3>
 
           <div className="space-y-4 mb-6">
             <p className="text-justify">
@@ -271,7 +271,7 @@ export default function InternalComplaintsCommitteePage() {
           </p>
 
           {/* CONSEQUENCES OF NON-COMPLIANCE */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">CONSEQUENCES OF NON-COMPLIANCE</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">CONSEQUENCES OF NON-COMPLIANCE</h2>
           <p className="text-justify mb-4">
             Failure to comply with ICC regulations can lead to:
           </p>
@@ -309,7 +309,7 @@ export default function InternalComplaintsCommitteePage() {
           </div>
 
           {/* ICC'S REDRESSAL MECHANISM */}
-          <h2 className="text-lg sm:text-xl font-bold text-gray-800 mb-4">ICC'S REDRESSAL MECHANISM</h2>
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">ICC'S REDRESSAL MECHANISM</h2>
           <p className="text-justify mb-6">
             The ICC's redressal mechanism aims to provide a fair, transparent, and supportive process for addressing complaints of sexual harassment and creating a safe environment for women and girl students.
           </p>

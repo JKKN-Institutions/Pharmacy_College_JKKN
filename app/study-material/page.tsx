@@ -42,7 +42,7 @@ export default function StudyMaterialPage() {
                 className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6"
               >
                 {/* Material Name */}
-                <h2 className="text-lg sm:text-xl font-bold text-black">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black">
                   {material}
                 </h2>
 

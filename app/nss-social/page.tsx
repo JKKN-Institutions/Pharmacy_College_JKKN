@@ -42,7 +42,7 @@ export default function NSSPage() {
           </ul>
 
           {/* Main Objectives Heading */}
-          <h3 className="text-lg font-bold text-gray-800 mt-8">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mt-8">
             The main objectives of National Service Scheme (NSS) are
           </h3>
 
@@ -65,7 +65,7 @@ export default function NSSPage() {
           </p>
 
           {/* Adoption of Villages */}
-          <h3 className="text-lg font-bold text-gray-800 mt-8">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mt-8">
             Adoption of Villages
           </h3>
 
@@ -74,7 +74,7 @@ export default function NSSPage() {
           </p>
 
           {/* Contacting Village/Area Leaders */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Contacting Village/Area Leaders
           </h4>
 
@@ -83,7 +83,7 @@ export default function NSSPage() {
           </p>
 
           {/* Survey of the Village/Area */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Survey of the Village/Area
           </h4>
 
@@ -92,7 +92,7 @@ export default function NSSPage() {
           </p>
 
           {/* Identification of Problem(s) */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Identification of Problem(s)
           </h4>
 
@@ -109,7 +109,7 @@ export default function NSSPage() {
           </p>
 
           {/* Completion of Projects */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Completion of Projects
           </h4>
 
@@ -118,7 +118,7 @@ export default function NSSPage() {
           </p>
 
           {/* Evaluation of Project */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Evaluation of Project
           </h4>
 
@@ -127,12 +127,12 @@ export default function NSSPage() {
           </p>
 
           {/* Adoption of Slums */}
-          <h3 className="text-lg font-bold text-gray-800 mt-8">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mt-8">
             Adoption of Slums
           </h3>
 
           {/* Survey of the Slum */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Survey of the Slum
           </h4>
 
@@ -145,7 +145,7 @@ export default function NSSPage() {
           </p>
 
           {/* Services in Slums */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Services in Slums
           </h4>
 
@@ -154,7 +154,7 @@ export default function NSSPage() {
           </p>
 
           {/* Coordination with Voluntary Organizations */}
-          <h4 className="text-base font-bold text-gray-800 mt-6">
+          <h4 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mt-6">
             Coordination with Voluntary Organizations
           </h4>
 
@@ -163,7 +163,7 @@ export default function NSSPage() {
           </p>
 
           {/* List of activities Special Camping */}
-          <h3 className="text-lg font-bold text-gray-800 mt-8">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mt-8">
             List of activities Special Camping
           </h3>
 

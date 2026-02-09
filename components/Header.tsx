@@ -64,7 +64,7 @@ export default function Header() {
     >
       {item.submenu ? (
         <button
-          className="text-black hover:text-primary font-semibold text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary focus:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
           <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3 fill-current" viewBox="0 0 12 12">
@@ -74,7 +74,7 @@ export default function Header() {
       ) : (
         <Link
           href={item.href}
-          className="text-black hover:text-primary font-semibold text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary focus:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
         </Link>
@@ -82,7 +82,7 @@ export default function Header() {
 
       {/* First Level Submenu */}
       {item.submenu && activeSubmenu === item.label && (
-        <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) ? 'min-w-[520px]' : 'min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'PLACEMENT'].includes(item.label) ? 'right-0' : 'left-0'}`}>
+        <div className={`absolute top-full mt-0 bg-white shadow-lg py-2 ${['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) ? 'min-w-[240px] md:min-w-[360px] lg:min-w-[520px]' : 'min-w-[200px] md:min-w-[240px]'} border border-gray-200 z-50 ${['OTHERS', 'PLACEMENT'].includes(item.label) ? 'right-0' : 'left-0'}`}>
           <div className={`${['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) ? 'grid grid-cols-2 gap-0 relative' : ''}`}>
             {/* Center divider line for 2-column layouts */}
             {['ABOUT', 'COMMITTEE', 'FACILITIES', 'OTHERS'].includes(item.label) && (
@@ -98,7 +98,7 @@ export default function Header() {
               >
                 {subitem.submenu ? (
                   <button
-                    className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between text-left"
+                    className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between text-left"
                   >
                     <span>{subitem.label}</span>
                     <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) && subitem.label !== 'Social Work Activities' ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
@@ -108,7 +108,7 @@ export default function Header() {
                 ) : (
                   <Link
                     href={subitem.href}
-                    className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between"
+                    className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between"
                   >
                     <span>{subitem.label}</span>
                   </Link>
@@ -126,7 +126,7 @@ export default function Header() {
                       >
                         {nestedItem.submenu ? (
                           <button
-                            className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors flex items-center justify-between text-left"
+                            className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between text-left"
                           >
                             <span>{nestedItem.label}</span>
                             <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
@@ -136,7 +136,7 @@ export default function Header() {
                         ) : (
                           <Link
                             href={nestedItem.href}
-                            className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors"
+                            className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors"
                           >
                             {nestedItem.label}
                           </Link>
@@ -149,7 +149,7 @@ export default function Header() {
                               <Link
                                 key={thirdLevelItem.label}
                                 href={thirdLevelItem.href}
-                                className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white transition-colors"
+                                className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors"
                               >
                                 {thirdLevelItem.label}
                               </Link>
@@ -204,7 +204,7 @@ export default function Header() {
               <div className="flex items-center flex-shrink-0">
                 <a
                   href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 transition-opacity min-h-[40px] flex items-center justify-center text-sm md:text-base whitespace-nowrap"
+                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
                 >
                   Apply Now
                 </a>
@@ -234,7 +234,7 @@ export default function Header() {
             {/* Apply Now Button */}
             <a
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 transition-opacity min-h-[32px] sm:min-h-[40px] flex items-center justify-center touch-manipulation text-xs sm:text-sm md:text-base"
+              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
             >
               Apply Now
             </a>
@@ -242,7 +242,7 @@ export default function Header() {
             {/* Hamburger Menu Button - Hidden when bottom navbar is active */}
             {(!hasHydrated || !isMobile) && (
               <button
-                className="flex flex-col justify-center items-center w-10 h-10 border-none cursor-pointer bg-transparent z-[70]"
+                className="flex flex-col justify-center items-center min-w-[48px] min-h-[48px] w-12 h-12 border-none cursor-pointer bg-transparent z-[70] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 aria-label="Toggle menu"
                 aria-expanded={isMenuOpen}
@@ -257,7 +257,7 @@ export default function Header() {
 
         {/* Mobile Navigation Overlay */}
         {isMenuOpen && (
-          <div className="fixed inset-0 bg-white z-[60] overflow-y-auto pt-16 xs:pt-18 sm:pt-20 pb-4 animate-fade-in">
+          <div className="fixed inset-0 bg-white z-[60] overflow-y-auto max-h-screen pt-16 xs:pt-18 sm:pt-20 pb-4 animate-fade-in">
             <div className="p-3 xs:p-4 sm:p-6 max-w-lg mx-auto">
               {navigationMenu.map((item) => (
                 <div key={item.label} className="mb-1.5 sm:mb-2">
@@ -265,7 +265,7 @@ export default function Header() {
                     {item.submenu ? (
                       <button
                         onClick={() => toggleMobileMenu(item.label)}
-                        className="flex-1 py-3 px-3 xs:px-4 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg text-left flex items-center justify-between min-h-[44px] touch-manipulation transition-colors text-sm sm:text-base md:text-lg"
+                        className="flex-1 py-3 px-3 xs:px-4 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none font-semibold rounded-lg text-left flex items-center justify-between min-h-[44px] touch-manipulation transition-colors text-sm xs:text-base"
                       >
                         <span>{item.label}</span>
                         <svg
@@ -278,7 +278,7 @@ export default function Header() {
                     ) : (
                       <Link
                         href={item.href}
-                        className={`flex-1 py-3 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary font-semibold rounded-lg flex items-center min-h-[44px] touch-manipulation transition-colors text-sm sm:text-base md:text-lg ${item.label === 'HOME' ? 'px-6 xs:px-8' : 'px-3 xs:px-4'}`}
+                        className={`flex-1 py-3 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none font-semibold rounded-lg flex items-center min-h-[44px] touch-manipulation transition-colors text-sm xs:text-base ${item.label === 'HOME' ? 'px-6 xs:px-8' : 'px-3 xs:px-4'}`}
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.label}
@@ -293,7 +293,7 @@ export default function Header() {
                             {subitem.submenu ? (
                               <button
                                 onClick={() => toggleMobileMenu(subitem.label)}
-                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs sm:text-sm md:text-base text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
+                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs xs:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
                               >
                                 <span>{subitem.label}</span>
                                 <svg
@@ -306,7 +306,7 @@ export default function Header() {
                             ) : (
                               <Link
                                 href={subitem.href}
-                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs sm:text-sm md:text-base text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                className="flex-1 py-2.5 px-3 xs:px-4 text-xs xs:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                 onClick={() => setIsMenuOpen(false)}
                               >
                                 {subitem.label}
@@ -321,7 +321,7 @@ export default function Header() {
                                     {nestedItem.submenu ? (
                                       <button
                                         onClick={() => toggleMobileMenu(nestedItem.label)}
-                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
+                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none rounded-lg text-left flex items-center justify-between min-h-[40px] touch-manipulation transition-colors"
                                       >
                                         <span>{nestedItem.label}</span>
                                         <svg
@@ -334,7 +334,7 @@ export default function Header() {
                                     ) : (
                                       <Link
                                         href={nestedItem.href}
-                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                        className="flex-1 py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                         onClick={() => setIsMenuOpen(false)}
                                       >
                                         {nestedItem.label}
@@ -347,7 +347,7 @@ export default function Header() {
                                         <Link
                                           key={thirdLevelItem.label}
                                           href={thirdLevelItem.href}
-                                          className="block py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
+                                          className="block py-2 px-3 xs:px-4 text-xs sm:text-sm text-gray-600 hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none rounded-lg min-h-[40px] flex items-center touch-manipulation transition-colors"
                                           onClick={() => setIsMenuOpen(false)}
                                         >
                                           {thirdLevelItem.label}
@@ -369,7 +369,7 @@ export default function Header() {
               {/* Mobile Apply Now Button */}
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[40px] touch-manipulation hover:opacity-90 transition-opacity text-sm md:text-base"
+                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity text-sm md:text-base"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Apply Now

@@ -12,7 +12,7 @@ export default function PharmaceuticsPage() {
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <Pill className="w-12 h-12 mx-auto mb-4" />
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmaceutics 2026</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">M.Pharm in Pharmaceutics 2026</h1>
           <p className="text-lg sm:text-xl">Master Drug Formulation, NDDS & Pharmaceutical Product Development</p>
         </div>
       </div>
@@ -20,7 +20,7 @@ export default function PharmaceuticsPage() {
       {/* What is M.Pharm in Pharmaceutics Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] shadow-sm">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmaceutics?</h2>
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-6">What is M.Pharm in Pharmaceutics?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
@@ -53,15 +53,15 @@ export default function PharmaceuticsPage() {
       {/* Core Competencies & Technologies Mastered */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Target className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Core Competencies & Technologies Mastered</h2>
+          <Target className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Core Competencies & Technologies Mastered</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Conventional Dosage Forms */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Conventional Dosage Forms</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Conventional Dosage Forms</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Tablet Formulation & Manufacturing</span>
@@ -87,8 +87,8 @@ export default function PharmaceuticsPage() {
 
           {/* Novel Drug Delivery Systems */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Novel Drug Delivery Systems</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Novel Drug Delivery Systems</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Nanoparticles & Nanocapsules</span>
@@ -114,8 +114,8 @@ export default function PharmaceuticsPage() {
 
           {/* Modified Release Systems */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Modified Release Systems</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Modified Release Systems</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Sustained Release Formulations</span>
@@ -141,8 +141,8 @@ export default function PharmaceuticsPage() {
 
           {/* Targeted Drug Delivery */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Targeted Drug Delivery</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Targeted Drug Delivery</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Site-Specific Drug Delivery</span>
@@ -168,8 +168,8 @@ export default function PharmaceuticsPage() {
 
           {/* Pharmaceutical Technology */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Pharmaceutical Technology</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Pharmaceutical Technology</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>Tablet Compression & Coating</span>
@@ -195,8 +195,8 @@ export default function PharmaceuticsPage() {
 
           {/* Biopharmaceutics & Pharmacokinetics */}
           <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Biopharmaceutics & Pharmacokinetics</h3>
-            <ul className="space-y-2 text-gray-700">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Biopharmaceutics & Pharmacokinetics</h3>
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
                 <span>ADME Studies (Absorption, Distribution, Metabolism, Excretion)</span>
@@ -225,13 +225,13 @@ export default function PharmaceuticsPage() {
       {/* Eligibility Criteria & Admission Requirements */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <ClipboardList className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Eligibility Criteria & Admission Requirements</h2>
+          <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
         <div className="bg-gradient-to-br from-[#D4F1F4] to-[#B8E6F0] rounded-xl p-8 mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Educational Qualification:</h3>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>B.Pharm degree from PCI-approved institution</span>
@@ -309,7 +309,7 @@ export default function PharmaceuticsPage() {
             <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">GPAT Score Benefits for Pharmaceutics Aspirants:</h3>
           </div>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Eligibility for top government colleges (NIPER, IITs, NITs)</span>
@@ -341,8 +341,8 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics - Detailed Course Structure */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <BookOpen className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">M.Pharm Pharmaceutics - Detailed Course Structure</h2>
+          <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Pharmaceutics - Detailed Course Structure</h2>
         </div>
 
         {/* Semester 1 */}
@@ -513,7 +513,7 @@ export default function PharmaceuticsPage() {
             <Microscope className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Typical Research Project Topics in Pharmaceutics:</h3>
           </div>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span>Formulation and evaluation of sustained release matrix tablets of antihypertensive drugs</span>
@@ -553,18 +553,18 @@ export default function PharmaceuticsPage() {
       {/* Career Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Briefcase className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Career Opportunities After M.Pharm Pharmaceutics</h2>
+          <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Career Opportunities After M.Pharm Pharmaceutics</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {/* Formulation Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Formulation Scientist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Formulation Scientist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-8 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Develop new pharmaceutical formulations</span>
@@ -590,11 +590,11 @@ export default function PharmaceuticsPage() {
 
           {/* Product Development Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Product Development Scientist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Product Development Scientist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹6-10 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Lead new product development projects</span>
@@ -620,11 +620,11 @@ export default function PharmaceuticsPage() {
 
           {/* R&D Manager / Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">R&D Manager / Scientist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">R&D Manager / Scientist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹8-12 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Manage pharmaceutical R&D projects</span>
@@ -650,11 +650,11 @@ export default function PharmaceuticsPage() {
 
           {/* Production Manager */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Production Manager</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Production Manager</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹6-10 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Oversee pharmaceutical manufacturing operations</span>
@@ -680,11 +680,11 @@ export default function PharmaceuticsPage() {
 
           {/* Regulatory Affairs Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Regulatory Affairs Specialist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Regulatory Affairs Specialist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹6-11 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Prepare product registration dossiers</span>
@@ -710,11 +710,11 @@ export default function PharmaceuticsPage() {
 
           {/* Technical Services Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Technical Services Specialist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Technical Services Specialist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹5-9 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Provide technical support for formulations</span>
@@ -740,11 +740,11 @@ export default function PharmaceuticsPage() {
 
           {/* Quality by Design (QbD) Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Quality by Design (QbD) Specialist</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Quality by Design (QbD) Specialist</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹7-11 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Implement QbD principles in formulation</span>
@@ -770,11 +770,11 @@ export default function PharmaceuticsPage() {
 
           {/* Academic Faculty / Researcher */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-2xl font-bold text-[#006837] mb-4">Academic Faculty / Researcher</h3>
+            <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4">Academic Faculty / Researcher</h3>
             <div className="bg-[#28a745] text-white text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
               ₹4-8 Lakhs/Year
             </div>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-sm sm:text-base text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2 mt-1">✓</span>
                 <span>Teach pharmaceutics to pharmacy students</span>
@@ -805,7 +805,7 @@ export default function PharmaceuticsPage() {
             <IndianRupee className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Salary Progression for Pharmaceutics Specialists</h3>
           </div>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">Entry Level (0-2 Years):</span> ₹4-7 lakhs per annum (Formulation Scientist, Jr. R&D Associate)</span>
@@ -833,8 +833,8 @@ export default function PharmaceuticsPage() {
       {/* Top Recruiters for M.Pharm Pharmaceutics Graduates */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Building2 className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmaceutics Graduates</h2>
+          <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmaceutics Graduates</h2>
         </div>
 
         {/* Leading Indian Pharmaceutical Companies - R&D Centers */}
@@ -891,8 +891,8 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics vs Other Specializations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Scale className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">M.Pharm Pharmaceutics vs Other Specializations</h2>
+          <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Pharmaceutics vs Other Specializations</h2>
         </div>
 
         <div className="overflow-x-auto mb-8">
@@ -1003,7 +1003,7 @@ export default function PharmaceuticsPage() {
             <Lightbulb className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Choosing Between Pharmaceutics and Pharmaceutical Analysis:</h3>
           </div>
-          <div className="space-y-3 text-gray-700">
+          <div className="space-y-3 text-sm sm:text-base text-gray-700">
             <p>
               <span className="font-bold text-[#006837]">Choose Pharmaceutics if you:</span> Love creativity and innovation, want to develop new products, enjoy problem-solving, prefer diverse career paths (R&D, production, regulatory), seek higher salary potential, and want patent filing opportunities.
             </p>
@@ -1020,8 +1020,8 @@ export default function PharmaceuticsPage() {
       {/* Higher Education & Research Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <GraduationCap className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Higher Education & Research Opportunities</h2>
+          <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Higher Education & Research Opportunities</h2>
         </div>
 
         <h3 className="text-2xl font-bold text-[#C471ED] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutics Specialization</h3>
@@ -1029,7 +1029,7 @@ export default function PharmaceuticsPage() {
         {/* Hot Research Areas */}
         <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h4 className="text-xl font-bold text-gray-800 mb-4">Hot Research Areas in Pharmaceutics:</h4>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">Pharmaceutical Nanotechnology:</span> Nanoparticles, nanocapsules, nanoemulsions, quantum dots for drug delivery</span>
@@ -1109,7 +1109,7 @@ export default function PharmaceuticsPage() {
         {/* International Higher Education */}
         <h3 className="text-2xl font-bold text-[#C471ED] mb-6">International Higher Education</h3>
         <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">MS in Pharmaceutical Sciences (USA):</span> Top universities like University of Michigan, Purdue, University of Wisconsin. Duration: 2 years. Assistantships: $20,000-30,000/year. Focus areas: drug delivery, pharmaceutics, formulation science.</span>
@@ -1164,8 +1164,8 @@ export default function PharmaceuticsPage() {
       {/* Admission Process & Timeline */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <FileText className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Admission Process & Timeline</h2>
+          <FileText className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Admission Process & Timeline</h2>
         </div>
 
         <div className="space-y-6">
@@ -1174,8 +1174,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">1</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">GPAT Registration (October-November 2025)</h3>
-                <p className="text-gray-700">Register on NTA GPAT official website (gpat.nta.nic.in). Upload photograph, signature, and B.Pharm certificate. Pay application fees online (₹1,400 for General, ₹700 for SC/ST/OBC). Download admit card 7-10 days before exam.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">GPAT Registration (October-November 2025)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Register on NTA GPAT official website (gpat.nta.nic.in). Upload photograph, signature, and B.Pharm certificate. Pay application fees online (₹1,400 for General, ₹700 for SC/ST/OBC). Download admit card 7-10 days before exam.</p>
               </div>
             </div>
           </div>
@@ -1185,8 +1185,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">2</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">GPAT Examination (January-February 2026)</h3>
-                <p className="text-gray-700">Appear for 3-hour computer-based test covering Pharmaceutics (30-35 questions), Medicinal Chemistry, Pharmacology, and Pharmacognosy. Focus preparation on Physical Pharmacy, Dosage Forms, Biopharmaceutics, and NDDS topics for Pharmaceutics specialization.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">GPAT Examination (January-February 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Appear for 3-hour computer-based test covering Pharmaceutics (30-35 questions), Medicinal Chemistry, Pharmacology, and Pharmacognosy. Focus preparation on Physical Pharmacy, Dosage Forms, Biopharmaceutics, and NDDS topics for Pharmaceutics specialization.</p>
               </div>
             </div>
           </div>
@@ -1196,8 +1196,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">GPAT Results & Score Card (March 2026)</h3>
-                <p className="text-gray-700">Check results on NTA website. Download GPAT scorecard with percentile and all-India rank. Score valid for 3 years. Higher percentile (80+) increases chances for top colleges and AICTE scholarship.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">GPAT Results & Score Card (March 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Check results on NTA website. Download GPAT scorecard with percentile and all-India rank. Score valid for 3 years. Higher percentile (80+) increases chances for top colleges and AICTE scholarship.</p>
               </div>
             </div>
           </div>
@@ -1207,8 +1207,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">College Selection & Counseling Registration (May-June 2026)</h3>
-                <p className="text-gray-700">Research M.Pharm Pharmaceutics programs at various colleges. Check infrastructure (formulation lab, pilot plant, NDDS facilities). Register for AICTE centralized counseling or state-level counseling. Submit college and specialization preferences.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">College Selection & Counseling Registration (May-June 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Research M.Pharm Pharmaceutics programs at various colleges. Check infrastructure (formulation lab, pilot plant, NDDS facilities). Register for AICTE centralized counseling or state-level counseling. Submit college and specialization preferences.</p>
               </div>
             </div>
           </div>
@@ -1218,8 +1218,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">5</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Seat Allotment & Document Verification (June-July 2026)</h3>
-                <p className="text-gray-700">Check seat allotment results online. Accept allocated seat within deadline. Report to college for document verification with original certificates (B.Pharm degree, mark sheets, GPAT scorecard, caste certificate if applicable). Pay seat acceptance fees.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Seat Allotment & Document Verification (June-July 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Check seat allotment results online. Accept allocated seat within deadline. Report to college for document verification with original certificates (B.Pharm degree, mark sheets, GPAT scorecard, caste certificate if applicable). Pay seat acceptance fees.</p>
               </div>
             </div>
           </div>
@@ -1229,8 +1229,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">6</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Fee Payment & Admission Confirmation (July-August 2026)</h3>
-                <p className="text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for AICTE scholarship if eligible. Collect student ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Fee Payment & Admission Confirmation (July-August 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for AICTE scholarship if eligible. Collect student ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
               </div>
             </div>
           </div>
@@ -1240,8 +1240,8 @@ export default function PharmaceuticsPage() {
             <div className="flex items-start gap-4">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">7</div>
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-[#006837] mb-2">Commencement of Classes (August 2026)</h3>
-                <p className="text-gray-700">Attend orientation program for M.Pharm students. Meet faculty advisors and potential research supervisors. Get familiar with formulation laboratory, instruments (tablet compression machine, coating pan, dissolution tester). Begin coursework and identify research interests.</p>
+                <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Commencement of Classes (August 2026)</h3>
+                <p className="text-sm sm:text-base text-gray-700">Attend orientation program for M.Pharm students. Meet faculty advisors and potential research supervisors. Get familiar with formulation laboratory, instruments (tablet compression machine, coating pan, dissolution tester). Begin coursework and identify research interests.</p>
               </div>
             </div>
           </div>
@@ -1253,7 +1253,7 @@ export default function PharmaceuticsPage() {
             <Target className="w-8 h-8" />
             <h3 className="text-2xl font-bold text-gray-800">Important Dates for M.Pharm Pharmaceutics Admission 2026:</h3>
           </div>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">GPAT Registration:</span> October-November 2025</span>
@@ -1285,8 +1285,8 @@ export default function PharmaceuticsPage() {
       {/* M.Pharm Pharmaceutics - Fee Structure & Financial Aid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <IndianRupee className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">M.Pharm Pharmaceutics - Fee Structure & Financial Aid</h2>
+          <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Pharmaceutics - Fee Structure & Financial Aid</h2>
         </div>
 
         <div className="overflow-x-auto mb-8">
@@ -1336,7 +1336,7 @@ export default function PharmaceuticsPage() {
         {/* Additional Expenses */}
         <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">Additional Expenses to Consider:</h3>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">GPAT Registration Fee:</span> ₹1,400 (General), ₹700 (SC/ST/OBC)</span>
@@ -1371,7 +1371,7 @@ export default function PharmaceuticsPage() {
             <CreditCard className="w-6 h-6" />
             <h3 className="text-2xl font-bold text-gray-800">Available Financial Aid Options:</h3>
           </div>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <span><span className="font-bold text-[#006837]">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in AICTE-approved colleges. Must maintain minimum CGPA requirements.</span>
@@ -1407,8 +1407,8 @@ export default function PharmaceuticsPage() {
       {/* Essential Laboratory Infrastructure for Pharmaceutics */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Microscope className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Essential Laboratory Infrastructure for Pharmaceutics</h2>
+          <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Essential Laboratory Infrastructure for Pharmaceutics</h2>
         </div>
 
         <div className="bg-gradient-to-br from-[#D4F1F4] to-[#B8E6F0] rounded-xl p-8 border-l-4 border-[#4E9FFF] mb-8">
@@ -1507,7 +1507,7 @@ export default function PharmaceuticsPage() {
           </ul>
 
           <h4 className="text-xl font-bold text-gray-800 mb-4">Advanced Instrumentation:</h4>
-          <ul className="space-y-2 text-gray-700">
+          <ul className="space-y-2 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="text-[#4E9FFF] mr-3 mt-1">•</span>
               <span>Scanning Electron Microscope (SEM) - for morphological studies</span>
@@ -1537,87 +1537,87 @@ export default function PharmaceuticsPage() {
       {/* Frequently Asked Questions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <HelpCircle className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Frequently Asked Questions</h2>
+          <HelpCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Frequently Asked Questions</h2>
         </div>
 
         <div className="space-y-6">
           {/* Q1 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q1: What is M.Pharm in Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q1: What is M.Pharm in Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               M.Pharm in Pharmaceutics is a 2-year postgraduate specialization focusing on drug formulation, product development, and pharmaceutical technology. Students learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialization is ideal for those interested in creating new pharmaceutical products.
             </p>
           </div>
 
           {/* Q2 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q2: What is NDDS in Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q2: What is NDDS in Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics students extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities.
             </p>
           </div>
 
           {/* Q3 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q3: What is the salary after M.Pharm Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q3: What is the salary after M.Pharm Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Entry-level M.Pharm Pharmaceutics graduates earn ₹4-7 lakhs per annum. Formulation Scientists earn ₹5-8 lakhs, Product Development Scientists earn ₹6-10 lakhs, R&D Managers earn ₹8-12 lakhs, and Production Managers earn ₹6-10 lakhs annually. With 5+ years experience, salaries reach ₹12-20 lakhs. Senior positions like Head of Formulation or Vice President R&D earn ₹25-50 lakhs per annum. Pharmaceutical R&D offers among the highest salaries in pharmacy. MNC pharmaceutical companies pay 40-50% more than domestic companies. Salary growth is excellent for high performers with innovation skills.
             </p>
           </div>
 
           {/* Q4 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q4: Which is better: M.Pharm Pharmaceutics or Pharmaceutical Analysis?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q4: Which is better: M.Pharm Pharmaceutics or Pharmaceutical Analysis?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Both are excellent specializations with different focuses. Pharmaceutics is ideal for creative, innovation-oriented individuals interested in developing new products and formulations. It offers higher salary potential in R&D roles (₹6-12 lakhs) but requires strong problem-solving skills. Pharmaceutical Analysis is perfect for detail-oriented professionals preferring standardized laboratory work in quality control. Analysis has more consistent job availability across all companies. Pharmaceutics offers more diverse roles (R&D, production, regulatory) while Analysis primarily focuses on QC/QA. Choose Pharmaceutics if you want product development and innovation; choose Analysis if you prefer quality testing and standardized work.
             </p>
           </div>
 
           {/* Q5 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q5: Can I do PhD after M.Pharm Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q5: Can I do PhD after M.Pharm Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Yes, M.Pharm Pharmaceutics graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, or university entrance tests. Research areas include novel drug delivery systems, nanotechnology, 3D printing of pharmaceuticals, personalized medicine, biopharmaceutics, and quality by design (QbD). Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior R&D positions, and pharmaceutical scientist roles. Many IITs, NITs, NIPER, and CSIR labs offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmaceutics Ph.D graduates are highly sought after for innovation-driven roles in pharmaceutical industry and academia.
             </p>
           </div>
 
           {/* Q6 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q6: What are job opportunities after M.Pharm Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q6: What are job opportunities after M.Pharm Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               M.Pharm Pharmaceutics graduates have diverse opportunities: Formulation Scientist (develop new drug products), Product Development Scientist (lead R&D projects), R&D Manager (manage research teams), Production Manager (oversee manufacturing), Regulatory Affairs Specialist (product registration), Technical Services (troubleshooting), QbD Specialist (optimize formulations), and Academic Faculty (teaching and research). Companies hiring include Sun Pharma, Dr. Reddy's, Cipla, Lupin, Biocon, GSK, Pfizer, Novartis, and leading CDMOs. Pharmaceutics offers the most diverse career paths among all M.Pharm specializations.
             </p>
           </div>
 
           {/* Q7 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q7: Is M.Pharm Pharmaceutics good for girls?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q7: Is M.Pharm Pharmaceutics good for girls?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Yes, M.Pharm Pharmaceutics is excellent for women professionals. The specialization offers laboratory-based R&D work with regular hours (typically 9-6), creative and intellectually stimulating environment, excellent salary packages (₹5-12 lakhs), strong career growth opportunities, and gender-equal professional culture. Many pharmaceutical companies have women leading formulation departments. The work doesn't require physical labor, focuses on innovation and problem-solving, and provides good work-life balance. Career breaks are manageable with skill updates. Several successful women scientists have built outstanding careers in pharmaceutics and pharmaceutical R&D.
             </p>
           </div>
 
           {/* Q8 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q8: Can I work in production after M.Pharm Pharmaceutics?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q8: Can I work in production after M.Pharm Pharmaceutics?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Yes, M.Pharm Pharmaceutics graduates are highly valued in pharmaceutical production and manufacturing. They can work as Production Managers, Manufacturing Specialists, Technical Services Managers, and Process Development Scientists. Pharmaceutics training in formulation, scale-up, and pharmaceutical technology directly applies to production. Salaries in production range from ₹6-10 lakhs for managers. However, most graduates prefer R&D roles for innovation opportunities. Production offers faster career growth to senior management (Plant Head, Site Head) with salaries reaching ₹30-50 lakhs. Choose production if you enjoy operational excellence and team management.
             </p>
           </div>
 
           {/* Q9 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q9: What is the difference between Pharmaceutics and Pharmaceutical Technology?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q9: What is the difference between Pharmaceutics and Pharmaceutical Technology?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialization with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The curriculum, career opportunities, and salaries are identical. When applying, check the syllabus rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognizes both names as equivalent specializations.
             </p>
           </div>
 
           {/* Q10 */}
           <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-200">
-            <h3 className="text-xl font-bold text-[#006837] mb-3">Q10: Can I switch from Analysis to Pharmaceutics or vice versa?</h3>
-            <p className="text-gray-700">
+            <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-3">Q10: Can I switch from Analysis to Pharmaceutics or vice versa?</h3>
+            <p className="text-sm sm:text-base text-gray-700">
               Switching between specializations after starting M.Pharm is generally not allowed by universities. You must complete the specialization you enrolled in. However, after completing M.Pharm in one specialization, you can pursue Ph.D or work in the other area with some skill gap training. For example, M.Pharm Pharmaceutics graduates can work in analytical R&D with HPLC training. Similarly, Analysis graduates can enter formulation R&D with additional pharmaceutical technology knowledge. Choose carefully during admission as changing specialization mid-course is not feasible. Consider your interests, strengths, and career goals before finalizing.
             </p>
           </div>
@@ -1627,15 +1627,15 @@ export default function PharmaceuticsPage() {
       {/* Why Choose M.Pharm in Pharmaceutics? */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Star className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Why Choose M.Pharm in Pharmaceutics?</h2>
+          <Star className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Why Choose M.Pharm in Pharmaceutics?</h2>
         </div>
 
         <div className="space-y-6">
           {/* Reason 1 */}
           <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">1. Innovation & Creativity at Core</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Pharmaceutics is where pharmaceutical innovation happens. You design new drug delivery systems, develop novel formulations, and solve real-world problems like improving bioavailability, reducing side effects, and enhancing patient compliance. Every project is different, every formulation is unique. This creative freedom is unmatched in other pharmacy specializations.
             </p>
           </div>
@@ -1643,7 +1643,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 2 */}
           <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">2. Diverse Career Opportunities</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Unlike other specializations that channel graduates into specific roles, Pharmaceutics opens doors to R&D, formulation development, production, technical services, regulatory affairs, quality by design, and academics. You're not limited to one department or one type of work. This diversity provides career flexibility and job security.
             </p>
           </div>
@@ -1651,7 +1651,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 3 */}
           <div className="bg-gradient-to-br from-[#D4F1F4] to-[#B8E6F0] rounded-xl p-8 border-l-4 border-[#4E9FFF]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">3. High Salary & Growth Potential</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Pharmaceutical R&D is among the highest-paying areas in pharmacy. Starting salaries of ₹5-8 lakhs quickly grow to ₹12-20 lakhs within 5-7 years for good performers. Senior R&D positions (Head of Formulation, VP R&D) command ₹35-60 lakhs annually. Patent filing and product development successes accelerate career growth significantly.
             </p>
           </div>
@@ -1659,7 +1659,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 4 */}
           <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">4. Intellectual Property & Patents</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Pharmaceutics professionals frequently file patents for novel formulations, delivery systems, and manufacturing processes. Being a patent inventor adds immense value to your resume, opens entrepreneurial opportunities, and can generate royalty income. This intellectual property creation is rare in other pharmacy specializations.
             </p>
           </div>
@@ -1667,7 +1667,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 5 */}
           <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">5. Research & Publication Opportunities</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Pharmaceutics offers abundant opportunities to publish research papers in high-impact journals. Novel drug delivery systems, nanotechnology, and formulation studies are hot research topics with strong publication potential. Publications enhance academic careers, Ph.D admissions, and industry credibility. International conferences welcome pharmaceutics research.
             </p>
           </div>
@@ -1675,7 +1675,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 6 */}
           <div className="bg-gradient-to-br from-[#D4F1F4] to-[#B8E6F0] rounded-xl p-8 border-l-4 border-[#4E9FFF]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">6. Directly Impact Patient Lives</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               Formulation scientists develop the actual medicines that patients take. Creating a sustained-release tablet that patients need to take only once daily instead of thrice, developing a transdermal patch that eliminates painful injections, or designing nanoparticles that target cancer cells specifically – these innovations directly improve patient outcomes and quality of life.
             </p>
           </div>
@@ -1683,7 +1683,7 @@ export default function PharmaceuticsPage() {
           {/* Reason 7 */}
           <div className="bg-gradient-to-br from-[#D4F4DD] to-[#B8E8CC] rounded-xl p-8 border-l-4 border-[#28a745]">
             <h3 className="text-2xl font-bold text-[#C471ED] mb-4">7. Future-Proof Career</h3>
-            <p className="text-gray-700">
+            <p className="text-sm sm:text-base text-gray-700">
               As pharmaceutical industry moves towards personalized medicine, 3D-printed drugs, nanotechnology, and smart drug delivery systems, pharmaceutics professionals will be at the forefront. The specialization is evolving with technology, ensuring long-term career relevance. Skills learned in pharmaceutics – problem-solving, innovation, project management – are transferable and future-proof.
             </p>
           </div>
@@ -1695,7 +1695,7 @@ export default function PharmaceuticsPage() {
         <div className="bg-gradient-to-r from-[#C471ED] via-[#FF69B4] to-[#7cb983] rounded-2xl p-12 text-center shadow-xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Ready to Innovate in Pharmaceutical Formulation?</h2>
           <p className="text-white text-lg mb-8">Join our M.Pharm Pharmaceutics program and become a formulation scientist driving pharmaceutical innovation!</p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-lg px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
@@ -1706,8 +1706,8 @@ export default function PharmaceuticsPage() {
       {/* Accreditation & Quality Standards */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <CheckCircle className="w-10 h-10" />
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#006837]">Accreditation & Quality Standards</h2>
+          <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">Accreditation & Quality Standards</h2>
         </div>
 
         <ul className="space-y-4 text-gray-700 mb-8">

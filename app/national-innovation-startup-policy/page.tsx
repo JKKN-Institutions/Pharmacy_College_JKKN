@@ -21,7 +21,7 @@ export default function NationalInnovationStartupPolicyPage() {
 
           {/* Policy Section 1 */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 py-4">
-            <h2 className="text-lg sm:text-xl font-bold text-gray-900 flex-1">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 flex-1">
               Innovation and Entrepreneurship Policy of JKKN College of Pharmacy Policy
             </h2>
             <a
@@ -34,7 +34,7 @@ export default function NationalInnovationStartupPolicyPage() {
 
           {/* Policy Section 2 */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 py-4">
-            <h2 className="text-lg sm:text-xl font-bold text-gray-900 flex-1">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 flex-1">
               Tamil Nadu Startup & Innovation Policy
             </h2>
             <a
@@ -47,7 +47,7 @@ export default function NationalInnovationStartupPolicyPage() {
 
           {/* Policy Section 3 */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 py-4">
-            <h2 className="text-lg sm:text-xl font-bold text-gray-900 flex-1">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 flex-1">
               National Innovation and Startup Policy
             </h2>
             <a
@@ -60,7 +60,7 @@ export default function NationalInnovationStartupPolicyPage() {
 
           {/* Policy Section 4 */}
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 py-4">
-            <h2 className="text-lg sm:text-xl font-bold text-gray-900 flex-1">
+            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 flex-1">
               Innovation and Entrepreneurship Policy of JKKN College of Pharmacy Policy
             </h2>
             <a
