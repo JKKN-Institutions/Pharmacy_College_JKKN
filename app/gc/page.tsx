@@ -50,16 +50,16 @@ export default function GCPage() {
               <div className="p-8 lg:p-10">
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Guidance and Counseling (GC)</h2>
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Guidance and Counselling (GC)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Guidance and Counseling (GC) strategic plan at JKKN College of Pharmacy is designed to provide comprehensive support services that enhance student well-being, academic success, and career development. Our approach integrates academic advising, personal counseling, and career guidance to ensure holistic student development.
+                      The Guidance and Counselling (GC) strategic plan at JKKN College of Pharmacy is designed to provide comprehensive support services that enhance student well-being, academic success, and career development. Our approach integrates academic advising, personal counselling, and career guidance to ensure holistic student development.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To create a supportive environment that empowers students to achieve their full potential through comprehensive guidance and counseling services, fostering academic excellence, personal growth, and career success.
+                      To create a supportive environment that empowers students to achieve their full potential through comprehensive guidance and counselling services, fostering academic excellence, personal growth, and career success.
                     </p>
                   </div>
 
@@ -70,31 +70,31 @@ export default function GCPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Establish a comprehensive counseling center with qualified professionals for academic and personal guidance</span>
+                        <span className="text-sm sm:text-base text-gray-700">Establish a comprehensive counselling center with qualified professionals for academic and personal guidance</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Implement mentorship programs connecting students with faculty advisors and industry professionals</span>
+                        <span className="text-sm sm:text-base text-gray-700">Implement mentorship programmes connecting students with faculty advisors and industry professionals</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Provide career counseling and placement support aligned with pharmaceutical industry needs</span>
+                        <span className="text-sm sm:text-base text-gray-700">Provide career counselling and placement support aligned with pharmaceutical industry needs</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Address mental health and stress management through workshops and individual counseling sessions</span>
+                        <span className="text-sm sm:text-base text-gray-700">Address mental health and stress management through workshops and individual counselling sessions</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Develop peer support networks and student assistance programs</span>
+                        <span className="text-sm sm:text-base text-gray-700">Develop peer support networks and student assistance programmes</span>
                       </li>
                     </ul>
                   </div>
@@ -103,7 +103,7 @@ export default function GCPage() {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Key Initiatives</h3>
                     <div className="space-y-3 sm:space-y-4">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Academic Advising Program</h4>
+                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Academic Advising Programme</h4>
                         <p className="text-gray-700 text-sm">Assigning dedicated faculty mentors to guide students in course selection, academic planning, and research opportunities throughout their pharmacy education journey.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
@@ -112,7 +112,7 @@ export default function GCPage() {
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Wellness and Mental Health Support</h4>
-                        <p className="text-gray-700 text-sm">Providing confidential counseling services, stress management workshops, and wellness programs to support students' mental and emotional well-being.</p>
+                        <p className="text-gray-700 text-sm">Providing confidential counselling services, stress management workshops, and wellness programmes to support students' mental and emotional well-being.</p>
                       </div>
                     </div>
                   </div>
@@ -131,17 +131,17 @@ export default function GCPage() {
                         <tbody>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Phase 1</td>
-                            <td className="border border-gray-300 px-4 py-3">Establishment of counseling center and hiring qualified counselors</td>
+                            <td className="border border-gray-300 px-4 py-3">Establishment of counselling center and hiring qualified counselors</td>
                             <td className="border border-gray-300 px-4 py-3">Year 1</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Phase 2</td>
-                            <td className="border border-gray-300 px-4 py-3">Launch of mentorship and academic advising programs</td>
+                            <td className="border border-gray-300 px-4 py-3">Launch of mentorship and academic advising programmes</td>
                             <td className="border border-gray-300 px-4 py-3">Year 1-2</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Phase 3</td>
-                            <td className="border border-gray-300 px-4 py-3">Implementation of career development services and wellness programs</td>
+                            <td className="border border-gray-300 px-4 py-3">Implementation of career development services and wellness programmes</td>
                             <td className="border border-gray-300 px-4 py-3">Year 2-3</td>
                           </tr>
                           <tr className="bg-gray-50">

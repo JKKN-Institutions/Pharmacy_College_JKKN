@@ -244,10 +244,10 @@ text-[13px]
 - **Feature List Items**: `text-xs sm:text-sm` (12px → 14px)
 - **Button Text**: `text-sm sm:text-base` (14px → 16px)
 
-### Programs Section (Homepage)
+### Programmes Section (Homepage)
 - **Section Label**: `text-xs sm:text-sm` (12px → 14px)
 - **Section Heading**: `text-2xl sm:text-3xl md:text-4xl lg:text-5xl` (24px → 30px → 36px → 48px)
-- **Program Card Title**: `text-2xl` (24px)
+- **Programme Card Title**: `text-2xl` (24px)
 - **Duration Text**: `text-sm` (14px)
 - **Description**: `text-sm` (14px)
 - **Tags (Seats)**: `text-xs` (12px)

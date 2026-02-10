@@ -43,11 +43,11 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>Apply for autonomous status to allow curriculum flexibility and innovation</li>
-                <li>Introduce new undergraduate/postgraduate programs in emerging pharmaceutical fields (Pharmacogenomics, Pharmaceutical Data Science, Clinical Research)</li>
-                <li>Enhance existing Pharm.D, B.Pharm, and M.Pharm programs with industry-specific specializations</li>
+                <li>Introduce new undergraduate/postgraduate programmes in emerging pharmaceutical fields (Pharmacogenomics, Pharmaceutical Data Science, Clinical Research)</li>
+                <li>Enhance existing Pharm.D, B.Pharm, and M.Pharm programmes with industry-specific specialisations</li>
                 <li>Establish Centers of Excellence in Pharmaceutical Research and Drug Development</li>
                 <li>Optimize faculty-to-student ratio to ensure quality mentorship</li>
-                <li>Implement faculty development programs with national and international pharmaceutical research institutions</li>
+                <li>Implement faculty development programmes with national and international pharmaceutical research institutions</li>
               </ul>
 
               {/* Research and Innovation */}
@@ -56,10 +56,10 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>Establish research clusters in areas like drug discovery, formulation development, and pharmaceutical biotechnology</li>
-                <li>Develop specialized laboratories for advanced pharmaceutical testing and research</li>
+                <li>Develop specialised laboratories for advanced pharmaceutical testing and research</li>
                 <li>Increase research grants, publications, and patent applications</li>
                 <li>Foster partnerships with pharmaceutical companies for collaborative research</li>
-                <li>Implement a research incentive program for faculty and students</li>
+                <li>Implement a research incentive programme for faculty and students</li>
               </ul>
 
               {/* Infrastructure Development */}
@@ -80,10 +80,10 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Student Development and Well-being:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
-                <li>Implement comprehensive clinical and industrial training programs</li>
-                <li>Develop career counseling and placement services with pharmaceutical industry connections</li>
+                <li>Implement comprehensive clinical and industrial training programmes</li>
+                <li>Develop career counselling and placement services with pharmaceutical industry connections</li>
                 <li>Establish a pharmaceutical skills development center</li>
-                <li>Create a student wellness program with mental health support</li>
+                <li>Create a student wellness programme with mental health support</li>
                 <li>Enhance professional development through pharmacy-specific competitions and events</li>
               </ul>
 
@@ -94,9 +94,9 @@ export default function InstitutionalDevelopmentPlanPage() {
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>Establish a center for pharmaceutical community services</li>
                 <li>Develop partnerships with hospitals, community pharmacies, and pharmaceutical industries</li>
-                <li>Create community health awareness programs</li>
+                <li>Create community health awareness programmes</li>
                 <li>Implement medication management services for underserved communities</li>
-                <li>Establish pharmaceutical continuing education programs for practicing pharmacists</li>
+                <li>Establish pharmaceutical continuing education programmes for practicing pharmacists</li>
               </ul>
             </div>
 
@@ -115,8 +115,8 @@ export default function InstitutionalDevelopmentPlanPage() {
                 <li>Develop strategic partnerships with international pharmaceutical education institutions</li>
                 <li>Achieve accreditation from prestigious international pharmacy education bodies</li>
                 <li>Establish a Pharmaceutical Research University status</li>
-                <li>Develop specialized schools for Clinical Pharmacy, Industrial Pharmacy, and Pharmaceutical Research</li>
-                <li>Create comprehensive pharmaceutical continuing education programs</li>
+                <li>Develop specialised schools for Clinical Pharmacy, Industrial Pharmacy, and Pharmaceutical Research</li>
+                <li>Create comprehensive pharmaceutical continuing education programmes</li>
               </ul>
 
               {/* Research and Innovation */}
@@ -140,7 +140,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 <li>Develop global research collaborations in pharmaceutical sciences</li>
                 <li>Increase international student diversity</li>
                 <li>Host international pharmaceutical conferences and symposia</li>
-                <li>Develop global training programs in specialized pharmaceutical areas</li>
+                <li>Develop global training programmes in specialised pharmaceutical areas</li>
               </ul>
 
               {/* Infrastructure and Technology */}
@@ -153,7 +153,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 <li>Establish advanced drug development and testing facilities</li>
                 <li>Create virtual and augmented reality training facilities for pharmaceutical education</li>
                 <li>Develop pharmaceutical manufacturing facilities for training and research</li>
-                <li>Establish satellite campuses for specialized pharmaceutical education</li>
+                <li>Establish satellite campuses for specialised pharmaceutical education</li>
               </ul>
 
               {/* Sustainability and Social Responsibility */}
@@ -162,9 +162,9 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>Develop green pharmacy practices and research</li>
-                <li>Establish programs for pharmaceutical waste management</li>
+                <li>Establish programmes for pharmaceutical waste management</li>
                 <li>Create initiatives for affordable and accessible medications</li>
-                <li>Develop programs focusing on rational use of medications</li>
+                <li>Develop programmes focusing on rational use of medications</li>
                 <li>Implement sustainable pharmaceutical manufacturing practices</li>
               </ul>
             </div>
@@ -180,7 +180,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Academic Rigor:
               </h3>
               <p className="mb-6">
-                Academic rigor is the foundation of our pharmaceutical education program. We design curriculum and assessment methods that challenge students intellectually, fostering an environment where pharmaceutical knowledge, analytical thinking, problem-solving, and research are at the forefront of learning. The institution maintains high standards by ensuring faculty are well-qualified in pharmaceutical sciences and engage in continuous professional development. This commitment to academic rigor enhances students' intellectual growth and prepares them to meet the demands of the rapidly evolving pharmaceutical industry and healthcare landscape.
+                Academic rigor is the foundation of our pharmaceutical education programme. We design curriculum and assessment methods that challenge students intellectually, fostering an environment where pharmaceutical knowledge, analytical thinking, problem-solving, and research are at the forefront of learning. The institution maintains high standards by ensuring faculty are well-qualified in pharmaceutical sciences and engage in continuous professional development. This commitment to academic rigor enhances students' intellectual growth and prepares them to meet the demands of the rapidly evolving pharmaceutical industry and healthcare landscape.
               </p>
 
               {/* Inclusivity */}
@@ -206,7 +206,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Main Objectives and Goals of the Institutional Development Plan (IDP)
               </h2>
               <p className="mb-6">
-                The Institutional Development Plan (IDP) of JKKN College Of Pharmacy is a strategic 15-year roadmap aimed at transforming the institution into a globally recognized center of pharmaceutical academic excellence, innovation, and inclusivity. It aligns with the National Education Policy 2020, Pharmacy Council of India regulations, and the Sustainable Development Goals (SDGs), covering a wide range of initiatives across pharmaceutical academics, infrastructure, faculty development, research, student empowerment, and community healthcare engagement.
+                The Institutional Development Plan (IDP) of JKKN College Of Pharmacy is a strategic 15-year roadmap aimed at transforming the institution into a globally recognised center of pharmaceutical academic excellence, innovation, and inclusivity. It aligns with the National Education Policy 2020, Pharmacy Council of India regulations, and the Sustainable Development Goals (SDGs), covering a wide range of initiatives across pharmaceutical academics, infrastructure, faculty development, research, student empowerment, and community healthcare engagement.
               </p>
 
               {/* Pharmaceutical Academic Excellence */}
@@ -230,7 +230,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Pharmacy Community Engagement:
               </h3>
               <p className="mb-6">
-                The institution will foster community engagement by forming partnerships with hospitals, community pharmacies, pharmaceutical companies, and healthcare NGOs. Through medication counseling programs, pharmaceutical care projects, and health awareness initiatives, the college will contribute to community health while providing students with practical experience in addressing healthcare challenges.
+                The institution will foster community engagement by forming partnerships with hospitals, community pharmacies, pharmaceutical companies, and healthcare NGOs. Through medication counselling programmes, pharmaceutical care projects, and health awareness initiatives, the college will contribute to community health while providing students with practical experience in addressing healthcare challenges.
               </p>
 
               {/* Key Objectives */}
@@ -239,28 +239,28 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ol className="list-decimal ml-6 lg:ml-8 space-y-4">
                 <li>
-                  <strong>Elevate Pharmaceutical Academic Standards:</strong> Establish pharmaceutical research centers of excellence and introduce interdisciplinary programs with industry relevance to align with global pharmacy education standards.
+                  <strong>Elevate Pharmaceutical Academic Standards:</strong> Establish pharmaceutical research centers of excellence and introduce interdisciplinary programmes with industry relevance to align with global pharmacy education standards.
                 </li>
                 <li>
                   <strong>Create a Conducive Learning Environment for Pharmacy Education:</strong> Develop state-of-the-art facilities, including advanced pharmaceutical research labs, drug information centers, simulation pharmacies, and sustainable campuses with modern amenities.
                 </li>
                 <li>
-                  <strong>Attract and Nurture Diverse Pharmaceutical Faculty:</strong> Achieve an optimal faculty-student ratio of 1:12 and invest in faculty development in specialized pharmaceutical areas to ensure high-quality pharmacy education.
+                  <strong>Attract and Nurture Diverse Pharmaceutical Faculty:</strong> Achieve an optimal faculty-student ratio of 1:12 and invest in faculty development in specialised pharmaceutical areas to ensure high-quality pharmacy education.
                 </li>
                 <li>
                   <strong>Foster Pharmaceutical Innovation and Entrepreneurship:</strong> Encourage pharmaceutical research projects with clinical applications, establish pharmaceutical technology transfer and incubation centers, and support pharmacy startup initiatives.
                 </li>
                 <li>
-                  <strong>Provide Holistic and Inclusive Pharmacy Education:</strong> Implement clinical preceptor programs, offer scholarships for economically disadvantaged pharmacy students, and promote diversity, equity, and inclusion in pharmaceutical education.
+                  <strong>Provide Holistic and Inclusive Pharmacy Education:</strong> Implement clinical preceptor programmes, offer scholarships for economically disadvantaged pharmacy students, and promote diversity, equity, and inclusion in pharmaceutical education.
                 </li>
                 <li>
-                  <strong>Establish International Pharmaceutical Partnerships:</strong> Forge collaborations with prestigious global pharmacy institutions, facilitate exchange programs, and host international pharmaceutical conferences to enhance global exposure.
+                  <strong>Establish International Pharmaceutical Partnerships:</strong> Forge collaborations with prestigious global pharmacy institutions, facilitate exchange programmes, and host international pharmaceutical conferences to enhance global exposure.
                 </li>
                 <li>
                   <strong>Strengthen Internal Governance:</strong> Improve decision-making processes by enhancing transparency, accountability, and efficiency in pharmacy education administration.
                 </li>
                 <li>
-                  <strong>Marketing and Branding:</strong> Develop a comprehensive marketing strategy to enhance the visibility of pharmaceutical programs and stakeholder engagement.
+                  <strong>Marketing and Branding:</strong> Develop a comprehensive marketing strategy to enhance the visibility of pharmaceutical programmes and stakeholder engagement.
                 </li>
                 <li>
                   <strong>Financial Strategy:</strong> Create a sustainable financial model to ensure long-term stability and growth through strategic partnerships with pharmaceutical companies, fundraising campaigns, and prudent investments.
@@ -274,19 +274,19 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Executive Summary of Objective Implementation:
               </h2>
 
-              {/* Pharmaceutical Education Programs */}
+              {/* Pharmaceutical Education Programmes */}
               <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
-                Pharmaceutical Education Programs:
+                Pharmaceutical Education Programmes:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>
-                  <strong>Twinning and Dual Degree Programs in Pharmacy:</strong> Offer students diverse educational experiences through programs that lead to pharmacy degrees from both JKKN and partnering international institutions.
+                  <strong>Twinning and Dual Degree Programmes in Pharmacy:</strong> Offer students diverse educational experiences through programmes that lead to pharmacy degrees from both JKKN and partnering international institutions.
                 </li>
                 <li>
-                  <strong>Specialized Pharmaceutical Programs:</strong> Introduce specialized programs in Clinical Research, Pharmaceutical Regulatory Affairs, Cosmetic Science, and Pharmaceutical Quality Assurance.
+                  <strong>Specialised Pharmaceutical Programmes:</strong> Introduce specialised programmes in Clinical Research, Pharmaceutical Regulatory Affairs, Cosmetic Science, and Pharmaceutical Quality Assurance.
                 </li>
                 <li>
-                  <strong>Advanced Degree Programs:</strong> Expand the institution's offerings with new postgraduate and Ph.D. programs in emerging pharmaceutical fields.
+                  <strong>Advanced Degree Programmes:</strong> Expand the institution's offerings with new postgraduate and Ph.D. programmes in emerging pharmaceutical fields.
                 </li>
               </ul>
 
@@ -302,7 +302,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                   <strong>Pharmaceutical Incubators:</strong> Create infrastructure and support systems for pharmaceutical startups and innovations.
                 </li>
                 <li>
-                  <strong>Industry-Academia Collaboration:</strong> Develop structured programs for collaborative research with pharmaceutical companies.
+                  <strong>Industry-Academia Collaboration:</strong> Develop structured programmes for collaborative research with pharmaceutical companies.
                 </li>
               </ul>
 
@@ -312,7 +312,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>
-                  <strong>Advanced Pharmaceutical Research Labs:</strong> Establish specialized labs for drug analysis, formulation, and clinical research.
+                  <strong>Advanced Pharmaceutical Research Labs:</strong> Establish specialised labs for drug analysis, formulation, and clinical research.
                 </li>
                 <li>
                   <strong>Pharmaceutical Simulation Centers:</strong> Create realistic pharmacy practice environments for training.
@@ -328,13 +328,13 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>
-                  <strong>Pharmaceutical Faculty Enhancement:</strong> Implement specialized training programs for faculty in advanced pharmaceutical sciences.
+                  <strong>Pharmaceutical Faculty Enhancement:</strong> Implement specialised training programmes for faculty in advanced pharmaceutical sciences.
                 </li>
                 <li>
-                  <strong>Student Clinical and Industrial Training:</strong> Develop structured programs for experiential education in diverse pharmaceutical settings.
+                  <strong>Student Clinical and Industrial Training:</strong> Develop structured programmes for experiential education in diverse pharmaceutical settings.
                 </li>
                 <li>
-                  <strong>Pharmacy Leadership Development:</strong> Create programs to nurture future leaders in pharmaceutical sciences and healthcare.
+                  <strong>Pharmacy Leadership Development:</strong> Create programmes to nurture future leaders in pharmaceutical sciences and healthcare.
                 </li>
               </ul>
 
@@ -344,13 +344,13 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>
-                  <strong>Medication Management Services:</strong> Establish community programs for medication counseling and management.
+                  <strong>Medication Management Services:</strong> Establish community programmes for medication counselling and management.
                 </li>
                 <li>
-                  <strong>Pharmaceutical Continuing Education:</strong> Develop programs for continuous professional development of practicing pharmacists.
+                  <strong>Pharmaceutical Continuing Education:</strong> Develop programmes for continuous professional development of practicing pharmacists.
                 </li>
                 <li>
-                  <strong>Health Awareness Initiatives:</strong> Create community programs focusing on medication safety and rational drug use.
+                  <strong>Health Awareness Initiatives:</strong> Create community programmes focusing on medication safety and rational drug use.
                 </li>
               </ul>
 

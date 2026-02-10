@@ -39,7 +39,7 @@ export default function PrivacyPolicyPage() {
               We may use your personal information for the following purposes:
             </p>
             <ul className="list-disc list-inside space-y-2 ml-4">
-              <li>To respond to your inquiries and provide you with information about our programs, services, and events</li>
+              <li>To respond to your inquiries and provide you with information about our programmes, services, and events</li>
               <li>To process and evaluate your application for admission to our college or for employment</li>
               <li>To communicate with you about news, events, and other updates related to JKKN College of Pharmacy</li>
               <li>To improve the content and functionality of our website and to better understand our website visitors' interests and preferences</li>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>When required by law or legal process</li>
               <li>To protect the rights or property of JKKN College of Pharmacy or our website users</li>
-              <li>To contractors or service providers who assist us in the operation of our website or in the provision of our programs, services, or events</li>
+              <li>To contractors or service providers who assist us in the operation of our website or in the provision of our programmes, services, or events</li>
             </ul>
           </div>
 

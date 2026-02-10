@@ -115,7 +115,7 @@ export default function AntiRaggingCommitteePage() {
                 <li className="flex items-start">
                   <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span className="text-justify">
-                    Conduct anti-ragging awareness programs, orientation sessions, and sensitization workshops for students and faculty.
+                    Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for students and faculty.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -202,7 +202,7 @@ export default function AntiRaggingCommitteePage() {
             <div className="mb-6">
               <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Support & Rehabilitation</h3>
               <p className="text-justify mb-1">✓Provide counselling and support to victims of ragging.</p>
-              <p className="text-justify">✓ Conduct behavioural reformation programs for offenders.</p>
+              <p className="text-justify">✓ Conduct behavioural reformation programmes for offenders.</p>
             </div>
           </div>
 

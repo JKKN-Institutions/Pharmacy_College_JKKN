@@ -47,7 +47,7 @@ export default function IPABhavaniKumarapalayamPage() {
                   By becoming a member of the IPA – Bhavani Kumarapalayam Local Branch, you can:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
-                  <li className="leading-relaxed">– Access exclusive educational resources and training programs</li>
+                  <li className="leading-relaxed">– Access exclusive educational resources and training programmes</li>
                   <li className="leading-relaxed">– Participate in workshops, seminars, and conferences</li>
                   <li className="leading-relaxed">– Network with industry professionals and experts</li>
                   <li className="leading-relaxed">– Stay updated on the latest trends and developments in the pharmaceutical field</li>
@@ -84,7 +84,7 @@ export default function IPABhavaniKumarapalayamPage() {
                   <li className="leading-relaxed">-Provide internship and placement opportunities for students</li>
                   <li className="leading-relaxed">– Facilitate industry-academia interactions and knowledge exchange</li>
                   <li className="leading-relaxed">– Support research projects and innovations in the pharmaceutical domain</li>
-                  <li className="leading-relaxed">– Organize joint events and programs for the benefit of students and professionals</li>
+                  <li className="leading-relaxed">– Organize joint events and programmes for the benefit of students and professionals</li>
                 </ul>
               </div>
 

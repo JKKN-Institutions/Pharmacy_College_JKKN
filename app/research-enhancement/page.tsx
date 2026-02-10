@@ -59,7 +59,7 @@ export default function ResearchEnhancementPage() {
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To emerge as a premier research institution recognized nationally and internationally for high-quality pharmaceutical research that addresses critical healthcare challenges and contributes to scientific knowledge and societal well-being.
+                      To emerge as a premier research institution recognised nationally and internationally for high-quality pharmaceutical research that addresses critical healthcare challenges and contributes to scientific knowledge and societal well-being.
                     </p>
                   </div>
 
@@ -107,7 +107,7 @@ export default function ResearchEnhancementPage() {
                         <p className="text-gray-700 text-sm">Upgrading laboratories with state-of-the-art instruments including HPLC, GC-MS, FTIR, UV-Vis spectrophotometers, and establishing central instrumentation facilities for advanced research.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Research Grant Support Program</h4>
+                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Research Grant Support Programme</h4>
                         <p className="text-gray-700 text-sm">Creating a dedicated research cell to assist faculty in grant writing, identifying funding opportunities, and providing seed funding for pilot research projects.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
@@ -141,7 +141,7 @@ export default function ResearchEnhancementPage() {
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Phase 3</td>
-                            <td className="border border-gray-300 px-4 py-3">Launch of grant programs and research collaborations</td>
+                            <td className="border border-gray-300 px-4 py-3">Launch of grant programmes and research collaborations</td>
                             <td className="border border-gray-300 px-4 py-3">Year 2-3</td>
                           </tr>
                           <tr className="bg-gray-50">

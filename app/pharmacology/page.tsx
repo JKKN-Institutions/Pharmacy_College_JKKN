@@ -19,7 +19,10 @@ export default function PharmacologyPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <GraduationCap className="w-12 h-12 mx-auto mb-4" />
+        <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
+            <GraduationCap className="w-10 h-10" />
+            DOCTORAL PROGRAMME 2026
+          </div>
           <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">M.Pharm in Pharmacology 2026</h1>
           <p className="text-xs sm:text-sm">Master Drug Action, Toxicology & Preclinical Research</p>
         </div>
@@ -32,17 +35,17 @@ export default function PharmacologyPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacology is a 2-year postgraduate specialization program that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive program trains students in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Students conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organizations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
+              M.Pharm in Pharmacology is a 2-year postgraduate specialisation programme that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive programme trains students in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Students conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organizations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
             </p>
           </div>
 
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
               onClick={() => toggleFAQ(0)}
-              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
+              className={`w-full p-6 text-left flex justify-between items-center transition-all ${
+                expandedFAQ === 0 ? 'bg-green-50' : 'bg-white hover:bg-gray-50'
               }`}
             >
               <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">DURATION</h3>
@@ -60,11 +63,11 @@ export default function PharmacologyPage() {
               </div>
             )}
           </div>
-            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
               onClick={() => toggleFAQ(1)}
-              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
+              className={`w-full p-6 text-left flex justify-between items-center transition-all ${
+                expandedFAQ === 1 ? 'bg-green-50' : 'bg-white hover:bg-gray-50'
               }`}
             >
               <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">ELIGIBILITY</h3>
@@ -82,14 +85,14 @@ export default function PharmacologyPage() {
               </div>
             )}
           </div>
-            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
               onClick={() => toggleFAQ(2)}
-              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
+              className={`w-full p-6 text-left flex justify-between items-center transition-all ${
+                expandedFAQ === 2 ? 'bg-green-50' : 'bg-white hover:bg-gray-50'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">SPECIALIZATION FOCUS</h3>
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">SPECIALISATION FOCUS</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 2 ? 'rotate-180' : ''
@@ -104,11 +107,11 @@ export default function PharmacologyPage() {
               </div>
             )}
           </div>
-            <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
               onClick={() => toggleFAQ(3)}
-              className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
+              className={`w-full p-6 text-left flex justify-between items-center transition-all ${
+                expandedFAQ === 3 ? 'bg-green-50' : 'bg-white hover:bg-gray-50'
               }`}
             >
               <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">AVERAGE SALARY</h3>
@@ -1070,11 +1073,11 @@ export default function PharmacologyPage() {
         </div>
       </div>
 
-      {/* M.Pharm Pharmacology vs Other Specializations */}
+      {/* M.Pharm Pharmacology vs Other Specialisations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">M.Pharm Pharmacology vs Other Specializations</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">M.Pharm Pharmacology vs Other Specialisations</h2>
         </div>
 
         <div className="overflow-x-auto">
@@ -1129,7 +1132,7 @@ export default function PharmacologyPage() {
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Industry Demand</td>
-                <td className="px-4 py-4">Moderate (specialized roles, CRO-focused, research institutes)</td>
+                <td className="px-4 py-4">Moderate (specialised roles, CRO-focused, research institutes)</td>
                 <td className="px-4 py-4">High (R&D-focused companies, innovation priority)</td>
                 <td className="px-4 py-4">Very High (universal need across all companies)</td>
               </tr>
@@ -1186,12 +1189,12 @@ export default function PharmacologyPage() {
         </div>
       </div>
 
-      {/* Choosing the Right Specialization */}
+      {/* Choosing the Right Specialisation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">Choosing the Right Specialization:</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">Choosing the Right Specialisation:</h3>
           </div>
 
           <div className="space-y-4 text-gray-800">
@@ -1234,7 +1237,7 @@ export default function PharmacologyPage() {
             </p>
 
             <p className="text-gray-800 font-semibold mt-6">
-              <span className="text-[#006837]">Key Insight:</span> Pharmacology is the most research-intensive and biology-focused specialization. It offers strong academic career paths but moderate industry demand compared to Analysis and Pharmaceutics. Choose based on genuine interest in biological research, not just salary considerations.
+              <span className="text-[#006837]">Key Insight:</span> Pharmacology is the most research-intensive and biology-focused specialisation. It offers strong academic career paths but moderate industry demand compared to Analysis and Pharmaceutics. Choose based on genuine interest in biological research, not just salary considerations.
             </p>
           </div>
         </div>
@@ -1256,7 +1259,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmacology?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmacology?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 0 ? 'rotate-180' : ''
@@ -1266,7 +1269,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  M.Pharm in Pharmacology is a 2-year postgraduate specialization focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The program includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialization is ideal for those interested in pharmaceutical research and drug discovery.
+                  M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery.
                 </p>
               </div>
             )}
@@ -1280,7 +1283,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q2: What is the salary after M.Pharm Pharmacology?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q2: What is the salary after M.Pharm Pharmacology?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 1 ? 'rotate-180' : ''
@@ -1304,7 +1307,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q3: Does M.Pharm Pharmacology involve animal studies?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q3: Does M.Pharm Pharmacology involve animal studies?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 2 ? 'rotate-180' : ''
@@ -1314,7 +1317,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 2 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specializations like Pharmaceutical Analysis or Pharmaceutics. Modern programs also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
+                  Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
                 </p>
               </div>
             )}
@@ -1328,7 +1331,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q4: Can I do PhD after M.Pharm Pharmacology?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q4: Can I do PhD after M.Pharm Pharmacology?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 3 ? 'rotate-180' : ''
@@ -1338,7 +1341,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 3 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions. Many pursue postdoctoral research abroad.
+                  Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions. Many pursue postdoctoral research abroad.
                 </p>
               </div>
             )}
@@ -1352,7 +1355,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q5: Which is better: M.Pharm Pharmacology or Pharmaceutics?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q5: Which is better: M.Pharm Pharmacology or Pharmaceutics?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 4 ? 'rotate-180' : ''
@@ -1376,7 +1379,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q6: What are CRO job opportunities for Pharmacology graduates?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q6: What are CRO job opportunities for Pharmacology graduates?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 5 ? 'rotate-180' : ''
@@ -1400,7 +1403,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q7: Is M.Pharm Pharmacology good for academic career?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q7: Is M.Pharm Pharmacology good for academic career?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 6 ? 'rotate-180' : ''
@@ -1424,7 +1427,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q8: Can I switch to medical writing from Pharmacology?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q8: Can I switch to medical writing from Pharmacology?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 7 ? 'rotate-180' : ''
@@ -1448,7 +1451,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q9: Is M.Pharm Pharmacology difficult compared to other specializations?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q9: Is M.Pharm Pharmacology difficult compared to other specialisations?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 8 ? 'rotate-180' : ''
@@ -1458,7 +1461,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 8 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it's not exceptionally difficult compared to core medical sciences or PhD programs. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than: Medicinal Chemistry (complex organic synthesis), Pharmaceutical Analysis (precision analytical work). Similar difficulty to: Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty.
+                  M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it's not exceptionally difficult compared to core medical sciences or PhD programmes. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than: Medicinal Chemistry (complex organic synthesis), Pharmaceutical Analysis (precision analytical work). Similar difficulty to: Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty.
                 </p>
               </div>
             )}
@@ -1472,7 +1475,7 @@ export default function PharmacologyPage() {
                 expandedFAQ === 9 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q10: What is the scope of Pharmacology internationally?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q10: What is the scope of Pharmacology internationally?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 9 ? 'rotate-180' : ''
@@ -1482,7 +1485,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 9 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Requires relevant work visa. Ph.D programs fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programs with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide.
+                  Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Requires relevant work visa. Ph.D programmes fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programmes with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide.
                 </p>
               </div>
             )}
@@ -1510,13 +1513,13 @@ export default function PharmacologyPage() {
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">2. Strong Academic & Research Career Path</h3>
             <p className="text-gray-800 leading-relaxed">
-              Pharmacology offers the clearest pathway to academic careers among pharmacy specializations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at premier institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
+              Pharmacology offers the clearest pathway to academic careers among pharmacy specialisations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at premier institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
             </p>
           </div>
 
           {/* Point 3 */}
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">3. Diverse Research Areas & Specializations</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">3. Diverse Research Areas & Specialisations</h3>
             <p className="text-gray-800 leading-relaxed">
               Pharmacology encompasses multiple exciting research domains: neuropharmacology (brain disorders), cardiovascular pharmacology (heart diseases), cancer pharmacology (oncology research), toxicology (drug safety), molecular pharmacology (mechanisms), immunopharmacology (immune system). This diversity allows you to specialize in areas matching your interests and provides career flexibility to switch between research domains.
             </p>
@@ -1560,7 +1563,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
-          <p className="text-xs sm:text-sm mb-8">Join our M.Pharm Pharmacology program and become a pharmaceutical research scientist!</p>
+          <p className="text-xs sm:text-sm mb-8">Join our M.Pharm Pharmacology programme and become a pharmaceutical research scientist!</p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
@@ -1583,7 +1586,7 @@ export default function PharmacologyPage() {
               <span className="mr-3 text-[#7cb983] font-bold">•</span>
               <div>
                 <span className="text-[#006837] font-bold">Pharmacy Council of India (PCI) Approval:</span>
-                <span className="text-gray-800"> Mandatory for all M.Pharm programs. PCI ensures adequate faculty, infrastructure, and animal house facilities. Verify approval on pci.nic.in before admission.</span>
+                <span className="text-gray-800"> Mandatory for all M.Pharm programmes. PCI ensures adequate faculty, infrastructure, and animal house facilities. Verify approval on pci.nic.in before admission.</span>
               </div>
             </li>
             <li className="flex items-start">
@@ -1604,7 +1607,7 @@ export default function PharmacologyPage() {
               <span className="mr-3 text-[#7cb983] font-bold">•</span>
               <div>
                 <span className="text-[#006837] font-bold">University Affiliation:</span>
-                <span className="text-gray-800"> Program must be affiliated with UGC-recognized university authorized to award M.Pharm degrees.</span>
+                <span className="text-gray-800"> Programme must be affiliated with UGC-recognised university authorized to award M.Pharm degrees.</span>
               </div>
             </li>
             <li className="flex items-start">

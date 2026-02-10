@@ -50,7 +50,7 @@ export default function OurInstitutionsPage() {
             </p>
 
             <p className="text-justify">
-              JKKN Institutions are committed to providing exceptional educational experiences for our students, empowering them with the skills and knowledge necessary to excel. With a focus on continuous improvement and collaborative partnerships, we ensure that our institutions are recognized as premier centers of education and opportunity.
+              JKKN Institutions are committed to providing exceptional educational experiences for our students, empowering them with the skills and knowledge necessary to excel. With a focus on continuous improvement and collaborative partnerships, we ensure that our institutions are recognised as premier centers of education and opportunity.
             </p>
           </div>
         </div>

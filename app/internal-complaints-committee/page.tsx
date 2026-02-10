@@ -50,7 +50,7 @@ export default function InternalComplaintsCommitteePage() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span className="text-justify">
-                To promote awareness about sexual harassment through training, workshops, and sensitization programs for all students and employees.
+                To promote awareness about sexual harassment through training, workshops, and sensitization programmes for all students and employees.
               </span>
             </li>
             <li className="flex items-start">
@@ -77,7 +77,7 @@ export default function InternalComplaintsCommitteePage() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <span className="text-justify">
-                  Organizing gender sensitization programs, awareness campaigns, and workshops for students, faculty, and staff.
+                  Organizing gender sensitization programmes, awareness campaigns, and workshops for students, faculty, and staff.
                 </span>
               </li>
               <li className="flex items-start">

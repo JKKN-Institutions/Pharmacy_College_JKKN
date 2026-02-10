@@ -111,9 +111,9 @@ export default function InstitutionsInnovationCouncilPage() {
           </ul>
         </div>
 
-        {/* Innovation Ambassador Training Program */}
+        {/* Innovation Ambassador Training Programme */}
         <div className="mb-4 sm:mb-6 md:mb-8">
-          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Innovation Ambassador Training Program</h2>
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Innovation Ambassador Training Programme</h2>
           <ul className="space-y-3 text-sm sm:text-base text-gray-700">
             <li className="flex items-start">
               <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-gray-700 rounded-full flex-shrink-0"></span>

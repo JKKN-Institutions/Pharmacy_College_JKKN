@@ -54,7 +54,7 @@ export default function LibraryPage() {
             </p>
 
             <p className="text-justify">
-              Our library offers a cutting-edge automation system with barcoded books organized by Dewey Decimal Classification. The advanced KOHA library software ensures smooth transactions like issue, return, and renewal of books. Students can easily access our vast collection through the user-friendly Online Public Access Catalog (OPAC). Additionally, we provide circulation services for lending books, reference assistance, current awareness displays, PWD-friendly systems, reprographic services, open access to bookshelves, and electronic resources for in-house and remote access. Users also benefit from interlibrary loan services and informative orientation programs.
+              Our library offers a cutting-edge automation system with barcoded books organized by Dewey Decimal Classification. The advanced KOHA library software ensures smooth transactions like issue, return, and renewal of books. Students can easily access our vast collection through the user-friendly Online Public Access Catalog (OPAC). Additionally, we provide circulation services for lending books, reference assistance, current awareness displays, PWD-friendly systems, reprographic services, open access to bookshelves, and electronic resources for in-house and remote access. Users also benefit from interlibrary loan services and informative orientation programmes.
             </p>
           </div>
 

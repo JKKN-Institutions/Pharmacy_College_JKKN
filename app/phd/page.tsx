@@ -22,10 +22,10 @@ export default function PhDPage() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
             <GraduationCap className="w-10 h-10" />
-            DOCTORAL PROGRAM 2026
+            DOCTORAL PROGRAMME 2026
           </div>
           <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Ph.D (Doctor of Philosophy) in Pharmacy</h1>
-          <p className="text-xs sm:text-sm">Transform into an Independent Researcher & Scholar in Pharmaceutical Sciences | Drive Innovation in Drug Discovery, NDDS & Healthcare</p>
+          <p className="text-xs sm:text-sm">Transform into an Independent Researcher & Scholar in Pharmaceutical Sciences | Drive Innovation in Drug Discovery, Novel Drug Delivery Systems (NDDS) & Healthcare</p>
         </div>
       </div>
 
@@ -39,7 +39,7 @@ export default function PhDPage() {
 
           <div className="text-gray-700 leading-relaxed space-y-4 mb-6 text-xs sm:text-sm">
             <p>
-              Ph.D (Doctor of Philosophy) in Pharmacy is the highest academic qualification in pharmaceutical sciences, designed to develop independent researchers, innovative thinkers, and scholarly leaders who advance the frontiers of pharmaceutical knowledge. This rigorous 3-5 year doctoral research program enables Learners to conduct original research that contributes new knowledge to specialized areas including drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, pharmacognosy, and clinical pharmacy.
+              Ph.D (Doctor of Philosophy) in Pharmacy is the highest academic qualification in pharmaceutical sciences, designed to develop independent researchers, innovative thinkers, and scholarly leaders who advance the frontiers of pharmaceutical knowledge. This rigorous 3-5 year doctoral research programme enables Learners to conduct original research that contributes new knowledge to specialised areas including drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, pharmacognosy, and clinical pharmacy.
             </p>
             <p>
               Under the guidance of expert Learning Facilitators, doctoral candidates develop expertise in research methodology, critical analysis, scientific communication, and scholarly publication. Graduates emerge as qualified professors, pharmaceutical scientists, research leaders, and policy advisors who shape the future of healthcare and pharmaceutical sciences globally.
@@ -95,12 +95,12 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">1. Highest Academic Qualification</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
-              Ph.D is the pinnacle of academic achievement in pharmacy, conferring the title of "Doctor" and establishing you as an expert in your specialized field. This credential opens doors to the most prestigious positions in academia, industry, and research institutions worldwide.
+              Ph.D is the pinnacle of academic achievement in pharmacy, conferring the title of "Doctor" and establishing you as an expert in your specialised field. This credential opens doors to the most prestigious positions in academia, industry, and research institutions worldwide.
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#D4E8F8] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">2. Intellectual Leadership</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
               Doctoral research develops your ability to identify knowledge gaps, formulate research questions, design experiments, and contribute original insights that advance pharmaceutical sciences. You become a thought leader shaping the future of healthcare.
@@ -108,7 +108,7 @@ export default function PhDPage() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-[#FFE4D6] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">3. Lucrative Career Opportunities</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
               Ph.D holders command significantly higher salaries (₹15-40 LPA) compared to M.Pharm graduates. Positions as Professor, Principal, Senior Scientist, R&D Director, and Consultant are exclusively available to doctoral degree holders.
@@ -119,20 +119,20 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">4. Fellowship & Financial Support</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
-              Qualified candidates receive substantial fellowships (₹31,000-42,000/month) throughout the program duration. Over 3-4 years, this amounts to ₹12-18 lakhs, making Ph.D financially viable while you pursue your passion for research.
+              Qualified candidates receive substantial fellowships (₹31,000-42,000/month) throughout the programme duration. Over 3-4 years, this amounts to ₹12-18 lakhs, making Ph.D financially viable while you pursue your passion for research.
             </p>
           </div>
 
           {/* Card 5 */}
-          <div className="bg-[#D4E8F8] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">5. Global Recognition & Mobility</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
-              Ph.D credentials are recognized internationally, enabling postdoctoral opportunities abroad, faculty positions at foreign universities, and collaborations with global pharmaceutical companies and research institutions.
+              Ph.D credentials are recognised internationally, enabling postdoctoral opportunities abroad, faculty positions at foreign universities, and collaborations with global pharmaceutical companies and research institutions.
             </p>
           </div>
 
           {/* Card 6 */}
-          <div className="bg-[#FFE4D6] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">6. Contribution to Healthcare</h3>
             <p className="text-gray-800 leading-relaxed text-xs sm:text-sm">
               Your doctoral research can lead to new drug discoveries, innovative delivery systems, and therapeutic breakthroughs that directly impact patient lives and public health outcomes globally.
@@ -141,13 +141,13 @@ export default function PhDPage() {
         </div>
       </div>
 
-      {/* Ph.D Specializations Section */}
+      {/* Ph.D Specialisations Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-[#FBFBEE]">
         <div className="flex items-start gap-4 mb-6">
           <Microscope className="w-10 h-10" />
           <div>
-            <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-4">Ph.D Specializations in Pharmacy</h2>
-            <p className="text-gray-700 text-xs sm:text-sm">Choose your doctoral specialization based on your M.Pharm background, research interests, and career aspirations. Each specialization offers unique research opportunities and career pathways.</p>
+            <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-4">Ph.D Specialisations in Pharmacy</h2>
+            <p className="text-gray-700 text-xs sm:text-sm">Choose your doctoral specialisation based on your M.Pharm background, research interests, and career aspirations. Each specialisation offers unique research opportunities and career pathways.</p>
           </div>
         </div>
 
@@ -185,7 +185,7 @@ export default function PhDPage() {
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">High Demand</span>
-              <span className="bg-[#1A9BB8] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Industry R&D</span>
+              <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Industry R&D</span>
             </div>
           </div>
 
@@ -221,7 +221,7 @@ export default function PhDPage() {
               </li>
             </ul>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-green-600 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Research Intensive</span>
+              <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Research Intensive</span>
               <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Academic</span>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function PhDPage() {
             </ul>
             <div className="flex flex-wrap gap-2">
               <span className="bg-[#7cb983] text-white text-xs font-semibold px-3 py-1 rounded-full">Drug Discovery</span>
-              <span className="bg-[#1A9BB8] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Patents</span>
+              <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Patents</span>
             </div>
           </div>
 
@@ -295,7 +295,7 @@ export default function PhDPage() {
               </li>
             </ul>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-green-600 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Growing Field</span>
+              <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Growing Field</span>
               <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">AYUSH</span>
             </div>
           </div>
@@ -332,8 +332,8 @@ export default function PhDPage() {
               </li>
             </ul>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-[#1A9BB8] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">QC/QA</span>
-              <span className="bg-red-600 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Regulatory</span>
+              <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">QC/QA</span>
+              <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Regulatory</span>
             </div>
           </div>
 
@@ -369,7 +369,7 @@ export default function PhDPage() {
               </li>
             </ul>
             <div className="flex flex-wrap gap-2">
-              <span className="bg-green-600 text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Clinical</span>
+              <span className="bg-[#7cb983] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Clinical</span>
               <span className="bg-[#006837] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-3 py-1 rounded-full">Hospital</span>
             </div>
           </div>
@@ -385,7 +385,7 @@ export default function PhDPage() {
           <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">Eligibility Criteria for Ph.D in Pharmacy</h2>
         </div>
 
-        <div className="bg-[#D4E8F8] rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983] mb-6">
+        <div className="bg-white rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983] mb-6">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Academic Qualifications</h3>
           <ul className="space-y-4 text-xs sm:text-sm">
             <li className="flex items-start">
@@ -409,13 +409,13 @@ export default function PhDPage() {
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
               <div>
-                <span className="font-bold">International Candidates:</span> Equivalent master's degree recognized by AIU (Association of Indian Universities)
+                <span className="font-bold">International Candidates:</span> Equivalent master's degree recognised by AIU (Association of Indian Universities)
               </div>
             </li>
           </ul>
         </div>
 
-        <div className="bg-[#FFE4D6] rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Entrance Examinations (Any One Required)</h3>
           <ul className="space-y-4 text-xs sm:text-sm">
             <li className="flex items-start">
@@ -522,8 +522,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3 text-center">UGC-NET JRF</h3>
             <div className="text-center mb-4">
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8] mb-1">₹37,000 -</p>
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8]">₹42,000/month</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-1">₹37,000 -</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹42,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
               <p>+ HRA as applicable</p>
@@ -549,7 +549,7 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3 text-center">GATE Fellowship</h3>
             <div className="text-center mb-4">
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-green-600">₹31,000/month</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹31,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
               <p>MHRD Sponsored</p>
@@ -562,8 +562,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3 text-center">ICMR-JRF</h3>
             <div className="text-center mb-4">
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8] mb-1">₹37,000 -</p>
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8]">₹42,000/month</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-1">₹37,000 -</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹42,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
               <p>+ HRA (as applicable)</p>
@@ -590,8 +590,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3 text-center">University Fellowship</h3>
             <div className="text-center mb-4">
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-green-600 mb-1">₹15,000 -</p>
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-green-600">₹25,000/month</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-1">₹15,000 -</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹25,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
               <p>Varies by institution</p>
@@ -604,8 +604,8 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-3 sm:p-4 shadow-lg border-2 border-[#7cb983]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3 text-center">Industry Sponsored</h3>
             <div className="text-center mb-4">
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8] mb-1">₹25,000 -</p>
-              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#1A9BB8]">₹50,000/month</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-1">₹25,000 -</p>
+              <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹50,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
               <p>Company-specific</p>
@@ -615,8 +615,8 @@ export default function PhDPage() {
           </div>
         </div>
 
-        <div className="bg-[#FFF8DC] rounded-xl p-4 sm:p-6 mt-12 border-l-4 border-yellow-500">
-          <h4 className="text-xs xs:text-sm sm:text-base font-bold text-gray-800 mb-4 flex items-center gap-2">
+        <div className="bg-[#FBFBEE] rounded-xl p-4 sm:p-6 mt-12 border-l-4 border-[#006837]">
+          <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4 flex items-center gap-2">
             <AlertTriangle className="w-5 h-5" />
             Important Fellowship Information
           </h4>
@@ -645,11 +645,11 @@ export default function PhDPage() {
         </div>
       </div>
 
-      {/* Ph.D Program Structure & Timeline Section */}
+      {/* Ph.D Programme Structure & Timeline Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-start gap-4 mb-6">
           <BookOpen className="w-6 h-6" />
-          <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">Ph.D Program Structure & Timeline</h2>
+          <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">Ph.D Programme Structure & Timeline</h2>
         </div>
 
         <div className="overflow-x-auto">
@@ -700,7 +700,7 @@ export default function PhDPage() {
 
       {/* Mandatory Requirements for Ph.D Completion Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-[#D4E8F8] rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
           <h3 className="text-2xl font-bold text-[#006837] mb-6">Mandatory Requirements for Ph.D Completion</h3>
           <ul className="space-y-4 text-gray-800 text-xs sm:text-sm">
             <li className="flex items-start">
@@ -1049,7 +1049,7 @@ export default function PhDPage() {
 
       {/* Selection Criteria */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-[#D4E8F8] rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-2xl p-3 sm:p-4 md:p-5 lg:p-8 border-l-4 border-[#7cb983]">
           <h2 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Selection Criteria for Choosing Ph.D Institution</h2>
           <ul className="space-y-4 text-gray-800 text-xs sm:text-sm">
             <li className="flex items-start">
@@ -1280,7 +1280,7 @@ export default function PhDPage() {
             {expandedFAQ === 0 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research program that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The program involves original research contributing new knowledge to fields like drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral Learners work under expert Learning Facilitators to conduct experiments, analyze data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification.
+                  Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research programme that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The programme involves original research contributing new knowledge to fields like drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral Learners work under expert Learning Facilitators to conduct experiments, analyze data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification.
                 </p>
               </div>
             )}
@@ -1376,7 +1376,7 @@ export default function PhDPage() {
             {expandedFAQ === 4 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Direct Ph.D after B.Pharm is available through Integrated Ph.D programs at select premier institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research in a seamless pathway. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Selection through entrance test (NIPER JEE/GATE) and interview. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries still prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge.
+                  Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select premier institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research in a seamless pathway. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Selection through entrance test (NIPER JEE/GATE) and interview. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries still prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge.
                 </p>
               </div>
             )}
@@ -1414,7 +1414,7 @@ export default function PhDPage() {
                 expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">What are the specializations available in Ph.D Pharmacy?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">What are the specialisations available in Ph.D Pharmacy?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 6 ? 'rotate-180' : ''
@@ -1424,7 +1424,7 @@ export default function PhDPage() {
             {expandedFAQ === 6 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Ph.D in Pharmacy offers specializations: (1) Pharmaceutics - NDDS, nanotechnology, 3D printing, biopharmaceutics, formulation development, Quality by Design (QbD); (2) Pharmacology - drug mechanisms, toxicology, clinical pharmacology, neuropharmacology, cardiovascular pharmacology; (3) Pharmaceutical Chemistry - drug synthesis, medicinal chemistry, computational drug design, SAR studies, green chemistry; (4) Pharmacognosy - natural products, phytochemistry, herbal drug development, ethnopharmacology, marine pharmacognosy; (5) Pharmaceutical Analysis - analytical method development, bioanalysis, quality control, hyphenated techniques; (6) Pharmacy Practice - clinical pharmacy, pharmacovigilance, pharmacoeconomics, medication therapy management. Choice depends on M.Pharm background and research interest.
+                  Ph.D in Pharmacy offers specialisations: (1) Pharmaceutics - NDDS, nanotechnology, 3D printing, biopharmaceutics, formulation development, Quality by Design (QbD); (2) Pharmacology - drug mechanisms, toxicology, clinical pharmacology, neuropharmacology, cardiovascular pharmacology; (3) Pharmaceutical Chemistry - drug synthesis, medicinal chemistry, computational drug design, SAR studies, green chemistry; (4) Pharmacognosy - natural products, phytochemistry, herbal drug development, ethnopharmacology, marine pharmacognosy; (5) Pharmaceutical Analysis - analytical method development, bioanalysis, quality control, hyphenated techniques; (6) Pharmacy Practice - clinical pharmacy, pharmacovigilance, pharmacoeconomics, medication therapy management. Choice depends on M.Pharm background and research interest.
                 </p>
               </div>
             )}
@@ -1511,7 +1511,7 @@ export default function PhDPage() {
             <GraduationCap className="w-10 h-10" />
             <span>Ready to Embark on Your Doctoral Journey?</span>
           </h2>
-          <p className="text-xs sm:text-sm mb-6">Join our Ph.D program and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, state-of-the-art facilities, and industry connections await you.</p>
+          <p className="text-xs sm:text-sm mb-6">Join our Ph.D programme and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, state-of-the-art facilities, and industry connections await you.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#E55A25] transition-colors shadow-lg">
               Apply for Ph.D 2026
@@ -1520,7 +1520,7 @@ export default function PhDPage() {
               Download Prospectus
             </button>
           </div>
-          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | AICTE Recognized | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
+          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | AICTE Recognised | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
         </div>
       </div>
 
@@ -1533,13 +1533,13 @@ export default function PhDPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
           {/* Regulatory Approvals */}
-          <div className="bg-[#D4E8F8] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Regulatory Approvals</h3>
             <ul className="space-y-4 text-gray-800 text-xs sm:text-sm">
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
                 <div>
-                  <span className="font-bold">Pharmacy Council of India (PCI):</span> Mandatory approval for all pharmacy programs including Ph.D
+                  <span className="font-bold">Pharmacy Council of India (PCI):</span> Mandatory approval for all pharmacy programmes including Ph.D
                 </div>
               </li>
               <li className="flex items-start">
@@ -1551,7 +1551,7 @@ export default function PhDPage() {
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
                 <div>
-                  <span className="font-bold">University Affiliation:</span> Ph.D degree granted by UGC-recognized university
+                  <span className="font-bold">University Affiliation:</span> Ph.D degree granted by UGC-recognised university
                 </div>
               </li>
               <li className="flex items-start">
@@ -1564,7 +1564,7 @@ export default function PhDPage() {
           </div>
 
           {/* Research Quality Indicators */}
-          <div className="bg-[#FFE4D6] rounded-xl p-5 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-5 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Research Quality Indicators</h3>
             <ul className="space-y-4 text-gray-800 text-xs sm:text-sm">
               <li className="flex items-start">

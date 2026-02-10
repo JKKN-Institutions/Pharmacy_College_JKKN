@@ -16,7 +16,7 @@ export default function ResearchPage() {
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* Introduction */}
           <p className="text-justify">
-            Research at JKKN College of Pharmacy is driven by our unwavering commitment to achieve our institution's vision and mission. As a leading global innovative solutions provider, we understand the paramount importance of research in addressing the ever-changing needs of society. Our vision puts us to excel in the field of pharmaceutical research and take on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, we firmly believe in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. Our research activities revolve around this concept, enabling us to create a platform that opens up exponential opportunities for all stakeholders.
+            Research at JKKN College of Pharmacy is driven by our unwavering commitment to achieve our institution's vision and mission. As a leading global innovative solutions provider, we understand the paramount importance of research in addressing the ever-changing needs of society. Our vision pushes us to excel in the field of pharmaceutical research and take on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, we firmly believe in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. Our research activities revolve around this concept, enabling us to create a platform that opens up exponential opportunities for all stakeholders.
           </p>
 
           {/* Research Activities */}
@@ -122,7 +122,7 @@ export default function ResearchPage() {
               Institutional Ethics Committee
             </h2>
             <p className="text-justify mb-4">
-              JKKN College of Pharmacy Institutional Ethics Committee(JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognized and approved Ethics Committee by the Department of Health Research, Government of India, we are entrusted with the responsibility of reviewing research proposals from within our institution as well as from external sources. The scope of our committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. We accept proposals for the following types of studies:
+              JKKN College of Pharmacy Institutional Ethics Committee (JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognised and approved Ethics Committee by the Department of Health Research, Government of India, we are entrusted with the responsibility of reviewing research proposals from within our institution as well as from external sources. The scope of our committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. We accept proposals for the following types of studies:
             </p>
             <ul className="space-y-2 ml-6">
               <li className="text-gray-700">• Academic Clinical trials</li>
@@ -136,16 +136,16 @@ export default function ResearchPage() {
               Our Ethics Committee is committed to ensuring the highest standards of ethical conduct in research. By providing a transparent and efficient review process, we strive to safeguard the rights, safety, and welfare of all participants involved.
             </p>
             <p className="text-justify mb-2">
-              If you would like to submit a research proposal for review by our committee, contact.
+              If you would like to submit a research proposal for review by our committee, please contact.
             </p>
             <div className="ml-6">
               <p className="text-gray-700 font-semibold">The Member Secretary</p>
               <p className="text-gray-700">Institutional Ethics Committee</p>
               <p className="text-gray-700">J.K.K.Nattraja College of Pharmacy,</p>
               <p className="text-gray-700">Kumarapalayam, Namakkal District,</p>
-              <p className="text-gray-700">Tamilnadu-638183</p>
+              <p className="text-gray-700">Tamil Nadu - 638183</p>
               <p className="text-gray-700">Email: ihec@jkkn.ac.in</p>
-              <p className="text-gray-700">Ph: 9345855001</p>
+              <p className="text-gray-700">Ph: +91 93458 55001</p>
             </div>
           </div>
 

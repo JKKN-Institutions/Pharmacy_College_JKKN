@@ -47,7 +47,7 @@ export default function CampusRecruitmentPage() {
                 SKN organics Pvt ltd, Pudhucherry, visited our college for campus interview on 04.07..2018.
               </p>
               <p className="text-justify">
-                JKKNcollege of Pharmacy, Kumarapalayam has a Placement cell facilitating campus recruitment for multinational and national organizations. It plays a very important and key role in counseling and guiding the students of the college for their successful career. Placement cell JKKN College of Pharmacy, Kumarapalayam organized on campus interview for Pharm.D and B.Pharm students on 19.6.18. EPI Source India Pvt. Ltd is one of the most leading healthcare professional company, visited our college for campus interview.
+                JKKNcollege of Pharmacy, Kumarapalayam has a Placement cell facilitating campus recruitment for multinational and national organizations. It plays a very important and key role in counselling and guiding the students of the college for their successful career. Placement cell JKKN College of Pharmacy, Kumarapalayam organized on campus interview for Pharm.D and B.Pharm students on 19.6.18. EPI Source India Pvt. Ltd is one of the most leading healthcare professional company, visited our college for campus interview.
               </p>
             </div>
 

@@ -26,7 +26,7 @@ export default function BPharmLateralEntryPage() {
 
           {/* Subtitle */}
           <p className="text-xs sm:text-sm mb-3 font-medium">
-            Gateway to the Pharmaceutical Industry | 4-Year Undergraduate Program
+            Gateway to the Pharmaceutical Industry | 4-Year Undergraduate Programme
           </p>
 
           {/* Lateral Entry Info */}
@@ -89,7 +89,7 @@ export default function BPharmLateralEntryPage() {
       {/* Transform Your Future Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4 opacity-20">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">
             B.Pharm Laboratory Facilities
           </h2>
           <h3 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-2">
@@ -114,11 +114,11 @@ export default function BPharmLateralEntryPage() {
           <div className="border-t-4 border-[#7cb983] mb-8"></div>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-4">
-            <strong>Bachelor of Pharmacy (B.Pharm)</strong> is a 4-year undergraduate professional degree program approved by the <strong>Pharmacy Council of India (PCI)</strong>. This comprehensive program prepares Learners for diverse careers in the pharmaceutical industry, hospital pharmacy, community pharmacy, research and development, regulatory affairs, and pharmaceutical marketing.
+            <strong>Bachelor of Pharmacy (B.Pharm)</strong> is a 4-year undergraduate professional degree programme approved by the <strong>Pharmacy Council of India (PCI)</strong>. This comprehensive programme prepares Learners for diverse careers in the pharmaceutical industry, hospital pharmacy, community pharmacy, research and development, regulatory affairs, and pharmaceutical marketing.
           </p>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-4">
-            The B.Pharm curriculum integrates theoretical knowledge with practical skills across multiple pharmaceutical disciplines including <strong>Pharmaceutical Chemistry</strong>, <strong>Pharmaceutics</strong>, <strong>Pharmacology</strong>, <strong>Pharmacognosy</strong>, <strong>Pharmaceutical Analysis</strong>, and <strong>Pharmacy Practice</strong>. Learners develop competencies in drug formulation, quality control, drug dispensing, patient counseling, and pharmaceutical research through hands-on laboratory work, industrial training, and hospital exposure.
+            The B.Pharm curriculum integrates theoretical knowledge with practical skills across multiple pharmaceutical disciplines including <strong>Pharmaceutical Chemistry</strong>, <strong>Pharmaceutics</strong>, <strong>Pharmacology</strong>, <strong>Pharmacognosy</strong>, <strong>Pharmaceutical Analysis</strong>, and <strong>Pharmacy Practice</strong>. Learners develop competencies in drug formulation, quality control, drug dispensing, patient counselling, and pharmaceutical research through hands-on laboratory work, industrial training, and hospital exposure.
           </p>
 
           {/* Why Choose B.Pharm Box */}
@@ -180,7 +180,7 @@ export default function BPharmLateralEntryPage() {
           {/* Industrial Training */}
           <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Industrial Training</h3>
-            <p className="text-xs sm:text-sm font-semibold">Industrial Training Program</p>
+            <p className="text-xs sm:text-sm font-semibold">Industrial Training Programme</p>
           </div>
 
           {/* Research Facilities */}
@@ -237,7 +237,7 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Program Structure:</h4>
+                    <h4 className="font-bold text-[#006837] mb-3">Programme Structure:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -315,11 +315,11 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Program Structure:</h4>
+                    <h4 className="font-bold text-[#006837] mb-3">Programme Structure:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
-                        <span><strong>Direct Entry:</strong> Join 2nd year of B.Pharm program</span>
+                        <span><strong>Direct Entry:</strong> Join 2nd year of B.Pharm programme</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -394,7 +394,7 @@ export default function BPharmLateralEntryPage() {
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">Prior Learning Recognized:</strong> D.Pharm foundation subjects not repeated
+                <strong className="text-[#006837]">Prior Learning Recognised:</strong> D.Pharm foundation subjects not repeated
               </div>
             </li>
           </ul>
@@ -644,7 +644,7 @@ export default function BPharmLateralEntryPage() {
           <div className="border-t-4 border-[#7cb983] mb-8"></div>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-8">
-            The B.Pharm curriculum follows the <strong>Pharmacy Council of India (PCI)</strong> prescribed syllabus, ensuring uniformity and quality across all approved institutions. The program combines theoretical knowledge with practical skills through 8 semesters of rigorous training.
+            The B.Pharm curriculum follows the <strong>Pharmacy Council of India (PCI)</strong> prescribed syllabus, ensuring uniformity and quality across all approved institutions. The programme combines theoretical knowledge with practical skills through 8 semesters of rigorous training.
           </p>
 
           {/* Year-wise Curriculum Grid */}
@@ -1625,10 +1625,10 @@ export default function BPharmLateralEntryPage() {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
-                      Step 3: Counseling Registration
+                      Step 3: Counselling Registration
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
-                      Register for state counseling process. Pay counseling fee. Upload required documents.
+                      Register for state counselling process. Pay counselling fee. Upload required documents.
                     </p>
                   </div>
                 </div>
@@ -1719,10 +1719,10 @@ export default function BPharmLateralEntryPage() {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
-                      Step 3: Application & Counseling
+                      Step 3: Application & Counselling
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
-                      Apply through state counseling or directly to colleges. Attend counseling for seat allotment.
+                      Apply through state counselling or directly to colleges. Attend counselling for seat allotment.
                     </p>
                   </div>
                 </div>
@@ -2034,7 +2034,7 @@ export default function BPharmLateralEntryPage() {
               {expandedFAQ === 5 && (
                 <div className="p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    Yes, B.Pharm graduates can work internationally. Gulf Countries (UAE, Saudi Arabia): Easiest pathway - degree directly recognized, tax-free salary ₹60K-1.5L/month. USA: Requires FPGEC + NAPLEX exam ($70,000-120,000/year). UK: OSPAP + GPhC exam. Australia: KAPS exam. Pharmaceutical industry jobs abroad may not require pharmacist license.
+                    Yes, B.Pharm graduates can work internationally. Gulf Countries (UAE, Saudi Arabia): Easiest pathway - degree directly recognised, tax-free salary ₹60K-1.5L/month. USA: Requires FPGEC + NAPLEX exam ($70,000-120,000/year). UK: OSPAP + GPhC exam. Australia: KAPS exam. Pharmaceutical industry jobs abroad may not require pharmacist license.
                   </p>
                 </div>
               )}
@@ -2101,7 +2101,7 @@ export default function BPharmLateralEntryPage() {
                 }`}
               >
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
-                  Which M.Pharm specialization is best?
+                  Which M.Pharm specialisation is best?
                 </h3>
                 <ChevronDown
                   className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
@@ -2112,7 +2112,7 @@ export default function BPharmLateralEntryPage() {
               {expandedFAQ === 8 && (
                 <div className="p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    Best specialization depends on career goals. For jobs: Pharmaceutics (formulation, most versatile), Pharmaceutical Analysis (QC/QA roles). For research: Pharmacology (drug discovery), Pharmaceutical Chemistry. For patient care: Pharmacy Practice (clinical pharmacy). Job availability: Pharmaceutics &gt; Pharmaceutical Analysis &gt; Pharmacology. Choose Pharmaceutics for maximum job flexibility.
+                    Best specialisation depends on career goals. For jobs: Pharmaceutics (formulation, most versatile), Pharmaceutical Analysis (QC/QA roles). For research: Pharmacology (drug discovery), Pharmaceutical Chemistry. For patient care: Pharmacy Practice (clinical pharmacy). Job availability: Pharmaceutics &gt; Pharmaceutical Analysis &gt; Pharmacology. Choose Pharmaceutics for maximum job flexibility.
                   </p>
                 </div>
               )}
@@ -2161,7 +2161,7 @@ export default function BPharmLateralEntryPage() {
           </a>
           <div className="mt-8 space-y-2">
             <p className="text-xs sm:text-sm">
-              PCI Approved | AICTE Recognized | NAAC Accredited | 95%+ Placement Record
+              PCI Approved | AICTE Recognised | NAAC Accredited | 95%+ Placement Record
             </p>
             <p className="text-xs sm:text-sm">
               Regular Entry | Lateral Entry Available | Scholarships for Meritorious Learners

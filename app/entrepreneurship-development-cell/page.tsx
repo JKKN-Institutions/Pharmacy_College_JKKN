@@ -57,7 +57,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Awareness Creation:</strong> Organize seminars, workshops, and awareness programs to educate students about the opportunities and challenges in entrepreneurship.
+                      <strong>Awareness Creation:</strong> Organize seminars, workshops, and awareness programmes to educate students about the opportunities and challenges in entrepreneurship.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -139,7 +139,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Mentorship Programs:</strong> Connect students with experienced mentors for guidance and support.
+                      <strong>Mentorship Programmes:</strong> Connect students with experienced mentors for guidance and support.
                     </span>
                   </li>
                   <li className="flex items-start">

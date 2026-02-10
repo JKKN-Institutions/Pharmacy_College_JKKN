@@ -61,7 +61,7 @@ export default function PharmacyCouncilPage() {
                       JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI), New Delhi. PCI is a statutory body constituted under Section 3 of the Pharmacy Act, 1948, which regulates the profession and practice of Pharmacy in India.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The PCI approval ensures that our pharmacy education programs meet the standards set by the council and comply with the regulations for pharmaceutical education in India.
+                      The PCI approval ensures that our pharmacy education programmes meet the standards set by the council and comply with the regulations for pharmaceutical education in India.
                     </p>
                   </div>
 
@@ -107,12 +107,12 @@ export default function PharmacyCouncilPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">PCI Approved Programs</h2>
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">PCI Approved Programmes</h2>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse border border-gray-300">
                         <thead>
                           <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Program</th>
+                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Programme</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Duration</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">PCI Approval Status</th>
                           </tr>

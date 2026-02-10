@@ -106,7 +106,7 @@ export default function AdmissionProcessPage() {
                 <li>
                   <strong>Application Form Cost: ₹1000/-.</strong> Concessions apply for SC/ST candidates upon producing a photocopy of their community certificate.
                   <br />
-                  <span className="block mt-2">b) To be eligible for PG courses, candidates must have passed a four-year B.Pharm degree (under the 10+2+2/3 pattern) recognized by the University or its equivalent.</span>
+                  <span className="block mt-2">b) To be eligible for PG courses, candidates must have passed a four-year B.Pharm degree (under the 10+2+2/3 pattern) recognised by the University or its equivalent.</span>
                   <br />
                   <span className="block mt-2">c) The Admission Committee will determine the last date for receiving filled-in applications after the announcement of UG results by the respective Universities.</span>
                   <br />

@@ -52,7 +52,7 @@ export default function PharmaceuticalEducationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Pharmaceutical Education</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize our educational programs to meet the evolving needs of the pharmaceutical industry and healthcare sector. Our comprehensive approach focuses on curriculum innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
+                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize our educational programmes to meet the evolving needs of the pharmaceutical industry and healthcare sector. Our comprehensive approach focuses on curriculum innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
                     </p>
                   </div>
 
@@ -94,7 +94,7 @@ export default function PharmaceuticalEducationPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Develop continuous faculty development programs to enhance teaching quality and pedagogical skills</span>
+                        <span className="text-sm sm:text-base text-gray-700">Develop continuous faculty development programmes to enhance teaching quality and pedagogical skills</span>
                       </li>
                     </ul>
                   </div>
@@ -104,10 +104,10 @@ export default function PharmaceuticalEducationPage() {
                     <div className="space-y-3 sm:space-y-4">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Outcome-Based Education (OBE)</h4>
-                        <p className="text-gray-700 text-sm">Implementing outcome-based learning framework with clearly defined program outcomes, assessment methods, and continuous improvement mechanisms aligned with PCI and NBA standards.</p>
+                        <p className="text-gray-700 text-sm">Implementing outcome-based learning framework with clearly defined programme outcomes, assessment methods, and continuous improvement mechanisms aligned with PCI and NBA standards.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Experiential Learning Programs</h4>
+                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Experiential Learning Programmes</h4>
                         <p className="text-gray-700 text-sm">Expanding hands-on learning opportunities through pharmaceutical industry visits, clinical rotations, research projects, and community pharmacy practice experiences.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">

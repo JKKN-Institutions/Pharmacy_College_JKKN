@@ -46,7 +46,7 @@ export default function HealthFacilitiesPage() {
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
                 <span className="text-gray-700">
-                  <strong>Dedicated Dental Hospital</strong> – Offering dental check-ups, oral hygiene treatments, and specialized dental care for students and staff.
+                  <strong>Dedicated Dental Hospital</strong> – Offering dental check-ups, oral hygiene treatments, and specialised dental care for students and staff.
                 </span>
               </li>
               <li className="flex items-start">
@@ -86,7 +86,7 @@ export default function HealthFacilitiesPage() {
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
                 <span className="text-gray-700">
-                  <strong>Mental Health & Counseling Services</strong> – Professional counselors and psychologists to support mental well-being.
+                  <strong>Mental Health & Counselling Services</strong> – Professional counselors and psychologists to support mental well-being.
                 </span>
               </li>
               <li className="flex items-start">
@@ -160,10 +160,10 @@ export default function HealthFacilitiesPage() {
             </ul>
           </div>
 
-          {/* Section 5: Holistic Health & Wellness Programs */}
+          {/* Section 5: Holistic Health & Wellness Programmes */}
           <div>
             <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              5. Holistic Health & Wellness Programs
+              5. Holistic Health & Wellness Programmes
             </h3>
 
             <ul className="space-y-3 ml-6">
@@ -176,7 +176,7 @@ export default function HealthFacilitiesPage() {
               <li className="flex items-start">
                 <span className="text-black mr-3 mt-1">■</span>
                 <span className="text-gray-700">
-                  <strong>Awareness Programs on Nutrition & Lifestyle</strong> – Educating students on healthy living and disease prevention.
+                  <strong>Awareness Programmes on Nutrition & Lifestyle</strong> – Educating students on healthy living and disease prevention.
                 </span>
               </li>
               <li className="flex items-start">

@@ -45,7 +45,7 @@ export default function SportsPage() {
               JKKN College of Pharmacy Sports Facility
             </h2>
             <p className="text-justify mb-4">
-              At JKKN College of Pharmacy, Physical Education is an integral part of our educational philosophy, fostering the comprehensive development of every learner. Our state-of-the-art sports facilities and dedicated programs reflect our commitment to nurturing not just academic excellence but physical fitness, mental resilience, and overall well-being.
+              At JKKN College of Pharmacy, Physical Education is an integral part of our educational philosophy, fostering the comprehensive development of every learner. Our state-of-the-art sports facilities and dedicated programmes reflect our commitment to nurturing not just academic excellence but physical fitness, mental resilience, and overall well-being.
             </p>
           </div>
 
@@ -133,13 +133,13 @@ export default function SportsPage() {
             </ul>
           </div>
 
-          {/* Sports Programs & Activities */}
+          {/* Sports Programmes & Activities */}
           <div>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 sm:mb-6">
-              Sports Programs & Activities
+              Sports Programmes & Activities
             </h2>
             <p className="text-justify mb-4 sm:mb-6">
-              JKKN College of Pharmacy offers a diverse range of sports programs designed to cater to learners of all skill levels:
+              JKKN College of Pharmacy offers a diverse range of sports programmes designed to cater to learners of all skill levels:
             </p>
             <ul className="space-y-4 ml-6">
               <li className="flex items-start">

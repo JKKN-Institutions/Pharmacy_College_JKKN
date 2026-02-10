@@ -52,14 +52,14 @@ export default function COEPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Center of Excellence (COE)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Center of Excellence (COE) strategic plan aims to establish specialized centers that promote advanced learning, cutting-edge research, and innovation in specific pharmaceutical disciplines.
+                      The Center of Excellence (COE) strategic plan aims to establish specialised centers that promote advanced learning, cutting-edge research, and innovation in specific pharmaceutical disciplines.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To become a nationally recognized hub for excellence in pharmaceutical sciences through specialized centers that deliver world-class education, research, and innovation.
+                      To become a nationally recognised hub for excellence in pharmaceutical sciences through specialised centers that deliver world-class education, research, and innovation.
                     </p>
                   </div>
 
@@ -70,13 +70,13 @@ export default function COEPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Establish specialized centers in key pharmaceutical disciplines</span>
+                        <span className="text-sm sm:text-base text-gray-700">Establish specialised centers in key pharmaceutical disciplines</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Attract renowned faculty and researchers in specialized fields</span>
+                        <span className="text-sm sm:text-base text-gray-700">Attract renowned faculty and researchers in specialised fields</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ export default function COEPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Promote high-impact research and publications in specialized areas</span>
+                        <span className="text-sm sm:text-base text-gray-700">Promote high-impact research and publications in specialised areas</span>
                       </li>
                     </ul>
                   </div>
@@ -108,7 +108,7 @@ export default function COEPage() {
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Clinical Pharmacy and Healthcare</h4>
-                        <p className="text-gray-700 text-sm">Specialized training and research in clinical pharmacy practice, pharmacotherapy, and patient care.</p>
+                        <p className="text-gray-700 text-sm">Specialised training and research in clinical pharmacy practice, pharmacotherapy, and patient care.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Pharmaceutical Analysis and Quality Assurance</h4>
@@ -134,7 +134,7 @@ export default function COEPage() {
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Year 2</td>
-                            <td className="border border-gray-300 px-4 py-3">Launch of first COE and research programs</td>
+                            <td className="border border-gray-300 px-4 py-3">Launch of first COE and research programmes</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Year 3</td>

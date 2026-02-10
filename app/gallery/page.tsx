@@ -11,12 +11,12 @@ export default function GalleryPage() {
     { title: 'World Oral Health Day', image: '/images/World-Oral-Health-Day-gallery.webp' },
     { title: 'Stem Cell Conference', image: '/images/Stem-cell-gallery.webp' },
     { title: '35th College Day', image: '/images/35th-College-Day-gallery.webp' },
-    { title: 'ANTI RAGGING SEMINAR', image: '/images/ANTI-RAGGING-SEMINAR-gallery.webp' },
+    { title: 'ANTI-RAGGING SEMINAR', image: '/images/ANTI-RAGGING-SEMINAR-gallery.webp' },
     { title: '26th Graduation Day', image: '/images/26th-Graduation-Day-gallery.webp' },
-    { title: 'Anti Cancer Day', image: '/images/Basic-Of-Cancer-and-Awareness-gallery.webp' },
-    { title: 'Fire and safety Demonstration', image: '/images/Fire-and-safety-gallery.webp' },
+    { title: 'Anti-Cancer Day', image: '/images/Basic-Of-Cancer-and-Awareness-gallery.webp' },
+    { title: 'Fire and Safety Demonstration', image: '/images/Fire-and-safety-gallery.webp' },
     { title: 'Prosthodontist Day', image: '/images/Prosthodontist-Day-gallery.webp' },
-    { title: 'Yoga day', image: '/images/Yoga-day-gallery.webp' },
+    { title: 'Yoga Day', image: '/images/Yoga-day-gallery.webp' },
   ]
 
   return (

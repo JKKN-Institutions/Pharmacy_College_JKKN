@@ -194,8 +194,8 @@
     @apply w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 rounded-full flex items-center justify-center;
   }
 
-  /* Responsive program card header */
-  .program-card-header {
+  /* Responsive programme card header */
+  .programme-card-header {
     @apply flex flex-col xs:flex-row items-start xs:items-center gap-3 xs:gap-4 mb-4;
   }
 

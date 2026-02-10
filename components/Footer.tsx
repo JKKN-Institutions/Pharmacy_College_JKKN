@@ -25,8 +25,8 @@ export default function Footer() {
             </div>
 
             <p className="text-[10px] xs:text-xs font-semibold mt-auto">
-              Best Innovation Focused<br />
-              Multi-Disciplinary Campus
+              Best Innovation-Focused<br />
+              Multidisciplinary Campus
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
                 >
-                  JKKN Dental College and Hospital
+                  JKKN Dental College & Hospital
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
                 >
-                  JKKN College Of Allied Health Science
+                  JKKN College Of Allied Health Sciences
                 </a>
               </li>
               <li>
@@ -73,7 +73,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-gray-300 transition-colors inline-block"
                 >
-                  Srisakthimayeil Institute of Nursing and Research
+                  Sresakthimayeil Institute of Nursing and Research
                 </a>
               </li>
               <li>
@@ -141,7 +141,7 @@ export default function Footer() {
                   href="tel:+919345855001"
                   className="hover:text-gray-300 transition-colors inline-block"
                 >
-                  +919345855001
+                  +91 93458 55001
                 </a>
               </p>
               <p className="flex flex-col sm:flex-row sm:items-center gap-0.5 sm:gap-2">
@@ -156,7 +156,7 @@ export default function Footer() {
               <div>
                 <strong className="font-semibold block mb-0.5">Address:</strong>
                 <p className="leading-snug">
-                  JKKN College of Pharmacy, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT), Tamil Nadu, 638183.
+                  JKKN College of Pharmacy, Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183
                 </p>
               </div>
             </div>

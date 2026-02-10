@@ -61,7 +61,7 @@ export default function UniversityAffiliationPage() {
                       JKKN College of Pharmacy is affiliated with <strong>The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>, one of the most prestigious medical universities in Tamil Nadu.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The university affiliation ensures that our degrees are recognized and that our academic programs meet the high standards set by the university for pharmaceutical education.
+                      The university affiliation ensures that our degrees are recognised and that our academic programmes meet the high standards set by the university for pharmaceutical education.
                     </p>
                   </div>
 
@@ -110,12 +110,12 @@ export default function UniversityAffiliationPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Affiliated Programs</h2>
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Affiliated Programmes</h2>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse border border-gray-300">
                         <thead>
                           <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Program</th>
+                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Programme</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Degree Awarded By</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Affiliation Status</th>
                           </tr>
@@ -178,7 +178,7 @@ export default function UniversityAffiliationPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
-                          Recognized degrees with national and international acceptance
+                          Recognised degrees with national and international acceptance
                         </span>
                       </li>
                       <li className="flex items-start">

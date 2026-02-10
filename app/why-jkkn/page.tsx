@@ -18,7 +18,7 @@ export default function WhyJKKNPage() {
           {/* Content Paragraphs */}
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             <p className="text-justify">
-              The College of Pharmacy is dedicated to offering comprehensive programs that effectively equip students for the multifaceted demands of the pharmacy profession. These programs are meticulously designed to nurture a deep understanding of the technological, legal, civic, and ethical aspects intrinsic to the field. Rooted in a commitment to fostering professional, intellectual, social, and personal growth, the college strives to prepare its students to embark on their careers with competence and integrity.
+              The College of Pharmacy is dedicated to offering comprehensive programmes that effectively equip students for the multifaceted demands of the pharmacy profession. These programmes are meticulously designed to nurture a deep understanding of the technological, legal, civic, and ethical aspects intrinsic to the field. Rooted in a commitment to fostering professional, intellectual, social, and personal growth, the college strives to prepare its students to embark on their careers with competence and integrity.
             </p>
 
             <p className="text-justify">

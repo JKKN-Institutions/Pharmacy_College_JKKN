@@ -81,7 +81,7 @@ export default function AICTEPage() {
                       <table className="w-full border-collapse border border-gray-300">
                         <thead>
                           <tr className="bg-gray-100">
-                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Program</th>
+                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Programme</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Approval Status</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Intake</th>
                           </tr>

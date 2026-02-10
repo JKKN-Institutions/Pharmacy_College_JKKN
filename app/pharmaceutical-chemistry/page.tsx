@@ -17,9 +17,12 @@ export default function PharmaceuticalChemistryPage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <GraduationCap className="w-12 h-12 mx-auto mb-4" />
+        <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
+            <GraduationCap className="w-10 h-10" />
+            DOCTORAL PROGRAMME 2026
+          </div>
           <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">M.Pharm in Pharmaceutical Chemistry 2026</h1>
           <p className="text-xs sm:text-sm">Master Drug Design, Medicinal Chemistry & Organic Synthesis</p>
         </div>
@@ -32,7 +35,7 @@ export default function PharmaceuticalChemistryPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialization program focusing on drug design, organic synthesis, structure-activity relationships (SAR), and computer-aided drug design (CADD). This chemistry-intensive program trains students in synthetic organic chemistry techniques, molecular modeling, spectroscopic analysis, and rational drug design principles to discover and optimize new drug molecules. Students conduct extensive laboratory work in chemical synthesis, characterization, and computational chemistry. Graduates pursue careers as Medicinal Chemists, Synthetic Chemists, Drug Discovery Scientists in pharmaceutical R&D, biotechnology companies, and academic research, contributing to the discovery of life-saving medicines.
+              M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation programme focusing on drug design, organic synthesis, structure-activity relationships (SAR), and computer-aided drug design (CADD). This chemistry-intensive programme trains students in synthetic organic chemistry techniques, molecular modeling, spectroscopic analysis, and rational drug design principles to discover and optimize new drug molecules. Students conduct extensive laboratory work in chemical synthesis, characterization, and computational chemistry. Graduates pursue careers as Medicinal Chemists, Synthetic Chemists, Drug Discovery Scientists in pharmaceutical R&D, biotechnology companies, and academic research, contributing to the discovery of life-saving medicines.
             </p>
           </div>
 
@@ -89,7 +92,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">SPECIALIZATION FOCUS</h3>
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm pr-4">SPECIALISATION FOCUS</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 2 ? 'rotate-180' : ''
@@ -876,7 +879,7 @@ export default function PharmaceuticalChemistryPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Academic Faculty / Researcher</h3>
             <div className="bg-[#7cb983] text-white px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹40K-60K/Month
+              ₹60,000-80,000/month
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
@@ -1046,11 +1049,11 @@ export default function PharmaceuticalChemistryPage() {
         </div>
       </div>
 
-      {/* M.Pharm Pharmaceutical Chemistry vs Other Specializations */}
+      {/* M.Pharm Pharmaceutical Chemistry vs Other Specialisations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Pharmaceutical Chemistry vs Other Specializations</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Pharmaceutical Chemistry vs Other Specialisations</h2>
         </div>
 
         <div className="overflow-x-auto shadow-lg rounded-lg">
@@ -1093,7 +1096,7 @@ export default function PharmaceuticalChemistryPage() {
               </tr>
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
                 <td className="px-6 py-4 font-bold text-[#006837]">Prerequisite Knowledge</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Strong organic chemistry mandatory</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">GPAT/Entrance Exam mandatory</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Formulation science, minimal organic chemistry</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Analytical techniques, basic chemistry</td>
               </tr>
@@ -1111,7 +1114,7 @@ export default function PharmaceuticalChemistryPage() {
               </tr>
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
                 <td className="px-6 py-4 font-bold text-[#006837]">Industry Demand</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate (specialized drug discovery roles, research-focused)</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate (specialised drug discovery roles, research-focused)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">High (R&D companies, innovation priority)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Very High (universal need across companies)</td>
               </tr>
@@ -1162,12 +1165,12 @@ export default function PharmaceuticalChemistryPage() {
         </div>
       </div>
 
-      {/* Choosing the Right Specialization */}
+      {/* Choosing the Right Specialisation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-8 h-8" />
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Choosing the Right Specialization:</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Choosing the Right Specialisation:</h3>
           </div>
 
           <div className="space-y-6">
@@ -1217,7 +1220,7 @@ export default function PharmaceuticalChemistryPage() {
 
             <div className="mt-6 p-4 bg-white rounded-lg">
               <p className="text-[#006837] font-bold mb-2">Key Insight:</p>
-              <p className="text-xs sm:text-sm text-gray-700">Pharmaceutical Chemistry is for those who genuinely love organic chemistry and chemical synthesis. It's not for those who just want to avoid other subjects or are looking for "easy" specialization. Success requires strong chemistry foundation and research aptitude.</p>
+              <p className="text-xs sm:text-sm text-gray-700">Pharmaceutical Chemistry is for those who genuinely love organic chemistry and chemical synthesis. It's not for those who just want to avoid other subjects or are looking for "easy" specialisation. Success requires strong chemistry foundation and research aptitude.</p>
             </div>
           </div>
         </div>
@@ -1232,7 +1235,7 @@ export default function PharmaceuticalChemistryPage() {
 
         {/* Ph.D in Pharmaceutical Sciences */}
         <div className="mb-8">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutical Chemistry Specialization</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmaceutical Chemistry Specialisation</h3>
 
           <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 mb-6 border-l-4 border-[#7cb983]">
             <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Research Areas in Pharmaceutical Chemistry:</h4>
@@ -1296,7 +1299,7 @@ export default function PharmaceuticalChemistryPage() {
                 </tr>
                 <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
                   <td className="px-6 py-4 font-bold text-[#006837]">GATE (Chemistry/Biotechnology)</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹31,000/month. Valid for IITs and MHRD fellowship programs.</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹31,000/month. Valid for IITs and MHRD fellowship programmes.</td>
                 </tr>
                 <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
                   <td className="px-6 py-4 font-bold text-[#006837]">University Entrance</td>
@@ -1304,7 +1307,7 @@ export default function PharmaceuticalChemistryPage() {
                 </tr>
                 <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
                   <td className="px-6 py-4 font-bold text-[#006837]">Direct Ph.D (Industry-Sponsored)</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Some pharmaceutical companies sponsor Ph.D programs with salary continuation.</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Some pharmaceutical companies sponsor Ph.D programmes with salary continuation.</td>
                 </tr>
               </tbody>
             </table>
@@ -1348,7 +1351,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Molecular Modeling & CADD Courses:</span> Specialized training in Schrodinger, MOE, Discovery Studio software.</span>
+              <span><span className="text-[#006837] font-bold">Molecular Modeling & CADD Courses:</span> Specialised training in Schrodinger, MOE, Discovery Studio software.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1382,7 +1385,7 @@ export default function PharmaceuticalChemistryPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Self-Assessment & Chemistry Foundation Check (September-October 2025)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Honestly assess organic chemistry aptitude. Review B.Pharm organic chemistry performance. Test yourself on reaction mechanisms and synthesis problems. If struggled with organic chemistry, reconsider this specialization. Research colleges with good synthesis laboratories and spectroscopy facilities.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Honestly assess organic chemistry aptitude. Review B.Pharm organic chemistry performance. Test yourself on reaction mechanisms and synthesis problems. If struggled with organic chemistry, reconsider this specialisation. Research colleges with good synthesis laboratories and spectroscopy facilities.</p>
               </div>
             </div>
           </div>
@@ -1421,7 +1424,7 @@ export default function PharmaceuticalChemistryPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">GPAT Results & College Research (March-May 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Check results on NTA website. Research M.Pharm Pharmaceutical Chemistry programs. <span className="text-[#006837] font-bold">Critical:</span> Verify synthesis laboratory facilities, spectroscopy equipment (NMR, Mass Spec), and faculty research publications in chemistry journals.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Check results on NTA website. Research M.Pharm Pharmaceutical Chemistry programmes. <span className="text-[#006837] font-bold">Critical:</span> Verify synthesis laboratory facilities, spectroscopy equipment (NMR, Mass Spec), and faculty research publications in chemistry journals.</p>
               </div>
             </div>
           </div>
@@ -1433,8 +1436,8 @@ export default function PharmaceuticalChemistryPage() {
                 5
               </div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Counseling & Seat Selection (May-July 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register for AICTE/state counseling. Submit preferences with Pharmaceutical Chemistry specialization. Prioritize colleges with active chemistry research. Accept seat and pay fees within deadline.</p>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Counselling & Seat Selection (May-July 2026)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">Register for AICTE/state counselling. Submit preferences with Pharmaceutical Chemistry specialisation. Prioritize colleges with active chemistry research. Accept seat and pay fees within deadline.</p>
               </div>
             </div>
           </div>
@@ -1613,7 +1616,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmaceutical Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q1: What is M.Pharm in Pharmaceutical Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 0 ? 'rotate-180' : ''
@@ -1623,7 +1626,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialization focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Students learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The program emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialization is ideal for those with strong organic chemistry background interested in drug discovery research.
+                  M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Students learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research.
                 </p>
               </div>
             )}
@@ -1637,7 +1640,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q2: What is the salary after M.Pharm Pharmaceutical Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q2: What is the salary after M.Pharm Pharmaceutical Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 1 ? 'rotate-180' : ''
@@ -1661,7 +1664,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q3: What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q3: What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 0 ? 'rotate-180' : ''
@@ -1671,7 +1674,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programs. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimization of lead compounds for therapeutic use. In M.Pharm programs, both terms generally refer to the same specialization covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the program name, but the content and outcomes are essentially the same.
+                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimization of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the programme name, but the content and outcomes are essentially the same.
                 </p>
               </div>
             )}
@@ -1685,7 +1688,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q4: Can I do PhD after M.Pharm Pharmaceutical Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q4: Can I do PhD after M.Pharm Pharmaceutical Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 1 ? 'rotate-180' : ''
@@ -1695,7 +1698,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 1 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, M.Pharm Pharmaceutical Chemistry graduates can pursue Ph.D through CSIR-NET (Chemical Sciences), UGC-NET, GATE, or university entrance tests. Research areas include drug design and discovery, medicinal chemistry, synthetic organic chemistry, CADD, structure-based drug design, natural product chemistry, and heterocyclic chemistry. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior medicinal chemist positions earning ₹25-45 lakhs, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT, NCL), NIPER, ICT Mumbai, and chemistry departments of universities offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmaceutical Chemistry Ph.D graduates are highly valued in drug discovery research at pharmaceutical companies and academic institutions both in India and abroad.
+                  Yes, M.Pharm Pharmaceutical Chemistry graduates can pursue Ph.D through CSIR-NET (Chemical Sciences), UGC-NET, GATE, or university entrance tests. Research areas include drug design and discovery, medicinal chemistry, synthetic organic chemistry, CADD, structure-based drug design, natural product chemistry, and heterocyclic chemistry. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior medicinal chemist positions earning ₹25-45 lakhs, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT, NCL), NIPER, ICT Mumbai, and chemistry departments of universities offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmaceutical Chemistry Ph.D graduates are highly valued in drug discovery research at pharmaceutical companies and academic institutions both in India and abroad.
                 </p>
               </div>
             )}
@@ -1709,7 +1712,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q5: Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q5: Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 2 ? 'rotate-180' : ''
@@ -1719,7 +1722,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 2 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialization is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, found it confusing, or lack genuine interest in molecular structures, this specialization will be very difficult and frustrating. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead. Success requires genuine aptitude and interest in organic chemistry, not just memorization.
+                  Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, found it confusing, or lack genuine interest in molecular structures, this specialisation will be very difficult and frustrating. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead. Success requires genuine aptitude and interest in organic chemistry, not just memorization.
                 </p>
               </div>
             )}
@@ -1733,7 +1736,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q6: What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q6: What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 3 ? 'rotate-180' : ''
@@ -1743,7 +1746,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 3 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Pharmaceutical Chemistry focuses on creating and designing drug molecules through organic synthesis, while Pharmaceutical Analysis focuses on testing and quality control of existing drugs using analytical instruments. Chemistry involves synthesis work (making compounds), mechanism studies, structure modification, and drug design. Analysis involves instrument operation (HPLC, GC-MS), method validation, quality testing, and regulatory compliance. Chemistry requires strong organic chemistry background; Analysis requires understanding of analytical techniques and instruments. Chemistry offers medicinal chemist roles in discovery R&D (₹6-12 lakhs); Analysis offers QC/QA roles across all pharma companies (₹4-8 lakhs). Chemistry has moderate specialized demand; Analysis has universal high demand. Choose Chemistry if you love organic synthesis; choose Analysis if you prefer instrument operation and quality testing.
+                  Pharmaceutical Chemistry focuses on creating and designing drug molecules through organic synthesis, while Pharmaceutical Analysis focuses on testing and quality control of existing drugs using analytical instruments. Chemistry involves synthesis work (making compounds), mechanism studies, structure modification, and drug design. Analysis involves instrument operation (HPLC, GC-MS), method validation, quality testing, and regulatory compliance. Chemistry requires strong organic chemistry background; Analysis requires understanding of analytical techniques and instruments. Chemistry offers medicinal chemist roles in discovery R&D (₹6-12 lakhs); Analysis offers QC/QA roles across all pharma companies (₹4-8 lakhs). Chemistry has moderate specialised demand; Analysis has universal high demand. Choose Chemistry if you love organic synthesis; choose Analysis if you prefer instrument operation and quality testing.
                 </p>
               </div>
             )}
@@ -1757,7 +1760,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q7: Are jobs available for Pharmaceutical Chemistry graduates in India?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q7: Are jobs available for Pharmaceutical Chemistry graduates in India?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 4 ? 'rotate-180' : ''
@@ -1767,7 +1770,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 4 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, but jobs are more specialized and concentrated compared to QC/Production roles. Employment opportunities exist in: (1) Multinational pharmaceutical R&D centers (GSK, Pfizer, Novartis, AstraZeneca) in Bangalore, Hyderabad, Mumbai - highest paying (₹6-12 lakhs); (2) Indian pharmaceutical companies with discovery programs (Sun, Dr. Reddy's, Biocon, Zydus) - good opportunities (₹5-10 lakhs); (3) Biotech companies and CROs focusing on drug discovery (Jubilant, Syngene, GVK) - growing sector (₹5-9 lakhs); (4) CSIR labs (CDRI, IICT, NCL) and academic institutions - research positions (₹40K-80K/month); (5) Process chemistry roles in API manufacturing. Challenges: Fewer positions than QC/formulation, concentrated in metro cities (Bangalore, Hyderabad, Mumbai, Ahmedabad), requires strong chemistry skills. Best prospects for those with good publications, Ph.D qualification, or experience in reputed labs.
+                  Yes, but jobs are more specialised and concentrated compared to QC/Production roles. Employment opportunities exist in: (1) Multinational pharmaceutical R&D centers (GSK, Pfizer, Novartis, AstraZeneca) in Bangalore, Hyderabad, Mumbai - highest paying (₹6-12 lakhs); (2) Indian pharmaceutical companies with discovery programmes (Sun, Dr. Reddy's, Biocon, Zydus) - good opportunities (₹5-10 lakhs); (3) Biotech companies and CROs focusing on drug discovery (Jubilant, Syngene, GVK) - growing sector (₹5-9 lakhs); (4) CSIR labs (CDRI, IICT, NCL) and academic institutions - research positions (₹40K-80K/month); (5) Process chemistry roles in API manufacturing. Challenges: Fewer positions than QC/formulation, concentrated in metro cities (Bangalore, Hyderabad, Mumbai, Ahmedabad), requires strong chemistry skills. Best prospects for those with good publications, Ph.D qualification, or experience in reputed labs.
                 </p>
               </div>
             )}
@@ -1781,7 +1784,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q8: Can I work in formulation or production after Pharmaceutical Chemistry?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q8: Can I work in formulation or production after Pharmaceutical Chemistry?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 5 ? 'rotate-180' : ''
@@ -1791,7 +1794,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 5 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, but not ideal utilization of specialization. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialized formulation training in tablet compression, coating, NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D (method development), drug discovery. If you want formulation career, Pharmaceutics specialization is more appropriate choice than Chemistry. Choose specialization based on actual career interest, not as backup plan.
+                  Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D (method development), drug discovery. If you want formulation career, Pharmaceutics specialisation is more appropriate choice than Chemistry. Choose specialisation based on actual career interest, not as backup plan.
                 </p>
               </div>
             )}
@@ -1805,7 +1808,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q9: Is M.Pharm Pharmaceutical Chemistry difficult?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q9: Is M.Pharm Pharmaceutical Chemistry difficult?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 6 ? 'rotate-180' : ''
@@ -1815,7 +1818,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 6 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry, found it interesting in B.Pharm, and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry, found it confusing, or dislike laboratory synthesis work, it will be very difficult. The program requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimization), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It's arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work), but similar to or easier than Ph.D level research. Success factors: Strong organic chemistry foundation, patience for experimental work, logical thinking for mechanism problems, genuine interest in molecular design. Choose based on aptitude, not perceived difficulty.
+                  Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry, found it interesting in B.Pharm, and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry, found it confusing, or dislike laboratory synthesis work, it will be very difficult. The programme requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimization), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It's arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work), but similar to or easier than Ph.D level research. Success factors: Strong organic chemistry foundation, patience for experimental work, logical thinking for mechanism problems, genuine interest in molecular design. Choose based on aptitude, not perceived difficulty.
                 </p>
               </div>
             )}
@@ -1829,7 +1832,7 @@ export default function PharmaceuticalChemistryPage() {
                 expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">Q10: What is the scope of Pharmaceutical Chemistry internationally?</h3>
+              <h3 className="text-sm font-bold text-[#006837] pr-4">Q10: What is the scope of Pharmaceutical Chemistry internationally?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 7 ? 'rotate-180' : ''
@@ -1839,7 +1842,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 7 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Excellent international scope for Pharmaceutical Chemistry graduates, especially with Ph.D. USA: Medicinal chemist positions at pharma companies (Pfizer, Merck, Bristol Myers Squibb) earning $80,000-130,000. Ph.D programs fully funded with $28,000-35,000/year stipends at top universities (Michigan, UCSF, Purdue). Europe: Positions in Switzerland (Novartis, Roche), UK (GSK, AstraZeneca), Germany. Ph.D programs with €1,500-2,500/month stipends. Requirements: For jobs - Ph.D + postdoc experience preferred. For Ph.D admission - strong academic record, TOEFL/IELTS, GRE (for USA), research publications help significantly. Canada/Australia: Growing biotech sectors with opportunities. Pharmaceutical Chemistry is globally recognized specialization. Organic synthesis skills are universally valued. International migration easier with Ph.D compared to M.Pharm alone. Postdoctoral research (2-4 years after Ph.D) common pathway earning $50,000-65,000/year in USA.
+                  Excellent international scope for Pharmaceutical Chemistry graduates, especially with Ph.D. USA: Medicinal chemist positions at pharma companies (Pfizer, Merck, Bristol Myers Squibb) earning $80,000-130,000. Ph.D programmes fully funded with $28,000-35,000/year stipends at top universities (Michigan, UCSF, Purdue). Europe: Positions in Switzerland (Novartis, Roche), UK (GSK, AstraZeneca), Germany. Ph.D programmes with €1,500-2,500/month stipends. Requirements: For jobs - Ph.D + postdoc experience preferred. For Ph.D admission - strong academic record, TOEFL/IELTS, GRE (for USA), research publications help significantly. Canada/Australia: Growing biotech sectors with opportunities. Pharmaceutical Chemistry is globally recognised specialisation. Organic synthesis skills are universally valued. International migration easier with Ph.D compared to M.Pharm alone. Postdoctoral research (2-4 years after Ph.D) common pathway earning $50,000-65,000/year in USA.
                 </p>
               </div>
             )}
@@ -1891,7 +1894,7 @@ export default function PharmaceuticalChemistryPage() {
           <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">5. Patent & IP Generation Opportunities</h3>
             <p className="text-gray-700 leading-relaxed">
-              Medicinal chemists frequently generate intellectual property through novel chemical entities, synthetic routes, and drug modifications. Being inventor on pharmaceutical patents adds significant career value, provides recognition, and can generate royalty income. Patent portfolio demonstrates innovation capability valued in both industry and academic positions. Chemistry specialization offers more patent opportunities than most other pharmacy specializations.
+              Medicinal chemists frequently generate intellectual property through novel chemical entities, synthetic routes, and drug modifications. Being inventor on pharmaceutical patents adds significant career value, provides recognition, and can generate royalty income. Patent portfolio demonstrates innovation capability valued in both industry and academic positions. Chemistry specialisation offers more patent opportunities than most other pharmacy specialisations.
             </p>
           </div>
 
@@ -1907,7 +1910,7 @@ export default function PharmaceuticalChemistryPage() {
           <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">7. Global Recognition & Mobility</h3>
             <p className="text-gray-700 leading-relaxed">
-              Medicinal chemistry is universally recognized and valued worldwide. Chemical structures, reactions, and synthesis principles are universal language transcending geographic boundaries. This makes international career migration easier. Ph.D programs abroad actively recruit students with strong chemistry backgrounds. Postdoctoral positions and industry jobs available globally. Your chemistry expertise travels with you regardless of location.
+              Medicinal chemistry is universally recognised and valued worldwide. Chemical structures, reactions, and synthesis principles are universal language transcending geographic boundaries. This makes international career migration easier. Ph.D programmes abroad actively recruit students with strong chemistry backgrounds. Postdoctoral positions and industry jobs available globally. Your chemistry expertise travels with you regardless of location.
             </p>
           </div>
         </div>
@@ -1917,7 +1920,7 @@ export default function PharmaceuticalChemistryPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] rounded-2xl p-12 text-center shadow-2xl">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-6 text-white">Ready to Design Tomorrow's Medicines?</h2>
-          <p className="text-white text-xs sm:text-sm mb-8">Join our M.Pharm Pharmaceutical Chemistry program and become a medicinal chemistry expert!</p>
+          <p className="text-white text-xs sm:text-sm mb-8">Join our M.Pharm Pharmaceutical Chemistry programme and become a medicinal chemistry expert!</p>
 
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
@@ -1940,11 +1943,11 @@ export default function PharmaceuticalChemistryPage() {
         <ul className="space-y-4 mb-8 text-xs sm:text-sm text-gray-700">
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
-            <span><span className="text-[#006837] font-bold">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programs. PCI ensures adequate faculty qualifications, laboratory facilities, and research infrastructure. Verify approval status on pci.nic.in.</span>
+            <span><span className="text-[#006837] font-bold">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programmes. PCI ensures adequate faculty qualifications, laboratory facilities, and research infrastructure. Verify approval status on pci.nic.in.</span>
           </li>
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
-            <span><span className="text-[#006837] font-bold">University Affiliation:</span> Program must be affiliated with The Tamil Nadu Dr. M.G.R. Medical University authorized to award M.Pharm degrees. Verify university accreditation.</span>
+            <span><span className="text-[#006837] font-bold">University Affiliation:</span> Programme must be affiliated with The Tamil Nadu Dr. M.G.R. Medical University authorized to award M.Pharm degrees. Verify university accreditation.</span>
           </li>
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>

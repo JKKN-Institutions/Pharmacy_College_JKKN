@@ -70,7 +70,7 @@ export default function EDCPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Promote entrepreneurship awareness and skills among students through workshops, seminars, and training programs</span>
+                        <span className="text-sm sm:text-base text-gray-700">Promote entrepreneurship awareness and skills among students through workshops, seminars, and training programmes</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -82,7 +82,7 @@ export default function EDCPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Create mentorship programs connecting students with successful pharmaceutical entrepreneurs</span>
+                        <span className="text-sm sm:text-base text-gray-700">Create mentorship programmes connecting students with successful pharmaceutical entrepreneurs</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ export default function EDCPage() {
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Entrepreneurship Bootcamps</h4>
-                        <p className="text-gray-700 text-sm">Conducting intensive training programs covering business planning, market research, financial management, and regulatory compliance in pharmaceutical sector.</p>
+                        <p className="text-gray-700 text-sm">Conducting intensive training programmes covering business planning, market research, financial management, and regulatory compliance in pharmaceutical sector.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Industry Collaboration</h4>
@@ -136,7 +136,7 @@ export default function EDCPage() {
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Phase 2</td>
-                            <td className="border border-gray-300 px-4 py-3">Launch of training programs and mentorship initiatives</td>
+                            <td className="border border-gray-300 px-4 py-3">Launch of training programmes and mentorship initiatives</td>
                             <td className="border border-gray-300 px-4 py-3">Year 1-2</td>
                           </tr>
                           <tr>

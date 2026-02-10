@@ -15,11 +15,11 @@ export default function AlumniPage() {
 
           <div className="space-y-6 text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
             <p>
-              The Alumni Committee at J.K.K.Nattraja College of Pharmacy is an active body that maintains the alumni relations and interactions with the Institute. The Alumni Committee takes responsibility to organize a grand alumni meet and maintain an alumni database. The committee is actively involved in strengthening the relationship between alumni and the Institute. In addition, the committee strives to have general feedback on infrastructure of the college and teaching-learning process from alumni. The alumni meet is held in the month of December every year. The committee encourages alumni to speak in a free environment to share their current experiences and past thoughts with regard to academics.
+              The Alumni Committee at JKKN College of Pharmacy is an active body that maintains the alumni relations and interactions with the Institute. The Alumni Committee takes responsibility to organize a grand alumni meet and maintain an alumni database. The committee is actively involved in strengthening the relationship between alumni and the Institute. In addition, the committee strives to have general feedback on infrastructure of the college and teaching-learning process from alumni. The alumni meet is held in the month of December every year. The committee encourages alumni to speak in a free environment to share their current experiences and past thoughts with regard to academics.
             </p>
 
             <p>
-              At JKK Nattraja College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the J.K.K.Nattraja campus has hosted various alumni meets where alumni have given valuable suggestions.
+              At JKKN College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the J.K.K.Nattraja campus has hosted various alumni meets where alumni have given valuable suggestions.
             </p>
           </div>
 
@@ -44,7 +44,7 @@ export default function AlumniPage() {
               <li className="flex items-start">
                 <span className="text-gray-900 mr-3">•</span>
                 <span className="text-gray-700">
-                  To make a platform for alumni to get together and share their past evergreen memorable events and life during their study at the Institution.
+                  To make a platform for alumni to get together and share their cherished memories and experiences from their time at the Institution at the Institution.
                 </span>
               </li>
               <li className="flex items-start">
@@ -76,7 +76,7 @@ export default function AlumniPage() {
 
           <div className="mb-4 sm:mb-6 md:mb-8">
             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-              The co-ordinators of the committee conducts a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
+            The coordinators of the committee conduct a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">

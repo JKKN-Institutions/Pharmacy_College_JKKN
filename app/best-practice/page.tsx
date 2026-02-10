@@ -137,10 +137,10 @@ export default function BestPracticePage() {
               <strong>Problems Encountered:</strong>
             </p>
             <p className="text-justify mb-3">
-              <strong>●</strong> <strong>Resistance to change:</strong> Implementing the OKR framework, Agile methodologies, and collaboration tools may face resistance from stakeholders accustomed to traditional methods of accreditation. Effective change management strategies, communication, and training programs are necessary to address this challenge.
+              <strong>●</strong> <strong>Resistance to change:</strong> Implementing the OKR framework, Agile methodologies, and collaboration tools may face resistance from stakeholders accustomed to traditional methods of accreditation. Effective change management strategies, communication, and training programmes are necessary to address this challenge.
             </p>
             <p className="text-justify mb-3">
-              <strong>●</strong> <strong>Skill gaps and training:</strong> Committee members and working group participants may require training to understand Agile principles and effectively utilize the software tools. Comprehensive training programs and resources to bridge skill gaps and ensure proficiency is essential for successful implementation.
+              <strong>●</strong> <strong>Skill gaps and training:</strong> Committee members and working group participants may require training to understand Agile principles and effectively utilize the software tools. Comprehensive training programmes and resources to bridge skill gaps and ensure proficiency is essential for successful implementation.
             </p>
             <p className="text-justify mb-3">
               <strong>●</strong> <strong>Limited resources:</strong> The practice may face limitations due to limited financial resources and technological infrastructure. Adequate resources are required for procuring software licenses, providing training, and ensuring a stable digital infrastructure for seamless implementation.
@@ -155,13 +155,13 @@ export default function BestPracticePage() {
               <strong>Resources Required:</strong>
             </p>
             <p className="text-justify mb-3">
-              <strong>●</strong> <strong>Training and professional development programs:</strong> Resources are needed to design and conduct training programs that educate faculty, staff, and committee members about Agile principles, the use of Agile boards, and effective task planning and collaboration techniques.
+              <strong>●</strong> <strong>Training and professional development programmes:</strong> Resources are needed to design and conduct training programmes that educate faculty, staff, and committee members about Agile principles, the use of Agile boards, and effective task planning and collaboration techniques.
             </p>
             <p className="text-justify mb-3">
               <strong>●</strong> <strong>Technical support:</strong> Adequate technical support should be available to address any issues or challenges faced while using the software tools. This may include having dedicated IT personnel or access to technical support from the software providers to ensure smooth operation and troubleshoot technical difficulties.
             </p>
             <p className="text-justify mb-3">
-              <strong>●</strong> <strong>Financial resources:</strong> Sufficient financial resources are required to invest in software licenses, infrastructure upgrades (if necessary), training programs, and ongoing maintenance and support for the software tools. Financial planning should be done to ensure the sustainability and effectiveness of the practice.
+              <strong>●</strong> <strong>Financial resources:</strong> Sufficient financial resources are required to invest in software licenses, infrastructure upgrades (if necessary), training programmes, and ongoing maintenance and support for the software tools. Financial planning should be done to ensure the sustainability and effectiveness of the practice.
             </p>
             <p className="text-justify mb-3">
               <strong>●</strong> <strong>Communication and collaboration platforms:</strong> Along with software tools like Taskade and Agile boards, institutions may require access to suitable communication and collaboration platforms to facilitate seamless information sharing, discussions, and real-time updates among committee members and working groups.
@@ -235,7 +235,7 @@ export default function BestPracticePage() {
           <div>
             <p className="text-justify font-semibold mb-3">The Context:</p>
             <p className="text-justify">
-              Our institution J.K.K.Nattraja College of Pharmacy, Kumarapalayam, is dedicated to fostering a dynamic educational environment that prioritizes experiential learning as a pivotal component of our pharmacy education framework. Recognizing the significance of bridging the gap between theoretical knowledge and practical application in the field of pharmacy, our institution has undertaken a concerted effort to develop and implement a robust experiential learning program. This program aims to equip our pharmacy students by providing them with hands-on opportunities to engage with real-world healthcare scenarios, thereby enhancing their practical competence, nurturing patient-centered care values, and fostering critical thinking skills. Through this experiential learning approach, we endeavor to align academic pursuits with professional realities, equipping our students with the holistic skills and interdisciplinary perspectives required to excel as competent and compassionate pharmacists in today's evolving healthcare landscape.
+              Our institution J.K.K.Nattraja College of Pharmacy, Kumarapalayam, is dedicated to fostering a dynamic educational environment that prioritizes experiential learning as a pivotal component of our pharmacy education framework. Recognizing the significance of bridging the gap between theoretical knowledge and practical application in the field of pharmacy, our institution has undertaken a concerted effort to develop and implement a robust experiential learning programme. This programme aims to equip our pharmacy students by providing them with hands-on opportunities to engage with real-world healthcare scenarios, thereby enhancing their practical competence, nurturing patient-centered care values, and fostering critical thinking skills. Through this experiential learning approach, we endeavor to align academic pursuits with professional realities, equipping our students with the holistic skills and interdisciplinary perspectives required to excel as competent and compassionate pharmacists in today's evolving healthcare landscape.
             </p>
           </div>
 
@@ -249,7 +249,7 @@ export default function BestPracticePage() {
               J.K.K.Nattraja College of Pharmacy in Kumarapalayam has taken a commendable step by establishing a Drug Information Centre, showcasing its commitment to comprehensive pharmaceutical education. This innovative initiative serves as a vital link between theoretical knowledge and practical application, providing students with a unique platform for experiential learning. The Drug Information Centre not only grants students access to a wide range of pharmaceutical resources but also cultivates their analytical and problem-solving skills through real-world drug information inquiries. By engaging with genuine queries from healthcare professionals and patients, students gain valuable insights into drug-related problem-solving, bolstering their understanding of pharmacotherapy, patient care, and evidence-based decision-making. This transformative experience equips students with the necessary tools for their future careers while bridging the gap between theory and practice, fostering well-rounded pharmaceutical professionals who can make meaningful contributions to the healthcare ecosystem.
             </p>
             <p className="text-justify">
-              The establishment of the Pradhan Mantri Bhartiya Janaushadhi Kendra at Komarapalayam by J.K.K.Nattraja College of Pharmacy, Kumarapalayam, demonstrates the institution's dedication to serving the rural community. This initiative improves accessibility to affordable medicines and raises healthcare awareness among the underserved population. Students actively contribute to drug and disease management through patient counseling, providing personalized guidance to enhance rural healthcare. This immersive experience allows students to apply theoretical knowledge in real-world situations, refining their skills and understanding the challenges of healthcare delivery in rural areas. This holistic approach benefits the community by improving healthcare access and empowers students with practical insights, nurturing competent future healthcare professionals.
+              The establishment of the Pradhan Mantri Bhartiya Janaushadhi Kendra at Komarapalayam by J.K.K.Nattraja College of Pharmacy, Kumarapalayam, demonstrates the institution's dedication to serving the rural community. This initiative improves accessibility to affordable medicines and raises healthcare awareness among the underserved population. Students actively contribute to drug and disease management through patient counselling, providing personalized guidance to enhance rural healthcare. This immersive experience allows students to apply theoretical knowledge in real-world situations, refining their skills and understanding the challenges of healthcare delivery in rural areas. This holistic approach benefits the community by improving healthcare access and empowers students with practical insights, nurturing competent future healthcare professionals.
             </p>
           </div>
 
@@ -275,7 +275,7 @@ export default function BestPracticePage() {
               <strong>Documentation of Activities:</strong> Institutions can maintain detailed records of activities conducted within the Adverse Drug Monitoring Centre. This could include reports on the number of adverse events identified, assessed, and reported, as well as any feedback/MoM's from healthcare professionals or authorities.
             </p>
             <p className="text-justify mb-3">
-              <strong>Community Engagement:</strong> Photographs, videos, or reports showcasing the active participation of students in patient counseling sessions, health camps, and other community engagement activities can serve as visual evidence of the initiative's implementation.
+              <strong>Community Engagement:</strong> Photographs, videos, or reports showcasing the active participation of students in patient counselling sessions, health camps, and other community engagement activities can serve as visual evidence of the initiative's implementation.
             </p>
             <p className="text-justify mb-3">
               <strong>Student Query:</strong> A student at J.K.K.Nattraja College of Pharmacy received a drug information inquiry from a healthcare professional at the local hospital. The student at the Drug Information Centre researched the medications in question, consulted relevant pharmaceutical databases, and provided a comprehensive response to the inquiry. The exchange between the student and the healthcare professional can be documented as evidence of the Drug Information Centre's effectiveness. Additionally, tracking similar interactions and compiling a record of inquiries, responses, and outcomes can provide a broader picture of how the Drug Information Centre is contributing to practical learning and problem-solving for students.
@@ -310,7 +310,7 @@ export default function BestPracticePage() {
               <strong>Financial Support:</strong> Funding for organizing events, purchasing supplies, and maintaining partnerships.
             </p>
             <p className="text-justify mb-3">
-              <strong>Training Programs:</strong> Sessions for students on effective communication, cultural competence, and community engagement.
+              <strong>Training Programmes:</strong> Sessions for students on effective communication, cultural competence, and community engagement.
             </p>
             <p className="text-justify mb-3">
               <strong>Collaborative Networks:</strong> Partnerships with local healthcare facilities, NGOs, and community leaders.

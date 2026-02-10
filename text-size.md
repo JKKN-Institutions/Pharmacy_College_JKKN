@@ -154,7 +154,7 @@ Complete documentation of all text sizes used across the website for all respons
 
 ---
 
-### 4. Academic Programs Section
+### 4. Academic Programmes Section
 
 #### Card Titles
 - **320px-374px:** 20px (`text-xl`)
@@ -440,7 +440,7 @@ Complete documentation of all text sizes used across the website for all respons
 
 ---
 
-### 13. BDS/MDS Program Pages
+### 13. BDS/MDS Programme Pages
 
 #### Hero Title
 - **320px-767px:** 36px (`text-4xl`)

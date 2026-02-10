@@ -35,7 +35,7 @@ export default function NAACPage() {
             <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
               {/* Section Header */}
               <div className="bg-[#0F6B3E] text-white px-6 py-4">
-                <h2 className="text-lg font-bold">OVER VIEW</h2>
+                <h2 className="text-lg font-bold">OVERVIEW</h2>
               </div>
 
               {/* Navigation Links */}
@@ -177,7 +177,7 @@ export default function NAACPage() {
                         <div>
                           <h3 className="text-xl font-semibold text-gray-900 mb-3">(iv) Promoting the Use of Technology:</h3>
                           <p className="text-gray-700 leading-relaxed mb-4">
-                            Most of the significant developments that one can observe today can be attributed to the impact of Science and Technology. While the advantages of using modern tools and technological innovations in the day-to-day-life are well recognized, the corresponding changes in the use of new technologies, for teaching learning and governance of HEIs, leaves much to be desired. Technological advancement and innovations in educational transactions have to be undertaken by all HEIs, to make a visible impact on academic development as well as administration. At a time when our educational institutions are expected to perform as good as their global partners, significant technological innovations have to be adopted. Traditional methods of delivering higher education have become less motivating to a large number of students. To keep pace with the developments in other spheres of human endeavor, HEIs have to enrich the learning experiences of their students by providing them with state-of-the-art educational technologies. The campus community must be adequately prepared to make use of Information and Communication Technology (ICT) optimally. Conscious effort is also needed to invest in hardware and to orient the faculty suitably.
+                            Most of the significant developments that one can observe today can be attributed to the impact of Science and Technology. While the advantages of using modern tools and technological innovations in the day-to-day-life are well recognised, the corresponding changes in the use of new technologies, for teaching learning and governance of HEIs, leaves much to be desired. Technological advancement and innovations in educational transactions have to be undertaken by all HEIs, to make a visible impact on academic development as well as administration. At a time when our educational institutions are expected to perform as good as their global partners, significant technological innovations have to be adopted. Traditional methods of delivering higher education have become less motivating to a large number of students. To keep pace with the developments in other spheres of human endeavor, HEIs have to enrich the learning experiences of their students by providing them with state-of-the-art educational technologies. The campus community must be adequately prepared to make use of Information and Communication Technology (ICT) optimally. Conscious effort is also needed to invest in hardware and to orient the faculty suitably.
                           </p>
                           <p className="text-gray-700 leading-relaxed">
                             In addition to using technology as a learning resource, managing the activities of the institution in a technology-enabled way will ensure effective institutional functioning. For example, documentation and data management in the HEIs are areas where the process of assessment by NAAC has made a significant impact. Moving towards electronic data management and having institutional website to provide ready and relevant information to stakeholders are desirable steps in this direction. In other words, effective use of ICT in HEIs will be able to provide ICT literacy to the campus community, using ICT for resource sharing and networking, as well as adopting ICT-enabled administrative processes. Therefore, NAAC accreditation would look at how the HEIs have put in place their electronic data management systems and electronic resources and their access to internal and external stakeholders particularly the student community.
@@ -230,7 +230,7 @@ export default function NAACPage() {
                           After launching the same, several modifications and updates have been carried. Recently, an update of the manual is in line with the NEP-2020 recommendations.
                         </p>
                         <p className="text-gray-700 leading-relaxed">
-                          Again in January 2022, metrics related to seven criteria including both QnM and QlM have been now reduced to ease the Assessment and Accreditation process of NAAC for Affiliated/Constituent Colleges without compromising the quality aspects in Higher Education. The stakeholders of Higher Education have given their feedback to reduce the degree of magnitude of predicament faced by them during the process of filling their Self Study Report. Accordingly, NAAC has constituted a specialized team to look into the methodology adapted in the Revised Accreditation Framework (RAF), to facilitate all the Higher Education Institutions in the country. The Ministry of Education and University Grants Commission have requested NAAC to go for the ease of doing Accreditation of Higher Education Institutions to reach the unreached, especially in far-flung regions from different parts of the country.
+                          Again in January 2022, metrics related to seven criteria including both QnM and QlM have been now reduced to ease the Assessment and Accreditation process of NAAC for Affiliated/Constituent Colleges without compromising the quality aspects in Higher Education. The stakeholders of Higher Education have given their feedback to reduce the degree of magnitude of predicament faced by them during the process of filling their Self Study Report. Accordingly, NAAC has constituted a specialised team to look into the methodology adapted in the Revised Accreditation Framework (RAF), to facilitate all the Higher Education Institutions in the country. The Ministry of Education and University Grants Commission have requested NAAC to go for the ease of doing Accreditation of Higher Education Institutions to reach the unreached, especially in far-flung regions from different parts of the country.
                         </p>
                       </div>
 
@@ -530,7 +530,7 @@ export default function NAACPage() {
                                 <td className="border border-gray-300 px-4 py-3 text-sm">
                                   Number of workshops/seminars/conferences including on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship conducted during the last five years
                                   <br />
-                                  <span className="text-xs mt-2 block">3.2.2.1. Total number of workshops/seminars/conferences including programs conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship year wise during last five years</span>
+                                  <span className="text-xs mt-2 block">3.2.2.1. Total number of workshops/seminars/conferences including programmes conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship year wise during last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
                                   <a href="/pdf/3.2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
@@ -561,9 +561,9 @@ export default function NAACPage() {
                               <tr>
                                 <td className="border border-gray-300 px-4 py-3">3.4.3</td>
                                 <td className="border border-gray-300 px-4 py-3 text-sm">
-                                  Number of extension and outreach programs conducted by the institution through organised forums including NSS/NCC with involvement of community during the last five years.
+                                  Number of extension and outreach programmes conducted by the institution through organised forums including NSS/NCC with involvement of community during the last five years.
                                   <br />
-                                  <span className="text-xs mt-2 block">3.4.3.1. Number of extension and outreach Programs conducted in collaboration with industry, community, and NonGovernment Organizations through NSS/ NCC etc., year wise during the last five years</span>
+                                  <span className="text-xs mt-2 block">3.4.3.1. Number of extension and outreach Programmes conducted in collaboration with industry, community, and NonGovernment Organizations through NSS/ NCC etc., year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
                                   <a href="/pdf/3.4.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
@@ -733,7 +733,7 @@ export default function NAACPage() {
                               <tr className="bg-gray-50">
                                 <td className="border border-gray-300 px-4 py-3">5.3.2</td>
                                 <td className="border border-gray-300 px-4 py-3 text-sm">
-                                  Average number of sports and cultural programs in which students of the Institution participated during last five years (organised by the institution/other institutions) 5.3.2.1. Number of sports and cultural programs in which students of the Institution participated year wise during last five years
+                                  Average number of sports and cultural programmes in which students of the Institution participated during last five years (organised by the institution/other institutions) 5.3.2.1. Number of sports and cultural programmes in which students of the Institution participated year wise during last five years
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
                                   <a href="/pdf/5.3.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
@@ -786,9 +786,9 @@ export default function NAACPage() {
                               <tr>
                                 <td className="border border-gray-300 px-4 py-3">6.3.3</td>
                                 <td className="border border-gray-300 px-4 py-3 text-sm">
-                                  Percentage of teaching and non-teaching staff participating in Faculty development Programmes (FDP), Management Development Programmes (MDPs) professional development /administrative training programs during the last five years
+                                  Percentage of teaching and non-teaching staff participating in Faculty development Programmes (FDP), Management Development Programmes (MDPs) professional development /administrative training programmes during the last five years
                                   <br />
-                                  <span className="text-xs mt-2 block">6.3.3.1. Total number of teaching and non-teaching staff participating in Faculty development Programmes (FDP), Management Development Programmes (MDPs) professional development /administrative training programs during the last five years</span>
+                                  <span className="text-xs mt-2 block">6.3.3.1. Total number of teaching and non-teaching staff participating in Faculty development Programmes (FDP), Management Development Programmes (MDPs) professional development /administrative training programmes during the last five years</span>
                                   <br />
                                   <span className="text-xs mt-1 block">6.3.3.2. Number of non-teaching staff year wise during the last five years</span>
                                 </td>
@@ -807,9 +807,9 @@ export default function NAACPage() {
                                   <br />
                                   <span className="text-xs mt-1 block">3. Collaborative quality initiatives with other institution(s)</span>
                                   <br />
-                                  <span className="text-xs mt-1 block">4. Participation in NIRF and other recognized rankings</span>
+                                  <span className="text-xs mt-1 block">4. Participation in NIRF and other recognised rankings</span>
                                   <br />
-                                  <span className="text-xs mt-1 block">5. Any other quality audit/accreditation recognized by state, national or international agencies such as NAAC, NBA etc</span>
+                                  <span className="text-xs mt-1 block">5. Any other quality audit/accreditation recognised by state, national or international agencies such as NAAC, NBA etc</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
                                   <a href="/pdf/6.5.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>

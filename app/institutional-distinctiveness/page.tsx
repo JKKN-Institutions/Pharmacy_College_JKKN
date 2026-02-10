@@ -27,7 +27,7 @@ export default function InstitutionalDistinctivenessPage() {
             </p>
 
             <p className="text-justify">
-              Recognized Excellence: The institution's consistent 4 and 5-star ratings over the past five years in IIC, serve as a validation of its commitment to quality education and innovative practices.
+              Recognised Excellence: The institution's consistent 4 and 5-star ratings over the past five years in IIC, serve as a validation of its commitment to quality education and innovative practices.
             </p>
 
             <p className="text-justify">
@@ -43,7 +43,7 @@ export default function InstitutionalDistinctivenessPage() {
                   Mr. M. Hariharan, a B.Pharm student, received the "Young Achievers Award" at the "BEST ACHIEVER'S AWARD – 2023."It has been recorded in the Magic Book of Record.
                 </li>
                 <li className="text-gray-700">
-                  Our students were selected for the Grand Finale of the Tamil Nadu Student Innovators (TNSI)-2018 program.
+                  Our students were selected for the Grand Finale of the Tamil Nadu Student Innovators (TNSI)-2018 programme.
                   <br />
                   In 2019 our Pharm.D students were awarded in the National Entrepreneurship Summit and Idea Challenge.
                 </li>
@@ -347,7 +347,7 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="mt-6">
                 <p className="text-gray-700 text-justify">
-                  Finale based on their performance in the boot camp, which focused on creating a prototype of an affordable medicated patch for diabetic foot ulcer patients' diagnosis, protection, prevention, and first aid. The event took place at Anna University Regional Campus Coimbatore from February 11–13, 2019, as part of the Tamil Nadu Student Innovators (TNSI)-2018 state level program, which aims to develop the state's entrepreneurial ecosystem (Entrepreneurship Development Innovation Institution) and raise awareness of the <strong>Government of Tamilnadu's</strong> ideation, boot camp, and hackathon programs.
+                  Finale based on their performance in the boot camp, which focused on creating a prototype of an affordable medicated patch for diabetic foot ulcer patients' diagnosis, protection, prevention, and first aid. The event took place at Anna University Regional Campus Coimbatore from February 11–13, 2019, as part of the Tamil Nadu Student Innovators (TNSI)-2018 state level programme, which aims to develop the state's entrepreneurial ecosystem (Entrepreneurship Development Innovation Institution) and raise awareness of the <strong>Government of Tamilnadu's</strong> ideation, boot camp, and hackathon programmes.
                 </p>
               </div>
 

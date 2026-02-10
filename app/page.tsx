@@ -31,7 +31,7 @@ export default function Home() {
               {/* Description */}
               <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
                 Join JKKN College of Pharmacy — where pharmaceutical science meets patient care.
-                Our PCI-approved programs prepare Learners for impactful careers in the pharmaceutical industry.
+                Our PCI-approved programmes prepare Learners for impactful careers in the pharmaceutical industry.
               </p>
 
               {/* Statistics */}
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                   <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">6</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programs</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programmes</div>
                 </div>
               </div>
 
@@ -60,10 +60,10 @@ export default function Home() {
                   Start Your Application →
                 </a>
                 <button
-                  onClick={() => document.getElementById('programs-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
                   className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
                 >
-                  Explore Programs
+                  Explore Programmes
                 </button>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function Home() {
       <section className="bg-[#FBFBEE] py-6 sm:py-8 md:py-10">
         <div className="max-w-[1400px] mx-auto text-center px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <h3 className="text-xs xs:text-sm sm:text-base font-semibold text-gray-500 uppercase tracking-wider mb-4 sm:mb-6">
-            Recognized & Approved By
+            Recognised & Approved By
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8">
             <div className="text-center w-20 xs:w-24 sm:w-auto">
@@ -193,7 +193,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">5 M.Pharm Specializations</span>
+                  <span className="text-gray-700 font-medium text-sm sm:text-base">5 M.Pharm Specialisations</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
@@ -203,33 +203,33 @@ export default function Home() {
 
               {/* Button */}
               <button
-                onClick={() => document.getElementById('programs-section')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
                 className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                Explore Programs →
+                Explore Programmes →
               </button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Academic Programs Section */}
-      <section id="programs-section" className="bg-[#FBFBEE] py-12 sm:py-16 md:py-20">
+      {/* Academic Programmes Section */}
+      <section id="programmes-section" className="bg-[#FBFBEE] py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-8 sm:mb-12">
             <p className="text-[10px] sm:text-xs md:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
-              Academic Programs
+              Academic Programmes
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
-              Comprehensive Pharmaceutical Education Programs
+              Comprehensive Pharmaceutical Education Programmes
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
-              Choose from our PCI-approved diploma, undergraduate, and postgraduate programs designed
+              Choose from our PCI-approved diploma, undergraduate, and postgraduate programmes designed
               to shape competent pharmaceutical professionals.
             </p>
           </div>
 
-          {/* Programs Grid */}
+          {/* Programmes Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
 
             {/* Bachelor of Pharmacy */}
@@ -247,7 +247,7 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Comprehensive undergraduate program covering all aspects of pharmaceutical sciences for
+                  Comprehensive undergraduate programme covering all aspects of pharmaceutical sciences for
                   diverse career paths.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
@@ -291,7 +291,7 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                Comprehensive undergraduate program offering an accelerated pathway for Diploma holders into pharmaceutical sciences with direct entry into the second year.
+                Comprehensive undergraduate programme offering an accelerated pathway for Diploma holders into pharmaceutical sciences with direct entry into the second year.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
@@ -334,13 +334,12 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Clinical pharmacy program focusing on patient care, drug therapy management, and hospital
-                  pharmacy practice.
+                Doctoral research programme in pharmaceutical sciences focusing on original contributions to knowledge through independent, supervised research.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counseling</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counselling</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -378,12 +377,12 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Advanced specialization programs for research, academia, and senior industry positions.
+                Accelerated clinical pharmacy programme for B.Pharm graduates, focusing on patient care, clinical therapeutics, and hospital pharmacy practice.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Must to complete B.Pharm</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Must have completed B.Pharm</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -421,12 +420,12 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Advanced specialization programs for research, academia, and senior industry positions.
+                  Advanced specialisation programmes for research, academia, and senior industry positions.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">5 specializations available</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">5 specialisations available</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -464,13 +463,13 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Clinical pharmacy program focusing on patient care, drug therapy management, and hospital
+                  Clinical pharmacy programme focusing on patient care, drug therapy management, and hospital
                   pharmacy practice.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counseling</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counselling</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -492,12 +491,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* M.Pharm Specializations Section */}
+      {/* M.Pharm Specialisations Section */}
       <section className="py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#006837] mb-3 sm:mb-4">
-              M.Pharm Specializations Offered
+              M.Pharm Specialisations Offered
             </h2>
           </div>
 
@@ -856,7 +855,7 @@ export default function Home() {
               </div>
               <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
-                Clinical training, patient counseling practice
+                Clinical training, patient counselling practice
               </p>
             </div>
           </div>
@@ -895,7 +894,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Counseling or Management quota</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">Counselling or Management quota</span>
                 </li>
               </ul>
             </div>
@@ -921,7 +920,7 @@ export default function Home() {
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognized institution</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
@@ -944,7 +943,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Counseling or Management quota</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">Counselling or Management quota</span>
                 </li>
               </ul>
             </div>
@@ -955,7 +954,7 @@ export default function Home() {
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognized institution</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
@@ -970,7 +969,7 @@ export default function Home() {
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">M.Pharm and Pharm.D from PCI-recognized institution</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">M.Pharm and Pharm.D from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
@@ -990,7 +989,7 @@ export default function Home() {
                 </div>
                 <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Check Eligibility</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
-                  Verify academic requirements for your chosen program
+                  Verify academic requirements for your chosen programme
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -999,16 +998,16 @@ export default function Home() {
                 </div>
                 <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Apply Online</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
-                  Submit application via counseling portal or JKKN website
+                  Submit application via counselling portal or JKKN website
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
                 <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   3
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Counseling / Selection</h4>
+                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Counselling / Selection</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
-                  Participate in TNEA/GPAT counseling or direct admission
+                  Participate in TNEA/GPAT counselling or direct admission
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -1055,7 +1054,7 @@ export default function Home() {
               Frequently Asked Questions
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
-              Find answers to common questions about admissions, programs, and campus life.
+              Find answers to common questions about admissions, programmes, and campus life.
             </p>
           </div>
 
@@ -1068,7 +1067,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specializations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
+                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
               </p>
             </details>
 
@@ -1079,7 +1078,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programs.
+                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programmes.
               </p>
             </details>
 
@@ -1090,7 +1089,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counseling or management quota. Applications can be submitted online.
+                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Applications can be submitted online.
               </p>
             </details>
 
@@ -1119,22 +1118,22 @@ export default function Home() {
             {/* FAQ 6 */}
             <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
               <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Does JKKN offer Pharm.D program?</span>
+                <span>Does JKKN offer Pharm.D programme?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year program including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
+                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
               </p>
             </details>
 
             {/* FAQ 7 */}
             <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
               <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What M.Pharm specializations are available?</span>
+                <span>What M.Pharm specialisations are available?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                M.Pharm specializations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
+                M.Pharm specialisations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
               </p>
             </details>
 

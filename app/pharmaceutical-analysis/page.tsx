@@ -18,12 +18,15 @@ export default function PharmaceuticalAnalysisPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <div className="flex items-center justify-center gap-4 mb-4">
-            <GraduationCap className="w-12 h-12" />
-            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold">
+          <div className="flex justify-center mb-4">
+          <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm">
+            <GraduationCap className="w-10 h-10" />
+            DOCTORAL PROGRAMME 2026
+          </div>
+          </div>
+            <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
               M.Pharm in Pharmaceutical Analysis 2026
             </h1>
-          </div>
           <p className="text-xs sm:text-sm text-gray-100 max-w-4xl mx-auto">
             Master Advanced Analytical Techniques for Quality Control & Pharmaceutical Research
           </p>
@@ -41,7 +44,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-6"></div>
 
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-8">
-            M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialization program focusing on advanced analytical techniques, quality control methodologies, method development, and validation for pharmaceutical products. This program trains students in sophisticated instrumentation including HPLC, GC-MS, LC-MS/MS, UV-Visible spectroscopy, and other analytical tools essential for regulatory compliance, and research. Graduates become specialists in ensuring drug quality, safety, and efficacy through rigorous analytical testing.
+            M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation programme focusing on advanced analytical techniques, quality control methodologies, method development, and validation for pharmaceutical products. This programme trains students in sophisticated instrumentation including HPLC, GC-MS, LC-MS/MS, UV-Visible spectroscopy, and other analytical tools essential for regulatory compliance, and research. Graduates become specialists in ensuring drug quality, safety, and efficacy through rigorous analytical testing.
           </p>
 
           {/* Info Cards */}
@@ -57,7 +60,7 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Specialization Focus</h3>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#006837] mb-3 uppercase">Specialisation Focus</h3>
               <p className="text-gray-900 font-semibold">Quality Control & Analysis</p>
             </div>
 
@@ -289,7 +292,7 @@ export default function PharmaceuticalAnalysisPage() {
             <ul className="space-y-2 ml-8">
               <li className="text-xs sm:text-sm text-gray-700">• Eligibility for all government and most private colleges</li>
               <li className="text-xs sm:text-sm text-gray-700">• AICTE stipend/scholarship of ₹12,400 per month (if selected)</li>
-              <li className="text-xs sm:text-sm text-gray-700">• Admission to NITs, IITs offering M.Pharm programs</li>
+              <li className="text-xs sm:text-sm text-gray-700">• Admission to NITs, IITs offering M.Pharm programmes</li>
               <li className="text-xs sm:text-sm text-gray-700">• Higher preference in merit-based admissions</li>
               <li className="text-xs sm:text-sm text-gray-700">• Valid for 3 years - can apply for multiple admission cycles</li>
             </ul>
@@ -789,7 +792,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="mb-8">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Contract Research Organizations (CROs)</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-              {['Quintiles/IQVIA', 'Covance', 'Parexel', 'ICON plc', 'Lambda Therapeutic',
+              {['IQVIA', 'Fortrea', 'Parexel', 'ICON plc', 'Lambda Therapeutic Research',
                 'Syngene International'].map((company) => (
                 <div key={company} className="bg-[#FBFBEE] border border-gray-200 rounded-lg p-4 text-center hover:shadow-md hover:border-[#7cb983] transition-all">
                   <p className="text-[10px] xs:text-xs sm:text-sm font-semibold text-gray-700">{company}</p>
@@ -829,7 +832,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="flex items-center gap-3 mb-6">
             <TrendingUp className="w-8 h-8 text-[#006837]" />
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
-              M.Pharm Pharmaceutical Analysis vs Other Specializations
+              M.Pharm Pharmaceutical Analysis vs Other Specialisations
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
@@ -882,7 +885,7 @@ export default function PharmaceuticalAnalysisPage() {
                   <td className="border border-gray-300 px-4 py-3 font-semibold text-[#006837]">Industry Demand</td>
                   <td className="border border-gray-300 px-4 py-3">Very High (Every company needs QC)</td>
                   <td className="border border-gray-300 px-4 py-3">High (Product development focused)</td>
-                  <td className="border border-gray-300 px-4 py-3">Moderate (Specialized roles)</td>
+                  <td className="border border-gray-300 px-4 py-3">Moderate (Specialised roles)</td>
                 </tr>
                 <tr className="bg-[#FBFBEE]">
                   <td className="border border-gray-300 px-4 py-3 font-semibold text-[#006837]">Starting Salary</td>
@@ -918,7 +921,7 @@ export default function PharmaceuticalAnalysisPage() {
               <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-900">Key Insight:</h4>
             </div>
             <p className="text-gray-700 ml-8">
-              <span className="font-bold">Pharmaceutical Analysis</span> offers the most consistent job opportunities as every pharmaceutical company, regardless of size or focus, requires quality control and analytical services. The specialization provides excellent job security, standardized career progression, and opportunities across manufacturing, R&D, regulatory, and testing sectors.
+              <span className="font-bold">Pharmaceutical Analysis</span> offers the most consistent job opportunities as every pharmaceutical company, regardless of size or focus, requires quality control and analytical services. The specialisation provides excellent job security, standardized career progression, and opportunities across manufacturing, R&D, regulatory, and testing sectors.
             </p>
           </div>
         </div>
@@ -1103,9 +1106,9 @@ export default function PharmaceuticalAnalysisPage() {
                 4
               </div>
               <div className="flex-1">
-                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Centralized Counseling Registration (May-June)</h3>
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Centralized Counselling Registration (May-June)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">
-                  Register for AICTE centralized counseling (if applicable) or state-level counseling. Submit preferences for colleges and specializations. Pay counseling fees and complete document verification online.
+                  Register for AICTE centralized counselling (if applicable) or state-level counselling. Submit preferences for colleges and specialisations. Pay counselling fees and complete document verification online.
                 </p>
               </div>
             </div>
@@ -1120,7 +1123,7 @@ export default function PharmaceuticalAnalysisPage() {
               <div className="flex-1">
                 <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">College Selection & Seat Allotment (June-July)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">
-                  Submit college preference list with Pharmaceutical Analysis specialization. Check seat allotment results. Accept allocated seat and pay seat acceptance fees within deadline to secure admission.
+                  Submit college preference list with Pharmaceutical Analysis specialisation. Check seat allotment results. Accept allocated seat and pay seat acceptance fees within deadline to secure admission.
                 </p>
               </div>
             </div>
@@ -1150,7 +1153,7 @@ export default function PharmaceuticalAnalysisPage() {
               <div className="flex-1">
                 <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Commencement of Classes (August)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">
-                  Attend orientation program. Receive course materials and laboratory access. Meet faculty advisors and understand research expectations. Begin coursework and familiarize with analytical instruments.
+                  Attend orientation programme. Receive course materials and laboratory access. Meet faculty advisors and understand research expectations. Begin coursework and familiarize with analytical instruments.
                 </p>
               </div>
             </div>
@@ -1173,7 +1176,7 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="font-bold text-[#006837]">• GPAT Result:</span> March 2026
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• Counseling Registration:</span> May-June 2026
+                <span className="font-bold text-[#006837]">• Counselling Registration:</span> May-June 2026
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Seat Allotment:</span> June-July 2026
@@ -1360,7 +1363,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 0 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialization focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
+                    M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
                   </p>
                 </div>
               )}
@@ -1384,7 +1387,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 1 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programs in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
+                    GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
                   </p>
                 </div>
               )}
@@ -1432,7 +1435,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 0 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Both specializations have strong career prospects but serve different roles. Pharmaceutical Analysis focuses on quality control, analytical testing, and regulatory compliance with high demand in QC/QA departments. Pharmaceutics focuses on drug formulation, product development, and manufacturing. Analysis has more standardized roles with consistent demand, while Pharmaceutics offers innovation in product development. Analysis graduates find positions faster in QC labs, while Pharmaceutics graduates work in R&D and production. Salaries are comparable (₹4-10 lakhs entry level). Choose based on interest: laboratory analysis vs. product development.
+                    Both specialisations have strong career prospects but serve different roles. Pharmaceutical Analysis focuses on quality control, analytical testing, and regulatory compliance with high demand in QC/QA departments. Pharmaceutics focuses on drug formulation, product development, and manufacturing. Analysis has more standardized roles with consistent demand, while Pharmaceutics offers innovation in product development. Analysis graduates find positions faster in QC labs, while Pharmaceutics graduates work in R&D and production. Salaries are comparable (₹4-10 lakhs entry level). Choose based on interest: laboratory analysis vs. product development.
                   </p>
                 </div>
               )}
@@ -1456,7 +1459,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 1 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Yes, M.Pharm Pharmaceutical Analysis graduates can pursue Ph.D in pharmaceutical sciences through national exams like CSIR-NET, UGC-NET, GATE, or university-specific entrance tests. Research areas include analytical method development, bioanalytical techniques, quality by design (QbD), process analytical technology (PAT), and pharmaceutical validation. Ph.D opens opportunities in academic research (assistant professor positions), pharmaceutical R&D, regulatory science, and consulting. Many CSIR/ICMR labs and IITs offer Ph.D programs with fellowships of ₹31,000-35,000 per month.
+                    Yes, M.Pharm Pharmaceutical Analysis graduates can pursue Ph.D in pharmaceutical sciences through national exams like CSIR-NET, UGC-NET, GATE, or university-specific entrance tests. Research areas include analytical method development, bioanalytical techniques, quality by design (QbD), process analytical technology (PAT), and pharmaceutical validation. Ph.D opens opportunities in academic research (assistant professor positions), pharmaceutical R&D, regulatory science, and consulting. Many CSIR/ICMR labs and IITs offer Ph.D programmes with fellowships of ₹31,000-35,000 per month.
                   </p>
                 </div>
               )}
@@ -1504,7 +1507,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 3 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Yes, M.Pharm Pharmaceutical Analysis is excellent for women professionals. The specialization offers laboratory-based work with regular hours (typically 9-6, unlike production shifts), safe working environment, professional growth opportunities, and gender-equal salary structures. Many QC/QA departments have women leaders. The role doesn't require physical labor, focuses on precision and accuracy, and provides work-life balance. Several pharmaceutical companies have diversity initiatives actively hiring women in analytical roles. Career break re-entry is also feasible with refresher courses.
+                    Yes, M.Pharm Pharmaceutical Analysis is excellent for women professionals. The specialisation offers laboratory-based work with regular hours (typically 9-6, unlike production shifts), safe working environment, professional growth opportunities, and gender-equal salary structures. Many QC/QA departments have women leaders. The role doesn't require physical labor, focuses on precision and accuracy, and provides work-life balance. Several pharmaceutical companies have diversity initiatives actively hiring women in analytical roles. Career break re-entry is also feasible with refresher courses.
                   </p>
                 </div>
               )}
@@ -1576,7 +1579,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 6 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programs in AICTE-approved institutions. The scholarship is awarded through centralized counseling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counseling process for eligible candidates.
+                    Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in AICTE-approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
                   </p>
                 </div>
               )}
@@ -1651,7 +1654,7 @@ export default function PharmaceuticalAnalysisPage() {
             Ready to Master Pharmaceutical Analysis?
           </h2>
           <p className="text-xs sm:text-sm mb-8 text-gray-100">
-            Join our M.Pharm program and become an expert in analytical techniques and quality assurance!
+            Join our M.Pharm programme and become an expert in analytical techniques and quality assurance!
           </p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-xs sm:text-sm hover:bg-[#FBFBEE] transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
@@ -1674,16 +1677,16 @@ export default function PharmaceuticalAnalysisPage() {
 
           <ul className="space-y-4">
             <li className="text-xs sm:text-sm text-gray-700">
-              <span className="font-bold text-[#006837]">• Pharmacy Council of India (PCI):</span> All M.Pharm programs must be PCI approved with required faculty, infrastructure, and laboratory facilities
+              <span className="font-bold text-[#006837]">• Pharmacy Council of India (PCI):</span> All M.Pharm programmes must be PCI approved with required faculty, infrastructure, and laboratory facilities
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• AICTE Approval:</span> Required for AICTE scholarship eligibility and quality assurance
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
-              <span className="font-bold text-[#006837]">• University Affiliation:</span> Program must be affiliated with UGC-recognized university with authority to award M.Pharm degrees
+              <span className="font-bold text-[#006837]">• University Affiliation:</span> Programme must be affiliated with UGC-recognised university with authority to award M.Pharm degrees
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
-              <span className="font-bold text-[#006837]">• NAAC/NBA Accreditation:</span> Quality certification enhances program credibility and placement opportunities
+              <span className="font-bold text-[#006837]">• NAAC/NBA Accreditation:</span> Quality certification enhances programme credibility and placement opportunities
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• ISO 17025 Laboratory:</span> Some colleges have ISO 17025 accredited analytical laboratories for enhanced training

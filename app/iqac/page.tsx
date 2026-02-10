@@ -70,7 +70,7 @@ export default function IQACPage() {
 
               <div className="space-y-3">
                 <p>
-                  <strong>Chairperson:</strong> Dr. S Elanchezhiyan
+                  <strong>Chairperson:</strong> Dr. S. Elanchezhiyan
                 </p>
                 <p>
                   <strong>Curricular Aspects:</strong> Dr. Rekha
@@ -85,10 +85,10 @@ export default function IQACPage() {
                   <strong>Infrastructure and Learning Resources:</strong> Dr. V. Vigneshkumar
                 </p>
                 <p>
-                  <strong>Student and Progression:</strong> Dr. D. Sai Sadan
+                  <strong>Student Progression:</strong> Dr. D. Sai Sadan
                 </p>
                 <p>
-                  <strong>Leadership, Management:</strong> Dr. C. Dhineshkumar
+                  <strong>Leadership and Management:</strong> Dr. C. Dhineshkumar
                 </p>
                 <p>
                   <strong>Institutional Values & Best Practices:</strong> Dr. Monicca
@@ -97,16 +97,16 @@ export default function IQACPage() {
                   <strong>Patient Care & Community:</strong> Dr. N. S. Naveenraj
                 </p>
                 <p>
-                  <strong>Ranking and Accreditation Committee:</strong> Dr. B. Sasirckha
+                  <strong>Ranking and Accreditation Committee:</strong> Dr. B. Sasirekha
                 </p>
                 <p>
                   <strong>DTTM:</strong> Dr. J. Vijay Thiyagarajan
                 </p>
                 <p>
-                  <strong>IQAC Coordinator:</strong> Dr. K Sakthisaranyadevi
+                  <strong>IQAC Coordinator:</strong> Dr. K. Sakthisaranyadevi
                 </p>
                 <p>
-                  <strong>Student Members:</strong> Mr. Gowsik, Ms. Selvashree, Dr. A.S. Surya, Dr. Jothilakshmi, Miss. Yashwanthini.S, Mr. R. Thirumurukash, Mr. P. MuthuPandy, Miss S. MahaLakshmi, Miss. Harsitha, Mr. Kirubhakaran
+                  <strong>Student Members:</strong> Mr. Gowsik, Ms. Selvashree, Dr. A.S. Surya, Dr. Jothilakshmi, Miss. s. Yashwanthini, Mr. R. Thirumurukash, Mr. P. Muthupandy, Miss S. Mahalakshmi, Miss. Harsitha, Mr. Kirubhakaran
                 </p>
               </div>
             </div>

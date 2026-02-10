@@ -111,7 +111,7 @@ export default function InstitutionalStrategicPlanPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
-                          <strong>Community Engagement</strong> - Contributing to society through outreach programs
+                          <strong>Community Engagement</strong> - Contributing to society through outreach programmes
                         </span>
                       </li>
                     </ul>
@@ -123,19 +123,19 @@ export default function InstitutionalStrategicPlanPage() {
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">EDC - Entrepreneurship Development Cell</h3>
                         <p className="text-gray-700 text-sm">
-                          Fostering entrepreneurial mindset and skills among students and faculty through specialized programs and initiatives.
+                          Fostering entrepreneurial mindset and skills among students and faculty through specialised programmes and initiatives.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">COE - Center of Excellence</h3>
                         <p className="text-gray-700 text-sm">
-                          Establishing centers of excellence in specialized pharmaceutical disciplines to promote advanced learning and research.
+                          Establishing centers of excellence in specialised pharmaceutical disciplines to promote advanced learning and research.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">GC - Guidance and Counseling</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">GC - Guidance and Counselling</h3>
                         <p className="text-gray-700 text-sm">
-                          Providing comprehensive guidance and counseling services to support student academic and personal development.
+                          Providing comprehensive guidance and counselling services to support student academic and personal development.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">

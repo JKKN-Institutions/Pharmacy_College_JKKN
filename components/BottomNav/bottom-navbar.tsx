@@ -36,7 +36,7 @@ import { NavItemData, SubmenuItem } from './types';
 const NAV_ICONS: Record<string, LucideIcon> = {
   'HOME': Home,
   'ABOUT': Info,
-  'PROGRAMS OFFERED': GraduationCap,
+  'PROGRAMMES OFFERED': GraduationCap,
   'ACADEMIC': BookOpen,
   'FACILITIES': Building2,
   'NAAC': Award,

@@ -20,7 +20,7 @@ export default function MPharmacyPage() {
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">M.Pharm - Master of Pharmacy</h1>
-          <p className="text-lg">5 Specializations • Research Excellence • Career Advancement • GPAT/GATE Pathway</p>
+          <p className="text-lg">5 Specialisations • Research Excellence • Career Advancement • GPAT/GATE Pathway</p>
         </div>
       </div>
 
@@ -31,7 +31,7 @@ export default function MPharmacyPage() {
 
           <div className="text-sm sm:text-base text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm is a 2-year postgraduate degree program in pharmaceutical sciences providing advanced education, specialized knowledge, research skills, and professional development in specific areas of pharmacy. Unlike the broad-based B.Pharm program, M.Pharm offers deep specialization through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The program comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects compared to B.Pharm.
+              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. Unlike the broad-based B.Pharm programme, M.Pharm offers deep specialisation through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects compared to B.Pharm.
             </p>
           </div>
 
@@ -129,11 +129,11 @@ export default function MPharmacyPage() {
         </div>
       </div>
 
-      {/* 5 M.Pharm Specializations */}
+      {/* 5 M.Pharm Specialisations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Microscope className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">5 M.Pharm Specializations - Choose Your Path</h2>
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">5 M.Pharm Specialisations - Choose Your Path</h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-6">
@@ -212,7 +212,7 @@ export default function MPharmacyPage() {
             <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] mb-4">5. Pharmacy Practice</h3>
             <div className="space-y-3 text-sm sm:text-base text-gray-700">
               <p><span className="font-semibold text-[#006837]">Focus:</span> Clinical pharmacy, patient care, hospital practice</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Clinical pharmacotherapy, patient counseling, pharmacoeconomics, medication therapy management, adverse drug reactions</p>
+              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Clinical pharmacotherapy, patient counselling, pharmacoeconomics, medication therapy management, adverse drug reactions</p>
               <div className="flex flex-wrap gap-2 my-3">
                 <span className="bg-[#7cb983] text-white text-xs sm:text-base font-semibold px-3 py-1 rounded-full">₹25-40K Starting</span>
                 <span className="bg-[#006837] text-white text-xs sm:text-base font-semibold px-3 py-1 rounded-full">Growing Field</span>
@@ -226,11 +226,11 @@ export default function MPharmacyPage() {
         </div>
       </div>
 
-      {/* M.Pharm Specializations - Detailed Comparison */}
+      {/* M.Pharm Specialisations - Detailed Comparison */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Scale className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Specializations - Detailed Comparison</h2>
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">M.Pharm Specialisations - Detailed Comparison</h2>
         </div>
 
         <div className="overflow-x-auto">
@@ -265,7 +265,7 @@ export default function MPharmacyPage() {
               <tr className="border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Starting Salary</td>
                 <td className="px-4 py-4">₹30,000-50,000/month</td>
-                <td className="px-4 py-4">₹25,000-40,000/month</td>
+                <td className="px-4 py-4">₹25,000-45,000/month</td>
                 <td className="px-4 py-4">₹30,000-50,000/month</td>
                 <td className="px-4 py-4">₹30,000-50,000/month</td>
                 <td className="px-4 py-4">₹25,000-40,000/month</td>
@@ -339,11 +339,11 @@ export default function MPharmacyPage() {
         </div>
       </div>
 
-      {/* How to Choose Your M.Pharm Specialization */}
+      {/* How to Choose Your M.Pharm Specialisation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Target className="w-10 h-10 text-[#006837]" />
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">How to Choose Your M.Pharm Specialization</h2>
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837]">How to Choose Your M.Pharm Specialisation</h2>
         </div>
 
         <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
@@ -378,7 +378,7 @@ export default function MPharmacyPage() {
                     <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> - Medicinal chemistry and drug design</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="px-4 py-3">Patient interaction, counseling, clinical work, hospital environment</td>
+                    <td className="px-4 py-3">Patient interaction, counselling, clinical work, hospital environment</td>
                     <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmacy Practice</span> - Clinical pharmacy and patient care</td>
                   </tr>
                 </tbody>
@@ -449,13 +449,13 @@ export default function MPharmacyPage() {
 
           {/* Step 4 */}
           <div className="mb-8">
-            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Step 4: Evaluate College Strength in Specialization</h4>
+            <h4 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-4">Step 4: Evaluate College Strength in Specialisation</h4>
             <div className="bg-white rounded-lg p-6 border-l-4 border-[#7cb983]">
-              <p className="text-lg font-bold text-[#006837] mb-4">Critical Factor: Your target college's strength in specific specialization matters more than personal preference!</p>
+              <p className="text-lg font-bold text-[#006837] mb-4">Critical Factor: Your target college's strength in specific specialisation matters more than personal preference!</p>
               <ul className="space-y-2 text-sm sm:text-base text-gray-800">
                 <li className="flex items-start">
                   <span className="text-[#006837] font-bold mr-2">•</span>
-                  <span>Check faculty expertise and publications in that specialization</span>
+                  <span>Check faculty expertise and publications in that specialisation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] font-bold mr-2">•</span>
@@ -463,7 +463,7 @@ export default function MPharmacyPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] font-bold mr-2">•</span>
-                  <span>Review placement records for that specific specialization</span>
+                  <span>Review placement records for that specific specialisation</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] font-bold mr-2">•</span>
@@ -474,7 +474,7 @@ export default function MPharmacyPage() {
                   <span>Investigate industry collaborations and funded projects</span>
                 </li>
               </ul>
-              <p className="text-[#006837] font-semibold mt-4">Better strategy: Strong college with average specialization match &gt; Weak college with perfect specialization match</p>
+              <p className="text-[#006837] font-semibold mt-4">Better strategy: Strong college with average specialisation match &gt; Weak college with perfect specialisation match</p>
             </div>
           </div>
 
@@ -486,7 +486,7 @@ export default function MPharmacyPage() {
               <p><span className="text-[#006837] font-semibold">Choose PHARMACEUTICAL ANALYSIS if:</span> Want stable career with maximum job opportunities, enjoy instrumentation and analytical work, prefer QC over R&D, detail-oriented personality</p>
               <p><span className="text-[#006837] font-semibold">Choose PHARMACOLOGY if:</span> Fascinated by drug mechanisms, enjoy biological research, comfortable with animal studies, want research-focused career, planning Ph.D.</p>
               <p><span className="text-[#006837] font-semibold">Choose PHARMACEUTICAL CHEMISTRY if:</span> Strong organic chemistry background, enjoy synthesis and molecular design, want drug discovery roles, target innovator companies or academic research</p>
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACY PRACTICE if:</span> Prefer patient interaction over laboratory work, want hospital pharmacy career, enjoy clinical and counseling work, interested in healthcare team collaboration</p>
+              <p><span className="text-[#006837] font-semibold">Choose PHARMACY PRACTICE if:</span> Prefer patient interaction over laboratory work, want hospital pharmacy career, enjoy clinical and counselling work, interested in healthcare team collaboration</p>
             </div>
           </div>
         </div>
@@ -507,7 +507,7 @@ export default function MPharmacyPage() {
             <ul className="space-y-2 text-sm sm:text-base text-gray-800">
               <li className="flex items-start">
                 <span className="text-[#006837] font-bold mr-2">•</span>
-                <span>B.Pharm degree from PCI (Pharmacy Council of India) approved/recognized university</span>
+                <span>B.Pharm degree from PCI (Pharmacy Council of India) approved/recognised university</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] font-bold mr-2">•</span>
@@ -519,7 +519,7 @@ export default function MPharmacyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] font-bold mr-2">•</span>
-                <span>No specific subject prerequisites - all B.Pharm graduates eligible for any specialization</span>
+                <span>No specific subject prerequisites - all B.Pharm graduates eligible for any specialisation</span>
               </li>
             </ul>
           </div>
@@ -586,8 +586,8 @@ export default function MPharmacyPage() {
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="px-4 py-3 font-semibold text-[#006837]">May-June</td>
-                  <td className="px-4 py-3">Counseling & Selection</td>
-                  <td className="px-4 py-3">Centralized counseling for NIPER, separate for universities, document verification, specialization choice</td>
+                  <td className="px-4 py-3">Counselling & Selection</td>
+                  <td className="px-4 py-3">Centralized counselling for NIPER, separate for universities, document verification, specialisation choice</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-gray-200">
                   <td className="px-4 py-3 font-semibold text-[#006837]">July-August</td>
@@ -678,7 +678,7 @@ export default function MPharmacyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
-              <span><span className="font-semibold">Research College Strengths:</span> Check specialization-specific faculty, labs, placements before choosing</span>
+              <span><span className="font-semibold">Research College Strengths:</span> Check specialisation-specific faculty, labs, placements before choosing</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
@@ -709,14 +709,14 @@ export default function MPharmacyPage() {
               <tr className="border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Focus</td>
                 <td className="px-4 py-4">Broad pharmaceutical education</td>
-                <td className="px-4 py-4">Specialized advanced knowledge</td>
+                <td className="px-4 py-4">Specialised advanced knowledge</td>
                 <td className="px-4 py-4">Original research contribution</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Research Component</td>
                 <td className="px-4 py-4">Minimal (final year project)</td>
                 <td className="px-4 py-4">Substantial (2 semesters dissertation)</td>
-                <td className="px-4 py-4">Extensive (entire program)</td>
+                <td className="px-4 py-4">Extensive (entire programme)</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Career Options</td>
@@ -739,8 +739,8 @@ export default function MPharmacyPage() {
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Job Availability</td>
                 <td className="px-4 py-4">Maximum - diverse sectors</td>
-                <td className="px-4 py-4">Good - specialized roles</td>
-                <td className="px-4 py-4">Limited - senior/specialized</td>
+                <td className="px-4 py-4">Good - specialised roles</td>
+                <td className="px-4 py-4">Limited - senior/specialised</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Industry Preference</td>
@@ -785,7 +785,7 @@ export default function MPharmacyPage() {
             <ul className="space-y-3 text-sm sm:text-base text-gray-800 ml-8">
               <li className="flex items-start">
                 <span className="mr-2">•</span>
-                <span>Want specialized technical roles in pharmaceutical R&D</span>
+                <span>Want specialised technical roles in pharmaceutical R&D</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>
@@ -827,7 +827,7 @@ export default function MPharmacyPage() {
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>
-                <span>Unsure about specialization interest - want to explore through work</span>
+                <span>Unsure about specialisation interest - want to explore through work</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>
@@ -1003,7 +1003,7 @@ export default function MPharmacyPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Job Security:</span> Specialized roles less vulnerable to automation and layoffs</span>
+                  <span><span className="font-semibold text-[#006837]">Job Security:</span> Specialised roles less vulnerable to automation and layoffs</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">•</span>
@@ -1042,7 +1042,7 @@ export default function MPharmacyPage() {
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Kolkata</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Raebareli</div>
           </div>
-          <p className="text-sm sm:text-base text-gray-700"><span className="font-semibold text-[#006837]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, AICTE fellowship (₹12,400/month), all 5 specializations available</p>
+          <p className="text-sm sm:text-base text-gray-700"><span className="font-semibold text-[#006837]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, AICTE fellowship (₹12,400/month), all 5 specialisations available</p>
         </div>
 
         {/* IITs */}
@@ -1087,7 +1087,7 @@ export default function MPharmacyPage() {
 
         {/* State Universities */}
         <div className="mb-10">
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">State Universities (Strong Programs)</h3>
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-6">State Universities (Strong Programmes)</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">ICT Mumbai (UDCT)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Pune University</div>
@@ -1125,7 +1125,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 4 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                  M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree program in pharmaceutical sciences offering specialized education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Program comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to premier institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
+                  M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to premier institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
                 </p>
               </div>
             )}
@@ -1139,7 +1139,7 @@ export default function MPharmacyPage() {
                 expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q2: What are the M.Pharm specializations available?</h3>
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q2: What are the M.Pharm specialisations available?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 5 ? 'rotate-180' : ''
@@ -1149,7 +1149,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 5 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                  M.Pharm offers 5 major specializations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
+                  M.Pharm offers 5 major specialisations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
                 </p>
               </div>
             )}
@@ -1163,7 +1163,7 @@ export default function MPharmacyPage() {
                 expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q3: Which M.Pharm specialization has best scope?</h3>
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q3: Which M.Pharm specialisation has best scope?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 6 ? 'rotate-180' : ''
@@ -1173,7 +1173,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 6 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                  All M.Pharm specializations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on your college, research publications, skills, and networking than specialization choice. Top 10% students succeed in any specialization.
+                  All M.Pharm specialisations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on your college, research publications, skills, and networking than specialisation choice. Top 10% students succeed in any specialisation.
                 </p>
               </div>
             )}
@@ -1197,7 +1197,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 7 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                  M.Pharm salaries vary by specialization, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialization-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K.
+                  M.Pharm salaries vary by specialisation, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialisation-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K.
                 </p>
               </div>
             )}
@@ -1211,7 +1211,7 @@ export default function MPharmacyPage() {
                 expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q5: How to choose M.Pharm specialization?</h3>
+              <h3 className="text-xl xs:text-2xl sm:text-3xl font-bold text-[#006837] pr-4">Q5: How to choose M.Pharm specialisation?</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 8 ? 'rotate-180' : ''
@@ -1221,7 +1221,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 8 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                  Choose M.Pharm specialization based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialization. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specializations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specializations before deciding.
+                  Choose M.Pharm specialisation based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialisation. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specialisations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specialisations before deciding.
                 </p>
               </div>
             )}
@@ -1233,12 +1233,12 @@ export default function MPharmacyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
-          <p className="text-lg mb-8">Choose your specialization and apply for M.Pharm admission 2026!</p>
+          <p className="text-lg mb-8">Choose your specialisation and apply for M.Pharm admission 2026!</p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
           </a>
-          <p className="mt-6 text-xs sm:text-base">PCI Approved | GPAT/GATE Accepted | 5 Specializations | Research Excellence</p>
+          <p className="mt-6 text-xs sm:text-base">PCI Approved | GPAT/GATE Accepted | 5 Specialisations | Research Excellence</p>
         </div>
       </div>
     </div>

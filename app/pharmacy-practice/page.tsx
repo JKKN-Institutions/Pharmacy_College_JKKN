@@ -19,6 +19,10 @@ export default function PharmacyPracticePage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
+        <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
+            <GraduationCap className="w-10 h-10" />
+            DOCTORAL PROGRAMME 2026
+          </div>
           <h1 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">M.Pharm in Pharmacy Practice 2026</h1>
           <p className="text-xs sm:text-sm">Master Clinical Pharmacy & Patient Care for Healthcare Excellence</p>
         </div>
@@ -31,7 +35,7 @@ export default function PharmacyPracticePage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialization program that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This program trains students to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, students develop expertise in drug therapy optimization, patient counseling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
+              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation programme that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This programme trains students to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, students develop expertise in drug therapy optimization, patient counselling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
             </p>
           </div>
 
@@ -50,7 +54,7 @@ export default function PharmacyPracticePage() {
               </p>
             </div>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">SPECIALIZATION FOCUS</h3>
+              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">SPECIALISATION FOCUS</h3>
               <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                 Clinical Pharmacy & Patient Care
               </p>
@@ -106,7 +110,7 @@ export default function PharmacyPracticePage() {
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Patient Counseling & Education</span>
+                <span>Patient Counselling & Education</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
@@ -122,7 +126,7 @@ export default function PharmacyPracticePage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Health Screening & Wellness Programs</span>
+                <span>Health Screening & Wellness Programmes</span>
               </li>
             </ul>
           </div>
@@ -481,7 +485,7 @@ export default function PharmacyPracticePage() {
                 </tr>
                 <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                   <td className="px-6 py-4">MPP-402</td>
-                  <td className="px-6 py-4">Clinical Rotation - III (Specialized departments - 8 weeks)</td>
+                  <td className="px-6 py-4">Clinical Rotation - III (Specialised departments - 8 weeks)</td>
                   <td className="px-6 py-4">6</td>
                 </tr>
                 <tr className="bg-[#FBFBEE]">
@@ -497,7 +501,7 @@ export default function PharmacyPracticePage() {
 
       {/* Clinical Rotation Details */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10">
+        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
             <Hospital className="w-8 h-8" />
             <h2 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Clinical Rotation Details (Total: 20 weeks minimum)</h2>
@@ -509,45 +513,45 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">General Medicine (4 weeks):</span> Ward rounds, medication chart review, patient counseling, ADR monitoring
+                <span className="font-bold text-[#006837]">General Medicine (4 weeks):</span> Ward rounds, medication chart review, patient counselling, ADR monitoring
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">General Surgery (2 weeks):</span> Pre & post-operative medication management, pain management, wound care
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Pediatrics (3 weeks):</span> Pediatric dosing, immunization counseling, pediatric emergency care
+                <span className="font-bold text-[#006837]">Pediatrics (3 weeks):</span> Pediatric dosing, immunization counselling, pediatric emergency care
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Cardiology (3 weeks):</span> Cardiac medication therapy, anticoagulation management, cardiac rehabilitation
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">ICU/Critical Care (3 weeks):</span> Critically ill patient management, IV medications, emergency protocols
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Oncology/Endocrinology/Nephrology (3 weeks):</span> Specialized therapy areas based on hospital availability
+                <span className="font-bold text-[#006837]">Oncology/Endocrinology/Nephrology (3 weeks):</span> Specialised therapy areas based on hospital availability
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Community Pharmacy Practice (2 weeks):</span> Community health programs, medication therapy management services
+                <span className="font-bold text-[#006837]">Community Pharmacy Practice (2 weeks):</span> Community health programmes, medication therapy management services
               </div>
             </li>
           </ul>
@@ -589,11 +593,11 @@ export default function PharmacyPracticePage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Impact of patient counseling on treatment outcomes in cardiovascular diseases</span>
+              <span>Impact of patient counselling on treatment outcomes in cardiovascular diseases</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Antimicrobial resistance patterns and stewardship program effectiveness</span>
+              <span>Antimicrobial resistance patterns and stewardship programme effectiveness</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -615,27 +619,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Pharmacist (Hospital)</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Provide ward-based clinical pharmacy services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Review medication charts and identify drug-related problems</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Participate in ward rounds with medical teams</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Counsel patients on medication use</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Monitor and report adverse drug reactions</span>
               </li>
             </ul>
@@ -645,27 +649,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Drug Information Specialist</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-9 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-9 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Operate drug information center in hospitals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Provide evidence-based drug information to healthcare professionals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Prepare drug information bulletins and newsletters</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Conduct medication use evaluations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Answer clinical queries from physicians and nurses</span>
               </li>
             </ul>
@@ -675,27 +679,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Research Coordinator</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Coordinate clinical trial activities at research sites</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Ensure protocol compliance and regulatory adherence</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Screen and recruit study participants</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Collect and document clinical trial data</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Coordinate with CROs, sponsors, and investigators</span>
               </li>
             </ul>
@@ -705,27 +709,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Medical Writer</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-10 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-10 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Write clinical study reports and protocols</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Prepare regulatory submission documents</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Develop medical education materials</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Create scientific publications and manuscripts</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Work with pharmaceutical companies and CROs</span>
               </li>
             </ul>
@@ -735,27 +739,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Pharmacovigilance Associate</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-7 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-7 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Monitor drug safety and adverse events</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Process and report adverse drug reactions</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Conduct signal detection and risk assessment</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Prepare periodic safety update reports (PSURs)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Coordinate with regulatory authorities</span>
               </li>
             </ul>
@@ -765,27 +769,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Community Pharmacy Manager</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Manage retail pharmacy operations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Provide medication therapy management services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
-                <span>Conduct health screening and wellness programs</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
+                <span>Conduct health screening and wellness programmes</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Counsel patients on prescription medications</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Coordinate with physicians for patient care</span>
               </li>
             </ul>
@@ -795,27 +799,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Medical Affairs Specialist</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹6-12 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹6-12 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Bridge medical and commercial teams in pharma companies</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Provide scientific support for products</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Engage with key opinion leaders (KOLs)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
-                <span>Develop medical education programs</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
+                <span>Develop medical education programmes</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Review promotional materials for accuracy</span>
               </li>
             </ul>
@@ -825,27 +829,27 @@ export default function PharmacyPracticePage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Academic Faculty / Researcher</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#4CAF50] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Teach pharmacy practice to students</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Guide M.Pharm research projects</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Conduct clinical pharmacy research</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Publish papers in peer-reviewed journals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✓</span>
+                <span className="text-[#7cb983] mr-2">✓</span>
                 <span>Supervise clinical training rotations</span>
               </li>
             </ul>
@@ -855,7 +859,7 @@ export default function PharmacyPracticePage() {
 
       {/* Salary Progression */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10">
+        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-8 h-8" />
             <h2 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Salary Progression for Pharmacy Practice Specialists</h2>
@@ -863,31 +867,31 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Entry Level (0-2 Years):</span> ₹4-6 lakhs per annum (Clinical Pharmacist, PV Associate, CRC)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Mid Level (3-5 Years):</span> ₹6-10 lakhs per annum (Senior Clinical Pharmacist, Medical Writer, DI Specialist)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Senior Level (6-10 Years):</span> ₹10-18 lakhs per annum (Clinical Pharmacy Manager, Medical Affairs Manager)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Expert Level (10+ Years):</span> ₹18-30 lakhs per annum (Head of Clinical Services, Medical Director)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">International (Gulf/USA/UK):</span> ₹15-30 lakhs (Gulf tax-free), $50,000-80,000 (USA), £35,000-55,000 (UK)
               </div>
@@ -907,7 +911,7 @@ export default function PharmacyPracticePage() {
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Corporate Hospital Chains - Clinical Pharmacy Departments</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {['Apollo Hospitals', 'Fortis Healthcare', 'Max Healthcare', 'Manipal Hospitals', 'Medanta Medicity', 'Aster DM Healthcare', 'Narayana Health', 'Columbia Asia Hospitals', 'Artemis Hospitals', 'Kokilaben Dhirubhai Ambani Hospital'].map((hospital) => (
+            {['Apollo Hospitals', 'Fortis Healthcare', 'Max Healthcare', 'Manipal Hospitals', 'Medanta Medicity', 'Aster DM Healthcare', 'Narayana Health', 'Artemis Hospitals', 'Kokilaben Dhirubhai Ambani Hospital'].map((hospital) => (
               <div key={hospital} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{hospital}</p>
               </div>
@@ -943,7 +947,7 @@ export default function PharmacyPracticePage() {
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organizations (CROs)</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
-            {['Quintiles/IQVIA', 'Covance', 'Parexel International', 'ICON plc', 'PPD (Pharmaceutical Product Development)', 'Lambda Therapeutic Research', 'Syngene International', 'Veeda Clinical Research'].map((cro) => (
+            {['IQVIA', 'Fortrea', 'Parexel International', 'ICON plc', 'PPD (Pharmaceutical Product Development)', 'Lambda Therapeutic Research', 'Syngene International', 'Veeda Clinical Research'].map((cro) => (
               <div key={cro} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{cro}</p>
               </div>
@@ -979,19 +983,19 @@ export default function PharmacyPracticePage() {
                 <th className="px-6 py-4 text-left font-bold">
                   <div className="flex items-center gap-2">
                     M.Pharm Pharmacy Practice
-                    <span className="bg-[#00ACC1] text-white px-3 py-1 rounded-full text-xs">2 Years PG</span>
+                    <span className="bg-[#7cb983] text-white px-3 py-1 rounded-full text-xs">2 Years PG</span>
                   </div>
                 </th>
                 <th className="px-6 py-4 text-left font-bold">
                   <div className="flex items-center gap-2">
                     Pharm.D
-                    <span className="bg-[#4CAF50] text-white px-3 py-1 rounded-full text-xs">6 Years UG+PG</span>
+                    <span className="bg-[#006837] text-white px-3 py-1 rounded-full text-xs">6 Years UG+PG</span>
                   </div>
                 </th>
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Entry Point</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">After B.Pharm (4 years UG completed)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">After 12th standard (10+2 with PCB/M)</td>
@@ -1001,7 +1005,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">2 years (4 semesters)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years (5 years + 1 year internship)</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Degree Level</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Postgraduate (Master's)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Professional Doctoral (Doctor of Pharmacy)</td>
@@ -1011,7 +1015,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">20-24 weeks clinical rotations in hospitals</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">1 full year (12 months) clinical internship</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Title</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">M.Pharm (cannot use "Dr." prefix)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Pharm.D (can use "Dr." prefix - academic)</td>
@@ -1021,7 +1025,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Mandatory research project & thesis</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Limited research, more clinical practice focus</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Clinical Depth</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate clinical exposure (6 months)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Extensive clinical exposure (full year internship)</td>
@@ -1031,7 +1035,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Clinical Pharmacist, Medical Writer, Research, Academic</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Clinical Pharmacist, Hospital Pharmacist, Patient Care</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Starting Salary</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹4-7 lakhs per annum</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹4-8 lakhs per annum</td>
@@ -1041,17 +1045,17 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Excellent (can directly pursue Ph.D, become faculty)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Good (Ph.D eligibility with additional requirements)</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Total Investment</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">B.Pharm fees + M.Pharm fees (₹6-12 lakhs total)</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹6-25 lakhs (full 6-year program)</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹6-25 lakhs (full 6-year programme)</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="px-6 py-4 font-bold text-[#006837]">Time to Job Market</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years total (4 years B.Pharm + 2 years M.Pharm)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years (direct entry after 12th)</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Hospital Preference</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate (some hospitals prefer Pharm.D)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">High (specifically designed for clinical roles)</td>
@@ -1061,9 +1065,9 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Direct eligibility (postgraduate degree)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Requires additional PG qualification in some cases</td>
               </tr>
-              <tr className="bg-[#E0F7FA]">
+              <tr className="bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">Best For</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">B.Pharm graduates wanting clinical specialization + research</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">B.Pharm graduates wanting clinical specialisation + research</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">12th passouts wanting direct clinical pharmacy career</td>
               </tr>
             </tbody>
@@ -1084,7 +1088,7 @@ export default function PharmacyPracticePage() {
             <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
-                <span>You already have B.Pharm degree and want clinical specialization</span>
+                <span>You already have B.Pharm degree and want clinical specialisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1096,7 +1100,7 @@ export default function PharmacyPracticePage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
-                <span>You prefer shorter program duration (2 years vs 6 years)</span>
+                <span>You prefer shorter programme duration (2 years vs 6 years)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1144,7 +1148,7 @@ export default function PharmacyPracticePage() {
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Higher Education & Research Opportunities</h2>
         </div>
 
-        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmacy Practice Specialization</h3>
+        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmacy Practice Specialisation</h3>
 
         <div className="bg-white rounded-xl p-8 lg:p-10 mb-10 border-l-4 border-[#7cb983]">
           <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-800 mb-4">Research Areas in Pharmacy Practice:</h4>
@@ -1210,7 +1214,7 @@ export default function PharmacyPracticePage() {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">CSIR-NET</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Life Sciences paper. Fellowship: ₹31,000/month (JRF) → ₹35,000/month (SRF)</td>
               </tr>
@@ -1218,7 +1222,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 font-bold text-[#006837]">UGC-NET</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Pharmacy paper. Fellowship: ₹31,000/month (JRF) → ₹35,000/month (SRF)</td>
               </tr>
-              <tr className="border-b border-gray-200 bg-[#E0F7FA]">
+              <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">ICMR-JRF</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Biomedical sciences. Fellowship: ₹31,000/month → ₹35,000/month</td>
               </tr>
@@ -1226,7 +1230,7 @@ export default function PharmacyPracticePage() {
                 <td className="px-6 py-4 font-bold text-[#006837]">GATE</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Biotechnology/Life Sciences. MHRD Fellowship: ₹31,000/month</td>
               </tr>
-              <tr className="bg-[#E0F7FA]">
+              <tr className="bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">University Entrance</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Individual university exams (AIIMS, JIPMER, medical colleges). University fellowships.</td>
               </tr>
@@ -1242,25 +1246,25 @@ export default function PharmacyPracticePage() {
         <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10 border-l-4 border-[#4CAF50]">
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">MS/Ph.D in Clinical Pharmacy (USA):</span> Universities like University of Southern California, University of Michigan, Purdue. Duration: 2-5 years. Assistantships/Fellowships: $25,000-35,000/year. Focus: Pharmaceutical outcomes research, patient safety, medication therapy.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Pharmacy Residency (USA):</span> PGY1 & PGY2 residency programs in US hospitals. Requires NAPLEX (pharmacist licensure exam). Stipend: $45,000-55,000/year. Leads to board-certified clinical pharmacist roles.
+                <span className="font-bold text-[#006837]">Clinical Pharmacy Residency (USA):</span> PGY1 & PGY2 residency programmes in US hospitals. Requires NAPLEX (pharmacist licensure exam). Stipend: $45,000-55,000/year. Leads to board-certified clinical pharmacist roles.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Ph.D in Healthcare/Pharmacy Practice (UK/Europe):</span> Universities like University of Manchester, Utrecht University. Duration: 3-4 years. Funding: £15,000-20,000/year. Research in pharmaceutical care, health services.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Clinical Pharmacist Positions (Gulf Countries):</span> UAE, Saudi Arabia, Qatar hospitals actively recruit. Salary: ₹15-25 lakhs per annum (tax-free). Requirements: M.Pharm + 2-3 years experience + licensing exam.
               </div>
@@ -1301,7 +1305,7 @@ export default function PharmacyPracticePage() {
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Medication Therapy Management (MTM) Certification:</span> Specialized training in comprehensive medication review services.
+              <span className="font-bold text-[#006837]">Medication Therapy Management (MTM) Certification:</span> Specialised training in comprehensive medication review services.
             </div>
           </li>
         </ul>
@@ -1354,7 +1358,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">4</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Result Declaration & College Research (March-May 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Check GPAT results. Research M.Pharm Pharmacy Practice programs. <span className="font-bold text-[#006837]">Critical:</span> Verify hospital partnerships for clinical rotations. Visit colleges to check if they have active clinical pharmacy departments in affiliated hospitals.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Check GPAT results. Research M.Pharm Pharmacy Practice programmes. <span className="font-bold text-[#006837]">Critical:</span> Verify hospital partnerships for clinical rotations. Visit colleges to check if they have active clinical pharmacy departments in affiliated hospitals.</p>
               </div>
             </div>
           </div>
@@ -1364,8 +1368,8 @@ export default function PharmacyPracticePage() {
             <div className="flex items-start gap-4">
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">5</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Counseling & College Selection (May-July 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register for counseling (AICTE/state-level). Submit preferences with Pharmacy Practice specialization. Prioritize colleges with strong hospital networks. Accept seat allotment and pay fees.</p>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Counselling & College Selection (May-July 2026)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">Register for counselling (AICTE/state-level). Submit preferences with Pharmacy Practice specialisation. Prioritize colleges with strong hospital networks. Accept seat allotment and pay fees.</p>
               </div>
             </div>
           </div>
@@ -1442,37 +1446,37 @@ export default function PharmacyPracticePage() {
           </table>
         </div>
 
-        <div className="bg-gradient-to-br from-[#FFF9C4] to-[#FFF59D] rounded-xl p-8 border-l-4 border-[#FBC02D]">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Additional Expenses:</h3>
-          <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
+        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-white mb-4">Additional Expenses:</h3>
+          <ul className="space-y-3 text-xs sm:text-sm text-white">
             <li className="flex items-start">
-              <span className="text-[#FBC02D] mr-3 mt-1">•</span>
+              <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">GPAT Registration:</span> ₹1,400 (General), ₹700 (SC/ST/OBC)
+                <span className="font-bold text-white">GPAT Registration:</span> ₹1,400 (General), ₹700 (SC/ST/OBC)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FBC02D] mr-3 mt-1">•</span>
+              <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Books & Study Materials:</span> ₹10,000-15,000 per year (clinical textbooks expensive)
+                <span className="font-bold text-white">Books & Study Materials:</span> ₹10,000-15,000 per year (clinical textbooks expensive)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FBC02D] mr-3 mt-1">•</span>
+              <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Rotation Expenses:</span> ₹5,000-10,000 (white coat, stethoscope, transportation to hospitals)
+                <span className="font-bold text-white">Clinical Rotation Expenses:</span> ₹5,000-10,000 (white coat, stethoscope, transportation to hospitals)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FBC02D] mr-3 mt-1">•</span>
+              <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Hostel & Mess:</span> ₹30,000-80,000 per year
+                <span className="font-bold text-white">Hostel & Mess:</span> ₹30,000-80,000 per year
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#FBC02D] mr-3 mt-1">•</span>
+              <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Research Project:</span> ₹10,000-20,000 (data collection, survey materials)
+                <span className="font-bold text-white">Research Project:</span> ₹10,000-20,000 (data collection, survey materials)
               </div>
             </li>
           </ul>
@@ -1486,37 +1490,37 @@ export default function PharmacyPracticePage() {
         <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10 border-l-4 border-[#4CAF50]">
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in approved colleges.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Merit Scholarships:</span> Government colleges offer 25-100% fee waivers based on GPAT percentile (typically 80+ percentile).
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Hospital Stipends:</span> Some teaching hospitals provide stipends (₹5,000-10,000/month) during clinical rotations to M.Pharm students.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">SC/ST/OBC Scholarships:</span> Central and state government post-matric scholarships available through National Scholarship Portal.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Research Assistantships:</span> Faculty may offer part-time research assistant roles (₹3,000-8,000/month).
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#2E7D32] mr-3 mt-1">•</span>
+              <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
                 <span className="font-bold text-[#006837]">Educational Loans:</span> Banks offer up to ₹10 lakhs without collateral. Interest rates: 8-12% per annum. Repayment after course + 1 year.
               </div>
@@ -1538,10 +1542,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(10)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 10 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 10 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 What is M.Pharm in Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1551,9 +1555,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 10 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  M.Pharm in Pharmacy Practice is a 2-year postgraduate specialization focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Students learn evidence-based drug therapy, patient counseling, medication safety, clinical research, and hospital pharmacy management through classroom learning and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialization is ideal for those interested in direct patient care and healthcare settings.
+                  M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Students learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through classroom learning and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings.
                 </p>
               </div>
             )}
@@ -1564,10 +1568,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(11)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 11 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 11 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 What is the difference between Pharm.D and M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1577,9 +1581,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 11 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Pharm.D is a 6-year professional doctoral program (5 years + 1 year internship) taken directly after 12th standard, focusing extensively on clinical pharmacy with full-time hospital rotations. M.Pharm Pharmacy Practice is a 2-year postgraduate program after B.Pharm focusing on clinical skills, research, and advanced pharmaceutical care. Pharm.D provides Doctor title and deeper clinical training. M.Pharm offers research opportunities and academic careers. Both lead to clinical pharmacy roles, but Pharm.D has more clinical exposure while M.Pharm combines clinical practice with research. Salaries are comparable (₹4-10 lakhs). Pharm.D is preferred for clinical positions; M.Pharm for research and academics.
+                  Pharm.D is a 6-year professional doctoral programme (5 years + 1 year internship) taken directly after 12th standard, focusing extensively on clinical pharmacy with full-time hospital rotations. M.Pharm Pharmacy Practice is a 2-year postgraduate programme after B.Pharm focusing on clinical skills, research, and advanced pharmaceutical care. Pharm.D provides Doctor title and deeper clinical training. M.Pharm offers research opportunities and academic careers. Both lead to clinical pharmacy roles, but Pharm.D has more clinical exposure while M.Pharm combines clinical practice with research. Salaries are comparable (₹4-10 lakhs). Pharm.D is preferred for clinical positions; M.Pharm for research and academics.
                 </p>
               </div>
             )}
@@ -1590,10 +1594,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(12)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 12 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 12 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 What is the salary after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1603,7 +1607,7 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 12 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Entry-level M.Pharm Pharmacy Practice graduates earn ₹4-7 lakhs per annum. Clinical Pharmacists in hospitals earn ₹5-8 lakhs, Drug Information Specialists earn ₹5-9 lakhs, Clinical Research Coordinators earn ₹4-8 lakhs, Medical Writers earn ₹5-10 lakhs, and Pharmacovigilance Associates earn ₹4-7 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Clinical Pharmacy Manager or Medical Affairs Manager earn ₹18-30 lakhs per annum. Salaries in corporate hospitals and multinational pharmaceutical companies are 30-40% higher than government hospitals. International opportunities in Gulf countries offer ₹15-30 lakhs tax-free.
                 </p>
@@ -1616,10 +1620,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(13)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 13 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 13 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Is hospital training mandatory in M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1629,7 +1633,7 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 13 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice curriculum. Students must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where students interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible.
                 </p>
@@ -1642,10 +1646,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(14)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 14 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 14 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Can I do PhD after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1655,9 +1659,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 14 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Yes, M.Pharm Pharmacy Practice graduates can pursue Ph.D in pharmaceutical sciences through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or university entrance tests. Research areas include clinical pharmacy practice, pharmaceutical care outcomes, medication adherence, pharmacoeconomics, pharmacoepidemiology, and evidence-based medicine. Ph.D opens academic careers (assistant professor), senior clinical research positions, and healthcare quality research roles. Many medical colleges, AIIMS, PGIMER, and NIPER offer Ph.D programs with fellowships of ₹31,000-35,000/month. Pharmacy Practice Ph.D graduates are valuable in clinical research, healthcare policy, and pharmaceutical outcomes research.
+                  Yes, M.Pharm Pharmacy Practice graduates can pursue Ph.D in pharmaceutical sciences through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or university entrance tests. Research areas include clinical pharmacy practice, pharmaceutical care outcomes, medication adherence, pharmacoeconomics, pharmacoepidemiology, and evidence-based medicine. Ph.D opens academic careers (assistant professor), senior clinical research positions, and healthcare quality research roles. Many medical colleges, AIIMS, PGIMER, and NIPER offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmacy Practice Ph.D graduates are valuable in clinical research, healthcare policy, and pharmaceutical outcomes research.
                 </p>
               </div>
             )}
@@ -1668,10 +1672,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(15)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 15 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 15 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Which is better: M.Pharm Pharmacy Practice or Pharmaceutics?
               </h3>
               <ChevronDown
@@ -1681,7 +1685,7 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 15 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Both are excellent but serve different purposes. Pharmacy Practice is patient-facing, focused on clinical settings, medication therapy management, and healthcare. Best for those who enjoy patient interaction and clinical work. Pharmaceutics is laboratory-based, focused on drug formulation, product development, and R&D. Best for those who prefer innovation and product design. Pharmacy Practice offers hospital careers (₹5-10 lakhs) and clinical research. Pharmaceutics offers formulation R&D roles (₹6-12 lakhs) with higher ceiling. Choose based on interest: patient care vs. product development. Pharmacy Practice has better work-life balance; Pharmaceutics has higher salary potential in senior R&D roles.
                 </p>
@@ -1694,10 +1698,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(16)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 16 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 16 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Are there jobs for M.Pharm Pharmacy Practice in India?
               </h3>
               <ChevronDown
@@ -1707,7 +1711,7 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 16 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, jobs are growing but concentrated in metro cities and tier-1 towns with large corporate hospitals. Corporate hospital chains (Apollo, Fortis, Max, Manipal) actively hire clinical pharmacists. Pharmaceutical companies need candidates for medical affairs, drug safety, and clinical research. CROs constantly recruit for clinical research coordinator roles. Challenges: (1) Fewer positions than QC/production, (2) Government hospitals have limited clinical pharmacy services, (3) Salaries lower than R&D initially. Growth drivers: NABH accreditation mandates clinical pharmacy services, increasing healthcare awareness, expansion of corporate hospitals. Job prospects better for those willing to relocate to metros.
                 </p>
@@ -1720,10 +1724,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(17)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 17 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 17 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Can I work in community pharmacy after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
@@ -1733,9 +1737,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 17 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Yes, M.Pharm Pharmacy Practice graduates can work in community (retail) pharmacies, ideally in positions beyond basic dispensing. Modern pharmacy chains like Apollo Pharmacy, MedPlus, and Wellness Forever are establishing clinical pharmacy services including medication therapy management (MTM), patient counseling clinics, health screening programs, and chronic disease management services. Salaries: ₹4-8 lakhs as pharmacy manager or clinical services coordinator. However, most graduates prefer hospital settings as community pharmacy utilizes only part of clinical training. Community pharmacy management is viable if you want entrepreneurship or prefer regular hours without hospital environment.
+                  Yes, M.Pharm Pharmacy Practice graduates can work in community (retail) pharmacies, ideally in positions beyond basic dispensing. Modern pharmacy chains like Apollo Pharmacy, MedPlus, and Wellness Forever are establishing clinical pharmacy services including medication therapy management (MTM), patient counselling clinics, health screening programmes, and chronic disease management services. Salaries: ₹4-8 lakhs as pharmacy manager or clinical services coordinator. However, most graduates prefer hospital settings as community pharmacy utilizes only part of clinical training. Community pharmacy management is viable if you want entrepreneurship or prefer regular hours without hospital environment.
                 </p>
               </div>
             )}
@@ -1746,10 +1750,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(18)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 18 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 18 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 Is M.Pharm Pharmacy Practice worth it compared to B.Pharm?
               </h3>
               <ChevronDown
@@ -1759,9 +1763,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 18 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Yes, if you're specifically interested in clinical pharmacy career. M.Pharm provides 30-50% higher salary (₹5-8 lakhs vs ₹3-5 lakhs for B.Pharm), specialized clinical knowledge, better hospital positions, clinical research opportunities, and Ph.D eligibility. Worth it if: (1) You want clinical pharmacist role, (2) Interested in patient care, (3) Willing to work in hospitals, (4) Want research/academic career. Not essential if: (1) Happy with retail pharmacy, (2) Prefer pharmaceutical manufacturing, (3) Want quick job entry, (4) Not interested in hospital environment. Investment: 2 years time + ₹2-4 lakhs fees. ROI: Positive within 3-4 years through higher salary and better positions.
+                  Yes, if you're specifically interested in clinical pharmacy career. M.Pharm provides 30-50% higher salary (₹5-8 lakhs vs ₹3-5 lakhs for B.Pharm), specialised clinical knowledge, better hospital positions, clinical research opportunities, and Ph.D eligibility. Worth it if: (1) You want clinical pharmacist role, (2) Interested in patient care, (3) Willing to work in hospitals, (4) Want research/academic career. Not essential if: (1) Happy with retail pharmacy, (2) Prefer pharmaceutical manufacturing, (3) Want quick job entry, (4) Not interested in hospital environment. Investment: 2 years time + ₹2-4 lakhs fees. ROI: Positive within 3-4 years through higher salary and better positions.
                 </p>
               </div>
             )}
@@ -1772,10 +1776,10 @@ export default function PharmacyPracticePage() {
             <button
               onClick={() => toggleFAQ(19)}
               className={`w-full p-6 text-left flex justify-between items-center transition-colors ${
-                expandedFAQ === 19 ? 'bg-green-50' : 'bg-white'
+                expandedFAQ === 19 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#006837] pr-4">
                 What is the scope of Pharmacy Practice abroad?
               </h3>
               <ChevronDown
@@ -1785,9 +1789,9 @@ export default function PharmacyPracticePage() {
               />
             </button>
             {expandedFAQ === 19 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Excellent scope, especially in countries with established clinical pharmacy services. USA: Clinical pharmacist positions pay $80,000-120,000 annually after NAPLEX licensure exam. Requires degree evaluation + pharmacy residency for best roles. UK: Clinical pharmacy roles in NHS hospitals (£30,000-45,000). Requires GPhC registration. Canada: Hospital pharmacist positions (CAD 90,000-110,000) via PEBC exam. Gulf Countries (UAE, Saudi, Qatar): Tax-free salaries ₹15-30 lakhs. Easier entry with 2-3 years Indian experience. Australia: Hospital pharmacy roles (AUD 70,000-90,000) via APC exam. Pharmacy Practice specialization is recognized internationally for clinical roles.
+                  Excellent scope, especially in countries with established clinical pharmacy services. USA: Clinical pharmacist positions pay $80,000-120,000 annually after NAPLEX licensure exam. Requires degree evaluation + pharmacy residency for best roles. UK: Clinical pharmacy roles in NHS hospitals (£30,000-45,000). Requires GPhC registration. Canada: Hospital pharmacist positions (CAD 90,000-110,000) via PEBC exam. Gulf Countries (UAE, Saudi, Qatar): Tax-free salaries ₹15-30 lakhs. Easier entry with 2-3 years Indian experience. Australia: Hospital pharmacy roles (AUD 70,000-90,000) via APC exam. Pharmacy Practice specialisation is recognised internationally for clinical roles.
                 </p>
               </div>
             )}
@@ -1804,9 +1808,9 @@ export default function PharmacyPracticePage() {
 
         <div className="space-y-6">
           {/* Reason 1 */}
-          <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 border-l-4 border-[#4CAF50]">
+          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">1. Direct Patient Impact & Meaningful Work</h3>
-            <p className="text-xs sm:text-sm text-gray-800">Unlike laboratory-based specializations, Pharmacy Practice allows you to directly interact with patients, counsel them on medications, solve drug-related problems, and see immediate impact of your interventions. Helping a patient understand their diabetes medications, preventing an adverse drug interaction, or improving medication adherence provides immense job satisfaction that laboratory work cannot offer.</p>
+            <p className="text-xs sm:text-sm text-gray-800">Unlike laboratory-based specialisations, Pharmacy Practice allows you to directly interact with patients, counsel them on medications, solve drug-related problems, and see immediate impact of your interventions. Helping a patient understand their diabetes medications, preventing an adverse drug interaction, or improving medication adherence provides immense job satisfaction that laboratory work cannot offer.</p>
           </div>
 
           {/* Reason 2 */}
@@ -1822,7 +1826,7 @@ export default function PharmacyPracticePage() {
           </div>
 
           {/* Reason 4 */}
-          <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 border-l-4 border-[#4CAF50]">
+          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">4. Diverse Career Pathways</h3>
             <p className="text-xs sm:text-sm text-gray-800">Pharmacy Practice opens multiple career doors: hospital clinical pharmacist, drug information specialist, clinical research coordinator, medical writer, pharmacovigilance specialist, medical affairs, community pharmacy services, academic faculty, healthcare quality consultant, and pharmaceutical outcomes researcher. This diversity provides career flexibility and prevents monotony. You can switch between patient care, research, and industry roles throughout your career.</p>
           </div>
@@ -1836,22 +1840,22 @@ export default function PharmacyPracticePage() {
           {/* Reason 6 */}
           <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">6. Strong International Recognition</h3>
-            <p className="text-xs sm:text-sm text-gray-800">Clinical pharmacy is well-established globally. Pharmacy Practice qualification is recognized in USA, UK, Canada, Australia, and Gulf countries. International migration is easier compared to manufacturing-focused specializations. Clinical pharmacy skills are universal – medication therapy management, patient counseling, and drug information services translate across healthcare systems. This provides excellent mobility for international career opportunities.</p>
+            <p className="text-xs sm:text-sm text-gray-800">Clinical pharmacy is well-established globally. Pharmacy Practice qualification is recognised in USA, UK, Canada, Australia, and Gulf countries. International migration is easier compared to manufacturing-focused specialisations. Clinical pharmacy skills are universal – medication therapy management, patient counselling, and drug information services translate across healthcare systems. This provides excellent mobility for international career opportunities.</p>
           </div>
 
           {/* Reason 7 */}
-          <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 border-l-4 border-[#4CAF50]">
+          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">7. Academic & Research Opportunities</h3>
-            <p className="text-xs sm:text-sm text-gray-800">M.Pharm Pharmacy Practice provides strong foundation for academic careers. Pharmacy Practice faculty are in demand as more colleges establish clinical pharmacy programs. Research opportunities abound in pharmacoepidemiology, patient outcomes, medication safety, and healthcare quality. Ph.D positions are available at medical colleges, public health institutes, and pharmacy schools. Academic positions offer job security, intellectual freedom, and satisfaction of training next generation.</p>
+            <p className="text-xs sm:text-sm text-gray-800">M.Pharm Pharmacy Practice provides strong foundation for academic careers. Pharmacy Practice faculty are in demand as more colleges establish clinical pharmacy programmes. Research opportunities abound in pharmacoepidemiology, patient outcomes, medication safety, and healthcare quality. Ph.D positions are available at medical colleges, public health institutes, and pharmacy schools. Academic positions offer job security, intellectual freedom, and satisfaction of training next generation.</p>
           </div>
         </div>
       </div>
 
       {/* Ready to Make a Difference in Patient Care? */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#00BCD4] to-[#7cb983] rounded-2xl p-12 text-center shadow-xl">
+        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center shadow-xl">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-white mb-4 border-b-4 border-white pb-4 inline-block">Ready to Make a Difference in Patient Care?</h2>
-          <p className="text-white text-xs sm:text-sm mb-8 mt-8">Join our M.Pharm Pharmacy Practice program and become a clinical pharmacy professional!</p>
+          <p className="text-white text-xs sm:text-sm mb-8 mt-8">Join our M.Pharm Pharmacy Practice programme and become a clinical pharmacy professional!</p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
@@ -1871,7 +1875,7 @@ export default function PharmacyPracticePage() {
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programs. PCI ensures adequate faculty, infrastructure, and hospital tie-ups for clinical rotations. Verify on pci.nic.in.
+              <span className="font-bold text-[#006837]">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programmes. PCI ensures adequate faculty, infrastructure, and hospital tie-ups for clinical rotations. Verify on pci.nic.in.
             </div>
           </li>
           <li className="flex items-start">
@@ -1895,7 +1899,7 @@ export default function PharmacyPracticePage() {
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">University Affiliation:</span> Program must be affiliated with UGC-recognized university authorized to award M.Pharm degrees.
+              <span className="font-bold text-[#006837]">University Affiliation:</span> Programme must be affiliated with UGC-recognised university authorized to award M.Pharm degrees.
             </div>
           </li>
           <li className="flex items-start">

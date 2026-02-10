@@ -16,7 +16,7 @@ export default function InternshipOpportunitiesPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* First Paragraph */}
           <p className="text-justify">
-            We offer exciting internship opportunities for students to gain practical training in the pharmaceutical industry and hospitals. This experience enhances their knowledge and provides valuable insights into the current trends shaping the pharmaceutical sector. Interested students can apply by filling out the summer training program application form, expressing their specific area of interest.
+            We offer exciting internship opportunities for students to gain practical training in the pharmaceutical industry and hospitals. This experience enhances their knowledge and provides valuable insights into the current trends shaping the pharmaceutical sector. Interested students can apply by filling out the summer training programme application form, expressing their specific area of interest.
           </p>
 
           {/* Second Paragraph */}
@@ -26,7 +26,7 @@ export default function InternshipOpportunitiesPage() {
 
           {/* Third Paragraph */}
           <p className="text-justify">
-            Participants are awarded formal certificates in recognition of their successful completion of the training program. These certificates are meticulously collected and filed for future reference, acknowledging the students accomplishments.
+            Participants are awarded formal certificates in recognition of their successful completion of the training programme. These certificates are meticulously collected and filed for future reference, acknowledging the students accomplishments.
           </p>
         </div>
       </div>

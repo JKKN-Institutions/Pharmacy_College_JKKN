@@ -50,20 +50,20 @@ export const topMenuItems: NavItem[] = [
     ]
   },
   {
-    label: "PROGRAMS OFFERED",
-    href: "/programs",
+    label: "PROGRAMMES OFFERED",
+    href: "/programmes",
     submenu: [
       {
-        label: "UG Program",
-        href: "/programs/ug-program",
+        label: "UG Programme",
+        href: "/programmes/ug-programme",
         submenu: [
           { label: "B.Pharm", href: "/b-pharmacy" },
           { label: "B.Pharm (Lateral Entry)", href: "/b-pharmacy-lateral-entry" }
         ]
       },
       {
-        label: "PG Program",
-        href: "/programs/pg-program",
+        label: "PG Programme",
+        href: "/programmes/pg-programme",
         submenu: [
           {
             label: "M.Pharmacy",

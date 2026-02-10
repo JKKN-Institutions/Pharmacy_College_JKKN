@@ -5,7 +5,7 @@ export default function PharmDTimeTablePage() {
     <ResponsivePDFViewer
       pdfUrl="/pdf/Pharm.D-Time-Table-2025-26.pdf"
       title="Pharm.D Time Table 2025-26"
-      description="View the complete academic schedule and time table for Doctor of Pharmacy program."
+      description="View the complete academic schedule and time table for Doctor of Pharmacy programme."
     />
   )
 }

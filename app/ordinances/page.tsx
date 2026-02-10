@@ -67,13 +67,13 @@ export default function OrdinancesPage() {
                 Conduct of Internal assessment (IA)
               </h2>
               <p className="mb-4">
-                The academic calendar provides students and faculty with a comprehensive schedule of internal assessments(IA) for all programs.
+                The academic calendar provides students and faculty with a comprehensive schedule of internal assessments(IA) for all programmes.
               </p>
               <p className="mb-4">
-                IA question papers are prepared in accordance with Revised Bloom's Taxonomy ( RBT) as per the pattern prescribed by Pharmacy Council of India (PCI). These assessments are conducted for a duration of one and a half hours across all programs.
+                IA question papers are prepared in accordance with Revised Bloom's Taxonomy ( RBT) as per the pattern prescribed by Pharmacy Council of India (PCI). These assessments are conducted for a duration of one and a half hours across all programmes.
               </p>
               <p className="mb-4">
-                To ensure consistency, the IA question paper templates for theory and practical assessments are designed for all programs. These templates undergo a rigorous vetting process to maintain quality and alignment with the prescribed syllabus.
+                To ensure consistency, the IA question paper templates for theory and practical assessments are designed for all programmes. These templates undergo a rigorous vetting process to maintain quality and alignment with the prescribed syllabus.
               </p>
               <p className="mb-4">
                 The practical IA exam schedule is determined based on the respective practical class hours, typically a week prior to the theory IA exams or on the same week. To uphold discipline and decorum, all examinations are conducted under the surveillance of CCTV cameras.
@@ -120,7 +120,7 @@ export default function OrdinancesPage() {
                 The mark entry process is closely followed up after the practical exams. All details of the practical exams are dispatched to the university.
               </p>
               <p className="mb-4">
-                JKKN has established a benchmark for the existing programs to calculate CO attainment. Each subject's CO is linked with the corresponding PO. The weightage of CO is determined based on the CA and IA exams. All marks, including CA, IA, and University exam scores, are entered into Excel sheets.
+                JKKN has established a benchmark for the existing programmes to calculate CO attainment. Each subject's CO is linked with the corresponding PO. The weightage of CO is determined based on the CA and IA exams. All marks, including CA, IA, and University exam scores, are entered into Excel sheets.
               </p>
             </div>
 
@@ -162,7 +162,7 @@ export default function OrdinancesPage() {
                 Analysis of Course Outcome, Programme Outcome, and Programme Attainment:
               </h3>
               <p className="mb-4">
-                The Course Outcome (CO) for various programs such as B Pharm, M Pharm, and Pharm D is meticulously designed based on the appropriate domain of Revised Bloom's Taxonomy (RBT) by the respective course coordinators. The structured CO undergoes verification by the Head of the Department (HOD) and receives final approval from the Head of the Institution. The institution's website serves as a platform for displaying the CO, ensuring convenient access for management, faculty, students, alumni, parents, and the general public.
+                The Course Outcome (CO) for various programmes such as B Pharm, M Pharm, and Pharm D is meticulously designed based on the appropriate domain of Revised Bloom's Taxonomy (RBT) by the respective course coordinators. The structured CO undergoes verification by the Head of the Department (HOD) and receives final approval from the Head of the Institution. The institution's website serves as a platform for displaying the CO, ensuring convenient access for management, faculty, students, alumni, parents, and the general public.
               </p>
             </div>
 
@@ -312,7 +312,7 @@ export default function OrdinancesPage() {
                 Members make the necessary arrangements for practical examiners, ensuring they have the required facilities and support.
               </p>
               <p className="mb-4">
-                Return of unused booklets to the university and documentation of Pass Percentage, First Class, and Distinction for all programs are essential procedures.
+                Return of unused booklets to the university and documentation of Pass Percentage, First Class, and Distinction for all programmes are essential procedures.
               </p>
               <p className="mb-4">
                 The Course Outcome (CO) and Programme Outcome (PO) process is diligently followed to ensure comprehensive assessment and accountability.

@@ -31,7 +31,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Fourth Paragraph */}
           <p className="text-justify mb-4 sm:mb-6">
-            Each department also has a separate specialized instrument laboratory to fulfil individual departmental needs based on the research programs, which includes
+            Each department also has a separate specialised instrument laboratory to fulfil individual departmental needs based on the research programmes, which includes
           </p>
 
           {/* Department of Pharmaceutical Analysis */}
