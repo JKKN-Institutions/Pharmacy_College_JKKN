@@ -19,7 +19,7 @@ export default function DrugInformationCenterPage() {
           </p>
 
           <p className="text-justify">
-            In recognition of all these facts, the J.K.K.Nattraja College of Pharmacy is established Drug information Center (DIC). The purpose of establishing the DIC is basically to provide a service for physicians, pharmacists, health care personnel and the public.
+            In recognition of all these facts, the JKKN College of Pharmacy is established Drug information Center (DIC). The purpose of establishing the DIC is basically to provide a service for physicians, pharmacists, health care personnel and the public.
           </p>
 
           <p className="text-justify">

@@ -1,8 +1,10 @@
 'use client'
 
 import React, { useState } from 'react';
-import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown } from 'lucide-react'
+import Link from 'next/link';
+import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
+import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
 
 export default function MPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -11,9 +13,39 @@ export default function MPharmacyPage() {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
 
+  const mPharmFaqs = [
+    {
+      question: "What is M.Pharm course?",
+      answer: "M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to premier institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles."
+    },
+    {
+      question: "What are the M.Pharm specialisations available?",
+      answer: "M.Pharm offers 5 major specialisations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice."
+    },
+    {
+      question: "Which M.Pharm specialisation has best scope?",
+      answer: "All M.Pharm specialisations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on your college, research publications, skills, and networking than specialisation choice. Top 10% students succeed in any specialisation."
+    },
+    {
+      question: "What is M.Pharm salary?",
+      answer: "M.Pharm salaries vary by specialisation, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialisation-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K."
+    },
+    {
+      question: "How to choose M.Pharm specialisation?",
+      answer: "Choose M.Pharm specialisation based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialisation. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specialisations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specialisations before deciding."
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <CourseSchema
+        name="Master of Pharmacy (M.Pharm)"
+        description="M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy with 5 major specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice."
+        duration="P2Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/m-pharmacy"
+      />
+      <FaqSchema faqs={mPharmFaqs} />
       <Header />
 
       {/* Hero Section */}
@@ -31,7 +63,7 @@ export default function MPharmacyPage() {
 
           <div className="text-sm sm:text-base text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. Unlike the broad-based B.Pharm programme, M.Pharm offers deep specialisation through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects compared to B.Pharm.
+              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD programmes</Link>.
             </p>
           </div>
 
@@ -66,7 +98,7 @@ export default function MPharmacyPage() {
                 expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SPECIALIZATIONS</h3>
+              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SPECIALISATIONS</h3>
               <ChevronDown
                 className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                   expandedFAQ === 1 ? 'rotate-180' : ''
@@ -659,10 +691,10 @@ export default function MPharmacyPage() {
         </div>
 
         <div className="bg-[#FBFBEE] rounded-lg p-6 mt-6 border-l-4 border-[#7cb983]">
-          <h4 className="text-lg font-bold text-[#006837] mb-3 flex items-center gap-2">
+          <h3 className="text-lg font-bold text-[#006837] mb-3 flex items-center gap-2">
             <Lightbulb className="w-5 h-5" />
             Strategic Admission Advice:
-          </h4>
+          </h3>
           <ul className="space-y-2 text-gray-800">
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
@@ -1096,6 +1128,76 @@ export default function MPharmacyPage() {
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Andhra University</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Gujarat University</div>
           </div>
+        </div>
+      </div>
+
+      {/* Related Programmes Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-6">
+          Explore Related Programmes
+        </h2>
+        <div className="border-b-4 border-[#7cb983] w-full mb-8"></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          {/* B.Pharmacy Card */}
+          <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharmacy</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">4-year undergraduate degree in pharmaceutical sciences</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>4 Years</span>
+              <span>•</span>
+              <span>After 10+2</span>
+            </div>
+          </Link>
+
+          {/* Pharm.D Card */}
+          <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">Pharm.D</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">6-year clinical pharmacy programme with hospital training</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>6 Years</span>
+              <span>•</span>
+              <span>Clinical Focus</span>
+            </div>
+          </Link>
+
+          {/* PhD Card */}
+          <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">PhD</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">Research doctorate in pharmaceutical sciences</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>3-5 Years</span>
+              <span>•</span>
+              <span>Research</span>
+            </div>
+          </Link>
+
+          {/* B.Pharmacy Lateral Entry Card */}
+          <Link href="/b-pharmacy-lateral-entry" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharm (Lateral Entry)</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">Direct entry into 2nd year for D.Pharm graduates</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>3 Years</span>
+              <span>•</span>
+              <span>After D.Pharm</span>
+            </div>
+          </Link>
         </div>
       </div>
 

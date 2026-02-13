@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import Link from 'next/link'
 import Header from '@/components/Header'
-import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ChevronDown, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Store, Target, TestTube, TrendingUp } from 'lucide-react'
+import { CourseSchema } from '@/components/SchemaOrg'
+import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ChevronDown, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Store, Target, TestTube, TrendingUp, ArrowRight } from 'lucide-react'
 
 export default function BPharmLateralEntryPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -12,6 +14,13 @@ export default function BPharmLateralEntryPage() {
   };
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <CourseSchema
+        name="Bachelor of Pharmacy (B.Pharm) - Lateral Entry"
+        description="B.Pharm Lateral Entry is a 3-year accelerated pharmacy programme for diploma holders in pharmacy (D.Pharm). Students enter directly into the second year of B.Pharm, completing the degree in 3 years instead of 4 years, leading to the same B.Pharm qualification and career opportunities."
+        duration="P3Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry"
+      />
       <Header />
 
       {/* Hero Section */}
@@ -156,7 +165,7 @@ export default function BPharmLateralEntryPage() {
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Higher Studies Pathway:</strong> M.Pharm, MBA, Pharm.D (PB), Ph.D., MS abroad
+                  <strong className="text-[#006837]">Higher Studies Pathway:</strong> <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm</Link>, MBA, <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">Pharm.D (PB)</Link>, <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link>, MS abroad
                 </div>
               </li>
               <li className="flex items-start">
@@ -205,7 +214,7 @@ export default function BPharmLateralEntryPage() {
             <div className="border-t-4 border-[#7cb983] bg-white shadow-lg rounded-lg overflow-hidden">
               <div className="p-8">
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-center text-gray-900 mb-6">
-                  B.Pharm (Regular)
+                  <Link href="/b-pharmacy" className="text-[#006837] hover:underline">B.Pharm (Regular)</Link>
                 </h3>
                 <div className="flex justify-center mb-6">
                   <span className="bg-[#006837] text-white px-6 py-2 rounded-full font-semibold">
@@ -1870,6 +1879,76 @@ export default function BPharmLateralEntryPage() {
                 <span>Want to start earning early, upgrade later through Lateral Entry</span>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Related Programmes Section */}
+        <div className="mb-16">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+            Explore Related Programmes
+          </h2>
+          <div className="border-b-4 border-[#7cb983] w-full mb-8"></div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* B.Pharmacy Card */}
+            <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+              <div className="flex items-center justify-between mb-4">
+                <GraduationCap className="w-10 h-10 text-[#006837]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharmacy (Regular)</h3>
+              <p className="text-xs sm:text-sm text-gray-600 mb-3">4-year undergraduate degree in pharmaceutical sciences</p>
+              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+                <span>4 Years</span>
+                <span>•</span>
+                <span>After 10+2</span>
+              </div>
+            </Link>
+
+            {/* M.Pharmacy Card */}
+            <Link href="/m-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+              <div className="flex items-center justify-between mb-4">
+                <GraduationCap className="w-10 h-10 text-[#006837]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">M.Pharmacy</h3>
+              <p className="text-xs sm:text-sm text-gray-600 mb-3">Advance your pharmacy career with 5 PG specialisations</p>
+              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+                <span>2 Years</span>
+                <span>•</span>
+                <span>GPAT</span>
+              </div>
+            </Link>
+
+            {/* Pharm.D Card */}
+            <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+              <div className="flex items-center justify-between mb-4">
+                <GraduationCap className="w-10 h-10 text-[#006837]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">Pharm.D</h3>
+              <p className="text-xs sm:text-sm text-gray-600 mb-3">6-year clinical pharmacy programme with hospital training</p>
+              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+                <span>6 Years</span>
+                <span>•</span>
+                <span>Clinical Focus</span>
+              </div>
+            </Link>
+
+            {/* PhD Card */}
+            <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+              <div className="flex items-center justify-between mb-4">
+                <GraduationCap className="w-10 h-10 text-[#006837]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">PhD</h3>
+              <p className="text-xs sm:text-sm text-gray-600 mb-3">Research doctorate in pharmaceutical sciences</p>
+              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+                <span>3-5 Years</span>
+                <span>•</span>
+                <span>Research</span>
+              </div>
+            </Link>
           </div>
         </div>
 

@@ -22,13 +22,13 @@ export default function InstitutionalDevelopmentPlanPage() {
               Institutional Development Plan
             </h2>
 
-            {/* JKKN College Of Pharmacy */}
+            {/* JKKN College of Pharmacy */}
             <h3 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold text-gray-900">
-              JKKN College Of Pharmacy
+              JKKN College of Pharmacy
             </h3>
 
             <p>
-              JKKN College Of Pharmacy is a leading pharmaceutical education institution committed to excellence in pharmacy education, research, and healthcare innovation. This Institutional Development Plan outlines our strategic roadmap for short-term (5-year) and long-term (15-year) development, engaging with key stakeholders including faculty, staff, students, alumni, and industry partners to ensure alignment with our institution's vision of being a premier center for pharmaceutical education and research.
+              JKKN College of Pharmacy is a leading pharmaceutical education institution committed to excellence in pharmacy education, research, and healthcare innovation. This Institutional Development Plan outlines our strategic roadmap for short-term (5-year) and long-term (15-year) development, engaging with key stakeholders including faculty, staff, students, alumni, and industry partners to ensure alignment with our institution's vision of being a premier center for pharmaceutical education and research.
             </p>
 
             {/* Short-term Plan */}
@@ -111,7 +111,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Academic Excellence:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
-                <li>Establish JKKN College Of Pharmacy as a leader in pharmaceutical education in the region</li>
+                <li>Establish JKKN College of Pharmacy as a leader in pharmaceutical education in the region</li>
                 <li>Develop strategic partnerships with international pharmaceutical education institutions</li>
                 <li>Achieve accreditation from prestigious international pharmacy education bodies</li>
                 <li>Establish a Pharmaceutical Research University status</li>
@@ -206,7 +206,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Main Objectives and Goals of the Institutional Development Plan (IDP)
               </h2>
               <p className="mb-6">
-                The Institutional Development Plan (IDP) of JKKN College Of Pharmacy is a strategic 15-year roadmap aimed at transforming the institution into a globally recognised center of pharmaceutical academic excellence, innovation, and inclusivity. It aligns with the National Education Policy 2020, Pharmacy Council of India regulations, and the Sustainable Development Goals (SDGs), covering a wide range of initiatives across pharmaceutical academics, infrastructure, faculty development, research, student empowerment, and community healthcare engagement.
+                The Institutional Development Plan (IDP) of JKKN College of Pharmacy is a strategic 15-year roadmap aimed at transforming the institution into a globally recognised center of pharmaceutical academic excellence, innovation, and inclusivity. It aligns with the National Education Policy 2020, Pharmacy Council of India regulations, and the Sustainable Development Goals (SDGs), covering a wide range of initiatives across pharmaceutical academics, infrastructure, faculty development, research, student empowerment, and community healthcare engagement.
               </p>
 
               {/* Pharmaceutical Academic Excellence */}
@@ -355,7 +355,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               <p className="mt-8">
-                This comprehensive approach ensures that JKKN College Of Pharmacy not only achieves its academic goals but also contributes significantly to pharmaceutical education, research, healthcare, and community well-being.
+                This comprehensive approach ensures that JKKN College of Pharmacy not only achieves its academic goals but also contributes significantly to pharmaceutical education, research, healthcare, and community well-being.
               </p>
             </div>
           </div>

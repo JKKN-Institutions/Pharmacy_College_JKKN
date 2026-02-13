@@ -15,7 +15,7 @@ export default function YouthRedCrossPage() {
         {/* Introduction */}
         <div className="mb-4 sm:mb-6 md:mb-8">
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-            The Indian Red Cross Society (IRCS) is a voluntary humanitarian organization to protect human life and health based in India. It is part of the International Red Cross and Red Crescent Movement, and so shares the Fundamental Principles of the International Red Cross and Red Crescent Movement. The society's mission is providing relief in times of disasters/emergencies and promoting health &amp; care of vulnerable people and communities. Youth Red Cross Society of United Institute of Technology was started in year 2010, at present more than 300 volunteers are actively involved in Social activities. Youth Red Cross helps the students to inculcate discipline in them and to understand their responsibilities towards their countrymen, especially the poor and downtrodden.
+            The Indian Red Cross Society (IRCS) is a voluntary humanitarian organisation to protect human life and health based in India. It is part of the International Red Cross and Red Crescent Movement, and so shares the Fundamental Principles of the International Red Cross and Red Crescent Movement. The society's mission is providing relief in times of disasters/emergencies and promoting health &amp; care of vulnerable people and communities. Youth Red Cross Society of United Institute of Technology was started in year 2010, at present more than 300 volunteers are actively involved in Social activities. Youth Red Cross helps the students to inculcate discipline in them and to understand their responsibilities towards their countrymen, especially the poor and downtrodden.
           </p>
         </div>
 
@@ -130,23 +130,23 @@ export default function YouthRedCrossPage() {
             <p>1. Dr. VENKATESAN M, Chairman,</p>
             <p>Principal,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
-            <p>B. Kumarapalayam.</p>
+            <p>B. Komarapalayam.</p>
             <p className="mt-3">2. Dr. V. KISHOR KUMAR, Programme Officer,</p>
             <p>Y.R.C. Programme Officer,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
-            <p>B. Kumarapalayam.</p>
+            <p>B. Komarapalayam.</p>
             <p className="mt-3">3. Dr.SEKAR V, Member,</p>
             <p>Professor and HOD analysis dept,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
-            <p>B. Kumarapalayam.</p>
+            <p>B. Komarapalayam.</p>
             <p className="mt-3">4. Mr. V. VENKATESWARAN, Member,</p>
             <p>Associate Professor,</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
-            <p>B. Kumarapalayam.</p>
+            <p>B. Komarapalayam.</p>
             <p className="mt-3">5. Mr. K.Prabhu, Unit Student Chairman,</p>
             <p>IV.B.Pharm Student (VII Sem),</p>
             <p>J.K.K. Nattaraja College of Pharmacy,</p>
-            <p>B. Kumarapalayam.</p>
+            <p>B. Komarapalayam.</p>
             <p className="mt-4">Send your related queries to Email: <b>grievancesjkkncp@gmail.com</b></p>
           </div>
         </div>

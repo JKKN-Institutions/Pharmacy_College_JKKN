@@ -72,9 +72,13 @@ export default function ContactPage() {
                         Address
                       </h3>
                       <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                        JKKN COLLEGE OF PHARMACY<br />
-                        NATARAJAPURAM, NH-544 (SALEM TO COIMBATORE),<br />
-                        KOMARAPALAYAM – 638183, NAMAKKAL (DT)
+                        JKKN College of Pharmacy<br />
+                        Natarajapuram, NH-544 (Salem To Coimbatore National Highway)<br />
+                        Komarapalayam (TK), Namakkal (DT)<br />
+                        Tamil Nadu - 638183, India
+                      </p>
+                      <p className="text-xs sm:text-sm text-gray-600 mt-3 leading-relaxed">
+                        Located on NH-544 between Salem and Coimbatore, 15 km from Tiruchengode, 35 km from Salem
                       </p>
                     </div>
                   </div>

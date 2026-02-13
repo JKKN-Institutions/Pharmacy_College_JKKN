@@ -76,7 +76,7 @@ export default function SportsCommitteePage() {
 
           {/* Key Objectives Heading */}
           <p className="text-justify font-semibold">
-            The key objectives of the Sports Committee of J.K.K.Nattraja College of Pharmacy are as follows:
+            The key objectives of the Sports Committee of JKKN College of Pharmacy are as follows:
           </p>
 
           {/* Main Objective */}

@@ -2,7 +2,7 @@
 
 import Header from '@/components/Header'
 
-export default function IPABhavaniKumarapalayamPage() {
+export default function IPABhavaniKomarapalayamPage() {
   return (
     <div className="min-h-screen bg-[#F5F1E8]">
       <Header />
@@ -11,7 +11,7 @@ export default function IPABhavaniKumarapalayamPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         {/* Page Title */}
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 md:mb-12">
-          IPA-Bhavani-Kumarapalayam Local Branch
+          IPA-Bhavani-Komarapalayam Local Branch
         </h1>
 
         {/* Content Container */}
@@ -21,10 +21,10 @@ export default function IPABhavaniKumarapalayamPage() {
               {/* Main Heading */}
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-[#0F6B3E] mb-4 md:mb-6">
-                  INDIAN PHARMACEUTICAL ASSOCIATION -BHAVANI KUMARAPALAYAM LOCAL BRANCH
+                  INDIAN PHARMACEUTICAL ASSOCIATION -BHAVANI KOMARAPALAYAM LOCAL BRANCH
                 </h2>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed mb-4">
-                  The Indian Pharmaceutical Association (IPA) – Bhavani Kumarapalayam Local Branch is a professional organization dedicated to promoting the growth and development of the pharmaceutical industry in the region. Our branch is affiliated with the JKKN College of Pharmacy, a premier institution for pharmaceutical education and research.
+                  The Indian Pharmaceutical Association (IPA) – Bhavani Komarapalayam Local Branch is a professional organisation dedicated to promoting the growth and development of the pharmaceutical industry in the region. Our branch is affiliated with the JKKN College of Pharmacy, a premier institution for pharmaceutical education and research.
                 </p>
               </div>
 
@@ -34,7 +34,7 @@ export default function IPABhavaniKumarapalayamPage() {
                   Our Mission
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed">
-                  Our mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Kumarapalayam area. We strive to enhance the knowledge and skills of our members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
+                  Our mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Komarapalayam area. We strive to enhance the knowledge and skills of our members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default function IPABhavaniKumarapalayamPage() {
                   Membership Benefits
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed mb-3">
-                  By becoming a member of the IPA – Bhavani Kumarapalayam Local Branch, you can:
+                  By becoming a member of the IPA – Bhavani Komarapalayam Local Branch, you can:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
                   <li className="leading-relaxed">– Access exclusive educational resources and training programmes</li>

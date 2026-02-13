@@ -26,7 +26,7 @@ export default function CulturalCommitteePage() {
               The prime aim of the Cultural Committee is to motivate students to exhibit their creative prowess and break free from their hesitations.
             </p>
             <p className="text-justify">
-              To promote cultural diversity within the organization and the wider community.
+              To promote cultural diversity within the organisation and the wider community.
             </p>
           </div>
 

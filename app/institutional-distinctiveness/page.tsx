@@ -23,7 +23,7 @@ export default function InstitutionalDistinctivenessPage() {
           {/* Content */}
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             <p className="text-justify">
-              JKKN College of Pharmacy, located in Kumarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. Our institution has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
+              JKKN College of Pharmacy, located in Komarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. Our institution has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
             </p>
 
             <p className="text-justify">
@@ -214,7 +214,7 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="mt-6">
                 <p className="text-gray-700 text-justify">
-                  Students from JKKN College of Pharmacy receive recognition and a payment of Rs. 5,000.00. The Tamil Nadu government's Entrepreneurship Development and Innovation Institution (EDII) is the organization behind the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition.
+                  Students from JKKN College of Pharmacy receive recognition and a payment of Rs. 5,000.00. The Tamil Nadu government's Entrepreneurship Development and Innovation Institution (EDII) is the organisation behind the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition.
                 </p>
               </div>
 

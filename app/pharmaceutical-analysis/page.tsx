@@ -790,7 +790,7 @@ export default function PharmaceuticalAnalysisPage() {
 
           {/* CROs */}
           <div className="mb-8">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Contract Research Organizations (CROs)</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Contract Research Organisations (CROs)</h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
               {['IQVIA', 'Fortrea', 'Parexel', 'ICON plc', 'Lambda Therapeutic Research',
                 'Syngene International'].map((company) => (
@@ -1483,7 +1483,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 2 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    M.Pharm Pharmaceutical Analysis graduates have excellent job opportunities in pharmaceutical manufacturing (QC departments), analytical R&D labs, contract testing organizations, CROs, regulatory affairs departments, government testing labs, and academic institutions. Every pharmaceutical company requires quality control services, ensuring consistent demand for analytical professionals. Job roles include QC Analyst, Method Development Scientist, Stability Testing Specialist, Regulatory Affairs Associate, and Analytical Research Scientist. Job availability is excellent with multiple openings across India and internationally.
+                    M.Pharm Pharmaceutical Analysis graduates have excellent job opportunities in pharmaceutical manufacturing (QC departments), analytical R&D labs, contract testing organisations, CROs, regulatory affairs departments, government testing labs, and academic institutions. Every pharmaceutical company requires quality control services, ensuring consistent demand for analytical professionals. Job roles include QC Analyst, Method Development Scientist, Stability Testing Specialist, Regulatory Affairs Associate, and Analytical Research Scientist. Job availability is excellent with multiple openings across India and internationally.
                   </p>
                 </div>
               )}
@@ -1642,7 +1642,7 @@ export default function PharmaceuticalAnalysisPage() {
             <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
               <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">6. Regulatory Importance</h3>
               <p className="text-xs sm:text-sm text-gray-700">
-                Quality control is critical for regulatory approval and product release. This importance translates to respect within organizations, good compensation, and job security. Analytical departments are never cost centers to be eliminated; they're essential for business operations.
+                Quality control is critical for regulatory approval and product release. This importance translates to respect within organisations, good compensation, and job security. Analytical departments are never cost centers to be eliminated; they're essential for business operations.
               </p>
             </div>
           </div>

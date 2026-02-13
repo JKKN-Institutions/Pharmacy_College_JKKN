@@ -35,7 +35,7 @@ export default function PharmacologyPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacology is a 2-year postgraduate specialisation programme that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive programme trains students in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Students conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organizations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
+              M.Pharm in Pharmacology is a 2-year postgraduate specialisation programme that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive programme trains students in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Students conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organisations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
             </p>
           </div>
 
@@ -851,7 +851,7 @@ export default function PharmacologyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                <span>Perform lead optimization experiments</span>
+                <span>Perform lead optimisation experiments</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
@@ -936,9 +936,9 @@ export default function PharmacologyPage() {
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmacology Graduates</h2>
         </div>
 
-        {/* Contract Research Organizations (CROs) - Preclinical Services */}
+        {/* Contract Research Organisations (CROs) - Preclinical Services */}
         <div className="mb-10">
-          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Contract Research Organizations (CROs) - Preclinical Services</h3>
+          <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">Contract Research Organisations (CROs) - Preclinical Services</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800 hover:border-[#7cb983] hover:shadow-lg transition-all">
               Vimta Labs
@@ -1389,7 +1389,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 5 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Contract Research Organizations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology.
+                  Contract Research Organisations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology.
                 </p>
               </div>
             )}

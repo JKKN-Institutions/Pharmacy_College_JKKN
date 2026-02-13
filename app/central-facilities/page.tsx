@@ -16,12 +16,12 @@ export default function CentralFacilitiesPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* First Paragraph */}
           <p className="text-justify">
-            The JKK Nattraja College of Pharmacy is well equipped with laboratories and equipment to give the students hands-on training in the field of pharmacy. The college has a sufficient number of labs for postgraduate training in all the major areas of pharmacy. The labs are well furnished and designed to permit students ample working space. All security measures have been put in place to assist in case of emergencies. The area of the laboratories complies with PCI standards (90sqM) and the types of equipment are maintained as per PCI guidelines. Every six months an audit of chemicals is conducted by the lab attendants.
+            The JKKN College of Pharmacy is well equipped with laboratories and equipment to give the students hands-on training in the field of pharmacy. The college has a sufficient number of labs for postgraduate training in all the major areas of pharmacy. The labs are well furnished and designed to permit students ample working space. All security measures have been put in place to assist in case of emergencies. The area of the laboratories complies with PCI standards (90sqM) and the types of equipment are maintained as per PCI guidelines. Every six months an audit of chemicals is conducted by the lab attendants.
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            The College is running postgraduate courses in five streams. Eighteen faculty members have been approved as research guides for postgraduate studies while five also guide PhD students. The College provides each department with a separate laboratory where each student is assigned a working table. JKK Nattraja College of Pharmacy has a long history of research. The college has been continuously updating and upgrading instruments necessary for the cutting edge. Instruments have been purchased through funds from the government, industry, and management.
+            The College is running postgraduate courses in five streams. Eighteen faculty members have been approved as research guides for postgraduate studies while five also guide PhD students. The College provides each department with a separate laboratory where each student is assigned a working table. JKKN College of Pharmacy has a long history of research. The college has been continuously updating and upgrading instruments necessary for the cutting edge. Instruments have been purchased through funds from the government, industry, and management.
           </p>
 
           {/* Third Paragraph */}

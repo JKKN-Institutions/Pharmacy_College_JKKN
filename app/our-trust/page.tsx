@@ -37,7 +37,7 @@ export default function OurTrustPage() {
           {/* Content Paragraphs */}
           <div className="max-w-6xl mx-auto space-y-4 sm:space-y-6 text-gray-700 leading-relaxed">
             <p className="text-justify text-sm sm:text-base lg:text-lg">
-              In the 1960s, female children in Kumarapalayam had to walk 2.5 km to the nearby town of Bhavani for schooling. Some parents hesitated to send their daughters, while others ceased their children's education altogether, resulting in them staying at home or working in handlooms and dyeing industries. Recognizing the need for women's education, Shri J.K.K. Natarajah, a visionary philanthropist of the area, initiated a girls' school in the town in 1965, four years before the inception of the trust.
+              In the 1960s, female children in Komarapalayam had to walk 2.5 km to the nearby town of Bhavani for schooling. Some parents hesitated to send their daughters, while others ceased their children's education altogether, resulting in them staying at home or working in handlooms and dyeing industries. Recognizing the need for women's education, Shri J.K.K. Natarajah, a visionary philanthropist of the area, initiated a girls' school in the town in 1965, four years before the inception of the trust.
             </p>
 
             <p className="text-justify text-sm sm:text-base lg:text-lg">

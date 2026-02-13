@@ -218,7 +218,7 @@ export default function PharmaceuticsPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Dissolution Testing & Optimization</span>
+                <span>Dissolution Testing & Optimisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
@@ -535,7 +535,7 @@ export default function PharmaceuticsPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Design and optimization of transdermal patches using quality by design (QbD) approach</span>
+              <span>Design and optimisation of transdermal patches using quality by design (QbD) approach</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -868,8 +868,8 @@ export default function PharmaceuticsPage() {
           ))}
         </div>
 
-        {/* Contract Development & Manufacturing Organizations (CDMO) */}
-        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Development & Manufacturing Organizations (CDMO)</h3>
+        {/* Contract Development & Manufacturing Organisations (CDMO) */}
+        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Development & Manufacturing Organisations (CDMO)</h3>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-10">
           {['Piramal Pharma Solutions', 'Dishman Carbogen Amcis', 'Syngene International', 'Jubilant Biosys', 'Laurus Labs', 'Suven Pharmaceuticals'].map((company) => (
             <div key={company} className="bg-white rounded-lg p-4 shadow-sm border border-gray-200 text-center">
@@ -1167,7 +1167,7 @@ export default function PharmaceuticsPage() {
           </li>
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
-            <span><span className="font-bold text-[#006837]">Design of Experiments (DoE) Certification:</span> Statistical optimization of formulations</span>
+            <span><span className="font-bold text-[#006837]">Design of Experiments (DoE) Certification:</span> Statistical optimisation of formulations</span>
           </li>
         </ul>
       </div>
@@ -1763,7 +1763,7 @@ export default function PharmaceuticsPage() {
             {expandedFAQ === 8 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
-                  M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The curriculum, career opportunities, and salaries are identical. When applying, check the syllabus rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognizes both names as equivalent specialisations.
+                  M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The curriculum, career opportunities, and salaries are identical. When applying, check the syllabus rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations.
                 </p>
               </div>
             )}

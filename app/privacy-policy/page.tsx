@@ -109,7 +109,7 @@ export default function PrivacyPolicyPage() {
                 <strong>Address:</strong> JKKN College of Pharmacy,
               </p>
               <p>Natarajapuram, NH-544 (Salem To Coimbatore National Highway),</p>
-              <p>Kumarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.</p>
+              <p>Komarapalayam (TK), Namakkal (DT). Tamil Nadu. 638183.</p>
             </div>
           </div>
         </div>

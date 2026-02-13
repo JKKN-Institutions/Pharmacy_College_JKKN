@@ -83,7 +83,7 @@ export default function RedRibbonClubPage() {
                 <p className="font-semibold text-gray-700">1. Dr. VENKATESAN M, Chief Patron,</p>
                 <p className="text-gray-700">Principal,</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">B. Kumarapalayam.</p>
+                <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
 
               {/* Member 2 */}
@@ -91,7 +91,7 @@ export default function RedRibbonClubPage() {
                 <p className="font-semibold text-gray-700">2. DR. SEKAR V, Patron,</p>
                 <p className="text-gray-700">Professor and HOD analysis dept,</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">B. Kumarapalayam.</p>
+                <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
 
               {/* Member 3 */}
@@ -99,7 +99,7 @@ export default function RedRibbonClubPage() {
                 <p className="font-semibold text-gray-700">3. Dr. V. KISHOR KUMAR, Convener,</p>
                 <p className="text-gray-700">R.R.C. Programme Officer,</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">B. Kumarapalayam.</p>
+                <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
 
               {/* Member 4 */}
@@ -107,7 +107,7 @@ export default function RedRibbonClubPage() {
                 <p className="font-semibold text-gray-700">4. MR. Gowtham.M, Co- Convener,</p>
                 <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">B. Kumarapalayam.</p>
+                <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
 
               {/* Member 5 */}
@@ -115,7 +115,7 @@ export default function RedRibbonClubPage() {
                 <p className="font-semibold text-gray-700">5. MR. N.Santhosh, Member,</p>
                 <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
-                <p className="text-gray-700">B. Kumarapalayam.</p>
+                <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
             </div>
           </div>

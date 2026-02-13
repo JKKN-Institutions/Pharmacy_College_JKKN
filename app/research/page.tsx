@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import { BookOpen, Award, TrendingUp, Users } from 'lucide-react'
 
 export default function ResearchPage() {
   return (
@@ -7,14 +8,60 @@ export default function ResearchPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-          Research at JKKN College of Pharmacy
-        </h1>
+        {/* Page Header with Badge */}
+        <div className="text-center mb-8">
+          <div className="inline-block px-4 py-2 bg-[#0F6B3E]/10 rounded-full mb-4">
+            <span className="text-[#0F6B3E] text-xs sm:text-sm font-semibold">RESEARCH EXCELLENCE</span>
+          </div>
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4">
+            Research at JKKN College of Pharmacy
+          </h1>
+          <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto">
+            Advancing pharmaceutical sciences through cutting-edge research and innovation
+          </p>
+        </div>
 
-        {/* Content */}
+        {/* Research Statistics Highlight */}
+        <div className="bg-gradient-to-r from-[#0F6B3E] to-[#7CAF5A] rounded-xl p-6 sm:p-8 mb-8 text-white">
+          <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Our Research Impact</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <BookOpen className="w-8 h-8" />
+              </div>
+              <div className="text-3xl sm:text-4xl font-bold mb-1">98</div>
+              <div className="text-xs sm:text-sm opacity-90">Total Publications</div>
+              <div className="text-xs opacity-75 mt-1">(2018-2025)</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <TrendingUp className="w-8 h-8" />
+              </div>
+              <div className="text-3xl sm:text-4xl font-bold mb-1">7</div>
+              <div className="text-xs sm:text-sm opacity-90">Years of Research</div>
+              <div className="text-xs opacity-75 mt-1">Consistent Output</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <Users className="w-8 h-8" />
+              </div>
+              <div className="text-3xl sm:text-4xl font-bold mb-1">50+</div>
+              <div className="text-xs sm:text-sm opacity-90">Active Researchers</div>
+              <div className="text-xs opacity-75 mt-1">Faculty & Students</div>
+            </div>
+            <div className="text-center">
+              <div className="flex justify-center mb-2">
+                <Award className="w-8 h-8" />
+              </div>
+              <div className="text-3xl sm:text-4xl font-bold mb-1">14</div>
+              <div className="text-xs sm:text-sm opacity-90">Avg. Per Year</div>
+              <div className="text-xs opacity-75 mt-1">Publication Rate</div>
+            </div>
+          </div>
+        </div>
+
+        {/* Introduction */}
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
-          {/* Introduction */}
           <p className="text-justify">
             Research at JKKN College of Pharmacy is driven by our unwavering commitment to achieve our institution's vision and mission. As a leading global innovative solutions provider, we understand the paramount importance of research in addressing the ever-changing needs of society. Our vision pushes us to excel in the field of pharmaceutical research and take on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, we firmly believe in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. Our research activities revolve around this concept, enabling us to create a platform that opens up exponential opportunities for all stakeholders.
           </p>
@@ -25,8 +72,30 @@ export default function ResearchPage() {
               Research Activities:
             </h2>
             <p className="text-justify">
-              At JKKN College of Pharmacy, research is at the heart of our academic pursuits. Our faculty and students are actively engaged in cutting-edge research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and state-of-the-art facilities, we endeavor to address pressing health challenges and create impactful solutions. Our research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
+              At JKKN College of Pharmacy, research is at the heart of our academic pursuits. Our faculty and students are actively engaged in cutting-edge research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and state-of-the-art facilities, we endeavour to address pressing health challenges and create impactful solutions. Our research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
             </p>
+          </div>
+
+          {/* Research Areas */}
+          <div className="bg-white rounded-lg shadow-md p-6 my-8">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Key Research Areas</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {[
+                "Novel Drug Delivery Systems",
+                "Pharmacological Screening",
+                "Medicinal Chemistry & Drug Design",
+                "Pharmaceutical Analysis & Quality Control",
+                "Clinical Pharmacy & Pharmacovigilance",
+                "Nanotechnology in Drug Delivery",
+                "Natural Product Research",
+                "Formulation Development"
+              ].map((area, index) => (
+                <div key={index} className="flex items-start gap-2">
+                  <div className="w-2 h-2 rounded-full bg-[#0F6B3E] mt-2 flex-shrink-0"></div>
+                  <span className="text-sm text-gray-700">{area}</span>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Publications */}
@@ -35,8 +104,31 @@ export default function ResearchPage() {
               Publications:
             </h2>
             <p className="text-justify mb-6">
-              We take immense pride in the scholarly contributions made by our faculty and students. Our researchers regularly publish their work in esteemed national and international journals, reflecting our commitment to disseminating knowledge and promoting scientific advancements. By sharing our findings with the global community, we strive to foster meaningful conversations and inspire further research in the pharmaceutical field.
+              We take immense pride in the scholarly contributions made by our faculty and students. Our researchers have published <strong>98 research papers</strong> over the past 7 years (2018-2025) in esteemed national and international journals, reflecting our commitment to disseminating knowledge and promoting scientific advancements. By sharing our findings with the global community, we strive to foster meaningful conversations and inspire further research in the pharmaceutical field.
             </p>
+
+            {/* Publications Highlights */}
+            <div className="bg-[#0F6B3E]/5 rounded-lg p-6 mb-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Publication Highlights</h3>
+              <div className="space-y-3 text-sm text-gray-700">
+                <div className="flex items-start gap-2">
+                  <Award className="w-4 h-4 text-[#0F6B3E] mt-0.5 flex-shrink-0" />
+                  <p><strong>High-Impact Journals:</strong> Publications in peer-reviewed national and international journals</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Award className="w-4 h-4 text-[#0F6B3E] mt-0.5 flex-shrink-0" />
+                  <p><strong>Research Domains:</strong> Pharmaceutics, Pharmacology, Medicinal Chemistry, Pharmaceutical Analysis, Pharmacy Practice</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Award className="w-4 h-4 text-[#0F6B3E] mt-0.5 flex-shrink-0" />
+                  <p><strong>Collaborative Research:</strong> Joint publications with pharmaceutical industries and research institutions</p>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Award className="w-4 h-4 text-[#0F6B3E] mt-0.5 flex-shrink-0" />
+                  <p><strong>Global Visibility:</strong> Faculty maintain active Google Scholar and ResearchGate profiles</p>
+                </div>
+              </div>
+            </div>
 
             {/* Publications Table */}
             <div className="overflow-x-auto">
@@ -98,6 +190,11 @@ export default function ResearchPage() {
                       <a href="/pdf/Research-Publication-details-2018-2019.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
+                  <tr className="bg-[#0F6B3E]/10">
+                    <td className="border border-gray-300 px-6 py-4 text-gray-900 font-bold">Total</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-900 font-bold">98</td>
+                    <td className="border border-gray-300 px-6 py-4 text-gray-700 italic">7 Years of Research Excellence</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -105,7 +202,9 @@ export default function ResearchPage() {
 
           {/* Research Facilities */}
           <div>
-           
+            <h2 className="text-xl sm:text-2xl font-bold text-black mb-4">
+              Research Facilities:
+            </h2>
 
             {/* Button */}
             <a
@@ -141,8 +240,8 @@ export default function ResearchPage() {
             <div className="ml-6">
               <p className="text-gray-700 font-semibold">The Member Secretary</p>
               <p className="text-gray-700">Institutional Ethics Committee</p>
-              <p className="text-gray-700">J.K.K.Nattraja College of Pharmacy,</p>
-              <p className="text-gray-700">Kumarapalayam, Namakkal District,</p>
+              <p className="text-gray-700">JKKN College of Pharmacy,</p>
+              <p className="text-gray-700">Komarapalayam, Namakkal District,</p>
               <p className="text-gray-700">Tamil Nadu - 638183</p>
               <p className="text-gray-700">Email: ihec@jkkn.ac.in</p>
               <p className="text-gray-700">Ph: +91 93458 55001</p>
@@ -155,7 +254,7 @@ export default function ResearchPage() {
               Collaborations:
             </h2>
             <p className="text-justify">
-              We firmly believe that meaningful collaborations are key to driving innovation. To strengthen our research endeavors, we actively collaborate with reputed academic institutions, pharmaceutical industries, and healthcare organizations. These partnerships provide valuable opportunities for knowledge exchange, joint research projects, and access to diverse perspectives, enhancing the quality and impact of our research outcomes.
+              We firmly believe that meaningful collaborations are key to driving innovation. To strengthen our research endeavours, we actively collaborate with reputed academic institutions, pharmaceutical industries, and healthcare organisations. These partnerships provide valuable opportunities for knowledge exchange, joint research projects, and access to diverse perspectives, enhancing the quality and impact of our research outcomes.
             </p>
           </div>
 
@@ -165,7 +264,7 @@ export default function ResearchPage() {
               Conferences and Symposia:
             </h2>
             <p className="text-justify">
-              At JKKN College of Pharmacy, we understand the significance of scientific discourse and networking. We regularly organize conferences, symposia, and seminars that bring together experts from academia, industry, and government bodies. These events serve as platforms for sharing research insights, exploring emerging trends, and fostering connections that transcend geographical boundaries.
+              At JKKN College of Pharmacy, we understand the significance of scientific discourse and networking. We regularly organise conferences, symposia, and seminars that bring together experts from academia, industry, and government bodies. These events serve as platforms for sharing research insights, exploring emerging trends, and fostering connections that transcend geographical boundaries.
             </p>
           </div>
         </div>

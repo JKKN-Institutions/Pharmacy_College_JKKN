@@ -19,26 +19,26 @@ export default function AlumniPage() {
             </p>
 
             <p>
-              At JKKN College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the J.K.K.Nattraja campus has hosted various alumni meets where alumni have given valuable suggestions.
+              At JKKN College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution's vision and mission. The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KOMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics. They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the JKKN College of Pharmacy campus has hosted various alumni meets where alumni have given valuable suggestions.
             </p>
           </div>
 
           <div className="mb-4 sm:mb-6 md:mb-8">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              The key objectives of the Alumni Committee of J.K.K.Nattraja College of Pharmacy are as follows:
+              The key objectives of the Alumni Committee of JKKN College of Pharmacy are as follows:
             </h2>
 
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
                 <span className="text-gray-900 mr-3">•</span>
                 <span className="text-gray-700">
-                  To maintain a close relation with alumni of J.K.K.Nattraja College of Pharmacy.
+                  To maintain a close relation with alumni of JKKN College of Pharmacy.
                 </span>
               </li>
               <li className="flex items-start">
                 <span className="text-gray-900 mr-3">•</span>
                 <span className="text-gray-700">
-                  To update the alumni during the alumni meet with the latest developments and academic achievements of J.K.K.Nattraja College of Pharmacy.
+                  To update the alumni during the alumni meet with the latest developments and academic achievements of JKKN College of Pharmacy.
                 </span>
               </li>
               <li className="flex items-start">
@@ -80,11 +80,11 @@ export default function AlumniPage() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-4">
-              Name of the society: JKKNCP ALUMNI ASSOCIATION - KUMARAPALAYAM,
+              Name of the society: JKKNCP ALUMNI ASSOCIATION - KOMARAPALAYAM,
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Address: JKKN College of Pharmacy, NH-544 (Salem To Coimbatore National Highway), Kumarapalayam (TK), Namakkal (DT), Tamil Nadu, 638183.
+              Address: JKKN College of Pharmacy, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK), Namakkal (DT), Tamil Nadu, 638183.
             </p>
 
             <a
@@ -108,7 +108,7 @@ export default function AlumniPage() {
               </p>
 
               <p>
-                Moreover, the alumni network serves as a bridge between the college and the industry. Many alumni hold key positions in pharmaceutical companies, research organizations, hospitals, and academia. They actively participate in campus placement drives, facilitating the recruitment of fresh graduates from the college. This collaboration enhances the employability of the college's students and strengthens its reputation among potential employers.
+                Moreover, the alumni network serves as a bridge between the college and the industry. Many alumni hold key positions in pharmaceutical companies, research organisations, hospitals, and academia. They actively participate in campus placement drives, facilitating the recruitment of fresh graduates from the college. This collaboration enhances the employability of the college's students and strengthens its reputation among potential employers.
               </p>
 
               <p>

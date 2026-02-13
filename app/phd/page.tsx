@@ -1,9 +1,11 @@
 'use client'
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Header from '@/components/Header'
+import { CourseSchema } from '@/components/SchemaOrg'
 import Image from 'next/image'
-import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube, ChevronDown } from 'lucide-react'
+import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube, ChevronDown, ArrowRight } from 'lucide-react'
 
 export default function PhDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -15,6 +17,13 @@ export default function PhDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <CourseSchema
+        name="Doctor of Philosophy (Ph.D) in Pharmacy"
+        description="Ph.D in Pharmacy is a research-focused doctoral programme in pharmaceutical sciences that develops independent researchers and scholars. The programme involves advanced coursework, comprehensive examinations, original research, and dissertation submission contributing new knowledge to pharmaceutical sciences, drug discovery, novel drug delivery systems, and healthcare innovation."
+        duration="P3Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/phd"
+      />
       <Header />
 
       {/* Hero Section */}
@@ -39,10 +48,10 @@ export default function PhDPage() {
 
           <div className="text-gray-700 leading-relaxed space-y-4 mb-6 text-xs sm:text-sm">
             <p>
-              Ph.D (Doctor of Philosophy) in Pharmacy is the highest academic qualification in pharmaceutical sciences, designed to develop independent researchers, innovative thinkers, and scholarly leaders who advance the frontiers of pharmaceutical knowledge. This rigorous 3-5 year doctoral research programme enables Learners to conduct original research that contributes new knowledge to specialised areas including drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, pharmacognosy, and clinical pharmacy.
+              Ph.D (Doctor of Philosophy) in Pharmacy is the highest academic qualification in pharmaceutical sciences, designed to develop independent researchers, innovative thinkers, and scholarly leaders who advance the frontiers of pharmaceutical knowledge. This rigorous 3-5 year doctoral research programme enables Learners to conduct original research that contributes new knowledge to specialised areas including drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, pharmacognosy, and clinical pharmacy. Students typically pursue PhD after completing <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharmacy</Link> or <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharmacy</Link> degrees.
             </p>
             <p>
-              Under the guidance of expert Learning Facilitators, doctoral candidates develop expertise in research methodology, critical analysis, scientific communication, and scholarly publication. Graduates emerge as qualified professors, pharmaceutical scientists, research leaders, and policy advisors who shape the future of healthcare and pharmaceutical sciences globally.
+              Under the guidance of expert Learning Facilitators, doctoral candidates develop expertise in research methodology, critical analysis, scientific communication, and scholarly publication. Unlike clinical practice-oriented <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">Pharm.D</Link> programmes, PhD focuses on research and academic careers. Graduates emerge as qualified professors, pharmaceutical scientists, research leaders, and policy advisors who shape the future of healthcare and pharmaceutical sciences globally.
             </p>
           </div>
 
@@ -341,7 +350,7 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-5 shadow-lg border-t-4 border-[#7cb983]">
             <Hospital className="w-10 h-10" />
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Ph.D inPharmacy Practice</h3>
-            <p className="text-gray-700 mb-4 text-xs sm:text-sm">Research clinical pharmacy, pharmacovigilance, pharmacoeconomics, and patient care optimization.</p>
+            <p className="text-gray-700 mb-4 text-xs sm:text-sm">Research clinical pharmacy, pharmacovigilance, pharmacoeconomics, and patient care optimisation.</p>
             <ul className="space-y-2 mb-6">
               <li className="flex items-start text-gray-700 text-xs sm:text-sm">
                 <span className="text-green-600 mr-2">✓</span>
@@ -965,7 +974,7 @@ export default function PhDPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">→</span>
-                <span>Contract research organization (CRO)</span>
+                <span>Contract research organisation (CRO)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">→</span>
@@ -1254,6 +1263,76 @@ export default function PhDPage() {
         </div>
       </div>
 
+      {/* Related Programmes Section */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837] mb-6">
+          Explore Related Programmes
+        </h2>
+        <div className="border-b-4 border-[#7cb983] w-full mb-8"></div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          {/* B.Pharmacy Card */}
+          <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharmacy</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">4-year undergraduate degree in pharmaceutical sciences</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>4 Years</span>
+              <span>•</span>
+              <span>After 10+2</span>
+            </div>
+          </Link>
+
+          {/* M.Pharmacy Card */}
+          <Link href="/m-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">M.Pharmacy</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">Advance your pharmacy career with 5 PG specialisations</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>2 Years</span>
+              <span>•</span>
+              <span>GPAT</span>
+            </div>
+          </Link>
+
+          {/* Pharm.D Card */}
+          <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">Pharm.D</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">6-year clinical pharmacy programme with hospital training</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>6 Years</span>
+              <span>•</span>
+              <span>Clinical Focus</span>
+            </div>
+          </Link>
+
+          {/* B.Pharmacy Lateral Entry Card */}
+          <Link href="/b-pharmacy-lateral-entry" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <div className="flex items-center justify-between mb-4">
+              <GraduationCap className="w-10 h-10 text-[#006837]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+            </div>
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharm (Lateral Entry)</h3>
+            <p className="text-xs sm:text-sm text-gray-600 mb-3">Direct entry into 2nd year for D.Pharm graduates</p>
+            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <span>3 Years</span>
+              <span>•</span>
+              <span>After D.Pharm</span>
+            </div>
+          </Link>
+        </div>
+      </div>
+
       {/* FAQs Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-start gap-4 mb-6">
@@ -1280,7 +1359,7 @@ export default function PhDPage() {
             {expandedFAQ === 0 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research programme that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The programme involves original research contributing new knowledge to fields like drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral Learners work under expert Learning Facilitators to conduct experiments, analyze data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification.
+                  Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research programme that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The programme involves original research contributing new knowledge to fields like drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral Learners work under expert Learning Facilitators to conduct experiments, analyse data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification.
                 </p>
               </div>
             )}

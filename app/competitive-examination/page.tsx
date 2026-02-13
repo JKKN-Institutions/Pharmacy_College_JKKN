@@ -10,7 +10,7 @@ export default function CompetitiveExaminationPage() {
       <div className="max-w-6xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
         <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8">
-          Competitive Examination and Carrier
+          Competitive Examination and Career
         </h1>
 
         {/* Social Share Buttons */}

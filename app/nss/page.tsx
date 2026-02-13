@@ -153,13 +153,13 @@ export default function NSSPage() {
             2.3 The slum, tenements, Juggins and Jhoupris can be adopted by the NSS units with the aim of slum improvement.
           </p>
 
-          {/* Coordination with Voluntary Organizations */}
+          {/* Coordination with Voluntary Organisations */}
           <h4 className="text-sm sm:text-base font-bold text-gray-800 mt-6">
-            Coordination with Voluntary Organizations
+            Coordination with Voluntary Organisations
           </h4>
 
           <p className="text-justify mt-4">
-            3.1 After identification of the needs of the community and the selection of projects, the programme officer should look for the Government agency or a voluntary organization that can assist in the completion of a particular project. 3.2 The NSS Programme Officers should plan activities in the adopted village or slum in such a way that the leisure time of the NSS volunteers can be utilized in the service of adopted village or slum.
+            3.1 After identification of the needs of the community and the selection of projects, the programme officer should look for the Government agency or a voluntary organisation that can assist in the completion of a particular project. 3.2 The NSS Programme Officers should plan activities in the adopted village or slum in such a way that the leisure time of the NSS volunteers can be utilized in the service of adopted village or slum.
           </p>
 
           {/* List of activities Special Camping */}
@@ -204,35 +204,35 @@ export default function NSSPage() {
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">1.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Chairman</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. VENKATESAN M, Principal, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. VENKATESAN M, Principal, J.K.K.Nattaraja College of Pharmacy, Komarapalayam.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9092690231</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">pharmacyprincipal@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">2.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Vice-Chairman</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. Sekar, HOD of Analysis, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. Sekar, HOD of Analysis, J.K.K.Nattaraja College of Pharmacy, Komarapalayam.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9842663659</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">hodpharmaceuticalanalysis@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">3.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Convener</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. KISHOR KUMAR, N.S.S.Programme Officer, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. KISHOR KUMAR, N.S.S.Programme Officer, J.K.K.Nattaraja College of Pharmacy, Komarapalayam.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9361829237</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">kishorkumar.v@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">4.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Member</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Mr. V. VENKATESWARAN, Associate Professor, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Mr. V. VENKATESWARAN, Associate Professor, J.K.K.Nattaraja College of Pharmacy, Komarapalayam.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9789293089</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">venkateswaran.v@jkkn.ac.in</td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">5.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Member</td>
-                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. POOVARASU, Assistant Professor, J.K.K.Nattaraja College of Pharmacy, Kumarapalayam.</td>
+                    <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">Dr. V. POOVARASU, Assistant Professor, J.K.K.Nattaraja College of Pharmacy, Komarapalayam.</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700">9790613123</td>
                     <td className="border border-gray-400 px-2 sm:px-4 py-2 sm:py-3 text-gray-700 break-all">poovarasu@jkkn.ac.in</td>
                   </tr>

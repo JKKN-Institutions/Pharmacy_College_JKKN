@@ -151,7 +151,7 @@ export default function PharmaceuticalChemistryPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Lead Identification & Optimization</span>
+                <span>Lead Identification & Optimisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
@@ -282,7 +282,7 @@ export default function PharmaceuticalChemistryPage() {
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Process Development & Optimization</span>
+                <span>Process Development & Optimisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
@@ -678,7 +678,7 @@ export default function PharmaceuticalChemistryPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                <span>Conduct SAR studies and molecular optimization</span>
+                <span>Conduct SAR studies and molecular optimisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
@@ -975,9 +975,9 @@ export default function PharmaceuticalChemistryPage() {
           </div>
         </div>
 
-        {/* Contract Research Organizations (CROs) */}
+        {/* Contract Research Organisations (CROs) */}
         <div className="mb-8">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organizations (CROs) - Chemistry Services</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organisations (CROs) - Chemistry Services</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Syngene International', 'GVK Biosciences', 'Jubilant Biosys', 'Piramal Discovery Solutions', 'TCG Lifesciences', 'Anthem Biosciences', 'Aurigene Discovery', 'Aragen Life Sciences', 'Advinus Therapeutics', 'Connexios Life Sciences'].map((company, index) => (
               <div key={index} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-[#7cb983] hover:border-[#7cb983] transition-all">
@@ -1203,7 +1203,7 @@ export default function PharmaceuticalChemistryPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] mr-3 mt-1">•</span>
-                  <span>Have patience for multi-step synthesis and reaction optimization</span>
+                  <span>Have patience for multi-step synthesis and reaction optimisation</span>
                 </li>
               </ul>
             </div>
@@ -1246,7 +1246,7 @@ export default function PharmaceuticalChemistryPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
-                <span><span className="text-[#006837] font-bold">Medicinal Chemistry:</span> SAR studies, lead optimization, prodrug design, bioisosteric modifications</span>
+                <span><span className="text-[#006837] font-bold">Medicinal Chemistry:</span> SAR studies, lead optimisation, prodrug design, bioisosteric modifications</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1674,7 +1674,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimization of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the programme name, but the content and outcomes are essentially the same.
+                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the programme name, but the content and outcomes are essentially the same.
                 </p>
               </div>
             )}
@@ -1818,7 +1818,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 6 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry, found it interesting in B.Pharm, and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry, found it confusing, or dislike laboratory synthesis work, it will be very difficult. The programme requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimization), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It's arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work), but similar to or easier than Ph.D level research. Success factors: Strong organic chemistry foundation, patience for experimental work, logical thinking for mechanism problems, genuine interest in molecular design. Choose based on aptitude, not perceived difficulty.
+                  Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry, found it interesting in B.Pharm, and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry, found it confusing, or dislike laboratory synthesis work, it will be very difficult. The programme requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimisation), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It's arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work), but similar to or easier than Ph.D level research. Success factors: Strong organic chemistry foundation, patience for experimental work, logical thinking for mechanism problems, genuine interest in molecular design. Choose based on aptitude, not perceived difficulty.
                 </p>
               </div>
             )}

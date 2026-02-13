@@ -35,7 +35,7 @@ export default function PharmacyPracticePage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation programme that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This programme trains students to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, students develop expertise in drug therapy optimization, patient counselling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
+              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation programme that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This programme trains students to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, students develop expertise in drug therapy optimisation, patient counselling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
             </p>
           </div>
 
@@ -87,7 +87,7 @@ export default function PharmacyPracticePage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
-                <span>Drug Therapy Optimization</span>
+                <span>Drug Therapy Optimisation</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">•</span>
@@ -943,9 +943,9 @@ export default function PharmacyPracticePage() {
           </div>
         </div>
 
-        {/* Contract Research Organizations (CROs) */}
+        {/* Contract Research Organisations (CROs) */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organizations (CROs)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organisations (CROs)</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['IQVIA', 'Fortrea', 'Parexel International', 'ICON plc', 'PPD (Pharmaceutical Product Development)', 'Lambda Therapeutic Research', 'Syngene International', 'Veeda Clinical Research'].map((cro) => (
               <div key={cro} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">

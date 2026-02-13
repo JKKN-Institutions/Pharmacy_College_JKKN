@@ -237,7 +237,7 @@ export default function NAACPage() {
                       <div className="mt-8">
                         <h3 className="text-2xl font-bold text-gray-900 mb-4">Focus of Assessment</h3>
                         <p className="text-gray-700 leading-relaxed mb-4">
-                          The NAAC continues with its focus on the quality culture of the institution in terms of Quality Initiatives, Quality Sustenance, and Quality Enhancement, as reflected in its vision, organization, operations, and the processes. Experience has reiterated that these can be ascertained either by on-site observations and/or through the facts and figures about the various aspects of institutional functioning. The Revised Manual places greater confidence in the latter as reflective of internal institutional processes.
+                          The NAAC continues with its focus on the quality culture of the institution in terms of Quality Initiatives, Quality Sustenance, and Quality Enhancement, as reflected in its vision, organisation, operations, and the processes. Experience has reiterated that these can be ascertained either by on-site observations and/or through the facts and figures about the various aspects of institutional functioning. The Revised Manual places greater confidence in the latter as reflective of internal institutional processes.
                         </p>
                         <p className="text-gray-700 leading-relaxed mb-4">
                           In line with NAAC's conviction that quality concerns are institutional, Quality Assessment (QA) can better be done through self-evaluation. The self-evaluation process and the subsequent preparation of the Self Study Report (SSR) to be submitted to NAAC involves the participation of all the stakeholders – management, faculty members, administrative staff, students, parents, employers, community, and alumni. While the participation of internal stakeholders i.e. management, staff, and students provide credibility and ownership to the activity and could lead to newer initiatives, interaction with external stakeholders facilitates the development process of the institution and their educational services. Overall, the QA is expected to serve as a catalyst for institutional self-improvement, promote innovation, and strengthen the urge to excel.
@@ -563,7 +563,7 @@ export default function NAACPage() {
                                 <td className="border border-gray-300 px-4 py-3 text-sm">
                                   Number of extension and outreach programmes conducted by the institution through organised forums including NSS/NCC with involvement of community during the last five years.
                                   <br />
-                                  <span className="text-xs mt-2 block">3.4.3.1. Number of extension and outreach Programmes conducted in collaboration with industry, community, and NonGovernment Organizations through NSS/ NCC etc., year wise during the last five years</span>
+                                  <span className="text-xs mt-2 block">3.4.3.1. Number of extension and outreach Programmes conducted in collaboration with industry, community, and NonGovernment Organisations through NSS/ NCC etc., year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
                                   <a href="/pdf/3.4.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>

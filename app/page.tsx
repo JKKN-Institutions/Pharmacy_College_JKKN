@@ -1,13 +1,51 @@
 'use client'
 
 import Header from '@/components/Header'
+import { OrganizationSchema, FaqSchema } from '@/components/SchemaOrg'
 import Link from 'next/link'
 import Image from 'next/image'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Scale, ScrollText, Search, Sparkles, Star, Target, TestTube, User } from 'lucide-react'
 
 export default function Home() {
+  const homepageFaqs = [
+    {
+      question: "What pharmacy courses are offered at JKKN Pharmacy College?",
+      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences)."
+    },
+    {
+      question: "Is JKKN Pharmacy College PCI approved?",
+      answer: "Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) since 2009 and accredited by NAAC with A Grade. It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm, and M.Pharm programmes. All programmes meet regulatory standards for quality pharmaceutical education in India."
+    },
+    {
+      question: "What is the admission process for B.Pharm/Pharm.D?",
+      answer: "B.Pharm/Pharm.D admission at JKKN College of Pharmacy, Komarapalayam is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Application fee is ₹1,000. Applications open in May-June and can be submitted online through our official website."
+    },
+    {
+      question: "What is the placement record at JKKN Pharmacy College?",
+      answer: "JKKN Pharmacy College has an outstanding 95% placement rate for the 2024-25 batch with 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies across India. Average package is ₹3.5 LPA with highest package reaching ₹8 LPA. Our dedicated Placement Cell provides comprehensive training and support."
+    },
+    {
+      question: "What career opportunities are available after pharmacy?",
+      answer: "Pharmacy graduates from JKKN can pursue diverse career paths including pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, and pharmaceutical marketing. Graduates can also open their own pharmacy or pursue higher studies like M.Pharm, Pharm.D, or PhD. Starting salaries range from ₹2.5-8 LPA depending on the role and specialisation."
+    },
+    {
+      question: "Does JKKN offer Pharm.D programme?",
+      answer: "Yes, JKKN College of Pharmacy offers PCI-approved Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of clinical internship. The programme has an intake of 30 students and focuses on clinical pharmacy, patient care, and pharmaceutical care services. Graduates can work in hospitals, clinical research, or pursue US licensure (FPGEE/NAPLEX)."
+    },
+    {
+      question: "What M.Pharm specialisations are available?",
+      answer: "JKKN College of Pharmacy offers 2-year M.Pharm programmes in five specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. Each specialisation has 9-15 seats. Eligibility requires B.Pharm with 55% marks and valid GPAT score (preferred). Graduates can pursue careers in R&D, quality assurance, teaching, or PhD programmes with salary packages ranging from ₹3-10 LPA."
+    },
+    {
+      question: "Is hostel accommodation available?",
+      answer: "Yes, JKKN College of Pharmacy provides separate hostel facilities for both men and women within the campus at Komarapalayam. Hostels feature modern amenities including furnished rooms, 24/7 security with CCTV surveillance, hygienic mess facilities serving nutritious vegetarian and non-vegetarian food, high-speed Wi-Fi, recreation areas, gym, laundry services, and medical facilities. Hostel fees are approximately ₹60,000-80,000 per year including food."
+    }
+  ];
+
   return (
     <main className="overflow-x-hidden w-full">
+      <OrganizationSchema />
+      <FaqSchema faqs={homepageFaqs} />
       <Header />
 
       {/* Hero Section */}
@@ -23,10 +61,10 @@ export default function Home() {
               </div>
 
               {/* Main Heading */}
-              <h3 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
-                Shape Healthcare's Future at{' '}
-                <span className="text-[#7cb983]">Tamil Nadu's Premier Pharmacy College</span>
-              </h3>
+              <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
+                JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in{' '}
+                <span className="text-[#7cb983]">Komarapalayam, Tamil Nadu</span>
+              </h1>
 
               {/* Description */}
               <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
@@ -37,12 +75,12 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
                 <div className="text-center">
-                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">1500+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Learners</div>
+                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">700+</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Students</div>
                 </div>
                 <div className="text-center">
                   <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">95%</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement (2024-25)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">30+</div>
@@ -70,13 +108,16 @@ export default function Home() {
 
             {/* Right Image */}
             <div className="relative mt-6 lg:mt-0">
-              <div className="relative w-full min-h-[300px] xs:min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:min-h-[500px] xl:min-h-[550px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
+              <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/Pharmacy-Homepage-Hero-Banner-Image.png"
-                  alt="JKKN College of Pharmacy"
-                  fill
-                  className="object-cover"
+                  alt="JKKN College of Pharmacy Campus, Komarapalayam"
+                  width={1920}
+                  height={1080}
+                  className="w-full h-auto object-cover"
                   priority
+                  quality={85}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 />
 
                 {/* Badges on Image */}
@@ -144,12 +185,12 @@ export default function Home() {
                   height={600}
                   className="w-full h-auto"
                 />
-                {/* 100 Years Badge */}
+                {/* 39 Years Badge */}
                 <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
-                  <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">100</div>
+                  <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">39</div>
                   <div className="text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs font-semibold uppercase text-center leading-tight">
                     <div>YEARS</div>
-                    <div>LEGACY</div>
+                    <div>SINCE 1987</div>
                   </div>
                 </div>
               </div>
@@ -161,7 +202,7 @@ export default function Home() {
                 About Our Institution
               </p>
               <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
-                A Century of Excellence in Progressive Pharmaceutical Education
+                39 Years of Excellence in Progressive Pharmaceutical Education Since 1987
               </h2>
               <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
                 JKKN College of Pharmacy is a premier pharmaceutical institution under JKKN Institutions, founded on the vision of Founder J.K.K. Nataraja
@@ -681,7 +722,7 @@ export default function Home() {
               </h2>
               <p className="text-xs sm:text-sm text-gray-200 mb-3 sm:mb-4 leading-relaxed">
                 Our dedicated Training & Placement Cell works tirelessly to connect Learners with leading
-                pharmaceutical companies, hospitals, and research organizations.
+                pharmaceutical companies, hospitals, and research organisations.
               </p>
               <p className="text-xs sm:text-sm text-gray-200 mb-4 sm:mb-6 leading-relaxed">
                 From aptitude training to industry visits, interview preparation to soft skills development —

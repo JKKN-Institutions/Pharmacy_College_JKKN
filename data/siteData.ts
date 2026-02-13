@@ -137,7 +137,7 @@ export const topMenuItems: NavItem[] = [
       { label: "Disabled-friendly and Barrier Free Environment", href: "/barrier-free-environment" }
     ]
   },
-  { label: "NAAC", href: "/nacc" },
+  { label: "NAAC", href: "/naac" },
   { label: "IQAC", href: "/iqac" },
   { label: "ALUMNI", href: "/alumni" },
   { label: "NIRF", href: "/nirf" },
@@ -199,7 +199,7 @@ export const bottomMenuItems: NavItem[] = [
       { label: "Incubation Centre", href: "/incubation-centre" },
       { label: "Entrepreneurship Development Cell", href: "/entrepreneurship-development-cell" },
       { label: "Feedback Analysis", href: "/feedback-analysis" },
-      { label: "IPA-Bhavani-Kumarapalayam Local Branch", href: "/ipa-bhavani-kumarapalayam" },
+      { label: "IPA-Bhavani-Komarapalayam Local Branch", href: "/ipa-bhavani-kumarapalayam" },
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Audit Statements Finance", href: "/audit-statements-finance" },
       { label: "Newsletters", href: "/newsletters" }
