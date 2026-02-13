@@ -37,7 +37,7 @@ export function BottomNavItem({
       className={cn(
         'relative flex flex-col items-center justify-center px-1 py-2 min-w-[50px] xs:min-w-[60px] sm:min-w-[70px] flex-1',
         'transition-colors duration-150',
-        'focus:outline-none focus:ring-2 focus:ring-[#0F6B3E] focus:ring-offset-2 rounded',
+        'focus:outline-none rounded',
         isActive ? 'text-[#0F6B3E]' : 'text-gray-500'
       )}
       whileTap={{ scale: 0.92 }}

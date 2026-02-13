@@ -64,7 +64,7 @@ export default function Header() {
     >
       {item.submenu ? (
         <button
-          className="text-black hover:text-primary focus:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary focus:text-primary focus:outline-none font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
           <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3 fill-current" viewBox="0 0 12 12">
@@ -74,7 +74,7 @@ export default function Header() {
       ) : (
         <Link
           href={item.href}
-          className="text-black hover:text-primary focus:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
+          className="text-black hover:text-primary focus:text-primary focus:outline-none font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
         </Link>
@@ -204,7 +204,7 @@ export default function Header() {
               <div className="flex items-center flex-shrink-0">
                 <a
                   href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
+                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
                 >
                   Apply Now
                 </a>
@@ -234,7 +234,7 @@ export default function Header() {
             {/* Apply Now Button */}
             <a
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
+              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
             >
               Apply Now
             </a>
@@ -242,7 +242,7 @@ export default function Header() {
             {/* Hamburger Menu Button - Hidden when bottom navbar is active */}
             {(!hasHydrated || !isMobile) && (
               <button
-                className="flex flex-col justify-center items-center min-w-[48px] min-h-[48px] w-12 h-12 border-none cursor-pointer bg-transparent z-[70] focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
+                className="flex flex-col justify-center items-center min-w-[48px] min-h-[48px] w-12 h-12 border-none cursor-pointer bg-transparent z-[70] focus:outline-none rounded"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 aria-label="Toggle menu"
                 aria-expanded={isMenuOpen}
@@ -369,7 +369,7 @@ export default function Header() {
               {/* Mobile Apply Now Button */}
               <a
                 href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
-                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 transition-opacity text-sm md:text-base"
+                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity text-sm md:text-base"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Apply Now
