@@ -19,8 +19,20 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://pharmacy.jkkn.ac.in'),
-  title: 'JKKN College of Pharmacy, Komarapalayam | NAAC A Grade | PCI Approved',
-  description: 'Is JKKN College of Pharmacy good? What pharmacy courses are offered at JKKN? Premier Pharmacy College in Tamil Nadu offering B.Pharm, M.Pharm, Pharm.D & PhD programmes since 1987. NAAC A Grade accredited, PCI approved, 95% placement record (2024-25) with top pharma recruiters like Sun Pharma, Cipla. State-of-the-art facilities in Komarapalayam.',
+  title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
+  description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+  keywords: [
+    'best pharmacy colleges in tamilnadu',
+    'top pharmacy colleges in tamilnadu',
+    'best colleges for pharmacy',
+    'pharmacy colleges in tamilnadu',
+    'top 10 pharmacy colleges in tamilnadu',
+    'best college for pharmacy in tamilnadu',
+    'JKKN pharmacy college',
+    'pharmacy college komarapalayam',
+    'PCI approved pharmacy college',
+    'NAAC A grade pharmacy college',
+  ],
   robots: {
     index: true,
     follow: true,
@@ -45,22 +57,22 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in',
-    title: 'JKKN College of Pharmacy, Komarapalayam | NAAC A Grade | PCI Approved',
-    description: 'Is JKKN College of Pharmacy good? What pharmacy courses are offered at JKKN? Premier Pharmacy College in Tamil Nadu offering B.Pharm, M.Pharm, Pharm.D & PhD programmes since 1987. NAAC A Grade accredited, PCI approved, 95% placement record (2024-25) with top pharma recruiters like Sun Pharma, Cipla. State-of-the-art facilities in Komarapalayam.',
+    title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
+    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy Campus - NAAC A Grade, PCI Approved',
+        alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamil Nadu',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
     site: '@jkknpharmacy',
-    title: 'JKKN College of Pharmacy, Komarapalayam | NAAC A Grade | PCI Approved',
-    description: 'Is JKKN College of Pharmacy good? What pharmacy courses are offered at JKKN? Premier Pharmacy College in Tamil Nadu offering B.Pharm, M.Pharm, Pharm.D & PhD programmes since 1987. NAAC A Grade accredited, PCI approved, 95% placement record (2024-25) with top pharma recruiters like Sun Pharma, Cipla. State-of-the-art facilities in Komarapalayam.',
+    title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
+    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: ['/og-image.jpg'],
   },
 }

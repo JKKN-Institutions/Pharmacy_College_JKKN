@@ -2,10 +2,39 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'M.Pharm Pharmacology | Drug Action & Research | JKKN Pharmacy',
-  description: 'M.Pharm in Pharmacology at JKKN College of Pharmacy. Study drug mechanisms, toxicology, preclinical research. Advanced labs, research projects and pharmaceutical industry careers.',
+  title: 'Pharmacology Courses in Tamilnadu | JKKN Pharmacy College',
+  description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
+  keywords: [
+    'pharmacology courses in tamilnadu',
+    'm pharm pharmacology',
+    'pharmacology colleges tamil nadu',
+    'drug action research courses',
+    'toxicology courses tamil nadu',
+  ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmacology',
+  },
+  openGraph: {
+    title: 'Pharmacology Courses in Tamilnadu | JKKN Pharmacy College',
+    description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
+    url: 'https://pharmacy.jkkn.ac.in/pharmacology',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'JKKN - M.Pharm Pharmacology Programme',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pharmacology Courses in Tamilnadu | JKKN Pharmacy College',
+    description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
+    images: ['/og-image.jpg'],
   },
 }
 
