@@ -20,7 +20,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL('https://pharmacy.jkkn.ac.in'),
   title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+  description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
   keywords: [
     'best pharmacy colleges in tamilnadu',
     'top pharmacy colleges in tamilnadu',
@@ -28,10 +28,6 @@ export const metadata: Metadata = {
     'pharmacy colleges in tamilnadu',
     'top 10 pharmacy colleges in tamilnadu',
     'best college for pharmacy in tamilnadu',
-    'JKKN pharmacy college',
-    'pharmacy college komarapalayam',
-    'PCI approved pharmacy college',
-    'NAAC A grade pharmacy college',
   ],
   robots: {
     index: true,
@@ -58,13 +54,13 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamil Nadu',
+        alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamilnadu',
       }
     ],
   },
@@ -72,7 +68,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@jkknpharmacy',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamil Nadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: ['/og-image.jpg'],
   },
 }

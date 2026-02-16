@@ -6,10 +6,6 @@ export const metadata: Metadata = {
   description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
   keywords: [
     'pharmacology courses in tamilnadu',
-    'm pharm pharmacology',
-    'pharmacology colleges tamil nadu',
-    'drug action research courses',
-    'toxicology courses tamil nadu',
   ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmacology',

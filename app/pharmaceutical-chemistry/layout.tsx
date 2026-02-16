@@ -7,9 +7,6 @@ export const metadata: Metadata = {
   keywords: [
     'pharmaceutical chemistry colleges in tamilnadu',
     'pharmaceutical courses in tamilnadu',
-    'm pharm pharmaceutical chemistry',
-    'm pharm chemistry colleges in tamilnadu',
-    'medicinal chemistry colleges tamil nadu',
   ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry',

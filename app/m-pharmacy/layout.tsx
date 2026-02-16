@@ -8,10 +8,6 @@ export const metadata: Metadata = {
     'top m pharm colleges in tamilnadu',
     'm pharm colleges in tamilnadu',
     'top 10 m pharmacy colleges in tamilnadu',
-    'm pharm best colleges in tamilnadu',
-    'best m pharm colleges in tamilnadu',
-    'JKKN m pharmacy',
-    'm pharmacy komarapalayam',
   ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/m-pharmacy',
@@ -28,7 +24,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top M.Pharm College in Tamil Nadu',
+        alt: 'JKKN College of Pharmacy - Top M.Pharm College in Tamilnadu',
       }
     ],
   },
