@@ -1,0 +1,51 @@
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy — 2 Hours Away',
+  description: 'Looking for the best pharmacy college near Coimbatore? JKKN College of Pharmacy is just 2 hours (105 km) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  keywords: [
+    'pharmacy college near coimbatore',
+    'best pharmacy college coimbatore',
+    'pharmacy college coimbatore',
+    'b pharm college near coimbatore',
+    'd pharm college coimbatore',
+    'pharm d college coimbatore',
+    'jkkn pharmacy coimbatore',
+    'pci approved pharmacy college coimbatore',
+    'naac pharmacy college coimbatore',
+    'pharmacy admission coimbatore 2026',
+  ],
+  alternates: {
+    canonical: 'https://pharmacy.jkkn.ac.in/coimbatore',
+  },
+  openGraph: {
+    title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
+    url: 'https://pharmacy.jkkn.ac.in/coimbatore',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    type: 'website',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Best Pharmacy College Near Coimbatore - JKKN Pharmacy',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements.',
+    images: ['/og-image.jpg'],
+  },
+}
+
+export default function CoimbatoreLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return <>{children}</>
+}
