@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -58,19 +57,6 @@ export default function PharmDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <CourseSchema
-        name="Doctor of Pharmacy (Pharm.D)"
-        description="Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice, patient care, and medication therapy management. Available as 6-year programme after 12th standard or 3-year Post Baccalaureate programme after B.Pharm. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient counselling, and pharmaceutical care."
-        duration="P6Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharm-d"
-        educationalLevel="Doctoral"
-        courseMode="onsite"
-        numberOfCredits="6 Years"
-        inLanguage="en"
-        teaches={["Clinical Pharmacy", "Pharmacotherapy", "Clinical Pharmacokinetics", "Patient Counselling", "Pharmaceutical Care", "Evidence-Based Medicine", "Hospital Pharmacy Practice"]}
-      />
-      <FaqSchema faqs={pharmDFaqs} />
       <Header />
 
       {/* Hero Section */}

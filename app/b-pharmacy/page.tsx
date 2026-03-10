@@ -3,7 +3,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg';
 import { GraduationCap, ClipboardList, BookOpen, Briefcase, Building2, Scale, FileText, IndianRupee, Target, Star, HelpCircle, ScrollText, CheckCircle, ChevronDown, ArrowRight } from 'lucide-react';
 
 export default function BPharmacyPage() {
@@ -61,19 +60,6 @@ export default function BPharmacyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <CourseSchema
-        name="Bachelor of Pharmacy (B.Pharm)"
-        description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains students in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals."
-        duration="P4Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/b-pharmacy"
-        educationalLevel="Undergraduate"
-        courseMode="onsite"
-        numberOfCredits="4 Years"
-        inLanguage="en"
-        teaches={["Pharmaceutical Chemistry", "Pharmacology", "Pharmacognosy", "Pharmaceutics", "Pharmaceutical Analysis", "Hospital and Clinical Pharmacy"]}
-      />
-      <FaqSchema faqs={bPharmFaqs} />
       <Header />
 
       {/* Header Section */}

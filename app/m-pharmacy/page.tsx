@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
 
 export default function MPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -38,19 +37,6 @@ export default function MPharmacyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <CourseSchema
-        name="Master of Pharmacy (M.Pharm)"
-        description="M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy with 5 major specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/m-pharmacy"
-        educationalLevel="Postgraduate"
-        courseMode="onsite"
-        numberOfCredits="2 Years"
-        inLanguage="en"
-        teaches={["Pharmaceutics", "Pharmaceutical Analysis", "Pharmacology", "Pharmaceutical Chemistry", "Pharmacy Practice", "Research Methodology", "Pharmaceutical Biotechnology"]}
-      />
-      <FaqSchema faqs={mPharmFaqs} />
       <Header />
 
       {/* Hero Section */}
