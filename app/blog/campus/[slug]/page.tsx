@@ -121,8 +121,51 @@ export default async function CampusBlogPost({
 
   const { words, readTime } = calcReadMeta(rawHtml);
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.excerpt || post.title,
+    ...(post.cover_image_url && { "image": post.cover_image_url }),
+    "author": {
+      "@type": "Person",
+      "name": post.author_name || "JKKN Editorial Team",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "JKKN College of Pharmacy",
+        "url": "https://pharmacy.jkkn.ac.in/"
+      }
+    },
+    "publisher": {
+      "@type": "EducationalOrganization",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pharmacy.jkkn.ac.in/logo.png"
+      }
+    },
+    "datePublished": post.published_at || post.created_at,
+    "dateModified": post.published_at || post.created_at,
+    "url": `https://pharmacy.jkkn.ac.in/blog/campus/${post.slug}/`,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://pharmacy.jkkn.ac.in/blog/campus/${post.slug}/`
+    },
+    "inLanguage": "en-IN",
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "JKKN Pharmacy Blog",
+      "url": "https://pharmacy.jkkn.ac.in/blog/"
+    }
+  };
+
   return (
     <div className="min-h-screen bg-white">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
       <Header />
       <CampusBlogContent
         post={post}

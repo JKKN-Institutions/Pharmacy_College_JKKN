@@ -44,6 +44,11 @@ export default function MPharmacyPage() {
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/m-pharmacy"
+        educationalLevel="Postgraduate"
+        courseMode="onsite"
+        numberOfCredits="2 Years"
+        inLanguage="en"
+        teaches={["Pharmaceutics", "Pharmaceutical Analysis", "Pharmacology", "Pharmaceutical Chemistry", "Pharmacy Practice", "Research Methodology", "Pharmaceutical Biotechnology"]}
       />
       <FaqSchema faqs={mPharmFaqs} />
       <Header />

@@ -176,10 +176,10 @@ export default function Header() {
           <div className="max-w-[1600px] mx-auto px-2 lg:px-4 xl:px-8 py-2">
             <div className="flex items-center gap-1 xl:gap-2">
               {/* Logo - Left Side (spans both rows) */}
-              <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+              <Link href="/" className="flex items-center gap-2 flex-shrink-0" aria-label="JKKN College of Pharmacy - Visit Homepage">
                 <Image
                   src="/images/logo.png"
-                  alt="Logo"
+                  alt="JKKN College of Pharmacy"
                   width={192}
                   height={94}
                   className="h-16 lg:h-[72px] xl:h-24 w-auto object-contain"
@@ -218,10 +218,10 @@ export default function Header() {
       <nav className="lg:hidden w-full py-2 sm:py-3 px-3 sm:px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+          <Link href="/" className="flex items-center gap-2 flex-shrink-0" aria-label="JKKN College of Pharmacy - Visit Homepage">
             <Image
               src="/images/logo.png"
-              alt="Logo"
+              alt="JKKN College of Pharmacy"
               width={154}
               height={75}
               className="h-12 xs:h-14 sm:h-16 w-auto object-contain"

@@ -67,6 +67,11 @@ export default function BPharmacyPage() {
         duration="P4Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/b-pharmacy"
+        educationalLevel="Undergraduate"
+        courseMode="onsite"
+        numberOfCredits="4 Years"
+        inLanguage="en"
+        teaches={["Pharmaceutical Chemistry", "Pharmacology", "Pharmacognosy", "Pharmaceutics", "Pharmaceutical Analysis", "Hospital and Clinical Pharmacy"]}
       />
       <FaqSchema faqs={bPharmFaqs} />
       <Header />

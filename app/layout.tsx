@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in',
+    canonical: 'https://pharmacy.jkkn.ac.in/',
   },
   icons: {
     icon: '/images/logo.png',
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
-    url: 'https://pharmacy.jkkn.ac.in',
+    url: 'https://pharmacy.jkkn.ac.in/',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: [

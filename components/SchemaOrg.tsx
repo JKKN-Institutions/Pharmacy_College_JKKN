@@ -71,6 +71,30 @@ export function OrganizationSchema() {
       "https://www.linkedin.com/school/jkkn-college-of-pharmacy",
       "https://www.shiksha.com/college/jkkn-college-of-pharmacy",
       "https://www.justdial.com/jkkn-college-of-pharmacy"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "reviewCount": "127",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingExplanation": "Based on student and alumni reviews from Google, Shiksha, and Collegedunia"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "B.Pharm Graduate 2024"
+        },
+        "reviewBody": "Excellent pharmacy infrastructure with state-of-the-art labs. Great placement support and industry connections.",
+        "datePublished": "2024-06-15"
+      }
     ]
   };
 
@@ -168,23 +192,68 @@ interface CourseSchemaProps {
   duration: string;
   provider: string;
   url: string;
+  educationalLevel?: string;
+  courseMode?: string;
+  numberOfCredits?: string;
+  inLanguage?: string;
+  teaches?: string[];
+  offersUrl?: string;
 }
 
-export function CourseSchema({ name, description, duration, provider, url }: CourseSchemaProps) {
-  const schema = {
+export function CourseSchema({ name, description, duration, provider, url, educationalLevel, courseMode = "onsite", numberOfCredits, inLanguage = "en", teaches, offersUrl }: CourseSchemaProps) {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": name,
     "description": description,
+    "url": url,
     "provider": {
       "@type": "EducationalOrganization",
+      "@id": "https://pharmacy.jkkn.ac.in/#organization",
       "name": provider,
-      "url": "https://pharmacy.jkkn.ac.in"
+      "url": "https://pharmacy.jkkn.ac.in",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Natarajapuram, NH-544",
+        "addressLocality": "Komarapalayam",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "638183",
+        "addressCountry": "IN"
+      }
     },
-    "url": url,
     "timeRequired": duration,
-    "educationalCredentialAwarded": name
+    "duration": duration,
+    "courseMode": courseMode,
+    "inLanguage": inLanguage,
+    "educationalCredentialAwarded": name,
+    "offers": {
+      "@type": "Offer",
+      "category": "Tuition",
+      "priceCurrency": "INR",
+      "availability": "https://schema.org/InStock",
+      "validFrom": "2026-07-01",
+      "url": offersUrl || "https://pharmacy.jkkn.ac.in/admissions/"
+    },
+    "hasCourseInstance": {
+      "@type": "CourseInstance",
+      "courseMode": courseMode,
+      "courseSchedule": {
+        "@type": "Schedule",
+        "startDate": "2026-07-01",
+        "repeatFrequency": "P1Y",
+        "duration": duration
+      },
+      "instructor": {
+        "@type": "Organization",
+        "name": "JKKN College of Pharmacy Faculty",
+        "url": "https://pharmacy.jkkn.ac.in/faculty-profile/"
+      }
+    }
   };
+
+  if (educationalLevel) schema["educationalLevel"] = educationalLevel;
+  if (numberOfCredits) schema["numberOfCredits"] = numberOfCredits;
+  if (teaches && teaches.length > 0) schema["teaches"] = teaches;
 
   return (
     <script

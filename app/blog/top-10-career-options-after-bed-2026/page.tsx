@@ -187,7 +187,51 @@ export default function BlogDetailPage() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Top 10 Career Options After B.Ed in India [2026 Updated]",
+    "description": "Discover the top 10 career options after B.Ed in India for 2026 — from government school teacher to ed-tech roles, M.Ed, and school administration. Salary comparison included.",
+    "image": "https://pharmacy.jkkn.ac.in/og-image.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "JKKN Editorial Team",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "JKKN College of Pharmacy",
+        "url": "https://pharmacy.jkkn.ac.in/"
+      }
+    },
+    "publisher": {
+      "@type": "EducationalOrganization",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pharmacy.jkkn.ac.in/logo.png"
+      }
+    },
+    "datePublished": "2026-02-18",
+    "dateModified": "2026-02-18",
+    "url": "https://pharmacy.jkkn.ac.in/blog/top-10-career-options-after-bed-2026/",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://pharmacy.jkkn.ac.in/blog/top-10-career-options-after-bed-2026/"
+    },
+    "inLanguage": "en-IN",
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "JKKN Pharmacy Blog",
+      "url": "https://pharmacy.jkkn.ac.in/blog/"
+    }
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
     <div className="min-h-screen bg-white">
       <Header />
 
@@ -900,5 +944,6 @@ export default function BlogDetailPage() {
       <Footer />
       <ScrollToTop />
     </div>
+    </>
   );
 }

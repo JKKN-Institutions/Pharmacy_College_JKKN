@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
+import { CourseSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacologyPage() {
@@ -14,6 +15,18 @@ export default function PharmacologyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <CourseSchema
+        name="M.Pharm Pharmacology"
+        description="M.Pharm Pharmacology is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug action mechanisms, toxicology, preclinical research, drug screening, and molecular pharmacology. Prepares graduates for careers in pharmacology research, safety assessment, and clinical research organisations."
+        duration="P2Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/pharmacology"
+        educationalLevel="Postgraduate"
+        courseMode="onsite"
+        numberOfCredits="2 Years"
+        inLanguage="en"
+        teaches={["Drug Action Mechanisms", "Toxicology", "Preclinical Research", "Drug Screening", "Molecular Pharmacology", "Neuropharmacology", "Cardiovascular Pharmacology"]}
+      />
       <Header />
 
       {/* Hero Section */}

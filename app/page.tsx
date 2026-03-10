@@ -2,9 +2,10 @@
 
 import Header from '@/components/Header'
 import { OrganizationSchema, FaqSchema } from '@/components/SchemaOrg'
+import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
-import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Scale, ScrollText, Search, Sparkles, Star, Target, TestTube, User } from 'lucide-react'
+import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
 
 export default function Home() {
   const homepageFaqs = [
@@ -1188,6 +1189,120 @@ export default function Home() {
                 Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
               </p>
             </details>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Section with VideoObject schema */}
+      <VideoSection />
+
+      {/* Program Overview Table - for AI/SEO extraction */}
+      <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-white" aria-label="Pharmacy Programs Overview">
+        <div className="max-w-[1200px] mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Pharmacy Programs at JKKN College of Pharmacy</h2>
+          <p className="text-sm sm:text-base text-gray-600 mb-6">Overview of all PCI-approved pharmacy programmes offered at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
+          <div style={{ overflowX: 'auto' }}>
+            <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
+              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 1: Overview of B.Pharm, Pharm.D, M.Pharm, and Ph.D programs at JKKN College of Pharmacy</caption>
+              <thead>
+                <tr className="bg-[#006837] text-white">
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Program</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Duration</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Eligibility</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Intake</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Affiliating University</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '60 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (55%)', intake: '9–15 Seats per specialisation', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                ].map((p, i) => (
+                  <tr key={p.name} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                    <td className="px-4 py-3"><strong>{p.name}</strong><br /><span className="text-xs text-gray-500">{p.fullName}</span></td>
+                    <td className="px-4 py-3">{p.duration}</td>
+                    <td className="px-4 py-3">{p.eligibility}</td>
+                    <td className="px-4 py-3">{p.intake}</td>
+                    <td className="px-4 py-3 text-xs">{p.university}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Placement Statistics Table - for AI/SEO extraction */}
+      <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-[#f9fafb]" aria-label="Placement Statistics">
+        <div className="max-w-[1200px] mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Placement Statistics — JKKN College of Pharmacy</h2>
+          <p className="text-sm sm:text-base text-gray-600 mb-6">Year-wise placement data for pharmacy graduates from JKKN College of Pharmacy, Komarapalayam.</p>
+          <div style={{ overflowX: 'auto' }}>
+            <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
+              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 2: Year-wise placement statistics including placed percentage, CTC, and key recruiters</caption>
+              <thead>
+                <tr className="bg-[#006837] text-white">
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Year</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Placed %</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Highest CTC</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Average CTC</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Key Recruiters</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { year: '2024–25', placed: '95%', highest: '₹8 LPA', average: '₹3.5 LPA', recruiters: 'Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Apollo Pharmacy' },
+                  { year: '2023–24', placed: '92%', highest: '₹7.5 LPA', average: '₹3.2 LPA', recruiters: 'Aurobindo, Hetero, MedPlus, Biocon, Divi\'s Laboratories' },
+                  { year: '2022–23', placed: '90%', highest: '₹7 LPA', average: '₹3 LPA', recruiters: 'Mankind Pharma, Alkem, Glenmark, Cadila, Torrent Pharma' },
+                ].map((row, i) => (
+                  <tr key={row.year} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                    <td className="px-4 py-3 font-medium">{row.year}</td>
+                    <td className="px-4 py-3">{row.placed}</td>
+                    <td className="px-4 py-3">{row.highest}</td>
+                    <td className="px-4 py-3">{row.average}</td>
+                    <td className="px-4 py-3 text-xs">{row.recruiters}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* Fee Structure Table - for AI/SEO extraction */}
+      <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-white" aria-label="Fee Structure">
+        <div className="max-w-[1200px] mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Fee Structure — JKKN College of Pharmacy 2025–26</h2>
+          <p className="text-sm sm:text-base text-gray-600 mb-6">Annual and total fee details for all pharmacy programs at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
+          <div style={{ overflowX: 'auto' }}>
+            <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '500px' }}>
+              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 3: Fee comparison for B.Pharm, Pharm.D, and M.Pharm programs including scholarship availability</caption>
+              <thead>
+                <tr className="bg-[#006837] text-white">
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Program</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Annual Fee</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Total Fee</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Scholarship Available</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { program: 'B.Pharm', annual: '₹75,000', total: '₹3,00,000', scholarship: 'Yes (Merit & Government)' },
+                  { program: 'Pharm.D', annual: '₹80,000', total: '₹4,80,000', scholarship: 'Yes (Merit & Government)' },
+                  { program: 'M.Pharm', annual: '₹60,000', total: '₹1,20,000', scholarship: 'Yes (GATE/GPAT)' },
+                  { program: 'Ph.D', annual: 'As per university norms', total: 'Varies', scholarship: 'Yes (Fellowship available)' },
+                ].map((row, i) => (
+                  <tr key={row.program} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                    <td className="px-4 py-3 font-medium">{row.program}</td>
+                    <td className="px-4 py-3">{row.annual}</td>
+                    <td className="px-4 py-3">{row.total}</td>
+                    <td className="px-4 py-3">{row.scholarship}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       </section>

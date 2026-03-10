@@ -59,7 +59,6 @@ export default function OurManagementPage() {
                     alt="Mr. S. Ommsharravana - Director"
                     fill
                     className="object-cover rounded"
-                    priority
                   />
                 </div>
               </div>

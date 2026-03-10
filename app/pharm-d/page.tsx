@@ -64,6 +64,11 @@ export default function PharmDPage() {
         duration="P6Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/pharm-d"
+        educationalLevel="Doctoral"
+        courseMode="onsite"
+        numberOfCredits="6 Years"
+        inLanguage="en"
+        teaches={["Clinical Pharmacy", "Pharmacotherapy", "Clinical Pharmacokinetics", "Patient Counselling", "Pharmaceutical Care", "Evidence-Based Medicine", "Hospital Pharmacy Practice"]}
       />
       <FaqSchema faqs={pharmDFaqs} />
       <Header />

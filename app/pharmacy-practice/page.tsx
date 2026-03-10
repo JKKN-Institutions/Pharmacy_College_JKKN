@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
+import { CourseSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacyPracticePage() {
@@ -14,6 +15,18 @@ export default function PharmacyPracticePage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <CourseSchema
+        name="M.Pharm Pharmacy Practice"
+        description="M.Pharm Pharmacy Practice is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy management, and medication therapy management. Prepares graduates for careers in hospital clinical pharmacy, drug information services, and pharmaceutical care."
+        duration="P2Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/pharmacy-practice"
+        educationalLevel="Postgraduate"
+        courseMode="onsite"
+        numberOfCredits="2 Years"
+        inLanguage="en"
+        teaches={["Clinical Pharmacy", "Pharmacotherapy", "Patient Care", "Hospital Pharmacy Management", "Medication Therapy Management", "Drug Information", "Pharmaceutical Care"]}
+      />
       <Header />
 
       {/* Hero Section */}

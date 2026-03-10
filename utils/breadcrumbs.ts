@@ -75,6 +75,10 @@ const pageNameMap: Record<string, string> = {
   'animal-house': 'Animal House Facility',
   'barrier-free-environment': 'Disabled-friendly and Barrier Free Environment',
 
+  // Blog
+  'blog': 'Blog',
+  'campus': 'Campus News',
+
   // Other pages
   'naac': 'NAAC',
   'iqac': 'IQAC',
@@ -213,6 +217,12 @@ const hierarchyMap: Record<string, string[]> = {
  * @param pathname - Current page pathname (e.g., "/b-pharmacy")
  * @returns Array of breadcrumb items
  */
+function formatSlug(slug: string): string {
+  return slug
+    .replace(/-/g, ' ')
+    .replace(/\b\w/g, (c) => c.toUpperCase())
+}
+
 export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
   // Remove leading and trailing slashes
   const cleanPath = pathname.replace(/^\/|\/$/g, '')
@@ -223,6 +233,25 @@ export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
   }
 
   const breadcrumbs: BreadcrumbItem[] = [{ name: 'Home', url: '/' }]
+
+  // Handle blog paths
+  if (cleanPath === 'blog' || cleanPath.startsWith('blog/')) {
+    const segments = cleanPath.split('/')
+    if (segments.length === 1) {
+      // /blog — current page
+      breadcrumbs.push({ name: 'Blog' })
+    } else if (segments[1] === 'campus' && segments.length > 2) {
+      // /blog/campus/[slug]
+      breadcrumbs.push({ name: 'Blog', url: '/blog' })
+      breadcrumbs.push({ name: 'Campus News', url: '/blog/campus' })
+      breadcrumbs.push({ name: formatSlug(segments[2]) })
+    } else {
+      // /blog/[slug]
+      breadcrumbs.push({ name: 'Blog', url: '/blog' })
+      breadcrumbs.push({ name: formatSlug(segments[1]) })
+    }
+    return breadcrumbs
+  }
 
   // Check if this page has a hierarchy
   const hierarchy = hierarchyMap[cleanPath]

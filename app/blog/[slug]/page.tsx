@@ -193,7 +193,51 @@ export default function BlogDetailPage() {
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "B.Ed Course 2026: Eligibility, Curriculum, Fees & Admission Guide",
+    "description": "Complete guide to B.Ed course 2026 — eligibility criteria, curriculum, TNTEU counselling, fee structure, career scope, and admission process at JKKN College of Education, Komarapalayam.",
+    "image": "https://pharmacy.jkkn.ac.in/og-image.jpg",
+    "author": {
+      "@type": "Person",
+      "name": "JKKN Editorial Team",
+      "affiliation": {
+        "@type": "EducationalOrganization",
+        "name": "JKKN College of Pharmacy",
+        "url": "https://pharmacy.jkkn.ac.in/"
+      }
+    },
+    "publisher": {
+      "@type": "EducationalOrganization",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pharmacy.jkkn.ac.in/logo.png"
+      }
+    },
+    "datePublished": "2026-02-01",
+    "dateModified": "2026-02-01",
+    "url": "https://pharmacy.jkkn.ac.in/blog/bed-course-2026-guide/",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://pharmacy.jkkn.ac.in/blog/bed-course-2026-guide/"
+    },
+    "inLanguage": "en-IN",
+    "isPartOf": {
+      "@type": "Blog",
+      "name": "JKKN Pharmacy Blog",
+      "url": "https://pharmacy.jkkn.ac.in/blog/"
+    }
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
     <div className="min-h-screen bg-white">
       <Header />
 
@@ -993,5 +1037,6 @@ export default function BlogDetailPage() {
       <Footer />
       <ScrollToTop />
     </div>
+    </>
   );
 }
