@@ -34,68 +34,68 @@ const facultyData: Faculty[] = [
   },
   {
     id: 2,
-    name: "Dr. A. Rajasekaran",
+    name: "Dr. V. Sekar",
     designation: "Professor & Head",
-    department: "Department of Pharmaceutics",
+    department: "Department of Pharmaceutical Analysis",
     qualifications: ["M.Pharm", "Ph.D"],
-    experience: "20+ years",
-    researchInterests: ["Novel Drug Delivery Systems", "Nanotechnology", "Formulation Development"],
-    publications: 18,
+    experience: "27 years",
+    researchInterests: ["Impurity Profile", "Method Development and Validation", "Benzothiazole"],
+    publications: 85,
     googleScholar: "https://scholar.google.com",
-    email: "hod.pharmaceutics@jkkn.ac.in",
-    image: "/images/logo.png"
+    email: "hodpharmaceuticalanalysis@jkkn.ac.in",
+    image: "/images/Dr-V-Sekar.webp"
   },
   {
     id: 3,
-    name: "Dr. S. Shanmugam",
-    designation: "Professor & Head",
-    department: "Department of Pharmacology",
-    qualifications: ["M.Pharm", "Ph.D"],
-    experience: "18+ years",
-    researchInterests: ["Pharmacological Screening", "Neuropharmacology", "Toxicology Studies"],
-    publications: 15,
-    googleScholar: "https://scholar.google.com",
-    email: "hod.pharmacology@jkkn.ac.in",
-    image: "/images/logo.png"
-  },
-  {
-    id: 4,
-    name: "Dr. R. Murugesan",
+    name: "Dr. M. Vijayabaskaran",
     designation: "Professor & Head",
     department: "Department of Pharmaceutical Chemistry",
     qualifications: ["M.Pharm", "Ph.D"],
-    experience: "16+ years",
-    researchInterests: ["Medicinal Chemistry", "Drug Design", "Synthesis of Novel Compounds"],
-    publications: 12,
+    experience: "26 years",
+    researchInterests: ["Phytochemistry", "Molecular Modelling", "Insilico Docking Studies", "Silver Nano-particles", "Heterocyclic Molecules Research"],
+    publications: 90,
     googleScholar: "https://scholar.google.com",
-    email: "hod.pharmchem@jkkn.ac.in",
-    image: "/images/logo.png"
+    email: "hodpharmachemistry@jkkn.ac.in",
+    image: "/images/Dr-M-Vijayabaskaran.webp"
+  },
+  {
+    id: 4,
+    name: "Dr. N. Venkateswaramurthy",
+    designation: "Professor & Head",
+    department: "Department of Pharmacy Practice",
+    qualifications: ["M.Pharm", "Ph.D"],
+    experience: "24 years",
+    researchInterests: ["Application of AI in Patient Care", "Smart Drug Delivery Systems", "Therapeutic Drug Monitoring"],
+    publications: 70,
+    googleScholar: "https://scholar.google.com",
+    email: "hodpharmacypractice@jkkn.ac.in",
+    image: "/images/Dr-N-Venkateswaramurthy.webp"
   },
   {
     id: 5,
-    name: "Dr. K. Lakshmi",
-    designation: "Associate Professor",
-    department: "Department of Pharmaceutical Analysis",
+    name: "Dr. V. Kishor Kumar",
+    designation: "Professor & Head",
+    department: "Department of Pharmacognosy",
     qualifications: ["M.Pharm", "Ph.D"],
-    experience: "14+ years",
-    researchInterests: ["Analytical Method Development", "Quality Control", "Spectroscopy"],
-    publications: 10,
+    experience: "17 years",
+    researchInterests: ["Anti Diabetic Activity", "Anti Oxidant Activity", "Molecular Docking", "Phytochemistry", "Formulation and Evaluation of Herbal Drugs"],
+    publications: 40,
     googleScholar: "https://scholar.google.com",
-    email: "lakshmi@jkkn.ac.in",
-    image: "/images/logo.png"
+    email: "kishorkumar.v@jkkn.ac.in",
+    image: "/images/Dr-V-Kishor-Kumar.webp"
   },
   {
     id: 6,
-    name: "Dr. P. Selvam",
-    designation: "Associate Professor",
-    department: "Department of Pharmacy Practice",
-    qualifications: ["Pharm.D", "M.Pharm"],
-    experience: "12+ years",
-    researchInterests: ["Clinical Pharmacy", "Pharmacovigilance", "Patient Counseling"],
-    publications: 8,
+    name: "Dr. Perli. Kranti Kumar",
+    designation: "Professor",
+    department: "Department of Pharmaceutical Analysis",
+    qualifications: ["M.Pharm", "Ph.D"],
+    experience: "16 years",
+    researchInterests: ["Analytical Method Development & Validation", "Spectroscopic Analysis", "Bioanalytical Method Development", "Pharmaceutical Impurity Profiling and Green Analytical Chemistry"],
+    publications: 65,
     googleScholar: "https://scholar.google.com",
-    email: "selvam@jkkn.ac.in",
-    image: "/images/logo.png"
+    email: "perlikrantikumar@jkkn.ac.in",
+    image: "/images/Dr-Perli-Kranti-Kumar.webp"
   }
 ]
 
@@ -182,7 +182,7 @@ export default function FacultyProfilePage() {
                   {/* Faculty Details */}
                   <div className="p-6">
                     {/* Name and Designation */}
-                    <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">
+                    <h3 className="text-[17px] sm:text-[19px] font-bold text-gray-900 mb-1 whitespace-nowrap">
                       {faculty.name}
                     </h3>
                     <p className="text-sm font-semibold text-[#0F6B3E] mb-1">
