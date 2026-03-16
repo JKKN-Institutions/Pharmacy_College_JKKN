@@ -1085,114 +1085,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQs Section */}
-      <section className="bg-[#FBFBEE] py-8 sm:py-12 md:py-16">
-        <div className="max-w-[1000px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
-          <div className="text-center mb-6 sm:mb-8">
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
-              FAQS
-            </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
-              Find answers to common questions about admissions, programmes, and campus life.
-            </p>
-          </div>
-
-          {/* FAQ Items */}
-          <div className="space-y-2 sm:space-y-3">
-            {/* FAQ 1 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What pharmacy courses are offered at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
-              </p>
-            </details>
-
-            {/* FAQ 2 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is JKKN Pharmacy College PCI approved?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programmes.
-              </p>
-            </details>
-
-            {/* FAQ 3 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the admission process for B.Pharm/Pharm.D?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Applications can be submitted online.
-              </p>
-            </details>
-
-            {/* FAQ 4 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the placement record at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN Pharmacy College has 95%+ placement rate with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
-              </p>
-            </details>
-
-            {/* FAQ 5 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What career opportunities are available after pharmacy?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Pharmacy graduates can work in pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and can open their own pharmacy.
-              </p>
-            </details>
-
-            {/* FAQ 6 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Does JKKN offer Pharm.D programme?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
-              </p>
-            </details>
-
-            {/* FAQ 7 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What M.Pharm specialisations are available?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                M.Pharm specialisations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
-              </p>
-            </details>
-
-            {/* FAQ 8 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is hostel accommodation available?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
-              </p>
-            </details>
-          </div>
-        </div>
-      </section>
-
       {/* Video Section with VideoObject schema */}
       <VideoSection />
 
@@ -1307,22 +1199,110 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="bg-gradient-to-r from-[#7cb983] to-[#6ba872] py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
-        <div className="max-w-[1000px] mx-auto text-center">
-          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-3 sm:mb-4">
-            Ready to Shape Healthcare's Future?
-          </h2>
-          <p className="text-xs xs:text-sm sm:text-base text-white mb-4 sm:mb-6 px-2">
-            Join JKKN College of Pharmacy and become part of a century-long legacy of excellence. Applications for 2026-27 are now open.
-          </p>
-          <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="w-full xs:w-auto bg-[#FBFBEE] hover:bg-gray-100 text-[#006837] font-bold px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-full transition-all duration-300 text-xs xs:text-sm sm:text-base flex items-center justify-center gap-2">
-              Apply Now →
-            </a>
-            <a href="tel:9345855001" className="w-full xs:w-auto border-2 border-white hover:bg-[#FBFBEE] hover:text-[#7cb983] text-white font-bold px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-full transition-all duration-300 text-xs xs:text-sm sm:text-base flex items-center justify-center gap-2">
-              Call Us
-            </a>
+      {/* FAQs Section */}
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 md:py-16">
+        <div className="max-w-[1000px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
+          <div className="text-center mb-6 sm:mb-8">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+              FAQS
+            </p>
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
+              Find answers to common questions about admissions, programmes, and campus life.
+            </p>
+          </div>
+
+          {/* FAQ Items */}
+          <div className="space-y-2 sm:space-y-3">
+            {/* FAQ 1 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What pharmacy courses are offered at JKKN Pharmacy College?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
+              </p>
+            </details>
+
+            {/* FAQ 2 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Is JKKN Pharmacy College PCI approved?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programmes.
+              </p>
+            </details>
+
+            {/* FAQ 3 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What is the admission process for B.Pharm/Pharm.D?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Applications can be submitted online.
+              </p>
+            </details>
+
+            {/* FAQ 4 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What is the placement record at JKKN Pharmacy College?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                JKKN Pharmacy College has 95%+ placement rate with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
+              </p>
+            </details>
+
+            {/* FAQ 5 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What career opportunities are available after pharmacy?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Pharmacy graduates can work in pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and can open their own pharmacy.
+              </p>
+            </details>
+
+            {/* FAQ 6 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Does JKKN offer Pharm.D programme?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
+              </p>
+            </details>
+
+            {/* FAQ 7 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What M.Pharm specialisations are available?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                M.Pharm specialisations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
+              </p>
+            </details>
+
+            {/* FAQ 8 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Is hostel accommodation available?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
+              </p>
+            </details>
           </div>
         </div>
       </section>
