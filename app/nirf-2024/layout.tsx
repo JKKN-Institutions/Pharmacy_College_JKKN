@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'NIRF 2024 Data | Ranking Submission | JKKN Pharmacy College',
   description: 'NIRF 2024 (National Institutional Ranking Framework) data submission of JKKN College of Pharmacy. Performance parameters, ranking metrics and institutional achievements for 2024.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/nirf-2024',
+    canonical: 'https://pharmacy.jkkn.ac.in/nirf-2024/',
   },
 }
 

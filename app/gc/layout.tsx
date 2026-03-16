@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Governing Council | Leadership & Governance | JKKN Pharmacy',
   description: 'Governing Council of JKKN College of Pharmacy. Council members, governance structure, decision-making body and institutional leadership for academic excellence.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/gc',
+    canonical: 'https://pharmacy.jkkn.ac.in/gc/',
   },
 }
 

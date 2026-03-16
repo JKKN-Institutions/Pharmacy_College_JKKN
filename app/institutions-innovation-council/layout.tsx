@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'IIC - Institution Innovation Council | MHRD | JKKN Pharmacy',
   description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons, ideation sessions and entrepreneurship promotion.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/institutions-innovation-council',
+    canonical: 'https://pharmacy.jkkn.ac.in/institutions-innovation-council/',
   },
 }
 

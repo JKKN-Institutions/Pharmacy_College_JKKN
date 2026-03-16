@@ -157,18 +157,18 @@ export const metadata: Metadata = {
     'pharm d top colleges in tamilnadu',
   ],
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/pharm-d',
+    canonical: 'https://pharmacy.jkkn.ac.in/pharm-d/',
   },
   openGraph: {
     title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
-    url: 'https://pharmacy.jkkn.ac.in/pharm-d',
+    url: 'https://pharmacy.jkkn.ac.in/pharm-d/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best Pharm.D College in Tamilnadu',
@@ -179,7 +179,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

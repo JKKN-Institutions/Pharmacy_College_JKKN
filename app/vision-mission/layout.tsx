@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Vision & Mission | JKKN College of Pharmacy Komarapalayam',
   description: 'JKKN Pharmacy College vision and mission statements. Our commitment to pharmaceutical education excellence, research, innovation and producing competent pharmacy professionals.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/vision-mission',
+    canonical: 'https://pharmacy.jkkn.ac.in/vision-mission/',
   },
 }
 

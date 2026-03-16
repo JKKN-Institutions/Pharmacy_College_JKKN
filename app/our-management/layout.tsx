@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Management Team | Leadership | JKKN College of Pharmacy',
   description: 'Meet the management team of JKKN College of Pharmacy. Trust members, governing body, administrative leadership and their vision for pharmaceutical education excellence.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/our-management',
+    canonical: 'https://pharmacy.jkkn.ac.in/our-management/',
   },
 }
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Attainment of COs & POs | Academic Assessment | JKKN Pharmacy',
   description: 'Attainment of Course Outcomes and Programme Outcomes at JKKN College of Pharmacy. Assessment methods, attainment levels, academic performance and learning outcome measurement.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/attainment-cos-pos',
+    canonical: 'https://pharmacy.jkkn.ac.in/attainment-cos-pos/',
   },
 }
 

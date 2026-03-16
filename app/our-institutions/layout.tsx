@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'JKKN Group Institutions | Engineering Nursing, Pharmacy | Komarapalayam',
   description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools. Multi-disciplinary education campus.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/our-institutions',
+    canonical: 'https://pharmacy.jkkn.ac.in/our-institutions/',
   },
 }
 

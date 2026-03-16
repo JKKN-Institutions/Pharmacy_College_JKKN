@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Seminar Hall & Auditorium | Event Venues | JKKN Pharmacy',
   description: 'Seminar hall and auditorium facilities at JKKN College of Pharmacy. Conference hall, symposium venue, guest lectures, workshops and academic events infrastructure.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/seminar-hall',
+    canonical: 'https://pharmacy.jkkn.ac.in/seminar-hall/',
   },
 }
 

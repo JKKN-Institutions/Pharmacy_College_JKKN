@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Ordinances & Regulations | Academic Policies | JKKN Pharmacy',
   description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria, academic policies and regulatory framework.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/ordinances',
+    canonical: 'https://pharmacy.jkkn.ac.in/ordinances/',
   },
 }
 

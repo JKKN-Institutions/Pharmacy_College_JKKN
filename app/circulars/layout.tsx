@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Circulars & Notifications | Important Announcements | JKKN Pharmacy',
   description: 'Latest circulars, notifications and announcements from JKKN College of Pharmacy. Academic circulars, exam notifications, holiday lists and important updates for students.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/circulars',
+    canonical: 'https://pharmacy.jkkn.ac.in/circulars/',
   },
 }
 

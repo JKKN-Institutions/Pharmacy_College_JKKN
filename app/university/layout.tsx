@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Anna University Affiliation | JKKN Pharmacy College Komarapalayam',
   description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations, examination system and academic governance.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/university',
+    canonical: 'https://pharmacy.jkkn.ac.in/university/',
   },
 }
 

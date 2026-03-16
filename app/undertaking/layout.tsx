@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Undertaking & Declarations | Student Documents | JKKN Pharmacy',
   description: 'Required undertakings and declarations for students at JKKN College of Pharmacy. Admission undertaking, bond agreements, code of conduct acceptance and student declarations.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/undertaking',
+    canonical: 'https://pharmacy.jkkn.ac.in/undertaking/',
   },
 }
 

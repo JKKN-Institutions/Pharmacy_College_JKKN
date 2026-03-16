@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Incubation Centre | Startup Support | JKKN Pharmacy College',
   description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring, infrastructure and funding opportunities for entrepreneurs.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/incubation-centre',
+    canonical: 'https://pharmacy.jkkn.ac.in/incubation-centre/',
   },
 }
 

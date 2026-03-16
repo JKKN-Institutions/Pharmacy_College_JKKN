@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'M.Pharm COs & POs | Programme Outcomes | JKKN Pharmacy College',
   description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes, research competencies and career readiness objectives.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/mpharm-cos-pos',
+    canonical: 'https://pharmacy.jkkn.ac.in/mpharm-cos-pos/',
   },
 }
 

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Youth Red Cross | Social Service | JKKN College of Pharmacy',
   description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training, blood donation and humanitarian service activities.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/youth-red-cross',
+    canonical: 'https://pharmacy.jkkn.ac.in/youth-red-cross/',
   },
 }
 

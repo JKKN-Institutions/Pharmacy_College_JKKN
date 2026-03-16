@@ -166,18 +166,18 @@ export const metadata: Metadata = {
     'top b pharmacy colleges in tamilnadu',
   ],
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/b-pharmacy',
+    canonical: 'https://pharmacy.jkkn.ac.in/b-pharmacy/',
   },
   openGraph: {
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
-    url: 'https://pharmacy.jkkn.ac.in/b-pharmacy',
+    url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best B.Pharm College in Tamilnadu',
@@ -188,7 +188,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

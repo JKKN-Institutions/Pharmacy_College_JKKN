@@ -111,7 +111,7 @@ export default function AdmissionProcessPage() {
             </h2>
             <div className="text-sm sm:text-base text-gray-700 leading-relaxed space-y-4">
               <p>
-                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1987, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. Our admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
+                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. Our admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
               <p>
                 The college offers comprehensive pharmacy education with state-of-the-art infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the premier pharmacy institutions in South India.

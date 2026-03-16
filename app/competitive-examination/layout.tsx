@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Competitive Exam Coaching | GPAT GATE | JKKN Pharmacy',
   description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes, study materials and comprehensive career guidance.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/competitive-examination',
+    canonical: 'https://pharmacy.jkkn.ac.in/competitive-examination/',
   },
 }
 

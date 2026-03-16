@@ -8,7 +8,8 @@
       "Bash(powershell -Command \"Get-Content ''C:\\\\Users\\\\Admin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Deepakkumar-college-websites-Pharmacy-College\\\\tasks\\\\baa5f70.output'' -Tail 20\")",
       "Bash(timeout /t 8 /nobreak)",
       "Bash(timeout /t 10 /nobreak)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }

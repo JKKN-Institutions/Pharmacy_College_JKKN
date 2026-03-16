@@ -2,13 +2,15 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import './globals.css'
 import dynamic from 'next/dynamic'
-import { BottomNavWrapper } from '@/components/BottomNavWrapper'
-import ScrollToTop from '@/components/ScrollToTop'
 
-// Lazy load Footer component as it's below the fold
-const Footer = dynamic(() => import('@/components/Footer'), {
-  ssr: true,
-})
+// Lazy load below-the-fold components to reduce layout chunk size
+const Footer = dynamic(() => import('@/components/Footer'))
+
+const ScrollToTop = dynamic(() => import('@/components/ScrollToTop'))
+
+const BottomNavWrapper = dynamic(
+  () => import('@/components/BottomNavWrapper').then(mod => ({ default: mod.BottomNavWrapper }))
+)
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -57,7 +59,7 @@ export const metadata: Metadata = {
     description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamilnadu',
@@ -69,7 +71,7 @@ export const metadata: Metadata = {
     site: '@jkknpharmacy',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

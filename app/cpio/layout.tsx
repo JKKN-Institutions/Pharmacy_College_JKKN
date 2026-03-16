@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'CPIO - Central Public Information Officer | RTI | JKKN Pharmacy',
   description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance, information requests and transparency in institutional governance.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/cpio',
+    canonical: 'https://pharmacy.jkkn.ac.in/cpio/',
   },
 }
 

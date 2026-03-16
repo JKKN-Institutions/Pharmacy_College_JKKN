@@ -16,18 +16,18 @@ export const metadata: Metadata = {
     'pharmacy admission tiruppur 2026',
   ],
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/tiruppur',
+    canonical: 'https://pharmacy.jkkn.ac.in/tiruppur/',
   },
   openGraph: {
     title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
-    url: 'https://pharmacy.jkkn.ac.in/tiruppur',
+    url: 'https://pharmacy.jkkn.ac.in/tiruppur/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Tiruppur - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

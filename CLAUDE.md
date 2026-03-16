@@ -1,3 +1,32 @@
+# JKKN Pharmacy College — Project Rules
+
+## Bug Fix Rules (MANDATORY)
+
+1. **Surgical fixes only** — Change the minimum lines needed to fix the issue. No refactoring, no "improvements", no cleanup of surrounding code
+2. **No shared class/component modifications** — If a CSS class or component is used in 3+ places, NEVER modify it directly. Create a new variant or override instead
+3. **Before editing any file, grep for all usages** — Run `Grep` to check where the component/class/function is used BEFORE changing it. Understand the blast radius first
+4. **No layout changes during bug fixes** — padding, margin, flex, grid changes are HIGH RISK. After any layout edit, verify all breakpoints: mobile (320px), tablet (768px), desktop (1024px+)
+5. **One fix = one commit** — Never bundle multiple fixes in a single commit. If fix A breaks something, it must be easy to revert without losing fix B
+6. **Test adjacent pages** — After fixing page X, check pages Y and Z that share the same component or layout
+7. **No global file edits during fixes** — `globals.css`, `tailwind.config.ts`, `layout.tsx` changes are FORBIDDEN during bug fixes unless the bug is specifically in those files
+8. **Show impact before editing** — Before making any change, list: (a) files to be modified, (b) components affected, (c) pages that use those components
+9. **Preserve responsive behavior** — Never remove or modify responsive classes (`sm:`, `md:`, `lg:`, `xl:`) without checking all breakpoints
+10. **No dependency changes during fixes** — Do not add, remove, or update packages while fixing a bug
+
+### High-Risk Danger Zones
+
+| Risk Area | Why Dangerous | Rule |
+|-----------|--------------|------|
+| Shared components (Header, Footer, Layout) | Used on EVERY page | Grep all usages first, test all pages after |
+| `globals.css` | Affects entire site | Never edit during bug fix |
+| `tailwind.config.ts` | Affects all Tailwind classes | Never edit during bug fix |
+| `layout.tsx` files | Affects all child routes | Full child page verification required |
+| Responsive classes | Breaking one breakpoint breaks mobile/tablet | Check 320px, 640px, 768px, 1024px, 1280px |
+| Framer Motion animations | Complex state interactions | Test enter/exit/hover states after changes |
+| z-index changes | Can hide/overlap other elements | Check all overlapping sections |
+
+---
+
 # Text Size Documentation - Nursing College Website
 
 This document provides a comprehensive list of all text sizes used across the entire website, organized by responsive breakpoints (from 320px up to large screens).

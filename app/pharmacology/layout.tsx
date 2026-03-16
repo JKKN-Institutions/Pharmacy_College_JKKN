@@ -8,18 +8,18 @@ export const metadata: Metadata = {
     'pharmacology courses in tamilnadu',
   ],
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/pharmacology',
+    canonical: 'https://pharmacy.jkkn.ac.in/pharmacology/',
   },
   openGraph: {
     title: 'Pharmacology Courses in Tamilnadu | JKKN Pharmacy College',
     description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
-    url: 'https://pharmacy.jkkn.ac.in/pharmacology',
+    url: 'https://pharmacy.jkkn.ac.in/pharmacology/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'JKKN - M.Pharm Pharmacology Programme',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmacology Courses in Tamilnadu | JKKN Pharmacy College',
     description: 'Explore pharmacology courses in Tamilnadu at JKKN College of Pharmacy. M.Pharm Pharmacology — drug action, toxicology & research. Admissions Open 2026-27!',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

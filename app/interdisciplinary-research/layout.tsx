@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Interdisciplinary Research | Collaborative Projects | JKKN Pharmacy',
   description: 'Interdisciplinary research at JKKN College of Pharmacy. Cross-departmental collaborations, multi-disciplinary projects, research partnerships and innovation in pharmaceutical sciences.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/interdisciplinary-research',
+    canonical: 'https://pharmacy.jkkn.ac.in/interdisciplinary-research/',
   },
 }
 

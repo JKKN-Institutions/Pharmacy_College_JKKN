@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Contact Us | Address Phone & Email | JKKN Pharmacy Komarapalayam',
   description: 'Contact JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Get directions, phone numbers, email addresses, admission enquiry contacts and visit our NAAC A grade campus.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/contact',
+    canonical: 'https://pharmacy.jkkn.ac.in/contact/',
   },
 }
 

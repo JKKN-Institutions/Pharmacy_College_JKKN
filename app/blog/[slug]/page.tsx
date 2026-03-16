@@ -198,7 +198,7 @@ export default function BlogDetailPage() {
     "@type": "BlogPosting",
     "headline": "B.Ed Course 2026: Eligibility, Curriculum, Fees & Admission Guide",
     "description": "Complete guide to B.Ed course 2026 — eligibility criteria, curriculum, TNTEU counselling, fee structure, career scope, and admission process at JKKN College of Education, Komarapalayam.",
-    "image": "https://pharmacy.jkkn.ac.in/og-image.jpg",
+    "image": "https://pharmacy.jkkn.ac.in/images/logo.png",
     "author": {
       "@type": "Person",
       "name": "JKKN Editorial Team",

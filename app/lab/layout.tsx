@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Pharmacy Laboratories | Advanced Equipment | JKKN College',
   description: 'State-of-the-art pharmacy laboratories at JKKN College. Pharmaceutics, pharmacology, pharmaceutical chemistry, analysis labs with modern instruments and advanced research facilities.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/lab',
+    canonical: 'https://pharmacy.jkkn.ac.in/lab/',
   },
 }
 

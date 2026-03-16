@@ -16,18 +16,18 @@ export const metadata: Metadata = {
     'pharmacy admission coimbatore 2026',
   ],
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/coimbatore',
+    canonical: 'https://pharmacy.jkkn.ac.in/coimbatore/',
   },
   openGraph: {
     title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
-    url: 'https://pharmacy.jkkn.ac.in/coimbatore',
+    url: 'https://pharmacy.jkkn.ac.in/coimbatore/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/logo.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Coimbatore - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/og-image.jpg'],
+    images: ['/images/logo.png'],
   },
 }
 

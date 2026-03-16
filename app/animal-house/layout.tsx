@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Animal House | Pharmacology Research Facility | JKKN Pharmacy',
   description: 'Animal house facility at JKKN College of Pharmacy. CPCSEA registered, preclinical research, pharmacology experiments and ethical animal care practices.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/animal-house',
+    canonical: 'https://pharmacy.jkkn.ac.in/animal-house/',
   },
 }
 

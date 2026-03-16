@@ -7,13 +7,13 @@ export function OrganizationSchema() {
     "alternateName": "JKKN Pharmacy College",
     "url": "https://pharmacy.jkkn.ac.in",
     "logo": "https://pharmacy.jkkn.ac.in/images/logo.png",
-    "description": "JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1987.",
-    "foundingDate": "1987",
+    "description": "JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985.",
+    "foundingDate": "1985",
     "identifier": [
       {
         "@type": "PropertyValue",
         "name": "PCI Approval Number",
-        "value": "PCI-JKKN-TN-1987",
+        "value": "PCI-JKKN-TN-1985",
         "description": "Pharmacy Council of India approval identifier"
       },
       {
@@ -37,7 +37,7 @@ export function OrganizationSchema() {
       {
         "@type": "PropertyValue",
         "name": "Founding Year",
-        "value": "1987",
+        "value": "1985",
         "description": "Year of establishment"
       }
     ],
@@ -94,86 +94,6 @@ export function OrganizationSchema() {
         },
         "reviewBody": "Excellent pharmacy infrastructure with state-of-the-art labs. Great placement support and industry connections.",
         "datePublished": "2024-06-15"
-      }
-    ]
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
-}
-
-export function FAQPageSchema() {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What pharmacy courses are offered at JKKN Pharmacy College?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is JKKN Pharmacy College PCI approved?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) since 2009 and accredited by NAAC with A Grade. It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm, and M.Pharm programmes. All programmes meet regulatory standards for quality pharmaceutical education in India."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the admission process for B.Pharm/Pharm.D?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "B.Pharm/Pharm.D admission at JKKN College of Pharmacy, Komarapalayam is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Application fee is ₹1,000. Applications open in May-June and can be submitted online through our official website."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is the placement record at JKKN Pharmacy College?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN Pharmacy College has an outstanding 95% placement rate for the 2024-25 batch with 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies across India. Average package is ₹3.5 LPA with highest package reaching ₹8 LPA. Our dedicated Placement Cell provides comprehensive training and support."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What career opportunities are available after pharmacy?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Pharmacy graduates from JKKN can pursue diverse career paths including pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, and pharmaceutical marketing. Graduates can also open their own pharmacy or pursue higher studies like M.Pharm, Pharm.D, or PhD. Starting salaries range from ₹2.5-8 LPA depending on the role and specialisation."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Does JKKN offer Pharm.D programme?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, JKKN College of Pharmacy offers PCI-approved Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of clinical internship. The programme has an intake of 30 students and focuses on clinical pharmacy, patient care, and pharmaceutical care services. Graduates can work in hospitals, clinical research, or pursue US licensure (FPGEE/NAPLEX)."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What M.Pharm specialisations are available?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "JKKN College of Pharmacy offers 2-year M.Pharm programmes in five specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. Each specialisation has 9-15 seats. Eligibility requires B.Pharm with 55% marks and valid GPAT score (preferred). Graduates can pursue careers in R&D, quality assurance, teaching, or PhD programmes with salary packages ranging from ₹3-10 LPA."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is hostel accommodation available?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, JKKN College of Pharmacy provides separate hostel facilities for both men and women within the campus at Komarapalayam. Hostels feature modern amenities including furnished rooms, 24/7 security with CCTV surveillance, hygienic mess facilities serving nutritious vegetarian and non-vegetarian food, high-speed Wi-Fi, recreation areas, gym, laundry services, and medical facilities. Hostel fees are approximately ₹60,000-80,000 per year including food."
-        }
       }
     ]
   };

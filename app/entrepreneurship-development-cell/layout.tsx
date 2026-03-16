@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Entrepreneurship Cell | Startup Incubation | JKKN Pharmacy',
   description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College. Business skills, mentorship, funding support and entrepreneurial ecosystem.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell',
+    canonical: 'https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell/',
   },
 }
 

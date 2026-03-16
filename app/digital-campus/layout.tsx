@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Digital Campus & Smart Classrooms | JKKN Pharmacy College',
   description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources, digital library and technology-enabled education.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/digital-campus',
+    canonical: 'https://pharmacy.jkkn.ac.in/digital-campus/',
   },
 }
 

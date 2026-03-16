@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'IQAC - Internal Quality Assurance Cell | JKKN Pharmacy College',
   description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives, academic audits and continuous improvement mechanisms.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/iqac',
+    canonical: 'https://pharmacy.jkkn.ac.in/iqac/',
   },
 }
 

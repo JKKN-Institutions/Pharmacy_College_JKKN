@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'B.Pharm Time Table | Academic Calendar 2026 | JKKN Pharmacy',
   description: 'B.Pharm timetable and academic calendar at JKKN College of Pharmacy. Class schedules, examination dates, semester timings and important academic dates for 2026.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/bpharm-time-table',
+    canonical: 'https://pharmacy.jkkn.ac.in/bpharm-time-table/',
   },
 }
 

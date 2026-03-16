@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Recognition Approval & Accreditation | JKKN Pharmacy College',
   description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University, NAAC and other statutory approvals and quality certifications.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation',
+    canonical: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation/',
   },
 }
 

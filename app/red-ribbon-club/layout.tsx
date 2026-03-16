@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'Red Ribbon Club | HIV/AIDS Awareness | JKKN Pharmacy College',
   description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for students.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/red-ribbon-club',
+    canonical: 'https://pharmacy.jkkn.ac.in/red-ribbon-club/',
   },
 }
 

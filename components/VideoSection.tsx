@@ -38,7 +38,8 @@ const videos: Video[] = [
 ]
 
 export default function VideoSection() {
-  const videoSchemas = videos.map((v) => ({
+  const validVideos = videos.filter((v) => !v.youtubeId.includes('YOUR_YOUTUBE_VIDEO_ID'))
+  const videoSchemas = validVideos.map((v) => ({
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
     name: v.title,
@@ -59,11 +60,13 @@ export default function VideoSection() {
 
   return (
     <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-[#f9fafb]" aria-label="Campus Videos">
-      {/* VideoObject JSON-LD schema for each video */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchemas) }}
-      />
+      {/* VideoObject JSON-LD schema for each video — only render for real YouTube IDs */}
+      {videoSchemas.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchemas) }}
+        />
+      )}
 
       <div className="max-w-[1200px] mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
