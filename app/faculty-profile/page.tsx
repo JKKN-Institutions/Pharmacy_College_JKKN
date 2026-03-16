@@ -3,7 +3,7 @@
 import Header from '@/components/Header'
 import Image from 'next/image'
 import { PersonSchema } from '@/components/SchemaOrg'
-import { Mail, GraduationCap, BookOpen, ExternalLink, Award, Calendar } from 'lucide-react'
+import { GraduationCap, BookOpen, ExternalLink, Award, Calendar } from 'lucide-react'
 
 interface Faculty {
   id: number
@@ -25,11 +25,9 @@ const facultyData: Faculty[] = [
     name: "Dr. M. Venkatesan",
     designation: "Principal",
     qualifications: ["M.Pharm", "Ph.D"],
-    experience: "25+ years",
+    experience: "27+ years",
     researchInterests: ["Pharmaceutical Sciences", "Drug Development", "Clinical Pharmacy", "Pharmaceutical Education"],
     publications: 25,
-    googleScholar: "https://scholar.google.com",
-    email: "principal@jkkn.ac.in",
     image: "/images/Principal_message.jpeg"
   },
   {
@@ -41,8 +39,6 @@ const facultyData: Faculty[] = [
     experience: "27 years",
     researchInterests: ["Impurity Profile", "Method Development and Validation", "Benzothiazole"],
     publications: 85,
-    googleScholar: "https://scholar.google.com",
-    email: "hodpharmaceuticalanalysis@jkkn.ac.in",
     image: "/images/Dr-V-Sekar.webp"
   },
   {
@@ -54,8 +50,6 @@ const facultyData: Faculty[] = [
     experience: "26 years",
     researchInterests: ["Phytochemistry", "Molecular Modelling", "Insilico Docking Studies", "Silver Nano-particles", "Heterocyclic Molecules Research"],
     publications: 90,
-    googleScholar: "https://scholar.google.com",
-    email: "hodpharmachemistry@jkkn.ac.in",
     image: "/images/Dr-M-Vijayabaskaran.webp"
   },
   {
@@ -67,8 +61,6 @@ const facultyData: Faculty[] = [
     experience: "24 years",
     researchInterests: ["Application of AI in Patient Care", "Smart Drug Delivery Systems", "Therapeutic Drug Monitoring"],
     publications: 70,
-    googleScholar: "https://scholar.google.com",
-    email: "hodpharmacypractice@jkkn.ac.in",
     image: "/images/Dr-N-Venkateswaramurthy.webp"
   },
   {
@@ -80,8 +72,6 @@ const facultyData: Faculty[] = [
     experience: "17 years",
     researchInterests: ["Anti Diabetic Activity", "Anti Oxidant Activity", "Molecular Docking", "Phytochemistry", "Formulation and Evaluation of Herbal Drugs"],
     publications: 40,
-    googleScholar: "https://scholar.google.com",
-    email: "kishorkumar.v@jkkn.ac.in",
     image: "/images/Dr-V-Kishor-Kumar.webp"
   },
   {
@@ -93,8 +83,6 @@ const facultyData: Faculty[] = [
     experience: "16 years",
     researchInterests: ["Analytical Method Development & Validation", "Spectroscopic Analysis", "Bioanalytical Method Development", "Pharmaceutical Impurity Profiling and Green Analytical Chemistry"],
     publications: 65,
-    googleScholar: "https://scholar.google.com",
-    email: "perlikrantikumar@jkkn.ac.in",
     image: "/images/Dr-Perli-Kranti-Kumar.webp"
   }
 ]
@@ -106,7 +94,7 @@ export default function FacultyProfilePage() {
       <PersonSchema
         name="Dr. M. Venkatesan"
         jobTitle="Principal, JKKN College of Pharmacy"
-        description="Principal of JKKN College of Pharmacy with 25+ years of experience in pharmaceutical education and research. Ph.D. in Pharmaceutical Sciences with expertise in drug development and clinical pharmacy."
+        description="Principal of JKKN College of Pharmacy with 27+ years of experience in pharmaceutical education and research. Ph.D. in Pharmaceutical Sciences with expertise in drug development and clinical pharmacy."
         email="principal@jkkn.ac.in"
         telephone="+919345855001"
         image="https://pharmacy.jkkn.ac.in/images/Principal_message.jpeg"
@@ -249,29 +237,6 @@ export default function FacultyProfilePage() {
                       </div>
                     </div>
 
-                    {/* Contact Links */}
-                    <div className="flex flex-wrap gap-3 pt-4 border-t border-gray-200">
-                      {faculty.email && (
-                        <a
-                          href={`mailto:${faculty.email}`}
-                          className="flex items-center gap-1 text-xs text-[#0F6B3E] hover:text-[#7CAF5A] transition-colors"
-                        >
-                          <Mail className="w-3 h-3" />
-                          <span>Email</span>
-                        </a>
-                      )}
-                      {faculty.googleScholar && (
-                        <a
-                          href={faculty.googleScholar}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-1 text-xs text-[#0F6B3E] hover:text-[#7CAF5A] transition-colors"
-                        >
-                          <ExternalLink className="w-3 h-3" />
-                          <span>Google Scholar</span>
-                        </a>
-                      )}
-                    </div>
                   </div>
                 </div>
               ))}
