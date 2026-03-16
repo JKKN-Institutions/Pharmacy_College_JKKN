@@ -31,16 +31,20 @@ export default async function BlogPage() {
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
 
+      {/* Page H1 — always visible */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+          JKKN College of Pharmacy Blog — Pharmacy News, Research &amp; Campus Updates
+        </h1>
+      </div>
+
       {/* ── Campus News (Admin Posts) Section — shown only when posts exist ── */}
       {hasCampusPosts && (
         <section className="bg-[#FBFBEE] border-b border-gray-100 px-4 sm:px-6 lg:px-8 py-10">
           <div className="max-w-7xl mx-auto">
             <div className="mb-10">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#002309]">
-                Latest Articles
-              </h2>
               <p className="text-gray-500 text-sm mt-1.5">
-                Expert insights on teacher education and careers
+                Expert insights on pharmacy education, research, and campus life
               </p>
             </div>
 

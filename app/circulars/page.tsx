@@ -7,5 +7,12 @@ export default function CircularsPage() {
     window.location.replace('/pdf/CIRCULARS-AND-NOTICES.pdf')
   }, [])
 
-  return null
+  return (
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col items-center justify-center px-4">
+      <h1 className="text-2xl xs:text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
+        Circulars &amp; Notices — JKKN College of Pharmacy
+      </h1>
+      <p className="text-gray-600 text-sm sm:text-base">Loading circulars and notices...</p>
+    </div>
+  )
 }

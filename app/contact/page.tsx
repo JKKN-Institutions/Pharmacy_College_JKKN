@@ -9,6 +9,11 @@ export default function ContactPage() {
       {/* Main Content */}
       <div className="flex-grow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
+            {/* Page H1 */}
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+            Contact JKKN College of Pharmacy — Komarapalayam, Tamil Nadu
+          </h1>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {/* Left Side - Contact Info */}
             <div>

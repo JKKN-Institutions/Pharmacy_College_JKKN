@@ -8,6 +8,11 @@ export default function DigitalCampusPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
+        {/* Page H1 */}
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+          Digital Campus — Technology Tools at JKKN College of Pharmacy
+        </h1>
+
         {/* First Row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12 mb-8 sm:mb-12 md:mb-16">
           {/* Google Workspace */}

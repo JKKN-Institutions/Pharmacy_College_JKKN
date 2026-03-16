@@ -42,7 +42,7 @@ export default function AdmissionProcessPage() {
   const admissionFaqs = [
     {
       question: "When do admissions open for JKKN Pharmacy College?",
-      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, our official website www.jkknpharmacy.edu.in, and social media channels."
+      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, our official website pharmacy.jkkn.ac.in, and social media channels."
     },
     {
       question: "What is the application fee for pharmacy programmes?",

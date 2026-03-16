@@ -215,6 +215,7 @@ export const bottomMenuItems: NavItem[] = [
       { label: "Undertaking", href: "/undertaking" }
     ]
   },
+  { label: "BLOG", href: "/blog" },
   { label: "CONTACT", href: "/contact" }
 ];
 

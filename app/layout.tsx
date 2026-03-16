@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import dynamic from 'next/dynamic'
 
@@ -87,9 +88,26 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.google.com" />
         <link rel="preconnect" href="https://maps.google.com" />
         <link rel="preconnect" href="https://maps.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="dns-prefetch" href="https://maps.google.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </head>
+      {/* Google Analytics (GA4) */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-K89Q53LBEH"
+        strategy="afterInteractive"
+      />
+      <Script id="ga4-init" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-K89Q53LBEH', {
+            page_path: window.location.pathname,
+          });
+        `}
+      </Script>
       <body className={poppins.className} suppressHydrationWarning>
         {children}
         <Footer />

@@ -54,10 +54,17 @@ export function OrganizationSchema() {
       "latitude": "11.4387",
       "longitude": "77.7062"
     },
-    "areaServed": {
-      "@type": "State",
-      "name": "Tamil Nadu"
-    },
+    "areaServed": [
+      {"@type": "City", "name": "Erode"},
+      {"@type": "City", "name": "Salem"},
+      {"@type": "City", "name": "Namakkal"},
+      {"@type": "City", "name": "Tiruppur"},
+      {"@type": "City", "name": "Coimbatore"},
+      {"@type": "City", "name": "Karur"},
+      {"@type": "AdministrativeArea", "name": "Namakkal District"},
+      {"@type": "State", "name": "Tamil Nadu"},
+      {"@type": "Country", "name": "India"}
+    ],
     "telephone": "+919345855001",
     "email": "pharmacy@jkkn.ac.in",
     "parentOrganization": {

@@ -9,6 +9,40 @@ export const metadata: Metadata = {
   },
 }
 
+const nirfSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "@id": "https://pharmacy.jkkn.ac.in/#organization",
+  "name": "JKKN College of Pharmacy",
+  "url": "https://pharmacy.jkkn.ac.in",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "NIRF Ranking 2024",
+      "credentialCategory": "ranking",
+      "description": "National Institutional Ranking Framework (NIRF) submission and ranking for JKKN College of Pharmacy — 2024 cycle",
+      "recognizedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Ministry of Education, Government of India",
+        "url": "https://www.nirfindia.org"
+      },
+      "url": "https://pharmacy.jkkn.ac.in/nirf/nirf-2024/"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "NIRF Ranking 2025",
+      "credentialCategory": "ranking",
+      "description": "National Institutional Ranking Framework (NIRF) submission and ranking for JKKN College of Pharmacy — 2025 cycle",
+      "recognizedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Ministry of Education, Government of India",
+        "url": "https://www.nirfindia.org"
+      },
+      "url": "https://pharmacy.jkkn.ac.in/nirf/nirf-2025/"
+    }
+  ]
+}
+
 export default function NIRFLayout({
   children,
 }: {
@@ -16,6 +50,10 @@ export default function NIRFLayout({
 }) {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(nirfSchema) }}
+      />
       <BreadcrumbWrapper />
       {children}
     </>
