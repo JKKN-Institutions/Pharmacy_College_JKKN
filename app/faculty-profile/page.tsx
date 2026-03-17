@@ -3,7 +3,7 @@
 import Header from '@/components/Header'
 import Image from 'next/image'
 import { PersonSchema } from '@/components/SchemaOrg'
-import { GraduationCap, BookOpen, ExternalLink, Award, Calendar } from 'lucide-react'
+import { GraduationCap, BookOpen, Award, Calendar } from 'lucide-react'
 
 interface Faculty {
   id: number
@@ -255,18 +255,6 @@ export default function FacultyProfilePage() {
               </p>
             </div>
 
-            {/* View Full Details Button */}
-            <div className="mt-8 text-center">
-              <a
-                href="/pdf/FACULTY-PROFILE.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#0F6B3E] text-white font-semibold rounded-lg hover:bg-[#7CAF5A] transition-colors text-sm sm:text-base"
-              >
-                <ExternalLink className="w-4 h-4" />
-                View Detailed Faculty Profiles (PDF)
-              </a>
-            </div>
           </div>
         </main>
       </div>
