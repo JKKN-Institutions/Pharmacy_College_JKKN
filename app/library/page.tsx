@@ -13,25 +13,18 @@ export default function LibraryPage() {
         </h1>
 
         {/* Images Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mb-8 sm:mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-12">
           <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg">
             <img
               src="/images/lib-1.webp"
-              alt="Library 1"
+              alt="Students browsing books in the JKKN College of Pharmacy Library"
               className="w-full h-full object-cover"
             />
           </div>
           <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg">
             <img
               src="/images/lib-2.webp"
-              alt="Library 2"
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg sm:col-span-2 md:col-span-1">
-            <img
-              src="/images/lib-3.webp"
-              alt="Library 3"
+              alt="National and International pharmacy journals collection at JKKN Library"
               className="w-full h-full object-cover"
             />
           </div>
