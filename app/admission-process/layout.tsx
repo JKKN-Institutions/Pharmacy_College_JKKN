@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
-import { HowToSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
   title: 'Admission 2026 | Apply for B.Pharm M.Pharm, Pharm.D | JKKN Pharmacy',
@@ -27,6 +27,11 @@ export default function AdmissionProcessLayout({
           { name: 'Attend Counselling', text: 'Attend the counselling session as per the schedule. Selection is based on merit (10+2 marks) and TNEA/GPAT scores where applicable.' },
           { name: 'Confirm Admission', text: 'Pay the admission fee to confirm your seat. Collect your admission letter and report to campus on the designated date.' },
         ]}
+      />
+      <SpeakableWebPageSchema
+        name="Pharmacy Admission 2026 — JKKN College of Pharmacy"
+        description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee ₹1,000, forms open May-June 2026."
+        url="https://pharmacy.jkkn.ac.in/admission-process/"
       />
       <BreadcrumbWrapper />
       {children}

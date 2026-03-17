@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
+import { SpeakableWebPageSchema } from '@/components/SchemaOrg'
 
 const courseSchema = {
   "@context": "https://schema.org",
@@ -145,6 +146,11 @@ export default function MPharmacyLayout({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <SpeakableWebPageSchema
+        name="M.Pharm Course — Best M.Pharm College in Tamil Nadu"
+        description="Master of Pharmacy (M.Pharm) is a 2-year postgraduate programme at JKKN College of Pharmacy with 5 specialisations. PCI approved, NAAC A Grade."
+        url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
+      />
       <BreadcrumbWrapper />
       {children}
     </>

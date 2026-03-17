@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
+import { SpeakableWebPageSchema } from '@/components/SchemaOrg'
 
 const courseSchema = {
   "@context": "https://schema.org",
@@ -201,6 +202,11 @@ export default function BPharmacyLayout({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <SpeakableWebPageSchema
+        name="B.Pharm Course — Best B.Pharm College in Tamil Nadu"
+        description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme at JKKN College of Pharmacy. PCI approved, NAAC A Grade, 95% placements."
+        url="https://pharmacy.jkkn.ac.in/b-pharmacy/"
+      />
       <BreadcrumbWrapper />
       {children}
     </>

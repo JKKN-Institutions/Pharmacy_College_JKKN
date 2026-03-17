@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
+import { SpeakableWebPageSchema } from '@/components/SchemaOrg'
 
 const courseSchema = {
   "@context": "https://schema.org",
@@ -192,6 +193,11 @@ export default function PharmDLayout({
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <SpeakableWebPageSchema
+        name="Pharm.D Course — Best Pharm.D College in Tamil Nadu"
+        description="Doctor of Pharmacy (Pharm.D) is a 6-year professional doctorate at JKKN College of Pharmacy focusing on clinical pharmacy practice and patient care. PCI approved."
+        url="https://pharmacy.jkkn.ac.in/pharm-d/"
+      />
       <BreadcrumbWrapper />
       {children}
     </>

@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
-import { OrganizationSchema, FaqSchema } from '@/components/SchemaOrg'
+import { OrganizationSchema, FaqSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
 import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -47,6 +47,11 @@ export default function Home() {
     <main className="overflow-x-hidden w-full">
       <OrganizationSchema />
       <FaqSchema faqs={homepageFaqs} />
+      <SpeakableWebPageSchema
+        name="JKKN College of Pharmacy — Best Pharmacy College in Tamil Nadu"
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
+        url="https://pharmacy.jkkn.ac.in/"
+      />
       <Header />
 
       {/* Hero Section */}

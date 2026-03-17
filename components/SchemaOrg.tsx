@@ -281,6 +281,39 @@ export function PersonSchema({
   );
 }
 
+interface SpeakableWebPageSchemaProps {
+  name: string;
+  description: string;
+  url: string;
+  speakableCssSelectors?: string[];
+}
+
+export function SpeakableWebPageSchema({
+  name,
+  description,
+  url,
+  speakableCssSelectors = ["h1", "h2"]
+}: SpeakableWebPageSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": name,
+    "description": description,
+    "url": url,
+    "speakable": {
+      "@type": "SpeakableSpecification",
+      "cssSelector": speakableCssSelectors
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 interface HowToStep {
   name: string;
   text: string;
