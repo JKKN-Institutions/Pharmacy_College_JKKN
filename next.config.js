@@ -1,5 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  transpilePackages: [
+    '@tiptap/react',
+    '@tiptap/starter-kit',
+    '@tiptap/core',
+    '@tiptap/extension-underline',
+    '@tiptap/extension-highlight',
+    '@tiptap/extension-text-align',
+    '@tiptap/extension-link',
+    '@tiptap/extension-image',
+    '@tiptap/extension-placeholder',
+    '@tiptap/pm',
+  ],
   images: {
     unoptimized: false,
     formats: ['image/avif', 'image/webp'],
