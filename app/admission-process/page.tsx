@@ -111,10 +111,10 @@ export default function AdmissionProcessPage() {
             </h2>
             <div className="text-sm sm:text-base text-gray-700 leading-relaxed space-y-4">
               <p>
-                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. Our admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
+                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. The admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
               <p>
-                The college offers comprehensive pharmacy education with state-of-the-art infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the premier pharmacy institutions in South India.
+                The college offers comprehensive pharmacy education with modern infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the recognized pharmacy institutions in South India.
               </p>
             </div>
           </div>
@@ -744,7 +744,7 @@ export default function AdmissionProcessPage() {
                       admissions@jkkn.ac.in
                     </a>
                     <p className="text-xs sm:text-sm text-white/80 mt-1">
-                      We respond within 24 hours
+                      Response within 24 hours
                     </p>
                   </div>
                 </div>
@@ -784,7 +784,7 @@ export default function AdmissionProcessPage() {
             </h3>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                We welcome applications from international students and NRIs who aspire to pursue their higher education in India. We ensure a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
+                JKKN College of Pharmacy welcomes applications from international students and NRIs who aspire to pursue their higher education in India. The college ensures a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
               </p>
             </div>
           </div>

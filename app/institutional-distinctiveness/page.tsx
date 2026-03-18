@@ -23,7 +23,7 @@ export default function InstitutionalDistinctivenessPage() {
           {/* Content */}
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             <p className="text-justify">
-              JKKN College of Pharmacy, located in Komarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. Our institution has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
+              JKKN College of Pharmacy, located in Komarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. JKKN College of Pharmacy has established an innovation Incubation Center on campusselected to establish the Institution's Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
             </p>
 
             <p className="text-justify">
@@ -43,15 +43,15 @@ export default function InstitutionalDistinctivenessPage() {
                   Mr. M. Hariharan, a B.Pharm student, received the "Young Achievers Award" at the "BEST ACHIEVER'S AWARD – 2023."It has been recorded in the Magic Book of Record.
                 </li>
                 <li className="text-gray-700">
-                  Our students were selected for the Grand Finale of the Tamil Nadu Student Innovators (TNSI)-2018 programme.
+                  JKKN College of Pharmacy students were selected for the Grand Finale of the Tamil Nadu Student Innovators (TNSI)-2018 programme.
                   <br />
-                  In 2019 our Pharm.D students were awarded in the National Entrepreneurship Summit and Idea Challenge.
+                  In 2019 the Pharm.D students were awarded in the National Entrepreneurship Summit and Idea Challenge.
                 </li>
                 <li className="text-gray-700">
                   Two teams from JKKN College of Pharmacy participated in the Startup Tamil Nadu Residential Boot Camp-2018 .
                 </li>
                 <li className="text-gray-700">
-                  Our College students secured the 2nd place in the State Level Tamil Nadu Student Innovators (TNSI)-2018 competition.
+                  JKKN College of Pharmacy students secured the 2nd place in the State Level Tamil Nadu Student Innovators (TNSI)-2018 competition.
                 </li>
                 <li className="text-gray-700">
                   Mr. Hariharan achieved the "First Runner-Up" position in the Innovation competition at the Global Goals Hackathon-2023.
@@ -177,7 +177,7 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="mt-6">
                 <p className="text-gray-700 text-justify">
-                  One of the 350 concepts submitted throughout India, "QR CODE-AN OFFLINE PHYSICIAN," by our PhD students Merin Shaji and Naziya Navas, has been nominated among the top 29. Certificates from the Startup Entrepreneurship Summit and Idea Challenge were given to the students.
+                  One of the 350 concepts submitted throughout India, "QR CODE-AN OFFLINE PHYSICIAN," by JKKN PhD students Merin Shaji and Naziya Navas, has been nominated among the top 29. Certificates from the Startup Entrepreneurship Summit and Idea Challenge were given to the students.
                 </p>
               </div>
 
@@ -237,7 +237,7 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="mt-6">
                 <p className="text-gray-700 text-justify">
-                  September 20–22, 2019. The National Engineering College, Kovilpatti hosted a three-day national entrepreneurship summit and idea challenge on September 20, 21, and 22, 2019, under the sponsorship of the MHRD. Naziya Navas, Merin Shaji, Athira Roy, and Amitha Mary, our Pharm.D. students, attended the occasion and gave presentations of their ideas.
+                  September 20–22, 2019. The National Engineering College, Kovilpatti hosted a three-day national entrepreneurship summit and idea challenge on September 20, 21, and 22, 2019, under the sponsorship of the MHRD. Naziya Navas, Merin Shaji, Athira Roy, and Amitha Mary, Pharm.D. students of JKKN College of Pharmacy, attended the occasion and gave presentations of their ideas.
                 </p>
               </div>
 

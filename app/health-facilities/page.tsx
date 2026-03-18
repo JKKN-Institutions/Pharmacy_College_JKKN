@@ -21,7 +21,7 @@ export default function HealthFacilitiesPage() {
 
           {/* Introduction Paragraph */}
           <p className="text-justify">
-            At JKKN College of Pharmacy (JKKNCP), we prioritize the health and well-being of our students, faculty, and staff by providing comprehensive healthcare facilities within the campus. Our well-equipped medical services ensure timely medical assistance, preventive care, and emergency support.
+            At JKKN College of Pharmacy (JKKNCP), the health and well-being of students, faculty, and staff is prioritized by providing comprehensive healthcare facilities within the campus. The college's well-equipped medical services ensure timely medical assistance, preventive care, and emergency support.
           </p>
 
           {/* Section 1: On-Campus Health & Medical Services */}
@@ -190,7 +190,7 @@ export default function HealthFacilitiesPage() {
 
           {/* Final Paragraph */}
           <p className="text-justify mt-8">
-            At JKKN College of Pharmacy, we are committed to providing the best healthcare support, ensuring a safe, healthy, and conducive learning environment for all.
+            At JKKN College of Pharmacy, the institution is committed to providing comprehensive healthcare support, ensuring a safe, healthy, and conducive learning environment for all.
           </p>
         </div>
       </div>

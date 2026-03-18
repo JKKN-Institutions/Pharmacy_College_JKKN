@@ -27,7 +27,7 @@ export default function ContactPage() {
 
               {/* Welcome Message */}
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-                Welcome to our Website. We are glad to have you around.
+                Welcome to the JKKN College of Pharmacy website. Thank you for visiting.
               </p>
 
               {/* Contact Info Boxes */}

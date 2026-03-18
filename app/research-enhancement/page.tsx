@@ -52,14 +52,14 @@ export default function ResearchEnhancementPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Research Enhancement</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Research Enhancement strategic plan at JKKN College of Pharmacy is designed to strengthen our research capabilities, increase research output, and establish our institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, faculty research support, and student research engagement.
+                      The Research Enhancement strategic plan at JKKN College of Pharmacy is designed to strengthen the college's research capabilities, increase research output, and establish the institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, faculty research support, and student research engagement.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To emerge as a premier research institution recognised nationally and internationally for high-quality pharmaceutical research that addresses critical healthcare challenges and contributes to scientific knowledge and societal well-being.
+                      To emerge as an accredited research institution recognised nationally and internationally for high-quality pharmaceutical research that addresses critical healthcare challenges and contributes to scientific knowledge and societal well-being.
                     </p>
                   </div>
 
@@ -104,7 +104,7 @@ export default function ResearchEnhancementPage() {
                     <div className="space-y-3 sm:space-y-4">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Research Infrastructure Development</h4>
-                        <p className="text-gray-700 text-sm">Upgrading laboratories with state-of-the-art instruments including HPLC, GC-MS, FTIR, UV-Vis spectrophotometers, and establishing central instrumentation facilities for advanced research.</p>
+                        <p className="text-gray-700 text-sm">Upgrading laboratories with modern instruments including HPLC, GC-MS, FTIR, UV-Vis spectrophotometers, and establishing central instrumentation facilities for advanced research.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Research Grant Support Programme</h4>

@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header'
-import { CourseSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
 import Image from 'next/image'
 import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube, ChevronDown, ArrowRight } from 'lucide-react'
 
@@ -14,6 +14,48 @@ export default function PhDPage() {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
 
+  const faqs = [
+    {
+      question: "What is Ph.D in Pharmacy?",
+      answer: "Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research programme that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The programme involves original research contributing new knowledge to drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral candidates work under expert supervisors to conduct experiments, analyse data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification."
+    },
+    {
+      question: "What are the eligibility criteria for Ph.D in Pharmacy?",
+      answer: "Ph.D in Pharmacy eligibility includes: (1) M.Pharm from PCI-approved institution with minimum 55% marks (50% for reserved categories), OR (2) M.Sc in relevant subject (Pharmacology, Biochemistry, Microbiology, Biotechnology) with 55% marks, OR (3) MBBS/MD with pharmacy research interest. Additionally, candidates must qualify GPAT/CSIR-NET/UGC-NET/GATE or clear university entrance test. GPAT/NET qualified candidates receive fellowship of ₹31,000-42,000/month. Some universities accept M.Pharm graduates directly without entrance test based on interview and research proposal evaluation."
+    },
+    {
+      question: "What is the duration of Ph.D in Pharmacy?",
+      answer: "Ph.D in Pharmacy duration is minimum 3 years and maximum 6 years (extendable to 7 years in exceptional cases with approval). Most candidates complete in 3-4 years. First year involves coursework covering research methodology, advanced subjects, literature review, and proposal development. Years 2-4 focus on original research, laboratory experimentation, data collection, analysis, and thesis writing. Final phase includes thesis submission, pre-submission seminar, plagiarism verification, external evaluation, and viva-voce examination. Part-time Ph.D typically takes 4-6 years. Universities require minimum 2 research publications in peer-reviewed journals before thesis submission."
+    },
+    {
+      question: "What is the fellowship/stipend during Ph.D in Pharmacy?",
+      answer: "Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA; GPAT Qualified: ₹31,000/month (AICTE scholarship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Institutes also provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables."
+    },
+    {
+      question: "Can I do Ph.D in Pharmacy after B.Pharm directly?",
+      answer: "Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select premier institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge."
+    },
+    {
+      question: "What are the career opportunities after Ph.D in Pharmacy?",
+      answer: "Ph.D Pharmacy career opportunities include: (1) Academic: Assistant/Associate/Full Professor (₹80,000-2,00,000/month), Dean, Principal, Vice-Chancellor; (2) Industry R&D: Senior Scientist (₹1-2 lakhs/month), Principal Scientist, Research Manager, R&D Director (₹3-5 lakhs/month); (3) Government: Scientist at CSIR/ICMR/DRDO (₹70,000-1,50,000/month), Drug Controller, Policy Advisor; (4) Regulatory: Consultant, Medical Affairs Head, Regulatory Affairs Director; (5) Entrepreneurship: Biotech startup founder, Research consultancy, CRO establishment; (6) International: Postdoctoral researcher abroad ($50,000-80,000/year), Faculty at foreign universities. Ph.D opens the highest-paying and most prestigious positions in pharmacy profession."
+    },
+    {
+      question: "What are the specialisations available in Ph.D Pharmacy?",
+      answer: "Ph.D in Pharmacy offers specialisations: (1) Pharmaceutics - NDDS, nanotechnology, 3D printing, biopharmaceutics, formulation development, Quality by Design (QbD); (2) Pharmacology - drug mechanisms, toxicology, clinical pharmacology, neuropharmacology, cardiovascular pharmacology; (3) Pharmaceutical Chemistry - drug synthesis, medicinal chemistry, computational drug design, SAR studies, green chemistry; (4) Pharmacognosy - natural products, phytochemistry, herbal drug development, ethnopharmacology, marine pharmacognosy; (5) Pharmaceutical Analysis - analytical method development, bioanalysis, quality control, hyphenated techniques; (6) Pharmacy Practice - clinical pharmacy, pharmacovigilance, pharmacoeconomics, medication therapy management."
+    },
+    {
+      question: "Is GPAT mandatory for Ph.D in Pharmacy?",
+      answer: "GPAT is not universally mandatory for Ph.D admission but is highly recommended. GPAT Qualified candidates receive direct fellowship eligibility (₹31,000/month) at AICTE-approved institutions. NET/GATE Qualified candidates receive higher fellowship (₹37,000-42,000/month) and priority admission. Without GPAT/NET, candidates can apply through university entrance tests — admission is possible but government fellowship is not available. Many private and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination."
+    },
+    {
+      question: "What is the difference between full-time and part-time Ph.D?",
+      answer: "Full-time Ph.D: Minimum 3 years duration, full dedication to research, fellowship available (₹31,000-42,000/month), daily attendance at institution, faster completion, preferred by most universities. Part-time Ph.D: Minimum 4 years duration, allows concurrent employment (teaching/industry), no fellowship (self-funded), flexible attendance (weekends/evenings), longer completion time, requires NOC from employer, suitable for working professionals. Full-time preferred for freshers, those seeking fellowship, and intensive research fields. Part-time suitable for employed professionals, faculty wanting career advancement, and those with financial commitments."
+    },
+    {
+      question: "How many publications are required for Ph.D completion?",
+      answer: "Minimum publication requirements typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some premier institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity — papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements."
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
@@ -24,6 +66,7 @@ export default function PhDPage() {
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/phd"
       />
+      <FaqSchema faqs={faqs} />
       <Header />
 
       {/* Hero Section */}
@@ -942,7 +985,7 @@ export default function PhDPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">→</span>
-                <span>Cutting-edge research exposure</span>
+                <span>Advanced research exposure</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] mr-2">→</span>
@@ -1590,7 +1633,7 @@ export default function PhDPage() {
             <GraduationCap className="w-10 h-10" />
             <span>Ready to Embark on Your Doctoral Journey?</span>
           </h2>
-          <p className="text-xs sm:text-sm mb-6">Join our Ph.D programme and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, state-of-the-art facilities, and industry connections await you.</p>
+          <p className="text-xs sm:text-sm mb-6">Join the Ph.D programme at JKKN College of Pharmacy and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, advanced facilities, and industry connections await you.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#E55A25] transition-colors shadow-lg">
               Apply for Ph.D 2026

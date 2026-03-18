@@ -39,15 +39,15 @@ export default function LibraryPage() {
             </h2>
 
             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-black mb-3 sm:mb-4">
-              Welcome to our College Library
+              JKKN College of Pharmacy Library
             </h3>
 
             <p className="text-justify mb-4">
-              Our college takes pride in its fully equipped and automated library on the 3rd floor of the college building, spanning an impressive area of 193.5852 sq. mts. The library is meticulously divided into four sections, namely lending, reference, digital library, and reading sections, providing a welcoming and conducive environment for learning and research.
+              JKKN College of Pharmacy takes pride in its fully equipped and automated library on the 3rd floor of the college building, spanning an impressive area of 193.5852 sq. mts. The library is meticulously divided into four sections, namely lending, reference, digital library, and reading sections, providing a welcoming and conducive environment for learning and research.
             </p>
 
             <p className="text-justify">
-              Our library offers a cutting-edge automation system with barcoded books organized by Dewey Decimal Classification. The advanced KOHA library software ensures smooth transactions like issue, return, and renewal of books. Students can easily access our vast collection through the user-friendly Online Public Access Catalog (OPAC). Additionally, we provide circulation services for lending books, reference assistance, current awareness displays, PWD-friendly systems, reprographic services, open access to bookshelves, and electronic resources for in-house and remote access. Users also benefit from interlibrary loan services and informative orientation programmes.
+              The library offers an advanced automation system with barcoded books organized by Dewey Decimal Classification. The advanced KOHA library software ensures smooth transactions like issue, return, and renewal of books. Students can easily access the vast collection through the user-friendly Online Public Access Catalog (OPAC). Additionally, the library provides circulation services for lending books, reference assistance, current awareness displays, PWD-friendly systems, reprographic services, open access to bookshelves, and electronic resources for in-house and remote access. Users also benefit from interlibrary loan services and informative orientation programmes.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function LibraryPage() {
             </h2>
 
             <p className="text-justify">
-              Our library houses an impressive assortment of approximately 11,938 volumes of books, encompassing various fields, including pharmaceutical sciences and allied sciences. In addition to the academic books, we also maintain a modest collection of books catering to competitive exam aspirants, as well as a general collection of biographies, fiction, and philosophy, providing students with the opportunity to unwind and explore beyond their academic pursuits.
+              The library houses an impressive assortment of approximately 11,938 volumes of books, encompassing various fields, including pharmaceutical sciences and allied sciences. In addition to the academic books, the library also maintains a modest collection of books catering to competitive exam aspirants, as well as a general collection of biographies, fiction, and philosophy, providing students with the opportunity to unwind and explore beyond their academic pursuits.
             </p>
           </div>
 
@@ -69,7 +69,7 @@ export default function LibraryPage() {
             </h2>
 
             <p className="text-justify">
-              Recognizing the significance of technology in education, we offer a dedicated internet facility with a LAN supporting up to 10 users, allowing students to access online resources and conduct research from within the library premises. Additionally, our library area is under 24×7 CCTV surveillance, ensuring a secure and comfortable environment for our library users.
+              Recognizing the significance of technology in education, the library offers a dedicated internet facility with a LAN supporting up to 10 users, allowing students to access online resources and conduct research from within the library premises. Additionally, the library area is under 24×7 CCTV surveillance, ensuring a secure and comfortable environment for all library users.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function LibraryPage() {
             </h2>
 
             <p className="text-justify">
-              For those delving into research, our library offers various research support services, including access to back volumes of journals and interlibrary loan facilities. The availability of national and international journals, totaling 35 in number, further enriches our repository of knowledge.
+              For those delving into research, the library offers various research support services, including access to back volumes of journals and interlibrary loan facilities. The availability of national and international journals, totaling 35 in number, further enriches the institution's repository of knowledge.
             </p>
           </div>
 

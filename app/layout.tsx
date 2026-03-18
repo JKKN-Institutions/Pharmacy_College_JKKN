@@ -78,7 +78,7 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1920,
         height: 1080,
-        alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamilnadu',
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
       }
     ],
   },

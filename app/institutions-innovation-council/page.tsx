@@ -176,7 +176,7 @@ export default function InstitutionsInnovationCouncilPage() {
         {/* Achievements Paragraphs */}
         <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
           <p className="text-justify">
-            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu, along with the ED cell of Anna University, conducted the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition to develop an entrepreneurial ecosystem in the state of Tamil Nadu. We are very much pleased and privileged to apprise that our masterminded students, Ms. Naziya Navas, Ms. Merin Shaji and Ms. Denila Tintu Alex have won the "Tamil Nadu Student Innovator award-2018" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of our students and their dedication, enthusiasm, and insights toward an innovative idea.
+            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu, along with the ED cell of Anna University, conducted the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the students, Ms. Naziya Navas, Ms. Merin Shaji and Ms. Denila Tintu Alex have won the "Tamil Nadu Student Innovator award-2018" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of the students and their dedication, enthusiasm, and insights toward an innovative idea.
           </p>
 
           <p className="text-justify">
@@ -188,7 +188,7 @@ export default function InstitutionsInnovationCouncilPage() {
           </p>
 
           <p className="text-justify">
-            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu along with the ED cell of Anna University conducted the state-level Tamil Nadu Student Innovators (TNSI)-2019 competition in order to develop an entrepreneurial ecosystem in the state of Tamil Nadu. We are very much pleased and privileged to apprise that our masterminded students, Ms. Jeevika. S.V., Mr. Hariharan.S has won the "Tamil Nadu Student Innovator award-2019" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of our students and their dedication, enthusiasm, and insights toward an innovative idea.
+            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu along with the ED cell of Anna University conducted the state-level Tamil Nadu Student Innovators (TNSI)-2019 competition in order to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the students, Ms. Jeevika. S.V., Mr. Hariharan.S has won the "Tamil Nadu Student Innovator award-2019" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of the students and their dedication, enthusiasm, and insights toward an innovative idea.
           </p>
 
           <p className="text-justify">

@@ -4,9 +4,53 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
+import { FaqSchema, CourseSchema } from '@/components/SchemaOrg'
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      question: "What is Pharm.D course?",
+      answer: "Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice and patient care. Two pathways exist: (1) Pharm.D - 6 years after 12th standard (5 years academic + 1 year clinical clerkship), and (2) Pharm.D (PB) - 3 years after B.Pharm (2 years academic + 1 year clerkship). Unlike research-focused PhD, Pharm.D emphasizes direct patient care, medication therapy management, clinical decision-making, and hospital pharmacy practice. Graduates work as clinical pharmacists in hospitals with career options including hospital clinical pharmacist (₹25,000-60,000/month), critical care pharmacist, oncology pharmacist, clinical research, drug information services, and medication safety roles."
+    },
+    {
+      question: "What is the salary after Pharm.D?",
+      answer: "Pharm.D graduate salaries in India vary by hospital type and location. Government hospitals: ₹25,000-40,000/month. Corporate hospitals (Apollo, Fortis, Max, Manipal): ₹30,000-60,000/month. Specialty hospitals: ₹35,000-70,000/month. After residency: ₹45,000-80,000/month. Experience progression: 0-2 years ₹25-40K, 3-5 years ₹40-60K, 5-10 years ₹60-90K, 10+ years ₹80K-1.5L/month. International opportunities: USA clinical pharmacist $80,000-120,000/year, Middle East ₹80K-1.5L/month tax-free."
+    },
+    {
+      question: "What is the difference between Pharm.D and Pharm.D (PB)?",
+      answer: "Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard, requires NEET qualification. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory. Both programmes lead to the same clinical pharmacist designation with equivalent career opportunities, similar salary ranges, and eligibility for residency programmes. Choose Pharm.D if you want a clinical career from start after 12th. Choose Pharm.D (PB) if you already have B.Pharm and want a clinical shift."
+    },
+    {
+      question: "Is Pharm.D better than B.Pharm or M.Pharm?",
+      answer: "Choose Pharm.D if you want a clinical pharmacy career working directly with patients in hospitals and enjoy patient interaction, medication therapy management, and pharmaceutical care. Choose B.Pharm for broader career options in QC, production, marketing, regulatory affairs, or hospital pharmacy. Choose M.Pharm for research and development careers in drug discovery, formulation, analysis, or academic positions with higher growth in pharmaceutical industry."
+    },
+    {
+      question: "What is the scope of Pharm.D in India?",
+      answer: "Pharm.D scope in India is developing with major corporate hospitals (Apollo, Fortis, Max, Manipal) establishing clinical pharmacy departments. Estimated 5,000-8,000 clinical pharmacist positions nationally growing 15-20% annually. Pharm.D graduates can use the 'Dr.' prefix (professional doctorate) and are eligible for teaching positions. Best prospects are in corporate hospital chains in metros, specialty hospitals (cancer/cardiac), medical college hospitals, and clinical research organisations."
+    },
+    {
+      question: "Can Pharm.D graduates practice in USA?",
+      answer: "Indian Pharm.D graduates face significant challenges practicing in the USA as Indian programmes are not ACPE-accredited. The pathway requires FPGEC certification, NAPLEX exam, MPJE state law exam, supervised internship hours, and state licensure. Total investment: $10,000-20,000 with a 2-4 year timeline and less than 20% success rate. Better alternatives include Middle East (UAE/Saudi), clinical research roles, or pursuing a Master's in Clinical Pharmacy in the target country."
+    },
+    {
+      question: "What is clinical clerkship in Pharm.D?",
+      answer: "Clinical clerkship is intensive 1-year hospital-based practical training in the final year of Pharm.D. Students rotate through departments including General Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry, Critical Care/ICU, Oncology/Cardiology, and Community Pharmacy. Daily activities include attending morning rounds, reviewing patient charts and medication orders, conducting medication reviews, counselling patients, responding to drug information queries, and monitoring adverse drug reactions."
+    },
+    {
+      question: "Should I do Pharm.D (PB) after B.Pharm or M.Pharm?",
+      answer: "Choose Pharm.D (PB) if you want a patient-facing clinical career in hospitals, are interested in direct patient care and medication counselling, prefer hospital settings over pharmaceutical company R&D, or want clinical specialisation through residency programmes. Choose M.Pharm if you are interested in pharmaceutical R&D, want pharmaceutical industry technical roles, have academic aspirations, or are planning a PhD afterward. Both are 7-year total investments after B.Pharm."
+    },
+    {
+      question: "Can Pharm.D graduates become teachers/professors?",
+      answer: "Yes, Pharm.D graduates are eligible for faculty positions in pharmacy colleges. They can start as Assistant Professor in Pharmacy Practice, Clinical Pharmacy, Pharmacology, or Pharmacotherapeutics departments. Starting salary: ₹50,000-70,000/month in private colleges, ₹60,000-80,000/month in government colleges. Promotion pathway: Assistant Professor → Associate Professor (₹70K-1L/month) → Professor (₹1-1.5L/month)."
+    },
+    {
+      question: "What are residency programmes after Pharm.D?",
+      answer: "Pharmacy residency is a specialised 1-2 year postgraduate clinical training programme after Pharm.D. Types include General Pharmacy Practice Residency (PGY1) and Specialised Residency in Critical Care, Oncology, Infectious Diseases, Cardiology, or Pediatrics. Available at institutions like JSS College of Pharmacy, Manipal College, Apollo Hospitals, and Tata Memorial Hospital. Stipend: ₹15,000-30,000/month. Residency provides ₹10-20K/month higher starting salary after completion and is essential for senior clinical roles and teaching positions in Pharm.D programmes."
+    }
+  ];
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
@@ -57,6 +101,17 @@ export default function PharmDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <FaqSchema faqs={faqs} />
+      <CourseSchema
+        name="Doctor of Pharmacy (Pharm.D)"
+        description="Pharm.D is a 6-year professional doctorate programme (5 years academic + 1 year clinical clerkship) approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 30 seats. NAAC A Grade accredited."
+        duration="P6Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/pharm-d"
+        educationalLevel="Professional Doctorate"
+        teaches={["Clinical Pharmacy", "Pharmacotherapeutics", "Clinical Research", "Hospital Pharmacy Practice", "Drug Information Services", "Medication Therapy Management"]}
+        offersUrl="https://admission.jkkn.ac.in/"
+      />
       <Header />
 
       {/* Hero Section */}
@@ -3003,7 +3058,7 @@ export default function PharmDPage() {
       <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4">Ready to Pursue Clinical Pharmacy Excellence?</h2>
-          <p className="text-lg text-white mb-4">Join our Pharm.D programme and become a clinical pharmacy professional!</p>
+          <p className="text-lg text-white mb-4">Join the Pharm.D programme at JKKN College of Pharmacy and become a clinical pharmacy professional.</p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-base px-12 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>

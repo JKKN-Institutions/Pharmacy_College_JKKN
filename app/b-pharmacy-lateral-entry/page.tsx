@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
-import { CourseSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ChevronDown, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Store, Target, TestTube, TrendingUp, ArrowRight } from 'lucide-react'
 
 export default function BPharmLateralEntryPage() {
@@ -12,6 +12,50 @@ export default function BPharmLateralEntryPage() {
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
+
+  const faqs = [
+    {
+      question: "Is NEET required for B.Pharm admission?",
+      answer: "NEET requirement varies by state. Some states like Tamil Nadu, Karnataka accept NEET scores. Other states conduct their own pharmacy entrance exams (State CET). Many private colleges also conduct direct admission based on 12th marks. For lateral entry, NEET is not required - admission based on D.Pharm marks or state lateral entry CET."
+    },
+    {
+      question: "What is the difference between B.Pharm and Pharm.D?",
+      answer: "B.Pharm is 4-year undergraduate degree focusing on pharmaceutical sciences and industry applications. Pharm.D is 6-year professional doctorate focusing on clinical pharmacy and patient care. Career focus: B.Pharm = Industry-oriented, Pharm.D = Patient-care oriented. Choose B.Pharm for industry career flexibility; Pharm.D if committed to clinical patient care in hospitals."
+    },
+    {
+      question: "Can I open a medical store after B.Pharm?",
+      answer: "Yes, B.Pharm graduates can open and manage retail pharmacy (medical store). Process: Complete B.Pharm, Register with State Pharmacy Council, Gain experience if required, Apply for Drug License from State Drug Controller, Obtain premises license and GST registration. Investment: ₹5-15 lakhs for setup. Profit potential: ₹30,000-2,00,000/month depending on location."
+    },
+    {
+      question: "What is GPAT and why is it important?",
+      answer: "GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for AICTE scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions."
+    },
+    {
+      question: "Is B.Pharm a good career choice in India?",
+      answer: "Yes, B.Pharm offers excellent career prospects. India is world's 3rd largest pharmaceutical market, largest generic medicine supplier globally. 3,000+ pharmaceutical companies actively hiring. Growing hospital sector creating pharmacy positions. Clinical research industry expanding rapidly. Job security generally good due to essential nature of pharmaceutical industry."
+    },
+    {
+      question: "Can B.Pharm work abroad?",
+      answer: "Yes, B.Pharm graduates can work internationally. Gulf Countries (UAE, Saudi Arabia): Easiest pathway - degree directly recognised, tax-free salary ₹60K-1.5L/month. USA: Requires FPGEC + NAPLEX exam ($70,000-120,000/year). UK: OSPAP + GPhC exam. Australia: KAPS exam. Pharmaceutical industry jobs abroad may not require pharmacist license."
+    },
+    {
+      question: "What is the scope of B.Pharm Lateral Entry?",
+      answer: "B.Pharm Lateral Entry offers identical scope as regular B.Pharm. Same degree certificate with same career opportunities. Advantages: Completes in 3 years, already has D.Pharm experience, unlocks M.Pharm and higher studies. Employers do not differentiate between regular and lateral entry graduates. Highly recommended for D.Pharm holders wanting career advancement."
+    },
+    {
+      question: "How to become a Drug Inspector?",
+      answer: "Drug Inspector is prestigious government position. Eligibility: B.Pharm degree + pharmacy council registration. Recruitment through State PSC (State DI) or UPSC (Central DI). Exam: Preliminary, Mains, Interview. Syllabus includes pharmacy subjects plus Drug and Cosmetics Act. Salary (7th Pay): ₹45,000-60,000/month starting, grows to ₹1,50,000/month at senior levels."
+    },
+    {
+      question: "Which M.Pharm specialisation is best?",
+      answer: "Best specialisation depends on career goals. For jobs: Pharmaceutics (formulation, most versatile), Pharmaceutical Analysis (QC/QA roles). For research: Pharmacology (drug discovery), Pharmaceutical Chemistry. For patient care: Pharmacy Practice (clinical pharmacy). Job availability: Pharmaceutics > Pharmaceutical Analysis > Pharmacology. Choose Pharmaceutics for maximum job flexibility."
+    },
+    {
+      question: "Is B.Pharm difficult to pass?",
+      answer: "B.Pharm difficulty is moderate - challenging but achievable with consistent effort. Chemistry subjects considered most challenging. Pharmacology requires extensive memorization. Passing tips: Attend classes regularly, complete lab records on time, use previous year question papers. Pass percentage: Typically 70-85% in most colleges. Easier than MBBS/BDS, similar to B.Tech in difficulty level."
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
       <CourseSchema
@@ -21,6 +65,7 @@ export default function BPharmLateralEntryPage() {
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry"
       />
+      <FaqSchema faqs={faqs} />
       <Header />
 
       {/* Hero Section */}
@@ -183,7 +228,7 @@ export default function BPharmLateralEntryPage() {
           {/* Modern Pharmacy Laboratory */}
           <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Modern Pharmacy Laboratory</h3>
-            <p className="text-xs sm:text-sm font-semibold">State-of-the-Art Laboratories</p>
+            <p className="text-xs sm:text-sm font-semibold">Advanced Laboratories</p>
           </div>
 
           {/* Industrial Training */}
@@ -1465,7 +1510,7 @@ export default function BPharmLateralEntryPage() {
         {/* World-Class Placement Banner */}
         <div className="bg-[#7cb983] text-white py-16 px-8 rounded-lg mb-16">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-center">
-            World-Class Placement Support & Industry Connections
+            Comprehensive Placement Support & Industry Connections
           </h2>
         </div>
 
@@ -2061,7 +2106,7 @@ export default function BPharmLateralEntryPage() {
               {expandedFAQ === 3 && (
                 <div className="p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for AICTE scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and premier institution admission. Many companies prefer GPAT qualified candidates for R&D positions.
+                    GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for AICTE scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions.
                   </p>
                 </div>
               )}

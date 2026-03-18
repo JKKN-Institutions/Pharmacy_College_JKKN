@@ -16,7 +16,7 @@ export default function InternshipOpportunitiesPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* First Paragraph */}
           <p className="text-justify">
-            We offer exciting internship opportunities for students to gain practical training in the pharmaceutical industry and hospitals. This experience enhances their knowledge and provides valuable insights into the current trends shaping the pharmaceutical sector. Interested students can apply by filling out the summer training programme application form, expressing their specific area of interest.
+            JKKN College of Pharmacy offers internship opportunities for students to gain practical training in the pharmaceutical industry and hospitals. This experience enhances their knowledge and provides valuable insights into the current trends shaping the pharmaceutical sector. Interested students can apply by filling out the summer training programme application form, expressing their specific area of interest.
           </p>
 
           {/* Second Paragraph */}

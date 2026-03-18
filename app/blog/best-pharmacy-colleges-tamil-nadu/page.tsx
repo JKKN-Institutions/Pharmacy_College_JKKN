@@ -10,7 +10,6 @@ import {
   SpeakableWebPageSchema,
   ArticleSchema,
   BreadcrumbListSchema,
-  OrganizationSchema,
 } from '@/components/SchemaOrg';
 import {
   ChevronDown,
@@ -152,8 +151,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Schema Markup — All 5 JSON-LD Schemas */}
-      <OrganizationSchema />
+      {/* Schema Markup */}
       <ArticleSchema
         headline="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements, Admission"
         description="Comprehensive comparison of top pharmacy colleges in Tamil Nadu based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."

@@ -56,7 +56,7 @@ export default function VisionMissionPage() {
                   Mission
                 </h2>
                 <p className="text-gray-700 text-lg md:text-xl lg:text-2xl leading-relaxed">
-                  Create an innovative learning environment in pharmaceutical sciences that promotes bio convergence and cutting-edge research, Empower learners to become leaders in developing and applying novel drugs and healthcare solutions
+                  Create an innovative learning environment in pharmaceutical sciences that promotes bio convergence and advanced research, Empower learners to become leaders in developing and applying novel drugs and healthcare solutions
                 </p>
               </div>
 
