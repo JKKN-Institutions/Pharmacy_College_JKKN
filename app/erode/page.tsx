@@ -368,7 +368,7 @@ export default function ErodePage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Our placement cell connects you with India&apos;s top employers
+            The placement cell connects students with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -394,7 +394,7 @@ export default function ErodePage() {
           </div>
 
           <p className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-widest mb-3">
-            COMPANIES THAT HIRE FROM US
+            COMPANIES THAT HIRE JKKN GRADUATES
           </p>
           <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
             {[
@@ -492,7 +492,7 @@ export default function ErodePage() {
             Campus &amp; Facilities
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Everything you need for a world-class education experience
+            Everything you need for a comprehensive education experience
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -501,7 +501,7 @@ export default function ErodePage() {
               {
                 emoji: '🔬',
                 title: 'Modern Labs',
-                desc: 'State-of-the-art laboratories and smart classrooms',
+                desc: 'Advanced laboratories and smart classrooms',
               },
               {
                 emoji: '📚',
@@ -647,7 +647,7 @@ export default function ErodePage() {
             Interested? Let&apos;s Talk!
           </h2>
           <p className="text-xs sm:text-sm text-green-100 mb-2">
-            Fill in your details and our admission team will contact you within 24 hours
+            Fill in your details and the admission team will contact you within 24 hours
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-6 sm:mb-8" />
 
