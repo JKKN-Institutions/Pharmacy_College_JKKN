@@ -1718,7 +1718,7 @@ export default function PharmaceuticalAnalysisPage() {
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
           <p className="text-sm mt-6 text-gray-100">
-            GPAT Qualified? | PCI Approved | State-of-the-art Analytical Lab | Industry Collaborations
+            GPAT Qualified? | PCI Approved | Modern Analytical Lab | Industry Collaborations
           </p>
         </div>
 

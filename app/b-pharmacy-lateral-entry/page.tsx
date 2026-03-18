@@ -1507,7 +1507,7 @@ export default function BPharmLateralEntryPage() {
           </div>
         </div>
 
-        {/* World-Class Placement Banner */}
+        {/* Placement Banner */}
         <div className="bg-[#7cb983] text-white py-16 px-8 rounded-lg mb-16">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-center">
             Comprehensive Placement Support & Industry Connections

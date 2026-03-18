@@ -28,7 +28,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View JKKN Entrepreneurship Policy
             </a>
           </div>
 
@@ -41,7 +41,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View TN Startup Policy
             </a>
           </div>
 
@@ -54,7 +54,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View National Startup Policy
             </a>
           </div>
 
@@ -67,7 +67,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View JKKN Innovation Policy
             </a>
           </div>
         </div>

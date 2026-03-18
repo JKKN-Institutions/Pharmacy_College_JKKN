@@ -1,10 +1,12 @@
 import Header from '@/components/Header'
 import Link from 'next/link'
+import { OrganizationSchema } from '@/components/SchemaOrg'
 
 export default function PlacementCellPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
+      <OrganizationSchema />
 
       {/* Hero Section */}
       <section className="bg-[#006837] text-white py-10 sm:py-16 px-4 sm:px-6">
