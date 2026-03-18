@@ -69,7 +69,7 @@ export default function AffiliationDetailsPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Our Regulatory Approvals</h2>
+                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Regulatory Approvals</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       JKKN College of Pharmacy maintains all necessary approvals and affiliations to provide students with recognised and quality pharmaceutical education. These include:
                     </p>
