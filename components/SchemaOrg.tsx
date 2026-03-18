@@ -346,3 +346,91 @@ export function HowToSchema({ name, description, steps }: HowToSchemaProps) {
     />
   );
 }
+
+interface ArticleSchemaProps {
+  headline: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified?: string;
+  image?: string;
+  wordCount?: number;
+  author?: {
+    name: string;
+    url?: string;
+  };
+}
+
+export function ArticleSchema({
+  headline,
+  description,
+  url,
+  datePublished,
+  dateModified,
+  image,
+  wordCount,
+  author = { name: "JKKN College of Pharmacy", url: "https://pharmacy.jkkn.ac.in/" }
+}: ArticleSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": headline,
+    "description": description,
+    "url": url,
+    "mainEntityOfPage": url,
+    "datePublished": datePublished,
+    "dateModified": dateModified || datePublished,
+    ...(image && { "image": image }),
+    ...(wordCount && { "wordCount": wordCount }),
+    "author": {
+      "@type": "Organization",
+      "name": author.name,
+      ...(author.url && { "url": author.url })
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://pharmacy.jkkn.ac.in/images/logo.png"
+      }
+    }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface BreadcrumbItem {
+  name: string;
+  url: string;
+}
+
+interface BreadcrumbListSchemaProps {
+  items: BreadcrumbItem[];
+}
+
+export function BreadcrumbListSchema({ items }: BreadcrumbListSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "item": item.url
+    }))
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
