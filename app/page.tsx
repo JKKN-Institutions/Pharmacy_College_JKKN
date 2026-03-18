@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
-import { OrganizationSchema, FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -45,7 +45,6 @@ export default function Home() {
 
   return (
     <main className="overflow-x-hidden w-full">
-      <OrganizationSchema />
       <FaqSchema faqs={homepageFaqs} />
       <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
