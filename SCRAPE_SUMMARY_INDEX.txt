@@ -1,0 +1,371 @@
+================================================================================
+PHARMACY COLLEGE WEBSITE SCRAPE — COMPLETE DATA PACKAGE
+Date: 2026-03-18
+Domain: https://pharmacy.jkkn.ac.in
+================================================================================
+
+DELIVERABLE FILES CREATED
+================================================================================
+
+1. SCRAPE_RESULTS_2026-03-18.md
+   - Comprehensive structured analysis of all scraped data
+   - Contains: Meta tags, schema markup, H-tag hierarchy, word count,
+     images, all links, contact info, social media, technical details
+   - 15 detailed sections with raw + organized data
+   - Size: ~80 KB (markdown format)
+
+2. SCRAPE_DATA_LINKS_REFERENCE.txt
+   - Quick-reference guide for all URLs found
+   - Contains: All 19 internal pages, external links, social media,
+     contact info, programme links, recruiter info, images, schema types
+   - 15 organized sections for easy lookup
+   - Size: ~30 KB (plain text)
+
+3. SCRAPE_DATA_STRUCTURED.csv
+   - Structured CSV export of page inventory
+   - Contains: URL, page type, HTTP status, H-tag counts, schema types,
+     meta title/description
+   - Suitable for data import/analysis tools
+   - 19 rows (one per page)
+
+4. SCRAPE_SUMMARY_INDEX.txt (THIS FILE)
+   - Overview of all deliverables
+   - Quick reference guide
+
+================================================================================
+WHAT WAS EXTRACTED
+================================================================================
+
+✓ FULL PAGE CONTENT
+  - Headings (H1-H6): 1 H1, ~15 H2, ~25 H3+
+  - Text: ~6,994 words extracted
+  - Structure: 12+ major sections identified
+  - Word count: 120,637 HTML bytes
+
+✓ META TAGS
+  - Title tag: "Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College"
+  - Meta description: Full 156-char description (optimized)
+  - Meta keywords: 6 keyword phrases
+  - Canonical URL: https://pharmacy.jkkn.ac.in
+  - [UNVERIFIED] Open Graph tags
+  - [UNVERIFIED] Twitter Card tags
+
+✓ SCHEMA MARKUP (JSON-LD)
+  - Primary: EducationalOrganization
+  - Secondary: LocalBusiness
+  - Supporting: FAQPage, Question, Answer, PostalAddress, GeoCoordinates
+  - All structured data extracted and organized
+
+✓ H-TAG HIERARCHY
+  - Complete H1-H6 structure documented
+  - All heading text extracted
+  - 40+ headings catalogued
+
+✓ WORD COUNT
+  - Page word estimate: ~6,994 words
+  - Character count: 120,637 bytes
+  - Page classification: Medium-weight (content-rich)
+  - Estimated reading time: 28-35 minutes
+
+✓ IMAGES & ALT TEXT
+  - Total images found: 3 primary sources
+  - Image URLs: All extracted
+  - Paths: /images/logo.png, Hero-Banner, About-Image
+  - Next.js responsive srcsets: Complete (10 breakpoints)
+  - [UNVERIFIED] Alt text (requires DOM parsing)
+
+✓ INTERNAL LINKS
+  - Total unique pages: 19
+  - All homepage navigation: Extracted
+  - All subpage URLs: Verified (all 200 OK)
+  - Programme pages: 6 main + 5 specializations
+  - Institutional pages: 8
+
+✓ EXTERNAL LINKS
+  - JKKN family institutions: 8 colleges/schools
+  - Admissions portal: 1 link
+  - Social media: 4 channels
+  - Directory sites: 2
+  - External services: Google Maps, Google
+  - Total external: 15+ links
+
+✓ CONTACT INFORMATION
+  - Phone: +91-9345-855-001 (verified)
+  - Email: pharmacy@jkkn.ac.in (verified)
+  - Campus address: Complete with postal code
+  - Google Maps coordinates: 11.4387° N, 77.7062° E
+  - Admissions form URL: Extracted
+
+================================================================================
+PAGE INVENTORY (19 PAGES, ALL LIVE)
+================================================================================
+
+HOMEPAGE
+  https://pharmacy.jkkn.ac.in/                           [200 OK]
+
+MAIN PROGRAMMES (5)
+  https://pharmacy.jkkn.ac.in/b-pharmacy                 [200 OK]
+  https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry   [200 OK]
+  https://pharmacy.jkkn.ac.in/pharm-d                    [200 OK]
+  https://pharmacy.jkkn.ac.in/m-pharmacy                 [200 OK]
+  https://pharmacy.jkkn.ac.in/phd                        [200 OK]
+
+M.PHARM SPECIALIZATIONS (5)
+  https://pharmacy.jkkn.ac.in/pharmaceutics              [200 OK]
+  https://pharmacy.jkkn.ac.in/pharmacology               [200 OK]
+  https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry   [200 OK]
+  https://pharmacy.jkkn.ac.in/pharmacy-practice          [200 OK]
+  https://pharmacy.jkkn.ac.in/pharmaceutical-analysis    [200 OK]
+
+INSTITUTIONAL PAGES (8)
+  https://pharmacy.jkkn.ac.in/naac                       [200 OK]
+  https://pharmacy.jkkn.ac.in/iqac                       [200 OK]
+  https://pharmacy.jkkn.ac.in/alumni                     [200 OK]
+  https://pharmacy.jkkn.ac.in/nirf                       [200 OK]
+  https://pharmacy.jkkn.ac.in/research                   [200 OK]
+  https://pharmacy.jkkn.ac.in/gallery                    [200 OK]
+  https://pharmacy.jkkn.ac.in/circulars                  [200 OK]
+  https://pharmacy.jkkn.ac.in/contact                    [200 OK]
+
+RESULT: 19/19 pages returning HTTP 200 OK
+
+================================================================================
+SCHEMA TYPES & STRUCTURED DATA
+================================================================================
+
+SCHEMA TYPES PRESENT:
+  - EducationalOrganization (main)
+  - LocalBusiness (secondary)
+  - FAQPage
+  - Question & Answer
+  - PostalAddress
+  - GeoCoordinates
+  - PropertyValue
+  - State
+
+KEY STRUCTURED DATA FIELDS:
+  - Name: JKKN College of Pharmacy
+  - Founded: 1987
+  - PCI Approval: PCI-JKKN-TN-1987
+  - NAAC Grade: A
+  - University: Tamil Nadu Dr. M.G.R. Medical University
+  - Phone: +919345855001
+  - Email: pharmacy@jkkn.ac.in
+  - Address: Komarapalayam, Tamil Nadu 638183
+  - Geo: 11.4387° N, 77.7062° E
+  - Parent: JKKN Institutions
+
+================================================================================
+PROGRAMME INFORMATION EXTRACTED
+================================================================================
+
+B.PHARM (Undergraduate)
+  Duration: 4 years | Seats: 100
+  URL: https://pharmacy.jkkn.ac.in/b-pharmacy
+
+B.PHARM LATERAL ENTRY
+  Duration: 3 years | Seats: 12
+  URL: https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry
+
+PHARM.D (Doctoral)
+  Duration: 6 years | Seats: 30
+  URL: https://pharmacy.jkkn.ac.in/pharm-d
+
+PHARM.D POST BACCALAUREATE
+  Duration: 3 years | Seats: 10
+  URL: https://pharmacy.jkkn.ac.in/pharm-d
+
+M.PHARM (Postgraduate)
+  Duration: 2 years | Seats: 60
+  Specializations: 5 options
+  URL: https://pharmacy.jkkn.ac.in/m-pharmacy
+
+M.PHARM SPECIALIZATIONS:
+  1. Pharmaceutics
+  2. Pharmacology
+  3. Pharmaceutical Chemistry
+  4. Pharmaceutical Practice
+  5. Pharmaceutical Analysis
+
+PhD (Doctoral Research)
+  Duration: 3 years
+  URL: https://pharmacy.jkkn.ac.in/phd
+
+TOTAL SEATS (All Programmes): ~212
+TOTAL PROGRAMMES: 6 main + 5 specializations = 11 offerings
+
+================================================================================
+PLACEMENT & RECRUITER DATA
+================================================================================
+
+STATISTICS (2024-25 Batch)
+  - Placement Rate: 95%
+  - Highest Package: 8 LPA
+  - Average Package: 3.5 LPA
+  - Total Recruiters: 30+
+  - Students Enrolled: 700+
+  - Years Operating: 39 (since 1987)
+
+TOP RECRUITERS:
+  Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Hetero, Apollo,
+  MedPlus, Biocon, Torrent, Alkem, Glenmark, + 18 more
+
+================================================================================
+INFRASTRUCTURE FACILITIES MENTIONED
+================================================================================
+
+LABORATORIES:
+  - Pharmaceutics Lab (tablet press, coating machines)
+  - Chemistry Lab (HPLC, UV-Vis spectrophotometer)
+  - Pharmacology Lab (animal house, organ bath)
+  - Computer Lab (molecular modeling)
+
+RESOURCES:
+  - Medicinal Garden (300+ plants)
+  - Drug Museum (500+ specimens)
+  - Digital Library
+  - Hospital Pharmacy training facility
+
+================================================================================
+SOCIAL MEDIA & DIRECTORY PRESENCE
+================================================================================
+
+OFFICIAL CHANNELS:
+  Facebook:   https://www.facebook.com/jkknpharmacy
+  Instagram:  https://www.instagram.com/jkknpharmacy
+  LinkedIn:   https://www.linkedin.com/school/jkkn-college-of-pharmacy
+  YouTube:    Playlist: PL6QsTq-__Hhs0tz4hErvZYmnD9uZ4A4Gm
+
+DIRECTORY LISTINGS:
+  Shiksha.com: https://www.shiksha.com/college/jkkn-college-of-pharmacy
+  JustDial: https://www.justdial.com/jkkn-college-of-pharmacy
+
+================================================================================
+SISTER INSTITUTIONS (JKKN FAMILY)
+================================================================================
+
+MAIN PARENT
+  https://jkkn.ac.in (JKKN Institutions)
+
+COLLEGES & SCHOOLS
+  https://dental.jkkn.ac.in/ (Dental College & Hospital)
+  https://ahs.jkkn.ac.in/ (Allied Health Sciences)
+  https://engg.jkkn.ac.in/ (Engineering & Technology)
+  https://nursing.sresakthimayeil.jkkn.ac.in/ (Nursing Institute)
+  https://cas.jkkn.ac.in/ (Arts & Science)
+  https://edu.jkkn.ac.in/ (Education)
+  https://school.jkkn.ac.in/ (Matriculation School)
+  https://nv.jkkn.ac.in/ (Nattraja Vidhyalya CBSE)
+
+UNIFIED ADMISSIONS
+  https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8
+
+================================================================================
+TECHNICAL INFORMATION
+================================================================================
+
+FRAMEWORK:        Next.js (React-based)
+CSS FRAMEWORK:    Tailwind CSS (inferred)
+IMAGE OPTIMIZATION: Next.js Image component
+HOSTING:          DigitalOcean (likely)
+BROWSER SUPPORT:  Modern browsers (responsive, mobile-first)
+
+MAIN FILES:
+  CSS:    /_next/static/css/548429752418d2d2.css
+  JS:     /_next/static/chunks/webpack-0352408906092de3.js
+  Fonts:  9 WOFF2 files (preloaded)
+
+RESPONSIVE BREAKPOINTS:
+  Default (mobile): 320px+
+  Small (sm): 640px+
+  Medium (md): 768px+
+  Large (lg): 1024px+
+  Extra Large (xl): 1280px+
+  2XL: 1536px+
+
+IMAGE SRCSETS:
+  Breakpoints: 256px, 384px, 640px, 750px, 828px, 1080px, 1200px, 1920px, 2048px, 3840px
+  Quality: q=75 (logo), q=85 (content images)
+
+================================================================================
+DATA QUALITY & NOTES
+================================================================================
+
+VERIFIED
+  - All 19 pages returning 200 OK status
+  - Meta tags (title, description, keywords, canonical)
+  - Schema markup (EducationalOrganization + LocalBusiness)
+  - H-tag hierarchy (1 H1, ~15 H2, ~25 H3+)
+  - Contact information (phone, email, address)
+  - Programme structure (6 main + 5 specializations)
+  - Social media channels (4 active)
+  - Image URLs and responsive srcsets
+  - Internal link structure
+
+UNVERIFIED [REQUIRES DOM INSPECTION]
+  - Alt text on images
+  - Open Graph meta tags
+  - Twitter Card tags
+  - Course-specific schema
+  - BreadcrumbList schema on subpages
+  - Dynamic content (if any)
+
+GAPS/NOT FOUND
+  - No blog section detected on homepage
+  - No WhatsApp chat integration visible
+  - Individual page content details (subpages not fully parsed)
+
+================================================================================
+HOW TO USE THESE FILES
+================================================================================
+
+FOR QUICK REFERENCE:
+  Use: SCRAPE_DATA_LINKS_REFERENCE.txt
+  Contains: All URLs, contact info, programmes, recruiters
+  Search: Use Ctrl+F to find specific information
+
+FOR DETAILED ANALYSIS:
+  Use: SCRAPE_RESULTS_2026-03-18.md
+  Contains: Full structured data with explanations
+  Format: Markdown (readable in any editor)
+
+FOR DATA IMPORT/PROCESSING:
+  Use: SCRAPE_DATA_STRUCTURED.csv
+  Contains: Tabular data ready for Excel/database import
+  Format: CSV (comma-separated values)
+
+FOR PROJECT OVERVIEW:
+  Use: This file (SCRAPE_SUMMARY_INDEX.txt)
+  Contains: Quick overview of all deliverables
+
+================================================================================
+FILE LOCATIONS
+================================================================================
+
+1. D:\JKKN Institutions\Pharmacy\Pharmacy_College_JKKN\SCRAPE_RESULTS_2026-03-18.md
+   - Main comprehensive results file
+
+2. D:\JKKN Institutions\Pharmacy\Pharmacy_College_JKKN\SCRAPE_DATA_LINKS_REFERENCE.txt
+   - Quick reference for all links and URLs
+
+3. D:\JKKN Institutions\Pharmacy\Pharmacy_College_JKKN\SCRAPE_DATA_STRUCTURED.csv
+   - Structured CSV for data import
+
+4. D:\JKKN Institutions\Pharmacy\Pharmacy_College_JKKN\SCRAPE_SUMMARY_INDEX.txt
+   - This summary file
+
+================================================================================
+METADATA
+================================================================================
+
+Scrape Date: 2026-03-18
+Scrape Time: 20:02 UTC
+Domain: https://pharmacy.jkkn.ac.in
+Pages Scraped: 19 (all live)
+Total Links Found: 60+ (internal + external)
+Data Format: RAW (unanalyzed, as requested)
+Framework: Next.js 14+
+
+================================================================================
+END OF SUMMARY
+================================================================================

@@ -1,0 +1,319 @@
+================================================================================
+JKKN COLLEGE OF PHARMACY — COMPLETE LINKS & PAGE REFERENCE
+Date: 2026-03-18
+================================================================================
+
+SECTION 1: ALL INTERNAL PHARMACY COLLEGE PAGES
+================================================================================
+
+Navigation Structure (19 pages total):
+
+1. HOMEPAGE & PRIMARY
+   https://pharmacy.jkkn.ac.in/
+   https://pharmacy.jkkn.ac.in/
+
+2. MAIN PROGRAMMES
+   https://pharmacy.jkkn.ac.in/b-pharmacy
+   https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry
+   https://pharmacy.jkkn.ac.in/pharm-d
+   https://pharmacy.jkkn.ac.in/m-pharmacy
+   https://pharmacy.jkkn.ac.in/phd
+
+3. M.PHARM SPECIALIZATIONS (5 pages)
+   https://pharmacy.jkkn.ac.in/pharmaceutics
+   https://pharmacy.jkkn.ac.in/pharmacology
+   https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry
+   https://pharmacy.jkkn.ac.in/pharmacy-practice
+   https://pharmacy.jkkn.ac.in/pharmaceutical-analysis
+
+4. INSTITUTIONAL PAGES
+   https://pharmacy.jkkn.ac.in/naac          (NAAC Accreditation)
+   https://pharmacy.jkkn.ac.in/iqac          (Internal Quality Assurance)
+   https://pharmacy.jkkn.ac.in/alumni        (Alumni Network)
+   https://pharmacy.jkkn.ac.in/nirf          (NIRF Rankings)
+   https://pharmacy.jkkn.ac.in/research      (Research & Publications)
+   https://pharmacy.jkkn.ac.in/gallery       (Photo Gallery)
+   https://pharmacy.jkkn.ac.in/circulars     (Circulars & Notices)
+   https://pharmacy.jkkn.ac.in/contact       (Contact Page)
+
+================================================================================
+SECTION 2: EXTERNAL LINKS (TO OTHER JKKN INSTITUTIONS)
+================================================================================
+
+MAIN PARENT ORGANIZATION
+   https://jkkn.ac.in                        (JKKN Institutions main site)
+
+SISTER INSTITUTIONS
+   https://dental.jkkn.ac.in/                (Dental College & Hospital)
+   https://ahs.jkkn.ac.in/                   (Allied Health Sciences)
+   https://engg.jkkn.ac.in/                  (Engineering & Technology)
+   https://nursing.sresakthimayeil.jkkn.ac.in/  (Nursing Institute)
+   https://cas.jkkn.ac.in/                   (Arts & Science)
+   https://edu.jkkn.ac.in/                   (Education College)
+   https://school.jkkn.ac.in/                (Matriculation School)
+   https://nv.jkkn.ac.in/                    (Nattraja Vidhyalya CBSE)
+
+ADMISSIONS PORTAL (UNIFIED)
+   https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8
+
+================================================================================
+SECTION 3: SOCIAL MEDIA & DIRECTORY LINKS
+================================================================================
+
+OFFICIAL SOCIAL CHANNELS
+   Facebook:   https://www.facebook.com/jkknpharmacy
+   Instagram:  https://www.instagram.com/jkknpharmacy
+   LinkedIn:   https://www.linkedin.com/school/jkkn-college-of-pharmacy
+   YouTube:    https://www.youtube.com/playlist?list=PL6QsTq-__Hhs0tz4hErvZYmnD9uZ4A4Gm
+
+DIRECTORY & RATING SITES
+   Shiksha.com:  https://www.shiksha.com/college/jkkn-college-of-pharmacy
+   JustDial:     https://www.justdial.com/jkkn-college-of-pharmacy
+
+================================================================================
+SECTION 4: CONTACT & LOCATION INFORMATION
+================================================================================
+
+PHONE
+   +91-9345-855-001
+   Tel Links: tel:9345855001 | tel:+919345855001
+
+EMAIL
+   pharmacy@jkkn.ac.in
+   mailto:pharmacy@jkkn.ac.in
+
+CAMPUS ADDRESS
+   JKKN College of Pharmacy
+   Natarajapuram, NH-544
+   Salem-Coimbatore National Highway
+   Komarapalayam, Namakkal
+   Tamil Nadu 638183, India
+
+GOOGLE MAPS
+   https://maps.google.com
+   Coordinates: 11.4387° N, 77.7062° E
+
+================================================================================
+SECTION 5: IMAGE URLS (ORIGINAL SOURCE)
+================================================================================
+
+LOGO
+   /images/logo.png
+   Optimized via: /_next/image?url=%2Fimages%2Flogo.png
+
+HOMEPAGE IMAGES
+   /images/Pharmacy-Homepage-Hero-Banner-Image.png
+   /images/Pharmacy-Homepage-About-Our-Institution-Image.png
+
+All images use Next.js Image optimization with responsive srcsets
+Breakpoints: 256px, 384px, 640px, 750px, 828px, 1080px, 1200px, 1920px, 2048px, 3840px
+
+================================================================================
+SECTION 6: PROGRAMME QUICK LINKS (FROM HOMEPAGE)
+================================================================================
+
+UNDERGRADUATE
+   Programme:     Bachelor of Pharmacy (B.Pharm)
+   Duration:      4 years
+   Seats:         100
+   URL:           https://pharmacy.jkkn.ac.in/b-pharmacy
+
+UNDERGRADUATE (LATERAL)
+   Programme:     B.Pharm Lateral Entry
+   Duration:      3 years
+   Seats:         12
+   Eligibility:   Diploma in Pharmacy
+   URL:           https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry
+
+DOCTORAL (6 YEARS)
+   Programme:     Doctor of Pharmacy (Pharm.D)
+   Duration:      6 years (with internship)
+   Seats:         30
+   URL:           https://pharmacy.jkkn.ac.in/pharm-d
+
+DOCTORAL (3 YEARS)
+   Programme:     Pharm.D Post Baccalaureate
+   Duration:      3 years
+   Seats:         10
+   URL:           https://pharmacy.jkkn.ac.in/pharm-d
+
+POSTGRADUATE
+   Programme:     Master of Pharmacy (M.Pharm)
+   Duration:      2 years
+   Seats:         60
+   Specializations: 5 (see below)
+   URL:           https://pharmacy.jkkn.ac.in/m-pharmacy
+
+DOCTORAL (RESEARCH)
+   Programme:     Doctor of Philosophy (PhD)
+   Duration:      3 years
+   URL:           https://pharmacy.jkkn.ac.in/phd
+
+M.PHARM SPECIALIZATIONS
+   1. Pharmaceutics               → https://pharmacy.jkkn.ac.in/pharmaceutics
+   2. Pharmacology                → https://pharmacy.jkkn.ac.in/pharmacology
+   3. Pharmaceutical Chemistry    → https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry
+   4. Pharmaceutical Practice     → https://pharmacy.jkkn.ac.in/pharmacy-practice
+   5. Pharmaceutical Analysis     → https://pharmacy.jkkn.ac.in/pharmaceutical-analysis
+
+================================================================================
+SECTION 7: TOP RECRUITERS REFERENCED
+================================================================================
+
+30+ companies recruit from JKKN College of Pharmacy (names visible on homepage):
+
+Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Hetero, Apollo, MedPlus,
+Biocon, Torrent, Alkem, Glenmark, [+ 18 more not enumerated in scrape]
+
+Placement Statistics (2024-25 batch):
+   - Placement Rate: 95%
+   - Highest Package: 8 LPA
+   - Average Package: 3.5 LPA
+   - Total Recruiters: 30+
+
+================================================================================
+SECTION 8: INFRASTRUCTURE FACILITIES (TEXT REFERENCES)
+================================================================================
+
+LABORATORIES
+   • Pharmaceutics Lab (tablet press, coating machines)
+   • Chemistry Lab (HPLC, UV-Vis spectrophotometer)
+   • Pharmacology Lab (animal house, organ bath)
+   • Computer Lab (molecular modeling)
+
+RESOURCES
+   • Medicinal Garden (300+ plants)
+   • Drug Museum (500+ specimens)
+   • Digital Library
+   • Hospital Pharmacy training facility
+
+================================================================================
+SECTION 9: ACCREDITATIONS & APPROVALS (SCHEMA DATA)
+================================================================================
+
+REGULATORY APPROVALS
+   PCI Approval Number:      PCI-JKKN-TN-1987
+   NAAC Grade:               A
+   University Affiliation:   Tamil Nadu Dr. M.G.R. Medical University
+   Institution Code:         JKKN-PHARMACY-638183
+
+FOUNDING
+   Year Established:         1987
+   Years Operating:          39 years (as of 2026)
+
+AREA SERVED
+   Tamil Nadu (primary)
+
+================================================================================
+SECTION 10: META TAGS DETECTED
+================================================================================
+
+<title>
+   Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College
+
+<meta name="description">
+   JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!
+
+<meta name="keywords">
+   best pharmacy colleges in tamilnadu, top pharmacy colleges in tamilnadu, best colleges for pharmacy, pharmacy colleges in tamilnadu, top 10 pharmacy colleges in tamilnadu, best college for pharmacy in tamilnadu
+
+<link rel="canonical">
+   https://pharmacy.jkkn.ac.in
+
+================================================================================
+SECTION 11: SCHEMA MARKUP TYPES PRESENT
+================================================================================
+
+Schema Types Detected (JSON-LD):
+   ✓ EducationalOrganization (main type)
+   ✓ LocalBusiness (secondary type)
+   ✓ FAQPage (FAQ section)
+   ✓ Question & Answer (FAQ items)
+   ✓ PostalAddress (address block)
+   ✓ GeoCoordinates (location)
+   ✓ PropertyValue (identifiers)
+   ✓ State (region)
+
+================================================================================
+SECTION 12: PAGE STRUCTURE SUMMARY
+================================================================================
+
+HOMEPAGE SECTIONS (in order):
+   1. Header & Navigation
+   2. Hero Section with banner image
+   3. Recognition badges (PCI, NAAC)
+   4. Programmes overview (6 main + M.Pharm spec 5)
+   5. Career paths section
+   6. Top recruiters grid
+   7. Infrastructure facilities
+   8. Eligibility requirements (by programme)
+   9. Admission process (step-by-step)
+   10. FAQ section (FAQPage schema)
+   11. Call-to-action section
+   12. Footer with institution links & social media
+
+================================================================================
+SECTION 13: CONTENT METRICS
+================================================================================
+
+Word Count:            ~6,994 words (approx)
+Character Count:       120,637 bytes
+HTML File Size:        118 KB
+Page Classification:   Medium-weight (content-rich)
+Estimated Read Time:   28-35 minutes
+
+Text Sizes Used:       Multiple responsive breakpoints (sm, md, lg, xl, 2xl)
+Images:                3 primary (logo + 2 content images)
+Internal Pages:        19 (all returning HTTP 200)
+
+================================================================================
+SECTION 14: TECHNOLOGY & FRAMEWORK
+================================================================================
+
+Frontend Framework:    Next.js (React-based)
+Image Optimization:    Next.js Image component (automatic srcset generation)
+CSS Framework:         Tailwind CSS (inferred)
+Hosting:               DigitalOcean (likely, per JKKN standards)
+Browser Support:       Modern browsers (responsive, mobile-first)
+
+Main Files:
+   CSS:   /_next/static/css/548429752418d2d2.css
+   JS:    /_next/static/chunks/webpack-0352408906092de3.js
+   Fonts: 9 WOFF2 preloaded fonts
+
+================================================================================
+SECTION 15: HTTP STATUS VERIFICATION (ALL PAGES)
+================================================================================
+
+All 19 pages tested 2026-03-18:
+
+Home:                     https://pharmacy.jkkn.ac.in/                  [200 OK]
+B.Pharm:                  https://pharmacy.jkkn.ac.in/b-pharmacy        [200 OK]
+B.Pharm Lateral:          https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry [200 OK]
+Pharm.D:                  https://pharmacy.jkkn.ac.in/pharm-d           [200 OK]
+M.Pharmacy:               https://pharmacy.jkkn.ac.in/m-pharmacy        [200 OK]
+PhD:                      https://pharmacy.jkkn.ac.in/phd               [200 OK]
+Pharmaceutics:            https://pharmacy.jkkn.ac.in/pharmaceutics     [200 OK]
+Pharmacology:             https://pharmacy.jkkn.ac.in/pharmacology      [200 OK]
+Pharma Chemistry:         https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry [200 OK]
+Pharmacy Practice:        https://pharmacy.jkkn.ac.in/pharmacy-practice [200 OK]
+Pharma Analysis:          https://pharmacy.jkkn.ac.in/pharmaceutical-analysis [200 OK]
+NAAC:                     https://pharmacy.jkkn.ac.in/naac              [200 OK]
+IQAC:                     https://pharmacy.jkkn.ac.in/iqac              [200 OK]
+Alumni:                   https://pharmacy.jkkn.ac.in/alumni            [200 OK]
+NIRF:                     https://pharmacy.jkkn.ac.in/nirf              [200 OK]
+Research:                 https://pharmacy.jkkn.ac.in/research          [200 OK]
+Gallery:                  https://pharmacy.jkkn.ac.in/gallery           [200 OK]
+Circulars:                https://pharmacy.jkkn.ac.in/circulars         [200 OK]
+Contact:                  https://pharmacy.jkkn.ac.in/contact           [200 OK]
+
+RESULT: 19/19 PAGES LIVE ✓
+
+================================================================================
+END OF REFERENCE DATA
+================================================================================
+
+Generated: 2026-03-18 20:02 UTC
+Framework: Next.js 14+
+Data Quality: RAW (unanalyzed, as requested)
+All links tested and verified as of scrape date.
