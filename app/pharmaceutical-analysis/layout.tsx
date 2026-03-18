@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'JKKN - M.Pharm Pharmaceutical Analysis Programme',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmaceutical Courses in Tamilnadu | JKKN Pharmacy College',
     description: 'Explore pharmaceutical courses in Tamilnadu at JKKN. M.Pharm Pharmaceutical Analysis — HPLC, GC-MS & quality control training. Admissions Open 2026-27!',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

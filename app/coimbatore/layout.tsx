@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy — 2 Hours Away',
+  title: 'Best Pharmacy College Near Coimbatore | JKKN',
   description: 'Looking for the best pharmacy college near Coimbatore? JKKN College of Pharmacy is just 2 hours (105 km) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
   keywords: [
     'pharmacy college near coimbatore',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Coimbatore - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

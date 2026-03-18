@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Namakkal | JKKN Pharmacy — Just 10 km Away',
+  title: 'Best Pharmacy College Near Namakkal | JKKN — 10 km',
   description: 'Looking for the best pharmacy college near Namakkal? JKKN College of Pharmacy is just 10 km (15-20 minutes) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
   keywords: [
     'pharmacy college near namakkal',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Namakkal - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Namakkal | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 10 km from Namakkal. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 import { HowToSchema, SpeakableWebPageSchema, EventSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
-  title: 'Admission 2026 | Apply for B.Pharm M.Pharm, Pharm.D | JKKN Pharmacy',
+  title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
   description: 'How to apply for pharmacy admission at JKKN in 2026? When do admissions open? Application fee ₹1,000, forms open in May-June 2026. Step-by-step guide for B.Pharm, M.Pharm, Pharm.D admission at JKKN College of Pharmacy, Komarapalayam. Eligibility: 50% in 10+2 with PCM/B. Documents needed: marksheet, TC, community certificate.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admission-process/',

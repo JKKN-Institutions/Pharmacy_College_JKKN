@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy Colleges in Tamil Nadu 2026',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: 'Best Pharmacy Colleges in Tamil Nadu 2026 | JKKN Pharmacy',
     description:
       'Compare NIRF rankings, NAAC grades, fees & placement rates of top Tamil Nadu pharmacy colleges.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

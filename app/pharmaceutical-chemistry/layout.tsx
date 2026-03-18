@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'JKKN - M.Pharm Pharmaceutical Chemistry Programme',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmaceutical Chemistry Colleges in Tamilnadu | JKKN',
     description: 'Explore pharmaceutical chemistry colleges in Tamilnadu. JKKN offers M.Pharm in Pharmaceutical Chemistry — drug design & research labs. Admissions 2026-27!',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

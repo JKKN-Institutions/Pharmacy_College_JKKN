@@ -6,7 +6,7 @@ const COURSE_DESCRIPTION =
   'Bachelor of Pharmacy Lateral Entry at JKKN College of Pharmacy — direct second year admission for D.Pharm holders. PCI approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University.'
 
 export const metadata: Metadata = {
-  title: 'B.Pharm Lateral Entry | Direct Second Year Admission | JKKN Pharmacy',
+  title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
   description:
     'B.Pharm Lateral Entry for D.Pharm holders. Direct 2nd year admission at JKKN College of Pharmacy, Komarapalayam. PCI approved, NAAC A grade. Fees, eligibility and career advancement.',
   alternates: {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     'NAAC A grade pharmacy college Tamil Nadu',
   ],
   openGraph: {
-    title: 'B.Pharm Lateral Entry | Direct Second Year Admission | JKKN Pharmacy',
+    title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
     description: COURSE_DESCRIPTION,
     url: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/',
     siteName: 'JKKN College of Pharmacy',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'B.Pharm Lateral Entry | Direct Second Year Admission | JKKN Pharmacy',
+    title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
     description: COURSE_DESCRIPTION,
     images: ['https://pharmacy.jkkn.ac.in/images/og-b-pharmacy-lateral-entry.jpg'],
   },
