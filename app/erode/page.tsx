@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin } from 'lucide-react';
+import { FaqSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -787,7 +788,7 @@ export default function ErodePage() {
           </div>
 
           <a
-            href="/programmes"
+            href="/#programmes-section"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -895,6 +896,9 @@ export default function ErodePage() {
           </div>
         </div>
       </footer>
+
+      {/* ── FAQ Schema Markup ── */}
+      <FaqSchema faqs={faqs} />
 
       {/* ── Floating WhatsApp Button ── */}
       <div className="fixed bottom-5 right-3 sm:right-5 z-50">

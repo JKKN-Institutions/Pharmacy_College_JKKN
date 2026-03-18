@@ -106,6 +106,67 @@ export default function FacultyProfilePage() {
           url: "https://pharmacy.jkkn.ac.in"
         }}
       />
+      {/* Person Schema for Department Heads */}
+      <PersonSchema
+        name="Dr. V. Sekar"
+        jobTitle="Professor & Head, Department of Pharmaceutical Analysis"
+        description="Head of Department of Pharmaceutical Analysis at JKKN College of Pharmacy with 27 years of experience. Ph.D. with 85 publications in impurity profiling, method development and validation."
+        image="https://pharmacy.jkkn.ac.in/images/Dr-V-Sekar.webp"
+        url="https://pharmacy.jkkn.ac.in/faculty-profile/"
+        knowsAbout={["Impurity Profile", "Method Development and Validation", "Benzothiazole"]}
+        worksFor={{
+          name: "JKKN College of Pharmacy",
+          url: "https://pharmacy.jkkn.ac.in"
+        }}
+      />
+      <PersonSchema
+        name="Dr. M. Vijayabaskaran"
+        jobTitle="Professor & Head, Department of Pharmaceutical Chemistry"
+        description="Head of Department of Pharmaceutical Chemistry at JKKN College of Pharmacy with 26 years of experience. Ph.D. with 90 publications in phytochemistry, molecular modelling and nano-particle research."
+        image="https://pharmacy.jkkn.ac.in/images/Dr-M-Vijayabaskaran.webp"
+        url="https://pharmacy.jkkn.ac.in/faculty-profile/"
+        knowsAbout={["Phytochemistry", "Molecular Modelling", "Insilico Docking Studies", "Silver Nano-particles"]}
+        worksFor={{
+          name: "JKKN College of Pharmacy",
+          url: "https://pharmacy.jkkn.ac.in"
+        }}
+      />
+      <PersonSchema
+        name="Dr. N. Venkateswaramurthy"
+        jobTitle="Professor & Head, Department of Pharmacy Practice"
+        description="Head of Department of Pharmacy Practice at JKKN College of Pharmacy with 24 years of experience. Ph.D. with 70 publications in AI-driven patient care and smart drug delivery systems."
+        image="https://pharmacy.jkkn.ac.in/images/Dr-N-Venkateswaramurthy.webp"
+        url="https://pharmacy.jkkn.ac.in/faculty-profile/"
+        knowsAbout={["Application of AI in Patient Care", "Smart Drug Delivery Systems", "Therapeutic Drug Monitoring"]}
+        worksFor={{
+          name: "JKKN College of Pharmacy",
+          url: "https://pharmacy.jkkn.ac.in"
+        }}
+      />
+      <PersonSchema
+        name="Dr. V. Kishor Kumar"
+        jobTitle="Professor & Head, Department of Pharmacognosy"
+        description="Head of Department of Pharmacognosy at JKKN College of Pharmacy with 17 years of experience. Ph.D. with 40 publications in anti-diabetic activity, molecular docking and herbal drug formulation."
+        image="https://pharmacy.jkkn.ac.in/images/Dr-V-Kishor-Kumar.webp"
+        url="https://pharmacy.jkkn.ac.in/faculty-profile/"
+        knowsAbout={["Anti Diabetic Activity", "Molecular Docking", "Phytochemistry", "Herbal Drug Formulation"]}
+        worksFor={{
+          name: "JKKN College of Pharmacy",
+          url: "https://pharmacy.jkkn.ac.in"
+        }}
+      />
+      <PersonSchema
+        name="Dr. Perli. Kranti Kumar"
+        jobTitle="Professor, Department of Pharmaceutical Analysis"
+        description="Professor in Department of Pharmaceutical Analysis at JKKN College of Pharmacy with 16 years of experience. Ph.D. with 65 publications in analytical method development, spectroscopic analysis and green analytical chemistry."
+        image="https://pharmacy.jkkn.ac.in/images/Dr-Perli-Kranti-Kumar.webp"
+        url="https://pharmacy.jkkn.ac.in/faculty-profile/"
+        knowsAbout={["Analytical Method Development", "Spectroscopic Analysis", "Bioanalytical Methods", "Green Analytical Chemistry"]}
+        worksFor={{
+          name: "JKKN College of Pharmacy",
+          url: "https://pharmacy.jkkn.ac.in"
+        }}
+      />
 
       <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
         <Header />
@@ -122,7 +183,7 @@ export default function FacultyProfilePage() {
                 Distinguished Faculty Members
               </h1>
               <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Meet our highly qualified and experienced faculty members dedicated to excellence in pharmaceutical education and research. Our faculty has published <strong>98 research papers</strong> in prestigious national and international journals over the past 7 years.
+                Meet the highly qualified and experienced faculty members at JKKN College of Pharmacy, dedicated to excellence in pharmaceutical education and research. The faculty has published <strong>98 research papers</strong> in prestigious national and international journals over the past 7 years.
               </p>
             </div>
 
@@ -248,7 +309,7 @@ export default function FacultyProfilePage() {
                 Research Excellence
               </h2>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
-                Our faculty members are actively engaged in cutting-edge research across various domains of pharmaceutical sciences. With <strong>98 publications</strong> in the last 7 years, our faculty has demonstrated consistent excellence in research output. Their work has been published in prestigious peer-reviewed journals and presented at national and international conferences.
+                Faculty members at JKKN College of Pharmacy are actively engaged in advanced research across various domains of pharmaceutical sciences. With <strong>98 publications</strong> in the last 7 years, the faculty has demonstrated consistent excellence in research output. Their work has been published in prestigious peer-reviewed journals and presented at national and international conferences.
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                 Faculty members maintain active profiles on academic platforms like Google Scholar and ResearchGate, ensuring their research is accessible to the global scientific community. They regularly collaborate with pharmaceutical industries, research organisations, and other academic institutions to advance pharmaceutical knowledge and innovation.

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin } from 'lucide-react';
+import { FaqSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -129,7 +130,7 @@ export default function CoimbatorePage() {
           {/* Description */}
           <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
             Better value, better campus, better you — just 2 hours from Coimbatore. JKKN College of
-            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — world-class
+            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — comprehensive
             education at a fraction of Coimbatore city college fees.
           </p>
 
@@ -227,7 +228,7 @@ export default function CoimbatorePage() {
             Why Coimbatore Students Choose JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            While Coimbatore has many colleges, JKKN offers a distinct advantage: world-class
+            While Coimbatore has many colleges, JKKN offers a distinct advantage: comprehensive
             education at significantly lower costs, a peaceful campus away from city congestion,
             personalised attention with smaller class sizes, and strong placement support. Hostel
             and transport facilities make the transition easy.
@@ -368,7 +369,7 @@ export default function CoimbatorePage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Our placement cell connects you with India&apos;s top employers
+            The placement cell connects students with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -789,7 +790,7 @@ export default function CoimbatorePage() {
           </div>
 
           <a
-            href="/programmes"
+            href="/#programmes-section"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -897,6 +898,9 @@ export default function CoimbatorePage() {
           </div>
         </div>
       </footer>
+
+      {/* ── FAQ Schema Markup ── */}
+      <FaqSchema faqs={faqs} />
 
       {/* ── Floating WhatsApp Button ── */}
       <div className="fixed bottom-5 right-3 sm:right-5 z-50">
