@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
-import { OrganizationSchema, FaqSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
+import { OrganizationSchema, FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -11,35 +11,35 @@ export default function Home() {
   const homepageFaqs = [
     {
       question: "What pharmacy courses are offered at JKKN Pharmacy College?",
-      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences)."
+      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with five specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences."
     },
     {
       question: "Is JKKN Pharmacy College PCI approved?",
-      answer: "Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) since 2009 and accredited by NAAC with A Grade. It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm, and M.Pharm programmes. All programmes meet regulatory standards for quality pharmaceutical education in India."
+      answer: "JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) and accredited by NAAC with A Grade. The college is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for B.Pharm, M.Pharm, and Pharm.D programmes."
     },
     {
       question: "What is the admission process for B.Pharm/Pharm.D?",
-      answer: "B.Pharm/Pharm.D admission at JKKN College of Pharmacy, Komarapalayam is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Application fee is ₹1,000. Applications open in May-June and can be submitted online through our official website."
+      answer: "B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TNEA counselling or management quota. Applications open May-June annually."
     },
     {
       question: "What is the placement record at JKKN Pharmacy College?",
-      answer: "JKKN Pharmacy College has an outstanding 95% placement rate for the 2024-25 batch with 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies across India. Average package is ₹3.5 LPA with highest package reaching ₹8 LPA. Our dedicated Placement Cell provides comprehensive training and support."
+      answer: "JKKN Pharmacy College achieved a 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA."
     },
     {
       question: "What career opportunities are available after pharmacy?",
-      answer: "Pharmacy graduates from JKKN can pursue diverse career paths including pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, and pharmaceutical marketing. Graduates can also open their own pharmacy or pursue higher studies like M.Pharm, Pharm.D, or PhD. Starting salaries range from ₹2.5-8 LPA depending on the role and specialisation."
+      answer: "Pharmacy graduates pursue careers in pharmaceutical manufacturing, quality control, research and development, clinical research, hospital pharmacy, drug regulatory affairs, pharmacovigilance, and pharmaceutical marketing. Higher studies include M.Pharm, Pharm.D, or Ph.D. Starting salaries range from 2.5 to 8 LPA."
     },
     {
       question: "Does JKKN offer Pharm.D programme?",
-      answer: "Yes, JKKN College of Pharmacy offers PCI-approved Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of clinical internship. The programme has an intake of 30 students and focuses on clinical pharmacy, patient care, and pharmaceutical care services. Graduates can work in hospitals, clinical research, or pursue US licensure (FPGEE/NAPLEX)."
+      answer: "JKKN College of Pharmacy offers PCI-approved Pharm.D (Doctor of Pharmacy), a 6-year programme with 5 years of academics and 1 year of clinical internship. The programme has 30 seats and focuses on clinical pharmacy and patient care. Graduates work in hospitals or pursue US licensure."
     },
     {
       question: "What M.Pharm specialisations are available?",
-      answer: "JKKN College of Pharmacy offers 2-year M.Pharm programmes in five specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. Each specialisation has 9-15 seats. Eligibility requires B.Pharm with 55% marks and valid GPAT score (preferred). Graduates can pursue careers in R&D, quality assurance, teaching, or PhD programmes with salary packages ranging from ₹3-10 LPA."
+      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in five specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. Each has 9-15 seats. Eligibility requires B.Pharm with 55% marks and GPAT score (preferred)."
     },
     {
       question: "Is hostel accommodation available?",
-      answer: "Yes, JKKN College of Pharmacy provides separate hostel facilities for both men and women within the campus at Komarapalayam. Hostels feature modern amenities including furnished rooms, 24/7 security with CCTV surveillance, hygienic mess facilities serving nutritious vegetarian and non-vegetarian food, high-speed Wi-Fi, recreation areas, gym, laundry services, and medical facilities. Hostel fees are approximately ₹60,000-80,000 per year including food."
+      answer: "JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel fees are approximately 60,000-80,000 per year including food."
     }
   ];
 
@@ -47,8 +47,9 @@ export default function Home() {
     <main className="overflow-x-hidden w-full">
       <OrganizationSchema />
       <FaqSchema faqs={homepageFaqs} />
+      <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
-        name="JKKN College of Pharmacy — Best Pharmacy College in Tamil Nadu"
+        name="JKKN College of Pharmacy — PCI Approved, NAAC A Grade | Komarapalayam, Tamil Nadu"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
       />
@@ -74,8 +75,8 @@ export default function Home() {
 
               {/* Description */}
               <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-                Join JKKN College of Pharmacy — where pharmaceutical science meets patient care.
-                Our PCI-approved programmes prepare Learners for impactful careers in the pharmaceutical industry.
+                JKKN College of Pharmacy — where pharmaceutical science meets patient care.
+                PCI-approved programmes prepare students for impactful careers in the pharmaceutical industry.
               </p>
 
               {/* Statistics */}
@@ -186,17 +187,17 @@ export default function Home() {
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
                 <Image
                   src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
-                  alt="Our Institution"
+                  alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
                   width={800}
                   height={600}
                   className="w-full h-auto"
                 />
-                {/* 39 Years Badge */}
+                {/* 41 Years Badge */}
                 <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
-                  <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">39</div>
+                  <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">41</div>
                   <div className="text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs font-semibold uppercase text-center leading-tight">
                     <div>YEARS</div>
-                    <div>SINCE 1987</div>
+                    <div>SINCE 1985</div>
                   </div>
                 </div>
               </div>
@@ -205,18 +206,18 @@ export default function Home() {
             {/* Right Content */}
             <div className="order-1 lg:order-2">
               <p className="text-xs sm:text-sm md:text-base font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
-                About Our Institution
+                About JKKN College of Pharmacy
               </p>
               <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
-                39 Years of Excellence in Progressive Pharmaceutical Education Since 1987
+                41 Years of Excellence in Progressive Pharmaceutical Education Since 1985
               </h2>
               <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a premier pharmaceutical institution under JKKN Institutions, founded on the vision of Founder J.K.K. Nataraja
+                JKKN College of Pharmacy is a PCI-approved pharmaceutical institution under JKK Nattraja Educational Institutions (JKKN Institutions), founded on the vision of Founder J.K.K. Nataraja
                 Chettiar (1895-1995).
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
-                Located in Komarapalayam, Namakkal District, Tamil Nadu, our pharmacy college offers an ideal
-                environment for focused pharmaceutical learning. Approved by PCI and NAAC, we produce competent
+                Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
+                environment for focused pharmaceutical learning. Approved by the Pharmacy Council of India (PCI) and accredited NAAC A Grade, the college produces competent
                 pharmacists ready to serve the healthcare industry.
               </p>
 
@@ -271,7 +272,7 @@ export default function Home() {
               Comprehensive Pharmaceutical Education Programmes
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
-              Choose from our PCI-approved diploma, undergraduate, and postgraduate programmes designed
+              JKKN College of Pharmacy offers PCI-approved undergraduate, postgraduate, and doctoral programmes designed
               to shape competent pharmaceutical professionals.
             </p>
           </div>
@@ -727,12 +728,12 @@ export default function Home() {
                 Launching Careers in Pharmaceutical Industry
               </h2>
               <p className="text-xs sm:text-sm text-gray-200 mb-3 sm:mb-4 leading-relaxed">
-                Our dedicated Training & Placement Cell works tirelessly to connect Learners with leading
+                The dedicated Training & Placement Cell at JKKN College of Pharmacy connects learners with leading
                 pharmaceutical companies, hospitals, and research organisations.
               </p>
               <p className="text-xs sm:text-sm text-gray-200 mb-4 sm:mb-6 leading-relaxed">
                 From aptitude training to industry visits, interview preparation to soft skills development —
-                we prepare our Learners comprehensively for rewarding careers.
+                the placement programme prepares learners comprehensively for rewarding careers.
               </p>
 
               {/* Statistics */}
@@ -758,7 +759,7 @@ export default function Home() {
 
             {/* Right - Top Recruiters */}
             <div className="mt-6 lg:mt-0">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-3 sm:mb-4 md:mb-6">Our Top Recruiters</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-3 sm:mb-4 md:mb-6">Top Recruiters</h3>
               <div className="grid grid-cols-2 xs:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
                   <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Sun Pharma</p>
@@ -810,7 +811,7 @@ export default function Home() {
               Infrastructure
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
-              State-of-the-Art Pharmaceutical Facilities
+              Advanced Pharmaceutical Facilities
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
               Experience pharmaceutical education with modern laboratories and comprehensive campus infrastructure.
@@ -1112,7 +1113,7 @@ export default function Home() {
               </thead>
               <tbody>
                 {[
-                  { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '60 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (55%)', intake: '9–15 Seats per specialisation', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },

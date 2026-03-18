@@ -3,19 +3,14 @@ export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": ["EducationalOrganization", "LocalBusiness"],
+    "@id": "https://pharmacy.jkkn.ac.in/#organization",
     "name": "JKKN College of Pharmacy",
     "alternateName": "JKKN Pharmacy College",
     "url": "https://pharmacy.jkkn.ac.in",
     "logo": "https://pharmacy.jkkn.ac.in/images/logo.png",
-    "description": "JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985.",
+    "description": "JKKN College of Pharmacy, established in 1985, is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The college offers B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes.",
     "foundingDate": "1985",
     "identifier": [
-      {
-        "@type": "PropertyValue",
-        "name": "PCI Approval Number",
-        "value": "PCI-JKKN-TN-1985",
-        "description": "Pharmacy Council of India approval identifier"
-      },
       {
         "@type": "PropertyValue",
         "name": "NAAC Grade",
@@ -27,20 +22,9 @@ export function OrganizationSchema() {
         "name": "University Affiliation",
         "value": "The Tamil Nadu Dr. M.G.R. Medical University",
         "description": "Primary university affiliation"
-      },
-      {
-        "@type": "PropertyValue",
-        "name": "Institution Code",
-        "value": "JKKN-PHARMACY-638183",
-        "description": "Unique institution identifier"
-      },
-      {
-        "@type": "PropertyValue",
-        "name": "Founding Year",
-        "value": "1985",
-        "description": "Year of establishment"
       }
     ],
+    "accreditation": "NAAC A Grade",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Natarajapuram, NH-544, Salem To Coimbatore National Highway",
@@ -67,41 +51,27 @@ export function OrganizationSchema() {
     ],
     "telephone": "+919345855001",
     "email": "pharmacy@jkkn.ac.in",
+    "memberOf": {
+      "@type": "Organization",
+      "name": "The Tamil Nadu Dr. M.G.R. Medical University",
+      "url": "https://www.tnmgrmu.ac.in"
+    },
     "parentOrganization": {
       "@type": "EducationalOrganization",
-      "name": "JKKN Institutions",
+      "name": "JKK Nattraja Educational Institutions",
+      "alternateName": "JKKN Institutions",
       "url": "https://jkkn.ac.in"
     },
     "sameAs": [
+      "https://www.wikidata.org/wiki/Q48733446",
+      "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7",
       "https://www.facebook.com/jkknpharmacy",
       "https://www.instagram.com/jkknpharmacy",
       "https://www.linkedin.com/school/jkkn-college-of-pharmacy",
+      "https://www.youtube.com/@JKKNInstitutions",
       "https://www.shiksha.com/college/jkkn-college-of-pharmacy",
-      "https://www.justdial.com/jkkn-college-of-pharmacy"
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.3",
-      "reviewCount": "127",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingExplanation": "Based on student and alumni reviews from Google, Shiksha, and Collegedunia"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "B.Pharm Graduate 2024"
-        },
-        "reviewBody": "Excellent pharmacy infrastructure with state-of-the-art labs. Great placement support and industry connections.",
-        "datePublished": "2024-06-15"
-      }
+      "https://www.careers360.com/colleges/jkkn-college-of-pharmacy-namakkal",
+      "https://collegedunia.com/pharmacy/24692-jkkn-college-of-pharmacy-namakkal"
     ]
   };
 
@@ -292,7 +262,7 @@ export function SpeakableWebPageSchema({
   name,
   description,
   url,
-  speakableCssSelectors = ["h1", "h2"]
+  speakableCssSelectors = ["h1", "h2", ".voice-answer", ".speakable-summary", ".snippet-answer"]
 }: SpeakableWebPageSchemaProps) {
   const schema = {
     "@context": "https://schema.org",
@@ -396,6 +366,64 @@ export function ArticleSchema({
         "url": "https://pharmacy.jkkn.ac.in/images/logo.png"
       }
     }
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface EventSchemaProps {
+  name: string;
+  description: string;
+  startDate: string;
+  endDate?: string;
+  location?: string;
+  url?: string;
+  eventStatus?: string;
+  eventAttendanceMode?: string;
+}
+
+export function EventSchema({
+  name,
+  description,
+  startDate,
+  endDate,
+  location = "JKKN College of Pharmacy, Komarapalayam, Tamil Nadu 638183",
+  url = "https://pharmacy.jkkn.ac.in/admission-process/",
+  eventStatus = "https://schema.org/EventScheduled",
+  eventAttendanceMode = "https://schema.org/MixedEventAttendanceMode"
+}: EventSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": name,
+    "description": description,
+    "startDate": startDate,
+    ...(endDate && { "endDate": endDate }),
+    "eventStatus": eventStatus,
+    "eventAttendanceMode": eventAttendanceMode,
+    "location": {
+      "@type": "Place",
+      "name": "JKKN College of Pharmacy",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Natarajapuram, NH-544",
+        "addressLocality": "Komarapalayam",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "638183",
+        "addressCountry": "IN"
+      }
+    },
+    "organizer": {
+      "@type": "EducationalOrganization",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/"
+    },
+    "url": url
   };
 
   return (

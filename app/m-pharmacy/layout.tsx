@@ -64,7 +64,7 @@ const faqSchema = {
       "name": "What is M.Pharm course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework with intensive research work and dissertation. Eligibility requires B.Pharm degree with 55% marks and GPAT/GATE qualification preferred."
+        "text": "M.Pharm (Master of Pharmacy) is a 2-year postgraduate programme in pharmaceutical sciences with five specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice. The programme comprises 4 semesters of coursework and research dissertation. Eligibility requires B.Pharm with 55% marks and GPAT score (preferred)."
       }
     },
     {
@@ -80,7 +80,7 @@ const faqSchema = {
       "name": "Which M.Pharm specialisation has best scope?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "All M.Pharm specialisations have good scope. Pharmaceutics and Pharmaceutical Analysis have the highest industry demand. Pharmaceutics offers highest R&D demand with excellent growth potential. Pharmaceutical Analysis has maximum job openings in QC departments. Pharmacology suits research-focused companies and CROs. Pharmaceutical Chemistry is best for drug discovery roles. Pharmacy Practice is growing in the hospital sector."
+        "text": "Pharmaceutics and Pharmaceutical Analysis have the highest industry demand. Pharmaceutics leads in R&D roles; Pharmaceutical Analysis has maximum QC job openings. Pharmacology suits CROs and research companies. Pharmaceutical Chemistry is ideal for drug discovery. Pharmacy Practice is growing in the hospital sector."
       }
     },
     {
@@ -88,7 +88,7 @@ const faqSchema = {
       "name": "What is M.Pharm salary?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "M.Pharm starting salaries range from ₹25,000-50,000/month depending on specialisation and employer. Pharmaceutical industry R&D: ₹30,000-50,000/month, Quality Control: ₹25,000-40,000/month, Academic institutions: ₹35,000-50,000/month, Clinical research: ₹28,000-45,000/month. Senior level (10-15 years): ₹1,20,000-2,00,000/month. MNCs and innovator companies pay 40-60% more than Indian generic companies."
+        "text": "M.Pharm starting salaries range from 25,000 to 50,000 per month depending on specialisation. Pharmaceutical R&D: 30,000-50,000/month, Quality Control: 25,000-40,000/month, Academic institutions: 35,000-50,000/month. Senior-level professionals earn 1,20,000-2,00,000/month."
       }
     },
     {
@@ -96,7 +96,7 @@ const faqSchema = {
       "name": "How to choose M.Pharm specialisation?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Choose M.Pharm specialisation based on interests, skills, and career goals. Choose Pharmaceutics for versatile R&D career with high demand. Choose Pharmaceutical Analysis for stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and research. Choose Pharmaceutical Chemistry if strong in organic chemistry and interested in drug design. Choose Pharmacy Practice if you prefer patient-focused work over laboratory research."
+        "text": "Select based on career goals: Pharmaceutics for R&D with high demand, Pharmaceutical Analysis for QC with maximum job openings, Pharmacology for drug research, Pharmaceutical Chemistry for drug design, and Pharmacy Practice for patient-focused clinical work in hospitals."
       }
     }
   ]
