@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Banking & Postal Services | Campus | JKKN Pharmacy',
-  description: 'Banking and postal facilities at JKKN College of Pharmacy campus. ATM, bank services, post office and financial services for students and staff convenience.',
+  description: 'Banking & postal facilities at JKKN Pharmacy. ATM, bank services, post office and financial services.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/bank-post-office/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/bank-post-office/',
     title: 'Banking & Postal Services | Campus | JKKN Pharmacy',
-    description: 'Banking and postal facilities at JKKN College of Pharmacy campus. ATM, bank services, post office and financial services for students and staff convenience.',
+    description: 'Banking & postal facilities at JKKN Pharmacy. ATM, bank services, post office and financial services.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Banking & Postal Services | Campus | JKKN Pharmacy',
-    description: 'Banking and postal facilities at JKKN College of Pharmacy campus. ATM, bank services, post office and financial services for students and staff convenience.',
+    description: 'Banking & postal facilities at JKKN Pharmacy. ATM, bank services, post office and financial services.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

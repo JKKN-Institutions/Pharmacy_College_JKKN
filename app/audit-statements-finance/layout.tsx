@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Audit Statements & Financial Reports | JKKN',
-  description: 'Audit statements and financial reports of JKKN College of Pharmacy. Financial transparency, audited accounts, income-expenditure statements and financial compliance.',
+  description: 'Audit statements & financial reports of JKKN Pharmacy. Financial transparency, audited accounts.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/audit-statements-finance/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/audit-statements-finance/',
     title: 'Audit Statements & Financial Reports | JKKN',
-    description: 'Audit statements and financial reports of JKKN College of Pharmacy. Financial transparency, audited accounts, income-expenditure statements and financial compliance.',
+    description: 'Audit statements & financial reports of JKKN Pharmacy. Financial transparency, audited accounts.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Audit Statements & Financial Reports | JKKN',
-    description: 'Audit statements and financial reports of JKKN College of Pharmacy. Financial transparency, audited accounts, income-expenditure statements and financial compliance.',
+    description: 'Audit statements & financial reports of JKKN Pharmacy. Financial transparency, audited accounts.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

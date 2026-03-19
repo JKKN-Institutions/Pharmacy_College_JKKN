@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'AICTE Approval | Regulatory Compliance | JKKN',
-  description: 'AICTE (All India Council for Technical Education) approval for JKKN College of Pharmacy. Approval letters, EOA, intake capacity and compliance with technical education norms.',
+  description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/aicte/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/aicte/',
     title: 'AICTE Approval | Regulatory Compliance | JKKN',
-    description: 'AICTE (All India Council for Technical Education) approval for JKKN College of Pharmacy. Approval letters, EOA, intake capacity and compliance with technical education norms.',
+    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'AICTE Approval | Regulatory Compliance | JKKN',
-    description: 'AICTE (All India Council for Technical Education) approval for JKKN College of Pharmacy. Approval letters, EOA, intake capacity and compliance with technical education norms.',
+    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
