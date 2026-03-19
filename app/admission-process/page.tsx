@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import { HowToSchema, FaqSchema } from '@/components/SchemaOrg'
+import { HowToSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { GraduationCap, FileText, ClipboardCheck, Calendar, IndianRupee, Award, Phone, Mail, MessageCircle, ChevronDown, CheckCircle, Clock, Users, BookOpen } from 'lucide-react'
 
 export default function AdmissionProcessPage() {
@@ -42,7 +42,7 @@ export default function AdmissionProcessPage() {
   const admissionFaqs = [
     {
       question: "When do admissions open for JKKN Pharmacy College?",
-      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, our official website pharmacy.jkkn.ac.in, and social media channels."
+      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, the official website pharmacy.jkkn.ac.in, and social media channels."
     },
     {
       question: "What is the application fee for pharmacy programmes?",
@@ -76,6 +76,10 @@ export default function AdmissionProcessPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Admission Process', url: 'https://pharmacy.jkkn.ac.in/admission-process' }
+      ]} />
       <HowToSchema
         name="How to Apply for Admission at JKKN College of Pharmacy"
         description="Step-by-step guide for applying to B.Pharm, M.Pharm, Pharm.D, and PhD programmes at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu."

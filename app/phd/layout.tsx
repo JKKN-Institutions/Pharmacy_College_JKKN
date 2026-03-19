@@ -5,13 +5,13 @@ import { CourseSchema, SpeakableWebPageSchema, FaqSchema } from '@/components/Sc
 const PHD_DESCRIPTION = "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences at JKKN College of Pharmacy, Komarapalayam — advanced research programme in pharmaceutical sciences. PCI approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University."
 
 export const metadata: Metadata = {
-  title: 'PhD in Pharmacy | Doctoral Research Programme | JKKN College Komarapalayam',
+  title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
   description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/phd/',
   },
   openGraph: {
-    title: 'PhD in Pharmacy | Doctoral Research Programme | JKKN College Komarapalayam',
+    title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
     description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
     url: 'https://pharmacy.jkkn.ac.in/phd/',
     siteName: 'JKKN College of Pharmacy',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'PhD in Pharmacy | Doctoral Research Programme | JKKN College Komarapalayam',
+    title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
     description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
   },
 }

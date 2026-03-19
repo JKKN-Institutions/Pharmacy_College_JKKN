@@ -7,6 +7,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/the-principal/',
   },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/the-principal/',
+    title: 'Principal Profile | Leadership | JKKN College of Pharmacy',
+    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions, leadership vision and message to students aspiring for pharmaceutical careers.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Principal Profile | Leadership | JKKN College of Pharmacy',
+    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions, leadership vision and message to students aspiring for pharmaceutical careers.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+  },
 }
 
 export default function PrincipalLayout({

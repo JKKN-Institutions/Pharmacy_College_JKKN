@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Laptop, Lightbulb, Microscope, Pill, Scale, School, ScrollText, Sparkles, Star, Target, TestTube, User, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalChemistryPage() {
@@ -57,6 +57,10 @@ export default function PharmaceuticalChemistryPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmaceutical Chemistry', url: 'https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmaceutical Chemistry"
         description="M.Pharm Pharmaceutical Chemistry is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on medicinal chemistry, drug design and synthesis, structure-activity relationships, computational chemistry, and drug discovery. Prepares graduates for careers in drug discovery, synthetic chemistry, and pharmaceutical R&D."

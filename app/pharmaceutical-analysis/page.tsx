@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalAnalysisPage() {
@@ -57,6 +57,10 @@ export default function PharmaceuticalAnalysisPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmaceutical Analysis', url: 'https://pharmacy.jkkn.ac.in/pharmaceutical-analysis' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmaceutical Analysis"
         description="M.Pharm Pharmaceutical Analysis is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on analytical methods, HPLC, LC-MS/MS, method development and validation, quality control, and impurity profiling. Prepares graduates for careers in quality control laboratories, analytical R&D, and regulatory affairs."

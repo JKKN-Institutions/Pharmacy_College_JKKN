@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, CreditCard, FileText, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Pill, Scale, Star, Target, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticsPage() {
@@ -57,6 +57,10 @@ export default function PharmaceuticsPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmaceutics', url: 'https://pharmacy.jkkn.ac.in/pharmaceutics' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmaceutics"
         description="M.Pharm Pharmaceutics is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug formulation, novel drug delivery systems, tablet and capsule development, nanoparticles, liposomes, and quality by design. Prepares graduates for careers in pharmaceutical R&D, formulation development, and product innovation."

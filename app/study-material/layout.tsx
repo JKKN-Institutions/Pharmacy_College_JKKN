@@ -7,6 +7,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/study-material/',
   },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/study-material/',
+    title: 'Study Materials & Resources | E-Learning | JKKN Pharmacy',
+    description: 'Download study materials for pharmacy courses at JKKN College. Lecture notes, practicals, previous papers, reference books and e-learning resources for students.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Study Materials & Resources | E-Learning | JKKN Pharmacy',
+    description: 'Download study materials for pharmacy courses at JKKN College. Lecture notes, practicals, previous papers, reference books and e-learning resources for students.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+  },
 }
 
 export default function StudyMaterialLayout({

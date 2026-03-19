@@ -2,10 +2,32 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Address Phone & Email | JKKN Pharmacy Komarapalayam',
-  description: 'Contact JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Get directions, phone numbers, email addresses, admission enquiry contacts and visit our NAAC A grade campus.',
+  title: 'Contact JKKN Pharmacy | Address Phone & Email',
+  description: 'Contact JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Get directions, phone numbers, email addresses, admission enquiry contacts and visit the NAAC A Grade campus.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/contact/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/contact/',
+    title: 'Contact JKKN Pharmacy | Address Phone & Email',
+    description: 'Contact JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Get directions, phone numbers, email addresses, admission enquiry contacts and visit the NAAC A Grade campus.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact JKKN Pharmacy | Address Phone & Email',
+    description: 'Contact JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Get directions, phone numbers, email addresses, admission enquiry contacts and visit the NAAC A Grade campus.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

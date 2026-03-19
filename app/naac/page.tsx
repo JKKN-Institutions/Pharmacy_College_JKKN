@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 // Navigation sections data
 const navigationSections = [
@@ -21,6 +22,10 @@ export default function NAACPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'NAAC', url: 'https://pharmacy.jkkn.ac.in/naac' }
+      ]} />
       <Header />
 
       {/* Main Container */}

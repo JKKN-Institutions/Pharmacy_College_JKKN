@@ -6,14 +6,14 @@ const COURSE_DESCRIPTION =
   'Master of Pharmacy in Pharmacy Practice at JKKN College of Pharmacy, Komarapalayam — clinical pharmacy specialisation with hospital training, patient counselling, and pharmaceutical care. PCI approved, NAAC A Grade.'
 
 export const metadata: Metadata = {
-  title: 'M.Pharm Pharmacy Practice | Clinical Pharmacy | JKKN College',
+  title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
   description:
     'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmacy-practice/',
   },
   openGraph: {
-    title: 'M.Pharm Pharmacy Practice | Clinical Pharmacy | JKKN College',
+    title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
     description:
       'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
     url: 'https://pharmacy.jkkn.ac.in/pharmacy-practice/',
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'M.Pharm Pharmacy Practice | Clinical Pharmacy | JKKN College',
+    title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
     description:
       'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
   },

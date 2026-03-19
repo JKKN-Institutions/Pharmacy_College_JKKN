@@ -2,7 +2,7 @@
 
 import Header from '@/components/Header'
 import Image from 'next/image'
-import { PersonSchema } from '@/components/SchemaOrg'
+import { PersonSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { GraduationCap, BookOpen, Award, Calendar } from 'lucide-react'
 
 interface Faculty {
@@ -90,6 +90,10 @@ const facultyData: Faculty[] = [
 export default function FacultyProfilePage() {
   return (
     <>
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Faculty', url: 'https://pharmacy.jkkn.ac.in/faculty-profile' }
+      ]} />
       {/* Person Schema for Principal */}
       <PersonSchema
         name="Dr. M. Venkatesan"

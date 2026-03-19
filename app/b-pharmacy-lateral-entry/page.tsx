@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ChevronDown, ClipboardList, Clock, Dna, Factory, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Store, Target, TestTube, TrendingUp, ArrowRight } from 'lucide-react'
 
 export default function BPharmLateralEntryPage() {
@@ -58,6 +58,10 @@ export default function BPharmLateralEntryPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'B.Pharm Lateral Entry', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry' }
+      ]} />
       <CourseSchema
         name="Bachelor of Pharmacy (B.Pharm) - Lateral Entry"
         description="B.Pharm Lateral Entry is a 3-year accelerated pharmacy programme for diploma holders in pharmacy (D.Pharm). Students enter directly into the second year of B.Pharm, completing the degree in 3 years instead of 4 years, leading to the same B.Pharm qualification and career opportunities."

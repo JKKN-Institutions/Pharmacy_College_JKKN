@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin } from 'lucide-react';
-import { FaqSchema } from '@/components/SchemaOrg';
+import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -83,6 +83,10 @@ export default function SalemPage() {
 
   return (
     <div className="min-h-screen">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmacy College Near Salem', url: 'https://pharmacy.jkkn.ac.in/salem' }
+      ]} />
       {/* ── Sticky Announcement Bar ── */}
       <div className="sticky top-0 z-50 bg-[#0a1f0a] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">

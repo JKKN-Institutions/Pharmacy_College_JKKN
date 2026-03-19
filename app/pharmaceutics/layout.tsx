@@ -3,10 +3,32 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 import { CourseSchema, SpeakableWebPageSchema, FaqSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
-  title: 'M.Pharm Pharmaceutics | Syllabus Fees & Career | JKKN Pharmacy',
+  title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
   description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmaceutics/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/pharmaceutics/',
+    title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
+    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
+    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

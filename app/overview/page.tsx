@@ -1,10 +1,16 @@
 'use client'
 
 import Header from '@/components/Header'
+import Link from 'next/link'
+import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function AboutOverviewPage() {
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Overview', url: 'https://pharmacy.jkkn.ac.in/overview' }
+      ]} />
       <Header />
 
       {/* Main Content */}
@@ -22,7 +28,7 @@ export default function AboutOverviewPage() {
             </p>
 
             <p className="text-justify">
-              JKKN College of Pharmacy has grown remarkably from its humble beginnings with 40 students and 10 faculty members to a thriving institution with approximately 700 students and 60 expert faculty members. Recognised by the Government of Tamil Nadu, approved by the Pharmacy Council of India (PCI), New Delhi, and affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai, the college offers a comprehensive academic portfolio, including B.Pharm, M.Pharm, and Ph.D. programmes. Accredited with a NAAC A grade, the institution has been actively participating in NIRF and other national ranking frameworks since 2016, consistently submitting data to demonstrate transparency and accountability. The college was recognised among the top 50 pharmacy institutions by NIRF in 2016-2018. Additionally, it holds UGC recognition under Section 2(f). With a strong commitment to pharmaceutical education, research, and innovation, the college continues to shape future leaders in the field, fostering a dynamic learning environment and industry collaborations.
+              JKKN College of Pharmacy has grown remarkably from its humble beginnings with 40 students and 10 faculty members to a thriving institution with approximately 700 students and 60 expert faculty members. Recognised by the Government of Tamil Nadu, approved by the Pharmacy Council of India (PCI), New Delhi, and affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai, the college offers a comprehensive academic portfolio, including <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm</Link>, and <Link href="/phd" className="text-[#006837] font-semibold hover:underline">Ph.D.</Link> programmes. Accredited with a NAAC A grade, the institution has been actively participating in NIRF and other national ranking frameworks since 2016, consistently submitting data to demonstrate transparency and accountability. The college was recognised among the top 50 pharmacy institutions by NIRF in 2016-2018. Additionally, it holds UGC recognition under Section 2(f). With a strong commitment to pharmaceutical education, research, and innovation, the college continues to shape future leaders in the field, fostering a dynamic learning environment and industry collaborations.
             </p>
 
             <p className="text-justify">

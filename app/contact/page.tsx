@@ -1,9 +1,14 @@
 import Header from '@/components/Header'
 import { Phone, Mail, MapPin } from 'lucide-react'
+import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-[#F5F5DC] flex flex-col">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Contact', url: 'https://pharmacy.jkkn.ac.in/contact' }
+      ]} />
       <Header />
 
       {/* Main Content */}
