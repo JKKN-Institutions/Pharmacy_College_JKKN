@@ -13,7 +13,7 @@ interface Video {
 const videos: Video[] = [
   {
     title: 'JKKN College of Pharmacy — Campus Tour 2025',
-    description: 'Explore the state-of-the-art pharmacy labs, research facilities, and campus infrastructure at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.',
+    description: 'Explore the advanced pharmacy labs, research facilities, and campus infrastructure at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.',
     youtubeId: 'YOUR_YOUTUBE_VIDEO_ID_1',
     thumbnailUrl: 'https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID_1/maxresdefault.jpg',
     uploadDate: '2025-08-15',
