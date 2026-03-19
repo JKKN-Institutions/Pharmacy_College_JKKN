@@ -8,7 +8,7 @@ const COURSE_DESCRIPTION =
 export const metadata: Metadata = {
   title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
   description:
-    'B.Pharm Lateral Entry for D.Pharm holders. Direct 2nd year admission at JKKN College of Pharmacy, Komarapalayam. PCI approved, NAAC A grade. Fees, eligibility and career advancement.',
+    'B.Pharm Lateral Entry for D.Pharm holders. Direct 2nd year at JKKN College of Pharmacy, Komarapalayam. PCI & NAAC A approved. Fees, eligibility and careers.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/',
   },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
-    description: COURSE_DESCRIPTION,
+    description: 'B.Pharm Lateral Entry for D.Pharm holders. Direct 2nd year at JKKN College of Pharmacy, Komarapalayam. PCI & NAAC A approved. Fees, eligibility and careers.',
     url: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'B.Pharm Lateral Entry | Direct 2nd Year | JKKN',
-    description: COURSE_DESCRIPTION,
+    description: 'B.Pharm Lateral Entry for D.Pharm holders. Direct 2nd year at JKKN College of Pharmacy, Komarapalayam. PCI & NAAC A approved. Fees, eligibility and careers.',
     images: ['https://pharmacy.jkkn.ac.in/images/og-b-pharmacy-lateral-entry.jpg'],
   },
 }

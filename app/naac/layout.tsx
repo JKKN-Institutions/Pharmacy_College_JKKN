@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'NAAC A Grade | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy awarded NAAC A Grade accreditation. View SSR, peer team report, criteria-wise assessment, quality indicators and institutional excellence achievements.',
+  description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/naac/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/naac/',
     title: 'NAAC A Grade | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy awarded NAAC A Grade accreditation. View SSR, peer team report, criteria-wise assessment, quality indicators and institutional excellence achievements.',
+    description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NAAC A Grade | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy awarded NAAC A Grade accreditation. View SSR, peer team report, criteria-wise assessment, quality indicators and institutional excellence achievements.',
+    description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

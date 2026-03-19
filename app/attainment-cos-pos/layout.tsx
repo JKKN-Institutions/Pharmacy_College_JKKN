@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'CO & PO Attainment | Academic Assessment | JKKN',
-  description: 'Attainment of Course Outcomes and Programme Outcomes at JKKN College of Pharmacy. Assessment methods, attainment levels, academic performance and learning outcome measurement.',
+  description: 'CO and PO attainment at JKKN Pharmacy. Assessment methods, attainment levels and learning outcomes.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/attainment-cos-pos/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/attainment-cos-pos/',
     title: 'CO & PO Attainment | Academic Assessment | JKKN',
-    description: 'Attainment of Course Outcomes and Programme Outcomes at JKKN College of Pharmacy. Assessment methods, attainment levels, academic performance and learning outcome measurement.',
+    description: 'CO and PO attainment at JKKN Pharmacy. Assessment methods, attainment levels and learning outcomes.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CO & PO Attainment | Academic Assessment | JKKN',
-    description: 'Attainment of Course Outcomes and Programme Outcomes at JKKN College of Pharmacy. Assessment methods, attainment levels, academic performance and learning outcome measurement.',
+    description: 'CO and PO attainment at JKKN Pharmacy. Assessment methods, attainment levels and learning outcomes.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'About JKKN Pharmacy College | History & Vision',
-  description: 'Learn about JKKN College of Pharmacy — history, vision, mission, values, achievements, infrastructure. Commitment to pharmaceutical education excellence in Tamil Nadu since 1985.',
+  description: 'JKKN College of Pharmacy history, vision, mission, values and achievements. Committed to pharmaceutical education excellence in Tamil Nadu.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/overview/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/overview/',
     title: 'About JKKN Pharmacy College | History & Vision',
-    description: 'Learn about JKKN College of Pharmacy — history, vision, mission, values, achievements, infrastructure. Commitment to pharmaceutical education excellence in Tamil Nadu since 1985.',
+    description: 'JKKN College of Pharmacy history, vision, mission, values and achievements. Committed to pharmaceutical education excellence in Tamil Nadu.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About JKKN Pharmacy College | History & Vision',
-    description: 'Learn about JKKN College of Pharmacy — history, vision, mission, values, achievements, infrastructure. Commitment to pharmaceutical education excellence in Tamil Nadu since 1985.',
+    description: 'JKKN College of Pharmacy history, vision, mission, values and achievements. Committed to pharmaceutical education excellence in Tamil Nadu.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

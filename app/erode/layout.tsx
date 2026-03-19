@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Erode | JKKN — 35 km',
-  description: 'Looking for the best pharmacy college near Erode? JKKN College of Pharmacy is just 35 km (40-50 min) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  description: 'Best pharmacy college near Erode — JKKN College of Pharmacy, 35 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near erode',
     'best pharmacy college erode',

@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Coimbatore | JKKN',
-  description: 'Looking for the best pharmacy college near Coimbatore? JKKN College of Pharmacy is just 2 hours (105 km) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  description: 'Best pharmacy college near Coimbatore — JKKN College of Pharmacy, 105 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near coimbatore',
     'best pharmacy college coimbatore',

@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Tiruppur | JKKN — 90 km',
-  description: 'Looking for the best pharmacy college near Tiruppur? JKKN College of Pharmacy is just 1.5-2 hours (80-90 km) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  description: 'Best pharmacy college near Tiruppur — JKKN College of Pharmacy, 80-90 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near tiruppur',
     'best pharmacy college tiruppur',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
+    description: 'JKKN College of Pharmacy is 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements.',
     url: 'https://pharmacy.jkkn.ac.in/tiruppur/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements.',
+    description: 'JKKN College of Pharmacy is 1.5-2 hours from Tiruppur. PCI, AICTE, NAAC approved with 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

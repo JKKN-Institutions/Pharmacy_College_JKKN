@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Alumni Network | Success Stories | JKKN Pharmacy College',
-  description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities, alumni achievements in pharmaceutical industry and healthcare sectors.',
+  description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities and achievements in pharmaceutical industry and healthcare.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/alumni/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/alumni/',
     title: 'Alumni Network | Success Stories | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities, alumni achievements in pharmaceutical industry and healthcare sectors.',
+    description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities and achievements in pharmaceutical industry and healthcare.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Alumni Network | Success Stories | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities, alumni achievements in pharmaceutical industry and healthcare sectors.',
+    description: 'JKKN College of Pharmacy alumni network. Success stories, notable alumni, networking opportunities and achievements in pharmaceutical industry and healthcare.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

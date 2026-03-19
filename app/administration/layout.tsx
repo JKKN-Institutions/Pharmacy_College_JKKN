@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Administration | Office Staff | JKKN College of Pharmacy',
-  description: 'Administrative structure at JKKN College of Pharmacy. Office staff, administrative roles, student services, academic administration and support departments.',
+  description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/administration/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/administration/',
     title: 'Administration | Office Staff | JKKN College of Pharmacy',
-    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, administrative roles, student services, academic administration and support departments.',
+    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Administration | Office Staff | JKKN College of Pharmacy',
-    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, administrative roles, student services, academic administration and support departments.',
+    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

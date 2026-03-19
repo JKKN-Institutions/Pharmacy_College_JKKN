@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Affiliation & Approvals | PCI AICTE | JKKN Pharmacy',
-  description: 'JKKN College of Pharmacy affiliations and approvals. Affiliated to Anna University, approved by PCI (Pharmacy Council of India), AICTE and recognised by Government of Tamil Nadu.',
+  description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI and AICTE approved.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/affiliation-details/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/affiliation-details/',
     title: 'Affiliation & Approvals | PCI AICTE | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy affiliations and approvals. Affiliated to Anna University, approved by PCI (Pharmacy Council of India), AICTE and recognised by Government of Tamil Nadu.',
+    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI and AICTE approved.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affiliation & Approvals | PCI AICTE | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy affiliations and approvals. Affiliated to Anna University, approved by PCI (Pharmacy Council of India), AICTE and recognised by Government of Tamil Nadu.',
+    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI and AICTE approved.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
