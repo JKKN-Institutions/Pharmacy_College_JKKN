@@ -2,19 +2,8 @@ import type { Metadata } from 'next'
 import { Poppins } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
-import dynamic from 'next/dynamic'
+import FooterWrapper from '@/components/FooterWrapper'
 import { OrganizationSchema } from '@/components/SchemaOrg'
-
-// Lazy load below-the-fold components to reduce layout chunk size
-const Footer = dynamic(() => import('@/components/Footer'))
-
-const ScrollToTop = dynamic(() => import('@/components/ScrollToTop'))
-
-const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton'))
-
-const BottomNavWrapper = dynamic(
-  () => import('@/components/BottomNavWrapper').then(mod => ({ default: mod.BottomNavWrapper }))
-)
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -126,10 +115,7 @@ export default function RootLayout({
       <body className={poppins.className} suppressHydrationWarning>
         <OrganizationSchema />
         {children}
-        <Footer />
-        <WhatsAppButton />
-        <ScrollToTop />
-        <BottomNavWrapper />
+        <FooterWrapper />
       </body>
     </html>
   )

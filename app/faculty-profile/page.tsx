@@ -31,6 +31,18 @@ const facultyData: Faculty[] = [
     image: "/images/Principal_message.jpeg"
   },
   {
+    id: 7,
+    name: "Dr. V. Sekar",
+    designation: "Professor & Head",
+    department: "Department of Pharmaceutical Analysis",
+    qualifications: ["M.Pharm", "Ph.D"],
+    experience: "27 years",
+    researchInterests: ["Impurity Profile", "Method Development and Validation", "Benzothiazole"],
+    publications: 85,
+    email: "hodpharmaceuticalanalysis@jkkn.ac.in",
+    image: "/images/Dr. V. Sekar-Faculty.webp"
+  },
+  {
     id: 2,
     name: "Dr. V. Sekar",
     designation: "Professor & Head",
