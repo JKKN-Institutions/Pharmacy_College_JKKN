@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
-  description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning, research initiatives and distinctive institutional practices.',
+  description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/best-practice/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/best-practice/',
     title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
-    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning, research initiatives and distinctive institutional practices.',
+    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
-    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning, research initiatives and distinctive institutional practices.',
+    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

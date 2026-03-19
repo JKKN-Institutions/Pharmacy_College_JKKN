@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'NIRF Rankings & Data | JKKN Pharmacy College',
-  description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy. Performance metrics, teaching-learning, research, outreach and perception data.',
+  description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/nirf/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/nirf/',
     title: 'NIRF Rankings & Data | JKKN Pharmacy College',
-    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy. Performance metrics, teaching-learning, research, outreach and perception data.',
+    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NIRF Rankings & Data | JKKN Pharmacy College',
-    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy. Performance metrics, teaching-learning, research, outreach and perception data.',
+    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

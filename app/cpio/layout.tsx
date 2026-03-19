@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'CPIO | RTI Information Officer | JKKN Pharmacy',
-  description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance, information requests and transparency in institutional governance.',
+  description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/cpio/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/cpio/',
     title: 'CPIO | RTI Information Officer | JKKN Pharmacy',
-    description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance, information requests and transparency in institutional governance.',
+    description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'CPIO | RTI Information Officer | JKKN Pharmacy',
-    description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance, information requests and transparency in institutional governance.',
+    description: 'Central Public Information Officer (CPIO) at JKKN College of Pharmacy. RTI (Right to Information) Act compliance.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

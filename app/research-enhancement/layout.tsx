@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Research Enhancement | Innovation Programs | JKKN Pharmacy',
-  description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs, research publications and scholarly activities.',
+  description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/research-enhancement/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/research-enhancement/',
     title: 'Research Enhancement | Innovation Programs | JKKN Pharmacy',
-    description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs, research publications and scholarly activities.',
+    description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Research Enhancement | Innovation Programs | JKKN Pharmacy',
-    description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs, research publications and scholarly activities.',
+    description: 'Research enhancement initiatives at JKKN College of Pharmacy. Research funding, collaborative projects, innovation programs.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

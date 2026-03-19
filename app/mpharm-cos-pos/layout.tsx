@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'M.Pharm COs & POs | Programme Outcomes | JKKN',
-  description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes, research competencies and career readiness objectives.',
+  description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/mpharm-cos-pos/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/mpharm-cos-pos/',
     title: 'M.Pharm COs & POs | Programme Outcomes | JKKN',
-    description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes, research competencies and career readiness objectives.',
+    description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'M.Pharm COs & POs | Programme Outcomes | JKKN',
-    description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes, research competencies and career readiness objectives.',
+    description: 'M.Pharm Course Outcomes and Programme Outcomes at JKKN Pharmacy. Specialisation-wise learning outcomes.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

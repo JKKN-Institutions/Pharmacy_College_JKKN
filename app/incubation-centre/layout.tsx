@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Incubation Centre | Startup Support | JKKN Pharmacy College',
-  description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring, infrastructure and funding opportunities for entrepreneurs.',
+  description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/incubation-centre/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/incubation-centre/',
     title: 'Incubation Centre | Startup Support | JKKN Pharmacy College',
-    description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring, infrastructure and funding opportunities for entrepreneurs.',
+    description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Incubation Centre | Startup Support | JKKN Pharmacy College',
-    description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring, infrastructure and funding opportunities for entrepreneurs.',
+    description: 'Incubation centre at JKKN College of Pharmacy. Support for pharmaceutical startups, innovation projects, mentoring.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'PEOs - Programme Educational Objectives | JKKN Pharmacy',
-  description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals, professional development objectives and long-term learning outcomes for graduates.',
+  description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/peos/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/peos/',
     title: 'PEOs - Programme Educational Objectives | JKKN Pharmacy',
-    description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals, professional development objectives and long-term learning outcomes for graduates.',
+    description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PEOs - Programme Educational Objectives | JKKN Pharmacy',
-    description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals, professional development objectives and long-term learning outcomes for graduates.',
+    description: 'Programme Educational Objectives (PEOs) of pharmacy programmes at JKKN College. Career goals.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Campus Recruitment | Placement Drives | JKKN',
-  description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules, job opportunities and impressive placement statistics.',
+  description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/campus-recruitment/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/campus-recruitment/',
     title: 'Campus Recruitment | Placement Drives | JKKN',
-    description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules, job opportunities and impressive placement statistics.',
+    description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Campus Recruitment | Placement Drives | JKKN',
-    description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules, job opportunities and impressive placement statistics.',
+    description: 'Campus recruitment and placement drives at JKKN College of Pharmacy. Top pharmaceutical companies, interview schedules.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

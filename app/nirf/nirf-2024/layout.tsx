@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'NIRF 2024 Detailed Report | JKKN Pharmacy College Rankings',
-  description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach, perception metrics and comprehensive ranking analysis.',
+  description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/nirf/nirf-2024/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/nirf/nirf-2024/',
     title: 'NIRF 2024 Detailed Report | JKKN Pharmacy College Rankings',
-    description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach, perception metrics and comprehensive ranking analysis.',
+    description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NIRF 2024 Detailed Report | JKKN Pharmacy College Rankings',
-    description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach, perception metrics and comprehensive ranking analysis.',
+    description: 'Detailed NIRF 2024 report and data of JKKN College of Pharmacy. Teaching-learning, research, graduation outcomes, outreach.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

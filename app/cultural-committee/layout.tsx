@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Cultural Committee | Events & Festivals | JKKN Pharmacy',
-  description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows, celebrations and vibrant student cultural programmes.',
+  description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/cultural-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/cultural-committee/',
     title: 'Cultural Committee | Events & Festivals | JKKN Pharmacy',
-    description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows, celebrations and vibrant student cultural programmes.',
+    description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Cultural Committee | Events & Festivals | JKKN Pharmacy',
-    description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows, celebrations and vibrant student cultural programmes.',
+    description: 'Cultural committee and activities at JKKN College of Pharmacy. Annual cultural fest, competitions, talent shows.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

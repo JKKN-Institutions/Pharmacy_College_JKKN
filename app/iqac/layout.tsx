@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'IQAC | Internal Quality Assurance Cell | JKKN',
-  description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives, academic audits and continuous improvement mechanisms.',
+  description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/iqac/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/iqac/',
     title: 'IQAC | Internal Quality Assurance Cell | JKKN',
-    description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives, academic audits and continuous improvement mechanisms.',
+    description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IQAC | Internal Quality Assurance Cell | JKKN',
-    description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives, academic audits and continuous improvement mechanisms.',
+    description: 'IQAC at JKKN College of Pharmacy ensures quality in education. Committee members, functions, quality initiatives.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

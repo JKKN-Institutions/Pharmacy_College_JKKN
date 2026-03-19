@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Data Protection | JKKN College of Pharmacy',
-  description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security, cookie policy and comprehensive user privacy guidelines.',
+  description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/privacy-policy/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/privacy-policy/',
     title: 'Privacy Policy | Data Protection | JKKN College of Pharmacy',
-    description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security, cookie policy and comprehensive user privacy guidelines.',
+    description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Privacy Policy | Data Protection | JKKN College of Pharmacy',
-    description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security, cookie policy and comprehensive user privacy guidelines.',
+    description: 'Privacy policy of JKKN College of Pharmacy website. Data protection, personal information security.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

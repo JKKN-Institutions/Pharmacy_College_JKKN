@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'IPA Bhavani-Komarapalayam | Pharmacy Association',
-  description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy. Professional networking, continuing education, conferences and practice development.',
+  description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/ipa-bhavani-kumarapalayam/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/ipa-bhavani-kumarapalayam/',
     title: 'IPA Bhavani-Komarapalayam | Pharmacy Association',
-    description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy. Professional networking, continuing education, conferences and practice development.',
+    description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IPA Bhavani-Komarapalayam | Pharmacy Association',
-    description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy. Professional networking, continuing education, conferences and practice development.',
+    description: 'Indian Pharmaceutical Association (IPA) Bhavani-Komarapalayam branch at JKKN College of Pharmacy.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

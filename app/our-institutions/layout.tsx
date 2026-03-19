@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'JKKN Group Institutions | Pharmacy Nursing Engg',
-  description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools. Multi-disciplinary education campus.',
+  description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/our-institutions/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/our-institutions/',
     title: 'JKKN Group Institutions | Pharmacy Nursing Engg',
-    description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools. Multi-disciplinary education campus.',
+    description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'JKKN Group Institutions | Pharmacy Nursing Engg',
-    description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools. Multi-disciplinary education campus.',
+    description: 'JKKN Educational Institutions in Komarapalayam — Engineering College, Nursing College, Pharmacy College, Dental College and schools.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

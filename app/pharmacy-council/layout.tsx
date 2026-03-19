@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'PCI Approval | Pharmacy Council of India | JKKN College',
-  description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports, approval letters and regulatory recognition for all programmes.',
+  description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmacy-council/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/pharmacy-council/',
     title: 'PCI Approval | Pharmacy Council of India | JKKN College',
-    description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports, approval letters and regulatory recognition for all programmes.',
+    description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PCI Approval | Pharmacy Council of India | JKKN College',
-    description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports, approval letters and regulatory recognition for all programmes.',
+    description: 'JKKN College of Pharmacy PCI (Pharmacy Council of India) approval details. Compliance, inspection reports.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

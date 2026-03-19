@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Wi-Fi & Internet | Digital Campus | JKKN Pharmacy',
-  description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources, online access and smart campus infrastructure.',
+  description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/wifi/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/wifi/',
     title: 'Wi-Fi & Internet | Digital Campus | JKKN Pharmacy',
-    description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources, online access and smart campus infrastructure.',
+    description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Wi-Fi & Internet | Digital Campus | JKKN Pharmacy',
-    description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources, online access and smart campus infrastructure.',
+    description: 'Wi-Fi and internet facilities at JKKN College of Pharmacy. High-speed connectivity, digital learning resources.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

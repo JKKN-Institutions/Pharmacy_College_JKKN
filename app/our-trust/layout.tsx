@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'About Our Trust | JKKN Educational Institutions',
-  description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam, Tamil Nadu.',
+  description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/our-trust/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/our-trust/',
     title: 'About Our Trust | JKKN Educational Institutions',
-    description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam, Tamil Nadu.',
+    description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'About Our Trust | JKKN Educational Institutions',
-    description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam, Tamil Nadu.',
+    description: 'JKKN Educational Trust — Founder details, trust activities, social welfare, educational mission and the institutions under JKKN group in Komarapalayam.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

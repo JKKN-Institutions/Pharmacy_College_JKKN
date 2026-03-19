@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Newsletters & Publications | JKKN College of Pharmacy',
-  description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications, academic bulletins and institutional updates.',
+  description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/newsletters/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/newsletters/',
     title: 'Newsletters & Publications | JKKN College of Pharmacy',
-    description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications, academic bulletins and institutional updates.',
+    description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Newsletters & Publications | JKKN College of Pharmacy',
-    description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications, academic bulletins and institutional updates.',
+    description: 'Newsletters and publications from JKKN College of Pharmacy. College magazine, annual newsletters, student publications.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

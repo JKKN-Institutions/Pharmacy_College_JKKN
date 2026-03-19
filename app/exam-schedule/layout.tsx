@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Exam Schedule 2026 | Exam Dates | JKKN Pharmacy',
-  description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams, result dates and academic calendar for 2026.',
+  description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/exam-schedule/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/exam-schedule/',
     title: 'Exam Schedule 2026 | Exam Dates | JKKN Pharmacy',
-    description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams, result dates and academic calendar for 2026.',
+    description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Exam Schedule 2026 | Exam Dates | JKKN Pharmacy',
-    description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams, result dates and academic calendar for 2026.',
+    description: 'Examination schedule and important dates at JKKN College of Pharmacy. Internal exams, university exams, practical exams.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

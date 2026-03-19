@@ -8,14 +8,14 @@ const COURSE_DESCRIPTION =
 export const metadata: Metadata = {
   title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
   description:
-    'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
+    'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmacy-practice/',
   },
   openGraph: {
     title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
     description:
-      'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
+      'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management.',
     url: 'https://pharmacy.jkkn.ac.in/pharmacy-practice/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'M.Pharm Pharmacy Practice | Clinical | JKKN',
     description:
-      'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management. Hospital internships and clinical pharmacist opportunities.',
+      'M.Pharm in Pharmacy Practice at JKKN College. Clinical pharmacy specialisation, patient counselling, hospital pharmacy management.',
   },
 }
 

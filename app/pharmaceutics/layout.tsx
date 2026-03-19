@@ -4,7 +4,7 @@ import { CourseSchema, SpeakableWebPageSchema, FaqSchema } from '@/components/Sc
 
 export const metadata: Metadata = {
   title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
-  description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
+  description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmaceutics/',
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/pharmaceutics/',
     title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
-    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
+    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'M.Pharm Pharmaceutics | Syllabus & Career | JKKN',
-    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology. GPAT accepted, advanced research facilities and industry placements.',
+    description: 'M.Pharm in Pharmaceutics at JKKN Pharmacy, Komarapalayam. Specialise in drug formulation, NDDS, nanotechnology.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

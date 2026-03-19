@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Recognition & Accreditation | JKKN Pharmacy',
-  description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University, NAAC and other statutory approvals and quality certifications.',
+  description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation/',
     title: 'Recognition & Accreditation | JKKN Pharmacy',
-    description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University, NAAC and other statutory approvals and quality certifications.',
+    description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Recognition & Accreditation | JKKN Pharmacy',
-    description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University, NAAC and other statutory approvals and quality certifications.',
+    description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI, AICTE, Anna University.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

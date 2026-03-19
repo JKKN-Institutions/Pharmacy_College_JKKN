@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Drug Information Center | Pharmacovigilance | JKKN Pharmacy',
-  description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting, pharmacovigilance and patient education.',
+  description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/drug-information-center/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/drug-information-center/',
     title: 'Drug Information Center | Pharmacovigilance | JKKN Pharmacy',
-    description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting, pharmacovigilance and patient education.',
+    description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Drug Information Center | Pharmacovigilance | JKKN Pharmacy',
-    description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting, pharmacovigilance and patient education.',
+    description: 'Drug Information Center (DIC) at JKKN College of Pharmacy. Medication information services, adverse drug reaction reporting.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

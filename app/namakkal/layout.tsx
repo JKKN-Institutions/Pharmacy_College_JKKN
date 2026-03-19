@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Namakkal | JKKN — 10 km',
-  description: 'Best pharmacy college near Namakkal — JKKN College of Pharmacy, just 10 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
+  description: 'Best pharmacy college near Namakkal — JKKN College of Pharmacy, just 10 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D.',
   keywords: [
     'pharmacy college near namakkal',
     'best pharmacy college namakkal',

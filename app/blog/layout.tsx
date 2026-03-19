@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     template: '%s | JKKN Pharmacy Blog',
     default: 'Blog | Pharmacy Education | JKKN Pharmacy',
   },
-  description: 'Read the latest articles on pharmacy education, career guidance, admissions updates, and pharmaceutical industry insights from JKKN College of Pharmacy, Komarapalayam.',
+  description: 'Read the latest articles on pharmacy education, career guidance, admissions updates, and pharmaceutical industry insights from JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/blog/',
   },

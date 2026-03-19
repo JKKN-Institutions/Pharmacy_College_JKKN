@@ -6,13 +6,13 @@ const PHD_DESCRIPTION = "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences 
 
 export const metadata: Metadata = {
   title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
-  description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
+  description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/phd/',
   },
   openGraph: {
     title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
-    description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
+    description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships.',
     url: 'https://pharmacy.jkkn.ac.in/phd/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'PhD in Pharmacy | Doctoral Programme | JKKN College',
-    description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships. Drug discovery, NDDS research and academic career opportunities.',
+    description: 'Pursue PhD in Pharmaceutical Sciences at JKKN College of Pharmacy. 3-5 year research programme with fellowships.',
   },
 }
 

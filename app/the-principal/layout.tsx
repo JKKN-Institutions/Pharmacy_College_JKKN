@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Principal Profile | Leadership | JKKN College of Pharmacy',
-  description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions, leadership vision and message to students aspiring for pharmaceutical careers.',
+  description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/the-principal/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/the-principal/',
     title: 'Principal Profile | Leadership | JKKN College of Pharmacy',
-    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions, leadership vision and message to students aspiring for pharmaceutical careers.',
+    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Principal Profile | Leadership | JKKN College of Pharmacy',
-    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions, leadership vision and message to students aspiring for pharmaceutical careers.',
+    description: 'Meet the Principal of JKKN College of Pharmacy. Educational qualifications, research contributions.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Sports Committee | Athletics & Games | JKKN',
-  description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics, games competitions and promoting physical fitness.',
+  description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/sports-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/sports-committee/',
     title: 'Sports Committee | Athletics & Games | JKKN',
-    description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics, games competitions and promoting physical fitness.',
+    description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Sports Committee | Athletics & Games | JKKN',
-    description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics, games competitions and promoting physical fitness.',
+    description: 'Sports committee at JKKN College of Pharmacy. Organizing sports events, inter-college tournaments, athletics.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

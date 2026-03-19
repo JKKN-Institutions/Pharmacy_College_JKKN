@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'COE - Controller of Examinations | JKKN Pharmacy College',
-  description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation, certificates and examination administration.',
+  description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/coe/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/coe/',
     title: 'COE - Controller of Examinations | JKKN Pharmacy College',
-    description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation, certificates and examination administration.',
+    description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'COE - Controller of Examinations | JKKN Pharmacy College',
-    description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation, certificates and examination administration.',
+    description: 'Controller of Examinations office at JKKN College of Pharmacy. Exam notifications, hall tickets, results, revaluation.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

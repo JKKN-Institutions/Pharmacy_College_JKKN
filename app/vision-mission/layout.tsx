@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Vision & Mission | JKKN College of Pharmacy Komarapalayam',
-  description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research, innovation and producing competent pharmacy professionals.',
+  description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/vision-mission/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/vision-mission/',
     title: 'Vision & Mission | JKKN College of Pharmacy Komarapalayam',
-    description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research, innovation and producing competent pharmacy professionals.',
+    description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Vision & Mission | JKKN College of Pharmacy Komarapalayam',
-    description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research, innovation and producing competent pharmacy professionals.',
+    description: 'JKKN Pharmacy College vision and mission statements. Commitment to pharmaceutical education excellence, research.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

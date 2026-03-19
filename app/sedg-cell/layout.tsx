@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'SEDG Cell - SC/ST/OBC Welfare | JKKN Pharmacy College',
-  description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships, welfare schemes and inclusive education.',
+  description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/sedg-cell/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/sedg-cell/',
     title: 'SEDG Cell - SC/ST/OBC Welfare | JKKN Pharmacy College',
-    description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships, welfare schemes and inclusive education.',
+    description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'SEDG Cell - SC/ST/OBC Welfare | JKKN Pharmacy College',
-    description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships, welfare schemes and inclusive education.',
+    description: 'SEDG (Social Empowerment & Development Group) Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, scholarships.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

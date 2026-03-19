@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Competitive Exam Coaching | GPAT GATE | JKKN Pharmacy',
-  description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes, study materials and comprehensive career guidance.',
+  description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/competitive-examination/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/competitive-examination/',
     title: 'Competitive Exam Coaching | GPAT GATE | JKKN Pharmacy',
-    description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes, study materials and comprehensive career guidance.',
+    description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Competitive Exam Coaching | GPAT GATE | JKKN Pharmacy',
-    description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes, study materials and comprehensive career guidance.',
+    description: 'Competitive examination coaching at JKKN College of Pharmacy. GPAT, GATE, Civil Services preparation, coaching classes.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

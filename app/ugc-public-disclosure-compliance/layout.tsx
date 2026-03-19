@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'UGC Public Disclosure | Compliance | JKKN Pharmacy',
-  description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy. Transparency, statutory compliances, faculty details and institutional disclosures.',
+  description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/ugc-public-disclosure-compliance/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/ugc-public-disclosure-compliance/',
     title: 'UGC Public Disclosure | Compliance | JKKN Pharmacy',
-    description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy. Transparency, statutory compliances, faculty details and institutional disclosures.',
+    description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'UGC Public Disclosure | Compliance | JKKN Pharmacy',
-    description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy. Transparency, statutory compliances, faculty details and institutional disclosures.',
+    description: 'UGC mandated public disclosure and compliance information of JKKN College of Pharmacy.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

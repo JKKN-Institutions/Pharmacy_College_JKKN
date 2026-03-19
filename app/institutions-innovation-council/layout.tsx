@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'IIC - Institution Innovation Council | MHRD | JKKN Pharmacy',
-  description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons, ideation sessions and entrepreneurship promotion.',
+  description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/institutions-innovation-council/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/institutions-innovation-council/',
     title: 'IIC - Institution Innovation Council | MHRD | JKKN Pharmacy',
-    description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons, ideation sessions and entrepreneurship promotion.',
+    description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'IIC - Institution Innovation Council | MHRD | JKKN Pharmacy',
-    description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons, ideation sessions and entrepreneurship promotion.',
+    description: 'Institution Innovation Council (IIC) at JKKN College of Pharmacy. MHRD initiative, innovation activities, hackathons.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

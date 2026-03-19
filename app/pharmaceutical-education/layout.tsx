@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Pharmaceutical Education | Teaching Methods | JKKN Pharmacy',
-  description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies, experiential learning and competency-based education.',
+  description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmaceutical-education/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/pharmaceutical-education/',
     title: 'Pharmaceutical Education | Teaching Methods | JKKN Pharmacy',
-    description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies, experiential learning and competency-based education.',
+    description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmaceutical Education | Teaching Methods | JKKN Pharmacy',
-    description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies, experiential learning and competency-based education.',
+    description: 'Pharmaceutical education approach at JKKN College of Pharmacy. Student-centric learning, innovative teaching methodologies.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

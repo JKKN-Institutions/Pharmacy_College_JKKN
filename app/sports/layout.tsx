@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Sports & Physical Education | JKKN Pharmacy',
-  description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga, sports achievements and student wellness programs.',
+  description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/sports/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/sports/',
     title: 'Sports & Physical Education | JKKN Pharmacy',
-    description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga, sports achievements and student wellness programs.',
+    description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Sports & Physical Education | JKKN Pharmacy',
-    description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga, sports achievements and student wellness programs.',
+    description: 'Sports facilities and physical education at JKKN College of Pharmacy. Indoor and outdoor sports, tournaments, fitness center, yoga.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

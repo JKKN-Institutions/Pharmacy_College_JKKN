@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'General Rules | Student Guidelines | JKKN Pharmacy',
-  description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code, conduct guidelines and institutional policies.',
+  description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/general-rules/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/general-rules/',
     title: 'General Rules | Student Guidelines | JKKN Pharmacy',
-    description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code, conduct guidelines and institutional policies.',
+    description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'General Rules | Student Guidelines | JKKN Pharmacy',
-    description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code, conduct guidelines and institutional policies.',
+    description: 'General rules and regulations for students at JKKN College of Pharmacy. Academic rules, attendance, dress code.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

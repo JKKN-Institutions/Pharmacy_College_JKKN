@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Quality Policy | Academic Standards | JKKN Pharmacy',
-  description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement, quality assurance and maintaining high academic standards.',
+  description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/quality-policy/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/quality-policy/',
     title: 'Quality Policy | Academic Standards | JKKN Pharmacy',
-    description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement, quality assurance and maintaining high academic standards.',
+    description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Quality Policy | Academic Standards | JKKN Pharmacy',
-    description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement, quality assurance and maintaining high academic standards.',
+    description: 'Quality policy at JKKN College of Pharmacy. Commitment to excellence in pharmaceutical education, continuous improvement.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

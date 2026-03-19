@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Entrepreneurship Cell | Startup Incubation | JKKN Pharmacy',
-  description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College. Business skills, mentorship, funding support and entrepreneurial ecosystem.',
+  description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell/',
     title: 'Entrepreneurship Cell | Startup Incubation | JKKN Pharmacy',
-    description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College. Business skills, mentorship, funding support and entrepreneurial ecosystem.',
+    description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Entrepreneurship Cell | Startup Incubation | JKKN Pharmacy',
-    description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College. Business skills, mentorship, funding support and entrepreneurial ecosystem.',
+    description: 'Entrepreneurship Development Cell fostering innovation and startups at JKKN Pharmacy College.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

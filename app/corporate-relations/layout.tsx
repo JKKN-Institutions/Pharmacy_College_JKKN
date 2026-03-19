@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Corporate Relations | Industry Partnerships | JKKN Pharmacy',
-  description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations, guest lectures and placement tie-ups.',
+  description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/corporate-relations/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/corporate-relations/',
     title: 'Corporate Relations | Industry Partnerships | JKKN Pharmacy',
-    description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations, guest lectures and placement tie-ups.',
+    description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Corporate Relations | Industry Partnerships | JKKN Pharmacy',
-    description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations, guest lectures and placement tie-ups.',
+    description: 'Corporate relations and industry partnerships at JKKN College of Pharmacy. MoUs with pharmaceutical companies, industrial collaborations.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

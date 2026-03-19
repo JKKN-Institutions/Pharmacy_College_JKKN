@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Equal Opportunity Cell | Inclusive | JKKN Pharmacy',
-  description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance, inclusive education and equal opportunities for all.',
+  description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/equal-opportunity-cell/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/equal-opportunity-cell/',
     title: 'Equal Opportunity Cell | Inclusive | JKKN Pharmacy',
-    description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance, inclusive education and equal opportunities for all.',
+    description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Equal Opportunity Cell | Inclusive | JKKN Pharmacy',
-    description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance, inclusive education and equal opportunities for all.',
+    description: 'Equal Opportunity Cell at JKKN College of Pharmacy. Support for SC/ST/OBC students, financial assistance.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

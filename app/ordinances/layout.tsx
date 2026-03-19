@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Ordinances | Academic Policies | JKKN Pharmacy',
-  description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria, academic policies and regulatory framework.',
+  description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/ordinances/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/ordinances/',
     title: 'Ordinances | Academic Policies | JKKN Pharmacy',
-    description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria, academic policies and regulatory framework.',
+    description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ordinances | Academic Policies | JKKN Pharmacy',
-    description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria, academic policies and regulatory framework.',
+    description: 'University ordinances and academic regulations at JKKN College of Pharmacy. Examination rules, promotion criteria.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

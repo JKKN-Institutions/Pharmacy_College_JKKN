@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'NIRF 2025 Detailed Report | Latest Rankings | JKKN Pharmacy',
-  description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics, research output and detailed institutional ranking for 2025.',
+  description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/nirf/nirf-2025/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/nirf/nirf-2025/',
     title: 'NIRF 2025 Detailed Report | Latest Rankings | JKKN Pharmacy',
-    description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics, research output and detailed institutional ranking for 2025.',
+    description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NIRF 2025 Detailed Report | Latest Rankings | JKKN Pharmacy',
-    description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics, research output and detailed institutional ranking for 2025.',
+    description: 'Comprehensive NIRF 2025 report of JKKN College of Pharmacy. Performance indicators, quality metrics.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

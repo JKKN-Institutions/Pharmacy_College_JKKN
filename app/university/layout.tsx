@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Anna University Affiliation | JKKN Pharmacy',
-  description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations, examination system and academic governance.',
+  description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/university/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/university/',
     title: 'Anna University Affiliation | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations, examination system and academic governance.',
+    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Anna University Affiliation | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations, examination system and academic governance.',
+    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

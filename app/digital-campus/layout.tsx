@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Digital Campus & Smart Classrooms | JKKN Pharmacy College',
-  description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources, digital library and technology-enabled education.',
+  description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/digital-campus/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/digital-campus/',
     title: 'Digital Campus & Smart Classrooms | JKKN Pharmacy College',
-    description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources, digital library and technology-enabled education.',
+    description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Digital Campus & Smart Classrooms | JKKN Pharmacy College',
-    description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources, digital library and technology-enabled education.',
+    description: 'Digital campus initiatives at JKKN College of Pharmacy. Smart classrooms, e-learning, Wi-Fi, online resources.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

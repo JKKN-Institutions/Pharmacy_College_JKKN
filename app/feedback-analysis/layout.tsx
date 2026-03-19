@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Feedback Analysis | Stakeholder Feedback | JKKN',
-  description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback, employer feedback and continuous improvement based on stakeholder inputs.',
+  description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/feedback-analysis/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/feedback-analysis/',
     title: 'Feedback Analysis | Stakeholder Feedback | JKKN',
-    description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback, employer feedback and continuous improvement based on stakeholder inputs.',
+    description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Feedback Analysis | Stakeholder Feedback | JKKN',
-    description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback, employer feedback and continuous improvement based on stakeholder inputs.',
+    description: 'Feedback analysis at JKKN College of Pharmacy. Student feedback, parent feedback, alumni feedback.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

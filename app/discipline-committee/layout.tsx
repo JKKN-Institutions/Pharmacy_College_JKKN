@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Discipline Committee | Code of Conduct | JKKN',
-  description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules, behavior guidelines and maintaining professional campus discipline.',
+  description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/discipline-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/discipline-committee/',
     title: 'Discipline Committee | Code of Conduct | JKKN',
-    description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules, behavior guidelines and maintaining professional campus discipline.',
+    description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Discipline Committee | Code of Conduct | JKKN',
-    description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules, behavior guidelines and maintaining professional campus discipline.',
+    description: 'Discipline committee at JKKN College of Pharmacy. Student code of conduct, disciplinary rules.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Barrier-Free Campus | Accessible | JKKN Pharmacy',
-  description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets, assistive devices and inclusive infrastructure for differently-abled.',
+  description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/barrier-free-environment/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/barrier-free-environment/',
     title: 'Barrier-Free Campus | Accessible | JKKN Pharmacy',
-    description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets, assistive devices and inclusive infrastructure for differently-abled.',
+    description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Barrier-Free Campus | Accessible | JKKN Pharmacy',
-    description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets, assistive devices and inclusive infrastructure for differently-abled.',
+    description: 'Barrier-free environment and accessibility features at JKKN College of Pharmacy. Ramps, accessible toilets.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

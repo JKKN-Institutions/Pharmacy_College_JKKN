@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Photo Gallery | Campus Life at JKKN Pharmacy College',
-  description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports, convocation ceremonies and vibrant student life.',
+  description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/gallery/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/gallery/',
     title: 'Photo Gallery | Campus Life at JKKN Pharmacy College',
-    description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports, convocation ceremonies and vibrant student life.',
+    description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Photo Gallery | Campus Life at JKKN Pharmacy College',
-    description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports, convocation ceremonies and vibrant student life.',
+    description: 'View photos of JKKN College of Pharmacy — campus infrastructure, laboratories, classrooms, events, cultural activities, sports.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

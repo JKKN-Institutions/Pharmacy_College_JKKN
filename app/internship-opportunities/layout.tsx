@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Internship | Industrial Training | JKKN Pharmacy',
-  description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training, research internships and practical exposure.',
+  description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/internship-opportunities/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/internship-opportunities/',
     title: 'Internship | Industrial Training | JKKN Pharmacy',
-    description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training, research internships and practical exposure.',
+    description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Internship | Industrial Training | JKKN Pharmacy',
-    description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training, research internships and practical exposure.',
+    description: 'Internship and industrial training opportunities at JKKN College of Pharmacy. Pharma company internships, hospital training.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

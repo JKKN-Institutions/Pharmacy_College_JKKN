@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Institutional Development Plan | JKKN Pharmacy',
-  description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development, academic enhancement and future growth initiatives.',
+  description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/institutional-development-plan/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/institutional-development-plan/',
     title: 'Institutional Development Plan | JKKN Pharmacy',
-    description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development, academic enhancement and future growth initiatives.',
+    description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Institutional Development Plan | JKKN Pharmacy',
-    description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development, academic enhancement and future growth initiatives.',
+    description: 'Institutional Development Plan of JKKN College of Pharmacy. Strategic roadmap, infrastructure development.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

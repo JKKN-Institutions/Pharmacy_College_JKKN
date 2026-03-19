@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Youth Red Cross | Social Service | JKKN College of Pharmacy',
-  description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training, blood donation and humanitarian service activities.',
+  description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/youth-red-cross/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/youth-red-cross/',
     title: 'Youth Red Cross | Social Service | JKKN College of Pharmacy',
-    description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training, blood donation and humanitarian service activities.',
+    description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Youth Red Cross | Social Service | JKKN College of Pharmacy',
-    description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training, blood donation and humanitarian service activities.',
+    description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

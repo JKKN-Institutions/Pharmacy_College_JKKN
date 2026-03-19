@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'ICC - Women Safety & Harassment Prevention | JKKN Pharmacy',
-  description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy. Women safety, complaint redressal and gender-sensitization initiatives.',
+  description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/internal-complaints-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/internal-complaints-committee/',
     title: 'ICC - Women Safety & Harassment Prevention | JKKN Pharmacy',
-    description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy. Women safety, complaint redressal and gender-sensitization initiatives.',
+    description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ICC - Women Safety & Harassment Prevention | JKKN Pharmacy',
-    description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy. Women safety, complaint redressal and gender-sensitization initiatives.',
+    description: 'Internal Complaints Committee (ICC) for prevention of sexual harassment at JKKN College of Pharmacy.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

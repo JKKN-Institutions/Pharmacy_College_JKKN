@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Hostel | Boys & Girls Hostel | JKKN Pharmacy',
-  description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security, recreation facilities and safe campus environment.',
+  description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/hostel/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/hostel/',
     title: 'Hostel | Boys & Girls Hostel | JKKN Pharmacy',
-    description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security, recreation facilities and safe campus environment.',
+    description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Hostel | Boys & Girls Hostel | JKKN Pharmacy',
-    description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security, recreation facilities and safe campus environment.',
+    description: 'Separate hostel facilities for boys and girls at JKKN College of Pharmacy. Comfortable rooms, mess facility, 24/7 security.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

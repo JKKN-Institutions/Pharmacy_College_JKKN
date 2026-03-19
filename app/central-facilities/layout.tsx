@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Central Instrumentation Facility | JKKN Pharmacy',
-  description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC, UV-Vis spectrophotometer and research equipment for students and faculty.',
+  description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/central-facilities/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/central-facilities/',
     title: 'Central Instrumentation Facility | JKKN Pharmacy',
-    description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC, UV-Vis spectrophotometer and research equipment for students and faculty.',
+    description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Central Instrumentation Facility | JKKN Pharmacy',
-    description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC, UV-Vis spectrophotometer and research equipment for students and faculty.',
+    description: 'Central Instrumentation Facility at JKKN College of Pharmacy. Advanced analytical instruments, HPLC.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

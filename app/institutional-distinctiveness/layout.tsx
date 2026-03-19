@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Institutional Distinctiveness | JKKN Pharmacy',
-  description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics, signature programmes and what sets us apart in pharmaceutical education.',
+  description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/institutional-distinctiveness/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/institutional-distinctiveness/',
     title: 'Institutional Distinctiveness | JKKN Pharmacy',
-    description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics, signature programmes and what sets us apart in pharmaceutical education.',
+    description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Institutional Distinctiveness | JKKN Pharmacy',
-    description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics, signature programmes and what sets us apart in pharmaceutical education.',
+    description: 'Institutional distinctiveness of JKKN College of Pharmacy. Unique features, distinctive characteristics.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
