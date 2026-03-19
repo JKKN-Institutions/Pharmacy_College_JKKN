@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import Image from 'next/image'
 import { AlertTriangle, BarChart, BookOpen, Bot, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, Globe, GraduationCap, HelpCircle, Hospital, IndianRupee, Landmark, Laptop, Leaf, Lightbulb, Microscope, Pill, Printer, Recycle, Scale, ScrollText, Smartphone, Sparkles, Star, Syringe, Target, TestTube, ChevronDown, ArrowRight } from 'lucide-react'
 
@@ -33,7 +33,7 @@ export default function PhDPage() {
     },
     {
       question: "Can I do Ph.D in Pharmacy after B.Pharm directly?",
-      answer: "Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select premier institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge."
+      answer: "Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select top institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge."
     },
     {
       question: "What are the career opportunities after Ph.D in Pharmacy?",
@@ -53,12 +53,16 @@ export default function PhDPage() {
     },
     {
       question: "How many publications are required for Ph.D completion?",
-      answer: "Minimum publication requirements typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some premier institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity — papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements."
+      answer: "Minimum publication requirements typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some top institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity — papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements."
     }
   ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Ph.D', url: 'https://pharmacy.jkkn.ac.in/phd' }
+      ]} />
       <CourseSchema
         name="Doctor of Philosophy (Ph.D) in Pharmacy"
         description="Ph.D in Pharmacy is a research-focused doctoral programme in pharmaceutical sciences that develops independent researchers and scholars. The programme involves advanced coursework, comprehensive examinations, original research, and dissertation submission contributing new knowledge to pharmaceutical sciences, drug discovery, novel drug delivery systems, and healthcare innovation."
@@ -1498,7 +1502,7 @@ export default function PhDPage() {
             {expandedFAQ === 4 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select premier institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research in a seamless pathway. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Selection through entrance test (NIPER JEE/GATE) and interview. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries still prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge.
+                  Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select top institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research in a seamless pathway. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Selection through entrance test (NIPER JEE/GATE) and interview. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries still prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge.
                 </p>
               </div>
             )}
@@ -1618,7 +1622,7 @@ export default function PhDPage() {
             {expandedFAQ === 9 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Minimum publication requirements vary by institution but typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some premier institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity – papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements. Publications significantly enhance post-Ph.D career opportunities and demonstrate research competence.
+                  Minimum publication requirements vary by institution but typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some top institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity – papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements. Publications significantly enhance post-Ph.D career opportunities and demonstrate research competence.
                 </p>
               </div>
             )}
@@ -1710,7 +1714,7 @@ export default function PhDPage() {
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
                 <div>
-                  <span className="font-bold">Alumni Success:</span> Ph.D graduates placed in premier institutions
+                  <span className="font-bold">Alumni Success:</span> Ph.D graduates placed in top institutions
                 </div>
               </li>
             </ul>

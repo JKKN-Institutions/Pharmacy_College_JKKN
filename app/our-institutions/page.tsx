@@ -46,7 +46,7 @@ export default function OurInstitutionsPage() {
             </p>
 
             <p className="text-justify">
-              At JKKN Institutions, a culture of commitment, transparency, and teamwork is fostered. The institutions are renowned as knowledge centers that offer abundant opportunities and support, fueling a spirit of initiative and success. JKKN Institutions continuously strives for progressive enhancements to cater to the evolving needs of students and faculty members.
+              At JKKN Institutions, a culture of commitment, transparency, and teamwork is fostered. The institutions are recognised as knowledge centers that offer abundant opportunities and support, fueling a spirit of initiative and success. JKKN Institutions continuously strives for progressive enhancements to cater to the evolving needs of students and faculty members.
             </p>
 
             <p className="text-justify">

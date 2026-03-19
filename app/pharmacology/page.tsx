@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacologyPage() {
@@ -57,6 +57,10 @@ export default function PharmacologyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmacology', url: 'https://pharmacy.jkkn.ac.in/pharmacology' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmacology"
         description="M.Pharm Pharmacology is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug action mechanisms, toxicology, preclinical research, drug screening, and molecular pharmacology. Prepares graduates for careers in pharmacology research, safety assessment, and clinical research organisations."
@@ -476,7 +480,7 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
-              <span>Preference in Ph.D admissions at premier institutions (IITs, CSIR labs, NIPER)</span>
+              <span>Preference in Ph.D admissions at top institutions (IITs, CSIR labs, NIPER)</span>
             </li>
           </ul>
         </div>
@@ -1569,7 +1573,7 @@ export default function PharmacologyPage() {
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">2. Strong Academic & Research Career Path</h3>
             <p className="text-gray-800 leading-relaxed">
-              Pharmacology offers the clearest pathway to academic careers among pharmacy specialisations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at premier institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
+              Pharmacology offers the clearest pathway to academic careers among pharmacy specialisations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at top institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
             </p>
           </div>
 

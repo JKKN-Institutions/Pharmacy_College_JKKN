@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { FaqSchema, CourseSchema } from '@/components/SchemaOrg'
+import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -101,6 +101,10 @@ export default function PharmDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharm.D', url: 'https://pharmacy.jkkn.ac.in/pharm-d' }
+      ]} />
       <FaqSchema faqs={faqs} />
       <CourseSchema
         name="Doctor of Pharmacy (Pharm.D)"
@@ -2316,7 +2320,7 @@ export default function PharmDPage() {
             <ol className="space-y-2 text-xs sm:text-sm text-[#002309] list-decimal list-inside">
               <li>Register on National Scholarship Portal (scholarships.gov.in) immediately after admission</li>
               <li>Keep income certificates, caste certificates (if applicable), bank account details ready</li>
-              <li>Check your college's scholarship office for institution-specific schemes</li>
+              <li>Check the college's scholarship office for institution-specific schemes</li>
               <li>Apply early - Many scholarships are first-come-first-served</li>
               <li>Maintain required attendance (usually 75%+) and academic performance</li>
             </ol>
@@ -2394,7 +2398,7 @@ export default function PharmDPage() {
         </div>
 
         <div className="mb-4">
-          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">Premier Institutions for Pharm.D in India</h3>
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">Top Institutions for Pharm.D in India</h3>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
@@ -2465,7 +2469,7 @@ export default function PharmDPage() {
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">Bombay College of Pharmacy</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Government-aided</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Location:</span> Mumbai, Maharashtra</p>
-              <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> Premier institution, Mumbai hospital network, Research focus</p>
+              <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> Established institution, Mumbai hospital network, Research focus</p>
               <p className="text-xs font-semibold text-[#006837]">Fee: ~₹1-1.5 lakhs/year</p>
             </div>
 

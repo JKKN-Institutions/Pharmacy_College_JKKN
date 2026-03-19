@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import { GraduationCap, ClipboardList, BookOpen, Briefcase, Building2, Scale, FileText, IndianRupee, Target, Star, HelpCircle, ScrollText, CheckCircle, ChevronDown, ArrowRight } from 'lucide-react';
-import { FaqSchema, CourseSchema } from '@/components/SchemaOrg';
+import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 export default function BPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -104,6 +104,10 @@ export default function BPharmacyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'B.Pharm', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy' }
+      ]} />
       <FaqSchema faqs={faqs} />
       <CourseSchema
         name="Bachelor of Pharmacy (B.Pharm)"
@@ -487,7 +491,7 @@ export default function BPharmacyPage() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-gray-700">Dispense medications in premier healthcare institute</span>
+                  <span className="text-gray-700">Dispense medications in leading healthcare institutions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>

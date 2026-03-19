@@ -64,7 +64,7 @@ export default function IPABhavaniKomarapalayamPage() {
                   The branch organizes a wide range of events and activities throughout the year, including:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
-                  <li className="leading-relaxed">– Guest lectures by renowned pharmaceutical experts</li>
+                  <li className="leading-relaxed">– Guest lectures by experienced pharmaceutical experts</li>
                   <li className="leading-relaxed">– Industrial visits to leading pharmaceutical companies</li>
                   <li className="leading-relaxed">– Research paper presentations and discussions</li>
                   <li className="leading-relaxed">– Workshops on emerging technologies and best practices</li>
