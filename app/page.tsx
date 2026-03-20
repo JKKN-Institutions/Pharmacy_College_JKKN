@@ -6,6 +6,7 @@ import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
+import EventsSection from '@/components/EventsSection'
 
 export default function Home() {
   const homepageFaqs = [
@@ -908,6 +909,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <EventsSection />
 
       {/* Admissions Section */}
       <section className="bg-[#FBFBEE] py-8 sm:py-12 md:py-16">

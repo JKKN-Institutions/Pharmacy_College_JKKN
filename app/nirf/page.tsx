@@ -17,14 +17,9 @@ export default function NIRFPage() {
 
           {/* NIRF Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 md:gap-8 lg:gap-10 xl:gap-12">
-            {/* NIRF-2024 Button */}
-            <a href="/nirf/nirf-2024" className="bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-lg sm:text-xl md:text-2xl px-8 sm:px-10 md:px-12 lg:px-16 py-5 sm:py-6 md:py-7 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
-              NIRF-2024
-            </a>
-
-            {/* NIRF-2025 Button */}
-            <a href="/nirf/nirf-2025" className="bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-lg sm:text-xl md:text-2xl px-8 sm:px-10 md:px-12 lg:px-16 py-5 sm:py-6 md:py-7 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
-              NIRF-2025
+            {/* NIRF-2026 Button */}
+            <a href="/pdf/NIRF-2026(Pharmacy, onnovation, SDG and overall).pdf" target="_blank" rel="noopener noreferrer" className="bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-lg sm:text-xl md:text-2xl px-8 sm:px-10 md:px-12 lg:px-16 py-5 sm:py-6 md:py-7 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
+              NIRF-2026
             </a>
           </div>
         </div>

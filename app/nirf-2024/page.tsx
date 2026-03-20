@@ -1,5 +1,4 @@
 import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 
 export default function NIRF2024Page() {
   return (
@@ -45,7 +44,6 @@ export default function NIRF2024Page() {
         </div>
       </main>
 
-      <Footer />
     </div>
   )
 }

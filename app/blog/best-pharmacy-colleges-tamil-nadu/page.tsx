@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import Link from 'next/link';
 import {
@@ -746,7 +745,6 @@ export default function BestPharmacyCollegesTamilNadu() {
         </section>
       </article>
 
-      <Footer />
       <ScrollToTop />
     </main>
   );

@@ -177,7 +177,7 @@ export default async function CampusBlogPost({
         relatedPosts={relatedPosts ?? []}
         initialComments={initialComments ?? []}
       />
-      <Footer />
+
       <ScrollToTop />
     </div>
   );
