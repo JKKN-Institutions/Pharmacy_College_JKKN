@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Erode | JKKN Pharmacy — Just 35 km Away',
-  description: 'Looking for the best pharmacy college near Erode? JKKN College of Pharmacy is just 35 km (40-50 min) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  title: 'Best Pharmacy College Near Erode | JKKN — 35 km',
+  description: 'Best pharmacy college near Erode — JKKN College of Pharmacy, 35 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near erode',
     'best pharmacy college erode',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Erode - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Erode | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 35 km from Erode via NH-544. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

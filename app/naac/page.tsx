@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 // Navigation sections data
 const navigationSections = [
@@ -21,6 +22,10 @@ export default function NAACPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'NAAC', url: 'https://pharmacy.jkkn.ac.in/naac' }
+      ]} />
       <Header />
 
       {/* Main Container */}
@@ -82,10 +87,10 @@ export default function NAACPage() {
                         National Assessment and Accreditation Council (NAAC)
                       </h2>
                       <p className="text-gray-700 leading-relaxed mb-4">
-                        JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>. This recognition reflects our commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
+                        JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>. This recognition reflects the college's commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
                       </p>
                       <p className="text-gray-700 leading-relaxed mb-4">
-                        Our accreditation by NAAC underscores:
+                        The NAAC accreditation underscores:
                       </p>
                       <ul className="space-y-3 mb-4">
                         <li className="flex items-start">
@@ -101,7 +106,7 @@ export default function NAACPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">
-                            <strong>State-of-the-art infrastructure</strong> and cutting-edge research facilities.
+                            <strong>Advanced infrastructure</strong> and modern research facilities.
                           </span>
                         </li>
                         <li className="flex items-start">
@@ -114,7 +119,7 @@ export default function NAACPage() {
                         </li>
                       </ul>
                       <p className="text-gray-700 leading-relaxed">
-                        We remain dedicated to <strong>enhancing quality education, innovation, and holistic development</strong>, ensuring our students excel in the pharmaceutical field.
+                        JKKN College of Pharmacy remains dedicated to <strong>enhancing quality education, innovation, and holistic development</strong>, ensuring students excel in the pharmaceutical field.
                       </p>
                     </div>
                   </div>

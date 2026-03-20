@@ -24,7 +24,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Entrepreneurship Development Cell
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. Our mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
+                  The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. The EDC's mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
                 </p>
               </div>
 
@@ -34,7 +34,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Vision
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  Our vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
+                  The EDC's vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Mission
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. We aim to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
+                  The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
                 </p>
               </div>
 

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import { HowToSchema, FaqSchema } from '@/components/SchemaOrg'
+import { HowToSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { GraduationCap, FileText, ClipboardCheck, Calendar, IndianRupee, Award, Phone, Mail, MessageCircle, ChevronDown, CheckCircle, Clock, Users, BookOpen } from 'lucide-react'
 
 export default function AdmissionProcessPage() {
@@ -42,7 +42,7 @@ export default function AdmissionProcessPage() {
   const admissionFaqs = [
     {
       question: "When do admissions open for JKKN Pharmacy College?",
-      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, our official website pharmacy.jkkn.ac.in, and social media channels."
+      answer: "Admissions for JKKN College of Pharmacy typically open after the announcement of 12th standard results (usually May-June 2026). Application forms are issued five days before the Higher Secondary Examination results in Tamil Nadu. The counselling process begins in June-July. Exact dates for B.Pharm, M.Pharm, Pharm.D, and PhD programmes are announced through advertisements in leading newspapers, the official website pharmacy.jkkn.ac.in, and social media channels."
     },
     {
       question: "What is the application fee for pharmacy programmes?",
@@ -76,6 +76,10 @@ export default function AdmissionProcessPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Admission Process', url: 'https://pharmacy.jkkn.ac.in/admission-process' }
+      ]} />
       <HowToSchema
         name="How to Apply for Admission at JKKN College of Pharmacy"
         description="Step-by-step guide for applying to B.Pharm, M.Pharm, Pharm.D, and PhD programmes at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu."
@@ -111,10 +115,10 @@ export default function AdmissionProcessPage() {
             </h2>
             <div className="text-sm sm:text-base text-gray-700 leading-relaxed space-y-4">
               <p>
-                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. Our admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
+                JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. The admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
               <p>
-                The college offers comprehensive pharmacy education with state-of-the-art infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the premier pharmacy institutions in South India.
+                The college offers comprehensive pharmacy education with modern infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the recognized pharmacy institutions in South India.
               </p>
             </div>
           </div>
@@ -744,7 +748,7 @@ export default function AdmissionProcessPage() {
                       admissions@jkkn.ac.in
                     </a>
                     <p className="text-xs sm:text-sm text-white/80 mt-1">
-                      We respond within 24 hours
+                      Response within 24 hours
                     </p>
                   </div>
                 </div>
@@ -784,7 +788,7 @@ export default function AdmissionProcessPage() {
             </h3>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                We welcome applications from international students and NRIs who aspire to pursue their higher education in India. We ensure a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
+                JKKN College of Pharmacy welcomes applications from international students and NRIs who aspire to pursue their higher education in India. The college ensures a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
               </p>
             </div>
           </div>

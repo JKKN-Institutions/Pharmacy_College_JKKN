@@ -9,7 +9,6 @@ import {
   SpeakableWebPageSchema,
   ArticleSchema,
   BreadcrumbListSchema,
-  OrganizationSchema,
 } from '@/components/SchemaOrg';
 import {
   ChevronDown,
@@ -55,7 +54,7 @@ const faqs = [
   {
     question: 'Which pharmacy college is near Salem or Namakkal?',
     answer:
-      'JKKN College of Pharmacy is located in Komarapalayam, Namakkal district, on NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from Salem city. Established in 1987, JKKN is PCI-approved, NAAC A Grade accredited, and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Other Namakkal pharmacy colleges include JKK Munirajah Medical Research Foundation and Senghundhar College of Pharmacy.',
+      'JKKN College of Pharmacy is located in Komarapalayam, Namakkal district, on NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from Salem city. Established in 1985, JKKN is PCI-approved, NAAC A Grade accredited, and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Other Namakkal pharmacy colleges include JKK Munirajah Medical Research Foundation and Senghundhar College of Pharmacy.',
   },
   {
     question:
@@ -151,8 +150,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
   return (
     <main className="min-h-screen bg-white">
-      {/* Schema Markup — All 5 JSON-LD Schemas */}
-      <OrganizationSchema />
+      {/* Schema Markup */}
       <ArticleSchema
         headline="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements, Admission"
         description="Comprehensive comparison of top pharmacy colleges in Tamil Nadu based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."
@@ -500,10 +498,10 @@ export default function BestPharmacyCollegesTamilNadu() {
             <p>
               JKKN College of Pharmacy (formally known as JKK Nattraja
               College of Pharmacy) is a PCI-approved pharmacy institution
-              established in 1987 in Komarapalayam, Namakkal District, Tamil
+              established in 1985 in Komarapalayam, Namakkal District, Tamil
               Nadu. Affiliated to Tamil Nadu Dr. M.G.R. Medical University and
               accredited with NAAC A Grade, JKKN College of Pharmacy offers
-              B.Pharm (4 years, 60 seats), M.Pharm (2 years, 5
+              B.Pharm (4 years, 100 seats), M.Pharm (2 years, 5
               specialisations), and Pharm.D (6 years, 30 seats) programs.
             </p>
             <p className="mt-4">
@@ -527,7 +525,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 program: 'B.Pharm',
                 duration: '4 Years',
-                seats: '60 Seats',
+                seats: '100 Seats',
                 icon: GraduationCap,
               },
               {

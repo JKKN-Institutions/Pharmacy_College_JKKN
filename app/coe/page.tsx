@@ -52,14 +52,14 @@ export default function COEPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Center of Excellence (COE)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Center of Excellence (COE) strategic plan aims to establish specialised centers that promote advanced learning, cutting-edge research, and innovation in specific pharmaceutical disciplines.
+                      The Center of Excellence (COE) strategic plan aims to establish specialised centers that promote advanced learning, applied research, and innovation in specific pharmaceutical disciplines.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To become a nationally recognised hub for excellence in pharmaceutical sciences through specialised centers that deliver world-class education, research, and innovation.
+                      To become a nationally recognised hub for excellence in pharmaceutical sciences through specialised centers that deliver high-standard education, research, and innovation.
                     </p>
                   </div>
 
@@ -76,13 +76,13 @@ export default function COEPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Attract renowned faculty and researchers in specialised fields</span>
+                        <span className="text-sm sm:text-base text-gray-700">Attract experienced faculty and researchers in specialised fields</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Develop state-of-the-art infrastructure and research facilities</span>
+                        <span className="text-sm sm:text-base text-gray-700">Develop well-equipped infrastructure and research facilities</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

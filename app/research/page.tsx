@@ -17,13 +17,13 @@ export default function ResearchPage() {
             Research at JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto">
-            Advancing pharmaceutical sciences through cutting-edge research and innovation
+            Advancing pharmaceutical sciences through advanced research and innovation
           </p>
         </div>
 
         {/* Research Statistics Highlight */}
         <div className="bg-gradient-to-r from-[#0F6B3E] to-[#7CAF5A] rounded-xl p-6 sm:p-8 mb-8 text-white">
-          <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Our Research Impact</h2>
+          <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Research Impact</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             <div className="text-center">
               <div className="flex justify-center mb-2">
@@ -63,7 +63,7 @@ export default function ResearchPage() {
         {/* Introduction */}
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
           <p className="text-justify">
-            Research at JKKN College of Pharmacy is driven by our unwavering commitment to achieve our institution's vision and mission. As a leading global innovative solutions provider, we understand the paramount importance of research in addressing the ever-changing needs of society. Our vision pushes us to excel in the field of pharmaceutical research and take on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, we firmly believe in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. Our research activities revolve around this concept, enabling us to create a platform that opens up exponential opportunities for all stakeholders.
+            Research at JKKN College of Pharmacy is driven by an unwavering commitment to achieve the institution's vision and mission. As a leading global innovative solutions provider, the college understands the paramount importance of research in addressing the ever-changing needs of society. The institution's vision drives excellence in the field of pharmaceutical research and taking on challenges that have a transformative impact on the world. At JKKN College of Pharmacy, the college firmly believes in the power of bioconvergence – a multidisciplinary approach that synergizes various branches of science to unlock unprecedented potential. The research activities revolve around this concept, enabling the creation of a platform that opens up exponential opportunities for all stakeholders.
           </p>
 
           {/* Research Activities */}
@@ -72,7 +72,7 @@ export default function ResearchPage() {
               Research Activities:
             </h2>
             <p className="text-justify">
-              At JKKN College of Pharmacy, research is at the heart of our academic pursuits. Our faculty and students are actively engaged in cutting-edge research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and state-of-the-art facilities, we endeavour to address pressing health challenges and create impactful solutions. Our research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
+              At JKKN College of Pharmacy, research is at the heart of all academic pursuits. Faculty and students are actively engaged in advanced research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and modern facilities, the college endeavours to address pressing health challenges and create impactful solutions. The research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
             </p>
           </div>
 
@@ -104,7 +104,7 @@ export default function ResearchPage() {
               Publications:
             </h2>
             <p className="text-justify mb-6">
-              We take immense pride in the scholarly contributions made by our faculty and students. Our researchers have published <strong>98 research papers</strong> over the past 7 years (2018-2025) in esteemed national and international journals, reflecting our commitment to disseminating knowledge and promoting scientific advancements. By sharing our findings with the global community, we strive to foster meaningful conversations and inspire further research in the pharmaceutical field.
+              JKKN College of Pharmacy takes immense pride in the scholarly contributions made by its faculty and students. Researchers at the college have published <strong>98 research papers</strong> over the past 7 years (2018-2025) in esteemed national and international journals, reflecting the institution's commitment to disseminating knowledge and promoting scientific advancements. By sharing these findings with the global community, the college strives to foster meaningful conversations and inspire further research in the pharmaceutical field.
             </p>
 
             {/* Publications Highlights */}
@@ -221,7 +221,7 @@ export default function ResearchPage() {
               Institutional Ethics Committee
             </h2>
             <p className="text-justify mb-4">
-              JKKN College of Pharmacy Institutional Ethics Committee (JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognised and approved Ethics Committee by the Department of Health Research, Government of India, we are entrusted with the responsibility of reviewing research proposals from within our institution as well as from external sources. The scope of our committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. We accept proposals for the following types of studies:
+              JKKN College of Pharmacy Institutional Ethics Committee (JKKNCP-IEC) is dedicated to promoting ethical research practices and protecting the rights and well-being of human participants involved in research studies. As a recognised and approved Ethics Committee by the Department of Health Research, Government of India, the committee is entrusted with the responsibility of reviewing research proposals from within the institution as well as from external sources. The scope of the committee's review includes a wide range of projects, ensuring comprehensive oversight of research involving human participants. The committee accepts proposals for the following types of studies:
             </p>
             <ul className="space-y-2 ml-6">
               <li className="text-gray-700">• Academic Clinical trials</li>
@@ -232,10 +232,10 @@ export default function ResearchPage() {
               <li className="text-gray-700">• All research proposals of funded and non-funded studies involving human subjects i.e. PG dissertation or research, UG research, Ph.D and any other research studies</li>
             </ul>
             <p className="text-justify mt-4 mb-4">
-              Our Ethics Committee is committed to ensuring the highest standards of ethical conduct in research. By providing a transparent and efficient review process, we strive to safeguard the rights, safety, and welfare of all participants involved.
+              The Ethics Committee is committed to ensuring the highest standards of ethical conduct in research. By providing a transparent and efficient review process, the committee strives to safeguard the rights, safety, and welfare of all participants involved.
             </p>
             <p className="text-justify mb-2">
-              If you would like to submit a research proposal for review by our committee, please contact.
+              If you would like to submit a research proposal for review by the committee, please contact.
             </p>
             <div className="ml-6">
               <p className="text-gray-700 font-semibold">The Member Secretary</p>
@@ -254,7 +254,7 @@ export default function ResearchPage() {
               Collaborations:
             </h2>
             <p className="text-justify">
-              We firmly believe that meaningful collaborations are key to driving innovation. To strengthen our research endeavours, we actively collaborate with reputed academic institutions, pharmaceutical industries, and healthcare organisations. These partnerships provide valuable opportunities for knowledge exchange, joint research projects, and access to diverse perspectives, enhancing the quality and impact of our research outcomes.
+              JKKN College of Pharmacy firmly believes that meaningful collaborations are key to driving innovation. To strengthen research endeavours, the college actively collaborates with reputed academic institutions, pharmaceutical industries, and healthcare organisations. These partnerships provide valuable opportunities for knowledge exchange, joint research projects, and access to diverse perspectives, enhancing the quality and impact of research outcomes.
             </p>
           </div>
 
@@ -264,7 +264,7 @@ export default function ResearchPage() {
               Conferences and Symposia:
             </h2>
             <p className="text-justify">
-              At JKKN College of Pharmacy, we understand the significance of scientific discourse and networking. We regularly organise conferences, symposia, and seminars that bring together experts from academia, industry, and government bodies. These events serve as platforms for sharing research insights, exploring emerging trends, and fostering connections that transcend geographical boundaries.
+              At JKKN College of Pharmacy, the college understands the significance of scientific discourse and networking. The college regularly organises conferences, symposia, and seminars that bring together experts from academia, industry, and government bodies. These events serve as platforms for sharing research insights, exploring emerging trends, and fostering connections that transcend geographical boundaries.
             </p>
           </div>
         </div>

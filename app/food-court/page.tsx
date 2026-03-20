@@ -41,12 +41,12 @@ export default function FoodCourtPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
-            Experience culinary delight at our College's vibrant food court, where an array of delectable dishes awaits. Boasting a diverse selection of food vendors, our food court serves as a bustling epicenter of gastronomic exploration. From local delicacies to global cuisines, our handpicked vendors ensure a fusion of quality, hygiene, and scrumptiousness in every bite. Whether it's a swift snack, a leisurely meal, or a coffee rendezvous with friends, our well-established canteen is designed to cater to your cravings and socializing needs. The food court isn't just a place to eat; it's a lively hub of activity where flavors from different corners of the world converge to offer an unforgettable culinary journey. Embrace the richness of taste and the tapestry of cultures at JKKN's food court – your gateway to a world of flavors!
+            Experience culinary delight at JKKN College of Pharmacy's vibrant food court, where an array of delectable dishes awaits. Boasting a diverse selection of food vendors, the food court serves as a bustling epicenter of gastronomic exploration. From local delicacies to global cuisines, handpicked vendors ensure a fusion of quality, hygiene, and scrumptiousness in every bite. Whether it's a swift snack, a leisurely meal, or a coffee rendezvous with friends, the well-established canteen is designed to cater to every craving and socializing need. The food court isn't just a place to eat; it's a lively hub of activity where flavors from different corners of the world converge to offer an unforgettable culinary journey. Embrace the richness of taste and the tapestry of cultures at JKKN's food court – a gateway to a world of flavors!
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            Step into our College's bustling food court, a haven for food enthusiasts seeking delightful culinary experiences. Here, the tantalizing aromas of diverse cuisines blend harmoniously, inviting you to embark on a gastronomic adventure like no other. Our meticulously curated selection of food vendors ensures a perfect fusion of taste, quality, and hygiene in every dish. Whether you're craving a quick nibble or a hearty feast, our food court caters to every palate and preference, providing an inviting space for students and staff alike. The food court isn't just about relishing scrumptious fare; it's a social haven where friendships are nurtured and conversations flow over shared meals and aromatic beverages. Come, indulge your taste buds, and be part of the vibrant tapestry of flavors and cultures that define JKKN's exceptional food court experience!
+            Step into JKKN College of Pharmacy's bustling food court, a haven for food enthusiasts seeking delightful culinary experiences. Here, the tantalizing aromas of diverse cuisines blend harmoniously, inviting students and staff to embark on a gastronomic adventure like no other. The meticulously curated selection of food vendors ensures a perfect fusion of taste, quality, and hygiene in every dish. Whether craving a quick nibble or a hearty feast, the food court caters to every palate and preference, providing an inviting space for students and staff alike. The food court isn't just about relishing scrumptious fare; it's a social haven where friendships are nurtured and conversations flow over shared meals and aromatic beverages. Come, indulge your taste buds, and be part of the vibrant tapestry of flavors and cultures that define JKKN's exceptional food court experience!
           </p>
 
           {/* Bullet Points */}
@@ -54,19 +54,19 @@ export default function FoodCourtPage() {
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span className="text-justify">
-                Our College has a fantastic food court, complete with a variety of food vendors offering an extensive range of cuisines and dishes.
+                JKKN College of Pharmacy has a fantastic food court, complete with a variety of food vendors offering an extensive range of cuisines and dishes.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span className="text-justify">
-                Our well-established canteen is the perfect place for students and staff to grab a quick snack, enjoy a full meal or catch up with friends over a cup of coffee.
+                The well-established canteen is the perfect place for students and staff to grab a quick snack, enjoy a full meal or catch up with friends over a cup of coffee.
               </span>
             </li>
             <li className="flex items-start">
               <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
               <span className="text-justify">
-                Our food court is a lively hub of activity, where you can sample everything from local delicacies to international cuisine. Our vendors are handpicked for their quality and hygiene, ensuring that you get delicious and healthy meals every time. Whether you are looking for a quick bite or a full meal, JKKN food court has something for everyone. Come and enjoy our vibrant food court and experience the diversity of flavors and cultures that we have to offer!
+                The food court is a lively hub of activity, where students can sample everything from local delicacies to international cuisine. Vendors are handpicked for their quality and hygiene, ensuring delicious and healthy meals every time. Whether looking for a quick bite or a full meal, JKKN food court has something for everyone. Come and enjoy the vibrant food court and experience the diversity of flavors and cultures on offer!
               </span>
             </li>
           </ul>

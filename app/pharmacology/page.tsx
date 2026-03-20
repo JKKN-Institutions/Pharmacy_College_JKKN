@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacologyPage() {
@@ -12,9 +12,55 @@ export default function PharmacologyPage() {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
 
+  const faqs = [
+    {
+      question: "What is M.Pharm in Pharmacology?",
+      answer: "M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery."
+    },
+    {
+      question: "What is the salary after M.Pharm Pharmacology?",
+      answer: "Entry-level M.Pharm Pharmacology graduates earn ₹3.5-6 lakhs per annum. Research Scientists in CROs earn ₹5-9 lakhs, Toxicologists earn ₹5-10 lakhs, Medical Writers earn ₹5-12 lakhs, Drug Safety Scientists earn ₹5-9 lakhs, and Regulatory Toxicologists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Principal Scientist or Head of Pharmacology earn ₹20-35 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security. Salaries are highest in multinational pharmaceutical companies and leading CROs."
+    },
+    {
+      question: "Does M.Pharm Pharmacology involve animal studies?",
+      answer: "Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided."
+    },
+    {
+      question: "Can I do PhD after M.Pharm Pharmacology?",
+      answer: "Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions."
+    },
+    {
+      question: "Which is better: M.Pharm Pharmacology or Pharmaceutics?",
+      answer: "Both are excellent but serve different purposes. Pharmacology is research-intensive, focusing on drug action, toxicology, and biological understanding through animal studies. Best for those interested in drug discovery, preclinical research, and academic careers. Requires comfort with animal experimentation. Pharmaceutics is product-focused, emphasizing formulation development and manufacturing. Best for those preferring product creation over biological research. Pharmacology offers CRO research roles (₹5-10 lakhs) and strong Ph.D pathways with excellent academic opportunities. Pharmaceutics offers formulation R&D (₹6-12 lakhs) and production management with higher industry salary ceiling. Choose based on genuine interest: biological research vs. product development."
+    },
+    {
+      question: "What are CRO job opportunities for Pharmacology graduates?",
+      answer: "Contract Research Organisations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology."
+    },
+    {
+      question: "Is M.Pharm Pharmacology good for academic career?",
+      answer: "Yes, Pharmacology is excellent for academic careers. There is high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide students, and maintain work-life balance."
+    },
+    {
+      question: "Can I switch to medical writing from Pharmacology?",
+      answer: "Yes, M.Pharm Pharmacology is excellent background for medical writing career. Pharmacology training provides deep understanding of drug mechanisms, clinical trial data, and scientific literature - essential for medical writing. Roles: Medical Writer, Scientific Writer, Regulatory Writer, Clinical Study Report Writer. Companies hiring: Pharmaceutical companies, CROs (Quintiles, Covance, PPD), medical communication agencies. Salaries: Entry ₹5-7 lakhs, experienced ₹8-15 lakhs, senior ₹15-25 lakhs. Additional skills needed: Excellent English writing, understanding of regulatory guidelines (ICH-GCP, CTD format), MS Office proficiency. Many pharmacology graduates transition to medical writing for better salary and work-life balance compared to bench research."
+    },
+    {
+      question: "Is M.Pharm Pharmacology difficult compared to other specialisations?",
+      answer: "M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it is not exceptionally difficult compared to core medical sciences or PhD programmes. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than Medicinal Chemistry (complex organic synthesis) and similar difficulty to Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty."
+    },
+    {
+      question: "What is the scope of Pharmacology internationally?",
+      answer: "Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Ph.D programmes fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programmes with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide."
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmacology', url: 'https://pharmacy.jkkn.ac.in/pharmacology' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmacology"
         description="M.Pharm Pharmacology is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug action mechanisms, toxicology, preclinical research, drug screening, and molecular pharmacology. Prepares graduates for careers in pharmacology research, safety assessment, and clinical research organisations."
@@ -27,6 +73,7 @@ export default function PharmacologyPage() {
         inLanguage="en"
         teaches={["Drug Action Mechanisms", "Toxicology", "Preclinical Research", "Drug Screening", "Molecular Pharmacology", "Neuropharmacology", "Cardiovascular Pharmacology"]}
       />
+      <FaqSchema faqs={faqs} />
       <Header />
 
       {/* Hero Section */}
@@ -433,7 +480,7 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
-              <span>Preference in Ph.D admissions at premier institutions (IITs, CSIR labs, NIPER)</span>
+              <span>Preference in Ph.D admissions at top institutions (IITs, CSIR labs, NIPER)</span>
             </li>
           </ul>
         </div>
@@ -1526,7 +1573,7 @@ export default function PharmacologyPage() {
           <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 border-l-4 border-[#7cb983]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">2. Strong Academic & Research Career Path</h3>
             <p className="text-gray-800 leading-relaxed">
-              Pharmacology offers the clearest pathway to academic careers among pharmacy specialisations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at premier institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
+              Pharmacology offers the clearest pathway to academic careers among pharmacy specialisations. High demand for pharmacology faculty means good job security in teaching positions. Opportunities to pursue Ph.D at top institutes (CSIR-CDRI, ICMR, IITs, NIPER), receive research fellowships (₹31,000-35,000/month), and build independent research careers. Academic life provides intellectual freedom, research autonomy, and work-life balance.
             </p>
           </div>
 
@@ -1576,7 +1623,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
-          <p className="text-xs sm:text-sm mb-8">Join our M.Pharm Pharmacology programme and become a pharmaceutical research scientist!</p>
+          <p className="text-xs sm:text-sm mb-8">Enrol in the M.Pharm Pharmacology programme at JKKN College of Pharmacy and become a pharmaceutical research scientist!</p>
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>

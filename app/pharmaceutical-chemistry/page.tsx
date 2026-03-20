@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema } from '@/components/SchemaOrg'
+import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Laptop, Lightbulb, Microscope, Pill, Scale, School, ScrollText, Sparkles, Star, Target, TestTube, User, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalChemistryPage() {
@@ -12,9 +12,55 @@ export default function PharmaceuticalChemistryPage() {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
 
+  const faqs = [
+    {
+      question: "What is M.Pharm in Pharmaceutical Chemistry?",
+      answer: "M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Students learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research."
+    },
+    {
+      question: "What is the salary after M.Pharm Pharmaceutical Chemistry?",
+      answer: "Entry-level M.Pharm Pharmaceutical Chemistry graduates earn ₹4-7 lakhs per annum. Medicinal Chemists earn ₹6-10 lakhs, Synthetic Chemists earn ₹5-9 lakhs, Drug Discovery Scientists earn ₹7-12 lakhs, Process Chemists earn ₹5-10 lakhs, and Research Scientists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹12-20 lakhs. Senior positions like Principal Scientist or Head of Medicinal Chemistry earn ₹25-45 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security and research freedom. Salaries are highest in multinational pharmaceutical companies and biotech firms focusing on drug discovery."
+    },
+    {
+      question: "What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?",
+      answer: "Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. PCI recognises both names as equivalent specialisations."
+    },
+    {
+      question: "Can I do PhD after M.Pharm Pharmaceutical Chemistry?",
+      answer: "Yes, M.Pharm Pharmaceutical Chemistry graduates can pursue Ph.D through CSIR-NET (Chemical Sciences), UGC-NET, GATE, or university entrance tests. Research areas include drug design and discovery, medicinal chemistry, synthetic organic chemistry, CADD, structure-based drug design, natural product chemistry, and heterocyclic chemistry. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior medicinal chemist positions earning ₹25-45 lakhs, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT, NCL), NIPER, ICT Mumbai, and chemistry departments of universities offer Ph.D programmes with fellowships of ₹31,000-35,000/month."
+    },
+    {
+      question: "Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?",
+      answer: "Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, this specialisation will be very difficult. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead."
+    },
+    {
+      question: "What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?",
+      answer: "Pharmaceutical Chemistry focuses on creating and designing drug molecules through organic synthesis, while Pharmaceutical Analysis focuses on testing and quality control of existing drugs using analytical instruments. Chemistry involves synthesis work (making compounds), mechanism studies, structure modification, and drug design. Analysis involves instrument operation (HPLC, GC-MS), method validation, quality testing, and regulatory compliance. Chemistry requires strong organic chemistry background; Analysis requires understanding of analytical techniques and instruments. Chemistry offers medicinal chemist roles in discovery R&D (₹6-12 lakhs); Analysis offers QC/QA roles across all pharma companies (₹4-8 lakhs). Choose Chemistry if you love organic synthesis; choose Analysis if you prefer instrument operation and quality testing."
+    },
+    {
+      question: "Are jobs available for Pharmaceutical Chemistry graduates in India?",
+      answer: "Yes, but jobs are more specialised and concentrated compared to QC/Production roles. Employment opportunities exist in: (1) Multinational pharmaceutical R&D centers (GSK, Pfizer, Novartis, AstraZeneca) in Bangalore, Hyderabad, Mumbai - highest paying (₹6-12 lakhs); (2) Indian pharmaceutical companies with discovery programmes (Sun, Dr. Reddy's, Biocon, Zydus) - good opportunities (₹5-10 lakhs); (3) Biotech companies and CROs focusing on drug discovery (Jubilant, Syngene, GVK) - growing sector (₹5-9 lakhs); (4) CSIR labs (CDRI, IICT, NCL) and academic institutions - research positions (₹40K-80K/month); (5) Process chemistry roles in API manufacturing. Best prospects for those with good publications, Ph.D qualification, or experience in reputed labs."
+    },
+    {
+      question: "Can I work in formulation or production after Pharmaceutical Chemistry?",
+      answer: "Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, and NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D, and drug discovery."
+    },
+    {
+      question: "Is M.Pharm Pharmaceutical Chemistry difficult?",
+      answer: "Difficulty is subjective and depends on your organic chemistry aptitude. If you have natural affinity for organic chemistry and enjoy understanding reaction mechanisms, then Pharmaceutical Chemistry will be challenging but manageable and enjoyable. If you struggled with organic chemistry or dislike laboratory synthesis work, it will be very difficult. The programme requires: (1) Understanding complex reaction mechanisms, (2) Planning multi-step synthesis routes, (3) Patient laboratory work (reactions may fail, need optimisation), (4) Interpreting spectroscopic data, (5) Literature reading of chemistry papers. It is arguably more challenging than Analysis (SOP-driven) or Pharmacy Practice (clinical work). Choose based on aptitude, not perceived difficulty."
+    },
+    {
+      question: "What is the scope of Pharmaceutical Chemistry internationally?",
+      answer: "Excellent international scope for Pharmaceutical Chemistry graduates, especially with Ph.D. USA: Medicinal chemist positions at pharma companies (Pfizer, Merck, Bristol Myers Squibb) earning $80,000-130,000. Ph.D programmes fully funded with $28,000-35,000/year stipends at top universities (Michigan, UCSF, Purdue). Europe: Positions in Switzerland (Novartis, Roche), UK (GSK, AstraZeneca), Germany. Ph.D programmes with €1,500-2,500/month stipends. Requirements: For jobs - Ph.D + postdoc experience preferred. For Ph.D admission - strong academic record, TOEFL/IELTS, GRE (for USA), research publications help significantly. Canada/Australia: Growing biotech sectors with opportunities. International migration easier with Ph.D compared to M.Pharm alone."
+    }
+  ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmaceutical Chemistry', url: 'https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry' }
+      ]} />
       <CourseSchema
         name="M.Pharm Pharmaceutical Chemistry"
         description="M.Pharm Pharmaceutical Chemistry is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on medicinal chemistry, drug design and synthesis, structure-activity relationships, computational chemistry, and drug discovery. Prepares graduates for careers in drug discovery, synthetic chemistry, and pharmaceutical R&D."
@@ -27,6 +73,7 @@ export default function PharmaceuticalChemistryPage() {
         inLanguage="en"
         teaches={["Medicinal Chemistry", "Drug Design and Synthesis", "Structure-Activity Relationships", "Computational Chemistry", "Drug Discovery", "Organic Chemistry", "Spectral Analysis"]}
       />
+      <FaqSchema faqs={faqs} />
       <Header />
 
       {/* Hero Section */}
@@ -1933,7 +1980,7 @@ export default function PharmaceuticalChemistryPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] rounded-2xl p-12 text-center shadow-2xl">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-6 text-white">Ready to Design Tomorrow's Medicines?</h2>
-          <p className="text-white text-xs sm:text-sm mb-8">Join our M.Pharm Pharmaceutical Chemistry programme and become a medicinal chemistry expert!</p>
+          <p className="text-white text-xs sm:text-sm mb-8">Enrol in the M.Pharm Pharmaceutical Chemistry programme at JKKN College of Pharmacy and become a medicinal chemistry expert!</p>
 
           <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>

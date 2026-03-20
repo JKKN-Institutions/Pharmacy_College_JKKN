@@ -52,14 +52,14 @@ export default function PharmaceuticalEducationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Pharmaceutical Education</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize our educational programmes to meet the evolving needs of the pharmaceutical industry and healthcare sector. Our comprehensive approach focuses on curriculum innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
+                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize the educational programmes to meet the evolving needs of the pharmaceutical industry and healthcare sector. The comprehensive approach focuses on curriculum innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To establish a world-class pharmaceutical education system that produces skilled, knowledgeable, and ethically grounded pharmacy professionals capable of meeting current and future healthcare challenges through innovative teaching methodologies and industry-aligned curriculum.
+                      To establish an industry-leading pharmaceutical education system that produces skilled, knowledgeable, and ethically grounded pharmacy professionals capable of meeting current and future healthcare challenges through innovative teaching methodologies and industry-aligned curriculum.
                     </p>
                   </div>
 

@@ -19,7 +19,7 @@ export default function IQACPage() {
           <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
             {/* Introduction */}
             <p className="text-justify">
-              IQAC is the heart of our quest for excellence in higher education. It operates as a quality guardian, meticulously planning, guiding, and monitoring quality initiatives within our institution. Comprising distinguished faculty, administrators, and external experts, the IQAC focuses on continuous growth, setting benchmarks, facilitating internal reviews, and overseeing accreditation processes. Its mission is to cultivate a culture of excellence, transparency, and accountability, leading the way to comprehensive institutional growth and unwavering student satisfaction.
+              IQAC is the heart of JKKN College of Pharmacy's quest for excellence in higher education. It operates as a quality guardian, meticulously planning, guiding, and monitoring quality initiatives within the institution. Comprising distinguished faculty, administrators, and external experts, the IQAC focuses on continuous growth, setting benchmarks, facilitating internal reviews, and overseeing accreditation processes. Its mission is to cultivate a culture of excellence, transparency, and accountability, leading the way to comprehensive institutional growth and unwavering student satisfaction.
             </p>
 
             {/* Facets of IQAC */}

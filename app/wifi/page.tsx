@@ -41,12 +41,12 @@ export default function WifiPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
-            The campus boasts comprehensive Wi-Fi coverage, ensuring that students can seamlessly access the internet from any location on our premises. With a high-speed internet connection, students have the convenience of browsing the web regardless of their whereabouts. This connectivity empowers them to harness online resources, engage in research, and stay connected to digital learning platforms, enhancing their educational experience.
+            The campus boasts comprehensive Wi-Fi coverage, ensuring that students can seamlessly access the internet from any location on campus. With a high-speed internet connection, students have the convenience of browsing the web regardless of their whereabouts. This connectivity empowers them to harness online resources, engage in research, and stay connected to digital learning platforms, enhancing their educational experience.
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            Notably, our Wi-Fi network extends beyond the confines of the classrooms. It envelops every facet of campus life, enveloping key areas such as the library, auditorium, cafeteria, and hostels. This holistic coverage ensures that students remain connected and informed throughout their academic journey. Furthermore, to maintain a secure and enriching online environment, diligent monitoring of the websites accessed by students is carried out, promoting responsible internet usage and fostering a safe digital space for all.
+            Notably, the Wi-Fi network extends beyond the confines of the classrooms. It envelops every facet of campus life, enveloping key areas such as the library, auditorium, cafeteria, and hostels. This holistic coverage ensures that students remain connected and informed throughout their academic journey. Furthermore, to maintain a secure and enriching online environment, diligent monitoring of the websites accessed by students is carried out, promoting responsible internet usage and fostering a safe digital space for all.
           </p>
 
           {/* Bullet Points */}

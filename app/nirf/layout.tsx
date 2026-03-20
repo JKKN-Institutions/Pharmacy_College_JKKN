@@ -2,10 +2,32 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'NIRF Rankings & Data | JKKN College of Pharmacy Komarapalayam',
-  description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy. Performance metrics, teaching-learning, research, outreach and perception data.',
+  title: 'NIRF Rankings & Data | JKKN Pharmacy College',
+  description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/nirf/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/nirf/',
+    title: 'NIRF Rankings & Data | JKKN Pharmacy College',
+    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'NIRF Rankings & Data | JKKN Pharmacy College',
+    description: 'NIRF (National Institutional Ranking Framework) submissions and rankings of JKKN College of Pharmacy.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

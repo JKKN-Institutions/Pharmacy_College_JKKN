@@ -1,12 +1,34 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
-import { HowToSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema, EventSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
-  title: 'Admission 2026 | Apply for B.Pharm M.Pharm, Pharm.D | JKKN Pharmacy',
-  description: 'How to apply for pharmacy admission at JKKN in 2026? When do admissions open? Application fee ₹1,000, forms open in May-June 2026. Step-by-step guide for B.Pharm, M.Pharm, Pharm.D admission at JKKN College of Pharmacy, Komarapalayam. Eligibility: 50% in 10+2 with PCM/B. Documents needed: marksheet, TC, community certificate.',
+  title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
+  description: 'Apply for pharmacy admission at JKKN in 2026. Application fee ₹1,000, forms open May-June. Step-by-step B.Pharm, M.Pharm, Pharm.D admission guide.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admission-process/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/admission-process/',
+    title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
+    description: 'Apply for pharmacy admission at JKKN in 2026. Application fee ₹1,000, forms open May-June. Step-by-step B.Pharm, M.Pharm, Pharm.D admission guide.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
+    description: 'Apply for pharmacy admission at JKKN in 2026. Application fee ₹1,000, forms open May-June. Step-by-step B.Pharm, M.Pharm, Pharm.D admission guide.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 
@@ -32,6 +54,12 @@ export default function AdmissionProcessLayout({
         name="Pharmacy Admission 2026 — JKKN College of Pharmacy"
         description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee ₹1,000, forms open May-June 2026."
         url="https://pharmacy.jkkn.ac.in/admission-process/"
+      />
+      <EventSchema
+        name="JKKN College of Pharmacy — Admissions Open 2026-27"
+        description="Admissions open for B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam. PCI approved, NAAC A Grade. Application fee ₹1,000."
+        startDate="2026-05-01"
+        endDate="2026-08-31"
       />
       <BreadcrumbWrapper />
       {children}

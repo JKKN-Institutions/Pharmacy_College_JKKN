@@ -45,17 +45,17 @@ export default function SportsPage() {
               JKKN College of Pharmacy Sports Facility
             </h2>
             <p className="text-justify mb-4">
-              At JKKN College of Pharmacy, Physical Education is an integral part of our educational philosophy, fostering the comprehensive development of every learner. Our state-of-the-art sports facilities and dedicated programmes reflect our commitment to nurturing not just academic excellence but physical fitness, mental resilience, and overall well-being.
+              At JKKN College of Pharmacy, Physical Education is an integral part of the institution's educational philosophy, fostering the comprehensive development of every learner. The college's advanced sports facilities and dedicated programmes reflect a commitment to nurturing not just academic excellence but physical fitness, mental resilience, and overall well-being.
             </p>
           </div>
 
-          {/* Our Philosophy on Sports & Wellness */}
+          {/* Philosophy on Sports & Wellness */}
           <div>
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 sm:mb-6">
-              Our Philosophy on Sports & Wellness
+              Philosophy on Sports & Wellness
             </h2>
             <p className="text-justify mb-4">
-              JKKN College of Pharmacy is committed to the holistic development of each learner through sports and physical activities. Led by a dedicated Director of Physical Education and supported by a team of skilled trainers, we strive to:
+              JKKN College of Pharmacy is committed to the holistic development of each learner through sports and physical activities. Led by a dedicated Director of Physical Education and supported by a team of skilled trainers, the college strives to:
             </p>
             <ul className="space-y-3 ml-6">
               <li className="flex items-start">
@@ -97,7 +97,7 @@ export default function SportsPage() {
               Facilities
             </h2>
             <p className="text-justify mb-4 sm:mb-6">
-              Our campus boasts exceptional sports infrastructure designed to cater to diverse sporting interests and fitness needs:
+              The campus boasts exceptional sports infrastructure designed to cater to diverse sporting interests and fitness needs:
             </p>
             <ul className="space-y-4 ml-6">
               <li className="flex items-start">
@@ -115,7 +115,7 @@ export default function SportsPage() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <span className="text-justify">
-                  <strong>Fitness Center</strong>: Modern gymnasium equipped with state-of-the-art fitness equipment for strength training and cardio workouts
+                  <strong>Fitness Center</strong>: Modern gymnasium equipped with advanced fitness equipment for strength training and cardio workouts
                 </span>
               </li>
               <li className="flex items-start">

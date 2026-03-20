@@ -28,7 +28,7 @@ export default function InstitutionalDevelopmentPlanPage() {
             </h3>
 
             <p>
-              JKKN College of Pharmacy is a leading pharmaceutical education institution committed to excellence in pharmacy education, research, and healthcare innovation. This Institutional Development Plan outlines our strategic roadmap for short-term (5-year) and long-term (15-year) development, engaging with key stakeholders including faculty, staff, students, alumni, and industry partners to ensure alignment with our institution's vision of being a premier center for pharmaceutical education and research.
+              JKKN College of Pharmacy is a leading pharmaceutical education institution committed to excellence in pharmacy education, research, and healthcare innovation. This Institutional Development Plan outlines the strategic roadmap for short-term (5-year) and long-term (15-year) development, engaging with key stakeholders including faculty, staff, students, alumni, and industry partners to ensure alignment with the institution's vision of being an accredited center for pharmaceutical education and research.
             </p>
 
             {/* Short-term Plan */}
@@ -67,7 +67,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Infrastructure Development:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
-                <li>Upgrade pharmaceutical laboratories with state-of-the-art equipment</li>
+                <li>Upgrade pharmaceutical laboratories with advanced equipment</li>
                 <li>Enhance drug information center and pharmacy library resources</li>
                 <li>Establish simulation labs for clinical pharmacy training</li>
                 <li>Develop pharmaceutical manufacturing pilot plant for hands-on training</li>
@@ -124,7 +124,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Research and Innovation:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
-                <li>Establish a world-class pharmaceutical research ecosystem</li>
+                <li>Establish a comprehensive pharmaceutical research ecosystem</li>
                 <li>Develop innovative drug delivery systems and formulations</li>
                 <li>Create a pharmaceutical incubation center for startups</li>
                 <li>Establish a center for traditional medicine research and standardization</li>
@@ -149,7 +149,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
                 <li>Develop a modern pharmaceutical research campus</li>
-                <li>Implement cutting-edge pharmaceutical analysis technologies</li>
+                <li>Implement advanced pharmaceutical analysis technologies</li>
                 <li>Establish advanced drug development and testing facilities</li>
                 <li>Create virtual and augmented reality training facilities for pharmaceutical education</li>
                 <li>Develop pharmaceutical manufacturing facilities for training and research</li>
@@ -180,7 +180,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                 Academic Rigor:
               </h3>
               <p className="mb-6">
-                Academic rigor is the foundation of our pharmaceutical education programme. We design curriculum and assessment methods that challenge students intellectually, fostering an environment where pharmaceutical knowledge, analytical thinking, problem-solving, and research are at the forefront of learning. The institution maintains high standards by ensuring faculty are well-qualified in pharmaceutical sciences and engage in continuous professional development. This commitment to academic rigor enhances students' intellectual growth and prepares them to meet the demands of the rapidly evolving pharmaceutical industry and healthcare landscape.
+                Academic rigor is the foundation of the pharmaceutical education programme at JKKN College of Pharmacy. The curriculum and assessment methods are designed to challenge students intellectually, fostering an environment where pharmaceutical knowledge, analytical thinking, problem-solving, and research are at the forefront of learning. The institution maintains high standards by ensuring faculty are well-qualified in pharmaceutical sciences and engage in continuous professional development. This commitment to academic rigor enhances students' intellectual growth and prepares them to meet the demands of the rapidly evolving pharmaceutical industry and healthcare landscape.
               </p>
 
               {/* Inclusivity */}
@@ -242,7 +242,7 @@ export default function InstitutionalDevelopmentPlanPage() {
                   <strong>Elevate Pharmaceutical Academic Standards:</strong> Establish pharmaceutical research centers of excellence and introduce interdisciplinary programmes with industry relevance to align with global pharmacy education standards.
                 </li>
                 <li>
-                  <strong>Create a Conducive Learning Environment for Pharmacy Education:</strong> Develop state-of-the-art facilities, including advanced pharmaceutical research labs, drug information centers, simulation pharmacies, and sustainable campuses with modern amenities.
+                  <strong>Create a Conducive Learning Environment for Pharmacy Education:</strong> Develop modern facilities, including advanced pharmaceutical research labs, drug information centers, simulation pharmacies, and sustainable campuses with modern amenities.
                 </li>
                 <li>
                   <strong>Attract and Nurture Diverse Pharmaceutical Faculty:</strong> Achieve an optimal faculty-student ratio of 1:12 and invest in faculty development in specialised pharmaceutical areas to ensure high-quality pharmacy education.

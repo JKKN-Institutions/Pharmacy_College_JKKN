@@ -16,7 +16,7 @@ export default function NationalInnovationStartupPolicyPage() {
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* Introduction */}
           <p className="text-justify">
-            The National Innovation and Startup Policy 2019 for students and faculty of Higher Education Institutions (HEIs) as a guiding framework will enable the institutes to actively engage students, faculties and staff in innovation and entrepreneurship related activities. The Research Advisory Committee (RAC) of Poona College of Pharmacy (PCP) in consultation with the Principal has decided to be a part of NISP framework which will facilitate Ministry of Human Resource Development (MHRD) in bringing uniformity across HEIs in terms of Intellectual Property ownership management, technology licensing and institutional Startup policy, thus enabling creation of a robust innovation and Start up ecosystem across all HEIs. As per the discussions held during the orientation sessions conducted on 7th and 21st August 2020 which were attended by our NISP National Coordinator, following committee is formed to implement, amend and monitor NISP.
+            The National Innovation and Startup Policy 2019 for students and faculty of Higher Education Institutions (HEIs) as a guiding framework will enable the institutes to actively engage students, faculties and staff in innovation and entrepreneurship related activities. The Research Advisory Committee (RAC) of Poona College of Pharmacy (PCP) in consultation with the Principal has decided to be a part of NISP framework which will facilitate Ministry of Human Resource Development (MHRD) in bringing uniformity across HEIs in terms of Intellectual Property ownership management, technology licensing and institutional Startup policy, thus enabling creation of a robust innovation and Start up ecosystem across all HEIs. As per the discussions held during the orientation sessions conducted on 7th and 21st August 2020 which were attended by the NISP National Coordinator, following committee is formed to implement, amend and monitor NISP.
           </p>
 
           {/* Policy Section 1 */}
@@ -28,7 +28,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View JKKN Entrepreneurship Policy
             </a>
           </div>
 
@@ -41,7 +41,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View TN Startup Policy
             </a>
           </div>
 
@@ -54,7 +54,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View National Startup Policy
             </a>
           </div>
 
@@ -67,7 +67,7 @@ export default function NationalInnovationStartupPolicyPage() {
               href="#"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
             >
-              Click Here
+              View JKKN Innovation Policy
             </a>
           </div>
         </div>

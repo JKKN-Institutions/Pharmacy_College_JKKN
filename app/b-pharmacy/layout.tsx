@@ -72,7 +72,7 @@ const faqSchema = {
       "name": "What is the difference between B.Pharm and Pharm.D?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy."
+        "text": "B.Pharm is a 4-year undergraduate degree in pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme focused on clinical pharmacy and patient care in hospitals. B.Pharm graduates work in pharmaceutical industry and research; Pharm.D graduates work alongside doctors in clinical settings."
       }
     },
     {
@@ -96,7 +96,7 @@ const faqSchema = {
       "name": "Is B.Pharm a good career option?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, B.Pharm offers excellent career prospects with diverse opportunities in pharmaceutical industry, healthcare, research, regulatory affairs, and entrepreneurship. India's pharmaceutical sector is growing rapidly, creating consistent demand for qualified pharmacists. The profession offers job stability, good salary growth, and opportunities for higher studies and specialisation."
+        "text": "B.Pharm offers excellent career prospects in pharmaceutical industry, healthcare, research, regulatory affairs, and entrepreneurship. India's pharmaceutical sector is growing rapidly, creating consistent demand for qualified pharmacists with good salary growth and opportunities for specialisation."
       }
     },
     {
@@ -104,7 +104,7 @@ const faqSchema = {
       "name": "Can I open my own pharmacy after B.Pharm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, B.Pharm graduates registered with the State Pharmacy Council can open and operate retail pharmacies. You need to obtain a drug license from the State Drug Control Department, register your pharmacy business, and comply with regulatory requirements. Many graduates successfully run their own pharmacy chains."
+        "text": "B.Pharm graduates registered with the State Pharmacy Council can open and operate retail pharmacies. A drug license from the State Drug Control Department and business registration are required. Many graduates successfully run independent pharmacies and pharmacy chains."
       }
     },
     {
@@ -112,7 +112,7 @@ const faqSchema = {
       "name": "What are the subjects in B.Pharm?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "B.Pharm curriculum at JKKN spans 8 semesters covering Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy. The programme includes extensive laboratory work, industrial training, project work, and a 6-month internship in pharmaceutical industries or hospitals for hands-on experience."
+        "text": "B.Pharm at JKKN spans 8 semesters covering Pharmaceutical Chemistry, Pharmaceutics, Pharmacology, Pharmacognosy, Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, and Hospital Pharmacy. The programme includes laboratory work, industrial training, and a 6-month internship."
       }
     },
     {
@@ -178,7 +178,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best B.Pharm College in Tamilnadu',
@@ -189,7 +189,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

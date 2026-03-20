@@ -80,7 +80,7 @@ export default function CompetitiveExaminationPage() {
             <p className="mb-2">Mrs. BABYKALA M, Pharm.D.</p>
             <p className="mb-4">Mrs. Devi P, M.Pharm.</p>
             <p className="mb-3">
-              Our committee comprises experienced professionals and educators dedicated to your academic and career advancement.
+              The committee comprises experienced professionals and educators dedicated to students' academic and career advancement.
             </p>
             <p className="font-semibold">Your journey to success starts here!</p>
           </div>

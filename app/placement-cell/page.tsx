@@ -1,10 +1,12 @@
 import Header from '@/components/Header'
 import Link from 'next/link'
+import { OrganizationSchema } from '@/components/SchemaOrg'
 
 export default function PlacementCellPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
+      <OrganizationSchema />
 
       {/* Hero Section */}
       <section className="bg-[#006837] text-white py-10 sm:py-16 px-4 sm:px-6">
@@ -40,13 +42,13 @@ export default function PlacementCellPage() {
       {/* About Placement Cell */}
       <section className="py-8 sm:py-12 px-4 sm:px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">About Our Placement Cell</h2>
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">About the Placement Cell</h2>
           <div className="text-sm sm:text-base text-gray-600 space-y-4 leading-relaxed">
             <p>
-              The Placement Cell at JKKN College of Pharmacy is a dedicated department that bridges the gap between academic education and professional employment. Our team works year-round to build relationships with pharmaceutical companies, hospitals, CROs, and research institutions.
+              The Placement Cell at JKKN College of Pharmacy is a dedicated department that bridges the gap between academic education and professional employment. The placement team works year-round to build relationships with pharmaceutical companies, hospitals, CROs, and research institutions.
             </p>
             <p>
-              We provide comprehensive placement support including resume building, mock interviews, aptitude training, soft skills development, and industry interaction sessions. Our alumni network and industry connections ensure consistent placement opportunities for every graduating batch.
+              The cell provides comprehensive placement support including resume building, mock interviews, aptitude training, soft skills development, and industry interaction sessions. The alumni network and industry connections ensure consistent placement opportunities for every graduating batch.
             </p>
           </div>
         </div>
@@ -103,7 +105,7 @@ export default function PlacementCellPage() {
           <div className="bg-[#006837] rounded-2xl p-6 sm:p-10 text-center text-white">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">Download Placement Cell Brochure</h2>
             <p className="text-sm sm:text-base text-green-100 mb-6 max-w-2xl mx-auto">
-              Get detailed information about our placement activities, recruiter list, training programmes, and student success stories.
+              Get detailed information about placement activities, recruiter list, training programmes, and student success stories.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a

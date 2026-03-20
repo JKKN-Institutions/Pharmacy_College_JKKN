@@ -61,7 +61,7 @@ export default function UniversityAffiliationPage() {
                       JKKN College of Pharmacy is affiliated with <strong>The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>, one of the most prestigious medical universities in Tamil Nadu.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The university affiliation ensures that our degrees are recognised and that our academic programmes meet the high standards set by the university for pharmaceutical education.
+                      The university affiliation ensures that degrees awarded by the college are recognised and that academic programmes meet the high standards set by the university for pharmaceutical education.
                     </p>
                   </div>
 
@@ -154,7 +154,7 @@ export default function UniversityAffiliationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Academic Compliance</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      As an affiliated college, we strictly adhere to the university's academic calendar, curriculum, and examination schedules. Our students benefit from:
+                      As an affiliated college, JKKN College of Pharmacy strictly adheres to the university's academic calendar, curriculum, and examination schedules. Students benefit from:
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">

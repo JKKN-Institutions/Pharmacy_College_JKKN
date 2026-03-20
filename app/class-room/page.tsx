@@ -41,12 +41,12 @@ export default function ClassRoomPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
-            Remaining at the vanguard of educational technology is a source of pride for our college. Our steadfast dedication to infusing the latest instructional innovations into our classrooms and laboratories underscores our commitment to fostering exceptional learning environments. Uncompromising in our approach, we have established smart classrooms that boast cutting-edge multimedia amenities, such as LCD projectors, Tabs, and advanced audio-visual systems. These technological advancements amplify the teaching-learning dynamic, facilitating seamless information absorption for students and enabling educators to deliver content with utmost clarity and effectiveness.
+            Remaining at the vanguard of educational technology is a defining characteristic of JKKN College of Pharmacy. The steadfast dedication to infusing the latest instructional innovations into classrooms and laboratories underscores a commitment to fostering exceptional learning environments. The college has established smart classrooms that feature advanced multimedia amenities, such as LCD projectors, Tabs, and advanced audio-visual systems. These technological advancements amplify the teaching-learning dynamic, facilitating seamless information absorption for students and enabling educators to deliver content with utmost clarity and effectiveness.
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            The cornerstone of our institution's ethos lies in our unyielding pursuit of technological advancement in education. This steadfast commitment is palpable through our deployment of state-of-the-art instructional technologies across our learning spaces. Our smart classrooms, thoughtfully outfitted with modern multimedia resources including LCD projectors, Tabs, and immersive audio-visual systems, exemplify our resolute approach to enhancing the educational experience. This technological integration harmoniously empowers both educators to articulate concepts with precision and students to engage with the learning material in a more interactive and absorbing manner, ultimately propelling the academic journey to unprecedented heights.
+            The cornerstone of JKKN College of Pharmacy's institutional ethos lies in an unyielding pursuit of technological advancement in education. This commitment is evident through the deployment of modern instructional technologies across all learning spaces. The smart classrooms, thoughtfully outfitted with modern multimedia resources including LCD projectors, Tabs, and immersive audio-visual systems, exemplify a resolute approach to enhancing the educational experience. This technological integration empowers educators to articulate concepts with precision and students to engage with learning material in a more interactive and absorbing manner, ultimately propelling the academic journey to new heights.
           </p>
 
           {/* Bullet Points */}
@@ -60,7 +60,7 @@ export default function ClassRoomPage() {
             <li className="flex items-start">
               <span className="text-gray-900 mr-3">▪</span>
               <span className="text-gray-700">
-                Our commitment to providing the latest instructional technologies in our classrooms and laboratories is unwavering. Our smart classrooms are equipped with state-of-the-art multimedia facilities, including LCD projectors, Tabs, and audio-visual systems.
+                The college's commitment to providing the latest instructional technologies in classrooms and laboratories is unwavering. The smart classrooms are equipped with modern multimedia facilities, including LCD projectors, Tabs, and audio-visual systems.
               </span>
             </li>
             <li className="flex items-start">

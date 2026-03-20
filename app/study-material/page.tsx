@@ -46,9 +46,9 @@ export default function StudyMaterialPage() {
                   {material}
                 </h2>
 
-                {/* Click Here Button */}
+                {/* Download Button */}
                 <button className="bg-[#82b974] hover:bg-[#72a564] text-white font-semibold px-8 py-3 rounded transition-all duration-300 whitespace-nowrap self-start sm:self-auto">
-                  Click Here
+                  Download Material
                 </button>
               </div>
             ))}

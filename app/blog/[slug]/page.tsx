@@ -48,7 +48,7 @@ const popularPosts = [
 const faqs = [
   {
     q: 'What is the eligibility for B.Ed admission at JKKN College of Education?',
-    a: 'Candidates must hold a Bachelor\'s degree with minimum 50% marks (45% for SC/ST/OBC) from a recognized university. The degree should be in the subject you wish to specialize in. Contact our admissions office at +91 9345855001 for detailed eligibility criteria.',
+    a: 'Candidates must hold a Bachelor\'s degree with minimum 50% marks (45% for SC/ST/OBC) from a recognized university. The degree should be in the subject you wish to specialize in. Contact the admissions office at +91 9345855001 for detailed eligibility criteria.',
   },
   {
     q: 'Is hostel facility available at JKKN College of Education?',
@@ -697,7 +697,7 @@ export default function BlogDetailPage() {
                   {
                     num: 3,
                     title: 'Experienced Faculty',
-                    desc: 'Our faculty includes experienced teacher-educators with postgraduate and doctoral qualifications in Education, Psychology, and their respective subject specializations. Regular workshops, seminars, and guest lectures enrich student learning.',
+                    desc: 'Faculty members include experienced teacher-educators with postgraduate and doctoral qualifications in Education, Psychology, and their respective subject specializations. Regular workshops, seminars, and guest lectures enrich student learning.',
                   },
                   {
                     num: 4,
@@ -823,7 +823,7 @@ export default function BlogDetailPage() {
                   <p className="text-gray-500 text-sm leading-relaxed mb-2">
                     The content team at JKKN College of Education creates evidence-based
                     educational content about teacher education, career guidance, and academic
-                    pathways. Our faculty includes experienced teacher-educators and researchers
+                    pathways. The faculty includes experienced teacher-educators and researchers
                     affiliated to Tamil Nadu Teachers Education University (TNTEU).
                   </p>
                   <button className="text-[#006837] font-semibold text-sm hover:underline">

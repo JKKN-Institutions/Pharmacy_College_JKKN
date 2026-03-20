@@ -2,10 +2,32 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'AICTE Approval | Regulatory Compliance | JKKN Pharmacy College',
-  description: 'AICTE (All India Council for Technical Education) approval for JKKN College of Pharmacy. Approval letters, EOA, intake capacity and compliance with technical education norms.',
+  title: 'AICTE Approval | Regulatory Compliance | JKKN',
+  description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/aicte/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/aicte/',
+    title: 'AICTE Approval | Regulatory Compliance | JKKN',
+    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'AICTE Approval | Regulatory Compliance | JKKN',
+    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

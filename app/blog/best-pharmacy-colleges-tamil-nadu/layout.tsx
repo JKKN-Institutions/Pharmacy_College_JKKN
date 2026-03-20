@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Best Pharmacy Colleges in Tamil Nadu 2026 | JKKN Pharmacy',
   description:
-    'Compare top pharmacy colleges in Tamil Nadu by NIRF ranking, NAAC grade, fees & placements. JSS #4, SRM #10, JKKN 95% placement. Apply now for B.Pharm 2026.',
+    'Compare top pharmacy colleges in Tamil Nadu by NIRF ranking, NAAC grade, fees & placements. JKKN achieves 95% placements. Apply for B.Pharm 2026.',
   alternates: {
     canonical:
       'https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: 'article',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy Colleges in Tamil Nadu 2026',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     title: 'Best Pharmacy Colleges in Tamil Nadu 2026 | JKKN Pharmacy',
     description:
       'Compare NIRF rankings, NAAC grades, fees & placement rates of top Tamil Nadu pharmacy colleges.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

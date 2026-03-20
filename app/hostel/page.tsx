@@ -31,13 +31,13 @@ export default function HostelPage() {
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
                   <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Experience contemporary living at our hostel, complete with top-notch amenities and pristine, cozy beds.
+                    Experience contemporary living at the JKKN hostel, complete with well-maintained amenities and pristine, cozy beds.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
                   <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Our restrooms sparkle with cleanliness, ensuring your comfort and hygiene.
+                    The restrooms are maintained with high standards of cleanliness, ensuring comfort and hygiene.
                   </span>
                 </li>
                 <li className="flex items-start">
@@ -49,7 +49,7 @@ export default function HostelPage() {
                 <li className="flex items-start">
                   <span className="text-black mr-3 mt-1">■</span>
                   <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Unwind and relax in our recreation rooms equipped with TVs, the perfect entertainment escape after a long day.
+                    Unwind and relax in the recreation rooms equipped with TVs, the perfect entertainment escape after a long day.
                   </span>
                 </li>
               </ul>
@@ -112,7 +112,7 @@ export default function HostelPage() {
             </h3>
 
             <p className="text-gray-700 text-sm sm:text-base md:text-lg font-semibold mb-4">
-              Our hostel facilities feature:
+              The hostel facilities feature:
             </p>
 
             <ul className="space-y-3 ml-6">

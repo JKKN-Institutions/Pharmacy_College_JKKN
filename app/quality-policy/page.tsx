@@ -31,7 +31,7 @@ export default function QualityPolicyPage() {
               To pursue excellence in education and research, fostering innovation and advancements in healthcare.
             </li>
             <li>
-              To continuously improve our processes, maintaining high standards across all academic and operational activities.
+              To continuously improve institutional processes, maintaining high standards across all academic and operational activities.
             </li>
             <li>
               To promote a culture of integrity, innovation, and accountability among faculty, staff, and students.

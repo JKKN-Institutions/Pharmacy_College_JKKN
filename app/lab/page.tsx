@@ -41,7 +41,7 @@ export default function LabPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
           {/* Main Paragraph */}
           <p className="text-justify">
-            At JKKN College of Pharmacy Laboratory, our commitment to innovation extends beyond equipment and methodologies. We foster an environment of exploration and collaboration, where aspiring pharmaceutical scientists are empowered to push the boundaries of research. Our students and faculty engage in interdisciplinary projects, harnessing cellular and molecular techniques to delve into the intricate mechanisms of drug action. This unique approach not only enhances our understanding of pharmaceutical compounds but also contributes to the development of groundbreaking therapies that hold the potential to transform healthcare on a global scale.
+            At JKKN College of Pharmacy Laboratory, the commitment to innovation extends beyond equipment and methodologies. The lab fosters an environment of exploration and collaboration, where aspiring pharmaceutical scientists are empowered to push the boundaries of research. Students and faculty engage in interdisciplinary projects, harnessing cellular and molecular techniques to delve into the intricate mechanisms of drug action. This approach not only enhances the understanding of pharmaceutical compounds but also contributes to the development of groundbreaking therapies that hold the potential to transform healthcare on a global scale.
           </p>
 
           {/* Bullet Points */}
@@ -49,25 +49,25 @@ export default function LabPage() {
             <li className="flex items-start">
               <span className="text-gray-900 mr-3">▪</span>
               <span className="text-gray-700">
-                At JKKN Pharmacy Laboratory, we utilize cutting-edge equipment for identifying and qualifying chemical compounds through advanced analytical methods.
+                At JKKN Pharmacy Laboratory, the laboratory utilizes advanced equipment for identifying and qualifying chemical compounds through advanced analytical methods.
               </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-900 mr-3">▪</span>
               <span className="text-gray-700">
-                Our state-of-the-art laboratory is perfectly suited for analyzing, assessing, and controlling the quality of finished drug products.
+                The advanced laboratory is perfectly suited for analyzing, assessing, and controlling the quality of finished drug products.
               </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-900 mr-3">▪</span>
               <span className="text-gray-700">
-                With our top-of-the-line facilities, we provide comprehensive quality assessment studies to ensure the safety and efficacy of pharmaceutical products.
+                With well-equipped facilities, the laboratory provides comprehensive quality assessment studies to ensure the safety and efficacy of pharmaceutical products.
               </span>
             </li>
             <li className="flex items-start">
               <span className="text-gray-900 mr-3">▪</span>
               <span className="text-gray-700">
-                Trust in our expertise to deliver accurate and reliable results for all your drug testing needs at Laboratory.
+                The laboratory delivers accurate and reliable results for all drug testing needs, backed by experienced pharmaceutical scientists.
               </span>
             </li>
           </ul>

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin } from 'lucide-react';
+import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -82,6 +83,10 @@ export default function CoimbatorePage() {
 
   return (
     <div className="min-h-screen">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Pharmacy College Near Coimbatore', url: 'https://pharmacy.jkkn.ac.in/coimbatore' }
+      ]} />
       {/* ── Sticky Announcement Bar ── */}
       <div className="sticky top-0 z-50 bg-[#0a1f0a] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
@@ -129,7 +134,7 @@ export default function CoimbatorePage() {
           {/* Description */}
           <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
             Better value, better campus, better you — just 2 hours from Coimbatore. JKKN College of
-            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — world-class
+            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — comprehensive
             education at a fraction of Coimbatore city college fees.
           </p>
 
@@ -227,7 +232,7 @@ export default function CoimbatorePage() {
             Why Coimbatore Students Choose JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            While Coimbatore has many colleges, JKKN offers a distinct advantage: world-class
+            While Coimbatore has many colleges, JKKN offers a distinct advantage: comprehensive
             education at significantly lower costs, a peaceful campus away from city congestion,
             personalised attention with smaller class sizes, and strong placement support. Hostel
             and transport facilities make the transition easy.
@@ -368,7 +373,7 @@ export default function CoimbatorePage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Our placement cell connects you with India&apos;s top employers
+            The placement cell connects students with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -394,7 +399,7 @@ export default function CoimbatorePage() {
           </div>
 
           <p className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-widest mb-3">
-            COMPANIES THAT HIRE FROM US
+            COMPANIES THAT HIRE JKKN GRADUATES
           </p>
           <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
             {[
@@ -492,7 +497,7 @@ export default function CoimbatorePage() {
             Campus &amp; Facilities
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Everything you need for a world-class education experience
+            Everything you need for a comprehensive education experience
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -501,7 +506,7 @@ export default function CoimbatorePage() {
               {
                 emoji: '🔬',
                 title: 'Modern Labs',
-                desc: 'State-of-the-art laboratories and smart classrooms',
+                desc: 'Advanced laboratories and smart classrooms',
               },
               {
                 emoji: '📚',
@@ -648,7 +653,7 @@ export default function CoimbatorePage() {
             Interested? Let&apos;s Talk!
           </h2>
           <p className="text-xs sm:text-sm text-green-100 mb-2">
-            Fill in your details and our admission team will contact you within 24 hours
+            Fill in your details and the admission team will contact you within 24 hours
           </p>
           <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-6 sm:mb-8" />
 
@@ -789,7 +794,7 @@ export default function CoimbatorePage() {
           </div>
 
           <a
-            href="/programmes"
+            href="/#programmes-section"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -897,6 +902,9 @@ export default function CoimbatorePage() {
           </div>
         </div>
       </footer>
+
+      {/* ── FAQ Schema Markup ── */}
+      <FaqSchema faqs={faqs} />
 
       {/* ── Floating WhatsApp Button ── */}
       <div className="fixed bottom-5 right-3 sm:right-5 z-50">

@@ -387,7 +387,7 @@ export default function OrdinancesPage() {
                 For any queries regarding the evaluated answer scripts of Internal Assessment (IA) exams, students are advised to approach their respective subject faculty, who promptly address and resolve the grievances. This process fosters a positive relationship between faculty and students.
               </p>
               <p className="mb-4">
-                General grievances, such as out-of-syllabus questions, repeated questions, improper allocation of marks, typographical errors, and incorrect question numbering, are promptly handled by the examination committee. Any additional grievances pertaining to the examination and evaluation process are addressed by the Exam Redressal and Grievance Cell. Internal audits are conducted regularly to ensure the system's effectiveness, and timely outcome measures are implemented to achieve our vision of delivering quality education and sustainable progress.
+                General grievances, such as out-of-syllabus questions, repeated questions, improper allocation of marks, typographical errors, and incorrect question numbering, are promptly handled by the examination committee. Any additional grievances pertaining to the examination and evaluation process are addressed by the Exam Redressal and Grievance Cell. Internal audits are conducted regularly to ensure the system's effectiveness, and timely outcome measures are implemented to achieve the institution's vision of delivering quality education and sustainable progress.
               </p>
             </div>
 

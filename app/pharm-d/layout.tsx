@@ -64,7 +64,7 @@ const faqSchema = {
       "name": "What is Pharm.D course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice and patient care. Two pathways exist: Pharm.D - 6 years after 12th standard (5 years academic + 1 year clinical clerkship), and Pharm.D (PB) - 3 years after B.Pharm (2 years academic + 1 year clerkship). Curriculum includes pharmacotherapy, clinical pharmacokinetics, patient counselling, pharmaceutical care, evidence-based medicine, and extensive hospital rotations."
+        "text": "Pharm.D (Doctor of Pharmacy) is a professional doctorate in clinical pharmacy and patient care. Two pathways: Pharm.D (6 years after 12th — 5 years academic plus 1 year clinical clerkship) and Pharm.D Post Baccalaureate (3 years after B.Pharm). Curriculum covers pharmacotherapy, clinical pharmacokinetics, and hospital rotations."
       }
     },
     {
@@ -80,7 +80,7 @@ const faqSchema = {
       "name": "What is the difference between Pharm.D and Pharm.D (PB)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pharm.D is 6 years after 12th standard (5 years academic + 1 year clerkship). Pharm.D (PB) is 3 years after B.Pharm (2 years academic + 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities and salary ranges. Choose Pharm.D if just completed 12th with NEET. Choose Pharm.D (PB) if already have B.Pharm and want clinical specialisation."
+        "text": "Pharm.D is 6 years after 12th (5 years academic plus 1 year clerkship). Pharm.D Post Baccalaureate is 3 years after B.Pharm (2 years academic plus 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities."
       }
     },
     {
@@ -128,7 +128,7 @@ const faqSchema = {
       "name": "Can Pharm.D graduates become teachers/professors?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Pharm.D graduates are eligible for faculty positions in pharmacy colleges as Assistant Professors in Pharmacy Practice, Clinical Pharmacy, and related departments. Starting salary ₹50,000-80,000/month. Promotion pathway: Assistant Professor → Associate Professor → Professor. NET/SLET qualification preferred for government colleges."
+        "text": "Pharm.D graduates are eligible for Assistant Professor positions in Pharmacy Practice and Clinical Pharmacy departments at pharmacy colleges. Starting salary ranges from 50,000 to 80,000 per month. NET or SLET qualification is preferred for government college appointments."
       }
     },
     {
@@ -169,7 +169,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best Pharm.D College in Tamilnadu',
@@ -180,7 +180,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

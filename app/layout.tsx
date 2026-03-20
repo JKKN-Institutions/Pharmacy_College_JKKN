@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import FooterWrapper from '@/components/FooterWrapper'
+import { OrganizationSchema } from '@/components/SchemaOrg'
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -14,7 +15,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL('https://pharmacy.jkkn.ac.in'),
   title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+  description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
   keywords: [
     'best pharmacy colleges in tamilnadu',
     'top pharmacy colleges in tamilnadu',
@@ -22,6 +23,14 @@ export const metadata: Metadata = {
     'pharmacy colleges in tamilnadu',
     'top 10 pharmacy colleges in tamilnadu',
     'best college for pharmacy in tamilnadu',
+    'pharmacy college near Salem',
+    'pharmacy college near Erode',
+    'pharmacy college Komarapalayam',
+    'B.Pharm admission 2026',
+    'Pharm.D admission Tamil Nadu',
+    'PCI approved pharmacy college Tamil Nadu',
+    'NAAC A grade pharmacy college',
+    'JKKN pharmacy college',
   ],
   robots: {
     index: true,
@@ -37,6 +46,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/',
   },
+  other: {
+    'last-modified': '2026-03-19',
+    'article:modified_time': '2026-03-19',
+  },
   icons: {
     icon: '/images/logo.png',
     shortcut: '/images/logo.png',
@@ -48,13 +61,13 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
+    description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
     images: [
       {
-        url: '/images/logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'JKKN College of Pharmacy - Best Pharmacy College in Tamilnadu',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
       }
     ],
   },
@@ -62,8 +75,8 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@jkknpharmacy',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy — among the best pharmacy colleges in Tamilnadu. A top college for pharmacy, PCI approved & NAAC A Grade. Admissions Open 2026-27!',
-    images: ['/images/logo.png'],
+    description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 
@@ -100,6 +113,7 @@ export default function RootLayout({
         `}
       </Script>
       <body className={poppins.className} suppressHydrationWarning>
+        <OrganizationSchema />
         {children}
         <FooterWrapper />
       </body>

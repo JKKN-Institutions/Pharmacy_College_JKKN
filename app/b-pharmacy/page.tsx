@@ -4,9 +4,53 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import { GraduationCap, ClipboardList, BookOpen, Briefcase, Building2, Scale, FileText, IndianRupee, Target, Star, HelpCircle, ScrollText, CheckCircle, ChevronDown, ArrowRight } from 'lucide-react';
+import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 export default function BPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+
+  const faqs = [
+    {
+      question: "Is NEET required for B.Pharm admission?",
+      answer: "NEET is mandatory for B.Pharm admission in government colleges in some states like Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks."
+    },
+    {
+      question: "What is the difference between B.Pharm and Pharm.D?",
+      answer: "B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy."
+    },
+    {
+      question: "Can I become a doctor after B.Pharm?",
+      answer: "B.Pharm graduates cannot practice as medical doctors. However, they can pursue higher studies like Pharm.D (Doctor of Pharmacy) for clinical pharmacy practice, or PhD for research careers. Some may also pursue MBBS through NEET if they meet eligibility criteria, though this requires starting medical education from scratch."
+    },
+    {
+      question: "What is the salary after B.Pharm?",
+      answer: "Entry-level B.Pharm graduates earn ₹3-6 lakhs per annum depending on job role and employer. Hospital pharmacists earn ₹3.5-5 lakhs, medical representatives earn ₹3-6 lakhs, drug inspectors earn ₹4-7 lakhs, and research scientists earn ₹4-8 lakhs annually. Salaries increase significantly with experience and specialisation."
+    },
+    {
+      question: "Is B.Pharm a good career option?",
+      answer: "Yes, B.Pharm offers excellent career prospects with diverse opportunities in pharmaceutical industry, healthcare, research, regulatory affairs, and entrepreneurship. India's pharmaceutical sector is growing rapidly, creating consistent demand for qualified pharmacists. The profession offers job stability, good salary growth, and opportunities for higher studies and specialisation."
+    },
+    {
+      question: "Can I open my own pharmacy after B.Pharm?",
+      answer: "Yes, B.Pharm graduates registered with the State Pharmacy Council can open and operate retail pharmacies. You need to obtain a drug license from the State Drug Control Department, register your pharmacy business, and comply with regulatory requirements. Many graduates successfully run their own pharmacy chains."
+    },
+    {
+      question: "What are the subjects in B.Pharm?",
+      answer: "B.Pharm curriculum includes Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy along with practical training."
+    },
+    {
+      question: "Is B.Pharm difficult to study?",
+      answer: "B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Students with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The curriculum becomes progressively specialised in later years."
+    },
+    {
+      question: "Can I do M.Pharm after B.Pharm?",
+      answer: "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology."
+    },
+    {
+      question: "What is the scope of B.Pharm in government sector?",
+      answer: "B.Pharm graduates can join government sector as Drug Inspectors, Pharmaceutical Analysts, Research Scientists in CSIR/ICMR laboratories, Pharmacists in government hospitals, Drug Control Officers, and in defense organisations like DRDO. These positions are filled through competitive exams like SSC, UPSC, or state public service commissions."
+    }
+  ];
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
@@ -19,12 +63,12 @@ export default function BPharmacyPage() {
     },
     {
       question: "What is the difference between B.Pharm and Pharm.D?",
-      answer: "B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy. Explore our Pharm.D programme for clinical pharmacy specialisation.",
+      answer: "B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy. Explore the Pharm.D programme at JKKN College of Pharmacy for clinical pharmacy specialisation.",
       link: "/pharm-d"
     },
     {
       question: "Can I become a doctor after B.Pharm?",
-      answer: "B.Pharm graduates cannot practice as medical doctors. However, they can pursue higher studies like Pharm.D (Doctor of Pharmacy) for clinical pharmacy practice, or Ph.D for research careers. Some may also pursue MBBS through NEET if they meet eligibility criteria, though this requires starting medical education from scratch. Check out our Pharm.D and PhD programmes for advanced pharmacy careers.",
+      answer: "B.Pharm graduates cannot practice as medical doctors. However, they can pursue higher studies like Pharm.D (Doctor of Pharmacy) for clinical pharmacy practice, or Ph.D for research careers. Some may also pursue MBBS through NEET if they meet eligibility criteria, though this requires starting medical education from scratch. Check out the Pharm.D and Ph.D programmes at JKKN College of Pharmacy for advanced pharmacy careers.",
       link: "/pharm-d"
     },
     {
@@ -49,7 +93,7 @@ export default function BPharmacyPage() {
     },
     {
       question: "Can I do M.Pharm after B.Pharm?",
-      answer: "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology. Learn more about our M.Pharm programme.",
+      answer: "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology. Learn more about the M.Pharm programme at JKKN College of Pharmacy.",
       link: "/m-pharmacy"
     },
     {
@@ -60,6 +104,21 @@ export default function BPharmacyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'B.Pharm', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy' }
+      ]} />
+      <FaqSchema faqs={faqs} />
+      <CourseSchema
+        name="Bachelor of Pharmacy (B.Pharm)"
+        description="B.Pharm is a 4-year undergraduate pharmacy programme approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 100 seats. NAAC A Grade accredited."
+        duration="P4Y"
+        provider="JKKN College of Pharmacy"
+        url="https://pharmacy.jkkn.ac.in/b-pharmacy"
+        educationalLevel="Undergraduate"
+        teaches={["Pharmaceutical Chemistry", "Pharmacology", "Pharmaceutics", "Pharmaceutical Analysis", "Pharmacognosy", "Hospital Pharmacy", "Clinical Pharmacy"]}
+        offersUrl="https://admission.jkkn.ac.in/"
+      />
       <Header />
 
       {/* Header Section */}
@@ -432,7 +491,7 @@ export default function BPharmacyPage() {
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-gray-700">Dispense medications in premier healthcare institute</span>
+                  <span className="text-gray-700">Dispense medications in leading healthcare institutions</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
@@ -1274,7 +1333,7 @@ export default function BPharmacyPage() {
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy.{' '}
                     <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">
-                      Explore our Pharm.D programme for clinical pharmacy specialisation
+                      Explore the Pharm.D programme at JKKN College of Pharmacy
                     </Link>.
                   </p>
                 </div>
@@ -1459,7 +1518,7 @@ export default function BPharmacyPage() {
                   <p className="text-gray-700 leading-relaxed">
                     Yes, B.Pharm graduates can pursue <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm (Master of Pharmacy)</Link> through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology.{' '}
                     <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">
-                      Learn more about our M.Pharm programme
+                      Learn more about the M.Pharm programme at JKKN College of Pharmacy
                     </Link>.
                   </p>
                 </div>

@@ -41,7 +41,7 @@ export default function SeminarHallPage() {
         <div className="space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
           {/* First Paragraph */}
           <p className="text-justify">
-            With its array of advanced amenities, the college boasts a fully-furnished seminar hall that serves as an optimal venue for academic gatherings and significant conferences. The hall is equipped with state-of-the-art features, including OHP, LCD projectors, screens, and whiteboards, facilitating seamless and impactful presentations. Whether it's engaging student presentations, faculty assemblies, or enlightening guest lectures, this versatile space provides the essential resources to elevate the success of any event.
+            With its array of advanced amenities, the college boasts a fully-furnished seminar hall that serves as an optimal venue for academic gatherings and significant conferences. The hall is equipped with modern features, including OHP, LCD projectors, screens, and whiteboards, facilitating seamless and impactful presentations. Whether it's engaging student presentations, faculty assemblies, or enlightening guest lectures, this versatile space provides the essential resources to elevate the success of any event.
           </p>
 
           {/* Second Paragraph */}

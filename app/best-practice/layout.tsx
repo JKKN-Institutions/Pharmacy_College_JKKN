@@ -3,9 +3,31 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
-  description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning, research initiatives and distinctive institutional practices.',
+  description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/best-practice/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/best-practice/',
+    title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
+    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Practices | Institutional Excellence | JKKN Pharmacy',
+    description: 'Best practices at JKKN College of Pharmacy. Innovative teaching methods, student-centric learning.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

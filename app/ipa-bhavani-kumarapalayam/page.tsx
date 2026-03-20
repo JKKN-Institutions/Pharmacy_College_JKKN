@@ -24,17 +24,17 @@ export default function IPABhavaniKomarapalayamPage() {
                   INDIAN PHARMACEUTICAL ASSOCIATION -BHAVANI KOMARAPALAYAM LOCAL BRANCH
                 </h2>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed mb-4">
-                  The Indian Pharmaceutical Association (IPA) – Bhavani Komarapalayam Local Branch is a professional organisation dedicated to promoting the growth and development of the pharmaceutical industry in the region. Our branch is affiliated with the JKKN College of Pharmacy, a premier institution for pharmaceutical education and research.
+                  The Indian Pharmaceutical Association (IPA) – Bhavani Komarapalayam Local Branch is a professional organisation dedicated to promoting the growth and development of the pharmaceutical industry in the region. The branch is affiliated with the JKKN College of Pharmacy, an accredited institution for pharmaceutical education and research.
                 </p>
               </div>
 
-              {/* Our Mission */}
+              {/* Mission */}
               <div>
                 <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-3 md:mb-4">
-                  Our Mission
+                  Mission
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed">
-                  Our mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Komarapalayam area. We strive to enhance the knowledge and skills of our members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
+                  The branch's mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Komarapalayam area. The branch strives to enhance the knowledge and skills of members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
                 </p>
               </div>
 
@@ -61,10 +61,10 @@ export default function IPABhavaniKomarapalayamPage() {
                   Events and Activities
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed mb-3">
-                  We organize a wide range of events and activities throughout the year, including:
+                  The branch organizes a wide range of events and activities throughout the year, including:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
-                  <li className="leading-relaxed">– Guest lectures by renowned pharmaceutical experts</li>
+                  <li className="leading-relaxed">– Guest lectures by experienced pharmaceutical experts</li>
                   <li className="leading-relaxed">– Industrial visits to leading pharmaceutical companies</li>
                   <li className="leading-relaxed">– Research paper presentations and discussions</li>
                   <li className="leading-relaxed">– Workshops on emerging technologies and best practices</li>
@@ -78,7 +78,7 @@ export default function IPABhavaniKomarapalayamPage() {
                   Collaboration with JKKN College of Pharmacy
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed mb-3">
-                  Our strong collaboration with the JKKN College of Pharmacy enables us to:
+                  The strong collaboration with JKKN College of Pharmacy enables the branch to:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
                   <li className="leading-relaxed">-Provide internship and placement opportunities for students</li>

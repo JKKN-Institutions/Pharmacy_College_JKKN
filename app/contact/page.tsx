@@ -1,9 +1,14 @@
 import Header from '@/components/Header'
 import { Phone, Mail, MapPin } from 'lucide-react'
+import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-[#F5F5DC] flex flex-col">
+      <BreadcrumbListSchema items={[
+        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
+        { name: 'Contact', url: 'https://pharmacy.jkkn.ac.in/contact' }
+      ]} />
       <Header />
 
       {/* Main Content */}
@@ -27,7 +32,7 @@ export default function ContactPage() {
 
               {/* Welcome Message */}
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8">
-                Welcome to our Website. We are glad to have you around.
+                Welcome to the JKKN College of Pharmacy website. Thank you for visiting.
               </p>
 
               {/* Contact Info Boxes */}

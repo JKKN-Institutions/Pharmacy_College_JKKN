@@ -61,10 +61,10 @@ export default function InstitutionalStrategicPlanPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Strategic Plan Overview</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Institutional Strategic Plan of JKKN College of Pharmacy is a comprehensive roadmap that outlines our vision, mission, and strategic initiatives for achieving excellence in pharmaceutical education, research, and community service.
+                      The Institutional Strategic Plan of JKKN College of Pharmacy is a comprehensive roadmap that outlines the college's vision, mission, and strategic initiatives for achieving excellence in pharmaceutical education, research, and community service.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      Our strategic plan is designed to align with national education policies, industry requirements, and global standards in pharmaceutical education while maintaining our commitment to innovation, quality, and inclusiveness.
+                      The strategic plan is designed to align with national education policies, industry requirements, and global standards in pharmaceutical education while maintaining the college's commitment to innovation, quality, and inclusiveness.
                     </p>
                   </div>
 
@@ -87,7 +87,7 @@ export default function InstitutionalStrategicPlanPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
-                          <strong>Research and Innovation</strong> - Promoting cutting-edge research and innovative practices
+                          <strong>Research and Innovation</strong> - Promoting advanced research and innovative practices
                         </span>
                       </li>
                       <li className="flex items-start">
@@ -162,7 +162,7 @@ export default function InstitutionalStrategicPlanPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Implementation Framework</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      Our strategic plan is implemented through a structured framework that includes:
+                      The strategic plan is implemented through a structured framework that includes:
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">

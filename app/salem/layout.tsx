@@ -1,8 +1,8 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Salem | JKKN Pharmacy — Under 1 Hour Away',
-  description: 'Looking for the best pharmacy college near Salem? JKKN College of Pharmacy is just 45 km (50-60 min) via NH-544. PCI, AICTE, NAAC approved. 85%+ placements. Apply 2026-27!',
+  title: 'Best Pharmacy College Near Salem | JKKN — 45 km',
+  description: 'Best pharmacy college near Salem — JKKN College of Pharmacy, 45 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near salem',
     'best pharmacy college salem',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
         alt: 'Best Pharmacy College Near Salem - JKKN Pharmacy',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Salem | JKKN Pharmacy',
     description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI, AICTE, NAAC approved with 85%+ placements.',
-    images: ['/images/logo.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 

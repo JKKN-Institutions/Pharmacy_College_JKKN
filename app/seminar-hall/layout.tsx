@@ -3,9 +3,31 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Seminar Hall & Auditorium | Event Venues | JKKN Pharmacy',
-  description: 'Seminar hall and auditorium facilities at JKKN College of Pharmacy. Conference hall, symposium venue, guest lectures, workshops and academic events infrastructure.',
+  description: 'Seminar hall and auditorium facilities at JKKN College of Pharmacy. Conference hall, symposium venue, guest lectures.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/seminar-hall/',
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'JKKN College of Pharmacy',
+    locale: 'en_IN',
+    url: 'https://pharmacy.jkkn.ac.in/seminar-hall/',
+    title: 'Seminar Hall & Auditorium | Event Venues | JKKN Pharmacy',
+    description: 'Seminar hall and auditorium facilities at JKKN College of Pharmacy. Conference hall, symposium venue, guest lectures.',
+    images: [
+      {
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        width: 1920,
+        height: 1080,
+        alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Seminar Hall & Auditorium | Event Venues | JKKN Pharmacy',
+    description: 'Seminar hall and auditorium facilities at JKKN College of Pharmacy. Conference hall, symposium venue, guest lectures.',
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
 
