@@ -33,9 +33,9 @@ export default async function BlogPage() {
 
       {/* Page H1 — always visible */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-10">
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+        <h3 className="text-xl xs:text-2xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
           JKKN College of Pharmacy Blog — Pharmacy News, Research &amp; Campus Updates
-        </h1>
+        </h3>
       </div>
 
       {/* ── Campus News (Admin Posts) Section — shown only when posts exist ── */}
@@ -135,7 +135,7 @@ export default async function BlogPage() {
         </section>
       )}
 
-      <Footer />
+   
     </div>
   );
 }

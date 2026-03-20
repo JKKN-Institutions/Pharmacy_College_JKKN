@@ -317,12 +317,12 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                               setOpenMenu(blog.id);
                             }
                           }}
-                          className="p-1.5 rounded-lg hover:bg-gray-100 transition"
+                          className="p-2 rounded-lg border border-gray-200 bg-white hover:bg-gray-50 transition"
                         >
                           {deletingId === blog.id ? (
                             <Loader2 className="w-4 h-4 animate-spin text-gray-400" />
                           ) : (
-                            <MoreHorizontal className="w-4 h-4 text-gray-400" />
+                            <MoreHorizontal className="w-4 h-4 text-gray-600" />
                           )}
                         </button>
 
