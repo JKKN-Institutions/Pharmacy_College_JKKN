@@ -15,7 +15,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL('https://pharmacy.jkkn.ac.in'),
   title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
+  description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
   keywords: [
     'best pharmacy colleges in tamilnadu',
     'top pharmacy colleges in tamilnadu',
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
+    description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     site: '@jkknpharmacy',
     title: 'Best Pharmacy Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu offering B.Pharm, M.Pharm, and Pharm.D. Admissions Open 2026-27!',
+    description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

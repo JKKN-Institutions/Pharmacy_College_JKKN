@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -101,21 +100,6 @@ export default function PharmDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharm.D', url: 'https://pharmacy.jkkn.ac.in/pharm-d' }
-      ]} />
-      <FaqSchema faqs={faqs} />
-      <CourseSchema
-        name="Doctor of Pharmacy (Pharm.D)"
-        description="Pharm.D is a 6-year professional doctorate programme (5 years academic + 1 year clinical clerkship) approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 30 seats. NAAC A Grade accredited."
-        duration="P6Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharm-d"
-        educationalLevel="Professional Doctorate"
-        teaches={["Clinical Pharmacy", "Pharmacotherapeutics", "Clinical Research", "Hospital Pharmacy Practice", "Drug Information Services", "Medication Therapy Management"]}
-        offersUrl="https://admission.jkkn.ac.in/"
-      />
       <Header />
 
       {/* Hero Section */}

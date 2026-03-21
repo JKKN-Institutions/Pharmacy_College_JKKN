@@ -41,6 +41,22 @@ export default function Home() {
     {
       question: "Is hostel accommodation available?",
       answer: "JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel fees are approximately 60,000-80,000 per year including food."
+    },
+    {
+      question: "What is the fee structure for B.Pharm at JKKN Pharmacy College?",
+      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
+    },
+    {
+      question: "Is JKKN Pharmacy College NAAC accredited?",
+      answer: "Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI), affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and recognised by AICTE. These accreditations ensure quality education standards and national recognition of degrees."
+    },
+    {
+      question: "What are the top recruiters at JKKN Pharmacy College?",
+      answer: "Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India."
+    },
+    {
+      question: "Where is JKKN College of Pharmacy located?",
+      answer: "JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km). The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby."
     }
   ];
 
@@ -1309,6 +1325,50 @@ export default function Home() {
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
+              </p>
+            </details>
+
+            {/* FAQ 9 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What is the fee structure for B.Pharm at JKKN Pharmacy College?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.
+              </p>
+            </details>
+
+            {/* FAQ 10 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Is JKKN Pharmacy College NAAC accredited?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI), affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and recognised by AICTE.
+              </p>
+            </details>
+
+            {/* FAQ 11 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>What are the top recruiters at JKKN Pharmacy College?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Top recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, and hospital pharmacy roles.
+              </p>
+            </details>
+
+            {/* FAQ 12 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Where is JKKN College of Pharmacy located?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. Easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km).
               </p>
             </details>
           </div>

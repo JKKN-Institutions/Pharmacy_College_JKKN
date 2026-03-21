@@ -4,85 +4,23 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function MPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
-
-  const faqs = [
-    {
-      question: "What is M.Pharm course?",
-      answer: "M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks and GPAT/GATE qualification for admission to top institutions. Graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles."
-    },
-    {
-      question: "What are the M.Pharm specialisations available?",
-      answer: "M.Pharm offers 5 major specialisations: (1) Pharmaceutics - drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes); (2) Pharmaceutical Analysis - analytical methods, HPLC, LC-MS/MS, method development/validation, quality control; (3) Pharmacology - drug action, toxicology, preclinical research, drug screening; (4) Pharmaceutical Chemistry - medicinal chemistry, drug design, synthesis, SAR studies; (5) Pharmacy Practice - clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy. Starting salaries range from ₹25,000-50,000/month depending on specialisation."
-    },
-    {
-      question: "Which M.Pharm specialisation has best scope?",
-      answer: "All M.Pharm specialisations have good scope but differ in opportunities. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics offers highest R&D demand with excellent growth to senior positions (Associate Director ₹25-40L). Pharmaceutical Analysis has maximum job openings in QC departments. Pharmacology is good for research-focused companies. Pharmaceutical Chemistry is best for drug discovery roles. Pharmacy Practice is growing in hospital sector. Highest salary potential: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis."
-    },
-    {
-      question: "What is M.Pharm salary?",
-      answer: "M.Pharm starting salaries: Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Director level ₹1,50,000-3,00,000/month. M.Pharm starting (₹25-45K) provides ₹7-15K premium over B.Pharm (₹18-30K). MNCs and innovator companies pay 40-60% more than Indian generic companies."
-    },
-    {
-      question: "How to choose M.Pharm specialisation?",
-      answer: "Choose M.Pharm specialisation based on interests, skills, and career goals. Choose Pharmaceutics for versatile formulation R&D career with high demand. Choose Pharmaceutical Analysis for stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Pharmaceutical Chemistry if you have strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if you prefer patient-focused work over laboratory research. Key factors: your B.Pharm strengths, target job type (lab vs patient-facing vs research), target company type (generic vs innovator vs hospital), and college infrastructure in that specialisation."
-    }
-  ];
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
   };
 
-  const mPharmFaqs = [
-    {
-      question: "What is M.Pharm course?",
-      answer: "M.Pharm (Master of Pharmacy) is a 2-year postgraduate programme offering specialised education in Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice. The 4-semester programme combines advanced coursework (Semesters 1-2) with research and dissertation (Semesters 3-4). Eligibility: B.Pharm with 55% marks and GPAT/GATE qualification. Graduates work in pharmaceutical R&D, quality control, regulatory affairs, and teaching with starting salaries ₹25,000-45,000/month."
-    },
-    {
-      question: "What are the M.Pharm specialisations available?",
-      answer: "M.Pharm offers 5 specialisations: (1) Pharmaceutics — drug formulation, novel delivery systems, R&D careers (₹30-50K starting). (2) Pharmaceutical Analysis — HPLC, LC-MS/MS, quality control careers (₹25-45K). (3) Pharmacology — drug action, toxicology, preclinical research (₹30-50K). (4) Pharmaceutical Chemistry — medicinal chemistry, drug design, synthesis (₹30-50K). (5) Pharmacy Practice — clinical pharmacy, patient care, hospital pharmacy (₹25-40K). Choose based on interests: lab formulation → Pharmaceutics, analytical techniques → Analysis, drug mechanisms → Pharmacology."
-    },
-    {
-      question: "Which M.Pharm specialisation has best scope?",
-      answer: "Pharmaceutics and Pharmaceutical Analysis offer the strongest overall scope due to high industry demand. Pharmaceutics has the highest R&D demand with growth to Associate Director level (₹25-40L/year). Pharmaceutical Analysis has maximum QC job openings across pharma companies. Pharmaceutical Chemistry excels in drug discovery roles at innovator companies. Pharmacology suits research-focused careers in CROs. Pharmacy Practice is growing in the hospital sector. Scope depends significantly on research publications, skills, and networking."
-    },
-    {
-      question: "What is M.Pharm salary?",
-      answer: "Starting salaries (0-2 years): R&D ₹30,000-50,000/month, QC ₹25,000-40,000/month, Assistant Professor ₹35,000-50,000/month, CRO ₹28,000-45,000/month. Mid-career (5-10 years): Senior Scientist ₹60,000-1,20,000/month, QC Manager ₹50,000-90,000/month. Senior level (10-15 years): Director ₹1,50,000-3,00,000/month. MNCs pay 40-60% more than generic companies. Metro cities pay 30-40% above Tier-2 cities."
-    },
-    {
-      question: "How to choose M.Pharm specialisation?",
-      answer: "Choose based on interests and career goals: enjoy lab formulation → Pharmaceutics, analytical instruments → Analysis, drug mechanisms → Pharmacology, organic chemistry → Chemistry, patient interaction → Pharmacy Practice. Consider the job market: Analysis has maximum QC openings, Pharmaceutics has highest R&D demand, Chemistry offers strong drug discovery prospects. Evaluate target colleges for faculty expertise, lab infrastructure, research output, and placement records in each specialisation."
-    }
-  ];
-
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'M.Pharm', url: 'https://pharmacy.jkkn.ac.in/m-pharmacy' }
-      ]} />
-      <FaqSchema faqs={faqs} />
-      <CourseSchema
-        name="Master of Pharmacy (M.Pharm)"
-        description="M.Pharm is a 2-year postgraduate programme in pharmaceutical sciences approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Offered in 5 specializations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice. NAAC A Grade accredited."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/m-pharmacy"
-        educationalLevel="Postgraduate"
-        teaches={["Pharmaceutical Research", "Drug Formulation", "Quality Control", "Clinical Research", "Regulatory Affairs", "Pharmaceutical Analysis"]}
-        offersUrl="https://admission.jkkn.ac.in/"
-      />
       <Header />
 
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">M.Pharm - Master of Pharmacy</h1>
-          <p className="text-lg">5 Specialisations • Research Excellence • Career Advancement • GPAT/GATE Pathway</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">M.Pharm — Master of Pharmacy at JKKN College of Pharmacy, Tamil Nadu</h1>
+          <p className="text-lg">5 PCI-Approved Specialisations • NAAC A Grade • Research Excellence • GPAT/GATE Pathway</p>
         </div>
       </div>
 

@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import { GraduationCap, ClipboardList, BookOpen, Briefcase, Building2, Scale, FileText, IndianRupee, Target, Star, HelpCircle, ScrollText, CheckCircle, ChevronDown, ArrowRight } from 'lucide-react';
-import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 export default function BPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -104,21 +103,6 @@ export default function BPharmacyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'B.Pharm', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy' }
-      ]} />
-      <FaqSchema faqs={faqs} />
-      <CourseSchema
-        name="Bachelor of Pharmacy (B.Pharm)"
-        description="B.Pharm is a 4-year undergraduate pharmacy programme approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 100 seats. NAAC A Grade accredited."
-        duration="P4Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/b-pharmacy"
-        educationalLevel="Undergraduate"
-        teaches={["Pharmaceutical Chemistry", "Pharmacology", "Pharmaceutics", "Pharmaceutical Analysis", "Pharmacognosy", "Hospital Pharmacy", "Clinical Pharmacy"]}
-        offersUrl="https://admission.jkkn.ac.in/"
-      />
       <Header />
 
       {/* Header Section */}
