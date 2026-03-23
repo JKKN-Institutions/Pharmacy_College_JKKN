@@ -7,7 +7,7 @@ const courseSchema = {
   "@type": "Course",
   "name": "Master of Pharmacy (M.Pharm)",
   "description": "M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy with 5 major specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice.",
-  "url": "https://pharmacy.jkkn.ac.in/m-pharmacy",
+  "url": "https://pharmacy.jkkn.ac.in/m-pharmacy/",
   "provider": {
     "@type": "EducationalOrganization",
     "@id": "https://pharmacy.jkkn.ac.in/#organization",

@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Header from '@/components/Header'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default function OurManagementLayout({
 }) {
   return (
     <>
+      <Header />
       <BreadcrumbWrapper />
       {children}
     </>

@@ -1,19 +1,11 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronDown, MapPin } from 'lucide-react';
+import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
 import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
-const WHATSAPP_BASE =
-  'https://wa.me/919345855001?text=Hi%2C%20I%27m%20from%20Tiruppur%20and%20interested%20in%20admission%20at%20JKKN%20Pharmacy';
-
-const WhatsAppIcon = () => (
-  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-  </svg>
-);
 
 export default function TiruppurPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(0);
@@ -40,7 +32,7 @@ export default function TiruppurPage() {
     const msg = encodeURIComponent(
       `Hi, I'm from ${form.city} and interested in ${form.programme || 'a pharmacy programme'} at JKKN Pharmacy.\nName: ${form.name}\nMobile: ${form.mobile}${form.question ? `\nQuestion: ${form.question}` : ''}`
     );
-    window.open(`https://wa.me/919345855001?text=${msg}`, '_blank');
+    window.open('https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8', '_blank');
   };
 
   const faqs = [
@@ -88,7 +80,7 @@ export default function TiruppurPage() {
         { name: 'Pharmacy College Near Tiruppur', url: 'https://pharmacy.jkkn.ac.in/tiruppur' }
       ]} />
       {/* ── Sticky Announcement Bar ── */}
-      <div className="sticky top-0 z-50 bg-[#0a1f0a] text-white py-2 px-4 sm:px-6">
+      <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#0a1f0a] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block animate-pulse" />
@@ -102,12 +94,12 @@ export default function TiruppurPage() {
               Call Now
             </a>
             <a
-              href={WHATSAPP_BASE}
+              href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-500 hover:bg-green-600 text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200"
+              className="bg-orange-500 hover:bg-orange-600 text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200"
             >
-              WhatsApp
+              Apply Now
             </a>
           </div>
         </div>
@@ -118,7 +110,7 @@ export default function TiruppurPage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
-            <span className="text-sm">🚀</span>
+            <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
               PCI, AICTE, NAAC Approved • Admissions Open
             </span>
@@ -166,13 +158,10 @@ export default function TiruppurPage() {
               Apply Now — 2026-27
             </a>
             <a
-              href={WHATSAPP_BASE}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-[#25d366] hover:bg-[#20bd5a] text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm flex items-center justify-center gap-1.5"
+              href={`tel:${PHONE}`}
+              className="bg-white/10 hover:bg-white/20 text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
             >
-              <WhatsAppIcon />
-              WhatsApp Us
+              Call Us: +91-9345855001
             </a>
           </div>
         </div>
@@ -185,7 +174,7 @@ export default function TiruppurPage() {
                 key={badge}
                 className="inline-flex items-center gap-1 bg-green-50 text-green-700 text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
               >
-                ✓ {badge}
+                <Check className="w-3 h-3" /> {badge}
               </span>
             ))}
             <span className="text-gray-300 hidden sm:inline select-none">|</span>
@@ -242,38 +231,38 @@ export default function TiruppurPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
               {
-                icon: '✅',
+                icon: <ShieldCheck className="w-7 h-7 text-green-600 mx-auto" />,
                 title: 'PCI Approved',
                 desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
               },
               {
-                icon: '🔬',
+                icon: <Microscope className="w-7 h-7 text-blue-500 mx-auto" />,
                 title: 'Well-Equipped Labs',
                 desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
-                icon: '🧪',
+                icon: <FlaskConical className="w-7 h-7 text-purple-500 mx-auto" />,
                 title: 'Research Opportunities',
                 desc: 'Research opportunities for M.Pharm and Pharm.D students',
               },
               {
-                icon: '🏭',
+                icon: <Factory className="w-7 h-7 text-orange-500 mx-auto" />,
                 title: 'Industry Connections',
                 desc: 'Strong pharmaceutical industry connections across Tamil Nadu',
               },
               {
-                icon: '💼',
+                icon: <Briefcase className="w-7 h-7 text-indigo-500 mx-auto" />,
                 title: 'Campus Placements',
                 desc: 'Campus placement support with leading pharma companies',
               },
               {
-                icon: '🚌',
+                icon: <Bus className="w-7 h-7 text-teal-500 mx-auto" />,
                 title: 'Easy Commute',
                 desc: 'Just 80-90 km from Tiruppur. Daily commute or comfortable hostel — your choice.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-gray-50 rounded-xl p-4 sm:p-5 text-center">
-                <div className="text-3xl mb-2">{item.icon}</div>
+                <div className="mb-2">{item.icon}</div>
                 <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-1">{item.title}</h3>
                 <p className="text-[11px] sm:text-xs text-gray-500 leading-relaxed">{item.desc}</p>
               </div>
@@ -296,7 +285,7 @@ export default function TiruppurPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
-                icon: '📋',
+                icon: <ClipboardList className="w-6 h-6 text-gray-600" />,
                 title: 'D.Pharm (Diploma in Pharmacy)',
                 duration: '2 years',
                 level: 'Diploma',
@@ -304,7 +293,7 @@ export default function TiruppurPage() {
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
               },
               {
-                icon: '🎓',
+                icon: <GraduationCap className="w-6 h-6 text-green-600" />,
                 title: 'B.Pharm (Bachelor of Pharmacy)',
                 duration: '4 years',
                 level: 'UG',
@@ -312,7 +301,7 @@ export default function TiruppurPage() {
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
               },
               {
-                icon: '🎓',
+                icon: <GraduationCap className="w-6 h-6 text-green-600" />,
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
@@ -320,7 +309,7 @@ export default function TiruppurPage() {
                 eligibility: 'B.Pharm degree',
               },
               {
-                icon: '🩺',
+                icon: <Stethoscope className="w-6 h-6 text-blue-600" />,
                 title: 'Pharm.D (Doctor of Pharmacy)',
                 duration: '6 years',
                 level: 'UG (Professional)',
@@ -332,7 +321,7 @@ export default function TiruppurPage() {
                 key={prog.title}
                 className="bg-white rounded-xl p-4 sm:p-5 text-left flex flex-col border border-gray-100 shadow-sm"
               >
-                <div className="text-2xl mb-3">{prog.icon}</div>
+                <div className="mb-3">{prog.icon}</div>
                 <h3 className="text-xs sm:text-sm font-bold text-gray-900 mb-3">{prog.title}</h3>
                 <div className="mb-3">
                   {[
@@ -353,12 +342,10 @@ export default function TiruppurPage() {
                 </div>
                 <p className="text-[10px] sm:text-xs text-gray-400 mb-4 flex-1">{prog.eligibility}</p>
                 <a
-                  href={WHATSAPP_BASE}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`tel:${PHONE}`}
                   className="bg-green-50 hover:bg-green-100 text-green-700 font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-green-100"
                 >
-                  Enquire About This Course
+                  Call to Enquire
                 </a>
               </div>
             ))}
@@ -434,7 +421,7 @@ export default function TiruppurPage() {
 
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 text-left">
             <div className="bg-[#006837] text-white p-4 sm:p-5 flex items-center gap-3">
-              <span className="text-xl sm:text-2xl">📍</span>
+              <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
               <div>
                 <h3 className="text-sm sm:text-base font-bold">
                   Tiruppur → JKKN Pharmacy Campus
@@ -448,33 +435,33 @@ export default function TiruppurPage() {
             <div className="divide-y divide-gray-100">
               {[
                 {
-                  emoji: '🏔️',
+                  emoji: <Navigation className="w-5 h-5 text-gray-600" />,
                   label: 'ROUTE',
                   text: 'NH-544 via Erode, then State Highway towards Tiruppur',
                 },
                 {
-                  emoji: '🚌',
+                  emoji: <Bus className="w-5 h-5 text-gray-600" />,
                   label: 'BY BUS',
                   text: 'Inter-city buses from Tiruppur to Komarapalayam/Erode available regularly. Private bus services also available.',
                 },
                 {
-                  emoji: '🚂',
+                  emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
                   text: 'Tiruppur Junction (~85 km from campus)',
                 },
                 {
-                  emoji: '✈️',
+                  emoji: <Plane className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST AIRPORT',
                   text: 'Coimbatore International Airport (Code: CJB) (~50 km)',
                 },
                 {
-                  emoji: '🏠',
+                  emoji: <Building2 className="w-5 h-5 text-gray-600" />,
                   label: 'CAMPUS ADDRESS',
                   text: 'JKKN Institutions, Natarajapuram, NH-544, Komarapalayam (TK), Namakkal (DT), Tamil Nadu - 638183',
                 },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-3 p-3 sm:p-4">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-50 rounded-lg flex items-center justify-center shrink-0 text-base sm:text-lg">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-50 rounded-lg flex items-center justify-center shrink-0">
                     {item.emoji}
                   </div>
                   <div>
@@ -504,32 +491,32 @@ export default function TiruppurPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
-                emoji: '🔬',
+                emoji: <Microscope className="w-5 h-5 text-blue-500" />,
                 title: 'Modern Labs',
                 desc: 'Advanced laboratories and smart classrooms',
               },
               {
-                emoji: '📚',
+                emoji: <BookOpen className="w-5 h-5 text-indigo-500" />,
                 title: 'Digital Library',
                 desc: 'Well-stocked library with digital access and journals',
               },
               {
-                emoji: '🏠',
+                emoji: <Building2 className="w-5 h-5 text-gray-600" />,
                 title: 'Hostel',
                 desc: 'Separate hostels for boys and girls with mess facility',
               },
               {
-                emoji: '🚌',
+                emoji: <Bus className="w-5 h-5 text-teal-500" />,
                 title: 'Transport',
                 desc: 'College buses connecting to Tiruppur and surrounding areas',
               },
               {
-                emoji: '🏃',
+                emoji: <Activity className="w-5 h-5 text-red-500" />,
                 title: 'Sports',
                 desc: 'Playground, indoor games, gym, and annual sports events',
               },
               {
-                emoji: '📶',
+                emoji: <Wifi className="w-5 h-5 text-cyan-500" />,
                 title: 'WiFi Campus',
                 desc: 'High-speed internet across the entire campus',
               },
@@ -538,7 +525,7 @@ export default function TiruppurPage() {
                 key={facility.title}
                 className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 text-left flex items-start gap-3 shadow-sm"
               >
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-50 rounded-lg flex items-center justify-center shrink-0 text-base sm:text-lg">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-50 rounded-lg flex items-center justify-center shrink-0">
                   {facility.emoji}
                 </div>
                 <div>
@@ -738,15 +725,6 @@ export default function TiruppurPage() {
               <a href={`tel:${PHONE}`} className="underline hover:text-white transition-colors">
                 {PHONE_DISPLAY}
               </a>
-              {' • '}
-              <a
-                href={WHATSAPP_BASE}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-white transition-colors"
-              >
-                WhatsApp
-              </a>
             </p>
           </form>
         </div>
@@ -765,15 +743,15 @@ export default function TiruppurPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-3 sm:mb-4">
             {[
-              { emoji: '🏠', city: 'Namakkal', distance: '5-10 km' },
-              { emoji: '🚌', city: 'Salem', distance: '40-50 km' },
-              { emoji: '🏔️', city: 'Erode', distance: '30-40 km' },
+              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Namakkal', distance: '5-10 km' },
+              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Salem', distance: '40-50 km' },
+              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Erode', distance: '30-40 km' },
             ].map((item) => (
               <div
                 key={item.city}
                 className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm"
               >
-                <span className="text-2xl">{item.emoji}</span>
+                <span>{item.emoji}</span>
                 <div className="text-left">
                   <p className="text-xs sm:text-sm font-bold text-gray-900">{item.city}</p>
                   <p className="text-[10px] sm:text-xs text-gray-400">{item.distance}</p>
@@ -784,7 +762,7 @@ export default function TiruppurPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
             <div className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm">
-              <span className="text-2xl">✨</span>
+              <MapPin className="w-5 h-5 text-green-600" />
               <div className="text-left">
                 <p className="text-xs sm:text-sm font-bold text-gray-900">Coimbatore</p>
                 <p className="text-[10px] sm:text-xs text-gray-400">100-110 km</p>
@@ -801,122 +779,9 @@ export default function TiruppurPage() {
         </div>
       </section>
 
-      {/* ── Custom Footer ── */}
-      <footer className="bg-[#0d3d1a] text-white">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-7 sm:py-10">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <div>
-              <h3 className="text-sm sm:text-base font-bold mb-3 sm:mb-4">
-                JKKN College of Pharmacy
-              </h3>
-              <div className="space-y-1.5 text-xs sm:text-sm text-green-200">
-                <p>Part of JKKN Institutions</p>
-                <p className="leading-relaxed">
-                  Natarajapuram, NH-544 (Salem To Coimbatore National Highway), Komarapalayam (TK),
-                  Namakkal (DT), Tamil Nadu - 638183, India
-                </p>
-                <p>
-                  Phone:{' '}
-                  <a href={`tel:${PHONE}`} className="hover:text-white transition-colors">
-                    {PHONE_DISPLAY}
-                  </a>
-                </p>
-                <p>
-                  WhatsApp:{' '}
-                  <a
-                    href={WHATSAPP_BASE}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-white transition-colors"
-                  >
-                    {PHONE_DISPLAY}
-                  </a>
-                </p>
-                <p>
-                  Email:{' '}
-                  <a
-                    href="mailto:admissions@pharmacy.jkkn.ac.in"
-                    className="hover:text-white transition-colors"
-                  >
-                    admissions@pharmacy.jkkn.ac.in
-                  </a>
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-sm sm:text-base font-bold mb-3 sm:mb-4">Quick Links</h3>
-              <ul className="space-y-1.5 text-xs sm:text-sm text-green-200">
-                {[
-                  { label: 'All Programmes', href: '/programmes' },
-                  { label: 'Admissions', href: '/admission-process' },
-                  { label: 'Placements', href: '/campus-recruitment' },
-                  { label: 'Campus Life', href: '/central-facilities' },
-                  { label: 'Fee Structure', href: '/admission-process' },
-                  { label: 'Contact Us', href: '/contact' },
-                ].map((link) => (
-                  <li key={link.label}>
-                    <a href={link.href} className="hover:text-white transition-colors">
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-sm sm:text-base font-bold mb-3 sm:mb-4">JKKN Institutions</h3>
-              <ul className="space-y-1.5 text-xs sm:text-sm text-green-200">
-                {[
-                  { label: 'JKKN Group', href: 'https://jkkn.ac.in' },
-                  { label: 'Dental', href: 'https://dental.jkkn.ac.in' },
-                  { label: 'Pharmacy', href: 'https://pharmacy.jkkn.ac.in' },
-                  { label: 'Nursing', href: 'https://nursing.jkkn.ac.in' },
-                  { label: 'Engineering', href: 'https://engineering.jkkn.ac.in' },
-                  { label: 'Arts & Science', href: 'https://arts.jkkn.ac.in' },
-                  { label: 'Allied Health Sciences', href: 'https://allied.jkkn.ac.in' },
-                ].map((link) => (
-                  <li key={link.label}>
-                    <a
-                      href={link.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:text-white transition-colors"
-                    >
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-t border-green-800/50">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3">
-            <p className="text-[9px] sm:text-[10px] text-green-300 text-center leading-relaxed">
-              © 2026 JKKN College of Pharmacy | Part of JKKN Institutions | All institution names
-              follow the JKKN Official Name Registry | Page optimised for SEO, AEO, and GEO
-            </p>
-          </div>
-        </div>
-      </footer>
-
       {/* ── FAQ Schema Markup ── */}
       <FaqSchema faqs={faqs} />
 
-      {/* ── Floating WhatsApp Button ── */}
-      <div className="fixed bottom-5 right-3 sm:right-5 z-50">
-        <a
-          href={WHATSAPP_BASE}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-[#25d366] hover:bg-[#20bd5a] text-white font-semibold px-3 sm:px-4 py-2 rounded-full shadow-lg flex items-center gap-1.5 transition-all duration-300"
-        >
-          <WhatsAppIcon />
-          <span className="text-[10px] sm:text-xs">Chat with Us</span>
-        </a>
-      </div>
     </div>
   );
 }

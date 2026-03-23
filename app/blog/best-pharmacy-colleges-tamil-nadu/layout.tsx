@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy Colleges in Tamil Nadu 2026 | JKKN Pharmacy',
@@ -46,5 +47,10 @@ export default function BestPharmacyCollegesLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <BreadcrumbWrapper />
+      {children}
+    </>
+  )
 }

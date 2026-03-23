@@ -1,4 +1,6 @@
 import { Metadata } from 'next'
+import Header from '@/components/Header'
+import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Coimbatore | JKKN',
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
+    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI approved, NAAC A Grade with 85%+ placements. Apply for 2026-27 admissions!',
     url: 'https://pharmacy.jkkn.ac.in/coimbatore/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -37,7 +39,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Coimbatore | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI, AICTE, NAAC approved with 85%+ placements.',
+    description: 'JKKN College of Pharmacy is just 2 hours from Coimbatore. PCI approved, NAAC A Grade with 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
@@ -47,5 +49,13 @@ export default function CoimbatoreLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <Header />
+      <div className="pt-10 sm:pt-16 xl:pt-[88px]">
+        <BreadcrumbWrapper />
+        {children}
+      </div>
+    </>
+  )
 }

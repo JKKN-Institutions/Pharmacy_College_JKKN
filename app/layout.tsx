@@ -4,6 +4,11 @@ import Script from 'next/script'
 import './globals.css'
 import FooterWrapper from '@/components/FooterWrapper'
 import { OrganizationSchema } from '@/components/SchemaOrg'
+import dynamic from 'next/dynamic'
+
+const SchemaValidatorDev = process.env.NODE_ENV === 'development'
+  ? dynamic(() => import('@/components/SchemaValidatorDev'))
+  : () => null
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -114,6 +119,7 @@ export default function RootLayout({
       </Script>
       <body className={poppins.className} suppressHydrationWarning>
         <OrganizationSchema />
+        <SchemaValidatorDev />
         {children}
         <FooterWrapper />
       </body>

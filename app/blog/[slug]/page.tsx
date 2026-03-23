@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import Header from '@/components/Header';
 import ScrollToTop from '@/components/ScrollToTop';
+import { FaqSchema } from '@/components/SchemaOrg';
 import {
   Clock,
   BookOpen,
@@ -199,13 +199,9 @@ export default function BlogDetailPage() {
     "description": "Complete guide to B.Ed course 2026 — eligibility criteria, curriculum, TNTEU counselling, fee structure, career scope, and admission process at JKKN College of Education, Komarapalayam.",
     "image": "https://pharmacy.jkkn.ac.in/images/logo.png",
     "author": {
-      "@type": "Person",
+      "@type": "Organization",
       "name": "JKKN Editorial Team",
-      "affiliation": {
-        "@type": "EducationalOrganization",
-        "name": "JKKN College of Pharmacy",
-        "url": "https://pharmacy.jkkn.ac.in/"
-      }
+      "url": "https://pharmacy.jkkn.ac.in/"
     },
     "publisher": {
       "@type": "EducationalOrganization",
@@ -237,8 +233,9 @@ export default function BlogDetailPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
       />
+      <FaqSchema faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))} />
     <div className="min-h-screen bg-white">
-      <Header />
+      <article>
 
       {/* ── Article Header ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
@@ -1033,6 +1030,7 @@ export default function BlogDetailPage() {
         </div>
       </section>
 
+      </article>
       <ScrollToTop />
     </div>
     </>

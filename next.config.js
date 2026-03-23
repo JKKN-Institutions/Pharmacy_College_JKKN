@@ -119,6 +119,25 @@ const nextConfig = {
         destination: '/b-pharmacy-lateral-entry',
         permanent: true, // 301 redirect - consolidate SEO ranking to correct URL
       },
+      // P0-1: Convert client-side PDF redirect pages to server-side 301 redirects
+      { source: '/administration/', destination: '/pdf/administration.pdf', permanent: true },
+      { source: '/animal-house/', destination: '/pdf/ANIMAL-HOUSE-FACILITY.pdf', permanent: true },
+      { source: '/attainment-cos-pos/', destination: '/pdf/ATTAINMENT-OF-COs-AND-POs.pdf', permanent: true },
+      { source: '/audit-statements-finance/', destination: '/pdf/Audit-Statements-Finance.pdf', permanent: true },
+      { source: '/barrier-free-environment/', destination: '/pdf/DISABLED-FRIENDLY-AND-BARRIER-FREE-ENVIRONMENT.pdf', permanent: true },
+      { source: '/circulars/', destination: '/pdf/CIRCULARS-AND-NOTICES.pdf', permanent: true },
+      { source: '/cpio/', destination: '/pdf/Central-Public-Information-Officer.pdf', permanent: true },
+      { source: '/feedback-analysis/', destination: '/pdf/Feedback-Analysis.pdf', permanent: true },
+      { source: '/newsletters/', destination: '/pdf/NEWSLETTER.pdf', permanent: true },
+      { source: '/sedg-cell/', destination: '/pdf/SOCIO-ECONOMICALLY-DISADVANTAGED-GROUP-CELL.pdf', permanent: true },
+      { source: '/ugc-public-disclosure-compliance/', destination: '/pdf/UGC-PUBLIC-DISCLOSURE-COMPLIANCE-LETTER.pdf', permanent: true },
+      { source: '/undertaking/', destination: '/pdf/UNDERTAKING.pdf', permanent: true },
+      { source: '/various-committees/', destination: '/pdf/Various-Committees.pdf', permanent: true },
+      // P0-5: Redirect duplicate NIRF root routes to canonical /nirf/ hierarchy
+      { source: '/nirf-2024/', destination: '/nirf/nirf-2024/', permanent: true },
+      { source: '/nirf-2025/', destination: '/nirf/nirf-2025/', permanent: true },
+      // P3-3: Add /about/ redirect to /overview/
+      { source: '/about/', destination: '/overview/', permanent: true },
     ]
   },
 }

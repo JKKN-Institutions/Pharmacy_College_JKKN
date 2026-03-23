@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import Header from '@/components/Header'
 import Link from 'next/link'
 import { GraduationCap, Mail, BookOpen, Award } from 'lucide-react'
@@ -197,7 +198,7 @@ export default async function FacultyProfilePage({ params }: { params: Promise<{
       <section className="bg-[#006837] text-white py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16">
         <div className="max-w-[1200px] mx-auto flex flex-col sm:flex-row gap-6 sm:gap-10 items-center sm:items-start">
           <div className="w-28 h-28 sm:w-36 sm:h-36 rounded-full overflow-hidden border-4 border-white/30 flex-shrink-0 bg-white/10 flex items-center justify-center">
-            <img src={faculty.image} alt={faculty.name} className="w-full h-full object-cover" loading="lazy" />
+            <Image src={faculty.image} alt={faculty.name} fill className="object-cover" loading="lazy" />
           </div>
           <div>
             <h1 className="text-2xl sm:text-3xl font-bold mb-1">{faculty.name}</h1>

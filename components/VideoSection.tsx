@@ -39,59 +39,63 @@ const videos: Video[] = [
 
 export default function VideoSection() {
   const validVideos = videos.filter((v) => !v.youtubeId.includes('YOUR_YOUTUBE_VIDEO_ID'))
-  const videoSchemas = validVideos.map((v) => ({
-    '@context': 'https://schema.org',
-    '@type': 'VideoObject',
-    name: v.title,
-    description: v.description,
-    thumbnailUrl: v.thumbnailUrl,
-    uploadDate: v.uploadDate,
-    duration: v.duration,
-    embedUrl: `https://www.youtube.com/embed/${v.youtubeId}`,
-    contentUrl: `https://www.youtube.com/watch?v=${v.youtubeId}`,
-    publisher: {
-      '@type': 'EducationalOrganization',
-      name: 'JKKN College of Pharmacy',
-      url: 'https://pharmacy.jkkn.ac.in/',
-    },
-    inLanguage: 'en',
-    isFamilyFriendly: true,
-  }))
 
   return (
     <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-[#f9fafb]" aria-label="Campus Videos">
-      {/* VideoObject JSON-LD schema for each video — only render for real YouTube IDs */}
-      {videoSchemas.length > 0 && (
+      {/* VideoObject JSON-LD schema — one script per video for better LLM/validator compatibility */}
+      {validVideos.map((v, i) => (
         <script
+          key={i}
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoSchemas) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'VideoObject',
+            name: v.title,
+            description: v.description,
+            thumbnailUrl: v.thumbnailUrl,
+            uploadDate: v.uploadDate,
+            duration: v.duration,
+            embedUrl: `https://www.youtube.com/embed/${v.youtubeId}`,
+            contentUrl: `https://www.youtube.com/watch?v=${v.youtubeId}`,
+            publisher: {
+              '@type': 'EducationalOrganization',
+              name: 'JKKN College of Pharmacy',
+              url: 'https://pharmacy.jkkn.ac.in/',
+            },
+            inLanguage: 'en',
+            isFamilyFriendly: true,
+          }) }}
         />
-      )}
+      ))}
 
       <div className="max-w-[1200px] mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
         <p className="text-sm sm:text-base text-gray-600 mb-8">Watch our campus tour, lab facilities, and placement success stories.</p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {videos.map((v) => (
-            <div key={v.youtubeId} className="rounded-xl overflow-hidden shadow-md bg-white">
-              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  loading="lazy"
-                  src={`https://www.youtube.com/embed/${v.youtubeId}`}
-                  title={v.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
+        {validVideos.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {validVideos.map((v) => (
+              <div key={v.youtubeId} className="rounded-xl overflow-hidden shadow-md bg-white">
+                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                  <iframe
+                    className="absolute inset-0 w-full h-full"
+                    loading="lazy"
+                    src={`https://www.youtube.com/embed/${v.youtubeId}`}
+                    title={v.title}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-sm sm:text-base font-semibold text-[#006837] leading-snug">{v.title}</h3>
+                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">{v.description}</p>
+                </div>
               </div>
-              <div className="p-4">
-                <h3 className="text-sm sm:text-base font-semibold text-[#006837] leading-snug">{v.title}</h3>
-                <p className="text-xs text-gray-500 mt-1 line-clamp-2">{v.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-center text-gray-500 py-8">Videos coming soon.</p>
+        )}
       </div>
     </section>
   )

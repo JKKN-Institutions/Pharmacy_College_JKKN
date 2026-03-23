@@ -7,7 +7,7 @@ const courseSchema = {
   "@type": "Course",
   "name": "Doctor of Pharmacy (Pharm.D)",
   "description": "Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice, patient care, and medication therapy management. Available as 6-year programme after 12th standard or 3-year Post Baccalaureate programme after B.Pharm. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient counselling, and pharmaceutical care.",
-  "url": "https://pharmacy.jkkn.ac.in/pharm-d",
+  "url": "https://pharmacy.jkkn.ac.in/pharm-d/",
   "provider": {
     "@type": "EducationalOrganization",
     "@id": "https://pharmacy.jkkn.ac.in/#organization",

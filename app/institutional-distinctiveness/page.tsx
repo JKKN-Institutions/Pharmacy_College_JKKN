@@ -98,7 +98,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/4743069129092357/?_cft_[0]=AZUwMeENk371WHLlHTD1i4y9-MaP8Sx5S02fwhx_8g9X2VfVHBwSDNnLumzVWw-6bztw2c8j6khrWfzpln8SRi2oDzT8CdjF7502-zF9K1t5Sm9T2h9K81S41ohK0HKDSq-t5lnRCBZNeVCjzHsGRNqx8&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/4743069129092357/?_cft_[0]=AZUwMeENk371WHLlHTD1i4y9-MaP8Sx5S02fwhx_8g9X2VfVHBwSDNnLumzVWw-6bztw2c8j6khrWfzpln8SRi2oDzT8CdjF7502-zF9K1t5Sm9T2h9K81S41ohK0HKDSq-t5lnRCBZNeVCjzHsGRNqx8&__tn__=EH-R
@@ -112,7 +112,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/photo/?fbid=5562180380514557&set=pcb.5562180517181210&__cft_[0]=AZXQHuCwcK3P0Pd9_Sg47ZEk-7RUF5NQ0AR275_XqOHXwwm-YxkQz9qDrtNrykE4r2skRdayEc_4cWOvOYNhKCIPYXsY_sDin4izBorFy15BZZVSBKEh8tRy1vjLt2Wk350Uj7p6IlkRXENaWCgy0CjAMsr3e7k&__tn__=*bH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/photo/?fbid=5562180380514557&set=pcb.5562180517181210&__cft_[0]=AZXQHuCwcK3P0Pd9_Sg47ZEk-7RUF5NQ0AR275_XqOHXwwm-YxkQz9qDrtNrykE4r2skRdayEc_4cWOvOYNhKCIPYXsY_sDin4izBorFy15BZZVSBKEh8tRy1vjLt2Wk350Uj7p6IlkRXENaWCgy0CjAMsr3e7k&__tn__=*bH-R
@@ -126,7 +126,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/4642531242479480/?__cft_[0]=AZW5co_c4lSrgH7w1ne3?wMwahZQ0OxOCC34HnaWcjd-hsGbQSW1o0afPGzOlGArbLtQXr5u6vk19MnkhAsObdavAGBWoZWQkiuRFbOuQfx-4ULxLqW-nEouBpRtlX0F7lnj3hmsg9oWd5rSjcKZnxAO8&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/4642531242479480/?__cft_[0]=AZW5co_c4lSrgH7w1ne3?wMwahZQ0OxOCC34HnaWcjd-hsGbQSW1o0afPGzOlGArbLtQXr5u6vk19MnkhAsObdavAGBWoZWQkiuRFbOuQfx-4ULxLqW-nEouBpRtlX0F7lnj3hmsg9oWd5rSjcKZnxAO8&__tn__=EH-R
@@ -140,7 +140,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510167322382560/?__cft_[0]=AZVwgXBtyyz_md2K8SJBBn4fELFKa3pjWuJicRH1H7uyogYhYwysKFAS_jZRRP2c8c4tvr51rZe2tjbuHdndkM9KC1b6l0kLd6crwAAjcWpooCFgHSSmutgBioHRZ_PyBkmc&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510167322382560/?__cft_[0]=AZVwgXBtyyz_md2K8SJBBn4fELFKa3pjWuJicRH1H7uyogYhYwysKFAS_jZRRP2c8c4tvr51rZe2tjbuHdndkM9KC1b6l0kLd6crwAAjcWpooCFgHSSmutgBioHRZ_PyBkmc&__tn__=EH-R
@@ -154,7 +154,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/3426719307394019/?__cft_[0]=AZUZdgTL9A87t7Ss7PzdHrjMLBICrQBGxUQMKWlM_xGNW6u6KHO89shMzDJCukSnHMvydTdUrrrc_us9StaPZ78b_wDykhhaIwNX-3zpmCGQQcoqu4N895rKEn4LrWNCQNLFHwNyj1gn5nM1WwqJ3mB8&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/3426719307394019/?__cft_[0]=AZUZdgTL9A87t7Ss7PzdHrjMLBICrQBGxUQMKWlM_xGNW6u6KHO89shMzDJCukSnHMvydTdUrrrc_us9StaPZ78b_wDykhhaIwNX-3zpmCGQQcoqu4N895rKEn4LrWNCQNLFHwNyj1gn5nM1WwqJ3mB8&__tn__=EH-R
@@ -168,7 +168,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/photo/?fbid=5684813354917925&set=pcb.5684813584917902&__cft_[0]=AZWAZJMVPgQS8TqzuxlIQSM4aydFsBh0oH4tRmmm_f7gn8jPxkfer_A6aU5fMa5R-srTpCph1ID3uK031s_xkG8vEdynj42iaxzQg1gQr-5L5A9m4YdZ0NUQ6o_JXAZG9jY&__tn__=*bH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/photo/?fbid=5684813354917925&set=pcb.5684813584917902&__cft_[0]=AZWAZJMVPgQS8TqzuxlIQSM4aydFsBh0oH4tRmmm_f7gn8jPxkfer_A6aU5fMa5R-srTpCph1ID3uK031s_xkG8vEdynj42iaxzQg1gQr-5L5A9m4YdZ0NUQ6o_JXAZG9jY&__tn__=*bH-R
@@ -188,7 +188,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/photo/?fbid=2510171745715451&set=pcb.2510172232382069&__cft_[0]=AZVBUIfpr24EL2kgR9MltrVlMl_NqDWF8oGFL5WaSBfCMZtKw6WaMjgjwc5muqBMfndjTfDZSEJh7Lg1Pcog0OmMjKYopWqzdCtOdRPh4YOG2lICLObrvW3UPl8&__tn__=*bH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/photo/?fbid=2510171745715451&set=pcb.2510172232382069&__cft_[0]=AZVBUIfpr24EL2kgR9MltrVlMl_NqDWF8oGFL5WaSBfCMZtKw6WaMjgjwc5muqBMfndjTfDZSEJh7Lg1Pcog0OmMjKYopWqzdCtOdRPh4YOG2lICLObrvW3UPl8&__tn__=*bH-R
@@ -205,7 +205,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2838519166214039/?_cft_[0]=AZU9pZHTnAbSv5aUD6W7-6ARRtVjLQ81ce3hYVqx1gTnbIDcY3-quXMm9t6rrConu4IzRsCWyL1KBNyRtBoiqcPed-dCkPORUeeekmh89Ric9BGwDjWvHq_JhEypr2VekA&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/2838519166214039/?_cft_[0]=AZU9pZHTnAbSv5aUD6W7-6ARRtVjLQ81ce3hYVqx1gTnbIDcY3-quXMm9t6rrConu4IzRsCWyL1KBNyRtBoiqcPed-dCkPORUeeekmh89Ric9BGwDjWvHq_JhEypr2VekA&__tn__=EH-R
@@ -222,7 +222,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/photo/?fbid=1306347036172286&set=pcb.1306347729505550&__cft_[0]=AZWTE-3Y5nTJlEmJaUoLG0pdn42t1hmyiFCvaL9mgogVEODTLAd1qHXpxxUa5i0XswZNYTbI5K-4sl3DP5qhT7EazoihrEro5sKTV-ocT5UEl_wYCI6RUaV-wrW3zSjGeFs&__tn__=*bH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/photo/?fbid=1306347036172286&set=pcb.1306347729505550&__cft_[0]=AZWTE-3Y5nTJlEmJaUoLG0pdn42t1hmyiFCvaL9mgogVEODTLAd1qHXpxxUa5i0XswZNYTbI5K-4sl3DP5qhT7EazoihrEro5sKTV-ocT5UEl_wYCI6RUaV-wrW3zSjGeFs&__tn__=*bH-R
@@ -245,7 +245,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510171745715451/?_cft_[0]=AZW21PkLXhzQFw3TA1tsEcIjG7CDFrbVKnlAFj05juFlbyo2qA_zUQ-3XGZrfnNTygkE4r7skRdayEc_4cWOvOYNhKCIPYXsY_sDBin4izBorFv15BZZua-U19Aq-b_p5XdWrfU5yLeqlp5BSYnzidt1QmEWt2mf_Ep4QslR6FEuHpg&__tn__=EH-y-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510171745715451/?_cft_[0]=AZW21PkLXhzQFw3TA1tsEcIjG7CDFrbVKnlAFj05juFlbyo2qA_zUQ-3XGZrfnNTygkE4r7skRdayEc_4cWOvOYNhKCIPYXsY_sDBin4izBorFv15BZZua-U19Aq-b_p5XdWrfU5yLeqlp5BSYnzidt1QmEWt2mf_Ep4QslR6FEuHpg&__tn__=EH-y-R
@@ -257,7 +257,7 @@ export default function InstitutionalDistinctivenessPage() {
                   In the "BEST ACHIEVER'S AWARD – 2023," Mr. M. Hariharan won the title of "Young Achiever's Award" in recognition of his exceptional contribution in the areas of research and innovative idea management skills. The Magic Book of Records contains a record of it. <a
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/5877480582317867/?__cft_[0]=AZV7r4ViFlLkGObJrV9IX6IbY_yVGYsvKksune0dHkZ4auZQJAL6iADXkywM_Onw0-PjJUCtvgiPjg4XCZVBDsjUeWSxtTsLui_k7dQ6AKFvsEC0AT0u3LPI7seIXYtBEC6JzPsZ14BPqmYjZlaRxwlm&__tn__=EH-R"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow noopener noreferrer"
                     className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/5877480582317867/?__cft_[0]=AZV7r4ViFlLkGObJrV9IX6IbY_yVGYsvKksune0dHkZ4auZQJAL6iADXkywM_Onw0-PjJUCtvgiPjg4XCZVBDsjUeWSxtTsLui_k7dQ6AKFvsEC0AT0u3LPI7seIXYtBEC6JzPsZ14BPqmYjZlaRxwlm&__tn__=EH-R
@@ -275,7 +275,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/photo/?fbid=4525652110834061&set=pcb.4525652560834016&__cft_[0]="
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/photo/?fbid=4525652110834061&set=pcb.4525652560834016&__cft_[0]=
@@ -304,7 +304,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/5827151260684133/?__cft_[0]=AZXuTucfsLapoe306m0BMHjqLqJYcHL_VGiXP8qfOQyuSvFRumlMp0GssJlC1pZP5p1BuxhRwp2TQs0RcmrXmrAmuY0tLQTzeNYLYZT4xH5B3Fu-2BzYADjjZeGwCqmEnnp4m8eM2-DstM5GRdwCJ2P88&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/JKKNCP/photos/a.148899628509353/5827151260684133/?__cft_[0]=AZXuTucfsLapoe306m0BMHjqLqJYcHL_VGiXP8qfOQyuSvFRumlMp0GssJlC1pZP5p1BuxhRwp2TQs0RcmrXmrAmuY0tLQTzeNYLYZT4xH5B3Fu-2BzYADjjZeGwCqmEnnp4m8eM2-DstM5GRdwCJ2P88&__tn__=EH-R
@@ -321,7 +321,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/omm.indian/photos/a.296878653785801/1708824095924576/?__cft_[0]=AZUyloHQ3cYJwcjH2L68BYU48jQKQ9A8fjwOgtNNQ1EfS2705ijpB70BE4vzfzsLAlVx8Z9gzHUj3tWp26fdnFXp_SR1xKb7SHMRZaxiHfo8Mu2415ld22pm_f80nyHtGlU8&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/omm.indian/photos/a.296878653785801/1708824095924576/?__cft_[0]=AZUyloHQ3cYJwcjH2L68BYU48jQKQ9A8fjwOgtNNQ1EfS2705ijpB70BE4vzfzsLAlVx8Z9gzHUj3tWp26fdnFXp_SR1xKb7SHMRZaxiHfo8Mu2415ld22pm_f80nyHtGlU8&__tn__=EH-R
@@ -338,7 +338,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/myjkkn/photos/a.189013391111562/6633239506688886/?__cft_[0]=AZVchpILYX8i_A3n8jy4FDcRToRl5z6tXPbECFH_yoBu80O6NsLzed5R96enhM7ZaVg2Np-9H-E8Uu_cfBkkiSW5nzlV6nZTEjH0543h9aKPTkMhFREitPBaLeyQMdAkgHvnM-x4AOtEjgnETptgkU-t&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/myjkkn/photos/a.189013391111562/6633239506688886/?__cft_[0]=AZVchpILYX8i_A3n8jy4FDcRToRl5z6tXPbECFH_yoBu80O6NsLzed5R96enhM7ZaVg2Np-9H-E8Uu_cfBkkiSW5nzlV6nZTEjH0543h9aKPTkMhFREitPBaLeyQMdAkgHvnM-x4AOtEjgnETptgkU-t&__tn__=EH-R
@@ -355,7 +355,7 @@ export default function InstitutionalDistinctivenessPage() {
                 <a
                   href="https://www.facebook.com/myjkkn/photos/a.189013391111562/2343845582294988/?__cft_[0]=AZVUTruUtLHHxcAt12P_lZ8AosqMC4wvFnGi6TYClbzwuMpomvFMlKZjp0X2bOfadpvwAum7XltK1Ghi59Glvv_rDsp_7mHNa_KuPxe5Poj_iJvkwlJlNOhbLfULLTZX8A08&__tn__=EH-R"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow noopener noreferrer"
                   className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
                 >
                   https://www.facebook.com/myjkkn/photos/a.189013391111562/2343845582294988/?__cft_[0]=AZVUTruUtLHHxcAt12P_lZ8AosqMC4wvFnGi6TYClbzwuMpomvFMlKZjp0X2bOfadpvwAum7XltK1Ghi59Glvv_rDsp_7mHNa_KuPxe5Poj_iJvkwlJlNOhbLfULLTZX8A08&__tn__=EH-R

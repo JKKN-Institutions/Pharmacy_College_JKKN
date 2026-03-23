@@ -25,6 +25,28 @@ export function OrganizationSchema() {
       }
     ],
     "accreditation": "NAAC A Grade",
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Accreditation",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "National Assessment and Accreditation Council (NAAC)",
+          "url": "https://www.naac.gov.in/"
+        },
+        "description": "NAAC A Grade"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Approval",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Pharmacy Council of India (PCI)",
+          "url": "https://www.pci.nic.in/"
+        },
+        "description": "PCI Approved Institution"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Natarajapuram, NH-544, Salem To Coimbatore National Highway",
@@ -71,7 +93,9 @@ export function OrganizationSchema() {
       "https://www.youtube.com/@JKKNInstitutions",
       "https://www.shiksha.com/college/jkkn-college-of-pharmacy",
       "https://www.careers360.com/colleges/jkkn-college-of-pharmacy-namakkal",
-      "https://collegedunia.com/pharmacy/24692-jkkn-college-of-pharmacy-namakkal"
+      "https://collegedunia.com/pharmacy/24692-jkkn-college-of-pharmacy-namakkal",
+      "https://www.nirfindia.org/",
+      "https://www.pci.nic.in/"
     ]
   };
 

@@ -7,7 +7,7 @@ const courseSchema = {
   "@type": "Course",
   "name": "Bachelor of Pharmacy (B.Pharm)",
   "description": "Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains students in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals.",
-  "url": "https://pharmacy.jkkn.ac.in/b-pharmacy",
+  "url": "https://pharmacy.jkkn.ac.in/b-pharmacy/",
   "provider": {
     "@type": "EducationalOrganization",
     "@id": "https://pharmacy.jkkn.ac.in/#organization",
@@ -55,92 +55,6 @@ const courseSchema = {
   }
 }
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Is NEET required for B.Pharm admission?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "NEET is mandatory for B.Pharm admission in government colleges in some states like Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the difference between B.Pharm and Pharm.D?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm is a 4-year undergraduate degree in pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme focused on clinical pharmacy and patient care in hospitals. B.Pharm graduates work in pharmaceutical industry and research; Pharm.D graduates work alongside doctors in clinical settings."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I become a doctor after B.Pharm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm graduates cannot practice as medical doctors. However, they can pursue higher studies like Pharm.D (Doctor of Pharmacy) for clinical pharmacy practice, or Ph.D for research careers. Some may also pursue MBBS through NEET if they meet eligibility criteria, though this requires starting medical education from scratch."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the salary after B.Pharm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Entry-level B.Pharm graduates earn ₹3-6 lakhs per annum depending on job role and employer. Hospital pharmacists earn ₹3.5-5 lakhs, medical representatives earn ₹3-6 lakhs, drug inspectors earn ₹4-7 lakhs, and research scientists earn ₹4-8 lakhs annually. Salaries increase significantly with experience and specialisation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is B.Pharm a good career option?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm offers excellent career prospects in pharmaceutical industry, healthcare, research, regulatory affairs, and entrepreneurship. India's pharmaceutical sector is growing rapidly, creating consistent demand for qualified pharmacists with good salary growth and opportunities for specialisation."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I open my own pharmacy after B.Pharm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm graduates registered with the State Pharmacy Council can open and operate retail pharmacies. A drug license from the State Drug Control Department and business registration are required. Many graduates successfully run independent pharmacies and pharmacy chains."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are the subjects in B.Pharm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm at JKKN spans 8 semesters covering Pharmaceutical Chemistry, Pharmaceutics, Pharmacology, Pharmacognosy, Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, and Hospital Pharmacy. The programme includes laboratory work, industrial training, and a 6-month internship."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is B.Pharm difficult to study?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Students with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The curriculum becomes progressively specialised in later years."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I do M.Pharm after B.Pharm?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the scope of B.Pharm in government sector?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "B.Pharm graduates can join government sector as Drug Inspectors, Pharmaceutical Analysts, Research Scientists in CSIR/ICMR laboratories, Pharmacists in government hospitals, Drug Control Officers, and in defense organisations like DRDO. These positions are filled through competitive exams like SSC, UPSC, or state public service commissions."
-      }
-    }
-  ]
-}
 
 export const metadata: Metadata = {
   title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
@@ -201,7 +115,6 @@ export default function BPharmacyLayout({
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <SpeakableWebPageSchema
         name="B.Pharm Course — Best B.Pharm College in Tamil Nadu"
         description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme at JKKN College of Pharmacy. PCI approved, NAAC A Grade, 95% placements."

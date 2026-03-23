@@ -1,16 +1,17 @@
 'use client'
 
-import Header from '@/components/Header'
 import Image from 'next/image'
 
 export default function OurManagementPage() {
   return (
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
-      <Header />
 
       {/* Main Content */}
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] text-center mb-8 sm:mb-12">
+            Our Management
+          </h1>
           {/* Management Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 lg:gap-16">
             {/* Chairperson Section */}
