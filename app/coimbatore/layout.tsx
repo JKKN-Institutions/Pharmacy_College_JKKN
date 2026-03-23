@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Coimbatore | JKKN',
@@ -47,5 +48,5 @@ export default function CoimbatoreLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return <><Header />{children}</>
 }

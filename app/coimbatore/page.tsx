@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
@@ -80,10 +80,10 @@ export default function CoimbatorePage() {
         { name: 'Pharmacy College Near Coimbatore', url: 'https://pharmacy.jkkn.ac.in/coimbatore' }
       ]} />
       {/* ── Sticky Announcement Bar ── */}
-      <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#0a1f0a] text-white py-2 px-4 sm:px-6">
+      <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#002309] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-green-400 inline-block animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#7cb983] inline-block animate-pulse" />
             <span className="text-[10px] sm:text-xs font-medium">Admissions Open 2026-27</span>
           </div>
           <div className="flex items-center gap-2">
@@ -97,7 +97,7 @@ export default function CoimbatorePage() {
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-orange-500 hover:bg-orange-600 text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200"
+              className="bg-[#7cb983] hover:bg-[#6ba872] text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
             >
               Apply Now
             </a>
@@ -106,7 +106,7 @@ export default function CoimbatorePage() {
       </div>
 
       {/* ── Hero Section ── */}
-      <section className="bg-[#0d2b14] text-white pt-7 sm:pt-10 md:pt-14 pb-0">
+      <section className="bg-[#002309] text-white pt-7 sm:pt-10 md:pt-14 pb-0">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
@@ -120,7 +120,7 @@ export default function CoimbatorePage() {
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
             Best Pharmacy College Near
             <br />
-            <span className="text-orange-400">Coimbatore</span>
+            <span className="text-[#7cb983]">Coimbatore</span>
           </h1>
 
           {/* Description */}
@@ -138,7 +138,7 @@ export default function CoimbatorePage() {
               { value: '105km', label: 'FROM COIMBATORE' },
               { value: '4', label: 'PROGRAMMES' },
             ].map((stat) => (
-              <div key={stat.label} className="bg-[#1a4020] rounded-xl p-2.5 sm:p-3">
+              <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
                 <div className="text-lg sm:text-xl md:text-2xl font-bold">{stat.value}</div>
                 <div className="text-[9px] sm:text-[10px] text-gray-300 uppercase tracking-wider mt-0.5">
                   {stat.label}
@@ -153,7 +153,7 @@ export default function CoimbatorePage() {
               href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
+              className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
             >
               Apply Now — 2026-27
             </a>
@@ -172,7 +172,7 @@ export default function CoimbatorePage() {
             {['PCI', 'NAAC'].map((badge) => (
               <span
                 key={badge}
-                className="inline-flex items-center gap-1 bg-green-50 text-green-700 text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
+                className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#006837] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
               >
                 <Check className="w-3 h-3" /> {badge}
               </span>
@@ -186,12 +186,12 @@ export default function CoimbatorePage() {
       </section>
 
       {/* ── Distance Banner ── */}
-      <section className="bg-gray-50 py-5 sm:py-7 px-4 sm:px-6">
+      <section className="bg-[#FBFBEE] py-5 sm:py-7 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#1a6b35]">105</span>
-              <span className="text-lg sm:text-xl font-bold text-[#1a6b35]">km</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">105</span>
+              <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
               <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-0.5">
@@ -205,7 +205,7 @@ export default function CoimbatorePage() {
               href="https://maps.google.com/?q=JKKN+College+of+Pharmacy+Komarapalayam+Namakkal"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#006837] hover:bg-[#005530] text-white font-semibold px-3 py-2.5 rounded-lg transition-colors text-xs flex flex-col items-center justify-center gap-1 min-w-[90px]"
+              className="bg-[#006837] hover:bg-[#002309] text-white font-semibold px-3 py-2.5 rounded-lg transition-colors text-xs flex flex-col items-center justify-center gap-1 min-w-[90px]"
             >
               <MapPin className="w-4 h-4" />
               <span>View on Map</span>
@@ -226,42 +226,42 @@ export default function CoimbatorePage() {
             personalised attention with smaller class sizes, and strong placement support. Hostel
             and transport facilities make the transition easy.
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
               {
-                icon: <ShieldCheck className="w-7 h-7 text-green-600 mx-auto" />,
+                icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
                 title: 'PCI Approved',
                 desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
               },
               {
-                icon: <Microscope className="w-7 h-7 text-blue-500 mx-auto" />,
+                icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Well-Equipped Labs',
                 desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
-                icon: <FlaskConical className="w-7 h-7 text-purple-500 mx-auto" />,
+                icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Research Opportunities',
                 desc: 'Research opportunities for M.Pharm and Pharm.D students',
               },
               {
-                icon: <Factory className="w-7 h-7 text-orange-500 mx-auto" />,
+                icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Industry Connections',
                 desc: 'Strong pharmaceutical industry connections across Tamil Nadu',
               },
               {
-                icon: <Briefcase className="w-7 h-7 text-indigo-500 mx-auto" />,
+                icon: <Briefcase className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Campus Placements',
                 desc: 'Campus placement support with leading pharma companies',
               },
               {
-                icon: <Bus className="w-7 h-7 text-teal-500 mx-auto" />,
+                icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
                 desc: 'Just 100-110 km from Coimbatore. Daily commute or comfortable hostel — your choice.',
               },
             ].map((item) => (
-              <div key={item.title} className="bg-gray-50 rounded-xl p-4 sm:p-5 text-center">
+              <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
                 <div className="mb-2">{item.icon}</div>
                 <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-1">{item.title}</h3>
                 <p className="text-[11px] sm:text-xs text-gray-500 leading-relaxed">{item.desc}</p>
@@ -272,7 +272,7 @@ export default function CoimbatorePage() {
       </section>
 
       {/* ── Programmes Offered ── */}
-      <section className="bg-gray-50 py-8 sm:py-12 px-4 sm:px-6">
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Programmes Offered
@@ -280,7 +280,7 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Choose the right programme for your career goals
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
@@ -293,7 +293,7 @@ export default function CoimbatorePage() {
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
               },
               {
-                icon: <GraduationCap className="w-6 h-6 text-green-600" />,
+                icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
                 title: 'B.Pharm (Bachelor of Pharmacy)',
                 duration: '4 years',
                 level: 'UG',
@@ -301,7 +301,7 @@ export default function CoimbatorePage() {
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
               },
               {
-                icon: <GraduationCap className="w-6 h-6 text-green-600" />,
+                icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
@@ -309,7 +309,7 @@ export default function CoimbatorePage() {
                 eligibility: 'B.Pharm degree',
               },
               {
-                icon: <Stethoscope className="w-6 h-6 text-blue-600" />,
+                icon: <Stethoscope className="w-6 h-6 text-[#006837]" />,
                 title: 'Pharm.D (Doctor of Pharmacy)',
                 duration: '6 years',
                 level: 'UG (Professional)',
@@ -343,7 +343,7 @@ export default function CoimbatorePage() {
                 <p className="text-[10px] sm:text-xs text-gray-400 mb-4 flex-1">{prog.eligibility}</p>
                 <a
                   href={`tel:${PHONE}`}
-                  className="bg-green-50 hover:bg-green-100 text-green-700 font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-green-100"
+                  className="bg-[#FBFBEE] hover:bg-[#6ba872] text-[#006837] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#7cb983]"
                 >
                   Call to Enquire
                 </a>
@@ -362,7 +362,7 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             The placement cell connects students with India&apos;s top employers
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
@@ -409,7 +409,7 @@ export default function CoimbatorePage() {
       </section>
 
       {/* ── How to Reach ── */}
-      <section className="bg-gray-50 py-8 sm:py-12 px-4 sm:px-6">
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             How to Reach from Coimbatore
@@ -417,7 +417,7 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Multiple transport options to get to campus easily
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 text-left">
             <div className="bg-[#006837] text-white p-4 sm:p-5 flex items-center gap-3">
@@ -426,7 +426,7 @@ export default function CoimbatorePage() {
                 <h3 className="text-sm sm:text-base font-bold">
                   Coimbatore → JKKN Pharmacy Campus
                 </h3>
-                <p className="text-[10px] sm:text-xs text-green-200 mt-0.5">
+                <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
                   100-110 km • 2-2.5 hours
                 </p>
               </div>
@@ -461,7 +461,7 @@ export default function CoimbatorePage() {
                 },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-3 p-3 sm:p-4">
-                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-gray-50 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#FBFBEE] rounded-lg flex items-center justify-center shrink-0">
                     {item.emoji}
                   </div>
                   <div>
@@ -486,17 +486,17 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Everything you need for a comprehensive education experience
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
-                emoji: <Microscope className="w-5 h-5 text-blue-500" />,
+                emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
                 title: 'Modern Labs',
                 desc: 'Advanced laboratories and smart classrooms',
               },
               {
-                emoji: <BookOpen className="w-5 h-5 text-indigo-500" />,
+                emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
                 title: 'Digital Library',
                 desc: 'Well-stocked library with digital access and journals',
               },
@@ -506,17 +506,17 @@ export default function CoimbatorePage() {
                 desc: 'Separate hostels for boys and girls with mess facility',
               },
               {
-                emoji: <Bus className="w-5 h-5 text-teal-500" />,
+                emoji: <Bus className="w-5 h-5 text-[#7cb983]" />,
                 title: 'Transport',
                 desc: 'College buses connecting to Coimbatore and surrounding areas',
               },
               {
-                emoji: <Activity className="w-5 h-5 text-red-500" />,
+                emoji: <Activity className="w-5 h-5 text-[#7cb983]" />,
                 title: 'Sports',
                 desc: 'Playground, indoor games, gym, and annual sports events',
               },
               {
-                emoji: <Wifi className="w-5 h-5 text-cyan-500" />,
+                emoji: <Wifi className="w-5 h-5 text-[#7cb983]" />,
                 title: 'WiFi Campus',
                 desc: 'High-speed internet across the entire campus',
               },
@@ -525,7 +525,7 @@ export default function CoimbatorePage() {
                 key={facility.title}
                 className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 text-left flex items-start gap-3 shadow-sm"
               >
-                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-green-50 rounded-lg flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 bg-[#FBFBEE] rounded-lg flex items-center justify-center shrink-0">
                   {facility.emoji}
                 </div>
                 <div>
@@ -541,7 +541,7 @@ export default function CoimbatorePage() {
       </section>
 
       {/* ── Testimonials ── */}
-      <section className="bg-gray-50 py-8 sm:py-12 px-4 sm:px-6">
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Students from Coimbatore Love JKKN Pharmacy
@@ -549,7 +549,7 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Hear from students who made the right choice
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             <div className="bg-white rounded-xl p-4 sm:p-5 text-left shadow-sm border border-gray-100">
@@ -578,8 +578,8 @@ export default function CoimbatorePage() {
               </div>
             </div>
 
-            <div className="border-2 border-dashed border-orange-300 rounded-xl p-4 sm:p-5 bg-orange-50 flex items-center justify-center">
-              <p className="text-xs sm:text-sm text-orange-500 font-medium text-center leading-relaxed">
+            <div className="border-2 border-dashed border-[#7cb983] rounded-xl p-4 sm:p-5 bg-[#FBFBEE] flex items-center justify-center">
+              <p className="text-xs sm:text-sm text-[#7cb983] font-medium text-center leading-relaxed">
                 Add 2-3 real student testimonials from Coimbatore or nearby areas before
                 deployment.
               </p>
@@ -597,14 +597,14 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Pharmacy College in Coimbatore — Your Questions Answered
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="space-y-2 text-left">
             {faqs.map((faq, index) => (
               <div
                 key={index}
                 className={`rounded-xl border overflow-hidden transition-colors duration-200 ${
-                  expandedFAQ === index ? 'border-green-500' : 'border-gray-200'
+                  expandedFAQ === index ? 'border-[#7cb983]' : 'border-gray-200'
                 }`}
               >
                 <button
@@ -633,106 +633,8 @@ export default function CoimbatorePage() {
         </div>
       </section>
 
-      {/* ── Interested? Let's Talk! ── */}
-      <section className="bg-[#1a5c2a] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2">
-            Interested? Let&apos;s Talk!
-          </h2>
-          <p className="text-xs sm:text-sm text-green-100 mb-2">
-            Fill in your details and the admission team will contact you within 24 hours
-          </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-6 sm:mb-8" />
-
-          <form onSubmit={handleSubmit} className="text-left">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-3 sm:mb-4">
-              <div>
-                <label className="block text-xs font-medium text-white mb-1.5">Your Name</label>
-                <input
-                  type="text"
-                  name="name"
-                  value={form.name}
-                  onChange={handleChange}
-                  placeholder="Enter your full name"
-                  required
-                  className="w-full bg-[#0d3d1a] border border-[#2d6b3a] text-white placeholder-green-400/60 rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-green-400 transition-colors"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-white mb-1.5">Mobile Number</label>
-                <input
-                  type="tel"
-                  name="mobile"
-                  value={form.mobile}
-                  onChange={handleChange}
-                  placeholder="+91 XXXXX XXXXX"
-                  required
-                  className="w-full bg-[#0d3d1a] border border-[#2d6b3a] text-white placeholder-green-400/60 rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-green-400 transition-colors"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-white mb-1.5">Your City</label>
-                <input
-                  type="text"
-                  name="city"
-                  value={form.city}
-                  onChange={handleChange}
-                  className="w-full bg-[#0d3d1a] border border-[#2d6b3a] text-white placeholder-green-400/60 rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-green-400 transition-colors"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-white mb-1.5">
-                  Programme Interested In
-                </label>
-                <select
-                  name="programme"
-                  value={form.programme}
-                  onChange={handleChange}
-                  className="w-full bg-[#0d3d1a] border border-[#2d6b3a] text-white rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-green-400 transition-colors appearance-none cursor-pointer"
-                >
-                  <option value="">Select a Programme</option>
-                  <option value="D.Pharm">D.Pharm (Diploma in Pharmacy)</option>
-                  <option value="B.Pharm">B.Pharm (Bachelor of Pharmacy)</option>
-                  <option value="M.Pharm">M.Pharm (Master of Pharmacy)</option>
-                  <option value="Pharm.D">Pharm.D (Doctor of Pharmacy)</option>
-                </select>
-              </div>
-            </div>
-
-            <div className="mb-5 sm:mb-6">
-              <label className="block text-xs font-medium text-white mb-1.5">Any Questions?</label>
-              <input
-                type="text"
-                name="question"
-                value={form.question}
-                onChange={handleChange}
-                placeholder="e.g., What is the fee for D.Pharm (Diploma in Pharmacy)?"
-                className="w-full bg-[#0d3d1a] border border-[#2d6b3a] text-white placeholder-green-400/60 rounded-lg px-3 py-2 text-xs sm:text-sm focus:outline-none focus:border-green-400 transition-colors"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm py-3 rounded-full transition-all duration-300"
-            >
-              Submit Enquiry — Get a Call Back
-            </button>
-
-            <p className="text-center text-[10px] sm:text-xs text-green-200 mt-3">
-              Or call us directly:{' '}
-              <a href={`tel:${PHONE}`} className="underline hover:text-white transition-colors">
-                {PHONE_DISPLAY}
-              </a>
-            </p>
-          </form>
-        </div>
-      </section>
-
       {/* ── Explore More Cities ── */}
-      <section className="bg-gray-50 py-8 sm:py-12 px-4 sm:px-6">
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Explore More Cities
@@ -740,40 +642,41 @@ export default function CoimbatorePage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Find the best pharmacy college near your city
           </p>
-          <div className="w-12 h-0.5 bg-orange-400 rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-3 sm:mb-4">
             {[
-              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Namakkal', distance: '5-10 km' },
-              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Salem', distance: '40-50 km' },
-              { emoji: <MapPin className="w-5 h-5 text-green-600" />, city: 'Erode', distance: '30-40 km' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '5-10 km', href: '/namakkal' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '40-50 km', href: '/salem' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '30-40 km', href: '/erode' },
             ].map((item) => (
-              <div
+              <a
+                href={item.href}
                 key={item.city}
-                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm"
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors"
               >
                 <span>{item.emoji}</span>
                 <div className="text-left">
                   <p className="text-xs sm:text-sm font-bold text-gray-900">{item.city}</p>
                   <p className="text-[10px] sm:text-xs text-gray-400">{item.distance}</p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
-            <div className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm">
-              <MapPin className="w-5 h-5 text-green-600" />
+            <a href="/tiruppur" className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors">
+              <MapPin className="w-5 h-5 text-[#006837]" />
               <div className="text-left">
                 <p className="text-xs sm:text-sm font-bold text-gray-900">Tiruppur</p>
                 <p className="text-[10px] sm:text-xs text-gray-400">80-90 km</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <a
-            href="/#programmes-section"
-            className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
+            href="/"
+            className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
           </a>
