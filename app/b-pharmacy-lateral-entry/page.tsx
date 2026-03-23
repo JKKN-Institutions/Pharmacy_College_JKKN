@@ -28,7 +28,7 @@ export default function BPharmLateralEntryPage() {
     },
     {
       question: "What is GPAT and why is it important?",
-      answer: "GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for AICTE scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions."
+      answer: "GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for GPAT scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions."
     },
     {
       question: "Is B.Pharm a good career choice in India?",
@@ -1547,7 +1547,7 @@ export default function BPharmLateralEntryPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] mr-2">✓</span>
-                  <span>AICTE scholarship ₹12,400/month</span>
+                  <span>GPAT scholarship ₹12,400/month</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] mr-2">✓</span>
@@ -2110,7 +2110,7 @@ export default function BPharmLateralEntryPage() {
               {expandedFAQ === 3 && (
                 <div className="p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                    GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for AICTE scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions.
+                    GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for GPAT scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions.
                   </p>
                 </div>
               )}
@@ -2289,7 +2289,7 @@ export default function BPharmLateralEntryPage() {
           </a>
           <div className="mt-8 space-y-2">
             <p className="text-xs sm:text-sm">
-              PCI Approved | AICTE Recognised | NAAC Accredited | 95%+ Placement Record
+              PCI Approved | NAAC Accredited | 95%+ Placement Record
             </p>
             <p className="text-xs sm:text-sm">
               Regular Entry | Lateral Entry Available | Scholarships for Meritorious Learners

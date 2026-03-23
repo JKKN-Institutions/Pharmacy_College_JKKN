@@ -150,6 +150,7 @@ export default function MPharmacyLayout({
         name="M.Pharm Course — Best M.Pharm College in Tamil Nadu"
         description="Master of Pharmacy (M.Pharm) is a 2-year postgraduate programme at JKKN College of Pharmacy with 5 specialisations. PCI approved, NAAC A Grade."
         url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
+        dateModified="2026-03-23"
       />
       <BreadcrumbWrapper />
       {children}

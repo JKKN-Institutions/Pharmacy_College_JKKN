@@ -104,6 +104,7 @@ export default function BPharmLateralLayout({
         name="B.Pharm Lateral Entry — JKKN College of Pharmacy"
         description={COURSE_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/"
+        dateModified="2026-03-23"
       />
       <FaqSchema faqs={faqs} />
       <BreadcrumbWrapper />

@@ -85,6 +85,7 @@ export default function PharmacyPracticeLayout({
         name="M.Pharm Pharmacy Practice — JKKN College of Pharmacy"
         description={COURSE_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/pharmacy-practice/"
+        dateModified="2026-03-23"
       />
       <FaqSchema faqs={PHARMACY_PRACTICE_FAQS} />
       <BreadcrumbWrapper />

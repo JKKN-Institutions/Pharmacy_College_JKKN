@@ -7,7 +7,6 @@ import Header from '@/components/Header'
 // Navigation sections data
 const navigationSections = [
   { id: 'overview', label: 'Overview', href: '/about/affiliation-details' },
-  { id: 'aicte', label: 'AICTE Approval', href: '/about/affiliation-details/aicte' },
   { id: 'pharmacy-council', label: 'Pharmacy Council Approval', href: '/about/affiliation-details/pharmacy-council' },
   { id: 'university', label: 'University Affiliation', href: '/about/affiliation-details/university' },
 ]
@@ -64,7 +63,7 @@ export default function AffiliationDetailsPage() {
                       JKKN College of Pharmacy is affiliated with The Tamil Nadu Dr. M.G.R. Medical University and approved by various regulatory bodies to ensure quality education in pharmaceutical sciences.
                     </p>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The college operates under the strict guidelines and regulations set by the All India Council for Technical Education (AICTE), Pharmacy Council of India (PCI), and is affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+                      The college operates under the strict guidelines and regulations set by the Pharmacy Council of India (PCI) and is affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
                     </p>
                   </div>
 
@@ -74,14 +73,6 @@ export default function AffiliationDetailsPage() {
                       JKKN College of Pharmacy maintains all necessary approvals and affiliations to provide students with recognised and quality pharmaceutical education. These include:
                     </p>
                     <ul className="space-y-3 mb-4">
-                      <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                        </svg>
-                        <span className="text-sm sm:text-base text-gray-700">
-                          <strong>AICTE Approval</strong> - Ensuring technical education standards
-                        </span>
-                      </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

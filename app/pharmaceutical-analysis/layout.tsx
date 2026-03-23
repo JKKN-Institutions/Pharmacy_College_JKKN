@@ -56,6 +56,7 @@ export default function PharmaceuticalAnalysisLayout({
         name="M.Pharm Pharmaceutical Analysis — JKKN College of Pharmacy"
         description="Master of Pharmacy in Pharmaceutical Analysis at JKKN College of Pharmacy — advanced training in HPLC, GC-MS, UV-Vis spectroscopy, method development, and quality control. PCI approved, NAAC A Grade."
         url="https://pharmacy.jkkn.ac.in/pharmaceutical-analysis/"
+        dateModified="2026-03-23"
       />
       <FaqSchema
         faqs={[

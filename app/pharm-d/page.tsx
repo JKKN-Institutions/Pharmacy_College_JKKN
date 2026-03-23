@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
-import { FaqSchema, CourseSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -101,21 +100,6 @@ export default function PharmDPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharm.D', url: 'https://pharmacy.jkkn.ac.in/pharm-d' }
-      ]} />
-      <FaqSchema faqs={faqs} />
-      <CourseSchema
-        name="Doctor of Pharmacy (Pharm.D)"
-        description="Pharm.D is a 6-year professional doctorate programme (5 years academic + 1 year clinical clerkship) approved by the Pharmacy Council of India (PCI) at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 30 seats. NAAC A Grade accredited."
-        duration="P6Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharm-d"
-        educationalLevel="Professional Doctorate"
-        teaches={["Clinical Pharmacy", "Pharmacotherapeutics", "Clinical Research", "Hospital Pharmacy Practice", "Drug Information Services", "Medication Therapy Management"]}
-        offersUrl="https://admission.jkkn.ac.in/"
-      />
       <Header />
 
       {/* Hero Section */}
@@ -1872,7 +1856,7 @@ export default function PharmDPage() {
                   <td className="px-3 py-3 font-semibold text-[#006837]">NIPER Mohali, Hyderabad</td>
                   <td className="px-3 py-3">Clinical & Hospital Pharmacy (as part of M.S. Pharm programme)</td>
                   <td className="px-3 py-3">2 years</td>
-                  <td className="px-3 py-3">AICTE fellowship ₹12,400/month</td>
+                  <td className="px-3 py-3">GPAT fellowship ₹12,400/month</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-[#7cb983]/20">
                   <td className="px-3 py-3 font-semibold text-[#006837]">Apollo Hospitals (select centers)</td>
@@ -2477,7 +2461,7 @@ export default function PharmDPage() {
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">NIPER (various campuses)</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Institute of National Importance</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Locations:</span> Mohali, Hyderabad, Ahmedabad</p>
-              <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> M.S. Pharm (equivalent to Pharm.D PB), Research-oriented, AICTE fellowship</p>
+              <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> M.S. Pharm (equivalent to Pharm.D PB), Research-oriented, GPAT fellowship</p>
               <p className="text-xs font-semibold text-[#006837]">Fee: ~₹50,000-1 lakh/year + fellowship</p>
             </div>
 

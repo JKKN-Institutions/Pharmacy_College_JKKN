@@ -75,6 +75,7 @@ export default function PhDLayout({
         name="Ph.D in Pharmaceutical Sciences — JKKN College of Pharmacy"
         description={PHD_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/phd/"
+        dateModified="2026-03-23"
       />
       <FaqSchema faqs={phdFaqs} />
       <BreadcrumbWrapper />

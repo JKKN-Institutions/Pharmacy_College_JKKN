@@ -1,6 +1,4 @@
 import { Metadata } from 'next'
-import Header from '@/components/Header'
-import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy College Near Salem | JKKN — 45 km',
@@ -22,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy College Near Salem | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved, NAAC A Grade with 85%+ placements. Apply for 2026-27 admissions!',
+    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved and NAAC accredited with 85%+ placements. Apply for 2026-27 admissions!',
     url: 'https://pharmacy.jkkn.ac.in/salem/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -39,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Salem | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved, NAAC A Grade with 85%+ placements.',
+    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved and NAAC accredited with 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
@@ -49,13 +47,5 @@ export default function SalemLayout({
 }: {
   children: React.ReactNode
 }) {
-  return (
-    <>
-      <Header />
-      <div className="pt-10 sm:pt-16 xl:pt-[88px]">
-        <BreadcrumbWrapper />
-        {children}
-      </div>
-    </>
-  )
+  return <>{children}</>
 }

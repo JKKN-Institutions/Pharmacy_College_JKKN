@@ -28,7 +28,11 @@ export default function EventsSection() {
   const [events, setEvents] = useState<Event[]>([]);
 
   useEffect(() => {
-    const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
+    const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+    const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+    const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID;
+    if (!url || !key || !collegeId) return;
+
     const supabase = createClient();
     supabase
       .from('events')
@@ -41,6 +45,59 @@ export default function EventsSection() {
         if (data) setEvents(data);
       });
   }, []);
+
+  // Inject Event JSON-LD schema for AI discoverability
+  useEffect(() => {
+    if (events.length === 0) return;
+    const existingScript = document.getElementById('events-jsonld');
+    if (existingScript) existingScript.remove();
+
+    const eventsSchema = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": events.map((event, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Event",
+          "name": event.title,
+          ...(event.description && { "description": event.description }),
+          ...(event.event_date && { "startDate": event.event_date }),
+          "eventStatus": "https://schema.org/EventScheduled",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "location": {
+            "@type": "Place",
+            "name": "JKKN College of Pharmacy",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            }
+          },
+          "organizer": {
+            "@type": "EducationalOrganization",
+            "name": "JKKN College of Pharmacy",
+            "url": "https://pharmacy.jkkn.ac.in/"
+          },
+          "url": `https://pharmacy.jkkn.ac.in/events/${event.slug}`
+        }
+      }))
+    };
+
+    const script = document.createElement('script');
+    script.id = 'events-jsonld';
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(eventsSchema);
+    document.head.appendChild(script);
+
+    return () => {
+      const el = document.getElementById('events-jsonld');
+      if (el) el.remove();
+    };
+  }, [events]);
 
   if (events.length === 0) return null;
 

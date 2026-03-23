@@ -119,6 +119,7 @@ export default function BPharmacyLayout({
         name="B.Pharm Course — Best B.Pharm College in Tamil Nadu"
         description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme at JKKN College of Pharmacy. PCI approved, NAAC A Grade, 95% placements."
         url="https://pharmacy.jkkn.ac.in/b-pharmacy/"
+        dateModified="2026-03-23"
       />
       <BreadcrumbWrapper />
       {children}

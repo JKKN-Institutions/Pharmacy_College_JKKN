@@ -131,7 +131,6 @@ const pageNameMap: Record<string, string> = {
   'gc': 'GC',
   'various-committees': 'Various Committees',
   'ugc-public-disclosure-compliance': 'UGC Public Disclosure Compliance',
-  'aicte': 'AICTE',
   'feedback-analysis': 'Feedback Analysis',
 }
 

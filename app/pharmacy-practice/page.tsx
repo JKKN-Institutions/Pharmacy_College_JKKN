@@ -325,7 +325,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">GPAT score:</span> Preferred for government colleges and AICTE scholarship (not always mandatory)
+                <span className="font-bold text-[#006837]">GPAT score:</span> Preferred for government colleges and merit-based scholarship (not always mandatory)
               </div>
             </li>
             <li className="flex items-start">
@@ -365,7 +365,7 @@ export default function PharmacyPracticePage() {
             <tbody>
               <tr className="border-b border-gray-200">
                 <td className="px-6 py-4 font-bold text-[#006837]">GPAT (Graduate Pharmacy Aptitude Test)</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">National level exam by NTA. 125 MCQs, 3 hours, CBT mode. Valid for 3 years. Provides AICTE scholarship eligibility (₹12,400/month). Mandatory for government colleges.</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">National level exam by NTA. 125 MCQs, 3 hours, CBT mode. Valid for 3 years. Provides GPAT scholarship eligibility (₹12,400/month). Mandatory for government colleges.</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 font-bold text-[#006837]">State-Level Pharmacy PG Entrance</td>
@@ -1396,7 +1396,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">2</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">GPAT Registration (October-November 2025)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register on NTA GPAT website if targeting government colleges or AICTE scholarship. Some private colleges accept direct admission without GPAT. Pay fees (₹1,400 General, ₹700 SC/ST/OBC).</p>
+                <p className="text-xs sm:text-sm text-gray-700">Register on NTA GPAT website if targeting government colleges or merit-based scholarship. Some private colleges accept direct admission without GPAT. Pay fees (₹1,400 General, ₹700 SC/ST/OBC).</p>
               </div>
             </div>
           </div>
@@ -1429,7 +1429,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">5</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Counselling & College Selection (May-July 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register for counselling (AICTE/state-level). Submit preferences with Pharmacy Practice specialisation. Prioritize colleges with strong hospital networks. Accept seat allotment and pay fees.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Register for counselling (state-level). Submit preferences with Pharmacy Practice specialisation. Prioritize colleges with strong hospital networks. Accept seat allotment and pay fees.</p>
               </div>
             </div>
           </div>
@@ -1440,7 +1440,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">6</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Document Verification & Admission (July-August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Submit original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Sign hospital rotation agreements. Apply for AICTE scholarship if eligible.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Submit original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Sign hospital rotation agreements. Apply for GPAT scholarship if eligible.</p>
               </div>
             </div>
           </div>
@@ -1552,7 +1552,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in approved colleges.
+                <span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in approved colleges.
               </div>
             </li>
             <li className="flex items-start">
@@ -1920,7 +1920,7 @@ export default function PharmacyPracticePage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">PCI Approved | Hospital Partnerships | Clinical Training | AICTE Scholarship Eligible</p>
+          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">PCI Approved | Hospital Partnerships | Clinical Training | NAAC Accredited</p>
         </div>
       </div>
 
@@ -1953,7 +1953,7 @@ export default function PharmacyPracticePage() {
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">AICTE Recognition:</span> Required for AICTE scholarship eligibility. Verify on aicte-india.org.
+              <span className="font-bold text-[#006837]">PCI Approval:</span> Required for scholarship eligibility and programme recognition. Verify on pci.nic.in.
             </div>
           </li>
           <li className="flex items-start">

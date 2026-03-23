@@ -11,6 +11,8 @@ module.exports = {
     '/excel',
     '/doctor-of-philosophy-phd',
     '/blog/top-10-career-options-after-bed-2026',
+    '/nirf-2024',
+    '/nirf-2025',
   ],
   transform: async (config, path) => {
     // Priority tiers based on page importance
@@ -23,7 +25,7 @@ module.exports = {
     } else if (['/b-pharmacy', '/m-pharmacy', '/pharm-d'].some(p => path.startsWith(p))) {
       priority = 0.9
       changefreq = 'weekly'
-    } else if (['/admission-process', '/placement-cell', '/campus-recruitment', '/faculty-profile', '/naac', '/overview'].some(p => path === p || path === p + '/')) {
+    } else if (['/admission-process', '/placement-cell', '/campus-recruitment', '/faculty-profile', '/naac', '/overview', '/nirf'].some(p => path === p || path === p + '/')) {
       priority = 0.85
       changefreq = 'weekly'
     } else if (['/coimbatore', '/erode', '/salem', '/namakkal', '/tiruppur'].some(p => path.startsWith(p))) {

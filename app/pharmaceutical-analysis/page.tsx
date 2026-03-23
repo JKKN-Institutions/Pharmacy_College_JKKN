@@ -19,7 +19,7 @@ export default function PharmaceuticalAnalysisPage() {
     },
     {
       question: "Is GPAT mandatory for M.Pharm admission?",
-      answer: "GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile)."
+      answer: "GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for GPAT scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile)."
     },
     {
       question: "What is the salary after M.Pharm Pharmaceutical Analysis?",
@@ -50,8 +50,8 @@ export default function PharmaceuticalAnalysisPage() {
       answer: "M.Pharm in Pharmaceutical Analysis is a professional degree focusing on applied pharmaceutical analysis, quality control, and regulatory aspects with strong industry orientation. M.Sc in Pharmaceutical Chemistry is more research-oriented focusing on organic chemistry, medicinal chemistry, and drug synthesis. M.Pharm provides direct entry to pharmaceutical QC/QA roles, while M.Sc graduates often pursue research or academic careers. M.Pharm has better industry placement opportunities. M.Pharm requires B.Pharm degree, while M.Sc accepts B.Sc/B.Pharm. Both can pursue Ph.D."
     },
     {
-      question: "Is AICTE scholarship available for M.Pharm?",
-      answer: "Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in AICTE-approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates."
+      question: "Is GPAT scholarship available for M.Pharm?",
+      answer: "Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates."
     }
   ];
 
@@ -285,7 +285,7 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Minimum aggregate: 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Valid GPAT score: Mandatory for government colleges and AICTE scholarship</span>
+                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Valid GPAT score: Mandatory for government colleges and GPAT scholarship eligibility</span>
               </li>
               <li className="flex items-start">
                 <span className="text-xs sm:text-sm text-gray-700">• Registration with State Pharmacy Council</span>
@@ -352,7 +352,7 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
             <ul className="space-y-2 ml-8">
               <li className="text-xs sm:text-sm text-gray-700">• Eligibility for all government and most private colleges</li>
-              <li className="text-xs sm:text-sm text-gray-700">• AICTE stipend/scholarship of ₹12,400 per month (if selected)</li>
+              <li className="text-xs sm:text-sm text-gray-700">• GPAT stipend/scholarship of ₹12,400 per month (if selected)</li>
               <li className="text-xs sm:text-sm text-gray-700">• Admission to NITs, IITs offering M.Pharm programmes</li>
               <li className="text-xs sm:text-sm text-gray-700">• Higher preference in merit-based admissions</li>
               <li className="text-xs sm:text-sm text-gray-700">• Valid for 3 years - can apply for multiple admission cycles</li>
@@ -1169,7 +1169,7 @@ export default function PharmaceuticalAnalysisPage() {
               <div className="flex-1">
                 <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Centralized Counselling Registration (May-June)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">
-                  Register for AICTE centralized counselling (if applicable) or state-level counselling. Submit preferences for colleges and specialisations. Pay counselling fees and complete document verification online.
+                  Register for centralized counselling or state-level counselling. Submit preferences for colleges and specialisations. Pay counselling fees and complete document verification online.
                 </p>
               </div>
             </div>
@@ -1325,7 +1325,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
             <ul className="space-y-3">
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• AICTE Scholarship:</span> ₹12,400/month for GPAT qualified students (subject to selection)
+                <span className="font-bold text-[#006837]">• GPAT Scholarship:</span> ₹12,400/month for GPAT qualified students (subject to selection)
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Merit Scholarships:</span> Most government colleges offer 25-100% fee waivers
@@ -1448,7 +1448,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 1 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for AICTE scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
+                    GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for GPAT scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
                   </p>
                 </div>
               )}
@@ -1630,7 +1630,7 @@ export default function PharmaceuticalAnalysisPage() {
                   expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q10: Is AICTE scholarship available for M.Pharm?</h3>
+                <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3 pr-4">Q10: Is GPAT scholarship available for M.Pharm?</h3>
                 <ChevronDown
                   className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
                     expandedFAQ === 6 ? 'rotate-180' : ''
@@ -1640,7 +1640,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 6 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Yes, AICTE provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in AICTE-approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
+                    Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
                   </p>
                 </div>
               )}
@@ -1741,7 +1741,7 @@ export default function PharmaceuticalAnalysisPage() {
               <span className="font-bold text-[#006837]">• Pharmacy Council of India (PCI):</span> All M.Pharm programmes must be PCI approved with required faculty, infrastructure, and laboratory facilities
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
-              <span className="font-bold text-[#006837]">• AICTE Approval:</span> Required for AICTE scholarship eligibility and quality assurance
+              <span className="font-bold text-[#006837]">• PCI Approval:</span> Required for programme recognition and quality assurance
             </li>
             <li className="text-xs sm:text-sm text-gray-700">
               <span className="font-bold text-[#006837]">• University Affiliation:</span> Programme must be affiliated with UGC-recognised university with authority to award M.Pharm degrees

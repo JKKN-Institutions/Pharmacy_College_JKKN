@@ -64,6 +64,7 @@ export default function PharmaceuticalChemistryLayout({
         name="M.Pharm Pharmaceutical Chemistry — JKKN College of Pharmacy"
         description="Master of Pharmacy in Pharmaceutical Chemistry at JKKN College of Pharmacy, Komarapalayam — advanced training in drug design, synthesis, and medicinal chemistry. PCI approved, NAAC A Grade."
         url="https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry/"
+        dateModified="2026-03-23"
       />
       <FaqSchema
         faqs={[

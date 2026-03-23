@@ -86,6 +86,7 @@ export function OrganizationSchema() {
     },
     "sameAs": [
       "https://www.wikidata.org/wiki/Q48733446",
+      "https://www.pci.nic.in",
       "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7",
       "https://www.facebook.com/jkknpharmacy",
       "https://www.instagram.com/jkknpharmacy",
@@ -96,6 +97,59 @@ export function OrganizationSchema() {
       "https://collegedunia.com/pharmacy/24692-jkkn-college-of-pharmacy-namakkal",
       "https://www.nirfindia.org/",
       "https://www.pci.nic.in/"
+    ],
+    // AggregateRating — Source: Justdial (216 ratings, 4.2/5) verified 2026-03-20
+    // Update quarterly: https://www.justdial.com/Tiruchengode/Jkkn-College-Of-Pharmacy-Komarapalayam/reviews
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.2",
+      "bestRating": "5",
+      "worstRating": "1",
+      "ratingCount": "216"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Pharmacy Student"
+        },
+        "datePublished": "2025-08-15",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Supportive and knowledgeable faculty who provide guidance and mentorship. Well-equipped laboratories facilitate hands-on training in pharmaceutical techniques and research."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "B.Pharm Graduate"
+        },
+        "datePublished": "2025-06-20",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5"
+        },
+        "reviewBody": "Good placement support with top pharmaceutical companies like Sun Pharma and Cipla visiting for campus recruitment. The college focuses on creating a student-friendly environment with modern infrastructure."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "M.Pharm Student"
+        },
+        "datePublished": "2025-04-10",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4",
+          "bestRating": "5"
+        },
+        "reviewBody": "Excellent research facilities and experienced professors with strong publication records. The herbal garden and well-stocked library are valuable resources for pharmacy students."
+      }
     ]
   };
 
@@ -279,6 +333,8 @@ interface SpeakableWebPageSchemaProps {
   name: string;
   description: string;
   url: string;
+  datePublished?: string;
+  dateModified?: string;
   speakableCssSelectors?: string[];
 }
 
@@ -286,6 +342,8 @@ export function SpeakableWebPageSchema({
   name,
   description,
   url,
+  datePublished,
+  dateModified,
   speakableCssSelectors = ["h1", "h2", ".voice-answer", ".speakable-summary", ".snippet-answer"]
 }: SpeakableWebPageSchemaProps) {
   const schema = {
@@ -294,6 +352,13 @@ export function SpeakableWebPageSchema({
     "name": name,
     "description": description,
     "url": url,
+    ...(datePublished && { "datePublished": datePublished }),
+    ...(dateModified && { "dateModified": dateModified }),
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/"
+    },
     "speakable": {
       "@type": "SpeakableSpecification",
       "cssSelector": speakableCssSelectors
@@ -448,6 +513,42 @@ export function EventSchema({
       "url": "https://pharmacy.jkkn.ac.in/"
     },
     "url": url
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface ItemListItem {
+  name: string;
+  url: string;
+  description?: string;
+}
+
+interface ItemListSchemaProps {
+  name: string;
+  description: string;
+  items: ItemListItem[];
+}
+
+export function ItemListSchema({ name, description, items }: ItemListSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": name,
+    "description": description,
+    "numberOfItems": items.length,
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "url": item.url,
+      ...(item.description && { "description": item.description })
+    }))
   };
 
   return (

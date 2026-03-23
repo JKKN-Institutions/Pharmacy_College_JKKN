@@ -386,7 +386,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Valid GPAT score:</span> Mandatory for government colleges and AICTE scholarship</span>
+              <span><span className="text-[#006837] font-bold">Valid GPAT score:</span> Mandatory for government colleges and GPAT scholarship eligibility</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -477,7 +477,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>AICTE stipend of ₹12,400/month for 24 months (Total: ₹2,97,600)</span>
+              <span>GPAT stipend of ₹12,400/month for 24 months (Total: ₹2,97,600)</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1497,7 +1497,7 @@ export default function PharmaceuticalChemistryPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Counselling & Seat Selection (May-July 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register for AICTE/state counselling. Submit preferences with Pharmaceutical Chemistry specialisation. Prioritize colleges with active chemistry research. Accept seat and pay fees within deadline.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Register for state counselling. Submit preferences with Pharmaceutical Chemistry specialisation. Prioritize colleges with active chemistry research. Accept seat and pay fees within deadline.</p>
               </div>
             </div>
           </div>
@@ -1510,7 +1510,7 @@ export default function PharmaceuticalChemistryPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">Document Verification & Admission (July-August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Report with original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Pay tuition fees. Apply for AICTE scholarship if GPAT qualified.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Report with original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Pay tuition fees. Apply for GPAT scholarship if qualified.</p>
               </div>
             </div>
           </div>
@@ -1630,7 +1630,7 @@ export default function PharmaceuticalChemistryPage() {
           <ul className="space-y-4 text-xs sm:text-sm text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students. Chemistry students often qualify easily due to high GPAT weightage.</span>
+              <span><span className="text-[#006837] font-bold">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students. Chemistry students often qualify easily due to high GPAT weightage.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1988,7 +1988,7 @@ export default function PharmaceuticalChemistryPage() {
           </a>
 
           <p className="text-white mt-6 text-[8px] xs:text-[10px] sm:text-sm">
-            PCI Approved | Well-Equipped Synthesis Labs | Advanced Spectroscopy Facilities | AICTE Scholarship Eligible
+            PCI Approved | Well-Equipped Synthesis Labs | Advanced Spectroscopy Facilities | NAAC A Grade
           </p>
         </div>
       </div>
