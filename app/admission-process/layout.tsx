@@ -54,6 +54,7 @@ export default function AdmissionProcessLayout({
         name="Pharmacy Admission 2026 — JKKN College of Pharmacy"
         description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee ₹1,000, forms open May-June 2026."
         url="https://pharmacy.jkkn.ac.in/admission-process/"
+        dateModified="2026-03-23"
       />
       <EventSchema
         name="JKKN College of Pharmacy — Admissions Open 2026-27"

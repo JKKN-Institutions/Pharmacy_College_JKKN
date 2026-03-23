@@ -165,6 +165,7 @@ export default function BestPharmacyCollegesTamilNadu() {
         name="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements"
         description="Compare top pharmacy colleges in Tamil Nadu by NIRF ranking, NAAC grade, fees and placements."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
+        dateModified="2026-03-23"
         speakableCssSelectors={[
           '.speakable-summary',
           '.voice-answer',

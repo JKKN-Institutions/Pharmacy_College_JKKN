@@ -197,6 +197,7 @@ export default function PharmDLayout({
         name="Pharm.D Course — Best Pharm.D College in Tamil Nadu"
         description="Doctor of Pharmacy (Pharm.D) is a 6-year professional doctorate at JKKN College of Pharmacy focusing on clinical pharmacy practice and patient care. PCI approved."
         url="https://pharmacy.jkkn.ac.in/pharm-d/"
+        dateModified="2026-03-23"
       />
       <BreadcrumbWrapper />
       {children}

@@ -1042,7 +1042,7 @@ export default function MPharmacyPage() {
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Kolkata</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Raebareli</div>
           </div>
-          <p className="text-sm sm:text-base text-gray-700"><span className="font-semibold text-[#006837]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, AICTE fellowship (₹12,400/month), all 5 specialisations available</p>
+          <p className="text-sm sm:text-base text-gray-700"><span className="font-semibold text-[#006837]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, GPAT fellowship (₹12,400/month), all 5 specialisations available</p>
         </div>
 
         {/* IITs */}

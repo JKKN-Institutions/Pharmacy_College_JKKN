@@ -313,7 +313,7 @@ export default function PharmaceuticsPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">Valid GPAT score:</span> Mandatory for government colleges and AICTE scholarship</span>
+              <span><span className="font-bold text-[#006837]">Valid GPAT score:</span> Mandatory for government colleges and GPAT scholarship eligibility</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -387,7 +387,7 @@ export default function PharmaceuticsPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>AICTE stipend/scholarship of ₹12,400 per month (24 months = ₹2.97 lakhs total)</span>
+              <span>GPAT stipend/scholarship of ₹12,400 per month (24 months = ₹2.97 lakhs total)</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1268,7 +1268,7 @@ export default function PharmaceuticsPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">3</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">GPAT Results & Score Card (March 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Check results on NTA website. Download GPAT scorecard with percentile and all-India rank. Score valid for 3 years. Higher percentile (80+) increases chances for top colleges and AICTE scholarship.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Check results on NTA website. Download GPAT scorecard with percentile and all-India rank. Score valid for 3 years. Higher percentile (80+) increases chances for top colleges and GPAT scholarship.</p>
               </div>
             </div>
           </div>
@@ -1279,7 +1279,7 @@ export default function PharmaceuticsPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">4</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">College Selection & Counselling Registration (May-June 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Research M.Pharm Pharmaceutics programmes at various colleges. Check infrastructure (formulation lab, pilot plant, NDDS facilities). Register for AICTE centralized counselling or state-level counselling. Submit college and specialisation preferences.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Research M.Pharm Pharmaceutics programmes at various colleges. Check infrastructure (formulation lab, pilot plant, NDDS facilities). Register for centralized counselling or state-level counselling. Submit college and specialisation preferences.</p>
               </div>
             </div>
           </div>
@@ -1301,7 +1301,7 @@ export default function PharmaceuticsPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">6</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Fee Payment & Admission Confirmation (July-August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for AICTE scholarship if eligible. Collect student ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for GPAT scholarship if eligible. Collect student ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
               </div>
             </div>
           </div>
@@ -1445,7 +1445,7 @@ export default function PharmaceuticsPage() {
           <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">AICTE Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in AICTE-approved colleges. Must maintain minimum CGPA requirements.</span>
+              <span><span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in eligible institutions. Must maintain minimum CGPA requirements.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1948,7 +1948,7 @@ export default function PharmaceuticsPage() {
           </li>
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
-            <span><span className="font-bold text-[#006837]">AICTE Recognition:</span> Required for AICTE scholarship eligibility and quality assurance. Check AICTE approval status on official website.</span>
+            <span><span className="font-bold text-[#006837]">PCI Approval:</span> Required for programme recognition and quality assurance. Verify PCI approval status at pci.nic.in before admission.</span>
           </li>
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>

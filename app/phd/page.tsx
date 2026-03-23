@@ -29,7 +29,7 @@ export default function PhDPage() {
     },
     {
       question: "What is the fellowship/stipend during Ph.D in Pharmacy?",
-      answer: "Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA; GPAT Qualified: ₹31,000/month (AICTE scholarship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Institutes also provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables."
+      answer: "Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA; GPAT Qualified: ₹31,000/month (GPAT fellowship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Institutes also provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables."
     },
     {
       question: "Can I do Ph.D in Pharmacy after B.Pharm directly?",
@@ -45,7 +45,7 @@ export default function PhDPage() {
     },
     {
       question: "Is GPAT mandatory for Ph.D in Pharmacy?",
-      answer: "GPAT is not universally mandatory for Ph.D admission but is highly recommended. GPAT Qualified candidates receive direct fellowship eligibility (₹31,000/month) at AICTE-approved institutions. NET/GATE Qualified candidates receive higher fellowship (₹37,000-42,000/month) and priority admission. Without GPAT/NET, candidates can apply through university entrance tests — admission is possible but government fellowship is not available. Many private and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination."
+      answer: "GPAT is not universally mandatory for Ph.D admission but is highly recommended. GPAT Qualified candidates receive direct fellowship eligibility (₹31,000/month) at recognised institutions. NET/GATE Qualified candidates receive higher fellowship (₹37,000-42,000/month) and priority admission. Without GPAT/NET, candidates can apply through university entrance tests — admission is possible but government fellowship is not available. Many private and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination."
     },
     {
       question: "What is the difference between full-time and part-time Ph.D?",
@@ -477,7 +477,7 @@ export default function PhDPage() {
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
               <div>
-                <span className="font-bold">GPAT (Graduate Pharmacy Aptitude Test):</span> Conducted by NTA, valid for 3 years, provides AICTE fellowship
+                <span className="font-bold">GPAT (Graduate Pharmacy Aptitude Test):</span> Conducted by NTA, valid for 3 years, provides GPAT fellowship
               </div>
             </li>
             <li className="flex items-start">
@@ -595,7 +595,7 @@ export default function PhDPage() {
               <p className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#006837]">₹31,000/month</p>
             </div>
             <div className="text-gray-700 space-y-2 text-center text-xs sm:text-sm">
-              <p>AICTE Scholarship</p>
+              <p>GPAT Fellowship</p>
               <p>Contingency: ₹20,000/year</p>
               <p>Duration: 3 years</p>
             </div>
@@ -1123,7 +1123,7 @@ export default function PhDPage() {
             <li className="flex items-start">
               <span className="font-bold mr-2">•</span>
               <div>
-                <span className="font-bold">Fellowship Availability:</span> AICTE/UGC/CSIR fellowship disbursement track record
+                <span className="font-bold">Fellowship Availability:</span> UGC/CSIR/GPAT fellowship disbursement track record
               </div>
             </li>
             <li className="flex items-start">
@@ -1478,7 +1478,7 @@ export default function PhDPage() {
             {expandedFAQ === 3 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA (8-27% based on city); GPAT Qualified: ₹31,000/month (AICTE scholarship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Additionally, institutes provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables. Total earnings over 3-4 years: ₹12-18 lakhs.
+                  Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA (8-27% based on city); GPAT Qualified: ₹31,000/month (GPAT fellowship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Additionally, institutes provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables. Total earnings over 3-4 years: ₹12-18 lakhs.
                 </p>
               </div>
             )}
@@ -1574,7 +1574,7 @@ export default function PhDPage() {
             {expandedFAQ === 7 && (
               <div className="p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
-                  GPAT is not universally mandatory for Ph.D admission but is highly recommended. Qualification scenarios: (1) GPAT Qualified: Direct fellowship eligibility (₹31,000/month) at AICTE-approved institutions; (2) NET/GATE Qualified: Higher fellowship (₹37,000-42,000/month) and priority admission; (3) Without GPAT/NET: Can apply through university entrance tests – admission possible but may not receive government fellowship; (4) NIPER: Conducts separate NIPER JEE for Ph.D admission. Many private universities and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination. However, fellowship availability is significantly better with GPAT/NET qualification.
+                  GPAT is not universally mandatory for Ph.D admission but is highly recommended. Qualification scenarios: (1) GPAT Qualified: Direct fellowship eligibility (₹31,000/month) at recognised institutions; (2) NET/GATE Qualified: Higher fellowship (₹37,000-42,000/month) and priority admission; (3) Without GPAT/NET: Can apply through university entrance tests – admission possible but may not receive government fellowship; (4) NIPER: Conducts separate NIPER JEE for Ph.D admission. Many private universities and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination. However, fellowship availability is significantly better with GPAT/NET qualification.
                 </p>
               </div>
             )}
@@ -1646,7 +1646,7 @@ export default function PhDPage() {
               Download Prospectus
             </button>
           </div>
-          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | AICTE Recognised | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
+          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
         </div>
       </div>
 
@@ -1671,7 +1671,7 @@ export default function PhDPage() {
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
                 <div>
-                  <span className="font-bold">AICTE Recognition:</span> Required for fellowship eligibility and quality assurance
+                  <span className="font-bold">PCI Recognition:</span> Required for fellowship eligibility and quality assurance
                 </div>
               </li>
               <li className="flex items-start">
@@ -1702,7 +1702,7 @@ export default function PhDPage() {
               <li className="flex items-start">
                 <span className="font-bold mr-2">•</span>
                 <div>
-                  <span className="font-bold">Research Funding:</span> Active grants from AICTE, DST, DBT, ICMR
+                  <span className="font-bold">Research Funding:</span> Active grants from DST, DBT, ICMR
                 </div>
               </li>
               <li className="flex items-start">

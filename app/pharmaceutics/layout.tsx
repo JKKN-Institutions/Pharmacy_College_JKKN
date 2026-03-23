@@ -85,6 +85,7 @@ export default function PharmaceuticsLayout({
         name="M.Pharm Pharmaceutics — JKKN College of Pharmacy"
         description={COURSE_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/pharmaceutics/"
+        dateModified="2026-03-23"
       />
       <FaqSchema faqs={faqs} />
       <BreadcrumbWrapper />

@@ -47,7 +47,7 @@ export default function ErodePage() {
     {
       question: 'What is the best pharmacy college in Erode?',
       answer:
-        'JKKN College of Pharmacy, located just 30-40 km from Erode on NH-544, is widely regarded as one of the top pharmacy colleges accessible from Erode. Approved by PCI, AICTE, NAAC and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.',
+        'JKKN College of Pharmacy, located just 30-40 km from Erode on NH-544, is widely regarded as one of the top pharmacy colleges accessible from Erode. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.',
     },
     {
       question: 'How far is JKKN Pharmacy from Erode?',
@@ -120,7 +120,7 @@ export default function ErodePage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <span className="text-sm">🚀</span>
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI, AICTE, NAAC Approved • Admissions Open
+              PCI Approved & NAAC Accredited • Admissions Open
             </span>
           </div>
 
@@ -179,7 +179,7 @@ export default function ErodePage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'AICTE', 'NAAC'].map((badge) => (
+            {['PCI', 'NAAC'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-green-50 text-green-700 text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"

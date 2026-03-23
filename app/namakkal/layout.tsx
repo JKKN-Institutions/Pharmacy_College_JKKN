@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy College Near Namakkal | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 10 km from Namakkal. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
+    description: 'JKKN College of Pharmacy is just 10 km from Namakkal. PCI approved and NAAC accredited with 85%+ placements. Apply for 2026-27 admissions!',
     url: 'https://pharmacy.jkkn.ac.in/namakkal/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Namakkal | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 10 km from Namakkal. PCI, AICTE, NAAC approved with 85%+ placements.',
+    description: 'JKKN College of Pharmacy is just 10 km from Namakkal. PCI approved and NAAC accredited with 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

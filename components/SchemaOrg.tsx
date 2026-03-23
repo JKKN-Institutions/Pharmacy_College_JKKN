@@ -309,6 +309,8 @@ interface SpeakableWebPageSchemaProps {
   name: string;
   description: string;
   url: string;
+  datePublished?: string;
+  dateModified?: string;
   speakableCssSelectors?: string[];
 }
 
@@ -316,6 +318,8 @@ export function SpeakableWebPageSchema({
   name,
   description,
   url,
+  datePublished,
+  dateModified,
   speakableCssSelectors = ["h1", "h2", ".voice-answer", ".speakable-summary", ".snippet-answer"]
 }: SpeakableWebPageSchemaProps) {
   const schema = {
@@ -324,6 +328,13 @@ export function SpeakableWebPageSchema({
     "name": name,
     "description": description,
     "url": url,
+    ...(datePublished && { "datePublished": datePublished }),
+    ...(dateModified && { "dateModified": dateModified }),
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "JKKN College of Pharmacy",
+      "url": "https://pharmacy.jkkn.ac.in/"
+    },
     "speakable": {
       "@type": "SpeakableSpecification",
       "cssSelector": speakableCssSelectors

@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'AICTE Approval | Regulatory Compliance | JKKN',
-  description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
+  title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
+  description: 'JKKN College of Pharmacy affiliations and approvals — PCI approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/aicte/',
   },
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/aicte/',
-    title: 'AICTE Approval | Regulatory Compliance | JKKN',
-    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
+    title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy affiliations and approvals — PCI approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'AICTE Approval | Regulatory Compliance | JKKN',
-    description: 'AICTE approval for JKKN Pharmacy. Approval letters, EOA, intake capacity and technical education norms.',
+    title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy affiliations and approvals — PCI approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

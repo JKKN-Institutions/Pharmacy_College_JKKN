@@ -386,7 +386,7 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
-              <span><span className="text-[#006837] font-semibold">Valid GPAT score:</span> Mandatory for government colleges and AICTE scholarship</span>
+              <span><span className="text-[#006837] font-semibold">Valid GPAT score:</span> Mandatory for government colleges and GPAT scholarship</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] font-bold mr-2">•</span>
@@ -464,7 +464,7 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
-              <span>AICTE stipend of ₹12,400/month for 24 months (Total: ₹2,97,600)</span>
+              <span>GPAT stipend of ₹12,400/month for 24 months (Total: ₹2,97,600)</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
@@ -1628,7 +1628,7 @@ export default function PharmacologyPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | AICTE Scholarship Eligible</p>
+          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | NAAC Accredited</p>
         </div>
       </div>
 
@@ -1659,8 +1659,8 @@ export default function PharmacologyPage() {
             <li className="flex items-start">
               <span className="mr-3 text-[#7cb983] font-bold">•</span>
               <div>
-                <span className="text-[#006837] font-bold">AICTE Recognition:</span>
-                <span className="text-gray-800"> Required for AICTE scholarship eligibility. Check aicte-india.org for approval status.</span>
+                <span className="text-[#006837] font-bold">PCI Approval:</span>
+                <span className="text-gray-800"> All pharmacy programmes must be PCI approved. Check pci.nic.in for approval status.</span>
               </div>
             </li>
             <li className="flex items-start">

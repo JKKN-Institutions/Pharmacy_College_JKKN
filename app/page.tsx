@@ -48,7 +48,7 @@ export default function Home() {
     },
     {
       question: "Is JKKN Pharmacy College NAAC accredited?",
-      answer: "Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI), affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and recognised by AICTE. These accreditations ensure quality education standards and national recognition of degrees."
+      answer: "Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. These accreditations ensure quality education standards and national recognition of degrees."
     },
     {
       question: "What are the top recruiters at JKKN Pharmacy College?",
@@ -72,6 +72,7 @@ export default function Home() {
         name="Best Pharmacy College in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
+        dateModified="2026-03-23"
       />
       <ItemListSchema
         name="Pharmacy Programmes at JKKN College of Pharmacy"
@@ -1385,7 +1386,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI), affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and recognised by AICTE.
+                Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.
               </p>
             </details>
 

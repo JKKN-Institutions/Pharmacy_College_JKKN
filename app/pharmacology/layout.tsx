@@ -63,6 +63,7 @@ export default function PharmacologyLayout({
         name="M.Pharm Pharmacology — JKKN College of Pharmacy"
         description="Master of Pharmacy in Pharmacology at JKKN College of Pharmacy, Komarapalayam — advanced training in drug action, toxicology, and preclinical research. PCI approved, NAAC A Grade."
         url="https://pharmacy.jkkn.ac.in/pharmacology/"
+        dateModified="2026-03-23"
       />
       <FaqSchema
         faqs={[

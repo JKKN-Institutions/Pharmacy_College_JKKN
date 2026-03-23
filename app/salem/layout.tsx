@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy College Near Salem | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI, AICTE, NAAC approved with 85%+ placements. Apply for 2026-27 admissions!',
+    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved and NAAC accredited with 85%+ placements. Apply for 2026-27 admissions!',
     url: 'https://pharmacy.jkkn.ac.in/salem/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy College Near Salem | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI, AICTE, NAAC approved with 85%+ placements.',
+    description: 'JKKN College of Pharmacy is just 45 km from Salem via NH-544. PCI approved and NAAC accredited with 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }
