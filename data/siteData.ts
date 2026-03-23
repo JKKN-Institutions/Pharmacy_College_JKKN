@@ -35,6 +35,17 @@ export const topMenuItems: NavItem[] = [
       { label: "Administration", href: "/administration" },
       { label: "Central Public Information Officer", href: "/cpio" },
       { label: "Why JKKN?", href: "/why-jkkn" },
+      {
+        label: "WHY STUDENTS CHOOSE JKKN?",
+        href: "#",
+        submenu: [
+          { label: "Why Erode Students?", href: "/erode" },
+          { label: "Why Salem Students?", href: "/salem" },
+          { label: "Why Tirupur Students?", href: "/tiruppur" },
+          { label: "Why Namakkal Students?", href: "/namakkal" },
+          { label: "Why Coimbatore Students?", href: "/coimbatore" },
+        ]
+      },
       { label: "PEO'S", href: "/peos" },
       { label: "Quality Policy", href: "/quality-policy" },
       { label: "General Rules and Regulations", href: "/general-rules" },
