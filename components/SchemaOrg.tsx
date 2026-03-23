@@ -64,6 +64,7 @@ export function OrganizationSchema() {
     },
     "sameAs": [
       "https://www.wikidata.org/wiki/Q48733446",
+      "https://www.pci.nic.in",
       "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7",
       "https://www.facebook.com/jkknpharmacy",
       "https://www.instagram.com/jkknpharmacy",
@@ -477,6 +478,42 @@ export function EventSchema({
       "url": "https://pharmacy.jkkn.ac.in/"
     },
     "url": url
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+interface ItemListItem {
+  name: string;
+  url: string;
+  description?: string;
+}
+
+interface ItemListSchemaProps {
+  name: string;
+  description: string;
+  items: ItemListItem[];
+}
+
+export function ItemListSchema({ name, description, items }: ItemListSchemaProps) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": name,
+    "description": description,
+    "numberOfItems": items.length,
+    "itemListElement": items.map((item, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": item.name,
+      "url": item.url,
+      ...(item.description && { "description": item.description })
+    }))
   };
 
   return (
