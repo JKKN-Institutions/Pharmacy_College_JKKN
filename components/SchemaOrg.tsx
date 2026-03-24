@@ -90,7 +90,7 @@ export function OrganizationSchema() {
       "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7",
       "https://www.facebook.com/jkknpharmacy",
       "https://www.instagram.com/jkknpharmacy",
-      "https://www.linkedin.com/school/jkkn-college-of-pharmacy",
+      "https://www.linkedin.com/school/jkknpharmacy/",
       "https://www.youtube.com/@JKKNInstitutions",
       "https://www.shiksha.com/college/jkkn-college-of-pharmacy",
       "https://www.careers360.com/colleges/jkkn-college-of-pharmacy-namakkal",

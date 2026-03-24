@@ -34,6 +34,24 @@ export const metadata: Metadata = {
   },
 }
 
+const blogCollectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Pharmacy Blog — JKKN College of Pharmacy",
+  "description": "Expert articles on pharmacy education, career guidance, B.Pharm, M.Pharm, Pharm.D courses, and pharmaceutical industry insights from JKKN College of Pharmacy.",
+  "url": "https://pharmacy.jkkn.ac.in/blog/",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "JKKN College of Pharmacy",
+    "url": "https://pharmacy.jkkn.ac.in/"
+  },
+  "provider": {
+    "@type": "EducationalOrganization",
+    "@id": "https://pharmacy.jkkn.ac.in/#organization",
+    "name": "JKKN College of Pharmacy"
+  }
+};
+
 export default function BlogLayout({
   children,
 }: {
@@ -41,6 +59,10 @@ export default function BlogLayout({
 }) {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogCollectionSchema) }}
+      />
       <BreadcrumbWrapper />
       {children}
     </>
