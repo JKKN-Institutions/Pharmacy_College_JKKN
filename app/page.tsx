@@ -137,13 +137,13 @@ export default function Home() {
 
               {/* Main Heading */}
               <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
-                Best Pharmacy College in Tamil Nadu — JKKN College of Pharmacy,{' '}
+                Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy,{' '}
                 <span className="text-[#7cb983]">PCI Approved &amp; NAAC A Grade</span>
               </h1>
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-                Ranked among the best pharmacy colleges in Tamil Nadu, JKKN College of Pharmacy combines 41 years of excellence with PCI-approved programmes that prepare students for impactful careers in the pharmaceutical industry.
+                The best pharmacy colleges in Tamil Nadu include JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai), Annamalai University (Chidambaram), and JKKN College of Pharmacy (Komarapalayam). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programmes with strong placement records across the pharmaceutical industry.
               </p>
 
               {/* Statistics */}
@@ -276,11 +276,10 @@ export default function Home() {
                 About JKKN College of Pharmacy
               </p>
               <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
-                41 Years Among the Best Pharmacy Colleges in Tamil Nadu — Excellence Since 1985
+                Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a PCI-approved pharmaceutical institution under JKK Nattraja Educational Institutions (JKKN Institutions), founded on the vision of Founder J.K.K. Nataraja
-                Chettiar (1895-1995). Recognised as one of the best pharmacy colleges in Tamil Nadu, the college has been shaping competent pharmacists for over four decades.
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
