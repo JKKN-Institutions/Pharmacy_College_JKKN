@@ -29,7 +29,7 @@ export default function MPharmacyPage() {
         <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
           <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#006837] mb-6">What is M.Pharm (Master of Pharmacy)?</h2>
 
-          <div className="text-sm sm:text-base text-gray-800 leading-relaxed space-y-4 mb-8">
+          <div className="snippet-answer speakable-summary text-sm sm:text-base text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
               M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD programmes</Link>.
             </p>
@@ -52,7 +52,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 0 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                   2 Years (4 Semesters)
                 </p>
@@ -74,7 +74,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 1 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                   5 Major Pathways
                 </p>
@@ -96,7 +96,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 2 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                   ₹25K-45K/Month
                 </p>
@@ -118,7 +118,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 3 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
                   ₹1L-2L/Month
                 </p>
@@ -1193,7 +1193,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 4 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to top institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
                 </p>
@@ -1217,7 +1217,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 5 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   M.Pharm offers 5 major specialisations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
                 </p>
@@ -1241,7 +1241,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 6 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   All M.Pharm specialisations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on the institution, research publications, skills, and networking than specialisation choice. Top 10% students succeed in any specialisation.
                 </p>
@@ -1265,7 +1265,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 7 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   M.Pharm salaries vary by specialisation, company type, and location. Starting salaries (0-2 years): Pharmaceutical industry R&D ₹30,000-50,000/month, Quality Control ₹25,000-40,000/month, Academic institutions ₹35,000-50,000/month as Assistant Professor, Clinical research (CRO) ₹28,000-45,000/month, Regulatory affairs ₹30,000-50,000/month. Mid-career (5-10 years): Senior Scientist/Manager ₹60,000-1,20,000/month, QC/QA Manager ₹50,000-90,000/month, Associate Professor ₹60,000-90,000/month, Senior CRA/Project Manager ₹70,000-1,20,000/month, Regulatory Manager ₹60,000-1,00,000/month. Senior level (10-15 years): Principal Scientist/Associate Director ₹1,20,000-2,00,000/month, Head QA/QC ₹80,000-1,50,000/month, Professor ₹1,00,000-1,80,000/month, Director level ₹1,50,000-3,00,000/month in large pharma. Specialisation-wise: Pharmaceutics and Chemistry highest in R&D roles, Analysis moderate but steady in QC, Pharmacology competitive for top positions, Pharmacy Practice lower starting but growing. Location impact: Metro cities pay 30-40% more than Tier-2 cities. Company type: MNCs and innovator companies pay 40-60% more than Indian generic companies. Comparison: M.Pharm starting (₹25-45K) vs B.Pharm (₹18-30K) provides ₹7-15K premium. Long-term: M.Pharm reaches ₹1-2L at senior level vs B.Pharm ₹60-90K.
                 </p>
@@ -1289,7 +1289,7 @@ export default function MPharmacyPage() {
               />
             </button>
             {expandedFAQ === 8 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   Choose M.Pharm specialisation based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialisation. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specialisations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specialisations before deciding.
                 </p>
