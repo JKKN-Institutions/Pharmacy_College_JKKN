@@ -9,6 +9,7 @@ import {
   SpeakableWebPageSchema,
   ArticleSchema,
   BreadcrumbListSchema,
+  ItemListSchema,
 } from '@/components/SchemaOrg';
 import {
   ChevronDown,
@@ -156,7 +157,7 @@ export default function BestPharmacyCollegesTamilNadu() {
         description="Comprehensive comparison of top pharmacy colleges in Tamil Nadu based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
         datePublished="2026-03-18"
-        dateModified="2026-03-18"
+        dateModified="2026-03-24"
         image="https://pharmacy.jkkn.ac.in/images/logo.png"
         wordCount={2200}
       />
@@ -165,7 +166,7 @@ export default function BestPharmacyCollegesTamilNadu() {
         name="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements"
         description="Compare top pharmacy colleges in Tamil Nadu by NIRF ranking, NAAC grade, fees and placements."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
-        dateModified="2026-03-23"
+        dateModified="2026-03-24"
         speakableCssSelectors={[
           '.speakable-summary',
           '.voice-answer',
@@ -182,6 +183,18 @@ export default function BestPharmacyCollegesTamilNadu() {
             url: 'https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/',
           },
         ]}
+      />
+      <ItemListSchema
+        name="Best Pharmacy Colleges in Tamil Nadu 2026"
+        description="Top 8 pharmacy colleges in Tamil Nadu ranked by NIRF 2025, NAAC grade, placement rate, and fees."
+        items={collegeRankings.map((c) => ({
+          name: c.name,
+          url:
+            c.name === 'JKKN College of Pharmacy'
+              ? 'https://pharmacy.jkkn.ac.in/'
+              : 'https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/',
+          description: `${c.location} — NIRF ${c.nirf}, NAAC ${c.naac}, Placement: ${c.placement}. USP: ${c.usp}`,
+        }))}
       />
 
       <Header />
@@ -212,7 +225,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               Pharmacy Rankings
             </span>
             <span className="text-blue-200 text-xs">
-              March 18, 2026 · 10 min read
+              Updated March 24, 2026 · 10 min read
             </span>
           </div>
 
@@ -265,9 +278,15 @@ export default function BestPharmacyCollegesTamilNadu() {
             Best Pharmacy Colleges in Tamil Nadu
           </h2>
 
-          {/* Snippet-optimized table — immediately below H2 */}
-          <div className="snippet-answer overflow-x-auto">
+          {/* Snippet paragraph — 40-60 word summary for featured snippet extraction */}
+          <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
+            The best pharmacy colleges in Tamil Nadu are JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai, NIRF #10), Annamalai University (Chidambaram, NIRF #27), and JKKN College of Pharmacy (Namakkal, 95% placement rate). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programs.
+          </p>
+
+          {/* Snippet-optimized table — immediately below snippet paragraph */}
+          <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm sm:text-base">
+              <caption className="text-left text-xs text-gray-500 mb-2">Table: Top 8 pharmacy colleges in Tamil Nadu ranked by NIRF 2025, NAAC grade, and placement rate</caption>
               <thead>
                 <tr className="bg-blue-900 text-white">
                   <th className="px-3 py-3 text-left font-semibold">
@@ -364,6 +383,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm sm:text-base">
+              <caption className="text-left text-xs text-gray-500 mb-2">Table: Fee comparison for B.Pharm, M.Pharm, Pharm.D, and D.Pharm programs in Tamil Nadu</caption>
               <thead>
                 <tr className="bg-gray-100">
                   <th className="px-4 py-3 text-left font-semibold text-gray-800">
@@ -653,7 +673,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                   )}
                 </button>
                 {openFaq === index && (
-                  <div className="px-4 sm:px-5 pb-4 sm:pb-5 text-sm sm:text-base text-gray-700 leading-relaxed bg-gray-50 border-t border-gray-100">
+                  <div className="voice-answer px-4 sm:px-5 pb-4 sm:pb-5 text-sm sm:text-base text-gray-700 leading-relaxed bg-gray-50 border-t border-gray-100">
                     {faq.answer}
                   </div>
                 )}
@@ -711,9 +731,9 @@ export default function BestPharmacyCollegesTamilNadu() {
 
         {/* CTA Section */}
         <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-2xl p-8 sm:p-10 text-center text-white">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">
+          <p className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4" role="heading" aria-level={2}>
             Apply Now — Pharmacy Admission 2026
-          </h2>
+          </p>
           <p className="text-blue-100 text-base sm:text-lg max-w-2xl mx-auto mb-8">
             Join JKKN College of Pharmacy — PCI approved, NAAC A Grade, 95%
             placement rate. Applications open for B.Pharm, M.Pharm, and

@@ -1,7 +1,7 @@
 'use client'
 
 import Header from '@/components/Header'
-import { FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema, CourseSchema, ItemListSchema } from '@/components/SchemaOrg'
+import { FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema, CourseSchema, ItemListSchema, HowToSchema } from '@/components/SchemaOrg'
 import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -72,7 +72,7 @@ export default function Home() {
         name="Best Pharmacy College in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
-        dateModified="2026-03-23"
+        dateModified="2026-03-24"
       />
       <ItemListSchema
         name="Pharmacy Programmes at JKKN College of Pharmacy"
@@ -110,6 +110,17 @@ export default function Home() {
         url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
         educationalLevel="Postgraduate"
       />
+      <HowToSchema
+        name="How to Apply to JKKN College of Pharmacy, Tamil Nadu"
+        description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
+        steps={[
+          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks." },
+          { name: "Apply Online", text: "Submit your application via the TNEA counselling portal or the JKKN admissions website at admission.jkkn.ac.in. Applications open May-June annually for the academic year starting in July." },
+          { name: "Counselling or Selection", text: "Participate in TNEA or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
+          { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
+          { name: "Fee Payment and Enrollment", text: "Complete fee payment as per Tamil Nadu government norms for government quota or management quota rates. Secure your admission and receive your enrollment confirmation from JKKN College of Pharmacy." }
+        ]}
+      />
       <Header />
 
       {/* Hero Section */}
@@ -131,7 +142,7 @@ export default function Home() {
               </h1>
 
               {/* Description */}
-              <p className="text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
+              <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
                 Ranked among the best pharmacy colleges in Tamil Nadu, JKKN College of Pharmacy combines 41 years of excellence with PCI-approved programmes that prepare students for impactful careers in the pharmaceutical industry.
               </p>
 
@@ -267,14 +278,17 @@ export default function Home() {
               <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
                 41 Years Among the Best Pharmacy Colleges in Tamil Nadu — Excellence Since 1985
               </h2>
-              <p className="text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
+              <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
                 JKKN College of Pharmacy is a PCI-approved pharmaceutical institution under JKK Nattraja Educational Institutions (JKKN Institutions), founded on the vision of Founder J.K.K. Nataraja
                 Chettiar (1895-1995). Recognised as one of the best pharmacy colleges in Tamil Nadu, the college has been shaping competent pharmacists for over four decades.
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
                 environment for focused pharmaceutical learning. Approved by the Pharmacy Council of India (PCI) and accredited NAAC A Grade, the college produces competent
-                pharmacists ready to serve the healthcare industry.
+                pharmacists ready to serve the healthcare industry. Read the detailed comparison of{' '}
+                <Link href="/blog/best-pharmacy-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">
+                  best pharmacy colleges in Tamil Nadu
+                </Link>.
               </p>
 
               {/* Features Grid */}
@@ -1155,7 +1169,7 @@ export default function Home() {
       {/* Program Overview Table - for AI/SEO extraction */}
       <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-white" aria-label="Pharmacy Programs Overview">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Pharmacy Programs at JKKN College of Pharmacy</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Pharmacy Programmes at JKKN College of Pharmacy</h2>
           <p className="text-sm sm:text-base text-gray-600 mb-6">Overview of all PCI-approved pharmacy programmes offered at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
@@ -1286,7 +1300,7 @@ export default function Home() {
                 <span>What pharmacy courses are offered at JKKN Pharmacy College?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
               </p>
             </details>
@@ -1297,7 +1311,7 @@ export default function Home() {
                 <span>Is JKKN Pharmacy College PCI approved?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programmes.
               </p>
             </details>
@@ -1308,7 +1322,7 @@ export default function Home() {
                 <span>What is the admission process for B.Pharm/Pharm.D?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Applications can be submitted online.
               </p>
             </details>
@@ -1319,7 +1333,7 @@ export default function Home() {
                 <span>What is the placement record at JKKN Pharmacy College?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 JKKN Pharmacy College has 95%+ placement rate with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
               </p>
             </details>
@@ -1330,7 +1344,7 @@ export default function Home() {
                 <span>What career opportunities are available after pharmacy?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Pharmacy graduates can work in pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and can open their own pharmacy.
               </p>
             </details>
@@ -1341,7 +1355,7 @@ export default function Home() {
                 <span>Does JKKN offer Pharm.D programme?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
               </p>
             </details>
@@ -1352,7 +1366,7 @@ export default function Home() {
                 <span>What M.Pharm specialisations are available?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 M.Pharm specialisations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
               </p>
             </details>
@@ -1363,7 +1377,7 @@ export default function Home() {
                 <span>Is hostel accommodation available?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
               </p>
             </details>
@@ -1374,7 +1388,7 @@ export default function Home() {
                 <span>What is the fee structure for B.Pharm at JKKN Pharmacy College?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.
               </p>
             </details>
@@ -1385,7 +1399,7 @@ export default function Home() {
                 <span>Is JKKN Pharmacy College NAAC accredited?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.
               </p>
             </details>
@@ -1396,7 +1410,7 @@ export default function Home() {
                 <span>What are the top recruiters at JKKN Pharmacy College?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Top recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, and hospital pharmacy roles.
               </p>
             </details>
@@ -1407,8 +1421,19 @@ export default function Home() {
                 <span>Where is JKKN College of Pharmacy located?</span>
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
-              <p className="text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. Easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km).
+              </p>
+            </details>
+
+            {/* FAQ 13 */}
+            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <span>Is JKKN among the best pharmacy colleges in Tamil Nadu?</span>
+                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+              </summary>
+              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes.
               </p>
             </details>
           </div>

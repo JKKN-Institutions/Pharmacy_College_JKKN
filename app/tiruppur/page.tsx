@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
-import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
+import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -37,14 +37,19 @@ export default function TiruppurPage() {
 
   const faqs = [
     {
-      question: 'What is the best pharmacy college in Tiruppur?',
+      question: 'Which are the best pharmacy colleges in Tiruppur?',
       answer:
-        'JKKN College of Pharmacy, located just 80-90 km from Tiruppur on NH-544 via Erode, is widely regarded as one of the top pharmacy colleges accessible from Tiruppur. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.',
+        'Among the top pharmacy colleges in Tiruppur district, JKKN College of Pharmacy stands out — located just 67 km from Tiruppur on NH-544 via Erode. PCI approved and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support.',
+    },
+    {
+      question: 'What are the best colleges for pharmacy near Tiruppur district?',
+      answer:
+        'JKKN College of Pharmacy is among the best colleges for pharmacy accessible from Tiruppur district. Located in Komarapalayam (67 km from Tiruppur via NH-544), it offers PCI-approved programmes, NAAC accreditation, modern labs, and strong industry placements with top pharmaceutical companies.',
     },
     {
       question: 'How far is JKKN Pharmacy from Tiruppur?',
       answer:
-        'JKKN Pharmacy is approximately 80-90 km from Tiruppur, which takes about 1.5-2 hours by road via NH-544 through Erode, then State Highway towards Tiruppur. Regular bus services are available from Tiruppur.',
+        'JKKN Pharmacy is approximately 67 km from Tiruppur, which takes about 1.5 hours by road via NH-544 through Erode, then State Highway towards Tiruppur. Regular bus services are available from Tiruppur.',
     },
     {
       question: 'What is the difference between D.Pharm and B.Pharm?',
@@ -64,7 +69,7 @@ export default function TiruppurPage() {
     {
       question: 'Does JKKN Pharmacy provide hostel for Tiruppur students?',
       answer:
-        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Tiruppur can also opt for daily commute as the campus is just 1.5-2 hours away. College transport services are available.',
+        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Tiruppur can also opt for daily commute as the campus is just about 1.5 hours away. College transport services are available.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
@@ -77,8 +82,58 @@ export default function TiruppurPage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy College Near Tiruppur', url: 'https://pharmacy.jkkn.ac.in/tiruppur' }
+        { name: 'Pharmacy Colleges in Tiruppur', url: 'https://pharmacy.jkkn.ac.in/tiruppur/' }
       ]} />
+      {/* ── EducationalOrganization + CollegeOrUniversity Schema ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["EducationalOrganization", "CollegeOrUniversity"],
+            "name": "JKKN College of Pharmacy",
+            "alternateName": "JKKN Pharmacy",
+            "url": "https://pharmacy.jkkn.ac.in/",
+            "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
+            "description": "JKKN College of Pharmacy is a top pharmacy college accessible from Tiruppur, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 67 km from Tiruppur on NH-544.",
+            "foundingDate": "1952",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "11.4367",
+              "longitude": "77.7271"
+            },
+            "telephone": "+919345855001",
+            "email": "admissions@pharmacy.jkkn.ac.in",
+            "areaServed": [
+              { "@type": "City", "name": "Tiruppur" },
+              { "@type": "City", "name": "Erode" },
+              { "@type": "City", "name": "Coimbatore" },
+              { "@type": "State", "name": "Tamil Nadu" }
+            ],
+            "hasCredential": [
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "PCI Approval", "recognizedBy": { "@type": "Organization", "name": "Pharmacy Council of India" } },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "NAAC Accreditation", "recognizedBy": { "@type": "Organization", "name": "NAAC" } }
+            ],
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "JKKN Institutions",
+              "url": "https://jkkn.ac.in/"
+            },
+            "sameAs": [
+              "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
+            ],
+            "dateModified": "2026-03-23"
+          })
+        }}
+      />
       {/* ── Sticky Announcement Bar ── */}
       <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#002309] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
@@ -118,16 +173,13 @@ export default function TiruppurPage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Best Pharmacy College Near
-            <br />
-            <span className="text-[#7cb983]">Tiruppur</span>
+            Best Pharmacy Colleges in{' '}
+            <span className="text-[#7cb983]">Tiruppur</span> — JKKN College of Pharmacy
           </h1>
 
           {/* Description */}
           <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            Tiruppur students — quality education without the big-city hassle. JKKN College of
-            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — no need to
-            go to Coimbatore — quality education is closer than you think.
+            Looking for the best colleges for pharmacy in Tiruppur district? JKKN College of Pharmacy is among the top pharmacy colleges in Tiruppur region — just 67 km via NH-544 with 85%+ placement support. PCI approved, NAAC accredited.
           </p>
 
           {/* Stats Grid */}
@@ -135,7 +187,7 @@ export default function TiruppurPage() {
             {[
               { value: '85%+', label: 'PLACEMENTS' },
               { value: '6-8', label: 'LPA HIGHEST' },
-              { value: '85km', label: 'FROM TIRUPPUR' },
+              { value: '67km', label: 'FROM TIRUPPUR' },
               { value: '4', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
@@ -190,7 +242,7 @@ export default function TiruppurPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">85</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">67</span>
               <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
@@ -198,7 +250,7 @@ export default function TiruppurPage() {
                 From Tiruppur to JKKN Pharmacy
               </h2>
               <p className="text-xs sm:text-sm text-gray-500">
-                1.5-2 hours via NH-544 via Erode, then State Highway towards Tiruppur
+                ~1.5 hours via NH-544 via Erode, then State Highway towards Tiruppur
               </p>
             </div>
             <a
@@ -258,7 +310,7 @@ export default function TiruppurPage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: 'Just 80-90 km from Tiruppur. Daily commute or comfortable hostel — your choice.',
+                desc: 'Just 67 km from Tiruppur. Daily commute or comfortable hostel — your choice.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -291,6 +343,7 @@ export default function TiruppurPage() {
                 level: 'Diploma',
                 intake: '60 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/programmes',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -299,6 +352,7 @@ export default function TiruppurPage() {
                 level: 'UG',
                 intake: '100 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/b-pharmacy',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -307,6 +361,7 @@ export default function TiruppurPage() {
                 level: 'PG',
                 intake: '30 seats',
                 eligibility: 'B.Pharm degree',
+                href: '/m-pharmacy',
               },
               {
                 icon: <Stethoscope className="w-6 h-6 text-[#006837]" />,
@@ -315,6 +370,7 @@ export default function TiruppurPage() {
                 level: 'UG (Professional)',
                 intake: '30 seats',
                 eligibility: '10+2 with PCM/PCB',
+                href: '/pharm-d',
               },
             ].map((prog) => (
               <div
@@ -341,6 +397,12 @@ export default function TiruppurPage() {
                   ))}
                 </div>
                 <p className="text-[10px] sm:text-xs text-gray-400 mb-4 flex-1">{prog.eligibility}</p>
+                <a
+                  href={prog.href}
+                  className="block bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-gray-200 mb-2"
+                >
+                  View Course Details
+                </a>
                 <a
                   href={`tel:${PHONE}`}
                   className="bg-[#FBFBEE] hover:bg-[#6ba872] text-[#006837] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#7cb983]"
@@ -427,7 +489,7 @@ export default function TiruppurPage() {
                   Tiruppur → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  80-90 km • 1.5-2 hours
+                  67 km • ~1.5 hours
                 </p>
               </div>
             </div>
@@ -447,7 +509,7 @@ export default function TiruppurPage() {
                 {
                   emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
-                  text: 'Tiruppur Junction (~85 km from campus)',
+                  text: 'Tiruppur Junction (~67 km from campus)',
                 },
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
@@ -643,15 +705,16 @@ export default function TiruppurPage() {
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-3 sm:mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '5-10 km', href: '/namakkal' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '40-50 km', href: '/salem' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '30-40 km', href: '/erode' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '66 km', href: '/namakkal/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '58 km', href: '/salem/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '22 km', href: '/erode/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Coimbatore', distance: '105 km', href: '/coimbatore/' },
             ].map((item) => (
               <a
-                href={item.href}
                 key={item.city}
+                href={item.href}
                 className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors"
               >
                 <span>{item.emoji}</span>
@@ -663,18 +726,8 @@ export default function TiruppurPage() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
-            <a href="/coimbatore" className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors">
-              <MapPin className="w-5 h-5 text-[#006837]" />
-              <div className="text-left">
-                <p className="text-xs sm:text-sm font-bold text-gray-900">Coimbatore</p>
-                <p className="text-[10px] sm:text-xs text-gray-400">100-110 km</p>
-              </div>
-            </a>
-          </div>
-
           <a
-            href="/"
+            href="/programmes"
             className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -685,6 +738,25 @@ export default function TiruppurPage() {
       {/* ── FAQ Schema Markup ── */}
       <FaqSchema faqs={faqs} />
 
+      {/* ── ItemList Schema for Programmes ── */}
+      <ItemListSchema
+        name="Pharmacy Programmes at JKKN College of Pharmacy near Tiruppur"
+        description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Tiruppur"
+        items={[
+          { name: 'D.Pharm (Diploma in Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/dpharm/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+        ]}
+      />
+
+      {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
+      <SpeakableWebPageSchema
+        name="Pharmacy Colleges in Tiruppur — JKKN College of Pharmacy"
+        description="Top pharmacy colleges in Tiruppur — JKKN College of Pharmacy, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements."
+        url="https://pharmacy.jkkn.ac.in/tiruppur/"
+        dateModified="2026-03-23"
+      />
     </div>
   );
 }

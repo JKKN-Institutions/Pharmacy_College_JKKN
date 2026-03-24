@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
-import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
+import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -37,9 +37,19 @@ export default function CoimbatorePage() {
 
   const faqs = [
     {
-      question: 'What is the best pharmacy college in Coimbatore?',
+      question: 'Which are the best pharmacy colleges in Coimbatore?',
       answer:
-        'JKKN College of Pharmacy, located just 100-110 km from Coimbatore on NH-544, is widely regarded as one of the top pharmacy colleges accessible from Coimbatore. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.',
+        'Among the best pharmacy colleges in Coimbatore region, JKKN College of Pharmacy stands out — located 105 km from Coimbatore on NH-544. PCI approved and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support.',
+    },
+    {
+      question: 'What are the top 10 pharmacy colleges in Coimbatore?',
+      answer:
+        'When searching for top pharmacy colleges in Coimbatore, JKKN College of Pharmacy consistently ranks among the best. With PCI approval, NAAC accreditation, 85%+ placements, and modern infrastructure, it offers quality pharmacy courses in Coimbatore region at competitive fees.',
+    },
+    {
+      question: 'Which pharmacy course in Coimbatore has the best career scope?',
+      answer:
+        'B.Pharm and Pharm.D are the pharmacy courses with the best career scope. JKKN College of Pharmacy near Coimbatore offers both, along with D.Pharm and M.Pharm. B.Pharm opens doors to pharmaceutical manufacturing, R&D, and regulatory affairs. Pharm.D leads to clinical pharmacy and hospital practice roles.',
     },
     {
       question: 'How far is JKKN Pharmacy from Coimbatore?',
@@ -77,8 +87,58 @@ export default function CoimbatorePage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy College Near Coimbatore', url: 'https://pharmacy.jkkn.ac.in/coimbatore' }
+        { name: 'Best Pharmacy Colleges in Coimbatore', url: 'https://pharmacy.jkkn.ac.in/coimbatore/' }
       ]} />
+      {/* ── EducationalOrganization + CollegeOrUniversity Schema ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["EducationalOrganization", "CollegeOrUniversity"],
+            "name": "JKKN College of Pharmacy",
+            "alternateName": "JKKN Pharmacy",
+            "url": "https://pharmacy.jkkn.ac.in/",
+            "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
+            "description": "JKKN College of Pharmacy is among the best pharmacy colleges in Coimbatore region, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 105 km from Coimbatore on NH-544.",
+            "foundingDate": "1952",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "11.4367",
+              "longitude": "77.7271"
+            },
+            "telephone": "+919345855001",
+            "email": "admissions@pharmacy.jkkn.ac.in",
+            "areaServed": [
+              { "@type": "City", "name": "Coimbatore" },
+              { "@type": "City", "name": "Tiruppur" },
+              { "@type": "City", "name": "Erode" },
+              { "@type": "State", "name": "Tamil Nadu" }
+            ],
+            "hasCredential": [
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "PCI Approval", "recognizedBy": { "@type": "Organization", "name": "Pharmacy Council of India" } },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "NAAC Accreditation", "recognizedBy": { "@type": "Organization", "name": "NAAC" } }
+            ],
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "JKKN Institutions",
+              "url": "https://jkkn.ac.in/"
+            },
+            "sameAs": [
+              "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
+            ],
+            "dateModified": "2026-03-23"
+          })
+        }}
+      />
       {/* ── Sticky Announcement Bar ── */}
       <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#002309] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
@@ -118,16 +178,13 @@ export default function CoimbatorePage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Best Pharmacy College Near
-            <br />
-            <span className="text-[#7cb983]">Coimbatore</span>
+            Best Pharmacy Colleges in{' '}
+            <span className="text-[#7cb983]">Coimbatore</span> — JKKN College of Pharmacy
           </h1>
 
           {/* Description */}
           <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            Better value, better campus, better you — just 2 hours from Coimbatore. JKKN College of
-            Pharmacy offers top-tier pharmacy programmes with 85%+ placement support — comprehensive
-            education at a fraction of Coimbatore city college fees.
+            Looking for the best colleges for pharmacy in Coimbatore? JKKN College of Pharmacy ranks among the top pharmacy colleges in Coimbatore region — 105 km via NH-544 with 85%+ placement support. PCI approved, NAAC accredited. Quality pharmacy education at competitive fees.
           </p>
 
           {/* Stats Grid */}
@@ -291,6 +348,7 @@ export default function CoimbatorePage() {
                 level: 'Diploma',
                 intake: '60 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/programmes',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -299,6 +357,7 @@ export default function CoimbatorePage() {
                 level: 'UG',
                 intake: '100 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/b-pharmacy',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -307,6 +366,7 @@ export default function CoimbatorePage() {
                 level: 'PG',
                 intake: '30 seats',
                 eligibility: 'B.Pharm degree',
+                href: '/m-pharmacy',
               },
               {
                 icon: <Stethoscope className="w-6 h-6 text-[#006837]" />,
@@ -315,6 +375,7 @@ export default function CoimbatorePage() {
                 level: 'UG (Professional)',
                 intake: '30 seats',
                 eligibility: '10+2 with PCM/PCB',
+                href: '/pharm-d',
               },
             ].map((prog) => (
               <div
@@ -341,6 +402,12 @@ export default function CoimbatorePage() {
                   ))}
                 </div>
                 <p className="text-[10px] sm:text-xs text-gray-400 mb-4 flex-1">{prog.eligibility}</p>
+                <a
+                  href={prog.href}
+                  className="block bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-gray-200 mb-2"
+                >
+                  View Course Details
+                </a>
                 <a
                   href={`tel:${PHONE}`}
                   className="bg-[#FBFBEE] hover:bg-[#6ba872] text-[#006837] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#7cb983]"
@@ -644,16 +711,17 @@ export default function CoimbatorePage() {
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-3 sm:mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '5-10 km', href: '/namakkal' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '40-50 km', href: '/salem' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '30-40 km', href: '/erode' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '66 km', href: '/namakkal/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '58 km', href: '/salem/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '22 km', href: '/erode/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
             ].map((item) => (
               <a
-                href={item.href}
                 key={item.city}
-                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors"
+                href={item.href}
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors duration-200"
               >
                 <span>{item.emoji}</span>
                 <div className="text-left">
@@ -664,18 +732,8 @@ export default function CoimbatorePage() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
-            <a href="/tiruppur" className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors">
-              <MapPin className="w-5 h-5 text-[#006837]" />
-              <div className="text-left">
-                <p className="text-xs sm:text-sm font-bold text-gray-900">Tiruppur</p>
-                <p className="text-[10px] sm:text-xs text-gray-400">80-90 km</p>
-              </div>
-            </a>
-          </div>
-
           <a
-            href="/"
+            href="/programmes"
             className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -686,6 +744,25 @@ export default function CoimbatorePage() {
       {/* ── FAQ Schema Markup ── */}
       <FaqSchema faqs={faqs} />
 
+      {/* ── ItemList Schema for Programmes ── */}
+      <ItemListSchema
+        name="Pharmacy Programmes at JKKN College of Pharmacy near Coimbatore"
+        description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Coimbatore"
+        items={[
+          { name: 'D.Pharm (Diploma in Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/dpharm/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+        ]}
+      />
+
+      {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
+      <SpeakableWebPageSchema
+        name="Best Pharmacy Colleges in Coimbatore — JKKN College of Pharmacy"
+        description="Best pharmacy colleges in Coimbatore — JKKN College of Pharmacy, 105 km via NH-544. PCI approved, NAAC accredited, 85%+ placements."
+        url="https://pharmacy.jkkn.ac.in/coimbatore/"
+        dateModified="2026-03-23"
+      />
     </div>
   );
 }

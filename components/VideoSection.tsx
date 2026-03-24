@@ -40,6 +40,9 @@ const videos: Video[] = [
 export default function VideoSection() {
   const validVideos = videos.filter((v) => !v.youtubeId.includes('YOUR_YOUTUBE_VIDEO_ID'))
 
+  // Hide entire section if no valid videos (all placeholder IDs)
+  if (validVideos.length === 0) return null
+
   return (
     <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-[#f9fafb]" aria-label="Campus Videos">
       {/* VideoObject JSON-LD schema — one script per video for better LLM/validator compatibility */}
@@ -72,30 +75,26 @@ export default function VideoSection() {
         <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
         <p className="text-sm sm:text-base text-gray-600 mb-8">Watch our campus tour, lab facilities, and placement success stories.</p>
 
-        {validVideos.length > 0 ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {validVideos.map((v) => (
-              <div key={v.youtubeId} className="rounded-xl overflow-hidden shadow-md bg-white">
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  <iframe
-                    className="absolute inset-0 w-full h-full"
-                    loading="lazy"
-                    src={`https://www.youtube.com/embed/${v.youtubeId}`}
-                    title={v.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-                <div className="p-4">
-                  <h3 className="text-sm sm:text-base font-semibold text-[#006837] leading-snug">{v.title}</h3>
-                  <p className="text-xs text-gray-500 mt-1 line-clamp-2">{v.description}</p>
-                </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {validVideos.map((v) => (
+            <div key={v.youtubeId} className="rounded-xl overflow-hidden shadow-md bg-white">
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  loading="lazy"
+                  src={`https://www.youtube.com/embed/${v.youtubeId}`}
+                  title={v.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
-            ))}
-          </div>
-        ) : (
-          <p className="text-center text-gray-500 py-8">Videos coming soon.</p>
-        )}
+              <div className="p-4">
+                <h3 className="text-sm sm:text-base font-semibold text-[#006837] leading-snug">{v.title}</h3>
+                <p className="text-xs text-gray-500 mt-1 line-clamp-2">{v.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   )

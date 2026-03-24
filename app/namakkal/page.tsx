@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
-import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg';
+import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -37,19 +37,24 @@ export default function NamakkalPage() {
 
   const faqs = [
     {
-      question: 'What is the best pharmacy college in Namakkal?',
+      question: 'Which is the best pharmacy college in Namakkal?',
       answer:
-        'JKKN College of Pharmacy, located just 10 km from Namakkal town on NH-544, is widely regarded as the top pharmacy college in Namakkal district. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers excellent programmes with strong placement support.',
+        'JKKN College of Pharmacy, located 66 km from Namakkal city on NH-544, is widely regarded as the top pharmacy college in Namakkal district. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support.',
+    },
+    {
+      question: 'What are the best colleges for pharmacy in Namakkal?',
+      answer:
+        'Among the best colleges for pharmacy in Namakkal district, JKKN College of Pharmacy stands out with PCI approval, NAAC accreditation, and strong industry placements. Located 66 km from Namakkal, it offers 4 pharmacy programmes with modern labs, research facilities, and campus placement support.',
     },
     {
       question: 'How far is JKKN Pharmacy from Namakkal?',
       answer:
-        'JKKN Pharmacy is approximately 5-10 km from Namakkal town centre, which takes just 15-20 minutes by road via NH-544 (Salem-Coimbatore Highway). Frequent local buses and auto-rickshaws are available from Namakkal town to Komarapalayam.',
+        'JKKN Pharmacy is approximately 66 km from Namakkal city, which takes about 1.5 hours by road via NH-544 (Salem-Coimbatore Highway). Frequent local buses and auto-rickshaws are available from Namakkal town to Komarapalayam.',
     },
     {
-      question: 'What is the difference between D.Pharm and B.Pharm?',
+      question: 'What pharmacy courses are available at pharmacy colleges in Namakkal?',
       answer:
-        'D.Pharm (Diploma in Pharmacy) is a 2-year diploma that qualifies you as a registered pharmacist. B.Pharm (Bachelor of Pharmacy) is a 4-year degree opening doors to R&D, quality control, and higher studies like M.Pharm. JKKN College of Pharmacy offers both programmes.',
+        'JKKN College of Pharmacy in Namakkal offers 4 programmes: D.Pharm (Diploma in Pharmacy, 2 years), B.Pharm (Bachelor of Pharmacy, 4 years), M.Pharm (Master of Pharmacy, 2 years), and Pharm.D (Doctor of Pharmacy, 6 years). All programmes are PCI approved.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
@@ -57,19 +62,19 @@ export default function NamakkalPage() {
         'Yes, JKKN College of Pharmacy is fully approved by the Pharmacy Council of India (PCI). This means all degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
     },
     {
-      question: 'What are the career options after B.Pharm?',
+      question: 'What are the career options after B.Pharm from a pharmacy college in Namakkal?',
       answer:
-        'B.Pharm graduates from JKKN College of Pharmacy have diverse career options including pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through competitive exams.',
+        'B.Pharm graduates from JKKN College of Pharmacy have diverse career options including pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through competitive exams like GPAT.',
     },
     {
       question: 'Does JKKN Pharmacy provide hostel for Namakkal students?',
       answer:
-        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Namakkal can also opt for daily commute as the campus is just 15-20 minutes away. College transport services are available.',
+        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Namakkal can also opt for daily commute as the campus is about 1.5 hours away. College transport services are available.',
     },
     {
-      question: 'How can I apply for admission at JKKN Pharmacy?',
+      question: 'How can I apply for admission at JKKN Pharmacy from Namakkal?',
       answer:
-        'You can apply online through the official website at https://pharmacy.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.',
+        'Students from Namakkal can apply online through the official website at https://pharmacy.jkkn.ac.in/ or visit the campus directly (66 km away). Admissions for 2026-27 are currently open. Contact the admission office at +91-9345855001 for guidance.',
     },
   ];
 
@@ -77,8 +82,58 @@ export default function NamakkalPage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy College in Namakkal', url: 'https://pharmacy.jkkn.ac.in/namakkal' }
+        { name: 'Pharmacy College in Namakkal', url: 'https://pharmacy.jkkn.ac.in/namakkal/' }
       ]} />
+      {/* ── EducationalOrganization + LocalBusiness Schema ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": ["EducationalOrganization", "CollegeOrUniversity"],
+            "name": "JKKN College of Pharmacy",
+            "alternateName": "JKKN Pharmacy",
+            "url": "https://pharmacy.jkkn.ac.in/",
+            "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
+            "description": "JKKN College of Pharmacy is the top pharmacy college in Namakkal, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 66 km from Namakkal city.",
+            "foundingDate": "1952",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": "11.4367",
+              "longitude": "77.7271"
+            },
+            "telephone": "+919345855001",
+            "email": "admissions@pharmacy.jkkn.ac.in",
+            "areaServed": [
+              { "@type": "City", "name": "Namakkal" },
+              { "@type": "City", "name": "Komarapalayam" },
+              { "@type": "City", "name": "Tiruchengode" },
+              { "@type": "State", "name": "Tamil Nadu" }
+            ],
+            "hasCredential": [
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "PCI Approval", "recognizedBy": { "@type": "Organization", "name": "Pharmacy Council of India" } },
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "NAAC Accreditation", "recognizedBy": { "@type": "Organization", "name": "NAAC" } }
+            ],
+            "parentOrganization": {
+              "@type": "Organization",
+              "name": "JKKN Institutions",
+              "url": "https://jkkn.ac.in/"
+            },
+            "sameAs": [
+              "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
+            ],
+            "dateModified": "2026-03-23"
+          })
+        }}
+      />
       {/* ── Sticky Announcement Bar ── */}
       <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#002309] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
@@ -118,15 +173,13 @@ export default function NamakkalPage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Best Pharmacy College Near
-            <br />
-            <span className="text-[#7cb983]">Namakkal</span>
+            Pharmacy College in{' '}
+            <span className="text-[#7cb983]">Namakkal</span> — JKKN College of Pharmacy
           </h1>
 
           {/* Description */}
           <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            Namakkal is home — and JKKN is too. JKKN College of Pharmacy offers top-tier pharmacy
-            programmes with 85%+ placement support — located right in your home district.
+            Looking for the best colleges for pharmacy in Namakkal? JKKN College of Pharmacy is the leading pharmacy college in Namakkal district — 66 km via NH-544 with 85%+ placement support. PCI approved, NAAC accredited, and offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes.
           </p>
 
           {/* Stats Grid */}
@@ -134,7 +187,7 @@ export default function NamakkalPage() {
             {[
               { value: '85%+', label: 'PLACEMENTS' },
               { value: '6-8', label: 'LPA HIGHEST' },
-              { value: '10km', label: 'FROM NAMAKKAL' },
+              { value: '66km', label: 'FROM NAMAKKAL' },
               { value: '4', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
@@ -189,7 +242,7 @@ export default function NamakkalPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">10</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">66</span>
               <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
@@ -197,7 +250,7 @@ export default function NamakkalPage() {
                 From Namakkal to JKKN Pharmacy
               </h2>
               <p className="text-xs sm:text-sm text-gray-500">
-                15-20 minutes via NH-544 (Salem-Coimbatore Highway)
+                ~1.5 hours via NH-544 (Salem-Coimbatore Highway)
               </p>
             </div>
             <a
@@ -217,12 +270,10 @@ export default function NamakkalPage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Namakkal Students Choose JKKN Pharmacy
+            Why Students Choose This Pharmacy College in Namakkal
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            Being in the home district of JKKN, Namakkal students enjoy the closest proximity to
-            the campus. There is no need for hostel accommodation — daily commute is easy and
-            convenient. Students can stay at home and still access quality professional education.
+            Among the best colleges for pharmacy in Namakkal district, JKKN offers quality pharmacy education accessible from Namakkal — 66 km from Namakkal city. Comfortable hostel or daily commute available. Students can choose what works best for them and still access quality professional pharmacy education.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -256,7 +307,7 @@ export default function NamakkalPage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: 'Just 5-10 km from Namakkal. Daily commute or comfortable hostel — your choice.',
+                desc: '66 km from Namakkal. Comfortable hostel or daily commute — your choice.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -289,6 +340,7 @@ export default function NamakkalPage() {
                 level: 'Diploma',
                 intake: '60 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/programmes',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -297,6 +349,7 @@ export default function NamakkalPage() {
                 level: 'UG',
                 intake: '100 seats',
                 eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
+                href: '/b-pharmacy',
               },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
@@ -305,6 +358,7 @@ export default function NamakkalPage() {
                 level: 'PG',
                 intake: '30 seats',
                 eligibility: 'B.Pharm degree',
+                href: '/m-pharmacy',
               },
               {
                 icon: <Stethoscope className="w-6 h-6 text-[#006837]" />,
@@ -313,6 +367,7 @@ export default function NamakkalPage() {
                 level: 'UG (Professional)',
                 intake: '30 seats',
                 eligibility: '10+2 with PCM/PCB',
+                href: '/pharm-d',
               },
             ].map((prog) => (
               <div
@@ -339,6 +394,12 @@ export default function NamakkalPage() {
                   ))}
                 </div>
                 <p className="text-[10px] sm:text-xs text-gray-400 mb-4 flex-1">{prog.eligibility}</p>
+                <a
+                  href={prog.href}
+                  className="block bg-gray-50 hover:bg-gray-100 text-gray-700 font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-gray-200 mb-2"
+                >
+                  View Course Details
+                </a>
                 <a
                   href={`tel:${PHONE}`}
                   className="bg-[#FBFBEE] hover:bg-[#6ba872] text-[#006837] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#7cb983]"
@@ -425,7 +486,7 @@ export default function NamakkalPage() {
                   Namakkal → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  5-10 km • 15-20 minutes
+                  66 km • ~1.5 hours
                 </p>
               </div>
             </div>
@@ -593,7 +654,7 @@ export default function NamakkalPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Pharmacy College in Namakkal — Your Questions Answered
+            Pharmacy Colleges in Namakkal — Your Questions Answered
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -642,16 +703,17 @@ export default function NamakkalPage() {
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-3 sm:mb-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '40-50 km', href: '/salem' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '30-40 km', href: '/erode' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '80-90 km', href: '/tiruppur' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '22 km', href: '/erode/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '58 km', href: '/salem/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Coimbatore', distance: '105 km', href: '/coimbatore/' },
             ].map((item) => (
               <a
-                href={item.href}
                 key={item.city}
-                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors"
+                href={item.href}
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors duration-200"
               >
                 <span>{item.emoji}</span>
                 <div className="text-left">
@@ -662,18 +724,8 @@ export default function NamakkalPage() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
-            <a href="/coimbatore" className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors">
-              <MapPin className="w-5 h-5 text-[#006837]" />
-              <div className="text-left">
-                <p className="text-xs sm:text-sm font-bold text-gray-900">Coimbatore</p>
-                <p className="text-[10px] sm:text-xs text-gray-400">100-110 km</p>
-              </div>
-            </a>
-          </div>
-
           <a
-            href="/"
+            href="/programmes"
             className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
@@ -684,6 +736,25 @@ export default function NamakkalPage() {
       {/* ── FAQ Schema Markup ── */}
       <FaqSchema faqs={faqs} />
 
+      {/* ── ItemList Schema for Programmes ── */}
+      <ItemListSchema
+        name="Pharmacy Programmes at JKKN College of Pharmacy in Namakkal"
+        description="List of pharmacy courses offered at JKKN College of Pharmacy, Namakkal district"
+        items={[
+          { name: 'D.Pharm (Diploma in Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/dpharm/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+        ]}
+      />
+
+      {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
+      <SpeakableWebPageSchema
+        name="Pharmacy College in Namakkal — JKKN College of Pharmacy"
+        description="Top pharmacy college in Namakkal — JKKN College of Pharmacy, 66 km via NH-544. PCI approved, NAAC accredited, 85%+ placements."
+        url="https://pharmacy.jkkn.ac.in/namakkal/"
+        dateModified="2026-03-23"
+      />
     </div>
   );
 }

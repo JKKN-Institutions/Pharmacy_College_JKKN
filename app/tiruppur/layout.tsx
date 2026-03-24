@@ -2,26 +2,26 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Tiruppur | JKKN — 90 km',
-  description: 'Best pharmacy college near Tiruppur — JKKN College of Pharmacy, 80-90 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D.',
+  title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy — 67 km',
+  description: 'Top pharmacy colleges in Tiruppur — JKKN College of Pharmacy, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply 2026-27.',
   keywords: [
-    'pharmacy college near tiruppur',
-    'best pharmacy college tiruppur',
-    'pharmacy college tiruppur',
-    'b pharm college near tiruppur',
+    'pharmacy colleges in tiruppur',
+    'best colleges for pharmacy',
+    'pharmacy college in tiruppur',
+    'pharmacy college in tiruppur district',
+    'b pharm college in tiruppur',
     'd pharm college tiruppur',
     'pharm d college tiruppur',
     'jkkn pharmacy tiruppur',
     'pci approved pharmacy college tiruppur',
-    'naac pharmacy college tiruppur',
     'pharmacy admission tiruppur 2026',
   ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/tiruppur/',
   },
   openGraph: {
-    title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is 1.5-2 hours from Tiruppur. PCI approved and NAAC accredited with 85%+ placements.',
+    title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+    description: 'JKKN College of Pharmacy — top pharmacy college in Tiruppur district, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
     url: 'https://pharmacy.jkkn.ac.in/tiruppur/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
-        alt: 'Best Pharmacy College Near Tiruppur - JKKN Pharmacy',
+        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Tiruppur',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pharmacy College Near Tiruppur | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is 1.5-2 hours from Tiruppur. PCI approved and NAAC accredited with 85%+ placements.',
+    title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+    description: 'JKKN College of Pharmacy — top pharmacy college in Tiruppur district, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

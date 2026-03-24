@@ -2,26 +2,26 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy College Near Erode | JKKN — 35 km',
-  description: 'Best pharmacy college near Erode — JKKN College of Pharmacy, 35 km via NH-544. PCI & NAAC A approved, 95% placements. B.Pharm, Pharm.D. Apply 2026-27.',
+  title: 'Pharmacy College in Erode | JKKN College of Pharmacy — 22 km',
+  description: 'Top pharmacy college in Erode — JKKN College of Pharmacy, 22 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply 2026-27.',
   keywords: [
-    'pharmacy college near erode',
-    'best pharmacy college erode',
+    'pharmacy college in erode',
+    'best colleges for pharmacy',
+    'pharmacy colleges in erode',
     'pharmacy college erode',
-    'b pharm college near erode',
+    'top pharmacy colleges in erode',
+    'b pharm college in erode',
     'd pharm college erode',
     'pharm d college erode',
     'jkkn pharmacy erode',
     'pci approved pharmacy college erode',
-    'naac pharmacy college erode',
-    'pharmacy admission erode 2026',
   ],
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/erode/',
   },
   openGraph: {
-    title: 'Best Pharmacy College Near Erode | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 35 km from Erode via NH-544. PCI approved and NAAC accredited with 85%+ placements. Apply for 2026-27 admissions!',
+    title: 'Pharmacy College in Erode | JKKN College of Pharmacy',
+    description: 'JKKN College of Pharmacy — top pharmacy college in Erode, 22 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply for 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/erode/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
-        alt: 'Best Pharmacy College Near Erode - JKKN Pharmacy',
+        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Erode',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pharmacy College Near Erode | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is just 35 km from Erode via NH-544. PCI approved and NAAC accredited with 85%+ placements.',
+    title: 'Pharmacy College in Erode | JKKN College of Pharmacy',
+    description: 'JKKN College of Pharmacy — top pharmacy college in Erode, 22 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

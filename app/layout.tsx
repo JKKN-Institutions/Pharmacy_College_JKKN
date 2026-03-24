@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/',
   },
   other: {
-    'last-modified': '2026-03-19',
-    'article:modified_time': '2026-03-19',
+    'last-modified': '2026-03-24',
+    'article:modified_time': '2026-03-24',
   },
   icons: {
     icon: '/images/logo.png',
