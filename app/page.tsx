@@ -69,7 +69,7 @@ export default function Home() {
       <FaqSchema faqs={homepageFaqs} />
       <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
-        name="Best Pharmacy College in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
+        name="Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
         dateModified="2026-03-24"
