@@ -122,7 +122,8 @@ export const topMenuItems: NavItem[] = [
       { label: "Attainment of COs and POs", href: "/attainment-cos-pos" },
       { label: "Study Material", href: "/study-material" },
       { label: "Faculty Profile", href: "/faculty-profile" },
-      { label: "Details of Students", href: "/details-of-students" }
+      { label: "Details of Students", href: "/details-of-students" },
+      { label: "Placements", href: "/placements" }
     ]
   },
   {
@@ -155,9 +156,8 @@ export const topMenuItems: NavItem[] = [
   { label: "RESEARCH", href: "/research" },
   {
     label: "PLACEMENT",
-    href: "/placements",
+    href: "/placement",
     submenu: [
-      { label: "Placements Overview", href: "/placements" },
       {
         label: "Placement Details",
         href: "/placement/details",
