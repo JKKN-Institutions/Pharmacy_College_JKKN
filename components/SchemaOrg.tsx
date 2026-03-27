@@ -243,11 +243,18 @@ interface FAQ {
   answer: string;
 }
 
-interface FaqSchemaProps {
-  faqs: FAQ[];
+interface VoiceFAQ {
+  question: string;
+  voiceAnswer: string;
 }
 
-export function FaqSchema({ faqs }: FaqSchemaProps) {
+interface FaqSchemaProps {
+  faqs: FAQ[];
+  voiceAnswers?: VoiceFAQ[];
+}
+
+export function FaqSchema({ faqs, voiceAnswers }: FaqSchemaProps) {
+  const voiceMap = new Map(voiceAnswers?.map(v => [v.question, v.voiceAnswer]));
   const schema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -256,7 +263,7 @@ export function FaqSchema({ faqs }: FaqSchemaProps) {
       "name": faq.question,
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": faq.answer
+        "text": voiceMap.get(faq.question) || faq.answer
       }
     }))
   };
@@ -344,7 +351,7 @@ export function SpeakableWebPageSchema({
   url,
   datePublished,
   dateModified,
-  speakableCssSelectors = ["h1", "h2", ".voice-answer", ".speakable-summary", ".snippet-answer"]
+  speakableCssSelectors = ["h1", "h2", ".voice-answer", ".speakable-summary", ".snippet-answer", ".aeo-snippet-block"]
 }: SpeakableWebPageSchemaProps) {
   const schema = {
     "@context": "https://schema.org",
