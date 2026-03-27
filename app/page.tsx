@@ -143,7 +143,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
-                The best pharmacy colleges in Tamil Nadu include JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai), Annamalai University (Chidambaram), and JKKN College of Pharmacy (Komarapalayam). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programmes with strong placement records across the pharmaceutical industry.
+                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
 
               {/* Statistics */}
