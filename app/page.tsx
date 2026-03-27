@@ -61,66 +61,18 @@ export default function Home() {
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
       answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes."
-    },
-    {
-      question: "Which is the best pharmacy college in Tamil Nadu?",
-      answer: "JSS College of Pharmacy, Ooty, holds NIRF Pharmacy Rank 4 nationally and is the top-ranked pharmacy college in Tamil Nadu. Among private institutions with the highest placement rates, JKKN College of Pharmacy, Namakkal, achieves 95% placement with NAAC A Grade accreditation, PCI approval, and 41 years of pharmaceutical education since 1985."
-    },
-    {
-      question: "What is the eligibility for B.Pharm in Tamil Nadu?",
-      answer: "B.Pharm eligibility in Tamil Nadu requires completion of 10+2 (Higher Secondary) with Physics, Chemistry, and Mathematics or Biology. Minimum 50% aggregate marks (45% for reserved categories). Candidates must be at least 17 years old. NEET is not required — admission is merit-based through TNEA counselling or direct admission."
-    },
-    {
-      question: "Is NEET required for B.Pharm in Tamil Nadu?",
-      answer: "No, NEET is not required for B.Pharm admission in Tamil Nadu. B.Pharm admission is based on 10+2 marks through TNEA counselling or management quota. NEET is mandatory only for Pharm.D (Doctor of Pharmacy) programmes. GPAT is required for M.Pharm admission at JKKN College of Pharmacy."
-    },
-    {
-      question: "What is the fee for pharmacy colleges in Tamil Nadu?",
-      answer: "B.Pharm fees in Tamil Nadu range from INR 4,800 per year in government colleges to INR 16 lakh total in premium private institutions. Average government college fee is INR 51,000 per year. Average private college fee is INR 2,50,000 per year. JKKN College of Pharmacy follows Tamil Nadu government-approved fee norms for government quota seats."
-    },
-    {
-      question: "Which pharmacy college has the highest placement in Tamil Nadu?",
-      answer: "JKKN College of Pharmacy, Namakkal, reports a 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's Laboratories, and Lupin. Average package is 3.5 LPA with the highest reaching 8 LPA. PSG College of Pharmacy and SRM College of Pharmacy also report strong placement records."
-    },
-    {
-      question: "Which is the best pharmacy college in Namakkal?",
-      answer: "JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with NAAC A Grade accreditation, PCI approval, and 41 years of pharmaceutical education since 1985. Located on NH-544 at Komarapalayam, it offers B.Pharm, M.Pharm (five specialisations), Pharm.D, and Ph.D. Namakkal district has 9 pharmacy colleges, with JKKN having the highest placement rate at 95%."
-    },
-    {
-      question: "How many pharmacy colleges are there in Tamil Nadu?",
-      answer: "Tamil Nadu has 146 pharmacy colleges including 13 government colleges, 75 private colleges, and institutions under deemed universities. These offer approximately 8,000+ B.Pharm seats and 2,000+ D.Pharm seats annually. Namakkal district alone has 9 pharmacy colleges. All programmes are approved by the Pharmacy Council of India (PCI)."
-    },
-    {
-      question: "When does B.Pharm admission start in Tamil Nadu 2026?",
-      answer: "B.Pharm admission in Tamil Nadu 2026 typically begins in May-June with TNEA counselling. Application dates are announced by The Tamil Nadu Dr. M.G.R. Medical University. JKKN College of Pharmacy opens applications in May 2026. Contact +91 9345855001 or visit admission.jkkn.ac.in for 2026-27 admission details."
     }
-  ];
-
-  const voiceFaqs = [
-    { question: "Which is the best pharmacy college in Tamil Nadu?", voiceAnswer: "JSS College of Pharmacy ranks first nationally. JKKN College of Pharmacy in Namakkal achieves ninety-five percent placement with NAAC A Grade and PCI approval since nineteen eighty-five." },
-    { question: "What is the eligibility for B.Pharm in Tamil Nadu?", voiceAnswer: "Bachelor of Pharmacy eligibility requires ten plus two with Physics, Chemistry, and Biology or Mathematics. Minimum fifty percent marks needed. Admission is through TNEA counselling." },
-    { question: "Is NEET required for B.Pharm in Tamil Nadu?", voiceAnswer: "No, NEET is not required for Bachelor of Pharmacy admission in Tamil Nadu. Admission is based on ten plus two marks through TNEA counselling or management quota." },
-    { question: "What is the fee for pharmacy colleges in Tamil Nadu?", voiceAnswer: "Bachelor of Pharmacy fees in Tamil Nadu range from four thousand eight hundred rupees per year in government colleges to two lakh fifty thousand in private institutions annually." },
-    { question: "Which pharmacy college has the highest placement in Tamil Nadu?", voiceAnswer: "JKKN College of Pharmacy in Namakkal reports ninety-five percent placement rate with thirty plus recruiters including Sun Pharma, Cipla, and Doctor Reddys Laboratories." },
-    { question: "Which is the best pharmacy college in Namakkal?", voiceAnswer: "JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with NAAC A Grade accreditation, ninety-five percent placement, and forty-one years since nineteen eighty-five." },
-    { question: "How many pharmacy colleges are there in Tamil Nadu?", voiceAnswer: "Tamil Nadu has one hundred and forty-six pharmacy colleges including thirteen government colleges and seventy-five private colleges offering eight thousand Bachelor of Pharmacy seats annually." },
-    { question: "When does B.Pharm admission start in Tamil Nadu 2026?", voiceAnswer: "Bachelor of Pharmacy admission in Tamil Nadu twenty twenty-six begins in May through June with TNEA counselling. JKKN College of Pharmacy opens applications in May twenty twenty-six." },
-    { question: "What pharmacy courses are offered at JKKN Pharmacy College?", voiceAnswer: "JKKN College of Pharmacy offers Bachelor of Pharmacy, Master of Pharmacy with five specialisations, Doctor of Pharmacy, and Doctor of Philosophy in Pharmaceutical Sciences." },
-    { question: "Is JKKN Pharmacy College PCI approved?", voiceAnswer: "Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India and accredited by NAAC with A Grade, affiliated to The Tamil Nadu Doctor MGR Medical University." },
-    { question: "What is the placement record at JKKN Pharmacy College?", voiceAnswer: "JKKN Pharmacy College achieved ninety-five percent placement rate with thirty plus recruiters. Average package is three point five lakhs per annum with highest reaching eight lakhs." },
-    { question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?", voiceAnswer: "Yes, JKKN College of Pharmacy is recognised among the best pharmacy colleges in Tamil Nadu with NAAC A Grade, PCI approval, and ninety-five percent placement since nineteen eighty-five." },
-    { question: "Where is JKKN College of Pharmacy located?", voiceAnswer: "JKKN College of Pharmacy is located on NH five forty-four Salem Coimbatore Highway at Komarapalayam, Namakkal District, Tamil Nadu. Thirty-five kilometres from Salem." },
   ];
 
   return (
     <main className="overflow-x-hidden w-full">
-      <FaqSchema faqs={homepageFaqs} voiceAnswers={voiceFaqs} />
+      <FaqSchema faqs={homepageFaqs} />
       <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
         name="Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
-        dateModified="2026-03-27"
+        dateModified="2026-03-24"
       />
       <ItemListSchema
         name="Pharmacy Programmes at JKKN College of Pharmacy"
@@ -233,7 +185,7 @@ export default function Home() {
               <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/Pharmacy-Homepage-Hero-Banner-Image.png"
-                  alt="JKKN College of Pharmacy campus — best pharmacy college in Tamil Nadu with PCI approval and NAAC A Grade"
+                  alt="JKKN College of Pharmacy Campus, Komarapalayam"
                   width={1920}
                   height={1080}
                   className="w-full h-auto object-cover"
@@ -245,10 +197,10 @@ export default function Home() {
                 {/* Badges on Image */}
                 <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex flex-col gap-2">
                   <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
-                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]" aria-label="PCI approved pharmacy college Tamil Nadu">PCI Approved</span>
+                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]">PCI Approved</span>
                   </div>
                   <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
-                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]" aria-label="NAAC A Grade pharmacy college accreditation">NAAC Accredited</span>
+                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]">NAAC Accredited</span>
                   </div>
                 </div>
 
@@ -293,103 +245,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* AEO Snippet Section — Best Pharmacy Colleges in Tamil Nadu */}
-      <section className="aeo-snippet-block py-10 sm:py-14 md:py-16 bg-white">
-        <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#006837] mb-4 sm:mb-6">
-            Best Pharmacy Colleges in Tamil Nadu
-          </h2>
-          <p className="snippet-answer voice-answer text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-            Tamil Nadu has 146 pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programmes approved by the Pharmacy Council of India. Top-ranked institutions include JSS College of Pharmacy (NIRF Rank 4), PSG College of Pharmacy, SRM College of Pharmacy, and JKKN College of Pharmacy — a NAAC A Grade institution with 95% placement rate since 1985. Explore the <Link href="/b-pharmacy/" className="text-[#006837] font-semibold hover:underline">B.Pharm programme at JKKN</Link> and <Link href="/m-pharmacy/" className="text-[#006837] font-semibold hover:underline">M.Pharm specialisations</Link>.
-          </p>
-
-          {/* Comparison Table */}
-          <h3 className="text-lg xs:text-xl sm:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Top Pharmacy Colleges in Tamil Nadu — Comparison
-          </h3>
-          <div className="overflow-x-auto mb-6 sm:mb-8">
-            <table className="min-w-full border-collapse border border-gray-200 text-xs sm:text-sm">
-              <thead>
-                <tr className="bg-[#006837] text-white">
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">College</th>
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">Location</th>
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">NIRF Rank</th>
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">NAAC</th>
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">Placement</th>
-                  <th className="border border-gray-200 px-2 sm:px-3 py-2 text-left">Programmes</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="bg-white">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-medium">JSS College of Pharmacy</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Ooty</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Rank 4</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">A++</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">90%+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm, Pharm.D</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-medium">PSG College of Pharmacy</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Coimbatore</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Top 25</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">A+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">85%+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-medium">SRM College of Pharmacy</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Chennai</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Top 50</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">A+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">88%+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm, Pharm.D</td>
-                </tr>
-                <tr className="bg-green-50 border-l-4 border-l-[#006837]">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-bold text-[#006837]">JKKN College of Pharmacy</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Namakkal</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">—</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-semibold">A</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-semibold">95%</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm, Pharm.D, Ph.D</td>
-                </tr>
-                <tr className="bg-white">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-medium">Nandha College of Pharmacy</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Erode</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">—</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B++</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">80%+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2 font-medium">Annamalai University</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Chidambaram</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">Top 50</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">A+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">82%+</td>
-                  <td className="border border-gray-200 px-2 sm:px-3 py-2">B.Pharm, M.Pharm, Pharm.D, Ph.D</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* Why JKKN Stands Out */}
-          <h3 className="text-lg xs:text-xl sm:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Why JKKN College of Pharmacy Stands Out
-          </h3>
-          <p className="voice-answer text-sm sm:text-base text-gray-700 leading-relaxed mb-6 sm:mb-8">
-            JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), established in 1985, has completed 41 years of pharmaceutical education at Komarapalayam, Namakkal District, Tamil Nadu. Approved by the <a href="https://www.pci.nic.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">Pharmacy Council of India (PCI)</a> and accredited NAAC A Grade, the college is affiliated to <a href="https://www.tnmgrmu.ac.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">The Tamil Nadu Dr. M.G.R. Medical University</a>. JKKN achieves a 95% placement rate with 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s Laboratories. The college offers the full pharmacy education pathway — B.Pharm, M.Pharm with 5 specialisations (most in the region), <Link href="/pharm-d/" className="text-[#006837] font-semibold hover:underline">Pharm.D clinical pharmacy</Link>, and Ph.D — with access to a 500-bed multi-specialty teaching hospital for clinical exposure from Year 1.
-          </p>
-
-          {/* Pharmacy Education in Namakkal */}
-          <h3 className="text-lg xs:text-xl sm:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
-            Pharmacy Education in Namakkal
-          </h3>
-          <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-            Namakkal district has 9 pharmacy colleges, with JKKN College of Pharmacy holding the highest accreditation (<a href="https://www.naac.gov.in/" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">NAAC</a> A Grade) and placement rate (95%) in the district. Located on NH-544 (Salem-Coimbatore National Highway), the campus is accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km). JKKN is part of the JKKN Institutions campus — a multi-disciplinary educational hub with a 500-bed multi-specialty teaching hospital, dental hospital, and nursing college — providing pharmacy students with integrated clinical training opportunities.
-          </p>
-        </div>
-      </section>
-
       {/* About Section */}
       <section className="py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
@@ -399,7 +254,7 @@ export default function Home() {
               <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
                 <Image
                   src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
-                  alt="JKKN College of Pharmacy pharmaceutical laboratory and campus facilities at Komarapalayam, Namakkal"
+                  alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
                   width={800}
                   height={600}
                   className="w-full h-auto"
@@ -424,7 +279,7 @@ export default function Home() {
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy) is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The campus features a 500-bed multi-specialty teaching hospital for clinical training from Year 1.
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
               <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
@@ -954,7 +809,7 @@ export default function Home() {
               <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 lg:gap-6">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">95%+</div>
-                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Placement Rate (2024-25)</div>
+                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Placement Rate</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">8 LPA</div>
@@ -1011,14 +866,6 @@ export default function Home() {
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
                   <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Glenmark</p>
                 </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Micro Labs</p>
-                </div>
-              </div>
-              <div className="mt-4 sm:mt-6 text-center">
-                <Link href="/placements" className="text-white underline underline-offset-4 hover:text-gray-200 text-xs sm:text-sm font-semibold transition-colors">
-                  View full JKKN pharmacy placement details →
-                </Link>
               </div>
             </div>
           </div>
@@ -1146,7 +993,7 @@ export default function Home() {
               Begin Your Pharmaceutical Journey at JKKN
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Applications open May-June 2026. Admission through TNEA counselling or management quota. Contact: <a href="tel:9345855001" className="text-[#006837] font-semibold hover:underline">+91 9345855001</a> | <a href="https://admission.jkkn.ac.in" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">admission.jkkn.ac.in</a>
+              Take the first step towards a rewarding career in the pharmaceutical industry. Join JKKN College of Pharmacy.
             </p>
           </div>
 
@@ -1305,11 +1152,8 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-            <a href="https://admission.jkkn.ac.in" target="_blank" rel="noopener noreferrer" className="w-full xs:w-auto bg-[#006837] hover:bg-[#005530] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-              Apply for Admission 2026-27
-            </a>
             <a href="tel:9345855001" className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-              Call +91 9345855001
+              Talk to Admissions
             </a>
             <a href="mailto:pharmacy@jkkn.ac.in" className="w-full xs:w-auto border-2 border-[#006837] hover:bg-[#006837] hover:text-white text-[#006837] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
               Email Us
@@ -1440,7 +1284,7 @@ export default function Home() {
               FAQS
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
-              Frequently Asked Questions About Pharmacy Colleges in Tamil Nadu
+              Frequently Asked Questions
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
               Find answers to common questions about admissions, programmes, and campus life.
@@ -1589,94 +1433,6 @@ export default function Home() {
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                 Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes.
-              </p>
-            </details>
-
-            {/* FAQ 14 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Which is the best pharmacy college in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JSS College of Pharmacy, Ooty, holds NIRF Pharmacy Rank 4 nationally and is the top-ranked pharmacy college in Tamil Nadu. Among private institutions with the highest placement rates, JKKN College of Pharmacy, Namakkal, achieves 95% placement with NAAC A Grade accreditation, PCI approval, and 41 years of pharmaceutical education since 1985.
-              </p>
-            </details>
-
-            {/* FAQ 15 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the eligibility for B.Pharm in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm eligibility in Tamil Nadu requires completion of 10+2 (Higher Secondary) with Physics, Chemistry, and Mathematics or Biology. Minimum 50% aggregate marks (45% for reserved categories). Candidates must be at least 17 years old. NEET is not required — admission is merit-based through TNEA counselling or direct admission.
-              </p>
-            </details>
-
-            {/* FAQ 16 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is NEET required for B.Pharm in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                No, NEET is not required for B.Pharm admission in Tamil Nadu. B.Pharm admission is based on 10+2 marks through TNEA counselling or management quota. NEET is mandatory only for Pharm.D (Doctor of Pharmacy) programmes. GPAT is required for M.Pharm admission.
-              </p>
-            </details>
-
-            {/* FAQ 17 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the fee for pharmacy colleges in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm fees in Tamil Nadu range from INR 4,800 per year in government colleges to INR 16 lakh total in premium private institutions. Average government college fee is INR 51,000 per year. Average private college fee is INR 2,50,000 per year. JKKN College of Pharmacy follows Tamil Nadu government-approved fee norms for government quota seats.
-              </p>
-            </details>
-
-            {/* FAQ 18 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Which pharmacy college has the highest placement in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy, Namakkal, reports a 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, and Lupin. Average package is 3.5 LPA with the highest reaching 8 LPA. PSG College of Pharmacy and SRM College of Pharmacy also report strong placement records.
-              </p>
-            </details>
-
-            {/* FAQ 19 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Which is the best pharmacy college in Namakkal?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with NAAC A Grade accreditation, PCI approval, and 41 years of pharmaceutical education since 1985. Located on NH-544 at Komarapalayam, it offers B.Pharm, M.Pharm (five specialisations), Pharm.D, and Ph.D. Namakkal district has 9 pharmacy colleges, with JKKN having the highest placement rate at 95%.
-              </p>
-            </details>
-
-            {/* FAQ 20 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>How many pharmacy colleges are there in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Tamil Nadu has 146 pharmacy colleges including 13 government colleges, 75 private colleges, and institutions under deemed universities. These offer approximately 8,000+ B.Pharm seats and 2,000+ D.Pharm seats annually. Namakkal district alone has 9 pharmacy colleges. All programmes are approved by the Pharmacy Council of India (PCI).
-              </p>
-            </details>
-
-            {/* FAQ 21 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>When does B.Pharm admission start in Tamil Nadu 2026?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm admission in Tamil Nadu 2026 typically begins in May-June with TNEA counselling. Application dates are announced by The Tamil Nadu Dr. M.G.R. Medical University. JKKN College of Pharmacy opens applications in May 2026. Contact <a href="tel:9345855001" className="text-[#006837] font-semibold hover:underline">+91 9345855001</a> or visit <a href="https://admission.jkkn.ac.in" target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">admission.jkkn.ac.in</a> for 2026-27 admission details.
               </p>
             </details>
           </div>

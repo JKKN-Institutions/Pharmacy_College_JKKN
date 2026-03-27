@@ -19,8 +19,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://pharmacy.jkkn.ac.in'),
-  title: 'Best Pharmacy College in Tamil Nadu | JKKN — NAAC A, 95% Placement',
-  description: 'JKKN College of Pharmacy — PCI approved, NAAC A Grade. B.Pharm, M.Pharm, Pharm.D since 1985. 95% placement rate. Admissions open 2026-27. Apply now.',
+  title: 'Best Pharmacy Colleges in Tamil Nadu | JKKN Pharmacy College',
+  description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
   keywords: [
     'best pharmacy colleges in tamilnadu',
     'top pharmacy colleges in tamilnadu',
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/',
   },
   other: {
-    'last-modified': '2026-03-27',
-    'article:modified_time': '2026-03-27',
+    'last-modified': '2026-03-24',
+    'article:modified_time': '2026-03-24',
   },
   icons: {
     icon: '/images/logo.png',
