@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy — 67 km',
-  description: 'Top pharmacy colleges in Tiruppur — JKKN College of Pharmacy, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply 2026-27.',
+  title: 'Best Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+  description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 85%+ placements. Apply 2026-27.',
   keywords: [
     'pharmacy colleges in tiruppur',
     'best colleges for pharmacy',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Tiruppur district, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 85%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/tiruppur/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Tiruppur district, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

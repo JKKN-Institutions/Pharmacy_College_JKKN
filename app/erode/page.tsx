@@ -39,42 +39,42 @@ export default function ErodePage() {
     {
       question: 'Which is the best pharmacy college in Erode?',
       answer:
-        'JKKN College of Pharmacy, located just 22 km from Erode on NH-544, is widely regarded as one of the top pharmacy colleges in Erode region. Approved by PCI and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support.',
+        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college located 22 km from Erode on NH-544. It offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support, a 500-bed teaching hospital for clinical training, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What are the best colleges for pharmacy near Erode?',
       answer:
-        'Among the best colleges for pharmacy accessible from Erode, JKKN College of Pharmacy stands out with PCI approval, NAAC accreditation, and strong industry placements. Located just 22 km from Erode via NH-544, it offers 4 pharmacy programmes with modern labs, research facilities, and dedicated placement support.',
+        'JKKN College of Pharmacy near Erode offers four PCI-approved programmes with NAAC accreditation and campus placement support. Located 22 km from Erode via NH-544, it provides modern pharmaceutical labs, research facilities, a teaching hospital, and strong industry connections across Tamil Nadu.',
     },
     {
       question: 'How far is JKKN Pharmacy from Erode?',
       answer:
-        'JKKN Pharmacy is approximately 22 km from Erode city centre, which takes about 35-40 minutes by road via NH-544 — direct highway connectivity. Regular bus services are available from Erode Central Bus Stand to Komarapalayam throughout the day.',
+        'JKKN College of Pharmacy is 22 km from Erode, approximately 35 to 40 minutes by road via NH-544. Regular government and private buses operate from Erode Central Bus Stand to Komarapalayam throughout the day. College transport services are also available.',
     },
     {
       question: 'What pharmacy courses are available at pharmacy colleges in Erode?',
       answer:
-        'JKKN College of Pharmacy near Erode offers 4 programmes: D.Pharm (Diploma in Pharmacy, 2 years), B.Pharm (Bachelor of Pharmacy, 4 years), M.Pharm (Master of Pharmacy, 2 years), and Pharm.D (Doctor of Pharmacy, 6 years). All programmes are PCI approved.',
+        'JKKN College of Pharmacy near Erode offers four PCI-approved programmes for 2026 admission. These are D.Pharm (Diploma in Pharmacy, 2 years), B.Pharm (Bachelor of Pharmacy, 4 years), M.Pharm (Master of Pharmacy, 2 years), and Pharm.D (Doctor of Pharmacy, 6 years).',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
       answer:
-        'Yes, JKKN College of Pharmacy is fully approved by the Pharmacy Council of India (PCI). This means all degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
+        'JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) for all programmes. All degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
     },
     {
       question: 'What are the career options after B.Pharm from a pharmacy college in Erode?',
       answer:
-        'B.Pharm graduates from JKKN College of Pharmacy have diverse career options including pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through competitive exams like GPAT.',
+        'B.Pharm graduates from JKKN College of Pharmacy pursue careers across seven major sectors. These include pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through GPAT.',
     },
     {
       question: 'Does JKKN Pharmacy provide hostel for Erode students?',
       answer:
-        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Erode can also opt for daily commute as the campus is just 35-40 minutes away via NH-544. College transport services are also available.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female students on campus. Students from Erode can also commute daily as the campus is 35 to 40 minutes away via NH-544. College transport services connect to Erode and surrounding areas.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Erode?',
       answer:
-        'Students from Erode can apply online through the official website at https://pharmacy.jkkn.ac.in/ or visit the campus directly at Komarapalayam (22 km from Erode). Admissions for 2026-27 are currently open. Contact the admission office at +91-9345855001 for guidance.',
+        'Students from Erode can apply online at admission.jkkn.ac.in or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all four pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
     },
   ];
 
@@ -95,7 +95,7 @@ export default function ErodePage() {
             "alternateName": "JKKN Pharmacy",
             "url": "https://pharmacy.jkkn.ac.in/",
             "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "description": "JKKN College of Pharmacy is a top pharmacy college in Erode region, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located just 22 km from Erode on NH-544.",
+            "description": "JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. Located 22 km from Erode on NH-544.",
             "foundingDate": "1952",
             "address": {
               "@type": "PostalAddress",
@@ -130,7 +130,7 @@ export default function ErodePage() {
             "sameAs": [
               "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
             ],
-            "dateModified": "2026-03-23"
+            "dateModified": "2026-03-27"
           })
         }}
       />
@@ -178,8 +178,8 @@ export default function ErodePage() {
           </h1>
 
           {/* Description */}
-          <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            Looking for the best colleges for pharmacy near Erode? JKKN College of Pharmacy is among the top pharmacy colleges in Erode region — just 22 km via NH-544 with 85%+ placement support. PCI approved, NAAC accredited, and offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes.
+          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 22 km from Erode on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 85%+ campus placement support.
           </p>
 
           {/* Stats Grid */}
@@ -307,7 +307,7 @@ export default function ErodePage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: 'Just 20-25 km from Erode. Daily commute or comfortable hostel — your choice.',
+                desc: 'Just 22 km from Erode via NH-544. Daily commute or comfortable hostel — your choice.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -409,6 +409,10 @@ export default function ErodePage() {
               </div>
             ))}
           </div>
+
+          <p className="text-[11px] sm:text-xs text-gray-500 mt-5 sm:mt-7 max-w-2xl mx-auto leading-relaxed">
+            B.Pharm and M.Pharm programmes are affiliated to <strong className="text-gray-700">Periyar University</strong>. Pharm.D (Doctor of Pharmacy) is affiliated to <strong className="text-gray-700">Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
+          </p>
         </div>
       </section>
 
@@ -486,7 +490,7 @@ export default function ErodePage() {
                   Erode → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  20-25 km • 35-40 minutes
+                  22 km • 35-40 minutes
                 </p>
               </div>
             </div>
@@ -728,12 +732,151 @@ export default function ErodePage() {
         ]}
       />
 
+      {/* ── Course Schemas ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "B.Pharm (Bachelor of Pharmacy)",
+              "description": "4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Undergraduate",
+              "timeRequired": "P4Y",
+              "numberOfCredits": "100 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2030-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "D.Pharm (Diploma in Pharmacy)",
+              "description": "2-year Diploma in Pharmacy programme at JKKN College of Pharmacy, approved by PCI.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Diploma",
+              "timeRequired": "P2Y",
+              "numberOfCredits": "60 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2028-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Pharm (Master of Pharmacy)",
+              "description": "2-year Master of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Postgraduate",
+              "timeRequired": "P2Y",
+              "numberOfCredits": "30 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2028-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "Pharm.D (Doctor of Pharmacy)",
+              "description": "6-year Doctor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Tamil Nadu Dr. M.G.R. Medical University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Professional Doctorate",
+              "timeRequired": "P6Y",
+              "numberOfCredits": "30 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2032-05"
+              },
+              "dateModified": "2026-03-27"
+            }
+          ])
+        }}
+      />
+
+      {/* ── LocalBusiness Schema ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "JKKN College of Pharmacy",
+            "image": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
+            "url": "https://pharmacy.jkkn.ac.in/",
+            "telephone": "+919345855001",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 11.4387,
+              "longitude": 77.7062
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Erode" },
+              { "@type": "City", "name": "Komarapalayam" },
+              { "@type": "City", "name": "Tiruchengode" },
+              { "@type": "City", "name": "Namakkal" },
+              { "@type": "State", "name": "Tamil Nadu" }
+            ],
+            "dateModified": "2026-03-27"
+          })
+        }}
+      />
+
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College in Erode — JKKN College of Pharmacy"
-        description="Top pharmacy college in Erode — JKKN College of Pharmacy, 22 km via NH-544. PCI approved, NAAC accredited, 85%+ placements."
+        description="JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 85%+ placements. Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/erode/"
-        dateModified="2026-03-23"
+        dateModified="2026-03-27"
       />
     </div>
   );

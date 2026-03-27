@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy — 66 km',
-  description: 'Top pharmacy college in Namakkal — JKKN College of Pharmacy, 66 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply 2026-27.',
+  title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
+  description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 85%+ placements. Apply 2026-27.',
   keywords: [
     'pharmacy college in namakkal',
     'best colleges for pharmacy',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Namakkal, 66 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply for 2026-27.',
+    description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 85%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/namakkal/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Namakkal, 66 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
+    description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy — 58 km',
-  description: 'Top pharmacy colleges in Salem — JKKN College of Pharmacy, 58 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply 2026-27.',
+  title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
+  description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements. Apply 2026-27.',
   keywords: [
     'pharmacy colleges in salem',
     'best colleges for pharmacy',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Salem district, 58 km via NH-544. PCI approved, NAAC accredited, 85%+ placements. Apply for 2026-27.',
+    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/salem/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Salem',
+        alt: 'JKKN College of Pharmacy - Pharmacy College near Salem',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy — top pharmacy college in Salem district, 58 km via NH-544. PCI approved, NAAC accredited, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

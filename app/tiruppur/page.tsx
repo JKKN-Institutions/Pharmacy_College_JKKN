@@ -39,42 +39,42 @@ export default function TiruppurPage() {
     {
       question: 'Which are the best pharmacy colleges in Tiruppur?',
       answer:
-        'Among the top pharmacy colleges in Tiruppur district, JKKN College of Pharmacy stands out — located just 67 km from Tiruppur on NH-544 via Erode. PCI approved and NAAC accredited, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support.',
+        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college located 67 km from Tiruppur via NH-544. It offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support, a 500-bed teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What are the best colleges for pharmacy near Tiruppur district?',
       answer:
-        'JKKN College of Pharmacy is among the best colleges for pharmacy accessible from Tiruppur district. Located in Komarapalayam (67 km from Tiruppur via NH-544), it offers PCI-approved programmes, NAAC accreditation, modern labs, and strong industry placements with top pharmaceutical companies.',
+        'JKKN College of Pharmacy in Komarapalayam is accessible from Tiruppur district via NH-544 through Erode. It offers four PCI-approved programmes with NAAC accreditation, modern pharmaceutical labs, research facilities, and campus placement support with leading pharma companies.',
     },
     {
       question: 'How far is JKKN Pharmacy from Tiruppur?',
       answer:
-        'JKKN Pharmacy is approximately 67 km from Tiruppur, which takes about 1.5 hours by road via NH-544 through Erode, then State Highway towards Tiruppur. Regular bus services are available from Tiruppur.',
+        'JKKN College of Pharmacy is 67 km from Tiruppur, approximately 1.5 hours by road via NH-544 through Erode. Inter-city buses from Tiruppur to Komarapalayam and Erode are available regularly. College hostel facilities are available for students who prefer to stay on campus.',
     },
     {
       question: 'What is the difference between D.Pharm and B.Pharm?',
       answer:
-        'D.Pharm (Diploma in Pharmacy) is a 2-year diploma that qualifies you as a registered pharmacist. B.Pharm (Bachelor of Pharmacy) is a 4-year degree opening doors to R&D, quality control, and higher studies like M.Pharm. JKKN College of Pharmacy offers both programmes.',
+        'D.Pharm is a two-year diploma that qualifies graduates as registered pharmacists in India. B.Pharm is a four-year degree that opens doors to research and development, quality control, higher studies like M.Pharm, and GPAT eligibility. JKKN College of Pharmacy offers both programmes with PCI approval.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
       answer:
-        'Yes, JKKN College of Pharmacy is fully approved by the Pharmacy Council of India (PCI). This means all degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
+        'JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) for all programmes. All degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
     },
     {
       question: 'What are the career options after B.Pharm?',
       answer:
-        'B.Pharm graduates from JKKN College of Pharmacy have diverse career options including pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through competitive exams.',
+        'B.Pharm graduates from JKKN College of Pharmacy pursue careers across seven major sectors. These include pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through GPAT.',
     },
     {
       question: 'Does JKKN Pharmacy provide hostel for Tiruppur students?',
       answer:
-        'Yes, JKKN Pharmacy provides separate hostel facilities for boys and girls. Students from Tiruppur can also opt for daily commute as the campus is just about 1.5 hours away. College transport services are available.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female students on campus. Students from Tiruppur typically opt for hostel accommodation as the campus is approximately 1.5 hours away. All hostels include mess facilities and WiFi connectivity.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
       answer:
-        'You can apply online through the official website at https://pharmacy.jkkn.ac.in/ or visit the campus directly. Admissions for 2026-27 are currently open. Contact the admission office for guidance.',
+        'Students from Tiruppur can apply online at admission.jkkn.ac.in or visit the campus at Komarapalayam directly. Admissions for 2026-27 are currently open for all four pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
     },
   ];
 
@@ -95,7 +95,7 @@ export default function TiruppurPage() {
             "alternateName": "JKKN Pharmacy",
             "url": "https://pharmacy.jkkn.ac.in/",
             "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "description": "JKKN College of Pharmacy is a top pharmacy college accessible from Tiruppur, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 67 km from Tiruppur on NH-544.",
+            "description": "JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. Located 67 km from Tiruppur via NH-544.",
             "foundingDate": "1952",
             "address": {
               "@type": "PostalAddress",
@@ -130,7 +130,7 @@ export default function TiruppurPage() {
             "sameAs": [
               "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
             ],
-            "dateModified": "2026-03-23"
+            "dateModified": "2026-03-27"
           })
         }}
       />
@@ -178,8 +178,8 @@ export default function TiruppurPage() {
           </h1>
 
           {/* Description */}
-          <p className="text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            Looking for the best colleges for pharmacy in Tiruppur district? JKKN College of Pharmacy is among the top pharmacy colleges in Tiruppur region — just 67 km via NH-544 with 85%+ placement support. PCI approved, NAAC accredited.
+          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 67 km from Tiruppur via NH-544 through Erode. The college offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 85%+ campus placement support.
           </p>
 
           {/* Stats Grid */}
@@ -412,6 +412,10 @@ export default function TiruppurPage() {
               </div>
             ))}
           </div>
+
+          <p className="text-[11px] sm:text-xs text-gray-500 mt-5 sm:mt-7 max-w-2xl mx-auto leading-relaxed">
+            B.Pharm and M.Pharm programmes are affiliated to <strong className="text-gray-700">Periyar University</strong>. Pharm.D (Doctor of Pharmacy) is affiliated to <strong className="text-gray-700">Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
+          </p>
         </div>
       </section>
 
@@ -731,12 +735,151 @@ export default function TiruppurPage() {
         ]}
       />
 
+      {/* ── Course Schemas ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "B.Pharm (Bachelor of Pharmacy)",
+              "description": "4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Undergraduate",
+              "timeRequired": "P4Y",
+              "numberOfCredits": "100 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2030-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "D.Pharm (Diploma in Pharmacy)",
+              "description": "2-year Diploma in Pharmacy programme at JKKN College of Pharmacy, approved by PCI.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Diploma",
+              "timeRequired": "P2Y",
+              "numberOfCredits": "60 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2028-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "M.Pharm (Master of Pharmacy)",
+              "description": "2-year Master of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Postgraduate",
+              "timeRequired": "P2Y",
+              "numberOfCredits": "30 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2028-05"
+              },
+              "dateModified": "2026-03-27"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Course",
+              "name": "Pharm.D (Doctor of Pharmacy)",
+              "description": "6-year Doctor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Tamil Nadu Dr. M.G.R. Medical University.",
+              "provider": {
+                "@type": "EducationalOrganization",
+                "name": "JKKN College of Pharmacy",
+                "url": "https://pharmacy.jkkn.ac.in/"
+              },
+              "educationalLevel": "Professional Doctorate",
+              "timeRequired": "P6Y",
+              "numberOfCredits": "30 seats",
+              "hasCourseInstance": {
+                "@type": "CourseInstance",
+                "courseMode": "Full-time",
+                "courseWorkload": "PT40H",
+                "startDate": "2026-08",
+                "endDate": "2032-05"
+              },
+              "dateModified": "2026-03-27"
+            }
+          ])
+        }}
+      />
+
+      {/* ── LocalBusiness Schema ── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "JKKN College of Pharmacy",
+            "image": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
+            "url": "https://pharmacy.jkkn.ac.in/",
+            "telephone": "+919345855001",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
+              "addressLocality": "Komarapalayam",
+              "addressRegion": "Tamil Nadu",
+              "postalCode": "638183",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 11.4387,
+              "longitude": 77.7062
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "08:00",
+              "closes": "17:00"
+            },
+            "areaServed": [
+              { "@type": "City", "name": "Tiruppur" },
+              { "@type": "City", "name": "Erode" },
+              { "@type": "City", "name": "Coimbatore" },
+              { "@type": "City", "name": "Namakkal" },
+              { "@type": "State", "name": "Tamil Nadu" }
+            ],
+            "dateModified": "2026-03-27"
+          })
+        }}
+      />
+
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
-        name="Pharmacy Colleges in Tiruppur — JKKN College of Pharmacy"
-        description="Top pharmacy colleges in Tiruppur — JKKN College of Pharmacy, 67 km via NH-544. PCI approved, NAAC accredited, 85%+ placements."
+        name="Best Pharmacy Colleges in Tiruppur — JKKN College of Pharmacy"
+        description="JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 85%+ placements. Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/tiruppur/"
-        dateModified="2026-03-23"
+        dateModified="2026-03-27"
       />
     </div>
   );
