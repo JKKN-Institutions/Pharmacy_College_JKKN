@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Best Pharmacy Colleges in Coimbatore | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 85%+ placements. Apply 2026-27.',
+  description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 95%+ placements. Apply 2026-27.',
   keywords: [
     'best pharmacy colleges in coimbatore',
     'coimbatore pharmacy colleges',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best Pharmacy Colleges in Coimbatore | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 85%+ placements. Apply 2026-27.',
+    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 95%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/coimbatore/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best Pharmacy Colleges in Coimbatore | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 95%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -1,7 +1,7 @@
 ﻿'use client';
 
 import React, { useState } from 'react';
-import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
+import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
 import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
@@ -39,12 +39,12 @@ export default function NamakkalPage() {
     {
       question: 'Which is the best pharmacy college in Namakkal?',
       answer:
-        'JKKN College of Pharmacy is the top PCI-approved pharmacy college in Namakkal district, located in Komarapalayam on NH-544. It offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 85%+ placement support.',
+        'JKKN College of Pharmacy is the top PCI-approved pharmacy college in Namakkal district, located in Komarapalayam on NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 95%+ placement support.',
     },
     {
       question: 'What are the best colleges for pharmacy in Namakkal?',
       answer:
-        'JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with PCI approval and NAAC accreditation. The college provides four pharmacy programmes, modern pharmaceutical labs, research facilities, and campus placement support with recruiters like Sun Pharma, Cipla, and Apollo Pharmacy.',
+        'JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with PCI approval and NAAC accreditation. The college provides three pharmacy programmes, modern pharmaceutical labs, research facilities, and campus placement support with recruiters like Sun Pharma, Cipla, and Apollo Pharmacy.',
     },
     {
       question: 'How far is JKKN Pharmacy from Namakkal?',
@@ -54,7 +54,7 @@ export default function NamakkalPage() {
     {
       question: 'What pharmacy courses are available at pharmacy colleges in Namakkal?',
       answer:
-        'JKKN College of Pharmacy offers four PCI-approved programmes: D.Pharm (2 years, 60 seats), B.Pharm (4 years, 100 seats), M.Pharm (2 years, 30 seats), and Pharm.D (6 years, 30 seats). All programmes include clinical training at the campus hospital.',
+        'JKKN College of Pharmacy offers three PCI-approved programmes: B.Pharm (4 years, 100 seats), M.Pharm (2 years, 30 seats), and Pharm.D (6 years, 30 seats). All programmes include clinical training at the campus hospital.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
@@ -74,7 +74,7 @@ export default function NamakkalPage() {
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Namakkal?',
       answer:
-        'Apply online at admission.jkkn.ac.in or call +91-9345855001 for guidance. JKKN College of Pharmacy admissions for 2026-27 are currently open for B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes.',
+        'Apply online at admission.jkkn.ac.in or call +91-9345855001 for guidance. JKKN College of Pharmacy admissions for 2026-27 are currently open for B.Pharm, M.Pharm, and Pharm.D programmes.',
     },
   ];
 
@@ -95,7 +95,7 @@ export default function NamakkalPage() {
             "alternateName": "JKKN Pharmacy",
             "url": "https://pharmacy.jkkn.ac.in/",
             "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "description": "JKKN College of Pharmacy is the top pharmacy college in Namakkal, offering B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 66 km from Namakkal city.",
+            "description": "JKKN College of Pharmacy is the top pharmacy college in Namakkal, offering B.Pharm, M.Pharm, and Pharm.D programmes. PCI approved and NAAC accredited, located 66 km from Namakkal city.",
             "foundingDate": "1952",
             "address": {
               "@type": "PostalAddress",
@@ -179,16 +179,16 @@ export default function NamakkalPage() {
 
           {/* Snippet-optimized paragraph — AEO target */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located on NH-544 (Salem–Coimbatore Highway), 66 km from Namakkal city. The college offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital, and 85%+ campus placement support.
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located on NH-544 (Salem–Coimbatore Highway), 66 km from Namakkal city. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital, and 95%+ campus placement support.
           </p>
 
           {/* Stats Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
-              { value: '85%+', label: 'PLACEMENTS' },
+              { value: '95%+', label: 'PLACEMENTS' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '66km', label: 'FROM NAMAKKAL' },
-              { value: '4', label: 'PROGRAMMES' },
+              { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
                 <div className="text-lg sm:text-xl md:text-2xl font-bold">{stat.value}</div>
@@ -331,17 +331,8 @@ export default function NamakkalPage() {
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
-              {
-                icon: <ClipboardList className="w-6 h-6 text-gray-600" />,
-                title: 'D.Pharm (Diploma in Pharmacy)',
-                duration: '2 years',
-                level: 'Diploma',
-                intake: '60 seats',
-                eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
-                href: '/programmes',
-              },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
                 title: 'B.Pharm (Bachelor of Pharmacy)',
@@ -430,7 +421,7 @@ export default function NamakkalPage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { value: '85%+', label: 'PLACEMENT RATE' },
+              { value: '95%+', label: 'PLACEMENT RATE' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '3-4', label: 'LPA AVERAGE' },
               { value: '6+', label: 'TOP RECRUITERS' },
@@ -726,7 +717,6 @@ export default function NamakkalPage() {
         name="Pharmacy Programmes at JKKN College of Pharmacy in Namakkal"
         description="List of pharmacy courses offered at JKKN College of Pharmacy, Namakkal district"
         items={[
-          { name: 'D.Pharm (Diploma in Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/dpharm/' },
           { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
           { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
           { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
@@ -736,7 +726,7 @@ export default function NamakkalPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College in Namakkal — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 85%+ placements."
+        description="JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 95%+ placements."
         url="https://pharmacy.jkkn.ac.in/namakkal/"
         dateModified="2026-03-27"
       />
@@ -763,31 +753,6 @@ export default function NamakkalPage() {
               "@type": "CourseInstance",
               "courseMode": "Full-time",
               "courseWorkload": "P4Y"
-            }
-          })
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Course",
-            "name": "Diploma in Pharmacy (D.Pharm)",
-            "description": "2-year diploma pharmacy programme at JKKN College of Pharmacy, Komarapalayam, Namakkal district, Tamil Nadu. Approved by Pharmacy Council of India.",
-            "provider": {
-              "@type": "EducationalOrganization",
-              "name": "JKKN College of Pharmacy",
-              "url": "https://pharmacy.jkkn.ac.in/"
-            },
-            "courseCode": "D.Pharm",
-            "educationalLevel": "Diploma",
-            "timeRequired": "P2Y",
-            "numberOfCredits": "60 seats",
-            "hasCourseInstance": {
-              "@type": "CourseInstance",
-              "courseMode": "Full-time",
-              "courseWorkload": "P2Y"
             }
           })
         }}

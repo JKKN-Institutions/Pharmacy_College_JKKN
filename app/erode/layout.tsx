@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy College in Erode | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 85%+ placements. Apply 2026-27.',
+  description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 95%+ placements. Apply 2026-27.',
   keywords: [
     'pharmacy college in erode',
     'best colleges for pharmacy',
@@ -11,7 +11,6 @@ export const metadata: Metadata = {
     'pharmacy college erode',
     'top pharmacy colleges in erode',
     'b pharm college in erode',
-    'd pharm college erode',
     'pharm d college erode',
     'jkkn pharmacy erode',
     'pci approved pharmacy college erode',
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College in Erode | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 85%+ placements. Apply 2026-27.',
+    description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 95%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/erode/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College in Erode | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 95%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

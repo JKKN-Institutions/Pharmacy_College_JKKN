@@ -3,14 +3,13 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements. Apply 2026-27.',
+  description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 95%+ placements. Apply 2026-27.',
   keywords: [
     'pharmacy colleges in salem',
     'best colleges for pharmacy',
     'pharmacy college in salem',
     'pharmacy college in salem district',
     'b pharm college in salem',
-    'd pharm college salem',
     'pharm d college salem',
     'jkkn pharmacy salem',
     'pci approved pharmacy college salem',
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements. Apply 2026-27.',
+    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 95%+ placements. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/salem/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy Colleges in Salem | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, D.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 85%+ placements.',
+    description: 'JKKN College of Pharmacy near Salem — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 58 km via NH-544, 95%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

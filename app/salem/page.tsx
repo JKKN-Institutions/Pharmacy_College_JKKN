@@ -1,7 +1,7 @@
 ﻿'use client';
 
 import React, { useState } from 'react';
-import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, ClipboardList, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
+import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
 import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
 
 const PHONE = '+919345855001';
@@ -39,7 +39,7 @@ export default function SalemPage() {
     {
       question: 'Which are the best pharmacy colleges in Salem?',
       answer:
-        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with 85%+ placement support and a 500-bed multi-specialty teaching hospital for clinical training.',
+        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 95%+ placement support and a 500-bed multi-specialty teaching hospital for clinical training.',
     },
     {
       question: 'What are the best colleges for pharmacy near Salem district?',
@@ -52,9 +52,9 @@ export default function SalemPage() {
         'JKKN College of Pharmacy is 58 km from Salem city centre, approximately one hour by road via NH-544. Regular TN State Transport buses operate from Salem New Bus Stand to Komarapalayam every 15 to 20 minutes throughout the day. College transport services also connect Salem to the campus.',
     },
     {
-      question: 'What is the difference between D.Pharm and B.Pharm?',
+      question: 'What is the difference between B.Pharm and Pharm.D?',
       answer:
-        'D.Pharm is a two-year diploma qualifying graduates as registered pharmacists, while B.Pharm is a four-year degree. B.Pharm opens pathways to research and development, quality control, clinical research, and higher studies such as M.Pharm. JKKN College of Pharmacy offers both D.Pharm and B.Pharm programmes with PCI approval.',
+        'B.Pharm is a four-year Bachelor of Pharmacy degree focusing on pharmaceutical sciences, manufacturing, and research. Pharm.D (Doctor of Pharmacy) is a six-year clinical programme emphasising patient care, hospital pharmacy, and clinical therapeutics. B.Pharm opens pathways to industry, quality control, and higher studies such as M.Pharm, while Pharm.D prepares graduates for clinical pharmacy practice in hospitals. JKKN College of Pharmacy offers both programmes with PCI approval.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
@@ -95,7 +95,7 @@ export default function SalemPage() {
             "alternateName": "JKKN Pharmacy",
             "url": "https://pharmacy.jkkn.ac.in/",
             "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "description": "JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, located 58 km from Salem on NH-544. The college offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a 500-bed multi-specialty teaching hospital.",
+            "description": "JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, located 58 km from Salem on NH-544. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a 500-bed multi-specialty teaching hospital.",
             "foundingDate": "1952",
             "address": {
               "@type": "PostalAddress",
@@ -179,16 +179,16 @@ export default function SalemPage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 58 km from Salem on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 85%+ campus placement support.
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 58 km from Salem on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 95%+ campus placement support.
           </p>
 
           {/* Stats Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
-              { value: '85%+', label: 'PLACEMENTS' },
+              { value: '95%+', label: 'PLACEMENTS' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '58km', label: 'FROM SALEM' },
-              { value: '4', label: 'PROGRAMMES' },
+              { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
                 <div className="text-lg sm:text-xl md:text-2xl font-bold">{stat.value}</div>
@@ -334,17 +334,8 @@ export default function SalemPage() {
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
-              {
-                icon: <ClipboardList className="w-6 h-6 text-gray-600" />,
-                title: 'D.Pharm (Diploma in Pharmacy)',
-                duration: '2 years',
-                level: 'Diploma',
-                intake: '60 seats',
-                eligibility: '10+2 with Physics, Chemistry, and Mathematics/Biology',
-                href: '/programmes',
-              },
               {
                 icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
                 title: 'B.Pharm (Bachelor of Pharmacy)',
@@ -431,7 +422,7 @@ export default function SalemPage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { value: '85%+', label: 'PLACEMENT RATE' },
+              { value: '95%+', label: 'PLACEMENT RATE' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '3-4', label: 'LPA AVERAGE' },
               { value: '6+', label: 'TOP RECRUITERS' },
@@ -727,7 +718,6 @@ export default function SalemPage() {
         name="Pharmacy Programmes at JKKN College of Pharmacy near Salem"
         description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Salem"
         items={[
-          { name: 'D.Pharm (Diploma in Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/dpharm/' },
           { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
           { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
           { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
@@ -749,17 +739,6 @@ export default function SalemPage() {
               "timeRequired": "P4Y",
               "numberOfCredits": "100 seats",
               "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Full-time", "courseWorkload": "P4Y" }
-            },
-            {
-              "@context": "https://schema.org",
-              "@type": "Course",
-              "name": "D.Pharm (Diploma in Pharmacy)",
-              "description": "Two-year diploma programme in pharmacy approved by the Pharmacy Council of India, offered at JKKN College of Pharmacy, Komarapalayam.",
-              "provider": { "@type": "EducationalOrganization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
-              "educationalLevel": "Diploma",
-              "timeRequired": "P2Y",
-              "numberOfCredits": "60 seats",
-              "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Full-time", "courseWorkload": "P2Y" }
             },
             {
               "@context": "https://schema.org",
@@ -831,7 +810,7 @@ export default function SalemPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy Colleges in Salem — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, D.Pharm, M.Pharm, and Pharm.D with 85%+ placements."
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 95%+ placements."
         url="https://pharmacy.jkkn.ac.in/salem/"
         dateModified="2026-03-27"
       />
