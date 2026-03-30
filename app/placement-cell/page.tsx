@@ -115,7 +115,7 @@ export default function PlacementCellPage() {
                 Download PDF Brochure
               </a>
               <Link
-                href="/admission-process"
+                href="/admissions"
                 className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#006837] transition-colors"
               >
                 Apply Now — 2026-27

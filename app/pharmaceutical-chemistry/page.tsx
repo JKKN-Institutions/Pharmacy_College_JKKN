@@ -1982,7 +1982,7 @@ export default function PharmaceuticalChemistryPage() {
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-6 text-white">Ready to Design Tomorrow's Medicines?</h2>
           <p className="text-white text-xs sm:text-sm mb-8">Enrol in the M.Pharm Pharmaceutical Chemistry programme at JKKN College of Pharmacy and become a medicinal chemistry expert!</p>
 
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-all shadow-lg transform hover:scale-105 inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>

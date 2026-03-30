@@ -1717,7 +1717,7 @@ export default function PharmaceuticalAnalysisPage() {
           <p className="text-xs sm:text-sm mb-8 text-gray-100">
             Enrol in the M.Pharm programme at JKKN College of Pharmacy and become an expert in analytical techniques and quality assurance!
           </p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-xs sm:text-sm hover:bg-[#FBFBEE] transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] px-8 py-4 rounded-full font-bold text-xs sm:text-sm hover:bg-[#FBFBEE] transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>

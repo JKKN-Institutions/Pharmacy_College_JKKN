@@ -97,7 +97,7 @@ export const topMenuItems: NavItem[] = [
     label: "ACADEMIC",
     href: "/academic",
     submenu: [
-      { label: "Admission Process", href: "/admission-process" },
+      { label: "Admission", href: "/admissions" },
       { label: "Academic Calendar", href: "/pdf/2025-2026  Academic Calender.pdf" },
       {
         label: "Time Table",

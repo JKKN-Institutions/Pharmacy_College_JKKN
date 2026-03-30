@@ -41,7 +41,7 @@ const pageNameMap: Record<string, string> = {
 
   // Academic
   'academic': 'Academic',
-  'admission-process': 'Admission Process',
+  'admissions': 'Admission Process',
   'bpharm-time-table': 'B.Pharm Time Table',
   'pharmd-time-table': 'Pharm.D Time Table',
   'mpharm-time-table': 'M.Pharm Time Table',
@@ -168,7 +168,7 @@ const hierarchyMap: Record<string, string[]> = {
   'pharmaceutics': ['programmes', 'm-pharmacy'],
 
   // Academic pages
-  'admission-process': ['academic'],
+  'admissions': ['academic'],
   'bpharm-time-table': ['academic'],
   'pharmd-time-table': ['academic'],
   'mpharm-time-table': ['academic'],

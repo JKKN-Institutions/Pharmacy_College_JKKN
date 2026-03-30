@@ -25,7 +25,7 @@ module.exports = {
     } else if (['/b-pharmacy', '/m-pharmacy', '/pharm-d'].some(p => path.startsWith(p))) {
       priority = 0.9
       changefreq = 'weekly'
-    } else if (['/admission-process', '/placement-cell', '/campus-recruitment', '/faculty-profile', '/naac', '/overview', '/nirf'].some(p => path === p || path === p + '/')) {
+    } else if (['/admissions', '/placement-cell', '/campus-recruitment', '/faculty-profile', '/naac', '/overview', '/nirf'].some(p => path === p || path === p + '/')) {
       priority = 0.85
       changefreq = 'weekly'
     } else if (['/coimbatore', '/erode', '/salem', '/namakkal', '/tiruppur'].some(p => path.startsWith(p))) {

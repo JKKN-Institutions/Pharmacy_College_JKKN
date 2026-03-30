@@ -3004,7 +3004,7 @@ export default function PharmDPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4">Ready to Pursue Clinical Pharmacy Excellence?</h2>
           <p className="text-lg text-white mb-4">Join the Pharm.D programme at JKKN College of Pharmacy and become a clinical pharmacy professional.</p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-base px-12 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2 transition-colors shadow-lg inline-block">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-12 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>
           </a>
@@ -3077,7 +3077,7 @@ export default function PharmDPage() {
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mb-4">Ready to Start Your Clinical Pharmacy Career with Pharm.D?</h2>
           <p className="text-xs sm:text-sm mb-4">Choose your pathway - Pharm.D or Pharm.D (PB) - and become a Doctor of Pharmacy!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg inline-block">
+            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg inline-block">
               <span className="sm:hidden">Apply Now</span>
               <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>
             </a>
