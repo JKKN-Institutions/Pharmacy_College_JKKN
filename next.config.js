@@ -138,6 +138,8 @@ const nextConfig = {
       { source: '/nirf-2025/', destination: '/nirf/nirf-2025/', permanent: true },
       // P3-3: Add /about/ redirect to /overview/
       { source: '/about/', destination: '/overview/', permanent: true },
+      // Deleted blog post — redirect to homepage
+      { source: '/blog/b-pharm-vs-pharm-d/', destination: '/', permanent: true },
     ]
   },
 }
