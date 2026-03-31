@@ -91,14 +91,14 @@ export default function AdmissionProcessPage() {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-8 sm:py-10 md:py-12 px-4">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-white/20 px-4 sm:px-6 py-2 rounded-full text-white font-bold text-xs sm:text-sm mb-4 sm:mb-6">
+          <div className="inline-flex items-center gap-2 bg-white/20 px-4 sm:px-6 py-2 rounded-full text-white font-bold text-[10px] sm:text-xs mb-4 sm:mb-6">
             <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />
             ADMISSIONS OPEN 2026
           </div>
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
             Admission Process 2026
           </h1>
-          <p className="text-sm sm:text-base md:text-lg text-gray-100 max-w-3xl mx-auto">
+          <p className="text-xs sm:text-sm md:text-base text-gray-100 max-w-3xl mx-auto">
             Complete guide to admission procedures for B.Pharm, M.Pharm, Pharm.D, and PhD programmes at JKKN College of Pharmacy
           </p>
         </div>
@@ -110,10 +110,10 @@ export default function AdmissionProcessPage() {
 
           {/* Admission 2026 Overview */}
           <div className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 md:mb-10 border-l-4 border-[#7cb983]">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
               Admission 2026 Overview
             </h2>
-            <div className="text-sm sm:text-base text-gray-700 leading-relaxed space-y-4">
+            <div className="text-[10px] sm:text-xs text-gray-700 leading-relaxed space-y-4">
               <p>
                 JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. The admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
@@ -125,12 +125,12 @@ export default function AdmissionProcessPage() {
 
           {/* Programmes Offered */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Programmes Offered 2026
             </h2>
             <div className="overflow-x-auto w-full px-4 sm:px-0 -mx-4 sm:mx-0">
-              <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-xs sm:text-sm">
+              <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-[10px] sm:text-xs">
                 <thead>
                   <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Programme</th>
@@ -203,22 +203,22 @@ export default function AdmissionProcessPage() {
                 </tbody>
               </table>
             </div>
-            <p className="text-xs sm:text-sm text-gray-600 mt-4">
+            <p className="text-[10px] sm:text-xs text-gray-600 mt-4">
               * Fees are subject to change. Hostel fees, exam fees, and other charges are additional. For detailed fee structure, please refer to the prospectus or contact the admission office.
             </p>
           </div>
 
           {/* Eligibility Criteria */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <ClipboardCheck className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Eligibility Criteria
             </h2>
 
             {/* B.Pharm Eligibility */}
             <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg mb-6 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4">For B.Pharm</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For B.Pharm</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
                   <span>Passed 10+2 or equivalent examination with Physics, Chemistry, and Mathematics/Biology</span>
@@ -236,8 +236,8 @@ export default function AdmissionProcessPage() {
 
             {/* B.Pharm Lateral Entry Eligibility */}
             <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg mb-6 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4">For B.Pharm (Lateral Entry)</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For B.Pharm (Lateral Entry)</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
                   <span>Candidates holding a Diploma in Pharmacy (D.Pharm) from a recognised institution</span>
@@ -255,8 +255,8 @@ export default function AdmissionProcessPage() {
 
             {/* M.Pharm Eligibility */}
             <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg mb-6 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4">For M.Pharm</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For M.Pharm</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
                   <span>Passed B.Pharm (4-year degree under 10+2+4 pattern) from a PCI-approved institution</span>
@@ -278,8 +278,8 @@ export default function AdmissionProcessPage() {
 
             {/* Pharm.D Eligibility */}
             <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg mb-6 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4">For Pharm.D</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For Pharm.D</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
                   <span>Passed 10+2 with Physics, Chemistry, and Biology</span>
@@ -297,8 +297,8 @@ export default function AdmissionProcessPage() {
 
             {/* PhD Eligibility */}
             <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-gray-800 mb-4">For PhD (Pharmaceutical Sciences)</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For PhD (Pharmaceutical Sciences)</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
                   <span>M.Pharm degree from a recognised university</span>
@@ -317,7 +317,7 @@ export default function AdmissionProcessPage() {
 
           {/* Step-by-Step Admission Process */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Step-by-Step Admission Process
             </h2>
@@ -327,13 +327,13 @@ export default function AdmissionProcessPage() {
                 <div key={index} className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 border-l-4 border-[#7cb983]">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-[#006837] to-[#7cb983] text-white flex items-center justify-center text-lg sm:text-xl font-bold">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-[#006837] to-[#7cb983] text-white flex items-center justify-center text-base sm:text-lg font-bold">
                         {index + 1}
                       </div>
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-2">{step.name}</h3>
-                      <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{step.text}</p>
+                      <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-2">{step.name}</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-700 leading-relaxed">{step.text}</p>
                     </div>
                   </div>
                 </div>
@@ -342,8 +342,8 @@ export default function AdmissionProcessPage() {
 
             {/* Additional Process Details */}
             <div className="mt-6 sm:mt-8 bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-4">Important Process Guidelines</h3>
-              <ul className="space-y-3 text-sm sm:text-base text-gray-700">
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Important Process Guidelines</h3>
+              <ul className="space-y-3 text-[10px] sm:text-xs text-gray-700">
                 <li>• The admission process is governed by Tamil Nadu Government guidelines and university regulations</li>
                 <li>• An Admission Committee provides guidance and advice throughout the admission process</li>
                 <li>• The committee screens and scrutinizes applications with selection based on merit and roster method</li>
@@ -359,13 +359,13 @@ export default function AdmissionProcessPage() {
 
           {/* Required Documents */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Required Documents Checklist
             </h2>
 
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
-              <p className="text-sm sm:text-base text-gray-700 mb-6">
+              <p className="text-[10px] sm:text-xs text-gray-700 mb-6">
                 Photocopies of the following documents must be submitted along with the completed application. Original documents should be presented during admission for verification:
               </p>
 
@@ -373,70 +373,70 @@ export default function AdmissionProcessPage() {
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Mark Sheets</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">Qualifying examination mark sheet/provisional certificate (attested by School Headmaster)</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Mark Sheets</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">Qualifying examination mark sheet/provisional certificate (attested by School Headmaster)</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Transfer Certificate</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">Original TC from the last institution attended</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Transfer Certificate</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">Original TC from the last institution attended</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Community Certificate</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">If applicable (for SC/ST/OBC/MBC candidates)</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Community Certificate</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">If applicable (for SC/ST/OBC/MBC candidates)</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Eligibility Certificate</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">For students from other states/universities</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Eligibility Certificate</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">For students from other states/universities</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Special Quota Proof</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">Differently Abled, Sports, NCC, Ex-Servicemen certificates (if applicable)</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Special Quota Proof</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">Differently Abled, Sports, NCC, Ex-Servicemen certificates (if applicable)</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Passport Photos</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">Recent passport-size photographs (6 copies)</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Passport Photos</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">Recent passport-size photographs (6 copies)</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Conduct Certificate</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">From the last institution attended</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Conduct Certificate</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">From the last institution attended</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 text-sm sm:text-base">Income Certificate</h4>
-                    <p className="text-xs sm:text-sm text-gray-600">For scholarship applications (if applicable)</p>
+                    <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Income Certificate</h4>
+                    <p className="text-[10px] sm:text-xs text-gray-600">For scholarship applications (if applicable)</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
-                <p className="text-xs sm:text-sm text-gray-700">
+                <p className="text-[10px] sm:text-xs text-gray-700">
                   <strong>Important:</strong> All documents should be presented upon demand during admission. If any document is not readily available, grace time may be granted with the principal's consent. Failure to submit required documents may result in admission cancellation.
                 </p>
               </div>
@@ -445,13 +445,13 @@ export default function AdmissionProcessPage() {
 
           {/* Fee Structure */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Fee Structure 2026
             </h2>
 
             <div className="overflow-x-auto w-full px-4 sm:px-0 -mx-4 sm:mx-0">
-              <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-xs sm:text-sm">
+              <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-[10px] sm:text-xs">
                 <thead>
                   <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Fee Component</th>
@@ -507,7 +507,7 @@ export default function AdmissionProcessPage() {
               </table>
             </div>
 
-            <div className="mt-4 space-y-2 text-xs sm:text-sm text-gray-600">
+            <div className="mt-4 space-y-2 text-[10px] sm:text-xs text-gray-600">
               <p>* Fee structures are transparently available in the prospectus and on the official website</p>
               <p>* Application form cost: ₹1000 for all candidates (concessions apply for SC/ST with community certificate)</p>
               <p>* Fees are subject to revision as per university/government directives</p>
@@ -518,7 +518,7 @@ export default function AdmissionProcessPage() {
 
           {/* Important Dates */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <Calendar className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Important Dates 2026
             </h2>
@@ -529,8 +529,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Application Form Release</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">Five days before +2 results announcement (Expected: May 2026)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Application Form Release</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">Five days before +2 results announcement (Expected: May 2026)</p>
                     </div>
                   </div>
                 </div>
@@ -539,8 +539,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Application Submission Starts</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">After announcement of Higher Secondary results (Expected: May-June 2026)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Application Submission Starts</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">After announcement of Higher Secondary results (Expected: May-June 2026)</p>
                     </div>
                   </div>
                 </div>
@@ -549,8 +549,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Last Date for Application</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">To be announced by Principal (Late applications accepted subject to seat availability)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Last Date for Application</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">To be announced by Principal (Late applications accepted subject to seat availability)</p>
                     </div>
                   </div>
                 </div>
@@ -559,8 +559,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">TNEA Counselling</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">As per Tamil Nadu Government schedule (Expected: June-July 2026)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">TNEA Counselling</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">As per Tamil Nadu Government schedule (Expected: June-July 2026)</p>
                     </div>
                   </div>
                 </div>
@@ -569,8 +569,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Management Quota Counselling</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">To be announced (Will be notified via website and SMS)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Management Quota Counselling</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">To be announced (Will be notified via website and SMS)</p>
                     </div>
                   </div>
                 </div>
@@ -579,8 +579,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Document Verification</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">During counselling (Bring all original documents)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Document Verification</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">During counselling (Bring all original documents)</p>
                     </div>
                   </div>
                 </div>
@@ -589,8 +589,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Fee Payment Deadline</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">Within 7 days of seat allotment (As per counselling schedule)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Fee Payment Deadline</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">Within 7 days of seat allotment (As per counselling schedule)</p>
                     </div>
                   </div>
                 </div>
@@ -599,8 +599,8 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-1">Classes Commencement</h3>
-                      <p className="text-xs sm:text-sm text-gray-600">Expected: August 2026 (As per academic calendar)</p>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">Classes Commencement</h3>
+                      <p className="text-[10px] sm:text-xs text-gray-600">Expected: August 2026 (As per academic calendar)</p>
                     </div>
                   </div>
                 </div>
@@ -608,7 +608,7 @@ export default function AdmissionProcessPage() {
             </div>
 
             <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-400 rounded">
-              <p className="text-xs sm:text-sm text-gray-700">
+              <p className="text-[10px] sm:text-xs text-gray-700">
                 <strong>Note:</strong> Exact dates will be announced through advertisements in leading newspapers, college website, and SMS notifications to registered applicants. Please check the website regularly for updates.
               </p>
             </div>
@@ -616,24 +616,24 @@ export default function AdmissionProcessPage() {
 
           {/* Scholarship Information */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <Award className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
               Scholarships & Financial Assistance
             </h2>
 
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
-              <p className="text-sm sm:text-base text-gray-700 mb-6">
+              <p className="text-[10px] sm:text-xs text-gray-700 mb-6">
                 JKKN College of Pharmacy is committed to making quality pharmacy education accessible to all deserving students. Various scholarships and financial assistance programmes are available:
               </p>
 
               <div className="space-y-6">
                 {/* Government Scholarships */}
                 <div>
-                  <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                  <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
                     <Users className="w-5 h-5 text-[#7cb983]" />
                     Government Scholarships
                   </h3>
-                  <ul className="space-y-2 ml-7 text-sm sm:text-base text-gray-700">
+                  <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
                     <li>• <strong>SC/ST Scholarship:</strong> Full tuition fee waiver and maintenance allowance for eligible SC/ST students</li>
                     <li>• <strong>OBC Scholarship:</strong> Partial fee concession and support for OBC category students</li>
                     <li>• <strong>BC/MBC Scholarship:</strong> Financial assistance for BC/MBC students as per government norms</li>
@@ -644,11 +644,11 @@ export default function AdmissionProcessPage() {
 
                 {/* Merit-Based Scholarships */}
                 <div>
-                  <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                  <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
                     <Award className="w-5 h-5 text-[#7cb983]" />
                     Merit-Based Scholarships
                   </h3>
-                  <ul className="space-y-2 ml-7 text-sm sm:text-base text-gray-700">
+                  <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
                     <li>• <strong>Top Rank Holders:</strong> Special scholarships for students ranking in top 10 in qualifying exams</li>
                     <li>• <strong>Academic Excellence Award:</strong> Annual awards for students with outstanding academic performance</li>
                     <li>• <strong>GPAT Qualified:</strong> Fee concession for M.Pharm students with valid GPAT scores</li>
@@ -657,11 +657,11 @@ export default function AdmissionProcessPage() {
 
                 {/* Special Category Scholarships */}
                 <div>
-                  <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800 mb-3 flex items-center gap-2">
+                  <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-3 flex items-center gap-2">
                     <CheckCircle className="w-5 h-5 text-[#7cb983]" />
                     Special Category Support
                   </h3>
-                  <ul className="space-y-2 ml-7 text-sm sm:text-base text-gray-700">
+                  <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
                     <li>• <strong>Differently Abled Students:</strong> Special fee concessions and support facilities</li>
                     <li>• <strong>Sports Quota:</strong> Scholarships for students with state/national level sports achievements</li>
                     <li>• <strong>Ex-Servicemen Ward:</strong> Fee concessions for children of ex-servicemen</li>
@@ -671,8 +671,8 @@ export default function AdmissionProcessPage() {
 
                 {/* How to Apply */}
                 <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-400 rounded">
-                  <h4 className="font-bold text-gray-800 text-sm sm:text-base mb-2">How to Apply for Scholarships</h4>
-                  <p className="text-xs sm:text-sm text-gray-700">
+                  <h4 className="font-bold text-gray-800 text-xs sm:text-sm mb-2">How to Apply for Scholarships</h4>
+                  <p className="text-[10px] sm:text-xs text-gray-700">
                     Students can apply for scholarships after admission through the college office. Required documents include income certificate, community certificate, and academic certificates. Applications for government scholarships are processed through the National Scholarship Portal (NSP). For merit-based and institutional scholarships, students should contact the scholarship cell at the college.
                   </p>
                 </div>
@@ -682,7 +682,7 @@ export default function AdmissionProcessPage() {
 
           {/* FAQs */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
@@ -696,7 +696,7 @@ export default function AdmissionProcessPage() {
                     onClick={() => toggleFAQ(index)}
                     className="w-full px-4 sm:px-6 py-4 sm:py-5 flex items-center justify-between gap-4 text-left hover:bg-[#F5F1E8] transition-colors"
                   >
-                    <span className="font-semibold text-gray-800 text-sm sm:text-base md:text-lg flex-1">
+                    <span className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base flex-1">
                       {faq.question}
                     </span>
                     <ChevronDown
@@ -707,7 +707,7 @@ export default function AdmissionProcessPage() {
                   </button>
                   {expandedFAQ === index && (
                     <div className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
-                      <p className="text-gray-700 leading-relaxed text-xs sm:text-sm md:text-base">
+                      <p className="text-gray-700 leading-relaxed text-[10px] sm:text-xs md:text-sm">
                         {faq.answer}
                       </p>
                     </div>
@@ -719,7 +719,7 @@ export default function AdmissionProcessPage() {
 
           {/* Contact for Admission Queries */}
           <div className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
               Contact for Admission Queries
             </h2>
 
@@ -729,11 +729,11 @@ export default function AdmissionProcessPage() {
                 <div className="flex items-start gap-4">
                   <Phone className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-base sm:text-lg mb-2">Call Us</h3>
-                    <a href="tel:+919345855001" className="text-sm sm:text-base hover:underline">
+                    <h3 className="font-bold text-sm sm:text-base mb-2">Call Us</h3>
+                    <a href="tel:+919345855001" className="text-xs sm:text-sm hover:underline">
                       +91 93458 55001
                     </a>
-                    <p className="text-xs sm:text-sm text-white/80 mt-1">
+                    <p className="text-[10px] sm:text-xs text-white/80 mt-1">
                       Mon-Sat: 9:00 AM - 5:00 PM
                     </p>
                   </div>
@@ -743,11 +743,11 @@ export default function AdmissionProcessPage() {
                 <div className="flex items-start gap-4">
                   <Mail className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-base sm:text-lg mb-2">Email Us</h3>
-                    <a href="mailto:admissions@jkkn.ac.in" className="text-sm sm:text-base hover:underline break-all">
+                    <h3 className="font-bold text-sm sm:text-base mb-2">Email Us</h3>
+                    <a href="mailto:admissions@jkkn.ac.in" className="text-xs sm:text-sm hover:underline break-all">
                       admissions@jkkn.ac.in
                     </a>
-                    <p className="text-xs sm:text-sm text-white/80 mt-1">
+                    <p className="text-[10px] sm:text-xs text-white/80 mt-1">
                       Response within 24 hours
                     </p>
                   </div>
@@ -757,11 +757,11 @@ export default function AdmissionProcessPage() {
                 <div className="flex items-start gap-4">
                   <MessageCircle className="w-8 h-8 flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="font-bold text-base sm:text-lg mb-2">WhatsApp</h3>
-                    <a href="https://wa.me/919345855001" className="text-sm sm:text-base hover:underline" target="_blank" rel="noopener noreferrer">
+                    <h3 className="font-bold text-sm sm:text-base mb-2">WhatsApp</h3>
+                    <a href="https://wa.me/919345855001" className="text-xs sm:text-sm hover:underline" target="_blank" rel="noopener noreferrer">
                       +91 93458 55001
                     </a>
-                    <p className="text-xs sm:text-sm text-white/80 mt-1">
+                    <p className="text-[10px] sm:text-xs text-white/80 mt-1">
                       Quick responses via chat
                     </p>
                   </div>
@@ -770,8 +770,8 @@ export default function AdmissionProcessPage() {
 
               {/* Office Address */}
               <div className="mt-8 pt-8 border-t border-white/20">
-                <h3 className="font-bold text-base sm:text-lg mb-3">Admission Office</h3>
-                <p className="text-sm sm:text-base">
+                <h3 className="font-bold text-sm sm:text-base mb-3">Admission Office</h3>
+                <p className="text-xs sm:text-sm">
                   JKKN College of Pharmacy<br />
                   Natarajapuram, NH-544, Salem To Coimbatore National Highway<br />
                   Komarapalayam, Namakkal District<br />
@@ -783,11 +783,11 @@ export default function AdmissionProcessPage() {
 
           {/* International & NRI Admissions */}
           <div className="mb-6 sm:mb-8 md:mb-10">
-            <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">
+            <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
               International & NRI Admissions
             </h3>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
-              <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+              <p className="text-[10px] sm:text-xs text-gray-700 leading-relaxed">
                 JKKN College of Pharmacy welcomes applications from international students and NRIs who aspire to pursue their higher education in India. The college ensures a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
               </p>
             </div>
@@ -797,7 +797,7 @@ export default function AdmissionProcessPage() {
           <div className="mt-8 sm:mt-10 md:mt-12 flex flex-wrap gap-4 sm:gap-6 items-center justify-center">
             <a
               href="tel:+919345855001"
-              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#7CAF5A] text-white text-sm sm:text-base lg:text-lg font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#7CAF5A] text-white text-xs sm:text-sm lg:text-base font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
             >
               <Phone className="w-5 h-5" />
               Call for Admission
@@ -805,7 +805,7 @@ export default function AdmissionProcessPage() {
             <a
               href="/pdf/Admission-Process-PROSPECTUS.pdf"
               target="_blank"
-              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#006837] text-white text-sm sm:text-base lg:text-lg font-semibold rounded hover:bg-[#005830] transition-colors"
+              className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#006837] text-white text-xs sm:text-sm lg:text-base font-semibold rounded hover:bg-[#005830] transition-colors"
             >
               <FileText className="w-5 h-5" />
               Download Prospectus

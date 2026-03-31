@@ -1624,7 +1624,7 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">Ready to Explore Drug Discovery & Research?</h2>
           <p className="text-xs sm:text-sm mb-8">Enrol in the M.Pharm Pharmacology programme at JKKN College of Pharmacy and become a pharmaceutical research scientist!</p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>

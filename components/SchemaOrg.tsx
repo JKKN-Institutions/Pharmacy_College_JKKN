@@ -482,7 +482,7 @@ export function EventSchema({
   startDate,
   endDate,
   location = "JKKN College of Pharmacy, Komarapalayam, Tamil Nadu 638183",
-  url = "https://pharmacy.jkkn.ac.in/admission-process/",
+  url = "https://pharmacy.jkkn.ac.in/admissions/",
   eventStatus = "https://schema.org/EventScheduled",
   eventAttendanceMode = "https://schema.org/MixedEventAttendanceMode"
 }: EventSchemaProps) {

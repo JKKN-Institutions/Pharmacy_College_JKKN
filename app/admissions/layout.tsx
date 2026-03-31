@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
   description: 'Apply for pharmacy admission at JKKN in 2026. Application fee ₹1,000, forms open May-June. Step-by-step B.Pharm, M.Pharm, Pharm.D admission guide.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/admission-process/',
+    canonical: 'https://pharmacy.jkkn.ac.in/admissions/',
   },
   openGraph: {
     type: 'website',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
-    url: 'https://pharmacy.jkkn.ac.in/admission-process/',
+    url: 'https://pharmacy.jkkn.ac.in/admissions/',
     title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
     description: 'Apply for pharmacy admission at JKKN in 2026. Application fee ₹1,000, forms open May-June. Step-by-step B.Pharm, M.Pharm, Pharm.D admission guide.',
     images: [
@@ -53,7 +53,7 @@ export default function AdmissionProcessLayout({
       <SpeakableWebPageSchema
         name="Pharmacy Admission 2026 — JKKN College of Pharmacy"
         description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee ₹1,000, forms open May-June 2026."
-        url="https://pharmacy.jkkn.ac.in/admission-process/"
+        url="https://pharmacy.jkkn.ac.in/admissions/"
         dateModified="2026-03-23"
       />
       <EventSchema
