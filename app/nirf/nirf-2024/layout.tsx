@@ -38,7 +38,6 @@ export default function NIRFDetail2024Layout({
 }) {
   return (
     <>
-      <BreadcrumbWrapper />
       {children}
     </>
   )

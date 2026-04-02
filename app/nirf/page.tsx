@@ -9,7 +9,7 @@ export default function NIRFPage() {
       {/* NIRF Hero Section */}
       <section className="bg-[#FBFBEE] py-8 sm:py-10 md:py-12 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1400px] mx-auto">
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#006837] mb-4 sm:mb-6">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#006837] mb-4 sm:mb-6">
             NIRF Rankings — JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mb-6 sm:mb-8">
@@ -89,9 +89,9 @@ export default function NIRFPage() {
             <Link href="/nirf/nirf-2025/" className="block bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
               NIRF 2025 Data
             </Link>
-            <a href="/pdf/NIRF-2026(Pharmacy, onnovation, SDG and overall).pdf" target="_blank" rel="noopener noreferrer" className="block bg-[#006837] hover:bg-[#005a2e] text-white font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
+            <Link href="/nirf/nirf-2026/" className="block bg-[#006837] hover:bg-[#005a2e] text-white font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
               NIRF 2026 (Latest)
-            </a>
+            </Link>
           </div>
 
           {/* About NIRF */}
