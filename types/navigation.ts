@@ -24,6 +24,8 @@ export interface NavItem {
   label: string;
   /** URL path for the navigation item */
   href: string;
+  /** Optional link target (e.g. "_blank") */
+  target?: string;
   /** Optional submenu items (first level dropdown) */
   submenu?: SubmenuItem[];
 }
