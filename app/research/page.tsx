@@ -145,49 +145,49 @@ export default function ResearchPage() {
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2024-2025</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">25</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2024-2025.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2024-2025.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2023-2024</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">08</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2023-2024.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2023-2024.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2022 - 2023</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2022-2023.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2022-2023.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2021 - 2022</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">08</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2021-2022.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2021-2022.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2020 - 2021</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">13</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2020-2021.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2020-2021.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2019 - 2020</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">12</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2019-2020.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2019-2020.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#FBFBEE]">
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">2018 - 2019</td>
                     <td className="border border-gray-300 px-6 py-4 text-gray-700">16</td>
                     <td className="border border-gray-300 px-6 py-4">
-                      <a href="/pdf/Research-Publication-details-2018-2019.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
+                      <a href="/pdf/Research-Publication-details-2018-2019.pdf" target="_blank" rel="noopener noreferrer" className="text-[#0F6B3E] font-semibold hover:underline">View Document</a>
                     </td>
                   </tr>
                   <tr className="bg-[#0F6B3E]/10">
@@ -209,6 +209,8 @@ export default function ResearchPage() {
             {/* Button */}
             <a
               href="/pdf/Research-and-Development-Cell.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
             >
               Research and Development Cell

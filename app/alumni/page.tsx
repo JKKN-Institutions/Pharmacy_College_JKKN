@@ -89,6 +89,8 @@ export default function AlumniPage() {
 
             <a
               href="/pdf/Alumni-activities.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center text-[#2d5f2e] font-semibold hover:underline"
             >
               <span className="mr-2">📌</span>

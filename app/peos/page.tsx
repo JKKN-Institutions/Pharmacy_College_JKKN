@@ -11,7 +11,7 @@ export default function PEOsPage() {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
           {/* Page Title */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 lg:mb-8">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 lg:mb-8">
             State The Programme educational objectives (PEOs)
           </h1>
 

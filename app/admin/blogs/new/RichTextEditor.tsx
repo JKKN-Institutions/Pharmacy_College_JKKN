@@ -8,6 +8,7 @@ import TextAlign from '@tiptap/extension-text-align';
 import Link from '@tiptap/extension-link';
 import Image from '@tiptap/extension-image';
 import Placeholder from '@tiptap/extension-placeholder';
+import { Table, TableRow, TableHeader, TableCell } from '@tiptap/extension-table';
 import { useEffect, useRef, useCallback } from 'react';
 
 interface RichTextEditorProps {
@@ -67,6 +68,10 @@ export default function RichTextEditor({
       Link.configure({ openOnClick: false, HTMLAttributes: { class: 'text-blue-600 underline' } }),
       Image.configure({ inline: false, HTMLAttributes: { class: 'max-w-full rounded-lg my-3' } }),
       Placeholder.configure({ placeholder }),
+      Table.configure({ resizable: false }),
+      TableRow,
+      TableHeader,
+      TableCell,
     ],
     immediatelyRender: false,
     content: value,
@@ -250,6 +255,17 @@ if (!editor) return null;
           </svg>
         </ToolbarBtn>
 
+        {/* Insert Table */}
+        <ToolbarBtn onClick={() => editor.chain().focus().insertTable({ rows: 3, cols: 3, withHeaderRow: true }).run()} title="Insert Table">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <rect x="3" y="3" width="18" height="18" rx="1"/>
+            <line x1="3" y1="9" x2="21" y2="9"/>
+            <line x1="3" y1="15" x2="21" y2="15"/>
+            <line x1="9" y1="3" x2="9" y2="21"/>
+            <line x1="15" y1="3" x2="15" y2="21"/>
+          </svg>
+        </ToolbarBtn>
+
         {/* HR */}
         <ToolbarBtn onClick={() => editor.chain().focus().setHorizontalRule().run()} title="Horizontal Rule">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -306,6 +322,12 @@ if (!editor) return null;
         .ProseMirror hr { border: none; border-top: 2px solid #e5e7eb; margin: 1rem 0; }
 .ProseMirror mark { background: #fef08a; border-radius: 2px; }
         .ProseMirror a { color: #2563eb; text-decoration: underline; }
+        .ProseMirror table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.9rem; }
+        .ProseMirror th { background: #f3f4f6; text-align: left; padding: 0.5rem 0.75rem; font-weight: 600; border: 1px solid #d1d5db; color: #374151; }
+        .ProseMirror td { padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; color: #374151; vertical-align: top; }
+        .ProseMirror tr:nth-child(even) td { background: #f9fafb; }
+        .ProseMirror .selectedCell:after { z-index: 2; position: absolute; content: ""; left: 0; right: 0; top: 0; bottom: 0; background: rgba(0,104,55,0.1); pointer-events: none; }
+        .ProseMirror td, .ProseMirror th { position: relative; }
       `}</style>
     </div>
   );

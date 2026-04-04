@@ -107,19 +107,20 @@ export default function PlacementCellPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
-                href="/pdf/PLACEMENT-CELL-AND-ITS-ACTIVITIES.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/pdf/brochure.pdf"
+                download
                 className="bg-white text-[#006837] font-semibold px-6 py-3 rounded-full text-sm hover:bg-gray-100 transition-colors"
               >
                 Download PDF Brochure
               </a>
-              <Link
-                href="/admissions"
+              <a
+                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#006837] transition-colors"
               >
                 Apply Now — 2026-27
-              </Link>
+              </a>
             </div>
           </div>
         </div>

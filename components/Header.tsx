@@ -74,6 +74,8 @@ export default function Header() {
       ) : (
         <Link
           href={item.href}
+          target={item.target}
+          rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
           className="text-black hover:text-primary focus:text-primary focus:outline-none font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
@@ -108,6 +110,8 @@ export default function Header() {
                 ) : (
                   <Link
                     href={subitem.href}
+                    target={subitem.target}
+                    rel={subitem.target === "_blank" ? "noopener noreferrer" : undefined}
                     className="block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between"
                   >
                     <span>{subitem.label}</span>
@@ -282,6 +286,8 @@ export default function Header() {
                     ) : (
                       <Link
                         href={item.href}
+                        target={item.target}
+                        rel={item.target === "_blank" ? "noopener noreferrer" : undefined}
                         className={`flex-1 py-3 text-black hover:bg-gray-50 active:bg-gray-100 hover:text-primary focus:bg-gray-50 focus:text-primary focus:outline-none font-semibold rounded-lg flex items-center min-h-[44px] touch-manipulation transition-colors text-sm xs:text-base ${item.label === 'HOME' ? 'px-6 xs:px-8' : 'px-3 xs:px-4'}`}
                         onClick={() => setIsMenuOpen(false)}
                       >

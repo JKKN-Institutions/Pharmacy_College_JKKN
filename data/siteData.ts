@@ -32,8 +32,8 @@ export const topMenuItems: NavItem[] = [
       { label: "Our Management", href: "/our-management" },
       { label: "Our Institutions", href: "/our-institutions" },
       { label: "The Principal", href: "/the-principal" },
-      { label: "Administration", href: "/administration" },
-      { label: "Central Public Information Officer", href: "/cpio" },
+      { label: "Administration", href: "/pdf/administration.pdf", target: "_blank" },
+      { label: "Central Public Information Officer", href: "/cpio", target: "_blank" },
       { label: "Why JKKN?", href: "/why-jkkn" },
       {
         label: "WHY STUDENTS CHOOSE JKKN?",
@@ -98,7 +98,7 @@ export const topMenuItems: NavItem[] = [
     href: "/academic",
     submenu: [
       { label: "Admission", href: "/admissions" },
-      { label: "Academic Calendar", href: "/pdf/2025-2026  Academic Calender.pdf" },
+      { label: "Academic Calendar", href: "/pdf/2025-2026  Academic Calender.pdf", target: "_blank" },
       {
         label: "Time Table",
         href: "/academic/time-table",
@@ -119,8 +119,7 @@ export const topMenuItems: NavItem[] = [
           { label: "PHARM D", href: "/pharmd-cos-pos" }
         ]
       },
-      { label: "Attainment of COs and POs", href: "/attainment-cos-pos" },
-      { label: "Study Material", href: "/study-material" },
+      { label: "Attainment of COs and POs", href: "/pdf/ATTAINMENT-OF-COs-AND-POs.pdf", target: "_blank" },
       { label: "Faculty Profile", href: "/faculty-profile" },
       { label: "Details of Students", href: "/details-of-students" },
       { label: "Placements", href: "/placements" }
@@ -145,8 +144,8 @@ export const topMenuItems: NavItem[] = [
       { label: "Wifi", href: "/wifi" },
       { label: "Bank & Post Office", href: "/bank-post-office" },
       { label: "National Service Scheme (NSS)", href: "/nss" },
-      { label: "Animal House Facility", href: "/animal-house" },
-      { label: "Disabled-friendly and Barrier Free Environment", href: "/barrier-free-environment" }
+      { label: "Animal House Facility", href: "/pdf/ANIMAL-HOUSE-FACILITY.pdf", target: "_blank" },
+      { label: "Disabled-friendly and Barrier Free Environment", href: "/pdf/DISABLED-FRIENDLY-AND-BARRIER-FREE-ENVIRONMENT.pdf", target: "_blank" }
     ]
   },
   { label: "NAAC", href: "/naac" },
@@ -177,7 +176,7 @@ export const bottomMenuItems: NavItem[] = [
     label: "COMMITTEE",
     href: "/committee",
     submenu: [
-      { label: "Various Committees", href: "/various-committees" },
+      { label: "Various Committees", href: "/pdf/Various-Committees.pdf", target: "_blank" },
       { label: "Sports Committee", href: "/sports-committee" },
       { label: "Discipline Committee", href: "/discipline-committee" },
       { label: "Anti-Ragging Committee", href: "/anti-ragging-committee" },
@@ -186,7 +185,7 @@ export const bottomMenuItems: NavItem[] = [
       { label: "Cultural Committee", href: "/cultural-committee" },
       { label: "Student Grievance Redressal Committee (SGRC)", href: "/student-grievance-redressal-committee" },
       { label: "Equal Opportunity Cell (EOC)", href: "/equal-opportunity-cell" },
-      { label: "Socio-economically Disadvantaged Group (SEDG) Cell", href: "/sedg-cell" }
+      { label: "Socio-economically Disadvantaged Group (SEDG) Cell", href: "/pdf/SOCIO-ECONOMICALLY-DISADVANTAGED-GROUP-CELL.pdf", target: "_blank" }
     ]
   },
   {
@@ -206,25 +205,24 @@ export const bottomMenuItems: NavItem[] = [
         ]
       },
       { label: "Drug Information Center", href: "/drug-information-center" },
-      { label: "National Innovation and Startup Policy 2020-2021", href: "/national-innovation-startup-policy" },
       { label: "Institutions Innovation Council", href: "/institutions-innovation-council" },
       { label: "Incubation Centre", href: "/incubation-centre" },
       { label: "Entrepreneurship Development Cell", href: "/entrepreneurship-development-cell" },
       { label: "Feedback Analysis", href: "/feedback-analysis" },
       { label: "IPA-Bhavani-Komarapalayam Local Branch", href: "/ipa-bhavani-kumarapalayam" },
       { label: "Privacy Policy", href: "/privacy-policy" },
-      { label: "Audit Statements Finance", href: "/audit-statements-finance" },
+      { label: "Audit Statements Finance", href: "/pdf/Audit-Statements-Finance.pdf", target: "_blank" },
       { label: "Newsletters", href: "/newsletters" }
     ]
   },
   { label: "GALLERY", href: "/gallery" },
-  { label: "CIRCULARS AND NOTICES", href: "/circulars" },
+  { label: "CIRCULARS AND NOTICES", href: "/pdf/CIRCULARS-AND-NOTICES.pdf", target: "_blank" },
   {
     label: "MANDATORY DISCLOSURES",
     href: "/disclosures",
     submenu: [
-      { label: "UGC Public Disclosure Compliance", href: "/ugc-public-disclosure-compliance" },
-      { label: "Undertaking", href: "/undertaking" }
+      { label: "UGC Public Disclosure Compliance", href: "/pdf/UGC-PUBLIC-DISCLOSURE-COMPLIANCE-LETTER.pdf", target: "_blank" },
+      { label: "Undertaking", href: "/pdf/UNDERTAKING.pdf", target: "_blank" }
     ]
   },
   { label: "BLOG", href: "/blog" },

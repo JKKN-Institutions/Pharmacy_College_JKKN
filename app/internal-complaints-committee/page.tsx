@@ -325,16 +325,6 @@ export default function InternalComplaintsCommitteePage() {
                 className="w-full max-w-3xl h-auto"
               />
             </div>
-
-            <div className="flex justify-center">
-              <Image
-                src="/images/ICC’S-REDRESSAL-MECHANISM-2.png"
-                alt="Steps to Prohibit Sexual Harassment"
-                width={1000}
-                height={600}
-                className="w-full max-w-3xl h-auto"
-              />
-            </div>
           </div>
         </div>
       </div>

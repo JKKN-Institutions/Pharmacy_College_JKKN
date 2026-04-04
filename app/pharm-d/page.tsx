@@ -3081,9 +3081,9 @@ export default function PharmDPage() {
               <span className="sm:hidden">Apply Now</span>
               <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>
             </a>
-            <button className="bg-[#7cb983] text-white font-bold text-base px-10 py-4 rounded-full hover:bg-[#6ba872] focus:outline-none focus:ring-2 focus:ring-[#7cb983] focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg">
+            <a href="/pdf/brochure.pdf" download className="bg-[#7cb983] text-white font-bold text-base px-10 py-4 rounded-full hover:bg-[#6ba872] focus:outline-none focus:ring-2 focus:ring-[#7cb983] focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg">
               Download Brochure
-            </button>
+            </a>
           </div>
           <p className="mt-6 text-xs">PCI Approved | Clinical Excellence | Hospital Practice | Patient Care Focus</p>
         </div>

@@ -6,9 +6,20 @@ import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
+import { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
 
 export default function Home() {
+  useEffect(() => {
+    const target = sessionStorage.getItem('scrollTo');
+    if (target) {
+      sessionStorage.removeItem('scrollTo');
+      setTimeout(() => {
+        document.getElementById(target)?.scrollIntoView({ behavior: 'smooth' });
+      }, 300);
+    }
+  }, []);
+
   const homepageFaqs = [
     {
       question: "What pharmacy courses are offered at JKKN Pharmacy College?",
@@ -248,30 +259,9 @@ export default function Home() {
       {/* About Section */}
       <section className="py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Left Image */}
-            <div className="relative order-2 lg:order-1">
-              <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
-                <Image
-                  src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
-                  alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
-                  width={800}
-                  height={600}
-                  className="w-full h-auto"
-                />
-                {/* 41 Years Badge */}
-                <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
-                  <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">41</div>
-                  <div className="text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs font-semibold uppercase text-center leading-tight">
-                    <div>YEARS</div>
-                    <div>SINCE 1985</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Content */}
-            <div className="order-1 lg:order-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+            {/* Left Content */}
+            <div className="order-1 lg:order-1">
               <p className="text-xs sm:text-sm md:text-base font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
                 About JKKN College of Pharmacy
               </p>
@@ -281,7 +271,7 @@ export default function Home() {
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
                 JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
-              <p className="text-sm sm:text-base text-gray-600 mb-6 sm:mb-8 leading-relaxed">
+              <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
                 environment for focused pharmaceutical learning. Approved by the Pharmacy Council of India (PCI) and accredited NAAC A Grade, the college produces competent
                 pharmacists ready to serve the healthcare industry. Read the detailed comparison of{' '}
@@ -289,9 +279,32 @@ export default function Home() {
                   best pharmacy colleges in Tamil Nadu
                 </Link>.
               </p>
+            </div>
+
+            {/* Right Image + Features */}
+            <div className="order-2 lg:order-2">
+              <div className="relative">
+                <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
+                  <Image
+                    src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
+                    alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
+                    width={800}
+                    height={600}
+                    className="w-full h-auto"
+                  />
+                  {/* 41 Years Badge */}
+                  <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
+                    <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">41</div>
+                    <div className="text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs font-semibold uppercase text-center leading-tight">
+                      <div>YEARS</div>
+                      <div>SINCE 1985</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
               {/* Features Grid */}
-              <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
+              <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4 mt-6 sm:mt-8 mb-6 sm:mb-8">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">PCI & NAAC Approved</span>

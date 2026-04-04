@@ -803,8 +803,8 @@ export default function AdmissionProcessPage() {
               Call for Admission
             </a>
             <a
-              href="/pdf/Admission-Process-PROSPECTUS.pdf"
-              target="_blank"
+              href="/pdf/brochure.pdf"
+              download
               className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#006837] text-white text-xs sm:text-sm lg:text-base font-semibold rounded hover:bg-[#005830] transition-colors"
             >
               <FileText className="w-5 h-5" />

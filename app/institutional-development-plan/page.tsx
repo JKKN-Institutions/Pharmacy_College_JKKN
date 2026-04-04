@@ -11,19 +11,16 @@ export default function InstitutionalDevelopmentPlanPage() {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
           {/* Page Title */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 lg:mb-10">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 md:mb-8 lg:mb-10">
             Institutional Development Plan
           </h1>
 
           {/* Content */}
           <div className="space-y-4 sm:space-y-6 md:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
-            {/* Second Title */}
-            <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900">
-              Institutional Development Plan
-            </h2>
+          
 
             {/* JKKN College of Pharmacy */}
-            <h3 className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-bold text-gray-900">
+            <h3 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900">
               JKKN College of Pharmacy
             </h3>
 
@@ -33,12 +30,12 @@ export default function InstitutionalDevelopmentPlanPage() {
 
             {/* Short-term Plan */}
             <div className="mt-6 sm:mt-8 md:mt-10">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Short-term Plan (5 years):
               </h2>
 
               {/* Academic Enhancements */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Academic Enhancements:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -51,7 +48,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Research and Innovation */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Research and Innovation:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -63,7 +60,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Infrastructure Development */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Infrastructure Development:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -76,7 +73,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Student Development and Well-being */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Student Development and Well-being:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -88,7 +85,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Industry and Community Engagement */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Industry and Community Engagement:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -102,12 +99,12 @@ export default function InstitutionalDevelopmentPlanPage() {
 
             {/* Long-term Plan */}
             <div className="mt-6 sm:mt-8 md:mt-12">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Long-term Plan (15 years):
               </h2>
 
               {/* Academic Excellence */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Academic Excellence:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -120,7 +117,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Research and Innovation */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Research and Innovation:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -132,7 +129,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Global Presence */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Global Presence:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -144,7 +141,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Infrastructure and Technology */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Infrastructure and Technology:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -157,7 +154,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Sustainability and Social Responsibility */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Sustainability and Social Responsibility:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -171,12 +168,12 @@ export default function InstitutionalDevelopmentPlanPage() {
 
             {/* Core Values */}
             <div className="mt-6 sm:mt-8 md:mt-12">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Core Values
               </h2>
 
               {/* Academic Rigor */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Academic Rigor:
               </h3>
               <p className="mb-6">
@@ -184,7 +181,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Inclusivity */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Inclusivity:
               </h3>
               <p className="mb-6">
@@ -192,7 +189,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Holistic Development */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Holistic Development:
               </h3>
               <p className="mb-6">
@@ -202,7 +199,7 @@ export default function InstitutionalDevelopmentPlanPage() {
 
             {/* Main Objectives */}
             <div className="mt-6 sm:mt-8 md:mt-12">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Main Objectives and Goals of the Institutional Development Plan (IDP)
               </h2>
               <p className="mb-6">
@@ -210,7 +207,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Pharmaceutical Academic Excellence */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Pharmaceutical Academic Excellence:
               </h3>
               <p className="mb-6">
@@ -218,7 +215,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Pharmaceutical Research and IP Rights */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Pharmaceutical Research and Intellectual Property (IP) Rights:
               </h3>
               <p className="mb-6">
@@ -226,7 +223,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Pharmacy Community Engagement */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Pharmacy Community Engagement:
               </h3>
               <p className="mb-6">
@@ -234,7 +231,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </p>
 
               {/* Key Objectives */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Key Objectives:
               </h3>
               <ol className="list-decimal ml-6 lg:ml-8 space-y-4">
@@ -270,12 +267,12 @@ export default function InstitutionalDevelopmentPlanPage() {
 
             {/* Executive Summary */}
             <div className="mt-6 sm:mt-8 md:mt-12">
-              <h2 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+              <h2 className="text-base sm:text-lg lg:text-xl xl:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Executive Summary of Objective Implementation:
               </h2>
 
               {/* Pharmaceutical Education Programmes */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Pharmaceutical Education Programmes:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -291,7 +288,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Research and Innovation */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Research and Innovation:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -307,7 +304,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Infrastructure Development */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Infrastructure Development:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -323,7 +320,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Faculty and Student Development */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Faculty and Student Development:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">
@@ -339,7 +336,7 @@ export default function InstitutionalDevelopmentPlanPage() {
               </ul>
 
               {/* Community and Industry Engagement */}
-              <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
+              <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-3 sm:mb-4 mt-6 sm:mt-8">
                 Community and Industry Engagement:
               </h3>
               <ul className="list-disc ml-6 lg:ml-8 space-y-3">

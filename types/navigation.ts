@@ -9,6 +9,8 @@ export interface SubmenuItem {
   label: string;
   /** URL path for the menu item */
   href: string;
+  /** Optional link target (e.g. "_blank") */
+  target?: string;
   /** Optional nested submenu items */
   submenu?: SubmenuItem[];
 }

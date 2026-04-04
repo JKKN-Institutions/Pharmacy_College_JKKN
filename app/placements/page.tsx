@@ -730,13 +730,15 @@ export default function PlacementsPage() {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-                <Link
-                  href="/admissions"
+                <a
+                  href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-gray-100 transition-colors"
                 >
                   <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5" />
                   Apply Now — 2026-27
-                </Link>
+                </a>
                 <a
                   href="tel:+919345855001"
                   className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-white hover:text-[#006837] transition-colors"

@@ -378,7 +378,8 @@ export default function CampusBlogContent({
         .blog-content img { max-width: 100%; height: auto; border-radius: 0.75rem; margin: 1.25rem 0; }
         .blog-content strong { font-weight: 700; color: #111827; }
         .blog-content em { font-style: italic; }
-        .blog-content table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.9rem; }
+        .blog-content table { width: 100%; border-collapse: collapse; margin: 1.25rem 0; font-size: 0.9rem; display: table; }
+        .blog-content .tableWrapper, .blog-content table { overflow-x: auto; }
         .blog-content th { background: #f3f4f6; text-align: left; padding: 0.6rem 0.9rem; font-weight: 600; border: 1px solid #e5e7eb; color: #374151; }
         .blog-content td { padding: 0.6rem 0.9rem; border: 1px solid #e5e7eb; color: #374151; }
         .blog-content tr:nth-child(even) td { background: #f9fafb; }

@@ -1639,12 +1639,12 @@ export default function PhDPage() {
           </h2>
           <p className="text-xs sm:text-sm mb-6">Join the Ph.D programme at JKKN College of Pharmacy and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, advanced facilities, and industry connections await you.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#E55A25] transition-colors shadow-lg">
+            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#6ba872] transition-colors shadow-lg">
               Apply for Ph.D 2026
-            </button>
-            <button className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
+            </a>
+            <a href="/pdf/brochure.pdf" download className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">
               Download Prospectus
-            </button>
+            </a>
           </div>
           <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
         </div>

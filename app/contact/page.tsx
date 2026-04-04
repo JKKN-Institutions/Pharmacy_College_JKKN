@@ -15,7 +15,7 @@ export default function ContactPage() {
       <div className="flex-grow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
             {/* Page H1 */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+          <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10 lg:mb-12">
             Contact JKKN College of Pharmacy — Komarapalayam, Tamil Nadu
           </h1>
 
@@ -24,7 +24,7 @@ export default function ContactPage() {
             <div>
               {/* Title with yellow underline */}
               <div className="mb-6 sm:mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+                <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-2">
                   Contact Info
                 </h2>
                 <div className="w-16 h-1 bg-[#FDB913]"></div>
@@ -44,7 +44,7 @@ export default function ContactPage() {
                       <Phone className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
+                      <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-2">
                         Phone
                       </h3>
                       <p className="text-sm sm:text-base text-gray-700">
@@ -61,7 +61,7 @@ export default function ContactPage() {
                       <Mail className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
+                      <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-2">
                         Email
                       </h3>
                       <p className="text-sm sm:text-base text-[#0F6B3E] break-all">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                       <MapPin className="w-4 h-4 xs:w-5 xs:h-5 sm:w-6 sm:h-6 md:w-7 md:h-7 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 mb-2">
+                      <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-2">
                         Address
                       </h3>
                       <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
@@ -100,7 +100,7 @@ export default function ContactPage() {
             <div>
               {/* Title with yellow underline */}
               <div className="mb-6 sm:mb-8">
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+                <h2 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-900 mb-2">
                   Send a Message
                 </h2>
                 <div className="w-16 h-1 bg-[#FDB913]"></div>

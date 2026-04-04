@@ -78,7 +78,7 @@ export default function BPharmLateralEntryPage() {
           {/* Title */}
           <div className="mb-6">
             <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold">
-              B.Pharm - Bachelor of Pharmacy
+              B.Pharm - Bachelor of Pharmacy (Lateral Entry)
             </h1>
           </div>
 
