@@ -37,7 +37,7 @@ export default function AdminLogin() {
           // Reset any stale college switcher cookie so the admin always
           // starts on this site's own college.
           document.cookie = `admin_college_id=${siteConfig.id}; path=/admin; max-age=${60 * 60 * 24 * 7}; samesite=lax`;
-          window.location.href = '/admin/dashboard';
+          window.location.href = profile?.role === 'staff' ? '/admin/events' : '/admin/dashboard';
         }
       }
     } catch {
