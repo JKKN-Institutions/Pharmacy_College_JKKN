@@ -1,4 +1,4 @@
-import Header from '@/components/Header'
+﻿import Header from '@/components/Header'
 import { Phone, Mail, MapPin } from 'lucide-react'
 import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 
@@ -113,7 +113,7 @@ export default function ContactPage() {
 
               {/* Button */}
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 sm:px-10 py-3 sm:py-4 bg-[#7CAF5A] text-white font-semibold text-sm sm:text-base rounded hover:bg-[#6B9E4E] focus:outline-none focus:ring-2 focus:ring-[#7CAF5A] focus:ring-offset-2 transition-colors"

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -1639,7 +1639,7 @@ export default function PhDPage() {
           </h2>
           <p className="text-xs sm:text-sm mb-6">Join the Ph.D programme at JKKN College of Pharmacy and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, advanced facilities, and industry connections await you.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#6ba872] transition-colors shadow-lg">
+            <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] text-white font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#6ba872] transition-colors shadow-lg">
               Apply for Ph.D 2026
             </a>
             <a href="/pdf/brochure.pdf" download className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">

@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -1304,7 +1304,7 @@ export default function MPharmacyPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
           <p className="text-[10px] xs:text-xs sm:text-sm mb-8">Choose your specialisation and apply for M.Pharm admission 2026!</p>
-          <a href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
           </a>

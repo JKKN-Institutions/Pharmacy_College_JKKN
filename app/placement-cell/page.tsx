@@ -1,4 +1,4 @@
-import Header from '@/components/Header'
+﻿import Header from '@/components/Header'
 import Link from 'next/link'
 
 export default function PlacementCellPage() {
@@ -114,7 +114,7 @@ export default function PlacementCellPage() {
                 Download PDF Brochure
               </a>
               <a
-                href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#006837] transition-colors"

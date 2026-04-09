@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
@@ -731,7 +731,7 @@ export default function PlacementsPage() {
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <a
-                  href="https://admission.jkkn.ac.in/form/jkkn-institution-admission-yxs3w8"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-gray-100 transition-colors"
