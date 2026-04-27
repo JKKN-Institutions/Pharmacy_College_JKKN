@@ -1337,7 +1337,10 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="font-bold text-[#006837]">• Research Fellowships:</span> Industry-sponsored projects offer stipends
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• SC/ST Scholarships:</span> Central and state government scholarships
+                <span className="font-bold text-[#006837]">• Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹70,000/year | Government Quota – As per govt norms
+              </li>
+              <li className="text-xs sm:text-sm text-gray-700">
+                <span className="font-bold text-[#006837]">• BC/MBC/DNC Scholarship:</span> ₹10,000/year
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Educational Loans:</span> Banks offer loans up to ₹10 lakhs for M.Pharm

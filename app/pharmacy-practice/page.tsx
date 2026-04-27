@@ -1570,7 +1570,13 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">SC/ST/OBC Scholarships:</span> Central and state government post-matric scholarships available through National Scholarship Portal.
+                <span className="font-bold text-[#006837]">Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹70,000/year | Government Quota – As per govt norms
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <div>
+                <span className="font-bold text-[#006837]">BC/MBC/DNC Scholarship:</span> ₹10,000/year
               </div>
             </li>
             <li className="flex items-start">

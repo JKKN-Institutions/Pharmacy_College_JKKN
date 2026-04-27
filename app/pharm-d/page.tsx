@@ -2216,22 +2216,18 @@ export default function PharmDPage() {
 
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">Central Government Scholarships</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">Post-Matric Scholarship (SC/ST)</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#002309]">
-                <li><span className="font-semibold text-[#006837]">SC/ST Students:</span> Post-Matric Scholarship - Up to ₹20,000/year</li>
-                <li><span className="font-semibold text-[#006837]">OBC Students:</span> Post-Matric Scholarship - Up to ₹15,000/year</li>
-                <li><span className="font-semibold text-[#006837]">Minorities:</span> Post-Matric Scholarship for Minorities - Varies</li>
-                <li><span className="font-semibold text-[#006837]">Merit-Based:</span> National Scholarship Portal (NSP) - Multiple schemes</li>
+                <li><span className="font-semibold text-[#006837]">Management Quota:</span> ₹5,25,000/year + maintenance</li>
+                <li><span className="font-semibold text-[#006837]">Government Quota:</span> As per govt norms</li>
               </ul>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">State Government Scholarships</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">BC/MBC/DNC Scholarship</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#002309]">
-                <li><span className="font-semibold text-[#006837]">Domicile-Based:</span> Most states offer scholarships for resident students</li>
-                <li><span className="font-semibold text-[#006837]">Merit-cum-Means:</span> For economically weaker sections with good academics</li>
-                <li><span className="font-semibold text-[#006837]">Girl Child Education:</span> Special schemes in many states</li>
-                <li><span className="font-semibold text-[#006837]">Professional Course Aid:</span> Specific support for pharmacy students</li>
+                <li><span className="font-semibold text-[#006837]">Day Scholar:</span> ₹16,000/year</li>
+                <li><span className="font-semibold text-[#006837]">Hosteller:</span> ₹16,000 + ₹4,000/year</li>
               </ul>
             </div>
 

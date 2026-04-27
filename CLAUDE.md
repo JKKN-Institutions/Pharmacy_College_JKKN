@@ -1,5 +1,15 @@
 # JKKN Pharmacy College — Project Rules
 
+## Brand Colors
+
+| Role | Hex | Usage |
+|------|-----|-------|
+| Primary Green | `#7cb983` | Buttons, accents, icons |
+| Hover Green | `#6ba872` | Button hover state |
+| Dark Green | `#006837` | Headings, text |
+| Darkest Green | `#002309` | Dark text, deep headings |
+| Background | `#FBFBEE` | Page background (cream/beige) |
+
 ## Bug Fix Rules (MANDATORY)
 
 1. **Surgical fixes only** — Change the minimum lines needed to fix the issue. No refactoring, no "improvements", no cleanup of surrounding code

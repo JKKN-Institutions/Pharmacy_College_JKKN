@@ -66,7 +66,7 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "Are scholarships available for pharmacy students?",
-      answer: "Yes, JKKN Pharmacy College students can access scholarships from various sources including government schemes (SC/ST Post-Matric Scholarship up to ₹1.2 lakh/year, OBC scholarships, minority scholarships), merit-based scholarships for top academic performers (₹10,000-50,000/year), and financial assistance for economically weaker sections under EWS category. Students can apply for these scholarships after admission through the college scholarship cell. Many students receive fee concessions ranging from 25-100% annually."
+      answer: "Yes, Tamil Nadu government scholarships are available for eligible students. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Students can apply through the college scholarship cell after admission."
     },
     {
       question: "How are seats allocated for different categories?",
@@ -136,7 +136,8 @@ export default function AdmissionProcessPage() {
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Programme</th>
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Duration</th>
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Intake</th>
-                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Annual Fee (Approx.)</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">GQ Fee</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">MQ Fee</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
@@ -144,61 +145,71 @@ export default function AdmissionProcessPage() {
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">4 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">100 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹85,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,40,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm (Lateral Entry)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">10 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹85,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,00,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutics)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacology)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Chemistry)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Analysis)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacy Practice)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">6 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">30 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹90,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹2,75,000 (Day) / ₹3,25,000 (Hostel)</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D (Post Baccalaureate)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">10 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹90,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹70,000 (Day) / ₹1,50,000 (Hostel)</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">PhD (Pharmaceutical Sciences)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3-5 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹50,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
                   </tr>
                 </tbody>
               </table>
@@ -454,54 +465,78 @@ export default function AdmissionProcessPage() {
               <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-[10px] sm:text-xs">
                 <thead>
                   <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Fee Component</th>
-                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">B.Pharm</th>
-                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">M.Pharm</th>
-                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Pharm.D</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Programme</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">GQ</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">MQ</th>
+                    <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Remarks</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Tuition Fee (Annual)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹85,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹95,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹90,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,40,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Admission Fee (One-time)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹5,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹5,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹5,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm (Lateral Entry)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,00,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Lab Fee (Annual)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹8,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹10,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹9,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹2,75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">Dayscholar</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Library Fee (Annual)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹3,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹3,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹3,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹3,25,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">With Hostel</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">University Exam Fee</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D (PB)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹70,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">Dayscholar</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Hostel Fee (Annual, Optional)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹60,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹60,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹60,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D (PB)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,50,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">With Hostel</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Transport Fee (Annual, Optional)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹15,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹15,000</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹15,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutics)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacology)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Chemistry)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Analysis)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacy Practice)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
                   </tr>
                 </tbody>
               </table>
@@ -634,11 +669,13 @@ export default function AdmissionProcessPage() {
                     Government Scholarships
                   </h3>
                   <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
-                    <li>• <strong>SC/ST Scholarship:</strong> Full tuition fee waiver and maintenance allowance for eligible SC/ST students</li>
-                    <li>• <strong>OBC Scholarship:</strong> Partial fee concession and support for OBC category students</li>
-                    <li>• <strong>BC/MBC Scholarship:</strong> Financial assistance for BC/MBC students as per government norms</li>
-                    <li>• <strong>Minority Scholarship:</strong> For students from minority communities as per eligibility criteria</li>
-                    <li>• <strong>EBC Scholarship:</strong> Support for Economically Backward Class students</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – B.Pharm:</strong> Management Quota – ₹43,000/year + maintenance | Government Quota – As per govt norms</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – Pharm.D:</strong> Management Quota – ₹5,25,000/year + maintenance | Government Quota – As per govt norms</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Management Quota – ₹70,000/year | Government Quota – As per govt norms</li>
+                    <li>• <strong>BC/MBC/DNC Scholarship – B.Pharm:</strong> Government Counselling Quota – As per govt norms</li>
+                    <li>• <strong>BC/MBC/DNC Scholarship – Pharm.D:</strong> Day Scholar – ₹16,000/year | Hosteller – ₹16,000 + ₹4,000/year</li>
+                    <li>• <strong>BC/MBC/DNC Scholarship – M.Pharm:</strong> ₹10,000/year</li>
+                    <li>• <strong>First Graduate Scholarship – B.Pharm:</strong> Government Counselling Quota – As per govt norms (for first-generation graduates)</li>
                   </ul>
                 </div>
 

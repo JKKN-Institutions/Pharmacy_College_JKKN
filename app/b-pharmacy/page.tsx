@@ -1008,10 +1008,13 @@ export default function BPharmacyPage() {
             <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-4 sm:mb-6">Scholarships & Financial Aid</h3>
             <ul className="space-y-4 text-gray-700">
               <li>
-                <span className="text-[#006837] font-bold">Central Government:</span> National Scholarship Portal (NSP), Post Matric Scholarship for SC/ST/OBC, Central Sector Scheme
+                <span className="text-[#006837] font-bold">Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹43,000/year + maintenance | Government Quota – As per govt norms
               </li>
               <li>
-                <span className="text-[#006837] font-bold">State Government:</span> State-specific merit scholarships, Minority community scholarships, Girl child education scholarships
+                <span className="text-[#006837] font-bold">BC/MBC/DNC Scholarship:</span> Government Counselling Quota – As per govt norms
+              </li>
+              <li>
+                <span className="text-[#006837] font-bold">First Graduate Scholarship:</span> Government Counselling Quota – As per govt norms (for first-generation graduates only)
               </li>
               <li>
                 <span className="text-[#006837] font-bold">Educational Loans:</span> Public sector banks offer education loans up to ₹10 lakhs without collateral (8-12% interest)

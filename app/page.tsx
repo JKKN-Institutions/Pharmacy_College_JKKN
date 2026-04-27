@@ -195,7 +195,7 @@ export default function Home() {
             <div className="relative mt-6 lg:mt-0">
               <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/Pharmacy-Homepage-Hero-Banner-Image.png"
+                  src="/images/Pharmacy photos/IMG_6923.JPG"
                   alt="JKKN College of Pharmacy Campus, Komarapalayam"
                   width={1920}
                   height={1080}
@@ -286,7 +286,7 @@ export default function Home() {
               <div className="relative">
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
                   <Image
-                    src="/images/Pharmacy-Homepage-About-Our-Institution-Image.png"
+                    src="/images/Pharmacy photos/IMG_6912.JPG"
                     alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
                     width={800}
                     height={600}
@@ -1260,27 +1260,27 @@ export default function Home() {
           <p className="text-sm sm:text-base text-gray-600 mb-6">Annual and total fee details for all pharmacy programs at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '500px' }}>
-              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 3: Fee comparison for B.Pharm, Pharm.D, and M.Pharm programs including scholarship availability</caption>
+              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 3: Fee structure for B.Pharm, Pharm.D, and M.Pharm programs at JKKN College of Pharmacy</caption>
               <thead>
                 <tr className="bg-[#006837] text-white">
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Program</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Annual Fee</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Total Fee</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Scholarship Available</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Programme</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">GQ</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">MQ</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Remarks</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { program: 'B.Pharm', annual: '₹75,000', total: '₹3,00,000', scholarship: 'Yes (Merit & Government)' },
-                  { program: 'Pharm.D', annual: '₹80,000', total: '₹4,80,000', scholarship: 'Yes (Merit & Government)' },
-                  { program: 'M.Pharm', annual: '₹60,000', total: '₹1,20,000', scholarship: 'Yes (GATE/GPAT)' },
-                  { program: 'Ph.D', annual: 'As per university norms', total: 'Varies', scholarship: 'Yes (Fellowship available)' },
+                  { program: 'B.Pharm', gq: 'As Per Govt Norms', mq: '₹1,40,000', remarks: '' },
+                  { program: 'Pharm.D', gq: 'As Per Govt Norms', mq: '₹2,75,000 (Day) / ₹3,25,000 (Hostel)', remarks: '' },
+                  { program: 'M.Pharm', gq: 'As Per Govt Norms', mq: '₹75,000', remarks: 'All Specialisations' },
+                  { program: 'Ph.D', gq: 'As Per Govt Norms', mq: 'As per University', remarks: '' },
                 ].map((row, i) => (
                   <tr key={row.program} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                     <td className="px-4 py-3 font-medium">{row.program}</td>
-                    <td className="px-4 py-3">{row.annual}</td>
-                    <td className="px-4 py-3">{row.total}</td>
-                    <td className="px-4 py-3">{row.scholarship}</td>
+                    <td className="px-4 py-3">{row.gq}</td>
+                    <td className="px-4 py-3">{row.mq}</td>
+                    <td className="px-4 py-3">{row.remarks}</td>
                   </tr>
                 ))}
               </tbody>
