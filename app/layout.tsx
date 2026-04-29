@@ -3,6 +3,7 @@ import { Poppins } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import FooterWrapper from '@/components/FooterWrapper'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 import { OrganizationSchema } from '@/components/SchemaOrg'
 import dynamic from 'next/dynamic'
 
@@ -104,21 +105,8 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
       </head>
-      {/* Google Analytics (GA4) */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-K89Q53LBEH"
-        strategy="afterInteractive"
-      />
-      <Script id="ga4-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-K89Q53LBEH', {
-            page_path: window.location.pathname,
-          });
-        `}
-      </Script>
+      {/* Google Analytics (GA4) — tracks SPA route changes */}
+      <GoogleAnalytics />
       {/* Meta Pixel */}
       <Script id="meta-pixel" strategy="afterInteractive">
         {`
