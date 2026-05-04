@@ -1,509 +1,299 @@
 import Header from '@/components/Header'
 import Image from 'next/image'
 
+const committeeMembers = [
+  { no: '1', name: 'Dr.V.Senthil', designation: 'Principal', role: 'Chairperson' },
+  { no: '2', name: 'Dr. V. Sekar', designation: 'Professor', role: 'Coordinator' },
+  { no: '3', name: 'Dr. V. Kishor Kumar', designation: 'Associate Professor', role: 'Co-coordinator' },
+  { no: '4', name: 'Mrs. M.V. Saranya', designation: 'Associate Professor', role: 'Co-coordinator' },
+  { no: '5', name: 'Mr. S. Manojkumar', designation: 'Student', role: 'Student Members' },
+  { no: '6', name: 'Mr. M. Manikandan', designation: 'Student', role: 'Student Members' },
+  { no: '7', name: 'Ms. D. Joe Lithya', designation: 'Student', role: 'Student Members' },
+  { no: '8', name: 'Ms. R. Harshini', designation: 'Student', role: 'Student Members' },
+  { no: '8', name: 'Mr. Naveen Kumar', designation: 'NGO', role: 'Members' },
+  { no: '10', name: 'Mrs. Seetha lakshmi', designation: 'Women Hostel Warden', role: 'Member' },
+  { no: '11', name: 'Mr. A. V. Srinivas', designation: 'Men Hostel Warden', role: 'Member' },
+]
+
+const squadMembers = [
+  { no: '1', name: 'Dr. S. Ananda Thangadurai', designation: 'Vice Principal', role: 'Coordinator' },
+  { no: '2', name: 'Dr. V. Sekar', designation: 'Professor', role: 'Co-Coordinator' },
+  { no: '3', name: 'Dr. M. Vijayabaskaran', designation: 'Professor', role: 'Member' },
+  { no: '4', name: 'Dr. N. Venkateshwaramurthy', designation: 'Professor', role: 'Member' },
+  { no: '5', name: 'Mr. M. Eswara Moorthi', designation: 'Assistant Professor', role: 'Member' },
+  { no: '6', name: 'Mr. V. Vijayanandhan', designation: 'Assistant Professor', role: 'Member' },
+]
+
+function BulletItem({ text }: { text: React.ReactNode }) {
+  return (
+    <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span>{text}</span>
+    </li>
+  )
+}
+
+function StyledTable({ rows }: { rows: { no: string; name: string; designation: string; role: string }[] }) {
+  return (
+    <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+      <div className="overflow-x-auto">
+        <table className="w-full text-sm sm:text-base">
+          <thead>
+            <tr className="bg-[#006837] text-white">
+              <th className="px-6 py-4 text-center font-semibold">Sl.No</th>
+              <th className="px-6 py-4 text-center font-semibold">Name</th>
+              <th className="px-6 py-4 text-center font-semibold">Designation</th>
+              <th className="px-6 py-4 text-center font-semibold">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row, index) => (
+              <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'}>
+                <td className="px-6 py-4 text-center text-gray-700">{row.no}</td>
+                <td className="px-6 py-4 text-center text-gray-700 font-medium">{row.name}</td>
+                <td className="px-6 py-4 text-center text-gray-700">{row.designation}</td>
+                <td className="px-6 py-4 text-center text-gray-700">{row.role}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
 export default function AntiRaggingCommitteePage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-          Anti-Ragging Committee
-        </h1>
+      {/* Hero Banner */}
+      <div className="bg-[#006837]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Anti-Ragging Committee
+          </h1>
+        </div>
+      </div>
 
-        {/* Content */}
-        <div className="space-y-4 sm:space-y-6 md:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
+      <main className="flex-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-10 md:space-y-14">
+
           {/* Introduction */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Introduction</h2>
-            <p className="text-justify">
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Introduction</h2>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               The Anti-Ragging Committee at JKKN College of Pharmacy (JKKNCP) is established in compliance with the UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 and the directives of the Supreme Court of India. The committee ensures that students experience a safe, harassment-free, and inclusive learning environment.
             </p>
-          </div>
+          </section>
 
           {/* Objective */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Objective</h2>
-            <p className="text-justify mb-4">
-              The primary objective of the Anti-Ragging Committee is to:
-            </p>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Prevent and eliminate ragging in all forms within the institution.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Foster a positive and respectful campus culture that promotes student well-being and academic excellence.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Ensure strict implementation of anti-ragging policies in compliance with UGC, Pharmacy Council of India (PCI), and Supreme Court guidelines.
-                </span>
-              </li>
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Objective</h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4">The primary objective of the Anti-Ragging Committee is to:</p>
+            <ul className="space-y-3">
+              <BulletItem text="Prevent and eliminate ragging in all forms within the institution." />
+              <BulletItem text="Foster a positive and respectful campus culture that promotes student well-being and academic excellence." />
+              <BulletItem text="Ensure strict implementation of anti-ragging policies in compliance with UGC, Pharmacy Council of India (PCI), and Supreme Court guidelines." />
             </ul>
-          </div>
+          </section>
 
           {/* Scope */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Scope</h2>
-            <p className="text-justify mb-4">
-              The Anti-Ragging Committee's jurisdiction extends to:
-            </p>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  The entire campus, including classrooms, laboratories, hostels, and libraries.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Transport facilities and institutional vehicles.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Off-campus activities (study tours, internships, clinical postings, etc.).
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  Any virtual or online interactions involving students.
-                </span>
-              </li>
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Scope</h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4">The Anti-Ragging Committee&apos;s jurisdiction extends to:</p>
+            <ul className="space-y-3">
+              <BulletItem text="The entire campus, including classrooms, laboratories, hostels, and libraries." />
+              <BulletItem text="Transport facilities and institutional vehicles." />
+              <BulletItem text="Off-campus activities (study tours, internships, clinical postings, etc.)." />
+              <BulletItem text="Any virtual or online interactions involving students." />
             </ul>
-          </div>
+          </section>
 
-          {/* Composition of the Anti-Ragging Committee */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Composition of the Anti-Ragging Committee</h2>
-            <p className="text-justify mb-4">
-              As per UGC Regulations, 2009, the committee consists of:
-            </p>
-            <div className="ml-6 space-y-2 mb-4">
-              <p className="text-justify">Head of the Institution (Principal) – Chairperson</p>
-              <p className="text-justify">Senior Faculty Members – Members</p>
-              <p className="text-justify">Administrative Staff Representatives – Members</p>
-              <p className="text-justify">Student Representatives (UG & PG level) – Members</p>
-              <p className="text-justify">External Representative (NGO/Law Enforcement Officer/Media Representative) – Member</p>
-              <p className="text-justify">Warden (for hostels) – Member</p>
-            </div>
-            <p className="text-justify">
+          {/* Composition of the Committee */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Composition of the Anti-Ragging Committee</h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4">As per UGC Regulations, 2009, the committee consists of:</p>
+            <ul className="space-y-3 mb-4">
+              {[
+                'Head of the Institution (Principal) – Chairperson',
+                'Senior Faculty Members – Members',
+                'Administrative Staff Representatives – Members',
+                'Student Representatives (UG & PG level) – Members',
+                'External Representative (NGO/Law Enforcement Officer/Media Representative) – Member',
+                'Warden (for hostels) – Member',
+              ].map((item, i) => <BulletItem key={i} text={item} />)}
+            </ul>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               The tenure of committee members shall be three years, while student representatives shall serve for one academic year.
             </p>
-          </div>
+          </section>
 
-          {/* Responsibilities of the Anti-Ragging Committee */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Responsibilities of the Anti-Ragging Committee</h2>
+          {/* Responsibilities */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Responsibilities of the Anti-Ragging Committee</h2>
+            <div className="space-y-6">
 
-            {/* Prevention & Awareness */}
-            <div className="mb-6">
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Prevention & Awareness</h3>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for students and faculty.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Display anti-ragging posters and helpline numbers across the campus.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Ensure all students sign an anti-ragging affidavit as per UGC norms.
-                  </span>
-                </li>
-              </ul>
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Prevention &amp; Awareness</h3>
+                <ul className="space-y-3">
+                  <BulletItem text="Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for students and faculty." />
+                  <BulletItem text="Display anti-ragging posters and helpline numbers across the campus." />
+                  <BulletItem text="Ensure all students sign an anti-ragging affidavit as per UGC norms." />
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Policy Formulation &amp; Compliance</h3>
+                <ul className="space-y-3">
+                  <BulletItem text="Formulate and update institutional anti-ragging policies in line with UGC, PCI, and Supreme Court directives." />
+                  <BulletItem text="Ensure that the institution adopts a zero-tolerance approach towards ragging." />
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Complaint Handling &amp; Investigation</h3>
+                <ul className="space-y-3">
+                  <BulletItem text="Provide accessible and confidential channels for reporting ragging incidents." />
+                  <BulletItem text="Conduct prompt and impartial investigations into reported cases." />
+                  <BulletItem text="Maintain strict confidentiality of complainants and witnesses." />
+                </ul>
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Disciplinary Action &amp; Legal Compliance</h3>
+                <p className="text-sm sm:text-base text-gray-700 mb-3">✓ Take strict action against perpetrators, including:</p>
+                <ul className="space-y-3 ml-4 mb-3">
+                  <BulletItem text="Verbal/written warnings" />
+                  <BulletItem text="Suspension/expulsion" />
+                  <BulletItem text="Legal action under IPC Sections 323, 506, 509 (where applicable)" />
+                </ul>
+                <p className="text-sm sm:text-base text-gray-700">✓ Ensure compliance with UGC-mandated punishment guidelines for ragging.</p>
+              </div>
+
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Support &amp; Rehabilitation</h3>
+                <p className="text-sm sm:text-base text-gray-700 mb-2">✓Provide counselling and support to victims of ragging.</p>
+                <p className="text-sm sm:text-base text-gray-700">✓ Conduct behavioural reformation programmes for offenders.</p>
+              </div>
+
             </div>
+          </section>
 
-            {/* Policy Formulation & Compliance */}
-            <div className="mb-6">
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Policy Formulation & Compliance</h3>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Formulate and update institutional anti-ragging policies in line with UGC, PCI, and Supreme Court directives.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Ensure that the institution adopts a zero-tolerance approach towards ragging.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Complaint Handling & Investigation */}
-            <div className="mb-6">
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Complaint Handling & Investigation</h3>
-              <ul className="space-y-3 ml-6">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Provide accessible and confidential channels for reporting ragging incidents.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Conduct prompt and impartial investigations into reported cases.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">
-                    Maintain strict confidentiality of complainants and witnesses.
-                  </span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Disciplinary Action & Legal Compliance */}
-            <div className="mb-6">
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Disciplinary Action & Legal Compliance</h3>
-              <p className="text-justify mb-3">✓ Take strict action against perpetrators, including:</p>
-              <ul className="space-y-3 ml-12">
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">Verbal/written warnings</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">Suspension/expulsion</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span className="text-justify">Legal action under IPC Sections 323, 506, 509 (where applicable)</span>
-                </li>
-              </ul>
-              <p className="text-justify mt-3">✓ Ensure compliance with UGC-mandated punishment guidelines for ragging.</p>
-            </div>
-
-            {/* Support & Rehabilitation */}
-            <div className="mb-6">
-              <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-3">Support & Rehabilitation</h3>
-              <p className="text-justify mb-1">✓Provide counselling and support to victims of ragging.</p>
-              <p className="text-justify">✓ Conduct behavioural reformation programmes for offenders.</p>
-            </div>
-          </div>
-
-          {/* Redressal Mechanism for Ragging Complaints */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">Redressal Mechanism for Ragging Complaints</h2>
-
-            <h3 className="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-4">Step-by-Step Procedure</h3>
-
-            <div className="space-y-4 ml-6">
+          {/* Redressal Mechanism */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Redressal Mechanism for Ragging Complaints</h2>
+            <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Step-by-Step Procedure</h3>
+            <div className="space-y-5">
               <div>
-                <p className="text-justify mb-2">
+                <p className="text-sm sm:text-base text-gray-700 mb-2">
                   <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                   <strong>Step 1: Complaint Submission</strong> – Any student experiencing or witnessing ragging can file a complaint through:
                 </p>
-                <ul className="space-y-2 ml-12">
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Anti-Ragging Helpline- 8667365249 or 9361829237</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Direct approach to any committee member</span>
-                  </li>
+                <ul className="space-y-2 ml-6">
+                  <BulletItem text="Anti-Ragging Helpline- 8667365249 or 9361829237" />
+                  <BulletItem text="Direct approach to any committee member" />
                 </ul>
               </div>
-
-              <p className="text-justify">
+              <p className="text-sm sm:text-base text-gray-700">
                 <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                 <strong>Step 2: Immediate Response</strong> – The committee acknowledges receipt of the complaint within 24 to 48 hours.
               </p>
-
               <div>
-                <p className="text-justify mb-2">
+                <p className="text-sm sm:text-base text-gray-700 mb-2">
                   <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                   <strong>Step 3: Investigation Process</strong> – A detailed inquiry is conducted within 1 to 2 weeks, including:
                 </p>
-                <ul className="space-y-2 ml-12">
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Gathering evidence (written statements, CCTV footage, digital records, etc.)</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Interviewing the complainant, accused, and witnesses</span>
-                  </li>
+                <ul className="space-y-2 ml-6">
+                  <BulletItem text="Gathering evidence (written statements, CCTV footage, digital records, etc.)" />
+                  <BulletItem text="Interviewing the complainant, accused, and witnesses" />
                 </ul>
               </div>
-
               <div>
-                <p className="text-justify mb-2">
+                <p className="text-sm sm:text-base text-gray-700 mb-2">
                   <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
-                  <strong>Step 4: Decision & Disciplinary Action</strong> – Based on the investigation:
+                  <strong>Step 4: Decision &amp; Disciplinary Action</strong> – Based on the investigation:
                 </p>
-                <ul className="space-y-2 ml-12">
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Minor offenses → Counselling, warnings, community service</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-justify">Major offenses → Suspension, expulsion, legal action</span>
-                  </li>
+                <ul className="space-y-2 ml-6">
+                  <BulletItem text="Minor offenses → Counselling, warnings, community service" />
+                  <BulletItem text="Major offenses → Suspension, expulsion, legal action" />
                 </ul>
               </div>
-
-              <p className="text-justify">
+              <p className="text-sm sm:text-base text-gray-700">
                 <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                 <strong>Step 5: Outcome Communication</strong> – The final decision is communicated to all parties within 2 to 4 weeks.
               </p>
-
-              <p className="text-justify">
+              <p className="text-sm sm:text-base text-gray-700">
                 <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
                 <strong>Step 6: Post-Resolution Monitoring</strong> – Follow-up to ensure that no retaliation or victimization occurs.
               </p>
             </div>
-          </div>
+          </section>
 
-          {/* Anti-Ragging Preventive Measures */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Preventive Measures</h2>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  <strong>Mandatory Affidavit Submission</strong> – Every student and parent must sign an anti-ragging affidavit during admission.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  <strong>Surprise Inspections & Monitoring</strong> – Regular surprise checks in hostels, canteens, and other areas.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  <strong>Anonymous Reporting System</strong> – Online/anonymous complaint filing mechanisms.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">
-                  <strong>Emergency Helpline & Counselling Services</strong> – A dedicated 24/7 anti-ragging helpline and counselling support for affected students.
-                </span>
-              </li>
+          {/* Preventive Measures */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Anti-Ragging Preventive Measures</h2>
+            <ul className="space-y-3">
+              <BulletItem text={<><strong>Mandatory Affidavit Submission</strong> – Every student and parent must sign an anti-ragging affidavit during admission.</>} />
+              <BulletItem text={<><strong>Surprise Inspections &amp; Monitoring</strong> – Regular surprise checks in hostels, canteens, and other areas.</>} />
+              <BulletItem text={<><strong>Anonymous Reporting System</strong> – Online/anonymous complaint filing mechanisms.</>} />
+              <BulletItem text={<><strong>Emergency Helpline &amp; Counselling Services</strong> – A dedicated 24/7 anti-ragging helpline and counselling support for affected students.</>} />
             </ul>
-          </div>
+          </section>
 
-          {/* Punishment & Consequences for Ragging */}
-          <div>
-            <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Punishment & Consequences for Ragging</h2>
-            <p className="text-justify mb-4">According to UGC Regulations, 2009, ragging may result in:</p>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Suspension from classes and campus activities.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Debarring from examinations and placements.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Cancellation of admission and rustication.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Legal prosecution under IPC Sections 323, 506, 509 (where applicable).</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Institutional liability for non-compliance with anti-ragging norms.</span>
-              </li>
+          {/* Punishment */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Punishment &amp; Consequences for Ragging</h2>
+            <p className="text-sm sm:text-base text-gray-700 mb-4">According to UGC Regulations, 2009, ragging may result in:</p>
+            <ul className="space-y-3">
+              <BulletItem text="Suspension from classes and campus activities." />
+              <BulletItem text="Debarring from examinations and placements." />
+              <BulletItem text="Cancellation of admission and rustication." />
+              <BulletItem text="Legal prosecution under IPC Sections 323, 506, 509 (where applicable)." />
+              <BulletItem text="Institutional liability for non-compliance with anti-ragging norms." />
             </ul>
-          </div>
+          </section>
 
-          {/* Divider */}
-          <div className="border-t-2 border-gray-300 my-4 sm:my-6 md:my-8"></div>
+          {/* Zero Tolerance Statement */}
+          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
+            <p className="text-sm sm:text-base text-gray-700 text-center font-medium leading-relaxed">
+              JKKN College of Pharmacy maintains zero tolerance towards ragging and is committed to providing a safe, respectful, and inclusive academic environment for all students.
+            </p>
+          </section>
 
-          <p className="text-justify text-center font-medium">
-            JKKN College of Pharmacy maintains zero tolerance towards ragging and is committed to providing a safe, respectful, and inclusive academic environment for all students.
-          </p>
-
-          {/* Mechanism for Anti-ragging in JKKNCP */}
-          <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
-            <div className="flex justify-center mb-4 sm:mb-6 md:mb-8">
+          {/* Mechanism Image */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
+            <div className="flex justify-center">
               <Image
                 src="/images/Mechanism-for-Anti-ragging-in-JKKNCP.png"
                 alt="Mechanism for Anti-ragging in JKKNCP"
                 width={1200}
                 height={600}
-                className="w-full max-w-5xl h-auto"
+                className="w-full max-w-5xl h-auto rounded-2xl"
               />
             </div>
-          </div>
+          </section>
 
-          {/* Composition */}
-          <div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">Composition</h2>
+          {/* Composition Tables */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">Composition</h2>
 
-            {/* Anti-Ragging Committee Table */}
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Committee</h3>
-            <div className="overflow-x-auto mb-4 sm:mb-6 md:mb-8">
-              <table className="w-full border-collapse border border-gray-400">
-                <thead>
-                  <tr className="bg-gray-200">
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Sl.No</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Name</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Designation</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Role</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">1</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr.V.Senthil</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Principal</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Chairperson</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">2</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. V. Sekar</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Coordinator</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">3</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. V. Kishor Kumar</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Associate Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Co-coordinator</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">4</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mrs. M.V. Saranya</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Associate Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Co-coordinator</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">5</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. S. Manojkumar</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Members</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">6</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. M. Manikandan</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Members</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">7</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Ms. D. Joe Lithya</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Members</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">8</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Ms. R. Harshini</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Members</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">8</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. Naveen Kumar</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">NGO</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Members</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">10</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mrs. Seetha lakshmi</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Women Hostel Warden</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">11</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. A. V. Srinivas</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Men Hostel Warden</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="space-y-10">
+              <div>
+                <h3 className="text-lg sm:text-xl font-bold text-[#006837] mb-4">Anti-Ragging Committee</h3>
+                <StyledTable rows={committeeMembers} />
+              </div>
+
+              <div>
+                <h3 className="text-lg sm:text-xl font-bold text-[#006837] mb-4">Anti-Ragging Squad</h3>
+                <StyledTable rows={squadMembers} />
+              </div>
             </div>
+          </section>
 
-            {/* Anti-Ragging Squad Table */}
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-4">Anti-Ragging Squad</h3>
-            <div className="overflow-x-auto mb-4 sm:mb-6 md:mb-8">
-              <table className="w-full border-collapse border border-gray-400">
-                <thead>
-                  <tr className="bg-gray-200">
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Sl.No</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Name</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Designation</th>
-                    <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">Role</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">1</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. S. Ananda Thangadurai</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Vice Principal</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Coordinator</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">2</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. V. Sekar</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Co-Coordinator</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">3</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. M. Vijayabaskaran</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">4</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. N. Venkateshwaramurthy</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                  <tr className="bg-[#FBFBEE]">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">5</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. M. Eswara Moorthi</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">6</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. V. Vijayanandhan</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                    <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
         </div>
-      </div>
-
+      </main>
     </div>
   )
 }

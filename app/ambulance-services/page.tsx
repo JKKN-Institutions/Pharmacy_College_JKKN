@@ -1,49 +1,61 @@
+'use client'
+
 import Header from '@/components/Header'
+import { CheckCircle } from 'lucide-react'
 
 export default function AmbulanceServicesPage() {
   return (
-    <div className="bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-6 sm:mb-8 md:mb-12">
-          Ambulance Services
-        </h1>
+      {/* Page Header Banner */}
+      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+            Facilities
+          </p>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Ambulance Services
+          </h1>
+          <div className="mt-5 flex justify-center">
+            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+          </div>
+        </div>
+      </section>
 
-        {/* Content Layout */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-start">
-          {/* Left Side - Image */}
-          <div className="w-full">
-            <div className="w-full max-w-md bg-gray-200 relative overflow-hidden rounded-lg">
-              <img
-                src="/images/ambulance.webp"
-                alt="Ambulance Service"
-                className="w-full h-auto object-cover"
-              />
+      {/* Main Content */}
+      <main className="flex-1 py-12 sm:py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+          <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
+            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-6" />
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div className="w-full overflow-hidden rounded-xl">
+                <img
+                  src="/images/ambulance.webp"
+                  alt="Ambulance Service"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              <ul className="space-y-6">
+                <li className="flex items-start gap-4">
+                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <span className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    The primary function of an ambulance service is to provide on-site medical care and transportation to the nearest hospital or medical facility.
+                  </span>
+                </li>
+                <li className="flex items-start gap-4">
+                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <span className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                    Ambulance services are staffed by trained medical professionals, such as emergency medical technicians (EMTs) and paramedics, who are trained to assess and manage a wide range of medical emergencies.
+                  </span>
+                </li>
+              </ul>
             </div>
           </div>
 
-          {/* Right Side - Content */}
-          <div className="space-y-6">
-            <ul className="space-y-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg text-justify leading-relaxed">
-                  The primary function of an ambulance service is to provide on-site medical care and transportation to the nearest hospital or medical facility.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-4 flex-shrink-0"></span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg text-justify leading-relaxed">
-                  Ambulance services are staffed by trained medical professionals, such as emergency medical technicians (EMTs) and paramedics, who are trained to assess and manage a wide range of medical emergencies.
-                </span>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
+      </main>
 
     </div>
   )

@@ -1,119 +1,96 @@
 import Header from '@/components/Header'
 
+const members = [
+  { name: 'Dr. V. Senthil', nature: 'Principal', role: 'Convener' },
+  { name: 'Dr. V.P. Dharani Shrinivasan', nature: 'Assistant Professor', role: 'Secretary' },
+  { name: 'Mr. V. Venkateswaran', nature: 'Assistant Professor', role: 'Member' },
+  { name: 'Mr. V. Vijayanandhan', nature: 'Assistant Professor', role: 'Member' },
+  { name: 'Ms. K.M. Monisha', nature: 'Assistant Professor', role: 'Member' },
+  { name: 'Mr. S. Sathish B.Sc, M.Pet., (NIAS Coach)', nature: 'Physical Director', role: 'Physical Director' },
+  { name: 'Student Representatives', nature: 'One member from each year', role: 'Student Members' },
+]
+
 export default function SportsCommitteePage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-          Sports Committee
-        </h1>
-
-        {/* Content */}
-        <div className="space-y-4 sm:space-y-6 text-gray-700 leading-relaxed text-sm sm:text-base">
-          {/* Introduction */}
-          <p className="text-justify">
-            The Sports Committee was established to organize and coordinate sports events at JKKN College of Pharmacy.
-          </p>
-
-          {/* Second Paragraph */}
-          <p className="text-justify">
-            To ensure the smooth arrangement and conduct of sports events at the JKKN College of Pharmacy, the following Sports Committee has been formulated:
-          </p>
-
-          {/* Committee Table */}
-          <div className="overflow-x-auto my-4 sm:my-6 md:my-8">
-            <table className="w-full border-collapse border border-gray-400">
-              <thead>
-                <tr className="bg-gray-200">
-                  <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">NAME</th>
-                  <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">NATURE</th>
-                  <th className="border border-gray-400 px-6 py-4 text-center font-bold text-gray-800">ROLE</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. V. Senthil</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Principal</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Convener</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Dr. V.P. Dharani Shrinivasan</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Secretary</td>
-                </tr>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. V. Venkateswaran</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. V. Vijayanandhan</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Ms. K.M. Monisha</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Assistant Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Mr. S. Sathish B.Sc, M.Pet., (NIAS Coach)</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Physical Director</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Physical Director</td>
-                </tr>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Representatives</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">One member from each year</td>
-                  <td className="border border-gray-400 px-6 py-4 text-center text-gray-700">Student Members</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          {/* Key Objectives Heading */}
-          <p className="text-justify font-semibold">
-            The key objectives of the Sports Committee of JKKN College of Pharmacy are as follows:
-          </p>
-
-          {/* Main Objective */}
-          <p className="text-justify">
-            To provide a platform for students to go beyond their academic quest and explore their talents in sports and games
-          </p>
-
-          {/* Bullet Points */}
-          <ul className="space-y-3 ml-6">
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span className="text-justify">
-                To provide healthy leisure time for students by encouraging them to involve in sports and games
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span className="text-justify">
-                To add flavour to the college by organizing intra college sports meet annually with major events in sports and games
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span className="text-justify">
-                To provide opportunities for all the interested students to participate in sports and games
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-              <span className="text-justify">
-                To screen and select students with high spirit in sports and games, and subsequently encourage them to participate in inter college sports competitions
-              </span>
-            </li>
-          </ul>
+      {/* Hero Banner */}
+      <div className="bg-[#006837]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Sports Committee
+          </h1>
         </div>
       </div>
 
+      <main className="flex-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-12 md:space-y-16">
+
+          {/* Introduction */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              The Sports Committee was established to organize and coordinate sports events at JKKN College of Pharmacy.
+            </p>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              To ensure the smooth arrangement and conduct of sports events at the JKKN College of Pharmacy, the following Sports Committee has been formulated:
+            </p>
+          </section>
+
+          {/* Committee Table */}
+          <section>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm sm:text-base">
+                  <thead>
+                    <tr className="bg-[#006837] text-white">
+                      <th className="px-6 py-4 text-center font-semibold">NAME</th>
+                      <th className="px-6 py-4 text-center font-semibold">NATURE</th>
+                      <th className="px-6 py-4 text-center font-semibold">ROLE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {members.map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'}>
+                        <td className="px-6 py-4 text-center text-gray-700 font-medium">{row.name}</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{row.nature}</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{row.role}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* Key Objectives */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+              Key Objectives
+            </h2>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+              <p className="text-sm sm:text-base text-gray-700 font-semibold mb-5 text-justify">
+                The key objectives of the Sports Committee of JKKN College of Pharmacy are as follows:
+              </p>
+              <ul className="space-y-4">
+                {[
+                  'To provide a platform for students to go beyond their academic quest and explore their talents in sports and games',
+                  'To provide healthy leisure time for students by encouraging them to involve in sports and games',
+                  'To add flavour to the college by organizing intra college sports meet annually with major events in sports and games',
+                  'To provide opportunities for all the interested students to participate in sports and games',
+                  'To screen and select students with high spirit in sports and games, and subsequently encourage them to participate in inter college sports competitions',
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+
+        </div>
+      </main>
     </div>
   )
 }

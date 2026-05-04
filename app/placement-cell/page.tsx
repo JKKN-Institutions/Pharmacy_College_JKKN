@@ -9,7 +9,7 @@ export default function PlacementCellPage() {
       {/* Hero Section */}
       <section className="bg-[#006837] text-white py-10 sm:py-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Placement Cell — JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-green-100 max-w-3xl mx-auto leading-relaxed">

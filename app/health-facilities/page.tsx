@@ -1,199 +1,166 @@
+'use client'
+
 import Header from '@/components/Header'
+import { CheckCircle } from 'lucide-react'
 
 export default function HealthFacilitiesPage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-4 sm:mb-6 md:mb-8">
-          Health Facilities
-        </h1>
-
-        {/* Content */}
-        <div className="space-y-6 sm:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base md:text-lg">
-          {/* Subtitle */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black">
-            Comprehensive Healthcare Services for Student & Staff Well-Being
-          </h2>
-
-          {/* Introduction Paragraph */}
-          <p className="text-justify">
-            At JKKN College of Pharmacy (JKKNCP), the health and well-being of students, faculty, and staff is prioritized by providing comprehensive healthcare facilities within the campus. The college's well-equipped medical services ensure timely medical assistance, preventive care, and emergency support.
+      {/* Page Header Banner */}
+      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+            Facilities
           </p>
-
-          {/* Section 1: On-Campus Health & Medical Services */}
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              1. On-Campus Health & Medical Services
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Fully Equipped Medical Clinics</strong> – Staffed with qualified physicians and trained nurses for regular medical check-ups and first aid.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Ambulance Service (24/7)</strong> – Ensuring emergency transportation to nearby hospitals.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Dedicated Dental Hospital</strong> – Offering dental check-ups, oral hygiene treatments, and specialised dental care for students and staff.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Jan Aushadhi Pharmacy Store</strong> – Providing affordable generic medicines as part of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Emergency First Aid Stations</strong> – Strategically placed across the campus for quick medical response.
-                </span>
-              </li>
-            </ul>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Health Facilities
+          </h1>
+          <div className="mt-5 flex justify-center">
+            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
           </div>
-
-          {/* Section 2: Preventive Healthcare & Wellness Initiatives */}
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              2. Preventive Healthcare & Wellness Initiatives
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Routine Health Check-ups</strong> – Regular screenings for students and faculty to monitor overall health.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Vaccination Drives</strong> – Organizing COVID-19, Hepatitis, Flu, and HPV vaccinations in collaboration with health authorities.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Mental Health & Counselling Services</strong> – Professional counselors and psychologists to support mental well-being.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Dental & Eye Care Camps</strong> – Periodic visits by dentists and ophthalmologists for preventive care.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Sanitary Napkin Vending Machines & Disposal Units</strong> – Ensuring menstrual hygiene support for female students.
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Section 3: Hygiene & Safety Measures */}
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              3. Hygiene & Safety Measures
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>RO Drinking Water Facilities</strong> – Safe and clean drinking water across the campus.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Well-Maintained Washrooms</strong> – Separate hygienic restrooms for students and staff.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Strict Sanitation Protocols</strong> – Regular disinfection of classrooms, labs, hostels, and common areas.
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Section 4: Student Health Insurance & Emergency Response */}
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              4. Student Health Insurance & Emergency Response
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Health Insurance Coverage</strong> – Offering group health insurance for students and staff, covering medical needs and hospitalization.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>24/7 Ambulance Support</strong> – Available for <strong>medical emergencies and referrals</strong> to higher medical centers.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Medical ID Cards & Health Records</strong> – Digital records for easy access to medical history.
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Section 5: Holistic Health & Wellness Programmes */}
-          <div>
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mb-4">
-              5. Holistic Health & Wellness Programmes
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Yoga & Wellness Sessions</strong> – Promoting physical and mental well-being.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Awareness Programmes on Nutrition & Lifestyle</strong> – Educating students on healthy living and disease prevention.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700">
-                  <strong>Workshops on First Aid & Basic Life Support (BLS)</strong> – Training students and staff in emergency response techniques.
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Final Paragraph */}
-          <p className="text-justify mt-8">
-            At JKKN College of Pharmacy, the institution is committed to providing comprehensive healthcare support, ensuring a safe, healthy, and conducive learning environment for all.
-          </p>
         </div>
-      </div>
+      </section>
+
+      {/* Main Content */}
+      <main className="flex-1 py-12 sm:py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
+
+          {/* Intro Card */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
+            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+              Comprehensive Healthcare Services for Student &amp; Staff Well-Being
+            </h2>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              At JKKN College of Pharmacy (JKKNCP), the health and well-being of students, faculty, and staff is prioritized by providing comprehensive healthcare facilities within the campus. The college's well-equipped medical services ensure timely medical assistance, preventive care, and emergency support.
+            </p>
+          </div>
+
+          {/* Sections Card */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12 space-y-8">
+
+            {/* Section 1 */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                1. On-Campus Health &amp; Medical Services
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  <><strong>Fully Equipped Medical Clinics</strong> – Staffed with qualified physicians and trained nurses for regular medical check-ups and first aid.</>,
+                  <><strong>Ambulance Service (24/7)</strong> – Ensuring emergency transportation to nearby hospitals.</>,
+                  <><strong>Dedicated Dental Hospital</strong> – Offering dental check-ups, oral hygiene treatments, and specialised dental care for students and staff.</>,
+                  <><strong>Jan Aushadhi Pharmacy Store</strong> – Providing affordable generic medicines as part of the Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP).</>,
+                  <><strong>Emergency First Aid Stations</strong> – Strategically placed across the campus for quick medical response.</>,
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                    <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="border-t border-gray-100" />
+
+            {/* Section 2 */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                2. Preventive Healthcare &amp; Wellness Initiatives
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  <><strong>Routine Health Check-ups</strong> – Regular screenings for students and faculty to monitor overall health.</>,
+                  <><strong>Vaccination Drives</strong> – Organizing COVID-19, Hepatitis, Flu, and HPV vaccinations in collaboration with health authorities.</>,
+                  <><strong>Mental Health &amp; Counselling Services</strong> – Professional counselors and psychologists to support mental well-being.</>,
+                  <><strong>Dental &amp; Eye Care Camps</strong> – Periodic visits by dentists and ophthalmologists for preventive care.</>,
+                  <><strong>Sanitary Napkin Vending Machines &amp; Disposal Units</strong> – Ensuring menstrual hygiene support for female students.</>,
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                    <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="border-t border-gray-100" />
+
+            {/* Section 3 */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                3. Hygiene &amp; Safety Measures
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  <><strong>RO Drinking Water Facilities</strong> – Safe and clean drinking water across the campus.</>,
+                  <><strong>Well-Maintained Washrooms</strong> – Separate hygienic restrooms for students and staff.</>,
+                  <><strong>Strict Sanitation Protocols</strong> – Regular disinfection of classrooms, labs, hostels, and common areas.</>,
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                    <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="border-t border-gray-100" />
+
+            {/* Section 4 */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                4. Student Health Insurance &amp; Emergency Response
+              </h3>
+              <ul className="space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <span className="text-sm sm:text-base text-gray-700"><strong>Health Insurance Coverage</strong> – Offering group health insurance for students and staff, covering medical needs and hospitalization.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <span className="text-sm sm:text-base text-gray-700"><strong>24/7 Ambulance Support</strong> – Available for <strong>medical emergencies and referrals</strong> to higher medical centers.</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <span className="text-sm sm:text-base text-gray-700"><strong>Medical ID Cards &amp; Health Records</strong> – Digital records for easy access to medical history.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-t border-gray-100" />
+
+            {/* Section 5 */}
+            <div>
+              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                5. Holistic Health &amp; Wellness Programmes
+              </h3>
+              <ul className="space-y-3">
+                {[
+                  <><strong>Yoga &amp; Wellness Sessions</strong> – Promoting physical and mental well-being.</>,
+                  <><strong>Awareness Programmes on Nutrition &amp; Lifestyle</strong> – Educating students on healthy living and disease prevention.</>,
+                  <><strong>Workshops on First Aid &amp; Basic Life Support (BLS)</strong> – Training students and staff in emergency response techniques.</>,
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-3">
+                    <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                    <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="border-t border-gray-100" />
+
+            {/* Closing Paragraph */}
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              At JKKN College of Pharmacy, the institution is committed to providing comprehensive healthcare support, ensuring a safe, healthy, and conducive learning environment for all.
+            </p>
+
+          </div>
+
+        </div>
+      </main>
 
     </div>
   )

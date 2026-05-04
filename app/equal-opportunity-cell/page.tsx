@@ -1,137 +1,131 @@
 import Header from '@/components/Header'
 
+const guidelines = [
+  {
+    title: 'Non-Discrimination Policy',
+    desc: 'Ensures a safe, inclusive campus by preventing discrimination based on gender, caste, religion, disability, or socioeconomic status.',
+  },
+  {
+    title: 'Equal Access to Resources & Opportunities',
+    desc: 'Facilitates fair academic, extracurricular, and professional opportunities with necessary support for individuals with disabilities.',
+  },
+  {
+    title: 'Complaint Redressal Mechanism',
+    desc: 'Establishes a transparent system for addressing discrimination complaints, ensuring timely resolution.',
+  },
+  {
+    title: 'Awareness & Sensitization Initiatives',
+    desc: 'Conducts training, seminars, and workshops to promote diversity, inclusion, and equal opportunity.',
+  },
+  {
+    title: 'Policy Implementation & Review',
+    desc: 'Regularly updates policies, collects feedback, and enhances inclusivity efforts.',
+  },
+]
+
+const members = [
+  { no: '1', name: 'Dr. S. Jeevanandham', designation: 'Professor', role: 'Convenor' },
+  { no: '2', name: 'Mrs. M.V. Saranya', designation: 'Associate Professor', role: 'Member' },
+  { no: '3', name: 'Mrs. P. Devi', designation: 'Associate Professor', role: 'Member' },
+  { no: '4', name: 'Dr. R. Revanth', designation: 'Associate Professor', role: 'Member' },
+  { no: '5', name: 'Mrs. K. Kanagapriya', designation: 'Associate Professor', role: 'Member' },
+]
+
 export default function EqualOpportunityCellPage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-          Equal Opportunity Cell (Eoc)
-        </h1>
-
-        {/* Content */}
-        <div className="space-y-4 sm:space-y-6 md:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
-          {/* Introduction */}
-          <p className="text-justify">
-            At <strong>JKKNCP</strong>, the <strong>Equal Opportunity Cell (EOC)</strong> ensures a fair, inclusive, and non-discriminatory environment where every individual has equal access to opportunities, resources, and institutional support.
-          </p>
-
-          {/* Guidelines Section */}
-          <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Guidelines:</h2>
-            <ul className="space-y-4">
-              <li>
-                <h3 className="font-bold text-gray-800">Non-Discrimination Policy</h3>
-                <p className="text-justify mt-1">
-                  Ensures a safe, inclusive campus by preventing discrimination based on gender, caste, religion, disability, or socioeconomic status.
-                </p>
-              </li>
-              <li>
-                <h3 className="font-bold text-gray-800">Equal Access to Resources & Opportunities</h3>
-                <p className="text-justify mt-1">
-                  Facilitates fair academic, extracurricular, and professional opportunities with necessary support for individuals with disabilities.
-                </p>
-              </li>
-              <li>
-                <h3 className="font-bold text-gray-800">Complaint Redressal Mechanism</h3>
-                <p className="text-justify mt-1">
-                  Establishes a transparent system for addressing discrimination complaints, ensuring timely resolution.
-                </p>
-              </li>
-              <li>
-                <h3 className="font-bold text-gray-800">Awareness & Sensitization Initiatives</h3>
-                <p className="text-justify mt-1">
-                  Conducts training, seminars, and workshops to promote diversity, inclusion, and equal opportunity.
-                </p>
-              </li>
-              <li>
-                <h3 className="font-bold text-gray-800">Policy Implementation & Review</h3>
-                <p className="text-justify mt-1">
-                  Regularly updates policies, collects feedback, and enhances inclusivity efforts.
-                </p>
-              </li>
-            </ul>
-          </div>
-
-          {/* Objectives Section */}
-          <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Objectives:</h2>
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Fosters a welcoming environment and encourages representation of marginalized groups.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Adheres to national and institutional equal opportunity laws and policies.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Organizes workshops and discussions on diversity, social justice, and equity.</span>
-              </li>
-              <li className="flex items-start">
-                <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                <span className="text-justify">Evaluates policies and implements reforms to enhance fairness and accessibility.</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Closing Statement */}
-          <p className="text-justify">
-            The <strong>Equal Opportunity Cell</strong> at <strong>JKKNCP</strong> plays a pivotal role in shaping an environment where <strong>every individual is valued, supported, and empowered to succeed</strong>.
-          </p>
-
-          {/* Committee Table */}
-          <div className="overflow-x-auto mt-4 sm:mt-6 md:mt-8">
-            <table className="w-full border-collapse border border-gray-400">
-              <thead>
-                <tr className="bg-gray-200">
-                  <th className="border border-gray-400 px-6 py-4 text-left font-bold text-gray-800">Sl. No.</th>
-                  <th className="border border-gray-400 px-6 py-4 text-left font-bold text-gray-800">Name of the Member</th>
-                  <th className="border border-gray-400 px-6 py-4 text-left font-bold text-gray-800">Designation</th>
-                  <th className="border border-gray-400 px-6 py-4 text-left font-bold text-gray-800">Role</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">1</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Dr. S. Jeevanandham</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Convenor</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">2</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Mrs. M.V. Saranya</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Associate Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">3</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Mrs. P. Devi</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Associate Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">4</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Dr. R. Revanth</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Associate Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Member</td>
-                </tr>
-                <tr className="bg-[#FBFBEE]">
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">5</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Mrs. K. Kanagapriya</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Associate Professor</td>
-                  <td className="border border-gray-400 px-6 py-4 text-gray-700">Member</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+      {/* Hero Banner */}
+      <div className="bg-[#006837]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Equal Opportunity Cell (Eoc)
+          </h1>
         </div>
       </div>
 
+      <main className="flex-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-12 md:space-y-16">
+
+          {/* Introduction */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              At <strong>JKKNCP</strong>, the <strong>Equal Opportunity Cell (EOC)</strong> ensures a fair, inclusive, and non-discriminatory environment where every individual has equal access to opportunities, resources, and institutional support.
+            </p>
+          </section>
+
+          {/* Guidelines */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">Guidelines:</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+              {guidelines.map((item, index) => (
+                <div key={index} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6 flex flex-col gap-2 hover:shadow-md transition-shadow duration-200">
+                  <div className="w-8 h-1 rounded-full bg-[#7cb983] mb-1" />
+                  <h3 className="text-sm sm:text-base font-semibold text-[#006837]">{item.title}</h3>
+                  <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* Objectives */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Objectives:</h2>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+              <ul className="space-y-4">
+                {[
+                  'Fosters a welcoming environment and encourages representation of marginalized groups.',
+                  'Adheres to national and institutional equal opportunity laws and policies.',
+                  'Organizes workshops and discussions on diversity, social justice, and equity.',
+                  'Evaluates policies and implements reforms to enhance fairness and accessibility.',
+                ].map((item, index) => (
+                  <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+
+          {/* Closing Statement */}
+          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              The <strong>Equal Opportunity Cell</strong> at <strong>JKKNCP</strong> plays a pivotal role in shaping an environment where <strong>every individual is valued, supported, and empowered to succeed</strong>.
+            </p>
+          </section>
+
+          {/* Committee Table */}
+          <section>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm sm:text-base">
+                  <thead>
+                    <tr className="bg-[#006837] text-white">
+                      <th className="px-6 py-4 text-left font-semibold">Sl. No.</th>
+                      <th className="px-6 py-4 text-left font-semibold">Name of the Member</th>
+                      <th className="px-6 py-4 text-left font-semibold">Designation</th>
+                      <th className="px-6 py-4 text-left font-semibold">Role</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {members.map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'}>
+                        <td className="px-6 py-4 text-gray-700">{row.no}</td>
+                        <td className="px-6 py-4 text-gray-700 font-medium">{row.name}</td>
+                        <td className="px-6 py-4 text-gray-700">{row.designation}</td>
+                        <td className="px-6 py-4 text-gray-700">{row.role}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+        </div>
+      </main>
     </div>
   )
 }

@@ -1,285 +1,212 @@
+'use client'
+
 import Header from '@/components/Header'
+import { CheckCircle } from 'lucide-react'
 
 export default function HostelPage() {
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Boys Hostel Section */}
-        <div className="mb-6 sm:mb-8 md:mb-12">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
-            Boys Hostel
-          </h1>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-start">
-            {/* Boys Hostel Image */}
-            <div className="w-full">
-              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg shadow-lg">
-                <img
-                  src="/images/hostel-1.webp"
-                  alt="Boys Hostel"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-
-            {/* Boys Hostel Content */}
-            <div>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Experience contemporary living at the JKKN hostel, complete with well-maintained amenities and pristine, cozy beds.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    The restrooms are maintained with high standards of cleanliness, ensuring comfort and hygiene.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Brighten up your study sessions with well-ventilated rooms, flooded with ample natural light.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Unwind and relax in the recreation rooms equipped with TVs, the perfect entertainment escape after a long day.
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* Girls Hostel Section */}
-        <div className="mb-6 sm:mb-8 md:mb-12">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2d5f2e] mb-4 sm:mb-6 md:mb-8">
-            Girls Hostel
-          </h2>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 md:gap-8 items-start">
-            {/* Girls Hostel Image */}
-            <div className="w-full">
-              <div className="w-full aspect-[4/3] bg-gray-200 relative overflow-hidden rounded-lg shadow-lg">
-                <img
-                  src="/images/hostel-2.webp"
-                  alt="Girls Hostel"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-            </div>
-
-            {/* Girls Hostel Content */}
-            <div>
-              <ul className="space-y-4">
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    Experience a melting pot of cultures and diverse backgrounds, blending together for an enriching and unforgettable adventure!
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-black mr-3 mt-1">■</span>
-                  <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                    UIT girl's hostel "Thendral Illam" is set amidst the green campus of UIT and has distinct features that foster the right kind of environment for enriching the personality, academic performance or any other developmental pursuits
-                  </span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        {/* JKKN College of Pharmacy Hostel Facilities Section */}
-        <div className="mb-6 sm:mb-8 md:mb-12">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-black mb-4 sm:mb-6">
-            JKKN College of Pharmacy Hostel Facilities
-          </h2>
-
-          <p className="text-gray-700 text-sm sm:text-base md:text-lg leading-relaxed mb-4 sm:mb-6 md:mb-8">
-            Welcome to JKKN College of Pharmacy's hostel accommodations, designed to provide learners with a comfortable and conducive living environment during their academic journey.
+      {/* Page Header Banner */}
+      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+            Facilities
           </p>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Hostel
+          </h1>
+          <div className="mt-5 flex justify-center">
+            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+          </div>
+        </div>
+      </section>
 
-          {/* Accommodation */}
-          <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
-              Accommodation
-            </h3>
+      {/* Main Content */}
+      <main className="flex-1 py-12 sm:py-16 md:py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
 
-            <p className="text-gray-700 text-sm sm:text-base md:text-lg font-semibold mb-4">
-              The hostel facilities feature:
+          {/* Boys Hostel Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="bg-[#006837] px-8 py-5">
+              <h2 className="text-base sm:text-lg font-bold text-white">Boys Hostel</h2>
+            </div>
+            <div className="p-8 sm:p-10 md:p-12">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img
+                    src="/images/hostel-1.webp"
+                    alt="Boys Hostel"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <ul className="space-y-4">
+                  {[
+                    'Experience contemporary living at the JKKN hostel, complete with well-maintained amenities and pristine, cozy beds.',
+                    'The restrooms are maintained with high standards of cleanliness, ensuring comfort and hygiene.',
+                    'Brighten up your study sessions with well-ventilated rooms, flooded with ample natural light.',
+                    'Unwind and relax in the recreation rooms equipped with TVs, the perfect entertainment escape after a long day.',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-4">
+                      <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Girls Hostel Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="bg-[#006837] px-8 py-5">
+              <h2 className="text-base sm:text-lg font-bold text-white">Girls Hostel</h2>
+            </div>
+            <div className="p-8 sm:p-10 md:p-12">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img
+                    src="/images/hostel-2.webp"
+                    alt="Girls Hostel"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <ul className="space-y-4">
+                  {[
+                    'Experience a melting pot of cultures and diverse backgrounds, blending together for an enriching and unforgettable adventure!',
+                    'UIT girl\'s hostel "Thendral Illam" is set amidst the green campus of UIT and has distinct features that foster the right kind of environment for enriching the personality, academic performance or any other developmental pursuits',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-4">
+                      <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Hostel Facilities Card */}
+          <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
+            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-2">
+              JKKN College of Pharmacy Hostel Facilities
+            </h2>
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-8">
+              Welcome to JKKN College of Pharmacy's hostel accommodations, designed to provide learners with a comfortable and conducive living environment during their academic journey.
             </p>
 
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Separate hostels for boys and girls, with the girls' hostel conveniently located within the campus premises
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Spacious and well-ventilated rooms equipped with comfortable beds, study tables, and ample storage space
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Private bathrooms attached to each room ensuring privacy and convenience
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  24/7 high-speed Wi-Fi connectivity throughout the hostels to support academic needs.
-                </span>
-              </li>
-            </ul>
+            <div className="space-y-8">
+
+              {/* Accommodation */}
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-2 pb-2 border-b border-[#7cb983]/30">
+                  Accommodation
+                </h3>
+                <p className="text-sm sm:text-base text-gray-700 font-semibold mb-4">
+                  The hostel facilities feature:
+                </p>
+                <ul className="space-y-3">
+                  {[
+                    'Separate hostels for boys and girls, with the girls\' hostel conveniently located within the campus premises',
+                    'Spacious and well-ventilated rooms equipped with comfortable beds, study tables, and ample storage space',
+                    'Private bathrooms attached to each room ensuring privacy and convenience',
+                    '24/7 high-speed Wi-Fi connectivity throughout the hostels to support academic needs.',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Infrastructure & Amenities */}
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                  Infrastructure &amp; Amenities
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    'Well-maintained infrastructure with modern facilities and aesthetically built architecture',
+                    'Uninterrupted power supply with separate generators for students',
+                    'Dedicated study rooms available for students after college hours',
+                    'Multipurpose gyms separately available for boys and girls',
+                    'Indoor and outdoor game facilities for recreation',
+                    'Stationary shops within the campus premises',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Dining & Food Services */}
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                  Dining &amp; Food Services
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    'Hygienic kitchen serving nutritious and delicious meals',
+                    'Modern dining halls offering both vegetarian and non-vegetarian food options',
+                    'Mineral water is provided to all, ensuring safe drinking water',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Health & Wellness */}
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                  Health &amp; Wellness
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    '24/7 medical facilities with free medicines',
+                    'Well-equipped fitness centres for physical wellbeing',
+                    'Regular yoga sessions for mental wellness',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Management & Security */}
+              <div>
+                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                  Management &amp; Security
+                </h3>
+                <ul className="space-y-3">
+                  {[
+                    'Dedicated hostel management committee headed by a Chief Warden.',
+                    'Resident staff members ensuring strict adherence to hostel rules and regulations.',
+                    'Safe and secure environment with round-the-clock supervision.',
+                    'Bus facility available for the Drop and pickup from campus',
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <span className="text-sm sm:text-base text-gray-700">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+            </div>
           </div>
 
-          {/* Infrastructure & Amenities */}
-          <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
-              Infrastructure & Amenities
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Well-maintained infrastructure with modern facilities and aesthetically built architecture
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Uninterrupted power supply with separate generators for students
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Dedicated study rooms available for students after college hours
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Multipurpose gyms separately available for boys and girls
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Indoor and outdoor game facilities for recreation
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Stationary shops within the campus premises
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Dining & Food Services */}
-          <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
-              Dining & Food Services
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Hygienic kitchen serving nutritious and delicious meals
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Modern dining halls offering both vegetarian and non-vegetarian food options
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Mineral water is provided to all, ensuring safe drinking water
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Health & Wellness */}
-          <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
-              Health & Wellness
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  24/7 medical facilities with free medicines
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Well-equipped fitness centres for physical wellbeing
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Regular yoga sessions for mental wellness
-                </span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Management & Security */}
-          <div className="mb-4 sm:mb-6 md:mb-8">
-            <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-black mb-4">
-              Management & Security
-            </h3>
-
-            <ul className="space-y-3 ml-6">
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Dedicated hostel management committee headed by a Chief Warden.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Resident staff members ensuring strict adherence to hostel rules and regulations.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Safe and secure environment with round-the-clock supervision.
-                </span>
-              </li>
-              <li className="flex items-start">
-                <span className="text-black mr-3 mt-1">■</span>
-                <span className="text-gray-700 text-sm sm:text-base md:text-lg">
-                  Bus facility available for the Drop and pickup from campus
-                </span>
-              </li>
-            </ul>
-          </div>
         </div>
-      </div>
+      </main>
 
     </div>
   )

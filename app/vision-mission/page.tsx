@@ -4,29 +4,49 @@ import Header from '@/components/Header'
 
 export default function VisionMissionPage() {
   return (
-    <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
+      {/* Page Header Banner */}
+      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+            Our Purpose
+          </p>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Vision &amp; Mission
+          </h1>
+          <div className="mt-5 flex justify-center">
+            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+          </div>
+        </div>
+      </section>
+
       {/* Main Content */}
-      <main className="flex-1">
-        <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
-          {/* Vision Section */}
-          <div className="mb-10 sm:mb-12 md:mb-16 lg:mb-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
-              {/* Vision Text */}
-              <div>
-                <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-                  Vision
-                </h1>
-                <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+      <main className="flex-1 py-12 sm:py-16 md:py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8 sm:space-y-10">
+
+          {/* Vision Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row">
+
+              {/* Text Side */}
+              <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center">
+                <div className="mb-6">
+                  <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+                    Vision
+                  </h2>
+                </div>
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   To be a Leading Global Innovative Solutions provider for the ever changing needs of the society.
                 </p>
               </div>
 
-              {/* Vision Icon */}
-              <div className="flex justify-center lg:justify-end">
+              {/* Icon Side */}
+              <div className="md:w-2/5 bg-[#006837]/5 flex items-center justify-center p-8 sm:p-10">
                 <svg
-                  className="w-32 h-32 xs:w-40 xs:h-40 sm:w-48 sm:h-48 lg:w-64 lg:h-64"
+                  className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48"
                   viewBox="0 0 200 200"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -44,26 +64,31 @@ export default function VisionMissionPage() {
                   <circle cx="100" cy="100" r="12" fill="white" />
                 </svg>
               </div>
+
             </div>
           </div>
 
-          {/* Mission Section */}
-          <div className="mb-10 sm:mb-12 md:mb-16 lg:mb-20">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
-              {/* Mission Text */}
-              <div>
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
-                  Mission
-                </h2>
-                <p className="text-gray-700 text-base md:text-lg leading-relaxed">
+          {/* Mission Card */}
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row-reverse">
+
+              {/* Text Side */}
+              <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center">
+                <div className="mb-6">
+                  <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+                  <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+                    Mission
+                  </h2>
+                </div>
+                <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                   Create an innovative learning environment in pharmaceutical sciences that promotes bio convergence and advanced research, Empower learners to become leaders in developing and applying novel drugs and healthcare solutions
                 </p>
               </div>
 
-              {/* Mission Icon */}
-              <div className="flex justify-center lg:justify-end">
+              {/* Icon Side */}
+              <div className="md:w-2/5 bg-[#006837]/5 flex items-center justify-center p-8 sm:p-10">
                 <svg
-                  className="w-32 h-32 xs:w-40 xs:h-40 sm:w-48 sm:h-48 lg:w-64 lg:h-64"
+                  className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48"
                   viewBox="0 0 200 200"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -84,8 +109,10 @@ export default function VisionMissionPage() {
                   </g>
                 </svg>
               </div>
+
             </div>
           </div>
+
         </div>
       </main>
 

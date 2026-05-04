@@ -153,46 +153,13 @@ export default function Home() {
               </h1>
 
               {/* Description */}
-              <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 mb-6 sm:mb-8 leading-relaxed">
+              <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
                 JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
-
-              {/* Statistics */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 mb-6 sm:mb-8">
-                <div className="text-center">
-                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">700+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Students</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">95%</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement (2024-25)</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">30+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Recruiters</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#7cb983]">6</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programmes</div>
-                </div>
-              </div>
-
-              {/* CTA Buttons */}
-              <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
-                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-                  Start Your Application →
-                </a>
-                <button
-                  onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
-                >
-                  Explore Programmes
-                </button>
-              </div>
             </div>
 
-            {/* Right Image */}
-            <div className="relative mt-6 lg:mt-0">
+            {/* Right Image + Stats + Buttons */}
+            <div className="flex flex-col gap-6 mt-6 lg:mt-0">
               <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/Pharmacy photos/IMG_6923.JPG"
@@ -220,6 +187,39 @@ export default function Home() {
                     <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-white">Excellence in Education</span>
                   </div>
                 </div>
+              </div>
+
+              {/* Statistics */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div className="text-center">
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">700+</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Students</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">95%</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement (2024-25)</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">30+</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Recruiters</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">6</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programmes</div>
+                </div>
+              </div>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
+                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+                  Start Your Application →
+                </a>
+                <button
+                  onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
+                >
+                  Explore Programmes
+                </button>
               </div>
             </div>
           </div>

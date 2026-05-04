@@ -208,11 +208,11 @@ export const bottomMenuItems: NavItem[] = [
       { label: "Institutions Innovation Council", href: "/institutions-innovation-council" },
       { label: "Incubation Centre", href: "/incubation-centre" },
       { label: "Entrepreneurship Development Cell", href: "/entrepreneurship-development-cell" },
-      { label: "Feedback Analysis", href: "/feedback-analysis" },
+      { label: "Feedback Analysis", href: "/pdf/Feedback-Analysis.pdf", target: "_blank" },
       { label: "IPA-Bhavani-Komarapalayam Local Branch", href: "/ipa-bhavani-kumarapalayam" },
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "Audit Statements Finance", href: "/pdf/Audit-Statements-Finance.pdf", target: "_blank" },
-      { label: "Newsletters", href: "/newsletters" }
+      { label: "Newsletters", href: "/pdf/NEWSLETTER.pdf", target: "_blank" }
     ]
   },
   { label: "GALLERY", href: "/gallery" },

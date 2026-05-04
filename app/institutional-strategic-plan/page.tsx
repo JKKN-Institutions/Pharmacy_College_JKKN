@@ -22,7 +22,7 @@ export default function InstitutionalStrategicPlanPage() {
       {/* Main Container */}
       <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10">Institutional Strategic Plan</h1>
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-6 sm:mb-8 md:mb-10">Institutional Strategic Plan</h1>
 
         {/* Content Area with Sidebar */}
         <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
@@ -59,7 +59,7 @@ export default function InstitutionalStrategicPlanPage() {
               <div className="p-8 lg:p-10">
                 <div className="space-y-4 sm:space-y-6 md:space-y-8">
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Strategic Plan Overview</h2>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Strategic Plan Overview</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The Institutional Strategic Plan of JKKN College of Pharmacy is a comprehensive roadmap that outlines the college's vision, mission, and strategic initiatives for achieving excellence in pharmaceutical education, research, and community service.
                     </p>
@@ -69,7 +69,7 @@ export default function InstitutionalStrategicPlanPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Vision for the Future</h2>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Vision for the Future</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The strategic plan encompasses multiple dimensions of institutional development, focusing on:
                     </p>
@@ -118,7 +118,7 @@ export default function InstitutionalStrategicPlanPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Key Strategic Areas</h2>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Key Strategic Areas</h2>
                     <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">EDC - Entrepreneurship Development Cell</h3>
@@ -160,7 +160,7 @@ export default function InstitutionalStrategicPlanPage() {
                   </div>
 
                   <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Implementation Framework</h2>
+                    <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Implementation Framework</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
                       The strategic plan is implemented through a structured framework that includes:
                     </p>
