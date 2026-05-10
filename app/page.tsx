@@ -8,6 +8,7 @@ import Image from 'next/image'
 import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
 import { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
+import HomepagePopup from '@/components/HomepagePopup'
 
 export default function Home() {
   useEffect(() => {
@@ -77,6 +78,7 @@ export default function Home() {
 
   return (
     <main className="overflow-x-hidden w-full">
+      <HomepagePopup />
       <FaqSchema faqs={homepageFaqs} />
       <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
