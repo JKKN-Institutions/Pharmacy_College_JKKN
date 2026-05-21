@@ -78,7 +78,7 @@ export default function AdmissionProcessPage() {
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Admission Process', url: 'https://pharmacy.jkkn.ac.in/admission-process' }
+        { name: 'Admission Process', url: 'https://pharmacy.jkkn.ac.in/admissions/' }
       ]} />
       <HowToSchema
         name="How to Apply for Admission at JKKN College of Pharmacy"

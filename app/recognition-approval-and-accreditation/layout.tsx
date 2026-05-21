@@ -5,13 +5,13 @@ export const metadata: Metadata = {
   title: 'Recognition & Accreditation | JKKN Pharmacy',
   description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI approved, NAAC A Grade.',
   alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation/',
+    canonical: 'https://pharmacy.jkkn.ac.in/recognition-approval-and-accreditation/',
   },
   openGraph: {
     type: 'website',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
-    url: 'https://pharmacy.jkkn.ac.in/recognition-approval-&-accrediation/',
+    url: 'https://pharmacy.jkkn.ac.in/recognition-approval-and-accreditation/',
     title: 'Recognition & Accreditation | JKKN Pharmacy',
     description: 'Recognitions, approvals and accreditations of JKKN College of Pharmacy. PCI approved, NAAC A Grade.',
     images: [

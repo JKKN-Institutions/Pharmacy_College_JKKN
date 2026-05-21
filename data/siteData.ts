@@ -53,7 +53,7 @@ export const topMenuItems: NavItem[] = [
         label: "Affiliation Details",
         href: "/affiliation-details",
         submenu: [
-          { label: "Recognition Approval & Accrediation", href: "/recognition-approval-&-accrediation" }
+          { label: "Recognition Approval & Accreditation", href: "/recognition-approval-and-accreditation" }
         ]
       },
       { label: "Institutional Development Plan", href: "/institutional-development-plan" },

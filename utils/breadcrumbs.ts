@@ -21,7 +21,7 @@ const pageNameMap: Record<string, string> = {
   'quality-policy': 'Quality Policy',
   'general-rules': 'General Rules and Regulations',
   'affiliation-details': 'Affiliation Details',
-  'recognition-approval-&-accrediation': 'Recognition Approval & Accrediation',
+  'recognition-approval-and-accreditation': 'Recognition Approval & Accreditation',
   'institutional-development-plan': 'Institutional Development Plan',
   'institutional-strategic-plan': 'Institutional Strategic Plan',
 
@@ -151,7 +151,7 @@ const hierarchyMap: Record<string, string[]> = {
   'quality-policy': ['about'],
   'general-rules': ['about'],
   'affiliation-details': ['about'],
-  'recognition-approval-&-accrediation': ['about', 'affiliation-details'],
+  'recognition-approval-and-accreditation': ['about', 'affiliation-details'],
   'institutional-development-plan': ['about'],
   'institutional-strategic-plan': ['about'],
 
