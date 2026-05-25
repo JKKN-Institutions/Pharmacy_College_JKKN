@@ -31,13 +31,13 @@ export default function SportsPage() {
           <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
-                <img src="/images/sports-1.webp" alt="Indoor Sports Arena" className="w-full h-full object-cover" />
+                <img src="/images/sports-1.avif" alt="Indoor Sports Arena" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
-                <img src="/images/sports-2.webp" alt="Student Athlete" className="w-full h-full object-cover" />
+                <img src="/images/sports-2.avif" alt="Student Athlete" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl sm:col-span-2 md:col-span-1">
-                <img src="/images/sports-3.webp" alt="Sports Team" className="w-full h-full object-cover" />
+                <img src="/images/sports-3.avif" alt="Sports Team" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

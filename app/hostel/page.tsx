@@ -33,15 +33,18 @@ export default function HostelPage() {
               <h2 className="text-base sm:text-lg font-bold text-white">Boys Hostel</h2>
             </div>
             <div className="p-8 sm:p-10 md:p-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                 <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
-                  <img
-                    src="/images/hostel-1.webp"
-                    alt="Boys Hostel"
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/images/boys-hostel-1.jpg" alt="Boys Hostel" className="w-full h-full object-cover" />
                 </div>
-                <ul className="space-y-4">
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img src="/images/boys-hostel-2.jpg" alt="Boys Hostel" className="w-full h-full object-cover" />
+                </div>
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img src="/images/boys-hostel-3.jpg" alt="Boys Hostel" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <ul className="space-y-4">
                   {[
                     'Experience contemporary living at the JKKN hostel, complete with well-maintained amenities and pristine, cozy beds.',
                     'The restrooms are maintained with high standards of cleanliness, ensuring comfort and hygiene.',
@@ -54,7 +57,6 @@ export default function HostelPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
             </div>
           </div>
 
@@ -64,15 +66,18 @@ export default function HostelPage() {
               <h2 className="text-base sm:text-lg font-bold text-white">Girls Hostel</h2>
             </div>
             <div className="p-8 sm:p-10 md:p-12">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 items-start">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-6">
                 <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
-                  <img
-                    src="/images/hostel-2.webp"
-                    alt="Girls Hostel"
-                    className="w-full h-full object-cover"
-                  />
+                  <img src="/images/girls-hostel-1.jpg" alt="Girls Hostel" className="w-full h-full object-cover" />
                 </div>
-                <ul className="space-y-4">
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img src="/images/girls-hostel-2.jpg" alt="Girls Hostel" className="w-full h-full object-cover" />
+                </div>
+                <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
+                  <img src="/images/girls-hostel-3.jpg" alt="Girls Hostel" className="w-full h-full object-cover" />
+                </div>
+              </div>
+              <ul className="space-y-4">
                   {[
                     'Experience a melting pot of cultures and diverse backgrounds, blending together for an enriching and unforgettable adventure!',
                     'UIT girl\'s hostel "Thendral Illam" is set amidst the green campus of UIT and has distinct features that foster the right kind of environment for enriching the personality, academic performance or any other developmental pursuits',
@@ -83,7 +88,6 @@ export default function HostelPage() {
                     </li>
                   ))}
                 </ul>
-              </div>
             </div>
           </div>
 

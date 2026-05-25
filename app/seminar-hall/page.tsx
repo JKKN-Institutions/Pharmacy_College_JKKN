@@ -32,21 +32,21 @@ export default function SeminarHallPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
                 <img
-                  src="/images/Pharmacy photos/IMG_6925.JPG"
+                  src="/images/Seminar-hall-1.avif"
                   alt="Seminar Hall 1"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
                 <img
-                  src="/images/Pharmacy photos/IMG_6927.JPG"
+                  src="/images/Seminar-hall-2.avif"
                   alt="Seminar Hall 2"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl sm:col-span-2 md:col-span-1">
                 <img
-                  src="/images/Pharmacy photos/IMG_6930.JPG"
+                  src="/images/Seminar-hall-3.avif"
                   alt="Seminar Hall 3"
                   className="w-full h-full object-cover"
                 />

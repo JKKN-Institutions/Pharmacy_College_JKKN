@@ -148,9 +148,9 @@ export default function MPharmacyPage() {
                 <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">High R&D Demand</span>
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> Formulation Scientist, Product Development Manager, R&D Associate</p>
-              <button className="mt-4 bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <Link href="/pharmaceutics" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -165,9 +165,9 @@ export default function MPharmacyPage() {
                 <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Maximum Jobs</span>
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> QC Analyst, Analytical Scientist, Method Development Chemist</p>
-              <button className="mt-4 bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <Link href="/pharmaceutical-analysis" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -182,9 +182,9 @@ export default function MPharmacyPage() {
                 <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Research Focus</span>
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> Pharmacology Scientist, Safety Assessment Specialist, Preclinical Researcher</p>
-              <button className="mt-4 bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <Link href="/pharmacology" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -201,9 +201,9 @@ export default function MPharmacyPage() {
                 <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Drug Discovery</span>
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> Medicinal Chemist, Synthetic Chemist, Drug Design Scientist</p>
-              <button className="mt-4 bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <Link href="/pharmaceutical-chemistry" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
 
@@ -218,9 +218,9 @@ export default function MPharmacyPage() {
                 <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Growing Field</span>
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> Clinical Pharmacist, Hospital Pharmacist, Drug Information Specialist</p>
-              <button className="mt-4 bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <Link href="/pharmacy-practice" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -872,156 +872,6 @@ export default function MPharmacyPage() {
         </div>
       </div>
 
-      {/* M.Pharm Fee Structure & ROI Analysis */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="flex items-center gap-3 mb-8">
-          <IndianRupee className="w-10 h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Fee Structure & ROI Analysis</h2>
-        </div>
-
-        <div className="overflow-x-auto mb-8">
-          <table className="w-full bg-white rounded-lg shadow-lg">
-            <thead>
-              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
-                <th className="px-4 py-4 text-left font-bold">Institution Type</th>
-                <th className="px-4 py-4 text-left font-bold">Annual Fee</th>
-                <th className="px-4 py-4 text-left font-bold">2-Year Total Cost</th>
-                <th className="px-4 py-4 text-left font-bold">Examples</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">NIPER (7 Campuses)</td>
-                <td className="px-4 py-4">₹25,000-40,000/year</td>
-                <td className="px-4 py-4">₹50,000-80,000 + hostel ₹40K</td>
-                <td className="px-4 py-4">Mohali, Hyderabad, Ahmedabad, Hajipur, Guwahati, Kolkata, Raebareli</td>
-              </tr>
-              <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">IIT (Pharmacy Dept)</td>
-                <td className="px-4 py-4">₹30,000-50,000/year</td>
-                <td className="px-4 py-4">₹60,000-1,00,000 + hostel ₹50K</td>
-                <td className="px-4 py-4">IIT Delhi, IIT BHU, IIT Roorkee</td>
-              </tr>
-              <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Government Colleges</td>
-                <td className="px-4 py-4">₹25,000-60,000/year</td>
-                <td className="px-4 py-4">₹50,000-1,20,000</td>
-                <td className="px-4 py-4">State government pharmacy colleges</td>
-              </tr>
-              <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Deemed Universities</td>
-                <td className="px-4 py-4">₹1,50,000-3,00,000/year</td>
-                <td className="px-4 py-4">₹3,00,000-6,00,000</td>
-                <td className="px-4 py-4">Manipal, JSS, BITS, Amrita</td>
-              </tr>
-              <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Private Colleges</td>
-                <td className="px-4 py-4">₹80,000-2,00,000/year</td>
-                <td className="px-4 py-4">₹1,60,000-4,00,000</td>
-                <td className="px-4 py-4">Most private pharmacy colleges</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        {/* Return on Investment (ROI) Analysis */}
-        <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Return on Investment (ROI) Analysis</h3>
-
-          <div className="bg-[#FBFBEE] rounded-lg p-6 border-l-4 border-[#7cb983]">
-            <h4 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">Investment vs Returns:</h4>
-
-            {/* Scenario 1 */}
-            <div className="mb-6">
-              <h5 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3">Scenario 1: Government College (NIPER/IIT)</h5>
-              <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Total Investment:</span> ₹1-1.5 lakhs (tuition + hostel for 2 years)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Opportunity Cost:</span> ₹4-6 lakhs (salary forgone during 2 years B.Pharm job)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Total Cost:</span> ₹5-7.5 lakhs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Salary Premium:</span> M.Pharm starts at ₹30-45K vs B.Pharm ₹20-30K (₹10-15K/month extra)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Break-even:</span> 3-5 years after M.Pharm completion</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Verdict:</span> Excellent ROI, especially long-term with senior roles</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Scenario 2 */}
-            <div className="mb-6">
-              <h5 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3">Scenario 2: Private College</h5>
-              <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Total Investment:</span> ₹3-6 lakhs (tuition + expenses)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Opportunity Cost:</span> ₹4-6 lakhs (salary forgone)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Total Cost:</span> ₹7-12 lakhs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Salary Premium:</span> Similar to government college (employer doesn't differentiate much)</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Break-even:</span> 5-8 years</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Verdict:</span> Moderate ROI, better if top private college with excellent placements</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Long-term Value */}
-            <div>
-              <h5 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-3">Long-term Value Beyond Salary:</h5>
-              <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Career Ceiling:</span> M.Pharm opens Principal Scientist, Director R&D roles (₹1.5-3L/month) unavailable to B.Pharm</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Job Security:</span> Specialised roles less vulnerable to automation and layoffs</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Teaching Option:</span> Assistant Professor track provides stable alternative career</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Research Path:</span> Ph.D. gateway for those wanting academic research career</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2">•</span>
-                  <span><span className="font-semibold text-[#006837]">Abroad Opportunities:</span> M.Pharm strengthens profile for international jobs/PhD</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
 
       {/* Top Institutions for M.Pharm in India */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
