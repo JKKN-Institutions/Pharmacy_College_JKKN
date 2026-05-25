@@ -329,7 +329,7 @@ const nextConfig = {
       { source: '/grievances-redressal-committee/', destination: '/student-grievance-redressal-committee/', permanent: true },
       { source: '/generalrules-and-regulations/', destination: '/general-rules/', permanent: true },
       { source: '/ordinances-pertaining-to-examinations/', destination: '/ordinances/', permanent: true },
-      { source: '/recognition-approval-accrediation/', destination: '/recognition-approval-&-accrediation/', permanent: true },
+      { source: '/recognition-approval-accrediation/', destination: '/recognition-approval-and-accreditation/', permanent: true },
       { source: '/research-committee/', destination: '/research/', permanent: true },
       { source: '/cultural-commitee/', destination: '/cultural-committee/', permanent: true },
       { source: '/hostel-facilities/', destination: '/hostel/', permanent: true },
@@ -362,6 +362,16 @@ const nextConfig = {
       { source: '/8647-2/', destination: '/', permanent: true },
       { source: '/testrh/', destination: '/', permanent: true },
       { source: '/trial/', destination: '/', permanent: true },
+
+      // P0-5: Redirect duplicate NIRF root routes to canonical /nirf/ hierarchy
+      { source: '/nirf-2024/', destination: '/nirf/nirf-2024/', permanent: true },
+      { source: '/nirf-2025/', destination: '/nirf/nirf-2025/', permanent: true },
+      // P3-3: Add /about/ redirect to /overview/
+      { source: '/about/', destination: '/overview/', permanent: true },
+      // Deleted blog post — redirect to homepage
+      { source: '/blog/b-pharm-vs-pharm-d/', destination: '/', permanent: true },
+      // Old URL with `&` + typo `accrediation` → canonical clean URL
+      { source: '/recognition-approval-&-accrediation/', destination: '/recognition-approval-and-accreditation/', permanent: true },
     ]
   },
 }

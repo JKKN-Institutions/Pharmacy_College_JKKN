@@ -3,7 +3,7 @@
 import Header from '@/components/Header'
 import { CheckCircle } from 'lucide-react'
 
-export default function RecognitionApprovalAccrediationPage() {
+export default function RecognitionApprovalAccreditationPage() {
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
@@ -15,7 +15,7 @@ export default function RecognitionApprovalAccrediationPage() {
             Recognition & Affiliation
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
-            Approval & Accrediation
+            Approval & Accreditation
           </h1>
           <div className="mt-5 flex justify-center">
             <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
