@@ -37,6 +37,29 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL('/404', request.url), 301)
   }
 
+  // Faculty slug redirect (old_slug → new_slug)
+  const facultyMatch = pathname.match(/^\/faculty\/([^/]+)\/?$/);
+  if (facultyMatch) {
+    const slug = facultyMatch[1];
+    const supabaseAnon = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      { cookies: { getAll() { return request.cookies.getAll(); }, setAll() {} } }
+    );
+    const { data } = await supabaseAnon
+      .from('faculty_slug_history')
+      .select('new_slug')
+      .eq('old_slug', slug)
+      .single();
+
+    if (data?.new_slug) {
+      return NextResponse.redirect(
+        new URL(`/faculty/${data.new_slug}/`, request.url),
+        301
+      );
+    }
+  }
+
   // Protect /admin routes (except /admin/login)
   if (pathname.startsWith('/admin') && !pathname.startsWith('/admin/login')) {
     const response = NextResponse.next()

@@ -130,9 +130,9 @@ export default async function FacultyProfilePage({
   }, 0);
 
   // ── Shared styles
-  const sectionCard = 'bg-white rounded-2xl border border-gray-100 shadow-sm p-6 mb-4';
-  const sectionTitle = 'text-xl font-bold text-gray-900 flex items-center gap-3 mb-4';
-  const iconBox = 'w-10 h-10 rounded-xl flex items-center justify-center text-lg flex-shrink-0';
+  const sectionCard = 'bg-white rounded-2xl border border-gray-100 shadow-sm p-4 sm:p-6 mb-4';
+  const sectionTitle = 'text-lg sm:text-xl font-bold text-gray-900 flex items-center gap-2 sm:gap-3 mb-4';
+  const iconBox = 'w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center text-base sm:text-lg flex-shrink-0';
   const tableHead = 'text-xs font-semibold text-[#1B5E20] uppercase tracking-wide';
   const chip = 'px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-700';
 
@@ -243,7 +243,18 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-yellow-50`}>🎓</span>
                 Academic Qualifications
               </h2>
-              <table className="w-full text-sm">
+              {/* Card layout on mobile, table on sm+ */}
+              <div className="sm:hidden space-y-3">
+                {academicQualifications.map((q, i) => (
+                  <div key={i} className="bg-gray-50 rounded-xl p-4">
+                    <p className="font-semibold text-gray-900 text-sm">{q.degree}</p>
+                    {q.specialisation && <p className="text-xs text-gray-600 mt-0.5">{q.specialisation}</p>}
+                    <p className="text-xs text-gray-500 mt-1">{q.university}</p>
+                    {q.year && <p className="text-xs font-bold text-[#1B5E20] mt-1">{q.year}</p>}
+                  </div>
+                ))}
+              </div>
+              <table className="hidden sm:table w-full text-sm">
                 <thead>
                   <tr className="border-b border-gray-100">
                     <th className={`${tableHead} text-left py-2 pr-4`}>Degree</th>
@@ -410,7 +421,25 @@ export default async function FacultyProfilePage({
                     <span className="w-4 h-px bg-[#1B5E20] inline-block" />
                     FUNDED RESEARCH
                   </p>
-                  <table className="w-full text-sm">
+                  <div className="sm:hidden space-y-3">
+                    {fundedResearch.map((fr, i) => (
+                      <div key={i} className="bg-gray-50 rounded-xl p-4">
+                        <p className="font-semibold text-gray-900 text-sm">{fr.project}</p>
+                        <p className="text-xs text-gray-500 mt-1">{fr.agency}{fr.amount ? ` · ${fr.amount}` : ''}</p>
+                        {fr.period && <p className="text-xs text-gray-500">{fr.period}</p>}
+                        {fr.status && (
+                          <span className={`inline-block mt-2 text-xs font-medium px-2.5 py-1 rounded-full ${
+                            fr.status === 'Completed'
+                              ? 'bg-green-50 text-green-700 border border-green-200'
+                              : 'bg-yellow-50 text-yellow-700 border border-yellow-200'
+                          }`}>
+                            {fr.status}
+                          </span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                  <table className="hidden sm:table w-full text-sm">
                     <thead>
                       <tr className="border-b border-gray-100">
                         <th className={`${tableHead} text-left py-2 pr-4`}>Project</th>
@@ -503,7 +532,15 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-yellow-50`}>🏆</span>
                 Awards &amp; Recognitions
               </h2>
-              <table className="w-full text-sm">
+              <div className="sm:hidden space-y-3">
+                {awards.map((award, i) => (
+                  <div key={i} className="bg-gray-50 rounded-xl p-4">
+                    <p className="font-semibold text-gray-900 text-sm">{award.award}</p>
+                    <p className="text-xs text-gray-500 mt-1">{award.body}{award.year ? ` · ${award.year}` : ''}</p>
+                  </div>
+                ))}
+              </div>
+              <table className="hidden sm:table w-full text-sm">
                 <thead>
                   <tr className="border-b border-gray-100">
                     <th className={`${tableHead} text-left py-2 pr-4`}>Award</th>
@@ -531,7 +568,15 @@ export default async function FacultyProfilePage({
                 <span className={`${iconBox} bg-purple-50`}>👥</span>
                 Professional Memberships
               </h2>
-              <table className="w-full text-sm">
+              <div className="sm:hidden space-y-3">
+                {memberships.map((mem, i) => (
+                  <div key={i} className="bg-gray-50 rounded-xl p-4">
+                    <p className="font-semibold text-gray-900 text-sm">{mem.organisation}</p>
+                    <p className="text-xs text-gray-500 mt-1">{mem.type}{mem.since ? ` · Since ${mem.since}` : ''}</p>
+                  </div>
+                ))}
+              </div>
+              <table className="hidden sm:table w-full text-sm">
                 <thead>
                   <tr className="border-b border-gray-100">
                     <th className={`${tableHead} text-left py-2 pr-4`}>Organisation</th>
@@ -570,7 +615,24 @@ export default async function FacultyProfilePage({
                     <span className="w-4 h-px bg-[#1B5E20] inline-block" />
                     PHD SCHOLARS
                   </p>
-                  <table className="w-full text-sm">
+                  <div className="sm:hidden space-y-3">
+                    {phdScholars.map((scholar, i) => (
+                      <div key={i} className="bg-gray-50 rounded-xl p-4">
+                        <p className="font-semibold text-gray-900 text-sm">{scholar.scholar}</p>
+                        <p className="text-xs text-gray-500 mt-1">{scholar.research_topic}</p>
+                        {scholar.status && (
+                          <span className={`inline-block mt-2 text-xs font-medium px-2.5 py-1 rounded-full ${
+                            scholar.status?.toLowerCase() === 'ongoing'
+                              ? 'bg-yellow-50 text-yellow-700 border border-yellow-200'
+                              : 'bg-green-50 text-green-700 border border-green-200'
+                          }`}>
+                            {scholar.status}
+                          </span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                  <table className="hidden sm:table w-full text-sm">
                     <thead>
                       <tr className="border-b border-gray-100">
                         <th className={`${tableHead} text-left py-2 pr-4`}>Scholar</th>
