@@ -192,6 +192,7 @@ export const bottomMenuItems: NavItem[] = [
     label: "OTHERS",
     href: "/others",
     submenu: [
+      { label: "Careers", href: "/careers" },
       { label: "Best Practice", href: "/best-practice" },
       { label: "Competitive Examination and Career", href: "/competitive-examination" },
       { label: "Digital Campus", href: "/digital-campus" },
