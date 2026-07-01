@@ -76,7 +76,7 @@ export default function InterdisciplinaryResearchPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Establish interdisciplinary research teams with faculty from diverse scientific backgrounds</span>
+                        <span className="text-sm sm:text-base text-gray-700">Establish interdisciplinary research teams with senior learners from diverse scientific backgrounds</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

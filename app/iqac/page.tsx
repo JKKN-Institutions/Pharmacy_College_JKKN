@@ -3,11 +3,11 @@
 import Header from '@/components/Header'
 
 const facets = [
-  { title: 'Curricular Aspects', desc: 'Ensuring relevance and rigor in the curriculum.' },
+  { title: 'Curricular Aspects', desc: 'Ensuring relevance and rigor in the learning framework.' },
   { title: 'Teaching, Learning, and Evaluation', desc: 'Enhancing pedagogical effectiveness.' },
   { title: 'Research, Innovation & Extension', desc: 'Promoting a robust research environment.' },
   { title: 'Infrastructure and Learning Resources', desc: 'Overseeing optimal utilization of facilities.' },
-  { title: 'Student Progression', desc: 'Guiding student growth and development.' },
+  { title: 'Student Progression', desc: 'Guiding learner growth and development.' },
   { title: 'Leadership and Management', desc: 'Steering the institution towards its mission.' },
   { title: 'Institutional Values & Best Practices', desc: 'Upholding the ethics and values of the institution.' },
   { title: 'Patient Care & Community Engagement', desc: 'Fostering community relations and patient satisfaction.' },
@@ -51,7 +51,7 @@ export default function IQACPage() {
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              IQAC is the heart of JKKN College of Pharmacy&apos;s quest for excellence in higher education. It operates as a quality guardian, meticulously planning, guiding, and monitoring quality initiatives within the institution. Comprising distinguished faculty, administrators, and external experts, the IQAC focuses on continuous growth, setting benchmarks, facilitating internal reviews, and overseeing accreditation processes. Its mission is to cultivate a culture of excellence, transparency, and accountability, leading the way to comprehensive institutional growth and unwavering student satisfaction.
+              IQAC is the heart of JKKN College of Pharmacy&apos;s quest for excellence in higher education. It operates as a quality guardian, meticulously planning, guiding, and monitoring quality initiatives within the institution. Comprising distinguished senior learners, administrators, and external experts, the IQAC focuses on continuous growth, setting benchmarks, facilitating internal reviews, and overseeing accreditation processes. Its mission is to cultivate a culture of excellence, transparency, and accountability, leading the way to comprehensive institutional growth and unwavering learner satisfaction.
             </p>
           </section>
 

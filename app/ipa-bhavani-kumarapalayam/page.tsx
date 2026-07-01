@@ -34,7 +34,7 @@ export default function IPABhavaniKomarapalayamPage() {
                   Mission
                 </h3>
                 <p className="text-base md:text-lg text-gray-900 leading-relaxed">
-                  The branch's mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Komarapalayam area. The branch strives to enhance the knowledge and skills of members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
+                  The branch's mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, learners, and researchers in the Bhavani Komarapalayam area. The branch strives to enhance the knowledge and skills of members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
                 </p>
               </div>
 
@@ -81,10 +81,10 @@ export default function IPABhavaniKomarapalayamPage() {
                   The strong collaboration with JKKN College of Pharmacy enables the branch to:
                 </p>
                 <ul className="space-y-2 md:space-y-3 text-base md:text-lg text-gray-900">
-                  <li className="leading-relaxed">-Provide internship and placement opportunities for students</li>
+                  <li className="leading-relaxed">-Provide internship and placement opportunities for learners</li>
                   <li className="leading-relaxed">– Facilitate industry-academia interactions and knowledge exchange</li>
                   <li className="leading-relaxed">– Support research projects and innovations in the pharmaceutical domain</li>
-                  <li className="leading-relaxed">– Organize joint events and programmes for the benefit of students and professionals</li>
+                  <li className="leading-relaxed">– Organize joint events and programmes for the benefit of learners and professionals</li>
                 </ul>
               </div>
 

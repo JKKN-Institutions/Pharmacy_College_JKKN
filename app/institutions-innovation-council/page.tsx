@@ -15,7 +15,7 @@ export default function InstitutionsInnovationCouncilPage() {
         {/* Introduction */}
         <div className="mb-4 sm:mb-6 md:mb-8">
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-            JKKN College of Pharmacy encourages scientific innovation and thinking for its students through related activities both within and outside the institution. The institution's Innovation Council IIC20810715) in the campus as per the norms of Innovation Cell, Ministry of Education, Govt. of India during the academic calendar year 2018-19.
+            JKKN College of Pharmacy encourages scientific innovation and thinking for its learners through related activities both within and outside the institution. The institution's Innovation Council IIC20810715) in the campus as per the norms of Innovation Cell, Ministry of Education, Govt. of India during the academic calendar year 2018-19.
           </p>
         </div>
 
@@ -26,7 +26,7 @@ export default function InstitutionsInnovationCouncilPage() {
             <li className="flex items-start">
               <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-gray-700 rounded-full flex-shrink-0"></span>
               <span>
-                They are promoting a culture of research, innovation, and entrepreneurship among students and staff
+                They are promoting a culture of research, innovation, and entrepreneurship among learners and team members
               </span>
             </li>
             <li className="flex items-start">
@@ -44,7 +44,7 @@ export default function InstitutionsInnovationCouncilPage() {
             <li className="flex items-start">
               <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-gray-700 rounded-full flex-shrink-0"></span>
               <span>
-                Providing mentorship and resources for students and staff to turn their ideas into reality
+                Providing mentorship and resources for learners and team members to turn their ideas into reality
               </span>
             </li>
             <li className="flex items-start">
@@ -87,7 +87,7 @@ export default function InstitutionsInnovationCouncilPage() {
             <li className="flex items-start">
               <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-gray-700 rounded-full flex-shrink-0"></span>
               <span>
-                Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, and professionals and create a mentor pool for student innovators.
+                Organize periodic workshops/ seminars/ interactions with entrepreneurs, investors, and professionals and create a mentor pool for learner innovators.
               </span>
             </li>
             <li className="flex items-start">
@@ -99,7 +99,7 @@ export default function InstitutionsInnovationCouncilPage() {
             <li className="flex items-start">
               <span className="mr-3 mt-1.5 w-1.5 h-1.5 bg-gray-700 rounded-full flex-shrink-0"></span>
               <span>
-                Create an online repository to highlight innovative projects by the institution's faculty and students.
+                Create an online repository to highlight innovative projects by the institution's senior learners and learners.
               </span>
             </li>
             <li className="flex items-start">
@@ -176,7 +176,7 @@ export default function InstitutionsInnovationCouncilPage() {
         {/* Achievements Paragraphs */}
         <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed mb-4 sm:mb-6 md:mb-8">
           <p className="text-justify">
-            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu, along with the ED cell of Anna University, conducted the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the students, Ms. Naziya Navas, Ms. Merin Shaji and Ms. Denila Tintu Alex have won the "Tamil Nadu Student Innovator award-2018" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of the students and their dedication, enthusiasm, and insights toward an innovative idea.
+            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu, along with the ED cell of Anna University, conducted the state-level Tamil Nadu Student Innovators (TNSI)-2018 competition to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the learners, Ms. Naziya Navas, Ms. Merin Shaji and Ms. Denila Tintu Alex have won the "Tamil Nadu Student Innovator award-2018" and received a grant award of Rs.50000, The Management, Principal, and Team Members of JKKN College of Pharmacy congratulate the fabulous achievement of the learners and their dedication, enthusiasm, and insights toward an innovative idea.
           </p>
 
           <p className="text-justify">
@@ -184,15 +184,15 @@ export default function InstitutionsInnovationCouncilPage() {
           </p>
 
           <p className="text-justify">
-            To make development a comprehensive mass movement and innovate on all fronts, MHRD, i4c, and Persistent Systems have organized Smart India Hackathon (ST) – a unique Open Innovation Model for identifying new and disruptive technology 2019- innovations to solve the challenges faced in our country. It's a non-stop product development competition, where problem statements are posed to technology students for innovative solutions. From Institution Innovation Council, JKKN College of Pharmacy, Komarapalayam, a total of 15 teams participated in this competition. About 50 problems have been addressed by these teams with innovative solutions. Among all the team, one team, DRAVENCOREZ (Mr. Aakash, Mr. Arun, Mr. Lokesh, Ms. Janavi and Ms. Monisha and Ms. Gayathri, second year, PharmD), got selected for the Grand Finale SIH – 2019 Hardware edition. The team suggested an innovative idea for the problem statement given by Praj Industries. The problem statement given was in the field of Reducing Electricity Consumption in Biomass waste compression.
+            To make development a comprehensive mass movement and innovate on all fronts, MHRD, i4c, and Persistent Systems have organized Smart India Hackathon (ST) – a unique Open Innovation Model for identifying new and disruptive technology 2019- innovations to solve the challenges faced in our country. It's a non-stop product development competition, where problem statements are posed to technology learners for innovative solutions. From Institution Innovation Council, JKKN College of Pharmacy, Komarapalayam, a total of 15 teams participated in this competition. About 50 problems have been addressed by these teams with innovative solutions. Among all the team, one team, DRAVENCOREZ (Mr. Aakash, Mr. Arun, Mr. Lokesh, Ms. Janavi and Ms. Monisha and Ms. Gayathri, second year, PharmD), got selected for the Grand Finale SIH – 2019 Hardware edition. The team suggested an innovative idea for the problem statement given by Praj Industries. The problem statement given was in the field of Reducing Electricity Consumption in Biomass waste compression.
           </p>
 
           <p className="text-justify">
-            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu along with the ED cell of Anna University conducted the state-level Tamil Nadu Student Innovators (TNSI)-2019 competition in order to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the students, Ms. Jeevika. S.V., Mr. Hariharan.S has won the "Tamil Nadu Student Innovator award-2019" and received a grant award of Rs.50000, The Management, Principal, and Staff of JKKN College of Pharmacy congratulate the fabulous achievement of the students and their dedication, enthusiasm, and insights toward an innovative idea.
+            The Entrepreneurship Development Innovation Institution (EDI) of the Government of Tamil Nadu along with the ED cell of Anna University conducted the state-level Tamil Nadu Student Innovators (TNSI)-2019 competition in order to develop an entrepreneurial ecosystem in the state of Tamil Nadu. JKKN College of Pharmacy is pleased and privileged to apprise that the learners, Ms. Jeevika. S.V., Mr. Hariharan.S has won the "Tamil Nadu Student Innovator award-2019" and received a grant award of Rs.50000, The Management, Principal, and Team Members of JKKN College of Pharmacy congratulate the fabulous achievement of the learners and their dedication, enthusiasm, and insights toward an innovative idea.
           </p>
 
           <p className="text-justify">
-            To make development a comprehensive mass movement and innovate on all fronts, MHRD, i4c, and Persistent Systems have organized Smart India Hackathon (ST) – a unique Open Innovation Model for identifying new and disruptive technology 2019- innovations to solve the challenges faced in our country. It's a non-stop product development competition, where problem statements are posed to technology students for innovative solutions. From Institution Innovation Council, JKKN College of Pharmacy, Komarapalayam, a total of 15 teams participated in this competition. About 50 problems have been addressed by these teams with innovative solutions. Among all the teams, one team, SIXLINGS (Ms. S.Srinitha, Ms. N.Priyadharshini, Mr. A.Abishek, Mr. B.Sri Guberan, Mr. S.Ravikiran, Mr. K.Jayendiran, PharmD students), got selected for the Grand Finale SIH – 2019 Hardware edition. The team suggested an innovative idea for the problem statement given was people come to cities because of better health facilities. What should be done to improve health facilities in the city and provide equitable access for all?
+            To make development a comprehensive mass movement and innovate on all fronts, MHRD, i4c, and Persistent Systems have organized Smart India Hackathon (ST) – a unique Open Innovation Model for identifying new and disruptive technology 2019- innovations to solve the challenges faced in our country. It's a non-stop product development competition, where problem statements are posed to technology learners for innovative solutions. From Institution Innovation Council, JKKN College of Pharmacy, Komarapalayam, a total of 15 teams participated in this competition. About 50 problems have been addressed by these teams with innovative solutions. Among all the teams, one team, SIXLINGS (Ms. S.Srinitha, Ms. N.Priyadharshini, Mr. A.Abishek, Mr. B.Sri Guberan, Mr. S.Ravikiran, Mr. K.Jayendiran, PharmD learners), got selected for the Grand Finale SIH – 2019 Hardware edition. The team suggested an innovative idea for the problem statement given was people come to cities because of better health facilities. What should be done to improve health facilities in the city and provide equitable access for all?
           </p>
         </div>
 

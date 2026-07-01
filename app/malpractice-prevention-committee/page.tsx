@@ -29,7 +29,7 @@ export default function MalpracticePreventionCommitteePage() {
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              To avert any kind of malpractice by the students and maintain a strict vigil during the examination, the JKKN College of Pharmacy has constituted the &apos;Malpractice Prevention Committee&apos; to practice against malpractice of students during examination.
+              To avert any kind of malpractice by the learners and maintain a strict vigil during the examination, the JKKN College of Pharmacy has constituted the &apos;Malpractice Prevention Committee&apos; to practice against malpractice of learners during examination.
             </p>
           </section>
 
@@ -37,10 +37,10 @@ export default function MalpracticePreventionCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
             <ul className="space-y-3">
               {[
-                'To oversee and monitor the conduct of students during examination.',
-                'To conduct enquiry /review on malpractice of students.',
+                'To oversee and monitor the conduct of learners during examination.',
+                'To conduct enquiry /review on malpractice of learners.',
                 'To take a disciplinary action for academic malpractice.',
-                'To make awareness among students not to indulge in activities pertaining to malpractice.',
+                'To make awareness among learners not to indulge in activities pertaining to malpractice.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                   <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
@@ -69,7 +69,7 @@ export default function MalpracticePreventionCommitteePage() {
           {/* Repeated Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              To avert any kind of malpractice by the students and maintain a strict vigil during the examination, the JKKN College of Pharmacy has constituted the &apos;Malpractice Prevention Committee&apos; to practice against malpractice of students during examination.
+              To avert any kind of malpractice by the learners and maintain a strict vigil during the examination, the JKKN College of Pharmacy has constituted the &apos;Malpractice Prevention Committee&apos; to practice against malpractice of learners during examination.
             </p>
           </section>
 
@@ -77,10 +77,10 @@ export default function MalpracticePreventionCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
             <ul className="space-y-3">
               {[
-                'To oversee and monitor the conduct of students during examination.',
-                'To conduct enquiry /review on malpractice of students.',
+                'To oversee and monitor the conduct of learners during examination.',
+                'To conduct enquiry /review on malpractice of learners.',
                 'To take a disciplinary action for academic malpractice.',
-                'To make awareness among students not to indulge in activities pertaining to malpractice.',
+                'To make awareness among learners not to indulge in activities pertaining to malpractice.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                   <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />

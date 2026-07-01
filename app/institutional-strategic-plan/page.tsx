@@ -79,7 +79,7 @@ export default function InstitutionalStrategicPlanPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
-                          <strong>Excellence in Education</strong> - Enhancing teaching-learning processes and curriculum development
+                          <strong>Excellence in Education</strong> - Enhancing teaching-learning processes and learning framework development
                         </span>
                       </li>
                       <li className="flex items-start">
@@ -123,7 +123,7 @@ export default function InstitutionalStrategicPlanPage() {
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">EDC - Entrepreneurship Development Cell</h3>
                         <p className="text-gray-700 text-sm">
-                          Fostering entrepreneurial mindset and skills among students and faculty through specialised programmes and initiatives.
+                          Fostering entrepreneurial mindset and skills among learners and senior learners through specialised programmes and initiatives.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
@@ -135,7 +135,7 @@ export default function InstitutionalStrategicPlanPage() {
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">GC - Guidance and Counselling</h3>
                         <p className="text-gray-700 text-sm">
-                          Providing comprehensive guidance and counselling services to support student academic and personal development.
+                          Providing comprehensive guidance and counselling services to support learner academic and personal development.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
@@ -147,7 +147,7 @@ export default function InstitutionalStrategicPlanPage() {
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">Pharmaceutical Education</h3>
                         <p className="text-gray-700 text-sm">
-                          Continuous improvement in curriculum, pedagogy, and educational delivery methods.
+                          Continuous improvement in learning framework, pedagogy, and educational delivery methods.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">

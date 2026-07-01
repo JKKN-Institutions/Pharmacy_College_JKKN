@@ -61,7 +61,7 @@ export default function LabPage() {
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
-                At JKKN College of Pharmacy Laboratory, the commitment to innovation extends beyond equipment and methodologies. The lab fosters an environment of exploration and collaboration, where aspiring pharmaceutical scientists are empowered to push the boundaries of research. Students and faculty engage in interdisciplinary projects, harnessing cellular and molecular techniques to delve into the intricate mechanisms of drug action. This approach not only enhances the understanding of pharmaceutical compounds but also contributes to the development of groundbreaking therapies that hold the potential to transform healthcare on a global scale.
+                At JKKN College of Pharmacy Laboratory, the commitment to innovation extends beyond equipment and methodologies. The lab fosters an environment of exploration and collaboration, where aspiring pharmaceutical scientists are empowered to push the boundaries of research. Learners and senior learners engage in interdisciplinary projects, harnessing cellular and molecular techniques to delve into the intricate mechanisms of drug action. This approach not only enhances the understanding of pharmaceutical compounds but also contributes to the development of groundbreaking therapies that hold the potential to transform healthcare on a global scale.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">

@@ -46,12 +46,12 @@ export default function NamakkalPage() {
     {
       question: 'What are the best colleges for pharmacy in Namakkal?',
       answer:
-        'JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with PCI approval and NAAC accreditation. The college provides three pharmacy programmes, modern pharmaceutical labs, research facilities, and campus placement support with recruiters like Sun Pharma, Cipla, and Apollo Pharmacy.',
+        'JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with PCI approval and NAAC accreditation. The college provides three pharmacy programmes, modern pharmaceutical learning labs, research facilities, and campus placement support with recruiters like Sun Pharma, Cipla, and Apollo Pharmacy.',
     },
     {
       question: 'How far is JKKN Pharmacy from Namakkal?',
       answer:
-        'JKKN College of Pharmacy is 66 km from Namakkal city, approximately 1.5 hours via NH-544 Salem–Coimbatore Highway. Frequent local buses run from Namakkal to Komarapalayam. College transport services and hostel accommodation are available for students.',
+        'JKKN College of Pharmacy is 66 km from Namakkal city, approximately 1.5 hours via NH-544 Salem–Coimbatore Highway. Frequent local buses run from Namakkal to Komarapalayam. College transport services and hostel accommodation are available for learners.',
     },
     {
       question: 'What pharmacy courses are available at pharmacy colleges in Namakkal?',
@@ -69,9 +69,9 @@ export default function NamakkalPage() {
         'B.Pharm graduates from JKKN College of Pharmacy work in pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, and medical sales. Graduates also qualify for government pharmacist roles through GPAT and state-level exams.',
     },
     {
-      question: 'Does JKKN Pharmacy provide hostel for Namakkal students?',
+      question: 'Does JKKN Pharmacy provide hostel for Namakkal learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for boys and girls with mess, Wi-Fi, and security. Students from Namakkal can choose between hostel stay or daily commute using college transport services.',
+        'JKKN College of Pharmacy provides separate hostel facilities for boys and girls with mess, Wi-Fi, and security. Learners from Namakkal can choose between hostel stay or daily commute using college transport services.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Namakkal?',
@@ -272,10 +272,10 @@ export default function NamakkalPage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Students Choose This Pharmacy College in Namakkal
+            Why Learners Choose This Pharmacy College in Namakkal
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            Among the best colleges for pharmacy in Namakkal district, JKKN offers quality pharmacy education accessible from Namakkal — 66 km from Namakkal city. Comfortable hostel or daily commute available. Students can choose what works best for them and still access quality professional pharmacy education.
+            Among the best colleges for pharmacy in Namakkal district, JKKN offers quality pharmacy education accessible from Namakkal — 66 km from Namakkal city. Comfortable hostel or daily commute available. Learners can choose what works best for them and still access quality professional pharmacy education.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -284,17 +284,17 @@ export default function NamakkalPage() {
               {
                 icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
                 title: 'PCI Approved',
-                desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
+                desc: 'PCI-approved pharmacy college with modern pharmaceutical learning labs',
               },
               {
                 icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
-                title: 'Well-Equipped Labs',
-                desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
+                title: 'Well-Equipped Learning Labs',
+                desc: 'Learning Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
                 icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Research Opportunities',
-                desc: 'Research opportunities for M.Pharm and Pharm.D students',
+                desc: 'Research opportunities for M.Pharm and Pharm.D learners',
               },
               {
                 icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
@@ -417,7 +417,7 @@ export default function NamakkalPage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            The placement cell connects students with India&apos;s top employers
+            The placement cell connects learners with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -549,8 +549,8 @@ export default function NamakkalPage() {
             {[
               {
                 emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
-                title: 'Modern Labs',
-                desc: 'Advanced laboratories and smart classrooms',
+                title: 'Modern Learning Labs',
+                desc: 'Advanced learning labs and smart learning studios',
               },
               {
                 emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
@@ -601,16 +601,16 @@ export default function NamakkalPage() {
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Students from Namakkal Love JKKN Pharmacy
+            Learners from Namakkal Love JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from students who made the right choice
+            Hear from learners who made the right choice
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our students? Connect with JKKN Pharmacy alumni and current students from Namakkal to learn about their experience.
+              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Namakkal to learn about their experience.
             </p>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"
