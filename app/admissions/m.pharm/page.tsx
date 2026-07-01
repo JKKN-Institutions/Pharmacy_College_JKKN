@@ -118,7 +118,7 @@ export default function MPharmAdmissionPage() {
         'M.Pharm graduates can pursue diverse careers based on their specialisation: Pharmaceutical Industry (Formulation, R&D, Production, QA/QC, Regulatory Affairs), Clinical Research (CRO, Pharmacovigilance), Academia (Assistant Professor in pharmacy colleges), Hospital Pharmacy (Clinical Pharmacist), Drug Regulatory Bodies, Government Drug Inspectors, Scientific Writing, and Higher Studies (PhD in Pharmaceutical Sciences). Many also become pharma entrepreneurs.',
     },
     {
-      question: 'Are scholarships available for M.Pharm students?',
+      question: 'Are scholarships available for M.Pharm learners?',
       answer:
         'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship (Management Quota ₹70,000/year; Government Quota as per norms). BC/MBC/DNC candidates get ₹10,000/year. GPAT-qualified candidates may receive AICTE stipend (approx. ₹12,400/month). Merit-based scholarships are also available for top-performing semester rank holders.',
     },
@@ -201,7 +201,7 @@ export default function MPharmAdmissionPage() {
                 The Master of Pharmacy (M.Pharm) at JKKN College of Pharmacy is a 2-year postgraduate degree (4 semesters) approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The programme is offered across five specialisations, each with a sanctioned intake of 15 seats.
               </p>
               <p>
-                The curriculum emphasises advanced theoretical foundations, hands-on laboratory training, journal-based discussions, and an extensive research project in the final semester. JKKN's modern research labs, instrumentation room, animal house, and active industry-academia collaborations make M.Pharm at JKKN an ideal launchpad for careers in the pharmaceutical industry, clinical research, academia, regulatory bodies, and PhD programmes.
+                The learning framework emphasises advanced theoretical foundations, hands-on laboratory training, journal-based discussions, and an extensive research project in the final semester. JKKN's modern research labs, instrumentation room, animal house, and active industry-academia collaborations make M.Pharm at JKKN an ideal launchpad for careers in the pharmaceutical industry, clinical research, academia, regulatory bodies, and PhD programmes.
               </p>
             </div>
           </div>
@@ -366,7 +366,7 @@ export default function MPharmAdmissionPage() {
                   { title: 'Community Certificate', desc: 'For SC/ST/MBC/BC/OBC candidates' },
                   { title: 'Conduct Certificate', desc: 'From B.Pharm institution' },
                   { title: 'Aadhaar Card', desc: 'Photocopy with self-attestation' },
-                  { title: 'Eligibility Certificate', desc: 'For students from other state universities' },
+                  { title: 'Eligibility Certificate', desc: 'For learners from other state universities' },
                   { title: 'Passport Photos', desc: '6 recent passport-size colour photographs' },
                 ].map((doc, idx) => (
                   <div key={idx} className="flex items-start gap-3">

@@ -58,15 +58,15 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "What documents are required for admission?",
-      answer: "Required documents for JKKN Pharmacy College admission include: +2 mark sheet/provisional certificate (self-attested), community certificate (if applicable - SC/ST/MBC/BC/OBC), transfer certificate from previous institution, migration certificate (for students from other boards), eligibility certificate for students from other states, conduct certificate, proof for special quotas (differently abled - 3% reservation, sports, NCC, ex-servicemen), Aadhaar card, and 6 recent passport-size photographs. All documents must be submitted in original during final admission."
+      answer: "Required documents for JKKN Pharmacy College admission include: +2 mark sheet/provisional certificate (self-attested), community certificate (if applicable - SC/ST/MBC/BC/OBC), transfer certificate from previous institution, migration certificate (for learners from other boards), eligibility certificate for learners from other states, conduct certificate, proof for special quotas (differently abled - 3% reservation, sports, NCC, ex-servicemen), Aadhaar card, and 6 recent passport-size photographs. All documents must be submitted in original during final admission."
     },
     {
       question: "Can I get admission after the last date?",
       answer: "Yes, late applications are accepted and considered only if seats remain available. The last date for issuing and receiving application forms is determined by the principal. In the case of SC/ST/MBC/BC candidates, late applications will be considered if reserved seats are unfilled."
     },
     {
-      question: "Are scholarships available for pharmacy students?",
-      answer: "Yes, Tamil Nadu government scholarships are available for eligible students. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Students can apply through the college scholarship cell after admission."
+      question: "Are scholarships available for pharmacy learners?",
+      answer: "Yes, Tamil Nadu government scholarships are available for eligible learners. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Learners can apply through the college scholarship cell after admission."
     },
     {
       question: "How are seats allocated for different categories?",
@@ -118,7 +118,7 @@ export default function AdmissionProcessPage() {
                 JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. The admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
               <p>
-                The college offers comprehensive pharmacy education with modern infrastructure, experienced faculty, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the recognized pharmacy institutions in South India.
+                The college offers comprehensive pharmacy education with modern infrastructure, experienced senior learners, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the recognized pharmacy institutions in South India.
               </p>
             </div>
           </div>
@@ -359,7 +359,7 @@ export default function AdmissionProcessPage() {
                 <li>• An Admission Committee provides guidance and advice throughout the admission process</li>
                 <li>• The committee screens and scrutinizes applications with selection based on merit and roster method</li>
                 <li>• Admission procedures commence after the announcement of 12th standard results</li>
-                <li>• Students should consult with the concerned branch HOD for programme-specific procedures</li>
+                <li>• Learners should consult with the concerned branch HOD for programme-specific procedures</li>
                 <li>• Under no circumstances will the admission list be published before the last date for receiving applications</li>
                 <li>• All original documents must be presented upon demand during admission</li>
                 <li>• Grace time may be granted for document submission with the principal's consent</li>
@@ -409,7 +409,7 @@ export default function AdmissionProcessPage() {
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
                   <div>
                     <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">Eligibility Certificate</h4>
-                    <p className="text-[10px] sm:text-xs text-gray-600">For students from other states/universities</p>
+                    <p className="text-[10px] sm:text-xs text-gray-600">For learners from other states/universities</p>
                   </div>
                 </div>
 
@@ -658,7 +658,7 @@ export default function AdmissionProcessPage() {
 
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <p className="text-[10px] sm:text-xs text-gray-700 mb-6">
-                JKKN College of Pharmacy is committed to making quality pharmacy education accessible to all deserving students. Various scholarships and financial assistance programmes are available:
+                JKKN College of Pharmacy is committed to making quality pharmacy education accessible to all deserving learners. Various scholarships and financial assistance programmes are available:
               </p>
 
               <div className="space-y-6">
@@ -686,9 +686,9 @@ export default function AdmissionProcessPage() {
                     Merit-Based Scholarships
                   </h3>
                   <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
-                    <li>• <strong>Top Rank Holders:</strong> Special scholarships for students ranking in top 10 in qualifying exams</li>
-                    <li>• <strong>Academic Excellence Award:</strong> Annual awards for students with outstanding academic performance</li>
-                    <li>• <strong>GPAT Qualified:</strong> Fee concession for M.Pharm students with valid GPAT scores</li>
+                    <li>• <strong>Top Rank Holders:</strong> Special scholarships for learners ranking in top 10 in qualifying exams</li>
+                    <li>• <strong>Academic Excellence Award:</strong> Annual awards for learners with outstanding academic performance</li>
+                    <li>• <strong>GPAT Qualified:</strong> Fee concession for M.Pharm learners with valid GPAT scores</li>
                   </ul>
                 </div>
 
@@ -699,10 +699,10 @@ export default function AdmissionProcessPage() {
                     Special Category Support
                   </h3>
                   <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
-                    <li>• <strong>Differently Abled Students:</strong> Special fee concessions and support facilities</li>
-                    <li>• <strong>Sports Quota:</strong> Scholarships for students with state/national level sports achievements</li>
+                    <li>• <strong>Differently Abled Learners:</strong> Special fee concessions and support facilities</li>
+                    <li>• <strong>Sports Quota:</strong> Scholarships for learners with state/national level sports achievements</li>
                     <li>• <strong>Ex-Servicemen Ward:</strong> Fee concessions for children of ex-servicemen</li>
-                    <li>• <strong>NCC/NSS:</strong> Support for students with active participation in NCC/NSS</li>
+                    <li>• <strong>NCC/NSS:</strong> Support for learners with active participation in NCC/NSS</li>
                   </ul>
                 </div>
 
@@ -710,7 +710,7 @@ export default function AdmissionProcessPage() {
                 <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-400 rounded">
                   <h4 className="font-bold text-gray-800 text-xs sm:text-sm mb-2">How to Apply for Scholarships</h4>
                   <p className="text-[10px] sm:text-xs text-gray-700">
-                    Students can apply for scholarships after admission through the college office. Required documents include income certificate, community certificate, and academic certificates. Applications for government scholarships are processed through the National Scholarship Portal (NSP). For merit-based and institutional scholarships, students should contact the scholarship cell at the college.
+                    Learners can apply for scholarships after admission through the college office. Required documents include income certificate, community certificate, and academic certificates. Applications for government scholarships are processed through the National Scholarship Portal (NSP). For merit-based and institutional scholarships, learners should contact the scholarship cell at the college.
                   </p>
                 </div>
               </div>
@@ -825,7 +825,7 @@ export default function AdmissionProcessPage() {
             </h3>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <p className="text-[10px] sm:text-xs text-gray-700 leading-relaxed">
-                JKKN College of Pharmacy welcomes applications from international students and NRIs who aspire to pursue their higher education in India. The college ensures a seamless and transparent admission process with dedicated support for overseas applicants. International students should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
+                JKKN College of Pharmacy welcomes applications from international learners and NRIs who aspire to pursue their higher education in India. The college ensures a seamless and transparent admission process with dedicated support for overseas applicants. International learners should contact the admission office for specific requirements regarding visa documentation, equivalence certificates, and fee structure.
               </p>
             </div>
           </div>
