@@ -21,17 +21,17 @@ export default function NSSPage() {
         <div className="space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* First Paragraph */}
           <p className="text-justify">
-            The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports. It provides opportunity to the student youth of 11th & 12th Class of schools at +2 Board level and student youth of Technical Institution, Graduate & Post Graduate at colleges and University level of India to take part in various government led community service activities & programmes.
+            The National Service Scheme (NSS) is a Central Sector Scheme of Government of India, Ministry of Youth Affairs & Sports. It provides opportunity to the learner youth of 11th & 12th Class of schools at +2 Board level and learner youth of Technical Institution, Graduate & Post Graduate at colleges and University level of India to take part in various government led community service activities & programmes.
           </p>
 
           {/* Second Paragraph */}
           <p className="text-justify">
-            The sole aim of the NSS is to provide hands on experience to young students in delivering community service. Since inception of the NSS in the year 1969, the number of students strength increased from 40,000 to over 3.8 million up to the end of March 2018 students in various universities, colleges and Institutions of higher learning have volunteered to take part in various community service programmes.
+            The sole aim of the NSS is to provide hands on experience to young learners in delivering community service. Since inception of the NSS in the year 1969, the number of learners strength increased from 40,000 to over 3.8 million up to the end of March 2018 learners in various universities, colleges and Institutions of higher learning have volunteered to take part in various community service programmes.
           </p>
 
           {/* Third Paragraph */}
           <p className="text-justify">
-            NSS volunteers who take part in the community service programme would either be a college level or a senior secondary level student. Being an active member these student volunteers would have the exposure and experience to be the following:
+            NSS volunteers who take part in the community service programme would either be a college level or a senior secondary level learner. Being an active member these learner volunteers would have the exposure and experience to be the following:
           </p>
 
           {/* Three Bullet Points */}
@@ -137,7 +137,7 @@ export default function NSSPage() {
           </h4>
 
           <p className="text-justify mt-4">
-            2.1 For adoption of a slum, there should be a composite survey team consisting of students drawn from faculties like, Arts, Science, Engineering, Medicine, Home Science and Social Work etc.
+            2.1 For adoption of a slum, there should be a composite survey team consisting of learners drawn from faculties like, Arts, Science, Engineering, Medicine, Home Science and Social Work etc.
           </p>
 
           <p className="text-justify mt-4">

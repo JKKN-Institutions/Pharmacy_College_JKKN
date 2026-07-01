@@ -17,11 +17,11 @@ const peos = [
   },
   {
     id: 'PEO-4',
-    text: 'To foster the students with efficient communication skills, leadership skills, and entrepreneurial skills with ethical and moral attitudes.',
+    text: 'To foster the learners with efficient communication skills, leadership skills, and entrepreneurial skills with ethical and moral attitudes.',
   },
   {
     id: 'PEO-5',
-    text: 'To nurture the students with life-long learning abilities to remain professionally competent and sound in the diverse fields of pharmaceutical sciences',
+    text: 'To nurture the learners with life-long learning abilities to remain professionally competent and sound in the diverse fields of pharmaceutical sciences',
   },
 ]
 

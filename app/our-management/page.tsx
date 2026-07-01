@@ -63,7 +63,7 @@ export default function OurManagementPage() {
                     As the Chairperson of JKKN Institutions, I am honoured to shoulder this immense responsibility, and I take great pride in the exceptional progress achieved. JKKN Institutions has earned the status of one of the most prestigious colleges in the region. &quot;Leadership and Excellence&quot; is not merely the motto but the foundation of its values, a testament to the advanced infrastructure and the exceptional quality of the community.
                   </p>
                   <p>
-                    JKKN Institutions provides the necessary infrastructure along with a team of qualified and highly motivated faculty all under one roof for the benefit of students. Beyond offering comprehensive education, the institution instils a progressive attitude, fostering innovation for the betterment of society. The synergy of academic excellence and industrial relevance distinguishes JKKN Institutions, setting it apart. I warmly welcome you to the lush, green campus!
+                    JKKN Institutions provides the necessary infrastructure along with a team of qualified and highly motivated senior learners all under one roof for the benefit of learners. Beyond offering comprehensive education, the institution instils a progressive attitude, fostering innovation for the betterment of society. The synergy of academic excellence and industrial relevance distinguishes JKKN Institutions, setting it apart. I warmly welcome you to the lush, green campus!
                   </p>
                 </div>
               </div>
@@ -104,10 +104,10 @@ export default function OurManagementPage() {
                 </div>
                 <div className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify space-y-4">
                   <p>
-                    I extend my heartfelt congratulations to the college for its fervent and focused dedication to shaping future engineers of distinction. At JKKN, the institution is committed to innovative education methodologies that enable quality learning, foster independent thinking, and facilitate the development of well-rounded personalities. The mission of JKKN empowers students to contribute their best to society and the nation.
+                    I extend my heartfelt congratulations to the college for its fervent and focused dedication to shaping future engineers of distinction. At JKKN, the institution is committed to innovative education methodologies that enable quality learning, foster independent thinking, and facilitate the development of well-rounded personalities. The mission of JKKN empowers learners to contribute their best to society and the nation.
                   </p>
                   <p>
-                    Together, the goal is to make JKKN an accredited temple of learning, guiding and inspiring students in their unique paths. The aim is to cultivate top-notch professionals who excel in their fields, with their flags of success flying high in this vibrant world of competition.
+                    Together, the goal is to make JKKN an accredited temple of learning, guiding and inspiring learners in their unique paths. The aim is to cultivate top-notch professionals who excel in their fields, with their flags of success flying high in this vibrant world of competition.
                   </p>
                 </div>
               </div>

@@ -103,7 +103,7 @@ export default function PlacementCellPage() {
           <div className="bg-[#006837] rounded-2xl p-6 sm:p-10 text-center text-white">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">Download Placement Cell Brochure</h2>
             <p className="text-sm sm:text-base text-green-100 mb-6 max-w-2xl mx-auto">
-              Get detailed information about placement activities, recruiter list, training programmes, and student success stories.
+              Get detailed information about placement activities, recruiter list, training programmes, and learner success stories.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
