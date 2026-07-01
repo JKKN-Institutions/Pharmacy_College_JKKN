@@ -147,7 +147,7 @@ export function GetRoleBasedPages(
             { href: '/others/balance-sheet', label: 'Balance Sheet', active: pathname === '/others/balance-sheet' },
             { href: '/others/financial-details', label: 'Financial details', active: pathname === '/others/financial-details' },
             { href: '/others/faculty-details', label: 'Faculty Details', active: pathname === '/others/faculty-details' },
-            { href: '/others/careers', label: 'Careers', active: pathname === '/others/careers' },
+            { href: '/careers', label: 'Careers', active: pathname === '/careers' },
             { href: '/others/alumni', label: 'Alumni', active: pathname === '/others/alumni' },
             { href: '/others/privacy-policy', label: 'Privacy policy', active: pathname === '/others/privacy-policy' }
           ]
