@@ -134,8 +134,8 @@ export default function HostelPage() {
                 <ul className="space-y-3">
                   {[
                     'Well-maintained infrastructure with modern facilities and aesthetically built architecture',
-                    'Uninterrupted power supply with separate generators for students',
-                    'Dedicated study rooms available for students after college hours',
+                    'Uninterrupted power supply with separate generators for learners',
+                    'Dedicated learning commons available for learners after college hours',
                     'Multipurpose gyms separately available for boys and girls',
                     'Indoor and outdoor game facilities for recreation',
                     'Stationary shops within the campus premises',
@@ -194,7 +194,7 @@ export default function HostelPage() {
                 <ul className="space-y-3">
                   {[
                     'Dedicated hostel management committee headed by a Chief Warden.',
-                    'Resident staff members ensuring strict adherence to hostel rules and regulations.',
+                    'Resident team members ensuring strict adherence to hostel rules and regulations.',
                     'Safe and secure environment with round-the-clock supervision.',
                     'Bus facility available for the Drop and pickup from campus',
                   ].map((item, i) => (

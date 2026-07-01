@@ -188,7 +188,7 @@ export default function FacultyProfilePage() {
                 Distinguished Faculty Members
               </h1>
               <p className="text-sm sm:text-base text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Meet the highly qualified and experienced faculty members at JKKN College of Pharmacy, dedicated to excellence in pharmaceutical education and research. The faculty has published <strong>98 research papers</strong> in prestigious national and international journals over the past 7 years.
+                Meet the highly qualified and experienced senior learners at JKKN College of Pharmacy, dedicated to excellence in pharmaceutical education and research. The senior learners have published <strong>98 research papers</strong> in prestigious national and international journals over the past 7 years.
               </p>
             </div>
 
@@ -314,10 +314,10 @@ export default function FacultyProfilePage() {
                 Research Excellence
               </h2>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
-                Faculty members at JKKN College of Pharmacy are actively engaged in advanced research across various domains of pharmaceutical sciences. With <strong>98 publications</strong> in the last 7 years, the faculty has demonstrated consistent excellence in research output. Their work has been published in prestigious peer-reviewed journals and presented at national and international conferences.
+                Senior learners at JKKN College of Pharmacy are actively engaged in advanced research across various domains of pharmaceutical sciences. With <strong>98 publications</strong> in the last 7 years, the senior learners have demonstrated consistent excellence in research output. Their work has been published in prestigious peer-reviewed journals and presented at national and international conferences.
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-                Faculty members maintain active profiles on academic platforms like Google Scholar and ResearchGate, ensuring their research is accessible to the global scientific community. They regularly collaborate with pharmaceutical industries, research organisations, and other academic institutions to advance pharmaceutical knowledge and innovation.
+                Senior learners maintain active profiles on academic platforms like Google Scholar and ResearchGate, ensuring their research is accessible to the global scientific community. They regularly collaborate with pharmaceutical industries, research organisations, and other academic institutions to advance pharmaceutical knowledge and innovation.
               </p>
             </div>
 

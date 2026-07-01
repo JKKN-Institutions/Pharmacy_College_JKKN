@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Health Facilities | Campus Clinic | JKKN Pharmacy',
-  description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and student wellness programmes.',
+  description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and learner wellness programmes.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/health-facilities/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/health-facilities/',
     title: 'Health Facilities | Campus Clinic | JKKN Pharmacy',
-    description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and student wellness programmes.',
+    description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and learner wellness programmes.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Health Facilities | Campus Clinic | JKKN Pharmacy',
-    description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and student wellness programmes.',
+    description: 'Health care facilities at JKKN College of Pharmacy. Medical room, first aid, doctor on call, annual health checkups and learner wellness programmes.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

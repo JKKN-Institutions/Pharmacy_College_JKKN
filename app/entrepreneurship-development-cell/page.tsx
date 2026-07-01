@@ -24,7 +24,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Entrepreneurship Development Cell
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. The EDC's mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
+                  The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its learners. The EDC's mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
                 </p>
               </div>
 
@@ -34,7 +34,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Vision
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The EDC's vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
+                  The EDC's vision is to create a vibrant entrepreneurial ecosystem that encourages learners to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
                 </p>
               </div>
 
@@ -44,7 +44,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   Mission
                 </h2>
                 <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
+                  The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among learners by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire learners to become job creators rather than job seekers, thereby contributing to the economic development of the region.
                 </p>
               </div>
 
@@ -57,13 +57,13 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Awareness Creation:</strong> Organize seminars, workshops, and awareness programmes to educate students about the opportunities and challenges in entrepreneurship.
+                      <strong>Awareness Creation:</strong> Organize seminars, workshops, and awareness programmes to educate learners about the opportunities and challenges in entrepreneurship.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Skill Development:</strong> Provide training and mentorship to enhance students' entrepreneurial skills and knowledge.
+                      <strong>Skill Development:</strong> Provide training and mentorship to enhance learners' entrepreneurial skills and knowledge.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -75,7 +75,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Startup Support:</strong> Assist students in securing financial support and resources for their startup ventures.
+                      <strong>Startup Support:</strong> Assist learners in securing financial support and resources for their startup ventures.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -121,7 +121,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Entrepreneurship Awareness Camps:</strong> Conduct regular camps to inspire students to take up entrepreneurship.
+                      <strong>Entrepreneurship Awareness Camps:</strong> Conduct regular camps to inspire learners to take up entrepreneurship.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -133,19 +133,19 @@ export default function EntrepreneurshipDevelopmentCellPage() {
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Industrial Visits:</strong> Organize visits to pharmaceutical companies to expose students to industry practices.
+                      <strong>Industrial Visits:</strong> Organize visits to pharmaceutical companies to expose learners to industry practices.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Mentorship Programmes:</strong> Connect students with experienced mentors for guidance and support.
+                      <strong>Mentorship Programmes:</strong> Connect learners with experienced mentors for guidance and support.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
                     <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Pitching Competitions:</strong> Host competitions where students can pitch their business ideas and receive feedback.
+                      <strong>Pitching Competitions:</strong> Host competitions where learners can pitch their business ideas and receive feedback.
                     </span>
                   </li>
                 </ul>
