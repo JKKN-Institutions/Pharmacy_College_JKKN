@@ -15,7 +15,7 @@ export default function PharmacologyPage() {
   const faqs = [
     {
       question: "What is M.Pharm in Pharmacology?",
-      answer: "M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery."
+      answer: "M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Learners learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery."
     },
     {
       question: "What is the salary after M.Pharm Pharmacology?",
@@ -23,7 +23,7 @@ export default function PharmacologyPage() {
     },
     {
       question: "Does M.Pharm Pharmacology involve animal studies?",
-      answer: "Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided."
+      answer: "Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Learners must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Learners uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided."
     },
     {
       question: "Can I do PhD after M.Pharm Pharmacology?",
@@ -39,7 +39,7 @@ export default function PharmacologyPage() {
     },
     {
       question: "Is M.Pharm Pharmacology good for academic career?",
-      answer: "Yes, Pharmacology is excellent for academic careers. There is high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide students, and maintain work-life balance."
+      answer: "Yes, Pharmacology is excellent for academic careers. There is high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide learners, and maintain work-life balance."
     },
     {
       question: "Can I switch to medical writing from Pharmacology?",
@@ -95,7 +95,7 @@ export default function PharmacologyPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacology is a 2-year postgraduate specialisation programme that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive programme trains students in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Students conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organisations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
+              M.Pharm in Pharmacology is a 2-year postgraduate specialisation programme that focuses on understanding drug action mechanisms, toxicology, and preclinical research. This research-intensive programme trains learners in animal experimentation, in vitro studies, cellular pharmacology, and molecular techniques to evaluate drug effects on biological systems. Learners conduct extensive laboratory work including pharmacological screening, toxicity testing, drug-drug interactions, and pharmacokinetic studies. Graduates pursue careers in pharmaceutical research, contract research organisations (CROs), drug safety, toxicology, medical writing, regulatory affairs, and academic research, contributing to drug discovery and development.
             </p>
           </div>
 
@@ -455,7 +455,7 @@ export default function PharmacologyPage() {
         <div className="bg-gradient-to-br from-white to-[#FBFBEE] rounded-xl p-8 mt-8 border-l-4 border-[#7cb983]">
           <div className="flex items-start gap-3 mb-4">
             <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 text-[#006837]" />
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">GPAT Benefits for Pharmacology Students:</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-800">GPAT Benefits for Pharmacology Learners:</h3>
           </div>
           <ul className="space-y-3 text-gray-800">
             <li className="flex items-start">
@@ -468,11 +468,11 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
-              <span>Access to well-equipped pharmacology labs with modern equipment</span>
+              <span>Access to well-equipped pharmacology learning labs with modern equipment</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
-              <span>Opportunity to work with experienced research faculty</span>
+              <span>Opportunity to work with experienced research senior learners</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#7cb983] font-bold mr-2">•</span>
@@ -873,7 +873,7 @@ export default function PharmacologyPage() {
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                <span>Teach pharmacology to pharmacy students</span>
+                <span>Teach pharmacology to pharmacy learners</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
@@ -1329,7 +1329,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Students learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery.
+                  M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Learners learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery.
                 </p>
               </div>
             )}
@@ -1377,7 +1377,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 2 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Students must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Students uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
+                  Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Learners must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Learners uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
                 </p>
               </div>
             )}
@@ -1473,7 +1473,7 @@ export default function PharmacologyPage() {
             {expandedFAQ === 6 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
-                  Yes, Pharmacology is excellent for academic careers. There's high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide students, and maintain work-life balance. Pharmacology faculty are particularly valued as it's a core subject with practical components requiring experienced teachers.
+                  Yes, Pharmacology is excellent for academic careers. There's high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide learners, and maintain work-life balance. Pharmacology faculty are particularly valued as it's a core subject with practical components requiring experienced teachers.
                 </p>
               </div>
             )}
@@ -1628,7 +1628,7 @@ export default function PharmacologyPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Faculty | NAAC Accredited</p>
+          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Senior Learners | NAAC Accredited</p>
         </div>
       </div>
 
