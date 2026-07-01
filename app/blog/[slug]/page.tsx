@@ -18,7 +18,7 @@ import {
 const tocItems = [
   { id: 'what-is-bed', label: 'What is B.Ed? Course Overview' },
   { id: 'eligibility', label: 'B.Ed Eligibility Criteria' },
-  { id: 'curriculum', label: 'B.Ed Course Curriculum' },
+  { id: 'curriculum', label: 'B.Ed Course Learning Framework' },
   { id: 'tnteu-counseling', label: 'TNTEU Counseling 2026' },
   { id: 'fee-structure', label: 'B.Ed Fee Structure' },
   { id: 'career-scope', label: 'Career Scope After B.Ed' },
@@ -92,9 +92,9 @@ const relatedArticles = [
   {
     category: 'Campus Life',
     readTime: '7 min',
-    title: 'Day in the Life of a B.Ed Student at JKKN College of Education',
+    title: 'Day in the Life of a B.Ed Learner at JKKN College of Education',
     description:
-      'Follow a typical day of a B.Ed student at JKKN — from morning sessions and micro-teaching practice to school internships and campus activities...',
+      'Follow a typical day of a B.Ed learner at JKKN — from morning sessions and micro-teaching practice to school internships and campus activities...',
     date: 'Feb 8, 2026',
     Icon: ClipboardList,
     gradient: 'from-[#7cb983] via-[#6ba872] to-[#006837]',
@@ -195,8 +195,8 @@ export default function BlogDetailPage() {
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "headline": "B.Ed Course 2026: Eligibility, Curriculum, Fees & Admission Guide",
-    "description": "Complete guide to B.Ed course 2026 — eligibility criteria, curriculum, TNTEU counselling, fee structure, career scope, and admission process at JKKN College of Education, Komarapalayam.",
+    "headline": "B.Ed Course 2026: Eligibility, Learning Framework, Fees & Admission Guide",
+    "description": "Complete guide to B.Ed course 2026 — eligibility criteria, learning framework, TNTEU counselling, fee structure, career scope, and admission process at JKKN College of Education, Komarapalayam.",
     "image": "https://pharmacy.jkkn.ac.in/images/logo.png",
     "author": {
       "@type": "Organization",
@@ -402,10 +402,10 @@ export default function BlogDetailPage() {
             {/* ── Section 3: Curriculum ── */}
             <section id="curriculum" className="mb-12 scroll-mt-20">
               <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                B.Ed Course Curriculum — Semester-Wise Breakdown
+                B.Ed Course Learning Framework — Semester-Wise Breakdown
               </h2>
               <p className="text-gray-600 leading-relaxed mb-5">
-                The B.Ed curriculum is structured across four semesters spanning two academic years.
+                The B.Ed learning framework is structured across four semesters spanning two academic years.
                 The program combines theoretical foundations of education with extensive practical
                 classroom training.
               </p>
@@ -446,7 +446,7 @@ export default function BlogDetailPage() {
                         'Sem 4',
                         'Optional Courses, Reading & Reflecting on Texts, School Internship (continued), Dissertation / Project Work',
                       ],
-                      ['Internship', '16 Weeks', 'Practice teaching in government and private schools under faculty supervision'],
+                      ['Internship', '16 Weeks', 'Practice teaching in government and private schools under senior learner supervision'],
                     ].map(([year, sem, subjects], i) => (
                       <tr key={i} className="border-b border-gray-100 last:border-0">
                         <td className="px-4 py-3 text-gray-700 font-medium">{year}</td>
@@ -459,10 +459,10 @@ export default function BlogDetailPage() {
               </div>
               <div className="bg-[#FBFBEE] border-l-4 border-[#006837] rounded-r-xl p-4">
                 <p className="text-sm text-gray-700">
-                  At <strong>JKKN College of Education</strong>, students complete their
+                  At <strong>JKKN College of Education</strong>, learners complete their
                   school internship at partner schools across Komarapalayam, Namakkal, and
                   Erode, gaining <strong>real classroom experience</strong> with structured
-                  mentoring from experienced faculty.
+                  mentoring from experienced senior learners.
                 </p>
               </div>
             </section>
@@ -684,17 +684,17 @@ export default function BlogDetailPage() {
                   {
                     num: 1,
                     title: 'NCTE Approved & TNTEU Affiliated',
-                    desc: 'JKKN College of Education holds valid NCTE recognition, ensuring your B.Ed degree is legally recognized for teaching in government and private schools across India. Affiliation to TNTEU guarantees a standardized, quality curriculum.',
+                    desc: 'JKKN College of Education holds valid NCTE recognition, ensuring your B.Ed degree is legally recognized for teaching in government and private schools across India. Affiliation to TNTEU guarantees a standardized, quality learning framework.',
                   },
                   {
                     num: 2,
                     title: 'Extensive School Internship',
-                    desc: 'Students complete 16 weeks of practice teaching at partner government and private schools across Komarapalayam, Namakkal, and Erode districts. Real classroom exposure under expert mentorship prepares graduates for confident teaching from day one.',
+                    desc: 'Learners complete 16 weeks of practice teaching at partner government and private schools across Komarapalayam, Namakkal, and Erode districts. Real classroom exposure under expert mentorship prepares graduates for confident teaching from day one.',
                   },
                   {
                     num: 3,
-                    title: 'Experienced Faculty',
-                    desc: 'Faculty members include experienced teacher-educators with postgraduate and doctoral qualifications in Education, Psychology, and their respective subject specializations. Regular workshops, seminars, and guest lectures enrich student learning.',
+                    title: 'Experienced Senior Learners',
+                    desc: 'Senior learners include experienced teacher-educators with postgraduate and doctoral qualifications in Education, Psychology, and their respective subject specializations. Regular workshops, seminars, and guest lectures enrich learner learning.',
                   },
                   {
                     num: 4,
@@ -758,7 +758,7 @@ export default function BlogDetailPage() {
                   ],
                   [
                     'Begin your B.Ed program',
-                    'in September 2026. Orientation week includes campus tour, faculty introduction, academic briefing, and micro-teaching workshop.',
+                    'in September 2026. Orientation week includes campus tour, senior learner introduction, academic briefing, and micro-teaching workshop.',
                   ],
                 ].map(([bold, rest], i) => (
                   <div key={i} className="flex gap-4">
@@ -820,7 +820,7 @@ export default function BlogDetailPage() {
                   <p className="text-gray-500 text-sm leading-relaxed mb-2">
                     The content team at JKKN College of Education creates evidence-based
                     educational content about teacher education, career guidance, and academic
-                    pathways. The faculty includes experienced teacher-educators and researchers
+                    pathways. The senior learners include experienced teacher-educators and researchers
                     affiliated to Tamil Nadu Teachers Education University (TNTEU).
                   </p>
                   <button className="text-[#006837] font-semibold text-sm hover:underline">
