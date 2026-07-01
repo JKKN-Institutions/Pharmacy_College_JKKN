@@ -13,15 +13,15 @@ interface Video {
 const videos: Video[] = [
   {
     title: 'JKKN College of Pharmacy — Campus Tour 2025',
-    description: 'Explore the advanced pharmacy labs, research facilities, and campus infrastructure at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.',
+    description: 'Explore the advanced pharmacy learning labs, research facilities, and campus infrastructure at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.',
     youtubeId: 'YOUR_YOUTUBE_VIDEO_ID_1',
     thumbnailUrl: 'https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID_1/maxresdefault.jpg',
     uploadDate: '2025-08-15',
     duration: 'PT4M30S',
   },
   {
-    title: 'B.Pharm Lab Facilities — JKKN College of Pharmacy',
-    description: 'Take a virtual tour of the modern pharmaceutical laboratories at JKKN College of Pharmacy including Pharmacology, Pharmaceutical Chemistry, and Analysis labs.',
+    title: 'B.Pharm Learning Lab Facilities — JKKN College of Pharmacy',
+    description: 'Take a virtual tour of the modern pharmaceutical learning labs at JKKN College of Pharmacy including Pharmacology, Pharmaceutical Chemistry, and Analysis labs.',
     youtubeId: 'YOUR_YOUTUBE_VIDEO_ID_2',
     thumbnailUrl: 'https://img.youtube.com/vi/YOUR_YOUTUBE_VIDEO_ID_2/maxresdefault.jpg',
     uploadDate: '2025-07-10',
@@ -73,7 +73,7 @@ export default function VideoSection() {
 
       <div className="max-w-[1200px] mx-auto">
         <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
-        <p className="text-sm sm:text-base text-gray-600 mb-8">Watch our campus tour, lab facilities, and placement success stories.</p>
+        <p className="text-sm sm:text-base text-gray-600 mb-8">Watch our campus tour, learning lab facilities, and placement success stories.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {validVideos.map((v) => (

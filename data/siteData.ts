@@ -36,14 +36,14 @@ export const topMenuItems: NavItem[] = [
       { label: "Central Public Information Officer", href: "/cpio", target: "_blank" },
       { label: "Why JKKN?", href: "/why-jkkn" },
       {
-        label: "WHY STUDENTS CHOOSE JKKN?",
+        label: "WHY LEARNERS CHOOSE JKKN?",
         href: "#",
         submenu: [
-          { label: "Why Erode Students?", href: "/erode" },
-          { label: "Why Salem Students?", href: "/salem" },
-          { label: "Why Tirupur Students?", href: "/tiruppur" },
-          { label: "Why Namakkal Students?", href: "/namakkal" },
-          { label: "Why Coimbatore Students?", href: "/coimbatore" },
+          { label: "Why Erode Learners?", href: "/erode" },
+          { label: "Why Salem Learners?", href: "/salem" },
+          { label: "Why Tirupur Learners?", href: "/tiruppur" },
+          { label: "Why Namakkal Learners?", href: "/namakkal" },
+          { label: "Why Coimbatore Learners?", href: "/coimbatore" },
         ]
       },
       { label: "PEO'S", href: "/peos" },
@@ -120,7 +120,7 @@ export const topMenuItems: NavItem[] = [
         ]
       },
       { label: "Attainment of COs and POs", href: "/pdf/ATTAINMENT-OF-COs-AND-POs.pdf", target: "_blank" },
-      { label: "Faculty Profile", href: "/faculty-profile" },
+      { label: "Senior Learner Profile", href: "/faculty-profile" },
       { label: "Details of Students", href: "/details-of-students" },
       { label: "Placements", href: "/placements" }
     ]
@@ -129,12 +129,12 @@ export const topMenuItems: NavItem[] = [
     label: "FACILITIES",
     href: "/facilities",
     submenu: [
-      { label: "Class Room", href: "/class-room" },
+      { label: "Learning Studio", href: "/class-room" },
       { label: "Seminar Hall", href: "/seminar-hall" },
-      { label: "Lab", href: "/lab" },
+      { label: "Learning Lab", href: "/lab" },
       { label: "Central Facilities", href: "/central-facilities" },
       { label: "Library", href: "/library" },
-      { label: "Internship opportunities for students", href: "/internship-opportunities" },
+      { label: "Internship opportunities for learners", href: "/internship-opportunities" },
       { label: "Hostel", href: "/hostel" },
       { label: "Sports", href: "/sports" },
       { label: "Food Court", href: "/food-court" },
@@ -193,7 +193,7 @@ export const bottomMenuItems: NavItem[] = [
     href: "/others",
     submenu: [
       { label: "Careers", href: "/careers" },
-      { label: "Faculty", href: "/faculty" },
+      { label: "Senior Learners", href: "/faculty" },
       { label: "Best Practice", href: "/best-practice" },
       { label: "Competitive Examination and Career", href: "/competitive-examination" },
       { label: "Digital Campus", href: "/digital-campus" },
