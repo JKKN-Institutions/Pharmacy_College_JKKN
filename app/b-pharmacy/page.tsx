@@ -41,11 +41,11 @@ export default function BPharmacyPage() {
     },
     {
       question: "What are the subjects in B.Pharm?",
-      answer: "B.Pharm curriculum at JKKN spans 8 semesters covering Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy. The programme includes extensive laboratory work, industrial training, project work, and a 6-month internship in pharmaceutical industries or hospitals for hands-on experience."
+      answer: "B.Pharm learning framework at JKKN spans 8 semesters covering Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy. The programme includes extensive laboratory work, industrial training, project work, and a 6-month internship in pharmaceutical industries or hospitals for hands-on experience."
     },
     {
       question: "Is B.Pharm difficult to study?",
-      answer: "B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Students with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The curriculum becomes progressively specialised in later years."
+      answer: "B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Learners with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The learning framework becomes progressively specialised in later years."
     },
     {
       question: "Can I do M.Pharm after B.Pharm?",
@@ -88,7 +88,7 @@ export default function BPharmacyPage() {
           <div className="border-b-4 border-[#7cb983] w-full mb-6"></div>
 
           <p className="snippet-answer speakable-summary text-gray-700 text-xs sm:text-sm leading-relaxed mb-8">
-            Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains students in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals across hospitals, pharmaceutical companies, and government organisations. After completing B.Pharm, students can pursue advanced degrees like <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharmacy</Link> for specialisation or <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link> for research careers.
+            Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains learners in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals across hospitals, pharmaceutical companies, and government organisations. After completing B.Pharm, learners can pursue advanced degrees like <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharmacy</Link> for specialisation or <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link> for research careers.
           </p>
 
           {/* Info Cards */}
@@ -183,7 +183,7 @@ export default function BPharmacyPage() {
         <div className="mb-4 sm:mb-6 md:mb-8">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4 sm:mb-6 flex items-center gap-3">
             <BookOpen className="w-8 h-8 xs:w-9 xs:h-9 sm:w-10 sm:h-10" />
-            B.Pharm Course Structure & Curriculum
+            B.Pharm Course Structure & Learning Framework
           </h2>
           <div className="border-b-4 border-[#7cb983] w-full mb-4 sm:mb-6 md:mb-8"></div>
 
@@ -1408,7 +1408,7 @@ export default function BPharmacyPage() {
               {expandedFAQ === 6 && (
                 <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
-                    B.Pharm curriculum includes Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy along with practical training.
+                    B.Pharm learning framework includes Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy along with practical training.
                   </p>
                 </div>
               )}
@@ -1434,7 +1434,7 @@ export default function BPharmacyPage() {
               {expandedFAQ === 7 && (
                 <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
-                    B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Students with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The curriculum becomes progressively specialised in later years.
+                    B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Learners with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The learning framework becomes progressively specialised in later years.
                   </p>
                 </div>
               )}

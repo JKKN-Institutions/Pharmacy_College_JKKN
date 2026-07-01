@@ -67,7 +67,7 @@ const faqs = [
   {
     question: 'How long is the B.Pharm Lateral Entry programme?',
     answer:
-      'The programme is 3 years in duration. Students are admitted directly to the second year of B.Pharm, bypassing the first year of the standard 4-year programme.',
+      'The programme is 3 years in duration. Learners are admitted directly to the second year of B.Pharm, bypassing the first year of the standard 4-year programme.',
   },
   {
     question: 'Is B.Pharm Lateral Entry at JKKN PCI approved?',

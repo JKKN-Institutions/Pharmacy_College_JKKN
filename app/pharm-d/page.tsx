@@ -15,7 +15,7 @@ export default function PharmDPage() {
   const pharmDFaqs = [
     {
       question: "What is Pharm.D course?",
-      answer: "Pharm.D (Doctor of Pharmacy) is a 6-year professional doctorate (5 years academic + 1 year clinical clerkship) focusing on clinical pharmacy and patient care. Two pathways: Pharm.D after 12th standard and Pharm.D (PB) — 3 years after B.Pharm. Curriculum covers pharmacotherapy, clinical pharmacokinetics, patient counselling, and hospital rotations. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient education, and drug therapy management."
+      answer: "Pharm.D (Doctor of Pharmacy) is a 6-year professional doctorate (5 years academic + 1 year clinical clerkship) focusing on clinical pharmacy and patient care. Two pathways: Pharm.D after 12th standard and Pharm.D (PB) — 3 years after B.Pharm. Learning framework covers pharmacotherapy, clinical pharmacokinetics, patient counselling, and hospital rotations. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient education, and drug therapy management."
     },
     {
       question: "What is the salary after Pharm.D?",
@@ -39,7 +39,7 @@ export default function PharmDPage() {
     },
     {
       question: "What is clinical clerkship in Pharm.D?",
-      answer: "Clinical clerkship is intensive 1-year hospital-based practical training in the final year of Pharm.D. Students rotate through General Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry, Critical Care/ICU, Oncology/Cardiology, and Community Pharmacy departments. Daily activities include attending morning rounds, conducting medication reviews, counselling patients, responding to drug information queries, monitoring adverse drug reactions, and documenting pharmaceutical care plans."
+      answer: "Clinical clerkship is intensive 1-year hospital-based practical training in the final year of Pharm.D. Learners rotate through General Medicine, Surgery, Pediatrics, Obstetrics, Psychiatry, Critical Care/ICU, Oncology/Cardiology, and Community Pharmacy departments. Daily activities include attending morning rounds, conducting medication reviews, counselling patients, responding to drug information queries, monitoring adverse drug reactions, and documenting pharmaceutical care plans."
     },
     {
       question: "Should I do Pharm.D (PB) after B.Pharm or M.Pharm?",
@@ -78,7 +78,7 @@ export default function PharmDPage() {
 
           <div className="snippet-answer speakable-summary text-xs sm:text-sm text-[#002309] leading-relaxed space-y-4 mb-4">
             <p>
-              Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice, patient care, and medication therapy management. Unlike research-oriented <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link>, Pharm.D emphasizes direct patient interaction, clinical decision-making, and pharmaceutical care in hospital settings. The programme exists in two pathways in India: <span className="text-[#006837] font-semibold">Pharm.D (6 years after 12th standard)</span> comprising 5 years academic coursework and 1 year clinical clerkships in hospitals, and <span className="text-[#006837] font-semibold">Pharm.D (Post Baccalaureate) or Pharm.D (PB) (3 years after <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>)</span> comprising 2 years advanced clinical pharmacy coursework and 1 year hospital clerkships. Both pathways lead to the same clinical pharmacist qualification. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient counselling, therapeutic drug monitoring, participation in healthcare teams, adverse drug reaction management, and evidence-based pharmaceutical care. Students can also pursue advanced specialisation through <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharmacy</Link> programmes. Career opportunities include clinical pharmacist positions in multi-specialty hospitals (₹25,000-60,000/month initially, ₹60,000-1,50,000/month with experience), critical care pharmacy, oncology pharmacy, clinical research, drug information services, and academia.
+              Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice, patient care, and medication therapy management. Unlike research-oriented <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link>, Pharm.D emphasizes direct patient interaction, clinical decision-making, and pharmaceutical care in hospital settings. The programme exists in two pathways in India: <span className="text-[#006837] font-semibold">Pharm.D (6 years after 12th standard)</span> comprising 5 years academic coursework and 1 year clinical clerkships in hospitals, and <span className="text-[#006837] font-semibold">Pharm.D (Post Baccalaureate) or Pharm.D (PB) (3 years after <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>)</span> comprising 2 years advanced clinical pharmacy coursework and 1 year hospital clerkships. Both pathways lead to the same clinical pharmacist qualification. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient counselling, therapeutic drug monitoring, participation in healthcare teams, adverse drug reaction management, and evidence-based pharmaceutical care. Learners can also pursue advanced specialisation through<Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharmacy</Link> programmes. Career opportunities include clinical pharmacist positions in multi-specialty hospitals (₹25,000-60,000/month initially, ₹60,000-1,50,000/month with experience), critical care pharmacy, oncology pharmacy, clinical research, drug information services, and academia.
             </p>
           </div>
 
@@ -165,7 +165,7 @@ export default function PharmDPage() {
                 <ul className="space-y-2 text-xs sm:text-sm text-[#002309]">
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Students wanting clinical pharmacy career from beginning</span>
+                    <span>Learners wanting clinical pharmacy career from beginning</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
@@ -429,7 +429,7 @@ export default function PharmDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
           <BookOpen className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">Pharm.D Course Structure & Curriculum</h2>
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">Pharm.D Course Structure & Learning Framework</h2>
         </div>
 
         {/* Pharm.D (6 Years) - Year-wise Breakdown */}
@@ -758,11 +758,11 @@ export default function PharmDPage() {
         <div className="bg-white rounded-xl p-4 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-4">
             <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309]">Clinical Clerkship Experience - What Students Actually Do:</h3>
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309]">Clinical Clerkship Experience - What Learners Actually Do:</h3>
           </div>
 
           <p className="text-xs sm:text-sm text-[#002309] leading-relaxed mb-4">
-            The final year clinical clerkship is the most crucial component of Pharm.D education. Unlike classroom learning, students work alongside healthcare teams in real hospital settings:
+            The final year clinical clerkship is the most crucial component of Pharm.D education. Unlike learning-studio sessions, learners work alongside healthcare teams in real hospital settings:
           </p>
 
           <div className="mb-4">
@@ -857,7 +857,7 @@ export default function PharmDPage() {
 
           <div>
             <p className="text-xs sm:text-sm text-[#002309] leading-relaxed mb-4">
-              <span className="font-semibold text-[#006837]">Learning Outcomes:</span> By clerkship end, students develop confidence in clinical decision-making, learn to communicate with healthcare team effectively, understand real-world medication management challenges, build professional relationships, and transition from theoretical knowledge to practical patient care skills.
+              <span className="font-semibold text-[#006837]">Learning Outcomes:</span> By clerkship end, learners develop confidence in clinical decision-making, learn to communicate with healthcare team effectively, understand real-world medication management challenges, build professional relationships, and transition from theoretical knowledge to practical patient care skills.
             </p>
             <p className="text-xs sm:text-sm text-[#002309] leading-relaxed">
               <span className="font-semibold text-[#006837]">Evaluation:</span> Graded on clinical knowledge, patient interaction skills, professionalism, documentation quality, case presentations, and final assessment by supervising physicians and clinical preceptors.
@@ -1148,7 +1148,7 @@ export default function PharmDPage() {
               <ul className="space-y-2 text-xs sm:text-sm text-[#002309]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#006837]">✓</span>
-                  <span>Teach Pharm.D/B.Pharm students</span>
+                  <span>Teach Pharm.D/B.Pharm learners</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#006837]">✓</span>
@@ -1160,7 +1160,7 @@ export default function PharmDPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#006837]">✓</span>
-                  <span>Student project guidance</span>
+                  <span>Learner project guidance</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-[#006837]">✓</span>
@@ -1428,7 +1428,7 @@ export default function PharmDPage() {
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <span className="font-semibold text-[#006837]">Excel During Clerkships:</span> Final year hospital performance critical - many hospitals hire from their own clerkship students. Demonstrate clinical competence, professionalism, team skills.
+                <span className="font-semibold text-[#006837]">Excel During Clerkships:</span> Final year hospital performance critical - many hospitals hire from their own clerkship learners. Demonstrate clinical competence, professionalism, team skills.
               </div>
             </li>
             <li className="flex items-start">
@@ -1937,7 +1937,7 @@ export default function PharmDPage() {
 
           <div className="mt-6 bg-[#FBFBEE] rounded-lg p-6 border-l-4 border-[#7cb983]">
             <p className="font-semibold text-xs sm:text-sm text-[#002309] mb-2">Pro Tip for Competitive Applications:</p>
-            <p className="text-xs sm:text-sm text-[#002309]">Students with strong internship performance, clinical publications, case presentations at conferences, and active involvement in hospital pharmacy activities have significantly higher acceptance rates. Start building your clinical portfolio early!</p>
+            <p className="text-xs sm:text-sm text-[#002309]">Learners with strong internship performance, clinical publications, case presentations at conferences, and active involvement in hospital pharmacy activities have significantly higher acceptance rates. Start building your clinical portfolio early!</p>
           </div>
         </div>
       </div>
@@ -2235,7 +2235,7 @@ export default function PharmDPage() {
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">Institutional Scholarships</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#002309]">
                 <li><span className="font-semibold text-[#006837]">Merit Scholarships:</span> Based on entrance exam ranks (10-100% fee waiver)</li>
-                <li><span className="font-semibold text-[#006837]">Need-Based Aid:</span> For students from economically disadvantaged backgrounds</li>
+                <li><span className="font-semibold text-[#006837]">Need-Based Aid:</span> For learners from economically disadvantaged backgrounds</li>
                 <li><span className="font-semibold text-[#006837]">Sports Quota:</span> For state/national level athletes</li>
                 <li><span className="font-semibold text-[#006837]">Academic Excellence:</span> For top performers in each year</li>
               </ul>
@@ -2308,7 +2308,7 @@ export default function PharmDPage() {
                 <span className="text-white text-lg font-bold">5</span>
               </div>
               <h3 className="font-bold text-xs sm:text-sm text-[#002309] mb-3">Part-Time Opportunities</h3>
-              <p className="text-xs sm:text-sm text-[#002309]">During later years, some students work part-time in pharmacies on weekends. Internship year stipend (₹5-10K/month) helps offset costs.</p>
+              <p className="text-xs sm:text-sm text-[#002309]">During later years, some learners work part-time in pharmacies on weekends. Internship year stipend (₹5-10K/month) helps offset costs.</p>
             </div>
 
             <div className="bg-white rounded-lg shadow-md p-6">
@@ -2443,7 +2443,7 @@ export default function PharmDPage() {
           <div className="grid md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-bold text-base text-[#006837] mb-3">Hospital Affiliations (Most Important!)</h4>
-              <p className="text-xs sm:text-sm text-[#002309] mb-4">Pharm.D education is 50% classroom, 50% hospital practice. College must have strong hospital tie-ups for your clinical rotations and internship. Check if college has own hospital or MoUs with reputable multi-specialty hospitals.</p>
+              <p className="text-xs sm:text-sm text-[#002309] mb-4">Pharm.D education is 50% learning studio, 50% hospital practice. College must have strong hospital tie-ups for your clinical rotations and internship. Check if college has own hospital or MoUs with reputable multi-specialty hospitals.</p>
 
               <h4 className="font-bold text-base text-[#006837] mb-3">PCI Approval & Accreditation</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-4">Verify college is approved by Pharmacy Council of India (PCI) for Pharm.D programme. Check NAAC accreditation grade (A+ or A preferred). Ensures degree recognition nationwide.</p>
@@ -2789,7 +2789,7 @@ export default function PharmDPage() {
               </button>
               {expandedFAQ === 0 && (
                 <div className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#7cb983]/20">
-                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice and patient care. Two pathways exist: (1) Pharm.D - 6 years after 12th standard (5 years academic + 1 year clinical clerkship), and (2) Pharm.D (PB) - 3 years after B.Pharm (2 years academic + 1 year clerkship). Unlike research-focused PhD, Pharm.D emphasizes direct patient care, medication therapy management, clinical decision-making, and hospital pharmacy practice. Curriculum includes pharmacotherapy, clinical pharmacokinetics, patient counselling, pharmaceutical care, evidence-based medicine, and extensive hospital rotations. Graduates work as clinical pharmacists in hospitals, participate in healthcare teams, conduct medication reviews, provide patient education, and ensure safe and effective drug therapy. Career options include hospital clinical pharmacist (₹25,000-60,000/month), critical care pharmacist, oncology pharmacist, clinical research, drug information services, and medication safety roles.</p>
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Pharm.D (Doctor of Pharmacy) is a professional doctorate programme focusing on clinical pharmacy practice and patient care. Two pathways exist: (1) Pharm.D - 6 years after 12th standard (5 years academic + 1 year clinical clerkship), and (2) Pharm.D (PB) - 3 years after B.Pharm (2 years academic + 1 year clerkship). Unlike research-focused PhD, Pharm.D emphasizes direct patient care, medication therapy management, clinical decision-making, and hospital pharmacy practice. Learning framework includes pharmacotherapy, clinical pharmacokinetics, patient counselling, pharmaceutical care, evidence-based medicine, and extensive hospital rotations. Graduates work as clinical pharmacists in hospitals, participate in healthcare teams, conduct medication reviews, provide patient education, and ensure safe and effective drug therapy. Career options include hospital clinical pharmacist (₹25,000-60,000/month), critical care pharmacist, oncology pharmacist, clinical research, drug information services, and medication safety roles.</p>
                 </div>
               )}
             </div>
@@ -2833,7 +2833,7 @@ export default function PharmDPage() {
               </button>
               {expandedFAQ === 2 && (
                 <div className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#7cb983]/20">
-                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Pharm.D and Pharm.D (PB) differ in duration, eligibility, and entry point but lead to same clinical pharmacist qualification. Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard, requires NEET qualification, integrated programme covering basic pharmaceutical sciences before clinical focus, suitable for students wanting clinical career directly after 12th, total investment 6 years. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory, advanced clinical focus assuming pharmacy knowledge, for graduates wanting clinical specialisation, total investment 7 years (4 years B.Pharm + 3 years PB). Both programmes: Same clinical pharmacist designation, equivalent career opportunities, similar salary ranges, eligible for residency programmes, can practice as clinical pharmacists in hospitals, recognised by Pharmacy Council of India. Career outcomes identical - no preference for Pharm.D over PB or vice versa. Choose Pharm.D if: Want clinical career from start, just completed 12th with NEET. Choose Pharm.D (PB) if: Already have B.Pharm, want clinical shift without research-heavy M.Pharm.</p>
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Pharm.D and Pharm.D (PB) differ in duration, eligibility, and entry point but lead to same clinical pharmacist qualification. Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard, requires NEET qualification, integrated programme covering basic pharmaceutical sciences before clinical focus, suitable for learners wanting clinical career directly after 12th, total investment 6 years. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory, advanced clinical focus assuming pharmacy knowledge, for graduates wanting clinical specialisation, total investment 7 years (4 years B.Pharm + 3 years PB). Both programmes: Same clinical pharmacist designation, equivalent career opportunities, similar salary ranges, eligible for residency programmes, can practice as clinical pharmacists in hospitals, recognised by Pharmacy Council of India. Career outcomes identical - no preference for Pharm.D over PB or vice versa. Choose Pharm.D if: Want clinical career from start, just completed 12th with NEET. Choose Pharm.D (PB) if: Already have B.Pharm, want clinical shift without research-heavy M.Pharm.</p>
                 </div>
               )}
             </div>
@@ -2921,7 +2921,7 @@ export default function PharmDPage() {
               </button>
               {expandedFAQ === 6 && (
                 <div className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#7cb983]/20">
-                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Clinical clerkship is intensive 1-year hospital-based practical training in final year of Pharm.D (Year 6 for regular, Year 3 for PB). Students rotate through different hospital departments gaining hands-on patient care experience. Typical rotations: General Medicine (2 months), Surgery & Orthopedics (1.5 months), Pediatrics (1.5 months), Obstetrics & Gynecology (1 month), Psychiatry (1 month), Critical Care/ICU (2 months), Specialty areas like Oncology/Cardiology (2 months), Community Pharmacy (1 month). Daily activities: Attend morning rounds with medical team, review patient charts and medication orders, conduct medication reviews checking for drug interactions and dosing errors, counsel 2-3 patients daily about medications, respond to drug information queries from doctors/nurses, maintain pharmaceutical care plans, present drug therapy recommendations to healthcare team, monitor adverse drug reactions, calculate drug doses based on patient parameters. Learning outcomes: Develop clinical decision-making confidence, learn effective healthcare team communication, understand real-world medication management challenges, build professional relationships with physicians and nurses, transition from theoretical knowledge to practical patient care skills. Evaluation: Based on clinical knowledge, patient interaction skills, professionalism, documentation quality, case presentations, and assessments by supervising physicians and clinical preceptors. Critical for career - many hospitals hire from their own clerkship students.</p>
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Clinical clerkship is intensive 1-year hospital-based practical training in final year of Pharm.D (Year 6 for regular, Year 3 for PB). Learners rotate through different hospital departments gaining hands-on patient care experience. Typical rotations: General Medicine (2 months), Surgery & Orthopedics (1.5 months), Pediatrics (1.5 months), Obstetrics & Gynecology (1 month), Psychiatry (1 month), Critical Care/ICU (2 months), Specialty areas like Oncology/Cardiology (2 months), Community Pharmacy (1 month). Daily activities: Attend morning rounds with medical team, review patient charts and medication orders, conduct medication reviews checking for drug interactions and dosing errors, counsel 2-3 patients daily about medications, respond to drug information queries from doctors/nurses, maintain pharmaceutical care plans, present drug therapy recommendations to healthcare team, monitor adverse drug reactions, calculate drug doses based on patient parameters. Learning outcomes: Develop clinical decision-making confidence, learn effective healthcare team communication, understand real-world medication management challenges, build professional relationships with physicians and nurses, transition from theoretical knowledge to practical patient care skills. Evaluation: Based on clinical knowledge, patient interaction skills, professionalism, documentation quality, case presentations, and assessments by supervising physicians and clinical preceptors. Critical for career - many hospitals hire from their own clerkship learners.</p>
                 </div>
               )}
             </div>
@@ -2965,7 +2965,7 @@ export default function PharmDPage() {
               </button>
               {expandedFAQ === 8 && (
                 <div className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#7cb983]/20">
-                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Yes, Pharm.D graduates eligible for faculty positions in pharmacy colleges. Qualifications: (1) Pharm.D or Pharm.D (PB) from PCI-recognised institution recognised as doctoral qualification (professional doctorate), (2) Eligible for Assistant Professor positions in Pharmacy Practice, Clinical Pharmacy, Pharmacology, Pharmacotherapeutics departments, (3) Minimum 55-60% aggregate in Pharm.D programme typically required. Advantages: (1) Can start as Assistant Professor directly with Pharm.D without Ph.D requirement, (2) Starting salary ₹50,000-70,000/month in private colleges, ₹60,000-80,000/month in government colleges (7th Pay Commission), (3) Job security and academic freedom, (4) Promotion pathway: Assistant Professor (0-5 years) → Associate Professor (5+ years, ₹70K-1L/month) → Professor (10+ years, ₹1-1.5L/month). Teaching subjects: Clinical pharmacy, hospital pharmacy practice, pharmacy practice, pharmacotherapy, clinical pharmacokinetics, patient counselling, pharmaceutical care. Additional requirements: (1) NET/SLET qualification preferred for government college positions (not always mandatory for Pharm.D holders), (2) Clinical experience (1-2 years as clinical pharmacist) strengthens profile, (3) Publications in clinical pharmacy journals beneficial. Career satisfaction: Combines clinical knowledge with teaching, mentor future pharmacists, research opportunities in clinical pharmacy practice, work-life balance better than hospital clinical practice. Consider: Faculty positions offer stability but require patience with administrative work, student mentoring responsibilities, continuous curriculum updates. Best for: Those who enjoy teaching, want to shape clinical pharmacy education, prefer academic environment over hospital clinical practice, value job security over highest salary.</p>
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#002309]">Yes, Pharm.D graduates eligible for faculty positions in pharmacy colleges. Qualifications: (1) Pharm.D or Pharm.D (PB) from PCI-recognised institution recognised as doctoral qualification (professional doctorate), (2) Eligible for Assistant Professor positions in Pharmacy Practice, Clinical Pharmacy, Pharmacology, Pharmacotherapeutics departments, (3) Minimum 55-60% aggregate in Pharm.D programme typically required. Advantages: (1) Can start as Assistant Professor directly with Pharm.D without Ph.D requirement, (2) Starting salary ₹50,000-70,000/month in private colleges, ₹60,000-80,000/month in government colleges (7th Pay Commission), (3) Job security and academic freedom, (4) Promotion pathway: Assistant Professor (0-5 years) → Associate Professor (5+ years, ₹70K-1L/month) → Professor (10+ years, ₹1-1.5L/month). Teaching subjects: Clinical pharmacy, hospital pharmacy practice, pharmacy practice, pharmacotherapy, clinical pharmacokinetics, patient counselling, pharmaceutical care. Additional requirements: (1) NET/SLET qualification preferred for government college positions (not always mandatory for Pharm.D holders), (2) Clinical experience (1-2 years as clinical pharmacist) strengthens profile, (3) Publications in clinical pharmacy journals beneficial. Career satisfaction: Combines clinical knowledge with teaching, mentor future pharmacists, research opportunities in clinical pharmacy practice, work-life balance better than hospital clinical practice. Consider: Faculty positions offer stability but require patience with administrative work, learner mentoring responsibilities, continuous learning framework updates. Best for: Those who enjoy teaching, want to shape clinical pharmacy education, prefer academic environment over hospital clinical practice, value job security over highest salary.</p>
                 </div>
               )}
             </div>
@@ -3012,7 +3012,7 @@ export default function PharmDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-10 h-10 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center text-white text-lg"> <Target className="w-10 h-10" /> </div>
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#006837]">Final Guidance for Prospective Pharm.D Students</h2>
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#006837]">Final Guidance for Prospective Pharm.D Learners</h2>
         </div>
 
         {/* Pharm.D is Right Choice If */}
@@ -3045,7 +3045,7 @@ export default function PharmDPage() {
           </h3>
 
           <div className="space-y-4 text-[#002309]">
-            <p><span className="font-bold text-[#006837]">1. Excel in Clinical Clerkships:</span> Final year hospital performance most critical. Many hospitals hire from own clerkship students. Show initiative, professionalism, clinical competence. Build relationships with physicians and senior pharmacists - strongest job leads come from clerkship connections.</p>
+            <p><span className="font-bold text-[#006837]">1. Excel in Clinical Clerkships:</span> Final year hospital performance most critical. Many hospitals hire from own clerkship learners. Show initiative, professionalism, clinical competence. Build relationships with physicians and senior pharmacists - strongest job leads come from clerkship connections.</p>
 
             <p><span className="font-bold text-[#006837]">2. Pursue Specialty Residency:</span> 1-2 year post-Pharm.D residency in critical care, oncology, or infectious diseases significantly boosts employability and salary (₹10-20K/month increase). Investment worthwhile for serious clinical pharmacy career.</p>
 
