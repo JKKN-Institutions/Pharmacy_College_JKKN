@@ -15,7 +15,7 @@ export default function PharmaceuticalAnalysisPage() {
   const faqs = [
     {
       question: "What is M.Pharm in Pharmaceutical Analysis?",
-      answer: "M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum."
+      answer: "M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Learners learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum."
     },
     {
       question: "Is GPAT mandatory for M.Pharm admission?",
@@ -51,7 +51,7 @@ export default function PharmaceuticalAnalysisPage() {
     },
     {
       question: "Is GPAT scholarship available for M.Pharm?",
-      answer: "Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates."
+      answer: "Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only learners admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Learners must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates."
     }
   ];
 
@@ -105,7 +105,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-6"></div>
 
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-8">
-            M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation programme focusing on advanced analytical techniques, quality control methodologies, method development, and validation for pharmaceutical products. This programme trains students in sophisticated instrumentation including HPLC, GC-MS, LC-MS/MS, UV-Visible spectroscopy, and other analytical tools essential for regulatory compliance, and research. Graduates become specialists in ensuring drug quality, safety, and efficacy through rigorous analytical testing.
+            M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation programme focusing on advanced analytical techniques, quality control methodologies, method development, and validation for pharmaceutical products. This programme trains learners in sophisticated instrumentation including HPLC, GC-MS, LC-MS/MS, UV-Visible spectroscopy, and other analytical tools essential for regulatory compliance, and research. Graduates become specialists in ensuring drug quality, safety, and efficacy through rigorous analytical testing.
           </p>
 
           {/* Info Cards */}
@@ -775,7 +775,7 @@ export default function PharmaceuticalAnalysisPage() {
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
-                  <span className="text-xs sm:text-sm text-gray-700">Teach pharmaceutical analysis to students</span>
+                  <span className="text-xs sm:text-sm text-gray-700">Teach pharmaceutical analysis to learners</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#7cb983] mr-2">✓</span>
@@ -1214,7 +1214,7 @@ export default function PharmaceuticalAnalysisPage() {
               <div className="flex-1">
                 <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">Commencement of Classes (August)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">
-                  Attend orientation programme. Receive course materials and laboratory access. Meet faculty advisors and understand research expectations. Begin coursework and familiarize with analytical instruments.
+                  Attend orientation programme. Receive course materials and learning lab access. Meet senior learner advisors and understand research expectations. Begin coursework and familiarize with analytical instruments.
                 </p>
               </div>
             </div>
@@ -1325,7 +1325,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
             <ul className="space-y-3">
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• GPAT Scholarship:</span> ₹12,400/month for GPAT qualified students (subject to selection)
+                <span className="font-bold text-[#006837]">• GPAT Scholarship:</span> ₹12,400/month for GPAT qualified learners (subject to selection)
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Merit Scholarships:</span> Most government colleges offer 25-100% fee waivers
@@ -1427,7 +1427,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 0 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Students learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
+                    M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Learners learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
                   </p>
                 </div>
               )}
@@ -1643,7 +1643,7 @@ export default function PharmaceuticalAnalysisPage() {
               {expandedFAQ === 6 && (
                 <div className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
-                    Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only students admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Students must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
+                    Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only learners admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Learners must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
                   </p>
                 </div>
               )}
@@ -1725,7 +1725,7 @@ export default function PharmaceuticalAnalysisPage() {
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
           <p className="text-sm mt-6 text-gray-100">
-            GPAT Qualified? | PCI Approved | Modern Analytical Lab | Industry Collaborations
+            GPAT Qualified? | PCI Approved | Modern Analytical Learning Lab | Industry Collaborations
           </p>
         </div>
 

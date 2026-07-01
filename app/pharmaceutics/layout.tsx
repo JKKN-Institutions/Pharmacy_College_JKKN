@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     question: "Does JKKN have research labs for Pharmaceutics?",
-    answer: "JKKN College of Pharmacy has advanced pharmaceutical research laboratories equipped for drug formulation development, novel drug delivery research, nanotechnology applications, and biopharmaceutical studies. Students gain hands-on training aligned with current industry and research standards."
+    answer: "JKKN College of Pharmacy has advanced pharmaceutical research laboratories equipped for drug formulation development, novel drug delivery research, nanotechnology applications, and biopharmaceutical studies. Learners gain hands-on training aligned with current industry and research standards."
   }
 ]
 

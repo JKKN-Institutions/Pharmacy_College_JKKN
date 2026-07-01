@@ -15,11 +15,11 @@ export default function PharmaceuticsPage() {
   const faqs = [
     {
       question: "What is M.Pharm in Pharmaceutics?",
-      answer: "M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation focusing on drug formulation, product development, and pharmaceutical technology. Students learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialisation is ideal for those interested in creating new pharmaceutical products."
+      answer: "M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation focusing on drug formulation, product development, and pharmaceutical technology. Learners learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialisation is ideal for those interested in creating new pharmaceutical products."
     },
     {
       question: "What is NDDS in Pharmaceutics?",
-      answer: "NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics students extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities."
+      answer: "NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics learners extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities."
     },
     {
       question: "What is the salary after M.Pharm Pharmaceutics?",
@@ -47,7 +47,7 @@ export default function PharmaceuticsPage() {
     },
     {
       question: "What is the difference between Pharmaceutics and Pharmaceutical Technology?",
-      answer: "M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use 'Pharmaceutics,' others use 'Pharmaceutical Technology' or 'Pharmaceutics & Pharmaceutical Technology.' The curriculum, career opportunities, and salaries are identical. When applying, check the syllabus rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations."
+      answer: "M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use 'Pharmaceutics,' others use 'Pharmaceutical Technology' or 'Pharmaceutics & Pharmaceutical Technology.' The learning framework, career opportunities, and salaries are identical. When applying, check the learning pathway rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations."
     },
     {
       question: "Can I switch from Analysis to Pharmaceutics or vice versa?",
@@ -95,7 +95,7 @@ export default function PharmaceuticsPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation programme focusing on the science and technology of drug formulation, pharmaceutical product development, and novel drug delivery systems (NDDS). This programme trains students in designing, developing, and optimizing pharmaceutical dosage forms including tablets, capsules, injectables, transdermal patches, nanoparticles, liposomes, and other advanced delivery systems. Graduates become formulation scientists, product development specialists, and pharmaceutical R&D experts driving innovation in the pharmaceutical industry.
+              M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation programme focusing on the science and technology of drug formulation, pharmaceutical product development, and novel drug delivery systems (NDDS). This programme trains learners in designing, developing, and optimizing pharmaceutical dosage forms including tablets, capsules, injectables, transdermal patches, nanoparticles, liposomes, and other advanced delivery systems. Graduates become formulation scientists, product development specialists, and pharmaceutical R&D experts driving innovation in the pharmaceutical industry.
             </p>
           </div>
 
@@ -391,7 +391,7 @@ export default function PharmaceuticsPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Access to well-equipped formulation labs and research facilities</span>
+              <span>Access to well-equipped formulation learning labs and research facilities</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -848,7 +848,7 @@ export default function PharmaceuticsPage() {
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#7cb983] mr-2 mt-1">✓</span>
-                <span>Teach pharmaceutics to pharmacy students</span>
+                <span>Teach pharmaceutics to pharmacy learners</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#7cb983] mr-2 mt-1">✓</span>
@@ -1301,7 +1301,7 @@ export default function PharmaceuticsPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">6</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Fee Payment & Admission Confirmation (July-August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for GPAT scholarship if eligible. Collect student ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Complete admission formalities. Pay first-year tuition fees. Apply for GPAT scholarship if eligible. Collect learner ID card, library card, and laboratory access credentials. Submit hostel accommodation request if needed.</p>
               </div>
             </div>
           </div>
@@ -1312,7 +1312,7 @@ export default function PharmaceuticsPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">7</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Commencement of Classes (August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Attend orientation programme for M.Pharm students. Meet faculty advisors and potential research supervisors. Get familiar with formulation laboratory, instruments (tablet compression machine, coating pan, dissolution tester). Begin coursework and identify research interests.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Attend orientation programme for M.Pharm learners. Meet senior learner advisors and potential research supervisors. Get familiar with formulation learning laboratory, instruments (tablet compression machine, coating pan, dissolution tester). Begin coursework and identify research interests.</p>
               </div>
             </div>
           </div>
@@ -1445,15 +1445,15 @@ export default function PharmaceuticsPage() {
           <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in eligible institutions. Must maintain minimum CGPA requirements.</span>
+              <span><span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified learners in eligible institutions. Must maintain minimum CGPA requirements.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">NIPER Fellowship:</span> All NIPER students receive ₹12,400/month stipend regardless of GPAT score. Plus accommodation facilities.</span>
+              <span><span className="font-bold text-[#006837]">NIPER Fellowship:</span> All NIPER learners receive ₹12,400/month stipend regardless of GPAT score. Plus accommodation facilities.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">Merit-Based Scholarships:</span> Top government colleges offer 25-100% fee waivers based on GPAT percentile. Typically for students with 85+ percentile.</span>
+              <span><span className="font-bold text-[#006837]">Merit-Based Scholarships:</span> Top government colleges offer 25-100% fee waivers based on GPAT percentile. Typically for learners with 85+ percentile.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1469,7 +1469,7 @@ export default function PharmaceuticsPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="font-bold text-[#006837]">Industry-Sponsored Fellowships:</span> Pharmaceutical companies sponsor M.Pharm students for collaborative research projects (₹10,000-15,000/month).</span>
+              <span><span className="font-bold text-[#006837]">Industry-Sponsored Fellowships:</span> Pharmaceutical companies sponsor M.Pharm learners for collaborative research projects (₹10,000-15,000/month).</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1489,7 +1489,7 @@ export default function PharmaceuticsPage() {
         <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983] mb-8">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-6">Critical Equipment & Facilities Required:</h3>
 
-          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Formulation Development Lab:</h4>
+          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Formulation Development Learning Lab:</h4>
           <ul className="space-y-2 text-gray-700 mb-6">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1517,7 +1517,7 @@ export default function PharmaceuticsPage() {
             </li>
           </ul>
 
-          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Characterization & Testing Lab:</h4>
+          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">Characterization & Testing Learning Lab:</h4>
           <ul className="space-y-2 text-gray-700 mb-6">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1549,7 +1549,7 @@ export default function PharmaceuticsPage() {
             </li>
           </ul>
 
-          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">NDDS Research Lab:</h4>
+          <h4 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800 mb-4">NDDS Research Learning Lab:</h4>
           <ul className="space-y-2 text-gray-700 mb-6">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1635,7 +1635,7 @@ export default function PharmaceuticsPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
-                  M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation focusing on drug formulation, product development, and pharmaceutical technology. Students learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialisation is ideal for those interested in creating new pharmaceutical products.
+                  M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation focusing on drug formulation, product development, and pharmaceutical technology. Learners learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialisation is ideal for those interested in creating new pharmaceutical products.
                 </p>
               </div>
             )}
@@ -1659,7 +1659,7 @@ export default function PharmaceuticsPage() {
             {expandedFAQ === 1 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
-                  NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics students extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities.
+                  NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics learners extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities.
                 </p>
               </div>
             )}
@@ -1827,7 +1827,7 @@ export default function PharmaceuticsPage() {
             {expandedFAQ === 8 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
-                  M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The curriculum, career opportunities, and salaries are identical. When applying, check the syllabus rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations.
+                  M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The learning framework, career opportunities, and salaries are identical. When applying, check the learning pathway rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations.
                 </p>
               </div>
             )}
@@ -1934,7 +1934,7 @@ export default function PharmaceuticsPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">GPAT Qualified Students Preferred | PCI Approved | Advanced Formulation Lab | Industry Partnerships</p>
+          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">GPAT Qualified Learners Preferred | PCI Approved | Advanced Formulation Learning Lab | Industry Partnerships</p>
         </div>
       </div>
 

@@ -15,7 +15,7 @@ export default function PharmaceuticalChemistryPage() {
   const faqs = [
     {
       question: "What is M.Pharm in Pharmaceutical Chemistry?",
-      answer: "M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Students learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research."
+      answer: "M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Learners learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research."
     },
     {
       question: "What is the salary after M.Pharm Pharmaceutical Chemistry?",
@@ -23,7 +23,7 @@ export default function PharmaceuticalChemistryPage() {
     },
     {
       question: "What is the difference between Pharmaceutical Chemistry and Medicinal Chemistry?",
-      answer: "Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. PCI recognises both names as equivalent specialisations."
+      answer: "Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The learning framework, career prospects, and job roles are identical. PCI recognises both names as equivalent specialisations."
     },
     {
       question: "Can I do PhD after M.Pharm Pharmaceutical Chemistry?",
@@ -31,7 +31,7 @@ export default function PharmaceuticalChemistryPage() {
     },
     {
       question: "Is organic chemistry knowledge mandatory for Pharmaceutical Chemistry?",
-      answer: "Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, this specialisation will be very difficult. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead."
+      answer: "Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Learners must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, this specialisation will be very difficult. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead."
     },
     {
       question: "What is the difference between Pharmaceutical Chemistry and Pharmaceutical Analysis?",
@@ -43,7 +43,7 @@ export default function PharmaceuticalChemistryPage() {
     },
     {
       question: "Can I work in formulation or production after Pharmaceutical Chemistry?",
-      answer: "Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, and NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D, and drug discovery."
+      answer: "Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, and NDDS development that Pharmaceutics learners receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D, and drug discovery."
     },
     {
       question: "Is M.Pharm Pharmaceutical Chemistry difficult?",
@@ -95,7 +95,7 @@ export default function PharmaceuticalChemistryPage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation programme focusing on drug design, organic synthesis, structure-activity relationships (SAR), and computer-aided drug design (CADD). This chemistry-intensive programme trains students in synthetic organic chemistry techniques, molecular modeling, spectroscopic analysis, and rational drug design principles to discover and optimize new drug molecules. Students conduct extensive laboratory work in chemical synthesis, characterization, and computational chemistry. Graduates pursue careers as Medicinal Chemists, Synthetic Chemists, Drug Discovery Scientists in pharmaceutical R&D, biotechnology companies, and academic research, contributing to the discovery of life-saving medicines.
+              M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation programme focusing on drug design, organic synthesis, structure-activity relationships (SAR), and computer-aided drug design (CADD). This chemistry-intensive programme trains learners in synthetic organic chemistry techniques, molecular modeling, spectroscopic analysis, and rational drug design principles to discover and optimize new drug molecules. Learners conduct extensive laboratory work in chemical synthesis, characterization, and computational chemistry. Graduates pursue careers as Medicinal Chemists, Synthetic Chemists, Drug Discovery Scientists in pharmaceutical R&D, biotechnology companies, and academic research, contributing to the discovery of life-saving medicines.
             </p>
           </div>
 
@@ -459,7 +459,7 @@ export default function PharmaceuticalChemistryPage() {
         <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-8 mt-8 border-l-4 border-[#7cb983]">
           <div className="flex items-center gap-3 mb-6">
             <Lightbulb className="w-8 h-8" />
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">GPAT Advantage for Pharmaceutical Chemistry Students:</h3>
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">GPAT Advantage for Pharmaceutical Chemistry Learners:</h3>
           </div>
 
           <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
@@ -469,7 +469,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span>Students strong in organic chemistry have natural advantage in GPAT scoring</span>
+              <span>Learners strong in organic chemistry have natural advantage in GPAT scoring</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -944,7 +944,7 @@ export default function PharmaceuticalChemistryPage() {
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                <span>Teach pharmaceutical chemistry to students</span>
+                <span>Teach pharmaceutical chemistry to learners</span>
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
@@ -1458,7 +1458,7 @@ export default function PharmaceuticalChemistryPage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-3">GPAT Registration (October-November 2025)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Register on NTA GPAT website. Pharmaceutical Chemistry has highest GPAT weightage (30-35 questions), giving chemistry-strong students an advantage. Pay fees (₹1,400 General, ₹700 SC/ST/OBC). Focus preparation on Pharmaceutical Chemistry section.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Register on NTA GPAT website. Pharmaceutical Chemistry has highest GPAT weightage (30-35 questions), giving chemistry-strong learners an advantage. Pay fees (₹1,400 General, ₹700 SC/ST/OBC). Focus preparation on Pharmaceutical Chemistry section.</p>
               </div>
             </div>
           </div>
@@ -1630,7 +1630,7 @@ export default function PharmaceuticalChemistryPage() {
           <ul className="space-y-4 text-xs sm:text-sm text-gray-700">
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students. Chemistry students often qualify easily due to high GPAT weightage.</span>
+              <span><span className="text-[#006837] font-bold">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified learners. Chemistry learners often qualify easily due to high GPAT weightage.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1642,7 +1642,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Research Assistantships:</span> Chemistry faculty often have CSIR/DBT funded projects offering ₹8,000-12,000/month to M.Pharm students.</span>
+              <span><span className="text-[#006837] font-bold">Research Assistantships:</span> Chemistry faculty often have CSIR/DBT funded projects offering ₹8,000-12,000/month to M.Pharm learners.</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1690,7 +1690,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Students learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research.
+                  M.Pharm in Pharmaceutical Chemistry is a 2-year postgraduate specialisation focusing on drug design, medicinal chemistry, organic synthesis, and structure-activity relationships (SAR). Learners learn synthetic chemistry techniques, computer-aided drug design (CADD), molecular modeling, and chemical characterization methods to discover and develop new drug molecules. The programme emphasizes laboratory work in organic synthesis, spectroscopic analysis, and computational chemistry. Career opportunities include Medicinal Chemist, Synthetic Chemist, Drug Discovery Scientist, and Research Scientist with salaries ranging from ₹5-12 lakhs per annum. This specialisation is ideal for those with strong organic chemistry background interested in drug discovery research.
                 </p>
               </div>
             )}
@@ -1738,7 +1738,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 0 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The curriculum, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the programme name, but the content and outcomes are essentially the same.
+                  Pharmaceutical Chemistry and Medicinal Chemistry are closely related and often used interchangeably in M.Pharm programmes. Pharmaceutical Chemistry is the broader term encompassing all aspects of drug chemistry including synthesis, analysis, and formulation chemistry. Medicinal Chemistry is a subset focusing specifically on drug design, SAR studies, and optimisation of lead compounds for therapeutic use. In M.Pharm programmes, both terms generally refer to the same specialisation covering drug design, organic synthesis, SAR, and CADD. The learning framework, career prospects, and job roles are identical. Some universities use 'Pharmaceutical Chemistry' while others use 'Medicinal Chemistry' as the programme name, but the content and outcomes are essentially the same.
                 </p>
               </div>
             )}
@@ -1786,7 +1786,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 2 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Students must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, found it confusing, or lack genuine interest in molecular structures, this specialisation will be very difficult and frustrating. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead. Success requires genuine aptitude and interest in organic chemistry, not just memorization.
+                  Yes, strong organic chemistry foundation is absolutely mandatory for M.Pharm Pharmaceutical Chemistry. The specialisation is heavily focused on organic synthesis, reaction mechanisms, and synthetic route design. Learners must be comfortable with: organic reactions (substitution, elimination, addition, condensation), named reactions (Grignard, Wittig, Diels-Alder, Michael addition, Claisen, Friedel-Crafts), spectroscopy (NMR, IR, Mass, UV interpretation), reaction mechanisms and electron flow, stereochemistry (R/S, E/Z configurations), and retrosynthetic analysis. If you struggled with organic chemistry in B.Pharm, found it confusing, or lack genuine interest in molecular structures, this specialisation will be very difficult and frustrating. Consider Pharmaceutical Analysis (instruments focus) or Pharmaceutics (formulation focus) instead. Success requires genuine aptitude and interest in organic chemistry, not just memorization.
                 </p>
               </div>
             )}
@@ -1858,7 +1858,7 @@ export default function PharmaceuticalChemistryPage() {
             {expandedFAQ === 5 && (
               <div className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed">
-                  Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, NDDS development that Pharmaceutics students receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D (method development), drug discovery. If you want formulation career, Pharmaceutics specialisation is more appropriate choice than Chemistry. Choose specialisation based on actual career interest, not as backup plan.
+                  Yes, but not ideal utilization of specialisation. Pharmaceutical Chemistry graduates can work in formulation R&D or production, but they typically face competition from Pharmaceutics graduates who are specifically trained for these roles. Your chemistry knowledge helps in: (1) Understanding drug-excipient interactions, (2) Stability and degradation pathways, (3) Impurity profiling, (4) Analytical support for formulation. However, you lack specialised formulation training in tablet compression, coating, NDDS development that Pharmaceutics learners receive. Better to focus on roles that leverage your synthesis expertise: medicinal chemistry, process chemistry, analytical R&D (method development), drug discovery. If you want formulation career, Pharmaceutics specialisation is more appropriate choice than Chemistry. Choose specialisation based on actual career interest, not as backup plan.
                 </p>
               </div>
             )}
@@ -1974,7 +1974,7 @@ export default function PharmaceuticalChemistryPage() {
           <div className="bg-gradient-to-br from-[#FBFBEE] to-[#FBFBEE] rounded-xl p-6 border-l-4 border-[#7cb983]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">7. Global Recognition & Mobility</h3>
             <p className="text-gray-700 leading-relaxed">
-              Medicinal chemistry is universally recognised and valued worldwide. Chemical structures, reactions, and synthesis principles are universal language transcending geographic boundaries. This makes international career migration easier. Ph.D programmes abroad actively recruit students with strong chemistry backgrounds. Postdoctoral positions and industry jobs available globally. Your chemistry expertise travels with you regardless of location.
+              Medicinal chemistry is universally recognised and valued worldwide. Chemical structures, reactions, and synthesis principles are universal language transcending geographic boundaries. This makes international career migration easier. Ph.D programmes abroad actively recruit learners with strong chemistry backgrounds. Postdoctoral positions and industry jobs available globally. Your chemistry expertise travels with you regardless of location.
             </p>
           </div>
         </div>
@@ -1992,7 +1992,7 @@ export default function PharmaceuticalChemistryPage() {
           </a>
 
           <p className="text-white mt-6 text-[8px] xs:text-[10px] sm:text-sm">
-            PCI Approved | Well-Equipped Synthesis Labs | Advanced Spectroscopy Facilities | NAAC A Grade
+            PCI Approved | Well-Equipped Synthesis Learning Labs | Advanced Spectroscopy Facilities | NAAC A Grade
           </p>
         </div>
       </div>

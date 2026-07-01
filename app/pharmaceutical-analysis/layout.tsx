@@ -78,7 +78,7 @@ export default function PharmaceuticalAnalysisLayout({
           },
           {
             question: "What analytical instruments are available at JKKN?",
-            answer: "The advanced analytical laboratory at JKKN College of Pharmacy is equipped with HPLC, GC-MS, UV-Vis spectrophotometer, FTIR, dissolution apparatus, and Karl Fischer titrator for hands-on training.",
+            answer: "The advanced analytical learning lab at JKKN College of Pharmacy is equipped with HPLC, GC-MS, UV-Vis spectrophotometer, FTIR, dissolution apparatus, and Karl Fischer titrator for hands-on training.",
           },
         ]}
       />
