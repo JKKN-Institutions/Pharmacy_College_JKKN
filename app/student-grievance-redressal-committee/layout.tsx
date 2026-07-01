@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Student Grievance Redressal Cell | JKKN Pharmacy College',
-  description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and student support system.',
+  description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and learner support system.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/student-grievance-redressal-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/student-grievance-redressal-committee/',
     title: 'Student Grievance Redressal Cell | JKKN Pharmacy College',
-    description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and student support system.',
+    description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and learner support system.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Student Grievance Redressal Cell | JKKN Pharmacy College',
-    description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and student support system.',
+    description: 'Student Grievance Redressal Committee at JKKN College of Pharmacy. Complaint mechanism, grievance procedure, committee members and learner support system.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

@@ -46,7 +46,7 @@ export default function SalemPage() {
     {
       question: 'What are the best colleges for pharmacy near Salem district?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical labs, a teaching hospital for clinical exposure, and strong industry placements with companies including Sun Pharma, Cipla, and Apollo Pharmacy.',
+        'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical learning labs, a teaching hospital for clinical exposure, and strong industry placements with companies including Sun Pharma, Cipla, and Apollo Pharmacy.',
     },
     {
       question: 'How far is JKKN Pharmacy from Salem?',
@@ -69,14 +69,14 @@ export default function SalemPage() {
         'B.Pharm graduates pursue careers in pharmaceutical manufacturing, quality assurance, clinical research, and hospital pharmacy. Additional career paths include drug regulatory affairs, medical sales, pharmacovigilance, and government pharmacist roles. JKKN College of Pharmacy provides campus placement support with leading pharmaceutical companies.',
     },
     {
-      question: 'Does JKKN Pharmacy provide hostel for Salem students?',
+      question: 'Does JKKN Pharmacy provide hostel for Salem learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female students on campus. Students from Salem also have the option of daily commuting, as the 58 km journey takes approximately one hour via NH-544. College transport services operate on the Salem route.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Salem also have the option of daily commuting, as the 58 km journey takes approximately one hour via NH-544. College transport services operate on the Salem route.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
       answer:
-        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at admission.jkkn.ac.in. Prospective students can also visit the campus in Komarapalayam or call +91-9345855001 for admission guidance and programme details.',
+        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at admission.jkkn.ac.in. Prospective learners can also visit the campus in Komarapalayam or call +91-9345855001 for admission guidance and programme details.',
     },
   ];
 
@@ -272,12 +272,12 @@ export default function SalemPage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Salem Students Choose JKKN Pharmacy
+            Why Salem Learners Choose JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
             Salem is one of the largest cities in central Tamil Nadu with excellent connectivity to
             JKKN via NH-544. The journey takes under 1 hour, making daily commute a practical
-            option. Students from Salem get access to quality professional education without the
+            option. Learners from Salem get access to quality professional education without the
             high costs of metro city colleges.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
@@ -287,17 +287,17 @@ export default function SalemPage() {
               {
                 icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
                 title: 'PCI Approved',
-                desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
+                desc: 'PCI-approved pharmacy college with modern pharmaceutical learning labs',
               },
               {
                 icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
-                title: 'Well-Equipped Labs',
-                desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
+                title: 'Well-Equipped Learning Labs',
+                desc: 'Learning Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
                 icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Research Opportunities',
-                desc: 'Research opportunities for M.Pharm and Pharm.D students',
+                desc: 'Research opportunities for M.Pharm and Pharm.D learners',
               },
               {
                 icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
@@ -418,7 +418,7 @@ export default function SalemPage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            The placement cell connects students with India&apos;s top employers
+            The placement cell connects learners with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -550,8 +550,8 @@ export default function SalemPage() {
             {[
               {
                 emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
-                title: 'Modern Labs',
-                desc: 'Advanced laboratories and smart classrooms',
+                title: 'Modern Learning Labs',
+                desc: 'Advanced learning labs and smart learning studios',
               },
               {
                 emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
@@ -602,16 +602,16 @@ export default function SalemPage() {
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Students from Salem Love JKKN Pharmacy
+            Learners from Salem Love JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from students who made the right choice
+            Hear from learners who made the right choice
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our students? Connect with JKKN Pharmacy alumni and current students from Salem to learn about their experience.
+              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Salem to learn about their experience.
             </p>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"

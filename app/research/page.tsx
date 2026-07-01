@@ -41,7 +41,7 @@ export default function ResearchPage() {
               {[
                 { icon: <BookOpen className="w-8 h-8" />, value: '98', label: 'Total Publications', sub: '(2018-2025)' },
                 { icon: <TrendingUp className="w-8 h-8" />, value: '7', label: 'Years of Research', sub: 'Consistent Output' },
-                { icon: <Users className="w-8 h-8" />, value: '50+', label: 'Active Researchers', sub: 'Faculty & Students' },
+                { icon: <Users className="w-8 h-8" />, value: '50+', label: 'Active Researchers', sub: 'Senior learners & Learners' },
                 { icon: <Award className="w-8 h-8" />, value: '14', label: 'Avg. Per Year', sub: 'Publication Rate' },
               ].map((stat, index) => (
                 <div key={index} className="text-center">
@@ -68,7 +68,7 @@ export default function ResearchPage() {
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                At JKKN College of Pharmacy, research is at the heart of all academic pursuits. Faculty and students are actively engaged in advanced research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and modern facilities, the college endeavours to address pressing health challenges and create impactful solutions. The research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
+                At JKKN College of Pharmacy, research is at the heart of all academic pursuits. Senior learners and learners are actively engaged in advanced research projects that contribute to the advancement of pharmaceutical sciences and healthcare. Through interdisciplinary collaborations and modern facilities, the college endeavours to address pressing health challenges and create impactful solutions. The research activities encompass various domains, including drug discovery, pharmacology, pharmacokinetics, pharmaceutical formulation, and more.
               </p>
             </div>
           </section>
@@ -105,7 +105,7 @@ export default function ResearchPage() {
             <div className="space-y-6">
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                  JKKN College of Pharmacy takes immense pride in the scholarly contributions made by its faculty and students. Researchers at the college have published <strong>98 research papers</strong> over the past 7 years (2018-2025) in esteemed national and international journals, reflecting the institution&apos;s commitment to disseminating knowledge and promoting scientific advancements. By sharing these findings with the global community, the college strives to foster meaningful conversations and inspire further research in the pharmaceutical field.
+                  JKKN College of Pharmacy takes immense pride in the scholarly contributions made by its senior learners and learners. Researchers at the college have published <strong>98 research papers</strong> over the past 7 years (2018-2025) in esteemed national and international journals, reflecting the institution&apos;s commitment to disseminating knowledge and promoting scientific advancements. By sharing these findings with the global community, the college strives to foster meaningful conversations and inspire further research in the pharmaceutical field.
                 </p>
               </div>
 
@@ -117,7 +117,7 @@ export default function ResearchPage() {
                     { label: 'High-Impact Journals:', desc: 'Publications in peer-reviewed national and international journals' },
                     { label: 'Research Domains:', desc: 'Pharmaceutics, Pharmacology, Medicinal Chemistry, Pharmaceutical Analysis, Pharmacy Practice' },
                     { label: 'Collaborative Research:', desc: 'Joint publications with pharmaceutical industries and research institutions' },
-                    { label: 'Global Visibility:', desc: 'Faculty maintain active Google Scholar and ResearchGate profiles' },
+                    { label: 'Global Visibility:', desc: 'Senior learners maintain active Google Scholar and ResearchGate profiles' },
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700">
                       <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />

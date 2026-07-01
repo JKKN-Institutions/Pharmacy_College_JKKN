@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Red Ribbon Club | HIV/AIDS Awareness | JKKN',
-  description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for students.',
+  description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for learners.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/red-ribbon-club/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/red-ribbon-club/',
     title: 'Red Ribbon Club | HIV/AIDS Awareness | JKKN',
-    description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for students.',
+    description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for learners.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Red Ribbon Club | HIV/AIDS Awareness | JKKN',
-    description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for students.',
+    description: 'Red Ribbon Club at JKKN College of Pharmacy. HIV/AIDS awareness, health campaigns, blood donation drives and social responsibility activities for learners.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

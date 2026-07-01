@@ -49,28 +49,28 @@ export default function TransportPage() {
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
-                JKKN College boasts an extensive transport department, catering to the commuting needs of both students and staff hailing from diverse locations. The well-structured transport service prioritizes convenience and safety, affording students the opportunity to dedicate focus to academic pursuits and professional responsibilities, free from transportation concerns. The modern fleet of buses, complete with essential amenities, guarantees a smooth and relaxing travel experience, enhancing the overall journey.
+                JKKN College boasts an extensive transport department, catering to the commuting needs of both learners and team members hailing from diverse locations. The well-structured transport service prioritizes convenience and safety, affording learners the opportunity to dedicate focus to academic pursuits and professional responsibilities, free from transportation concerns. The modern fleet of buses, complete with essential amenities, guarantees a smooth and relaxing travel experience, enhancing the overall journey.
               </p>
               <p className="text-sm sm:text-base text-justify">
-                The committed team, comprised of skilled drivers and attentive staff, is dedicated to upholding impeccable standards of safety and punctuality. Choosing JKKN's transportation service ensures not only timely arrivals but also a comfortable and secure ride. With JKKN's dependable transport, every journey is consistently marked by punctuality and a heightened sense of ease.
+                The committed team, comprised of skilled drivers and attentive team members, is dedicated to upholding impeccable standards of safety and punctuality. Choosing JKKN's transportation service ensures not only timely arrivals but also a comfortable and secure ride. With JKKN's dependable transport, every journey is consistently marked by punctuality and a heightened sense of ease.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
-                    JKKN College has a comprehensive transport department that provides safe and convenient transportation for students and staff from various locations.
+                    JKKN College has a comprehensive transport department that provides safe and convenient transportation for learners and team members from various locations.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
-                    The transport service is designed to ensure a hassle-free experience, allowing students to focus on studies and work without worrying about transportation. The college operates a fleet of buses equipped with all the necessary amenities, ensuring every journey is comfortable and stress-free.
+                    The transport service is designed to ensure a hassle-free experience, allowing learners to focus on studies and work without worrying about transportation. The college operates a fleet of buses equipped with all the necessary amenities, ensuring every journey is comfortable and stress-free.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
-                    The dedicated team of drivers and staff work tirelessly to maintain high standards of safety and punctuality. With JKKN transport, students can be assured of always reaching their destination on time and in comfort.
+                    The dedicated team of drivers and team members work tirelessly to maintain high standards of safety and punctuality. With JKKN transport, learners can be assured of always reaching their destination on time and in comfort.
                   </span>
                 </li>
               </ul>

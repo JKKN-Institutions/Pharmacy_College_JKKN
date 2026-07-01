@@ -29,7 +29,7 @@ export default function YouthRedCrossPage() {
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              The Indian Red Cross Society (IRCS) is a voluntary humanitarian organisation to protect human life and health based in India. It is part of the International Red Cross and Red Crescent Movement, and so shares the Fundamental Principles of the International Red Cross and Red Crescent Movement. The society&apos;s mission is providing relief in times of disasters/emergencies and promoting health &amp; care of vulnerable people and communities. Youth Red Cross Society of United Institute of Technology was started in year 2010, at present more than 300 volunteers are actively involved in Social activities. Youth Red Cross helps the students to inculcate discipline in them and to understand their responsibilities towards their countrymen, especially the poor and downtrodden.
+              The Indian Red Cross Society (IRCS) is a voluntary humanitarian organisation to protect human life and health based in India. It is part of the International Red Cross and Red Crescent Movement, and so shares the Fundamental Principles of the International Red Cross and Red Crescent Movement. The society&apos;s mission is providing relief in times of disasters/emergencies and promoting health &amp; care of vulnerable people and communities. Youth Red Cross Society of United Institute of Technology was started in year 2010, at present more than 300 volunteers are actively involved in Social activities. Youth Red Cross helps the learners to inculcate discipline in them and to understand their responsibilities towards their countrymen, especially the poor and downtrodden.
             </p>
           </section>
 
@@ -91,8 +91,8 @@ export default function YouthRedCrossPage() {
                 <p>B. Komarapalayam.</p>
               </div>
               <div>
-                <p>5. Mr. K.Prabhu, Unit Student Chairman,</p>
-                <p>IV.B.Pharm Student (VII Sem),</p>
+                <p>5. Mr. K.Prabhu, Unit Learner Chairman,</p>
+                <p>IV.B.Pharm Learner (VII Sem),</p>
                 <p>J.K.K. Nattaraja College of Pharmacy,</p>
                 <p>B. Komarapalayam.</p>
               </div>

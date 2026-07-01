@@ -173,10 +173,10 @@ export default function ThePrincipalPage() {
                   Welcome to JKKN College of Pharmacy. I salute the philanthropic efforts of Shri. J.K.K.Nattarajah, Founder of JKKN Institutions for establishing such an institution serving the noble cause of spreading education.
                 </p>
                 <p>
-                  JKKN College of Pharmacy is one of the finest colleges in Pharmacy Education. The evolution of the institute over the past four decades has witnessed a strong blend of advanced infrastructure and intricately intertwined human resources committed to providing professional education with a thrust on creativity and innovation. The academic activities concentrate on helping the students to gain an excellent theoretical knowledge base and the development of skills to implement them. The college constantly reviews its setup to update and improve while making sure that students gain thinking skills, analytical frameworks, entrepreneurial skills, and interpersonal and communication skills.
+                  JKKN College of Pharmacy is one of the finest colleges in Pharmacy Education. The evolution of the institute over the past four decades has witnessed a strong blend of advanced infrastructure and intricately intertwined human resources committed to providing professional education with a thrust on creativity and innovation. The academic activities concentrate on helping the learners to gain an excellent theoretical knowledge base and the development of skills to implement them. The college constantly reviews its setup to update and improve while making sure that learners gain thinking skills, analytical frameworks, entrepreneurial skills, and interpersonal and communication skills.
                 </p>
                 <p>
-                  The students of JKKN College of Pharmacy excel in sports, curricular and co-curricular activities. The Alumnae are working all over India and abroad and showing their excellence in discipline and devotion in the Pharmacy profession. The college has an excellent, efficient, and highly motivated faculty who plan meticulously all the curricular and co-curricular activities for the students.
+                  The learners of JKKN College of Pharmacy excel in sports, curricular and co-curricular activities. The Alumnae are working all over India and abroad and showing their excellence in discipline and devotion in the Pharmacy profession. The college has excellent, efficient, and highly motivated senior learners who plan meticulously all the curricular and co-curricular activities for the learners.
                 </p>
                 <p>
                   I am proud to be the Principal of such a wonderful institution dedicated to the causes of a better India. I am confident that the college, with its rich legacy, will continue to shape the future of the young minds of our country and transform their potential into successful careers.
@@ -198,7 +198,7 @@ export default function ThePrincipalPage() {
                   With over 25 years of dedicated service in pharmaceutical education, Dr. M. Venkatesan has made significant contributions to the field of pharmacy education and research. His research work focuses on pharmaceutical sciences, drug development, and clinical pharmacy, with publications in various peer-reviewed national and international journals.
                 </p>
                 <p>
-                  Under his leadership, JKKN College of Pharmacy has achieved NAAC A Grade accreditation and maintains strong industry partnerships for student placements and research collaborations. His vision continues to guide the institution towards excellence in pharmaceutical education and research.
+                  Under his leadership, JKKN College of Pharmacy has achieved NAAC A Grade accreditation and maintains strong industry partnerships for learner placements and research collaborations. His vision continues to guide the institution towards excellence in pharmaceutical education and research.
                 </p>
               </div>
             </div>

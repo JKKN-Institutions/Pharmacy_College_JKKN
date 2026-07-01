@@ -16,7 +16,7 @@ export default function RedRibbonClubPage() {
         <div className="space-y-4 sm:space-y-6 md:space-y-8 text-sm sm:text-base text-gray-700 leading-relaxed">
           {/* Introduction */}
           <p className="text-justify">
-            Red Ribbon clubs are envisaged to instill among all the students the values of service, develop healthy life styles, and increase access to safe and adequate quantities of blood to all the needy by promotion of regular voluntary blood donation. Apart from this, RRC aims at harnessing the potential of the youth by equipping them with correct information on Mental Health, Substance abuse, Nutrition and reproductive &amp; Sexual health and building their capacities as peer educators in spreading messages on positive health behavior in an enabling environment.
+            Red Ribbon clubs are envisaged to instill among all the learners the values of service, develop healthy life styles, and increase access to safe and adequate quantities of blood to all the needy by promotion of regular voluntary blood donation. Apart from this, RRC aims at harnessing the potential of the youth by equipping them with correct information on Mental Health, Substance abuse, Nutrition and reproductive &amp; Sexual health and building their capacities as peer educators in spreading messages on positive health behavior in an enabling environment.
           </p>
 
           {/* OBJECTIVES Section */}
@@ -50,7 +50,7 @@ export default function RedRibbonClubPage() {
               <li className="flex items-start">
                 <span className="inline-block w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
                 <span className="text-justify">
-                  Training programme for the students on basics of HIV/AIDS.
+                  Training programme for the learners on basics of HIV/AIDS.
                 </span>
               </li>
               <li className="flex items-start">
@@ -105,7 +105,7 @@ export default function RedRibbonClubPage() {
               {/* Member 4 */}
               <div>
                 <p className="font-semibold text-gray-700">4. MR. Gowtham.M, Co- Convener,</p>
-                <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
+                <p className="text-gray-700">IV.B.Pharm Learner (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
                 <p className="text-gray-700">B. Komarapalayam.</p>
               </div>
@@ -113,7 +113,7 @@ export default function RedRibbonClubPage() {
               {/* Member 5 */}
               <div>
                 <p className="font-semibold text-gray-700">5. MR. N.Santhosh, Member,</p>
-                <p className="text-gray-700">IV.B.Pharm Student (VII Sem),</p>
+                <p className="text-gray-700">IV.B.Pharm Learner (VII Sem),</p>
                 <p className="text-gray-700">J.K.K. Nattaraja College of Pharmacy,</p>
                 <p className="text-gray-700">B. Komarapalayam.</p>
               </div>

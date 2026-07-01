@@ -153,7 +153,7 @@ export default function UniversityAffiliationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Academic Compliance</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      As an affiliated college, JKKN College of Pharmacy strictly adheres to the university's academic calendar, curriculum, and examination schedules. Students benefit from:
+                      As an affiliated college, JKKN College of Pharmacy strictly adheres to the university's academic calendar, learning framework, and examination schedules. Learners benefit from:
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">
@@ -161,7 +161,7 @@ export default function UniversityAffiliationPage() {
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
-                          University-approved curriculum designed by experts in the field
+                          University-approved learning framework designed by experts in the field
                         </span>
                       </li>
                       <li className="flex items-start">
