@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'Administration | Office Staff | JKKN College of Pharmacy',
-  description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
+  title: 'Administration | Office Team Members | JKKN College of Pharmacy',
+  description: 'Administrative structure at JKKN College of Pharmacy. Office team members, academic administration, learner services and support departments.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/administration/',
   },
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/administration/',
-    title: 'Administration | Office Staff | JKKN College of Pharmacy',
-    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
+    title: 'Administration | Office Team Members | JKKN College of Pharmacy',
+    description: 'Administrative structure at JKKN College of Pharmacy. Office team members, academic administration, learner services and support departments.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Administration | Office Staff | JKKN College of Pharmacy',
-    description: 'Administrative structure at JKKN College of Pharmacy. Office staff, academic administration, student services and support departments.',
+    title: 'Administration | Office Team Members | JKKN College of Pharmacy',
+    description: 'Administrative structure at JKKN College of Pharmacy. Office team members, academic administration, learner services and support departments.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

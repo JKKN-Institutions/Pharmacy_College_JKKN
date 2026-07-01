@@ -26,7 +26,7 @@ export default function AlumniPage() {
                 'In addition, the committee strives to have general feedback on infrastructure of the college and teaching-learning process from alumni. The alumni meet is held in the month of December every year. The committee encourages alumni to speak in a free environment to share their current experiences and past thoughts with regard to academics.',
                 'At JKKN College of Pharmacy, alumni play a significant role as a source of strength. With a database of over 1600 alumni serving in distinguished positions both nationally and internationally, they serve as torchbearers for the institution\'s vision and mission.',
                 'The college has a registered alumni association called JKKNCP ALUMNI ASSOCIATION - KOMARAPALAYAM, which is registered under the Tamil Nadu Society Registration Act 1975, with the registration number SRG/Namakkal/72/2022. These alumni work in various sectors, such as production, quality assurance, quality control, research, regulatory affairs, community pharmacy, clinical data management, marketing, and academics.',
-                'They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for students. The alumni have played a critical role in exchanging ideas and motivating students to choose the right career path. To this end, the JKKN College of Pharmacy campus has hosted various alumni meets where alumni have given valuable suggestions.',
+                'They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for learners. The alumni have played a critical role in exchanging ideas and motivating learners to choose the right career path. To this end, the JKKN College of Pharmacy campus has hosted various alumni meets where alumni have given valuable suggestions.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                   <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
@@ -49,7 +49,7 @@ export default function AlumniPage() {
                 'To encourage the alumni to get connected with the Institution through official social media of the Institution.',
                 'To maintain an alumni website (powered by myjkkn) for building and managing the alumni databases and successful reunions.',
                 'To keep a roster of all alumni of the Institution and their pertinent data.',
-                'To open a way for making a strong relationship between the alumni and current students.',
+                'To open a way for making a strong relationship between the alumni and current learners.',
               ].map((objective, index) => (
                 <div key={index} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6 flex gap-4">
                   <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#006837] text-white text-xs font-bold flex items-center justify-center mt-0.5">
@@ -64,7 +64,7 @@ export default function AlumniPage() {
           {/* Society Info + PDF Link */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              The coordinators of the committee conduct a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current students are expected to have a professional rapport with the alumni of the Institution.
+              The coordinators of the committee conduct a meeting annually before college day celebrations to discuss and assign tasks with regard to alumni meet. The current learners are expected to have a professional rapport with the alumni of the Institution.
             </p>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
               Name of the society: JKKNCP ALUMNI ASSOCIATION - KOMARAPALAYAM,
@@ -93,10 +93,10 @@ export default function AlumniPage() {
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
               <ul className="space-y-4">
                 {[
-                  'JKKNCP has a vibrant and active alumni network that plays a significant role in contributing to the institution\'s overall development and success. The alumni network serves as a valuable resource for the college, offering support and guidance to current students, faculty members, and the administration.',
-                  'Moreover, the alumni network serves as a bridge between the college and the industry. Many alumni hold key positions in pharmaceutical companies, research organisations, hospitals, and academia. They actively participate in campus placement drives, facilitating the recruitment of fresh graduates from the college. This collaboration enhances the employability of the college\'s students and strengthens its reputation among potential employers.',
-                  'Furthermore, the alumni network often organizes workshops, seminars, and guest lectures featuring successful alumni and industry experts. These events provide current students with valuable insights into the latest trends and advancements in the pharmaceutical field. The interaction with alumni who have excelled in their careers motivates and inspires the students to achieve greater heights.',
-                  'The alumni network also extends financial support to the college through various initiatives, such as setting up scholarships, endowments, and funding research projects. This financial backing helps the college improve infrastructure, upgrade laboratories, and provide additional resources for the students and faculty.',
+                  'JKKNCP has a vibrant and active alumni network that plays a significant role in contributing to the institution\'s overall development and success. The alumni network serves as a valuable resource for the college, offering support and guidance to current learners, senior learners, and the administration.',
+                  'Moreover, the alumni network serves as a bridge between the college and the industry. Many alumni hold key positions in pharmaceutical companies, research organisations, hospitals, and academia. They actively participate in campus placement drives, facilitating the recruitment of fresh graduates from the college. This collaboration enhances the employability of the college\'s learners and strengthens its reputation among potential employers.',
+                  'Furthermore, the alumni network often organizes workshops, seminars, and guest lectures featuring successful alumni and industry experts. These events provide current learners with valuable insights into the latest trends and advancements in the pharmaceutical field. The interaction with alumni who have excelled in their careers motivates and inspires the learners to achieve greater heights.',
+                  'The alumni network also extends financial support to the college through various initiatives, such as setting up scholarships, endowments, and funding research projects. This financial backing helps the college improve infrastructure, upgrade learning labs, and provide additional resources for the learners and senior learners.',
                   'Beyond these tangible contributions, the alumni network fosters a sense of community and pride among its members. They often come back to the college to participate in alumni reunions, annual functions, and other events, strengthening the bond between the college and its graduates.',
                   'In conclusion, the alumni network of the pharmacy college plays a crucial role in the institution\'s journey towards overall excellence. Their contributions in terms of feedback, industry connections, knowledge-sharing, financial support, and fostering a strong sense of community have a lasting positive impact on the college\'s growth and reputation.',
                 ].map((item, index) => (

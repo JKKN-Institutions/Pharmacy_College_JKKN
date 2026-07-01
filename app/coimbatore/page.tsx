@@ -56,7 +56,7 @@ export default function CoimbatorePage() {
     {
       question: 'How far is JKKN Pharmacy from Coimbatore?',
       answer:
-        'JKKN College of Pharmacy is 105 km from Coimbatore city centre, approximately two hours by road via NH-544. Frequent inter-city buses operate from Gandhipuram and Ukkadam bus stands to Komarapalayam. The campus also provides hostel accommodation for students from Coimbatore.',
+        'JKKN College of Pharmacy is 105 km from Coimbatore city centre, approximately two hours by road via NH-544. Frequent inter-city buses operate from Gandhipuram and Ukkadam bus stands to Komarapalayam. The campus also provides hostel accommodation for learners from Coimbatore.',
     },
     {
       question: 'What is the difference between B.Pharm and Pharm.D?',
@@ -74,14 +74,14 @@ export default function CoimbatorePage() {
         'B.Pharm graduates pursue careers in pharmaceutical manufacturing, quality assurance, clinical research, and hospital pharmacy. Additional career paths include drug regulatory affairs, medical sales, pharmacovigilance, and government pharmacist roles. JKKN College of Pharmacy provides campus placement support with leading pharmaceutical companies.',
     },
     {
-      question: 'Does JKKN Pharmacy provide hostel for Coimbatore students?',
+      question: 'Does JKKN Pharmacy provide hostel for Coimbatore learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female students on campus. Students from Coimbatore are recommended to stay in the hostel given the 105 km distance. The campus offers mess facilities, WiFi, and a secure residential environment.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Coimbatore are recommended to stay in the hostel given the 105 km distance. The campus offers mess facilities, WiFi, and a secure residential environment.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
       answer:
-        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at admission.jkkn.ac.in. Prospective students can also visit the campus in Komarapalayam or call +91-9345855001 for admission guidance and programme details.',
+        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at admission.jkkn.ac.in. Prospective learners can also visit the campus in Komarapalayam or call +91-9345855001 for admission guidance and programme details.',
     },
   ];
 
@@ -277,7 +277,7 @@ export default function CoimbatorePage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Coimbatore Students Choose JKKN Pharmacy
+            Why Coimbatore Learners Choose JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
             While Coimbatore has many colleges, JKKN offers a distinct advantage: comprehensive
@@ -292,17 +292,17 @@ export default function CoimbatorePage() {
               {
                 icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
                 title: 'PCI Approved',
-                desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
+                desc: 'PCI-approved pharmacy college with modern pharmaceutical learning labs',
               },
               {
                 icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
-                title: 'Well-Equipped Labs',
-                desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
+                title: 'Well-Equipped Learning Labs',
+                desc: 'Learning Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
                 icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Research Opportunities',
-                desc: 'Research opportunities for M.Pharm and Pharm.D students',
+                desc: 'Research opportunities for M.Pharm and Pharm.D learners',
               },
               {
                 icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
@@ -423,7 +423,7 @@ export default function CoimbatorePage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            The placement cell connects students with India&apos;s top employers
+            The placement cell connects learners with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -555,8 +555,8 @@ export default function CoimbatorePage() {
             {[
               {
                 emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
-                title: 'Modern Labs',
-                desc: 'Advanced laboratories and smart classrooms',
+                title: 'Modern Learning Labs',
+                desc: 'Advanced learning labs and smart learning studios',
               },
               {
                 emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
@@ -607,16 +607,16 @@ export default function CoimbatorePage() {
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Students from Coimbatore Love JKKN Pharmacy
+            Learners from Coimbatore Love JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from students who made the right choice
+            Hear from learners who made the right choice
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our students? Connect with JKKN Pharmacy alumni and current students from Coimbatore to learn about their experience.
+              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Coimbatore to learn about their experience.
             </p>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"

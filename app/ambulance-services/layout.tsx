@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Ambulance Services | Emergency Medical Care | JKKN Pharmacy',
-  description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive student safety measures.',
+  description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive learner safety measures.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/ambulance-services/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/ambulance-services/',
     title: 'Ambulance Services | Emergency Medical Care | JKKN Pharmacy',
-    description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive student safety measures.',
+    description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive learner safety measures.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Ambulance Services | Emergency Medical Care | JKKN Pharmacy',
-    description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive student safety measures.',
+    description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive learner safety measures.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

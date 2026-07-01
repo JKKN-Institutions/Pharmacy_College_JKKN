@@ -83,7 +83,7 @@ export default function AntiRaggingCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Introduction</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              The Anti-Ragging Committee at JKKN College of Pharmacy (JKKNCP) is established in compliance with the UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 and the directives of the Supreme Court of India. The committee ensures that students experience a safe, harassment-free, and inclusive learning environment.
+              The Anti-Ragging Committee at JKKN College of Pharmacy (JKKNCP) is established in compliance with the UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 and the directives of the Supreme Court of India. The committee ensures that learners experience a safe, harassment-free, and inclusive learning environment.
             </p>
           </section>
 
@@ -93,7 +93,7 @@ export default function AntiRaggingCommitteePage() {
             <p className="text-sm sm:text-base text-gray-700 mb-4">The primary objective of the Anti-Ragging Committee is to:</p>
             <ul className="space-y-3">
               <BulletItem text="Prevent and eliminate ragging in all forms within the institution." />
-              <BulletItem text="Foster a positive and respectful campus culture that promotes student well-being and academic excellence." />
+              <BulletItem text="Foster a positive and respectful campus culture that promotes learner well-being and academic excellence." />
               <BulletItem text="Ensure strict implementation of anti-ragging policies in compliance with UGC, Pharmacy Council of India (PCI), and Supreme Court guidelines." />
             </ul>
           </section>
@@ -103,10 +103,10 @@ export default function AntiRaggingCommitteePage() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Scope</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-4">The Anti-Ragging Committee&apos;s jurisdiction extends to:</p>
             <ul className="space-y-3">
-              <BulletItem text="The entire campus, including classrooms, laboratories, hostels, and libraries." />
+              <BulletItem text="The entire campus, including learning studios, learning labs, hostels, and libraries." />
               <BulletItem text="Transport facilities and institutional vehicles." />
               <BulletItem text="Off-campus activities (study tours, internships, clinical postings, etc.)." />
-              <BulletItem text="Any virtual or online interactions involving students." />
+              <BulletItem text="Any virtual or online interactions involving learners." />
             </ul>
           </section>
 
@@ -137,9 +137,9 @@ export default function AntiRaggingCommitteePage() {
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
                 <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Prevention &amp; Awareness</h3>
                 <ul className="space-y-3">
-                  <BulletItem text="Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for students and faculty." />
+                  <BulletItem text="Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for learners and senior learners." />
                   <BulletItem text="Display anti-ragging posters and helpline numbers across the campus." />
-                  <BulletItem text="Ensure all students sign an anti-ragging affidavit as per UGC norms." />
+                  <BulletItem text="Ensure all learners sign an anti-ragging affidavit as per UGC norms." />
                 </ul>
               </div>
 
@@ -188,7 +188,7 @@ export default function AntiRaggingCommitteePage() {
               <div>
                 <p className="text-sm sm:text-base text-gray-700 mb-2">
                   <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
-                  <strong>Step 1: Complaint Submission</strong> – Any student experiencing or witnessing ragging can file a complaint through:
+                  <strong>Step 1: Complaint Submission</strong> – Any learner experiencing or witnessing ragging can file a complaint through:
                 </p>
                 <ul className="space-y-2 ml-6">
                   <BulletItem text="Anti-Ragging Helpline- 8667365249 or 9361829237" />
@@ -234,10 +234,10 @@ export default function AntiRaggingCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Anti-Ragging Preventive Measures</h2>
             <ul className="space-y-3">
-              <BulletItem text={<><strong>Mandatory Affidavit Submission</strong> – Every student and parent must sign an anti-ragging affidavit during admission.</>} />
+              <BulletItem text={<><strong>Mandatory Affidavit Submission</strong> – Every learner and parent must sign an anti-ragging affidavit during admission.</>} />
               <BulletItem text={<><strong>Surprise Inspections &amp; Monitoring</strong> – Regular surprise checks in hostels, canteens, and other areas.</>} />
               <BulletItem text={<><strong>Anonymous Reporting System</strong> – Online/anonymous complaint filing mechanisms.</>} />
-              <BulletItem text={<><strong>Emergency Helpline &amp; Counselling Services</strong> – A dedicated 24/7 anti-ragging helpline and counselling support for affected students.</>} />
+              <BulletItem text={<><strong>Emergency Helpline &amp; Counselling Services</strong> – A dedicated 24/7 anti-ragging helpline and counselling support for affected learners.</>} />
             </ul>
           </section>
 
@@ -257,7 +257,7 @@ export default function AntiRaggingCommitteePage() {
           {/* Zero Tolerance Statement */}
           <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
             <p className="text-sm sm:text-base text-gray-700 text-center font-medium leading-relaxed">
-              JKKN College of Pharmacy maintains zero tolerance towards ragging and is committed to providing a safe, respectful, and inclusive academic environment for all students.
+              JKKN College of Pharmacy maintains zero tolerance towards ragging and is committed to providing a safe, respectful, and inclusive academic environment for all learners.
             </p>
           </section>
 
