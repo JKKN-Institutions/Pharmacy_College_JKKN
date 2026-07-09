@@ -6,7 +6,7 @@ import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
 import HomepagePopup from '@/components/HomepagePopup'
 
@@ -1482,6 +1482,26 @@ export default function Home() {
               </Link>
             ))}
           </div>
+          <p className="text-xs sm:text-sm text-gray-600 mt-5 sm:mt-6 leading-relaxed">
+            Also serving learners from{' '}
+            {[
+              { city: 'Bhavani', href: '/bhavani/' },
+              { city: 'Sankagiri', href: '/sankagiri/' },
+              { city: 'Tiruchengode', href: '/tiruchengode/' },
+              { city: 'Perundurai', href: '/perundurai/' },
+              { city: 'Gobichettipalayam', href: '/gobichettipalayam/' },
+              { city: 'Mettur', href: '/mettur/' },
+              { city: 'Rasipuram', href: '/rasipuram/' },
+              { city: 'Attur', href: '/attur/' },
+            ].map((item, i, arr) => (
+              <React.Fragment key={item.city}>
+                <Link href={item.href} className="text-[#006837] font-semibold hover:underline">
+                  {item.city}
+                </Link>
+                {i < arr.length - 2 ? ', ' : i === arr.length - 2 ? ' and ' : '.'}
+              </React.Fragment>
+            ))}
+          </p>
         </div>
       </section>
     </main>
