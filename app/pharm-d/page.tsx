@@ -3083,6 +3083,16 @@ export default function PharmDPage() {
           </div>
           <p className="mt-6 text-xs">PCI Approved | Clinical Excellence | Hospital Practice | Patient Care Focus</p>
         </div>
+
+        {/* Nearby Cities */}
+        <p className="text-gray-700 text-xs sm:text-sm leading-relaxed mt-6 text-center">
+          Students join our Pharm.D programme from across western Tamil Nadu. See our city admission guides:{' '}
+          <a href="/salem/" className="text-[#006837] font-semibold hover:underline">Pharmacy Colleges in Salem</a>,{' '}
+          <a href="/namakkal/" className="text-[#006837] font-semibold hover:underline">Pharmacy Colleges in Namakkal</a>,{' '}
+          <a href="/erode/" className="text-[#006837] font-semibold hover:underline">Pharmacy College near Erode</a>,{' '}
+          <a href="/tiruppur/" className="text-[#006837] font-semibold hover:underline">Tiruppur</a> and{' '}
+          <a href="/coimbatore/" className="text-[#006837] font-semibold hover:underline">Coimbatore</a>.
+        </p>
       </div>
     </div>
   )

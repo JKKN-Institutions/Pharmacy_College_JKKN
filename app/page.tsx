@@ -1453,6 +1453,37 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Locations / City Pages Section */}
+      <section className="py-8 sm:py-12 md:py-16" aria-label="Pharmacy College Near Your City">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-2">
+            Pharmacy College Near Your City
+          </h2>
+          <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            JKKN College of Pharmacy in Komarapalayam is easily accessible from major cities across western Tamil Nadu via NH-544.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
+            {[
+              { city: 'Salem', label: 'Pharmacy Colleges in Salem', distance: '58 km', href: '/salem/' },
+              { city: 'Namakkal', label: 'Pharmacy Colleges in Namakkal', distance: '66 km', href: '/namakkal/' },
+              { city: 'Erode', label: 'Pharmacy College near Erode', distance: '22 km', href: '/erode/' },
+              { city: 'Tiruppur', label: 'Pharmacy College near Tiruppur', distance: '67 km', href: '/tiruppur/' },
+              { city: 'Coimbatore', label: 'Pharmacy College near Coimbatore', distance: '105 km', href: '/coimbatore/' },
+            ].map((item) => (
+              <Link
+                key={item.city}
+                href={item.href}
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 shadow-sm hover:border-[#7cb983] transition-colors duration-200 text-left"
+              >
+                <p className="text-sm sm:text-base font-bold text-gray-900">{item.city}</p>
+                <p className="text-[11px] sm:text-xs text-[#006837] mt-0.5">{item.label}</p>
+                <p className="text-[10px] sm:text-xs text-gray-400 mt-0.5">{item.distance} from campus</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </main>
   )
 }
