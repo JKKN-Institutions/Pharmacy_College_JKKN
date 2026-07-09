@@ -49,6 +49,11 @@ export default function SalemPage() {
         'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical learning labs, a teaching hospital for clinical exposure, and strong industry placements with companies including Sun Pharma, Cipla, and Apollo Pharmacy.',
     },
     {
+      question: 'Are there government pharmacy colleges in Salem?',
+      answer:
+        'Salem district has very limited government pharmacy college options; most PCI-approved pharmacy colleges in and around Salem are private or self-financing institutions. JKKN College of Pharmacy, 58 km from Salem via NH-544, is a private PCI-approved college offering B.Pharm, M.Pharm, and Pharm.D, with scholarship support available for eligible students.',
+    },
+    {
       question: 'How far is JKKN Pharmacy from Salem?',
       answer:
         'JKKN College of Pharmacy is 58 km from Salem city centre, approximately one hour by road via NH-544. Regular TN State Transport buses operate from Salem New Bus Stand to Komarapalayam every 15 to 20 minutes throughout the day. College transport services also connect Salem to the campus.',
