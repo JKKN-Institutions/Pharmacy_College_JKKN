@@ -1493,6 +1493,9 @@ export default function Home() {
               { city: 'Mettur', href: '/mettur/' },
               { city: 'Rasipuram', href: '/rasipuram/' },
               { city: 'Attur', href: '/attur/' },
+              { city: 'Karur', href: '/karur/' },
+              { city: 'Dharmapuri', href: '/dharmapuri/' },
+              { city: 'Trichy', href: '/trichy/' },
             ].map((item, i, arr) => (
               <React.Fragment key={item.city}>
                 <Link href={item.href} className="text-[#006837] font-semibold hover:underline">
