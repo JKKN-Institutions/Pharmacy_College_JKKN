@@ -114,8 +114,8 @@ export default function CoimbatorePage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "11.4367",
-              "longitude": "77.7271"
+              "latitude": "11.4387",
+              "longitude": "77.7062"
             },
             "telephone": "+919345855001",
             "email": "admissions@pharmacy.jkkn.ac.in",
@@ -724,9 +724,9 @@ export default function CoimbatorePage() {
         name="Pharmacy Programmes at JKKN College of Pharmacy near Coimbatore"
         description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Coimbatore"
         items={[
-          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
-          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
-          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/m-pharmacy/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/pharm-d/' },
         ]}
       />
 

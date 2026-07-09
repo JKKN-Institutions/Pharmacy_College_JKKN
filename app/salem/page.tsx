@@ -109,8 +109,8 @@ export default function SalemPage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "11.4367",
-              "longitude": "77.7271"
+              "latitude": "11.4387",
+              "longitude": "77.7062"
             },
             "telephone": "+919345855001",
             "email": "admissions@pharmacy.jkkn.ac.in",
@@ -132,7 +132,7 @@ export default function SalemPage() {
             "sameAs": [
               "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
             ],
-            "dateModified": "2026-03-27"
+            "dateModified": "2026-07-09"
           })
         }}
       />
@@ -719,9 +719,9 @@ export default function SalemPage() {
         name="Pharmacy Programmes at JKKN College of Pharmacy near Salem"
         description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Salem"
         items={[
-          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
-          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
-          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/m-pharmacy/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/pharm-d/' },
         ]}
       />
 
@@ -813,7 +813,7 @@ export default function SalemPage() {
         name="Pharmacy Colleges in Salem — JKKN College of Pharmacy"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 95%+ placements."
         url="https://pharmacy.jkkn.ac.in/salem/"
-        dateModified="2026-03-27"
+        dateModified="2026-07-09"
       />
     </div>
   );
