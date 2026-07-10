@@ -10,25 +10,22 @@ export default function ThePrincipalPage() {
     <>
       {/* Person Schema for SEO */}
       <PersonSchema
-        name="Dr. M. Venkatesan"
+        name="Dr. K.L. Senthil Kumar"
         jobTitle="Principal, JKKN College of Pharmacy"
-        description="Principal of JKKN College of Pharmacy with 25+ years of experience in pharmaceutical education and research. Ph.D. in Pharmaceutical Sciences with expertise in drug development, clinical pharmacy, and pharmaceutical education. Published 25+ research papers in peer-reviewed journals."
+        description="Principal of JKKN College of Pharmacy with 36 years of experience in pharmaceutical education and research. A distinguished pharmaceutical educator holding B.Pharm, M.Pharm, Ph.D, MBA and MA (Yoga) degrees, with over 60 research papers published in peer-reviewed journals. Research focus in Pharmaceutics and Nanoparticles."
         email="principal@jkkn.ac.in"
         telephone="+919345855001"
-        image="https://pharmacy.jkkn.ac.in/images/Principal_message.jpeg"
+        image="https://pharmacy.jkkn.ac.in/images/pharmacyprincipal.png"
         url="https://pharmacy.jkkn.ac.in/the-principal"
-        alumniOf="The Tamil Nadu Dr. M.G.R. Medical University"
+        alumniOf="University of Madras"
         knowsAbout={[
+          "Pharmaceutics",
+          "Nanoparticles",
           "Pharmaceutical Sciences",
-          "Drug Development",
-          "Clinical Pharmacy",
-          "Pharmaceutical Education",
-          "Quality Assurance",
-          "Regulatory Affairs"
+          "Pharmaceutical Education"
         ]}
         sameAs={[
-          "https://scholar.google.com",
-          "https://pharmacy.jkkn.ac.in/faculty-profile"
+          "https://scholar.google.com"
         ]}
         worksFor={{
           name: "JKKN College of Pharmacy",
@@ -50,8 +47,8 @@ export default function ThePrincipalPage() {
                 <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
                   <div className="relative w-40 h-48 sm:w-48 sm:h-56 rounded-xl overflow-hidden border-4 border-[#7cb983] shadow-xl">
                     <Image
-                      src="/images/Principal_message.jpeg"
-                      alt="Dr. M. Venkatesan, Principal"
+                      src="/images/pharmacyprincipal.png"
+                      alt="Dr. K.L. Senthil Kumar, Principal"
                       fill
                       className="object-cover object-top"
                       priority
@@ -59,7 +56,7 @@ export default function ThePrincipalPage() {
                   </div>
                   <div className="mt-6 text-center">
                     <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white leading-snug">
-                      Dr. M. Venkatesan, M.Pharm., Ph.D.,
+                      Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.,
                     </h1>
                     <span className="inline-block mt-3 px-4 py-1.5 bg-[#7cb983] text-white text-sm font-semibold rounded-full">
                       Principal
@@ -80,15 +77,15 @@ export default function ThePrincipalPage() {
                         <GraduationCap className="w-5 h-5 text-[#006837]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Qualifications</h4>
                       </div>
-                      <p className="text-sm text-gray-700 font-medium">M.Pharm., Ph.D.</p>
-                      <p className="text-xs text-gray-500 mt-1">The Tamil Nadu Dr. M.G.R. Medical University</p>
+                      <p className="text-sm text-gray-700 font-medium">Ph.D.</p>
+                      <p className="text-xs text-gray-500 mt-1">M.Pharm • MBA • MA (Yoga)</p>
                     </div>
                     <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30">
                       <div className="flex items-center gap-2 mb-2">
                         <Award className="w-5 h-5 text-[#006837]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Experience</h4>
                       </div>
-                      <p className="text-sm text-gray-700 font-medium">25+ Years</p>
+                      <p className="text-sm text-gray-700 font-medium">36 Years</p>
                       <p className="text-xs text-gray-500 mt-1">Pharmaceutical Education & Research</p>
                     </div>
                     <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30">
@@ -96,7 +93,7 @@ export default function ThePrincipalPage() {
                         <BookOpen className="w-5 h-5 text-[#006837]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Publications</h4>
                       </div>
-                      <p className="text-sm text-gray-700 font-medium">25+ Research Papers</p>
+                      <p className="text-sm text-gray-700 font-medium">60 Research Papers</p>
                       <p className="text-xs text-gray-500 mt-1">National & International Journals</p>
                     </div>
                   </div>
@@ -109,12 +106,8 @@ export default function ThePrincipalPage() {
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {[
-                        "Pharmaceutical Sciences",
-                        "Drug Development",
-                        "Clinical Pharmacy",
-                        "Pharmaceutical Education",
-                        "Quality Assurance",
-                        "Regulatory Affairs"
+                        "Pharmaceutics",
+                        "Nanoparticles"
                       ].map((interest, index) => (
                         <span
                           key={index}
@@ -160,6 +153,43 @@ export default function ThePrincipalPage() {
               </div>
             </div>
 
+            {/* Educational Qualifications Card */}
+            <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
+              <div className="mb-6">
+                <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+                <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+                  Educational Qualifications
+                </h4>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {[
+                  { degree: "B.Pharm", institution: "JKKNCP, University of Madras", year: "1990" },
+                  { degree: "M.Pharm", institution: "JSS College of Pharmacy, Ooty", year: "1993" },
+                  { degree: "Ph.D", institution: "Sri Ramachandra University", year: "2007" },
+                  { degree: "MBA", institution: "Vinayaka Mission's University, Salem", year: "2011" },
+                  { degree: "MA (Yoga)", institution: "Bharathiyar University", year: "2014" },
+                ].map((q, index) => (
+                  <div
+                    key={index}
+                    className="flex items-start gap-3 bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30"
+                  >
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#006837]/10 flex items-center justify-center">
+                      <GraduationCap className="w-5 h-5 text-[#006837]" />
+                    </div>
+                    <div>
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <h5 className="font-bold text-gray-900 text-sm">{q.degree}</h5>
+                        <span className="text-xs font-semibold text-[#006837] bg-[#7cb983]/20 px-2 py-0.5 rounded-full">
+                          {q.year}
+                        </span>
+                      </div>
+                      <p className="text-xs text-gray-600 mt-1">{q.institution}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* Principal's Message Card */}
             <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
               <div className="mb-6">
@@ -195,7 +225,7 @@ export default function ThePrincipalPage() {
               </div>
               <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
                 <p>
-                  With over 25 years of dedicated service in pharmaceutical education, Dr. M. Venkatesan has made significant contributions to the field of pharmacy education and research. His research work focuses on pharmaceutical sciences, drug development, and clinical pharmacy, with publications in various peer-reviewed national and international journals.
+                  With 36 years of dedicated service in pharmaceutical education, Dr. K.L. Senthil Kumar has made significant contributions to the field of pharmacy education and research. His research work focuses on Pharmaceutics and Nanoparticles, with over 60 research papers published in peer-reviewed national and international journals.
                 </p>
                 <p>
                   Under his leadership, JKKN College of Pharmacy has achieved NAAC A Grade accreditation and maintains strong industry partnerships for learner placements and research collaborations. His vision continues to guide the institution towards excellence in pharmaceutical education and research.

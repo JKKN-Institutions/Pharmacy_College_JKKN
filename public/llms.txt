@@ -128,7 +128,6 @@ Permitted crawlers include: GPTBot, ChatGPT-User, Google-Extended, Anthropic, Cl
 - Pharm.D: https://pharmacy.jkkn.ac.in/pharm-d/
 - Admissions: https://pharmacy.jkkn.ac.in/admissions/
 - Placements: https://pharmacy.jkkn.ac.in/placement-cell/
-- Faculty: https://pharmacy.jkkn.ac.in/faculty-profile/
 - NAAC: https://pharmacy.jkkn.ac.in/naac/
 - Contact: https://pharmacy.jkkn.ac.in/contact/
 

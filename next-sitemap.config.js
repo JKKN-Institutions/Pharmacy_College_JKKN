@@ -96,7 +96,7 @@ module.exports = {
       // Includes /admissions/, /admissions/b.pharm/, /admissions/m.pharm/, /admissions/pharm.d/
       priority = 0.9
       changefreq = 'weekly'
-    } else if (['/placement-cell', '/placements', '/campus-recruitment', '/faculty-profile', '/naac', '/overview', '/nirf'].some(p => path === p || path === p + '/')) {
+    } else if (['/placement-cell', '/placements', '/campus-recruitment', '/naac', '/overview', '/nirf'].some(p => path === p || path === p + '/')) {
       priority = 0.85
       changefreq = 'weekly'
     } else if (['/coimbatore', '/erode', '/salem', '/namakkal', '/tiruppur'].some(p => path.startsWith(p))) {
