@@ -120,7 +120,6 @@ export const topMenuItems: NavItem[] = [
         ]
       },
       { label: "Attainment of COs and POs", href: "/pdf/ATTAINMENT-OF-COs-AND-POs.pdf", target: "_blank" },
-      { label: "Senior Learner Profile", href: "/faculty-profile" },
       { label: "Details of Students", href: "/details-of-students" },
       { label: "Placements", href: "/placements" }
     ]

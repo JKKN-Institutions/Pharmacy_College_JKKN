@@ -220,8 +220,7 @@ export function CourseSchema({ name, description, duration, provider, url, educa
       },
       "instructor": {
         "@type": "Organization",
-        "name": "JKKN College of Pharmacy Faculty",
-        "url": "https://pharmacy.jkkn.ac.in/faculty-profile/"
+        "name": "JKKN College of Pharmacy Faculty"
       }
     }
   };
