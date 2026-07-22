@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Anti-Ragging Committee | Safe Campus | JKKN',
-  description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and student safety.',
+  description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and learner safety.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/anti-ragging-committee/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/anti-ragging-committee/',
     title: 'Anti-Ragging Committee | Safe Campus | JKKN',
-    description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and student safety.',
+    description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and learner safety.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Anti-Ragging Committee | Safe Campus | JKKN',
-    description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and student safety.',
+    description: 'Anti-ragging committee at JKKN Pharmacy. Ragging-free campus, complaint mechanism and learner safety.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

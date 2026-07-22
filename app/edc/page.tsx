@@ -52,14 +52,14 @@ export default function EDCPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Entrepreneurship Development Cell (EDC)</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering an entrepreneurial culture among students and faculty. The strategic plan focuses on developing innovative thinking, business acumen, and practical skills necessary for pharmaceutical entrepreneurship.
+                      The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering an entrepreneurial culture among learners and senior learners. The strategic plan focuses on developing innovative thinking, business acumen, and practical skills necessary for pharmaceutical entrepreneurship.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To create a vibrant ecosystem that nurtures entrepreneurial mindset and enables students to become successful pharmaceutical entrepreneurs and innovators.
+                      To create a vibrant ecosystem that nurtures entrepreneurial mindset and enables learners to become successful pharmaceutical entrepreneurs and innovators.
                     </p>
                   </div>
 
@@ -70,19 +70,19 @@ export default function EDCPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Promote entrepreneurship awareness and skills among students through workshops, seminars, and training programmes</span>
+                        <span className="text-sm sm:text-base text-gray-700">Promote entrepreneurship awareness and skills among learners through workshops, seminars, and training programmes</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Establish incubation facilities for student startups in pharmaceutical and healthcare sectors</span>
+                        <span className="text-sm sm:text-base text-gray-700">Establish incubation facilities for learner startups in pharmaceutical and healthcare sectors</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Create mentorship programmes connecting students with successful pharmaceutical entrepreneurs</span>
+                        <span className="text-sm sm:text-base text-gray-700">Create mentorship programmes connecting learners with successful pharmaceutical entrepreneurs</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -104,7 +104,7 @@ export default function EDCPage() {
                     <div className="space-y-3 sm:space-y-4">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Start-up Incubation Center</h4>
-                        <p className="text-gray-700 text-sm">Establishing a dedicated space with necessary resources and infrastructure to support student startups from ideation to commercialization.</p>
+                        <p className="text-gray-700 text-sm">Establishing a dedicated space with necessary resources and infrastructure to support learner startups from ideation to commercialization.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Entrepreneurship Bootcamps</h4>

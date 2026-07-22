@@ -98,7 +98,7 @@ export default function NAACPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">
-                            <strong>High academic standards</strong> and a student-centric learning environment.
+                            <strong>High academic standards</strong> and a learner-centric learning environment.
                           </span>
                         </li>
                         <li className="flex items-start">
@@ -119,7 +119,7 @@ export default function NAACPage() {
                         </li>
                       </ul>
                       <p className="text-gray-700 leading-relaxed">
-                        JKKN College of Pharmacy remains dedicated to <strong>enhancing quality education, innovation, and holistic development</strong>, ensuring students excel in the pharmaceutical field.
+                        JKKN College of Pharmacy remains dedicated to <strong>enhancing quality education, innovation, and holistic development</strong>, ensuring learners excel in the pharmaceutical field.
                       </p>
                     </div>
                   </div>

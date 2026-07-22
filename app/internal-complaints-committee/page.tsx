@@ -51,7 +51,7 @@ export default function InternalComplaintsCommitteePage() {
               The Internal Complaints Committee (ICC) at J.K.K. NATTRAJA College of Pharmacy is constituted in compliance with The Sexual Harassment of Women at Workplace (Prevention, Prohibition, and Redressal) Act, 2013 and the UGC (Prevention, Prohibition, and Redressal of Sexual Harassment of Women Employees and Students in Higher Educational Institutions) Regulations, 2015.
             </p>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              The ICC is responsible for ensuring a safe, inclusive, and gender-sensitive environment for women employees and female students within the institution.
+              The ICC is responsible for ensuring a safe, inclusive, and gender-sensitive environment for women employees and female learners within the institution.
             </p>
           </section>
 
@@ -61,7 +61,7 @@ export default function InternalComplaintsCommitteePage() {
             <ul className="space-y-4">
               <BulletItem text="To establish a gender-sensitive and discrimination-free work and academic environment in the institution." />
               <BulletItem text="To ensure equal opportunities and rights for women by effectively implementing the provisions of the Act." />
-              <BulletItem text="To promote awareness about sexual harassment through training, workshops, and sensitization programmes for all students and employees." />
+              <BulletItem text="To promote awareness about sexual harassment through training, workshops, and sensitization programmes for all learners and employees." />
               <BulletItem text="To ensure prompt redressal of sexual harassment complaints with confidentiality, fairness, and non-retaliation." />
               <BulletItem text="To align with UGC guidelines in addressing gender-related concerns and fostering an inclusive campus culture." />
             </ul>
@@ -75,7 +75,7 @@ export default function InternalComplaintsCommitteePage() {
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
                 <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Prevention &amp; Awareness:</h3>
                 <ul className="space-y-3">
-                  <BulletItem text="Organizing gender sensitization programmes, awareness campaigns, and workshops for students, faculty, and staff." />
+                  <BulletItem text="Organizing gender sensitization programmes, awareness campaigns, and workshops for learners, senior learners, and team members." />
                   <BulletItem text="Displaying information on ICC regulations, complaint procedures, and legal provisions on notice boards and the college website." />
                 </ul>
               </div>
@@ -164,7 +164,7 @@ export default function InternalComplaintsCommitteePage() {
             </div>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                The tenure of the ICC members shall be three years, while the student representatives shall serve for one year.
+                The tenure of the ICC members shall be three years, while the learner representatives shall serve for one year.
               </p>
             </div>
           </section>
@@ -201,7 +201,7 @@ export default function InternalComplaintsCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">ICC&apos;S REDRESSAL MECHANISM</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
-              The ICC&apos;s redressal mechanism aims to provide a fair, transparent, and supportive process for addressing complaints of sexual harassment and creating a safe environment for women and girl students.
+              The ICC&apos;s redressal mechanism aims to provide a fair, transparent, and supportive process for addressing complaints of sexual harassment and creating a safe environment for women and girl learners.
             </p>
             <div className="flex justify-center">
               <Image

@@ -85,7 +85,7 @@ export default function CompetitiveExaminationPage() {
               ))}
             </ul>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3">
-              The committee comprises experienced professionals and educators dedicated to students&apos; academic and career advancement.
+              The committee comprises experienced professionals and senior learners dedicated to learners&apos; academic and career advancement.
             </p>
             <p className="text-sm sm:text-base text-gray-700 font-semibold">Your journey to success starts here!</p>
           </section>

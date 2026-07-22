@@ -46,7 +46,7 @@ export default function ErodePage() {
     {
       question: 'What are the best colleges for pharmacy near Erode?',
       answer:
-        'JKKN College of Pharmacy near Erode offers three PCI-approved programmes with NAAC accreditation and campus placement support. Located 22 km from Erode via NH-544, it provides modern pharmaceutical labs, research facilities, a teaching hospital, and strong industry connections across Tamil Nadu.',
+        'JKKN College of Pharmacy near Erode offers three PCI-approved programmes with NAAC accreditation and campus placement support. Located 22 km from Erode via NH-544, it provides modern pharmaceutical learning labs, research facilities, a teaching hospital, and strong industry connections across Tamil Nadu.',
     },
     {
       question: 'How far is JKKN Pharmacy from Erode?',
@@ -69,14 +69,14 @@ export default function ErodePage() {
         'B.Pharm graduates from JKKN College of Pharmacy pursue careers across seven major sectors. These include pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through GPAT.',
     },
     {
-      question: 'Does JKKN Pharmacy provide hostel for Erode students?',
+      question: 'Does JKKN Pharmacy provide hostel for Erode learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female students on campus. Students from Erode can also commute daily as the campus is 35 to 40 minutes away via NH-544. College transport services connect to Erode and surrounding areas.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Erode can also commute daily as the campus is 35 to 40 minutes away via NH-544. College transport services connect to Erode and surrounding areas.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Erode?',
       answer:
-        'Students from Erode can apply online at admission.jkkn.ac.in or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all three pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
+        'Learners from Erode can apply online at admission.jkkn.ac.in or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all three pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
     },
   ];
 
@@ -109,8 +109,8 @@ export default function ErodePage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "11.4367",
-              "longitude": "77.7271"
+              "latitude": "11.4387",
+              "longitude": "77.7062"
             },
             "telephone": "+919345855001",
             "email": "admissions@pharmacy.jkkn.ac.in",
@@ -272,7 +272,7 @@ export default function ErodePage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Students Choose This Pharmacy College in Erode Region
+            Why Learners Choose This Pharmacy College in Erode Region
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
             Among the top pharmacy colleges in Erode region, JKKN College of Pharmacy stands out for quality education and strong placements. Just 22 km from Erode on NH-544, it is closer than many pharmacy colleges in Erode city itself. The excellent highway connectivity makes daily commute comfortable and quick.
@@ -284,17 +284,17 @@ export default function ErodePage() {
               {
                 icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
                 title: 'PCI Approved',
-                desc: 'PCI-approved pharmacy college with modern pharmaceutical labs',
+                desc: 'PCI-approved pharmacy college with modern pharmaceutical learning labs',
               },
               {
                 icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
-                title: 'Well-Equipped Labs',
-                desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
+                title: 'Well-Equipped Learning Labs',
+                desc: 'Learning Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
                 icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Research Opportunities',
-                desc: 'Research opportunities for M.Pharm and Pharm.D students',
+                desc: 'Research opportunities for M.Pharm and Pharm.D learners',
               },
               {
                 icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
@@ -416,7 +416,7 @@ export default function ErodePage() {
             Placement Highlights
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            The placement cell connects students with India&apos;s top employers
+            The placement cell connects learners with India&apos;s top employers
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -548,8 +548,8 @@ export default function ErodePage() {
             {[
               {
                 emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
-                title: 'Modern Labs',
-                desc: 'Advanced laboratories and smart classrooms',
+                title: 'Modern Learning Labs',
+                desc: 'Advanced learning labs and smart learning studios',
               },
               {
                 emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
@@ -600,16 +600,16 @@ export default function ErodePage() {
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Students from Erode Love JKKN Pharmacy
+            Learners from Erode Love JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from students who made the right choice
+            Hear from learners who made the right choice
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our students? Connect with JKKN Pharmacy alumni and current students from Erode to learn about their experience.
+              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Erode to learn about their experience.
             </p>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"
@@ -717,9 +717,9 @@ export default function ErodePage() {
         name="Pharmacy Programmes at JKKN College of Pharmacy near Erode"
         description="List of pharmacy courses offered at JKKN College of Pharmacy, accessible from Erode"
         items={[
-          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/bpharm/' },
-          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/mpharm/' },
-          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/courses/pharmd/' },
+          { name: 'B.Pharm (Bachelor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/' },
+          { name: 'M.Pharm (Master of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/m-pharmacy/' },
+          { name: 'Pharm.D (Doctor of Pharmacy)', url: 'https://pharmacy.jkkn.ac.in/pharm-d/' },
         ]}
       />
 

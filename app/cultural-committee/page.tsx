@@ -43,7 +43,7 @@ export default function CulturalCommitteePage() {
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <ul className="space-y-4">
                 {[
-                  'The prime aim of the Cultural Committee is to motivate students to exhibit their creative prowess and break free from their hesitations.',
+                  'The prime aim of the Cultural Committee is to motivate learners to exhibit their creative prowess and break free from their hesitations.',
                   'To promote cultural diversity within the organisation and the wider community.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
@@ -61,12 +61,12 @@ export default function CulturalCommitteePage() {
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <ul className="space-y-4">
                 {[
-                  'Cultural committee is responsible to organise and promote all intra and inter collegiate cultural events in the spurring healthy competition and camaraderie among students.',
+                  'Cultural committee is responsible to organise and promote all intra and inter collegiate cultural events in the spurring healthy competition and camaraderie among learners.',
                   'The committee takes charge of conceptualizing, planning, and executing a diverse range of cultural events, performances and competitions.',
-                  'Identifying and nurturing talent of students in different forms of art, such as music, dance, drama, literature, fine arts, and more.',
-                  'To contribute significantly to develop the talents of students by giving them opportunities to show their talents in the extracurricular activities in cultural events such as Group or individual events.',
-                  'To plan a Schedule of cultural events during the academic year and to encourage students to participate.',
-                  'Organizing events that facilitate the exchange of cultural knowledge and practices among students from different backgrounds.',
+                  'Identifying and nurturing talent of learners in different forms of art, such as music, dance, drama, literature, fine arts, and more.',
+                  'To contribute significantly to develop the talents of learners by giving them opportunities to show their talents in the extracurricular activities in cultural events such as Group or individual events.',
+                  'To plan a Schedule of cultural events during the academic year and to encourage learners to participate.',
+                  'Organizing events that facilitate the exchange of cultural knowledge and practices among learners from different backgrounds.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                     <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />

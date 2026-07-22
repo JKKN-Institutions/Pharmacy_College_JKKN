@@ -15,7 +15,7 @@ export default function PharmacyPracticePage() {
   const faqs = [
     {
       question: "What is M.Pharm in Pharmacy Practice?",
-      answer: "M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Students learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through classroom learning and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings."
+      answer: "M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Learners learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through learning in the learning studio and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings."
     },
     {
       question: "What is the difference between Pharm.D and M.Pharm Pharmacy Practice?",
@@ -27,7 +27,7 @@ export default function PharmacyPracticePage() {
     },
     {
       question: "Is hospital training mandatory in M.Pharm Pharmacy Practice?",
-      answer: "Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice curriculum. Students must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where students interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible."
+      answer: "Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice learning framework. Learners must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where learners interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible."
     },
     {
       question: "Can I do PhD after M.Pharm Pharmacy Practice?",
@@ -95,7 +95,7 @@ export default function PharmacyPracticePage() {
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation programme that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This programme trains students to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, students develop expertise in drug therapy optimisation, patient counselling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
+              M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation programme that focuses on clinical pharmacy, pharmaceutical care, and patient-centered medication therapy management. This programme trains learners to work directly with patients and healthcare teams in hospitals, clinics, and community settings. Through extensive clinical rotations and evidence-based learning, learners develop expertise in drug therapy optimisation, patient counselling, medication safety, clinical research, and pharmaceutical care services. Graduates become clinical pharmacists who play vital roles in improving patient outcomes and ensuring safe, effective medication use in healthcare systems.
             </p>
           </div>
 
@@ -568,7 +568,7 @@ export default function PharmacyPracticePage() {
           </div>
 
           <p className="text-xs sm:text-sm text-gray-800 mb-6">
-            M.Pharm Pharmacy Practice students must complete supervised clinical rotations in PCI-approved teaching hospitals covering:
+            M.Pharm Pharmacy Practice learners must complete supervised clinical rotations in PCI-approved teaching hospitals covering:
           </p>
 
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
@@ -894,7 +894,7 @@ export default function PharmacyPracticePage() {
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#7cb983] mr-2">✓</span>
-                <span>Teach pharmacy practice to students</span>
+                <span>Teach pharmacy practice to learners</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#7cb983] mr-2">✓</span>
@@ -1451,7 +1451,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">7</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Classes & Clinical Training Begins (August 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Attend orientation. Start classroom learning. Prepare for clinical rotations. Learn medical terminology and patient communication skills. Get introduced to hospital preceptors.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Attend orientation. Start learning in the learning studio. Prepare for clinical rotations. Learn medical terminology and patient communication skills. Get introduced to hospital preceptors.</p>
               </div>
             </div>
           </div>
@@ -1552,7 +1552,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified students in approved colleges.
+                <span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified learners in approved colleges.
               </div>
             </li>
             <li className="flex items-start">
@@ -1564,7 +1564,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Hospital Stipends:</span> Some teaching hospitals provide stipends (₹5,000-10,000/month) during clinical rotations to M.Pharm students.
+                <span className="font-bold text-[#006837]">Hospital Stipends:</span> Some teaching hospitals provide stipends (₹5,000-10,000/month) during clinical rotations to M.Pharm learners.
               </div>
             </li>
             <li className="flex items-start">
@@ -1582,7 +1582,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Research Assistantships:</span> Faculty may offer part-time research assistant roles (₹3,000-8,000/month).
+                <span className="font-bold text-[#006837]">Research Assistantships:</span> Senior learners may offer part-time research assistant roles (₹3,000-8,000/month).
               </div>
             </li>
             <li className="flex items-start">
@@ -1623,7 +1623,7 @@ export default function PharmacyPracticePage() {
             {expandedFAQ === 10 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Students learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through classroom learning and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings.
+                  M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Learners learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through learning in the learning studio and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings.
                 </p>
               </div>
             )}
@@ -1701,7 +1701,7 @@ export default function PharmacyPracticePage() {
             {expandedFAQ === 13 && (
               <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice curriculum. Students must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where students interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible.
+                  Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice learning framework. Learners must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where learners interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible.
                 </p>
               </div>
             )}
@@ -1953,7 +1953,7 @@ export default function PharmacyPracticePage() {
           <li className="flex items-start">
             <span className="text-[#006837] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Clinical Preceptor Availability:</span> Hospitals must have qualified clinical pharmacists or physicians willing to supervise student rotations. Check if supervisors are actually available.
+              <span className="font-bold text-[#006837]">Clinical Preceptor Availability:</span> Hospitals must have qualified clinical pharmacists or physicians willing to supervise learner rotations. Check if supervisors are actually available.
             </div>
           </li>
           <li className="flex items-start">

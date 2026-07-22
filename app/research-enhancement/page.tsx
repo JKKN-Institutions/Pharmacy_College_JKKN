@@ -52,7 +52,7 @@ export default function ResearchEnhancementPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Research Enhancement</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Research Enhancement strategic plan at JKKN College of Pharmacy is designed to strengthen the college's research capabilities, increase research output, and establish the institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, faculty research support, and student research engagement.
+                      The Research Enhancement strategic plan at JKKN College of Pharmacy is designed to strengthen the college's research capabilities, increase research output, and establish the institution as a prominent research center in pharmaceutical sciences. This comprehensive strategy focuses on infrastructure development, funding acquisition, senior learner research support, and learner research engagement.
                     </p>
                   </div>
 
@@ -88,7 +88,7 @@ export default function ResearchEnhancementPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Promote faculty and student participation in national and international research conferences</span>
+                        <span className="text-sm sm:text-base text-gray-700">Promote senior learner and learner participation in national and international research conferences</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -108,7 +108,7 @@ export default function ResearchEnhancementPage() {
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Research Grant Support Programme</h4>
-                        <p className="text-gray-700 text-sm">Creating a dedicated research cell to assist faculty in grant writing, identifying funding opportunities, and providing seed funding for pilot research projects.</p>
+                        <p className="text-gray-700 text-sm">Creating a dedicated research cell to assist senior learners in grant writing, identifying funding opportunities, and providing seed funding for pilot research projects.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Publication and Patent Support</h4>

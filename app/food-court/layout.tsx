@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Cafeteria & Food Court | Dining Facilities | JKKN Pharmacy',
-  description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for students and staff.',
+  description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for learners and team members.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/food-court/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/food-court/',
     title: 'Cafeteria & Food Court | Dining Facilities | JKKN Pharmacy',
-    description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for students and staff.',
+    description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for learners and team members.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Cafeteria & Food Court | Dining Facilities | JKKN Pharmacy',
-    description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for students and staff.',
+    description: 'Food court and cafeteria at JKKN College of Pharmacy. Hygienic food, varied menu, mess facilities, dining hall and nutritious meals for learners and team members.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

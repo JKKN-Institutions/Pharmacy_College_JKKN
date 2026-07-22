@@ -109,7 +109,7 @@ const trainingPrograms = [
 
 const testimonials = [
   {
-    name: '[UPDATE — Student Name]',
+    name: '[UPDATE — Learner Name]',
     photo: '/images/placements/student-1.webp',
     course: 'B.Pharm 2024',
     company: 'Sun Pharma',
@@ -118,16 +118,16 @@ const testimonials = [
     quote: 'The placement cell at JKKN prepared me thoroughly for the recruitment process. From mock interviews to technical training, every aspect was covered. I am grateful for the opportunity to work with Sun Pharma.',
   },
   {
-    name: '[UPDATE — Student Name]',
+    name: '[UPDATE — Learner Name]',
     photo: '/images/placements/student-2.webp',
     course: 'M.Pharm 2024',
     company: "Dr. Reddy's Laboratories",
     package: '7.5 LPA',
     role: 'Formulation Scientist',
-    quote: 'JKKN gave me the research exposure and industrial training that helped me secure a role at Dr. Reddy\'s. The faculty mentorship and laboratory facilities are exceptional.',
+    quote: 'JKKN gave me the research exposure and industrial training that helped me secure a role at Dr. Reddy\'s. The senior learner mentorship and learning lab facilities are exceptional.',
   },
   {
-    name: '[UPDATE — Student Name]',
+    name: '[UPDATE — Learner Name]',
     photo: '/images/placements/student-3.webp',
     course: 'Pharm.D 2024',
     company: 'Apollo Hospitals',
@@ -140,7 +140,7 @@ const testimonials = [
 const placementFaqs = [
   {
     question: 'What is the placement rate at JKKN College of Pharmacy?',
-    answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect students with top pharmaceutical companies, hospitals, and research organisations.',
+    answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
   },
   {
     question: 'What is the highest package offered at JKKN Pharmacy College?',
@@ -159,20 +159,20 @@ const placementFaqs = [
     answer: 'B.Pharm graduates from JKKN have diverse career options including pharmaceutical manufacturing, quality control and assurance, research and development, clinical research, hospital and community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and government pharmacist positions.',
   },
   {
-    question: 'Does JKKN Pharmacy College provide campus placements for M.Pharm students?',
-    answer: 'Yes, JKKN College of Pharmacy provides dedicated campus placement support for M.Pharm graduates. M.Pharm students receive specialised placement assistance targeting research-oriented roles in R&D, quality assurance, regulatory affairs, and academic positions with salary packages ranging from 4-8 LPA.',
+    question: 'Does JKKN Pharmacy College provide campus placements for M.Pharm learners?',
+    answer: 'Yes, JKKN College of Pharmacy provides dedicated campus placement support for M.Pharm graduates. M.Pharm learners receive specialised placement assistance targeting research-oriented roles in R&D, quality assurance, regulatory affairs, and academic positions with salary packages ranging from 4-8 LPA.',
   },
   {
     question: 'What is the average salary package for JKKN pharmacy graduates?',
     answer: 'The average salary package for JKKN College of Pharmacy graduates is 3.5 LPA. Packages vary by programme — B.Pharm graduates average 3-4 LPA, M.Pharm graduates average 4-6 LPA, and Pharm.D graduates average 4-7 LPA depending on the role and employer.',
   },
   {
-    question: 'How does JKKN Pharmacy College prepare students for placements?',
+    question: 'How does JKKN Pharmacy College prepare learners for placements?',
     answer: 'JKKN follows a structured placement preparation model starting from the pre-final year. This includes industrial visits to pharmaceutical companies, guest lectures by industry professionals, certification courses in GMP, GLP, and regulatory affairs, soft skills training programmes, mock placement drives, and dedicated mentoring by the placement cell team.',
   },
   {
     question: 'Are there internship opportunities at JKKN College of Pharmacy?',
-    answer: 'Yes, JKKN facilitates internship opportunities with pharmaceutical companies, hospitals, and research institutions. B.Pharm students complete a mandatory 6-month industrial internship, while Pharm.D students undergo clinical rotations in hospitals, providing hands-on industry experience before graduation.',
+    answer: 'Yes, JKKN facilitates internship opportunities with pharmaceutical companies, hospitals, and research institutions. B.Pharm learners complete a mandatory 6-month industrial internship, while Pharm.D learners undergo clinical rotations in hospitals, providing hands-on industry experience before graduation.',
   },
   {
     question: 'What sectors do JKKN pharmacy graduates get placed in?',
@@ -337,7 +337,7 @@ export default function PlacementsPage() {
               <p>
                 Starting from the pre-final year, the placement cell initiates a structured training programme that
                 covers aptitude skills, technical knowledge, soft skills, and interview preparation. Industry visits,
-                guest lectures, and hands-on workshops complement the academic curriculum, ensuring graduates are
+                guest lectures, and hands-on workshops complement the academic learning framework, ensuring graduates are
                 industry-ready from day one.
               </p>
             </motion.div>
@@ -569,7 +569,7 @@ export default function PlacementsPage() {
               Placement Training
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
-              How We Prepare Students for the Industry
+              How We Prepare Learners for the Industry
             </h2>
           </motion.div>
 
@@ -612,7 +612,7 @@ export default function PlacementsPage() {
               Success Stories
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold leading-tight">
-              What Our Placed Students Say
+              What Our Placed Learners Say
             </h2>
           </motion.div>
 

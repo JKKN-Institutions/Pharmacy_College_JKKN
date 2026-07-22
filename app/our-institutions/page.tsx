@@ -50,22 +50,22 @@ export default function OurInstitutionsPage() {
             </div>
             <ul className="space-y-4 sm:space-y-5 text-sm sm:text-base text-gray-700 leading-relaxed text-justify list-disc list-outside ml-5">
               <li>
-                At JKKN Institutions, the primary goal is to foster the technical knowledge and skill development of students, preparing them to thrive in today's competitive world. Through the implementation of effective teaching practices, JKKN Institutions strives to establish a strong educational foundation.
+                At JKKN Institutions, the primary goal is to foster the technical knowledge and skill development of learners, preparing them to thrive in today's competitive world. Through the implementation of effective teaching practices, JKKN Institutions strives to establish a strong educational foundation.
               </li>
               <li>
-                JKKN Institutions boasts well-constructed academic blocks, advanced lab facilities, modern operation centers, extensive knowledge resource libraries, and top-notch sports infrastructure. Separate accommodation is provided for both male and female students, ensuring a safe and conducive learning environment. Additionally, the general and dental hospitals offer comprehensive healthcare services and practical training opportunities.
+                JKKN Institutions boasts well-constructed academic blocks, advanced learning lab facilities, modern operation centers, extensive knowledge resource libraries, and top-notch sports infrastructure. Separate accommodation is provided for both male and female learners, ensuring a safe and conducive learning environment. Additionally, the general and dental hospitals offer comprehensive healthcare services and practical training opportunities.
               </li>
               <li>
-                With actively functioning placement cells, JKKN Institutions guarantees promising placements for all students. Furthermore, valuable partnerships have been established with leading manufacturing and commercial enterprises, facilitating invaluable industrial and corporate exposure for both students and faculty members.
+                With actively functioning placement cells, JKKN Institutions guarantees promising placements for all learners. Furthermore, valuable partnerships have been established with leading manufacturing and commercial enterprises, facilitating invaluable industrial and corporate exposure for both learners and senior learners.
               </li>
               <li>
-                Located in Komarapalayam, just 15 km from Erode City, Tamil Nadu, India, JKKN Institutions are easily accessible. The Erode railway station and Salem/Coimbatore airports are conveniently nearby, enhancing connectivity for students from various locations.
+                Located in Komarapalayam, just 15 km from Erode City, Tamil Nadu, India, JKKN Institutions are easily accessible. The Erode railway station and Salem/Coimbatore airports are conveniently nearby, enhancing connectivity for learners from various locations.
               </li>
               <li>
-                At JKKN Institutions, a culture of commitment, transparency, and teamwork is fostered. The institutions are recognised as knowledge centers that offer abundant opportunities and support, fueling a spirit of initiative and success. JKKN Institutions continuously strives for progressive enhancements to cater to the evolving needs of students and faculty members.
+                At JKKN Institutions, a culture of commitment, transparency, and teamwork is fostered. The institutions are recognised as knowledge centers that offer abundant opportunities and support, fueling a spirit of initiative and success. JKKN Institutions continuously strives for progressive enhancements to cater to the evolving needs of learners and senior learners.
               </li>
               <li>
-                JKKN Institutions are committed to providing exceptional educational experiences for students, empowering them with the skills and knowledge necessary to excel. With a focus on continuous improvement and collaborative partnerships, JKKN Institutions ensures that the campuses are recognised as accredited centers of education and opportunity.
+                JKKN Institutions are committed to providing exceptional educational experiences for learners, empowering them with the skills and knowledge necessary to excel. With a focus on continuous improvement and collaborative partnerships, JKKN Institutions ensures that the campuses are recognised as accredited centers of education and opportunity.
               </li>
             </ul>
           </div>

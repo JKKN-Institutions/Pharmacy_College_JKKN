@@ -52,14 +52,14 @@ export default function PharmaceuticalEducationPage() {
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Pharmaceutical Education</h2>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize the educational programmes to meet the evolving needs of the pharmaceutical industry and healthcare sector. The comprehensive approach focuses on curriculum innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
+                      The Pharmaceutical Education strategic plan at JKKN College of Pharmacy is designed to transform and modernize the educational programmes to meet the evolving needs of the pharmaceutical industry and healthcare sector. The comprehensive approach focuses on learning framework innovation, pedagogical excellence, and preparing competent pharmaceutical professionals.
                     </p>
                   </div>
 
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Vision</h3>
                     <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-3 sm:mb-4">
-                      To establish an industry-leading pharmaceutical education system that produces skilled, knowledgeable, and ethically grounded pharmacy professionals capable of meeting current and future healthcare challenges through innovative teaching methodologies and industry-aligned curriculum.
+                      To establish an industry-leading pharmaceutical education system that produces skilled, knowledgeable, and ethically grounded pharmacy professionals capable of meeting current and future healthcare challenges through innovative teaching methodologies and industry-aligned learning framework.
                     </p>
                   </div>
 
@@ -70,7 +70,7 @@ export default function PharmaceuticalEducationPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Revise and update curriculum to align with current pharmaceutical industry standards and emerging healthcare trends</span>
+                        <span className="text-sm sm:text-base text-gray-700">Revise and update learning framework to align with current pharmaceutical industry standards and emerging healthcare trends</span>
                       </li>
                       <li className="flex items-start">
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,7 +94,7 @@ export default function PharmaceuticalEducationPage() {
                         <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
-                        <span className="text-sm sm:text-base text-gray-700">Develop continuous faculty development programmes to enhance teaching quality and pedagogical skills</span>
+                        <span className="text-sm sm:text-base text-gray-700">Develop continuous senior learner development programmes to enhance teaching quality and pedagogical skills</span>
                       </li>
                     </ul>
                   </div>
@@ -112,7 +112,7 @@ export default function PharmaceuticalEducationPage() {
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
                         <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Digital Learning Infrastructure</h4>
-                        <p className="text-gray-700 text-sm">Developing comprehensive online learning resources, virtual laboratories, and learning management systems to support blended learning approaches.</p>
+                        <p className="text-gray-700 text-sm">Developing comprehensive online learning resources, virtual learning labs, and learning management systems to support blended learning approaches.</p>
                       </div>
                     </div>
                   </div>
@@ -131,7 +131,7 @@ export default function PharmaceuticalEducationPage() {
                         <tbody>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Phase 1</td>
-                            <td className="border border-gray-300 px-4 py-3">Curriculum review and faculty training on innovative teaching methods</td>
+                            <td className="border border-gray-300 px-4 py-3">Learning framework review and senior learner training on innovative teaching methods</td>
                             <td className="border border-gray-300 px-4 py-3">Year 1</td>
                           </tr>
                           <tr className="bg-gray-50">

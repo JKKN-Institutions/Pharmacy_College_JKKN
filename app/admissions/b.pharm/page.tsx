@@ -67,7 +67,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'What is the B.Pharm fee structure at JKKN for 2026?',
       answer:
-        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC students are eligible for Tamil Nadu government scholarships.',
+        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC learners are eligible for Tamil Nadu government scholarships.',
     },
     {
       question: 'How many B.Pharm seats are available at JKKN?',
@@ -90,7 +90,7 @@ export default function BPharmAdmissionPage() {
         'Required documents include: +2 mark sheet/provisional certificate (self-attested), 10th mark sheet, transfer certificate, community certificate (for SC/ST/MBC/BC/OBC), conduct certificate from previous institution, Aadhaar card, 6 recent passport-size photographs, and proof for special quotas (differently abled, sports, NCC, ex-servicemen) where applicable.',
     },
     {
-      question: 'Are scholarships available for B.Pharm students?',
+      question: 'Are scholarships available for B.Pharm learners?',
       answer:
         'Yes. Tamil Nadu Government scholarships available include Post-Matric Scholarship for SC/ST (Management Quota ₹43,000/year + maintenance; Government Quota as per norms), BC/MBC/DNC Scholarship, and First Graduate Scholarship (for first-generation graduates under counselling quota). The JKKN scholarship cell helps process applications via the National Scholarship Portal.',
     },
@@ -170,7 +170,7 @@ export default function BPharmAdmissionPage() {
             </h2>
             <div className="text-[10px] sm:text-xs md:text-sm text-gray-700 leading-relaxed space-y-4">
               <p>
-                The Bachelor of Pharmacy (B.Pharm) at JKKN College of Pharmacy is a 4-year undergraduate degree approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The curriculum spans 8 semesters and covers pharmaceutical sciences, pharmacology, pharmaceutical chemistry, pharmaceutics, pharmacognosy, pharmacy practice, and hospital pharmacy.
+                The Bachelor of Pharmacy (B.Pharm) at JKKN College of Pharmacy is a 4-year undergraduate degree approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The learning framework spans 8 semesters and covers pharmaceutical sciences, pharmacology, pharmaceutical chemistry, pharmaceutics, pharmacognosy, pharmacy practice, and hospital pharmacy.
               </p>
               <p>
                 On successful completion, graduates qualify as Registered Pharmacists with the State Pharmacy Council and can pursue careers in retail/hospital pharmacy, pharmaceutical industry (production, QA/QC, R&amp;D, regulatory affairs), drug marketing, clinical research, government services, or higher studies (M.Pharm, MBA, Pharm.D Post Baccalaureate).
@@ -316,11 +316,11 @@ export default function BPharmAdmissionPage() {
                   { title: 'Community Certificate', desc: 'For SC/ST/MBC/BC/OBC candidates' },
                   { title: 'Conduct Certificate', desc: 'From the last institution attended' },
                   { title: 'Aadhaar Card', desc: 'Photocopy with self-attestation' },
-                  { title: 'Eligibility Certificate', desc: 'For students from other state boards/universities' },
+                  { title: 'Eligibility Certificate', desc: 'For learners from other state boards/universities' },
                   { title: 'Passport Photos', desc: '6 recent passport-size colour photographs' },
                   { title: 'Special Quota Proof', desc: 'Differently abled / Sports / NCC / Ex-Servicemen certificates' },
                   { title: 'Income Certificate', desc: 'For scholarship eligibility (if applicable)' },
-                  { title: 'Migration Certificate', desc: 'For students from boards other than Tamil Nadu' },
+                  { title: 'Migration Certificate', desc: 'For learners from boards other than Tamil Nadu' },
                   { title: 'D.Pharm Certificate', desc: 'For B.Pharm Lateral Entry applicants only' },
                 ].map((doc, idx) => (
                   <div key={idx} className="flex items-start gap-3">
@@ -384,7 +384,7 @@ export default function BPharmAdmissionPage() {
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
-              Curriculum Snapshot
+              Learning Framework Snapshot
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {[

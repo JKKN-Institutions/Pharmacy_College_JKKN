@@ -6,7 +6,7 @@ const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Bachelor of Pharmacy (B.Pharm)",
-  "description": "Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains students in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals.",
+  "description": "Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme that trains learners in pharmaceutical sciences, drug formulation, medicinal chemistry, and healthcare management. Approved by the Pharmacy Council of India (PCI), this course prepares graduates for careers as licensed pharmacists, pharmaceutical researchers, and drug regulatory professionals.",
   "url": "https://pharmacy.jkkn.ac.in/b-pharmacy/",
   "provider": {
     "@type": "EducationalOrganization",
@@ -49,8 +49,7 @@ const courseSchema = {
     },
     "instructor": {
       "@type": "Organization",
-      "name": "JKKN College of Pharmacy Faculty",
-      "url": "https://pharmacy.jkkn.ac.in/faculty-profile/"
+      "name": "JKKN College of Pharmacy Faculty"
     }
   }
 }

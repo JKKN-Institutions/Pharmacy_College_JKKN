@@ -33,21 +33,21 @@ export default function WifiPage() {
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
                 <img
                   src="/images/wifi-1.webp"
-                  alt="Student using laptop"
+                  alt="Learner using laptop"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
                 <img
                   src="/images/wifi-2.webp"
-                  alt="Student using mobile"
+                  alt="Learner using mobile"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl sm:col-span-2 md:col-span-1">
                 <img
                   src="/images/wifi-3.webp"
-                  alt="Students in computer lab"
+                  alt="Learners in digital learning lab"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -61,22 +61,22 @@ export default function WifiPage() {
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
-                The campus boasts comprehensive Wi-Fi coverage, ensuring that students can seamlessly access the internet from any location on campus. With a high-speed internet connection, students have the convenience of browsing the web regardless of their whereabouts. This connectivity empowers them to harness online resources, engage in research, and stay connected to digital learning platforms, enhancing their educational experience.
+                The campus boasts comprehensive Wi-Fi coverage, ensuring that learners can seamlessly access the internet from any location on campus. With a high-speed internet connection, learners have the convenience of browsing the web regardless of their whereabouts. This connectivity empowers them to harness online resources, engage in research, and stay connected to digital learning platforms, enhancing their educational experience.
               </p>
               <p className="text-sm sm:text-base text-justify">
-                Notably, the Wi-Fi network extends beyond the confines of the classrooms. It envelops every facet of campus life, enveloping key areas such as the library, auditorium, cafeteria, and hostels. This holistic coverage ensures that students remain connected and informed throughout their academic journey. Furthermore, to maintain a secure and enriching online environment, diligent monitoring of the websites accessed by students is carried out, promoting responsible internet usage and fostering a safe digital space for all.
+                Notably, the Wi-Fi network extends beyond the confines of the learning studios. It envelops every facet of campus life, enveloping key areas such as the library, auditorium, cafeteria, and hostels. This holistic coverage ensures that learners remain connected and informed throughout their academic journey. Furthermore, to maintain a secure and enriching online environment, diligent monitoring of the websites accessed by learners is carried out, promoting responsible internet usage and fostering a safe digital space for all.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
-                    The entire campus is Wi-Fi enabled with a high-speed internet connection to allow the students to access the internet no matter wherever they are.
+                    The entire campus is Wi-Fi enabled with a high-speed internet connection to allow the learners to access the internet no matter wherever they are.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
-                    The coverage of Wi-Fi is not only restricted to classrooms but also extends to all the areas including the library, Auditorium, cafeteria, and hostels. All the websites browsed by him/her are regularly monitored
+                    The coverage of Wi-Fi is not only restricted to learning studios but also extends to all the areas including the library, Auditorium, cafeteria, and hostels. All the websites browsed by him/her are regularly monitored
                   </span>
                 </li>
               </ul>

@@ -49,8 +49,7 @@ const courseSchema = {
     },
     "instructor": {
       "@type": "Organization",
-      "name": "JKKN College of Pharmacy Faculty",
-      "url": "https://pharmacy.jkkn.ac.in/faculty-profile/"
+      "name": "JKKN College of Pharmacy Faculty"
     }
   }
 }

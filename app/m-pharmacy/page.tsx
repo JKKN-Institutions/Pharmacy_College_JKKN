@@ -616,7 +616,7 @@ export default function MPharmacyPage() {
             <tbody>
               <tr className="border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Pharmacy Specific</td>
-                <td className="px-4 py-4">Yes - only for pharmacy students</td>
+                <td className="px-4 py-4">Yes - only for pharmacy learners</td>
                 <td className="px-4 py-4">No - engineering/science focus</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
@@ -651,7 +651,7 @@ export default function MPharmacyPage() {
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-4 py-4 font-semibold text-[#006837]">Best For</td>
-                <td className="px-4 py-4">Pharmacy students wanting M.Pharm</td>
+                <td className="px-4 py-4">Pharmacy learners wanting M.Pharm</td>
                 <td className="px-4 py-4">Those targeting IIT M.Tech later, want Ph.D. abroad, have strong biotechnology interest</td>
               </tr>
             </tbody>
@@ -1093,7 +1093,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 6 && (
               <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  All M.Pharm specialisations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on the institution, research publications, skills, and networking than specialisation choice. Top 10% students succeed in any specialisation.
+                  All M.Pharm specialisations have good scope, but differ in opportunities and growth. Best overall scope: Pharmaceutics and Pharmaceutical Analysis due to high industry demand. Pharmaceutics: Highest R&D demand, every pharmaceutical company needs formulation scientists, excellent growth to senior positions (Associate Director ₹25-40L), good abroad opportunities. Pharmaceutical Analysis: Maximum job openings in QC departments, every pharma company and testing lab requires, stable career, moderate growth ceiling (QC Head ₹18-30L). Pharmacology: Good in research-focused companies and CROs, limited QC opportunities, excellent for preclinical research, competitive field. Pharmaceutical Chemistry: Best for drug discovery roles in innovator companies, limited opportunities in generic companies, excellent abroad prospects for medicinal chemistry. Pharmacy Practice: Growing in hospital sector, clinical pharmacy expanding, limited industry opportunities, good for patient-focused careers. Highest salary potential long-term: Pharmaceutical Chemistry in innovator companies and Pharmaceutics in MNC R&D. Most job openings: Pharmaceutical Analysis. Best work-life balance: Quality Control roles (Analysis). Most research-oriented: Pharmacology and Chemistry. Reality: Scope depends more on the institution, research publications, skills, and networking than specialisation choice. Top 10% learners succeed in any specialisation.
                 </p>
               </div>
             )}

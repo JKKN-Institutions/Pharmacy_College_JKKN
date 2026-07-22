@@ -25,6 +25,35 @@ export interface SyncReport {
   durationMs: number;
 }
 
+/**
+ * Ensures each faculty slug is unique within a sync run.
+ *
+ * MyJKKN can return two distinct records with the same name and a null slug
+ * (e.g. one HOD + one faculty both "Prithiviraj A"), which the adapter turns
+ * into identical slugs. Two rows then share a slug and the public detail page
+ * (`.maybeSingle()`) errors on the ambiguous match → 404. The first claimant
+ * keeps the clean slug; a later collision gets a stable suffix (staff_id, or
+ * an id fragment when staff_id is null). `disambiguated` lets the caller skip
+ * rename-history for a suffix that isn't a real rename.
+ */
+export function makeUniqueSlug(
+  desired: string,
+  rawDisambiguator: string,
+  used: Set<string>
+): { slug: string; disambiguated: boolean } {
+  if (!used.has(desired)) {
+    used.add(desired);
+    return { slug: desired, disambiguated: false };
+  }
+  const suffix =
+    rawDisambiguator.toLowerCase().replace(/[^a-z0-9]+/g, '').slice(0, 12) || 'dup';
+  let slug = `${desired}-${suffix}`;
+  let n = 2;
+  while (used.has(slug)) slug = `${desired}-${suffix}-${n++}`;
+  used.add(slug);
+  return { slug, disambiguated: true };
+}
+
 export async function syncFacultyFromMyJKKN(): Promise<SyncReport> {
   const start = Date.now();
   const supabase = getServiceClient();
@@ -52,6 +81,7 @@ export async function syncFacultyFromMyJKKN(): Promise<SyncReport> {
   }
 
   const apiIds = new Set<string>();
+  const usedSlugs = new Set<string>();
 
   // 3. Process each API row
   for (const apiRow of apiRows) {
@@ -60,6 +90,14 @@ export async function syncFacultyFromMyJKKN(): Promise<SyncReport> {
     try {
       // 3a. Adapt
       const formData = staffToFacultyRow(apiRow);
+
+      // 3a-i. Guarantee slug uniqueness within this run (same-name records).
+      const { slug: uniqueSlug, disambiguated } = makeUniqueSlug(
+        formData.slug,
+        apiRow.staff_id || apiRow.id.slice(0, 8),
+        usedSlugs
+      );
+      formData.slug = uniqueSlug;
 
       // 3b. Rehost photo
       const photoUrl = await rehostFacultyPhoto(
@@ -76,9 +114,12 @@ export async function syncFacultyFromMyJKKN(): Promise<SyncReport> {
       if (status === 'draft') drafts++;
       else published++;
 
-      // 3d. Slug rename detection
+      // 3d. Slug rename detection.
+      // Skip when the slug was suffixed for a collision (disambiguated): the
+      // old slug is still owned by another active row, so recording a redirect
+      // from it would hijack that row's URL.
       const oldSlug = localSlugMap.get(apiRow.id);
-      if (oldSlug && oldSlug !== formData.slug) {
+      if (oldSlug && oldSlug !== formData.slug && !disambiguated) {
         try {
           await supabase.from('faculty_slug_history').upsert(
             {

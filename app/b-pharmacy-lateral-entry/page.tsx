@@ -64,7 +64,7 @@ export default function BPharmLateralEntryPage() {
       ]} />
       <CourseSchema
         name="Bachelor of Pharmacy (B.Pharm) - Lateral Entry"
-        description="B.Pharm Lateral Entry is a 3-year accelerated pharmacy programme for diploma holders in pharmacy (D.Pharm). Students enter directly into the second year of B.Pharm, completing the degree in 3 years instead of 4 years, leading to the same B.Pharm qualification and career opportunities."
+        description="B.Pharm Lateral Entry is a 3-year accelerated pharmacy programme for diploma holders in pharmacy (D.Pharm). Learners enter directly into the second year of B.Pharm, completing the degree in 3 years instead of 4 years, leading to the same B.Pharm qualification and career opportunities."
         duration="P3Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry"
@@ -148,7 +148,7 @@ export default function BPharmLateralEntryPage() {
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">
-            B.Pharm Laboratory Facilities
+            B.Pharm Learning Lab Facilities
           </h2>
           <h3 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-2">
             Transform Your Future in Pharmacy
@@ -176,7 +176,7 @@ export default function BPharmLateralEntryPage() {
           </p>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-4">
-            The B.Pharm curriculum integrates theoretical knowledge with practical skills across multiple pharmaceutical disciplines including <strong>Pharmaceutical Chemistry</strong>, <strong>Pharmaceutics</strong>, <strong>Pharmacology</strong>, <strong>Pharmacognosy</strong>, <strong>Pharmaceutical Analysis</strong>, and <strong>Pharmacy Practice</strong>. Learners develop competencies in drug formulation, quality control, drug dispensing, patient counselling, and pharmaceutical research through hands-on laboratory work, industrial training, and hospital exposure.
+            The B.Pharm learning framework integrates theoretical knowledge with practical skills across multiple pharmaceutical disciplines including <strong>Pharmaceutical Chemistry</strong>, <strong>Pharmaceutics</strong>, <strong>Pharmacology</strong>, <strong>Pharmacognosy</strong>, <strong>Pharmaceutical Analysis</strong>, and <strong>Pharmacy Practice</strong>. Learners develop competencies in drug formulation, quality control, drug dispensing, patient counselling, and pharmaceutical research through hands-on laboratory work, industrial training, and hospital exposure.
           </p>
 
           {/* Why Choose B.Pharm Box */}
@@ -231,8 +231,8 @@ export default function BPharmLateralEntryPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {/* Modern Pharmacy Laboratory */}
           <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Modern Pharmacy Laboratory</h3>
-            <p className="text-xs sm:text-sm font-semibold">Advanced Laboratories</p>
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Modern Pharmacy Learning Lab</h3>
+            <p className="text-xs sm:text-sm font-semibold">Advanced Learning Labs</p>
           </div>
 
           {/* Industrial Training */}
@@ -696,13 +696,13 @@ export default function BPharmLateralEntryPage() {
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
-              B.Pharm Curriculum - Year-wise Subjects
+              B.Pharm Learning Framework - Year-wise Subjects
             </h2>
           </div>
           <div className="border-t-4 border-[#7cb983] mb-8"></div>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-8">
-            The B.Pharm curriculum follows the <strong>Pharmacy Council of India (PCI)</strong> prescribed syllabus, ensuring uniformity and quality across all approved institutions. The programme combines theoretical knowledge with practical skills through 8 semesters of rigorous training.
+            The B.Pharm learning framework follows the <strong>Pharmacy Council of India (PCI)</strong> prescribed syllabus, ensuring uniformity and quality across all approved institutions. The programme combines theoretical knowledge with practical skills through 8 semesters of rigorous training.
           </p>
 
           {/* Year-wise Curriculum Grid */}

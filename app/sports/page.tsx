@@ -34,7 +34,7 @@ export default function SportsPage() {
                 <img src="/images/sports-1.avif" alt="Indoor Sports Arena" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl">
-                <img src="/images/sports-2.avif" alt="Student Athlete" className="w-full h-full object-cover" />
+                <img src="/images/sports-2.avif" alt="Learner Athlete" className="w-full h-full object-cover" />
               </div>
               <div className="w-full aspect-[4/3] overflow-hidden rounded-xl sm:col-span-2 md:col-span-1">
                 <img src="/images/sports-3.avif" alt="Sports Team" className="w-full h-full object-cover" />
@@ -123,7 +123,7 @@ export default function SportsPage() {
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
                 <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
-                <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Regular Physical Education Classes</strong>: Structured sessions integrated into the academic curriculum</span>
+                <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Regular Physical Education Classes</strong>: Structured sessions integrated into the academic learning framework</span>
               </li>
               <li className="flex items-start gap-4">
                 <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />

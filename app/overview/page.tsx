@@ -43,7 +43,7 @@ export default function AboutOverviewPage() {
               <div className="border-l-4 border-[#006837] pl-4 sm:pl-6">
                 <h2 className="text-lg sm:text-xl font-bold text-[#006837] mb-3">Growth & Recognition</h2>
                 <ul className="list-disc list-outside ml-4 space-y-2">
-                  <li>JKKN College of Pharmacy has grown remarkably from its humble beginnings with 40 students and 10 faculty members to a thriving institution with approximately 700 students and 60 expert faculty members.</li>
+                  <li>JKKN College of Pharmacy has grown remarkably from its humble beginnings with 40 learners and 10 senior learners to a thriving institution with approximately 700 learners and 60 expert senior learners.</li>
                   <li>Recognised by the Government of Tamil Nadu, approved by the Pharmacy Council of India (PCI), New Delhi, and affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai, the college offers a comprehensive academic portfolio, including <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm</Link>, and <Link href="/phd" className="text-[#006837] font-semibold hover:underline">Ph.D.</Link> programmes.</li>
                   <li>Accredited with a NAAC A grade, the institution has been actively participating in NIRF and other national ranking frameworks since 2016, consistently submitting data to demonstrate transparency and accountability.</li>
                   <li>The college was recognised among the top 50 pharmacy institutions by NIRF in 2016-2018.</li>
@@ -57,16 +57,16 @@ export default function AboutOverviewPage() {
               <div className="border-l-4 border-[#7cb983] pl-4 sm:pl-6">
                 <h2 className="text-lg sm:text-xl font-bold text-[#006837] mb-3">Innovation & Infrastructure</h2>
                 <ul className="list-disc list-outside ml-4 space-y-2">
-                  <li>The college&apos;s advanced infrastructure and highly qualified faculty form the backbone of its success.</li>
+                  <li>The college&apos;s advanced infrastructure and highly qualified senior learners form the backbone of its success.</li>
                   <li>Every department is actively engaged in contemporary research, driving innovation that resonates worldwide.</li>
-                  <li>JKKN College of Pharmacy leverages AI tools to enhance academic learning and research, revolutionizing the way students and faculty engage with pharmaceutical education.</li>
-                  <li>The college integrates advanced artificial intelligence technologies to academic teaching, analyzing vast datasets, including scientific literature, drug interactions, and clinical studies, enabling students to gain deeper insights into complex topics.</li>
+                  <li>JKKN College of Pharmacy leverages AI tools to enhance academic learning and research, revolutionizing the way learners and senior learners engage with pharmaceutical education.</li>
+                  <li>The college integrates advanced artificial intelligence technologies to academic teaching, analyzing vast datasets, including scientific literature, drug interactions, and clinical studies, enabling learners to gain deeper insights into complex topics.</li>
                   <li>AI-driven platforms assist in simulating drug formulation processes, predicting outcomes, and optimizing research methodologies, fostering a hands-on, innovative learning environment.</li>
-                  <li>Faculty members utilize these tools to streamline research, identify emerging trends in pharmacology, and guide students in evidence-based projects, ensuring that JKKN College of Pharmacy remains at the forefront of pharmaceutical education and innovation.</li>
-                  <li>The college&apos;s curriculum is designed to bridge theory and practice, offering practical exposure through industrial and hospital training and fostering skills via student-centric methods like design thinking and project-based learning.</li>
-                  <li>JKKN College of Pharmacy not only harnesses AI tools for academic learning and research but also equips students with essential skills to meet 21st-century demands.</li>
-                  <li>By integrating modern technologies, the college fosters critical thinking, problem-solving, and digital literacy, preparing students for a rapidly evolving healthcare landscape.</li>
-                  <li>Through hands-on experience with AI-driven simulations, data-analysis, and innovative research practices, students develop adaptability, collaboration, and creativity—key competencies for modern professionals.</li>
+                  <li>Senior learners utilize these tools to streamline research, identify emerging trends in pharmacology, and guide learners in evidence-based projects, ensuring that JKKN College of Pharmacy remains at the forefront of pharmaceutical education and innovation.</li>
+                  <li>The college&apos;s learning framework is designed to bridge theory and practice, offering practical exposure through industrial and hospital training and fostering skills via learner-centric methods like design thinking and project-based learning.</li>
+                  <li>JKKN College of Pharmacy not only harnesses AI tools for academic learning and research but also equips learners with essential skills to meet 21st-century demands.</li>
+                  <li>By integrating modern technologies, the college fosters critical thinking, problem-solving, and digital literacy, preparing learners for a rapidly evolving healthcare landscape.</li>
+                  <li>Through hands-on experience with AI-driven simulations, data-analysis, and innovative research practices, learners develop adaptability, collaboration, and creativity—key competencies for modern professionals.</li>
                   <li>This forward-thinking approach ensures that graduates are well-prepared to address contemporary challenges in pharmaceutical sciences and contribute effectively to advancements in the global pharmaceutical industry.</li>
                 </ul>
               </div>

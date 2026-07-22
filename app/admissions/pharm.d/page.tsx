@@ -90,7 +90,7 @@ export default function PharmDAdmissionPage() {
         'Pharm.D graduates can pursue careers as Clinical Pharmacists in hospitals, Medication Therapy Specialists, Drug Information Specialists, Clinical Research Associates / Coordinators, Pharmacovigilance Officers, Medical Writers, Academicians, Regulatory Affairs Officers, and Pharmaceutical Industry roles. They can also pursue international opportunities (FPGEE for the USA, OSPAP for the UK) or higher studies / PhD in Pharmaceutical Sciences.',
     },
     {
-      question: 'Are scholarships available for Pharm.D students?',
+      question: 'Are scholarships available for Pharm.D learners?',
       answer:
         'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship (Management Quota ₹5,25,000/year + maintenance for Pharm.D; Government Quota as per norms). BC/MBC/DNC candidates get ₹16,000/year (Day Scholar) and ₹20,000/year (Hosteller). Scholarships are processed via the National Scholarship Portal (NSP) and the JKKN scholarship cell after admission.',
     },
@@ -330,7 +330,7 @@ export default function PharmDAdmissionPage() {
                   { title: 'Community Certificate', desc: 'For SC/ST/MBC/BC/OBC candidates' },
                   { title: 'Conduct Certificate', desc: 'From the last institution attended' },
                   { title: 'Aadhaar Card', desc: 'Photocopy with self-attestation' },
-                  { title: 'Eligibility Certificate', desc: 'For students from other state boards/universities' },
+                  { title: 'Eligibility Certificate', desc: 'For learners from other state boards/universities' },
                   { title: 'State Pharmacy Council Registration', desc: 'Pharm.D PB applicants only' },
                   { title: 'Passport Photos', desc: '6 recent passport-size colour photographs' },
                   { title: 'Special Quota Proof', desc: 'Differently abled / Sports / NCC / Ex-Servicemen' },

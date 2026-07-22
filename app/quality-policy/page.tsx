@@ -7,9 +7,9 @@ export default function QualityPolicyPage() {
   const mottos = [
     "To pursue excellence in education and research, fostering innovation and advancements in healthcare.",
     "To continuously improve institutional processes, maintaining high standards across all academic and operational activities.",
-    "To promote a culture of integrity, innovation, and accountability among faculty, staff, and students.",
+    "To promote a culture of integrity, innovation, and accountability among senior learners, team members, and learners.",
     "To equip learners with the skills and knowledge needed to create sustainable and impactful healthcare solutions that address the needs of the 21st century",
-    "To cultivate strong communication, teamwork, leadership, and critical thinking skills in students to excel in various contexts.",
+    "To cultivate strong communication, teamwork, leadership, and critical thinking skills in learners to excel in various contexts.",
     "To uphold ethical practices that responsibly address society's healthcare needs.",
   ]
 

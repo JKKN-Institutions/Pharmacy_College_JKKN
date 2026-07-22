@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 95%+ placements. Apply 2026-27.',
+  title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
+  description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 95%+ placements. Admissions open 2026-27 — call +91-9345855001.',
   keywords: [
     'pharmacy college in namakkal',
     'best colleges for pharmacy',
@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/namakkal/',
   },
   openGraph: {
-    title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 95%+ placements. Apply 2026-27.',
+    title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
+    description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 95%+ placements. Admissions open 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/namakkal/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pharmacy College in Namakkal | JKKN College of Pharmacy',
-    description: 'JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 95%+ placements.',
+    title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
+    description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 95%+ placements.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

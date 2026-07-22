@@ -61,10 +61,10 @@ export default function SeminarHallPage() {
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
-                With its array of advanced amenities, the college boasts a fully-furnished seminar hall that serves as an optimal venue for academic gatherings and significant conferences. The hall is equipped with modern features, including OHP, LCD projectors, screens, and whiteboards, facilitating seamless and impactful presentations. Whether it's engaging student presentations, faculty assemblies, or enlightening guest lectures, this versatile space provides the essential resources to elevate the success of any event.
+                With its array of advanced amenities, the college boasts a fully-furnished seminar hall that serves as an optimal venue for academic gatherings and significant conferences. The hall is equipped with modern features, including OHP, LCD projectors, screens, and whiteboards, facilitating seamless and impactful presentations. Whether it's engaging learner presentations, senior learner assemblies, or enlightening guest lectures, this versatile space provides the essential resources to elevate the success of any event.
               </p>
               <p className="text-sm sm:text-base text-justify">
-                The college's seminar hall stands as a hub of technological excellence, designed to cater to diverse educational requirements. Its comprehensive facilities empower educators to deliver insightful lectures and discussions, while also fostering an environment conducive to meaningful interactions. By offering a blend of convenience and functionality, the seminar hall remains a key asset in facilitating educational engagement and knowledge dissemination within the college community.
+                The college's seminar hall stands as a hub of technological excellence, designed to cater to diverse educational requirements. Its comprehensive facilities empower senior learners to deliver insightful lectures and discussions, while also fostering an environment conducive to meaningful interactions. By offering a blend of convenience and functionality, the seminar hall remains a key asset in facilitating educational engagement and knowledge dissemination within the college community.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
@@ -76,7 +76,7 @@ export default function SeminarHallPage() {
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
-                    It comes with facilities like OHP, LCD projectors, screens, whiteboards, and more, which makes it ideal for delivering lectures and talks. Whether it's for student presentations, faculty meetings, or guest lectures, the seminar hall has everything you need to make your event a success.
+                    It comes with facilities like OHP, LCD projectors, screens, whiteboards, and more, which makes it ideal for delivering lectures and talks. Whether it's for learner presentations, senior learner meetings, or guest lectures, the seminar hall has everything you need to make your event a success.
                   </span>
                 </li>
               </ul>

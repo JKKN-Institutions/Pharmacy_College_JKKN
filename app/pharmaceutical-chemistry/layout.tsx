@@ -70,7 +70,7 @@ export default function PharmaceuticalChemistryLayout({
         faqs={[
           {
             question: 'What is M.Pharm Pharmaceutical Chemistry?',
-            answer: 'M.Pharm Pharmaceutical Chemistry is a two-year postgraduate programme focused on drug design, chemical synthesis, and medicinal chemistry. Students gain expertise in structure-activity relationships, spectroscopic analysis, and computational approaches to develop and evaluate pharmaceutical compounds.',
+            answer: 'M.Pharm Pharmaceutical Chemistry is a two-year postgraduate programme focused on drug design, chemical synthesis, and medicinal chemistry. Learners gain expertise in structure-activity relationships, spectroscopic analysis, and computational approaches to develop and evaluate pharmaceutical compounds.',
           },
           {
             question: 'What is the eligibility for M.Pharm Pharmaceutical Chemistry at JKKN?',
@@ -82,7 +82,7 @@ export default function PharmaceuticalChemistryLayout({
           },
           {
             question: 'What is the duration of M.Pharm Pharmaceutical Chemistry?',
-            answer: 'M.Pharm Pharmaceutical Chemistry is a full-time two-year postgraduate programme comprising four semesters. The curriculum combines coursework, laboratory training, and a research dissertation completed during the final semester.',
+            answer: 'M.Pharm Pharmaceutical Chemistry is a full-time two-year postgraduate programme comprising four semesters. The learning framework combines coursework, laboratory training, and a research dissertation completed during the final semester.',
           },
           {
             question: 'Does JKKN have chemistry research labs?',

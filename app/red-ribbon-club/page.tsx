@@ -5,7 +5,7 @@ const objectives = [
   'To induce the spirit among youth to help and support people living with HIV/AIDS (PLWHA) thereby reducing stigma and discrimination against PLHWAs.',
   'To motivate youth and build their capacity as peer educators and change agents by developing their skills on leadership, negotiation, and team building.',
   'To promote voluntary blood donation among youth.',
-  'Training programme for the students on basics of HIV/AIDS.',
+  'Training programme for the learners on basics of HIV/AIDS.',
   'Competitions in colleges like essay, writing poster making, slogan writing.',
   'Conducting the World AIDS Day in college.',
   'Conducting the Blood donation camps in college, RRC club proposes to conduct the rural camps to create awareness on HIV/AIDS to the rural community.',
@@ -15,8 +15,8 @@ const committeeMembers = [
   { no: '1', name: 'Dr. VENKATESAN M', role: 'Chief Patron', designation: 'Principal' },
   { no: '2', name: 'DR. SEKAR V', role: 'Patron', designation: 'Professor and HOD analysis dept' },
   { no: '3', name: 'Dr. V. KISHOR KUMAR', role: 'Convener', designation: 'R.R.C. Programme Officer' },
-  { no: '4', name: 'MR. Gowtham.M', role: 'Co-Convener', designation: 'IV.B.Pharm Student (VII Sem)' },
-  { no: '5', name: 'MR. N.Santhosh', role: 'Member', designation: 'IV.B.Pharm Student (VII Sem)' },
+  { no: '4', name: 'MR. Gowtham.M', role: 'Co-Convener', designation: 'IV.B.Pharm Learner (VII Sem)' },
+  { no: '5', name: 'MR. N.Santhosh', role: 'Member', designation: 'IV.B.Pharm Learner (VII Sem)' },
 ]
 
 export default function RedRibbonClubPage() {
@@ -39,7 +39,7 @@ export default function RedRibbonClubPage() {
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              Red Ribbon clubs are envisaged to instill among all the students the values of service, develop healthy life styles, and increase access to safe and adequate quantities of blood to all the needy by promotion of regular voluntary blood donation. Apart from this, RRC aims at harnessing the potential of the youth by equipping them with correct information on Mental Health, Substance abuse, Nutrition and reproductive &amp; Sexual health and building their capacities as peer educators in spreading messages on positive health behavior in an enabling environment.
+              Red Ribbon clubs are envisaged to instill among all the learners the values of service, develop healthy life styles, and increase access to safe and adequate quantities of blood to all the needy by promotion of regular voluntary blood donation. Apart from this, RRC aims at harnessing the potential of the youth by equipping them with correct information on Mental Health, Substance abuse, Nutrition and reproductive &amp; Sexual health and building their capacities as peer educators in spreading messages on positive health behavior in an enabling environment.
             </p>
           </section>
 

@@ -64,15 +64,15 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What documents are required for admission?',
-        answer: 'Required documents for JKKN Pharmacy College admission include: +2 mark sheet/provisional certificate (self-attested), community certificate (if applicable - SC/ST/MBC/BC/OBC), transfer certificate from previous institution, migration certificate (for students from other boards), eligibility certificate for students from other states, conduct certificate, proof for special quotas (differently abled - 3% reservation, sports, NCC, ex-servicemen), Aadhaar card, and 6 recent passport-size photographs. All documents must be submitted in original during final admission.',
+        answer: 'Required documents for JKKN Pharmacy College admission include: +2 mark sheet/provisional certificate (self-attested), community certificate (if applicable - SC/ST/MBC/BC/OBC), transfer certificate from previous institution, migration certificate (for learners from other boards), eligibility certificate for learners from other states, conduct certificate, proof for special quotas (differently abled - 3% reservation, sports, NCC, ex-servicemen), Aadhaar card, and 6 recent passport-size photographs. All documents must be submitted in original during final admission.',
       },
       {
         question: 'Can I get admission after the last date?',
         answer: 'Yes, late applications are accepted and considered only if seats remain available. The last date for issuing and receiving application forms is determined by the principal. In the case of SC/ST/MBC/BC candidates, late applications will be considered if reserved seats are unfilled.',
       },
       {
-        question: 'Are scholarships available for pharmacy students?',
-        answer: 'Yes, Tamil Nadu government scholarships are available for eligible students. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Students can apply through the college scholarship cell after admission.',
+        question: 'Are scholarships available for pharmacy learners?',
+        answer: 'Yes, Tamil Nadu government scholarships are available for eligible learners. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Learners can apply through the college scholarship cell after admission.',
       },
       {
         question: 'How are seats allocated for different categories?',
@@ -80,7 +80,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is the fee structure for B.Pharm at JKKN Pharmacy College?',
-        answer: 'B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
+        answer: 'B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
       },
     ],
   },
@@ -110,11 +110,11 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What are the subjects in B.Pharm?',
-        answer: 'B.Pharm curriculum covers: Year 1 — Remedial Biology/Maths, Pharmaceutical Analysis, Inorganic Chemistry, Anatomy & Physiology; Year 2 — Pharmaceutical Organic Chemistry, Pharmacognosy, Physical Pharmaceutics, Pharmacology; Year 3 — Medicinal Chemistry, Pharmacology II, Pharmaceutical Microbiology, Industrial Pharmacy; Year 4 — Industrial Pharmacy II, Pharmaceutical Regulatory Science, Pharmacy Practice, Novel Drug Delivery System. Lab practicals and industrial internship are mandatory components.',
+        answer: 'B.Pharm learning framework covers: Year 1 — Remedial Biology/Maths, Pharmaceutical Analysis, Inorganic Chemistry, Anatomy & Physiology; Year 2 — Pharmaceutical Organic Chemistry, Pharmacognosy, Physical Pharmaceutics, Pharmacology; Year 3 — Medicinal Chemistry, Pharmacology II, Pharmaceutical Microbiology, Industrial Pharmacy; Year 4 — Industrial Pharmacy II, Pharmaceutical Regulatory Science, Pharmacy Practice, Novel Drug Delivery System. Lab practicals and industrial internship are mandatory components.',
       },
       {
         question: 'Is B.Pharm difficult to study?',
-        answer: 'B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Students with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The curriculum becomes progressively specialised in later years.',
+        answer: 'B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Learners with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The learning framework becomes progressively specialised in later years.',
       },
       {
         question: 'Can I do M.Pharm after B.Pharm?',
@@ -136,7 +136,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is Pharm.D course?',
-        answer: 'Pharm.D (Doctor of Pharmacy) is a 6-year professional doctorate (5 years academic + 1 year clinical clerkship) focusing on clinical pharmacy and patient care. Two pathways: Pharm.D after 12th standard and Pharm.D (PB) — 3 years after B.Pharm. Curriculum covers pharmacotherapy, clinical pharmacokinetics, patient counselling, and hospital rotations. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient education, and drug therapy management.',
+        answer: 'Pharm.D (Doctor of Pharmacy) is a 6-year professional doctorate (5 years academic + 1 year clinical clerkship) focusing on clinical pharmacy and patient care. Two pathways: Pharm.D after 12th standard and Pharm.D (PB) — 3 years after B.Pharm. Learning framework covers pharmacotherapy, clinical pharmacokinetics, patient counselling, and hospital rotations. Graduates work as clinical pharmacists in hospitals providing medication reviews, patient education, and drug therapy management.',
       },
       {
         question: 'Does JKKN offer Pharm.D programme?',
@@ -204,7 +204,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is the placement rate at JKKN College of Pharmacy?',
-        answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect students with top pharmaceutical companies, hospitals, and research organisations.',
+        answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
       },
       {
         question: 'What is the highest package offered at JKKN Pharmacy College?',
@@ -216,7 +216,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What are the top recruiters at JKKN Pharmacy College?',
-        answer: 'Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy\'s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India.',
+        answer: 'Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy\'s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India.',
       },
       {
         question: 'What career opportunities are available after pharmacy?',
@@ -228,7 +228,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Are there internship opportunities at JKKN College of Pharmacy?',
-        answer: 'Yes, JKKN facilitates internship opportunities with pharmaceutical companies, hospitals, and research institutions. B.Pharm students complete a mandatory 6-month industrial internship, while Pharm.D students undergo clinical rotations in hospitals, providing hands-on industry experience before graduation.',
+        answer: 'Yes, JKKN facilitates internship opportunities with pharmaceutical companies, hospitals, and research institutions. B.Pharm learners complete a mandatory 6-month industrial internship, while Pharm.D learners undergo clinical rotations in hospitals, providing hands-on industry experience before graduation.',
       },
     ],
   },

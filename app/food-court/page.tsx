@@ -70,7 +70,7 @@ export default function FoodCourtPage() {
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
-                    Step into JKKN College of Pharmacy's bustling food court, a haven for food enthusiasts seeking delightful culinary experiences. Here, the tantalizing aromas of diverse cuisines blend harmoniously, inviting students and staff to embark on a gastronomic adventure like no other. The meticulously curated selection of food vendors ensures a perfect fusion of taste, quality, and hygiene in every dish. Whether craving a quick nibble or a hearty feast, the food court caters to every palate and preference, providing an inviting space for students and staff alike. The food court isn't just about relishing scrumptious fare; it's a social haven where friendships are nurtured and conversations flow over shared meals and aromatic beverages. Come, indulge your taste buds, and be part of the vibrant tapestry of flavors and cultures that define JKKN's exceptional food court experience!
+                    Step into JKKN College of Pharmacy's bustling food court, a haven for food enthusiasts seeking delightful culinary experiences. Here, the tantalizing aromas of diverse cuisines blend harmoniously, inviting learners and team members to embark on a gastronomic adventure like no other. The meticulously curated selection of food vendors ensures a perfect fusion of taste, quality, and hygiene in every dish. Whether craving a quick nibble or a hearty feast, the food court caters to every palate and preference, providing an inviting space for learners and team members alike. The food court isn't just about relishing scrumptious fare; it's a social haven where friendships are nurtured and conversations flow over shared meals and aromatic beverages. Come, indulge your taste buds, and be part of the vibrant tapestry of flavors and cultures that define JKKN's exceptional food court experience!
                   </span>
                 </li>
               </ul>
@@ -84,13 +84,13 @@ export default function FoodCourtPage() {
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
-                    The well-established canteen is the perfect place for students and staff to grab a quick snack, enjoy a full meal or catch up with friends over a cup of coffee.
+                    The well-established canteen is the perfect place for learners and team members to grab a quick snack, enjoy a full meal or catch up with friends over a cup of coffee.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
-                    The food court is a lively hub of activity, where students can sample everything from local delicacies to international cuisine. Vendors are handpicked for their quality and hygiene, ensuring delicious and healthy meals every time. Whether looking for a quick bite or a full meal, JKKN food court has something for everyone. Come and enjoy the vibrant food court and experience the diversity of flavors and cultures on offer!
+                    The food court is a lively hub of activity, where learners can sample everything from local delicacies to international cuisine. Vendors are handpicked for their quality and hygiene, ensuring delicious and healthy meals every time. Whether looking for a quick bite or a full meal, JKKN food court has something for everyone. Come and enjoy the vibrant food court and experience the diversity of flavors and cultures on offer!
                   </span>
                 </li>
               </ul>

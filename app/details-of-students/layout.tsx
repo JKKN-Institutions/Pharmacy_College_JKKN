@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'Student Statistics & Demographics | JKKN Pharmacy College',
-  description: 'Student details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
+  title: 'Learner Statistics & Demographics | JKKN Pharmacy College',
+  description: 'Learner details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/details-of-students/',
   },
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/details-of-students/',
-    title: 'Student Statistics & Demographics | JKKN Pharmacy College',
-    description: 'Student details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
+    title: 'Learner Statistics & Demographics | JKKN Pharmacy College',
+    description: 'Learner details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Student Statistics & Demographics | JKKN Pharmacy College',
-    description: 'Student details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
+    title: 'Learner Statistics & Demographics | JKKN Pharmacy College',
+    description: 'Learner details and demographics at JKKN College of Pharmacy. Enrollment statistics, gender ratio, category-wise distribution.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
   },
 }

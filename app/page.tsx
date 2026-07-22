@@ -6,7 +6,7 @@ import VideoSection from '@/components/VideoSection'
 import Link from 'next/link'
 import Image from 'next/image'
 import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskConical, GraduationCap, Hospital, Landmark, Laptop, Leaf, Microscope, Pill, Search, Star, TestTube, User } from 'lucide-react'
-import { useEffect } from 'react'
+import React, { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
 import HomepagePopup from '@/components/HomepagePopup'
 
@@ -56,7 +56,7 @@ export default function Home() {
     },
     {
       question: "What is the fee structure for B.Pharm at JKKN Pharmacy College?",
-      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
+      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
     },
     {
       question: "Is JKKN Pharmacy College NAAC accredited?",
@@ -64,7 +64,7 @@ export default function Home() {
     },
     {
       question: "What are the top recruiters at JKKN Pharmacy College?",
-      answer: "Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India."
+      answer: "Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India."
     },
     {
       question: "Where is JKKN College of Pharmacy located?",
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
                 <div className="text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">700+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Students</div>
+                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Learners</div>
                 </div>
                 <div className="text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">95%</div>
@@ -317,7 +317,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">Modern Pharma Labs</span>
+                  <span className="text-gray-700 font-medium text-sm sm:text-base">Modern Pharma Learning Labs</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
@@ -436,7 +436,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Hands-on training in labs and industry-oriented projects</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Hands-on training in learning labs and industry-oriented projects</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
@@ -518,7 +518,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Research-oriented curriculum</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Research-oriented learning framework</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -561,7 +561,7 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Research-oriented curriculum</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Research-oriented learning framework</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -898,7 +898,7 @@ export default function Home() {
               Advanced Pharmaceutical Facilities
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
-              Experience pharmaceutical education with modern laboratories and comprehensive campus infrastructure.
+              Experience pharmaceutical education with modern learning labs and comprehensive campus infrastructure.
             </p>
           </div>
 
@@ -908,7 +908,7 @@ export default function Home() {
               <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-purple-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Pill className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmaceutics<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmaceutics<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Tablet press, coating machines, formulation equipment
               </p>
@@ -919,7 +919,7 @@ export default function Home() {
               <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-green-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Chemistry<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Chemistry<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 HPLC, UV-Vis spectrophotometer, analytical instruments
               </p>
@@ -930,7 +930,7 @@ export default function Home() {
               <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-blue-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <TestTube className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmacology<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmacology<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Animal house, organ bath, experimental pharmacology
               </p>
@@ -963,7 +963,7 @@ export default function Home() {
               <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-blue-200 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Laptop className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Computer<br className="xs:hidden" /> Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Digital<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Drug design software, molecular modeling tools
               </p>
@@ -1403,7 +1403,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. Scholarships are available for merit students and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.
+                B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.
               </p>
             </details>
 
@@ -1425,7 +1425,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Top recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Students are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, and hospital pharmacy roles.
+                Top recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, and hospital pharmacy roles.
               </p>
             </details>
 
@@ -1451,6 +1451,60 @@ export default function Home() {
               </p>
             </details>
           </div>
+        </div>
+      </section>
+
+      {/* Locations / City Pages Section */}
+      <section className="py-8 sm:py-12 md:py-16" aria-label="Pharmacy College Near Your City">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-2">
+            Pharmacy College Near Your City
+          </h2>
+          <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
+            JKKN College of Pharmacy in Komarapalayam is easily accessible from major cities across western Tamil Nadu via NH-544.
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
+            {[
+              { city: 'Salem', label: 'Pharmacy Colleges in Salem', distance: '58 km', href: '/salem/' },
+              { city: 'Namakkal', label: 'Pharmacy Colleges in Namakkal', distance: '66 km', href: '/namakkal/' },
+              { city: 'Erode', label: 'Pharmacy College near Erode', distance: '22 km', href: '/erode/' },
+              { city: 'Tiruppur', label: 'Pharmacy College near Tiruppur', distance: '67 km', href: '/tiruppur/' },
+              { city: 'Coimbatore', label: 'Pharmacy College near Coimbatore', distance: '105 km', href: '/coimbatore/' },
+            ].map((item) => (
+              <Link
+                key={item.city}
+                href={item.href}
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 shadow-sm hover:border-[#7cb983] transition-colors duration-200 text-left"
+              >
+                <p className="text-sm sm:text-base font-bold text-gray-900">{item.city}</p>
+                <p className="text-[11px] sm:text-xs text-[#006837] mt-0.5">{item.label}</p>
+                <p className="text-[10px] sm:text-xs text-gray-400 mt-0.5">{item.distance} from campus</p>
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs sm:text-sm text-gray-600 mt-5 sm:mt-6 leading-relaxed">
+            Also serving learners from{' '}
+            {[
+              { city: 'Bhavani', href: '/bhavani/' },
+              { city: 'Sankagiri', href: '/sankagiri/' },
+              { city: 'Tiruchengode', href: '/tiruchengode/' },
+              { city: 'Perundurai', href: '/perundurai/' },
+              { city: 'Gobichettipalayam', href: '/gobichettipalayam/' },
+              { city: 'Mettur', href: '/mettur/' },
+              { city: 'Rasipuram', href: '/rasipuram/' },
+              { city: 'Attur', href: '/attur/' },
+              { city: 'Karur', href: '/karur/' },
+              { city: 'Dharmapuri', href: '/dharmapuri/' },
+              { city: 'Trichy', href: '/trichy/' },
+            ].map((item, i, arr) => (
+              <React.Fragment key={item.city}>
+                <Link href={item.href} className="text-[#006837] font-semibold hover:underline">
+                  {item.city}
+                </Link>
+                {i < arr.length - 2 ? ', ' : i === arr.length - 2 ? ' and ' : '.'}
+              </React.Fragment>
+            ))}
+          </p>
         </div>
       </section>
     </main>

@@ -48,12 +48,12 @@ const PHARMACY_PRACTICE_FAQS = [
   {
     question: 'What is the duration of M.Pharm Pharmacy Practice?',
     answer:
-      'M.Pharm Pharmacy Practice is a two-year full-time programme. The curriculum includes coursework, practicals, seminars, and a compulsory hospital internship component that provides hands-on clinical pharmacy experience.',
+      'M.Pharm Pharmacy Practice is a two-year full-time programme. The learning framework includes coursework, practicals, seminars, and a compulsory hospital internship component that provides hands-on clinical pharmacy experience.',
   },
   {
     question: 'Does JKKN have clinical pharmacy training facilities?',
     answer:
-      'JKKN College of Pharmacy provides clinical pharmacy training through the JKKN 500-bed multi-specialty teaching hospital. Students gain direct patient care exposure, therapeutic drug monitoring practice, and drug information centre experience under clinical faculty supervision.',
+      'JKKN College of Pharmacy provides clinical pharmacy training through the JKKN 500-bed multi-specialty teaching hospital. Learners gain direct patient care exposure, therapeutic drug monitoring practice, and drug information centre experience under clinical senior learner supervision.',
   },
 ]
 

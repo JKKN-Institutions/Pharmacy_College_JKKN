@@ -7,7 +7,7 @@ const members = [
   { name: 'Mr. V. Vijayanandhan', nature: 'Assistant Professor', role: 'Member' },
   { name: 'Ms. K.M. Monisha', nature: 'Assistant Professor', role: 'Member' },
   { name: 'Mr. S. Sathish B.Sc, M.Pet., (NIAS Coach)', nature: 'Physical Director', role: 'Physical Director' },
-  { name: 'Student Representatives', nature: 'One member from each year', role: 'Student Members' },
+  { name: 'Learner Representatives', nature: 'One member from each year', role: 'Learner Members' },
 ]
 
 export default function SportsCommitteePage() {
@@ -74,11 +74,11 @@ export default function SportsCommitteePage() {
               </p>
               <ul className="space-y-4">
                 {[
-                  'To provide a platform for students to go beyond their academic quest and explore their talents in sports and games',
-                  'To provide healthy leisure time for students by encouraging them to involve in sports and games',
+                  'To provide a platform for learners to go beyond their academic quest and explore their talents in sports and games',
+                  'To provide healthy leisure time for learners by encouraging them to involve in sports and games',
                   'To add flavour to the college by organizing intra college sports meet annually with major events in sports and games',
-                  'To provide opportunities for all the interested students to participate in sports and games',
-                  'To screen and select students with high spirit in sports and games, and subsequently encourage them to participate in inter college sports competitions',
+                  'To provide opportunities for all the interested learners to participate in sports and games',
+                  'To screen and select learners with high spirit in sports and games, and subsequently encourage them to participate in inter college sports competitions',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                     <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />

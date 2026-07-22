@@ -77,7 +77,7 @@ const DEFAULT_SECTIONS: BlogSections = {
   admission_process_title: 'Admission Process 2026',
   faq_title: 'Frequently Asked Questions',
   author_bio:
-    'The content team at JKKN College of Education creates evidence-based educational content about teacher education, career guidance, and academic pathways. Our faculty includes experienced teacher-educators and researchers affiliated to Tamil Nadu Teachers Education University (TNTEU).',
+    'The content team at JKKN College of Education creates evidence-based educational content about teacher education, career guidance, and academic pathways. Our senior learners include experienced teacher-educators and researchers affiliated to Tamil Nadu Teachers Education University (TNTEU).',
   sidebar_status: 'OPEN',
   sidebar_heading: 'B.Ed Admission 2026',
   sidebar_description: '100 Seats Available at JKKN College of Education, Komarapalayam',

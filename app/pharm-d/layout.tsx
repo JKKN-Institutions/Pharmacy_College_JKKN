@@ -49,8 +49,7 @@ const courseSchema = {
     },
     "instructor": {
       "@type": "Organization",
-      "name": "JKKN College of Pharmacy Faculty",
-      "url": "https://pharmacy.jkkn.ac.in/faculty-profile/"
+      "name": "JKKN College of Pharmacy Faculty"
     }
   }
 }
@@ -64,7 +63,7 @@ const faqSchema = {
       "name": "What is Pharm.D course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pharm.D (Doctor of Pharmacy) is a professional doctorate in clinical pharmacy and patient care. Two pathways: Pharm.D (6 years after 12th — 5 years academic plus 1 year clinical clerkship) and Pharm.D Post Baccalaureate (3 years after B.Pharm). Curriculum covers pharmacotherapy, clinical pharmacokinetics, and hospital rotations."
+        "text": "Pharm.D (Doctor of Pharmacy) is a professional doctorate in clinical pharmacy and patient care. Two pathways: Pharm.D (6 years after 12th — 5 years academic plus 1 year clinical clerkship) and Pharm.D Post Baccalaureate (3 years after B.Pharm). Learning framework covers pharmacotherapy, clinical pharmacokinetics, and hospital rotations."
       }
     },
     {
@@ -112,7 +111,7 @@ const faqSchema = {
       "name": "What is clinical clerkship in Pharm.D?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Clinical clerkship is intensive 1-year hospital-based practical training in final year of Pharm.D. Students rotate through General Medicine, Surgery, Pediatrics, OB/GY, Psychiatry, Critical Care/ICU, Oncology/Cardiology, and Community Pharmacy departments. Daily activities include morning rounds, medication reviews, patient counselling, drug information queries, and pharmaceutical care plan documentation."
+        "text": "Clinical clerkship is intensive 1-year hospital-based practical training in final year of Pharm.D. Learners rotate through General Medicine, Surgery, Pediatrics, OB/GY, Psychiatry, Critical Care/ICU, Oncology/Cardiology, and Community Pharmacy departments. Daily activities include morning rounds, medication reviews, patient counselling, drug information queries, and pharmaceutical care plan documentation."
       }
     },
     {

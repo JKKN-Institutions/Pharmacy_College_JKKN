@@ -1,23 +1,27 @@
 interface FacultyFormData {
-  email: string;
+  name: string;
   designation: string;
   department: string;
-  qualification: string;
-  summary: string | null;
-  academic_qualifications: unknown[];
 }
 
+/**
+ * Publish gate for API-synced faculty.
+ *
+ * A row is publishable once it has the core identity fields: name,
+ * designation, department. Richer fields (photo, professional summary,
+ * qualifications, email) are optional — the public list and profile pages
+ * render every such section conditionally, so an incomplete row shows a
+ * valid, if sparse, card (with an initials fallback when no photo) instead
+ * of being hidden. Combined with the `apiRow.status === 'published'` check
+ * in faculty-sync.ts, a MyJKKN-published person always appears on the site.
+ */
 export function checkFacultyCompleteness(
   formData: FacultyFormData,
-  photoUrl: string | null
+  _photoUrl: string | null
 ): { isComplete: boolean; missing: string[] } {
   const missing: string[] = [];
 
-  if (!photoUrl) missing.push('photo_url');
-  if (!formData.summary) missing.push('professional_summary');
-  if (!formData.academic_qualifications || formData.academic_qualifications.length === 0)
-    missing.push('qualifications');
-  if (!formData.email) missing.push('email');
+  if (!formData.name) missing.push('name');
   if (!formData.designation) missing.push('designation');
   if (!formData.department) missing.push('department');
 

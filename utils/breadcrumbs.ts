@@ -52,7 +52,6 @@ const pageNameMap: Record<string, string> = {
   'pharmd-cos-pos': 'PHARM D - COs & POs',
   'attainment-cos-pos': 'Attainment of COs and POs',
   'study-material': 'Study Material',
-  'faculty-profile': 'Faculty Profile',
   'details-of-students': 'Details of Students',
 
   // Facilities
@@ -179,7 +178,6 @@ const hierarchyMap: Record<string, string[]> = {
   'pharmd-cos-pos': ['academic'],
   'attainment-cos-pos': ['academic'],
   'study-material': ['academic'],
-  'faculty-profile': ['academic'],
   'details-of-students': ['academic'],
 
   // Facilities pages

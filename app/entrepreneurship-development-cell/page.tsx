@@ -1,10 +1,10 @@
 import Header from '@/components/Header'
 
 const objectives = [
-  { label: 'Awareness Creation', text: 'Organize seminars, workshops, and awareness programmes to educate students about the opportunities and challenges in entrepreneurship.' },
-  { label: 'Skill Development', text: "Provide training and mentorship to enhance students' entrepreneurial skills and knowledge." },
+  { label: 'Awareness Creation', text: 'Organize seminars, workshops, and awareness programmes to educate learners about the opportunities and challenges in entrepreneurship.' },
+  { label: 'Skill Development', text: "Provide training and mentorship to enhance learners' entrepreneurial skills and knowledge." },
   { label: 'Industry Interaction', text: 'Facilitate interactions with industry experts and entrepreneurs to provide real-world insights.' },
-  { label: 'Startup Support', text: 'Assist students in securing financial support and resources for their startup ventures.' },
+  { label: 'Startup Support', text: 'Assist learners in securing financial support and resources for their startup ventures.' },
   { label: 'Innovation Incubation', text: 'Establish an incubation center to nurture innovative ideas and transform them into successful businesses.' },
 ]
 
@@ -16,11 +16,11 @@ const cellMembers = [
 ]
 
 const activities = [
-  { label: 'Entrepreneurship Awareness Camps', text: 'Conduct regular camps to inspire students to take up entrepreneurship.' },
+  { label: 'Entrepreneurship Awareness Camps', text: 'Conduct regular camps to inspire learners to take up entrepreneurship.' },
   { label: 'Guest Lectures', text: 'Invite successful entrepreneurs to share their experiences and insights.' },
-  { label: 'Industrial Visits', text: 'Organize visits to pharmaceutical companies to expose students to industry practices.' },
-  { label: 'Mentorship Programmes', text: 'Connect students with experienced mentors for guidance and support.' },
-  { label: 'Pitching Competitions', text: 'Host competitions where students can pitch their business ideas and receive feedback.' },
+  { label: 'Industrial Visits', text: 'Organize visits to pharmaceutical companies to expose learners to industry practices.' },
+  { label: 'Mentorship Programmes', text: 'Connect learners with experienced mentors for guidance and support.' },
+  { label: 'Pitching Competitions', text: 'Host competitions where learners can pitch their business ideas and receive feedback.' },
 ]
 
 function LabelledBulletCard({ title, items }: { title: string; items: { label: string; text: string }[] }) {
@@ -65,7 +65,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. The EDC&apos;s mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
+              The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its learners. The EDC&apos;s mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
             </p>
           </section>
 
@@ -76,7 +76,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                The EDC&apos;s vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
+                The EDC&apos;s vision is to create a vibrant entrepreneurial ecosystem that encourages learners to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
               </p>
             </div>
           </section>
@@ -88,7 +88,7 @@ export default function EntrepreneurshipDevelopmentCellPage() {
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
+                The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among learners by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire learners to become job creators rather than job seekers, thereby contributing to the economic development of the region.
               </p>
             </div>
           </section>

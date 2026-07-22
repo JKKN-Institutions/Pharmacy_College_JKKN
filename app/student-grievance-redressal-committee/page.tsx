@@ -42,7 +42,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Overview</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              JKKN College of Pharmacy is committed to ensuring a transparent, fair, and effective mechanism for addressing student grievances related to academic, administrative, or other institutional matters. In accordance with the UGC (Redressal of Grievances of Students) Regulations, 2023, the institution has established a Student Grievance Redressal Committee (SGRC) at the institutional level and an Ombudsperson at the university level to resolve student concerns efficiently.
+              JKKN College of Pharmacy is committed to ensuring a transparent, fair, and effective mechanism for addressing learner grievances related to academic, administrative, or other institutional matters. In accordance with the UGC (Redressal of Grievances of Students) Regulations, 2023, the institution has established a Student Grievance Redressal Committee (SGRC) at the institutional level and an Ombudsperson at the university level to resolve learner concerns efficiently.
             </p>
           </section>
 
@@ -50,7 +50,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Functions of the Grievance Redressal Committee</h2>
             <ul className="space-y-4">
-              <BulletItem text="Provides a structured mechanism for students to submit complaints." />
+              <BulletItem text="Provides a structured mechanism for learners to submit complaints." />
               <BulletItem text="Ensures confidentiality and protection against victimization." />
               <BulletItem text="Addresses grievances related to admissions, examinations, results, fee refunds, harassment, discrimination, and other institutional issues." />
               <BulletItem text="Recommends corrective measures and submits reports to the Principal for further action." />
@@ -67,7 +67,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
               <div className="flex items-start gap-3">
                 <span className="flex-shrink-0 inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#006837] text-white font-bold text-sm">1</span>
                 <div className="flex-1">
-                  <p className="text-sm sm:text-base text-gray-700 mb-3">The aggrieved student may submit a complaint:</p>
+                  <p className="text-sm sm:text-base text-gray-700 mb-3">The aggrieved learner may submit a complaint:</p>
                   <ul className="space-y-3 ml-2">
                     <BulletItem text={<>Online via the Grievance Reporting Portal [<a href="https://pharmacy.jkkn.ac.in/grievance-reporting-form/" className="text-[#006837] hover:underline">https://pharmacy.jkkn.ac.in/grievance-reporting-form/</a>]</>} />
                     <BulletItem text={<>Email to <a href="mailto:grievance_pharmfaculty@jkkn.ac.in" className="text-[#006837] hover:underline">grievance_pharmfaculty@jkkn.ac.in</a></>} />
@@ -82,7 +82,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
                 'The SGRC will review the complaint confidentially and initiate an investigation.',
                 'A hearing may be conducted, if necessary, to gather further information.',
                 'A resolution will be provided within 15 working days.',
-                'If unsatisfied, the student may appeal to the Ombudsperson within 15 days of receiving the decision.',
+                'If unsatisfied, the learner may appeal to the Ombudsperson within 15 days of receiving the decision.',
               ].map((text, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <span className="flex-shrink-0 inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#006837] text-white font-bold text-sm">{i + 2}</span>
@@ -119,7 +119,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Confidentiality &amp; Anti-Retaliation Policy</h2>
             <ul className="space-y-4">
               <BulletItem text="All complaints are handled with strict confidentiality." />
-              <BulletItem text="No student shall face retaliation for filing a grievance." />
+              <BulletItem text="No learner shall face retaliation for filing a grievance." />
               <BulletItem text="False or frivolous complaints may result in disciplinary action." />
             </ul>
           </section>
@@ -130,7 +130,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
             <ul className="space-y-4">
               <BulletItem text="The SGRC details and grievance mechanism are published on the official college website." />
               <BulletItem text="Regular monitoring and review ensure efficient resolution of grievances." />
-              <BulletItem text="Compliance with UGC and regulatory guidelines to uphold student rights." />
+              <BulletItem text="Compliance with UGC and regulatory guidelines to uphold learner rights." />
             </ul>
           </section>
 

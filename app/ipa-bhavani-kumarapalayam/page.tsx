@@ -17,10 +17,10 @@ const eventsAndActivities = [
 ]
 
 const collaborationPoints = [
-  'Provide internship and placement opportunities for students',
+  'Provide internship and placement opportunities for learners',
   'Facilitate industry-academia interactions and knowledge exchange',
   'Support research projects and innovations in the pharmaceutical domain',
-  'Organize joint events and programmes for the benefit of students and professionals',
+  'Organize joint events and programmes for the benefit of learners and professionals',
 ]
 
 const councilMembers = [
@@ -92,7 +92,7 @@ export default function IPABhavaniKomarapalayamPage() {
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                The branch&apos;s mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, students, and researchers in the Bhavani Komarapalayam area. The branch strives to enhance the knowledge and skills of members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
+                The branch&apos;s mission is to foster innovation, encourage collaboration, and provide support to pharmaceutical professionals, learners, and researchers in the Bhavani Komarapalayam area. The branch strives to enhance the knowledge and skills of members, promote ethical practices, and contribute to the overall advancement of the pharmaceutical sector.
               </p>
             </div>
           </section>

@@ -37,11 +37,11 @@ export default function DisciplineCommitteePage() {
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
             <ul className="space-y-4">
               {[
-                'In order to maintain disciplines among students, JKKN College of Pharmacy has formulated the Discipline Committee comprising of the Head of the Institution and Senior Staff members.',
-                'The Discipline Committee of JKKN College of Pharmacy aims to create a safe and motivating environment in the college and to bring professionalism among students by inculcation of best practice.',
-                'In addition, the committee is focusing to have an optimistic approach by imparting discipline among the students. Moreover, the primary target of the committee is to maintain high level disciplines in the college premises and encourage good and healthy practice among students of JKKN College of Pharmacy.',
-                'Students who are involved in academic misconduct or violating the standards of the institution are brought before the Discipline Committee of JKKN College of Pharmacy for a strict disciplinary action.',
-                'If students are found responsible for misconduct, the Discipline Committee has the right to impose punishments including serious warning and suspension.',
+                'In order to maintain disciplines among learners, JKKN College of Pharmacy has formulated the Discipline Committee comprising of the Head of the Institution and Senior Staff members.',
+                'The Discipline Committee of JKKN College of Pharmacy aims to create a safe and motivating environment in the college and to bring professionalism among learners by inculcation of best practice.',
+                'In addition, the committee is focusing to have an optimistic approach by imparting discipline among the learners. Moreover, the primary target of the committee is to maintain high level disciplines in the college premises and encourage good and healthy practice among learners of JKKN College of Pharmacy.',
+                'Learners who are involved in academic misconduct or violating the standards of the institution are brought before the Discipline Committee of JKKN College of Pharmacy for a strict disciplinary action.',
+                'If learners are found responsible for misconduct, the Discipline Committee has the right to impose punishments including serious warning and suspension.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
                   <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
@@ -89,7 +89,7 @@ export default function DisciplineCommitteePage() {
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                The meeting of the Discipline Committee is conducted minimum four times in a year to maintain discipline among the students, and is held in between whenever a disciplinary action is to be taken against a misconduct
+                The meeting of the Discipline Committee is conducted minimum four times in a year to maintain discipline among the learners, and is held in between whenever a disciplinary action is to be taken against a misconduct
               </p>
             </div>
           </section>

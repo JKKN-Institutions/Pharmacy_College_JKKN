@@ -32,6 +32,18 @@ async function fetchStaffByRole(roleKey: string): Promise<StaffApiRow[]> {
   return body.data;
 }
 
+/**
+ * Academic ranks to exclude from the public faculty set. MyJKKN gives ALL
+ * teaching staff role_key=faculty regardless of rank, so rank-based
+ * exclusions can only be applied here by `designation`, not by role_key.
+ * A Tutor whose rank later changes in MyJKKN re-enters the fetch automatically.
+ */
+const EXCLUDED_DESIGNATIONS = new Set(['tutor']);
+
+function isExcludedDesignation(row: StaffApiRow): boolean {
+  return EXCLUDED_DESIGNATIONS.has((row.designation || '').trim().toLowerCase());
+}
+
 export async function listPharmacyStaff(): Promise<StaffApiRow[]> {
   const [hods, faculty] = await Promise.all([
     fetchStaffByRole('hod'),
@@ -49,5 +61,8 @@ export async function listPharmacyStaff(): Promise<StaffApiRow[]> {
     }
   }
 
-  return deduped;
+  // Exclude by academic rank (see EXCLUDED_DESIGNATIONS). Rows previously synced
+  // for an excluded rank fall out of this payload and are hidden by the sync's
+  // orphan sweep on the next tick.
+  return deduped.filter((row) => !isExcludedDesignation(row));
 }

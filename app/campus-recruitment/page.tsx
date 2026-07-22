@@ -37,7 +37,7 @@ export default function CampusRecruitmentPage() {
               Vee Technologies
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-              JKKN College of Pharmacy – placement cell organised a campus recruitment for multinational and national organisations. Vee Technologies is a leading global business process management company, headquartered in New York and Bangalore. They visited the college for campus interview on 05.07.19 for B.Pharm & B.Sc Nursing students.
+              JKKN College of Pharmacy – placement cell organised a campus recruitment for multinational and national organisations. Vee Technologies is a leading global business process management company, headquartered in New York and Bangalore. They visited the college for campus interview on 05.07.19 for B.Pharm & B.Sc Nursing learners.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function CampusRecruitmentPage() {
                 SKN organics Pvt ltd, Pudhucherry, visited JKKN College of Pharmacy for campus interview on 04.07.2018.
               </p>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
-                JKKN College of Pharmacy, Komarapalayam has a Placement cell facilitating campus recruitment for multinational and national organisations. It plays a very important and key role in counselling and guiding the students of the college for their successful career. Placement cell JKKN College of Pharmacy, Komarapalayam organized on campus interview for Pharm.D and B.Pharm students on 19.6.18. EPI Source India Pvt. Ltd is one of the most leading healthcare professional companies, and visited the college for campus interview.
+                JKKN College of Pharmacy, Komarapalayam has a Placement cell facilitating campus recruitment for multinational and national organisations. It plays a very important and key role in counselling and guiding the learners of the college for their successful career. Placement cell JKKN College of Pharmacy, Komarapalayam organized on campus interview for Pharm.D and B.Pharm learners on 19.6.18. EPI Source India Pvt. Ltd is one of the most leading healthcare professional companies, and visited the college for campus interview.
               </p>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function CampusRecruitmentPage() {
                 'Alembic is the market leader in the Macrolides segment of anti-infective drugs in India.',
                 'Dr.Shanmuga Sundaram, Vice Principal, JKKN College of Pharmacy welcomed the recruitment team and gathering.',
                 'Mr. Kanagasabai, Placement incharge, JKKN College of Pharmacy presented the key note address.',
-                'More than 175 pharmacy students from Erode, Namakkal and Salem district pharmacy colleges were participated in this pool campus drive.',
+                'More than 175 pharmacy learners from Erode, Namakkal and Salem district pharmacy colleges were participated in this pool campus drive.',
                 'Mrs. Aditi Shetye, Senior Executive(HR) and Mr.Harihara Sudhan, Reginonal Manager-Coimbatore(Marketing) were the recruiters team from Alembic Pharmaceuticals Limited, Mumbai.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
