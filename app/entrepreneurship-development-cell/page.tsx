@@ -1,160 +1,133 @@
-'use client'
-
 import Header from '@/components/Header'
+
+const objectives = [
+  { label: 'Awareness Creation', text: 'Organize seminars, workshops, and awareness programmes to educate students about the opportunities and challenges in entrepreneurship.' },
+  { label: 'Skill Development', text: "Provide training and mentorship to enhance students' entrepreneurial skills and knowledge." },
+  { label: 'Industry Interaction', text: 'Facilitate interactions with industry experts and entrepreneurs to provide real-world insights.' },
+  { label: 'Startup Support', text: 'Assist students in securing financial support and resources for their startup ventures.' },
+  { label: 'Innovation Incubation', text: 'Establish an incubation center to nurture innovative ideas and transform them into successful businesses.' },
+]
+
+const cellMembers = [
+  { name: 'Dr. M. Vijayabaskaran', role: 'Coordinator' },
+  { name: 'Dr. Kranti Kumar', role: 'Co-Coordinator' },
+  { name: 'Ms. K. Kanagapriya', role: 'Member' },
+  { name: 'Dr. Revanth Ramachandran', role: 'Member' },
+]
+
+const activities = [
+  { label: 'Entrepreneurship Awareness Camps', text: 'Conduct regular camps to inspire students to take up entrepreneurship.' },
+  { label: 'Guest Lectures', text: 'Invite successful entrepreneurs to share their experiences and insights.' },
+  { label: 'Industrial Visits', text: 'Organize visits to pharmaceutical companies to expose students to industry practices.' },
+  { label: 'Mentorship Programmes', text: 'Connect students with experienced mentors for guidance and support.' },
+  { label: 'Pitching Competitions', text: 'Host competitions where students can pitch their business ideas and receive feedback.' },
+]
+
+function LabelledBulletCard({ title, items }: { title: string; items: { label: string; text: string }[] }) {
+  return (
+    <section>
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+        {title}
+      </h2>
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <ul className="space-y-4">
+          {items.map((item, index) => (
+            <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+              <span className="text-justify">
+                <strong>{item.label}:</strong> {item.text}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  )
+}
 
 export default function EntrepreneurshipDevelopmentCellPage() {
   return (
-    <div className="min-h-screen bg-[#F5F1E8]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-8 md:mb-12">
-          Entrepreneurship Development Cell
-        </h1>
-
-        {/* Content Container */}
-        <div className="bg-[#FBFBEE] rounded-lg shadow-sm">
-          <div className="p-6 md:p-8 lg:p-10">
-            <div className="space-y-8 md:space-y-10">
-              {/* Introduction */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Entrepreneurship Development Cell
-                </h2>
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. The EDC's mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
-                </p>
-              </div>
-
-              {/* Vision */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Vision
-                </h2>
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The EDC's vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
-                </p>
-              </div>
-
-              {/* Mission */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Mission
-                </h2>
-                <p className="text-base md:text-lg text-gray-700 leading-relaxed">
-                  The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
-                </p>
-              </div>
-
-              {/* Objectives */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Objectives
-                </h2>
-                <ul className="space-y-3 md:space-y-4">
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Awareness Creation:</strong> Organize seminars, workshops, and awareness programmes to educate students about the opportunities and challenges in entrepreneurship.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Skill Development:</strong> Provide training and mentorship to enhance students' entrepreneurial skills and knowledge.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Industry Interaction:</strong> Facilitate interactions with industry experts and entrepreneurs to provide real-world insights.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Startup Support:</strong> Assist students in securing financial support and resources for their startup ventures.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Innovation Incubation:</strong> Establish an incubation center to nurture innovative ideas and transform them into successful businesses.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Composition */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Composition of the Entrepreneurship Development Cell
-                </h2>
-                <ul className="space-y-2 md:space-y-3">
-                  <li className="flex items-start">
-                    <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Dr. M. Vijayabaskaran – Coordinator</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Dr. Kranti Kumar – Co-Coordinator</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Ms. K. Kanagapriya – Member</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block mr-2 text-base md:text-lg text-gray-700">✓</span>
-                    <span className="text-base md:text-lg text-gray-700">Dr. Revanth Ramachandran – Member</span>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Activities */}
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:mb-6">
-                  Activities
-                </h2>
-                <ul className="space-y-3 md:space-y-4">
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Entrepreneurship Awareness Camps:</strong> Conduct regular camps to inspire students to take up entrepreneurship.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Guest Lectures:</strong> Invite successful entrepreneurs to share their experiences and insights.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Industrial Visits:</strong> Organize visits to pharmaceutical companies to expose students to industry practices.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Mentorship Programmes:</strong> Connect students with experienced mentors for guidance and support.
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block w-1.5 h-1.5 bg-gray-900 rounded-full mt-2.5 mr-3 flex-shrink-0"></span>
-                    <span className="text-base md:text-lg text-gray-700 leading-relaxed">
-                      <strong>Pitching Competitions:</strong> Host competitions where students can pitch their business ideas and receive feedback.
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+      {/* Hero Banner */}
+      <div className="bg-[#006837]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            Entrepreneurship Development Cell
+          </h1>
         </div>
       </div>
 
+      <main className="flex-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-12 md:space-y-16">
+
+          {/* Introduction */}
+          <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
+            <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+              The Entrepreneurship Development Cell (EDC) at JKKN College of Pharmacy is dedicated to fostering a culture of innovation and entrepreneurship among its students. The EDC&apos;s mission is to empower the next generation of pharmacists with the skills and knowledge necessary to become successful entrepreneurs in the pharmaceutical industry.
+            </p>
+          </section>
+
+          {/* Vision */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+              Vision
+            </h2>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+              <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                The EDC&apos;s vision is to create a vibrant entrepreneurial ecosystem that encourages students to explore their innovative ideas, develop them into viable business ventures, and contribute to the growth of the pharmaceutical sector.
+              </p>
+            </div>
+          </section>
+
+          {/* Mission */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+              Mission
+            </h2>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+              <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
+                The mission of the EDC at JKKN College of Pharmacy is to promote entrepreneurship among students by providing them with the necessary tools, resources, and mentorship. The EDC aims to inspire students to become job creators rather than job seekers, thereby contributing to the economic development of the region.
+              </p>
+            </div>
+          </section>
+
+          {/* Objectives */}
+          <LabelledBulletCard title="Objectives" items={objectives} />
+
+          {/* Composition of the Entrepreneurship Development Cell */}
+          <section>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+              Composition of the Entrepreneurship Development Cell
+            </h2>
+            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm sm:text-base">
+                  <thead>
+                    <tr className="bg-[#006837] text-white">
+                      <th className="px-6 py-4 text-center font-semibold">NAME</th>
+                      <th className="px-6 py-4 text-center font-semibold">ROLE</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {cellMembers.map((row, index) => (
+                      <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'}>
+                        <td className="px-6 py-4 text-center text-gray-700 font-medium">{row.name}</td>
+                        <td className="px-6 py-4 text-center text-gray-700">{row.role}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section>
+
+          {/* Activities */}
+          <LabelledBulletCard title="Activities" items={activities} />
+
+        </div>
+      </main>
     </div>
   )
 }

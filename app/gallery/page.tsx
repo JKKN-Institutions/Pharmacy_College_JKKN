@@ -53,15 +53,20 @@ export default async function GalleryPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#FBFBEE]">
+    <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
       <Header />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
-        {/* Page Title */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-6 sm:mb-8 md:mb-12">
-          GALLERY
-        </h1>
+      {/* Hero Banner */}
+      <div className="bg-[#006837]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
+            GALLERY
+          </h1>
+        </div>
+      </div>
 
+      <main className="flex-1">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
         {hasAlbums ? (
           /* ── Admin Albums with carousel ── */
           <div>
@@ -98,7 +103,8 @@ export default async function GalleryPage() {
             }))}
           />
         )}
-      </div>
+        </div>
+      </main>
     </div>
   )
 }
