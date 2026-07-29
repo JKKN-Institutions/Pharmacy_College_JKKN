@@ -313,14 +313,18 @@ export default function EditPostForm({ blog, userEmail, userName, userAvatar, ca
     toast.success(`Estimated read time: ${mins} min`);
   }
 
-  async function handleSubmit(publish: boolean) {
+  /**
+   * `forceDraft` = the "Save as Draft" button. Otherwise the Status dropdown
+   * decides — so a post left on "Draft" never goes live by accident.
+   */
+  async function handleSubmit(forceDraft = false) {
     if (!title.trim()) return toast.error('Title is required.');
     if (!slug.trim()) return toast.error('Slug is required.');
 
     setSaving(true);
     const coverUrl = await uploadCoverImage();
 
-    const status = publish ? 'published' : postStatus;
+    const status = forceDraft ? 'draft' : postStatus;
 
     const payload: Record<string, unknown> = {
       title: title.trim(),
@@ -351,7 +355,13 @@ export default function EditPostForm({ blog, userEmail, userName, userAvatar, ca
     if (error) {
       toast.error('Failed to update: ' + error.message);
     } else {
-      toast.success(status === 'published' ? 'Post published!' : 'Post updated!');
+      toast.success(
+        status === 'published'
+          ? 'Post published!'
+          : status === 'draft'
+          ? 'Saved as draft — not live.'
+          : 'Post updated!'
+      );
       router.push('/admin/blogs');
       router.refresh();
     }
@@ -574,7 +584,7 @@ export default function EditPostForm({ blog, userEmail, userName, userAvatar, ca
               <div className="flex gap-2 pt-1">
                 <button
                   type="button"
-                  onClick={() => handleSubmit(true)}
+                  onClick={() => handleSubmit()}
                   disabled={saving}
                   className="flex-1 flex items-center justify-center gap-2 bg-[#006837] text-white text-sm font-semibold py-2.5 rounded-xl hover:bg-[#005a2e] transition disabled:opacity-50"
                 >
@@ -584,14 +594,28 @@ export default function EditPostForm({ blog, userEmail, userName, userAvatar, ca
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleSubmit(false)}
+                  onClick={() => handleSubmit(true)}
                   disabled={saving}
                   className="flex items-center justify-center gap-1.5 border border-gray-200 text-sm font-medium text-gray-600 px-3 py-2.5 rounded-xl hover:bg-gray-50 transition disabled:opacity-50"
+                  title="Always saves as a draft, whatever the Status is set to"
                 >
                   <Eye className="w-3.5 h-3.5" />
-                  Save
+                  Draft
                 </button>
               </div>
+
+              <p className="text-xs text-gray-400 -mt-1">
+                &ldquo;Update Post&rdquo; saves with the <b>Status</b> selected above.
+              </p>
+
+              <Link
+                href={`/blog/preview/${blog.id}`}
+                target="_blank"
+                className="flex items-center justify-center gap-1.5 w-full border border-gray-200 text-sm font-medium text-gray-600 py-2.5 rounded-xl hover:bg-gray-50 transition"
+              >
+                <Eye className="w-3.5 h-3.5" />
+                Preview Post
+              </Link>
             </div>
           </div>
 
