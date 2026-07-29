@@ -12,11 +12,11 @@ import {
   ArrowUpDown,
   Globe,
   Eye,
-  MoreHorizontal,
   Pencil,
   Trash2,
   ExternalLink,
   Loader2,
+  Link2,
 } from 'lucide-react';
 import ConfirmModal from '../ConfirmModal';
 
@@ -31,6 +31,7 @@ interface Blog {
   published_at: string | null;
   view_count: number | null;
   read_time: string | null;
+  preview_token?: string | null;
 }
 
 interface Category {
@@ -120,6 +121,16 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
       router.refresh();
     }
     setDeletingId(null);
+  }
+
+  async function copyPreviewLink(blog: Blog) {
+    const url = `${window.location.origin}/blog/preview/${blog.id}?token=${blog.preview_token}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      toast.success('Public preview link copied — anyone with it can view this post.');
+    } catch {
+      window.prompt('Copy this preview link:', url);
+    }
   }
 
   function toggleSelect(id: string) {
@@ -228,7 +239,7 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                       Published <ArrowUpDown className="w-3.5 h-3.5" />
                     </button>
                   </th>
-                  <th className="px-4 py-3.5 w-12" />
+                  <th className="px-3 py-3.5 w-16 sticky right-0 bg-white border-l border-gray-100" />
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-50">
@@ -304,7 +315,7 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                         <p className="text-xs text-gray-400">{formatTime(blog.published_at ?? blog.created_at)}</p>
                       </div>
                     </td>
-                    <td className="px-4 py-4">
+                    <td className="px-3 py-4 w-16 sticky right-0 bg-white border-l border-gray-100">
                       <div className="relative">
                         <button
                           onClick={(e) => {
@@ -317,12 +328,26 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                               setOpenMenu(blog.id);
                             }
                           }}
-                          className="p-2 rounded-lg border border-gray-200 bg-white hover:bg-gray-50 transition"
+                          title="Actions"
+                          aria-label="Actions"
+                          className="w-9 h-9 flex items-center justify-center rounded-lg border border-gray-300 bg-gray-50 text-gray-800 hover:bg-gray-200 hover:border-gray-400 transition"
                         >
                           {deletingId === blog.id ? (
-                            <Loader2 className="w-4 h-4 animate-spin text-gray-400" />
+                            <Loader2 className="w-5 h-5 min-w-[1.25rem] animate-spin text-gray-500" />
                           ) : (
-                            <MoreHorizontal className="w-4 h-4 text-gray-600" />
+                            // Inline SVG with FILLED dots. `min-w` is required: globals.css
+                            // applies `svg { max-width: 100% }`, which otherwise shrinks the
+                            // icon to the width left over in this narrow cell.
+                            <svg
+                              viewBox="0 0 20 20"
+                              className="w-5 h-5 min-w-[1.25rem] shrink-0"
+                              fill="currentColor"
+                              aria-hidden="true"
+                            >
+                              <circle cx="4" cy="10" r="1.8" />
+                              <circle cx="10" cy="10" r="1.8" />
+                              <circle cx="16" cy="10" r="1.8" />
+                            </svg>
                           )}
                         </button>
 
@@ -333,7 +358,7 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                               onClick={() => { setOpenMenu(null); setMenuPos(null); }}
                             />
                             <div
-                              className="fixed z-20 bg-white rounded-xl border border-gray-100 shadow-lg py-1 min-w-[140px]"
+                              className="fixed z-20 bg-white rounded-xl border border-gray-100 shadow-lg py-1 min-w-[190px]"
                               style={{ top: menuPos.top, right: menuPos.right }}
                             >
                               <Link
@@ -344,6 +369,24 @@ export default function BlogsTableClient({ blogs, categories }: Props) {
                                 <Pencil className="w-3.5 h-3.5" />
                                 Edit
                               </Link>
+                              <Link
+                                href={`/blog/preview/${blog.id}`}
+                                target="_blank"
+                                className="flex items-center gap-2.5 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 whitespace-nowrap"
+                                onClick={() => { setOpenMenu(null); setMenuPos(null); }}
+                              >
+                                <Eye className="w-3.5 h-3.5" />
+                                Preview
+                              </Link>
+                              {blog.preview_token && (
+                                <button
+                                  onClick={() => { setOpenMenu(null); setMenuPos(null); copyPreviewLink(blog); }}
+                                  className="w-full flex items-center gap-2.5 px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 whitespace-nowrap"
+                                >
+                                  <Link2 className="w-3.5 h-3.5" />
+                                  Copy public link
+                                </button>
+                              )}
                               {blog.is_published && blog.slug && (
                                 <Link
                                   href={`/blog/campus/${blog.slug}`}

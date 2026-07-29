@@ -8,7 +8,7 @@ export default async function AdminBlogsPage() {
   const supabase = await createClient();
 
   const collegeId = await getAdminCollegeId();
-  const [{ data: blogs }, { data: categories }] = await Promise.all([
+  const [{ data: blogs }, { data: categories }, { data: previewTokens }] = await Promise.all([
     supabase
       .from('blogs')
       .select('id, title, slug, category, author_name, is_published, created_at, published_at, view_count, read_time')
@@ -20,7 +20,24 @@ export default async function AdminBlogsPage() {
       .eq('college_id', collegeId)
       .eq('is_active', true)
       .order('name'),
+    // Separate query: if the preview_token column/migration isn't applied yet,
+    // only the "Copy public link" action disappears — the table still loads.
+    supabase
+      .from('blogs')
+      .select('id, preview_token')
+      .eq('college_id', collegeId),
   ]);
+
+  const tokenMap = new Map(
+    (previewTokens ?? []).map((t: { id: string; preview_token: string | null }) => [
+      t.id,
+      t.preview_token,
+    ])
+  );
+  const blogRows = (blogs ?? []).map((b) => ({
+    ...b,
+    preview_token: tokenMap.get(b.id) ?? null,
+  }));
 
   return (
     <div className="p-4 sm:p-6 lg:p-8">
@@ -55,7 +72,7 @@ export default async function AdminBlogsPage() {
       </div>
 
       {/* Table Section */}
-      <BlogsTableClient blogs={blogs ?? []} categories={categories ?? []} />
+      <BlogsTableClient blogs={blogRows} categories={categories ?? []} />
     </div>
   );
 }

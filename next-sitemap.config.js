@@ -69,6 +69,8 @@ module.exports = {
     '/wp-content/*',
     '/api/*',
     '/admin/*',
+    // Private draft preview links — must never be indexed
+    '/blog/preview/*',
     '/excel',
     '/doctor-of-philosophy-phd',
     '/blog/top-10-career-options-after-bed-2026',
