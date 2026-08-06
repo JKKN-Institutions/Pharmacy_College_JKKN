@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description: 'Meet the management team of JKKN College of Pharmacy. Trust members, governing body.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Management Team | Leadership | JKKN College of Pharmacy',
     description: 'Meet the management team of JKKN College of Pharmacy. Trust members, governing body.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

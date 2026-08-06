@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'JKKN Pharmacy startup policy: learner startups, IP rights, incubation and entrepreneurship support.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Innovation & Startup Policy | JKKN Pharmacy',
     description: 'JKKN Pharmacy startup policy: learner startups, IP rights, incubation and entrepreneurship support.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

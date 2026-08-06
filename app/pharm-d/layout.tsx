@@ -168,7 +168,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best Pharm.D College in Tamilnadu',
@@ -179,7 +179,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive learner safety measures.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Ambulance Services | Emergency Medical Care | JKKN Pharmacy',
     description: 'Ambulance services and emergency medical care at JKKN College of Pharmacy. 24/7 availability, emergency response and comprehensive learner safety measures.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

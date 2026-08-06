@@ -5,7 +5,7 @@ import GalleryCarousel from '@/components/GalleryCarousel'
 export const revalidate = 60;
 
 const hardcodedItems = [
-  { title: 'Pongal Celebration', image: '/images/Pongal-Celebration-gallery.jpg' },
+  { title: 'Pongal Celebration', image: '/images/Pongal-Celebration-gallery.webp' },
   { title: 'Farewell Day', image: '/images/Farewell-Day-gallery.webp' },
   { title: 'Founders Day 2022', image: '/images/Founders-Day-2022-gallery.jpg' },
   { title: 'Blood Donation Camp', image: '/images/Blood-Camp-gallery.webp' },

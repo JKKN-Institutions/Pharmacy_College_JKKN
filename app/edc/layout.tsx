@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'EDC at JKKN Pharmacy. Startup support, innovation programs and business incubation for pharma entrepreneurs.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'EDC - Entrepreneurship Development Cell | JKKN Pharmacy',
     description: 'EDC at JKKN Pharmacy. Startup support, innovation programs and business incubation for pharma entrepreneurs.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

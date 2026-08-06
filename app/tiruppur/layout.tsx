@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Top Pharmacy College in Tiruppur',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
     description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 95%+ placements.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

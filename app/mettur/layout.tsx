@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Pharmacy College near Mettur',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmacy College near Mettur 2026 — Admission Open | JKKN',
     description: 'PCI-approved, NAAC-accredited pharmacy college 45 km from Mettur via Bhavani, in Komarapalayam. B.Pharm, M.Pharm & Pharm.D with 95%+ placements.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

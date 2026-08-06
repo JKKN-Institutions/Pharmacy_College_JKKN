@@ -15,7 +15,7 @@ export default function ThePrincipalPage() {
         description="Principal of JKKN College of Pharmacy with 36 years of experience in pharmaceutical education and research. A distinguished pharmaceutical educator holding B.Pharm, M.Pharm, Ph.D, MBA and MA (Yoga) degrees, with over 60 research papers published in peer-reviewed journals. Research focus in Pharmaceutics and Nanoparticles."
         email="principal@jkkn.ac.in"
         telephone="+919345855001"
-        image="https://pharmacy.jkkn.ac.in/images/pharmacyprincipal.png"
+        image="https://pharmacy.jkkn.ac.in/images/pharmacyprincipal.webp"
         url="https://pharmacy.jkkn.ac.in/the-principal"
         alumniOf="University of Madras"
         knowsAbout={[
@@ -47,7 +47,7 @@ export default function ThePrincipalPage() {
                 <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
                   <div className="relative w-40 h-48 sm:w-48 sm:h-56 rounded-xl overflow-hidden border-4 border-[#7cb983] shadow-xl">
                     <Image
-                      src="/images/pharmacyprincipal.png"
+                      src="/images/pharmacyprincipal.webp"
                       alt="Dr. K.L. Senthil Kumar, Principal"
                       fill
                       className="object-cover object-top"

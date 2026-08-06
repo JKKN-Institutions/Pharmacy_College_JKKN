@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Best B.Pharm College in Tamilnadu',
@@ -102,7 +102,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
     description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

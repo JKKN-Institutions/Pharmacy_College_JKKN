@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -82,7 +82,7 @@ export const metadata: Metadata = {
     site: '@jkknpharmacy',
     title: 'Best Pharmacy Colleges in Tamil Nadu | JKKN Pharmacy College',
     description: 'PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu. B.Pharm, M.Pharm, Pharm.D & Ph.D at JKKN College of Pharmacy. Admissions Open 2026-27.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

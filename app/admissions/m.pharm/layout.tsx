@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Apply for M.Pharm 2026 at JKKN — five PCI-approved specialisations across 2 years.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'M.Pharm Admission 2026 — JKKN College of Pharmacy, Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'M.Pharm Admission 2026 | JKKN College of Pharmacy',
     description: 'Apply for M.Pharm 2026 at JKKN — five PCI-approved specialisations.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

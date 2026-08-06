@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Transport facilities at JKKN College of Pharmacy. College bus routes, timings, GPS-enabled buses and safe commute for learners across Komarapalayam and.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Transport Facilities | College Bus Service | JKKN Pharmacy',
     description: 'Transport facilities at JKKN College of Pharmacy. College bus routes, timings, GPS-enabled buses and safe commute for learners across Komarapalayam and.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

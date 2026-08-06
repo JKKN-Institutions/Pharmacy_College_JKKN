@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy - Pharmacy College near Trichy',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharmacy College near Trichy 2026 — Admission Open | JKKN',
     description: 'PCI-approved, NAAC-accredited residential pharmacy college 145 km from Trichy via Namakkal. B.Pharm, M.Pharm & Pharm.D with hostel and 95%+ placements.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

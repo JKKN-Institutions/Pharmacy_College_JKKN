@@ -24,7 +24,7 @@ export default function HomepagePopup() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/images/pharmacy-pop-up-poster.jpg"
+            src="/images/pharmacy-pop-up-poster.webp"
             alt="JKKN Admissions Open 2026-27"
             width={500}
             height={500}

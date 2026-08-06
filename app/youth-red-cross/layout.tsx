@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'JKKN College of Pharmacy — PCI Approved, NAAC A Grade Pharmacy College in Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Youth Red Cross | Social Service | JKKN College of Pharmacy',
     description: 'Youth Red Cross unit at JKKN College of Pharmacy. Health camps, disaster management, first aid training.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

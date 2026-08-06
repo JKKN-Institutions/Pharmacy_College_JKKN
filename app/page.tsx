@@ -164,7 +164,7 @@ export default function Home() {
             <div className="flex flex-col gap-6 mt-6 lg:mt-0">
               <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/Pharmacy photos/IMG_6923.JPG"
+                  src="/images/Pharmacy photos/IMG_6923.webp"
                   alt="JKKN College of Pharmacy Campus, Komarapalayam"
                   width={1920}
                   height={1080}
@@ -288,7 +288,7 @@ export default function Home() {
               <div className="relative">
                 <div className="rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl relative">
                   <Image
-                    src="/images/Pharmacy photos/IMG_6912.JPG"
+                    src="/images/Pharmacy photos/IMG_6912.webp"
                     alt="JKKN College of Pharmacy campus in Komarapalayam, Tamil Nadu"
                     width={800}
                     height={600}

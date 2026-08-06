@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: 'Apply for Pharm.D and Pharm.D Post Baccalaureate at JKKN 2026. 6-year clinical pharmacy doctorate. PCI approved.',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1920,
         height: 1080,
         alt: 'Pharm.D Admission 2026 — JKKN College of Pharmacy, Tamil Nadu',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pharm.D Admission 2026 | JKKN College of Pharmacy',
     description: 'Apply for Pharm.D and Pharm.D Post Baccalaureate at JKKN 2026.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
 

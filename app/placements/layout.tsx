@@ -97,7 +97,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.png',
+        url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
         alt: 'JKKN College of Pharmacy — Placements & Recruitment',
@@ -108,7 +108,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Placements — JKKN College of Pharmacy | 95%+ Placement Rate',
     description: 'JKKN College of Pharmacy placements: 95%+ placement rate, 8 LPA highest package, 30+ top recruiters. View placement records & training programmes.',
-    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.png'],
+    images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
   other: {
     'last-modified': '2026-03-26',
