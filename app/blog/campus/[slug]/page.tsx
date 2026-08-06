@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import { createClient } from '@/lib/supabase/server';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
@@ -7,6 +8,61 @@ import CampusBlogContent from './CampusBlogContent';
 import { buildPostBody } from '@/lib/blog-render';
 
 export const revalidate = 300;
+
+// Without this, every campus post inherits app/blog/layout.tsx — its default title
+// ("Blog | Pharmacy Education | JKKN Pharmacy") and its hardcoded canonical
+// (https://pharmacy.jkkn.ac.in/blog/). Nine live posts were presenting Google one identical
+// snippet and pointing it at the listing page.
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const supabase = await createClient();
+  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
+
+  const { data: post } = await supabase
+    .from('blogs')
+    .select('title, excerpt, slug, cover_image_url')
+    .eq('slug', slug)
+    .eq('college_id', collegeId)
+    .eq('is_published', true)
+    .single();
+
+  if (!post) {
+    return { title: 'Blog Post Not Found' };
+  }
+
+  const description =
+    post.excerpt || `Read ${post.title} on the JKKN College of Pharmacy campus blog.`;
+  // next.config.js sets trailingSlash: true — the canonical must carry it or it will
+  // point at a URL that 308s.
+  const url = `https://pharmacy.jkkn.ac.in/blog/campus/${post.slug}/`;
+
+  return {
+    title: post.title,
+    description,
+    alternates: { canonical: url },
+    openGraph: {
+      title: post.title,
+      description,
+      url,
+      siteName: 'JKKN College of Pharmacy',
+      type: 'article',
+      locale: 'en_IN',
+      ...(post.cover_image_url && {
+        images: [{ url: post.cover_image_url, width: 1200, height: 630, alt: post.title }],
+      }),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description,
+      ...(post.cover_image_url && { images: [post.cover_image_url] }),
+    },
+  };
+}
 
 export default async function CampusBlogPost({
   params,
