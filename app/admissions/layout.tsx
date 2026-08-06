@@ -46,7 +46,7 @@ export default function AdmissionProcessLayout({
           { name: 'Check Eligibility', text: 'Verify you meet the eligibility criteria: 10+2 with Physics, Chemistry, and Mathematics/Biology with minimum 50% marks (45% for reserved categories) for B.Pharm/Pharm.D. B.Pharm with 55% for M.Pharm.' },
           { name: 'Submit Application', text: 'Fill out the online application form at admission.jkkn.ac.in or visit the campus. Application fee is ₹1,000. Forms open in May-June 2026.' },
           { name: 'Upload Documents', text: 'Upload required documents: 10th and 12th marksheets, transfer certificate, community certificate, Aadhaar card, and passport-size photographs.' },
-          { name: 'Attend Counselling', text: 'Attend the counselling session as per the schedule. Selection is based on merit (10+2 marks) and TNEA/GPAT scores where applicable.' },
+          { name: 'Attend Counselling', text: 'Attend the counselling session as per the schedule. Selection is based on merit (10+2 marks) and TN Selection Committee/GPAT scores where applicable.' },
           { name: 'Confirm Admission', text: 'Pay the admission fee to confirm your seat. Collect your admission letter and report to campus on the designated date.' },
         ]}
       />

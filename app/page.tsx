@@ -32,7 +32,7 @@ export default function Home() {
     },
     {
       question: "What is the admission process for B.Pharm/Pharm.D?",
-      answer: "B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TNEA counselling or management quota. Applications open May-June annually."
+      answer: "B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually."
     },
     {
       question: "What is the placement record at JKKN Pharmacy College?",
@@ -128,8 +128,8 @@ export default function Home() {
         description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
         steps={[
           { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks." },
-          { name: "Apply Online", text: "Submit your application via the TNEA counselling portal or the JKKN admissions website at admission.jkkn.ac.in. Applications open May-June annually for the academic year starting in July." },
-          { name: "Counselling or Selection", text: "Participate in TNEA or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
+          { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at admission.jkkn.ac.in. Applications open May-June annually for the academic year starting in July." },
+          { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
           { name: "Fee Payment and Enrollment", text: "Complete fee payment as per Tamil Nadu government norms for government quota or management quota rates. Secure your admission and receive your enrollment confirmation from JKKN College of Pharmacy." }
         ]}
@@ -1141,7 +1141,7 @@ export default function Home() {
                 </div>
                 <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Counselling / Selection</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
-                  Participate in TNEA/GPAT counselling or direct admission
+                  Participate in TN Selection Committee/GPAT counselling or direct admission
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
@@ -1337,7 +1337,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TNEA counselling or management quota. Applications can be submitted online.
+                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TN Selection Committee counselling or management quota. Applications can be submitted online.
               </p>
             </details>
 

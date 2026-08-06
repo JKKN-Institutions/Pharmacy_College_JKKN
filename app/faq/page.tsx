@@ -44,7 +44,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What is the admission process for B.Pharm/Pharm.D?',
-        answer: 'B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TNEA counselling or management quota. Applications open May-June annually.',
+        answer: 'B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually.',
       },
       {
         question: 'When do admissions open for JKKN Pharmacy College?',
@@ -60,7 +60,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Is NEET required for B.Pharm or Pharm.D admission?',
-        answer: 'NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission is primarily based on +2 marks through TNEA counselling or management quota. For Pharm.D, NEET may be required in some states, but in Tamil Nadu, admission is based on +2 marks with PCB subjects.',
+        answer: 'NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission is primarily based on +2 marks through TN Selection Committee counselling or management quota. For Pharm.D, NEET may be required in some states, but in Tamil Nadu, admission is based on +2 marks with PCB subjects.',
       },
       {
         question: 'What documents are required for admission?',
@@ -76,7 +76,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'How are seats allocated for different categories?',
-        answer: 'Seat allocation at JKKN Pharmacy College follows Tamil Nadu Government reservation policy: 18% for SC, 1% for ST, 30% for MBC, 20% for BC, 7.5% for BCM (Muslim), and 3.5% for SCA (Arunthathiyar). Additionally, 3% horizontal reservation for differently-abled candidates. Selection is based on merit within each category using the roster method. TNEA counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications.',
+        answer: 'Seat allocation at JKKN Pharmacy College follows Tamil Nadu Government reservation policy: 18% for SC, 1% for ST, 30% for MBC, 20% for BC, 7.5% for BCM (Muslim), and 3.5% for SCA (Arunthathiyar). Additionally, 3% horizontal reservation for differently-abled candidates. Selection is based on merit within each category using the roster method. TN Selection Committee counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications.',
       },
       {
         question: 'What is the fee structure for B.Pharm at JKKN Pharmacy College?',

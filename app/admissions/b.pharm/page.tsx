@@ -45,7 +45,7 @@ export default function BPharmAdmissionPage() {
     },
     {
       name: 'Counselling & Selection',
-      text: 'Attend TNEA counselling (Government Quota) or college counselling (Management Quota). Eligible candidates recommended by the Admission Committee and the Principal are granted admission.',
+      text: 'Attend TN Selection Committee counselling (Government Quota) or college counselling (Management Quota). Eligible candidates recommended by the Admission Committee and the Principal are granted admission.',
     },
     {
       name: 'Fee Payment & Enrolment',
@@ -57,12 +57,12 @@ export default function BPharmAdmissionPage() {
     {
       question: 'What is the eligibility for B.Pharm admission at JKKN?',
       answer:
-        'Candidates must have passed 10+2 with Physics, Chemistry and Mathematics/Biology with a minimum aggregate of 50% in PCM/B subjects. SC/ST/OBC candidates get a 5% relaxation (45% aggregate). Admission is granted through TNEA counselling for Government Quota seats and college counselling for Management Quota seats.',
+        'Candidates must have passed 10+2 with Physics, Chemistry and Mathematics/Biology with a minimum aggregate of 50% in PCM/B subjects. SC/ST/OBC candidates get a 5% relaxation (45% aggregate). Admission is granted through TN Selection Committee counselling for Government Quota seats and college counselling for Management Quota seats.',
     },
     {
       question: 'Is NEET required for B.Pharm admission in Tamil Nadu?',
       answer:
-        'No, NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission to JKKN College of Pharmacy is based on +2 marks (PCM/B) through TNEA counselling or Management Quota. Some other states may require NEET or state-level entrance exams.',
+        'No, NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission to JKKN College of Pharmacy is based on +2 marks (PCM/B) through TN Selection Committee counselling or Management Quota. Some other states may require NEET or state-level entrance exams.',
     },
     {
       question: 'What is the B.Pharm fee structure at JKKN for 2026?',
@@ -82,7 +82,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'When does B.Pharm admission open for 2026-27?',
       answer:
-        'B.Pharm application forms are typically released five days before the Tamil Nadu Higher Secondary results announcement (Expected: May 2026). Application submission starts immediately after the +2 results are out. TNEA counselling usually takes place in June-July 2026, and classes commence in August 2026.',
+        'B.Pharm application forms are typically released five days before the Tamil Nadu Higher Secondary results announcement (Expected: May 2026). Application submission starts immediately after the +2 results are out. TN Selection Committee counselling usually takes place in June-July 2026, and classes commence in August 2026.',
     },
     {
       question: 'What documents are required for B.Pharm admission?',
@@ -198,7 +198,7 @@ export default function BPharmAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
-                  <span>Admission through TNEA counselling (Government Quota) or Management Quota counselling based on +2 marks.</span>
+                  <span>Admission through TN Selection Committee counselling (Government Quota) or Management Quota counselling based on +2 marks.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
@@ -354,7 +354,7 @@ export default function BPharmAdmissionPage() {
                   { title: 'Application Form Release', date: 'Five days before +2 results — Expected May 2026' },
                   { title: 'Application Submission Window', date: 'After +2 results announcement — May to June 2026' },
                   { title: 'Last Date to Apply', date: 'To be announced (late applications accepted subject to seat availability)' },
-                  { title: 'TNEA Counselling (Government Quota)', date: 'As per Tamil Nadu Government schedule — Expected June-July 2026' },
+                  { title: 'TN Selection Committee Counselling (Government Quota)', date: 'As per Tamil Nadu Government schedule — Expected June-July 2026' },
                   { title: 'Management Quota Counselling', date: 'To be announced via website and SMS' },
                   { title: 'Document Verification', date: 'During counselling — bring all original documents' },
                   { title: 'Fee Payment Deadline', date: 'Within 7 days of seat allotment' },

@@ -61,13 +61,13 @@ const faqs = [
     question:
       'How to apply for pharmacy college admission 2026 in Tamil Nadu?',
     answer:
-      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with required subjects. (2) Appear for NEET UG (recommended). (3) Register on TNEA or individual college admission portals by April-May 2026. (4) Attend counselling (May-July 2026). (5) Pay admission fees and secure seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at admission.jkkn.ac.in.',
+      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with required subjects. (2) Appear for NEET UG (recommended). (3) Register with the TN Selection Committee or individual college admission portals by April-May 2026. (4) Attend counselling (May-July 2026). (5) Pay admission fees and secure seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at admission.jkkn.ac.in.',
   },
   {
     question:
       'What is the cutoff for pharmacy colleges in Tamil Nadu?',
     answer:
-      'B.Pharm admission in Tamil Nadu requires 10+2 with required subjects and minimum 50% aggregate. NEET qualification is recommended but not mandatory for all colleges. TNEA (Tamil Nadu Engineering Admissions) cutoff varies by college — top institutions require 150+ marks in TNEA. Management quota seats have separate cutoff criteria. Counselling typically runs from May to July each year.',
+      'B.Pharm admission in Tamil Nadu requires 10+2 with required subjects and minimum 50% aggregate. NEET qualification is recommended but not mandatory for all colleges. Government-quota seats are allotted by the TN Selection Committee on +2 marks in Physics, Chemistry and Mathematics or Biology, so B.Pharm has no separate entrance-exam cutoff — the merit list is built from your +2 marks and category rank. Management quota seats have separate cutoff criteria. Counselling typically runs from May to July each year.',
   },
 ];
 
@@ -266,8 +266,8 @@ export default function BestPharmacyCollegesTamilNadu() {
               highest-ranked pharmacy college in Tamil Nadu. Selection criteria
               for pharmacy admission include 10+2 qualifications with Physics,
               Chemistry, and Biology or Mathematics, NEET UG scores
-              (recommended), and TNEA counselling conducted annually from May
-              to July.
+              (recommended), and TN Selection Committee counselling conducted
+              annually from May to July.
             </p>
           </div>
         </section>
@@ -615,7 +615,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 step: '3',
                 title: 'Registration',
-                text: 'Register on TNEA (Tamil Nadu Engineering Admissions) or individual college admission portals by April-May 2026.',
+                text: 'Register with the TN Selection Committee (tnmedicalselection.net) or individual college admission portals by April-May 2026.',
               },
               {
                 step: '4',

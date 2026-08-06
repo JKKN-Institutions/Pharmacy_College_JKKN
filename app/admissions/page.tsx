@@ -54,7 +54,7 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "Is NEET required for B.Pharm or Pharm.D admission?",
-      answer: "NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission is primarily based on +2 marks through TNEA counselling or management quota. For Pharm.D, NEET may be required in some states, but in Tamil Nadu, admission is based on +2 marks with PCB subjects."
+      answer: "NEET is not mandatory for B.Pharm admission in Tamil Nadu. Admission is primarily based on +2 marks through TN Selection Committee counselling or management quota. For Pharm.D, NEET may be required in some states, but in Tamil Nadu, admission is based on +2 marks with PCB subjects."
     },
     {
       question: "What documents are required for admission?",
@@ -70,7 +70,7 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "How are seats allocated for different categories?",
-      answer: "Seat allocation at JKKN Pharmacy College follows Tamil Nadu Government reservation policy: 18% for SC, 1% for ST, 30% for MBC, 20% for BC, 7.5% for BCM (Muslim), and 3.5% for SCA (Arunthathiyar). Additionally, 3% horizontal reservation for differently-abled candidates. Selection is based on merit within each category using the roster method. TNEA counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications."
+      answer: "Seat allocation at JKKN Pharmacy College follows Tamil Nadu Government reservation policy: 18% for SC, 1% for ST, 30% for MBC, 20% for BC, 7.5% for BCM (Muslim), and 3.5% for SCA (Arunthathiyar). Additionally, 3% horizontal reservation for differently-abled candidates. Selection is based on merit within each category using the roster method. TN Selection Committee counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications."
     }
   ]
 
@@ -240,7 +240,7 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
-                  <span>Admission through TNEA counselling or management quota based on +2 marks</span>
+                  <span>Admission through TN Selection Committee counselling or management quota based on +2 marks</span>
                 </li>
               </ul>
             </div>
@@ -594,7 +594,7 @@ export default function AdmissionProcessPage() {
                   <div className="flex items-start gap-4">
                     <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
                     <div className="flex-1">
-                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">TNEA Counselling</h3>
+                      <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">TN Selection Committee Counselling</h3>
                       <p className="text-[10px] sm:text-xs text-gray-600">As per Tamil Nadu Government schedule (Expected: June-July 2026)</p>
                     </div>
                   </div>
