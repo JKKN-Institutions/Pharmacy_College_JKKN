@@ -69,7 +69,6 @@ export default function StudentGrievanceRedressalCommitteePage() {
                 <div className="flex-1">
                   <p className="text-sm sm:text-base text-gray-700 mb-3">The aggrieved learner may submit a complaint:</p>
                   <ul className="space-y-3 ml-2">
-                    <BulletItem text={<>Online via the Grievance Reporting Portal [<a href="https://pharmacy.jkkn.ac.in/grievance-reporting-form/" className="text-[#006837] hover:underline">https://pharmacy.jkkn.ac.in/grievance-reporting-form/</a>]</>} />
                     <BulletItem text={<>Email to <a href="mailto:grievance_pharmfaculty@jkkn.ac.in" className="text-[#006837] hover:underline">grievance_pharmfaculty@jkkn.ac.in</a></>} />
                     <BulletItem text="Drop Box available at the college premises" />
                     <BulletItem text="In person at the Grievance Redressal Cell, to the Officer-In-Charge of Grievance Redressal Cell." />

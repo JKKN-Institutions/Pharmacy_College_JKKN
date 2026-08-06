@@ -7,7 +7,7 @@ import Header from '@/components/Header'
 // Navigation sections data
 const navigationSections = [
   { id: 'overview', label: 'Overview', href: '/about/affiliation-details' },
-  { id: 'pharmacy-council', label: 'Pharmacy Council Approval', href: '/about/affiliation-details/pharmacy-council' },
+  { id: 'pharmacy-council', label: 'Pharmacy Council Approval', href: '/pharmacy-council' },
   { id: 'university', label: 'University Affiliation', href: '/about/affiliation-details/university' },
 ]
 
