@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
-  description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 95%+ placements. Admissions open 2026-27 — call +91-9345855001.',
+  description: "PCI-approved, NAAC A Grade pharmacy college in Namakkal district. B.Pharm, M.Pharm and Pharm.D. Admissions open for 2026-27.",
   keywords: [
     'pharmacy college in namakkal',
     'best colleges for pharmacy',

@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy Colleges in Coimbatore | JKKN College of Pharmacy',
-  description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 95%+ placements. Apply 2026-27.',
+  title: "Pharmacy College Near Coimbatore — B.Pharm, Pharm.D | JKKN",
+  description: "JKKN College of Pharmacy is 105 km from Coimbatore on NH-544. PCI approved, NAAC A Grade. B.Pharm, M.Pharm and Pharm.D. Apply for 2026-27.",
   keywords: [
     'best pharmacy colleges in coimbatore',
     'coimbatore pharmacy colleges',
