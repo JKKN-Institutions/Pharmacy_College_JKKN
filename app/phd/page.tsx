@@ -63,13 +63,10 @@ export default function PhDPage() {
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
         { name: 'Ph.D', url: 'https://pharmacy.jkkn.ac.in/phd' }
       ]} />
-      <CourseSchema
-        name="Doctor of Philosophy (Ph.D) in Pharmacy"
-        description="Ph.D in Pharmacy is a research-focused doctoral programme in pharmaceutical sciences that develops independent researchers and scholars. The programme involves advanced coursework, comprehensive examinations, original research, and dissertation submission contributing new knowledge to pharmaceutical sciences, drug discovery, novel drug delivery systems, and healthcare innovation."
-        duration="P3Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/phd"
-      />
+      {/* DEP-12, 2026-08-07: the CourseSchema that stood here is gone. layout.tsx
+          already declares this programme, and the two disagreed on its name while
+          this one pointed at a url with no trailing slash, which 308s on a site
+          running trailingSlash: true. One Course entity per page. */}
       <FaqSchema faqs={faqs} />
       <Header />
 

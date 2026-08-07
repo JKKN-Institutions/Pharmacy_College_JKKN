@@ -56,7 +56,7 @@ export default function PhDLayout({
   return (
     <>
       <CourseSchema
-        name="Ph.D in Pharmaceutical Sciences"
+        name="Ph.D (Doctor of Philosophy) in Pharmacy"
         description={PHD_DESCRIPTION}
         duration="P3Y"
         provider="JKKN College of Pharmacy"
@@ -72,12 +72,14 @@ export default function PhDLayout({
         ]}
       />
       <SpeakableWebPageSchema
-        name="Ph.D in Pharmaceutical Sciences — JKKN College of Pharmacy"
+        name="Ph.D (Doctor of Philosophy) in Pharmacy — JKKN College of Pharmacy"
         description={PHD_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/phd/"
         dateModified="2026-03-24"
       />
-      <FaqSchema faqs={phdFaqs} />
+      {/* DEP-12, 2026-08-07: the FaqSchema that stood here is gone. page.tsx emits
+          its own with 10 questions against this one's 5, and two FAQPage blocks on
+          one URL leave Google choosing between them. The richer one wins. */}
       <BreadcrumbWrapper />
       {children}
     </>

@@ -62,13 +62,10 @@ export default function BPharmLateralEntryPage() {
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
         { name: 'B.Pharm Lateral Entry', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry' }
       ]} />
-      <CourseSchema
-        name="Bachelor of Pharmacy (B.Pharm) - Lateral Entry"
-        description="B.Pharm Lateral Entry is a 3-year accelerated pharmacy programme for diploma holders in pharmacy (D.Pharm). Learners enter directly into the second year of B.Pharm, completing the degree in 3 years instead of 4 years, leading to the same B.Pharm qualification and career opportunities."
-        duration="P3Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry"
-      />
+      {/* DEP-12, 2026-08-07: the CourseSchema that stood here is gone. layout.tsx
+          already declares this programme, and the two disagreed on its name while
+          this one pointed at a url with no trailing slash, which 308s on a site
+          running trailingSlash: true. One Course entity per page. */}
       <FaqSchema faqs={faqs} />
       <Header />
 

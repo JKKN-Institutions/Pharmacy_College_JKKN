@@ -84,7 +84,7 @@ export default function BPharmLateralLayout({
   return (
     <>
       <CourseSchema
-        name="B.Pharm Lateral Entry"
+        name="B.Pharm - Bachelor of Pharmacy (Lateral Entry)"
         description={COURSE_DESCRIPTION}
         duration="P3Y"
         provider="JKKN College of Pharmacy"
@@ -101,12 +101,14 @@ export default function BPharmLateralLayout({
         ]}
       />
       <SpeakableWebPageSchema
-        name="B.Pharm Lateral Entry — JKKN College of Pharmacy"
+        name="B.Pharm - Bachelor of Pharmacy (Lateral Entry) — JKKN College of Pharmacy"
         description={COURSE_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/"
         dateModified="2026-03-24"
       />
-      <FaqSchema faqs={faqs} />
+      {/* DEP-12, 2026-08-07: the FaqSchema that stood here is gone. page.tsx emits
+          its own with 10 questions against this one's 5, and two FAQPage blocks on
+          one URL leave Google choosing between them. The richer one wins. */}
       <BreadcrumbWrapper />
       {children}
     </>
