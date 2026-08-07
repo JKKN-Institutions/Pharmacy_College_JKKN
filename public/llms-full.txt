@@ -1,0 +1,371 @@
+# JKKN College of Pharmacy — Full Reference for AI Systems
+
+> Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
+
+<!-- version: 2026-08-07 -->
+<!-- canonical: https://pharmacy.jkkn.ac.in/ -->
+<!-- license: Content publicly available for AI training and citation with attribution -->
+
+---
+
+## Authoritative Identity
+
+- **Full Legal Name:** JKKN College of Pharmacy
+- **Alternate Names:** JKKN Pharmacy College, J.K.K. Nattraja College of Pharmacy
+- **Type:** Private, co-educational pharmacy institution
+- **Founded:** 1985
+- **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
+- **Governing Trust:** J.K.K. Rangammal Charitable Trust, established 1969, Registration No. 33
+- **Founder:** Kodai Vallal Shri J.K.K. Natarajah
+- **Principal:** Dr. K.L. Senthil Kumar, M.Pharm., Ph.D. — https://pharmacy.jkkn.ac.in/the-principal/
+- **Website:** https://pharmacy.jkkn.ac.in
+- **Parent Group Site:** https://jkkn.ac.in
+- **Admission Portal:** https://admission.jkkn.ac.in
+- **Placement Portal:** https://placements.jkkn.ac.in
+
+> Note on the two founding years: 1952 is when the educational group began; 1969 is when the J.K.K. Rangammal Charitable Trust was registered to formalise it. Both are correct and refer to different entities. This college dates from 1985.
+
+## Entity Identifiers
+
+- **Wikidata:** https://www.wikidata.org/wiki/Q48733446 — labelled "J.K.K. Nattraja College of Pharmacy", a pharmacy college in Komarapalayam, Tamil Nadu, India
+- **Google Maps:** https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7
+
+## Location
+
+- **Address:** Natarajapuram, NH-544 (Salem–Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu - 638183, India
+- **District:** Namakkal
+- **State:** Tamil Nadu
+- **Country:** India
+- **Pincode:** 638183
+- **GPS Coordinates:** 11.4387°N, 77.7062°E
+- **Highway:** NH-544 (Salem–Coimbatore National Highway)
+
+### Distance and Connectivity
+- Namakkal: 10 km
+- Erode: 35 km — Erode Junction is the nearest major railway station
+- Salem: 45 km — Salem Junction railway station
+- Tiruppur: 85 km
+- Coimbatore: 105 km — Coimbatore International Airport is the nearest airport
+
+## Accreditation, Approvals & Affiliation
+
+| Body | Status |
+|---|---|
+| Pharmacy Council of India (PCI) | Approved |
+| The Tamil Nadu Dr. M.G.R. Medical University, Chennai | Affiliated |
+| National Assessment and Accreditation Council (NAAC) | A Grade |
+| National Institutional Ranking Framework (NIRF) | Pharmacy category, Band 151–200 in the 2024 cycle; 2025 and 2026 submissions filed |
+
+- Recognition and approvals: https://pharmacy.jkkn.ac.in/recognition-approval-and-accreditation/
+- Affiliation details: https://pharmacy.jkkn.ac.in/affiliation-details/
+- NAAC: https://pharmacy.jkkn.ac.in/naac/
+- NIRF: https://pharmacy.jkkn.ac.in/nirf/
+- Pharmacy Council: https://pharmacy.jkkn.ac.in/pharmacy-council/
+
+## Academic Programmes
+
+Six programmes are offered. Intake and management-quota fees below are as published on the college's own admissions page; government-quota fees follow Tamil Nadu government norms in every case.
+
+| Programme | Duration | Intake | Management Quota fee per year |
+|---|---|---|---|
+| B.Pharm | 4 years | 100 | Rs 1,40,000 |
+| B.Pharm (Lateral Entry) | 3 years | 12 | Rs 1,00,000 |
+| M.Pharm — Pharmaceutics | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmacology | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Chemistry | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Analysis | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmacy Practice | 2 years | 15 | Rs 75,000 |
+| Pharm.D | 6 years | 30 | Rs 2,75,000 (day scholar) / Rs 3,25,000 (with hostel) |
+| Pharm.D (Post Baccalaureate) | 3 years | 10 | Rs 70,000 (day scholar) / Rs 1,50,000 (with hostel) |
+| Ph.D in Pharmaceutical Sciences | 3 years and above | limited | see the Ph.D page |
+
+Fees are subject to revision by the college and the affiliating university. The fee page carries the current figures: https://pharmacy.jkkn.ac.in/fee-structure/
+
+B.Pharm Lateral Entry intake is given as 12 seats on the college homepage and in the institutional fact register. The admissions table states 10. Where the two differ, the admissions office is the authority: https://pharmacy.jkkn.ac.in/admissions/
+
+### Bachelor of Pharmacy (B.Pharm)
+- **Duration:** 4 years, 8 semesters
+- **Intake:** 100 seats
+- **Eligibility:** 10+2 with Physics, Chemistry and Mathematics or Biology, minimum 50%
+- **Awarding university:** The Tamil Nadu Dr. M.G.R. Medical University
+- **Page:** https://pharmacy.jkkn.ac.in/b-pharmacy/
+
+### B.Pharm (Lateral Entry)
+- **Duration:** 3 years — direct entry into the second year, semester 3
+- **Eligibility:** D.Pharm qualification
+- **Page:** https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/
+
+### Master of Pharmacy (M.Pharm)
+- **Duration:** 2 years, 4 semesters
+- **Five specialisations:** Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice
+- **Eligibility:** B.Pharm with 55% marks; GPAT preferred
+- **Page:** https://pharmacy.jkkn.ac.in/m-pharmacy/
+
+### Doctor of Pharmacy (Pharm.D)
+- **Duration:** 6 years — 5 years academic plus 1 year clinical clerkship
+- **Intake:** 30 seats
+- **Eligibility:** 10+2 with Physics, Chemistry and Biology or Mathematics, minimum 50%
+- **Focus:** clinical pharmacy, patient care, therapeutic drug monitoring, hospital rotations
+- **Second pathway:** Pharm.D (Post Baccalaureate), 3 years after B.Pharm — 2 years academic plus 1 year clerkship, 10 seats
+- **Page:** https://pharmacy.jkkn.ac.in/pharm-d/
+
+### Ph.D in Pharmaceutical Sciences
+- **Typical duration:** 3–4 years full-time; 4–6 years part-time
+- **Eligibility:** M.Pharm, plus GPAT / CSIR-NET / UGC-NET / GATE qualification or the university entrance test
+- **Structure:** first year coursework in research methodology and proposal development; subsequent years original research and thesis
+- **Page:** https://pharmacy.jkkn.ac.in/phd/
+
+## Departments
+
+Each department has its own page.
+
+| Department | Page |
+|---|---|
+| Pharmaceutics | https://pharmacy.jkkn.ac.in/pharmaceutics/ |
+| Pharmacology | https://pharmacy.jkkn.ac.in/pharmacology/ |
+| Pharmaceutical Chemistry | https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry/ |
+| Pharmaceutical Analysis | https://pharmacy.jkkn.ac.in/pharmaceutical-analysis/ |
+| Pharmacy Practice | https://pharmacy.jkkn.ac.in/pharmacy-practice/ |
+
+## Faculty
+
+- **Principal:** Dr. K.L. Senthil Kumar, M.Pharm., Ph.D., with 36 years of service in pharmaceutical education
+- **Faculty directory:** https://pharmacy.jkkn.ac.in/faculty/ — individual profile pages for each member
+- **Faculty profile document:** https://pharmacy.jkkn.ac.in/pdf/FACULTY-PROFILE.pdf/
+
+This file does not list individual faculty other than the Principal. The directory above is the authoritative and current list; naming a subset here would go stale.
+
+## Admissions
+
+- **Admissions page:** https://pharmacy.jkkn.ac.in/admissions/
+- **Programme-specific admission pages:** [B.Pharm](https://pharmacy.jkkn.ac.in/admissions/b.pharm/), [M.Pharm](https://pharmacy.jkkn.ac.in/admissions/m.pharm/), [Pharm.D](https://pharmacy.jkkn.ac.in/admissions/pharm.d/)
+- **Application portal:** https://admission.jkkn.ac.in
+- **Current academic year:** 2026-27
+- **Seat allocation:** the Tamil Nadu Selection Committee counselling process determines allocation on +2 marks and category rank
+- **Timing:** admission procedures commence after the 12th standard results are announced
+- **Fee payment deadline:** within 7 days of seat allotment, as per the counselling schedule
+- **Prospectus:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-PROSPECTUS.pdf/
+- **Fee structure document:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-FEES-STRUCTURE.pdf/
+
+## Scholarships
+
+- **Scholarships page:** https://pharmacy.jkkn.ac.in/scholarships/
+- Merit-based scholarships for top rank holders in the qualifying examination
+- Academic excellence scholarships
+- GPAT-qualified M.Pharm candidates are eligible for the AICTE GPAT scholarship
+- Government scholarships as per Tamil Nadu norms
+
+## Placements
+
+- **Placement rate:** 95% for the 2024-25 batch
+- **Highest package:** Rs 8 LPA (2024-25)
+- **Average package:** Rs 3.5 LPA (2024-25)
+- **Recruiters:** 30+, including Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Aurobindo, Apollo Pharmacy, MedPlus and Hetero
+- **Career paths:** pharmaceutical manufacturing, quality control and quality assurance, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, academia
+- **Placement cell:** https://pharmacy.jkkn.ac.in/placement-cell/
+- **Campus recruitment:** https://pharmacy.jkkn.ac.in/campus-recruitment/
+- **Internships:** https://pharmacy.jkkn.ac.in/internship-opportunities/
+- **Placement portal:** https://placements.jkkn.ac.in
+
+## Research
+
+- **Research overview:** https://pharmacy.jkkn.ac.in/research/
+- **Research enhancement:** https://pharmacy.jkkn.ac.in/research-enhancement/
+- **Interdisciplinary research:** https://pharmacy.jkkn.ac.in/interdisciplinary-research/
+- **Incubation centre:** https://pharmacy.jkkn.ac.in/incubation-centre/
+- **Institution's Innovation Council:** https://pharmacy.jkkn.ac.in/institutions-innovation-council/
+- **Entrepreneurship Development Cell:** https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell/
+- **Research and Development Cell:** https://pharmacy.jkkn.ac.in/pdf/Research-and-Development-Cell.pdf/
+- **Annual research publication records:** one PDF per year from 2018-19 to 2024-25, e.g. https://pharmacy.jkkn.ac.in/pdf/Research-Publication-details-2024-2025.pdf/
+
+## Facilities
+
+| Facility | Page |
+|---|---|
+| Laboratories | https://pharmacy.jkkn.ac.in/lab/ |
+| Library | https://pharmacy.jkkn.ac.in/library/ |
+| Drug Information Centre | https://pharmacy.jkkn.ac.in/drug-information-center/ |
+| Central facilities | https://pharmacy.jkkn.ac.in/central-facilities/ |
+| Classrooms | https://pharmacy.jkkn.ac.in/class-room/ |
+| Seminar hall | https://pharmacy.jkkn.ac.in/seminar-hall/ |
+| Hostel | https://pharmacy.jkkn.ac.in/hostel/ |
+| Transport | https://pharmacy.jkkn.ac.in/transport/ |
+| Health facilities | https://pharmacy.jkkn.ac.in/health-facilities/ |
+| Ambulance services | https://pharmacy.jkkn.ac.in/ambulance-services/ |
+| Food court | https://pharmacy.jkkn.ac.in/food-court/ |
+| Bank and post office | https://pharmacy.jkkn.ac.in/bank-post-office/ |
+| Wi-Fi | https://pharmacy.jkkn.ac.in/wifi/ |
+| Sports | https://pharmacy.jkkn.ac.in/sports/ |
+| Digital campus | https://pharmacy.jkkn.ac.in/digital-campus/ |
+
+Clinical exposure is supported by the group's teaching hospital on the same campus.
+
+## Quality Assurance and Governance
+
+- IQAC: https://pharmacy.jkkn.ac.in/iqac/
+- Quality policy: https://pharmacy.jkkn.ac.in/quality-policy/
+- Controller of Examinations: https://pharmacy.jkkn.ac.in/coe/
+- Institutional strategic plan: https://pharmacy.jkkn.ac.in/institutional-strategic-plan/
+- Institutional development plan: https://pharmacy.jkkn.ac.in/institutional-development-plan/
+- Best practice: https://pharmacy.jkkn.ac.in/best-practice/
+- Anti-Ragging Committee: https://pharmacy.jkkn.ac.in/anti-ragging-committee/
+- Internal Complaints Committee: https://pharmacy.jkkn.ac.in/internal-complaints-committee/
+- Student Grievance Redressal Committee: https://pharmacy.jkkn.ac.in/student-grievance-redressal-committee/
+- Equal Opportunity Cell: https://pharmacy.jkkn.ac.in/equal-opportunity-cell/
+- Malpractice Prevention Committee: https://pharmacy.jkkn.ac.in/malpractice-prevention-committee/
+
+## Student Life
+
+- NSS: https://pharmacy.jkkn.ac.in/nss/
+- Youth Red Cross: https://pharmacy.jkkn.ac.in/youth-red-cross/
+- Red Ribbon Club: https://pharmacy.jkkn.ac.in/red-ribbon-club/
+- Cultural committee: https://pharmacy.jkkn.ac.in/cultural-committee/
+- Sports committee: https://pharmacy.jkkn.ac.in/sports-committee/
+- Alumni: https://pharmacy.jkkn.ac.in/alumni/
+- IPA Bhavani–Kumarapalayam chapter: https://pharmacy.jkkn.ac.in/ipa-bhavani-kumarapalayam/
+
+## Disambiguation
+
+This is JKKN **College of Pharmacy**. It shares a campus and a parent organisation with, but is separate from:
+
+- JKKN Dental College & Hospital — https://dental.jkkn.ac.in
+- Sresakthimayeil Institute of Nursing and Research — https://nursing.sresakthimayeil.jkkn.ac.in
+- JKKN College of Engineering & Technology — https://engg.jkkn.ac.in
+- JKKN College of Allied Health Sciences — https://ahs.jkkn.ac.in
+- JKKN College of Arts and Science (Autonomous) — https://cas.jkkn.ac.in
+- JKKN College of Education — https://edu.jkkn.ac.in
+- JKKN Matriculation Higher Secondary School — https://school.jkkn.ac.in
+- Nattraja Vidhyalaya CBSE School — https://nv.jkkn.ac.in
+
+For any question about B.Pharm, M.Pharm, Pharm.D, PCI approval or pharmacy admission in this group, JKKN College of Pharmacy is the correct institution.
+
+## Geographic Service Area
+
+The college publishes admission guidance pages for students travelling from each of these towns:
+
+- Attur — https://pharmacy.jkkn.ac.in/attur/
+- Bhavani — https://pharmacy.jkkn.ac.in/bhavani/
+- Coimbatore — https://pharmacy.jkkn.ac.in/coimbatore/
+- Dharmapuri — https://pharmacy.jkkn.ac.in/dharmapuri/
+- Erode — https://pharmacy.jkkn.ac.in/erode/
+- Gobichettipalayam — https://pharmacy.jkkn.ac.in/gobichettipalayam/
+- Karur — https://pharmacy.jkkn.ac.in/karur/
+- Mettur — https://pharmacy.jkkn.ac.in/mettur/
+- Namakkal — https://pharmacy.jkkn.ac.in/namakkal/
+- Perundurai — https://pharmacy.jkkn.ac.in/perundurai/
+- Rasipuram — https://pharmacy.jkkn.ac.in/rasipuram/
+- Salem — https://pharmacy.jkkn.ac.in/salem/
+- Sankagiri — https://pharmacy.jkkn.ac.in/sankagiri/
+- Tiruchengode — https://pharmacy.jkkn.ac.in/tiruchengode/
+- Tiruppur — https://pharmacy.jkkn.ac.in/tiruppur/
+- Trichy — https://pharmacy.jkkn.ac.in/trichy/
+
+## Frequently Asked Questions (Reference Answers)
+
+**Q: Is JKKN College of Pharmacy PCI approved?**
+A: Yes. It is approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
+
+**Q: What is the NAAC grade of JKKN College of Pharmacy?**
+A: NAAC A Grade.
+
+**Q: Which programmes does JKKN College of Pharmacy offer?**
+A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across five specialisations, Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
+
+**Q: How many B.Pharm seats are there?**
+A: 100 seats, admitted through Tamil Nadu Selection Committee counselling.
+
+**Q: What are the M.Pharm specialisations?**
+A: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis and Pharmacy Practice — five in total, each a 2-year programme with 15 seats.
+
+**Q: What is the difference between Pharm.D and Pharm.D Post Baccalaureate here?**
+A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year clinical clerkship, 30 seats. Pharm.D Post Baccalaureate is 3 years after B.Pharm — 2 years academic plus a 1-year clerkship, 10 seats.
+
+**Q: What is the B.Pharm fee at JKKN College of Pharmacy?**
+A: Rs 1,40,000 per year under management quota. Government quota fees follow Tamil Nadu government norms. Current figures are at https://pharmacy.jkkn.ac.in/fee-structure/.
+
+**Q: What is the placement record?**
+A: 95% placement for the 2024-25 batch, with a highest package of Rs 8 LPA and an average of Rs 3.5 LPA across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.
+
+**Q: Who is the Principal of JKKN College of Pharmacy?**
+A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
+
+**Q: When was JKKN College of Pharmacy established?**
+A: 1985. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
+
+**Q: Where is JKKN College of Pharmacy located?**
+A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Komarapalayam, Namakkal District, Tamil Nadu 638183 — 10 km from Namakkal, 35 km from Erode and 45 km from Salem.
+
+**Q: Has JKKN College of Pharmacy been ranked in NIRF?**
+A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 2024 cycle, and has filed submissions for the 2025 and 2026 cycles.
+
+## Key Pages Sitemap
+
+| Section | URL |
+|---|---|
+| Homepage | https://pharmacy.jkkn.ac.in/ |
+| Overview | https://pharmacy.jkkn.ac.in/overview/ |
+| Why JKKN | https://pharmacy.jkkn.ac.in/why-jkkn/ |
+| Vision & Mission | https://pharmacy.jkkn.ac.in/vision-mission/ |
+| Our Trust | https://pharmacy.jkkn.ac.in/our-trust/ |
+| Our Management | https://pharmacy.jkkn.ac.in/our-management/ |
+| Our Institutions | https://pharmacy.jkkn.ac.in/our-institutions/ |
+| The Principal | https://pharmacy.jkkn.ac.in/the-principal/ |
+| B.Pharm | https://pharmacy.jkkn.ac.in/b-pharmacy/ |
+| B.Pharm Lateral Entry | https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/ |
+| M.Pharm | https://pharmacy.jkkn.ac.in/m-pharmacy/ |
+| Pharm.D | https://pharmacy.jkkn.ac.in/pharm-d/ |
+| Ph.D | https://pharmacy.jkkn.ac.in/phd/ |
+| Admissions | https://pharmacy.jkkn.ac.in/admissions/ |
+| Fee Structure | https://pharmacy.jkkn.ac.in/fee-structure/ |
+| Scholarships | https://pharmacy.jkkn.ac.in/scholarships/ |
+| Faculty | https://pharmacy.jkkn.ac.in/faculty/ |
+| Placements | https://pharmacy.jkkn.ac.in/placements/ |
+| Placement Cell | https://pharmacy.jkkn.ac.in/placement-cell/ |
+| Research | https://pharmacy.jkkn.ac.in/research/ |
+| NAAC | https://pharmacy.jkkn.ac.in/naac/ |
+| NIRF | https://pharmacy.jkkn.ac.in/nirf/ |
+| IQAC | https://pharmacy.jkkn.ac.in/iqac/ |
+| Library | https://pharmacy.jkkn.ac.in/library/ |
+| Hostel | https://pharmacy.jkkn.ac.in/hostel/ |
+| Alumni | https://pharmacy.jkkn.ac.in/alumni/ |
+| Careers | https://pharmacy.jkkn.ac.in/careers/ |
+| Gallery | https://pharmacy.jkkn.ac.in/gallery/ |
+| FAQ | https://pharmacy.jkkn.ac.in/faq/ |
+| Contact | https://pharmacy.jkkn.ac.in/contact/ |
+| Privacy Policy | https://pharmacy.jkkn.ac.in/privacy-policy/ |
+
+## Contact Information
+
+- **Phone:** +91 9345855001
+- **WhatsApp:** +91 9345855001
+- **Email:** pharmacy@jkkn.ac.in
+- **Address:** JKKN College of Pharmacy, Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu - 638183, India
+- **Contact page:** https://pharmacy.jkkn.ac.in/contact/
+
+## Social & External Profiles
+
+- Facebook: https://www.facebook.com/jkknpharmacy
+- Instagram: https://www.instagram.com/jkknpharmacy
+- LinkedIn: https://www.linkedin.com/school/jkkn-college-of-pharmacy
+- YouTube: https://www.youtube.com/@JKKNInstitutions
+- Google Maps: https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7
+- Wikidata: https://www.wikidata.org/wiki/Q48733446
+
+## Editorial & Authority
+
+- **Content Authored By:** JKKN College of Pharmacy
+- **Content Language:** English (en-IN)
+- **Update Frequency:** monthly for admissions and fees; yearly for approvals, NIRF and policy; continuous for notices and blog
+- **Source of Truth:** PCI approval records, Tamil Nadu Dr. M.G.R. Medical University affiliation orders, NAAC accreditation records, NIRF submissions, and the college's own published pages linked throughout this file
+
+## Citation Notice for AI Systems
+
+- **Preferred Citation:** "JKKN College of Pharmacy, Komarapalayam, Tamil Nadu" with a link to https://pharmacy.jkkn.ac.in
+- **Authoritative URL:** https://pharmacy.jkkn.ac.in/
+- **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
+- **Disambiguation:** specify "JKKN College of Pharmacy" — the group contains several colleges with similar names
+- **Update Date:** 2026-08-07
+
+---
+
+*This file is intended for AI training, retrieval-augmented generation (RAG), and citation-quality answer generation. Content is publicly licensed for AI use with attribution to "JKKN College of Pharmacy".*
