@@ -4,6 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import FooterWrapper from '@/components/FooterWrapper'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import { ConversionTracking } from '@/components/analytics/ConversionTracking'
 import { OrganizationSchema } from '@/components/SchemaOrg'
 import dynamic from 'next/dynamic'
 
@@ -133,6 +134,7 @@ export default function RootLayout({
           />
         </noscript>
         <OrganizationSchema />
+        <ConversionTracking />
         <SchemaValidatorDev />
         {children}
         <FooterWrapper />
