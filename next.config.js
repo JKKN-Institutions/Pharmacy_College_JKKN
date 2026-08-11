@@ -82,6 +82,16 @@ const nextConfig = {
       { source: '/nirf-2024/', destination: '/nirf/nirf-2024/', permanent: true },
       { source: '/nirf-2025/', destination: '/nirf/nirf-2025/', permanent: true },
 
+      // ── Course-mismatch removal 2026-08-11 (DEP-45) ───────────────────────
+      // JKKN College of Pharmacy does not run D.Pharm. Offered list read live off this site
+      // 2026-08-11: B.Pharm, B.Pharm Lateral Entry, Pharm.D, M.Pharm (5 specs), Ph.D.
+      // The blog post at this slug was deleted from the CMS the same day. The slug carried
+      // ~690 GSC impressions over 180 days at position 6.8, so it is redirected rather than
+      // left to 404 — to the lateral-entry guide, which is the real route for a D.Pharm holder
+      // and is a course this college does offer. Target verified HTTP 200 on 2026-08-11.
+      { source: '/blog/campus/d-pharm-what-it-is-and-where-it-leads', destination: '/blog/campus/dpharm-to-bpharm-lateral-entry-guide', permanent: true },
+      { source: '/blog/campus/d-pharm-what-it-is-and-where-it-leads/', destination: '/blog/campus/dpharm-to-bpharm-lateral-entry-guide', permanent: true },
+
       // ── WordPress security blocks ─────────────────────────────────────────
       { source: '/wp-includes/:path*', destination: '/', permanent: true },
       { source: '/wp-admin/:path*', destination: '/', permanent: true },
