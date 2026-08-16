@@ -76,7 +76,7 @@ export default function ErodePage() {
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Erode?',
       answer:
-        'Learners from Erode can apply online at admission.jkkn.ac.in or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all three pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
+        'Learners from Erode can apply online at jkkn.ai/apply/jkkn-admission-2026 or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all three pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
     },
   ];
 

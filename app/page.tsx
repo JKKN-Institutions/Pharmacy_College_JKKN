@@ -128,7 +128,7 @@ export default function Home() {
         description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
         steps={[
           { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks." },
-          { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at admission.jkkn.ac.in. Applications open May-June annually for the academic year starting in July." },
+          { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at jkkn.ai/apply/jkkn-admission-2026. Applications open May-June annually for the academic year starting in July." },
           { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
           { name: "Fee Payment and Enrollment", text: "Complete fee payment as per Tamil Nadu government norms for government quota or management quota rates. Secure your admission and receive your enrollment confirmation from JKKN College of Pharmacy." }

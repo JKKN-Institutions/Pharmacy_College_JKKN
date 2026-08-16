@@ -61,7 +61,7 @@ const faqs = [
     question:
       'How to apply for pharmacy college admission 2026 in Tamil Nadu?',
     answer:
-      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with required subjects. (2) Appear for NEET UG (recommended). (3) Register with the TN Selection Committee or individual college admission portals by April-May 2026. (4) Attend counselling (May-July 2026). (5) Pay admission fees and secure seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at admission.jkkn.ac.in.',
+      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with required subjects. (2) Appear for NEET UG (recommended). (3) Register with the TN Selection Committee or individual college admission portals by April-May 2026. (4) Attend counselling (May-July 2026). (5) Pay admission fees and secure seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at jkkn.ai/apply/jkkn-admission-2026.',
   },
   {
     question:
@@ -625,7 +625,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 step: '5',
                 title: 'Admission Confirmation',
-                text: 'Pay admission fees, submit original documents, and secure seat. JKKN College of Pharmacy accepts applications at admission.jkkn.ac.in.',
+                text: 'Pay admission fees, submit original documents, and secure seat. JKKN College of Pharmacy accepts applications at jkkn.ai/apply/jkkn-admission-2026.',
               },
             ].map((item) => (
               <div
@@ -741,7 +741,7 @@ export default function BestPharmacyCollegesTamilNadu() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://admission.jkkn.ac.in/"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-colors text-base"

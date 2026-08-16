@@ -49,7 +49,7 @@ const config: CityLandingConfig = {
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Bhavani?',
       answer:
-        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at admission.jkkn.ac.in. Learners from Bhavani can simply visit the campus in Komarapalayam — minutes away across the river — or call +91-9345855001 for admission guidance.',
+        'Applications for JKKN College of Pharmacy 2026-27 admission are open through the official portal at jkkn.ai/apply/jkkn-admission-2026. Learners from Bhavani can simply visit the campus in Komarapalayam — minutes away across the river — or call +91-9345855001 for admission guidance.',
     },
   ],
   exploreCities: [

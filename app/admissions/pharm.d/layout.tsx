@@ -50,7 +50,7 @@ export default function PharmDAdmissionLayout({ children }: { children: React.Re
         description="Step-by-step admission process for Pharm.D and Pharm.D Post Baccalaureate at JKKN College of Pharmacy, Komarapalayam."
         steps={[
           { name: 'Check Eligibility', text: 'Pharm.D: 10+2 with Physics, Chemistry & Biology (50%). Pharm.D PB: B.Pharm degree from a PCI-approved institution.' },
-          { name: 'Submit Application', text: 'Fill the online application at admission.jkkn.ac.in. Application fee ₹1,000. Forms open May-June 2026.' },
+          { name: 'Submit Application', text: 'Fill the online application at jkkn.ai/apply/jkkn-admission-2026. Application fee ₹1,000. Forms open May-June 2026.' },
           { name: 'Upload Documents', text: '+2 / B.Pharm mark sheet, transfer certificate, community certificate, Aadhaar card, passport-size photographs.' },
           { name: 'Attend Counselling', text: 'Selection based on merit (+2 PCB marks for Pharm.D; B.Pharm aggregate for Pharm.D PB).' },
           { name: 'Confirm Admission', text: 'Pay the admission fee within 7 days of seat allotment. Submit original documents and report to campus.' },

@@ -76,7 +76,7 @@ export default function NamakkalPage() {
     {
       question: 'How can I apply for admission at JKKN Pharmacy from Namakkal?',
       answer:
-        'Apply online at admission.jkkn.ac.in or call +91-9345855001 for guidance. JKKN College of Pharmacy admissions for 2026-27 are currently open for B.Pharm, M.Pharm, and Pharm.D programmes.',
+        'Apply online at jkkn.ai/apply/jkkn-admission-2026 or call +91-9345855001 for guidance. JKKN College of Pharmacy admissions for 2026-27 are currently open for B.Pharm, M.Pharm, and Pharm.D programmes.',
     },
   ];
 

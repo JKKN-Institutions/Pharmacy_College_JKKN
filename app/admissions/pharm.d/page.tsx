@@ -33,7 +33,7 @@ export default function PharmDAdmissionPage() {
     },
     {
       name: 'Fill Application Form',
-      text: 'Complete the online application at admission.jkkn.ac.in or visit campus. Application fee is ₹1,000 (concessions for SC/ST with community certificate).',
+      text: 'Complete the online application at jkkn.ai/apply/jkkn-admission-2026 or visit campus. Application fee is ₹1,000 (concessions for SC/ST with community certificate).',
     },
     {
       name: 'Submit Required Documents',

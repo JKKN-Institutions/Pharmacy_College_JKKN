@@ -50,7 +50,7 @@ export default function MPharmAdmissionLayout({ children }: { children: React.Re
         description="Step-by-step admission process for the 2-year M.Pharm programme at JKKN College of Pharmacy across all five specialisations."
         steps={[
           { name: 'Check Eligibility', text: 'B.Pharm (4-year degree under 10+2+4 pattern) from a PCI-approved institution with minimum 50% aggregate (45% for SC/ST). Valid GPAT score preferred.' },
-          { name: 'Submit Application', text: 'Fill the online application at admission.jkkn.ac.in. Application fee ₹1,000. Forms open May-June 2026.' },
+          { name: 'Submit Application', text: 'Fill the online application at jkkn.ai/apply/jkkn-admission-2026. Application fee ₹1,000. Forms open May-June 2026.' },
           { name: 'Upload Documents', text: 'B.Pharm mark sheets, degree certificate, GPAT scorecard (if available), State Pharmacy Council registration, and other documents.' },
           { name: 'Attend Counselling', text: 'Selection through TN State Counselling and Management Quota counselling. Preference given to GPAT-qualified candidates.' },
           { name: 'Confirm Admission', text: 'Pay admission fee within 7 days of seat allotment. Submit original documents and report to campus.' },

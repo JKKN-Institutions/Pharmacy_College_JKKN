@@ -61,7 +61,7 @@ export default function MPharmAdmissionPage() {
     },
     {
       name: 'Fill Application Form',
-      text: 'Complete the online application at admission.jkkn.ac.in. Application fee is ₹1,000. Indicate your preferred M.Pharm specialisations in order of preference.',
+      text: 'Complete the online application at jkkn.ai/apply/jkkn-admission-2026. Application fee is ₹1,000. Indicate your preferred M.Pharm specialisations in order of preference.',
     },
     {
       name: 'Submit Required Documents',
