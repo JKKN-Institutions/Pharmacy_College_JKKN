@@ -19,7 +19,7 @@ export default function HomepagePopup() {
           ×
         </button>
         <a
-          href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+          href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-homepagepopup"
           target="_blank"
           rel="noopener noreferrer"
         >

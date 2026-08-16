@@ -1930,7 +1930,7 @@ export default function PharmaceuticsPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center shadow-xl">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-white mb-4">Ready to Innovate in Pharmaceutical Formulation?</h2>
           <p className="text-white text-xs sm:text-sm mb-8">Enrol in the M.Pharm Pharmaceutics programme at JKKN College of Pharmacy and become a formulation scientist driving pharmaceutical innovation!</p>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmaceutics" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-xs sm:text-sm px-8 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>

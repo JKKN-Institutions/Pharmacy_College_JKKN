@@ -3002,7 +3002,7 @@ export default function PharmDPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-white mb-4">Ready to Pursue Clinical Pharmacy Excellence?</h2>
           <p className="text-lg text-white mb-4">Join the Pharm.D programme at JKKN College of Pharmacy and become a clinical pharmacy professional.</p>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-12 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2 transition-colors shadow-lg inline-block">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharm-d" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-12 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>
           </a>
@@ -3081,7 +3081,7 @@ export default function PharmDPage() {
             <div className="max-w-2xl mx-auto mb-8 text-left">
               <PharmacyEnquiryForm sourcePage="pharm-d" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} />
             </div>
-            <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg inline-block">
+            <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharm-d" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg inline-block">
               <span className="sm:hidden">Apply Now</span>
               <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>
             </a>

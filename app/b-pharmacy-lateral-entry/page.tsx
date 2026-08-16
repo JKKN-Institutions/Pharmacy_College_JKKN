@@ -2280,7 +2280,7 @@ export default function BPharmLateralEntryPage() {
           <p className="text-xs sm:text-sm mb-8">
             Join JKKN College of Pharmacy - Where Learners Transform into Industry Leaders!
           </p>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=b-pharmacy-lateral-entry" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for B.Pharm Admission 2026</span>
           </a>

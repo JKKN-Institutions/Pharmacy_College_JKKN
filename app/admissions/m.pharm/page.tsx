@@ -152,7 +152,7 @@ export default function MPharmAdmissionPage() {
 
           <div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center justify-center">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-m-pharm"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-[#006837] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-[#FBFBEE] transition-all shadow-lg"
@@ -567,7 +567,7 @@ export default function MPharmAdmissionPage() {
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-[10px] xs:text-xs sm:text-sm md:text-base mb-8">Join the 2026 M.Pharm batch and pursue advanced pharmaceutical research at JKKN!</p>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-m-pharm"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-[#006837] px-8 py-4 rounded-full text-[10px] sm:text-sm md:text-base font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block"

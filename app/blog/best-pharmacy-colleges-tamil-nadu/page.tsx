@@ -748,7 +748,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               <PharmacyEnquiryForm sourcePage="blog-best" />
             </div>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-best-pharmacy-colleges-tamil-nadu"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-colors text-base"

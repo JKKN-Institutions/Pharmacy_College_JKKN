@@ -213,7 +213,7 @@ export default function Home() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
-                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=home" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
                   Start Your Application →
                 </a>
                 <button

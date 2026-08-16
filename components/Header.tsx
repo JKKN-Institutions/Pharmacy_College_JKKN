@@ -207,7 +207,7 @@ export default function Header() {
               {/* Apply Now Button - Right Side (spans both rows) */}
               <div className="flex items-center flex-shrink-0">
                 <a
-                  href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
@@ -239,7 +239,7 @@ export default function Header() {
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Apply Now Button */}
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
@@ -378,7 +378,7 @@ export default function Header() {
 
               {/* Mobile Apply Now Button */}
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity text-sm md:text-base"

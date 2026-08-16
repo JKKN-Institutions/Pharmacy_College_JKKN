@@ -1161,7 +1161,7 @@ export default function MPharmacyPage() {
             <div className="max-w-2xl mx-auto mb-8 text-left">
               <PharmacyEnquiryForm sourcePage="m-pharmacy" />
             </div>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=m-pharmacy" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
           </a>

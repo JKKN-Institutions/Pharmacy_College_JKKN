@@ -129,7 +129,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               Call Now
             </a>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#7cb983] hover:bg-[#6ba872] text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
@@ -182,7 +182,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center mb-7 sm:mb-9">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
@@ -589,7 +589,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from {config.city} to learn about their experience.
             </p>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#005a2e] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
