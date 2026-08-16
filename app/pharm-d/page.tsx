@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
+import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
+import { DEFAULT_PROGRAMME_BY_PAGE } from "@/lib/pharmacy-programmes";
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -3073,6 +3075,12 @@ export default function PharmDPage() {
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mb-4">Ready to Start Your Clinical Pharmacy Career with Pharm.D?</h2>
           <p className="text-xs sm:text-sm mb-4">Choose your pathway - Pharm.D or Pharm.D (PB) - and become a Doctor of Pharmacy!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+
+            {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
+                cannot POST there directly - the endpoint sends no CORS header. */}
+            <div className="max-w-2xl mx-auto mb-8 text-left">
+              <PharmacyEnquiryForm sourcePage="pharm-d" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} />
+            </div>
             <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#006837] transition-colors shadow-lg inline-block">
               <span className="sm:hidden">Apply Now</span>
               <span className="hidden sm:inline">Apply for Pharm.D Admission 2026</span>

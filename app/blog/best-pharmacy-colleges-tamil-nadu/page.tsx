@@ -22,6 +22,7 @@ import {
   Mail,
   ArrowRight,
 } from 'lucide-react';
+import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 
 const faqs = [
   {
@@ -740,6 +741,12 @@ export default function BestPharmacyCollegesTamilNadu() {
             Pharm.D programs.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+
+            {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
+                cannot POST there directly - the endpoint sends no CORS header. */}
+            <div className="max-w-2xl mx-auto mb-8 text-left">
+              <PharmacyEnquiryForm sourcePage="blog-best" />
+            </div>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"
               target="_blank"

@@ -21,6 +21,8 @@ import {
   Briefcase,
   Beaker,
 } from 'lucide-react'
+import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
+import { DEFAULT_PROGRAMME_BY_PAGE } from "@/lib/pharmacy-programmes";
 
 export default function BPharmAdmissionPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null)
@@ -518,6 +520,12 @@ export default function BPharmAdmissionPage() {
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Start Your B.Pharm Journey?</h2>
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-[10px] xs:text-xs sm:text-sm md:text-base mb-8">Join the 2026 batch and become a Registered Pharmacist in 4 years!</p>
+
+            {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
+                cannot POST there directly - the endpoint sends no CORS header. */}
+            <div className="max-w-2xl mx-auto mb-8 text-left">
+              <PharmacyEnquiryForm sourcePage="b-pharmacy" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["b-pharmacy"]} />
+            </div>
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026"
               target="_blank"

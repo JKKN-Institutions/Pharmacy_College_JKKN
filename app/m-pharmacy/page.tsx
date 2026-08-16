@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
+import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 
 export default function MPharmacyPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
@@ -1154,6 +1155,12 @@ export default function MPharmacyPage() {
         <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
           <p className="text-[10px] xs:text-xs sm:text-sm mb-8">Choose your specialisation and apply for M.Pharm admission 2026!</p>
+
+            {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
+                cannot POST there directly - the endpoint sends no CORS header. */}
+            <div className="max-w-2xl mx-auto mb-8 text-left">
+              <PharmacyEnquiryForm sourcePage="m-pharmacy" />
+            </div>
           <a href="https://www.jkkn.ai/apply/jkkn-admission-2026" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>

@@ -1,6 +1,7 @@
 import Header from '@/components/Header'
 import { Phone, Mail, MapPin } from 'lucide-react'
 import { BreadcrumbListSchema } from '@/components/SchemaOrg'
+import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 
 export default function ContactPage() {
   return (
@@ -109,6 +110,12 @@ export default function ContactPage() {
                 </p>
 
                 {/* Button */}
+
+              {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
+                  cannot POST there directly - the endpoint sends no CORS header. */}
+              <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-6 sm:p-8 mb-8 text-left">
+                <PharmacyEnquiryForm sourcePage="contact" />
+              </div>
                 <a
                   href="https://www.jkkn.ai/apply/jkkn-admission-2026"
                   target="_blank"
