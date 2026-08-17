@@ -63,14 +63,17 @@ export default function Header() {
       }}
     >
       {item.submenu ? (
-        <button
+        <Link
+          href={item.href}
+          aria-haspopup="true"
+          aria-expanded={activeSubmenu === item.label}
           className="text-black hover:text-primary focus:text-primary focus:outline-none font-semibold text-[11px] md:text-[12px] lg:text-[13px] px-1.5 lg:px-2 xl:px-3 py-2 transition-colors whitespace-nowrap flex items-center gap-1"
         >
           {item.label}
           <svg className="w-2.5 h-2.5 lg:w-3 lg:h-3 fill-current" viewBox="0 0 12 12">
             <path d="M6 9L1 4h10z" />
           </svg>
-        </button>
+        </Link>
       ) : (
         <Link
           href={item.href}
@@ -99,14 +102,17 @@ export default function Header() {
                 onMouseLeave={() => !subitem.submenu && setActiveNestedSubmenu(null)}
               >
                 {subitem.submenu ? (
-                  <button
+                  <Link
+                    href={subitem.href}
+                    aria-haspopup="true"
+                    aria-expanded={activeNestedSubmenu === subitem.label}
                     className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between text-left"
                   >
                     <span>{subitem.label}</span>
                     <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) && subitem.label !== 'Social Work Activities' ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
                       <path d="M4 1l5 5-5 5z" />
                     </svg>
-                  </button>
+                  </Link>
                 ) : (
                   <Link
                     href={subitem.href}
@@ -129,14 +135,17 @@ export default function Header() {
                         onMouseLeave={() => !nestedItem.submenu && setActiveThirdLevelSubmenu(null)}
                       >
                         {nestedItem.submenu ? (
-                          <button
+                          <Link
+                            href={nestedItem.href}
+                            aria-haspopup="true"
+                            aria-expanded={activeThirdLevelSubmenu === nestedItem.label}
                             className="w-full block px-4 py-2.5 text-sm text-gray-600 hover:bg-primary hover:text-white focus:bg-primary focus:text-white focus:outline-none transition-colors flex items-center justify-between text-left"
                           >
                             <span>{nestedItem.label}</span>
                             <svg className={`w-3 h-3 fill-current ml-2 ${['OTHERS', 'COMMITTEE', 'PLACEMENT'].includes(item.label) ? 'rotate-180' : ''}`} viewBox="0 0 12 12">
                               <path d="M4 1l5 5-5 5z" />
                             </svg>
-                          </button>
+                          </Link>
                         ) : (
                           <Link
                             href={nestedItem.href}
