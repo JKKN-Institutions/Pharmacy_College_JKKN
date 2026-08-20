@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import { HowToSchema, SpeakableWebPageSchema, EventSchema, CourseSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
-  title: 'B.Pharm Admission 2026 | JKKN College of Pharmacy',
+  title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
   description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility 10+2 PCM/B (50%), fee ₹1,40,000 MQ. TN Selection Committee & Management Quota.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/',
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/',
-    title: 'B.Pharm Admission 2026 | JKKN College of Pharmacy',
+    title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
     description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility 10+2 PCM/B (50%), fee ₹1,40,000 MQ.',
     images: [
       {
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'B.Pharm Admission 2026 | JKKN College of Pharmacy',
+    title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
     description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
