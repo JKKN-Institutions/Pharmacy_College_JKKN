@@ -68,8 +68,8 @@ export default function PharmDPage() {
             <GraduationCap className="w-10 h-10" />
             DOCTORAL PROGRAMME 2026
           </div>
-          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Pharm.D - Doctor of Pharmacy</h1>
-          <p className="text-xs sm:text-sm">Clinical Pharmacy Excellence • Patient Care Focus • Hospital Practice</p>
+          <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-4">Pharm.D Colleges in Tamil Nadu &mdash; JKKN College of Pharmacy</h1>
+          <p className="text-xs sm:text-sm">Doctor of Pharmacy • PCI Approved • Tamil Nadu Dr. M.G.R. Medical University • Komarapalayam, Namakkal</p>
         </div>
       </div>
 
@@ -2337,9 +2337,23 @@ export default function PharmDPage() {
         </div>
 
         <div className="mb-4">
-          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">Top Institutions for Pharm.D in India</h3>
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">Pharm.D Colleges in Tamil Nadu and India</h3>
+
+          <p className="text-xs sm:text-sm text-[#002309] mb-4">
+            Among the Pharm.D colleges in Tamil Nadu listed below are JKKN College of Pharmacy
+            (Komarapalayam, Namakkal district), JSS College of Pharmacy (Ooty), Annamalai University
+            (Chidambaram) and Madras Medical College (Chennai). Tamil Nadu Dr. M.G.R. Medical
+            University is the affiliating university for Pharm.D in the state.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#006837]">
+              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">JKKN College of Pharmacy, Komarapalayam</h4>
+              <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Self-financing, PCI approved, NAAC A Grade</p>
+              <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Location:</span> Komarapalayam, Namakkal district, Tamil Nadu</p>
+              <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> Pharm.D 30 seats and Pharm.D (Post Baccalaureate) 10 seats, affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+              <p className="text-xs font-semibold text-[#006837]">Fee: ₹2,75,000/year day scholar, ₹3,25,000/year with hostel (management quota)</p>
+            </div>
             <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">JSS College of Pharmacy, Ooty</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
