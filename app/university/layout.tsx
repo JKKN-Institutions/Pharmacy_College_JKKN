@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
-  title: 'Anna University Affiliation | JKKN Pharmacy',
-  description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
+  title: 'TN Dr. M.G.R. Medical University Affiliation | JKKN Pharmacy',
+  description: 'JKKN College of Pharmacy is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Affiliation details, university regulations.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/university/',
   },
@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/university/',
-    title: 'Anna University Affiliation | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
+    title: 'TN Dr. M.G.R. Medical University Affiliation | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Affiliation details, university regulations.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Anna University Affiliation | JKKN Pharmacy',
-    description: 'JKKN College of Pharmacy is affiliated to Anna University, Chennai. Affiliation details, university regulations.',
+    title: 'TN Dr. M.G.R. Medical University Affiliation | JKKN Pharmacy',
+    description: 'JKKN College of Pharmacy is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. Affiliation details, university regulations.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
