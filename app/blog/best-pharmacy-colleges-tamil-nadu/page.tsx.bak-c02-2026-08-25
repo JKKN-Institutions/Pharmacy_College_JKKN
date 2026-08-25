@@ -552,7 +552,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               },
               {
                 program: 'M.Pharm',
-                duration: '2 Years · 6 Specialisations',
+                duration: '2 Years · 5 Specialisations',
                 seats: '45 Seats',
                 icon: Award,
               },
@@ -696,7 +696,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                 desc: 'Complete B.Pharm details — learning framework, eligibility, fees, career paths',
               },
               {
-                title: 'M.Pharm with 6 Specialisations',
+                title: 'M.Pharm with 5 Specialisations',
                 href: '/m-pharmacy/',
                 desc: 'Pharmaceutics, Pharmacology, Pharm Chemistry, Pharm Analysis, Practice',
               },

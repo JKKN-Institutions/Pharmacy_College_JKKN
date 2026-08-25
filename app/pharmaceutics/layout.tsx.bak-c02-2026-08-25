@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     question: "What is the eligibility for M.Pharm Pharmaceutics at JKKN?",
-    answer: "Candidates must hold a B.Pharm degree with a minimum of 50% marks (45% for SC and ST candidates) from a PCI approved institution. A valid GPAT score is preferred for admission. Seats are filled through merit-based selection as per PCI and university norms."
+    answer: "Candidates must hold a B.Pharm degree with a minimum of 55% marks from a recognised university. A valid GPAT score is preferred for admission. Seats are filled through merit-based selection as per PCI and university norms."
   },
   {
     question: "What are the career options after M.Pharm Pharmaceutics?",

@@ -63,7 +63,7 @@ const faqSchema = {
       "name": "What is M.Pharm course?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "M.Pharm (Master of Pharmacy) is a 2-year postgraduate programme in pharmaceutical sciences with six specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. The programme comprises 4 semesters of coursework and research dissertation. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
+        "text": "M.Pharm (Master of Pharmacy) is a 2-year postgraduate programme in pharmaceutical sciences with five specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, and Pharmacy Practice. The programme comprises 4 semesters of coursework and research dissertation. Eligibility requires B.Pharm with 55% marks and GPAT score (preferred)."
       }
     },
     {

@@ -21,7 +21,7 @@ export default function MPharmacyPage() {
       <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3">M.Pharm — Master of Pharmacy at JKKN College of Pharmacy, Tamil Nadu</h1>
-          <p className="text-[9px] xs:text-[10px] sm:text-xs text-gray-100">6 PCI-Approved Specialisations • NAAC A Grade • Research Excellence • GPAT/GATE Pathway</p>
+          <p className="text-[9px] xs:text-[10px] sm:text-xs text-gray-100">5 PCI-Approved Specialisations • NAAC A Grade • Research Excellence • GPAT/GATE Pathway</p>
         </div>
       </div>
 
@@ -32,7 +32,7 @@ export default function MPharmacyPage() {
 
           <div className="snippet-answer speakable-summary text-xs sm:text-sm text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 6 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD programmes</Link>.
+              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 5 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD programmes</Link>.
             </p>
           </div>
 
@@ -220,23 +220,6 @@ export default function MPharmacyPage() {
               </div>
               <p><span className="font-semibold text-[#006837]">Career:</span> Clinical Pharmacist, Hospital Pharmacist, Drug Information Specialist</p>
               <Link href="/pharmacy-practice" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
-                Learn More →
-              </Link>
-            </div>
-          </div>
-
-          {/* 6. Pharmaceutical Regulatory Affairs */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#006837] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">6. Pharmaceutical Regulatory Affairs</h3>
-            <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Drug approval, dossier preparation, regulatory compliance</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Drugs and Cosmetics Act, CDSCO and DCGI submissions, CTD and eCTD dossiers, clinical trial regulation, pharmacovigilance reporting, labelling compliance</p>
-              <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">New for 2026-27</span>
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">15 Seats</span>
-              </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Regulatory Affairs Associate, Dossier Writer, Drug Safety Associate, Compliance Officer</p>
-              <Link href="/pharmaceutical-regulatory-affairs" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
                 Learn More →
               </Link>
             </div>
@@ -529,7 +512,7 @@ export default function MPharmacyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] font-bold mr-2">•</span>
-                <span>Minimum 50% aggregate marks in B.Pharm (45% for SC/ST candidates)</span>
+                <span>Minimum 55% aggregate marks in B.Pharm (50% for SC/ST/OBC candidates in reserved category)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#006837] font-bold mr-2">•</span>
@@ -1063,7 +1046,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 4 && (
               <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 6 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 50% marks (45% SC/ST), and GPAT/GATE qualification for admission to top institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
+                  M.Pharm (Master of Pharmacy) is a 2-year postgraduate degree programme in pharmaceutical sciences offering specialised education in 5 main areas: Pharmaceutics (drug formulation and delivery systems), Pharmaceutical Analysis (analytical methods and quality control), Pharmacology (drug action and toxicology), Pharmaceutical Chemistry (medicinal chemistry and drug design), and Pharmacy Practice (clinical pharmacy and patient care). Programme comprises 4 semesters combining advanced coursework in pharmaceutical sciences (Semesters 1-2) with intensive research work and dissertation (Semesters 3-4). Eligibility requires B.Pharm degree from PCI-approved university with 55% marks (50% SC/ST/OBC), and GPAT/GATE qualification for admission to top institutions like NIPER and IITs. M.Pharm graduates work in pharmaceutical R&D, quality control, regulatory affairs, clinical research, hospital pharmacy, and teaching positions with starting salaries ₹25,000-45,000/month progressing to ₹1,00,000-2,00,000/month in senior roles.
                 </p>
               </div>
             )}
@@ -1087,7 +1070,7 @@ export default function MPharmacyPage() {
             {expandedFAQ === 5 && (
               <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
-                  M.Pharm at JKKN offers 6 specialisations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. (6) Pharmaceutical Regulatory Affairs - Focus on drug approval, CDSCO and DCGI submissions, CTD and eCTD dossier preparation, clinical trial regulation, pharmacovigilance and labelling compliance. Careers in regulatory affairs, dossier writing, drug safety. New for 2026-27. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice, Documentation and compliance → Regulatory Affairs.
+                  M.Pharm offers 5 major specialisations: (1) Pharmaceutics - Focus on drug formulation, delivery systems, novel drug delivery (nanoparticles, liposomes), tablet/capsule development, quality by design. Careers in formulation R&D, product development. Salary ₹30-50K starting. (2) Pharmaceutical Analysis - Focus on analytical methods, HPLC, LC-MS/MS, method development/validation, quality control, impurity profiling. Careers in QC labs, analytical R&D. Salary ₹25-45K starting. (3) Pharmacology - Focus on drug action, toxicology, preclinical research, drug screening, molecular pharmacology. Careers in pharmacology research, safety assessment. Salary ₹30-50K starting. (4) Pharmaceutical Chemistry - Focus on medicinal chemistry, drug design, synthesis, SAR studies, computational chemistry. Careers in drug discovery, synthetic chemistry. Salary ₹30-50K starting. (5) Pharmacy Practice - Focus on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy, medication therapy management. Careers in hospital clinical pharmacy, drug information. Salary ₹25-40K starting. Choose based on interests: Lab formulation work → Pharmaceutics, Analytical techniques → Analysis, Understanding drug mechanisms → Pharmacology, Chemical synthesis → Chemistry, Patient interaction → Pharmacy Practice.
                 </p>
               </div>
             )}

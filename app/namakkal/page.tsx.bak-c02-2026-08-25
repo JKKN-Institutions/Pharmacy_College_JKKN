@@ -56,7 +56,7 @@ export default function NamakkalPage() {
     {
       question: 'What pharmacy courses are available at pharmacy colleges in Namakkal?',
       answer:
-        'JKKN College of Pharmacy offers three PCI-approved programmes: B.Pharm (4 years, 100 seats), M.Pharm (2 years, 90 seats across 6 specialisations), and Pharm.D (6 years, 30 seats). All programmes include clinical training at the campus hospital.',
+        'JKKN College of Pharmacy offers three PCI-approved programmes: B.Pharm (4 years, 100 seats), M.Pharm (2 years, 30 seats), and Pharm.D (6 years, 30 seats). All programmes include clinical training at the campus hospital.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',

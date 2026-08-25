@@ -24,7 +24,7 @@ export default function Home() {
   const homepageFaqs = [
     {
       question: "What pharmacy courses are offered at JKKN Pharmacy College?",
-      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with six specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences."
+      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with five specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences."
     },
     {
       question: "Is JKKN Pharmacy College PCI approved?",
@@ -48,7 +48,7 @@ export default function Home() {
     },
     {
       question: "What M.Pharm specialisations are available?",
-      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
+      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in five specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. Each has 9-15 seats. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
     },
     {
       question: "Is hostel accommodation available?",
@@ -72,7 +72,7 @@ export default function Home() {
     },
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
-      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
+      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes."
     }
   ];
 
@@ -156,7 +156,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
-                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
             </div>
 
@@ -1447,7 +1447,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.
+                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with five specialisations, Pharm.D, and Ph.D programmes.
               </p>
             </details>
           </div>

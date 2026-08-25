@@ -38,7 +38,7 @@ const PHARMACY_PRACTICE_FAQS = [
   {
     question: 'What is the eligibility for M.Pharm Pharmacy Practice at JKKN?',
     answer:
-      'Candidates must hold a B.Pharm degree with a minimum of 50% aggregate marks (45% for SC and ST candidates) from a PCI approved institution. A valid GPAT score is preferred for admission. Seats are filled based on merit and applicable state counselling norms.',
+      'Candidates must hold a B.Pharm degree with a minimum of 55% aggregate marks from a recognised university. A valid GPAT score is preferred for admission. Seats are filled based on merit and applicable state counselling norms.',
   },
   {
     question: 'What career options exist after M.Pharm Pharmacy Practice?',
