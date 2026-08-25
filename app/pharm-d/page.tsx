@@ -1951,6 +1951,16 @@ export default function PharmDPage() {
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">Pharm.D Admission Process & Important Dates</h2>
         </div>
 
+        <p className="text-xs sm:text-sm text-[#002309] mb-4 bg-[#d4f1e4] border-l-4 border-[#006837] rounded-r-lg p-4">
+          <span className="font-semibold">Pharm.D application dates for Tamil Nadu 2026-27</span> are
+          published and kept current on our{' '}
+          <Link href="/admissions/pharm.d" className="font-bold text-[#006837] underline">
+            Pharm.D Admission 2026 page
+          </Link>
+          . That page is the single source for the application window, the counselling schedule and
+          the documents required. The summary below is an overview only.
+        </p>
+
         {/* For Pharm.D (6 Years) */}
         <div className="mb-8">
           <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">For Pharm.D (6 Years)</h3>
