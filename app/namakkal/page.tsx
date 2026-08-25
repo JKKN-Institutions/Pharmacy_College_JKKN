@@ -405,7 +405,7 @@ export default function NamakkalPage() {
 
           {/* University Affiliation */}
           <p className="text-[11px] sm:text-xs text-gray-500 mt-5 sm:mt-7 max-w-2xl mx-auto leading-relaxed">
-            B.Pharm and M.Pharm programmes are affiliated to <strong className="text-gray-700">Periyar University</strong>. Pharm.D (Doctor of Pharmacy) is affiliated to <strong className="text-gray-700">Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
+            B.Pharm, M.Pharm and Pharm.D (Doctor of Pharmacy) programmes are all affiliated to <strong className="text-gray-700">The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
           </p>
         </div>
       </section>
@@ -740,7 +740,7 @@ export default function NamakkalPage() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Bachelor of Pharmacy (B.Pharm)",
-            "description": "4-year undergraduate pharmacy programme approved by PCI, affiliated to Periyar University, at JKKN College of Pharmacy, Namakkal district, Tamil Nadu.",
+            "description": "4-year undergraduate pharmacy programme approved by PCI, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, at JKKN College of Pharmacy, Namakkal district, Tamil Nadu.",
             "provider": {
               "@type": "EducationalOrganization",
               "name": "JKKN College of Pharmacy",
@@ -765,7 +765,7 @@ export default function NamakkalPage() {
             "@context": "https://schema.org",
             "@type": "Course",
             "name": "Master of Pharmacy (M.Pharm)",
-            "description": "2-year postgraduate pharmacy programme at JKKN College of Pharmacy, Namakkal district. Affiliated to Periyar University. Approved by PCI.",
+            "description": "2-year postgraduate pharmacy programme at JKKN College of Pharmacy, Namakkal district. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Approved by PCI.",
             "provider": {
               "@type": "EducationalOrganization",
               "name": "JKKN College of Pharmacy",

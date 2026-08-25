@@ -404,7 +404,7 @@ export default function ErodePage() {
           </div>
 
           <p className="text-[11px] sm:text-xs text-gray-500 mt-5 sm:mt-7 max-w-2xl mx-auto leading-relaxed">
-            B.Pharm and M.Pharm programmes are affiliated to <strong className="text-gray-700">Periyar University</strong>. Pharm.D (Doctor of Pharmacy) is affiliated to <strong className="text-gray-700">Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
+            B.Pharm, M.Pharm and Pharm.D (Doctor of Pharmacy) programmes are all affiliated to <strong className="text-gray-700">The Tamil Nadu Dr. M.G.R. Medical University, Chennai</strong>. All programmes are approved by the <strong className="text-gray-700">Pharmacy Council of India (PCI)</strong>.
           </p>
         </div>
       </section>
@@ -732,7 +732,7 @@ export default function ErodePage() {
               "@context": "https://schema.org",
               "@type": "Course",
               "name": "B.Pharm (Bachelor of Pharmacy)",
-              "description": "4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "description": "4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
               "provider": {
                 "@type": "EducationalOrganization",
                 "name": "JKKN College of Pharmacy",
@@ -754,7 +754,7 @@ export default function ErodePage() {
               "@context": "https://schema.org",
               "@type": "Course",
               "name": "M.Pharm (Master of Pharmacy)",
-              "description": "2-year Master of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Periyar University.",
+              "description": "2-year Master of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
               "provider": {
                 "@type": "EducationalOrganization",
                 "name": "JKKN College of Pharmacy",

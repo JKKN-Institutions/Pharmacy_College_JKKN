@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
-  description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI approved, NAAC A Grade.',
+  description: 'JKKN Pharmacy affiliations & approvals. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, PCI approved, NAAC A Grade.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/affiliation-details/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/affiliation-details/',
     title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
-    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI approved, NAAC A Grade.',
+    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, PCI approved, NAAC A Grade.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Affiliation & Approvals | PCI Approved | JKKN Pharmacy',
-    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to Anna University, PCI approved, NAAC A Grade.',
+    description: 'JKKN Pharmacy affiliations & approvals. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, PCI approved, NAAC A Grade.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
