@@ -12,7 +12,7 @@ const config: CityLandingConfig = {
   busText: 'Frequent TNSTC and private buses operate between Tiruchengode and Komarapalayam throughout the day',
   pageTitle: 'Pharmacy College near Tiruchengode',
   snippetAnswer:
-    'JKKN College of Pharmacy is the PCI-approved, NAAC-accredited pharmacy college nearest to Tiruchengode, located about 20 km away in Komarapalayam, in the same Namakkal district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 95%+ campus placement support.',
+    'JKKN College of Pharmacy is the PCI-approved, NAAC-accredited pharmacy college nearest to Tiruchengode, located about 20 km away in Komarapalayam, in the same Namakkal district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
   whyText:
     'Tiruchengode is a major taluk town in Namakkal district, just 20 km from JKKN — close enough for a comfortable daily commute. Learners from Tiruchengode get a PCI-approved pharmacy education in their own district without relocating to a metro city.',
   commuteText:
@@ -24,7 +24,7 @@ const config: CityLandingConfig = {
     {
       question: 'Which is the nearest pharmacy college to Tiruchengode?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 20 km from Tiruchengode, within the same Namakkal district. It is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital for clinical training and 95%+ placement support.',
+        'JKKN College of Pharmacy in Komarapalayam is about 20 km from Tiruchengode, within the same Namakkal district. It is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital for clinical training and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Tiruchengode?',

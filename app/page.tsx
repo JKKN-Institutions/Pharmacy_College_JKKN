@@ -36,7 +36,7 @@ export default function Home() {
     },
     {
       question: "What is the placement record at JKKN Pharmacy College?",
-      answer: "JKKN Pharmacy College achieved a 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA."
+      answer: "JKKN Pharmacy College achieved a 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA."
     },
     {
       question: "What career opportunities are available after pharmacy?",
@@ -72,7 +72,7 @@ export default function Home() {
     },
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
-      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
+      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
     }
   ];
 
@@ -156,7 +156,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
-                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
             </div>
 
@@ -198,7 +198,7 @@ export default function Home() {
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Learners</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">95%</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">78%</div>
                   <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement (2024-25)</div>
                 </div>
                 <div className="text-center">
@@ -271,7 +271,7 @@ export default function Home() {
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 95% placement rate and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
@@ -329,7 +329,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">95%+ Placement Record</span>
+                  <span className="text-gray-700 font-medium text-sm sm:text-base">78% Placement Record 2024-25</span>
                 </div>
               </div>
 
@@ -823,7 +823,7 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 lg:gap-6">
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">95%+</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">78%</div>
                   <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Placement Rate</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
@@ -1237,9 +1237,9 @@ export default function Home() {
               </thead>
               <tbody>
                 {[
-                  { year: '2024–25', placed: '95%', highest: '₹8 LPA', average: '₹3.5 LPA', recruiters: 'Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Apollo Pharmacy' },
-                  { year: '2023–24', placed: '92%', highest: '₹7.5 LPA', average: '₹3.2 LPA', recruiters: 'Aurobindo, Hetero, MedPlus, Biocon, Divi\'s Laboratories' },
-                  { year: '2022–23', placed: '90%', highest: '₹7 LPA', average: '₹3 LPA', recruiters: 'Mankind Pharma, Alkem, Glenmark, Cadila, Torrent Pharma' },
+                  { year: '2024–25', placed: '78%', highest: '₹8 LPA', average: '₹3.5 LPA', recruiters: 'Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Apollo Pharmacy' },
+                  { year: '2023–24', placed: '81%', highest: '₹7.5 LPA', average: '₹3.2 LPA', recruiters: 'Aurobindo, Hetero, MedPlus, Biocon, Divi\'s Laboratories' },
+                  { year: '2022–23', placed: '83%', highest: '₹7 LPA', average: '₹3 LPA', recruiters: 'Mankind Pharma, Alkem, Glenmark, Cadila, Torrent Pharma' },
                 ].map((row, i) => (
                   <tr key={row.year} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                     <td className="px-4 py-3 font-medium">{row.year}</td>
@@ -1348,7 +1348,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN Pharmacy College has 95%+ placement rate with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
+                JKKN Pharmacy College has 78% placement rate (2024-25) with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
               </p>
             </details>
 
@@ -1447,7 +1447,7 @@ export default function Home() {
                 <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
               </summary>
               <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.
+                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.
               </p>
             </details>
           </div>

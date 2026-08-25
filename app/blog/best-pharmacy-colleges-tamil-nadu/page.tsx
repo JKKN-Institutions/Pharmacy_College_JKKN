@@ -34,7 +34,7 @@ const faqs = [
     question:
       'Which pharmacy college in Tamil Nadu has the best placement?',
     answer:
-      'JKKN College of Pharmacy in Namakkal reports 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. Annamalai University achieves 90% placement with an average package of 12 LPA. JSS College of Pharmacy reports a median package of 7.8 LPA. Placement rates vary between 63% and 95% across the top 10 Tamil Nadu pharmacy colleges.',
+      'JKKN College of Pharmacy in Namakkal reports 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. Annamalai University achieves 90% placement with an average package of 12 LPA. JSS College of Pharmacy reports a median package of 7.8 LPA. Placement rates vary between 63% and 90% across the top 10 Tamil Nadu pharmacy colleges.',
   },
   {
     question:
@@ -142,7 +142,7 @@ const collegeRankings = [
     location: 'Namakkal',
     nirf: '101-125',
     naac: 'A',
-    placement: '95%',
+    placement: '78%',
     usp: '39-year legacy, PCI approved, 500-bed hospital',
   },
 ];
@@ -281,7 +281,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
           {/* Snippet paragraph — 40-60 word summary for featured snippet extraction */}
           <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
-            The best pharmacy colleges in Tamil Nadu are JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai, NIRF #10), Annamalai University (Chidambaram, NIRF #27), and JKKN College of Pharmacy (Namakkal, 95% placement rate). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programs.
+            The best pharmacy colleges in Tamil Nadu are JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai, NIRF #10), Annamalai University (Chidambaram, NIRF #27), and JKKN College of Pharmacy (Namakkal, 78% placement rate 2024-25). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programs.
           </p>
 
           {/* Snippet-optimized table — immediately below snippet paragraph */}
@@ -371,7 +371,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             NAAC (National Assessment and Accreditation Council). JSS College
             of Pharmacy in Ooty leads with NIRF #4 nationally, followed by SRM
             College of Pharmacy at #10. Eight colleges hold NAAC A grade or
-            above, with placement rates ranging from 63% to 95% across
+            above, with placement rates ranging from 63% to 90% across
             institutions.
           </p>
         </section>
@@ -464,8 +464,8 @@ export default function BestPharmacyCollegesTamilNadu() {
             {[
               {
                 label: 'Highest Placement Rate',
-                value: '95%',
-                sub: 'JKKN College of Pharmacy',
+                value: '90%',
+                sub: 'Annamalai University (Pharmacy)',
               },
               {
                 label: 'Highest Average CTC',
@@ -501,8 +501,8 @@ export default function BestPharmacyCollegesTamilNadu() {
           </div>
           <p className="text-gray-700 leading-relaxed">
             Placement rates across Tamil Nadu&apos;s top pharmacy colleges
-            range from 63% (PSG College of Pharmacy) to 95% (JKKN College of
-            Pharmacy). Average salary packages range from 3-4 LPA for B.Pharm
+            range from 63% (PSG College of Pharmacy) to 90% (Annamalai
+            University). Average salary packages range from 3-4 LPA for B.Pharm
             graduates to 6-12 LPA for M.Pharm and Pharm.D graduates. Major
             recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s
             Laboratories, Lupin, Aurobindo Pharma, Apollo Pharmacy, Biocon,
@@ -527,7 +527,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               specialisations), and Pharm.D (6 years, 30 seats) programs.
             </p>
             <p className="mt-4">
-              JKKN College of Pharmacy reports a 95% placement rate for the
+              JKKN College of Pharmacy reports a 78% placement rate for the
               2024-25 batch with 30+ recruiting companies including Sun
               Pharma, Cipla, Dr. Reddy&apos;s, Lupin, Aurobindo Pharma, and
               Apollo Pharmacy. The highest package recorded is 8 LPA with an
@@ -708,7 +708,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 title: 'JKKN Placement Records and Recruiter List',
                 href: '/placement-cell/',
-                desc: '95% placement rate, 30+ recruiters, salary packages',
+                desc: '78% placement rate (2024-25), 30+ recruiters, salary packages',
               },
             ].map((link) => (
               <Link
@@ -736,8 +736,8 @@ export default function BestPharmacyCollegesTamilNadu() {
             Apply Now — Pharmacy Admission 2026
           </p>
           <p className="text-blue-100 text-base sm:text-lg max-w-2xl mx-auto mb-8">
-            Join JKKN College of Pharmacy — PCI approved, NAAC A Grade, 95%
-            placement rate. Applications open for B.Pharm, M.Pharm, and
+            Join JKKN College of Pharmacy — PCI approved, NAAC A Grade, 78%
+            placement rate (2024-25). Applications open for B.Pharm, M.Pharm, and
             Pharm.D programs.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

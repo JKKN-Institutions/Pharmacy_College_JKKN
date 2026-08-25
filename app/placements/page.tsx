@@ -15,7 +15,7 @@ import {
 /* ──────────────────────────── DATA ──────────────────────────── */
 
 const overallStats = [
-  { value: 95, suffix: '%+', label: 'Placement Rate', icon: TrendingUp },
+  { value: 78, suffix: '%', label: 'Placement Rate 2024-25', icon: TrendingUp },
   { value: 8, suffix: ' LPA', label: 'Highest Package', icon: Award },
   { value: 3.5, suffix: ' LPA', label: 'Average Package', icon: BarChart3 },
   { value: 30, suffix: '+', label: 'Top Recruiters', icon: Building2 },
@@ -140,7 +140,7 @@ const testimonials = [
 const placementFaqs = [
   {
     question: 'What is the placement rate at JKKN College of Pharmacy?',
-    answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
+    answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 78% for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
   },
   {
     question: 'What is the highest package offered at JKKN Pharmacy College?',
@@ -192,7 +192,10 @@ const sectorBreakdown = [
 /* ──────────────────────────── COUNTER HOOK ──────────────────────────── */
 
 function useCounter(end: number, duration: number = 2000, inView: boolean) {
-  const [count, setCount] = useState(0);
+  // Seeded with the FINAL value, never 0. Googlebot and the AI engines read the
+  // pre-rendered HTML before any animation runs, so useState(0) published
+  // "0% Placement Rate" to every crawler - verified live 2026-08-25.
+  const [count, setCount] = useState(end);
   const hasAnimated = useRef(false);
 
   useEffect(() => {
@@ -203,9 +206,11 @@ function useCounter(end: number, duration: number = 2000, inView: boolean) {
     const step = (timestamp: number) => {
       if (!startTime) startTime = timestamp;
       const progress = Math.min((timestamp - startTime) / duration, 1);
-      setCount(Math.floor(progress * end));
+      const v = progress * end;
+      setCount(Number.isInteger(end) ? Math.floor(v) : Math.round(v * 10) / 10);
       if (progress < 1) requestAnimationFrame(step);
     };
+    setCount(0);
     requestAnimationFrame(step);
   }, [end, duration, inView]);
 
@@ -231,7 +236,7 @@ function StatCard({ stat, index }: { stat: typeof overallStats[0]; index: number
     >
       <Icon className="w-6 h-6 sm:w-8 sm:h-8 mx-auto mb-2 text-white/80" />
       <div className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-white">
-        {stat.value % 1 !== 0 ? count / 10 : count}{stat.suffix}
+        {count}{stat.suffix}
       </div>
       <div className="text-[10px] sm:text-xs text-gray-300 mt-1">{stat.label}</div>
     </motion.div>
@@ -289,7 +294,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="voice-answer text-xs sm:text-sm md:text-base text-gray-200 max-w-3xl mx-auto leading-relaxed mb-6 sm:mb-10"
           >
-            With a 95%+ placement rate and 30+ top recruiters, JKKN College of Pharmacy prepares pharmacy graduates
+            With a 78% placement rate (2024-25) and 30+ top recruiters, JKKN College of Pharmacy prepares pharmacy graduates
             for rewarding careers in pharmaceutical industry, clinical practice, and research. Our dedicated
             Training & Placement Cell bridges academic excellence with professional success.
           </motion.p>
@@ -350,7 +355,7 @@ export default function PlacementsPage() {
               className="space-y-3"
             >
               {[
-                { icon: Target, text: '95%+ consistent placement rate across all programmes' },
+                { icon: Target, text: '78% placement rate for the 2024-25 batch across all programmes' },
                 { icon: Building2, text: '30+ pharmaceutical companies recruit on campus annually' },
                 { icon: GraduationCap, text: 'Pre-final year structured placement training programme' },
                 { icon: Users, text: 'Dedicated placement officers with industry experience' },
@@ -725,7 +730,7 @@ export default function PlacementsPage() {
                 Start Your Pharmacy Career at JKKN
               </h2>
               <p className="text-xs sm:text-sm md:text-base text-green-100 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
-                Join 95%+ successfully placed graduates. Apply for B.Pharm, M.Pharm, or Pharm.D programmes
+                Join 78% successfully placed graduates (2024-25). Apply for B.Pharm, M.Pharm, or Pharm.D programmes
                 for the 2026-27 academic session, or connect with our Placement Cell for more details.
               </p>
 

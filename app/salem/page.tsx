@@ -41,7 +41,7 @@ export default function SalemPage() {
     {
       question: 'Which are the best pharmacy colleges in Salem?',
       answer:
-        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 95%+ placement support and a 500-bed multi-specialty teaching hospital for clinical training.',
+        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a 500-bed multi-specialty teaching hospital for clinical training.',
     },
     {
       question: 'What are the best colleges for pharmacy near Salem district?',
@@ -186,7 +186,7 @@ export default function SalemPage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 58 km from Salem on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 95%+ campus placement support.
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 58 km from Salem on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}
@@ -816,7 +816,7 @@ export default function SalemPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy Colleges in Salem — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 95%+ placements."
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/salem/"
         dateModified="2026-07-09"
       />

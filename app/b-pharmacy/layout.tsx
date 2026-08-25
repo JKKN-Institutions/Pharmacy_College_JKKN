@@ -57,7 +57,7 @@ const courseSchema = {
 
 export const metadata: Metadata = {
   title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
+  description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
   keywords: [
     'best b pharm colleges in tamilnadu',
     'b pharm colleges in tamilnadu',
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
+    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
     url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 95% placements. Admissions 2026-27!',
+    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
@@ -116,7 +116,7 @@ export default function BPharmacyLayout({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(courseSchema) }} />
       <SpeakableWebPageSchema
         name="B.Pharm Course — Best B.Pharm College in Tamil Nadu"
-        description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme at JKKN College of Pharmacy. PCI approved, NAAC A Grade, 95% placements."
+        description="Bachelor of Pharmacy (B.Pharm) is a 4-year undergraduate degree programme at JKKN College of Pharmacy. PCI approved, NAAC A Grade, 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/b-pharmacy/"
         dateModified="2026-03-24"
       />

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title:
       'Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings & Placements',
     description:
-      'Compare NIRF rankings, NAAC grades, fees & placement rates of top Tamil Nadu pharmacy colleges. JKKN achieves 95% placement.',
+      'Compare NIRF rankings, NAAC grades, fees & placement rates of top Tamil Nadu pharmacy colleges. JKKN achieves 78% placement (2024-25).',
     url: 'https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',

@@ -5,7 +5,7 @@ import { SpeakableWebPageSchema, FaqSchema, BreadcrumbListSchema, ItemListSchema
 const placementFaqs = [
   {
     question: "What is the placement rate at JKKN College of Pharmacy?",
-    answer: "JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations."
+    answer: "JKKN College of Pharmacy maintains a consistent placement rate of 78% for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations."
   },
   {
     question: "What is the highest package offered at JKKN Pharmacy College?",
@@ -63,8 +63,8 @@ const recruitersList = [
 ]
 
 export const metadata: Metadata = {
-  title: 'Placements — JKKN College of Pharmacy | 95%+ Placement Rate, 8 LPA Highest',
-  description: 'JKKN College of Pharmacy placements: 95%+ placement rate, 8 LPA highest package, 30+ top recruiters including Sun Pharma, Cipla & Dr. Reddy\'s. View placement records, recruiter list & training programmes.',
+  title: 'Placements — JKKN College of Pharmacy | 78% Placement Rate 2024-25, 8 LPA Highest',
+  description: 'JKKN College of Pharmacy placements: 78% placement rate (2024-25), 8 LPA highest package, 30+ top recruiters including Sun Pharma, Cipla & Dr. Reddy\'s. View placement records, recruiter list & training programmes.',
   keywords: [
     'pharmacy college placements tamil nadu',
     'jkkn pharmacy placements',
@@ -89,8 +89,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/placements/',
   },
   openGraph: {
-    title: 'Placements — JKKN College of Pharmacy | 95%+ Placement Rate',
-    description: 'JKKN College of Pharmacy placements: 95%+ placement rate, 8 LPA highest package, 30+ top recruiters. View placement records & training programmes.',
+    title: 'Placements — JKKN College of Pharmacy | 78% Placement Rate 2024-25',
+    description: 'JKKN College of Pharmacy placements: 78% placement rate (2024-25), 8 LPA highest package, 30+ top recruiters. View placement records & training programmes.',
     url: 'https://pharmacy.jkkn.ac.in/placements/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -106,8 +106,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Placements — JKKN College of Pharmacy | 95%+ Placement Rate',
-    description: 'JKKN College of Pharmacy placements: 95%+ placement rate, 8 LPA highest package, 30+ top recruiters. View placement records & training programmes.',
+    title: 'Placements — JKKN College of Pharmacy | 78% Placement Rate 2024-25',
+    description: 'JKKN College of Pharmacy placements: 78% placement rate (2024-25), 8 LPA highest package, 30+ top recruiters. View placement records & training programmes.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
   other: {
@@ -124,7 +124,7 @@ export default function PlacementsLayout({
     <>
       <SpeakableWebPageSchema
         name="Placements — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy placements: 95%+ placement rate, 8 LPA highest package, 30+ top recruiters including Sun Pharma, Cipla and Dr. Reddy's. View course-wise placement records, recruiter list, and training programmes."
+        description="JKKN College of Pharmacy placements: 78% placement rate (2024-25), 8 LPA highest package, 30+ top recruiters including Sun Pharma, Cipla and Dr. Reddy's. View course-wise placement records, recruiter list, and training programmes."
         url="https://pharmacy.jkkn.ac.in/placements/"
         dateModified="2026-03-26"
       />

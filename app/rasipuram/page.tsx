@@ -12,7 +12,7 @@ const config: CityLandingConfig = {
   busText: 'Buses connect Rasipuram and Komarapalayam via Tiruchengode through the day',
   pageTitle: 'Pharmacy College near Rasipuram',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college in Komarapalayam — in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 95%+ campus placement support.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college in Komarapalayam — in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
   whyText:
     'Rasipuram learners can study pharmacy within their own Namakkal district at JKKN, about 60 km away via Tiruchengode. With separate boys and girls hostels on campus, learners stay close to home while getting a PCI-approved professional degree.',
   commuteText:
@@ -24,7 +24,7 @@ const config: CityLandingConfig = {
     {
       question: 'Which is the nearest pharmacy college to Rasipuram?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. It is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital and 95%+ placement support.',
+        'JKKN College of Pharmacy in Komarapalayam is in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. It is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Rasipuram?',

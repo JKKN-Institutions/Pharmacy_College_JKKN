@@ -12,7 +12,7 @@ const config: CityLandingConfig = {
   busText: 'Buses operate on the Dharmapuri–Komarapalayam route, with frequent connections via Salem',
   pageTitle: 'Pharmacy College near Dharmapuri',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited residential pharmacy college about 100 km from Dharmapuri, located in Komarapalayam beyond Salem on NH-544. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a 500-bed multi-specialty teaching hospital for clinical training, and 95%+ campus placement support.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited residential pharmacy college about 100 km from Dharmapuri, located in Komarapalayam beyond Salem on NH-544. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a 500-bed multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).',
   whyText:
     'Dharmapuri learners looking for a quality pharmacy college in the Salem–Erode belt choose JKKN for its PCI approval, on-campus teaching hospital, and full residential facilities. At about 100 km via Salem, the campus hostel makes JKKN practical, with buses for weekend travel home.',
   commuteText:
@@ -24,7 +24,7 @@ const config: CityLandingConfig = {
     {
       question: 'Which is a good pharmacy college near Dharmapuri?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam, about 100 km from Dharmapuri via Salem, is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D. It has a 500-bed teaching hospital for clinical training, separate hostels, and 95%+ placement support.',
+        'JKKN College of Pharmacy in Komarapalayam, about 100 km from Dharmapuri via Salem, is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D. It has a 500-bed teaching hospital for clinical training, separate hostels, and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Dharmapuri?',

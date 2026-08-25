@@ -2286,7 +2286,7 @@ export default function BPharmLateralEntryPage() {
           </a>
           <div className="mt-8 space-y-2">
             <p className="text-xs sm:text-sm">
-              PCI Approved | NAAC Accredited | 95%+ Placement Record
+              PCI Approved | NAAC Accredited | 78% Placement Record 2024-25
             </p>
             <p className="text-xs sm:text-sm">
               Regular Entry | Lateral Entry Available | Scholarships for Meritorious Learners

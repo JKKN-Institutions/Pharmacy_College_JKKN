@@ -41,7 +41,7 @@ export default function NamakkalPage() {
     {
       question: 'Which is the best pharmacy college in Namakkal?',
       answer:
-        'JKKN College of Pharmacy is the top PCI-approved pharmacy college in Namakkal district, located in Komarapalayam on NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 95%+ placement support.',
+        'JKKN College of Pharmacy is the top PCI-approved pharmacy college in Namakkal district, located in Komarapalayam on NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 78% placements (2024-25).',
     },
     {
       question: 'What are the best colleges for pharmacy in Namakkal?',
@@ -181,7 +181,7 @@ export default function NamakkalPage() {
 
           {/* Snippet-optimized paragraph — AEO target */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located on NH-544 (Salem–Coimbatore Highway), 66 km from Namakkal city. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital, and 95%+ campus placement support.
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located on NH-544 (Salem–Coimbatore Highway), 66 km from Namakkal city. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}
@@ -727,7 +727,7 @@ export default function NamakkalPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College in Namakkal — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 95%+ placements."
+        description="JKKN College of Pharmacy in Namakkal district — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/namakkal/"
         dateModified="2026-03-27"
       />

@@ -30,7 +30,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
-        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 95% placement rate, and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.',
+        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.',
       },
       {
         question: 'Is hostel accommodation available?',
@@ -200,11 +200,11 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What is the placement record at JKKN Pharmacy College?',
-        answer: 'JKKN Pharmacy College achieved a 95% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA.',
+        answer: 'JKKN Pharmacy College achieved a 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA.',
       },
       {
         question: 'What is the placement rate at JKKN College of Pharmacy?',
-        answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 95%+ for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
+        answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 78% for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
       },
       {
         question: 'What is the highest package offered at JKKN Pharmacy College?',
