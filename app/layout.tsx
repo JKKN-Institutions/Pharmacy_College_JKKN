@@ -50,9 +50,16 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  alternates: {
-    canonical: 'https://pharmacy.jkkn.ac.in/',
-  },
+  // NO site-wide canonical. It was `canonical: 'https://pharmacy.jkkn.ac.in/'` here, and because
+  // metadata is inherited, EVERY page without its own canonical served it - measured 2026-08-31,
+  // 162 of the 165 page.tsx files in this repo set no canonical of their own, and 32 of the URLs
+  // in the live sitemap were confirmed serving <link rel="canonical" href="https://pharmacy.jkkn.ac.in/"/>.
+  // /faculty/dr-karthika-j/ carried the title "Faculty | JKKN College of Pharmacy" and a canonical
+  // pointing at the homepage, which asks Google to index a page that declares it is a different page.
+  //
+  // Removing it does NOT leave pages canonical-less in any harmful sense: with no rel=canonical,
+  // Google treats the URL it fetched as canonical, which is the correct answer for every one of
+  // these pages including the homepage. A page that needs a non-self canonical still sets its own.
   other: {
     'last-modified': '2026-03-24',
     'article:modified_time': '2026-03-24',

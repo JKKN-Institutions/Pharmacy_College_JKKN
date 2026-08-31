@@ -80,6 +80,9 @@ module.exports = {
     '/admission-process',
     // URL with `&` + typo — kept as redirect source only
     '/recognition-approval-&-accrediation',
+    // 307s to /affiliation-details/ — measured live 2026-08-31. A sitemap must list the
+    // destination, not the redirect, and /affiliation-details is already in RARELY_CHANGED.
+    '/aicte',
     // 13 routes that 301-redirect to PDFs (declared in next.config.js)
     ...PDF_REDIRECT_ROUTES,
   ],
@@ -118,11 +121,28 @@ module.exports = {
       changefreq = 'yearly'
     }
 
+    // next.config.js sets trailingSlash: true, so next-sitemap appends "/" to EVERY path.
+    // Next.js itself does not apply that rule to paths whose last segment looks like a file, so
+    // the two disagree and the sitemap ships a URL the server will not serve.
+    //
+    // MEASURED LIVE 2026-08-31, both forms of each: /pdf/1.1-DVV-NAAC.pdf/ answers 308 while
+    // /pdf/1.1-DVV-NAAC.pdf answers 200 application/pdf, and /admissions/b.pharm/ answers 308
+    // while /admissions/b.pharm answers 200. 88 of this sitemap's URLs were in that state - 85
+    // PDFs and the three b.pharm / m.pharm / pharm.d routes, whose dots are in the ROUTE name.
+    //
+    // next-sitemap supports a per-URL override: url-set-builder.js reads
+    // `'trailingSlash' in field ? field.trailingSlash : config.trailingSlash`. So this turns the
+    // slash off for file-like paths ONLY and leaves every ordinary page URL untouched - which
+    // matters, because /fee-structure/ is 200 and /fee-structure is a 308.
+    const lastSegment = path.split('/').filter(Boolean).pop() ?? ''
+    const looksLikeFile = lastSegment.includes('.')
+
     return {
       loc: path,
       changefreq,
       priority,
       lastmod: now,
+      ...(looksLikeFile ? { trailingSlash: false } : {}),
     }
   },
   additionalPaths: async (config) => {
@@ -153,6 +173,9 @@ module.exports = {
             changefreq: 'monthly',
             priority: isHighValue ? 0.6 : 0.5,
             lastmod: mtime,
+            // A PDF is a file, not a route - see the note in transform() above. Without this the
+            // config trailingSlash:true appends "/" and the URL 308s instead of serving the file.
+            trailingSlash: false,
           })
         })
         console.log(`[next-sitemap] Added ${pdfFiles.length} PDF documents`)
