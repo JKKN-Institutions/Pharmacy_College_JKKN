@@ -76,37 +76,21 @@ Disallow: /staff/             # Staff-only portal
 Disallow: /student-portal/    # Student login area (not for crawlers)
 Disallow: /faculty-portal/    # Faculty login area
 
-# --- DISALLOW: Duplicate content & parameter pollution ---
+# --- Parameter rules REMOVED 2026-09-03 ---
+# Every page self-canonicalises (measured: /admissions/?fbclid=abc returns
+# <link rel=canonical href=.../admissions/>), so Google consolidates parameter
+# URLs on its own. Blocking them stopped crawlers READING that canonical, which
+# strands the URL in the index instead of merging it. 'Disallow: /*&' was the
+# worst of them: it matched our own /_next/image/?url=...&w=640 so any crawler
+# not named in this file could not fetch a single optimized image.
+# /*?preview= and /*?draft= are kept - they guard unpublished CMS content.
 Disallow: /search             # Internal site search results (thin/duplicate content)
 Disallow: /search/            # Internal search with trailing slash
-Disallow: /*?q=               # Search query parameters
-Disallow: /*?s=               # Alternative search parameters
-Disallow: /*?ref=             # Referral tracking parameters
-Disallow: /*?utm_             # UTM campaign parameters (duplicates clean URLs)
-Disallow: /*?utm_source=      # Explicit UTM source
-Disallow: /*?utm_medium=      # Explicit UTM medium
-Disallow: /*?utm_campaign=    # Explicit UTM campaign
-Disallow: /*?fbclid=          # Facebook click ID (auto-appended by FB)
-Disallow: /*?gclid=           # Google Ads click ID
-Disallow: /*?gad_source=      # Google Ads source parameter
-Disallow: /*?msclkid=         # Microsoft Ads click ID
-Disallow: /*?mc_cid=          # Mailchimp campaign ID
-Disallow: /*?mc_eid=          # Mailchimp email ID
-Disallow: /*?_ga=             # Google Analytics cross-domain parameter
-Disallow: /*?_gl=             # Google Linker parameter
-Disallow: /*?sort=            # Sort/filter parameters
-Disallow: /*?filter=          # Filter parameters
-Disallow: /*?order=           # Ordering parameters
-Disallow: /*?page=0           # Pagination page 0 (usually an error)
-Disallow: /*?sessionid=       # Session ID in URL (security + duplicate)
-Disallow: /*?sid=             # Short session ID parameter
 Disallow: /*?preview=         # Preview mode parameter
 Disallow: /*?draft=           # Draft mode parameter
-Disallow: /*&                 # Catch URLs with multiple query parameters
 
 # --- DISALLOW: Print, feed & utility pages ---
 Disallow: /print/             # Print-friendly versions (duplicate content)
-Disallow: /*?print=           # Print parameter versions
 Disallow: /feed/              # RSS/Atom feeds (not for indexing)
 Disallow: /feed               # Feed without trailing slash
 Disallow: /rss/               # RSS feed path
@@ -185,6 +169,9 @@ Disallow: /print/
 # them as thin pages. Every other legacy CMS path already 404s.
 Disallow: /wp-admin/
 Disallow: /xmlrpc.php
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-json/
 
 User-agent: Googlebot-Image
 Allow: /
@@ -212,6 +199,9 @@ Disallow: /admin/
 Disallow: /search
 Disallow: /wp-admin/
 Disallow: /xmlrpc.php
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /wp-json/
 Crawl-delay: 2
 
 
@@ -545,7 +535,8 @@ Disallow: /
 # ---------------------------------------------------------------------------
 
 Sitemap: https://pharmacy.jkkn.ac.in/sitemap.xml
-Host: https://pharmacy.jkkn.ac.in
+# Host: -- REMOVED 2026-09-03. Yandex-only, deprecated by Yandex in
+# 2018 and never read by Google or Bing.
 
 # =============================================================================
 # END OF robots.txt
