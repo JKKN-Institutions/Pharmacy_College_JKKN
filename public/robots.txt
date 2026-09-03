@@ -42,7 +42,10 @@ Allow: /events/
 Allow: /sitemap.xml
 
 # --- DISALLOW: Next.js internal/build paths (zero SEO value) ---
-Disallow: /_next/             # Build assets — JS chunks, CSS, webpack output
+# Disallow: /_next/  -- REMOVED 2026-09-03. /_next/ serves the JS chunks, the
+# CSS and the next/image optimizer (/_next/image/). Blocking it stops crawlers
+# rendering the page and hides every optimized image. Google's own guidance is
+# to never block CSS/JS. /_next/data/*.json stays blocked by the /*.json$ rule.
 Disallow: /api/               # API routes — server-side only, not indexable
 Disallow: /*.json$            # Next.js data routes — _next/data/*.json files
 Disallow: /_error             # Next.js error boundary page
@@ -170,7 +173,7 @@ Disallow: /phpmyadmin/        # phpMyAdmin (if exposed)
 
 User-agent: Googlebot
 Allow: /
-Disallow: /_next/
+# /_next/ deliberately NOT blocked - Googlebot needs the JS/CSS to render.
 Disallow: /api/
 Disallow: /admin/
 Disallow: /preview/
@@ -178,6 +181,10 @@ Disallow: /blog/preview/
 Disallow: /draft/
 Disallow: /search
 Disallow: /print/
+# Added 2026-09-03: these two answer 200 (not 404), so Googlebot could index
+# them as thin pages. Every other legacy CMS path already 404s.
+Disallow: /wp-admin/
+Disallow: /xmlrpc.php
 
 User-agent: Googlebot-Image
 Allow: /
@@ -199,10 +206,12 @@ Allow: /events/
 
 User-agent: Bingbot
 Allow: /
-Disallow: /_next/
+# /_next/ deliberately NOT blocked - Bingbot needs the JS/CSS to render.
 Disallow: /api/
 Disallow: /admin/
 Disallow: /search
+Disallow: /wp-admin/
+Disallow: /xmlrpc.php
 Crawl-delay: 2
 
 
@@ -471,8 +480,13 @@ Disallow: /
 User-agent: BLEXBot
 Disallow: /
 
+# DataForSeoBot - ALLOWED 2026-09-03: this is OUR OWN audit toolchain
+# (DataForSEO on-page + backlinks index). Blocking it blinded our own audits.
+# Rivals can already see our backlinks via AhrefsBot/SemrushBot, both allowed
+# below, so the block bought nothing and cost us our own measurements.
 User-agent: DataForSeoBot
-Disallow: /
+Allow: /
+Crawl-delay: 3
 
 User-agent: magpie-crawler
 Disallow: /
