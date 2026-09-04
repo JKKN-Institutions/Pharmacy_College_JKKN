@@ -112,6 +112,12 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://maps.google.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://connect.facebook.net" />
+        {/* llms.txt discovery. Nothing on this site pointed at either file, and GSC had no
+            record of the URL at all (inspected 2026-09-03: "URL is unknown to Google").
+            No engine has publicly committed to reading this rel, so treat it as a signal
+            we can offer, not a mechanism we have measured working. */}
+        <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
+        <link rel="alternate" type="text/plain" href="/llms-full.txt" title="llms-full.txt" />
       </head>
       {/* Google Analytics (GA4) — tracks SPA route changes */}
       <GoogleAnalytics />

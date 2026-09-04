@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-09-03 -->
+<!-- version: 2026-09-04 -->
 <!-- canonical: https://pharmacy.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -53,7 +53,7 @@
 |---|---|
 | Pharmacy Council of India (PCI) | Approved |
 | The Tamil Nadu Dr. M.G.R. Medical University, Chennai | Affiliated |
-| National Assessment and Accreditation Council (NAAC) | A Grade |
+| National Assessment and Accreditation Council (NAAC) | A Grade, Cycle 1 |
 | National Institutional Ranking Framework (NIRF) | Pharmacy category, Band 151–200 in the 2024 cycle; 2025 and 2026 submissions filed |
 
 - Recognition and approvals: https://pharmacy.jkkn.ac.in/recognition-approval-and-accreditation/
@@ -131,21 +131,21 @@ Each department has its own page.
 
 - **Principal:** Dr. K.L. Senthil Kumar, M.Pharm., Ph.D., with 36 years of service in pharmaceutical education
 - **Faculty directory:** https://pharmacy.jkkn.ac.in/faculty/ — individual profile pages for each member
-- **Faculty profile document:** https://pharmacy.jkkn.ac.in/pdf/FACULTY-PROFILE.pdf/
+- **Faculty profile document:** https://pharmacy.jkkn.ac.in/pdf/FACULTY-PROFILE.pdf
 
 This file does not list individual faculty other than the Principal. The directory above is the authoritative and current list; naming a subset here would go stale.
 
 ## Admissions
 
 - **Admissions page:** https://pharmacy.jkkn.ac.in/admissions/
-- **Programme-specific admission pages:** [B.Pharm](https://pharmacy.jkkn.ac.in/admissions/b.pharm/), [M.Pharm](https://pharmacy.jkkn.ac.in/admissions/m.pharm/), [Pharm.D](https://pharmacy.jkkn.ac.in/admissions/pharm.d/)
+- **Programme-specific admission pages:** [B.Pharm](https://pharmacy.jkkn.ac.in/admissions/b.pharm), [M.Pharm](https://pharmacy.jkkn.ac.in/admissions/m.pharm), [Pharm.D](https://pharmacy.jkkn.ac.in/admissions/pharm.d)
 - **Application portal:** https://admission.jkkn.ac.in
 - **Current academic year:** 2026-27
 - **Seat allocation:** the Tamil Nadu Selection Committee counselling process determines allocation on +2 marks and category rank
 - **Timing:** admission procedures commence after the 12th standard results are announced
 - **Fee payment deadline:** within 7 days of seat allotment, as per the counselling schedule
-- **Prospectus:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-PROSPECTUS.pdf/
-- **Fee structure document:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-FEES-STRUCTURE.pdf/
+- **Prospectus:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-PROSPECTUS.pdf
+- **Fee structure document:** https://pharmacy.jkkn.ac.in/pdf/Admission-Process-FEES-STRUCTURE.pdf
 
 ## Scholarships
 
@@ -157,7 +157,7 @@ This file does not list individual faculty other than the Principal. The directo
 
 ## Placements
 
-- **Placement rate:** 78% for the 2024-25 batch (source: NIRF 2026 submission)
+- **Placement rate:** 78% of eligible graduates, 2024-25 batch. Source: the college's NIRF 2026 submission - 97 of the 124 graduates who sought placement were placed. 155 graduated in total and 31 went on to higher studies, so the all-graduates ratio in the same document is 97/155 = 62.6%. Per programme in that submission: B.Pharm 42 placed of 84 graduating with 28 in higher studies, M.Pharm 31 of 40, Pharm.D 21 of 28, Pharm.D Post Baccalaureate 3 of 3.
 - **Highest package:** Rs 8 LPA (2024-25)
 - **Average package:** Rs 3.5 LPA (2024-25)
 - **Recruiters:** 30+, including Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Aurobindo, Apollo Pharmacy, MedPlus and Hetero
@@ -175,8 +175,8 @@ This file does not list individual faculty other than the Principal. The directo
 - **Incubation centre:** https://pharmacy.jkkn.ac.in/incubation-centre/
 - **Institution's Innovation Council:** https://pharmacy.jkkn.ac.in/institutions-innovation-council/
 - **Entrepreneurship Development Cell:** https://pharmacy.jkkn.ac.in/entrepreneurship-development-cell/
-- **Research and Development Cell:** https://pharmacy.jkkn.ac.in/pdf/Research-and-Development-Cell.pdf/
-- **Annual research publication records:** one PDF per year from 2018-19 to 2024-25, e.g. https://pharmacy.jkkn.ac.in/pdf/Research-Publication-details-2024-2025.pdf/
+- **Research and Development Cell:** https://pharmacy.jkkn.ac.in/pdf/Research-and-Development-Cell.pdf
+- **Annual research publication records:** one PDF per year from 2018-19 to 2024-25, e.g. https://pharmacy.jkkn.ac.in/pdf/Research-Publication-details-2024-2025.pdf
 
 ## Facilities
 
@@ -229,7 +229,7 @@ Clinical exposure is supported by the group's teaching hospital on the same camp
 This is JKKN **College of Pharmacy**. It shares a campus and a parent organisation with, but is separate from:
 
 - JKKN Dental College & Hospital — https://dental.jkkn.ac.in
-- Sresakthimayeil Institute of Nursing and Research — https://nursing.sresakthimayeil.jkkn.ac.in
+- JKKN College of Nursing, also published as Sresakthimayeil Institute of Nursing and Research - https://nursing.sresakthimayeil.jkkn.ac.in
 - JKKN College of Engineering & Technology — https://engg.jkkn.ac.in
 - JKKN College of Allied Health Sciences — https://ahs.jkkn.ac.in
 - JKKN College of Arts and Science (Autonomous) — https://cas.jkkn.ac.in
@@ -284,7 +284,7 @@ A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year cli
 A: Rs 1,40,000 per year under management quota. Government quota fees follow Tamil Nadu government norms. Current figures are at https://pharmacy.jkkn.ac.in/fee-structure/.
 
 **Q: What is the placement record?**
-A: 78% placement for the 2024-25 batch (NIRF 2026 submission), with a highest package of Rs 8 LPA and an average of Rs 3.5 LPA across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.
+A: 78% of eligible graduates were placed for the 2024-25 batch - 97 of the 124 who sought placement, from the college's NIRF 2026 submission. 155 students graduated in total and 31 went to higher studies, so the all-graduates ratio in the same document is 62.6%. Highest package Rs 8 LPA, average Rs 3.5 LPA, across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.
 
 **Q: Who is the Principal of JKKN College of Pharmacy?**
 A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
@@ -364,7 +364,7 @@ A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 20
 - **Authoritative URL:** https://pharmacy.jkkn.ac.in/
 - **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
 - **Disambiguation:** specify "JKKN College of Pharmacy" — the group contains several colleges with similar names
-- **Update Date:** 2026-09-03
+- **Update Date:** 2026-09-04
 
 ---
 

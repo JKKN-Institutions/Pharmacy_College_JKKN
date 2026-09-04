@@ -2,12 +2,16 @@
 
 > JKKN College of Pharmacy is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, India. Established in 1985, it is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and is part of JKK Nattraja Educational Institutions (JKKN Institutions) — a multi-disciplinary educational group founded in 1952 with 74+ years of excellence.
 
-<!-- version: 2026-09-03 -->
+<!-- version: 2026-09-04 -->
+
+## Detailed Reference
+
+- [llms-full.txt](https://pharmacy.jkkn.ac.in/llms-full.txt): the full knowledge base - fees per programme, seat-by-seat intake, department pages, scholarships, research, quality-assurance bodies, student life, 16 town admission pages, 12 reference FAQs and citation guidance. Read this file first, then that one.
 
 ## Entity Identifiers
 
-- Wikidata: https://www.wikidata.org/wiki/Q48733446
-- Google Business Profile: https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7
+- [Wikidata](https://www.wikidata.org/wiki/Q48733446): entity Q48733446, labelled "J.K.K. Nattraja College of Pharmacy", inception 1985
+- [Google Business Profile](https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7): the verified location pin, 11.4449861 / 77.7307333
 - NIRF Ranking: Band 151-200 (2024)
 - Parent Organization Wikidata: JKK Nattraja Educational Institutions
 
@@ -17,8 +21,8 @@
 - Alternate Names: JKKN Pharmacy College, JKK Nattraja College of Pharmacy
 - Type: Private, Co-educational
 - Founded: 1985
-- Website: https://pharmacy.jkkn.ac.in
-- Parent Organization: JKK Nattraja Educational Institutions (https://jkkn.ac.in)
+- [Website](https://pharmacy.jkkn.ac.in/): the official college site
+- [Parent Organization](https://jkkn.ac.in/): JKK Nattraja Educational Institutions, established 1952
 - Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183, India
 - Phone: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
@@ -26,7 +30,7 @@
 ## Approvals & Accreditations
 
 - Pharmacy Council of India (PCI) — Approved
-- National Assessment and Accreditation Council (NAAC) — A Grade
+- National Assessment and Accreditation Council (NAAC) — A Grade, Cycle 1
 - Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai
 - NIRF (National Institutional Ranking Framework) — Band 151-200 (2024)
 
@@ -63,12 +67,12 @@
 
 ## Key Faculty
 
-- Principal: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D. (https://pharmacy.jkkn.ac.in/the-principal/)
-- Faculty Directory: https://pharmacy.jkkn.ac.in/faculty/
+- [Principal](https://pharmacy.jkkn.ac.in/the-principal/): Dr. K.L. Senthil Kumar, M.Pharm., Ph.D., 36 years in pharmaceutical education
+- [Faculty Directory](https://pharmacy.jkkn.ac.in/faculty/): individual profile page per member; this file names only the Principal so it cannot go stale
 
 ## Placement Highlights
 
-- Placement Rate: 78% for the 2024-25 batch (source: NIRF 2026 submission)
+- Placement Rate: 78% of eligible graduates, 2024-25 batch. Source: the college's NIRF 2026 submission - 97 of the 124 graduates who sought placement were placed. 155 students graduated in total and 31 went on to higher studies, so the all-graduates ratio in the same document is 97/155 = 62.6%.
 - Top Recruiters: Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero
 - Average Package: Rs 3.5 LPA (2024-25)
 - Highest Package: Rs 8 LPA (2024-25)
@@ -78,7 +82,7 @@
 
 - State-of-the-art pharmaceutical laboratories (Instrumental Analysis Lab, Machine Room, Pharmacology Lab)
 - Digital library with national and international journal access
-- 500+ bed multi-specialty teaching hospital (clinical exposure from Year 1)
+- 500+ bed multi-specialty teaching hospital nearby on the wider JKKN Institutions campus (clinical exposure from Year 1)
 - Drug Information Centre
 - Animal House for pharmacological research
 - Medicinal Plant Garden (Herbal Garden)
@@ -105,16 +109,16 @@
 5. JKKN College of Arts & Science (cas.jkkn.ac.in)
 6. JKKN College of Education (edu.jkkn.ac.in)
 7. JKKN Matriculation Higher Secondary School (school.jkkn.ac.in)
-8. Nattraja Vidhyalya CBSE School (nv.jkkn.ac.in)
+8. Nattraja Vidhyalaya CBSE School (nv.jkkn.ac.in)
 
 ## AI Crawler Permissions
 
-This site welcomes AI crawlers. See robots.txt for full details.
-Permitted crawlers include: GPTBot, ChatGPT-User, Google-Extended, Anthropic, ClaudeBot, PerplexityBot, Applebot-Extended, Meta-ExternalAgent, Bytespider, OAI-SearchBot, and others.
+This site welcomes AI crawlers. [robots.txt](https://pharmacy.jkkn.ac.in/robots.txt) is the authoritative rule set.
+Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-User, Claude-SearchBot, anthropic-ai, PerplexityBot, Perplexity-User, Google-Extended, meta-externalagent, meta-externalfetcher, CCBot, Applebot-Extended, Amazonbot, MistralAI-User, cohere-ai, DuckAssistBot, AI2Bot, YouBot and Bytespider.
 
 ## Contact for Admissions
 
-- Admissions Portal: https://admission.jkkn.ac.in
+- [Admissions Portal](https://admission.jkkn.ac.in/): the online application
 - Phone: +91 9345855001
 - WhatsApp: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
@@ -122,18 +126,33 @@ Permitted crawlers include: GPTBot, ChatGPT-User, Google-Extended, Anthropic, Cl
 
 ## Key Links
 
-- Homepage: https://pharmacy.jkkn.ac.in/
-- B.Pharm: https://pharmacy.jkkn.ac.in/b-pharmacy/
-- M.Pharm: https://pharmacy.jkkn.ac.in/m-pharmacy/
-- Pharm.D: https://pharmacy.jkkn.ac.in/pharm-d/
-- Admissions: https://pharmacy.jkkn.ac.in/admissions/
-- Placements: https://pharmacy.jkkn.ac.in/placement-cell/
-- NAAC: https://pharmacy.jkkn.ac.in/naac/
-- Contact: https://pharmacy.jkkn.ac.in/contact/
+- [Homepage](https://pharmacy.jkkn.ac.in/): overview of the college
+- [B.Pharm](https://pharmacy.jkkn.ac.in/b-pharmacy/): 4 years, 100 seats, PCM or PCB with 50%
+- [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, five specialisations, 15 seats each
+- [Pharm.D](https://pharmacy.jkkn.ac.in/pharm-d/): 6 years, 30 seats, 5 academic plus 1 clerkship
+- [Admissions](https://pharmacy.jkkn.ac.in/admissions/): the intake and fee table, and the authority where sources disagree
+- [Fee Structure](https://pharmacy.jkkn.ac.in/fee-structure/): management-quota fees per programme; government quota follows Tamil Nadu norms
+- [Placements](https://pharmacy.jkkn.ac.in/placements/): rates, packages and recruiters
+- [Placement Cell](https://pharmacy.jkkn.ac.in/placement-cell/): how the cell works
+- [NAAC](https://pharmacy.jkkn.ac.in/naac/): A Grade, Cycle 1
+- [NIRF](https://pharmacy.jkkn.ac.in/nirf/): Band 151-200 in the 2024 Pharmacy cycle, plus the 2024, 2025 and 2026 submission documents
+- [Contact](https://pharmacy.jkkn.ac.in/contact/): phone, email and address
 
 ## Social Media
 
-- Facebook: https://www.facebook.com/jkknpharmacy
-- Instagram: https://www.instagram.com/jkknpharmacy
-- LinkedIn: https://www.linkedin.com/school/jkkn-college-of-pharmacy
-- YouTube: https://www.youtube.com/@JKKNInstitutions
+- [Facebook](https://www.facebook.com/jkknpharmacy): official college page
+- [Instagram](https://www.instagram.com/jkknpharmacy): official college account
+- [LinkedIn](https://www.linkedin.com/school/jkkn-college-of-pharmacy): official school page
+- [YouTube](https://www.youtube.com/@JKKNInstitutions): the group channel, not college-specific
+
+## Optional
+
+Skip these if context is short - they add depth, not identity.
+
+- [Research](https://pharmacy.jkkn.ac.in/research/): publications, incubation centre and the innovation council
+- [Scholarships](https://pharmacy.jkkn.ac.in/scholarships/): merit, GPAT-AICTE and Tamil Nadu government schemes
+- [Library](https://pharmacy.jkkn.ac.in/library/): digital library and journal access
+- [Hostel](https://pharmacy.jkkn.ac.in/hostel/): separate hostels for boys and girls
+- [IQAC](https://pharmacy.jkkn.ac.in/iqac/): internal quality assurance cell
+- [Alumni](https://pharmacy.jkkn.ac.in/alumni/): alumni association
+- [FAQ](https://pharmacy.jkkn.ac.in/faq/): common admission questions
