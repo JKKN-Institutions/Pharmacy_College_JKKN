@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-08-07 -->
+<!-- version: 2026-09-03 -->
 <!-- canonical: https://pharmacy.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -37,7 +37,7 @@
 - **State:** Tamil Nadu
 - **Country:** India
 - **Pincode:** 638183
-- **GPS Coordinates:** 11.4387°N, 77.7062°E
+- **GPS Coordinates:** 11.4449861°N, 77.7307333°E
 - **Highway:** NH-544 (Salem–Coimbatore National Highway)
 
 ### Distance and Connectivity
@@ -157,7 +157,7 @@ This file does not list individual faculty other than the Principal. The directo
 
 ## Placements
 
-- **Placement rate:** 95% for the 2024-25 batch
+- **Placement rate:** 78% for the 2024-25 batch (source: NIRF 2026 submission)
 - **Highest package:** Rs 8 LPA (2024-25)
 - **Average package:** Rs 3.5 LPA (2024-25)
 - **Recruiters:** 30+, including Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Aurobindo, Apollo Pharmacy, MedPlus and Hetero
@@ -284,7 +284,7 @@ A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year cli
 A: Rs 1,40,000 per year under management quota. Government quota fees follow Tamil Nadu government norms. Current figures are at https://pharmacy.jkkn.ac.in/fee-structure/.
 
 **Q: What is the placement record?**
-A: 95% placement for the 2024-25 batch, with a highest package of Rs 8 LPA and an average of Rs 3.5 LPA across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.
+A: 78% placement for the 2024-25 batch (NIRF 2026 submission), with a highest package of Rs 8 LPA and an average of Rs 3.5 LPA across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.
 
 **Q: Who is the Principal of JKKN College of Pharmacy?**
 A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
@@ -364,7 +364,7 @@ A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 20
 - **Authoritative URL:** https://pharmacy.jkkn.ac.in/
 - **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
 - **Disambiguation:** specify "JKKN College of Pharmacy" — the group contains several colleges with similar names
-- **Update Date:** 2026-08-07
+- **Update Date:** 2026-09-03
 
 ---
 

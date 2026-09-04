@@ -2,6 +2,8 @@
 
 > JKKN College of Pharmacy is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, India. Established in 1985, it is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and is part of JKK Nattraja Educational Institutions (JKKN Institutions) — a multi-disciplinary educational group founded in 1952 with 74+ years of excellence.
 
+<!-- version: 2026-09-03 -->
+
 ## Entity Identifiers
 
 - Wikidata: https://www.wikidata.org/wiki/Q48733446
@@ -39,7 +41,7 @@
 ### M.Pharm (Master of Pharmacy)
 - Duration: 2 years (4 semesters)
 - Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice
-- Intake: 9-15 seats per specialisation
+- Intake: 15 seats per specialisation
 - Eligibility: B.Pharm with 55% marks, GPAT preferred
 
 ### Pharm.D (Doctor of Pharmacy)
@@ -58,7 +60,6 @@
 3. Department of Pharmaceutical Chemistry
 4. Department of Pharmaceutical Analysis
 5. Department of Pharmacy Practice
-6. Department of Pharmacognosy
 
 ## Key Faculty
 
@@ -67,7 +68,7 @@
 
 ## Placement Highlights
 
-- Placement Rate: 95% for the 2024-25 batch
+- Placement Rate: 78% for the 2024-25 batch (source: NIRF 2026 submission)
 - Top Recruiters: Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero
 - Average Package: Rs 3.5 LPA (2024-25)
 - Highest Package: Rs 8 LPA (2024-25)
@@ -93,7 +94,7 @@
 - Highway: Located on NH-544 (Salem-Coimbatore National Highway) — excellent road connectivity
 - Nearest Railway Stations: Salem Junction (45 km), Erode Junction (35 km)
 - Nearest Airport: Coimbatore International Airport (105 km)
-- GPS Coordinates: 11.4387, 77.7062
+- GPS Coordinates: 11.4449861, 77.7307333
 
 ## Sister Institutions (Under JKKN Institutions)
 
