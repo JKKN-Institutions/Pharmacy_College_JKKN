@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-09-04 -->
+<!-- version: 2026-09-16 -->
 <!-- canonical: https://pharmacy.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -73,7 +73,7 @@ Six programmes are offered. Intake and management-quota fees below are as publis
 | Programme | Duration | Intake | Management Quota fee per year |
 |---|---|---|---|
 | B.Pharm | 4 years | 100 | Rs 1,40,000 |
-| B.Pharm (Lateral Entry) | 3 years | 12 | Rs 1,00,000 |
+| B.Pharm (Lateral Entry) | 3 years | 10 | Rs 1,00,000 |
 | M.Pharm — Pharmaceutics | 2 years | 15 | Rs 75,000 |
 | M.Pharm — Pharmacology | 2 years | 15 | Rs 75,000 |
 | M.Pharm — Pharmaceutical Chemistry | 2 years | 15 | Rs 75,000 |
@@ -86,7 +86,7 @@ Six programmes are offered. Intake and management-quota fees below are as publis
 
 Fees are subject to revision by the college and the affiliating university. The fee page carries the current figures: https://pharmacy.jkkn.ac.in/fee-structure/
 
-B.Pharm Lateral Entry intake is given as 12 seats on the college homepage and in the institutional fact register. The admissions table states 10. Where the two differ, the admissions office is the authority: https://pharmacy.jkkn.ac.in/admissions/
+B.Pharm Lateral Entry intake is 10 seats. A figure of 12 stood on the college homepage until 2026-09-16, when it was corrected to match the admissions table - the authority in any disagreement: https://pharmacy.jkkn.ac.in/admissions/
 
 ### Bachelor of Pharmacy (B.Pharm)
 - **Duration:** 4 years, 8 semesters
@@ -280,7 +280,7 @@ A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across six specialisations, P
 A: 100 seats, admitted through Tamil Nadu Selection Committee counselling.
 
 **Q: What are the M.Pharm specialisations?**
-A: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis and Pharmacy Practice — five in total, each a 2-year programme with 15 seats.
+A: Six - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs (new for 2026-27). Each is a 2-year programme with 15 seats, 90 in total.
 
 **Q: What is the difference between Pharm.D and Pharm.D Post Baccalaureate here?**
 A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year clinical clerkship, 30 seats. Pharm.D Post Baccalaureate is 3 years after B.Pharm — 2 years academic plus a 1-year clerkship, 10 seats.
@@ -298,7 +298,7 @@ A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
 A: 1985. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
 
 **Q: Where is JKKN College of Pharmacy located?**
-A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Komarapalayam, Namakkal District, Tamil Nadu 638183 — 10 km from Namakkal, 35 km from Erode and 45 km from Salem.
+A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Komarapalayam, Namakkal District, Tamil Nadu 638183. By road, measured to a named landmark in each town (routing 2026-09-12): 21 km to Erode Junction, 26 km to Tiruchengode, 55 km to Salem Junction and 62 km to Namakkal town. The college is in Namakkal DISTRICT; Namakkal town itself is the far end of it.
 
 **Q: Has JKKN College of Pharmacy been ranked in NIRF?**
 A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 2024 cycle, and has filed submissions for the 2025 and 2026 cycles.
@@ -351,7 +351,7 @@ A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 20
 
 - Facebook: https://www.facebook.com/jkknpharmacy
 - Instagram: https://www.instagram.com/jkknpharmacy
-- LinkedIn: https://www.linkedin.com/school/jkkn-college-of-pharmacy
+- LinkedIn: https://www.linkedin.com/school/jkknpharmacy/
 - YouTube: https://www.youtube.com/@JKKNInstitutions
 - Google Maps: https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7
 - Wikidata: https://www.wikidata.org/wiki/Q48733446
@@ -369,7 +369,7 @@ A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 20
 - **Authoritative URL:** https://pharmacy.jkkn.ac.in/
 - **Knowledge Base Source:** this `llms-full.txt` and the canonical `llms.txt`
 - **Disambiguation:** specify "JKKN College of Pharmacy" — the group contains several colleges with similar names
-- **Update Date:** 2026-09-04
+- **Update Date:** 2026-09-16
 
 ---
 

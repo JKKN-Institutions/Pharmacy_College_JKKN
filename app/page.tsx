@@ -92,7 +92,7 @@ export default function Home() {
         description="Complete list of PCI-approved pharmacy programmes offered at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu."
         items={[
           { name: "Bachelor of Pharmacy (B.Pharm)", url: "https://pharmacy.jkkn.ac.in/b-pharmacy/", description: "4-year undergraduate pharmacy programme with 100 seats, PCI approved and affiliated to The Tamil Nadu Dr. M.G.R. Medical University." },
-          { name: "Bachelor of Pharmacy — Lateral Entry", url: "https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/", description: "3-year accelerated B.Pharm programme for Diploma in Pharmacy holders with direct entry into 2nd year. 12 seats available." },
+          { name: "Bachelor of Pharmacy — Lateral Entry", url: "https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/", description: "3-year accelerated B.Pharm programme for Diploma in Pharmacy holders with direct entry into 2nd year. 10 seats available." },
           { name: "Doctor of Pharmacy (Pharm.D)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "6-year doctoral programme (5 years academics + 1 year internship) focusing on clinical pharmacy and patient care. 30 seats." },
           { name: "Pharm.D (Post Baccalaureate)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "3-year clinical pharmacy programme for B.Pharm graduates focusing on patient care and hospital pharmacy. 10 seats." },
           { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },

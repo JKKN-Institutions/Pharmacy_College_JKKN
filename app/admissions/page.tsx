@@ -50,7 +50,7 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "Can I apply for multiple programmes with one application?",
-      answer: "Yes, a single application form at JKKN College of Pharmacy is issued with options for various courses. You can indicate your preferences for B.Pharm, B.Pharm (Lateral Entry), M.Pharm specialisations (Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice), and Pharm.D programmes in the same application. This allows you to maximise admission opportunities based on your eligibility and merit ranking."
+      answer: "Yes, a single application form at JKKN College of Pharmacy is issued with options for various courses. You can indicate your preferences for B.Pharm, B.Pharm (Lateral Entry), M.Pharm specialisations (Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, Pharmaceutical Regulatory Affairs), and Pharm.D programmes in the same application. This allows you to maximise admission opportunities based on your eligibility and merit ranking."
     },
     {
       question: "Is NEET required for B.Pharm or Pharm.D admission?",
@@ -118,7 +118,7 @@ export default function AdmissionProcessPage() {
                 JKKN College of Pharmacy, a PCI-approved and NAAC A grade institution since 1985, invites applications for admission to various undergraduate and postgraduate pharmacy programmes for the academic year 2026-27. The admission process is governed by the guidelines of the Tamil Nadu Government and ensures transparency, merit-based selection, and equal opportunity for all candidates.
               </p>
               <p>
-                The college offers comprehensive pharmacy education with modern infrastructure, experienced senior learners, extensive research facilities, and excellent placement opportunities. With over 35 years of excellence in pharmaceutical education, JKKN has established itself as one of the recognized pharmacy institutions in South India.
+                The college offers comprehensive pharmacy education with modern infrastructure, experienced senior learners, extensive research facilities, and excellent placement opportunities. With 41 years of excellence in pharmaceutical education since 1985, JKKN has established itself as one of the recognized pharmacy institutions in South India.
               </p>
             </div>
           </div>
@@ -185,6 +185,13 @@ export default function AdmissionProcessPage() {
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacy Practice)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Regulatory Affairs)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
@@ -534,6 +541,12 @@ export default function AdmissionProcessPage() {
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmacy Practice)</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
+                  </tr>
+                  <tr className="hover:bg-[#F5F1E8]">
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">M.Pharm (Pharmaceutical Regulatory Affairs)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700"></td>
