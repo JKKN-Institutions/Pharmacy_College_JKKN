@@ -3,7 +3,7 @@ import { HowToSchema, SpeakableWebPageSchema, EventSchema, CourseSchema } from '
 
 export const metadata: Metadata = {
   title: 'Pharm.D Admission 2026 | JKKN College of Pharmacy',
-  description: 'Apply for Pharm.D (6 years) and Pharm.D Post Baccalaureate (3 years) at JKKN 2026. PCI approved, NAAC A grade. Eligibility 10+2 PCB (50%) or B.Pharm.',
+  description: 'Apply for Pharm.D (6 years) and Pharm.D Post Baccalaureate (3 years) at JKKN 2026. PCI approved, NAAC A grade. Eligibility 10+2 with Physics, Chemistry and Biology or Mathematics (50%), or B.Pharm.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admissions/pharm.d/',
   },

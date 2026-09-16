@@ -94,7 +94,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'Are scholarships available for B.Pharm learners?',
       answer:
-        'Yes. Tamil Nadu Government scholarships available include Post-Matric Scholarship for SC/ST (Management Quota ₹43,000/year + maintenance; Government Quota as per norms), BC/MBC/DNC Scholarship, and First Graduate Scholarship (for first-generation graduates under counselling quota). The JKKN scholarship cell helps process applications via the National Scholarship Portal.',
+        'Yes. Tamil Nadu Government scholarships available include the Post-Matric Scholarship for SC/ST, the BC/MBC/DNC Scholarship, and the First Graduate Scholarship (for first-generation graduates under counselling quota). Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you. The JKKN scholarship cell helps process applications via the National Scholarship Portal.',
     },
   ]
 
@@ -440,7 +440,7 @@ export default function BPharmAdmissionPage() {
             </h2>
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <ul className="space-y-2 text-[10px] sm:text-xs md:text-sm text-gray-700">
-                <li>• <strong>Post-Matric Scholarship (SC/ST):</strong> Management Quota – ₹43,000/year + maintenance | Government Quota – As per govt norms.</li>
+                <li>• <strong>Post-Matric Scholarship (SC/ST):</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
                 <li>• <strong>BC/MBC/DNC Scholarship:</strong> Government Counselling Quota – As per govt norms.</li>
                 <li>• <strong>First Graduate Scholarship:</strong> For first-generation graduates under government counselling quota.</li>
                 <li>• <strong>Merit-Based Awards:</strong> Special scholarships for top rank holders in qualifying exams.</li>

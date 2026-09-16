@@ -44,9 +44,9 @@
 
 ### M.Pharm (Master of Pharmacy)
 - Duration: 2 years (4 semesters)
-- Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice
-- Intake: 15 seats per specialisation
-- Eligibility: B.Pharm with 55% marks, GPAT preferred
+- Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs
+- Intake: 15 seats per specialisation, 90 total
+- Eligibility: B.Pharm with 50% marks (45% SC/ST), GPAT preferred
 
 ### Pharm.D (Doctor of Pharmacy)
 - Duration: 6 years (5 years academic + 1 year internship)
@@ -94,10 +94,10 @@
 
 ## Location & Accessibility
 
-- Nearest Cities: Namakkal (10 km), Erode (35 km), Salem (45 km), Coimbatore (105 km), Tiruppur (85 km)
+- Road distances (measured to named landmarks): Erode Junction 21 km, Tiruchengode 26 km, Salem Junction 55 km, Namakkal town 62 km, Tiruppur railway station 64 km, Coimbatore Junction 112 km
 - Highway: Located on NH-544 (Salem-Coimbatore National Highway) — excellent road connectivity
-- Nearest Railway Stations: Salem Junction (45 km), Erode Junction (35 km)
-- Nearest Airport: Coimbatore International Airport (105 km)
+- Nearest Railway Stations: Erode Junction (21 km), Salem Junction (55 km)
+- Nearest Airport: Coimbatore International Airport (101 km)
 - GPS Coordinates: 11.4449861, 77.7307333
 
 ## Sister Institutions (Under JKKN Institutions)
@@ -118,7 +118,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 
 ## Contact for Admissions
 
-- [Admissions Portal](https://admission.jkkn.ac.in/): the online application
+- [Admissions Portal](https://www.jkkn.ai/apply/jkkn-admission-2026): the online application form
 - Phone: +91 9345855001
 - WhatsApp: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
@@ -128,7 +128,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 
 - [Homepage](https://pharmacy.jkkn.ac.in/): overview of the college
 - [B.Pharm](https://pharmacy.jkkn.ac.in/b-pharmacy/): 4 years, 100 seats, PCM or PCB with 50%
-- [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, five specialisations, 15 seats each
+- [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, six specialisations, 15 seats each, 90 total
 - [Pharm.D](https://pharmacy.jkkn.ac.in/pharm-d/): 6 years, 30 seats, 5 academic plus 1 clerkship
 - [Admissions](https://pharmacy.jkkn.ac.in/admissions/): the intake and fee table, and the authority where sources disagree
 - [Fee Structure](https://pharmacy.jkkn.ac.in/fee-structure/): management-quota fees per programme; government quota follows Tamil Nadu norms

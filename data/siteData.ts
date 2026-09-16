@@ -220,7 +220,8 @@ export const bottomMenuItems: NavItem[] = [
   { label: "CIRCULARS AND NOTICES", href: "/pdf/CIRCULARS-AND-NOTICES.pdf", target: "_blank" },
   {
     label: "MANDATORY DISCLOSURES",
-    href: "/disclosures",
+    href: "/pdf/UGC-PUBLIC-DISCLOSURE-COMPLIANCE-LETTER.pdf",
+    target: "_blank",
     submenu: [
       { label: "UGC Public Disclosure Compliance", href: "/pdf/UGC-PUBLIC-DISCLOSURE-COMPLIANCE-LETTER.pdf", target: "_blank" },
       { label: "Undertaking", href: "/pdf/UNDERTAKING.pdf", target: "_blank" }

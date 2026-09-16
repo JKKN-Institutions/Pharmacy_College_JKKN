@@ -74,7 +74,7 @@ export default function PharmaceuticalChemistryLayout({
           },
           {
             question: 'What is the eligibility for M.Pharm Pharmaceutical Chemistry at JKKN?',
-            answer: 'Candidates must hold a B.Pharm degree with a minimum of 55% marks from a recognised university. A valid GPAT score is preferred for admission. Seats are filled based on merit and university norms set by The Tamil Nadu Dr. M.G.R. Medical University.',
+            answer: 'Candidates must hold a B.Pharm degree with a minimum of 50% marks (45% for SC/ST) from a recognised university. A valid GPAT score is preferred for admission. Seats are filled based on merit and university norms set by The Tamil Nadu Dr. M.G.R. Medical University.',
           },
           {
             question: 'What career options exist after M.Pharm Pharmaceutical Chemistry?',

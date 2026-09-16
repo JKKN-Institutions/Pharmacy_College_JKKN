@@ -69,7 +69,7 @@ export default function ScholarshipsPage() {
                   <th className="px-3 py-2 text-center font-semibold border border-[#6ba872]">GQ</th>
                   <th className="px-3 py-2 text-center font-semibold border border-[#6ba872]">MQ</th>
                   <th className="px-3 py-2 text-center font-semibold border border-[#6ba872] text-[10px] sm:text-xs">
-                    NAAN PHUDULVAN<br />SCHOLARSHIP<br />
+                    TAMIL PUDHALVAN /<br />PUDHUMAI PENN<br />
                     <span className="font-normal">BOYS / GIRLS</span>
                   </th>
                 </tr>
@@ -83,35 +83,35 @@ export default function ScholarshipsPage() {
                     PHARMACY
                   </td>
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium whitespace-nowrap">Pharm.D</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">2L / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5.25L / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
                   <td className="px-3 py-3 text-center border border-gray-200 text-gray-400">—</td>
                   <td className="px-3 py-3 text-center border border-gray-200 text-gray-400">—</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">15K &lt; 20K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">₹1,000 / month</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
                 </tr>
 
                 {/* Row 2 - B.Pharm */}
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium">2</td>
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium whitespace-nowrap">B.Pharm</td>
-                  <td colSpan={2} className="px-3 py-3 text-center border border-gray-200">43K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">18K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">₹1,000 / month</td>
+                  <td colSpan={2} className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
                 </tr>
 
                 {/* Row 3 - M.Pharm */}
                 <tr className="bg-white hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium">3</td>
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium whitespace-nowrap">M.Pharm</td>
-                  <td colSpan={2} className="px-3 py-3 text-center border border-gray-200">70K / Yr</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
+                  <td colSpan={2} className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
                   <td className="px-3 py-3 text-center border border-gray-200 text-gray-400">—</td>
-                  <td className="px-3 py-3 text-center border border-gray-200">5K &lt; 10K / Yr</td>
+                  <td className="px-3 py-3 text-center border border-gray-200">As per Govt norms</td>
                   <td className="px-3 py-3 text-center border border-gray-200 text-gray-400">—</td>
                   <td className="px-3 py-3 text-center border border-gray-200 text-gray-400">—</td>
                 </tr>
@@ -120,7 +120,7 @@ export default function ScholarshipsPage() {
           </div>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            * All scholarship amounts are approximate and subject to change as per government norms. GQ — Government Quota. MQ — Management Quota.
+            * Scholarship rates are fixed by the Tamil Nadu Government and revised every year. This page does not publish rupee figures - contact the JKKN scholarship cell on +91 93458 55001, or check the National Scholarship Portal, for the amount that applies to you. GQ — Government Quota. MQ — Management Quota.
           </p>
 
         </div>

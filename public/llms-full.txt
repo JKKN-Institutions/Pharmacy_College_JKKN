@@ -20,7 +20,7 @@
 - **Principal:** Dr. K.L. Senthil Kumar, M.Pharm., Ph.D. — https://pharmacy.jkkn.ac.in/the-principal/
 - **Website:** https://pharmacy.jkkn.ac.in
 - **Parent Group Site:** https://jkkn.ac.in
-- **Admission Portal:** https://admission.jkkn.ac.in
+- **Admission Portal:** https://www.jkkn.ai/apply/jkkn-admission-2026
 - **Placement Portal:** https://placements.jkkn.ac.in
 
 > Note on the two founding years: 1952 is when the educational group began; 1969 is when the J.K.K. Rangammal Charitable Trust was registered to formalise it. Both are correct and refer to different entities. This college dates from 1985.
@@ -41,11 +41,15 @@
 - **Highway:** NH-544 (Salem–Coimbatore National Highway)
 
 ### Distance and Connectivity
-- Namakkal: 10 km
-- Erode: 35 km — Erode Junction is the nearest major railway station
-- Salem: 45 km — Salem Junction railway station
-- Tiruppur: 85 km
-- Coimbatore: 105 km — Coimbatore International Airport is the nearest airport
+Road distances, measured to a named landmark in each town (routing 2026-09-12).
+The college is in Namakkal DISTRICT but Namakkal town itself is 62 km away.
+- Erode Junction railway station: 21 km — the nearest major railway station
+- Tiruchengode: 26 km
+- Salem Junction railway station: 55 km
+- Namakkal town: 62 km
+- Tiruppur railway station: 64 km
+- Coimbatore International Airport: 101 km — the nearest airport
+- Coimbatore Junction railway station: 112 km
 
 ## Accreditation, Approvals & Affiliation
 
@@ -75,6 +79,7 @@ Six programmes are offered. Intake and management-quota fees below are as publis
 | M.Pharm — Pharmaceutical Chemistry | 2 years | 15 | Rs 75,000 |
 | M.Pharm — Pharmaceutical Analysis | 2 years | 15 | Rs 75,000 |
 | M.Pharm — Pharmacy Practice | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Regulatory Affairs | 2 years | 15 | Rs 75,000 |
 | Pharm.D | 6 years | 30 | Rs 2,75,000 (day scholar) / Rs 3,25,000 (with hostel) |
 | Pharm.D (Post Baccalaureate) | 3 years | 10 | Rs 70,000 (day scholar) / Rs 1,50,000 (with hostel) |
 | Ph.D in Pharmaceutical Sciences | 3 years and above | limited | see the Ph.D page |
@@ -97,8 +102,8 @@ B.Pharm Lateral Entry intake is given as 12 seats on the college homepage and in
 
 ### Master of Pharmacy (M.Pharm)
 - **Duration:** 2 years, 4 semesters
-- **Five specialisations:** Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice
-- **Eligibility:** B.Pharm with 55% marks; GPAT preferred
+- **Six specialisations:** Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs (Regulatory Affairs new for 2026-27)
+- **Eligibility:** B.Pharm with 50% marks (45% SC/ST); GPAT preferred
 - **Page:** https://pharmacy.jkkn.ac.in/m-pharmacy/
 
 ### Doctor of Pharmacy (Pharm.D)
@@ -110,7 +115,7 @@ B.Pharm Lateral Entry intake is given as 12 seats on the college homepage and in
 - **Page:** https://pharmacy.jkkn.ac.in/pharm-d/
 
 ### Ph.D in Pharmaceutical Sciences
-- **Typical duration:** 3–4 years full-time; 4–6 years part-time
+- **Duration:** 3-5 years (minimum 3, maximum 6)
 - **Eligibility:** M.Pharm, plus GPAT / CSIR-NET / UGC-NET / GATE qualification or the university entrance test
 - **Structure:** first year coursework in research methodology and proposal development; subsequent years original research and thesis
 - **Page:** https://pharmacy.jkkn.ac.in/phd/
@@ -139,7 +144,7 @@ This file does not list individual faculty other than the Principal. The directo
 
 - **Admissions page:** https://pharmacy.jkkn.ac.in/admissions/
 - **Programme-specific admission pages:** [B.Pharm](https://pharmacy.jkkn.ac.in/admissions/b.pharm), [M.Pharm](https://pharmacy.jkkn.ac.in/admissions/m.pharm), [Pharm.D](https://pharmacy.jkkn.ac.in/admissions/pharm.d)
-- **Application portal:** https://admission.jkkn.ac.in
+- **Application portal:** https://www.jkkn.ai/apply/jkkn-admission-2026
 - **Current academic year:** 2026-27
 - **Seat allocation:** the Tamil Nadu Selection Committee counselling process determines allocation on +2 marks and category rank
 - **Timing:** admission procedures commence after the 12th standard results are announced
@@ -269,7 +274,7 @@ A: Yes. It is approved by the Pharmacy Council of India and affiliated to The Ta
 A: NAAC A Grade.
 
 **Q: Which programmes does JKKN College of Pharmacy offer?**
-A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across five specialisations, Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
+A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across six specialisations, Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
 
 **Q: How many B.Pharm seats are there?**
 A: 100 seats, admitted through Tamil Nadu Selection Committee counselling.

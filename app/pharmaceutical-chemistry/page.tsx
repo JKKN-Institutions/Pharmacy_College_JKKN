@@ -382,7 +382,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Minimum aggregate:</span> 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
+              <span><span className="text-[#006837] font-bold">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1608,7 +1608,7 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Hostel & Mess:</span> ₹30,000-80,000 per year</span>
+              <span><span className="text-[#006837] font-bold">Hostel & Mess:</span> billed separately - contact the hostel office on +91 93458 55001</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
@@ -1646,11 +1646,11 @@ export default function PharmaceuticalChemistryPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹70,000/year | Government Quota – As per govt norms</span>
+              <span><span className="text-[#006837] font-bold">Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
-              <span><span className="text-[#006837] font-bold">BC/MBC/DNC Scholarship:</span> ₹10,000/year</span>
+              <span><span className="text-[#006837] font-bold">BC/MBC/DNC Scholarship:</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>

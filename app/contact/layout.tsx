@@ -49,8 +49,8 @@ const contactSchema = {
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "11.4387",
-    "longitude": "77.7062"
+    "latitude": "11.4449861",
+    "longitude": "77.7307333"
   },
   "contactPoint": [
     {

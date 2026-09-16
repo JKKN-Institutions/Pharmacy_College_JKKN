@@ -15,7 +15,7 @@ export default function AdmissionProcessPage() {
   const admissionSteps = [
     {
       name: "Check Eligibility",
-      text: "Verify you meet the eligibility criteria for your chosen programme - B.Pharm requires +2 with PCM/B (50%), M.Pharm requires B.Pharm degree, Pharm.D requires +2 with PCB (50%)."
+      text: "Verify you meet the eligibility criteria for your chosen programme - B.Pharm requires +2 with PCM/B (50%), M.Pharm requires B.Pharm degree, Pharm.D requires +2 with Physics, Chemistry and Biology or Mathematics (50%)."
     },
     {
       name: "Fill Application Form",
@@ -66,7 +66,7 @@ export default function AdmissionProcessPage() {
     },
     {
       question: "Are scholarships available for pharmacy learners?",
-      answer: "Yes, Tamil Nadu government scholarships are available for eligible learners. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Learners can apply through the college scholarship cell after admission."
+      answer: "Yes, Tamil Nadu government scholarships are available for eligible learners - the Post-Matric Scholarship (SC/ST), the BC/MBC/DNC Community Scholarship, and the First Graduate Scholarship (counselling quota only). Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you. Learners can apply through the college scholarship cell after admission, and through the National Scholarship Portal."
     },
     {
       question: "How are seats allocated for different categories?",
@@ -206,7 +206,7 @@ export default function AdmissionProcessPage() {
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">PhD (Pharmaceutical Sciences)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3-5 Years</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3-5 Years (Min 3, Max 6)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As per University</td>
@@ -297,7 +297,7 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% marks in PCB subjects (45% for SC/ST/OBC candidates)</span>
+                  <span>Minimum 50% marks in Physics, Chemistry and Biology or Mathematics (45% for SC/ST candidates)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
@@ -669,12 +669,12 @@ export default function AdmissionProcessPage() {
                     Government Scholarships
                   </h3>
                   <ul className="space-y-2 ml-7 text-[10px] sm:text-xs text-gray-700">
-                    <li>• <strong>Post-Matric Scholarship (SC/ST) – B.Pharm:</strong> Management Quota – ₹43,000/year + maintenance | Government Quota – As per govt norms</li>
-                    <li>• <strong>Post-Matric Scholarship (SC/ST) – Pharm.D:</strong> Management Quota – ₹5,25,000/year + maintenance | Government Quota – As per govt norms</li>
-                    <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Management Quota – ₹70,000/year | Government Quota – As per govt norms</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – B.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – Pharm.D:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</li>
+                    <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</li>
                     <li>• <strong>BC/MBC/DNC Scholarship – B.Pharm:</strong> Government Counselling Quota – As per govt norms</li>
-                    <li>• <strong>BC/MBC/DNC Scholarship – Pharm.D:</strong> Day Scholar – ₹16,000/year | Hosteller – ₹16,000 + ₹4,000/year</li>
-                    <li>• <strong>BC/MBC/DNC Scholarship – M.Pharm:</strong> ₹10,000/year</li>
+                    <li>• <strong>BC/MBC/DNC Scholarship – Pharm.D:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</li>
+                    <li>• <strong>BC/MBC/DNC Scholarship – M.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you</li>
                     <li>• <strong>First Graduate Scholarship – B.Pharm:</strong> Government Counselling Quota – As per govt norms (for first-generation graduates)</li>
                   </ul>
                 </div>

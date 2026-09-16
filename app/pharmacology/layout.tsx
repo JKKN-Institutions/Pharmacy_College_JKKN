@@ -73,7 +73,7 @@ export default function PharmacologyLayout({
           },
           {
             question: 'What is the eligibility for M.Pharm Pharmacology at JKKN?',
-            answer: 'Candidates must hold a B.Pharm degree with a minimum of 55% aggregate marks from a recognised university. A valid GPAT score is preferred for admission. Lateral entry and sponsored category seats are available as per PCI and university norms.',
+            answer: 'Candidates must hold a B.Pharm degree with a minimum of 50% aggregate marks (45% for SC/ST) from a recognised university. A valid GPAT score is preferred for admission. Lateral entry and sponsored category seats are available as per PCI and university norms.',
           },
           {
             question: 'What career options exist after M.Pharm Pharmacology?',

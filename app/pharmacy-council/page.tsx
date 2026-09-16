@@ -113,34 +113,64 @@ export default function PharmacyCouncilPage() {
                           <tr className="bg-gray-100">
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Programme</th>
                             <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Duration</th>
-                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">PCI Approval Status</th>
+                            <th className="border border-gray-300 px-4 py-3 text-left font-semibold">Offered</th>
                           </tr>
                         </thead>
                         <tbody>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Bachelor of Pharmacy (B. Pharm)</td>
                             <td className="border border-gray-300 px-4 py-3">4 Years</td>
-                            <td className="border border-gray-300 px-4 py-3">Approved</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmaceutics</td>
                             <td className="border border-gray-300 px-4 py-3">2 Years</td>
-                            <td className="border border-gray-300 px-4 py-3">Approved</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmacology</td>
                             <td className="border border-gray-300 px-4 py-3">2 Years</td>
-                            <td className="border border-gray-300 px-4 py-3">Approved</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmaceutical Analysis</td>
                             <td className="border border-gray-300 px-4 py-3">2 Years</td>
-                            <td className="border border-gray-300 px-4 py-3">Approved</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
+                          </tr>
+                          <tr>
+                            <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmaceutical Chemistry</td>
+                            <td className="border border-gray-300 px-4 py-3">2 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
+                          </tr>
+                          <tr className="bg-gray-50">
+                            <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmacy Practice</td>
+                            <td className="border border-gray-300 px-4 py-3">2 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
+                          </tr>
+                          <tr>
+                            <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmaceutical Regulatory Affairs</td>
+                            <td className="border border-gray-300 px-4 py-3">2 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes - new for 2026-27</td>
+                          </tr>
+                          <tr className="bg-gray-50">
+                            <td className="border border-gray-300 px-4 py-3">Bachelor of Pharmacy (B. Pharm) - Lateral Entry</td>
+                            <td className="border border-gray-300 px-4 py-3">3 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">Doctor of Pharmacy (Pharm. D)</td>
                             <td className="border border-gray-300 px-4 py-3">6 Years</td>
-                            <td className="border border-gray-300 px-4 py-3">Approved</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
+                          </tr>
+                          <tr className="bg-gray-50">
+                            <td className="border border-gray-300 px-4 py-3">Doctor of Pharmacy (Pharm. D) - Post Baccalaureate</td>
+                            <td className="border border-gray-300 px-4 py-3">3 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
+                          </tr>
+                          <tr>
+                            <td className="border border-gray-300 px-4 py-3">Ph.D in Pharmaceutical Sciences</td>
+                            <td className="border border-gray-300 px-4 py-3">3-5 Years</td>
+                            <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                         </tbody>
                       </table>

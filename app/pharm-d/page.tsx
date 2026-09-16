@@ -199,7 +199,7 @@ export default function PharmDPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Minimum 55% aggregate (50% SC/ST/OBC)</span>
+                    <span>Minimum 50% aggregate (45% SC/ST)</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
@@ -340,7 +340,7 @@ export default function PharmDPage() {
               <tr className="bg-[#FBFBEE] border-b border-[#7cb983]/20">
                 <td className="px-3 py-3 font-semibold text-[#006837]">Eligibility Marks</td>
                 <td className="px-3 py-3">10+2: 50% in PCB/PCM (45% SC/ST)</td>
-                <td className="px-3 py-3">B.Pharm: 55% aggregate (50% SC/ST/OBC)</td>
+                <td className="px-3 py-3">B.Pharm: 50% aggregate (45% SC/ST)</td>
               </tr>
               <tr className="border-b border-[#7cb983]/20">
                 <td className="px-3 py-3 font-semibold text-[#006837]">Age Limit</td>
@@ -2025,7 +2025,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#006837] to-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">1</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#002309] mb-3">Eligibility Verification</h4>
-                <p className="text-xs sm:text-sm text-[#002309]">Completed B.Pharm degree from PCI-approved institution. Minimum 55% aggregate marks (50% for SC/ST). Registered with State Pharmacy Council (registration certificate required).</p>
+                <p className="text-xs sm:text-sm text-[#002309]">Completed B.Pharm degree from PCI-approved institution. Minimum 50% aggregate marks (45% for SC/ST). Registered with State Pharmacy Council (registration certificate required).</p>
               </div>
             </div>
 
@@ -2230,7 +2230,7 @@ export default function PharmDPage() {
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">Post-Matric Scholarship (SC/ST)</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#002309]">
-                <li><span className="font-semibold text-[#006837]">Management Quota:</span> ₹5,25,000/year + maintenance</li>
+                <li><span className="font-semibold text-[#006837]">Management Quota:</span> As per Govt norms</li>
                 <li><span className="font-semibold text-[#006837]">Government Quota:</span> As per govt norms</li>
               </ul>
             </div>
@@ -2238,8 +2238,8 @@ export default function PharmDPage() {
             <div className="bg-white rounded-lg shadow-md p-6 border-l-4 border-[#7cb983]">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-4">BC/MBC/DNC Scholarship</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#002309]">
-                <li><span className="font-semibold text-[#006837]">Day Scholar:</span> ₹16,000/year</li>
-                <li><span className="font-semibold text-[#006837]">Hosteller:</span> ₹16,000 + ₹4,000/year</li>
+                <li><span className="font-semibold text-[#006837]">Day Scholar:</span> As per Govt norms</li>
+                <li><span className="font-semibold text-[#006837]">Hosteller:</span> As per Govt norms</li>
               </ul>
             </div>
 

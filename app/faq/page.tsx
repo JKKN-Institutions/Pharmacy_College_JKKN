@@ -34,7 +34,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Is hostel accommodation available?',
-        answer: 'JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel fees are approximately 60,000-80,000 per year including food.',
+        answer: 'JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel and mess charges are billed separately from tuition - contact the hostel office on +91 93458 55001 for the current rate.',
       },
     ],
   },
@@ -72,7 +72,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Are scholarships available for pharmacy learners?',
-        answer: 'Yes, Tamil Nadu government scholarships are available for eligible learners. Post-Matric Scholarship (SC/ST): B.Pharm Management Quota – ₹43,000/year + maintenance, Government Quota – As per govt norms; Pharm.D Management Quota – ₹5,25,000/year + maintenance, Government Quota – As per govt norms; M.Pharm Management Quota – ₹70,000/year, Government Quota – As per govt norms. BC/MBC/DNC Scholarship: B.Pharm (Govt. Counselling) – As per govt norms; Pharm.D – ₹16,000/year (Day Scholar), ₹20,000/year (Hosteller); M.Pharm – ₹10,000/year. First Graduate Scholarship (Counselling Quota only): B.Pharm – As per govt norms. Learners can apply through the college scholarship cell after admission.',
+        answer: 'Yes, Tamil Nadu government scholarships are available for eligible learners - the Post-Matric Scholarship (SC/ST), the BC/MBC/DNC Community Scholarship, and the First Graduate Scholarship (counselling quota only). Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you. Learners can apply through the college scholarship cell after admission, and through the National Scholarship Portal.',
       },
       {
         question: 'How are seats allocated for different categories?',
@@ -80,7 +80,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is the fee structure for B.Pharm at JKKN Pharmacy College?',
-        answer: 'B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
+        answer: 'B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
       },
     ],
   },
@@ -90,7 +90,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'Is NEET required for B.Pharm admission?',
-        answer: 'NEET is mandatory for B.Pharm admission in government colleges in some states like Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks.',
+        answer: 'NEET is not required for B.Pharm admission in Tamil Nadu. Admission here is on +2 marks through Tamil Nadu Selection Committee counselling for government-quota seats, or through management-quota counselling. A few other states run their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admission.',
       },
       {
         question: 'What is the difference between B.Pharm and Pharm.D?',

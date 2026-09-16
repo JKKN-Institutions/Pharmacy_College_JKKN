@@ -10,9 +10,13 @@ export default function FeeStructurePage() {
       <main className="flex-1">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#002309] mb-8 sm:mb-10">
-            Fee Structure
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#002309] mb-3 sm:mb-4">
+            Fee Structure 2026-27
           </h1>
+
+          <p className="text-sm sm:text-base text-gray-600 mb-8 sm:mb-10">
+            Management-quota tuition fees for the academic year 2026-27. Government-quota fees follow Tamil Nadu Government norms.
+          </p>
 
           <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
             <table className="w-full text-sm sm:text-base border-collapse">
@@ -79,7 +83,7 @@ export default function FeeStructurePage() {
 
                 {/* Pharmacy PG (M.Pharm) */}
                 <tr className="bg-white hover:bg-[#f0f7f0] transition-colors">
-                  <td rowSpan={5} className="px-4 py-3 font-semibold text-[#002309] border border-gray-200 align-middle">
+                  <td rowSpan={6} className="px-4 py-3 font-semibold text-[#002309] border border-gray-200 align-middle">
                     PHARMACY PG (M.PHARM)
                   </td>
                   <td className="px-4 py-3 border border-gray-200">Pharmaceutics</td>
@@ -111,12 +115,18 @@ export default function FeeStructurePage() {
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
+                <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
+                  <td className="px-4 py-3 border border-gray-200">Pharma. Regulatory Affairs</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#006837] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-sm">New for 2026-27</td>
+                </tr>
               </tbody>
             </table>
           </div>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            * Fees mentioned are per annum. GQ — Government Quota. MQ — Management Quota.
+            * Fees shown are tuition only, per annum, for the academic year 2026-27. Hostel, mess, transport, examination and caution-deposit charges are additional and are not included above. GQ — Government Quota. MQ — Management Quota.
           </p>
 
         </div>

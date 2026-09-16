@@ -52,11 +52,11 @@ export default function Home() {
     },
     {
       question: "Is hostel accommodation available?",
-      answer: "JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel fees are approximately 60,000-80,000 per year including food."
+      answer: "JKKN College of Pharmacy provides separate hostel facilities for men and women on the Komarapalayam campus. Hostels include furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and medical facilities. Hostel and mess charges are billed separately from tuition - contact the hostel office on +91 93458 55001 for the current rate."
     },
     {
       question: "What is the fee structure for B.Pharm at JKKN Pharmacy College?",
-      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The fee includes tuition, lab charges, library, and examination fees. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
+      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
     },
     {
       question: "Is JKKN Pharmacy College NAAC accredited?",
@@ -95,7 +95,7 @@ export default function Home() {
           { name: "Bachelor of Pharmacy — Lateral Entry", url: "https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/", description: "3-year accelerated B.Pharm programme for Diploma in Pharmacy holders with direct entry into 2nd year. 12 seats available." },
           { name: "Doctor of Pharmacy (Pharm.D)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "6-year doctoral programme (5 years academics + 1 year internship) focusing on clinical pharmacy and patient care. 30 seats." },
           { name: "Pharm.D (Post Baccalaureate)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "3-year clinical pharmacy programme for B.Pharm graduates focusing on patient care and hospital pharmacy. 10 seats." },
-          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 5 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
+          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
           { name: "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences", url: "https://pharmacy.jkkn.ac.in/phd/", description: "3-year doctoral research programme in pharmaceutical sciences for advanced research and academic careers." }
         ]}
       />
@@ -117,7 +117,7 @@ export default function Home() {
       />
       <CourseSchema
         name="Master of Pharmacy (M.Pharm)"
-        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy with 5 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
+        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
@@ -127,7 +127,7 @@ export default function Home() {
         name="How to Apply to JKKN College of Pharmacy, Tamil Nadu"
         description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
         steps={[
-          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks." },
+          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 50% marks (45% for SC/ST)." },
           { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at jkkn.ai/apply/jkkn-admission-2026. Applications open May-June annually for the academic year starting in July." },
           { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
@@ -271,7 +271,7 @@ export default function Home() {
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (5 specialisations), Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (6 specialisations), Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
               </p>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
@@ -325,7 +325,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">5 M.Pharm Specialisations</span>
+                  <span className="text-gray-700 font-medium text-sm sm:text-base">6 M.Pharm Specialisations</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
@@ -441,7 +441,7 @@ export default function Home() {
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl font-bold text-[#006837]">12</span>
+                    <span className="text-lg xs:text-xl font-bold text-[#006837]">10</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
                   <Link href="/b-pharmacy-lateral-entry" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
@@ -466,7 +466,7 @@ export default function Home() {
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                Doctoral research programme in pharmaceutical sciences focusing on original contributions to knowledge through independent, supervised research.
+                Six-year professional doctorate in clinical pharmacy - five academic years plus a one-year hospital internship - focused on patient care, pharmacotherapy and therapeutic drug monitoring.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
@@ -557,7 +557,7 @@ export default function Home() {
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">5 specialisations available</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">6 specialisations available</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -570,7 +570,7 @@ export default function Home() {
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837]">60</span>
+                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837]">90</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
                   <Link href="/m-pharmacy" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
@@ -589,27 +589,27 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="text-base xs:text-lg sm:text-xl font-bold text-white">Doctor of Philosophy (PhD)</h3>
-                    <p className="text-gray-300 text-xs sm:text-sm">3 Years </p>
+                    <p className="text-gray-300 text-xs sm:text-sm">3-5 Years (Min 3, Max 6)</p>
                   </div>
                 </div>
               </div>
               <div className="p-3 sm:p-4">
                 <p className="text-xs sm:text-sm text-gray-600 mb-2 sm:mb-3">
-                  Clinical pharmacy programme focusing on patient care, drug therapy management, and hospital
-                  pharmacy practice.
+                  Doctoral research programme in pharmaceutical sciences, built on original contributions to
+                  knowledge through independent, supervised research and a thesis.
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counselling</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Original research & thesis</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Hospital rotations & internship</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">Supervised by senior faculty</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">Therapeutic drug monitoring</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">GPAT / NET / GATE entry route</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
@@ -1200,7 +1200,7 @@ export default function Home() {
               <tbody>
                 {[
                   { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
-                  { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB or PCM (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (50%)', intake: '15 Seats per specialisation, 90 total', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                 ].map((p, i) => (

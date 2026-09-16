@@ -282,7 +282,7 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="text-xs sm:text-sm text-gray-700">• B.Pharm degree from PCI-approved institution</span>
               </li>
               <li className="flex items-start">
-                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Minimum aggregate: 55% marks in B.Pharm (50% for SC/ST/OBC candidates)</span>
+                <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Minimum aggregate: 50% marks in B.Pharm (45% for SC/ST candidates)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-xs sm:text-sm text-[#006837] font-semibold">• Valid GPAT score: Mandatory for government colleges and GPAT scholarship eligibility</span>
@@ -1312,7 +1312,7 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="font-bold text-[#006837]">• Laboratory Expenses:</span> Usually included in fees
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• Hostel Fees:</span> ₹30,000-80,000 per year
+                <span className="font-bold text-[#006837]">• Hostel Fees:</span> billed separately - contact the hostel office on +91 93458 55001
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Thesis/Project Expenses:</span> ₹10,000-25,000 (for chemicals, consumables)
@@ -1337,10 +1337,10 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="font-bold text-[#006837]">• Research Fellowships:</span> Industry-sponsored projects offer stipends
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹70,000/year | Government Quota – As per govt norms
+                <span className="font-bold text-[#006837]">• Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
-                <span className="font-bold text-[#006837]">• BC/MBC/DNC Scholarship:</span> ₹10,000/year
+                <span className="font-bold text-[#006837]">• BC/MBC/DNC Scholarship:</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </li>
               <li className="text-xs sm:text-sm text-gray-700">
                 <span className="font-bold text-[#006837]">• Educational Loans:</span> Banks offer loans up to ₹10 lakhs for M.Pharm

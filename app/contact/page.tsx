@@ -89,7 +89,7 @@ export default function ContactPage() {
                         Tamil Nadu - 638183, India
                       </p>
                       <p className="text-xs sm:text-sm text-gray-600 mt-3 leading-relaxed">
-                        Located on NH-544 between Salem and Coimbatore, 15 km from Tiruchengode, 35 km from Salem
+                        Located on NH-544 between Salem and Coimbatore - about 21 km from Erode Junction, 26 km from Tiruchengode and 55 km from Salem Junction by road
                       </p>
                     </div>
                   </div>

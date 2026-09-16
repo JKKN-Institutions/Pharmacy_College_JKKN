@@ -278,7 +278,7 @@ export default function BPharmLateralEntryPage() {
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
-                        <span>NEET qualification preferred in some states</span>
+                        <span>No entrance exam required in Tamil Nadu</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -1614,7 +1614,7 @@ export default function BPharmLateralEntryPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#006837] mr-2">✓</span>
-                  <span>Eligibility: B.Pharm with 55%</span>
+                  <span>Eligibility: B.Pharm with 50%</span>
                 </li>
               </ul>
             </div>

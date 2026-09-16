@@ -109,8 +109,8 @@ export default function TiruppurPage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "11.4387",
-              "longitude": "77.7062"
+              "latitude": "11.4449861",
+              "longitude": "77.7307333"
             },
             "telephone": "+919345855001",
             "email": "admissions@pharmacy.jkkn.ac.in",
@@ -187,7 +187,7 @@ export default function TiruppurPage() {
           {/* Stats Grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
-              { value: '95%+', label: 'PLACEMENTS' },
+              { value: '78%', label: 'PLACEMENTS' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '67km', label: 'FROM TIRUPPUR' },
               { value: '3', label: 'PROGRAMMES' },
@@ -425,7 +425,7 @@ export default function TiruppurPage() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
-              { value: '95%+', label: 'PLACEMENT RATE' },
+              { value: '78%', label: 'PLACEMENT RATE' },
               { value: '6-8', label: 'LPA HIGHEST' },
               { value: '3-4', label: 'LPA AVERAGE' },
               { value: '6+', label: 'TOP RECRUITERS' },
@@ -822,8 +822,8 @@ export default function TiruppurPage() {
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": 11.4387,
-              "longitude": 77.7062
+              "latitude": 11.4449861,
+              "longitude": 77.7307333
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",

@@ -17,7 +17,7 @@ export default function BPharmacyPage() {
   const bPharmFaqs = [
     {
       question: "Is NEET required for B.Pharm admission?",
-      answer: "NEET is mandatory for B.Pharm admission in government colleges in some states like Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks."
+      answer: "NEET is not required for B.Pharm admission in Tamil Nadu. Admission here is on +2 marks through Tamil Nadu Selection Committee counselling for government-quota seats, or through management-quota counselling. A few other states run their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admission."
     },
     {
       question: "What is the difference between B.Pharm and Pharm.D?",
@@ -151,6 +151,11 @@ export default function BPharmacyPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
+                <tr className="hover:bg-[#FBFBEE]">
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">Tamil Nadu (JKKN)</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">No entrance exam - +2 marks only</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Tamil Nadu Selection Committee counselling (Govt quota) or Management quota</td>
+                </tr>
                 <tr className="hover:bg-[#FBFBEE]">
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#006837] font-bold">State Level</td>
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">MHT-CET</td>
@@ -877,7 +882,7 @@ export default function BPharmacyPage() {
                 <div>
                   <h3 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-3">Register for Entrance Exams (December-March)</h3>
                   <p className="text-gray-700">
-                    Register for national level (NEET), state level (MHT-CET, KCET, EAMCET), or university-specific entrance examinations.
+                    In Tamil Nadu no entrance exam is needed - register with the Tamil Nadu Selection Committee for government-quota counselling. Other states may require a state entrance exam (MHT-CET, KCET, EAMCET).
                   </p>
                 </div>
               </div>
@@ -998,7 +1003,7 @@ export default function BPharmacyPage() {
           <div className="bg-white border-l-4 border-[#7cb983] p-8 rounded-lg mb-8 shadow-sm">
             <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4 sm:mb-6">Additional Expenses Include:</h3>
             <ul className="space-y-3 text-gray-700">
-              <li>• Hostel fees: ₹30,000-80,000 per year</li>
+              <li>• Hostel and mess charges (billed separately - contact the hostel office)</li>
               <li>• Examination fees and practical charges</li>
               <li>• Books and study materials</li>
               <li>• Industrial training and project expenses</li>
@@ -1010,7 +1015,7 @@ export default function BPharmacyPage() {
             <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-4 sm:mb-6">Scholarships & Financial Aid</h3>
             <ul className="space-y-4 text-gray-700">
               <li>
-                <span className="text-[#006837] font-bold">Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹43,000/year + maintenance | Government Quota – As per govt norms
+                <span className="text-[#006837] font-bold">Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </li>
               <li>
                 <span className="text-[#006837] font-bold">BC/MBC/DNC Scholarship:</span> Government Counselling Quota – As per govt norms
@@ -1251,7 +1256,7 @@ export default function BPharmacyPage() {
               {expandedFAQ === 0 && (
                 <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
-                    NEET is mandatory for B.Pharm admission in government colleges in some states like Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks.
+                    NEET is not required for B.Pharm admission in Tamil Nadu. A few other states run their own entrance exams. Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks.
                   </p>
                 </div>
               )}

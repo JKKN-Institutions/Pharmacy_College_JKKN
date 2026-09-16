@@ -120,7 +120,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'Are scholarships available for M.Pharm learners?',
       answer:
-        'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship (Management Quota ₹70,000/year; Government Quota as per norms). BC/MBC/DNC candidates get ₹10,000/year. GPAT-qualified candidates may receive AICTE stipend (approx. ₹12,400/month). Merit-based scholarships are also available for top-performing semester rank holders.',
+        'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship and BC/MBC/DNC candidates for the Community Scholarship. Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you. GPAT-qualified candidates may receive the AICTE stipend (approx. ₹12,400/month). Merit-based scholarships are also available for top-performing semester rank holders.',
     },
   ]
 
@@ -147,7 +147,7 @@ export default function MPharmAdmissionPage() {
             M.Pharm Admission 2026
           </h1>
           <p className="text-xs sm:text-sm md:text-base text-gray-100 max-w-3xl mx-auto">
-            Master of Pharmacy (2 Years) — 5 PCI-approved specialisations at JKKN College of Pharmacy, NAAC A Grade
+            Master of Pharmacy (2 Years) — 6 specialisations at JKKN College of Pharmacy, NAAC A Grade
           </p>
 
           <div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center justify-center">
@@ -488,8 +488,8 @@ export default function MPharmAdmissionPage() {
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <ul className="space-y-2 text-[10px] sm:text-xs md:text-sm text-gray-700">
                 <li>• <strong>GPAT Scholarship (AICTE):</strong> Approx. ₹12,400/month stipend for GPAT-qualified candidates throughout the M.Pharm programme.</li>
-                <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Management Quota – ₹70,000/year | Government Quota – As per govt norms.</li>
-                <li>• <strong>BC/MBC/DNC Scholarship – M.Pharm:</strong> ₹10,000/year.</li>
+                <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
+                <li>• <strong>BC/MBC/DNC Scholarship – M.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
                 <li>• <strong>Merit-Based Awards:</strong> Annual scholarships for top performers in each semester.</li>
                 <li>• <strong>Research Grants:</strong> Project funding available for innovative research proposals.</li>
               </ul>

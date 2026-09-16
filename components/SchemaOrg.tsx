@@ -57,8 +57,8 @@ export function OrganizationSchema() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": "11.4387",
-      "longitude": "77.7062"
+      "latitude": "11.4449861",
+      "longitude": "77.7307333"
     },
     "areaServed": [
       {"@type": "City", "name": "Erode"},
@@ -92,9 +92,6 @@ export function OrganizationSchema() {
       "https://www.instagram.com/jkknpharmacy",
       "https://www.linkedin.com/school/jkknpharmacy/",
       "https://www.youtube.com/@JKKNInstitutions",
-      "https://www.shiksha.com/college/jkkn-college-of-pharmacy",
-      "https://www.careers360.com/colleges/jkkn-college-of-pharmacy-namakkal",
-      "https://collegedunia.com/pharmacy/24692-jkkn-college-of-pharmacy-namakkal",
       "https://www.nirfindia.org/",
       "https://www.pci.nic.in/"
     ],

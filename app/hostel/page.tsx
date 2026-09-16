@@ -80,7 +80,7 @@ export default function HostelPage() {
               <ul className="space-y-4">
                   {[
                     'Experience a melting pot of cultures and diverse backgrounds, blending together for an enriching and unforgettable adventure!',
-                    'UIT girl\'s hostel "Thendral Illam" is set amidst the green campus of UIT and has distinct features that foster the right kind of environment for enriching the personality, academic performance or any other developmental pursuits',
+                    'The girls\' hostel sits inside the JKKN campus, a short walk from the college block, with resident wardens and round-the-clock security.',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-4">
                       <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />

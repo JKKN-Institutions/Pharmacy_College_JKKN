@@ -319,7 +319,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Minimum aggregate:</span> 55% marks in B.Pharm (50% for SC/ST/OBC candidates)
+                <span className="font-bold text-[#006837]">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)
               </div>
             </li>
             <li className="flex items-start">
@@ -1385,7 +1385,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">1</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Decide on Career Path & Check Eligibility (September-October 2025)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Confirm interest in patient-facing clinical pharmacy career. Verify B.Pharm eligibility (55% marks). Assess communication skills and patient care aptitude. Research colleges with good hospital tie-ups for clinical rotations.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Confirm interest in patient-facing clinical pharmacy career. Verify B.Pharm eligibility (50% marks). Assess communication skills and patient care aptitude. Research colleges with good hospital tie-ups for clinical rotations.</p>
               </div>
             </div>
           </div>
@@ -1530,7 +1530,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-white mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-white">Hostel & Mess:</span> ₹30,000-80,000 per year
+                <span className="font-bold text-white">Hostel & Mess:</span> billed separately - contact the hostel office on +91 93458 55001
               </div>
             </li>
             <li className="flex items-start">
@@ -1570,13 +1570,13 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Post-Matric Scholarship (SC/ST):</span> Management Quota – ₹70,000/year | Government Quota – As per govt norms
+                <span className="font-bold text-[#006837]">Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </div>
             </li>
             <li className="flex items-start">
               <span className="text-[#006837] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">BC/MBC/DNC Scholarship:</span> ₹10,000/year
+                <span className="font-bold text-[#006837]">BC/MBC/DNC Scholarship:</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </div>
             </li>
             <li className="flex items-start">

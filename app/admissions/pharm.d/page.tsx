@@ -31,7 +31,7 @@ export default function PharmDAdmissionPage() {
   const admissionSteps = [
     {
       name: 'Check Eligibility',
-      text: 'For Pharm.D: 10+2 with Physics, Chemistry and Biology with a minimum of 50% aggregate. For Pharm.D (Post Baccalaureate): B.Pharm degree from a PCI-approved institution with minimum 50% aggregate.',
+      text: 'For Pharm.D: 10+2 with Physics, Chemistry and Biology or Mathematics with a minimum of 50% aggregate. For Pharm.D (Post Baccalaureate): B.Pharm degree from a PCI-approved institution with minimum 50% aggregate.',
     },
     {
       name: 'Fill Application Form',
@@ -64,12 +64,12 @@ export default function PharmDAdmissionPage() {
     {
       question: 'What is the eligibility for Pharm.D at JKKN?',
       answer:
-        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics, Chemistry and Biology with a minimum 50% aggregate (45% for SC/ST/OBC). For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution with a minimum of 50% aggregate.',
+        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics and Chemistry plus either Biology or Mathematics, with a minimum 50% aggregate (45% for SC/ST). For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution with a minimum of 50% aggregate.',
     },
     {
       question: 'Is NEET required for Pharm.D admission in Tamil Nadu?',
       answer:
-        'No, NEET is not mandatory for Pharm.D admission at JKKN College of Pharmacy in Tamil Nadu. Admission is granted based on +2 marks in PCB subjects through college counselling. NEET may be required in some other states.',
+        'No, NEET is not mandatory for Pharm.D admission at JKKN College of Pharmacy in Tamil Nadu. Admission is granted based on +2 marks in Physics, Chemistry and Biology or Mathematics, through college counselling. NEET may be required in some other states.',
     },
     {
       question: 'What is the Pharm.D fee structure at JKKN for 2026?',
@@ -94,7 +94,7 @@ export default function PharmDAdmissionPage() {
     {
       question: 'Are scholarships available for Pharm.D learners?',
       answer:
-        'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship (Management Quota ₹5,25,000/year + maintenance for Pharm.D; Government Quota as per norms). BC/MBC/DNC candidates get ₹16,000/year (Day Scholar) and ₹20,000/year (Hosteller). Scholarships are processed via the National Scholarship Portal (NSP) and the JKKN scholarship cell after admission.',
+        'Yes. SC/ST candidates are eligible for the Post-Matric Scholarship and BC/MBC/DNC candidates for the Community Scholarship. Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you. Scholarships are processed via the National Scholarship Portal (NSP) and the JKKN scholarship cell after admission.',
     },
   ]
 
@@ -192,11 +192,11 @@ export default function PharmDAdmissionPage() {
               <ul className="space-y-3 text-[10px] sm:text-xs md:text-sm text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
-                  <span>Passed 10+2 with Physics, Chemistry and Biology as compulsory subjects.</span>
+                  <span>Passed 10+2 with Physics and Chemistry as compulsory subjects, plus either Biology or Mathematics.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate marks in PCB subjects (45% for SC/ST/OBC candidates).</span>
+                  <span>Minimum 50% aggregate marks in those subjects (45% for SC/ST candidates).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
@@ -325,7 +325,7 @@ export default function PharmDAdmissionPage() {
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  { title: '+2 Mark Sheet (Pharm.D)', desc: 'With Physics, Chemistry and Biology' },
+                  { title: '+2 Mark Sheet (Pharm.D)', desc: 'With Physics, Chemistry and Biology or Mathematics' },
                   { title: 'B.Pharm Mark Sheets (Pharm.D PB)', desc: 'All-semester mark sheets and degree certificate' },
                   { title: '10th Mark Sheet', desc: 'For date of birth proof' },
                   { title: 'Transfer Certificate', desc: 'Original TC from the last institution attended' },
@@ -457,8 +457,8 @@ export default function PharmDAdmissionPage() {
             </h2>
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
               <ul className="space-y-2 text-[10px] sm:text-xs md:text-sm text-gray-700">
-                <li>• <strong>Post-Matric Scholarship (SC/ST) – Pharm.D:</strong> Management Quota – ₹5,25,000/year + maintenance | Government Quota – As per govt norms.</li>
-                <li>• <strong>BC/MBC/DNC Scholarship – Pharm.D:</strong> ₹16,000/year (Day Scholar) | ₹20,000/year (Hosteller).</li>
+                <li>• <strong>Post-Matric Scholarship (SC/ST) – Pharm.D:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
+                <li>• <strong>BC/MBC/DNC Scholarship – Pharm.D:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
                 <li>• <strong>First Graduate Scholarship:</strong> For first-generation graduates under government counselling quota.</li>
                 <li>• <strong>Merit-Based Awards:</strong> Annual scholarships for top performers in Pharm.D semesters.</li>
                 <li>• <strong>Differently Abled / Sports / Ex-Servicemen Ward:</strong> Fee concessions and dedicated support.</li>

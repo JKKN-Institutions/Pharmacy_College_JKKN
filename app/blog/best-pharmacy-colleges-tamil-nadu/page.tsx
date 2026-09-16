@@ -62,7 +62,7 @@ const faqs = [
     question:
       'How to apply for pharmacy college admission 2026 in Tamil Nadu?',
     answer:
-      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with required subjects. (2) Appear for NEET UG (recommended). (3) Register with the TN Selection Committee or individual college admission portals by April-May 2026. (4) Attend counselling (May-July 2026). (5) Pay admission fees and secure seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at jkkn.ai/apply/jkkn-admission-2026.',
+      'Pharmacy college admission 2026 in Tamil Nadu follows this process: (1) Complete 10+2 with Physics and Chemistry plus Biology or Mathematics - no entrance exam is required in Tamil Nadu. (2) Register with the TN Selection Committee (government quota) or the college admission portal (management quota) after the +2 results. (3) Attend counselling (June-July 2026). (4) Pay admission fees and secure the seat. Direct admission through management quota is available at private colleges. JKKN College of Pharmacy accepts applications at jkkn.ai/apply/jkkn-admission-2026.',
   },
   {
     question:
@@ -611,7 +611,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 step: '2',
                 title: 'Entrance Exam',
-                text: 'Appear for NEET UG (recommended for most colleges). Some institutions accept direct admission through management quota.',
+                text: 'No entrance exam is required for B.Pharm or Pharm.D admission in Tamil Nadu - selection is on +2 marks through Tamil Nadu Selection Committee counselling, or through management quota.',
               },
               {
                 step: '3',

@@ -36,7 +36,7 @@ export default function MPharmAdmissionLayout({ children }: { children: React.Re
     <>
       <CourseSchema
         name="Master of Pharmacy (M.Pharm)"
-        description="2-year postgraduate degree at JKKN College of Pharmacy across 5 PCI-approved specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
+        description="2-year postgraduate degree at JKKN College of Pharmacy across 6 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/admissions/m.pharm/"
@@ -64,7 +64,7 @@ export default function MPharmAdmissionLayout({ children }: { children: React.Re
       />
       <EventSchema
         name="JKKN M.Pharm Admissions Open 2026-27"
-        description="M.Pharm admissions open at JKKN across 5 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 15 seats per specialisation."
+        description="M.Pharm admissions open at JKKN across 6 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 15 seats per specialisation."
         startDate="2026-05-01"
         endDate="2026-08-31"
       />

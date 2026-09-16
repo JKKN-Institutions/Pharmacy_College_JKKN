@@ -25,7 +25,7 @@ const courseWiseData = [
   {
     course: 'B.Pharm',
     duration: '4 Years',
-    placementRate: '95%+',
+    placementRate: '50%',
     highestPackage: '6 LPA',
     avgPackage: '3.2 LPA',
     topRoles: ['Quality Control Analyst', 'Medical Representative', 'Production Chemist', 'Hospital Pharmacist'],
@@ -36,7 +36,7 @@ const courseWiseData = [
   {
     course: 'M.Pharm',
     duration: '2 Years',
-    placementRate: '90%+',
+    placementRate: '77.5%',
     highestPackage: '8 LPA',
     avgPackage: '4.5 LPA',
     topRoles: ['R&D Scientist', 'QA Manager', 'Regulatory Affairs Specialist', 'Formulation Scientist'],
@@ -47,7 +47,7 @@ const courseWiseData = [
   {
     course: 'Pharm.D',
     duration: '6 Years',
-    placementRate: '92%+',
+    placementRate: '75%',
     highestPackage: '7 LPA',
     avgPackage: '4 LPA',
     topRoles: ['Clinical Pharmacist', 'Drug Safety Associate', 'Pharmacovigilance Officer', 'Clinical Research Coordinator'],
@@ -107,35 +107,18 @@ const trainingPrograms = [
   },
 ];
 
-const testimonials = [
-  {
-    name: '[UPDATE — Learner Name]',
-    photo: '/images/placements/student-1.webp',
-    course: 'B.Pharm 2024',
-    company: 'Sun Pharma',
-    package: '5.2 LPA',
-    role: 'Quality Control Analyst',
-    quote: 'The placement cell at JKKN prepared me thoroughly for the recruitment process. From mock interviews to technical training, every aspect was covered. I am grateful for the opportunity to work with Sun Pharma.',
-  },
-  {
-    name: '[UPDATE — Learner Name]',
-    photo: '/images/placements/student-2.webp',
-    course: 'M.Pharm 2024',
-    company: "Dr. Reddy's Laboratories",
-    package: '7.5 LPA',
-    role: 'Formulation Scientist',
-    quote: 'JKKN gave me the research exposure and industrial training that helped me secure a role at Dr. Reddy\'s. The senior learner mentorship and learning lab facilities are exceptional.',
-  },
-  {
-    name: '[UPDATE — Learner Name]',
-    photo: '/images/placements/student-3.webp',
-    course: 'Pharm.D 2024',
-    company: 'Apollo Hospitals',
-    package: '6 LPA',
-    role: 'Clinical Pharmacist',
-    quote: 'The clinical rotations and hospital training during Pharm.D at JKKN prepared me for real-world clinical pharmacy practice. The placement team connected me with Apollo Hospitals seamlessly.',
-  },
-];
+// Testimonials are published only for named students who have given consent.
+// The three placeholder entries that shipped here ("[UPDATE - Learner Name]")
+// were removed on 2026-09-12; the section below hides itself while this is empty.
+const testimonials: {
+  name: string;
+  photo: string;
+  course: string;
+  company: string;
+  package: string;
+  role: string;
+  quote: string;
+}[] = [];
 
 const placementFaqs = [
   {
@@ -355,7 +338,7 @@ export default function PlacementsPage() {
               className="space-y-3"
             >
               {[
-                { icon: Target, text: '78% placement rate for the 2024-25 batch across all programmes' },
+                { icon: Target, text: '78% of eligible graduates placed in 2024-25 - 97 of the 124 who sought placement (NIRF 2026 submission)' },
                 { icon: Building2, text: '30+ pharmaceutical companies recruit on campus annually' },
                 { icon: GraduationCap, text: 'Pre-final year structured placement training programme' },
                 { icon: Users, text: 'Dedicated placement officers with industry experience' },
@@ -604,6 +587,7 @@ export default function PlacementsPage() {
       </section>
 
       {/* ═══════════════ TESTIMONIALS ═══════════════ */}
+      {testimonials.length > 0 && (
       <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 bg-gradient-to-br from-[#006837] via-[#7cb983] to-[#002309] text-white">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
@@ -660,6 +644,7 @@ export default function PlacementsPage() {
           </div>
         </div>
       </section>
+      )}
 
       {/* ═══════════════ FAQ SECTION ═══════════════ */}
       <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6">
