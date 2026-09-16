@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
 import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg';
+import { PHARMACY_SAME_AS } from '@/lib/entity-profiles';
 
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
@@ -134,9 +135,7 @@ export default function SalemPage() {
               "name": "JKKN Institutions",
               "url": "https://jkkn.ac.in/"
             },
-            "sameAs": [
-              "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
-            ],
+            "sameAs": PHARMACY_SAME_AS,
             "dateModified": "2026-07-09"
           })
         }}

@@ -1,4 +1,5 @@
 // components/SchemaOrg.tsx
+import { PHARMACY_SAME_AS, PHARMACY_AGGREGATE_RATING } from '@/lib/entity-profiles'
 export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
@@ -84,70 +85,22 @@ export function OrganizationSchema() {
       "alternateName": "JKKN Institutions",
       "url": "https://jkkn.ac.in"
     },
-    "sameAs": [
-      "https://www.wikidata.org/wiki/Q48733446",
-      "https://www.pci.nic.in",
-      "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7",
-      "https://www.facebook.com/jkknpharmacy",
-      "https://www.instagram.com/jkknpharmacy",
-      "https://www.linkedin.com/school/jkknpharmacy/",
-      "https://www.youtube.com/@JKKNInstitutions",
-      "https://www.nirfindia.org/",
-      "https://www.pci.nic.in/"
-    ],
-    // AggregateRating — Source: Justdial (216 ratings, 4.2/5) verified 2026-03-20
-    // Update quarterly: https://www.justdial.com/Tiruchengode/Jkkn-College-Of-Pharmacy-Komarapalayam/reviews
+    "sameAs": PHARMACY_SAME_AS,
+    // AggregateRating — Source: Google Maps place "JKKN College of Pharmacy",
+    // read 2026-09-16: 4.3 from 238 reviews. It replaces 4.2 / 216, a Justdial reading
+    // from 2026-03-20 that was wrong on both counts — Justdial itself read 3.9 from
+    // 246 Ratings when re-checked the same day. Value lives in lib/entity-profiles.ts.
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "4.2",
-      "bestRating": "5",
-      "worstRating": "1",
-      "ratingCount": "216"
-    },
-    "review": [
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "Pharmacy Student"
-        },
-        "datePublished": "2025-08-15",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
-        },
-        "reviewBody": "Supportive and knowledgeable faculty who provide guidance and mentorship. Well-equipped laboratories facilitate hands-on training in pharmaceutical techniques and research."
-      },
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "B.Pharm Graduate"
-        },
-        "datePublished": "2025-06-20",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4",
-          "bestRating": "5"
-        },
-        "reviewBody": "Good placement support with top pharmaceutical companies like Sun Pharma and Cipla visiting for campus recruitment. The college focuses on creating a student-friendly environment with modern infrastructure."
-      },
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "M.Pharm Student"
-        },
-        "datePublished": "2025-04-10",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4",
-          "bestRating": "5"
-        },
-        "reviewBody": "Excellent research facilities and experienced professors with strong publication records. The herbal garden and well-stocked library are valuable resources for pharmacy students."
-      }
-    ]
+      "ratingValue": PHARMACY_AGGREGATE_RATING.ratingValue,
+      "bestRating": PHARMACY_AGGREGATE_RATING.bestRating,
+      "worstRating": PHARMACY_AGGREGATE_RATING.worstRating,
+      "ratingCount": PHARMACY_AGGREGATE_RATING.ratingCount
+    }
+    // A `review` array stood here until 2026-09-16 carrying three testimonials signed
+    // "Pharmacy Student", "B.Pharm Graduate" and "M.Pharm Student". Those are not people.
+    // They rendered on every page, because this component is imported by app/layout.tsx.
+    // Removed rather than rewritten: a review has to come from a reviewer.
   };
 
   return (
