@@ -42,7 +42,7 @@ const contactSchema = {
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Natarajapuram, NH-544, Salem To Coimbatore National Highway",
-    "addressLocality": "Komarapalayam",
+    "addressLocality": "Kumarapalayam",
     "addressRegion": "Tamil Nadu",
     "postalCode": "638183",
     "addressCountry": "IN"

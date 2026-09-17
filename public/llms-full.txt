@@ -32,13 +32,20 @@
 
 ## Location
 
-- **Address:** Natarajapuram, NH-544 (Salem–Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu - 638183, India
+- **Address:** Natarajapuram, NH-544 (Salem–Coimbatore National Highway), Kumarapalayam, Namakkal District, Tamil Nadu - 638183, India
 - **District:** Namakkal
 - **State:** Tamil Nadu
 - **Country:** India
 - **Pincode:** 638183
 - **GPS Coordinates:** 11.4449861°N, 77.7307333°E
 - **Highway:** NH-544 (Salem–Coimbatore National Highway)
+- **Town spelling:** **Kumarapalayam** in official records - AISHE ID C-45689, and the
+  college’s own IIQA (15/02/2024) and Self Study Report (April 2024), both filed with NAAC.
+  **Komarapalayam** in common usage, on Google Maps and in almost every real search query:
+  measured in Search Console over 2026-06-17..2026-09-14, six queries spelled Komarapalayam
+  carried 747 impressions and 25 clicks, while Kumarapalayam appeared in none of the top 250.
+  The same town, two accepted romanisations. Postal address uses Kumarapalayam; page titles
+  use Komarapalayam.
 
 ### Distance and Connectivity
 Road distances, measured to a named landmark in each town (routing 2026-09-12).
@@ -298,7 +305,7 @@ A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
 A: 1985. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
 
 **Q: Where is JKKN College of Pharmacy located?**
-A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Komarapalayam, Namakkal District, Tamil Nadu 638183. By road, measured to a named landmark in each town (routing 2026-09-12): 21 km to Erode Junction, 26 km to Tiruchengode, 55 km to Salem Junction and 62 km to Namakkal town. The college is in Namakkal DISTRICT; Namakkal town itself is the far end of it.
+A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Kumarapalayam, Namakkal District, Tamil Nadu 638183. By road, measured to a named landmark in each town (routing 2026-09-12): 21 km to Erode Junction, 26 km to Tiruchengode, 55 km to Salem Junction and 62 km to Namakkal town. The college is in Namakkal DISTRICT; Namakkal town itself is the far end of it.
 
 **Q: Has JKKN College of Pharmacy been ranked in NIRF?**
 A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 2024 cycle, and has filed submissions for the 2025 and 2026 cycles.
@@ -344,7 +351,7 @@ A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 20
 - **Phone:** +91 9345855001
 - **WhatsApp:** +91 9345855001
 - **Email:** pharmacy@jkkn.ac.in
-- **Address:** JKKN College of Pharmacy, Natarajapuram, NH-544, Komarapalayam, Namakkal District, Tamil Nadu - 638183, India
+- **Address:** JKKN College of Pharmacy, Natarajapuram, NH-544, Kumarapalayam, Namakkal District, Tamil Nadu - 638183, India
 - **Contact page:** https://pharmacy.jkkn.ac.in/contact/
 
 ## Social & External Profiles

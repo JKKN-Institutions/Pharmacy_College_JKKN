@@ -23,7 +23,12 @@
 - Founded: 1985
 - [Website](https://pharmacy.jkkn.ac.in/): the official college site
 - [Parent Organization](https://jkkn.ac.in/): JKK Nattraja Educational Institutions, established 1952
-- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183, India
+- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Kumarapalayam, Namakkal District, Tamil Nadu 638183, India
+- Town spelling: the campus town is written Kumarapalayam in official records - AISHE ID
+  C-45689 and the college own IIQA and Self Study Report filed with NAAC in 2024 - and
+  Komarapalayam in common usage, on Google Maps and in almost every real search query.
+  Both name the same town in Namakkal District. This site uses Kumarapalayam for the
+  postal address and Komarapalayam in page titles, deliberately.
 - Phone: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
 
@@ -133,7 +138,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 - Phone: +91 9345855001
 - WhatsApp: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
-- Visit: JKKN Institutions, Natarajapuram, NH-544, Komarapalayam, Namakkal, Tamil Nadu 638183
+- Visit: JKKN Institutions, Natarajapuram, NH-544, Kumarapalayam, Namakkal, Tamil Nadu 638183
 
 ## Key Links
 

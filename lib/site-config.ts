@@ -48,7 +48,7 @@ export const siteConfig = {
   email: process.env.NEXT_PUBLIC_COLLEGE_EMAIL ?? 'pharmacy@jkkn.ac.in',
   address:
     process.env.NEXT_PUBLIC_COLLEGE_ADDRESS ??
-    'JKKN College of Pharmacy, NH-544 (Salem to Coimbatore Highway), Komarapalayam, Namakkal (DT), Tamil Nadu. 638183.',
+    'JKKN College of Pharmacy, NH-544 (Salem to Coimbatore Highway), Kumarapalayam, Namakkal (DT), Tamil Nadu. 638183.',
 
   /** Google Maps embed src URL */
   mapsEmbedUrl:

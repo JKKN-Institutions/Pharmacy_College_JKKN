@@ -9,7 +9,7 @@ export function OrganizationSchema() {
     "alternateName": "JKKN Pharmacy College",
     "url": "https://pharmacy.jkkn.ac.in/",
     "logo": "https://pharmacy.jkkn.ac.in/images/logo.png",
-    "description": "JKKN College of Pharmacy, established in 1985, is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The college offers B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes.",
+    "description": "JKKN College of Pharmacy, established in 1985, is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Kumarapalayam (also written Komarapalayam), Namakkal District, Tamil Nadu, affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The college offers B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes.",
     "foundingDate": "1985",
     "identifier": [
       {
@@ -51,7 +51,7 @@ export function OrganizationSchema() {
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Natarajapuram, NH-544, Salem To Coimbatore National Highway",
-      "addressLocality": "Komarapalayam",
+      "addressLocality": "Kumarapalayam",
       "addressRegion": "Tamil Nadu",
       "postalCode": "638183",
       "addressCountry": "IN"
@@ -140,7 +140,7 @@ export function CourseSchema({ name, description, duration, provider, url, educa
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Natarajapuram, NH-544",
-        "addressLocality": "Komarapalayam",
+        "addressLocality": "Kumarapalayam",
         "addressRegion": "Tamil Nadu",
         "postalCode": "638183",
         "addressCountry": "IN"
@@ -455,7 +455,7 @@ export function EventSchema({
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Natarajapuram, NH-544",
-        "addressLocality": "Komarapalayam",
+        "addressLocality": "Kumarapalayam",
         "addressRegion": "Tamil Nadu",
         "postalCode": "638183",
         "addressCountry": "IN"
