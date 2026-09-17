@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { HowToSchema, SpeakableWebPageSchema, EventSchema, CourseSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
   title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
@@ -61,12 +61,6 @@ export default function BPharmAdmissionLayout({ children }: { children: React.Re
         description="B.Pharm 4-year admission process at JKKN College of Pharmacy. Eligibility, fees, important dates, documents, and FAQs."
         url="https://pharmacy.jkkn.ac.in/admissions/b.pharm/"
         dateModified="2026-05-16"
-      />
-      <EventSchema
-        name="JKKN B.Pharm Admissions Open 2026-27"
-        description="B.Pharm admissions open at JKKN College of Pharmacy, Komarapalayam. 100 seats, PCI approved, NAAC A Grade. Application fee ₹1,000."
-        startDate="2026-05-01"
-        endDate="2026-08-31"
       />
       {children}
     </>

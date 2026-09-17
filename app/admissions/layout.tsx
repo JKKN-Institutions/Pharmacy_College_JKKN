@@ -1,6 +1,6 @@
 import { Metadata } from 'next'
 import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
-import { HowToSchema, SpeakableWebPageSchema, EventSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
   title: 'Pharmacy Admission 2026 | B.Pharm Pharm.D | JKKN',
@@ -55,12 +55,6 @@ export default function AdmissionProcessLayout({
         description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee ₹1,000, forms open May-June 2026."
         url="https://pharmacy.jkkn.ac.in/admissions/"
         dateModified="2026-03-23"
-      />
-      <EventSchema
-        name="JKKN College of Pharmacy — Admissions Open 2026-27"
-        description="Admissions open for B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam. PCI approved, NAAC A Grade. Application fee ₹1,000."
-        startDate="2026-05-01"
-        endDate="2026-08-31"
       />
       <BreadcrumbWrapper />
       {children}

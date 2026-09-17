@@ -155,8 +155,13 @@ export function CourseSchema({ name, description, duration, provider, url, educa
       "@type": "Offer",
       "category": "Tuition",
       "priceCurrency": "INR",
+      // Admissions are open. Stated here on the Offer rather than as an Event: an Event
+      // needs an end date, ours read 2026-08-31, and from 2026-09-01 the site was telling
+      // every answer engine that admissions had closed while the page still said OPEN.
+      // No validThrough is published because no closing date has been given - an invented
+      // one would recreate exactly the bug this replaces.
       "availability": "https://schema.org/InStock",
-      "validFrom": "2026-07-01",
+      "validFrom": "2026-05-01",
       "url": offersUrl || "https://pharmacy.jkkn.ac.in/admissions/"
     },
     "hasCourseInstance": {
