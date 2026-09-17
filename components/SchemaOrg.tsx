@@ -7,7 +7,7 @@ export function OrganizationSchema() {
     "@id": "https://pharmacy.jkkn.ac.in/#organization",
     "name": "JKKN College of Pharmacy",
     "alternateName": "JKKN Pharmacy College",
-    "url": "https://pharmacy.jkkn.ac.in",
+    "url": "https://pharmacy.jkkn.ac.in/",
     "logo": "https://pharmacy.jkkn.ac.in/images/logo.png",
     "description": "JKKN College of Pharmacy, established in 1985, is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The college offers B.Pharm, M.Pharm, Pharm.D, and Ph.D programmes.",
     "foundingDate": "1985",
@@ -136,7 +136,7 @@ export function CourseSchema({ name, description, duration, provider, url, educa
       "@type": "EducationalOrganization",
       "@id": "https://pharmacy.jkkn.ac.in/#organization",
       "name": provider,
-      "url": "https://pharmacy.jkkn.ac.in",
+      "url": "https://pharmacy.jkkn.ac.in/",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Natarajapuram, NH-544",
