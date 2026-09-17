@@ -87,7 +87,7 @@ export default function NAACPage() {
                         National Assessment and Accreditation Council (NAAC)
                       </h2>
                       <p className="text-gray-700 leading-relaxed mb-4">
-                        JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>. This recognition reflects the college's commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
+                        JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC)</strong>. The current accreditation is <strong>Cycle 2</strong>, and the college was graded <strong>A in Cycle 1</strong> as well — both completed cycles assessed at grade A. This recognition reflects the college's commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
                       </p>
                       <p className="text-gray-700 leading-relaxed mb-4">
                         The NAAC accreditation underscores:

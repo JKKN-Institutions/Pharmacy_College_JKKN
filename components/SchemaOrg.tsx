@@ -16,7 +16,17 @@ export function OrganizationSchema() {
         "@type": "PropertyValue",
         "name": "NAAC Grade",
         "value": "A",
-        "description": "National Assessment and Accreditation Council accreditation grade"
+        "description": "National Assessment and Accreditation Council accreditation grade, Cycle 2 (current). Cycle 1 was also graded A."
+      },
+      {
+        // CGPA and the validity date are the two facts an answer engine actually quotes,
+        // and neither is published here yet: the Cycle 2 certificate has not been read.
+        // They go in as PropertyValues the moment the PDF lands. No placeholder value is
+        // used - a "replace this" string has reached production on this estate before.
+        "@type": "PropertyValue",
+        "name": "NAAC Accreditation Cycle",
+        "value": "2",
+        "description": "Current NAAC assessment cycle"
       },
       {
         "@type": "PropertyValue",
@@ -35,7 +45,7 @@ export function OrganizationSchema() {
           "name": "National Assessment and Accreditation Council (NAAC)",
           "url": "https://www.naac.gov.in/"
         },
-        "description": "NAAC A Grade"
+        "description": "NAAC A Grade, Cycle 2 (current); Cycle 1 also graded A"
       },
       {
         "@type": "EducationalOccupationalCredential",
