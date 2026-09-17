@@ -30,7 +30,7 @@
 ## Approvals & Accreditations
 
 - Pharmacy Council of India (PCI) — Approved
-- National Assessment and Accreditation Council (NAAC) — A Grade, Cycle 2 (current); Cycle 1 was also graded A
+- National Assessment and Accreditation Council (NAAC) — A Grade, Cycle 1
 - Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai
 - NIRF (National Institutional Ranking Framework) — Band 151-200 (2024)
 
@@ -145,7 +145,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 - [Fee Structure](https://pharmacy.jkkn.ac.in/fee-structure/): management-quota fees per programme; government quota follows Tamil Nadu norms
 - [Placements](https://pharmacy.jkkn.ac.in/placements/): rates, packages and recruiters
 - [Placement Cell](https://pharmacy.jkkn.ac.in/placement-cell/): how the cell works
-- [NAAC](https://pharmacy.jkkn.ac.in/naac/): A Grade, Cycle 2 (current); Cycle 1 also A Grade
+- [NAAC](https://pharmacy.jkkn.ac.in/naac/): A Grade, Cycle 1
 - [NIRF](https://pharmacy.jkkn.ac.in/nirf/): Band 151-200 in the 2024 Pharmacy cycle, plus the 2024, 2025 and 2026 submission documents
 - [Contact](https://pharmacy.jkkn.ac.in/contact/): phone, email and address
 

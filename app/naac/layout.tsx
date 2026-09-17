@@ -3,7 +3,7 @@ import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   title: 'NAAC A Grade | JKKN College of Pharmacy',
-  description: 'JKKN Pharmacy holds NAAC A Grade in Cycle 2, and was graded A in Cycle 1 as well. SSR, peer report, criteria-wise assessment and quality indicators.',
+  description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/naac/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/naac/',
     title: 'NAAC A Grade | JKKN College of Pharmacy',
-    description: 'JKKN Pharmacy holds NAAC A Grade in Cycle 2, and was graded A in Cycle 1 as well. SSR, peer report, criteria-wise assessment and quality indicators.',
+    description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'NAAC A Grade | JKKN College of Pharmacy',
-    description: 'JKKN Pharmacy holds NAAC A Grade in Cycle 2, and was graded A in Cycle 1 as well. SSR, peer report, criteria-wise assessment and quality indicators.',
+    description: 'JKKN Pharmacy received NAAC A Grade. SSR, peer report, criteria-wise assessment and quality indicators.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
