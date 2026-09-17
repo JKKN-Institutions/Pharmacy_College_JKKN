@@ -492,12 +492,12 @@ export default function CoimbatorePage() {
                 {
                   emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
-                  text: 'Coimbatore Junction (~105 km from campus)',
+                  text: 'Coimbatore Junction (~112 km from campus)',
                 },
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST AIRPORT',
-                  text: 'Coimbatore International Airport (Code: CJB) (~100 km)',
+                  text: 'Coimbatore International Airport (Code: CJB) (~101 km)',
                 },
                 {
                   emoji: <Building2 className="w-5 h-5 text-gray-600" />,

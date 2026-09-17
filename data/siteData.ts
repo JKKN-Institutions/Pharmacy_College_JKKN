@@ -154,7 +154,7 @@ export const topMenuItems: NavItem[] = [
   { label: "RESEARCH", href: "/research" },
   {
     label: "PLACEMENT",
-    href: "/placement",
+    href: "/placements",
     submenu: [
       {
         label: "Placement Details",

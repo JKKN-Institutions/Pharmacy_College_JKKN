@@ -140,10 +140,10 @@ const collegeRankings = [
     rank: 8,
     name: 'JKKN College of Pharmacy',
     location: 'Namakkal',
-    nirf: '101-125',
+    nirf: '151-200',
     naac: 'A',
     placement: '78%',
-    usp: '39-year legacy, PCI approved, 500-bed hospital',
+    usp: '41-year legacy, PCI approved, 500-bed hospital',
   },
 ];
 
