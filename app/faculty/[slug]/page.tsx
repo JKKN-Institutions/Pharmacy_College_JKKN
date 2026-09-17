@@ -29,12 +29,37 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const supabase = await createClient();
-  const { data } = await supabase
+  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID;
+  const metaFields = 'name, designation, department';
+
+  // Look the person up by slug FIRST, and touch the uuid column only when the value
+  // actually looks like a uuid. This used to read
+  //     .or(`slug.eq.${slug},id.eq.${slug}`)
+  // which PostgREST sends as ONE where clause: comparing the uuid column `id` against
+  // 'dr-karthika-j' raises a cast error that kills the whole query, the slug half with
+  // it. `data` came back null for every slug, so all 30 faculty pages served the
+  // fallback title - measured live 2026-09-17: 30 URLs, 30 distinct <h1> values, ONE
+  // <title>. The body below already used the safe two-step form (shipped for CAS as
+  // d260682); only this function was left behind, which is why the pages looked fine
+  // and read as duplicates. is_active is matched here too, as the body does.
+  let { data } = await supabase
     .from('faculty')
-    .select('name, designation, department')
-    .or(`slug.eq.${slug},id.eq.${slug}`)
-    .eq('college_id', process.env.NEXT_PUBLIC_COLLEGE_ID)
-    .single();
+    .select(metaFields)
+    .eq('slug', slug)
+    .eq('college_id', collegeId)
+    .eq('is_active', true)
+    .maybeSingle();
+
+  const looksLikeUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(slug);
+  if (!data && looksLikeUuid) {
+    ({ data } = await supabase
+      .from('faculty')
+      .select(metaFields)
+      .eq('id', slug)
+      .eq('college_id', collegeId)
+      .eq('is_active', true)
+      .maybeSingle());
+  }
 
   if (!data) return { title: 'Faculty | JKKN College of Pharmacy' };
 
