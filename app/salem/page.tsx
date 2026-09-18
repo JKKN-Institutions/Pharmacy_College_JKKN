@@ -46,7 +46,7 @@ export default function SalemPage() {
     {
       question: 'What are the best colleges for pharmacy near Salem district?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical learning labs, a teaching hospital for clinical exposure, and strong industry placements with companies including Sun Pharma, Cipla, and Apollo Pharmacy.',
+        'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical learning labs, a teaching hospital for clinical exposure, and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
     },
     {
       question: 'Are there government pharmacy colleges in Salem?',
@@ -107,7 +107,7 @@ export default function SalemPage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@id": "https://pharmacy.jkkn.ac.in/#organization",
-            "@type": ["EducationalOrganization", "CollegeOrUniversity", "LocalBusiness"],
+            "@type": ["CollegeOrUniversity", "LocalBusiness"],
             "areaServed": [
               { "@type": "City", "name": "Salem" },
               { "@type": "City", "name": "Namakkal" },
@@ -117,7 +117,7 @@ export default function SalemPage() {
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              "opens": "08:30",
+              "opens": "09:00",
               "closes": "17:00"
             }
           })
@@ -175,7 +175,7 @@ export default function SalemPage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
               { value: '78%', label: 'PLACEMENTS' },
-              { value: '6-8', label: 'LPA HIGHEST' },
+              { value: '97/124', label: 'PLACED 2024-25' },
               { value: '58km', label: 'FROM SALEM' },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
@@ -412,9 +412,9 @@ export default function SalemPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
               { value: '78%', label: 'PLACEMENT RATE' },
-              { value: '6-8', label: 'LPA HIGHEST' },
-              { value: '3-4', label: 'LPA AVERAGE' },
-              { value: '6+', label: 'TOP RECRUITERS' },
+              { value: '97/124', label: 'PLACED 2024-25' },
+              { value: 'Rs 4.4L', label: 'MEDIAN B.PHARM' },
+              { value: 'Rs 6.75L', label: 'MEDIAN M.PHARM' },
             ].map((stat) => (
               <div
                 key={stat.label}
@@ -430,26 +430,7 @@ export default function SalemPage() {
             ))}
           </div>
 
-          <p className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-widest mb-3">
-            COMPANIES THAT HIRE JKKN GRADUATES
-          </p>
-          <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
-            {[
-              'Sun Pharma',
-              'Cipla',
-              "Dr. Reddy's",
-              'Aurobindo Pharma',
-              'Hetero Drugs',
-              'Apollo Pharmacy',
-            ].map((company) => (
-              <span
-                key={company}
-                className="border border-gray-200 text-gray-700 text-[10px] sm:text-xs px-3 py-1.5 rounded-full"
-              >
-                {company}
-              </span>
-            ))}
-          </div>
+              {/* Recruiter chips removed 2026-09-18: no filed document names a recruiter. */}
         </div>
       </section>
 
@@ -644,13 +625,11 @@ export default function SalemPage() {
                     }`}
                   />
                 </button>
-                {expandedFAQ === index && (
-                  <div className="px-4 sm:px-5 pb-4 sm:pb-5 bg-white">
+                  <div hidden={expandedFAQ !== index} className="px-4 sm:px-5 pb-4 sm:pb-5 bg-white">
                     <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
                       {faq.answer}
                     </p>
                   </div>
-                )}
               </div>
             ))}
           </div>
@@ -722,10 +701,9 @@ export default function SalemPage() {
               "@type": "Course",
               "name": "B.Pharm (Bachelor of Pharmacy)",
               "description": "Four-year undergraduate pharmacy degree programme approved by the Pharmacy Council of India, offered at JKKN College of Pharmacy, Komarapalayam.",
-              "provider": { "@type": "EducationalOrganization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
+              "provider": { "@type": "CollegeOrUniversity", "@id": "https://pharmacy.jkkn.ac.in/#organization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
               "educationalLevel": "Undergraduate",
               "timeRequired": "P4Y",
-              "numberOfCredits": "100 seats",
               "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Full-time", "courseWorkload": "P4Y" }
             },
             {
@@ -733,10 +711,9 @@ export default function SalemPage() {
               "@type": "Course",
               "name": "M.Pharm (Master of Pharmacy)",
               "description": "Two-year postgraduate pharmacy degree programme offered at JKKN College of Pharmacy, Komarapalayam, affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
-              "provider": { "@type": "EducationalOrganization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
+              "provider": { "@type": "CollegeOrUniversity", "@id": "https://pharmacy.jkkn.ac.in/#organization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
               "educationalLevel": "Postgraduate",
               "timeRequired": "P2Y",
-              "numberOfCredits": "30 seats",
               "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Full-time", "courseWorkload": "P2Y" }
             },
             {
@@ -744,10 +721,9 @@ export default function SalemPage() {
               "@type": "Course",
               "name": "Pharm.D (Doctor of Pharmacy)",
               "description": "Six-year professional pharmacy degree programme affiliated to Tamil Nadu Dr. M.G.R. Medical University, offered at JKKN College of Pharmacy, Komarapalayam.",
-              "provider": { "@type": "EducationalOrganization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
+              "provider": { "@type": "CollegeOrUniversity", "@id": "https://pharmacy.jkkn.ac.in/#organization", "name": "JKKN College of Pharmacy", "url": "https://pharmacy.jkkn.ac.in/" },
               "educationalLevel": "Professional",
               "timeRequired": "P6Y",
-              "numberOfCredits": "30 seats",
               "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "Full-time", "courseWorkload": "P6Y" }
             }
           ])

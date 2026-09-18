@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import {
   GraduationCap,
   FileText,
@@ -85,7 +85,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What M.Pharm specialisations are offered at JKKN?',
       answer:
-        'JKKN College of Pharmacy offers five PCI-approved M.Pharm specialisations, each with a sanctioned intake of 15 seats: 1) M.Pharm in Pharmaceutics, 2) M.Pharm in Pharmacology, 3) M.Pharm in Pharmaceutical Chemistry, 4) M.Pharm in Pharmaceutical Analysis, and 5) M.Pharm in Pharmacy Practice. All programmes are 2 years (4 semesters) with a strong research project in the final semester.',
+        'JKKN College of Pharmacy offers six PCI-approved M.Pharm specialisations, each with a sanctioned intake of 15 seats: 1) M.Pharm in Pharmaceutics, 2) M.Pharm in Pharmacology, 3) M.Pharm in Pharmaceutical Chemistry, 4) M.Pharm in Pharmaceutical Analysis, 5) M.Pharm in Pharmacy Practice, and 6) M.Pharm in Pharmaceutical Regulatory Affairs. All programmes are 2 years (4 semesters) with a strong research project in the final semester.',
     },
     {
       question: 'What is the eligibility for M.Pharm at JKKN?',
@@ -126,13 +126,7 @@ export default function MPharmAdmissionPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
-      <BreadcrumbListSchema
-        items={[
-          { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-          { name: 'Admissions', url: 'https://pharmacy.jkkn.ac.in/admissions/' },
-          { name: 'M.Pharm Admission', url: 'https://pharmacy.jkkn.ac.in/admissions/m.pharm/' },
-        ]}
-      />
+      {/* BreadcrumbList comes from the layout's BreadcrumbWrapper (visible trail); the page-level copy was removed 2026-09-18. */}
       <FaqSchema faqs={mpharmFaqs} />
       <Header />
 
@@ -519,11 +513,9 @@ export default function MPharmAdmissionPage() {
                       className={`w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] flex-shrink-0 transition-transform duration-300 ${expandedFAQ === index ? 'transform rotate-180' : ''}`}
                     />
                   </button>
-                  {expandedFAQ === index && (
-                    <div className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
+                    <div hidden={expandedFAQ !== index} className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
                       <p className="text-gray-700 leading-relaxed text-[10px] sm:text-xs md:text-sm">{faq.answer}</p>
                     </div>
-                  )}
                 </div>
               ))}
             </div>

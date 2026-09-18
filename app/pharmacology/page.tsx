@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacologyPage() {
@@ -57,22 +57,7 @@ export default function PharmacologyPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacology', url: 'https://pharmacy.jkkn.ac.in/pharmacology' }
-      ]} />
-      <CourseSchema
-        name="M.Pharm Pharmacology"
-        description="M.Pharm Pharmacology is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug action mechanisms, toxicology, preclinical research, drug screening, and molecular pharmacology. Prepares graduates for careers in pharmacology research, safety assessment, and clinical research organisations."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharmacology"
-        educationalLevel="Postgraduate"
-        courseMode="onsite"
-        numberOfCredits="2 Years"
-        inLanguage="en"
-        teaches={["Drug Action Mechanisms", "Toxicology", "Preclinical Research", "Drug Screening", "Molecular Pharmacology", "Neuropharmacology", "Cardiovascular Pharmacology"]}
-      />
+      {/* BreadcrumbList + Course JSON-LD come from layout.tsx (2026-09-18: the page-level copies produced two BreadcrumbList and two Course nodes per page). */}
       <FaqSchema faqs={faqs} />
       <Header />
 
@@ -115,13 +100,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 0 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 0} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                   2 Years (4 Semesters)
                 </p>
               </div>
-            )}
           </div>
             <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
@@ -137,13 +120,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 1 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 1} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                   B.Pharm + GPAT/Entrance Exam
                 </p>
               </div>
-            )}
           </div>
             <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
@@ -159,13 +140,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 2 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 2} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                   Drug Action & Toxicology
                 </p>
               </div>
-            )}
           </div>
             <div className="bg-white border border-gray-300 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
             <button
@@ -181,13 +160,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 3 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 3} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                   ₹4-10 Lakhs/Year
                 </p>
               </div>
-            )}
           </div>
           </div>
         </div>
@@ -993,7 +970,7 @@ export default function PharmacologyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmacology Graduates</h2>
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">Employers of M.Pharm Pharmacology Graduates in India</h2>
         </div>
 
         {/* Contract Research Organisations (CROs) - Preclinical Services */}
@@ -1326,13 +1303,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 0 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 0} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   M.Pharm in Pharmacology is a 2-year postgraduate specialisation focusing on drug action, mechanisms, toxicology, and preclinical research. Learners learn through animal studies, in vitro experiments, cellular pharmacology, and molecular techniques to understand how drugs work in the body. The programme includes extensive laboratory work with animal experimentation, drug screening, toxicity testing, and pharmacokinetic studies. Career opportunities include Research Scientist, Toxicologist, Medical Writer, Drug Safety Specialist, and CRO Scientist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in pharmaceutical research and drug discovery.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q2 */}
@@ -1350,13 +1325,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 1 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 1} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Entry-level M.Pharm Pharmacology graduates earn ₹3.5-6 lakhs per annum. Research Scientists in CROs earn ₹5-9 lakhs, Toxicologists earn ₹5-10 lakhs, Medical Writers earn ₹5-12 lakhs, Drug Safety Scientists earn ₹5-9 lakhs, and Regulatory Toxicologists earn ₹6-11 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Principal Scientist or Head of Pharmacology earn ₹20-35 lakhs per annum. Academic positions (Assistant Professor) start at ₹60,000-80,000/month with good job security. Salaries are highest in multinational pharmaceutical companies and leading CROs. Research-focused roles offer better growth than routine positions.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q3 */}
@@ -1374,13 +1347,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 2 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 2} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Yes, M.Pharm Pharmacology extensively involves animal studies and experimentation. Learners must learn animal handling, dosing techniques, surgical procedures, and humane endpoints as per CPCSEA guidelines. Laboratory work includes acute and chronic toxicity studies, pharmacological screening, behavioral studies, and organ function tests in rats, mice, guinea pigs, and rabbits. Animal experimentation is mandatory for degree completion and research project. Learners uncomfortable with animal handling, dissection, or euthanasia should consider other specialisations like Pharmaceutical Analysis or Pharmaceutics. Modern programmes also include alternatives like cell culture and in silico methods, but animal studies remain central to pharmacology research and cannot be avoided.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q4 */}
@@ -1398,13 +1369,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 3 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 3} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Yes, M.Pharm Pharmacology graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or DBT-JRF. Research areas include drug discovery, molecular pharmacology, neuropharmacology, cardiovascular pharmacology, cancer pharmacology, toxicogenomics, and pharmacogenomics. Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior research scientist positions in pharmaceutical/biotech companies, and principal investigator roles at research institutes. IITs, CSIR labs (CDRI, IICT), ICMR institutes, NIPER, and medical colleges offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmacology Ph.D graduates are highly valued in drug discovery research and academic institutions. Many pursue postdoctoral research abroad.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q5 */}
@@ -1422,13 +1391,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 4 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 4} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Both are excellent but serve different purposes. Pharmacology is research-intensive, focusing on drug action, toxicology, and biological understanding through animal studies. Best for those interested in drug discovery, preclinical research, and academic careers. Requires comfort with animal experimentation. Pharmaceutics is product-focused, emphasizing formulation development and manufacturing. Best for those preferring product creation over biological research. Pharmacology offers CRO research roles (₹5-10 lakhs) and strong Ph.D pathways with excellent academic opportunities. Pharmaceutics offers formulation R&D (₹6-12 lakhs) and production management with higher industry salary ceiling. Pharmacology has more academic positions; Pharmaceutics has more industry positions. Choose based on genuine interest: biological research vs. product development.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q6 */}
@@ -1446,13 +1413,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 5 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 5} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Contract Research Organisations (CROs) are major employers of M.Pharm Pharmacology graduates. CROs conduct preclinical studies for pharmaceutical companies including pharmacology screening, toxicity testing, and safety evaluation. Roles include Research Scientist, Study Director, Pharmacology Specialist, and Toxicology Associate. Top CROs hiring: Vimta Labs, Jubilant Biosys, Syngene, GVK Bio, Lambda Therapeutic, Advinus. Salaries: Entry ₹4-6 lakhs, 3-5 years ₹7-11 lakhs, senior ₹12-20 lakhs. Work involves animal studies, in vitro assays, data analysis, and report writing. CRO experience is valuable for career growth in pharmaceutical R&D and regulatory toxicology.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q7 */}
@@ -1470,13 +1435,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 6 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 6} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Yes, Pharmacology is excellent for academic careers. There's high demand for qualified pharmacology faculty in pharmacy colleges across India. Assistant Professor positions start at ₹60,000-80,000/month in government colleges with job security, pension benefits, and research opportunities. To become faculty: Complete M.Pharm, qualify GPAT/NET for eligibility, preferably pursue Ph.D for better colleges, and gain teaching/research experience. Career progression: Lecturer → Assistant Professor → Associate Professor → Professor. Additional income through research projects, consulting, and workshops. Academic life offers freedom to pursue research interests, guide learners, and maintain work-life balance. Pharmacology faculty are particularly valued as it's a core subject with practical components requiring experienced teachers.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q8 */}
@@ -1494,13 +1457,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 7 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 7} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Yes, M.Pharm Pharmacology is excellent background for medical writing career. Pharmacology training provides deep understanding of drug mechanisms, clinical trial data, and scientific literature - essential for medical writing. Roles: Medical Writer, Scientific Writer, Regulatory Writer, Clinical Study Report Writer. Companies hiring: Pharmaceutical companies, CROs (Quintiles, Covance, PPD), medical communication agencies. Salaries: Entry ₹5-7 lakhs, experienced ₹8-15 lakhs, senior ₹15-25 lakhs. Additional skills needed: Excellent English writing, understanding of regulatory guidelines (ICH-GCP, CTD format), MS Office proficiency. Many pharmacology graduates transition to medical writing for better salary and work-life balance compared to bench research.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q9 */}
@@ -1518,13 +1479,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 8 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 8} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   M.Pharm Pharmacology is moderately challenging but manageable with dedication. Challenges: (1) Extensive animal handling requires emotional resilience, (2) Research projects need patience and multiple experiments, (3) Understanding complex biological mechanisms, (4) Long laboratory hours, (5) CPCSEA compliance and ethical considerations. However, it's not exceptionally difficult compared to core medical sciences or PhD programmes. Success factors: Genuine interest in biological sciences, comfort with animal work, patience for research, good observation skills. Pharmacology is arguably easier than: Medicinal Chemistry (complex organic synthesis), Pharmaceutical Analysis (precision analytical work). Similar difficulty to: Pharmaceutics (formulation challenges). Choose based on interest, not perceived difficulty.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q10 */}
@@ -1542,13 +1501,11 @@ export default function PharmacologyPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 9 && (
-              <div className="p-6 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 9} className="p-6 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-800 leading-relaxed">
                   Good international scope for Pharmacology graduates, especially those with Ph.D. USA: Research scientist positions at pharma companies and universities (salary $60,000-100,000). Requires relevant work visa. Ph.D programmes fully funded ($28,000-35,000/year stipend). Europe: Research positions in Germany, UK, Switzerland, Netherlands. Ph.D programmes with funding (€2,000-3,000/month). Requirements: Strong research background, publications, GRE/TOEFL for USA. Canada/Australia: Toxicology and pharmacology research opportunities. Licensing exams required for some positions. Postdoctoral research (2-4 years) after Ph.D common pathway. International scope better for Ph.D holders than M.Pharm alone. Pharmacology research skills are globally transferable and valued in pharmaceutical industry worldwide.
                 </p>
               </div>
-            )}
           </div>
         </div>
       </div>

@@ -7,10 +7,7 @@ import { BreadcrumbListSchema } from '@/components/SchemaOrg'
 export default function AboutOverviewPage() {
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Overview', url: 'https://pharmacy.jkkn.ac.in/overview' }
-      ]} />
+      {/* BreadcrumbList JSON-LD is rendered by the layout's BreadcrumbWrapper (the visible trail). A second, invisible copy stood here until 2026-09-18. */}
       <Header />
 
       {/* Hero Section */}

@@ -399,11 +399,9 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   <h3 className="text-xs sm:text-sm font-bold text-[#002309]">{f.question}</h3>
                   <ChevronDown className={`w-5 h-5 text-[#006837] flex-none transition-transform ${expandedFAQ === i ? 'rotate-180' : ''}`} />
                 </button>
-                {expandedFAQ === i && (
-                  <div className="px-4 pb-4">
+                  <div hidden={expandedFAQ !== i} className="px-4 pb-4">
                     <p className="text-xs sm:text-sm text-[#002309] leading-relaxed">{f.answer}</p>
                   </div>
-                )}
               </div>
             ))}
           </div>

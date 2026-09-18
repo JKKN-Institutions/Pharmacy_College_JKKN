@@ -58,10 +58,7 @@ export default function BPharmLateralEntryPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'B.Pharm Lateral Entry', url: 'https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry' }
-      ]} />
+      {/* BreadcrumbList JSON-LD is rendered by the layout's BreadcrumbWrapper (the visible trail). A second, invisible copy stood here until 2026-09-18. */}
       {/* DEP-12, 2026-08-07: the CourseSchema that stood here is gone. layout.tsx
           already declares this programme, and the two disagreed on its name while
           this one pointed at a url with no trailing slash, which 308s on a site
@@ -1417,7 +1414,7 @@ export default function BPharmLateralEntryPage() {
           <div className="flex items-center gap-3 mb-6">
             <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
-              Top Recruiters for B.Pharm Graduates
+              Employers of B.Pharm Graduates in India
             </h2>
           </div>
           <div className="border-t-4 border-[#7cb983] mb-8"></div>
@@ -2026,13 +2023,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 0 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 0} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     NEET requirement varies by state. Some states like Tamil Nadu, Karnataka accept NEET scores. Other states conduct their own pharmacy entrance exams (State CET). Many private colleges also conduct direct admission based on 12th marks. For lateral entry, NEET is not required - admission based on D.Pharm marks or state lateral entry CET.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q2 */}
@@ -2052,13 +2047,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 1 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 1} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     B.Pharm is 4-year undergraduate degree focusing on pharmaceutical sciences and industry applications. Pharm.D is 6-year professional doctorate focusing on clinical pharmacy and patient care. Career focus: B.Pharm = Industry-oriented, Pharm.D = Patient-care oriented. Choose B.Pharm for industry career flexibility; Pharm.D if committed to clinical patient care in hospitals.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q3 */}
@@ -2078,13 +2071,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 2 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 2} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Yes, B.Pharm graduates can open and manage retail pharmacy (medical store). Process: Complete B.Pharm → Register with State Pharmacy Council → Gain experience if required → Apply for Drug License from State Drug Controller → Obtain premises license, GST registration. Investment: ₹5-15 lakhs for setup. Profit potential: ₹30,000-2,00,000/month depending on location.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q4 */}
@@ -2104,13 +2095,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 3 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 3} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     GPAT (Graduate Pharmacy Aptitude Test) is national level entrance exam for M.Pharm admission conducted by NTA. GPAT qualified candidates eligible for GPAT scholarship of ₹12,400/month throughout M.Pharm. Required for NIPER and recognized institution admission. Many companies prefer GPAT qualified candidates for R&D positions.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q5 */}
@@ -2130,13 +2119,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 4 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 4} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Yes, B.Pharm offers excellent career prospects. India is world&apos;s 3rd largest pharmaceutical market, largest generic medicine supplier globally. 3,000+ pharmaceutical companies actively hiring. Growing hospital sector creating pharmacy positions. Clinical research industry expanding rapidly. Job security generally good due to essential nature of pharmaceutical industry.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q6 */}
@@ -2156,13 +2143,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 5 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 5} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Yes, B.Pharm graduates can work internationally. Gulf Countries (UAE, Saudi Arabia): Easiest pathway - degree directly recognised, tax-free salary ₹60K-1.5L/month. USA: Requires FPGEC + NAPLEX exam ($70,000-120,000/year). UK: OSPAP + GPhC exam. Australia: KAPS exam. Pharmaceutical industry jobs abroad may not require pharmacist license.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q7 */}
@@ -2182,13 +2167,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 6 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 6} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     B.Pharm Lateral Entry offers identical scope as regular B.Pharm. Same degree certificate with same career opportunities. Advantages: Completes in 3 years, already has D.Pharm experience, unlocks M.Pharm and higher studies. Employers don&apos;t differentiate between regular and lateral entry graduates. Highly recommended for D.Pharm holders wanting career advancement.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q8 */}
@@ -2208,13 +2191,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 7 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 7} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Drug Inspector is prestigious government position. Eligibility: B.Pharm degree + pharmacy council registration. Recruitment through State PSC (State DI) or UPSC (Central DI). Exam: Preliminary, Mains, Interview. Syllabus includes pharmacy subjects plus Drug and Cosmetics Act. Salary (7th Pay): ₹45,000-60,000/month starting, grows to ₹1,50,000/month at senior levels.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q9 */}
@@ -2234,13 +2215,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 8 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 8} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     Best specialisation depends on career goals. For jobs: Pharmaceutics (formulation, most versatile), Pharmaceutical Analysis (QC/QA roles). For research: Pharmacology (drug discovery), Pharmaceutical Chemistry. For patient care: Pharmacy Practice (clinical pharmacy). Job availability: Pharmaceutics &gt; Pharmaceutical Analysis &gt; Pharmacology. Choose Pharmaceutics for maximum job flexibility.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q10 */}
@@ -2260,13 +2239,11 @@ export default function BPharmLateralEntryPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 9 && (
-                <div className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 9} className="voice-answer p-4 sm:p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                     B.Pharm difficulty is moderate - challenging but achievable with consistent effort. Chemistry subjects considered most challenging. Pharmacology requires extensive memorization. Passing tips: Attend classes regularly, complete lab records on time, use previous year question papers. Pass percentage: Typically 70-85% in most colleges. Easier than MBBS/BDS, similar to B.Tech in difficulty level.
                   </p>
                 </div>
-              )}
             </div>
           </div>
         </div>

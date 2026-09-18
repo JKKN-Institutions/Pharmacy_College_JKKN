@@ -102,7 +102,7 @@ export default function ErodePage() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@id": "https://pharmacy.jkkn.ac.in/#organization",
-            "@type": ["EducationalOrganization", "CollegeOrUniversity", "LocalBusiness"],
+            "@type": ["CollegeOrUniversity", "LocalBusiness"],
             "areaServed": [
               { "@type": "City", "name": "Erode" },
               { "@type": "City", "name": "Namakkal" },
@@ -112,7 +112,7 @@ export default function ErodePage() {
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              "opens": "08:30",
+              "opens": "09:00",
               "closes": "17:00"
             }
           })
@@ -170,7 +170,7 @@ export default function ErodePage() {
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
               { value: '78%', label: 'PLACEMENTS' },
-              { value: '6-8', label: 'LPA HIGHEST' },
+              { value: '97/124', label: 'PLACED 2024-25' },
               { value: '22km', label: 'FROM ERODE' },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
@@ -405,9 +405,9 @@ export default function ErodePage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
               { value: '78%', label: 'PLACEMENT RATE' },
-              { value: '6-8', label: 'LPA HIGHEST' },
-              { value: '3-4', label: 'LPA AVERAGE' },
-              { value: '6+', label: 'TOP RECRUITERS' },
+              { value: '97/124', label: 'PLACED 2024-25' },
+              { value: 'Rs 4.4L', label: 'MEDIAN B.PHARM' },
+              { value: 'Rs 6.75L', label: 'MEDIAN M.PHARM' },
             ].map((stat) => (
               <div
                 key={stat.label}
@@ -423,26 +423,7 @@ export default function ErodePage() {
             ))}
           </div>
 
-          <p className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-widest mb-3">
-            COMPANIES THAT HIRE JKKN GRADUATES
-          </p>
-          <div className="flex flex-wrap justify-center gap-1.5 sm:gap-2">
-            {[
-              'Sun Pharma',
-              'Cipla',
-              "Dr. Reddy's",
-              'Aurobindo Pharma',
-              'Hetero Drugs',
-              'Apollo Pharmacy',
-            ].map((company) => (
-              <span
-                key={company}
-                className="border border-gray-200 text-gray-700 text-[10px] sm:text-xs px-3 py-1.5 rounded-full"
-              >
-                {company}
-              </span>
-            ))}
-          </div>
+              {/* Recruiter chips removed 2026-09-18: no filed document names a recruiter. */}
         </div>
       </section>
 
@@ -637,13 +618,11 @@ export default function ErodePage() {
                     }`}
                   />
                 </button>
-                {expandedFAQ === index && (
-                  <div className="px-4 sm:px-5 pb-4 sm:pb-5 bg-white">
+                  <div hidden={expandedFAQ !== index} className="px-4 sm:px-5 pb-4 sm:pb-5 bg-white">
                     <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
                       {faq.answer}
                     </p>
                   </div>
-                )}
               </div>
             ))}
           </div>
@@ -716,13 +695,13 @@ export default function ErodePage() {
               "name": "B.Pharm (Bachelor of Pharmacy)",
               "description": "4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
               "provider": {
-                "@type": "EducationalOrganization",
+                "@type": "CollegeOrUniversity",
+                "@id": "https://pharmacy.jkkn.ac.in/#organization",
                 "name": "JKKN College of Pharmacy",
                 "url": "https://pharmacy.jkkn.ac.in/"
               },
               "educationalLevel": "Undergraduate",
               "timeRequired": "P4Y",
-              "numberOfCredits": "100 seats",
               "hasCourseInstance": {
                 "@type": "CourseInstance",
                 "courseMode": "Full-time",
@@ -738,13 +717,13 @@ export default function ErodePage() {
               "name": "M.Pharm (Master of Pharmacy)",
               "description": "2-year Master of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.",
               "provider": {
-                "@type": "EducationalOrganization",
+                "@type": "CollegeOrUniversity",
+                "@id": "https://pharmacy.jkkn.ac.in/#organization",
                 "name": "JKKN College of Pharmacy",
                 "url": "https://pharmacy.jkkn.ac.in/"
               },
               "educationalLevel": "Postgraduate",
               "timeRequired": "P2Y",
-              "numberOfCredits": "30 seats",
               "hasCourseInstance": {
                 "@type": "CourseInstance",
                 "courseMode": "Full-time",
@@ -760,13 +739,13 @@ export default function ErodePage() {
               "name": "Pharm.D (Doctor of Pharmacy)",
               "description": "6-year Doctor of Pharmacy programme at JKKN College of Pharmacy, approved by PCI and affiliated to Tamil Nadu Dr. M.G.R. Medical University.",
               "provider": {
-                "@type": "EducationalOrganization",
+                "@type": "CollegeOrUniversity",
+                "@id": "https://pharmacy.jkkn.ac.in/#organization",
                 "name": "JKKN College of Pharmacy",
                 "url": "https://pharmacy.jkkn.ac.in/"
               },
               "educationalLevel": "Professional Doctorate",
               "timeRequired": "P6Y",
-              "numberOfCredits": "30 seats",
               "hasCourseInstance": {
                 "@type": "CourseInstance",
                 "courseMode": "Full-time",

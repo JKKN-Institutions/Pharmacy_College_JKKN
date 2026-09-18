@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import { HowToSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { HowToSchema, FaqSchema, SpeakableWebPageSchema } from '@/components/SchemaOrg'
 import { GraduationCap, FileText, ClipboardCheck, Calendar, IndianRupee, Award, Phone, Mail, MessageCircle, ChevronDown, CheckCircle, Clock, Users, BookOpen } from 'lucide-react'
 
 export default function AdmissionProcessPage() {
@@ -76,10 +76,13 @@ export default function AdmissionProcessPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8] flex flex-col">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Admission Process', url: 'https://pharmacy.jkkn.ac.in/admissions/' }
-      ]} />
+      {/* BreadcrumbList comes from the layout's BreadcrumbWrapper (visible trail). */}
+      <SpeakableWebPageSchema
+        name="Pharmacy Admission 2026 — JKKN College of Pharmacy"
+        description="Step-by-step admission process for B.Pharm, M.Pharm, and Pharm.D programmes at JKKN College of Pharmacy. Application fee Rs 1,000, forms open May-June 2026."
+        url="https://pharmacy.jkkn.ac.in/admissions/"
+        dateModified="2026-09-18"
+      />
       <HowToSchema
         name="How to Apply for Admission at JKKN College of Pharmacy"
         description="Step-by-step guide for applying to B.Pharm, M.Pharm, Pharm.D, and PhD programmes at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu."
@@ -755,13 +758,11 @@ export default function AdmissionProcessPage() {
                       }`}
                     />
                   </button>
-                  {expandedFAQ === index && (
-                    <div className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
+                    <div hidden={expandedFAQ !== index} className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
                       <p className="text-gray-700 leading-relaxed text-[10px] sm:text-xs md:text-sm">
                         {faq.answer}
                       </p>
                     </div>
-                  )}
                 </div>
               ))}
             </div>

@@ -161,8 +161,32 @@ export default async function FacultyProfilePage({
   const tableHead = 'text-xs font-semibold text-[#1B5E20] uppercase tracking-wide';
   const chip = 'px-3 py-1.5 rounded-full border border-gray-200 text-sm text-gray-700';
 
+  // Person JSON-LD, added 2026-09-18. Until then the 30 faculty pages carried only the
+  // site-wide organisation node. Only fields that render on this page are declared;
+  // the email column is not published here, so it is not published in the schema either.
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: m.name,
+    jobTitle: m.designation,
+    url: `https://pharmacy.jkkn.ac.in/faculty/${slug}/`,
+    ...(m.photo_url && { image: m.photo_url }),
+    ...(areasOfSpecialisation.length > 0 && { knowsAbout: areasOfSpecialisation }),
+    worksFor: {
+      '@type': 'CollegeOrUniversity',
+      '@id': 'https://pharmacy.jkkn.ac.in/#organization',
+      name: 'JKKN College of Pharmacy',
+      url: 'https://pharmacy.jkkn.ac.in/',
+      ...(m.department && { department: { '@type': 'Organization', name: m.department } }),
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+      />
       <Header />
       <main className="min-h-screen bg-[#FBF8F3]">
         {/* ── Hero ── */}

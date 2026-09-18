@@ -6,10 +6,7 @@ import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Contact', url: 'https://pharmacy.jkkn.ac.in/contact' }
-      ]} />
+      {/* BreadcrumbList JSON-LD is rendered by the layout's BreadcrumbWrapper (the visible trail). A second, invisible copy stood here until 2026-09-18. */}
       <Header />
 
       {/* Hero Banner */}

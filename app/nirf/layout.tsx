@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
 const nirfSchema = {
   "@context": "https://schema.org",
-  "@type": "EducationalOrganization",
+  "@type": "CollegeOrUniversity",
   "@id": "https://pharmacy.jkkn.ac.in/#organization",
   "name": "JKKN College of Pharmacy",
   "url": "https://pharmacy.jkkn.ac.in/",

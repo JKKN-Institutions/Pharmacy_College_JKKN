@@ -58,30 +58,7 @@ export default function PharmaceuticalAnalysisLayout({
         url="https://pharmacy.jkkn.ac.in/pharmaceutical-analysis/"
         dateModified="2026-03-23"
       />
-      <FaqSchema
-        faqs={[
-          {
-            question: "What is M.Pharm Pharmaceutical Analysis?",
-            answer: "Postgraduate pharmacy programme specialising in analytical techniques including HPLC, GC-MS, UV-Vis spectroscopy, method development, and drug quality control. Graduates are equipped for careers in pharmaceutical R&D, quality assurance, and regulatory affairs.",
-          },
-          {
-            question: "What is the eligibility for M.Pharm Pharmaceutical Analysis at JKKN?",
-            answer: "Candidates must hold a B.Pharm degree with a minimum of 50% marks (45% for SC and ST candidates). A GPAT score is preferred and may be required for admission consideration.",
-          },
-          {
-            question: "What career options exist after M.Pharm Pharmaceutical Analysis?",
-            answer: "Career paths include quality control analyst, analytical R&D scientist, regulatory affairs specialist, method development scientist, pharmacy lecturer, and PhD researcher in pharmaceutical sciences.",
-          },
-          {
-            question: "What is the duration of M.Pharm Pharmaceutical Analysis?",
-            answer: "M.Pharm Pharmaceutical Analysis is a 2-year full-time postgraduate programme, structured across four semesters with coursework, practicals, and a research dissertation.",
-          },
-          {
-            question: "What analytical instruments are available at JKKN?",
-            answer: "The advanced analytical learning lab at JKKN College of Pharmacy is equipped with HPLC, GC-MS, UV-Vis spectrophotometer, FTIR, dissolution apparatus, and Karl Fischer titrator for hands-on training.",
-          },
-        ]}
-      />
+      {/* FaqSchema removed 2026-09-18: these questions never rendered on the page (page.tsx renders its own FAQ with matching JSON-LD). */}
       <BreadcrumbWrapper />
       {children}
     </>

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import {
   GraduationCap,
   FileText,
@@ -100,13 +100,7 @@ export default function BPharmAdmissionPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
-      <BreadcrumbListSchema
-        items={[
-          { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-          { name: 'Admissions', url: 'https://pharmacy.jkkn.ac.in/admissions/' },
-          { name: 'B.Pharm Admission', url: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/' },
-        ]}
-      />
+      {/* BreadcrumbList comes from the layout's BreadcrumbWrapper (visible trail); the page-level copy was removed 2026-09-18. */}
       <FaqSchema faqs={bpharmFaqs} />
       <Header />
 
@@ -472,11 +466,9 @@ export default function BPharmAdmissionPage() {
                       className={`w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] flex-shrink-0 transition-transform duration-300 ${expandedFAQ === index ? 'transform rotate-180' : ''}`}
                     />
                   </button>
-                  {expandedFAQ === index && (
-                    <div className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
+                    <div hidden={expandedFAQ !== index} className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
                       <p className="text-gray-700 leading-relaxed text-[10px] sm:text-xs md:text-sm">{faq.answer}</p>
                     </div>
-                  )}
                 </div>
               ))}
             </div>

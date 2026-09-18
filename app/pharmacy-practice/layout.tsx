@@ -87,7 +87,7 @@ export default function PharmacyPracticeLayout({
         url="https://pharmacy.jkkn.ac.in/pharmacy-practice/"
         dateModified="2026-03-23"
       />
-      <FaqSchema faqs={PHARMACY_PRACTICE_FAQS} />
+      {/* FaqSchema removed 2026-09-18: these questions never rendered on the page (page.tsx renders its own FAQ with matching JSON-LD). */}
       <BreadcrumbWrapper />
       {children}
     </>

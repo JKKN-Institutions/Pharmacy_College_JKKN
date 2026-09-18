@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BookOpen, Building2, CheckCircle, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Star, Target, TrendingUp, Users, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalAnalysisPage() {
@@ -57,22 +57,7 @@ export default function PharmaceuticalAnalysisPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmaceutical Analysis', url: 'https://pharmacy.jkkn.ac.in/pharmaceutical-analysis' }
-      ]} />
-      <CourseSchema
-        name="M.Pharm Pharmaceutical Analysis"
-        description="M.Pharm Pharmaceutical Analysis is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on analytical methods, HPLC, LC-MS/MS, method development and validation, quality control, and impurity profiling. Prepares graduates for careers in quality control laboratories, analytical R&D, and regulatory affairs."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharmaceutical-analysis"
-        educationalLevel="Postgraduate"
-        courseMode="onsite"
-        numberOfCredits="2 Years"
-        inLanguage="en"
-        teaches={["Analytical Methods", "HPLC", "LC-MS/MS", "Method Development and Validation", "Quality Control", "Impurity Profiling", "Spectroscopy"]}
-      />
+      {/* BreadcrumbList + Course JSON-LD come from layout.tsx (2026-09-18: the page-level copies produced two BreadcrumbList and two Course nodes per page). */}
       <FaqSchema faqs={faqs} />
       <Header />
 
@@ -818,7 +803,7 @@ export default function PharmaceuticalAnalysisPage() {
           <div className="flex items-center gap-3 mb-6">
             <Building2 className="w-8 h-8 text-[#006837]" />
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
-              Top Recruiters for M.Pharm Pharmaceutical Analysis
+              Employers of M.Pharm Pharmaceutical Analysis Graduates in India
             </h2>
           </div>
           <div className="w-full h-1 bg-gradient-to-r from-[#006837] to-transparent mb-8"></div>
@@ -1424,13 +1409,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 0 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 0} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     M.Pharm in Pharmaceutical Analysis is a 2-year postgraduate specialisation focusing on analytical techniques, quality control, method development, and validation for pharmaceutical products. Learners learn advanced instrumentation (HPLC, GC-MS, LC-MS, spectroscopy), regulatory guidelines (ICH, USP, IP), and quality assurance practices. Career opportunities include Quality Control Analyst, Method Development Scientist, Regulatory Affairs Specialist, and Analytical Research Scientist with salaries ranging from ₹4-10 lakhs per annum.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q2 */}
@@ -1448,13 +1431,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 1 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 1} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     GPAT (Graduate Pharmacy Aptitude Test) is mandatory for admission to M.Pharm programmes in all government colleges and many private institutions. GPAT score is valid for 3 years and provides eligibility for GPAT scholarships. However, some private universities conduct their own entrance exams. A valid GPAT score significantly improves admission chances and scholarship opportunities. Minimum percentile requirements vary: government colleges (70-90 percentile), private colleges (50-70 percentile).
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q3 */}
@@ -1472,13 +1453,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 2 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 2} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Entry-level M.Pharm Pharmaceutical Analysis graduates earn ₹4-7 lakhs per annum. Quality Control Analysts earn ₹4-6 lakhs, Method Development Scientists earn ₹5-8 lakhs, Regulatory Affairs Specialists earn ₹6-10 lakhs, and Analytical Research Scientists earn ₹5-9 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like QC Head or Analytical R&D Manager earn ₹18-30 lakhs per annum. Salaries in multinational pharmaceutical companies are 30-40% higher than domestic companies.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q4 */}
@@ -1496,13 +1475,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 0 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 0} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Both specialisations have strong career prospects but serve different roles. Pharmaceutical Analysis focuses on quality control, analytical testing, and regulatory compliance with high demand in QC/QA departments. Pharmaceutics focuses on drug formulation, product development, and manufacturing. Analysis has more standardized roles with consistent demand, while Pharmaceutics offers innovation in product development. Analysis graduates find positions faster in QC labs, while Pharmaceutics graduates work in R&D and production. Salaries are comparable (₹4-10 lakhs entry level). Choose based on interest: laboratory analysis vs. product development.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q5 */}
@@ -1520,13 +1497,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 1 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 1} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Yes, M.Pharm Pharmaceutical Analysis graduates can pursue Ph.D in pharmaceutical sciences through national exams like CSIR-NET, UGC-NET, GATE, or university-specific entrance tests. Research areas include analytical method development, bioanalytical techniques, quality by design (QbD), process analytical technology (PAT), and pharmaceutical validation. Ph.D opens opportunities in academic research (assistant professor positions), pharmaceutical R&D, regulatory science, and consulting. Many CSIR/ICMR labs and IITs offer Ph.D programmes with fellowships of ₹31,000-35,000 per month.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q6 */}
@@ -1544,13 +1519,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 2 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 2} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     M.Pharm Pharmaceutical Analysis graduates have excellent job opportunities in pharmaceutical manufacturing (QC departments), analytical R&D labs, contract testing organisations, CROs, regulatory affairs departments, government testing labs, and academic institutions. Every pharmaceutical company requires quality control services, ensuring consistent demand for analytical professionals. Job roles include QC Analyst, Method Development Scientist, Stability Testing Specialist, Regulatory Affairs Associate, and Analytical Research Scientist. Job availability is excellent with multiple openings across India and internationally.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q7 */}
@@ -1568,13 +1541,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 3 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 3} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Yes, M.Pharm Pharmaceutical Analysis is excellent for women professionals. The specialisation offers laboratory-based work with regular hours (typically 9-6, unlike production shifts), safe working environment, professional growth opportunities, and gender-equal salary structures. Many QC/QA departments have women leaders. The role doesn't require physical labor, focuses on precision and accuracy, and provides work-life balance. Several pharmaceutical companies have diversity initiatives actively hiring women in analytical roles. Career break re-entry is also feasible with refresher courses.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q8 */}
@@ -1592,13 +1563,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 4 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 4} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Yes, M.Pharm Pharmaceutical Analysis graduates have good international opportunities. Many work in quality control labs and analytical R&D in USA, Canada, UK, Europe, Singapore, and Middle East. Requirements vary by country: USA requires NAPLEX for pharmacy practice but QC positions may not; UK, Ireland, and Canada accept Indian M.Pharm for analytical roles; Middle East actively recruits Indian analytical chemists. Salaries abroad range from $45,000-80,000 annually (₹35-65 lakhs). Some pursue MS/Ph.D in Analytical Chemistry abroad for better opportunities.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q9 */}
@@ -1616,13 +1585,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 5 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 5} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     M.Pharm in Pharmaceutical Analysis is a professional degree focusing on applied pharmaceutical analysis, quality control, and regulatory aspects with strong industry orientation. M.Sc in Pharmaceutical Chemistry is more research-oriented focusing on organic chemistry, medicinal chemistry, and drug synthesis. M.Pharm provides direct entry to pharmaceutical QC/QA roles, while M.Sc graduates often pursue research or academic careers. M.Pharm has better industry placement opportunities. M.Pharm requires B.Pharm degree, while M.Sc accepts B.Sc/B.Pharm. Both can pursue Ph.D.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q10 */}
@@ -1640,13 +1607,11 @@ export default function PharmaceuticalAnalysisPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 6 && (
-                <div className="p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 6} className="p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-xs sm:text-sm text-gray-700">
                     Yes, GPAT provides scholarship of ₹12,400 per month for qualifying GPAT candidates admitted to M.Pharm programmes in government and approved institutions. The scholarship is awarded through centralized counselling based on GPAT percentile. Only learners admitted through GPAT quota are eligible (not management quota). The scholarship is paid for 2 years (24 months) subject to satisfactory academic performance. Learners must maintain minimum CGPA requirements and submit progress reports. Application is automatic during counselling process for eligible candidates.
                   </p>
                 </div>
-              )}
             </div>
           </div>
         </div>

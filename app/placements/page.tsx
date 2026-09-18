@@ -2,9 +2,9 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 import Header from '@/components/Header';
+import { PLACEMENT_FAQS } from '@/lib/placement-faqs';
 import {
   TrendingUp, Award, Briefcase, Users, GraduationCap, Building2,
   ChevronDown, Phone, ArrowRight, BookOpen, Target, Star,
@@ -15,64 +15,49 @@ import {
 /* ──────────────────────────── DATA ──────────────────────────── */
 
 const overallStats = [
-  { value: 78, suffix: '%', label: 'Placement Rate 2024-25', icon: TrendingUp },
-  { value: 8, suffix: ' LPA', label: 'Highest Package', icon: Award },
-  { value: 3.5, suffix: ' LPA', label: 'Average Package', icon: BarChart3 },
-  { value: 30, suffix: '+', label: 'Top Recruiters', icon: Building2 },
+  // Every figure from lib/placement-facts.ts (NIRF 2026 submission, AY 2024-25).
+  { value: 78, suffix: '%', label: 'Placed, of those who sought (2024-25)', icon: TrendingUp },
+  { value: 97, suffix: ' / 124', label: 'Graduates placed 2024-25', icon: Users },
+  { value: 4.4, suffix: ' L', label: 'Median salary B.Pharm (Rs)', icon: BarChart3 },
+  { value: 6.75, suffix: ' L', label: 'Median salary M.Pharm (Rs)', icon: Award },
 ];
 
 const courseWiseData = [
+  // placementRate = placed / graduating; median = median salary of placed graduates.
+  // Source: NIRF 2026 submission, academic year 2024-25 (lib/placement-facts.ts).
   {
     course: 'B.Pharm',
     duration: '4 Years',
     placementRate: '50%',
-    highestPackage: '6 LPA',
-    avgPackage: '3.2 LPA',
+    placed: '42 of 84',
+    median: 'Rs 4.4 L',
     topRoles: ['Quality Control Analyst', 'Medical Representative', 'Production Chemist', 'Hospital Pharmacist'],
-    topRecruiters: ['Sun Pharma', 'Cipla', 'Lupin', 'Apollo Pharmacy'],
     icon: Pill,
-    link: '/b-pharmacy',
+    link: '/b-pharmacy/',
   },
   {
     course: 'M.Pharm',
     duration: '2 Years',
     placementRate: '77.5%',
-    highestPackage: '8 LPA',
-    avgPackage: '4.5 LPA',
+    placed: '31 of 40',
+    median: 'Rs 6.75 L',
     topRoles: ['R&D Scientist', 'QA Manager', 'Regulatory Affairs Specialist', 'Formulation Scientist'],
-    topRecruiters: ["Dr. Reddy's", 'Biocon', 'Hetero Drugs', 'Torrent Pharma'],
     icon: Microscope,
-    link: '/m-pharmacy',
+    link: '/m-pharmacy/',
   },
   {
     course: 'Pharm.D',
     duration: '6 Years',
     placementRate: '75%',
-    highestPackage: '7 LPA',
-    avgPackage: '4 LPA',
+    placed: '21 of 28',
+    median: 'Rs 4.42 L',
     topRoles: ['Clinical Pharmacist', 'Drug Safety Associate', 'Pharmacovigilance Officer', 'Clinical Research Coordinator'],
-    topRecruiters: ['Apollo Hospitals', 'Sanofi', 'Glenmark', 'Mankind Pharma'],
     icon: HeartPulse,
-    link: '/pharm-d',
+    link: '/pharm-d/',
   },
 ];
 
-const recruiters = [
-  { name: 'Sun Pharma', logo: '/images/recruiters/sun-pharma.svg' },
-  { name: 'Cipla', logo: '/images/recruiters/cipla.svg' },
-  { name: "Dr. Reddy's", logo: '/images/recruiters/dr-reddys.svg' },
-  { name: 'Lupin', logo: '/images/recruiters/lupin.svg' },
-  { name: 'Aurobindo Pharma', logo: '/images/recruiters/aurobindo.svg' },
-  { name: 'Hetero Drugs', logo: '/images/recruiters/hetero.svg' },
-  { name: 'Apollo Pharmacy', logo: '/images/recruiters/apollo.svg' },
-  { name: 'MedPlus', logo: '/images/recruiters/medplus.svg' },
-  { name: 'Biocon', logo: '/images/recruiters/biocon.svg' },
-  { name: 'Torrent Pharma', logo: '/images/recruiters/torrent.svg' },
-  { name: 'Alkem', logo: '/images/recruiters/alkem.svg' },
-  { name: 'Glenmark', logo: '/images/recruiters/glenmark.svg' },
-  { name: 'Mankind Pharma', logo: '/images/recruiters/mankind.svg' },
-  { name: 'Sanofi', logo: '/images/recruiters/sanofi.svg' },
-];
+// The 14-logo recruiter grid was removed on 2026-09-18: no filed document names a recruiter.
 
 const trainingPrograms = [
   {
@@ -120,48 +105,7 @@ const testimonials: {
   quote: string;
 }[] = [];
 
-const placementFaqs = [
-  {
-    question: 'What is the placement rate at JKKN College of Pharmacy?',
-    answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 78% for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
-  },
-  {
-    question: 'What is the highest package offered at JKKN Pharmacy College?',
-    answer: 'The highest package offered to JKKN College of Pharmacy graduates is 8 LPA (Lakhs Per Annum). Top recruiters including Sun Pharma, Cipla, Dr. Reddy\'s, and Lupin regularly offer competitive salary packages to pharmacy graduates.',
-  },
-  {
-    question: 'Which companies recruit from JKKN College of Pharmacy?',
-    answer: '30+ top pharmaceutical companies recruit from JKKN College of Pharmacy, including Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Aurobindo Pharma, Hetero Drugs, Apollo Pharmacy, MedPlus, Biocon, Torrent Pharma, Alkem Laboratories, Glenmark, Mankind Pharma, and Sanofi.',
-  },
-  {
-    question: 'What placement training does JKKN Pharmacy College provide?',
-    answer: 'JKKN provides comprehensive placement training including aptitude and reasoning skills, soft skills and communication development, mock interviews and group discussions, resume building and LinkedIn profile optimisation, industry-specific technical training, pharmaceutical industry awareness workshops, and personality development programmes.',
-  },
-  {
-    question: 'What are the career options after B.Pharm from JKKN?',
-    answer: 'B.Pharm graduates from JKKN have diverse career options including pharmaceutical manufacturing, quality control and assurance, research and development, clinical research, hospital and community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and government pharmacist positions.',
-  },
-  {
-    question: 'Does JKKN Pharmacy College provide campus placements for M.Pharm learners?',
-    answer: 'Yes, JKKN College of Pharmacy provides dedicated campus placement support for M.Pharm graduates. M.Pharm learners receive specialised placement assistance targeting research-oriented roles in R&D, quality assurance, regulatory affairs, and academic positions with salary packages ranging from 4-8 LPA.',
-  },
-  {
-    question: 'What is the average salary package for JKKN pharmacy graduates?',
-    answer: 'The average salary package for JKKN College of Pharmacy graduates is 3.5 LPA. Packages vary by programme — B.Pharm graduates average 3-4 LPA, M.Pharm graduates average 4-6 LPA, and Pharm.D graduates average 4-7 LPA depending on the role and employer.',
-  },
-  {
-    question: 'How does JKKN Pharmacy College prepare learners for placements?',
-    answer: 'JKKN follows a structured placement preparation model starting from the pre-final year. This includes industrial visits to pharmaceutical companies, guest lectures by industry professionals, certification courses in GMP, GLP, and regulatory affairs, soft skills training programmes, mock placement drives, and dedicated mentoring by the placement cell team.',
-  },
-  {
-    question: 'Are there internship opportunities at JKKN College of Pharmacy?',
-    answer: 'Yes, JKKN facilitates internship opportunities with pharmaceutical companies, hospitals, and research institutions. B.Pharm learners complete a mandatory 6-month industrial internship, while Pharm.D learners undergo clinical rotations in hospitals, providing hands-on industry experience before graduation.',
-  },
-  {
-    question: 'What sectors do JKKN pharmacy graduates get placed in?',
-    answer: 'JKKN pharmacy graduates are placed across multiple sectors including pharmaceutical manufacturing and production, clinical research organisations, hospital and retail pharmacy chains, drug regulatory and compliance departments, quality control and analytical laboratories, pharmaceutical marketing and medical affairs, pharmacovigilance centres, and government health departments.',
-  },
-];
+const placementFaqs = PLACEMENT_FAQS;
 
 const sectorBreakdown = [
   { sector: 'Pharmaceutical Manufacturing', percentage: 35, icon: Pill },
@@ -230,7 +174,6 @@ function StatCard({ stat, index }: { stat: typeof overallStats[0]; index: number
 
 export default function PlacementsPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
-  const [logoErrors, setLogoErrors] = useState<Record<number, boolean>>({});
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
@@ -277,7 +220,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="voice-answer text-xs sm:text-sm md:text-base text-gray-200 max-w-3xl mx-auto leading-relaxed mb-6 sm:mb-10"
           >
-            With a 78% placement rate (2024-25) and 30+ top recruiters, JKKN College of Pharmacy prepares pharmacy graduates
+            With 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission), JKKN College of Pharmacy prepares pharmacy graduates
             for rewarding careers in pharmaceutical industry, clinical practice, and research. Our dedicated
             Training & Placement Cell bridges academic excellence with professional success.
           </motion.p>
@@ -319,8 +262,8 @@ export default function PlacementsPage() {
               <p className="snippet-answer">
                 The Training & Placement Cell at JKKN College of Pharmacy is a dedicated department that connects
                 pharmacy graduates with leading pharmaceutical companies, hospitals, CROs, and research institutions
-                across India. With over three decades of industry relationships, the cell maintains a robust network
-                of 30+ recruiters who actively participate in campus recruitment drives.
+                across India. The cell works with the pharmaceutical companies, hospitals and CROs that take part in
+                campus recruitment drives, and publishes recruiter names only from its own offer-letter record.
               </p>
               <p>
                 Starting from the pre-final year, the placement cell initiates a structured training programme that
@@ -339,7 +282,7 @@ export default function PlacementsPage() {
             >
               {[
                 { icon: Target, text: '78% of eligible graduates placed in 2024-25 - 97 of the 124 who sought placement (NIRF 2026 submission)' },
-                { icon: Building2, text: '30+ pharmaceutical companies recruit on campus annually' },
+                { icon: Building2, text: 'Median salary of placed graduates 2024-25: Rs 4,40,000 (B.Pharm), Rs 6,75,000 (M.Pharm), Rs 4,42,000 (Pharm.D)' },
                 { icon: GraduationCap, text: 'Pre-final year structured placement training programme' },
                 { icon: Users, text: 'Dedicated placement officers with industry experience' },
                 { icon: Star, text: 'Industrial internships and live project opportunities' },
@@ -403,12 +346,12 @@ export default function PlacementsPage() {
                       <div className="text-[8px] sm:text-[10px] text-gray-500">Placement</div>
                     </div>
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
-                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.highestPackage}</div>
-                      <div className="text-[8px] sm:text-[10px] text-gray-500">Highest</div>
+                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.placed}</div>
+                      <div className="text-[8px] sm:text-[10px] text-gray-500">Placed 2024-25</div>
                     </div>
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
-                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.avgPackage}</div>
-                      <div className="text-[8px] sm:text-[10px] text-gray-500">Average</div>
+                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.median}</div>
+                      <div className="text-[8px] sm:text-[10px] text-gray-500">Median salary</div>
                     </div>
                   </div>
 
@@ -421,18 +364,6 @@ export default function PlacementsPage() {
                           <div className="w-1.5 h-1.5 rounded-full bg-[#7cb983] flex-shrink-0" />
                           {role}
                         </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Top Recruiters */}
-                  <div className="mb-4">
-                    <p className="text-[10px] sm:text-xs font-semibold text-gray-500 uppercase mb-2">Top Recruiters</p>
-                    <div className="flex flex-wrap gap-1.5">
-                      {course.topRecruiters.map((r) => (
-                        <span key={r} className="bg-[#006837]/10 text-[#006837] text-[10px] sm:text-xs px-2 py-1 rounded-full font-medium">
-                          {r}
-                        </span>
                       ))}
                     </div>
                   </div>
@@ -493,55 +424,7 @@ export default function PlacementsPage() {
         </div>
       </section>
 
-      {/* ═══════════════ TOP RECRUITERS ═══════════════ */}
-      <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 bg-white">
-        <div className="max-w-[1400px] mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-6 sm:mb-8"
-          >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
-              Our Recruiters
-            </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
-              Top Pharmaceutical Companies That Recruit From JKKN
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-3 sm:gap-4">
-            {recruiters.map((company, i) => (
-              <motion.div
-                key={company.name}
-                custom={i}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fadeUp}
-                className="bg-[#FBFBEE] rounded-xl p-3 sm:p-4 flex flex-col items-center justify-center text-center hover:shadow-md transition-shadow duration-300 min-h-[80px] sm:min-h-[100px]"
-              >
-                {!logoErrors[i] ? (
-                  <Image
-                    src={company.logo}
-                    alt={`${company.name} logo — recruiter at JKKN College of Pharmacy`}
-                    width={80}
-                    height={40}
-                    className="object-contain mb-2 h-8 sm:h-10"
-                    onError={() => setLogoErrors(prev => ({ ...prev, [i]: true }))}
-                  />
-                ) : (
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#006837]/10 flex items-center justify-center mb-2">
-                    <Building2 className="w-5 h-5 sm:w-6 sm:h-6 text-[#006837]" />
-                  </div>
-                )}
-                <span className="text-[10px] sm:text-xs font-medium text-gray-700">{company.name}</span>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* The TOP RECRUITERS logo grid (14 companies) was removed on 2026-09-18 - no source. */}
 
       {/* ═══════════════ TRAINING PROGRAMS ═══════════════ */}
       <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6">
@@ -715,7 +598,7 @@ export default function PlacementsPage() {
                 Start Your Pharmacy Career at JKKN
               </h2>
               <p className="text-xs sm:text-sm md:text-base text-green-100 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
-                Join 78% successfully placed graduates (2024-25). Apply for B.Pharm, M.Pharm, or Pharm.D programmes
+                Join the 78% of placement-seeking graduates placed in 2024-25. Apply for B.Pharm, M.Pharm, or Pharm.D programmes
                 for the 2026-27 academic session, or connect with our Placement Cell for more details.
               </p>
 

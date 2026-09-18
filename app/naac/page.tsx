@@ -22,10 +22,7 @@ export default function NAACPage() {
 
   return (
     <div className="min-h-screen bg-[#F5F1E8]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'NAAC', url: 'https://pharmacy.jkkn.ac.in/naac' }
-      ]} />
+      {/* BreadcrumbList JSON-LD is rendered by the layout's BreadcrumbWrapper (the visible trail). A second, invisible copy stood here until 2026-09-18. */}
       <Header />
 
       {/* Main Container */}

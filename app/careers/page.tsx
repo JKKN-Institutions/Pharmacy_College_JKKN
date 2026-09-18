@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 export const metadata = {
   title: 'Careers | JKKN College of Pharmacy',
   description: 'Explore career opportunities at JKKN Institutions.',
+  alternates: { canonical: 'https://pharmacy.jkkn.ac.in/careers/' },
 }
 
 export default function CareersPage() {
