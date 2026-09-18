@@ -71,7 +71,7 @@ export default function EventsSection() {
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Natarajapuram, NH-544",
-              "addressLocality": "Komarapalayam",
+              "addressLocality": "Kumarapalayam",
               "addressRegion": "Tamil Nadu",
               "postalCode": "638183",
               "addressCountry": "IN"

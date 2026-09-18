@@ -87,52 +87,34 @@ export default function ErodePage() {
         { name: 'Pharmacy College in Erode', url: 'https://pharmacy.jkkn.ac.in/erode/' }
       ]} />
       {/* ── EducationalOrganization + LocalBusiness Schema ── */}
+      {/* Organization: a REFERENCE to the site-wide #organization node, not a second
+          description of it. Until 2026-09-17 this block re-declared the whole entity and
+          disagreed with it: foundingDate 1952 against the 1985 on the same page (1952 is
+          the parent group), email admissions@pharmacy.jkkn.ac.in against pharmacy@jkkn.ac.in,
+          and a logo at /images/jkkn-pharmacy-logo.png which does not exist in public/images.
+          A second LocalBusiness block said the same things again with a different areaServed.
+          The full entity is declared ONCE in components/SchemaOrg.tsx and renders here via
+          app/layout.tsx; sharing its @id merges this node into that one. All this block adds
+          is what is specific to this town. */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
             "@context": "https://schema.org",
-            "@type": ["EducationalOrganization", "CollegeOrUniversity"],
-            "name": "JKKN College of Pharmacy",
-            "alternateName": "JKKN Pharmacy",
-            "url": "https://pharmacy.jkkn.ac.in/",
-            "logo": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "description": "JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, offering B.Pharm, M.Pharm, and Pharm.D programmes. Located 22 km from Erode on NH-544.",
-            "foundingDate": "1952",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
-              "addressLocality": "Komarapalayam",
-              "addressRegion": "Tamil Nadu",
-              "postalCode": "638183",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": "11.4449861",
-              "longitude": "77.7307333"
-            },
-            "telephone": "+919345855001",
-            "email": "admissions@pharmacy.jkkn.ac.in",
+            "@id": "https://pharmacy.jkkn.ac.in/#organization",
+            "@type": ["EducationalOrganization", "CollegeOrUniversity", "LocalBusiness"],
             "areaServed": [
               { "@type": "City", "name": "Erode" },
               { "@type": "City", "name": "Namakkal" },
               { "@type": "City", "name": "Salem" },
               { "@type": "State", "name": "Tamil Nadu" }
             ],
-            "hasCredential": [
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "PCI Approval", "recognizedBy": { "@type": "Organization", "name": "Pharmacy Council of India" } },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "NAAC Accreditation", "recognizedBy": { "@type": "Organization", "name": "NAAC" } }
-            ],
-            "parentOrganization": {
-              "@type": "Organization",
-              "name": "JKKN Institutions",
-              "url": "https://jkkn.ac.in/"
-            },
-            "sameAs": [
-              "https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7"
-            ],
-            "dateModified": "2026-03-27"
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "08:30",
+              "closes": "17:00"
+            }
           })
         }}
       />
@@ -798,47 +780,6 @@ export default function ErodePage() {
         }}
       />
 
-      {/* ── LocalBusiness Schema ── */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "JKKN College of Pharmacy",
-            "image": "https://pharmacy.jkkn.ac.in/images/jkkn-pharmacy-logo.png",
-            "url": "https://pharmacy.jkkn.ac.in/",
-            "telephone": "+919345855001",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "Natarajapuram, NH-544 (Salem to Coimbatore National Highway)",
-              "addressLocality": "Komarapalayam",
-              "addressRegion": "Tamil Nadu",
-              "postalCode": "638183",
-              "addressCountry": "IN"
-            },
-            "geo": {
-              "@type": "GeoCoordinates",
-              "latitude": 11.4449861,
-              "longitude": 77.7307333
-            },
-            "openingHoursSpecification": {
-              "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-              "opens": "08:00",
-              "closes": "17:00"
-            },
-            "areaServed": [
-              { "@type": "City", "name": "Erode" },
-              { "@type": "City", "name": "Komarapalayam" },
-              { "@type": "City", "name": "Tiruchengode" },
-              { "@type": "City", "name": "Namakkal" },
-              { "@type": "State", "name": "Tamil Nadu" }
-            ],
-            "dateModified": "2026-03-27"
-          })
-        }}
-      />
 
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema

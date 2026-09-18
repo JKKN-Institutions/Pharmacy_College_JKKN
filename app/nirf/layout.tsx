@@ -36,7 +36,7 @@ const nirfSchema = {
   "@type": "EducationalOrganization",
   "@id": "https://pharmacy.jkkn.ac.in/#organization",
   "name": "JKKN College of Pharmacy",
-  "url": "https://pharmacy.jkkn.ac.in",
+  "url": "https://pharmacy.jkkn.ac.in/",
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",

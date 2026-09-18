@@ -2,7 +2,7 @@
 
 > JKKN College of Pharmacy is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, India. Established in 1985, it is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and is part of JKK Nattraja Educational Institutions (JKKN Institutions) — a multi-disciplinary educational group founded in 1952 with 74+ years of excellence.
 
-<!-- version: 2026-09-04 -->
+<!-- version: 2026-09-16 -->
 
 ## Detailed Reference
 
@@ -23,7 +23,12 @@
 - Founded: 1985
 - [Website](https://pharmacy.jkkn.ac.in/): the official college site
 - [Parent Organization](https://jkkn.ac.in/): JKK Nattraja Educational Institutions, established 1952
-- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183, India
+- Campus: Natarajapuram, NH-544 (Salem-Coimbatore Highway), Kumarapalayam, Namakkal District, Tamil Nadu 638183, India
+- Town spelling: the campus town is written Kumarapalayam in official records - AISHE ID
+  C-45689 and the college own IIQA and Self Study Report filed with NAAC in 2024 - and
+  Komarapalayam in common usage, on Google Maps and in almost every real search query.
+  Both name the same town in Namakkal District. This site uses Kumarapalayam for the
+  postal address and Komarapalayam in page titles, deliberately.
 - Phone: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
 
@@ -42,6 +47,12 @@
 - Eligibility: 10+2 with Physics, Chemistry, and Mathematics/Biology (50% minimum)
 - Affiliation: The Tamil Nadu Dr. M.G.R. Medical University
 
+### B.Pharm (Lateral Entry)
+- Duration: 3 years (6 semesters), entering directly at semester 3
+- Intake: 10 seats
+- Eligibility: D.Pharm from a PCI-approved institution, registered with a State Pharmacy Council
+- Degree awarded: identical to the 4-year B.Pharm, with no distinction on the certificate
+
 ### M.Pharm (Master of Pharmacy)
 - Duration: 2 years (4 semesters)
 - Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs
@@ -53,6 +64,11 @@
 - Intake: 30 seats
 - Eligibility: 10+2 with PCM/PCB (50% minimum)
 - Focus: Clinical pharmacy, patient care, pharmaceutical care services
+
+### Pharm.D (Post Baccalaureate)
+- Duration: 3 years (2 years academic + 1 year clinical clerkship)
+- Intake: 10 seats
+- Eligibility: B.Pharm from a recognised university
 
 ### Ph.D (Doctor of Philosophy in Pharmaceutical Sciences)
 - Research programme in pharmaceutical sciences
@@ -122,7 +138,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 - Phone: +91 9345855001
 - WhatsApp: +91 9345855001
 - Email: pharmacy@jkkn.ac.in
-- Visit: JKKN Institutions, Natarajapuram, NH-544, Komarapalayam, Namakkal, Tamil Nadu 638183
+- Visit: JKKN Institutions, Natarajapuram, NH-544, Kumarapalayam, Namakkal, Tamil Nadu 638183
 
 ## Key Links
 
@@ -142,7 +158,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 
 - [Facebook](https://www.facebook.com/jkknpharmacy): official college page
 - [Instagram](https://www.instagram.com/jkknpharmacy): official college account
-- [LinkedIn](https://www.linkedin.com/school/jkkn-college-of-pharmacy): official school page
+- [LinkedIn](https://www.linkedin.com/school/jkknpharmacy/): official school page
 - [YouTube](https://www.youtube.com/@JKKNInstitutions): the group channel, not college-specific
 
 ## Optional

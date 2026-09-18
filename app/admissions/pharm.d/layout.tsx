@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { HowToSchema, SpeakableWebPageSchema, EventSchema, CourseSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
   title: 'Pharm.D Admission 2026 | JKKN College of Pharmacy',
@@ -61,12 +61,6 @@ export default function PharmDAdmissionLayout({ children }: { children: React.Re
         description="Pharm.D and Pharm.D Post Baccalaureate admission process at JKKN. Eligibility, fees, dates, documents, and FAQs."
         url="https://pharmacy.jkkn.ac.in/admissions/pharm.d/"
         dateModified="2026-05-16"
-      />
-      <EventSchema
-        name="JKKN Pharm.D Admissions Open 2026-27"
-        description="Pharm.D (30 seats) and Pharm.D Post Baccalaureate (10 seats) admissions open at JKKN College of Pharmacy."
-        startDate="2026-05-01"
-        endDate="2026-08-31"
       />
       {children}
     </>

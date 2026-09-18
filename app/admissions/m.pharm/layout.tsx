@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { HowToSchema, SpeakableWebPageSchema, EventSchema, CourseSchema } from '@/components/SchemaOrg'
+import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/SchemaOrg'
 
 export const metadata: Metadata = {
   title: 'M.Pharm Admission 2026 | All Specializations | JKKN',
@@ -36,7 +36,7 @@ export default function MPharmAdmissionLayout({ children }: { children: React.Re
     <>
       <CourseSchema
         name="Master of Pharmacy (M.Pharm)"
-        description="2-year postgraduate degree at JKKN College of Pharmacy across 6 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
+        description="2-year postgraduate degree at JKKN College of Pharmacy across 6 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs."
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/admissions/m.pharm/"
@@ -61,12 +61,6 @@ export default function MPharmAdmissionLayout({ children }: { children: React.Re
         description="M.Pharm admission process at JKKN for all six specialisations. Eligibility, fees, important dates, documents, and FAQs."
         url="https://pharmacy.jkkn.ac.in/admissions/m.pharm/"
         dateModified="2026-05-16"
-      />
-      <EventSchema
-        name="JKKN M.Pharm Admissions Open 2026-27"
-        description="M.Pharm admissions open at JKKN across 6 specialisations — Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 15 seats per specialisation."
-        startDate="2026-05-01"
-        endDate="2026-08-31"
       />
       {children}
     </>

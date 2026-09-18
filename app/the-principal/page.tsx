@@ -3,7 +3,7 @@
 import Header from '@/components/Header'
 import Image from 'next/image'
 import { PersonSchema } from '@/components/SchemaOrg'
-import { GraduationCap, BookOpen, Award, Mail, Phone, ExternalLink } from 'lucide-react'
+import { GraduationCap, BookOpen, Award, Mail, Phone } from 'lucide-react'
 
 export default function ThePrincipalPage() {
   return (
@@ -24,9 +24,11 @@ export default function ThePrincipalPage() {
           "Pharmaceutical Sciences",
           "Pharmaceutical Education"
         ]}
-        sameAs={[
-          "https://scholar.google.com"
-        ]}
+        // sameAs removed 2026-09-16. It held "https://scholar.google.com" — the Google
+        // Scholar HOMEPAGE, not this person's profile. In schema.org, sameAs is an identity
+        // claim, so that line asserted the principal IS Google Scholar. No verified Scholar,
+        // ORCID or ResearchGate profile for Dr. K.L. Senthil Kumar has been located; the
+        // property stays absent until one is, because a wrong identity is worse than none.
         worksFor={{
           name: "JKKN College of Pharmacy",
           url: "https://pharmacy.jkkn.ac.in"
@@ -135,18 +137,11 @@ export default function ThePrincipalPage() {
                           +91 93458 55001
                         </a>
                       </div>
-                      <div className="flex items-center gap-2">
-                        <ExternalLink className="w-4 h-4 text-[#006837]" />
-                        <a
-                          href="https://scholar.google.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-sm text-gray-700 hover:text-[#006837]"
-                        >
-                          Google Scholar Profile
-                        </a>
-                      </div>
-                    </div>
+                      {/* A "Google Scholar Profile" link stood here pointing at
+                          https://scholar.google.com — Scholar's own homepage, not a profile.
+                          Clicking it landed the visitor on an empty search box. Removed
+                          2026-09-16; restore it only with a real author-profile URL. */}
+</div>
                   </div>
 
                 </div>
