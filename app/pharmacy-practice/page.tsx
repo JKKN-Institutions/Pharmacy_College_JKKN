@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BarChart, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, Dna, FileText, FlaskConical, GraduationCap, HelpCircle, Hospital, IndianRupee, Lightbulb, Microscope, Pill, Scale, ScrollText, Sparkles, Star, Target, TestTube, ChevronDown } from 'lucide-react'
 
 export default function PharmacyPracticePage() {
@@ -57,22 +57,7 @@ export default function PharmacyPracticePage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy Practice', url: 'https://pharmacy.jkkn.ac.in/pharmacy-practice' }
-      ]} />
-      <CourseSchema
-        name="M.Pharm Pharmacy Practice"
-        description="M.Pharm Pharmacy Practice is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on clinical pharmacy, pharmacotherapy, patient care, hospital pharmacy management, and medication therapy management. Prepares graduates for careers in hospital clinical pharmacy, drug information services, and pharmaceutical care."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharmacy-practice"
-        educationalLevel="Postgraduate"
-        courseMode="onsite"
-        numberOfCredits="2 Years"
-        inLanguage="en"
-        teaches={["Clinical Pharmacy", "Pharmacotherapy", "Patient Care", "Hospital Pharmacy Management", "Medication Therapy Management", "Drug Information", "Pharmaceutical Care"]}
-      />
+      {/* BreadcrumbList + Course JSON-LD come from layout.tsx (2026-09-18: the page-level copies produced two BreadcrumbList and two Course nodes per page). */}
       <FaqSchema faqs={faqs} />
       <Header />
 
@@ -964,7 +949,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Top Recruiters for M.Pharm Pharmacy Practice Graduates</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Employers of M.Pharm Pharmacy Practice Graduates in India</h2>
         </div>
 
         {/* Corporate Hospital Chains */}
@@ -1620,13 +1605,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 10 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 10} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   M.Pharm in Pharmacy Practice is a 2-year postgraduate specialisation focusing on clinical pharmacy, patient care, medication therapy management, and pharmaceutical care services. Learners learn evidence-based drug therapy, patient counselling, medication safety, clinical research, and hospital pharmacy management through learning in the learning studio and extensive clinical rotations in hospitals. Career opportunities include Clinical Pharmacist, Hospital Pharmacist, Clinical Research Coordinator, Medical Writer, and Drug Safety Specialist with salaries ranging from ₹4-10 lakhs per annum. This specialisation is ideal for those interested in direct patient care and healthcare settings.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q2 */}
@@ -1646,13 +1629,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 11 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 11} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Pharm.D is a 6-year professional doctoral programme (5 years + 1 year internship) taken directly after 12th standard, focusing extensively on clinical pharmacy with full-time hospital rotations. M.Pharm Pharmacy Practice is a 2-year postgraduate programme after B.Pharm focusing on clinical skills, research, and advanced pharmaceutical care. Pharm.D provides Doctor title and deeper clinical training. M.Pharm offers research opportunities and academic careers. Both lead to clinical pharmacy roles, but Pharm.D has more clinical exposure while M.Pharm combines clinical practice with research. Salaries are comparable (₹4-10 lakhs). Pharm.D is preferred for clinical positions; M.Pharm for research and academics.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q3 */}
@@ -1672,13 +1653,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 12 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 12} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Entry-level M.Pharm Pharmacy Practice graduates earn ₹4-7 lakhs per annum. Clinical Pharmacists in hospitals earn ₹5-8 lakhs, Drug Information Specialists earn ₹5-9 lakhs, Clinical Research Coordinators earn ₹4-8 lakhs, Medical Writers earn ₹5-10 lakhs, and Pharmacovigilance Associates earn ₹4-7 lakhs annually. With 5+ years experience, salaries reach ₹10-18 lakhs. Senior positions like Clinical Pharmacy Manager or Medical Affairs Manager earn ₹18-30 lakhs per annum. Salaries in corporate hospitals and multinational pharmaceutical companies are 30-40% higher than government hospitals. International opportunities in Gulf countries offer ₹15-30 lakhs tax-free.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q4 */}
@@ -1698,13 +1677,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 13 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 13} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, hospital training is mandatory and integral to M.Pharm Pharmacy Practice learning framework. Learners must complete 3-6 months of clinical rotations in PCI-approved teaching hospitals during their course. These rotations cover medicine, surgery, pediatrics, cardiology, and other departments where learners interact with patients, review medication charts, participate in ward rounds, provide drug information, and learn medication therapy management under supervision. This practical training is essential for developing clinical skills and is evaluated for final assessment. Without clinical training certification, degree completion is not possible.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q5 */}
@@ -1724,13 +1701,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 14 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 14} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, M.Pharm Pharmacy Practice graduates can pursue Ph.D in pharmaceutical sciences through CSIR-NET, UGC-NET, GATE, ICMR-JRF, or university entrance tests. Research areas include clinical pharmacy practice, pharmaceutical care outcomes, medication adherence, pharmacoeconomics, pharmacoepidemiology, and evidence-based medicine. Ph.D opens academic careers (assistant professor), senior clinical research positions, and healthcare quality research roles. Many medical colleges, AIIMS, PGIMER, and NIPER offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmacy Practice Ph.D graduates are valuable in clinical research, healthcare policy, and pharmaceutical outcomes research.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q6 */}
@@ -1750,13 +1725,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 15 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 15} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Both are excellent but serve different purposes. Pharmacy Practice is patient-facing, focused on clinical settings, medication therapy management, and healthcare. Best for those who enjoy patient interaction and clinical work. Pharmaceutics is laboratory-based, focused on drug formulation, product development, and R&D. Best for those who prefer innovation and product design. Pharmacy Practice offers hospital careers (₹5-10 lakhs) and clinical research. Pharmaceutics offers formulation R&D roles (₹6-12 lakhs) with higher ceiling. Choose based on interest: patient care vs. product development. Pharmacy Practice has better work-life balance; Pharmaceutics has higher salary potential in senior R&D roles.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q7 */}
@@ -1776,13 +1749,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 16 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 16} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, jobs are growing but concentrated in metro cities and tier-1 towns with large corporate hospitals. Corporate hospital chains (Apollo, Fortis, Max, Manipal) actively hire clinical pharmacists. Pharmaceutical companies need candidates for medical affairs, drug safety, and clinical research. CROs constantly recruit for clinical research coordinator roles. Challenges: (1) Fewer positions than QC/production, (2) Government hospitals have limited clinical pharmacy services, (3) Salaries lower than R&D initially. Growth drivers: NABH accreditation mandates clinical pharmacy services, increasing healthcare awareness, expansion of corporate hospitals. Job prospects better for those willing to relocate to metros.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q8 */}
@@ -1802,13 +1773,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 17 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 17} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, M.Pharm Pharmacy Practice graduates can work in community (retail) pharmacies, ideally in positions beyond basic dispensing. Modern pharmacy chains like Apollo Pharmacy, MedPlus, and Wellness Forever are establishing clinical pharmacy services including medication therapy management (MTM), patient counselling clinics, health screening programmes, and chronic disease management services. Salaries: ₹4-8 lakhs as pharmacy manager or clinical services coordinator. However, most graduates prefer hospital settings as community pharmacy utilizes only part of clinical training. Community pharmacy management is viable if you want entrepreneurship or prefer regular hours without hospital environment.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q9 */}
@@ -1828,13 +1797,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 18 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 18} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Yes, if you're specifically interested in clinical pharmacy career. M.Pharm provides 30-50% higher salary (₹5-8 lakhs vs ₹3-5 lakhs for B.Pharm), specialised clinical knowledge, better hospital positions, clinical research opportunities, and Ph.D eligibility. Worth it if: (1) You want clinical pharmacist role, (2) Interested in patient care, (3) Willing to work in hospitals, (4) Want research/academic career. Not essential if: (1) Happy with retail pharmacy, (2) Prefer pharmaceutical manufacturing, (3) Want quick job entry, (4) Not interested in hospital environment. Investment: 2 years time + ₹2-4 lakhs fees. ROI: Positive within 3-4 years through higher salary and better positions.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q10 */}
@@ -1854,13 +1821,11 @@ export default function PharmacyPracticePage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 19 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 19} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">
                   Excellent scope, especially in countries with established clinical pharmacy services. USA: Clinical pharmacist positions pay $80,000-120,000 annually after NAPLEX licensure exam. Requires degree evaluation + pharmacy residency for best roles. UK: Clinical pharmacy roles in NHS hospitals (£30,000-45,000). Requires GPhC registration. Canada: Hospital pharmacist positions (CAD 90,000-110,000) via PEBC exam. Gulf Countries (UAE, Saudi, Qatar): Tax-free salaries ₹15-30 lakhs. Easier entry with 2-3 years Indian experience. Australia: Hospital pharmacy roles (AUD 70,000-90,000) via APC exam. Pharmacy Practice specialisation is recognised internationally for clinical roles.
                 </p>
               </div>
-            )}
           </div>
         </div>
       </div>

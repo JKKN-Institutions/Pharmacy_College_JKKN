@@ -1,9 +1,13 @@
 // components/SchemaOrg.tsx
-import { PHARMACY_SAME_AS, PHARMACY_AGGREGATE_RATING } from '@/lib/entity-profiles'
+import { PHARMACY_SAME_AS } from '@/lib/entity-profiles'
 export function OrganizationSchema() {
   const schema = {
     "@context": "https://schema.org",
-    "@type": ["EducationalOrganization", "LocalBusiness"],
+    // CollegeOrUniversity is the specific schema.org type for a degree-granting college;
+    // it inherits everything EducationalOrganization has. LocalBusiness is kept for the
+    // address / geo / opening-hours vocabulary. Aligned 2026-09-18 - before that the town
+    // pages typed this same @id as CollegeOrUniversity while the site-wide node did not.
+    "@type": ["CollegeOrUniversity", "LocalBusiness"],
     "@id": "https://pharmacy.jkkn.ac.in/#organization",
     "name": "JKKN College of Pharmacy",
     "alternateName": "JKKN Pharmacy College",
@@ -85,18 +89,11 @@ export function OrganizationSchema() {
       "alternateName": "JKKN Institutions",
       "url": "https://jkkn.ac.in"
     },
-    "sameAs": PHARMACY_SAME_AS,
-    // AggregateRating — Source: Google Maps place "JKKN College of Pharmacy",
-    // read 2026-09-16: 4.3 from 238 reviews. It replaces 4.2 / 216, a Justdial reading
-    // from 2026-03-20 that was wrong on both counts — Justdial itself read 3.9 from
-    // 246 Ratings when re-checked the same day. Value lives in lib/entity-profiles.ts.
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": PHARMACY_AGGREGATE_RATING.ratingValue,
-      "bestRating": PHARMACY_AGGREGATE_RATING.bestRating,
-      "worstRating": PHARMACY_AGGREGATE_RATING.worstRating,
-      "ratingCount": PHARMACY_AGGREGATE_RATING.ratingCount
-    }
+    "sameAs": PHARMACY_SAME_AS
+    // An `aggregateRating` (4.3 / 238, Google Maps 2026-09-16) stood here until 2026-09-18.
+    // Removed in the schema audit: self-serving review markup earns no rich result, GSC
+    // flagged it as an ERROR on one URL, and the live Maps figure had already moved to
+    // 4.3 / 244. See lib/entity-profiles.ts for the full note.
     // A `review` array stood here until 2026-09-16 carrying three testimonials signed
     // "Pharmacy Student", "B.Pharm Graduate" and "M.Pharm Student". Those are not people.
     // They rendered on every page, because this component is imported by app/layout.tsx.
@@ -133,7 +130,7 @@ export function CourseSchema({ name, description, duration, provider, url, educa
     "description": description,
     "url": url,
     "provider": {
-      "@type": "EducationalOrganization",
+      "@type": "CollegeOrUniversity",
       "@id": "https://pharmacy.jkkn.ac.in/#organization",
       "name": provider,
       "url": "https://pharmacy.jkkn.ac.in/",
@@ -268,7 +265,8 @@ export function PersonSchema({
     ...(sameAs && { "sameAs": sameAs }),
     ...(worksFor && {
       "worksFor": {
-        "@type": "EducationalOrganization",
+        "@type": "CollegeOrUniversity",
+        "@id": "https://pharmacy.jkkn.ac.in/#organization",
         "name": worksFor.name,
         "url": worksFor.url
       }

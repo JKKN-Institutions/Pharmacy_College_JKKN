@@ -26,7 +26,7 @@ export default function PlacementCellPage() {
               { value: '85%+', label: 'Placement Rate' },
               { value: '6-8', label: 'LPA Highest Package' },
               { value: '3-4', label: 'LPA Average Package' },
-              { value: '30+', label: 'Top Recruiters' },
+              { value: '97 / 124', label: 'Placed of those who sought, 2024-25' },
             ].map((stat) => (
               <div key={stat.label} className="bg-white rounded-xl p-4 sm:p-6 text-center shadow-sm border border-gray-100">
                 <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837]">{stat.value}</div>
@@ -52,23 +52,7 @@ export default function PlacementCellPage() {
         </div>
       </section>
 
-      {/* Top Recruiters */}
-      <section className="py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Top Recruiters</h2>
-          <div className="flex flex-wrap gap-2 sm:gap-3">
-            {[
-              'Sun Pharma', 'Cipla', "Dr. Reddy's", 'Lupin', 'Aurobindo Pharma',
-              'Apollo Pharmacy', 'MedPlus', 'Hetero Drugs', 'Glenmark',
-              'Torrent Pharma', 'Mankind Pharma', 'Sanofi',
-            ].map((company) => (
-              <span key={company} className="bg-white border border-gray-200 text-gray-700 text-xs sm:text-sm px-3 sm:px-4 py-2 rounded-full shadow-sm">
-                {company}
-              </span>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* The "Top Recruiters" chip list (12 company names) was removed on 2026-09-18: no filed document names a recruiter. */}
 
       {/* Career Paths */}
       <section className="py-8 sm:py-12 px-4 sm:px-6 bg-white">

@@ -127,18 +127,21 @@ export default async function CampusBlogPost({
       "@type": "Person",
       "name": post.author_name || "JKKN Editorial Team",
       "affiliation": {
-        "@type": "EducationalOrganization",
+        "@type": "CollegeOrUniversity",
+        "@id": "https://pharmacy.jkkn.ac.in/#organization",
         "name": "JKKN College of Pharmacy",
         "url": "https://pharmacy.jkkn.ac.in/"
       }
     },
     "publisher": {
-      "@type": "EducationalOrganization",
+      "@type": "CollegeOrUniversity",
+      "@id": "https://pharmacy.jkkn.ac.in/#organization",
       "name": "JKKN College of Pharmacy",
       "url": "https://pharmacy.jkkn.ac.in/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://pharmacy.jkkn.ac.in/logo.png"
+        // /logo.png answered 404 on all 37 posts (measured 2026-09-18); the file lives under /images/.
+        "url": "https://pharmacy.jkkn.ac.in/images/logo.png"
       }
     },
     "datePublished": post.published_at || post.created_at,

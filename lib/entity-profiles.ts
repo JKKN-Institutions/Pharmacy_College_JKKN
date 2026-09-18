@@ -62,10 +62,12 @@ export const PHARMACY_SAME_AS: ReadonlyArray<string> = [
  * eligible for review rich results. It is kept here by the user's decision of 2026-09-16
  * on the understanding that it will not produce stars in search.
  */
-export const PHARMACY_AGGREGATE_RATING = {
-  ratingValue: '4.3',
-  ratingCount: '238',
-  bestRating: '5',
-  worstRating: '1',
-  source: 'Google Maps, read 2026-09-16',
-} as const
+// PHARMACY_AGGREGATE_RATING was REMOVED on 2026-09-18 (schema audit).
+// The block carried 4.3 / 238 (Google Maps, read 2026-09-16). Two days later the same
+// Maps place read 4.3 / 244 - the number was already stale, and it could never earn a
+// rich result: a rating an organisation publishes about itself is self-serving review
+// markup under Google's structured-data policy. GSC URL Inspection on 2026-09-18 flagged
+// "Review has multiple aggregate ratings" (ERROR) on one blog URL and detected the same
+// self-serving "Review snippets" item on every one of 20 inspected pages.
+// Ratings now live where they are counted: on the Google Business Profile itself.
+// Do not reintroduce an aggregateRating here without a first-party review system.

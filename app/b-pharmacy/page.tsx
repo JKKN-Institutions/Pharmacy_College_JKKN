@@ -645,7 +645,7 @@ export default function BPharmacyPage() {
         <div className="mb-4 sm:mb-6 md:mb-8">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4 sm:mb-6 flex items-center gap-3">
             <Building2 className="w-8 h-8 xs:w-9 xs:h-9 sm:w-10 sm:h-10" />
-            Top Recruiters for B.Pharm Graduates
+            Employers of B.Pharm Graduates in India
           </h2>
           <div className="border-b-4 border-[#7cb983] w-full mb-4 sm:mb-6 md:mb-8"></div>
 
@@ -1253,13 +1253,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 0 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 0} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     NEET is not required for B.Pharm admission in Tamil Nadu. A few other states run their own entrance exams. Uttar Pradesh, Tamil Nadu, and Madhya Pradesh. However, many states conduct their own entrance exams (MHT-CET, KCET, EAMCET) for pharmacy admissions. Private colleges may also offer management quota admissions based on 10+2 marks.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q2 */}
@@ -1279,8 +1277,7 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 1 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 1} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm is a 4-year undergraduate degree focused on pharmaceutical sciences, drug manufacturing, and research. Pharm.D is a 6-year doctoral programme (including internship) focused on clinical pharmacy practice and patient care in hospital settings. Pharm.D graduates work directly with doctors in clinical environments, while B.Pharm graduates typically work in pharmaceutical industry, research, or retail pharmacy.{' '}
                     <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">
@@ -1288,7 +1285,6 @@ export default function BPharmacyPage() {
                     </Link>.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q3 */}
@@ -1308,13 +1304,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 2 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 2} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm graduates cannot practice as medical doctors. However, they can pursue higher studies like <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">Pharm.D (Doctor of Pharmacy)</Link> for clinical pharmacy practice, or <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link> for research careers. Some may also pursue MBBS through NEET if they meet eligibility criteria, though this requires starting medical education from scratch.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q4 */}
@@ -1334,13 +1328,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 3 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 3} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     Entry-level B.Pharm graduates earn ₹3-6 lakhs per annum depending on job role and employer. Hospital pharmacists earn ₹3.5-5 lakhs, medical representatives earn ₹3-6 lakhs, drug inspectors earn ₹4-7 lakhs, and research scientists earn ₹4-8 lakhs annually. Salaries increase significantly with experience and specialisation.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q5 */}
@@ -1360,13 +1352,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 4 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 4} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     Yes, B.Pharm offers excellent career prospects with diverse opportunities in pharmaceutical industry, healthcare, research, regulatory affairs, and entrepreneurship. India's pharmaceutical sector is growing rapidly, creating consistent demand for qualified pharmacists. The profession offers job stability, good salary growth, and opportunities for higher studies and specialisation.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q6 */}
@@ -1386,13 +1376,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 5 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 5} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     Yes, B.Pharm graduates registered with the State Pharmacy Council can open and operate retail pharmacies. You need to obtain a drug license from the State Drug Control Department, register your pharmacy business, and comply with regulatory requirements. Many graduates successfully run their own pharmacy chains.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q7 */}
@@ -1412,13 +1400,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 6 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 6} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm learning framework includes Pharmaceutical Chemistry, Pharmaceutics (drug formulation), Pharmacology (drug action), Pharmacognosy (natural medicines), Pharmaceutical Analysis, Microbiology, Biotechnology, Quality Assurance, Pharmaceutical Jurisprudence, Hospital Pharmacy, and Industrial Pharmacy along with practical training.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q8 */}
@@ -1438,13 +1424,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 7 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 7} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm requires dedicated study as it combines chemistry, biology, and mathematics. The course includes extensive laboratory work, practical training, and industrial internships. Learners with strong fundamentals in PCM/B at 10+2 level and consistent study habits generally perform well. The learning framework becomes progressively specialised in later years.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q9 */}
@@ -1464,8 +1448,7 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 8 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 8} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     Yes, B.Pharm graduates can pursue <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm (Master of Pharmacy)</Link> through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology.{' '}
                     <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">
@@ -1473,7 +1456,6 @@ export default function BPharmacyPage() {
                     </Link>.
                   </p>
                 </div>
-              )}
             </div>
 
             {/* Q10 */}
@@ -1493,13 +1475,11 @@ export default function BPharmacyPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === 9 && (
-                <div className="voice-answer p-6 bg-green-50 border-t border-gray-200">
+                <div hidden={expandedFAQ !== 9} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
                     B.Pharm graduates can join government sector as Drug Inspectors, Pharmaceutical Analysts, Research Scientists in CSIR/ICMR laboratories, Pharmacists in government hospitals, Drug Control Officers, and in defense organisations like DRDO. These positions are filled through competitive exams like SSC, UPSC, or state public service commissions.
                   </p>
                 </div>
-              )}
             </div>
           </div>
         </div>

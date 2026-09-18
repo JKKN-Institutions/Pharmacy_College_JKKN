@@ -26,11 +26,11 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Where is JKKN College of Pharmacy located?',
-        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km). The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby.',
+        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 22 km from Erode, 20 km from Tiruchengode, 58 km from Salem and 66 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby.',
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
-        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.',
+        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.',
       },
       {
         question: 'Is hostel accommodation available?',
@@ -200,27 +200,23 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What is the placement record at JKKN Pharmacy College?',
-        answer: 'JKKN Pharmacy College achieved a 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA.',
+        answer: 'JKKN Pharmacy College placed 78% of its 2024-25 graduates who sought placement - 97 of 124, as filed in the NIRF 2026 submission. Median salary of placed graduates: Rs 4,40,000 for B.Pharm, Rs 6,75,000 for M.Pharm and Rs 4,42,000 for Pharm.D.',
       },
       {
         question: 'What is the placement rate at JKKN College of Pharmacy?',
-        answer: 'JKKN College of Pharmacy maintains a consistent placement rate of 78% for eligible graduates across B.Pharm, M.Pharm, and Pharm.D programmes. The dedicated Training & Placement Cell works year-round to connect learners with top pharmaceutical companies, hospitals, and research organisations.',
+        answer: 'In 2024-25, 78% of JKKN College of Pharmacy graduates who sought placement were placed - 97 of 124 across B.Pharm, M.Pharm, Pharm.D and Pharm.D (Post Baccalaureate), per the NIRF 2026 submission. Counting every graduate, including the 31 who went on to higher studies, the figure is 62.6% (97 of 155).',
       },
       {
-        question: 'What is the highest package offered at JKKN Pharmacy College?',
-        answer: 'The highest package offered to JKKN College of Pharmacy graduates is 8 LPA (Lakhs Per Annum). Top recruiters including Sun Pharma, Cipla, Dr. Reddy\'s, and Lupin regularly offer competitive salary packages to pharmacy graduates.',
+        question: 'What is the median salary of placed JKKN pharmacy graduates?',
+        answer: 'The NIRF 2026 submission (academic year 2024-25) records the median salary of placed graduates as Rs 4,40,000 for B.Pharm, Rs 6,75,000 for M.Pharm, Rs 4,42,000 for Pharm.D and Rs 4,30,000 for Pharm.D (Post Baccalaureate). The college does not publish a highest or average package because no filed document records one.',
       },
       {
         question: 'Which companies recruit from JKKN College of Pharmacy?',
-        answer: '30+ top pharmaceutical companies recruit from JKKN College of Pharmacy, including Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Aurobindo Pharma, Hetero Drugs, Apollo Pharmacy, MedPlus, Biocon, Torrent Pharma, Alkem Laboratories, Glenmark, Mankind Pharma, and Sanofi.',
-      },
-      {
-        question: 'What are the top recruiters at JKKN Pharmacy College?',
-        answer: 'Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy\'s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India.',
+        answer: 'The Training & Placement Cell brings pharmaceutical manufacturers, hospital and retail pharmacy chains, and clinical research organisations to campus. Recruiter names are published only from the placement cell\'s own offer-letter record; the NIRF 2026 submission reports placement counts and median salaries, not company names.',
       },
       {
         question: 'What career opportunities are available after pharmacy?',
-        answer: 'Pharmacy graduates pursue careers in pharmaceutical manufacturing, quality control, research and development, clinical research, hospital pharmacy, drug regulatory affairs, pharmacovigilance, and pharmaceutical marketing. Higher studies include M.Pharm, Pharm.D, or Ph.D. Starting salaries range from 2.5 to 8 LPA.',
+        answer: 'Pharmacy graduates pursue careers in pharmaceutical manufacturing, quality control, research and development, clinical research, hospital pharmacy, drug regulatory affairs, pharmacovigilance, and pharmaceutical marketing. Higher studies include M.Pharm, Pharm.D, or Ph.D. The median salary of JKKN\'s placed graduates in 2024-25 was Rs 4,40,000 for B.Pharm and Rs 6,75,000 for M.Pharm (NIRF 2026 submission).',
       },
       {
         question: 'What placement training does JKKN Pharmacy College provide?',
@@ -303,10 +299,14 @@ export default function FaqPage() {
         <p className="text-xs sm:text-sm text-gray-500 mb-6">
           {currentCategory.faqs.length} questions in this section
         </p>
-        <div className="space-y-3">
-          {currentCategory.faqs.map((faq, index) => (
+        {/* Every category is rendered; the inactive ones are hidden, not absent. Until
+            2026-09-18 only the active tab reached the HTML, so the FAQPage JSON-LD declared
+            47 questions while a crawler could see 6 - schema that describes hidden content. */}
+        {categories.map((cat) => (
+        <div key={cat.id} hidden={cat.id !== activeCategory} className="space-y-3">
+          {cat.faqs.map((faq, index) => (
             <div
-              key={index}
+              key={`${cat.id}-${index}`}
               className="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden"
             >
               <button
@@ -322,16 +322,15 @@ export default function FaqPage() {
                   }`}
                 />
               </button>
-              {expandedFAQ === index && (
-                <div className="px-4 sm:px-6 py-4 sm:py-5 bg-[#FBFBEE] border-t border-gray-200">
+                <div hidden={expandedFAQ !== index} className="px-4 sm:px-6 py-4 sm:py-5 bg-[#FBFBEE] border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed text-[10px] sm:text-xs md:text-sm">
                     {faq.answer}
                   </p>
                 </div>
-              )}
             </div>
           ))}
         </div>
+        ))}
       </section>
 
       {/* Contact CTA */}

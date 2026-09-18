@@ -220,6 +220,22 @@ function formatSlug(slug: string): string {
     .replace(/\b\w/g, (c) => c.toUpperCase())
 }
 
+/**
+ * Where a parent crumb should link. Measured live 2026-09-18: /about 308 -> /overview/,
+ * /placement 308 -> /placements/, /programmes 308 -> /b-pharmacy/ (a redirect to ONE
+ * programme is not a "Programmes" page, so that crumb carries no link). Everything else
+ * links with a trailing slash, which is the canonical form on this site.
+ */
+const parentUrlMap: Record<string, string | null> = {
+  about: '/overview/',
+  placement: '/placements/',
+  programmes: null,
+}
+function parentUrl(slug: string): string | null {
+  if (slug in parentUrlMap) return parentUrlMap[slug]
+  return `/${slug}/`
+}
+
 export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
   // Remove leading and trailing slashes
   const cleanPath = pathname.replace(/^\/|\/$/g, '')
@@ -239,12 +255,13 @@ export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
       breadcrumbs.push({ name: 'Blog' })
     } else if (segments[1] === 'campus' && segments.length > 2) {
       // /blog/campus/[slug]
-      breadcrumbs.push({ name: 'Blog', url: '/blog' })
-      breadcrumbs.push({ name: 'Campus News', url: '/blog/campus' })
+      breadcrumbs.push({ name: 'Blog', url: '/blog/' })
+      // /blog/campus/ is not a page (404, measured 2026-09-18) - no link on that crumb.
+      breadcrumbs.push({ name: 'Campus News' })
       breadcrumbs.push({ name: formatSlug(segments[2]) })
     } else {
       // /blog/[slug]
-      breadcrumbs.push({ name: 'Blog', url: '/blog' })
+      breadcrumbs.push({ name: 'Blog', url: '/blog/' })
       breadcrumbs.push({ name: formatSlug(segments[1]) })
     }
     return breadcrumbs
@@ -256,10 +273,10 @@ export function generateBreadcrumbs(pathname: string): BreadcrumbItem[] {
   if (hierarchy) {
     // Add parent pages
     hierarchy.forEach((parentSlug) => {
-      breadcrumbs.push({
-        name: pageNameMap[parentSlug] || parentSlug,
-        url: `/${parentSlug}`
-      })
+      const url = parentUrl(parentSlug)
+      breadcrumbs.push(url
+        ? { name: pageNameMap[parentSlug] || parentSlug, url }
+        : { name: pageNameMap[parentSlug] || parentSlug })
     })
   }
 

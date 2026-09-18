@@ -36,11 +36,11 @@ export default function Home() {
     },
     {
       question: "What is the placement record at JKKN Pharmacy College?",
-      answer: "JKKN Pharmacy College achieved a 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, and Apollo Pharmacy. Average package is 3.5 LPA with the highest reaching 8 LPA."
+      answer: "JKKN Pharmacy College placed 78% of its 2024-25 graduates who sought placement - 97 of 124, as filed in the NIRF 2026 submission. Median salary of placed graduates: Rs 4,40,000 for B.Pharm, Rs 6,75,000 for M.Pharm and Rs 4,42,000 for Pharm.D."
     },
     {
       question: "What career opportunities are available after pharmacy?",
-      answer: "Pharmacy graduates pursue careers in pharmaceutical manufacturing, quality control, research and development, clinical research, hospital pharmacy, drug regulatory affairs, pharmacovigilance, and pharmaceutical marketing. Higher studies include M.Pharm, Pharm.D, or Ph.D. Starting salaries range from 2.5 to 8 LPA."
+      answer: "Pharmacy graduates pursue careers in pharmaceutical manufacturing, quality control, research and development, clinical research, hospital pharmacy, drug regulatory affairs, pharmacovigilance, and pharmaceutical marketing. Higher studies include M.Pharm, Pharm.D, or Ph.D. The median salary of JKKN's placed graduates in 2024-25 was Rs 4,40,000 for B.Pharm and Rs 6,75,000 for M.Pharm (NIRF 2026 submission)."
     },
     {
       question: "Does JKKN offer Pharm.D programme?",
@@ -63,16 +63,12 @@ export default function Home() {
       answer: "Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. These accreditations ensure quality education standards and national recognition of degrees."
     },
     {
-      question: "What are the top recruiters at JKKN Pharmacy College?",
-      answer: "Top recruiters at JKKN College of Pharmacy include Sun Pharma, Cipla, Dr. Reddy's Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, regulatory affairs, and hospital pharmacy roles across India."
-    },
-    {
       question: "Where is JKKN College of Pharmacy located?",
-      answer: "JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km). The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby."
+      answer: "JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 22 km from Erode, 20 km from Tiruchengode, 58 km from Salem and 66 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby."
     },
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
-      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy's. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
+      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
     }
   ];
 
@@ -96,7 +92,7 @@ export default function Home() {
           { name: "Doctor of Pharmacy (Pharm.D)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "6-year doctoral programme (5 years academics + 1 year internship) focusing on clinical pharmacy and patient care. 30 seats." },
           { name: "Pharm.D (Post Baccalaureate)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "3-year clinical pharmacy programme for B.Pharm graduates focusing on patient care and hospital pharmacy. 10 seats." },
           { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
-          { name: "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences", url: "https://pharmacy.jkkn.ac.in/phd/", description: "3-year doctoral research programme in pharmaceutical sciences for advanced research and academic careers." }
+          { name: "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences", url: "https://pharmacy.jkkn.ac.in/phd/", description: "Doctoral research programme in pharmaceutical sciences of minimum 3 years (maximum 6), for advanced research and academic careers." }
         ]}
       />
       <CourseSchema
@@ -156,7 +152,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
-                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
               </p>
             </div>
 
@@ -271,7 +267,7 @@ export default function Home() {
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (6 specialisations), Pharm.D, and Ph.D programmes with a 78% placement rate (2024-25) and 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s.
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (6 specialisations), Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
               </p>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
@@ -827,62 +823,21 @@ export default function Home() {
                   <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Placement Rate</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">8 LPA</div>
-                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Highest Package</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">Rs 4.4 L</div>
+                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Median Salary B.Pharm 2024-25</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">3.5 LPA</div>
-                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Average Package</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">Rs 6.75 L</div>
+                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Median Salary M.Pharm 2024-25</div>
                 </div>
                 <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">30+</div>
-                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Recruiters</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-white">97 / 124</div>
+                  <div className="text-[10px] sm:text-xs text-gray-300 mt-1">Placed of those who sought, 2024-25</div>
                 </div>
               </div>
             </div>
 
-            {/* Right - Top Recruiters */}
-            <div className="mt-6 lg:mt-0">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-3 sm:mb-4 md:mb-6">Top Recruiters</h3>
-              <div className="grid grid-cols-2 xs:grid-cols-3 gap-2 sm:gap-3 md:gap-4">
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Sun Pharma</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Cipla</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Dr. Reddy's</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Lupin</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Aurobindo</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Hetero</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Apollo</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">MedPlus</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Biocon</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Torrent</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Alkem</p>
-                </div>
-                <div className="bg-[#FBFBEE]/10 backdrop-blur-sm rounded-lg sm:rounded-xl p-1.5 xs:p-2 sm:p-3 text-center hover:bg-[#FBFBEE]/20 transition-all duration-300">
-                  <p className="font-semibold text-xs sm:text-sm whitespace-nowrap">Glenmark</p>
-                </div>
-              </div>
-            </div>
+            {/* The "Top Recruiters" grid (10 company names) was removed on 2026-09-18: no filed document names a recruiter. */}
           </div>
         </div>
       </section>
@@ -1225,28 +1180,33 @@ export default function Home() {
           <p className="text-sm sm:text-base text-gray-600 mb-6">Year-wise placement data for pharmacy graduates from JKKN College of Pharmacy, Komarapalayam.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
-              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 2: Year-wise placement statistics including placed percentage, CTC, and key recruiters</caption>
+              <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 2: Year-wise placement statistics from the NIRF 2026 submission (graduates, placed, higher studies, median salary of placed graduates)</caption>
               <thead>
                 <tr className="bg-[#006837] text-white">
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Year</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Placed %</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Highest CTC</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Average CTC</th>
-                  <th scope="col" className="text-left px-4 py-3 font-semibold">Key Recruiters</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Graduates</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Placed</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Higher studies</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Placed % (of seekers)</th>
+                  <th scope="col" className="text-left px-4 py-3 font-semibold">Median salary B.Pharm / M.Pharm / Pharm.D</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  { year: '2024–25', placed: '78%', highest: '₹8 LPA', average: '₹3.5 LPA', recruiters: 'Sun Pharma, Cipla, Dr. Reddy\'s, Lupin, Apollo Pharmacy' },
-                  { year: '2023–24', placed: '81%', highest: '₹7.5 LPA', average: '₹3.2 LPA', recruiters: 'Aurobindo, Hetero, MedPlus, Biocon, Divi\'s Laboratories' },
-                  { year: '2022–23', placed: '83%', highest: '₹7 LPA', average: '₹3 LPA', recruiters: 'Mankind Pharma, Alkem, Glenmark, Cadila, Torrent Pharma' },
+                  // Source: NIRF 2026 submission, "Placement & Higher Studies" tables, all four
+                  // programmes summed (B.Pharm, M.Pharm, Pharm.D, Pharm.D PB). Placed % is of
+                  // graduates who sought placement, i.e. graduates minus higher studies.
+                  { year: '2024–25', graduates: '155', placed: '97', higher: '31', rate: '78%', median: 'Rs 4.40 L / Rs 6.75 L / Rs 4.42 L' },
+                  { year: '2023–24', graduates: '172', placed: '116', higher: '29', rate: '81%', median: 'Rs 3.95 L / Rs 6.23 L / Rs 4.23 L' },
+                  { year: '2022–23', graduates: '160', placed: '117', higher: '19', rate: '83%', median: 'Rs 3.90 L / Rs 6.15 L / Rs 4.15 L' },
                 ].map((row, i) => (
                   <tr key={row.year} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                     <td className="px-4 py-3 font-medium">{row.year}</td>
+                    <td className="px-4 py-3">{row.graduates}</td>
                     <td className="px-4 py-3">{row.placed}</td>
-                    <td className="px-4 py-3">{row.highest}</td>
-                    <td className="px-4 py-3">{row.average}</td>
-                    <td className="px-4 py-3 text-xs">{row.recruiters}</td>
+                    <td className="px-4 py-3">{row.higher}</td>
+                    <td className="px-4 py-3">{row.rate}</td>
+                    <td className="px-4 py-3 text-xs">{row.median}</td>
                   </tr>
                 ))}
               </tbody>
@@ -1308,148 +1268,20 @@ export default function Home() {
 
           {/* FAQ Items */}
           <div className="space-y-2 sm:space-y-3">
-            {/* FAQ 1 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What pharmacy courses are offered at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice, Pharm.D (6 years) for clinical pharmacy practice and Doctor of Philosophy (Ph.D in Pharmaceutical Sciences).
-              </p>
-            </details>
-
-            {/* FAQ 2 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is JKKN Pharmacy College PCI approved?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI). It is affiliated with The Tamil Nadu Dr. M.G.R. Medical University for Pharm.D, B.Pharm and M.Pharm programmes.
-              </p>
-            </details>
-
-            {/* FAQ 3 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the admission process for B.Pharm/Pharm.D?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm/Pharm.D admission is based on +2 marks with Physics, Chemistry, and Biology/Mathematics. Minimum 50% marks required (45% for reserved categories). Admission through TN Selection Committee counselling or management quota. Applications can be submitted online.
-              </p>
-            </details>
-
-            {/* FAQ 4 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the placement record at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN Pharmacy College has 78% placement rate (2024-25) with recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin, Aurobindo, Apollo Pharmacy, MedPlus, Hetero, and leading hospital pharmacies. Average package is 3.5 LPA with highest reaching 8 LPA.
-              </p>
-            </details>
-
-            {/* FAQ 5 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What career opportunities are available after pharmacy?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Pharmacy graduates can work in pharmaceutical manufacturing, quality control, R&D, clinical research, hospital pharmacy, community pharmacy, drug regulatory affairs, pharmacovigilance, medical writing, pharmaceutical marketing, and can open their own pharmacy.
-              </p>
-            </details>
-
-            {/* FAQ 6 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Does JKKN offer Pharm.D programme?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy offers Pharm.D (Doctor of Pharmacy), a 6-year programme including 5 years of academic study and 1 year of internship. It focuses on clinical pharmacy, patient care, and pharmaceutical care services.
-              </p>
-            </details>
-
-            {/* FAQ 7 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What M.Pharm specialisations are available?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                M.Pharm specialisations include Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice.
-              </p>
-            </details>
-
-            {/* FAQ 8 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is hostel accommodation available?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, separate hostel facilities are available for both men and women with modern amenities including furnished rooms, 24/7 security, mess facilities, Wi-Fi, recreation areas, and laundry services within the campus.
-              </p>
-            </details>
-
-            {/* FAQ 9 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What is the fee structure for B.Pharm at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.
-              </p>
-            </details>
-
-            {/* FAQ 10 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is JKKN Pharmacy College NAAC accredited?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is accredited by NAAC with A Grade. The college is also approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University.
-              </p>
-            </details>
-
-            {/* FAQ 11 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>What are the top recruiters at JKKN Pharmacy College?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Top recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s Laboratories, Lupin, Apollo Pharmacy, Hetero Labs, Aurobindo Pharma, Glenmark, and Micro Labs. Learners are placed in pharmaceutical manufacturing, quality control, R&D, clinical research, and hospital pharmacy roles.
-              </p>
-            </details>
-
-            {/* FAQ 12 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Where is JKKN College of Pharmacy located?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. Easily accessible from Salem (35 km), Erode (25 km), Tiruchengode (8 km), and Namakkal (30 km).
-              </p>
-            </details>
-
-            {/* FAQ 13 */}
-            <details className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-              <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
-                <span>Is JKKN among the best pharmacy colleges in Tamil Nadu?</span>
-                <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
-              </summary>
-              <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
-                Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, 78% placement rate (2024-25), and 30+ top pharmaceutical recruiters including Sun Pharma, Cipla, and Dr. Reddy&apos;s. The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.
-              </p>
-            </details>
+            {/* Rendered from homepageFaqs (the same array that feeds the FAQPage JSON-LD), since
+                2026-09-18. Until then this list was hand-written HTML and had drifted from the
+                schema on 5 of 12 answers. */}
+            {homepageFaqs.map((faq) => (
+              <details key={faq.question} className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
+                <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                  <span>{faq.question}</span>
+                  <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+                </summary>
+                <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
+                  {faq.answer}
+                </p>
+              </details>
+            ))}
           </div>
         </div>
       </section>

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Header from '@/components/Header'
-import { CourseSchema, FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
+import { FaqSchema } from '@/components/SchemaOrg'
 import { AlertTriangle, BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, CreditCard, FileText, GraduationCap, HelpCircle, IndianRupee, Lightbulb, Microscope, Pill, Scale, Star, Target, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticsPage() {
@@ -35,7 +35,7 @@ export default function PharmaceuticsPage() {
     },
     {
       question: "What are job opportunities after M.Pharm Pharmaceutics?",
-      answer: "M.Pharm Pharmaceutics graduates have diverse opportunities: Formulation Scientist (develop new drug products), Product Development Scientist (lead R&D projects), R&D Manager (manage research teams), Production Manager (oversee manufacturing), Regulatory Affairs Specialist (product registration), Technical Services (troubleshooting), QbD Specialist (optimize formulations), and Academic Faculty (teaching and research). Companies hiring include Sun Pharma, Dr. Reddy's, Cipla, Lupin, Biocon, GSK, Pfizer, Novartis, and leading CDMOs. Pharmaceutics offers the most diverse career paths among all M.Pharm specialisations."
+      answer: "M.Pharm Pharmaceutics graduates have diverse opportunities: Formulation Scientist (develop new drug products), Product Development Scientist (lead R&D projects), R&D Manager (manage research teams), Production Manager (oversee manufacturing), Regulatory Affairs Specialist (product registration), Technical Services (troubleshooting), QbD Specialist (optimize formulations), and Academic Faculty (teaching and research). Employers include the formulation R&D and production units of Indian and multinational pharmaceutical companies and contract development organisations (CDMOs). Pharmaceutics offers the most diverse career paths among all M.Pharm specialisations."
     },
     {
       question: "Is M.Pharm Pharmaceutics good for girls?",
@@ -57,22 +57,7 @@ export default function PharmaceuticsPage() {
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmaceutics', url: 'https://pharmacy.jkkn.ac.in/pharmaceutics' }
-      ]} />
-      <CourseSchema
-        name="M.Pharm Pharmaceutics"
-        description="M.Pharm Pharmaceutics is a 2-year postgraduate specialisation at JKKN College of Pharmacy focusing on drug formulation, novel drug delivery systems, tablet and capsule development, nanoparticles, liposomes, and quality by design. Prepares graduates for careers in pharmaceutical R&D, formulation development, and product innovation."
-        duration="P2Y"
-        provider="JKKN College of Pharmacy"
-        url="https://pharmacy.jkkn.ac.in/pharmaceutics"
-        educationalLevel="Postgraduate"
-        courseMode="onsite"
-        numberOfCredits="2 Years"
-        inLanguage="en"
-        teaches={["Drug Formulation", "Novel Drug Delivery Systems", "Tablet and Capsule Development", "Nanoparticle Technology", "Liposome Drug Delivery", "Quality by Design", "Biopharmaceutics"]}
-      />
+      {/* BreadcrumbList + Course JSON-LD come from layout.tsx (2026-09-18: the page-level copies produced two BreadcrumbList and two Course nodes per page). */}
       <FaqSchema faqs={faqs} />
       <Header />
 
@@ -905,7 +890,7 @@ export default function PharmaceuticsPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">Top Recruiters for M.Pharm Pharmaceutics Graduates</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">Employers of M.Pharm Pharmaceutics Graduates in India</h2>
         </div>
 
         {/* Leading Indian Pharmaceutical Companies - R&D Centers */}
@@ -1632,13 +1617,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 0 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 0} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   M.Pharm in Pharmaceutics is a 2-year postgraduate specialisation focusing on drug formulation, product development, and pharmaceutical technology. Learners learn tablet manufacturing, coating, granulation, novel drug delivery systems (NDDS) including nanoparticles, liposomes, microspheres, transdermal patches, and controlled release systems. Career opportunities include Formulation Scientist, Product Development Scientist, R&D Manager, and Production Head with salaries ranging from ₹4-12 lakhs per annum. This specialisation is ideal for those interested in creating new pharmaceutical products.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q2 */}
@@ -1656,13 +1639,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 1 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 1} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   NDDS (Novel Drug Delivery Systems) are advanced pharmaceutical formulations designed to deliver drugs more effectively, safely, and conveniently than conventional dosage forms. Examples include nanoparticles, liposomes, microspheres, niosomes, transdermal patches, implants, mucoadhesive systems, and gastroretentive systems. NDDS offers controlled release, targeted delivery, improved bioavailability, and reduced side effects. M.Pharm Pharmaceutics learners extensively study NDDS design, characterization, and manufacturing. This is a high-growth area in pharmaceutical R&D with excellent research and career opportunities.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q3 */}
@@ -1680,13 +1661,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 2 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 2} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Entry-level M.Pharm Pharmaceutics graduates earn ₹4-7 lakhs per annum. Formulation Scientists earn ₹5-8 lakhs, Product Development Scientists earn ₹6-10 lakhs, R&D Managers earn ₹8-12 lakhs, and Production Managers earn ₹6-10 lakhs annually. With 5+ years experience, salaries reach ₹12-20 lakhs. Senior positions like Head of Formulation or Vice President R&D earn ₹25-50 lakhs per annum. Pharmaceutical R&D offers among the highest salaries in pharmacy. MNC pharmaceutical companies pay 40-50% more than domestic companies. Salary growth is excellent for high performers with innovation skills.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q4 */}
@@ -1704,13 +1683,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 3 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 3} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Both are excellent specialisations with different focuses. Pharmaceutics is ideal for creative, innovation-oriented individuals interested in developing new products and formulations. It offers higher salary potential in R&D roles (₹6-12 lakhs) but requires strong problem-solving skills. Pharmaceutical Analysis is perfect for detail-oriented professionals preferring standardized laboratory work in quality control. Analysis has more consistent job availability across all companies. Pharmaceutics offers more diverse roles (R&D, production, regulatory) while Analysis primarily focuses on QC/QA. Choose Pharmaceutics if you want product development and innovation; choose Analysis if you prefer quality testing and standardized work.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q5 */}
@@ -1728,13 +1705,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 4 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 4} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Yes, M.Pharm Pharmaceutics graduates can pursue Ph.D through CSIR-NET, UGC-NET, GATE, or university entrance tests. Research areas include novel drug delivery systems, nanotechnology, 3D printing of pharmaceuticals, personalized medicine, biopharmaceutics, and quality by design (QbD). Ph.D opens academic careers (assistant professor with ₹60,000-80,000/month), senior R&D positions, and pharmaceutical scientist roles. Many IITs, NITs, NIPER, and CSIR labs offer Ph.D programmes with fellowships of ₹31,000-35,000/month. Pharmaceutics Ph.D graduates are highly sought after for innovation-driven roles in pharmaceutical industry and academia.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q6 */}
@@ -1752,13 +1727,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 5 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 5} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
-                  M.Pharm Pharmaceutics graduates have diverse opportunities: Formulation Scientist (develop new drug products), Product Development Scientist (lead R&D projects), R&D Manager (manage research teams), Production Manager (oversee manufacturing), Regulatory Affairs Specialist (product registration), Technical Services (troubleshooting), QbD Specialist (optimize formulations), and Academic Faculty (teaching and research). Companies hiring include Sun Pharma, Dr. Reddy's, Cipla, Lupin, Biocon, GSK, Pfizer, Novartis, and leading CDMOs. Pharmaceutics offers the most diverse career paths among all M.Pharm specialisations.
+                  M.Pharm Pharmaceutics graduates have diverse opportunities: Formulation Scientist (develop new drug products), Product Development Scientist (lead R&D projects), R&D Manager (manage research teams), Production Manager (oversee manufacturing), Regulatory Affairs Specialist (product registration), Technical Services (troubleshooting), QbD Specialist (optimize formulations), and Academic Faculty (teaching and research). Employers include the formulation R&D and production units of Indian and multinational pharmaceutical companies and contract development organisations (CDMOs). Pharmaceutics offers the most diverse career paths among all M.Pharm specialisations.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q7 */}
@@ -1776,13 +1749,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 6 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 6} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Yes, M.Pharm Pharmaceutics is excellent for women professionals. The specialisation offers laboratory-based R&D work with regular hours (typically 9-6), creative and intellectually stimulating environment, excellent salary packages (₹5-12 lakhs), strong career growth opportunities, and gender-equal professional culture. Many pharmaceutical companies have women leading formulation departments. The work doesn't require physical labor, focuses on innovation and problem-solving, and provides good work-life balance. Career breaks are manageable with skill updates. Several successful women scientists have built outstanding careers in pharmaceutics and pharmaceutical R&D.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q8 */}
@@ -1800,13 +1771,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 7 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 7} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Yes, M.Pharm Pharmaceutics graduates are highly valued in pharmaceutical production and manufacturing. They can work as Production Managers, Manufacturing Specialists, Technical Services Managers, and Process Development Scientists. Pharmaceutics training in formulation, scale-up, and pharmaceutical technology directly applies to production. Salaries in production range from ₹6-10 lakhs for managers. However, most graduates prefer R&D roles for innovation opportunities. Production offers faster career growth to senior management (Plant Head, Site Head) with salaries reaching ₹30-50 lakhs. Choose production if you enjoy operational excellence and team management.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q9 */}
@@ -1824,13 +1793,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 8 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 8} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   M.Pharm in Pharmaceutics and Pharmaceutical Technology are essentially the same specialisation with minor naming differences across universities. Both focus on drug formulation, dosage form design, NDDS, and pharmaceutical manufacturing. Some universities use "Pharmaceutics," others use "Pharmaceutical Technology" or "Pharmaceutics & Pharmaceutical Technology." The learning framework, career opportunities, and salaries are identical. When applying, check the learning pathway rather than the exact name. Both lead to same job roles (Formulation Scientist, R&D, Production). PCI recognises both names as equivalent specialisations.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q10 */}
@@ -1848,13 +1815,11 @@ export default function PharmaceuticsPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 9 && (
-              <div className="p-6 bg-[#FBFBEE] border-t border-gray-200">
+              <div hidden={expandedFAQ !== 9} className="p-6 bg-[#FBFBEE] border-t border-gray-200">
                 <p className="text-xs xs:text-sm sm:text-sm text-gray-700">
                   Switching between specialisations after starting M.Pharm is generally not allowed by universities. You must complete the specialisation you enrolled in. However, after completing M.Pharm in one specialisation, you can pursue Ph.D or work in the other area with some skill gap training. For example, M.Pharm Pharmaceutics graduates can work in analytical R&D with HPLC training. Similarly, Analysis graduates can enter formulation R&D with additional pharmaceutical technology knowledge. Choose carefully during admission as changing specialisation mid-course is not feasible. Consider your interests, strengths, and career goals before finalizing.
                 </p>
               </div>
-            )}
           </div>
         </div>
       </div>

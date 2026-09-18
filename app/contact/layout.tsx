@@ -33,7 +33,7 @@ export const metadata: Metadata = {
 
 const contactSchema = {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": ["CollegeOrUniversity", "LocalBusiness"],
   "@id": "https://pharmacy.jkkn.ac.in/#organization",
   "name": "JKKN College of Pharmacy",
   "url": "https://pharmacy.jkkn.ac.in/",
@@ -73,7 +73,7 @@ const contactSchema = {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       "opens": "09:00",
-      "closes": "17:00"
+      "closes": "17:30"
     }
   ]
 };

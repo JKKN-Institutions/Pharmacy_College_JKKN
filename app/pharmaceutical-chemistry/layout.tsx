@@ -66,30 +66,7 @@ export default function PharmaceuticalChemistryLayout({
         url="https://pharmacy.jkkn.ac.in/pharmaceutical-chemistry/"
         dateModified="2026-03-23"
       />
-      <FaqSchema
-        faqs={[
-          {
-            question: 'What is M.Pharm Pharmaceutical Chemistry?',
-            answer: 'M.Pharm Pharmaceutical Chemistry is a two-year postgraduate programme focused on drug design, chemical synthesis, and medicinal chemistry. Learners gain expertise in structure-activity relationships, spectroscopic analysis, and computational approaches to develop and evaluate pharmaceutical compounds.',
-          },
-          {
-            question: 'What is the eligibility for M.Pharm Pharmaceutical Chemistry at JKKN?',
-            answer: 'Candidates must hold a B.Pharm degree with a minimum of 50% marks (45% for SC/ST) from a recognised university. A valid GPAT score is preferred for admission. Seats are filled based on merit and university norms set by The Tamil Nadu Dr. M.G.R. Medical University.',
-          },
-          {
-            question: 'What career options exist after M.Pharm Pharmaceutical Chemistry?',
-            answer: 'Graduates pursue careers in drug design, medicinal chemistry research and development, pharmaceutical quality control, regulatory affairs, and academia. Many proceed to PhD programmes in pharmaceutical sciences, chemistry, or related disciplines at reputed national and international institutions.',
-          },
-          {
-            question: 'What is the duration of M.Pharm Pharmaceutical Chemistry?',
-            answer: 'M.Pharm Pharmaceutical Chemistry is a full-time two-year postgraduate programme comprising four semesters. The learning framework combines coursework, laboratory training, and a research dissertation completed during the final semester.',
-          },
-          {
-            question: 'Does JKKN have chemistry research labs?',
-            answer: 'JKKN College of Pharmacy has advanced pharmaceutical chemistry laboratories equipped with spectroscopy instruments including UV, IR, and NMR, organic synthesis facilities, and computational drug design workstations to support both coursework and research activities.',
-          },
-        ]}
-      />
+      {/* FaqSchema removed 2026-09-18: these questions never rendered on the page (page.tsx renders its own FAQ with matching JSON-LD). */}
       <BreadcrumbWrapper />
       {children}
     </>

@@ -34,7 +34,7 @@ const faqs = [
     question:
       'Which pharmacy college in Tamil Nadu has the best placement?',
     answer:
-      'JKKN College of Pharmacy in Namakkal reports 78% placement rate for the 2024-25 batch with 30+ recruiters including Sun Pharma, Cipla, and Dr. Reddy\'s. Annamalai University achieves 90% placement with an average package of 12 LPA. JSS College of Pharmacy reports a median package of 7.8 LPA. Placement rates vary between 63% and 90% across the top 10 Tamil Nadu pharmacy colleges.',
+      'JKKN College of Pharmacy in Namakkal district placed 78% of its placement-seeking 2024-25 graduates (97 of 124, NIRF 2026 submission), with median salaries of Rs 4.4 lakh for B.Pharm and Rs 6.75 lakh for M.Pharm. Annamalai University achieves 90% placement with an average package of 12 LPA. JSS College of Pharmacy reports a median package of 7.8 LPA. Placement rates vary between 63% and 90% across the top 10 Tamil Nadu pharmacy colleges.',
   },
   {
     question:
@@ -175,16 +175,7 @@ export default function BestPharmacyCollegesTamilNadu() {
           '.snippet-answer',
         ]}
       />
-      <BreadcrumbListSchema
-        items={[
-          { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-          { name: 'Blog', url: 'https://pharmacy.jkkn.ac.in/blog/' },
-          {
-            name: 'Best Pharmacy Colleges in Tamil Nadu',
-            url: 'https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/',
-          },
-        ]}
-      />
+      {/* BreadcrumbList JSON-LD comes from app/blog/layout.tsx (the visible trail); the page-level copy was removed 2026-09-18. */}
       <ItemListSchema
         name="Best Pharmacy Colleges in Tamil Nadu 2026"
         description="Top 8 pharmacy colleges in Tamil Nadu ranked by NIRF 2025, NAAC grade, placement rate, and fees."
@@ -527,11 +518,12 @@ export default function BestPharmacyCollegesTamilNadu() {
               specialisations), and Pharm.D (6 years, 30 seats) programs.
             </p>
             <p className="mt-4">
-              JKKN College of Pharmacy reports a 78% placement rate for the
-              2024-25 batch with 30+ recruiting companies including Sun
-              Pharma, Cipla, Dr. Reddy&apos;s, Lupin, Aurobindo Pharma, and
-              Apollo Pharmacy. The highest package recorded is 8 LPA with an
-              average package of 3.5 LPA. The college campus is located on
+              JKKN College of Pharmacy placed 78% of its placement-seeking
+              2024-25 graduates - 97 of 124, as filed in its NIRF 2026
+              submission - with median salaries of Rs 4.4 lakh (B.Pharm),
+              Rs 6.75 lakh (M.Pharm) and Rs 4.42 lakh (Pharm.D). The college
+              does not publish a highest or average package because no filed
+              document records one. The college campus is located on
               NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from
               Salem and 90 minutes from Erode, within the larger JKKN
               Institutions campus that includes a 500-bed multi-specialty
@@ -673,11 +665,9 @@ export default function BestPharmacyCollegesTamilNadu() {
                     <ChevronDown className="w-5 h-5 text-gray-400 flex-shrink-0" />
                   )}
                 </button>
-                {openFaq === index && (
-                  <div className="voice-answer px-4 sm:px-5 pb-4 sm:pb-5 text-sm sm:text-base text-gray-700 leading-relaxed bg-gray-50 border-t border-gray-100">
+                  <div hidden={openFaq !== index} className="voice-answer px-4 sm:px-5 pb-4 sm:pb-5 text-sm sm:text-base text-gray-700 leading-relaxed bg-gray-50 border-t border-gray-100">
                     {faq.answer}
                   </div>
-                )}
               </div>
             ))}
           </div>
@@ -708,7 +698,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 title: 'JKKN Placement Records and Recruiter List',
                 href: '/placement-cell/',
-                desc: '78% placement rate (2024-25), 30+ recruiters, salary packages',
+                desc: '78% of placement-seeking graduates placed (2024-25), NIRF-filed median salaries',
               },
             ].map((link) => (
               <Link

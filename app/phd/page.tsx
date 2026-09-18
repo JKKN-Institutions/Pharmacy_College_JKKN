@@ -53,16 +53,13 @@ export default function PhDPage() {
     },
     {
       question: "How many publications are required for Ph.D completion?",
-      answer: "Minimum publication requirements typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some top institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity — papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements."
+      answer: "Minimum publication requirements vary by institution but typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some top institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity – papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements. Publications significantly enhance post-Ph.D career opportunities and demonstrate research competence."
     }
   ];
 
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
-      <BreadcrumbListSchema items={[
-        { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Ph.D', url: 'https://pharmacy.jkkn.ac.in/phd' }
-      ]} />
+      {/* BreadcrumbList JSON-LD is rendered by the layout's BreadcrumbWrapper (the visible trail). A second, invisible copy stood here until 2026-09-18. */}
       {/* DEP-12, 2026-08-07: the CourseSchema that stood here is gone. layout.tsx
           already declares this programme, and the two disagreed on its name while
           this one pointed at a url with no trailing slash, which 308s on a site
@@ -1400,13 +1397,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 0 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 0} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D (Doctor of Philosophy) in Pharmacy is a 3-5 year doctoral research programme that trains candidates to become independent researchers and scholars in pharmaceutical sciences. The programme involves original research contributing new knowledge to fields like drug discovery, novel drug delivery systems (NDDS), pharmacology, pharmaceutical chemistry, and pharmacognosy. Doctoral Learners work under expert Learning Facilitators to conduct experiments, analyse data, publish research papers, and defend their thesis. Graduates pursue careers as professors in pharmacy colleges, scientists in pharmaceutical R&D, research heads in industry, and policy advisors in regulatory bodies. Eligibility requires M.Pharm/M.Sc with 55% marks and GPAT/NET/GATE qualification.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q2 */}
@@ -1424,13 +1419,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 1 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 1} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D in Pharmacy eligibility includes: (1) M.Pharm from PCI-approved institution with minimum 55% marks (50% for reserved categories), OR (2) M.Sc in relevant subject (Pharmacology, Biochemistry, Microbiology, Biotechnology) with 55% marks, OR (3) MBBS/MD with pharmacy research interest. Additionally, candidates must qualify GPAT/CSIR-NET/UGC-NET/GATE or clear university entrance test. GPAT/NET qualified candidates receive fellowship of ₹31,000-42,000/month. Some universities accept M.Pharm graduates directly without entrance test based on interview and research proposal evaluation.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q3 */}
@@ -1448,13 +1441,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 2 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 2} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D in Pharmacy duration is minimum 3 years and maximum 6 years (extendable to 7 years in exceptional cases with approval). Most candidates complete in 3-4 years. First year involves coursework covering research methodology, advanced subjects, literature review, and proposal development. Years 2-4 focus on original research, laboratory experimentation, data collection, analysis, and thesis writing. Final phase includes thesis submission, pre-submission seminar, plagiarism verification, external evaluation, and viva-voce examination. Part-time Ph.D typically takes 4-6 years. Universities require minimum 2 research publications in peer-reviewed journals before thesis submission.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q4 */}
@@ -1472,13 +1463,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 3 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 3} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D fellowship in Pharmacy varies by qualification: CSIR-NET/UGC-NET JRF: ₹37,000/month (first 2 years as JRF) + ₹42,000/month (after 2 years as SRF) + HRA (8-27% based on city); GPAT Qualified: ₹31,000/month (GPAT fellowship); GATE Qualified: ₹31,000/month (MHRD fellowship); ICMR JRF: ₹37,000/month + HRA; DBT JRF: ₹37,000/month + HRA; University Fellowship: ₹15,000-25,000/month. Additionally, institutes provide contingency grants (₹20,000-70,000/year) for research expenses, conference travel, publication fees, and laboratory consumables. Total earnings over 3-4 years: ₹12-18 lakhs.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q5 */}
@@ -1496,13 +1485,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 4 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 4} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Direct Ph.D after B.Pharm is available through Integrated Ph.D programmes at select top institutions like NIPER, IISc Bangalore, and some IITs. Regular Ph.D mandatorily requires M.Pharm/M.Sc qualification. Integrated Ph.D duration is 5-6 years combining M.Pharm coursework with doctoral research in a seamless pathway. Eligibility: B.Pharm with 60%+ marks and valid GPAT/GATE score. Selection through entrance test (NIPER JEE/GATE) and interview. Fellowship: ₹31,000/month. This pathway saves 1-2 years compared to separate M.Pharm + Ph.D route. However, most universities and industries still prefer the conventional M.Pharm followed by Ph.D route for better foundational knowledge.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q6 */}
@@ -1520,13 +1507,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 5 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 5} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D Pharmacy career opportunities include: (1) Academic: Assistant/Associate/Full Professor (₹80,000-2,00,000/month), Dean, Principal, Vice-Chancellor; (2) Industry R&D: Senior Scientist (₹1-2 lakhs/month), Principal Scientist, Research Manager, R&D Director (₹3-5 lakhs/month), VP Research; (3) Government: Scientist at CSIR/ICMR/DRDO (₹70,000-1,50,000/month), Drug Controller, Policy Advisor; (4) Regulatory: Consultant, Medical Affairs Head, Regulatory Affairs Director; (5) Entrepreneurship: Biotech startup founder, Research consultancy, CRO establishment; (6) International: Postdoctoral researcher abroad ($50,000-80,000/year), Faculty at foreign universities. Ph.D opens the highest-paying and most prestigious positions in pharmacy profession.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q7 */}
@@ -1544,13 +1529,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 6 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 6} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Ph.D in Pharmacy offers specialisations: (1) Pharmaceutics - NDDS, nanotechnology, 3D printing, biopharmaceutics, formulation development, Quality by Design (QbD); (2) Pharmacology - drug mechanisms, toxicology, clinical pharmacology, neuropharmacology, cardiovascular pharmacology; (3) Pharmaceutical Chemistry - drug synthesis, medicinal chemistry, computational drug design, SAR studies, green chemistry; (4) Pharmacognosy - natural products, phytochemistry, herbal drug development, ethnopharmacology, marine pharmacognosy; (5) Pharmaceutical Analysis - analytical method development, bioanalysis, quality control, hyphenated techniques; (6) Pharmacy Practice - clinical pharmacy, pharmacovigilance, pharmacoeconomics, medication therapy management. Choice depends on M.Pharm background and research interest.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q8 */}
@@ -1568,13 +1551,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 7 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 7} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   GPAT is not universally mandatory for Ph.D admission but is highly recommended. Qualification scenarios: (1) GPAT Qualified: Direct fellowship eligibility (₹31,000/month) at recognised institutions; (2) NET/GATE Qualified: Higher fellowship (₹37,000-42,000/month) and priority admission; (3) Without GPAT/NET: Can apply through university entrance tests – admission possible but may not receive government fellowship; (4) NIPER: Conducts separate NIPER JEE for Ph.D admission. Many private universities and deemed universities offer Ph.D admission based on interview and research proposal without mandatory entrance examination. However, fellowship availability is significantly better with GPAT/NET qualification.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q9 */}
@@ -1592,13 +1573,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 8 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 8} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Full-time Ph.D: Minimum 3 years duration, full dedication to research, fellowship available (₹31,000-42,000/month), daily attendance at institution, faster completion, preferred by most universities. Part-time Ph.D: Minimum 4 years duration, allows concurrent employment (teaching/industry), no fellowship (self-funded), flexible attendance (weekends/evenings), longer completion time, requires NOC from employer, suitable for working professionals. Full-time preferred for: freshers, those seeking fellowship, intensive research fields. Part-time suitable for: employed professionals, Learning Facilitators wanting career advancement, those with financial commitments. Some institutions don't offer part-time option. Research output expectations similar for both.
                 </p>
               </div>
-            )}
           </div>
 
           {/* Q10 */}
@@ -1616,13 +1595,11 @@ export default function PhDPage() {
                 }`}
               />
             </button>
-            {expandedFAQ === 9 && (
-              <div className="voice-answer p-8 bg-green-50 border-t border-gray-200">
+              <div hidden={expandedFAQ !== 9} className="voice-answer p-8 bg-green-50 border-t border-gray-200">
                 <p className="text-gray-700 leading-relaxed ml-14 text-xs sm:text-sm">
                   Minimum publication requirements vary by institution but typically include: (1) Minimum 2-3 research papers in peer-reviewed journals; (2) At least 1 paper in SCI/SCOPUS indexed journal; (3) Candidate must be first author in at least 1 publication; (4) Guide must be co-author in publications arising from thesis work; (5) Publications must be accepted/published before thesis submission. Some top institutions (NIPER, IITs) require higher publication standards. Quality matters more than quantity – papers in high-impact journals strengthen thesis. Review articles and conference proceedings may not count toward minimum requirements. Publications significantly enhance post-Ph.D career opportunities and demonstrate research competence.
                 </p>
               </div>
-            )}
           </div>
         </div>
       </div>

@@ -46,7 +46,7 @@ const blogCollectionSchema = {
     "url": "https://pharmacy.jkkn.ac.in/"
   },
   "provider": {
-    "@type": "EducationalOrganization",
+    "@type": "CollegeOrUniversity",
     "@id": "https://pharmacy.jkkn.ac.in/#organization",
     "name": "JKKN College of Pharmacy"
   }

@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import { BreadcrumbWrapper } from '@/components/BreadcrumbWrapper'
 
 export const metadata: Metadata = {
   // GL1-08: app/blog/layout.tsx appends '%s | JKKN Pharmacy Blog' (20 chars) to every
@@ -52,7 +51,7 @@ export default function BestPharmacyCollegesLayout({
 }) {
   return (
     <>
-      <BreadcrumbWrapper />
+      {/* BreadcrumbWrapper removed 2026-09-18: app/blog/layout.tsx already renders it, so this page carried the same BreadcrumbList twice (three times with the page's own). */}
       {children}
     </>
   )
