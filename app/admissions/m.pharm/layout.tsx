@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/admissions/m.pharm/',
     title: 'M.Pharm Admission 2026 | All Specializations | JKKN',
-    description: 'Apply for M.Pharm 2026 at JKKN — five PCI-approved specialisations across 2 years.',
+    description: 'Apply for M.Pharm 2026 at JKKN — six PCI-approved specialisations across 2 years.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'M.Pharm Admission 2026 | JKKN College of Pharmacy',
-    description: 'Apply for M.Pharm 2026 at JKKN — five PCI-approved specialisations.',
+    description: 'Apply for M.Pharm 2026 at JKKN — six PCI-approved specialisations.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
