@@ -531,7 +531,7 @@ export default function MPharmAdmissionPage() {
                   <div>
                     <h3 className="font-bold text-sm sm:text-base mb-2">Call Us</h3>
                     <a href="tel:+919345855001" className="text-xs sm:text-sm hover:underline">+91 93458 55001</a>
-                    <p className="text-[10px] sm:text-xs text-white/80 mt-1">Mon-Sat: 9:00 AM - 5:00 PM</p>
+                    <p className="text-[10px] sm:text-xs text-white/80 mt-1">Mon-Sat: 9:00 AM - 5:30 PM</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

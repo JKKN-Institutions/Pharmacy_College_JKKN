@@ -785,7 +785,7 @@ export default function AdmissionProcessPage() {
                       +91 93458 55001
                     </a>
                     <p className="text-[10px] sm:text-xs text-white/80 mt-1">
-                      Mon-Sat: 9:00 AM - 5:00 PM
+                      Mon-Sat: 9:00 AM - 5:30 PM
                     </p>
                   </div>
                 </div>
