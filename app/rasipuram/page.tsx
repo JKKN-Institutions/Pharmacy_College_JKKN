@@ -55,7 +55,7 @@ const config: CityLandingConfig = {
   exploreCities: [
     { city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
     { city: 'Tiruchengode', distance: '20 km', href: '/tiruchengode/' },
-    { city: 'Salem', distance: '58 km', href: '/salem/' },
+    { city: 'Salem', distance: '57 km', href: '/salem/' },
     { city: 'Attur', distance: '95 km', href: '/attur/' },
   ],
   dateModified: '2026-07-09',

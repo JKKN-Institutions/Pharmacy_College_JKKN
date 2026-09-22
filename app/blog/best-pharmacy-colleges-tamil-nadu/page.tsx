@@ -56,7 +56,7 @@ const faqs = [
   {
     question: 'Which pharmacy college is near Salem or Namakkal?',
     answer:
-      'JKKN College of Pharmacy is located in Komarapalayam, Namakkal district, on NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from Salem city. Established in 1985, JKKN is PCI-approved, NAAC A Grade accredited, and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Other Namakkal pharmacy colleges include JKK Munirajah Medical Research Foundation and Senghundhar College of Pharmacy.',
+      'JKKN College of Pharmacy is located in Komarapalayam, Namakkal district, on NH-544 (Salem-Coimbatore Highway), about an hour from Salem city (57 km). Established in 1985, JKKN is PCI-approved, NAAC A Grade accredited, and affiliated to Tamil Nadu Dr. M.G.R. Medical University. Other Namakkal pharmacy colleges include JKK Munirajah Medical Research Foundation and Senghundhar College of Pharmacy.',
   },
   {
     question:
@@ -524,15 +524,19 @@ export default function BestPharmacyCollegesTamilNadu() {
               Rs 6.75 lakh (M.Pharm) and Rs 4.42 lakh (Pharm.D). The college
               does not publish a highest or average package because no filed
               document records one. The college campus is located on
-              NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from
-              Salem and about 30 minutes from Erode, within the larger JKKN
+              NH-544 (Salem-Coimbatore Highway), about an hour from
+              Salem (57 km) and about 30 minutes from Erode, within the larger JKKN
               Institutions campus that includes a 500-bed multi-specialty
               teaching hospital. For students in Erode district, the campus is
               18 km from Erode Bus Stand - see the{' '}
               <Link href="/erode/" className="text-[#006837] font-semibold underline">
                 pharmacy college near Erode
               </Link>{' '}
-              page for bus routes and hostel options.
+              page for bus routes and hostel options; for Salem district, the{' '}
+              <Link href="/salem/" className="text-[#006837] font-semibold underline">
+                pharmacy colleges in Salem district
+              </Link>{' '}
+              list compares all five district colleges with JKKN.
             </p>
           </div>
 
