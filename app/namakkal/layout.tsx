@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Namakkal',
+        alt: 'JKKN College of Pharmacy, Komarapalayam - pharmacy college in Namakkal district',
       },
     ],
   },

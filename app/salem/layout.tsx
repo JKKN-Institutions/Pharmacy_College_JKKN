@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy Colleges in Salem 2026 — Admission Open | JKKN',
+  title: 'Pharmacy College near Salem | JKKN College of Pharmacy, Komarapalayam',
   description: 'PCI-approved, NAAC-accredited pharmacy college 58 km from Salem via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27 — call +91-9345855001.',
   keywords: [
     'pharmacy colleges in salem',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/salem/',
   },
   openGraph: {
-    title: 'Pharmacy Colleges in Salem 2026 — Admission Open | JKKN',
+    title: 'Pharmacy College near Salem | JKKN College of Pharmacy, Komarapalayam',
     description: 'PCI-approved, NAAC-accredited pharmacy college 58 km from Salem via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/salem/',
     siteName: 'JKKN College of Pharmacy',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pharmacy Colleges in Salem 2026 — Admission Open | JKKN',
+    title: 'Pharmacy College near Salem | JKKN College of Pharmacy, Komarapalayam',
     description: 'PCI-approved, NAAC-accredited pharmacy college 58 km from Salem via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },

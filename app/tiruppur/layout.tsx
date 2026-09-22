@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Best Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+  title: 'Pharmacy College near Tiruppur | JKKN College of Pharmacy, Komarapalayam',
   description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25). Apply 2026-27.',
   keywords: [
     'pharmacy colleges in tiruppur',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/tiruppur/',
   },
   openGraph: {
-    title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+    title: 'Pharmacy College near Tiruppur | JKKN College of Pharmacy, Komarapalayam',
     description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25). Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/tiruppur/',
     siteName: 'JKKN College of Pharmacy',
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Tiruppur',
+        alt: 'JKKN College of Pharmacy, Komarapalayam - pharmacy college near Tiruppur',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pharmacy Colleges in Tiruppur | JKKN College of Pharmacy',
+    title: 'Pharmacy College near Tiruppur | JKKN College of Pharmacy, Komarapalayam',
     description: 'JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25).',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
