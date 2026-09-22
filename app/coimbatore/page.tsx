@@ -651,7 +651,7 @@ export default function CoimbatorePage() {
             {[
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '66 km', href: '/namakkal/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '58 km', href: '/salem/' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '22 km', href: '/erode/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '18 km', href: '/erode/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
             ].map((item) => (
               <a

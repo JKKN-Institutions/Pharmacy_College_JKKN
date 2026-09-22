@@ -56,7 +56,7 @@ const config: CityLandingConfig = {
     { city: 'Salem', distance: '58 km', href: '/salem/' },
     { city: 'Bhavani', distance: '5 km', href: '/bhavani/' },
     { city: 'Sankagiri', distance: '15 km', href: '/sankagiri/' },
-    { city: 'Erode', distance: '22 km', href: '/erode/' },
+    { city: 'Erode', distance: '18 km', href: '/erode/' },
   ],
   dateModified: '2026-07-09',
 };

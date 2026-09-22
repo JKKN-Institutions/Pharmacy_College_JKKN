@@ -53,7 +53,7 @@ const config: CityLandingConfig = {
     },
   ],
   exploreCities: [
-    { city: 'Erode', distance: '22 km', href: '/erode/' },
+    { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Gobichettipalayam', distance: '33 km', href: '/gobichettipalayam/' },
     { city: 'Mettur', distance: '45 km', href: '/mettur/' },
     { city: 'Salem', distance: '58 km', href: '/salem/' },
