@@ -53,7 +53,7 @@ const config: CityLandingConfig = {
     },
   ],
   exploreCities: [
-    { city: 'Salem', distance: '58 km', href: '/salem/' },
+    { city: 'Salem', distance: '57 km', href: '/salem/' },
     { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Tiruchengode', distance: '20 km', href: '/tiruchengode/' },
     { city: 'Mettur', distance: '45 km', href: '/mettur/' },

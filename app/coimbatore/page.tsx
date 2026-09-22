@@ -339,7 +339,7 @@ export default function CoimbatorePage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '90 seats (6 specialisations)',
+                intake: '60 seats (5 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -623,7 +623,7 @@ export default function CoimbatorePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '58 km', href: '/salem/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '57 km', href: '/salem/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Erode', distance: '18 km', href: '/erode/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
             ].map((item) => (

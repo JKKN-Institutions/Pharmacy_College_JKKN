@@ -56,7 +56,7 @@ const config: CityLandingConfig = {
     { city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
     { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Trichy', distance: '145 km', href: '/trichy/' },
-    { city: 'Salem', distance: '58 km', href: '/salem/' },
+    { city: 'Salem', distance: '57 km', href: '/salem/' },
   ],
   dateModified: '2026-07-09',
 };

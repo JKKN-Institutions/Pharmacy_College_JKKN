@@ -37,26 +37,37 @@ export default function SalemPage() {
     window.open('https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=salem', '_blank');
   };
 
+  // One measured distance on this page: Salem bus stand -> JKKN College of Pharmacy, 56.9 km / 57 min
+  // by car via NH-544, Google Maps directions read by the user on 2026-09-22 16:00 (alternatives
+  // 58.3 km / 1 hr 4 min and 64.2 km / 1 hr 15 min). Written as "57 km, about an hour". The
+  // Salem Junction 55 km and Coimbatore airport 101 km figures are the named-landmark routing of
+  // 2026-09-12 already carried by the contact page and llms.txt. Salem-district town distances
+  // in the day-scholar table are OSRM road routing from the campus pin (2026-09-22).
+  //
+  // JKKN is NOT in Salem district. This page says so in the first sentence and in FAQ 1, and it
+  // lists the district's own pharmacy colleges, because "pharmacy college in salem district" is a
+  // question whose honest answer is that list - and a page that answers it honestly is the only
+  // kind that can appear for it at all.
   const faqs = [
     {
       question: 'Is JKKN College of Pharmacy in Salem?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 58 km from Salem city centre on NH-544 - Salem has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited pharmacy institution affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a 500-bed multi-specialty teaching hospital for clinical training.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544 (about an hour by car) - Salem district has pharmacy colleges of its own, listed on this page. JKKN is PCI-approved, NAAC-accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai; it offers B.Pharm, M.Pharm and Pharm.D, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data).',
     },
     {
-      question: 'What are the best colleges for pharmacy near Salem district?',
+      question: 'Which pharmacy colleges are in Salem district?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is a PCI-approved pharmacy college accessible from Salem district via NH-544. The campus offers NAAC accreditation, modern pharmaceutical learning labs, a teaching hospital for clinical exposure, and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
+        'The Tamil Nadu Dr. M.G.R. Medical University B.Pharm affiliation list for 2025-26 (published 11 August 2026) carries four self-financing pharmacy colleges in Salem district - Sri Shanmugha College of Pharmacy (Morur, Sankari; B.Pharm 100, Pharm.D 30, M.Pharm 30), Vivekanandha Pharmacy College for Women (Veerachipalayam, Sankari; B.Pharm 100, Pharm.D 30), SS Institute of Pharmacy (Manjakalpatti, Sankari; B.Pharm 60) and The Kaavery Pharmacy College (Mecheri, Mettur taluk; B.Pharm 100, first affiliated 2024-25). Vinayaka Mission’s College of Pharmacy in Salem city belongs to a deemed university and is not on that list. JKKN College of Pharmacy is outside the district, in Komarapalayam - 21 km from Morur and 31 km from Edappadi by road.',
     },
     {
       question: 'Are there government pharmacy colleges in Salem?',
       answer:
-        'Salem district has very limited government pharmacy college options; most PCI-approved pharmacy colleges in and around Salem are private or self-financing institutions. JKKN College of Pharmacy, 58 km from Salem via NH-544, is a private PCI-approved college offering B.Pharm, M.Pharm, and Pharm.D, with scholarship support available for eligible students.',
+        'No. The Tamil Nadu Dr. M.G.R. Medical University B.Pharm affiliation list for 2025-26 names only two government pharmacy colleges in the whole state - at Madras Medical College, Chennai and Madurai Medical College - and none in Salem district; all four Salem-district colleges on the list are self-financing, and Vinayaka Mission’s is a private deemed-university college. JKKN College of Pharmacy, 57 km away in Namakkal district, is also a private PCI-approved college.',
     },
     {
       question: 'How far is JKKN Pharmacy from Salem?',
       answer:
-        'JKKN College of Pharmacy is 58 km from Salem city centre, approximately one hour by road via NH-544. Regular TN State Transport buses operate from Salem New Bus Stand to Komarapalayam every 15 to 20 minutes throughout the day. College transport services also connect Salem to the campus.',
+        'Salem bus stand to JKKN College of Pharmacy is 57 km by road - about an hour by car via NH-544 (Google Maps, September 2026; the toll-free alternative is 58 km). Salem Junction is 55 km. Government and private buses on the Salem-Erode NH-544 corridor stop at Komarapalayam; ask the admissions office for the current college bus route list before deciding to commute daily.',
     },
     {
       question: 'What is the difference between B.Pharm and Pharm.D?',
@@ -76,7 +87,7 @@ export default function SalemPage() {
     {
       question: 'Does JKKN Pharmacy provide hostel for Salem learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Salem also have the option of daily commuting, as the 58 km journey takes approximately one hour via NH-544. College transport services operate on the Salem route.',
+        'JKKN College of Pharmacy has separate hostels for men and women on campus. From Salem city the 57 km journey is about an hour each way, so the hostel is the practical choice; the Sankari and Edappadi side of the district is 21-33 km away and within day-scholar range. Ask the admissions office for the current college bus route list.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
@@ -89,7 +100,7 @@ export default function SalemPage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy College near Salem', url: 'https://pharmacy.jkkn.ac.in/salem/' }
+        { name: 'Pharmacy College near Salem (57 km)', url: 'https://pharmacy.jkkn.ac.in/salem/' }
       ]} />
       {/* ── EducationalOrganization Schema ── */}
       {/* Organization: a REFERENCE to the site-wide #organization node, not a second
@@ -163,12 +174,12 @@ export default function SalemPage() {
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
             Pharmacy College near{' '}
-            <span className="text-[#7cb983]">Salem</span> — JKKN College of Pharmacy, Komarapalayam
+            <span className="text-[#7cb983]">Salem</span> (57 km) — JKKN College of Pharmacy, Komarapalayam
           </h1>
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 58 km from Salem on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (five specialisations, 60 seats) and Pharm.D (30 seats), is NAAC accredited, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
           </p>
 
           {/* Stats Grid */}
@@ -176,7 +187,7 @@ export default function SalemPage() {
             {[
               { value: '78%', label: 'PLACEMENTS' },
               { value: '97/124', label: 'PLACED 2024-25' },
-              { value: '58km', label: 'FROM SALEM' },
+              { value: '57km', label: 'FROM SALEM' },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
@@ -231,7 +242,7 @@ export default function SalemPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">58</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">57</span>
               <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
@@ -239,7 +250,7 @@ export default function SalemPage() {
                 From Salem to JKKN Pharmacy
               </h2>
               <p className="text-xs sm:text-sm text-gray-500">
-                ~1 hour via NH-544 (Salem-Coimbatore Highway) — direct route
+                Salem bus stand to campus: about 1 hour by car via NH-544 (Google Maps, Sep 2026)
               </p>
             </div>
             <a
@@ -262,10 +273,9 @@ export default function SalemPage() {
             Why Salem Learners Choose JKKN Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            Salem is one of the largest cities in central Tamil Nadu with excellent connectivity to
-            JKKN via NH-544. The journey takes under 1 hour, making daily commute a practical
-            option. Learners from Salem get access to quality professional education without the
-            high costs of metro city colleges.
+            Salem city is 57 km from the campus on NH-544 - about an hour by car - a hostel
+            distance; the Sankari and Edappadi side of the district is 21-33 km away, a day-scholar
+            distance. What the campus offers is below.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -299,7 +309,7 @@ export default function SalemPage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: 'Just 58 km from Salem via NH-544. Daily commute or comfortable hostel — your choice.',
+                desc: '57 km from Salem bus stand via NH-544; 21-31 km from the Sankari-Edappadi side. Commute or hostel - see the day-scholar table below.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -339,7 +349,7 @@ export default function SalemPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '90 seats (6 specialisations)',
+                intake: '60 seats (5 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -453,7 +463,7 @@ export default function SalemPage() {
                   Salem → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  58 km • ~1 hour
+                  57 km • about 1 hour by car
                 </p>
               </div>
             </div>
@@ -468,17 +478,17 @@ export default function SalemPage() {
                 {
                   emoji: <Bus className="w-5 h-5 text-gray-600" />,
                   label: 'BY BUS',
-                  text: 'TN State Transport buses from Salem New Bus Stand to Komarapalayam run every 15-20 minutes throughout the day',
+                  text: 'Government and private buses on the Salem - Erode NH-544 corridor stop at Komarapalayam; ask the admissions office for the current college bus route list',
                 },
                 {
                   emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
-                  text: 'Salem Junction (~58 km from campus)',
+                  text: 'Salem Junction — 55 km by road; Erode Junction — 21 km (the nearest to campus)',
                 },
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST AIRPORT',
-                  text: 'Salem Airport (limited flights) / Coimbatore International Airport (~15 km / ~110 km)',
+                  text: 'Coimbatore International Airport (CJB) — 101 km by road',
                 },
                 {
                   emoji: <Building2 className="w-5 h-5 text-gray-600" />,
@@ -534,7 +544,7 @@ export default function SalemPage() {
               {
                 emoji: <Bus className="w-5 h-5 text-[#7cb983]" />,
                 title: 'Transport',
-                desc: 'College buses connecting to Salem and surrounding areas',
+                desc: 'College bus routes - ask the admissions office for the current list',
               },
               {
                 emoji: <Activity className="w-5 h-5 text-[#7cb983]" />,
@@ -563,6 +573,118 @@ export default function SalemPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── Pharmacy colleges in Salem district — the full list ──
+          Added 2026-09-22. Every row is read from the college's own website or from The Tamil
+          Nadu Dr. M.G.R. Medical University affiliation list (AY 2025-26); a cell we could not
+          read from the college itself says "see the college" rather than carrying a number we
+          cannot stand behind. No row ranks anyone. Distances are road routing from the JKKN
+          campus pin (OSRM, 2026-09-22) except the Salem bus stand figure, which is Google Maps. */}
+      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            Pharmacy Colleges in Salem District — the Full List
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
+            Salem district has four pharmacy colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical
+            University (2025-26 B.Pharm list, all self-financing, none government) and one
+            deemed-university college in Salem city. JKKN is the sixth row because it is not in
+            the district — it is listed here so you can compare honestly.
+          </p>
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+
+          <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white shadow-sm">
+            <table className="min-w-full text-left text-[11px] sm:text-xs">
+              <thead className="bg-[#006837] text-white">
+                <tr>
+                  <th className="px-3 py-2.5 font-semibold">College</th>
+                  <th className="px-3 py-2.5 font-semibold">Where</th>
+                  <th className="px-3 py-2.5 font-semibold">Programmes (own website)</th>
+                  <th className="px-3 py-2.5 font-semibold">B.Pharm intake</th>
+                  <th className="px-3 py-2.5 font-semibold">University</th>
+                  <th className="px-3 py-2.5 font-semibold">From JKKN campus</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-800">
+                {[
+                  { c: 'Vinayaka Mission’s College of Pharmacy', w: 'Kondappanaickenpatti, Salem city', p: 'D.Pharm, B.Pharm, M.Pharm, Pharm.D, Ph.D', i: 'see the college', u: 'Vinayaka Mission’s Research Foundation (deemed)', d: '63 km' },
+                  { c: 'Sri Shanmugha College of Pharmacy', w: 'Morur, Sankari', p: 'D.Pharm, B.Pharm, Pharm.D, M.Pharm', i: '100 (TNMGRMU 2025-26 list)', u: 'The TN Dr. M.G.R. Medical University', d: '21 km' },
+                  { c: 'Vivekanandha Pharmacy College for Women', w: 'Veerachipalayam, Sankari', p: 'D.Pharm, B.Pharm, B.Pharm (Lateral), Pharm.D — women only', i: '100 (TNMGRMU 2025-26 list)', u: 'The TN Dr. M.G.R. Medical University', d: 'about 33 km' },
+                  { c: 'SS Institute of Pharmacy', w: 'Manjakalpatti, Sankari', p: 'see the college', i: '60 (TNMGRMU 2025-26 list)', u: 'The TN Dr. M.G.R. Medical University', d: 'about 33 km' },
+                  { c: 'The Kaavery Pharmacy College', w: 'M.Kalipatti, Mecheri (Mettur taluk)', p: 'see the college', i: '100 (TNMGRMU 2025-26 list; affiliated from 2024-25)', u: 'The TN Dr. M.G.R. Medical University', d: '66 km' },
+                  { c: 'JKKN College of Pharmacy (not in Salem district)', w: 'Komarapalayam, Namakkal district', p: 'B.Pharm, M.Pharm (5 specialisations), Pharm.D, Ph.D', i: '100 (+10 lateral entry)', u: 'The TN Dr. M.G.R. Medical University', d: '57 km from Salem bus stand' },
+                ].map((r) => (
+                  <tr key={r.c} className={r.c.startsWith('JKKN') ? 'bg-[#FBFBEE] font-semibold' : ''}>
+                    <td className="px-3 py-2.5 align-top">{r.c}</td>
+                    <td className="px-3 py-2.5 align-top">{r.w}</td>
+                    <td className="px-3 py-2.5 align-top">{r.p}</td>
+                    <td className="px-3 py-2.5 align-top">{r.i}</td>
+                    <td className="px-3 py-2.5 align-top">{r.u}</td>
+                    <td className="px-3 py-2.5 align-top">{r.d}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[10px] sm:text-[11px] text-gray-400 mt-3 max-w-3xl mx-auto leading-relaxed">
+            Sources: each college&apos;s own website (September 2026); B.Pharm intake and university from The Tamil Nadu
+            Dr. M.G.R. Medical University &ldquo;B.Pharmacy - Affiliated Colleges/Institutions 2025-26&rdquo; list published
+            11 August 2026; &ldquo;see the college&rdquo; means we could not read that fact from the college itself. Distances are road routing from the
+            JKKN campus (OSRM, September 2026); Sankari figures use the taluk centre. Approval status: check each
+            college&apos;s own website before applying.
+          </p>
+        </div>
+      </section>
+
+      {/* ── Day-scholar or hostel — by town ── */}
+      <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            Day Scholar or Hostel? — by Town in Salem District
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
+            The western taluks of Salem district are close to Komarapalayam; Salem city and Attur are not.
+            Road distance from the JKKN campus, so you can decide before you visit.
+          </p>
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+
+          <div className="overflow-x-auto rounded-xl border border-gray-200 bg-white shadow-sm">
+            <table className="min-w-full text-left text-[11px] sm:text-xs">
+              <thead className="bg-[#006837] text-white">
+                <tr>
+                  <th className="px-3 py-2.5 font-semibold">Town</th>
+                  <th className="px-3 py-2.5 font-semibold">Road distance</th>
+                  <th className="px-3 py-2.5 font-semibold">By car</th>
+                  <th className="px-3 py-2.5 font-semibold">Practical option (by distance)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-800">
+                {[
+                  { t: 'Sankari (Morur side)', d: '21 km', m: 'about 20 min', w: 'day-scholar range' },
+                  { t: 'Edappadi', d: '31 km', m: 'about 30 min', w: 'day-scholar range' },
+                  { t: 'Sankari town', d: 'about 33 km', m: 'about 25 min', w: 'day-scholar range' },
+                  { t: 'Omalur', d: '57 km', m: 'about 50 min', w: 'hostel; commute possible' },
+                  { t: 'Salem city (bus stand)', d: '57 km', m: 'about 1 hour (Google Maps)', w: 'hostel; commute possible' },
+                  { t: 'Mettur', d: '58 km', m: 'about 45 min', w: 'hostel; commute possible' },
+                  { t: 'Attur', d: '108 km', m: 'about 1 hr 20 min', w: 'hostel' },
+                ].map((r) => (
+                  <tr key={r.t}>
+                    <td className="px-3 py-2.5 align-top font-semibold">{r.t}</td>
+                    <td className="px-3 py-2.5 align-top">{r.d}</td>
+                    <td className="px-3 py-2.5 align-top">{r.m}</td>
+                    <td className="px-3 py-2.5 align-top">{r.w}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[10px] sm:text-[11px] text-gray-400 mt-3 leading-relaxed">
+            Salem bus stand: Google Maps directions, September 2026 (56.9 km / 57 min via NH-544). Other towns: OSRM road
+            routing from the campus pin, September 2026; Sankari and Mettur use the taluk centre. &ldquo;Practical option&rdquo; is
+            read from the distance alone (under about 35 km = day-scholar range) — the college bus route list changes each year, so ask.
+          </p>
         </div>
       </section>
 
@@ -706,10 +828,10 @@ export default function SalemPage() {
 
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
-        name="Pharmacy College near Salem — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
+        name="Pharmacy College near Salem (57 km) — JKKN College of Pharmacy, Komarapalayam"
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544. Offers B.Pharm, M.Pharm and Pharm.D with 78% placements (2024-25); the page also lists every pharmacy college in Salem district."
         url="https://pharmacy.jkkn.ac.in/salem/"
-        dateModified="2026-07-09"
+        dateModified="2026-09-22"
       />
     </div>
   );

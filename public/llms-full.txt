@@ -83,10 +83,10 @@ Six programmes are offered. Intake and management-quota fees below are as publis
 | B.Pharm (Lateral Entry) | 3 years | 10 | Rs 1,00,000 |
 | M.Pharm — Pharmaceutics | 2 years | 15 | Rs 75,000 |
 | M.Pharm — Pharmacology | 2 years | 15 | Rs 75,000 |
-| M.Pharm — Pharmaceutical Chemistry | 2 years | 15 | Rs 75,000 |
-| M.Pharm — Pharmaceutical Analysis | 2 years | 15 | Rs 75,000 |
-| M.Pharm — Pharmacy Practice | 2 years | 15 | Rs 75,000 |
-| M.Pharm — Pharmaceutical Regulatory Affairs | 2 years | 15 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Chemistry | 2 years | 10 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Analysis | 2 years | 10 | Rs 75,000 |
+| M.Pharm — Pharmacy Practice | 2 years | 10 | Rs 75,000 |
+| M.Pharm — Pharmaceutical Regulatory Affairs | 2 years | being introduced for 2026-27, intake not yet published | Rs 75,000 |
 | Pharm.D | 6 years | 30 | Rs 2,75,000 (day scholar) / Rs 3,25,000 (with hostel) |
 | Pharm.D (Post Baccalaureate) | 3 years | 10 | Rs 70,000 (day scholar) / Rs 1,50,000 (with hostel) |
 | Ph.D in Pharmaceutical Sciences | 3 years and above | limited | see the Ph.D page |
@@ -109,7 +109,8 @@ B.Pharm Lateral Entry intake is 10 seats. A figure of 12 stood on the college ho
 
 ### Master of Pharmacy (M.Pharm)
 - **Duration:** 2 years, 4 semesters
-- **Six specialisations:** Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs (Regulatory Affairs new for 2026-27)
+- **Sanctioned intake:** 60 seats across five specialisations - Pharmaceutics 15, Pharmacology 15, Pharmaceutical Chemistry 10, Pharmaceutical Analysis 10, Pharmacy Practice 10 (The Tamil Nadu Dr. M.G.R. Medical University affiliation list 2025-26, dated 11 August 2026; the same 60 is the PG two-year sanctioned intake in the college's NIRF 2026 submission)
+- **Pharmaceutical Regulatory Affairs:** being introduced for 2026-27; not yet on the university affiliation list, intake not yet published
 - **Eligibility:** B.Pharm with 50% marks (45% SC/ST); GPAT preferred
 - **Page:** https://pharmacy.jkkn.ac.in/m-pharmacy/
 
@@ -281,13 +282,13 @@ A: Yes. It is approved by the Pharmacy Council of India and affiliated to The Ta
 A: NAAC A Grade.
 
 **Q: Which programmes does JKKN College of Pharmacy offer?**
-A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across six specialisations, Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
+A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm (60 seats across five specialisations), Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
 
 **Q: How many B.Pharm seats are there?**
 A: 100 seats, admitted through Tamil Nadu Selection Committee counselling.
 
 **Q: What are the M.Pharm specialisations?**
-A: Six - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs (new for 2026-27). Each is a 2-year programme with 15 seats, 90 in total.
+A: Five on the current university affiliation list - Pharmaceutics 15, Pharmacology 15, Pharmaceutical Chemistry 10, Pharmaceutical Analysis 10 and Pharmacy Practice 10, a total sanctioned intake of 60. Each is a 2-year programme. Pharmaceutical Regulatory Affairs is being introduced for 2026-27 and its intake is not yet published.
 
 **Q: What is the difference between Pharm.D and Pharm.D Post Baccalaureate here?**
 A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year clinical clerkship, 30 seats. Pharm.D Post Baccalaureate is 3 years after B.Pharm — 2 years academic plus a 1-year clerkship, 10 seats.

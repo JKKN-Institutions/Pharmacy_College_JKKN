@@ -43,7 +43,7 @@ const REGULATORY_AFFAIRS_FAQS = [
   {
     question: 'How many seats are available in M.Pharm Pharmaceutical Regulatory Affairs at JKKN?',
     answer:
-      'JKKN College of Pharmacy offers 15 seats in M.Pharm Pharmaceutical Regulatory Affairs. It is one of six M.Pharm specialisations at the college, which together carry a total sanctioned intake of 90 seats.',
+      'Pharmaceutical Regulatory Affairs is being introduced at JKKN for 2026-27. It is not yet on The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26, which sanctions 60 M.Pharm seats across five specialisations, so its intake is not yet published - confirm it with the admissions office. It would be the sixth M.Pharm specialisation at the college, which together carry a total sanctioned intake of 90 seats.',
   },
   {
     question: 'What career options exist after M.Pharm Pharmaceutical Regulatory Affairs?',

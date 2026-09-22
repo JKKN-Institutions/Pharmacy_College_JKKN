@@ -14,7 +14,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What pharmacy courses are offered at JKKN Pharmacy College?',
-        answer: 'JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with six specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences.',
+        answer: 'JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years, 60 sanctioned seats across five specialisations - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis and Pharmacy Practice), Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences. Pharmaceutical Regulatory Affairs is being introduced for 2026-27.',
       },
       {
         question: 'Is JKKN Pharmacy College PCI approved?',
@@ -26,11 +26,11 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Where is JKKN College of Pharmacy located?',
-        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 20 km from Tiruchengode, 58 km from Salem and 65 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby.',
+        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 20 km from Tiruchengode, 57 km from Salem bus stand and 65 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby.',
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
-        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes.',
+        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm (60 seats across five specialisations), Pharm.D, and Ph.D programmes.',
       },
       {
         question: 'Is hostel accommodation available?',
@@ -132,7 +132,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What M.Pharm specialisations are available?',
-        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred).',
+        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm with a sanctioned intake of 60 seats across five specialisations - Pharmaceutics (15), Pharmacology (15), Pharmaceutical Chemistry (10), Pharmaceutical Analysis (10) and Pharmacy Practice (10) - per The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26 and the college’s NIRF 2026 submission. Pharmaceutical Regulatory Affairs is being introduced for 2026-27 - confirm its approval and intake with the admissions office. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred).',
       },
       {
         question: 'What is Pharm.D course?',
