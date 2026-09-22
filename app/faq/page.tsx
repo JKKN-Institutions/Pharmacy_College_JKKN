@@ -14,7 +14,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What pharmacy courses are offered at JKKN Pharmacy College?',
-        answer: 'JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years, 60 sanctioned seats across five specialisations - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis and Pharmacy Practice), Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences. Pharmaceutical Regulatory Affairs is being introduced for 2026-27.',
+        answer: 'JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with six specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences.',
       },
       {
         question: 'Is JKKN Pharmacy College PCI approved?',
@@ -30,7 +30,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
-        answer: 'Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm (60 seats across five specialisations), Pharm.D, and Ph.D programmes.',
+        answer: 'JKKN College of Pharmacy is accredited NAAC A Grade, approved by the Pharmacy Council of India, affiliated to The Tamil Nadu Dr. M.G.R. Medical University and has taught pharmacy since 1985. In the 2024 NIRF Pharmacy cycle it is placed in Band 151-200, and in 2024-25 it placed 97 of 124 placement-seeking graduates (78%, NIRF 2026 submission). No body awards a “best college” title - compare each college’s published approval, accreditation, intake and placement figures before you decide. JKKN offers B.Pharm, M.Pharm with six specialisations, Pharm.D and Ph.D programmes.',
       },
       {
         question: 'Is hostel accommodation available?',
@@ -132,7 +132,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What M.Pharm specialisations are available?',
-        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm with a sanctioned intake of 60 seats across five specialisations - Pharmaceutics (15), Pharmacology (15), Pharmaceutical Chemistry (10), Pharmaceutical Analysis (10) and Pharmacy Practice (10) - per The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26 and the college’s NIRF 2026 submission. Pharmaceutical Regulatory Affairs is being introduced for 2026-27 - confirm its approval and intake with the admissions office. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred).',
+        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred).',
       },
       {
         question: 'What is Pharm.D course?',

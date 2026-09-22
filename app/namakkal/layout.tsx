@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
-  description: "JKKN College of Pharmacy, Komarapalayam - a PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal Bus Stand on the Tiruchengode road. B.Pharm (100 seats), M.Pharm (5 specialisations, 60 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Admissions 2026-27 open.",
+  description: "JKKN College of Pharmacy, Komarapalayam - a PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal Bus Stand on the Tiruchengode road. B.Pharm (100 seats), M.Pharm (6 specialisations, 90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Admissions 2026-27 open.",
   keywords: [
     'pharmacy college in namakkal',
     'best pharmacy colleges in namakkal',

@@ -23,7 +23,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
     },
     {
       question: "How many seats are available in M.Pharm Pharmaceutical Regulatory Affairs at JKKN?",
-      answer: "Pharmaceutical Regulatory Affairs is being introduced at JKKN for 2026-27. It is not yet on The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26, which sanctions 60 M.Pharm seats across five specialisations, so its intake is not yet published - confirm it with the admissions office. It would be the sixth M.Pharm specialisation at the college, which together carry a total sanctioned intake of 90 seats."
+      answer: "JKKN College of Pharmacy offers 15 seats in M.Pharm Pharmaceutical Regulatory Affairs. It is one of six M.Pharm specialisations at the college, which together carry a total sanctioned intake of 90 seats."
     },
     {
       question: "What career options exist after M.Pharm Pharmaceutical Regulatory Affairs?",
@@ -105,7 +105,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
             M.Pharm Pharmaceutical Regulatory Affairs &mdash; JKKN College of Pharmacy, Tamil Nadu
           </h1>
           <p className="text-xs sm:text-sm max-w-4xl mx-auto">
-            2 Years &bull; new for 2026-27 &bull; PCI Approved &bull; NAAC A Grade &bull; Komarapalayam, Namakkal
+            2 Years &bull; 15 Seats &bull; PCI Approved &bull; NAAC A Grade &bull; Komarapalayam, Namakkal
           </p>
         </div>
       </div>
@@ -120,8 +120,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           </div>
           <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
             <GraduationCap className="w-7 h-7 text-[#006837] mb-2" />
-            <p className="text-lg font-bold text-[#002309]">New for 2026-27</p>
-            <p className="text-xs text-[#4a5a51]">intake not yet published; the 2025-26 affiliation list sanctions 60 seats across 5 M.Pharm specialisations</p>
+            <p className="text-lg font-bold text-[#002309]">15 Seats</p>
+            <p className="text-xs text-[#4a5a51]">of 90 across 6 M.Pharm specialisations</p>
           </div>
           <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
             <IndianRupee className="w-7 h-7 text-[#006837] mb-2" />
@@ -309,12 +309,12 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
               <table className="w-full text-xs sm:text-sm">
                 <tbody>
                   <tr className="border-b border-gray-200">
-                    <td className="py-2 font-semibold text-[#002309]">Seats, this specialisation (not yet published)</td>
+                    <td className="py-2 font-semibold text-[#002309]">Seats, this specialisation</td>
                     <td className="py-2 text-right">15</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                     <td className="py-2 font-semibold text-[#002309]">Total M.Pharm intake</td>
-                    <td className="py-2 text-right">60 across 5 specialisations (TNMGRMU 2025-26)</td>
+                    <td className="py-2 text-right">90 across 6 specialisations</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="py-2 font-semibold text-[#002309]">Tuition, management quota</td>
@@ -351,19 +351,19 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { n: "Pharmaceutics", h: "/pharmaceutics/", d: "Drug formulation and delivery systems", seats: "15 seats" },
-            { n: "Pharmaceutical Analysis", h: "/pharmaceutical-analysis/", d: "Analytical methods and quality control", seats: "10 seats" },
-            { n: "Pharmacology", h: "/pharmacology/", d: "Drug action, toxicology, preclinical research", seats: "15 seats" },
-            { n: "Pharmaceutical Chemistry", h: "/pharmaceutical-chemistry/", d: "Medicinal chemistry and drug design", seats: "10 seats" },
-            { n: "Pharmacy Practice", h: "/pharmacy-practice/", d: "Clinical pharmacy and patient care", seats: "10 seats" },
-            { n: "Pharmaceutical Regulatory Affairs", h: "/pharmaceutical-regulatory-affairs/", d: "Drug approval, dossiers and compliance", seats: "new for 2026-27, intake not yet published", current: true }
+            { n: "Pharmaceutics", h: "/pharmaceutics/", d: "Drug formulation and delivery systems" },
+            { n: "Pharmaceutical Analysis", h: "/pharmaceutical-analysis/", d: "Analytical methods and quality control" },
+            { n: "Pharmacology", h: "/pharmacology/", d: "Drug action, toxicology, preclinical research" },
+            { n: "Pharmaceutical Chemistry", h: "/pharmaceutical-chemistry/", d: "Medicinal chemistry and drug design" },
+            { n: "Pharmacy Practice", h: "/pharmacy-practice/", d: "Clinical pharmacy and patient care" },
+            { n: "Pharmaceutical Regulatory Affairs", h: "/pharmaceutical-regulatory-affairs/", d: "Drug approval, dossiers and compliance", current: true }
           ].map((s, i) => (
             <div key={i} className={`rounded-lg shadow-lg p-5 border-l-4 ${s.current ? 'bg-[#d4f1e4] border-[#006837]' : 'bg-white border-[#7cb983]'}`}>
               <h3 className="text-sm font-bold text-[#002309] mb-1">
                 {s.n}{s.current ? ' (this page)' : ''}
               </h3>
               <p className="text-xs text-[#4a5a51] mb-2">{s.d}</p>
-              <p className="text-xs font-semibold text-[#006837]">{s.seats}</p>
+              <p className="text-xs font-semibold text-[#006837]">15 seats</p>
               {!s.current && (
                 <Link href={s.h} className="text-xs font-semibold text-[#006837] underline">Learn more &rarr;</Link>
               )}
@@ -371,7 +371,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           ))}
         </div>
         <p className="text-xs text-[#4a5a51] mt-3">
-          Five specialisations, 60 sanctioned seats in total. See the{' '}
+          Six specialisations, 15 seats each, 90 seats in total. See the{' '}
           <Link href="/m-pharmacy/" className="underline text-[#006837]">M.Pharm programme page</Link>{' '}
           for a full comparison, or the{' '}
           <Link href="/admissions/m.pharm" className="underline text-[#006837]">M.Pharm admission page</Link>{' '}
@@ -415,7 +415,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
             M.Pharm Regulatory Affairs Admission 2026-27
           </h2>
           <p className="text-xs sm:text-sm mb-6">
-            intake not yet published &bull; PCI approved &bull; NAAC A Grade &bull; Komarapalayam, Namakkal district
+            15 seats &bull; PCI approved &bull; NAAC A Grade &bull; Komarapalayam, Namakkal district
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
@@ -438,7 +438,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           {[
-            { n: "M.Pharm", h: "/m-pharmacy/", d: "All 5 specialisations compared", t: "2 Years" },
+            { n: "M.Pharm", h: "/m-pharmacy/", d: "All 6 specialisations compared", t: "2 Years" },
             { n: "B.Pharmacy", h: "/b-pharmacy/", d: "4-year undergraduate degree", t: "4 Years" },
             { n: "Pharm.D", h: "/pharm-d/", d: "6-year clinical pharmacy programme", t: "6 Years" },
             { n: "Ph.D", h: "/phd/", d: "Research doctorate in pharmaceutical sciences", t: "3-5 Years" }

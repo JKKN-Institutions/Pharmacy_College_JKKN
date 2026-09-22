@@ -55,9 +55,8 @@
 
 ### M.Pharm (Master of Pharmacy)
 - Duration: 2 years (4 semesters)
-- Specialisations (sanctioned intake, TNMGRMU affiliation list 2025-26): Pharmaceutics 15, Pharmacology 15, Pharmaceutical Chemistry 10, Pharmaceutical Analysis 10, Pharmacy Practice 10
-- Intake: 60 total (the same 60 is filed as the PG two-year sanctioned intake in the college's NIRF 2026 submission)
-- Pharmaceutical Regulatory Affairs: being introduced for 2026-27; not yet on the university affiliation list, intake to be confirmed with the college
+- Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs
+- Intake: 15 seats per specialisation, 90 total
 - Eligibility: B.Pharm with 50% marks (45% SC/ST), GPAT preferred
 
 ### Pharm.D (Doctor of Pharmacy)
@@ -145,7 +144,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 
 - [Homepage](https://pharmacy.jkkn.ac.in/): overview of the college
 - [B.Pharm](https://pharmacy.jkkn.ac.in/b-pharmacy/): 4 years, 100 seats, PCM or PCB with 50%
-- [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, five specialisations, 60 seats total (Regulatory Affairs being introduced for 2026-27)
+- [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, six specialisations, 15 seats each, 90 total
 - [Pharm.D](https://pharmacy.jkkn.ac.in/pharm-d/): 6 years, 30 seats, 5 academic plus 1 clerkship
 - [Admissions](https://pharmacy.jkkn.ac.in/admissions/): the intake and fee table, and the authority where sources disagree
 - [Fee Structure](https://pharmacy.jkkn.ac.in/fee-structure/): management-quota fees per programme; government quota follows Tamil Nadu norms
