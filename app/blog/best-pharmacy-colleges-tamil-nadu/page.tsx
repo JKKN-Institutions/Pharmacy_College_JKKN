@@ -589,7 +589,10 @@ export default function BestPharmacyCollegesTamilNadu() {
             college features dedicated pharmaceutical chemistry, pharmacology,
             pharmaceutics, and pharmaceutical analysis learning labs. The campus
             serves learners from Salem, Erode, Namakkal, Tiruchengode, Karur,
-            Tiruppur, and Coimbatore regions.
+            Tiruppur, and Coimbatore regions. For a district-level view, see{' '}
+            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">
+              pharmacy colleges in Namakkal district
+            </Link>.
           </p>
         </section>
 

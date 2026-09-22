@@ -49,11 +49,11 @@
 
 ### Distance and Connectivity
 Road distances, measured to a named landmark in each town (routing 2026-09-12).
-The college is in Namakkal DISTRICT but Namakkal town itself is 62 km away.
+The college is in Namakkal DISTRICT but Namakkal town itself is 65 km away (Namakkal Bus Stand, Google Maps 2026-09-22).
 - Erode Junction railway station: 21 km — the nearest major railway station
 - Tiruchengode: 26 km
 - Salem Junction railway station: 55 km
-- Namakkal town: 62 km
+- Namakkal town: 65 km (Namakkal Bus Stand, Google Maps 2026-09-22)
 - Tiruppur railway station: 64 km
 - Coimbatore International Airport: 101 km — the nearest airport
 - Coimbatore Junction railway station: 112 km
@@ -305,7 +305,7 @@ A: Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.
 A: 1985. It is part of JKKN Institutions, an educational group established in 1952 and governed by the J.K.K. Rangammal Charitable Trust, registered in 1969.
 
 **Q: Where is JKKN College of Pharmacy located?**
-A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Kumarapalayam, Namakkal District, Tamil Nadu 638183. By road, measured to a named landmark in each town (routing 2026-09-12): 21 km to Erode Junction, 26 km to Tiruchengode, 55 km to Salem Junction and 62 km to Namakkal town. The college is in Namakkal DISTRICT; Namakkal town itself is the far end of it.
+A: Natarajapuram on NH-544, the Salem to Coimbatore national highway, at Kumarapalayam, Namakkal District, Tamil Nadu 638183. By road, measured to a named landmark in each town (routing 2026-09-12): 21 km to Erode Junction, 26 km to Tiruchengode, 55 km to Salem Junction and 65 km to Namakkal Bus Stand (Google Maps 2026-09-22). The college is in Namakkal DISTRICT; Namakkal town itself is the far end of it.
 
 **Q: Has JKKN College of Pharmacy been ranked in NIRF?**
 A: Yes. It was placed in Band 151–200 in the NIRF Pharmacy category for the 2024 cycle, and has filed submissions for the 2025 and 2026 cycles.

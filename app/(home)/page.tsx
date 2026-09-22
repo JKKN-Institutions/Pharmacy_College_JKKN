@@ -64,7 +64,7 @@ export default function Home() {
     },
     {
       question: "Where is JKKN College of Pharmacy located?",
-      answer: "JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 20 km from Tiruchengode, 58 km from Salem and 66 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby."
+      answer: "JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 20 km from Tiruchengode, 58 km from Salem and 65 km from Namakkal town. The college is part of the JKKN Institutions campus with 500+ bed multi-specialty teaching hospital nearby."
     },
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
@@ -1297,11 +1297,14 @@ export default function Home() {
             The nearest city is Erode — 18 km from Erode Bus Stand, about 30 minutes by car — and the{' '}
             <Link href="/erode/" className="text-[#006837] font-semibold underline">pharmacy college near Erode</Link>{' '}
             page covers bus routes, travel time and hostel options for students from Erode.
+            The college is in Namakkal district — Namakkal town is 65 km away — and the{' '}
+            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy colleges in Namakkal district</Link>{' '}
+            page compares every pharmacy college in the district.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
             {[
               { city: 'Salem', label: 'Pharmacy Colleges in Salem', distance: '58 km', href: '/salem/' },
-              { city: 'Namakkal', label: 'Pharmacy Colleges in Namakkal', distance: '66 km', href: '/namakkal/' },
+              { city: 'Namakkal', label: 'Pharmacy Colleges in Namakkal', distance: '65 km', href: '/namakkal/' },
               { city: 'Erode', label: 'Pharmacy College near Erode', distance: '18 km', href: '/erode/' },
               { city: 'Tiruppur', label: 'Pharmacy College near Tiruppur', distance: '67 km', href: '/tiruppur/' },
               { city: 'Coimbatore', label: 'Pharmacy College near Coimbatore', distance: '105 km', href: '/coimbatore/' },

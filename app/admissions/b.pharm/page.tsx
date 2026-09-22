@@ -267,6 +267,8 @@ export default function BPharmAdmissionPage() {
               <p>
                 * Travelling from Erode? The campus is 18 km from Erode Bus Stand on NH-544 -{' '}
                 <a href="/erode/" className="text-[#006837] font-semibold underline">bus routes, travel time and hostel details for Erode students</a>.
+                From Namakkal town it is 65 km — see{' '}
+                <a href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy colleges in Namakkal district</a>.
               </p>
             </div>
           </div>
