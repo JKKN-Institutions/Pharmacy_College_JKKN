@@ -39,9 +39,9 @@ export default function TiruppurPage() {
 
   const faqs = [
     {
-      question: 'Which are the best pharmacy colleges in Tiruppur?',
+      question: 'Is JKKN College of Pharmacy in Tiruppur?',
       answer:
-        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college located 67 km from Tiruppur via NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a 500-bed teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 67 km from Tiruppur via NH-544 through Erode - Tiruppur has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a 500-bed teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What are the best colleges for pharmacy near Tiruppur district?',
@@ -84,7 +84,7 @@ export default function TiruppurPage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy Colleges in Tiruppur', url: 'https://pharmacy.jkkn.ac.in/tiruppur/' }
+        { name: 'Pharmacy College near Tiruppur', url: 'https://pharmacy.jkkn.ac.in/tiruppur/' }
       ]} />
       {/* ── EducationalOrganization + CollegeOrUniversity Schema ── */}
       {/* Organization: a REFERENCE to the site-wide #organization node, not a second
@@ -157,8 +157,8 @@ export default function TiruppurPage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Best Pharmacy Colleges in{' '}
-            <span className="text-[#7cb983]">Tiruppur</span> — JKKN College of Pharmacy
+            Pharmacy College near{' '}
+            <span className="text-[#7cb983]">Tiruppur</span> — JKKN College of Pharmacy, Komarapalayam
           </h1>
 
           {/* Description */}
@@ -334,7 +334,7 @@ export default function TiruppurPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '30 seats',
+                intake: '90 seats (6 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -562,33 +562,6 @@ export default function TiruppurPage() {
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
-      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Learners from Tiruppur Love JKKN Pharmacy
-          </h2>
-          <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from learners who made the right choice
-          </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
-
-          <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Tiruppur to learn about their experience.
-            </p>
-            <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=tiruppur"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#005a2e] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
-            >
-              Apply Now
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* ── FAQ ── */}
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
@@ -596,7 +569,7 @@ export default function TiruppurPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Pharmacy College in Tiruppur — Your Questions Answered
+            Studying pharmacy near Tiruppur — your questions answered
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -765,7 +738,7 @@ export default function TiruppurPage() {
 
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
-        name="Best Pharmacy Colleges in Tiruppur — JKKN College of Pharmacy"
+        name="Pharmacy College near Tiruppur — JKKN College of Pharmacy, Komarapalayam"
         description="JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25). Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/tiruppur/"
         dateModified="2026-03-27"

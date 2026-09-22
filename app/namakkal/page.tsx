@@ -39,14 +39,14 @@ export default function NamakkalPage() {
 
   const faqs = [
     {
-      question: 'Which is the best pharmacy college in Namakkal?',
+      question: 'Is JKKN College of Pharmacy in Namakkal?',
       answer:
-        'JKKN College of Pharmacy is the top PCI-approved pharmacy college in Namakkal district, located in Komarapalayam on NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 78% placements (2024-25).',
+        'Yes - in Namakkal district. JKKN College of Pharmacy is in Komarapalayam, a town in Namakkal district on NH-544, about 66 km from Namakkal city. It is a PCI-approved pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed teaching hospital, and 78% placements (2024-25).',
     },
     {
-      question: 'What are the best colleges for pharmacy in Namakkal?',
+      question: 'What does JKKN College of Pharmacy offer students from Namakkal district?',
       answer:
-        'JKKN College of Pharmacy is the leading pharmacy institution in Namakkal district with PCI approval and NAAC accreditation. The college provides three pharmacy programmes, modern pharmaceutical learning labs, research facilities, and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
+        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Namakkal district. The college provides three pharmacy programmes, modern pharmaceutical learning labs, research facilities, and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
     },
     {
       question: 'How far is JKKN Pharmacy from Namakkal?',
@@ -254,10 +254,10 @@ export default function NamakkalPage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Learners Choose This Pharmacy College in Namakkal
+            Why Students from Namakkal District Choose JKKN College of Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            Among the best colleges for pharmacy in Namakkal district, JKKN offers quality pharmacy education accessible from Namakkal — 66 km from Namakkal city. Comfortable hostel or daily commute available. Learners can choose what works best for them and still access quality professional pharmacy education.
+            JKKN College of Pharmacy is one of the PCI-approved pharmacy colleges in Namakkal district, in Komarapalayam on NH-544 — 66 km from Namakkal city. Comfortable hostel or daily commute available. Learners can choose what works best for them and still access quality professional pharmacy education.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -331,7 +331,7 @@ export default function NamakkalPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '30 seats',
+                intake: '90 seats (6 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -556,33 +556,6 @@ export default function NamakkalPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Testimonials ── */}
-      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Learners from Namakkal Love JKKN Pharmacy
-          </h2>
-          <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from learners who made the right choice
-          </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
-
-          <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Namakkal to learn about their experience.
-            </p>
-            <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=namakkal"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
-            >
-              Apply Now
-            </a>
           </div>
         </div>
       </section>

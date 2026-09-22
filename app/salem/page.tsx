@@ -39,9 +39,9 @@ export default function SalemPage() {
 
   const faqs = [
     {
-      question: 'Which are the best pharmacy colleges in Salem?',
+      question: 'Is JKKN College of Pharmacy in Salem?',
       answer:
-        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a 500-bed multi-specialty teaching hospital for clinical training.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 58 km from Salem city centre on NH-544 - Salem has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited pharmacy institution affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, it offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a 500-bed multi-specialty teaching hospital for clinical training.',
     },
     {
       question: 'What are the best colleges for pharmacy near Salem district?',
@@ -89,7 +89,7 @@ export default function SalemPage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy Colleges in Salem', url: 'https://pharmacy.jkkn.ac.in/salem/' }
+        { name: 'Pharmacy College near Salem', url: 'https://pharmacy.jkkn.ac.in/salem/' }
       ]} />
       {/* ── EducationalOrganization Schema ── */}
       {/* Organization: a REFERENCE to the site-wide #organization node, not a second
@@ -162,8 +162,8 @@ export default function SalemPage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Pharmacy Colleges in{' '}
-            <span className="text-[#7cb983]">Salem</span> — JKKN College of Pharmacy
+            Pharmacy College near{' '}
+            <span className="text-[#7cb983]">Salem</span> — JKKN College of Pharmacy, Komarapalayam
           </h1>
 
           {/* Description — Snippet Answer */}
@@ -339,7 +339,7 @@ export default function SalemPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '30 seats',
+                intake: '90 seats (6 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -566,33 +566,6 @@ export default function SalemPage() {
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
-      <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Learners from Salem Love JKKN Pharmacy
-          </h2>
-          <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from learners who made the right choice
-          </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
-
-          <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Salem to learn about their experience.
-            </p>
-            <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=salem"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#005a2e] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
-            >
-              Apply Now
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* ── FAQ ── */}
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
@@ -600,7 +573,7 @@ export default function SalemPage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Pharmacy College in Salem — Your Questions Answered
+            Studying pharmacy near Salem — your questions answered
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -733,7 +706,7 @@ export default function SalemPage() {
 
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
-        name="Pharmacy Colleges in Salem — JKKN College of Pharmacy"
+        name="Pharmacy College near Salem — JKKN College of Pharmacy, Komarapalayam"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 58 km from Salem on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/salem/"
         dateModified="2026-07-09"
