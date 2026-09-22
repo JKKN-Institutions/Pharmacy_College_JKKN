@@ -2,10 +2,12 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
-  description: "PCI-approved, NAAC A Grade pharmacy college in Namakkal district. B.Pharm, M.Pharm and Pharm.D. Admissions open for 2026-27.",
+  title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
+  description: "JKKN College of Pharmacy, Komarapalayam - a PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal Bus Stand on the Tiruchengode road. B.Pharm (100 seats), M.Pharm (6 specialisations, 90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Admissions 2026-27 open.",
   keywords: [
     'pharmacy college in namakkal',
+    'best pharmacy colleges in namakkal',
+    'pharmacy colleges in namakkal district',
     'best colleges for pharmacy',
     'pharmacy colleges in namakkal',
     'b pharm college in namakkal',
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/namakkal/',
   },
   openGraph: {
-    title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
+    title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
     description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/namakkal/',
     siteName: 'JKKN College of Pharmacy',
@@ -36,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pharmacy Colleges in Namakkal 2026 — Admission Open | JKKN',
+    title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
     description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },

@@ -110,7 +110,7 @@
 
 ## Location & Accessibility
 
-- Road distances (measured to named landmarks): Erode Junction 21 km, Tiruchengode 26 km, Salem Junction 55 km, Namakkal town 62 km, Tiruppur railway station 64 km, Coimbatore Junction 112 km
+- Road distances (measured to named landmarks): Erode Junction 21 km, Tiruchengode 26 km, Salem Junction 55 km, Namakkal Bus Stand 65 km (Google Maps 2026-09-22; the 2026-09-12 routing read 62 km by the shorter road), Tiruppur railway station 64 km, Coimbatore Junction 112 km
 - Highway: Located on NH-544 (Salem-Coimbatore National Highway) — excellent road connectivity
 - Nearest Railway Stations: Erode Junction (21 km), Salem Junction (55 km)
 - Nearest Airport: Coimbatore International Airport (101 km)
