@@ -61,7 +61,7 @@ export default function NamakkalPage() {
     {
       question: 'What does JKKN College of Pharmacy offer?',
       answer:
-        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, six specialisations, 90 seats), Pharm.D (6 years, 30 seats) and Ph.D. All programmes are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is NAAC accredited.',
+        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, five specialisations, 60 seats), Pharm.D (6 years, 30 seats) and Ph.D. All programmes are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is NAAC accredited.',
     },
     {
       question: 'What were the placements at JKKN College of Pharmacy in 2024-25?',
@@ -168,7 +168,7 @@ export default function NamakkalPage() {
 
           {/* Snippet-optimized paragraph — AEO target */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited, trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (five specialisations, 60 seats), Pharm.D and Ph.D, is NAAC accredited, trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -336,7 +336,7 @@ export default function NamakkalPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '90 seats (6 specialisations)',
+                intake: '60 seats (5 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -652,7 +652,7 @@ export default function NamakkalPage() {
                 <tr className="bg-[#FBFBEE]">
                   <td className="p-3 sm:p-4 font-bold text-[#006837]">JKKN College of Pharmacy</td>
                   <td className="p-3 sm:p-4">Komarapalayam, NH-544 — 65 km from Namakkal Bus Stand, 18 km from Erode</td>
-                  <td className="p-3 sm:p-4">B.Pharm (100 seats), B.Pharm Lateral Entry (10), M.Pharm (6 specialisations, 90 seats), Pharm.D (30), Pharm.D Post Baccalaureate (10), Ph.D — PCI approved, TNMGRMU affiliated, NAAC accredited; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
+                  <td className="p-3 sm:p-4">B.Pharm (100 seats), B.Pharm Lateral Entry (10), M.Pharm (5 specialisations, 60 seats), Pharm.D (30), Pharm.D Post Baccalaureate (10), Ph.D — PCI approved, TNMGRMU affiliated, NAAC accredited; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
                 </tr>
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">Annai JKK Sampoorani Ammal College of Pharmacy</td>
@@ -815,7 +815,7 @@ export default function NamakkalPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy Colleges in Namakkal District — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy, Komarapalayam — PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal town. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF)."
+        description="JKKN College of Pharmacy, Komarapalayam — PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal town. B.Pharm, M.Pharm (60 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF)."
         url="https://pharmacy.jkkn.ac.in/namakkal/"
         dateModified="2026-03-27"
       />

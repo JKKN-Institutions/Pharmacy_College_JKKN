@@ -60,7 +60,7 @@ export default function ErodePage() {
     {
       question: 'What does JKKN College of Pharmacy offer?',
       answer:
-        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, six specialisations, 90 seats) and Pharm.D (6 years, 30 seats). All three are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, five specialisations, 60 seats) and Pharm.D (6 years, 30 seats). All three are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What were the placements at JKKN College of Pharmacy in 2024-25?',
@@ -167,7 +167,7 @@ export default function ErodePage() {
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city; it is one of the closest PCI-approved pharmacy colleges to Erode, offering B.Pharm, M.Pharm (six specialisations, 90 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city; it is one of the closest PCI-approved pharmacy colleges to Erode, offering B.Pharm, M.Pharm (five specialisations, 60 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -335,7 +335,7 @@ export default function ErodePage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '90 seats (6 specialisations)',
+                intake: '60 seats (5 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -655,7 +655,7 @@ export default function ErodePage() {
                 <tr className="bg-[#FBFBEE]">
                   <td className="p-3 sm:p-4 font-bold text-[#006837]">JKKN College of Pharmacy</td>
                   <td className="p-3 sm:p-4">Komarapalayam, Namakkal district — on NH-544</td>
-                  <td className="p-3 sm:p-4">B.Pharm (100 seats), M.Pharm (6 specialisations, 90 seats), Pharm.D (30 seats), Ph.D — PCI approved, affiliated to The Tamil Nadu Dr. M.G.R. Medical University; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
+                  <td className="p-3 sm:p-4">B.Pharm (100 seats), M.Pharm (5 specialisations, 60 seats), Pharm.D (30 seats), Ph.D — PCI approved, affiliated to The Tamil Nadu Dr. M.G.R. Medical University; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">18 km · about 30 min by car</td>
                 </tr>
                 <tr>
@@ -885,7 +885,7 @@ export default function ErodePage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Erode — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy, 18 km from Erode on NH-544 — PCI approved. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Apply 2026-27."
+        description="JKKN College of Pharmacy, 18 km from Erode on NH-544 — PCI approved. B.Pharm, M.Pharm (60 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/erode/"
         dateModified="2026-09-22"
       />

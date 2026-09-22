@@ -179,7 +179,7 @@ export default function SalemPage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats) and Pharm.D (30 seats), is NAAC accredited, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (five specialisations, 60 seats) and Pharm.D (30 seats), is NAAC accredited, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
           </p>
 
           {/* Stats Grid */}
@@ -349,7 +349,7 @@ export default function SalemPage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '90 seats (6 specialisations)',
+                intake: '60 seats (5 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -614,7 +614,7 @@ export default function SalemPage() {
                   { c: 'Vivekanandha Pharmacy College for Women', w: 'Veerachipalayam, Sankari', p: 'D.Pharm, B.Pharm, B.Pharm (Lateral), Pharm.D — women only', i: '100 (TNMGRMU 2025-26 list)', u: 'The TN Dr. M.G.R. Medical University', d: 'about 33 km' },
                   { c: 'SS Institute of Pharmacy', w: 'Manjakalpatti, Sankari', p: 'see the college', i: '60 (TNMGRMU 2025-26 list)', u: 'The TN Dr. M.G.R. Medical University', d: 'about 33 km' },
                   { c: 'The Kaavery Pharmacy College', w: 'M.Kalipatti, Mecheri (Mettur taluk)', p: 'see the college', i: '100 (TNMGRMU 2025-26 list; affiliated from 2024-25)', u: 'The TN Dr. M.G.R. Medical University', d: '66 km' },
-                  { c: 'JKKN College of Pharmacy (not in Salem district)', w: 'Komarapalayam, Namakkal district', p: 'B.Pharm, M.Pharm (6 specialisations), Pharm.D, Ph.D', i: '100 (+10 lateral entry)', u: 'The TN Dr. M.G.R. Medical University', d: '57 km from Salem bus stand' },
+                  { c: 'JKKN College of Pharmacy (not in Salem district)', w: 'Komarapalayam, Namakkal district', p: 'B.Pharm, M.Pharm (5 specialisations), Pharm.D, Ph.D', i: '100 (+10 lateral entry)', u: 'The TN Dr. M.G.R. Medical University', d: '57 km from Salem bus stand' },
                 ].map((r) => (
                   <tr key={r.c} className={r.c.startsWith('JKKN') ? 'bg-[#FBFBEE] font-semibold' : ''}>
                     <td className="px-3 py-2.5 align-top">{r.c}</td>

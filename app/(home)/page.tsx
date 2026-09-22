@@ -24,7 +24,7 @@ export default function Home() {
   const homepageFaqs = [
     {
       question: "What pharmacy courses are offered at JKKN Pharmacy College?",
-      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years) with six specialisations including Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs, Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences."
+      answer: "JKKN College of Pharmacy offers B.Pharm (4 years), M.Pharm (2 years, 60 sanctioned seats across five specialisations - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis and Pharmacy Practice), Pharm.D (6 years), and Ph.D in Pharmaceutical Sciences. Pharmaceutical Regulatory Affairs is being introduced for 2026-27."
     },
     {
       question: "Is JKKN Pharmacy College PCI approved?",
@@ -48,7 +48,7 @@ export default function Home() {
     },
     {
       question: "What M.Pharm specialisations are available?",
-      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
+      answer: "JKKN College of Pharmacy offers 2-year M.Pharm with a sanctioned intake of 60 seats across five specialisations - Pharmaceutics (15), Pharmacology (15), Pharmaceutical Chemistry (10), Pharmaceutical Analysis (10) and Pharmacy Practice (10) - per The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26 and the college's NIRF 2026 submission. Pharmaceutical Regulatory Affairs is being introduced for 2026-27 - confirm its approval and intake with the admissions office. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
     },
     {
       question: "Is hostel accommodation available?",
@@ -68,7 +68,7 @@ export default function Home() {
     },
     {
       question: "Is JKKN among the best pharmacy colleges in Tamil Nadu?",
-      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes."
+      answer: "Yes, JKKN College of Pharmacy is recognised as one of the best pharmacy colleges in Tamil Nadu with NAAC A Grade accreditation, PCI approval, 41 years of pharmaceutical education excellence since 1985, and 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission). The college offers B.Pharm, M.Pharm (60 seats across five specialisations), Pharm.D, and Ph.D programmes."
     }
   ];
 
@@ -91,7 +91,7 @@ export default function Home() {
           { name: "Bachelor of Pharmacy — Lateral Entry", url: "https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/", description: "3-year accelerated B.Pharm programme for Diploma in Pharmacy holders with direct entry into 2nd year. 10 seats available." },
           { name: "Doctor of Pharmacy (Pharm.D)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "6-year doctoral programme (5 years academics + 1 year internship) focusing on clinical pharmacy and patient care. 30 seats." },
           { name: "Pharm.D (Post Baccalaureate)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "3-year clinical pharmacy programme for B.Pharm graduates focusing on patient care and hospital pharmacy. 10 seats." },
-          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
+          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme, 60 sanctioned seats across 5 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
           { name: "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences", url: "https://pharmacy.jkkn.ac.in/phd/", description: "Doctoral research programme in pharmaceutical sciences of minimum 3 years (maximum 6), for advanced research and academic careers." }
         ]}
       />
@@ -113,7 +113,7 @@ export default function Home() {
       />
       <CourseSchema
         name="Master of Pharmacy (M.Pharm)"
-        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
+        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy, 60 sanctioned seats across 5 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
@@ -152,7 +152,7 @@ export default function Home() {
 
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
-                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
+                JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (60 seats across five specialisations), Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
               </p>
             </div>
 
@@ -267,7 +267,7 @@ export default function Home() {
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
-                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (6 specialisations), Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
+                JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (60 seats across five specialisations), Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
               </p>
               <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
@@ -553,7 +553,7 @@ export default function Home() {
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
-                    <span className="text-gray-700 text-xs sm:text-sm">6 specialisations available</span>
+                    <span className="text-gray-700 text-xs sm:text-sm">5 specialisations, 60 seats</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
@@ -1156,7 +1156,7 @@ export default function Home() {
                 {[
                   { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB or PCM (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
-                  { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (50%)', intake: '15 Seats per specialisation, 90 total', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (50%)', intake: '60 seats across 5 specialisations', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                 ].map((p, i) => (
                   <tr key={p.name} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
