@@ -54,7 +54,7 @@ const config: CityLandingConfig = {
   ],
   exploreCities: [
     { city: 'Bhavani', distance: '5 km', href: '/bhavani/' },
-    { city: 'Erode', distance: '22 km', href: '/erode/' },
+    { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Perundurai', distance: '25 km', href: '/perundurai/' },
     { city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
   ],

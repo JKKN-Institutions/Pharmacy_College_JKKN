@@ -264,6 +264,10 @@ export default function BPharmAdmissionPage() {
               <p>* Hostel, mess, transport, exam, library, and other charges are additional.</p>
               <p>* Fees are subject to revision as per university/government directives.</p>
               <p>* Detailed fee breakdown is available in the official prospectus.</p>
+              <p>
+                * Travelling from Erode? The campus is 18 km from Erode Bus Stand on NH-544 -{' '}
+                <a href="/erode/" className="text-[#006837] font-semibold underline">bus routes, travel time and hostel details for Erode students</a>.
+              </p>
             </div>
           </div>
 

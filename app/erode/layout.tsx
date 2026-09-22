@@ -2,9 +2,10 @@ import { Metadata } from 'next'
 import Header from '@/components/Header'
 
 export const metadata: Metadata = {
-  title: 'Pharmacy Colleges in Erode 2026 — Admission Open | JKKN',
-  description: 'PCI-approved, NAAC-accredited pharmacy college 22 km from Erode via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27 — call +91-9345855001.',
+  title: 'Pharmacy College near Erode (18 km) | JKKN College of Pharmacy',
+  description: 'JKKN College of Pharmacy, Komarapalayam - PCI-approved pharmacy college 18 km from Erode Bus Stand on NH-544 (about 30 minutes). B.Pharm, M.Pharm (6 specialisations, 90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Admissions 2026-27 open.',
   keywords: [
+    'pharmacy college near erode',
     'pharmacy college in erode',
     'best colleges for pharmacy',
     'pharmacy colleges in erode',
@@ -19,8 +20,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/erode/',
   },
   openGraph: {
-    title: 'Pharmacy Colleges in Erode 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited pharmacy college 22 km from Erode via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
+    title: 'Pharmacy College near Erode (18 km) | JKKN College of Pharmacy',
+    description: 'JKKN College of Pharmacy, Komarapalayam - PCI-approved pharmacy college 18 km from Erode on NH-544. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Admissions 2026-27 open.',
     url: 'https://pharmacy.jkkn.ac.in/erode/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -30,14 +31,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top Pharmacy College in Erode',
+        alt: 'JKKN College of Pharmacy, Komarapalayam - pharmacy college 18 km from Erode',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pharmacy Colleges in Erode 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited pharmacy college 22 km from Erode via NH-544. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
+    title: 'Pharmacy College near Erode (18 km) | JKKN College of Pharmacy',
+    description: 'PCI-approved pharmacy college 18 km from Erode on NH-544. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF).',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

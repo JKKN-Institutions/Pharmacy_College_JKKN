@@ -443,7 +443,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 {
                   emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
-                  text: 'Erode Junction (~15 km from campus)',
+                  text: 'Erode Junction - 21 km by road',
                 },
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,

@@ -525,9 +525,14 @@ export default function BestPharmacyCollegesTamilNadu() {
               does not publish a highest or average package because no filed
               document records one. The college campus is located on
               NH-544 (Salem-Coimbatore Highway), approximately 45 minutes from
-              Salem and 90 minutes from Erode, within the larger JKKN
+              Salem and about 30 minutes from Erode, within the larger JKKN
               Institutions campus that includes a 500-bed multi-specialty
-              teaching hospital.
+              teaching hospital. For students in Erode district, the campus is
+              18 km from Erode Bus Stand - see the{' '}
+              <Link href="/erode/" className="text-[#006837] font-semibold underline">
+                pharmacy college near Erode
+              </Link>{' '}
+              page for bus routes and hostel options.
             </p>
           </div>
 

@@ -59,7 +59,7 @@ export default function OurInstitutionsPage() {
                 With actively functioning placement cells, JKKN Institutions guarantees promising placements for all learners. Furthermore, valuable partnerships have been established with leading manufacturing and commercial enterprises, facilitating invaluable industrial and corporate exposure for both learners and senior learners.
               </li>
               <li>
-                Located in Komarapalayam, just 15 km from Erode City, Tamil Nadu, India, JKKN Institutions are easily accessible. The Erode railway station and Salem/Coimbatore airports are conveniently nearby, enhancing connectivity for learners from various locations.
+                Located in Komarapalayam, 18 km from Erode Bus Stand, Tamil Nadu, India, JKKN Institutions are easily accessible. The Erode railway station and Salem/Coimbatore airports are conveniently nearby, enhancing connectivity for learners from various locations.
               </li>
               <li>
                 At JKKN Institutions, a culture of commitment, transparency, and teamwork is fostered. The institutions are recognised as knowledge centers that offer abundant opportunities and support, fueling a spirit of initiative and success. JKKN Institutions continuously strives for progressive enhancements to cater to the evolving needs of learners and senior learners.

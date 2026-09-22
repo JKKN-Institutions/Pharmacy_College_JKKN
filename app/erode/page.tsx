@@ -37,46 +37,50 @@ export default function ErodePage() {
     window.open('https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=erode', '_blank');
   };
 
+  // Every distance below is one measured number, not a template value:
+  // Erode Bus Stand -> campus 18.4 km / 28 min by car, Google Maps directions read by the
+  // user on 2026-09-22 (via NH-544 and NH-544H). Erode Junction 21 km is the named-landmark
+  // routing of 2026-09-12 that the contact page and llms.txt already carry.
   const faqs = [
     {
-      question: 'Which is the best pharmacy college in Erode?',
+      question: 'Is JKKN College of Pharmacy in Erode?',
       answer:
-        'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college located 22 km from Erode on NH-544. It offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a 500-bed teaching hospital for clinical training, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem-Coimbatore highway) - about 30 minutes by car. Students from Erode either commute daily by bus or stay in the on-campus hostel.',
     },
     {
-      question: 'What are the best colleges for pharmacy near Erode?',
+      question: 'Which pharmacy colleges are in or near Erode?',
       answer:
-        'JKKN College of Pharmacy near Erode offers three PCI-approved programmes with NAAC accreditation and campus placement support. Located 22 km from Erode via NH-544, it provides modern pharmaceutical learning labs, research facilities, a teaching hospital, and strong industry connections across Tamil Nadu.',
+        'PCI-approved pharmacy colleges with an Erode-district address include The Erode College of Pharmacy (Veppampalayam), Nandha College of Pharmacy, SSM College of Pharmacy, Vellalar College of Pharmacy (Thindal) and KMR College of Pharmacy (Perundurai). JKKN College of Pharmacy is 18 km away in Komarapalayam, Namakkal district, on NH-544.',
     },
     {
-      question: 'How far is JKKN Pharmacy from Erode?',
+      question: 'How do students from Erode reach JKKN College of Pharmacy?',
       answer:
-        'JKKN College of Pharmacy is 22 km from Erode, approximately 35 to 40 minutes by road via NH-544. Regular government and private buses operate from Erode Central Bus Stand to Komarapalayam throughout the day. College transport services are also available.',
+        'Government and private buses run from Erode Central Bus Stand to Komarapalayam through the day; the campus is on NH-544. By car it is 18 km and about 30 minutes. Erode Junction, the nearest major railway station, is 21 km by road. College transport also connects Erode and nearby towns.',
     },
     {
-      question: 'What pharmacy courses are available at pharmacy colleges in Erode?',
+      question: 'What does JKKN College of Pharmacy offer?',
       answer:
-        'JKKN College of Pharmacy near Erode offers three PCI-approved programmes for 2026 admission. These are B.Pharm (Bachelor of Pharmacy, 4 years), M.Pharm (Master of Pharmacy, 2 years), and Pharm.D (Doctor of Pharmacy, 6 years).',
+        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, six specialisations, 90 seats) and Pharm.D (6 years, 30 seats). All three are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+    },
+    {
+      question: 'What were the placements at JKKN College of Pharmacy in 2024-25?',
+      answer:
+        '97 of 124 eligible students were placed in 2024-25, which is 78%. The NIRF 2026 median salary is Rs 4,40,000 for B.Pharm, Rs 6,75,000 for M.Pharm and Rs 4,42,000 for Pharm.D.',
     },
     {
       question: 'Is JKKN College of Pharmacy PCI approved?',
       answer:
-        'JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) for all programmes. All degrees and diplomas awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
+        'JKKN College of Pharmacy is approved by the Pharmacy Council of India (PCI) for all programmes. All degrees awarded are recognised nationally, and graduates are eligible for pharmacist registration across India.',
     },
     {
-      question: 'What are the career options after B.Pharm from a pharmacy college in Erode?',
+      question: 'Does JKKN College of Pharmacy provide hostel for students from Erode?',
       answer:
-        'B.Pharm graduates from JKKN College of Pharmacy pursue careers across seven major sectors. These include pharmaceutical manufacturing, quality assurance, clinical research, hospital pharmacy, drug regulatory affairs, medical sales, and government pharmacist roles through GPAT.',
+        'Yes. Separate hostels for male and female students are on campus. Students from Erode can also commute daily - the campus is about 30 minutes away via NH-544 - and college transport connects Erode and surrounding areas.',
     },
     {
-      question: 'Does JKKN Pharmacy provide hostel for Erode learners?',
+      question: 'How can a student from Erode apply to JKKN College of Pharmacy?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Erode can also commute daily as the campus is 35 to 40 minutes away via NH-544. College transport services connect to Erode and surrounding areas.',
-    },
-    {
-      question: 'How can I apply for admission at JKKN Pharmacy from Erode?',
-      answer:
-        'Learners from Erode can apply online at jkkn.ai/apply/jkkn-admission-2026 or visit the campus at Komarapalayam, 22 km from Erode. Admissions for 2026-27 are currently open for all three pharmacy programmes. Contact the admission office at +91-9345855001 for guidance.',
+        'Apply online at jkkn.ai/apply/jkkn-admission-2026 or visit the campus at Komarapalayam, 18 km from Erode. Admissions for 2026-27 are open for B.Pharm, M.Pharm and Pharm.D. The admission office is on +91-9345855001.',
     },
   ];
 
@@ -84,7 +88,7 @@ export default function ErodePage() {
     <div className="min-h-screen">
       <BreadcrumbListSchema items={[
         { name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' },
-        { name: 'Pharmacy College in Erode', url: 'https://pharmacy.jkkn.ac.in/erode/' }
+        { name: 'Pharmacy College near Erode', url: 'https://pharmacy.jkkn.ac.in/erode/' }
       ]} />
       {/* ── EducationalOrganization + LocalBusiness Schema ── */}
       {/* Organization: a REFERENCE to the site-wide #organization node, not a second
@@ -157,13 +161,13 @@ export default function ErodePage() {
 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
-            Pharmacy College in{' '}
-            <span className="text-[#7cb983]">Erode</span> — JKKN College of Pharmacy
+            Pharmacy College near{' '}
+            <span className="text-[#7cb983]">Erode</span> — JKKN College of Pharmacy, Komarapalayam (18 km)
           </h1>
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 22 km from Erode on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city; it is one of the closest PCI-approved pharmacy colleges to Erode, offering B.Pharm, M.Pharm (six specialisations, 90 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -171,7 +175,7 @@ export default function ErodePage() {
             {[
               { value: '78%', label: 'PLACEMENTS' },
               { value: '97/124', label: 'PLACED 2024-25' },
-              { value: '22km', label: 'FROM ERODE' },
+              { value: '18km', label: 'FROM ERODE' },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
@@ -226,7 +230,7 @@ export default function ErodePage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">22</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">18</span>
               <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
@@ -234,7 +238,7 @@ export default function ErodePage() {
                 From Erode to JKKN Pharmacy
               </h2>
               <p className="text-xs sm:text-sm text-gray-500">
-                35-40 minutes via NH-544 — direct highway connectivity
+                About 30 minutes by car via NH-544 (Google Maps, Erode Bus Stand to campus) — longer by bus
               </p>
             </div>
             <a
@@ -254,10 +258,10 @@ export default function ErodePage() {
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
-            Why Learners Choose This Pharmacy College in Erode Region
+            Why Students from Erode Choose JKKN College of Pharmacy
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
-            Among the top pharmacy colleges in Erode region, JKKN College of Pharmacy stands out for quality education and strong placements. Just 22 km from Erode on NH-544, it is closer than many pharmacy colleges in Erode city itself. The excellent highway connectivity makes daily commute comfortable and quick.
+            JKKN College of Pharmacy is outside Erode city, but for many Erode families it is the practical choice: 18 km on a national highway, daily buses, an on-campus hostel, three PCI-approved programmes and placement figures published in NIRF. Below is what a student from Erode actually gets — and, further down, an honest look at the other pharmacy colleges around Erode.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -291,7 +295,7 @@ export default function ErodePage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: 'Just 22 km from Erode via NH-544. Daily commute or comfortable hostel — your choice.',
+                desc: '18 km from Erode Bus Stand via NH-544 — about 30 minutes by car. Daily commute or on-campus hostel.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -331,7 +335,7 @@ export default function ErodePage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '30 seats',
+                intake: '90 seats (6 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },
@@ -446,7 +450,7 @@ export default function ErodePage() {
                   Erode → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  22 km • 35-40 minutes
+                  18 km • about 30 minutes by car
                 </p>
               </div>
             </div>
@@ -456,7 +460,7 @@ export default function ErodePage() {
                 {
                   emoji: <Navigation className="w-5 h-5 text-gray-600" />,
                   label: 'ROUTE',
-                  text: 'NH-544 — direct highway connectivity',
+                  text: 'NH-544 (Salem–Coimbatore highway) — 18.4 km via NH-544 and NH-544H, 28 minutes by car (Google Maps, 2026-09-22)',
                 },
                 {
                   emoji: <Bus className="w-5 h-5 text-gray-600" />,
@@ -466,7 +470,7 @@ export default function ErodePage() {
                 {
                   emoji: <Train className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST RAILWAY STATION',
-                  text: 'Erode Junction (~22 km from campus)',
+                  text: 'Erode Junction — 21 km by road',
                 },
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
@@ -559,28 +563,146 @@ export default function ErodePage() {
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
+      {/* ── Day scholar or hostel (Erode-only content) ── */}
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-            Learners from Erode Love JKKN Pharmacy
+            From Erode: Day Scholar or Hostel?
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Hear from learners who made the right choice
+            What a student from Erode should weigh before choosing
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm max-w-xl mx-auto">
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
-              Want to hear directly from our learners? Connect with JKKN Pharmacy alumni and current learners from Erode to learn about their experience.
-            </p>
+          <div className="bg-white rounded-xl overflow-x-auto shadow-sm border border-gray-100 text-left">
+            <table className="w-full text-xs sm:text-sm">
+              <thead className="bg-[#006837] text-white">
+                <tr>
+                  <th className="p-3 sm:p-4 font-semibold"></th>
+                  <th className="p-3 sm:p-4 font-semibold">Day scholar from Erode</th>
+                  <th className="p-3 sm:p-4 font-semibold">Hostel on campus</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-700">
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Daily travel</td>
+                  <td className="p-3 sm:p-4">18 km each way on NH-544 — about 30 minutes by car, longer by bus</td>
+                  <td className="p-3 sm:p-4">None — hostel is inside the campus</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">How to get there</td>
+                  <td className="p-3 sm:p-4">Government and private buses from Erode Central Bus Stand to Komarapalayam; college transport connects Erode and nearby towns</td>
+                  <td className="p-3 sm:p-4">Weekend travel home by the same buses</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Accommodation</td>
+                  <td className="p-3 sm:p-4">At home in Erode</td>
+                  <td className="p-3 sm:p-4">Separate hostels for male and female students with mess facility</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Usually chosen by</td>
+                  <td className="p-3 sm:p-4">Students living in Erode city or along NH-544</td>
+                  <td className="p-3 sm:p-4">Students from the outer parts of Erode district and beyond</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Fees</td>
+                  <td className="p-3 sm:p-4" colSpan={2}>
+                    Tuition is the same for both. Programme fees for 2026-27 are on the{' '}
+                    <a href="/fee-structure/" className="text-[#006837] font-semibold underline">fee structure page</a>; hostel charges are given by the admission office on +91-9345855001.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Colleges in and around Erode (honest comparison) ──
+          Added 2026-09-22 by the user's decision: the plural query "pharmacy colleges in erode"
+          is a list intent, and the other pharmacy colleges near Erode are already in every
+          list a searcher sees. Rival rows carry name, town and programmes ONLY — no fees,
+          no placement figures, no links. Sources per row (checked 2026-09-21):
+            ECP      - ecp.ac.in homepage (est. 1992; D.Pharm, B.Pharm, Pharm.D, Pharm.D PB, M.Pharm, Ph.D)
+            Nandha   - nandhapharmacy.org homepage (PCI, TNMGRMU, NBA); programme list from the
+                       Collegedekho Erode listing (B.Pharm, M.Pharm, D.Pharm)
+            SSM      - Google local listing (Chinniampalayam Pudur); programme from the
+                       Collegedekho Erode listing (B.Pharm)
+            Vellalar - vellalarpharmacy.com course menu (D.Pharm, B.Pharm, B.Pharm LE, M.Pharm, Pharm.D)
+            KMR      - Google local listing (Perundurai, Erode); no reachable website that day,
+                       so the programme cell says "see the college", not a guess
+          The only distance printed is the one that was measured. */}
+      <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto text-center">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+            Pharmacy Colleges in and around Erode — an Honest Comparison
+          </h2>
+          <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto">
+            Five PCI-approved pharmacy colleges have an Erode-district address. JKKN College of Pharmacy is the one just across the district line, 18 km from Erode Bus Stand. Here is the whole picture, so you can choose with open eyes.
+          </p>
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+
+          <div className="bg-white rounded-xl overflow-x-auto shadow-sm border border-gray-100 text-left">
+            <table className="w-full text-xs sm:text-sm">
+              <thead className="bg-[#006837] text-white">
+                <tr>
+                  <th className="p-3 sm:p-4 font-semibold">College</th>
+                  <th className="p-3 sm:p-4 font-semibold">Where</th>
+                  <th className="p-3 sm:p-4 font-semibold">Programmes</th>
+                  <th className="p-3 sm:p-4 font-semibold">From Erode Bus Stand</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-700">
+                <tr className="bg-[#FBFBEE]">
+                  <td className="p-3 sm:p-4 font-bold text-[#006837]">JKKN College of Pharmacy</td>
+                  <td className="p-3 sm:p-4">Komarapalayam, Namakkal district — on NH-544</td>
+                  <td className="p-3 sm:p-4">B.Pharm (100 seats), M.Pharm (6 specialisations, 90 seats), Pharm.D (30 seats), Ph.D — PCI approved, affiliated to The Tamil Nadu Dr. M.G.R. Medical University; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">18 km · about 30 min by car</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">The Erode College of Pharmacy &amp; Research Institute</td>
+                  <td className="p-3 sm:p-4">Veppampalayam, Erode</td>
+                  <td className="p-3 sm:p-4">D.Pharm, B.Pharm, Pharm.D, Pharm.D (Post Baccalaureate), M.Pharm, Ph.D — established 1992</td>
+                  <td className="p-3 sm:p-4">Inside Erode district</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Nandha College of Pharmacy</td>
+                  <td className="p-3 sm:p-4">Erode (SH-96)</td>
+                  <td className="p-3 sm:p-4">B.Pharm, M.Pharm, D.Pharm — PCI approved, NBA accredited</td>
+                  <td className="p-3 sm:p-4">Inside Erode district</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">SSM College of Pharmacy</td>
+                  <td className="p-3 sm:p-4">Chinniampalayam Pudur</td>
+                  <td className="p-3 sm:p-4">B.Pharm</td>
+                  <td className="p-3 sm:p-4">Inside Erode district</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">Vellalar College of Pharmacy</td>
+                  <td className="p-3 sm:p-4">Thindal, Erode</td>
+                  <td className="p-3 sm:p-4">D.Pharm, B.Pharm, B.Pharm (Lateral Entry), M.Pharm, Pharm.D</td>
+                  <td className="p-3 sm:p-4">Inside Erode district</td>
+                </tr>
+                <tr>
+                  <td className="p-3 sm:p-4 font-semibold text-gray-900">KMR College of Pharmacy</td>
+                  <td className="p-3 sm:p-4">Perundurai, Erode</td>
+                  <td className="p-3 sm:p-4">Pharmacy programmes — see the college for the current list</td>
+                  <td className="p-3 sm:p-4">Inside Erode district</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[10px] sm:text-xs text-gray-400 mt-3 max-w-2xl mx-auto leading-relaxed">
+            Programme lists for other colleges are taken from their own websites or public listings as of September 2026 and can change — confirm with the college. The JKKN distance is a Google Maps measurement from Erode Bus Stand to the campus (18.4 km, 28 minutes, 22 September 2026).
+          </p>
+
+          <div className="mt-6 sm:mt-8">
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=erode"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#006837] hover:bg-[#005a2e] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
             >
-              Apply Now
+              Apply to JKKN College of Pharmacy — 2026-27
             </a>
           </div>
         </div>
@@ -593,7 +715,7 @@ export default function ErodePage() {
             Frequently Asked Questions
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
-            Pharmacy Colleges in Erode — Your Questions Answered
+            Studying pharmacy near Erode — your questions answered
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
@@ -762,10 +884,10 @@ export default function ErodePage() {
 
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
-        name="Pharmacy College in Erode — JKKN College of Pharmacy"
-        description="JKKN College of Pharmacy near Erode — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 22 km via NH-544, 78% placements (2024-25). Apply 2026-27."
+        name="Pharmacy College near Erode — JKKN College of Pharmacy, Komarapalayam"
+        description="JKKN College of Pharmacy, 18 km from Erode on NH-544 — PCI approved. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/erode/"
-        dateModified="2026-03-27"
+        dateModified="2026-09-22"
       />
     </div>
   );

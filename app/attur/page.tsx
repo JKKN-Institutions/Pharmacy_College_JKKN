@@ -56,7 +56,7 @@ const config: CityLandingConfig = {
     { city: 'Salem', distance: '58 km', href: '/salem/' },
     { city: 'Rasipuram', distance: '60 km', href: '/rasipuram/' },
     { city: 'Namakkal', distance: '66 km', href: '/namakkal/' },
-    { city: 'Erode', distance: '22 km', href: '/erode/' },
+    { city: 'Erode', distance: '18 km', href: '/erode/' },
   ],
   dateModified: '2026-07-09',
 };
