@@ -168,7 +168,7 @@ export default function NamakkalPage() {
 
           {/* Snippet-optimized paragraph — AEO target */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited, has a 500-bed multi-specialty teaching hospital on campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited, trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -621,12 +621,12 @@ export default function NamakkalPage() {
           programmes ONLY - no fees, no placement figures, no links. Sources (2026-09-21/22):
             JKKN     - own site
             Annai JKK Sampoorani Ammal CoP - jkkmmrfpharmacy.edu.in (B.Pharm, Pharm.D, M.Pharm; PCI, TNMGRMU); Google local listing: Komarapalayam
-            Excel CoP - Google local listing (Komarapalayam / Pallakkapalayam); Collegedekho + Collegedunia Namakkal lists; programmes not read from its own site
+            Excel CoP - excelinstitutions.com/excel_pharmacy/ course menu (D.Pharm, B.Pharm, B.Pharm Lateral, Pharm.D, M.Pharm Pharmaceutics + Pharmacy Practice); Google local listing: Pallakkapalayam
             Swamy Vivekanandha CoP - svcop.ac.in (D.Pharm, B.Pharm, B.Pharm LE, Pharm.D girls-only; M.Pharm and Ph.D co-ed; NBA)
             KSR CoP  - ksrpharmacy.ac.in (B.Pharm, B.Pharm LE, D.Pharm)
-            Senghundhar CoP - Google local listing (Kumaramangalam, Tiruchengode); Collegedekho list; programmes not read
-            PGP CoP  - Collegedunia + Collegedekho + Shiksha Namakkal lists; programmes not read
-            Paavai CoP - Shiksha list + Google local listing (Kalyani / Pachal, Namakkal); programmes not read
+            Senghundhar CoP - scopt.edu.in about + academic pages (est. 2017, PCI, TNMGRMU; D.Pharm, B.Pharm, M.Pharm)
+            PGP CoP  - Collegedunia + Collegedekho + Shiksha Namakkal lists; pgpcollegeofpharmacy.com unreachable 2026-09-22 - programmes not read
+            Paavai CoP - Shiksha list + Google local listing (Kalyani / Pachal, Namakkal); paavai.edu.in has no reachable pharmacy page 2026-09-22 - programmes not read
             KGPC     - kgpc.edu.in (B.Pharm, 100 seats, since 2019-20; PCI, TNMGRMU)
           The only distance printed is the one the user measured (JKKN -> Namakkal Bus Stand). */}
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
@@ -662,7 +662,7 @@ export default function NamakkalPage() {
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">Excel College of Pharmacy</td>
                   <td className="p-3 sm:p-4">Pallakkapalayam, Komarapalayam</td>
-                  <td className="p-3 sm:p-4">Pharmacy programmes — see the college for the current list</td>
+                  <td className="p-3 sm:p-4">D.Pharm, B.Pharm, B.Pharm Lateral Entry, Pharm.D, M.Pharm (Pharmaceutics, Pharmacy Practice)</td>
                 </tr>
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">Swamy Vivekanandha College of Pharmacy</td>
@@ -677,7 +677,7 @@ export default function NamakkalPage() {
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">Senghundhar College of Pharmacy</td>
                   <td className="p-3 sm:p-4">Kumaramangalam, Tiruchengode</td>
-                  <td className="p-3 sm:p-4">Pharmacy programmes — see the college for the current list</td>
+                  <td className="p-3 sm:p-4">D.Pharm, B.Pharm, M.Pharm — PCI approved, TNMGRMU affiliated, established 2017</td>
                 </tr>
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">PGP College of Pharmaceutical Science and Research</td>
