@@ -481,8 +481,8 @@ export default function BestPharmacyCollegesTamilNadu() {
               document records one. The college campus is located on
               NH-544 (Salem-Coimbatore Highway), about an hour from
               Salem (57 km) and about 30 minutes from Erode, within the larger JKKN
-              Institutions campus that includes a 500-bed multi-specialty
-              teaching hospital. For students in Erode district, the campus is
+              Institutions campus that includes a teaching
+              hospital. For students in Erode district, the campus is
               18 km from Erode Bus Stand - see the{' '}
               <Link href="/erode/" className="text-[#006837] font-semibold underline">
                 pharmacy college near Erode
@@ -544,7 +544,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             JKKN College of Pharmacy is part of the larger JKKN Institutions
             campus on NH-544 (Salem-Coimbatore Highway) in Komarapalayam,
             Namakkal. Learners benefit from clinical training at the on-campus
-            500-bed teaching hospital from Year 1. The pharmacy
+            teaching hospital from Year 1. The pharmacy
             college features dedicated pharmaceutical chemistry, pharmacology,
             pharmaceutics, and pharmaceutical analysis learning labs. The campus
             serves learners from Salem, Erode, Namakkal, Tiruchengode, Karur,
