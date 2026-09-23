@@ -91,7 +91,7 @@ export default function Home() {
           { name: "Bachelor of Pharmacy — Lateral Entry", url: "https://pharmacy.jkkn.ac.in/b-pharmacy-lateral-entry/", description: "3-year accelerated B.Pharm programme for Diploma in Pharmacy holders with direct entry into 2nd year. 10 seats available." },
           { name: "Doctor of Pharmacy (Pharm.D)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "6-year doctoral programme (5 years academics + 1 year internship) focusing on clinical pharmacy and patient care. 30 seats." },
           { name: "Pharm.D (Post Baccalaureate)", url: "https://pharmacy.jkkn.ac.in/pharm-d/", description: "3-year clinical pharmacy programme for B.Pharm graduates focusing on patient care and hospital pharmacy. 10 seats." },
-          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice. 60 seats." },
+          { name: "Master of Pharmacy (M.Pharm)", url: "https://pharmacy.jkkn.ac.in/m-pharmacy/", description: "2-year postgraduate programme with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs. 15 seats each, 90 in total." },
           { name: "Doctor of Philosophy (Ph.D) in Pharmaceutical Sciences", url: "https://pharmacy.jkkn.ac.in/phd/", description: "Doctoral research programme in pharmaceutical sciences of minimum 3 years (maximum 6), for advanced research and academic careers." }
         ]}
       />
@@ -113,7 +113,7 @@ export default function Home() {
       />
       <CourseSchema
         name="Master of Pharmacy (M.Pharm)"
-        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, and Pharmacy Practice."
+        description="2-year postgraduate pharmacy programme at JKKN College of Pharmacy with 6 specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs - 15 seats each, 90 in total."
         duration="P2Y"
         provider="JKKN College of Pharmacy"
         url="https://pharmacy.jkkn.ac.in/m-pharmacy/"
