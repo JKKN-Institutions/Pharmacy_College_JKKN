@@ -48,6 +48,11 @@ export default function ErodePage() {
         'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem-Coimbatore highway) - about 30 minutes by car. Students from Erode either commute daily by bus or stay in the on-campus hostel.',
     },
     {
+      question: 'Which colleges offer Pharm.D in Erode district?',
+      answer:
+        'Six colleges in Erode district are on The Tamil Nadu Dr. M.G.R. Medical University\u2019s Pharm.D affiliation list for 2025-26, each with 30 sanctioned seats \u2014 180 in all: The Erode College of Pharmacy (Perundurai Main Road), Nandha College of Pharmacy, Vellalar College of Pharmacy (Thindal), JKK Munirajah Institute (Thookanaickenpalayam), S.S.M. College of Pharmacy (Jambai) and Shree Venkateshwara College of Paramedical Sciences (Gobichettipalayam). JKKN College of Pharmacy is not in Erode district \u2014 it is 18 km away in Komarapalayam, Namakkal district, and also offers Pharm.D with 30 seats. There are no government Pharm.D colleges in Tamil Nadu: the university\u2019s list has no government section and all 52 affiliated Pharm.D colleges are self-financing.',
+    },
+    {
       question: 'Which pharmacy colleges are in or near Erode?',
       answer:
         'PCI-approved pharmacy colleges with an Erode-district address include The Erode College of Pharmacy (Veppampalayam), Nandha College of Pharmacy, SSM College of Pharmacy, Vellalar College of Pharmacy (Thindal) and KMR College of Pharmacy (Perundurai). JKKN College of Pharmacy is 18 km away in Komarapalayam, Namakkal district, on NH-544.',

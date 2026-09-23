@@ -55,6 +55,11 @@ export default function SalemPage() {
         'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544 (about an hour by car) - Salem district has pharmacy colleges of its own, listed on this page. JKKN is PCI-approved, NAAC-accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai; it offers B.Pharm, M.Pharm and Pharm.D, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data).',
     },
     {
+      question: 'Which colleges offer Pharm.D in Salem district?',
+      answer:
+        'Only two colleges in Salem district are on The Tamil Nadu Dr. M.G.R. Medical University\u2019s Pharm.D affiliation list for 2025-26, with 30 sanctioned seats each \u2014 60 in all: Sri Shanmugha College of Pharmacy (Morur, Sankari taluk) and Vivekanandha Pharmacy College for Women (Veerachipalayam, Sankari West, women only). Neighbouring Namakkal district has seven Pharm.D colleges and 210 seats, and Erode six with 180. JKKN College of Pharmacy, 57 km from Salem in Komarapalayam, is one of the Namakkal seven and offers 30 Pharm.D seats. There are no government Pharm.D colleges in Tamil Nadu: the university\u2019s list has no government section and all 52 affiliated Pharm.D colleges are self-financing.',
+    },
+    {
       question: 'Which pharmacy colleges are in Salem district?',
       answer:
         'The Tamil Nadu Dr. M.G.R. Medical University B.Pharm affiliation list for 2025-26 (published 11 August 2026) carries four self-financing pharmacy colleges in Salem district - Sri Shanmugha College of Pharmacy (Morur, Sankari; B.Pharm 100, Pharm.D 30, M.Pharm 30), Vivekanandha Pharmacy College for Women (Veerachipalayam, Sankari; B.Pharm 100, Pharm.D 30), SS Institute of Pharmacy (Manjakalpatti, Sankari; B.Pharm 60) and The Kaavery Pharmacy College (Mecheri, Mettur taluk; B.Pharm 100, first affiliated 2024-25). Vinayaka Mission’s College of Pharmacy in Salem city belongs to a deemed university and is not on that list. JKKN College of Pharmacy is outside the district, in Komarapalayam - 21 km from Morur and 31 km from Edappadi by road.',
