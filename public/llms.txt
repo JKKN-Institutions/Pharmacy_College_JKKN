@@ -12,7 +12,7 @@
 
 - [Wikidata](https://www.wikidata.org/wiki/Q48733446): entity Q48733446, labelled "J.K.K. Nattraja College of Pharmacy", inception 1985
 - [Google Business Profile](https://maps.app.goo.gl/dbVYZkJkkCnHcLkx7): the verified location pin, 11.4449861 / 77.7307333
-- NIRF Ranking: Band 151-200 (2024)
+- NIRF: participating institution in the Pharmacy category (2024, 2025, 2026 submissions filed). NIRF publishes Pharmacy ranks 1-100 plus a 101-125 band; JKKN is not in either, so no rank or band is claimed.
 - Parent Organization Wikidata: JKK Nattraja Educational Institutions
 
 ## Institution Overview
@@ -37,7 +37,7 @@
 - Pharmacy Council of India (PCI) — Approved
 - National Assessment and Accreditation Council (NAAC) — A Grade, Cycle 1
 - Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai
-- NIRF (National Institutional Ranking Framework) — Band 151-200 (2024)
+- NIRF (National Institutional Ranking Framework) — participating institution, Pharmacy category (2024, 2025, 2026)
 
 ## Programmes Offered
 
@@ -151,7 +151,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 - [Placements](https://pharmacy.jkkn.ac.in/placements/): rates, packages and recruiters
 - [Placement Cell](https://pharmacy.jkkn.ac.in/placement-cell/): how the cell works
 - [NAAC](https://pharmacy.jkkn.ac.in/naac/): A Grade, Cycle 1
-- [NIRF](https://pharmacy.jkkn.ac.in/nirf/): Band 151-200 in the 2024 Pharmacy cycle, plus the 2024, 2025 and 2026 submission documents
+- [NIRF](https://pharmacy.jkkn.ac.in/nirf/): participating institution in the Pharmacy category, with the 2024, 2025 and 2026 submission documents
 - [Contact](https://pharmacy.jkkn.ac.in/contact/): phone, email and address
 
 ## Social Media

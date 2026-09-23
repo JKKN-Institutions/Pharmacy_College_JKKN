@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'What are the top pharmacy colleges in Tamil Nadu?',
     answer:
-      'The top pharmacy colleges in Tamil Nadu based on NIRF 2025 rankings are JSS College of Pharmacy, Ooty (#4 nationally), SRM College of Pharmacy, Chennai (#10), Annamalai University, Chidambaram (#27), Sri Ramachandra Institute, Chennai (#36), and PSG College of Pharmacy, Coimbatore (#65). Tamil Nadu has 146 PCI-approved pharmacy colleges affiliated to Tamil Nadu Dr. M.G.R. Medical University and other state universities.',
+      'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so a NIRF rank covers only a fraction of them.',
   },
   {
     question:
@@ -73,78 +73,27 @@ const faqs = [
 ];
 
 const collegeRankings = [
-  {
-    rank: 1,
-    name: 'JSS College of Pharmacy',
-    location: 'Ooty',
-    nirf: '#4',
-    naac: 'A+',
-    placement: 'High',
-    usp: 'ACPE international certification',
-  },
-  {
-    rank: 2,
-    name: 'SRM College of Pharmacy',
-    location: 'Chennai',
-    nirf: '#10',
-    naac: 'A++',
-    placement: 'High',
-    usp: '8 UG + 3 PG NBA-accredited programs',
-  },
-  {
-    rank: 3,
-    name: 'Annamalai University (Pharmacy)',
-    location: 'Chidambaram',
-    nirf: '#27',
-    naac: 'A+',
-    placement: '90%',
-    usp: '97-year legacy, 12 LPA average package',
-  },
-  {
-    rank: 4,
-    name: 'Sri Ramachandra Institute (SRIHER)',
-    location: 'Chennai',
-    nirf: '#36',
-    naac: 'A++',
-    placement: 'High',
-    usp: 'Strong institutional research support',
-  },
-  {
-    rank: 5,
-    name: 'PSG College of Pharmacy',
-    location: 'Coimbatore',
-    nirf: '#65',
-    naac: '—',
-    placement: '63%',
-    usp: 'ISO 9001, SIRO status, 500-bed hospital',
-  },
-  {
-    rank: 6,
-    name: 'KMCH College of Pharmacy',
-    location: 'Coimbatore',
-    nirf: '100-125',
-    naac: 'NBA',
-    placement: 'Moderate',
-    usp: 'NBA accredited, clinical exposure',
-  },
-  {
-    rank: 7,
-    name: 'Madras Medical College',
-    location: 'Chennai',
-    nirf: '#94',
-    naac: '—',
-    placement: 'Moderate',
-    usp: 'Government institution, legacy status',
-  },
-  {
-    rank: 8,
-    name: 'JKKN College of Pharmacy',
-    location: 'Namakkal',
-    nirf: '151-200',
-    naac: 'A',
-    placement: '78%',
-    usp: '41-year legacy, PCI approved, 500-bed hospital',
-  },
+  // Every Tamil Nadu institution NIRF 2025 ranks in Pharmacy (1-100), in rank order, read
+  // from https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html on 2026-09-23, plus
+  // the one Tamil Nadu entry in that year's published band (102-125), plus JKKN.
+  // NAAC grade and placement carry an em dash where we could not read the college's own
+  // published figure - a rival's number is never estimated.
+  // The previous table listed eight colleges, gave Annamalai its 2024 rank (#27) under a
+  // "NIRF 2025" heading, and omitted Amrita (#14), Vels (#61), Nandha (#77), Kalasalingam
+  // (#96) and Vinayaka Mission's (#99), every one of which NIRF 2025 ranks.
+  { rank: 1,  name: 'JSS College of Pharmacy',                        location: 'Ooty',                    nirf: '#4',   naac: 'A+',  placement: '—', usp: 'Highest-ranked pharmacy institution in Tamil Nadu (NIRF 2025 score 76.14)' },
+  { rank: 2,  name: 'SRM Institute of Science and Technology',        location: 'Chennai',                 nirf: '#10',  naac: 'A++', placement: '—', usp: 'Deemed university, NBA-accredited pharmacy programmes' },
+  { rank: 3,  name: 'Amrita Vishwa Vidyapeetham',                     location: 'Coimbatore',              nirf: '#14',  naac: 'A++', placement: '—', usp: 'Deemed university with a health-sciences campus' },
+  { rank: 4,  name: 'Sri Ramachandra Institute (SRIHER)',             location: 'Chennai',                 nirf: '#36',  naac: 'A++', placement: '—', usp: 'Health-sciences deemed university, hospital-based clinical training' },
+  { rank: 5,  name: 'Annamalai University',                           location: 'Annamalainagar',          nirf: '#42',  naac: 'A+',  placement: '—', usp: 'State university with a long-established pharmacy faculty' },
+  { rank: 6,  name: 'Vels Institute (VISTAS)',                        location: 'Chennai',                 nirf: '#61',  naac: 'A++', placement: '—', usp: 'Deemed university, B.Pharm through to Ph.D' },
+  { rank: 7,  name: 'PSG College of Pharmacy',                        location: 'Coimbatore',              nirf: '#65',  naac: '—', placement: '—', usp: 'PSG group; affiliated to The TN Dr. M.G.R. Medical University' },
+  { rank: 8,  name: 'Nandha College of Pharmacy',                     location: 'Erode',                   nirf: '#77',  naac: '—', placement: '—', usp: 'The highest NIRF-ranked pharmacy college in the Kongu belt' },
+  { rank: 9,  name: 'College of Pharmacy, Madras Medical College',    location: 'Chennai',                 nirf: '#94',  naac: '—', placement: '—', usp: 'One of only two government pharmacy colleges in Tamil Nadu' },
+  { rank: 10, name: 'Arulmigu Kalasalingam College of Pharmacy',      location: 'Srivilliputtur',          nirf: '#96',  naac: '—', placement: '—', usp: 'Affiliated to The TN Dr. M.G.R. Medical University' },
+  { rank: 11, name: "Vinayaka Mission's Research Foundation",         location: 'Salem',                   nirf: '#99',  naac: '—', placement: '—', usp: "Deemed university; its pharmacy college is the one inside Salem city" },
+  { rank: 12, name: 'KMCH College of Pharmacy',                       location: 'Coimbatore',              nirf: 'Band 102-125', naac: '—', placement: '—', usp: 'The only Tamil Nadu pharmacy college in the NIRF 2025 published band' },
+  { rank: 13, name: 'JKKN College of Pharmacy',                       location: 'Komarapalayam, Namakkal', nirf: 'Participating institution', naac: 'A', placement: '78%', usp: 'PCI approved, NAAC A Grade; 97 of 124 placed in 2024-25 (NIRF 2026 submission)' },
 ];
 
 export default function BestPharmacyCollegesTamilNadu() {
@@ -155,7 +104,7 @@ export default function BestPharmacyCollegesTamilNadu() {
       {/* Schema Markup */}
       <ArticleSchema
         headline="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements, Admission"
-        description="Comprehensive comparison of top pharmacy colleges in Tamil Nadu based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."
+        description="Comprehensive comparison of the top pharmacy colleges in Tamil Nadu (tamilnadu) based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
         datePublished="2026-03-18"
         dateModified="2026-03-24"
@@ -178,7 +127,7 @@ export default function BestPharmacyCollegesTamilNadu() {
       {/* BreadcrumbList JSON-LD comes from app/blog/layout.tsx (the visible trail); the page-level copy was removed 2026-09-18. */}
       <ItemListSchema
         name="Best Pharmacy Colleges in Tamil Nadu 2026"
-        description="Top 8 pharmacy colleges in Tamil Nadu ranked by NIRF 2025, NAAC grade, placement rate, and fees."
+        description="Every Tamil Nadu institution in the NIRF 2025 Pharmacy ranking, with NAAC grade, placement and fees."
         items={collegeRankings.map((c) => ({
           name: c.name,
           url:
@@ -272,13 +221,13 @@ export default function BestPharmacyCollegesTamilNadu() {
 
           {/* Snippet paragraph — 40-60 word summary for featured snippet extraction */}
           <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
-            The best pharmacy colleges in Tamil Nadu are JSS College of Pharmacy (Ooty, NIRF #4), SRM College of Pharmacy (Chennai, NIRF #10), Annamalai University (Chidambaram, NIRF #27), and JKKN College of Pharmacy (Namakkal, 78% placement rate 2024-25). Tamil Nadu has 146 PCI-approved pharmacy colleges offering B.Pharm, M.Pharm, Pharm.D, and D.Pharm programs.
+            NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy (Ooty, #4 nationally), SRM Institute of Science and Technology (Chennai, #10) and Amrita Vishwa Vidyapeetham (Coimbatore, #14). Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so most — including JKKN College of Pharmacy, Komarapalayam, which placed 97 of 124 in 2024-25 — carry no NIRF rank. Rank is one signal; approval, accreditation, seats, fees and placement are the others.
           </p>
 
           {/* Snippet-optimized table — immediately below snippet paragraph */}
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm sm:text-base">
-              <caption className="text-left text-xs text-gray-500 mb-2">Table: Top 8 pharmacy colleges in Tamil Nadu ranked by NIRF 2025, NAAC grade, and placement rate</caption>
+              <caption className="text-left text-xs text-gray-500 mb-2">Table: every Tamil Nadu institution in the NIRF 2025 Pharmacy ranked list (1-100) and its published 102-125 band, in rank order, plus JKKN. Source: <a href="https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">NIRF 2025 Pharmacy ranking</a>, read 23 September 2026.</caption>
               <thead>
                 <tr className="bg-blue-900 text-white">
                   <th className="px-3 py-3 text-left font-semibold">

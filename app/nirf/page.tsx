@@ -13,7 +13,7 @@ export default function NIRFPage() {
             NIRF Rankings — JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mb-6 sm:mb-8">
-            JKKN College of Pharmacy participates in the National Institutional Ranking Framework (NIRF) by the Ministry of Education, Government of India. The college has been ranked in the <strong>151–200 band</strong> in the Pharmacy category (2024 cycle).
+            JKKN College of Pharmacy participates in the National Institutional Ranking Framework (NIRF) by the Ministry of Education, Government of India. It has filed Pharmacy submissions for the 2024, 2025 and 2026 cycles and appears on NIRF’s List of Participating Institutions for Pharmacy in 2024 and 2025. NIRF publishes Pharmacy ranks 1 to 100 plus a single band (101-125 in 2024, 102-125 in 2025); JKKN does not appear in either, so the college claims no NIRF rank or band.
           </p>
         </div>
       </section>
@@ -40,7 +40,7 @@ export default function NIRFPage() {
                 <tr className="bg-white">
                   <td className="border border-gray-200 px-4 sm:px-6 py-3 font-medium">2024</td>
                   <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy</td>
-                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-semibold text-[#006837]">Band 151–200</td>
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-semibold text-[#006837]">Participating institution</td>
                   <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy, Innovation</td>
                 </tr>
                 <tr className="bg-gray-50">
