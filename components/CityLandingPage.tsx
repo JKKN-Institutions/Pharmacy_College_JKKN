@@ -18,6 +18,13 @@ export interface ExploreCity {
   href: string;
 }
 
+// Distances on every town page that uses this component were measured 2026-09-23 with OSRM
+// road routing, from the campus pin in components/SchemaOrg.tsx (11.4449861, 77.7307333) to a
+// place/town pin for the town. Control: Salem reads 56.3 km against the user's Google Maps
+// reading of 56.9 km on 2026-09-22, so the method is good to about a kilometre. A bus-stand
+// endpoint and a town centroid legitimately differ by about 3 km (Erode: Maps 18.4 to the bus
+// stand, OSRM 21.0 to the centroid), so only differences of 3 km or more were corrected.
+// Do NOT replace these with round numbers again - every one of them was round before.
 export interface CityLandingConfig {
   /** Display name, e.g. 'Tiruchengode' */
   city: string;

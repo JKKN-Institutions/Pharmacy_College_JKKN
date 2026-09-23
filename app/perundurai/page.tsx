@@ -6,35 +6,35 @@ const config: CityLandingConfig = {
   city: 'Perundurai',
   slug: 'perundurai',
   district: 'Erode',
-  distance: '25 km',
+  distance: '29 km',
   travelTime: '~35-45 minutes',
   routeText: 'Via the Erode/Chithode side connecting to NH-544 towards Komarapalayam',
   busText: 'Direct buses operate on the Perundurai–Komarapalayam route, with frequent connections via Erode',
   pageTitle: 'Pharmacy College near Perundurai',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 25 km from Perundurai, located in Komarapalayam near Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 29 km from Perundurai, located in Komarapalayam near Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
   whyText:
-    'Perundurai is a fast-growing education and industrial hub of Erode district, and JKKN is only about 25 km away — an easy commute. Learners from Perundurai get a PCI-approved pharmacy degree close to home, with both daily-commute and hostel options.',
+    'Perundurai is a fast-growing education and industrial hub of Erode district, and JKKN is only about 29 km away — an easy commute. Learners from Perundurai get a PCI-approved pharmacy degree close to home, with both daily-commute and hostel options.',
   commuteText:
-    'About 25 km from Perundurai — 35-45 minutes. Daily commute by bus is practical; hostel is also available.',
+    'About 29 km from Perundurai — 35-45 minutes. Daily commute by bus is practical; hostel is also available.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 25 km from Perundurai in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a 500-bed multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 29 km from Perundurai in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
   areaServed: ['Perundurai', 'Erode', 'Komarapalayam', 'Chithode'],
   faqs: [
     {
-      question: 'Which is the nearest pharmacy college to Perundurai?',
+      question: 'Which pharmacy college is near Perundurai?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 25 km from Perundurai — a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital for clinical training and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 29 km from Perundurai — a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Perundurai?',
       answer:
-        'JKKN College of Pharmacy is approximately 25 km from Perundurai, around 35-45 minutes by road via the Erode/Chithode side. Direct buses operate on the Perundurai–Komarapalayam route, and connections via Erode run frequently through the day.',
+        'JKKN College of Pharmacy is approximately 29 km from Perundurai, around 35-45 minutes by road via the Erode/Chithode side. Direct buses operate on the Perundurai–Komarapalayam route, and connections via Erode run frequently through the day.',
     },
     {
       question: 'Can learners from Perundurai commute daily to JKKN Pharmacy?',
       answer:
-        'Yes. At about 25 km, daily commute from Perundurai takes 35-45 minutes by bus. Learners who prefer to stay on campus can opt for the separate boys and girls hostels with mess facilities and WiFi.',
+        'Yes. At about 29 km, daily commute from Perundurai takes 35-45 minutes by bus. Learners who prefer to stay on campus can opt for the separate boys and girls hostels with mess facilities and WiFi.',
     },
     {
       question: 'What pharmacy courses can I study after 12th near Perundurai?',
@@ -54,9 +54,9 @@ const config: CityLandingConfig = {
   ],
   exploreCities: [
     { city: 'Erode', distance: '18 km', href: '/erode/' },
-    { city: 'Gobichettipalayam', distance: '33 km', href: '/gobichettipalayam/' },
+    { city: 'Gobichettipalayam', distance: '37 km', href: '/gobichettipalayam/' },
     { city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
-    { city: 'Coimbatore', distance: '105 km', href: '/coimbatore/' },
+    { city: 'Coimbatore', distance: '112 km', href: '/coimbatore/' },
   ],
   dateModified: '2026-07-09',
 };

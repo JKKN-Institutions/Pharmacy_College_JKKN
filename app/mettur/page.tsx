@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Buses connect Mettur and Komarapalayam via the Bhavani route through the day',
   pageTitle: 'Pharmacy College near Mettur',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 45 km from Mettur, located in Komarapalayam on the Kaveri belt via Bhavani. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 45 km from Mettur, located in Komarapalayam on the Kaveri belt via Bhavani. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
   whyText:
     'Mettur, the dam town of Salem district, is about 45 km from JKKN — roughly an hour along the Kaveri belt via Bhavani. Learners from Mettur can commute or use the campus hostel, getting a PCI-approved pharmacy education without moving to a metro city.',
   commuteText:
     'About 45 km from Mettur via Bhavani — around 1 hour. Daily commute is possible; many learners prefer the campus hostel.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 45 km from Mettur in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a 500-bed multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 45 km from Mettur in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
   areaServed: ['Mettur', 'Bhavani', 'Salem', 'Komarapalayam'],
   faqs: [
     {
-      question: 'Which is the nearest pharmacy college to Mettur?',
+      question: 'Which pharmacy college is near Mettur?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 45 km from Mettur via the Bhavani route — a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a 500-bed teaching hospital and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 45 km from Mettur via the Bhavani route — a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Mettur?',
@@ -54,8 +54,8 @@ const config: CityLandingConfig = {
   ],
   exploreCities: [
     { city: 'Salem', distance: '57 km', href: '/salem/' },
-    { city: 'Bhavani', distance: '5 km', href: '/bhavani/' },
-    { city: 'Sankagiri', distance: '15 km', href: '/sankagiri/' },
+    { city: 'Bhavani', distance: '8 km', href: '/bhavani/' },
+    { city: 'Sankagiri', distance: '16 km', href: '/sankagiri/' },
     { city: 'Erode', distance: '18 km', href: '/erode/' },
   ],
   dateModified: '2026-07-09',
