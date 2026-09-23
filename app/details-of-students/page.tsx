@@ -44,15 +44,16 @@ export default function DetailsOfStudentsPage() {
           {/* M.Pharm */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
             <div className="bg-[#006837] px-8 py-5">
-              <h2 className="text-base sm:text-lg font-bold text-white">M.Pharm : 60 seats</h2>
+              <h2 className="text-base sm:text-lg font-bold text-white">M.Pharm : 90 seats</h2>
             </div>
             <ul className="p-8 space-y-4">
               {[
                 'Branch I – Pharmaceutics – 15 Seats',
-                'Branch II – Pharm. Chemistry – 10 Seats',
+                'Branch II – Pharm. Chemistry – 15 Seats',
                 'Branch IV – Pharmacology – 15 Seats',
-                'Branch VI – Pharm. Analysis – 10 Seats',
-                'Branch VII – Pharmacy Practice – 10 Seats',
+                'Branch VI – Pharm. Analysis – 15 Seats',
+                'Branch VII – Pharmacy Practice – 15 Seats',
+                'Pharm. Regulatory Affairs – 15 Seats (new for 2026-27)',
               ].map((branch, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
