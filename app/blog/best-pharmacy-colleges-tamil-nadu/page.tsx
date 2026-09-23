@@ -26,7 +26,7 @@ import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 
 const faqs = [
   {
-    question: 'What are the top pharmacy colleges in Tamil Nadu?',
+    question: 'What are the top pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
       'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so a NIRF rank covers only a fraction of them.',
   },
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question:
-      'How much are the fees for pharmacy colleges in Tamil Nadu?',
+      'How much are the fees for pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
       'B.Pharm fees in Tamil Nadu range from INR 40,000 per year (government colleges) to INR 2.5 lakh per year (private colleges). SRM charges approximately INR 1.85 lakh, KMCH charges INR 1.12 lakh, and PSG charges INR 1.97 lakh annually. M.Pharm fees range from INR 50,000 to INR 3 lakh per year. Pharm.D (Doctor of Pharmacy) fees range from INR 80,000 to INR 4 lakh per year.',
   },
@@ -47,6 +47,12 @@ const faqs = [
       'What is the eligibility for pharmacy college admission in Tamil Nadu?',
     answer:
       'B.Pharm eligibility requires 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% aggregate (45% for reserved categories). NEET UG score is recommended. Pharm.D requires the same 10+2 qualification. M.Pharm requires a B.Pharm degree with minimum 55% and GPAT score is preferred. D.Pharm (Diploma) requires 10+2 pass in science stream. All programs must be from PCI-approved institutions.',
+  },
+  {
+    question:
+      'Which is the best college for pharmacy in Tamil Nadu (tamilnadu)?',
+    answer:
+      'No single college is "the best" for everyone, and no body awards that title. NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy, Ooty at #4 nationally - but only eleven of the state’s 146 PCI-approved colleges carry a rank at all, so a rank cannot decide it for most applicants. Compare four published facts instead: PCI approval and university affiliation, NAAC or NBA accreditation, sanctioned seats per programme, and the placement figure the college files with NIRF. JKKN College of Pharmacy, Komarapalayam, is PCI-approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%).',
   },
   {
     question: 'Which colleges offer Pharm.D in Tamil Nadu?',
@@ -538,7 +544,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             JKKN College of Pharmacy is part of the larger JKKN Institutions
             campus on NH-544 (Salem-Coimbatore Highway) in Komarapalayam,
             Namakkal. Learners benefit from clinical training at the on-campus
-            500-bed multi-specialty teaching hospital from Year 1. The pharmacy
+            500-bed teaching hospital from Year 1. The pharmacy
             college features dedicated pharmaceutical chemistry, pharmacology,
             pharmaceutics, and pharmaceutical analysis learning labs. The campus
             serves learners from Salem, Erode, Namakkal, Tiruchengode, Karur,
