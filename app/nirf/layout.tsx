@@ -40,9 +40,9 @@ const nirfSchema = {
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
-      "name": "NIRF Pharmacy Ranking 2024 — Band 151–200",
+      "name": "NIRF Pharmacy - JKKN participating institution 2024, 2025, 2026",
       "credentialCategory": "ranking",
-      "description": "JKKN College of Pharmacy ranked in Band 151–200 in the NIRF Pharmacy category for the 2024 cycle by the Ministry of Education, Government of India.",
+      "description": "JKKN College of Pharmacy is a participating institution in the NIRF Pharmacy category of the Ministry of Education, Government of India.",
       "recognizedBy": {
         "@type": "GovernmentOrganization",
         "name": "Ministry of Education, Government of India",

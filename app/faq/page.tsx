@@ -30,7 +30,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
-        answer: 'JKKN College of Pharmacy is accredited NAAC A Grade, approved by the Pharmacy Council of India, affiliated to The Tamil Nadu Dr. M.G.R. Medical University and has taught pharmacy since 1985. In the 2024 NIRF Pharmacy cycle it is placed in Band 151-200, and in 2024-25 it placed 97 of 124 placement-seeking graduates (78%, NIRF 2026 submission). No body awards a “best college” title - compare each college’s published approval, accreditation, intake and placement figures before you decide. JKKN offers B.Pharm, M.Pharm with six specialisations, Pharm.D and Ph.D programmes.',
+        answer: 'JKKN College of Pharmacy is accredited NAAC A Grade, approved by the Pharmacy Council of India, affiliated to The Tamil Nadu Dr. M.G.R. Medical University and has taught pharmacy since 1985. It is a participating institution in the NIRF Pharmacy framework, and in 2024-25 it placed 97 of 124 placement-seeking graduates (78%, NIRF 2026 submission). No body awards a “best college” title - compare each college’s published approval, accreditation, intake and placement figures before you decide. JKKN offers B.Pharm, M.Pharm with six specialisations, Pharm.D and Ph.D programmes.',
       },
       {
         question: 'Is hostel accommodation available?',
