@@ -339,7 +339,7 @@ export default function CoimbatorePage() {
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
-                intake: '60 seats (5 specialisations)',
+                intake: '90 seats (6 specialisations)',
                 eligibility: 'B.Pharm degree',
                 href: '/m-pharmacy',
               },

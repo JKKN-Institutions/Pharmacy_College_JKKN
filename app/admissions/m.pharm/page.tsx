@@ -85,7 +85,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What M.Pharm specialisations are offered at JKKN?',
       answer:
-        'JKKN College of Pharmacy has a sanctioned M.Pharm intake of 60 seats across five specialisations: 1) Pharmaceutics (15), 2) Pharmacology (15), 3) Pharmaceutical Chemistry (10), 4) Pharmaceutical Analysis (10) and 5) Pharmacy Practice (10) - per The Tamil Nadu Dr. M.G.R. Medical University affiliation list for 2025-26 and the college\u2019s NIRF 2026 submission. Pharmaceutical Regulatory Affairs is being introduced for 2026-27; confirm its approval and intake with the admissions office. All programmes are 2 years (4 semesters) with a research project in the final semester.',
+        'JKKN College of Pharmacy offers six PCI-approved M.Pharm specialisations, each with a sanctioned intake of 15 seats: 1) M.Pharm in Pharmaceutics, 2) M.Pharm in Pharmacology, 3) M.Pharm in Pharmaceutical Chemistry, 4) M.Pharm in Pharmaceutical Analysis, 5) M.Pharm in Pharmacy Practice, and 6) M.Pharm in Pharmaceutical Regulatory Affairs. All programmes are 2 years (4 semesters) with a strong research project in the final semester.',
     },
     {
       question: 'What is the eligibility for M.Pharm at JKKN?',
@@ -100,12 +100,12 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What is the M.Pharm fee structure at JKKN for 2026?',
       answer:
-        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all specialisations. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
+        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all six specialisations. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
     },
     {
       question: 'How many M.Pharm seats are available at JKKN?',
       answer:
-        'JKKN College of Pharmacy has a sanctioned M.Pharm intake of 60 seats across five specialisations - Pharmaceutics 15, Pharmacology 15, Pharmaceutical Chemistry 10, Pharmaceutical Analysis 10 and Pharmacy Practice 10 (The Tamil Nadu Dr. M.G.R. Medical University affiliation list 2025-26; the same 60 is filed as the PG two-year sanctioned intake in the college\u2019s NIRF 2026 submission). Seats are distributed across Government Quota and Management Quota as per Tamil Nadu Government norms.',
+        'JKKN College of Pharmacy has a sanctioned intake of 15 seats per specialisation, totalling 90 M.Pharm seats across six specialisations. Seats are distributed across Government Quota and Management Quota as per Tamil Nadu Government norms. Specialisation allocation is based on merit and candidate preference.',
     },
     {
       question: 'What is the M.Pharm course structure at JKKN?',
@@ -141,7 +141,7 @@ export default function MPharmAdmissionPage() {
             M.Pharm Admission 2026
           </h1>
           <p className="text-xs sm:text-sm md:text-base text-gray-100 max-w-3xl mx-auto">
-            Master of Pharmacy (2 Years) — 60 seats across 5 specialisations at JKKN College of Pharmacy, NAAC A Grade
+            Master of Pharmacy (2 Years) — 6 specialisations at JKKN College of Pharmacy, NAAC A Grade
           </p>
 
           <div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center justify-center">
@@ -192,7 +192,7 @@ export default function MPharmAdmissionPage() {
             </h2>
             <div className="text-[10px] sm:text-xs md:text-sm text-gray-700 leading-relaxed space-y-4">
               <p>
-                The Master of Pharmacy (M.Pharm) at JKKN College of Pharmacy is a 2-year postgraduate degree (4 semesters) approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The sanctioned intake is 60 seats across five specialisations - Pharmaceutics 15, Pharmacology 15, Pharmaceutical Chemistry 10, Pharmaceutical Analysis 10 and Pharmacy Practice 10. Pharmaceutical Regulatory Affairs is being introduced for 2026-27.
+                The Master of Pharmacy (M.Pharm) at JKKN College of Pharmacy is a 2-year postgraduate degree (4 semesters) approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. The programme is offered across six specialisations, each with a sanctioned intake of 15 seats, for a total M.Pharm intake of 90.
               </p>
               <p>
                 The learning framework emphasises advanced theoretical foundations, hands-on laboratory training, journal-based discussions, and an extensive research project in the final semester. JKKN's modern research labs, instrumentation room, animal house, and active industry-academia collaborations make M.Pharm at JKKN an ideal launchpad for careers in the pharmaceutical industry, clinical research, academia, regulatory bodies, and PhD programmes.
