@@ -12,13 +12,13 @@ const config: CityLandingConfig = {
   busText: 'Direct buses operate on the Karur–Komarapalayam route, with connections via Erode and Namakkal',
   pageTitle: 'Pharmacy College near Karur',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 84 km from Karur, located in Komarapalayam near Erode. The residential campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 84 km from Karur, located in Komarapalayam near Erode. The residential campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
   whyText:
     'Karur learners looking beyond their district for a quality pharmacy education choose JKKN for its PCI approval, on-campus teaching hospital, and full residential facilities. At about 84 km, the campus hostel makes JKKN practical, with direct buses for weekend travel home.',
   commuteText:
     'About 84 km from Karur — around 1.5 hours. The campus hostel is the recommended option; direct buses make weekend travel home easy.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 84 km from Karur. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 84 km from Karur. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
   areaServed: ['Karur', 'Namakkal', 'Erode', 'Komarapalayam'],
   faqs: [
     {

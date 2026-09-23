@@ -12,13 +12,13 @@ const config: CityLandingConfig = {
   busText: 'Buses connect Trichy and Komarapalayam via Namakkal; the route is well served through the day',
   pageTitle: 'Pharmacy College near Trichy',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited residential pharmacy college about 145 km from Trichy, located in Komarapalayam in the Kongu belt near Erode. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited residential pharmacy college about 145 km from Trichy, located in Komarapalayam in the Kongu belt near Erode. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
   whyText:
     'Learners from Trichy who want a focused, residential pharmacy campus in the Kongu belt choose JKKN for its PCI approval, on-campus teaching hospital, and placement record. At about 145 km via Namakkal, the campus hostel is the natural option, with regular buses for travel home.',
   commuteText:
     'About 145 km from Trichy via Namakkal — around 2.5-3 hours. The campus hostel is the recommended option for Trichy learners.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 145 km from Trichy (Tiruchirappalli). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 145 km from Trichy (Tiruchirappalli). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
   areaServed: ['Tiruchirappalli', 'Namakkal', 'Karur', 'Komarapalayam'],
   faqs: [
     {

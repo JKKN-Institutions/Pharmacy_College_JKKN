@@ -53,7 +53,7 @@ const PHARMACY_PRACTICE_FAQS = [
   {
     question: 'Does JKKN have clinical pharmacy training facilities?',
     answer:
-      'JKKN College of Pharmacy provides clinical pharmacy training through the JKKN 500-bed multi-specialty teaching hospital. Learners gain direct patient care exposure, therapeutic drug monitoring practice, and drug information centre experience under clinical senior learner supervision.',
+      'JKKN College of Pharmacy provides clinical pharmacy training through the JKKN 500-bed teaching hospital. Learners gain direct patient care exposure, therapeutic drug monitoring practice, and drug information centre experience under clinical senior learner supervision.',
   },
 ]
 

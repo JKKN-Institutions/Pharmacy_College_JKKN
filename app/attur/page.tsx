@@ -12,13 +12,13 @@ const config: CityLandingConfig = {
   busText: 'Direct buses operate on the Attur–Komarapalayam route, with frequent connections via Salem',
   pageTitle: 'Pharmacy College near Attur',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 108 km from Attur, located in Komarapalayam on NH-544 beyond Salem. The residential campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 108 km from Attur, located in Komarapalayam on NH-544 beyond Salem. The residential campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
   whyText:
     'Attur learners looking for a quality pharmacy college in the Salem region choose JKKN for its PCI approval, teaching hospital, and full residential campus. At about 108 km via Salem, the hostel makes JKKN a practical home-away-from-home, with direct buses for weekend travel.',
   commuteText:
     'About 108 km from Attur via Salem — around 2 hours. The campus hostel is the recommended option; direct buses make weekend travel home easy.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 108 km from Attur via Salem on NH-544. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 108 km from Attur via Salem on NH-544. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
   areaServed: ['Attur', 'Salem', 'Komarapalayam', 'Namakkal'],
   faqs: [
     {

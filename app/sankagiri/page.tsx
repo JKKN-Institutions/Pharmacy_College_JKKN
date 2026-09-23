@@ -12,13 +12,13 @@ const config: CityLandingConfig = {
   busText: 'Regular TNSTC and private buses run between Sankagiri/Sankari and Komarapalayam through the day',
   pageTitle: 'Pharmacy College near Sankagiri',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 16 km from Sankagiri, in Komarapalayam on the NH-544 corridor. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a multi-specialty teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college about 16 km from Sankagiri, in Komarapalayam on the NH-544 corridor. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% campus placements (2024-25).',
   whyText:
     'Sankagiri, the historic fort town of Salem district, is about 16 km from JKKN — a short commute. Learners from Sankagiri and Sankari get a full professional pharmacy education while continuing to live at home.',
   commuteText:
     'Just 16 km from Sankagiri — about 20-30 minutes. Daily commute by bus or college transport is easy; hostel is also available.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 16 km from Sankagiri in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a multi-specialty teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 16 km from Sankagiri in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
   areaServed: ['Sankagiri', 'Sankari', 'Komarapalayam', 'Salem'],
   faqs: [
     {
