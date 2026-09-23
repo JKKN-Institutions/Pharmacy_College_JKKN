@@ -2350,10 +2350,59 @@ export default function PharmDPage() {
           <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mb-4">Pharm.D Colleges in Tamil Nadu and India</h3>
 
           <p className="text-xs sm:text-sm text-[#002309] mb-4">
-            Among the Pharm.D colleges in Tamil Nadu listed below are JKKN College of Pharmacy
-            (Komarapalayam, Namakkal district), JSS College of Pharmacy (Ooty), Annamalai University
-            (Chidambaram) and Madras Medical College (Chennai). Tamil Nadu Dr. M.G.R. Medical
-            University is the affiliating university for Pharm.D in the state.
+            The Tamil Nadu Dr. M.G.R. Medical University&rsquo;s Pharm.D affiliation list for 2025-26
+            carries <strong>52 colleges and 1,560 sanctioned Pharm.D seats</strong>, and it has no
+            government section &mdash; every affiliated Pharm.D college in the state is self-financing.
+            Deemed universities such as JSS College of Pharmacy (Ooty), SRM and Sri Ramachandra run
+            Pharm.D under their own deemed status and are not on that list. JKKN College of Pharmacy
+            (Komarapalayam, Namakkal district, institute code 32) is on it, with 30 Pharm.D seats.
+            <span className="block mt-2 text-[11px] sm:text-xs text-gray-500">Source: The Tamil Nadu Dr. M.G.R. Medical University,
+            &ldquo;Pharm.D. &mdash; Affiliated Colleges/Institutions for the Academic Year 2025-26&rdquo;, dated 11 August 2026.</span>
+          </p>
+
+          {/* Pharm.D by district - the Kongu belt. Every figure from the TNMGRMU Pharm.D
+              affiliation list 2025-26 (11.08.2026). These three districts are where our
+              students come from, and "pharm d colleges in <district>" had ZERO impressions
+              in 90 days because nothing on the site answered it. */}
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#006837] mt-8 mb-3">Pharm.D Colleges by District &mdash; the Kongu Belt</h3>
+          <div className="overflow-x-auto">
+            <table className="min-w-full text-left text-[11px] sm:text-xs bg-white rounded-lg border border-gray-200">
+              <thead className="bg-[#006837] text-white">
+                <tr>
+                  <th className="px-3 py-2.5 font-semibold">District</th>
+                  <th className="px-3 py-2.5 font-semibold">Pharm.D colleges</th>
+                  <th className="px-3 py-2.5 font-semibold">Sanctioned seats</th>
+                  <th className="px-3 py-2.5 font-semibold">Who they are</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-800">
+                <tr className="bg-[#FBFBEE] font-semibold">
+                  <td className="px-3 py-2.5 align-top">Namakkal <span className="font-normal">(JKKN&rsquo;s district)</span></td>
+                  <td className="px-3 py-2.5 align-top">7</td>
+                  <td className="px-3 py-2.5 align-top">210</td>
+                  <td className="px-3 py-2.5 align-top font-normal">JKKN College of Pharmacy, Annai J.K.K. Sampoorani Ammal, Excel, P.G.P., Paavai, Senghundhar, Swamy Vivekanandha</td>
+                </tr>
+                <tr>
+                  <td className="px-3 py-2.5 align-top font-semibold">Erode</td>
+                  <td className="px-3 py-2.5 align-top">6</td>
+                  <td className="px-3 py-2.5 align-top">180</td>
+                  <td className="px-3 py-2.5 align-top">The Erode College of Pharmacy, Nandha, Vellalar, JKK Munirajah, S.S.M., Shree Venkateshwara</td>
+                </tr>
+                <tr>
+                  <td className="px-3 py-2.5 align-top font-semibold">Salem</td>
+                  <td className="px-3 py-2.5 align-top">2</td>
+                  <td className="px-3 py-2.5 align-top">60</td>
+                  <td className="px-3 py-2.5 align-top">Sri Shanmugha College of Pharmacy (Morur), Vivekanandha Pharmacy College for Women (Veerachipalayam)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[11px] sm:text-xs text-gray-500 mt-2">
+            Each of these colleges is sanctioned 30 Pharm.D seats. Salem district has only two, which is
+            why students from the Sankari and Edappadi side often look across the district line. Full
+            district pages: <a href="/erode/" className="text-[#006837] underline">Erode</a>,{' '}
+            <a href="/namakkal/" className="text-[#006837] underline">Namakkal</a>,{' '}
+            <a href="/salem/" className="text-[#006837] underline">Salem</a>.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -2421,7 +2470,7 @@ export default function PharmDPage() {
             </div>
 
             <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">Madras Medical College</h4>
+              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">Madras Medical College <span className="text-[10px] font-normal text-gray-500">(B.Pharm / M.Pharm &mdash; not on the university&rsquo;s 2025-26 Pharm.D list)</span></h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Government College</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Location:</span> Chennai, Tamil Nadu</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> Highly subsidized fees, Excellent hospital exposure, Competitive admission</p>
