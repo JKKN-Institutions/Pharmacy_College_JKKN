@@ -767,7 +767,7 @@ export default function ErodePage() {
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Salem', distance: '57 km', href: '/salem/' },
               { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
-              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Coimbatore', distance: '105 km', href: '/coimbatore/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#006837]" />, city: 'Coimbatore', distance: '112 km', href: '/coimbatore/' },
             ].map((item) => (
               <a
                 key={item.city}

@@ -1310,7 +1310,7 @@ export default function Home() {
               { city: 'Namakkal', label: 'Pharmacy Colleges in Namakkal', distance: '65 km', href: '/namakkal/' },
               { city: 'Erode', label: 'Pharmacy College near Erode', distance: '18 km', href: '/erode/' },
               { city: 'Tiruppur', label: 'Pharmacy College near Tiruppur', distance: '67 km', href: '/tiruppur/' },
-              { city: 'Coimbatore', label: 'Pharmacy College near Coimbatore', distance: '105 km', href: '/coimbatore/' },
+              { city: 'Coimbatore', label: 'Pharmacy College near Coimbatore', distance: '112 km', href: '/coimbatore/' },
             ].map((item) => (
               <Link
                 key={item.city}

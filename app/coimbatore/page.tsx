@@ -8,6 +8,8 @@ import { FaqSchema, BreadcrumbListSchema, ItemListSchema, SpeakableWebPageSchema
 const PHONE = '+919345855001';
 const PHONE_DISPLAY = '+91-9345855001';
 
+// Coimbatore distance measured 2026-09-23: OSRM road routing from the campus pin to the
+// Coimbatore city pin = 112.3 km. The page said 105 km, unmeasured, until then.
 export default function CoimbatorePage() {
   const router = useRouter();
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(0);
@@ -41,12 +43,12 @@ export default function CoimbatorePage() {
     {
       question: 'Is JKKN College of Pharmacy in Coimbatore?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 105 km from Coimbatore city centre on NH-544. Coimbatore has pharmacy colleges of its own; students who choose JKKN from Coimbatore usually stay in the on-campus hostel. It is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a 500-bed multi-specialty teaching hospital for clinical training.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 112 km from Coimbatore city centre on NH-544. Coimbatore has pharmacy colleges of its own; students who choose JKKN from Coimbatore usually stay in the on-campus hostel. It is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a multi-specialty teaching hospital for clinical training.',
     },
     {
       question: 'Why do some Coimbatore students choose JKKN College of Pharmacy?',
       answer:
-        'JKKN College of Pharmacy holds PCI approval and NAAC accreditation with 78% placement rates (2024-25) and modern infrastructure. The college is located in Komarapalayam on NH-544, offering three pharmacy programmes with clinical training at an on-campus 500-bed teaching hospital and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
+        'JKKN College of Pharmacy holds PCI approval and NAAC accreditation with 78% placement rates (2024-25) and modern infrastructure. The college is located in Komarapalayam on NH-544, offering three pharmacy programmes with clinical training at an on-campus teaching hospital and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
     },
     {
       question: 'Which pharmacy course in Coimbatore has the best career scope?',
@@ -56,7 +58,7 @@ export default function CoimbatorePage() {
     {
       question: 'How far is JKKN Pharmacy from Coimbatore?',
       answer:
-        'JKKN College of Pharmacy is 105 km from Coimbatore city centre, approximately two hours by road via NH-544. Frequent inter-city buses operate from Gandhipuram and Ukkadam bus stands to Komarapalayam. The campus also provides hostel accommodation for learners from Coimbatore.',
+        'JKKN College of Pharmacy is 112 km from Coimbatore city centre, approximately two hours by road via NH-544. Frequent inter-city buses operate from Gandhipuram and Ukkadam bus stands to Komarapalayam. The campus also provides hostel accommodation for learners from Coimbatore.',
     },
     {
       question: 'What is the difference between B.Pharm and Pharm.D?',
@@ -76,7 +78,7 @@ export default function CoimbatorePage() {
     {
       question: 'Does JKKN Pharmacy provide hostel for Coimbatore learners?',
       answer:
-        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Coimbatore are recommended to stay in the hostel given the 105 km distance. The campus offers mess facilities, WiFi, and a secure residential environment.',
+        'JKKN College of Pharmacy provides separate hostel facilities for male and female learners on campus. Learners from Coimbatore are recommended to stay in the hostel given the 112 km distance. The campus offers mess facilities, WiFi, and a secure residential environment.',
     },
     {
       question: 'How can I apply for admission at JKKN Pharmacy?',
@@ -168,7 +170,7 @@ export default function CoimbatorePage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 105 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a 500-bed multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 112 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a multi-specialty teaching hospital for clinical training, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}
@@ -176,7 +178,7 @@ export default function CoimbatorePage() {
             {[
               { value: '78%', label: 'PLACEMENTS' },
               { value: '97/124', label: 'PLACED 2024-25' },
-              { value: '105km', label: 'FROM COIMBATORE' },
+              { value: '112km', label: 'FROM COIMBATORE' },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
               <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
@@ -299,7 +301,7 @@ export default function CoimbatorePage() {
               {
                 icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
                 title: 'Easy Commute',
-                desc: '105 km from Coimbatore via NH-544. Comfortable hostel accommodation available on campus.',
+                desc: '112 km from Coimbatore via NH-544. Comfortable hostel accommodation available on campus.',
               },
             ].map((item) => (
               <div key={item.title} className="bg-[#FBFBEE] rounded-xl p-4 sm:p-5 text-center">
@@ -453,7 +455,7 @@ export default function CoimbatorePage() {
                   Coimbatore → JKKN Pharmacy Campus
                 </h3>
                 <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
-                  105 km • ~2 hours
+                  112 km • ~2 hours
                 </p>
               </div>
             </div>
@@ -707,7 +709,7 @@ export default function CoimbatorePage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Coimbatore — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 105 km from Coimbatore on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 112 km from Coimbatore on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/coimbatore/"
         dateModified="2026-03-27"
       />
