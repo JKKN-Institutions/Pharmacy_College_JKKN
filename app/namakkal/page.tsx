@@ -51,12 +51,12 @@ export default function NamakkalPage() {
     {
       question: 'Which colleges offer Pharm.D in Namakkal district?',
       answer:
-        'Seven colleges in Namakkal district are on The Tamil Nadu Dr. M.G.R. Medical University\u2019s Pharm.D affiliation list for 2025-26, each with 30 sanctioned seats \u2014 210 in all: JKKN College of Pharmacy (Komarapalayam), Annai J.K.K. Sampoorani Ammal College of Pharmacy, Excel College of Pharmacy, P.G.P. College of Pharmaceutical Sciences, Paavai College of Pharmacy, Senghundhar College of Pharmacy and Swamy Vivekanandha College of Pharmacy. That is more Pharm.D seats than Erode (180) or Salem (60). There are no government Pharm.D colleges in Tamil Nadu: the university\u2019s list has no government section and all 52 affiliated Pharm.D colleges are self-financing.',
+        'JKKN College of Pharmacy (Komarapalayam) is one of seven Namakkal-district colleges on The Tamil Nadu Dr. M.G.R. Medical University\u2019s Pharm.D affiliation list for 2025-26. The other six are Annai J.K.K. Sampoorani Ammal College of Pharmacy, Excel College of Pharmacy, P.G.P. College of Pharmaceutical Sciences, Paavai College of Pharmacy, Senghundhar College of Pharmacy and Swamy Vivekanandha College of Pharmacy; each of the seven has 30 sanctioned seats \u2014 210 in all. That is more Pharm.D seats than Erode (180) or Salem (60). There are no government Pharm.D colleges in Tamil Nadu: the university\u2019s list has no government section and all 52 affiliated Pharm.D colleges are self-financing.',
     },
     {
       question: 'Which pharmacy colleges are in Namakkal district?',
       answer:
-        'Pharmacy colleges in Namakkal district include JKKN College of Pharmacy (Komarapalayam), Annai JKK Sampoorani Ammal College of Pharmacy (Komarapalayam), Excel College of Pharmacy (Komarapalayam), Swamy Vivekanandha College of Pharmacy (Tiruchengode), K.S. Rangasamy College of Pharmacy (Tiruchengode), Senghundhar College of Pharmacy (Tiruchengode), PGP College of Pharmaceutical Science and Research (Namakkal), Paavai College of Pharmacy and Research (Namakkal) and Kasthooribha Gandhi Pharmacy College (Rasipuram).',
+        'JKKN College of Pharmacy is in Komarapalayam, Namakkal district, on NH-544. Other pharmacy colleges in Namakkal district include Annai JKK Sampoorani Ammal College of Pharmacy (Komarapalayam), Excel College of Pharmacy (Komarapalayam), Swamy Vivekanandha College of Pharmacy (Tiruchengode), K.S. Rangasamy College of Pharmacy (Tiruchengode), Senghundhar College of Pharmacy (Tiruchengode), PGP College of Pharmaceutical Science and Research (Namakkal), Paavai College of Pharmacy and Research (Namakkal) and Kasthooribha Gandhi Pharmacy College (Rasipuram).',
     },
     {
       question: 'How far is JKKN College of Pharmacy from Namakkal town?',
@@ -640,7 +640,7 @@ export default function NamakkalPage() {
             Pharmacy Colleges in Namakkal District — an Honest Comparison
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto">
-            Nine pharmacy colleges carry a Namakkal-district address in public listings (September 2026), and six of them are on the Komarapalayam–Tiruchengode side, about 60–65 km from Namakkal town. Here is the whole picture, so you can choose with open eyes.
+            JKKN College of Pharmacy is in Komarapalayam, on NH-544, 65 km from Namakkal Bus Stand. It is one of nine pharmacy colleges that carry a Namakkal-district address in public listings (September 2026); six of them are on the Komarapalayam–Tiruchengode side, about 60–65 km from Namakkal town. Here is the whole picture, so you can choose with open eyes.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
