@@ -2416,7 +2416,6 @@ export default function PharmDPage() {
             <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">JSS College of Pharmacy, Ooty</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Established:</span> Pioneer in Pharm.D (2008)</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> Excellent hospital affiliations, Strong clinical training, Residency programmes available</p>
               <p className="text-xs font-semibold text-[#006837]">Fee: ~₹2.5-3 lakhs/year</p>
             </div>
@@ -2432,7 +2431,6 @@ export default function PharmDPage() {
             <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#002309] mb-3">JSS College of Pharmacy, Mysore</h4>
               <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#002309] mb-2"><span className="font-semibold">Ranking:</span> Top 10 pharmacy college</p>
               <p className="text-xs sm:text-sm text-[#002309] mb-3"><span className="font-semibold">Highlights:</span> JSS Hospital affiliation, Strong industry connections, Research facilities</p>
               <p className="text-xs font-semibold text-[#006837]">Fee: ~₹2-2.5 lakhs/year</p>
             </div>

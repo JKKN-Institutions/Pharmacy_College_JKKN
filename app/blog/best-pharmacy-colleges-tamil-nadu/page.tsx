@@ -28,13 +28,13 @@ const faqs = [
   {
     question: 'What are the top pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
-      'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so a NIRF rank covers only a fraction of them.',
+      'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). JKKN College of Pharmacy, Komarapalayam, Namakkal district, is on NIRF’s list of participating institutions rather than in the rank list; it is PCI-approved, NAAC A Grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so a NIRF rank covers only a fraction of them.',
   },
   {
     question:
       'Which pharmacy college in Tamil Nadu has the best placement?',
     answer:
-      'JKKN College of Pharmacy in Namakkal district placed 78% of its placement-seeking 2024-25 graduates (97 of 124, NIRF 2026 submission), with median salaries of Rs 4.4 lakh for B.Pharm and Rs 6.75 lakh for M.Pharm. Annamalai University achieves 90% placement with an average package of 12 LPA. JSS College of Pharmacy reports a median package of 7.8 LPA. Placement rates vary between 63% and 90% across the top 10 Tamil Nadu pharmacy colleges.',
+      'JKKN College of Pharmacy in Namakkal district placed 78% of its placement-seeking 2024-25 graduates (97 of 124, NIRF 2026 submission), with median salaries of Rs 4.4 lakh for B.Pharm and Rs 6.75 lakh for M.Pharm. Other colleges’ placement figures are not repeated here; compare the placement figure each college files with NIRF.',
   },
   {
     question:
@@ -57,7 +57,7 @@ const faqs = [
   {
     question: 'Which colleges offer Pharm.D in Tamil Nadu?',
     answer:
-      'Pharm.D (Doctor of Pharmacy) is offered by 30+ colleges in Tamil Nadu including JKKN College of Pharmacy (Namakkal, 30 seats), JSS College of Pharmacy (Ooty), SRM College of Pharmacy (Chennai), PSG College of Pharmacy (Coimbatore), and KMCH College of Pharmacy (Coimbatore). Pharm.D is a 6-year program (5 academic years + 1 year clinical clerkship) approved by PCI and affiliated to Tamil Nadu Dr. M.G.R. Medical University.',
+      'JKKN College of Pharmacy, Komarapalayam, Namakkal district, offers Pharm.D (Doctor of Pharmacy). It has 30 Pharm.D seats and is one of 30+ colleges in Tamil Nadu that offer the course, including JSS College of Pharmacy (Ooty), SRM College of Pharmacy (Chennai), PSG College of Pharmacy (Coimbatore), and KMCH College of Pharmacy (Coimbatore). Pharm.D is a 6-year program (5 academic years + 1 year clinical clerkship) approved by PCI and affiliated to Tamil Nadu Dr. M.G.R. Medical University.',
   },
   {
     question: 'Which pharmacy college is near Salem or Namakkal?',
@@ -210,7 +210,10 @@ export default function BestPharmacyCollegesTamilNadu() {
             <p className="mt-4">
               The National Institutional Ranking Framework (NIRF) 2025 ranks
               JSS College of Pharmacy, Ooty at #4 nationally, making it the
-              highest-ranked pharmacy college in Tamil Nadu. Selection criteria
+              highest-ranked pharmacy college in Tamil Nadu. JKKN College of
+              Pharmacy, Komarapalayam, Namakkal district, is PCI-approved, NAAC
+              A Grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical
+              University. Selection criteria
               for pharmacy admission include 10+2 qualifications with Physics,
               Chemistry, and Biology or Mathematics, NEET UG scores
               (recommended), and TN Selection Committee counselling conducted
@@ -317,8 +320,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             NAAC (National Assessment and Accreditation Council). JSS College
             of Pharmacy in Ooty leads with NIRF #4 nationally, followed by SRM
             College of Pharmacy at #10. Eight colleges hold NAAC A grade or
-            above, with placement rates ranging from 63% to 90% across
-            institutions.
+            above.
           </p>
         </section>
 
@@ -409,19 +411,19 @@ export default function BestPharmacyCollegesTamilNadu() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
             {[
               {
-                label: 'Highest Placement Rate',
-                value: '90%',
-                sub: 'Annamalai University (Pharmacy)',
+                label: 'Placed in 2024-25',
+                value: '78%',
+                sub: 'JKKN College of Pharmacy (97 of 124, NIRF 2026)',
               },
               {
-                label: 'Highest Average CTC',
-                value: '12 LPA',
-                sub: 'Annamalai University',
+                label: 'Median Salary, B.Pharm',
+                value: 'Rs 4.4 lakh',
+                sub: 'JKKN College of Pharmacy (NIRF 2026)',
               },
               {
-                label: 'Highest Median CTC',
-                value: '7.8 LPA',
-                sub: 'JSS College of Pharmacy',
+                label: 'Median Salary, M.Pharm',
+                value: 'Rs 6.75 lakh',
+                sub: 'JKKN College of Pharmacy (NIRF 2026)',
               },
               {
                 label: 'Total PCI Colleges',
@@ -446,9 +448,10 @@ export default function BestPharmacyCollegesTamilNadu() {
             ))}
           </div>
           <p className="text-gray-700 leading-relaxed">
-            Placement rates across Tamil Nadu&apos;s top pharmacy colleges
-            range from 63% (PSG College of Pharmacy) to 90% (Annamalai
-            University). Average salary packages range from 3-4 LPA for B.Pharm
+            JKKN College of Pharmacy placed 97 of 124 placement-seeking
+            graduates in 2024-25 (78%, NIRF 2026 submission); other
+            colleges&apos; placement figures are in the data each one files
+            with NIRF. Average salary packages range from 3-4 LPA for B.Pharm
             graduates to 6-12 LPA for M.Pharm and Pharm.D graduates. Major
             recruiters include Sun Pharma, Cipla, Dr. Reddy&apos;s
             Laboratories, Lupin, Aurobindo Pharma, Apollo Pharmacy, Biocon,

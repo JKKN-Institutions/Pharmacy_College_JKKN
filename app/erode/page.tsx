@@ -55,7 +55,7 @@ export default function ErodePage() {
     {
       question: 'Which pharmacy colleges are in or near Erode?',
       answer:
-        'PCI-approved pharmacy colleges with an Erode-district address include The Erode College of Pharmacy (Veppampalayam), Nandha College of Pharmacy, SSM College of Pharmacy, Vellalar College of Pharmacy (Thindal) and KMR College of Pharmacy (Perundurai). JKKN College of Pharmacy is 18 km away in Komarapalayam, Namakkal district, on NH-544.',
+        'JKKN College of Pharmacy is 18 km from Erode, in Komarapalayam, Namakkal district, on NH-544. PCI-approved pharmacy colleges with an Erode-district address include The Erode College of Pharmacy (Veppampalayam), Nandha College of Pharmacy, SSM College of Pharmacy, Vellalar College of Pharmacy (Thindal) and KMR College of Pharmacy (Perundurai).',
     },
     {
       question: 'How do students from Erode reach JKKN College of Pharmacy?',
@@ -172,7 +172,7 @@ export default function ErodePage() {
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city; it is one of the closest PCI-approved pharmacy colleges to Erode, offering B.Pharm, M.Pharm (six specialisations, 90 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city. It offers B.Pharm, M.Pharm (six specialisations, 90 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -642,7 +642,7 @@ export default function ErodePage() {
             Pharmacy Colleges in and around Erode — an Honest Comparison
           </h2>
           <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto">
-            Five PCI-approved pharmacy colleges have an Erode-district address. JKKN College of Pharmacy is the one just across the district line, 18 km from Erode Bus Stand. Here is the whole picture, so you can choose with open eyes.
+            JKKN College of Pharmacy is just across the district line, in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand. Five PCI-approved pharmacy colleges have an Erode-district address. Here is the whole picture, so you can choose with open eyes.
           </p>
           <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
 
