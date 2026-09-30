@@ -266,7 +266,7 @@ export default function BPharmAdmissionPage() {
               <p>* Detailed fee breakdown is available in the official prospectus.</p>
               <p>
                 * Travelling from Erode? The campus is 18 km from Erode Bus Stand on NH-544 -{' '}
-                <a href="/erode/" className="text-[#006837] font-semibold underline">bus routes, travel time and hostel details for Erode students</a>.
+                <a href="/erode/" className="text-[#006837] font-semibold underline">B.Pharm college near Erode - bus routes, travel time and hostel details</a>.
                 From Namakkal town it is 65 km — see{' '}
                 <a href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy colleges in Namakkal district</a>.
               </p>

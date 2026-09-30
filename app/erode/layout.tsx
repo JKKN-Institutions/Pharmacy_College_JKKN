@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     'pharmacy college erode',
     'top pharmacy colleges in erode',
     'b pharm college in erode',
+    'b pharm college near erode',
     'pharm d college erode',
     'jkkn pharmacy erode',
     'pci approved pharmacy college erode',
