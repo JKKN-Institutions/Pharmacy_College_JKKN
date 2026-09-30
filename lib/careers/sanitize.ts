@@ -17,11 +17,10 @@ export function sanitizeJobDescription(html: string | null | undefined): string 
     transformTags: {
       h1: 'h3',
       h2: 'h3',
-      a: (_tagName, attribs) => {
+      a: (_tagName, attribs): sanitizeHtml.Tag => {
         const href = attribs.href ?? '';
         if (!SAFE_LINK.test(href)) {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          return { tagName: 'span', attribs: {} } as any;
+          return { tagName: 'span', attribs: {} };
         }
         return href.toLowerCase().startsWith('https:')
           ? { tagName: 'a', attribs: { href, target: '_blank', rel: 'noopener noreferrer nofollow' } }
