@@ -1,12 +1,10 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
-import { Mail, Phone } from 'lucide-react';
 import Header from '@/components/Header';
 import CareersBreadcrumb from '@/components/careers/CareersBreadcrumb';
 import JobCard from '@/components/careers/JobCard';
 import { getCollegeJobs } from '@/lib/careers/api';
 import { CAREERS_PATH, SITE_URL } from '@/lib/careers/config';
-import { siteConfig } from '@/lib/site-config';
 
 export const revalidate = 300;
 
@@ -67,7 +65,7 @@ export default async function CareersPage() {
       </div>
 
       {/* Current Openings — live from MyJKKN */}
-      <section aria-labelledby="openings-heading" className="px-4 sm:px-6 lg:px-8 pt-8 pb-4">
+      <section aria-labelledby="openings-heading" className="px-4 sm:px-6 lg:px-8 pt-8 pb-10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-5 flex flex-wrap items-baseline justify-between gap-2">
             <h2 id="openings-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837]">
@@ -82,13 +80,11 @@ export default async function CareersPage() {
 
           {!available ? (
             <Notice>
-              We couldn&apos;t load the current openings right now. Please try again shortly, or reach us using the
-              contact details below.
+              We couldn&apos;t load the current openings right now. Please try again shortly.
             </Notice>
           ) : jobs.length === 0 ? (
             <Notice>
-              There are no open positions at the moment. Please check back soon, or reach us using the contact
-              details below.
+              There are no open positions at the moment. Please check back soon.
             </Notice>
           ) : (
             <ul className="grid gap-5 md:grid-cols-2">
@@ -99,35 +95,6 @@ export default async function CareersPage() {
               ))}
             </ul>
           )}
-        </div>
-      </section>
-
-      {/* Contact Details */}
-      <section aria-labelledby="careers-contact-heading" className="px-4 sm:px-6 lg:px-8 pt-4 pb-10">
-        <div className="max-w-7xl mx-auto">
-          <div className="overflow-hidden rounded-2xl border border-[#7cb983]/30 bg-white">
-            <div className="bg-[#006837] px-6 py-4">
-              <h2 id="careers-contact-heading" className="text-base md:text-lg font-bold text-white">
-                For job-related inquiries, contact us:
-              </h2>
-            </div>
-            <div className="flex flex-col gap-2 px-6 py-5 sm:flex-row sm:gap-8">
-              <a
-                href={`tel:${siteConfig.phone}`}
-                className="inline-flex min-h-[44px] items-center gap-2 font-semibold text-[#002309] hover:text-[#006837]"
-              >
-                <Phone className="h-4 w-4 text-[#006837]" aria-hidden="true" />
-                {siteConfig.phone}
-              </a>
-              <a
-                href={`mailto:${siteConfig.email}`}
-                className="inline-flex min-h-[44px] items-center gap-2 font-semibold text-[#002309] hover:text-[#006837] break-all"
-              >
-                <Mail className="h-4 w-4 text-[#006837]" aria-hidden="true" />
-                {siteConfig.email}
-              </a>
-            </div>
-          </div>
         </div>
       </section>
       </main>
