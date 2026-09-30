@@ -47,6 +47,42 @@ export default function ErodePage() {
       answer:
         'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem-Coimbatore highway) - about 30 minutes by car. Students from Erode either commute daily by bus or stay in the on-campus hostel.',
     },
+    // B.Pharm near Erode (added 2026-09-30). The searches "b pharm college in erode" and
+    // "b pharm colleges in erode" had 0 GSC impressions in 90 days because no page here
+    // paired B.Pharm with Erode for JKKN. By the user's decision these answers name no
+    // other college; the comparison table above carries the rivals.
+    // Sources: fees = facts-master (MQ Rs 1,40,000/yr, same on /fee-structure/);
+    // cut-off method, eligibility and the government college list = DME Selection
+    // Committee, Prospectus for Paramedical Degree Courses 2025-26 (G.O.(D) No.618,
+    // 12.06.2025): marks scaled to 200 (sec. 11), minimum marks (sec. 6), Annexure III
+    // (government B.Pharm seats: Madras Medical College 60, Madurai Medical College 60),
+    // self-financing list entry 24 "J.K.K. Nattraja College of Pharmacy".
+    // https://tnmedicalselection.net/archives/22052026023111432.pdf
+    {
+      question: 'Is there a B.Pharm college near Erode with hostel?',
+      answer:
+        'Yes. JKKN College of Pharmacy in Komarapalayam is 18 km from Erode Bus Stand on NH-544 and offers a four-year B.Pharm with 100 seats, approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Separate hostels for male and female students are on campus, and day scholars commute from Erode by bus.',
+    },
+    {
+      question: 'How do I choose a B.Pharm college near Erode?',
+      answer:
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is 18 km from Erode Bus Stand with hostels on campus.',
+    },
+    {
+      question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
+      answer:
+        'B.Pharm tuition for management-quota seats is Rs 1,40,000 per year. Government-quota seats follow Tamil Nadu Government fee norms. Tuition is the same for day scholars from Erode and hostel students; hostel, mess, transport and exam charges are extra. The full table is on the fee structure page.',
+    },
+    {
+      question: 'What is the B.Pharm cut-off in Tamil Nadu?',
+      answer:
+        'There is no fixed B.Pharm cut-off. For government-quota seats the Tamil Nadu Selection Committee (Directorate of Medical Education and Research) ranks applicants on Class 12 marks scaled to 200 - Physics and Chemistry together plus Biology or Mathematics - and allots seats by rank and reservation in online counselling, so the closing mark changes every year. The minimum is a 40% aggregate for OC, BC and MBC candidates and a pass for SC/ST candidates (2025-26 prospectus).',
+    },
+    {
+      question: 'Is there a government B.Pharm college in Erode?',
+      answer:
+        'No. The Tamil Nadu Selection Committee’s 2025-26 prospectus lists only two government colleges for B.Pharm - Madras Medical College, Chennai and Madurai Medical College, Madurai - with 60 seats each. Government-quota B.Pharm seats are also filled in self-financing colleges through the same counselling, and JKKN College of Pharmacy is on that list.',
+    },
     {
       question: 'Which colleges offer Pharm.D in Erode district?',
       answer:
@@ -400,6 +436,53 @@ export default function ErodePage() {
         </div>
       </section>
 
+      {/* ── B.Pharm near Erode (added 2026-09-30) ──
+          Answers "b pharm college in / near erode" for JKKN only: JKKN facts against each
+          thing a family should check, no other college named (user decision 2026-09-30).
+          Every fact here is already on this page or on /admissions/b.pharm and /fee-structure/. */}
+      <section id="bpharm-near-erode" className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 text-center">
+            B.Pharm College near Erode — JKKN College of Pharmacy, Komarapalayam (18 km)
+          </h2>
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-5 sm:mb-7" />
+          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed mb-5 sm:mb-6">
+            JKKN College of Pharmacy in Komarapalayam, 18 km from Erode Bus Stand on NH-544, offers a four-year B.Pharm with 100 seats, approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Management-quota tuition is Rs 1,40,000 a year; government-quota seats are allotted through the Tamil Nadu Selection Committee.
+          </p>
+
+          <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-3">
+            How to choose a B.Pharm college near Erode — five checks
+          </h3>
+          <ol className="space-y-2 text-xs sm:text-sm text-gray-700 mb-5 sm:mb-6">
+            {[
+              { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
+              { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
+              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited.' },
+              { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
+              { check: 'Travel and hostel', jkkn: '18 km from Erode Bus Stand on NH-544, about 30 minutes by car; separate hostels on campus.' },
+            ].map((item, i) => (
+              <li key={item.check} className="flex items-start gap-3 bg-[#FBFBEE] rounded-lg p-3">
+                <span className="w-6 h-6 rounded-full bg-[#006837] text-white text-[11px] font-bold flex items-center justify-center shrink-0">
+                  {i + 1}
+                </span>
+                <span>
+                  <strong className="text-gray-900">{item.check}:</strong> {item.jkkn}
+                </span>
+              </li>
+            ))}
+          </ol>
+
+          <p className="text-[11px] sm:text-xs text-gray-500 leading-relaxed">
+            B.Pharm fees and admission steps:{' '}
+            <a href="/admissions/b.pharm" className="text-[#006837] font-semibold underline">B.Pharm admission 2026-27</a>
+            {' '}· course details:{' '}
+            <a href="/b-pharmacy/" className="text-[#006837] font-semibold underline">Bachelor of Pharmacy at JKKN</a>
+            {' '}· other pharmacy colleges around Erode:{' '}
+            <a href="#erode-comparison" className="text-[#006837] font-semibold underline">comparison table below</a>.
+          </p>
+        </div>
+      </section>
+
       {/* ── Placement Highlights ── */}
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
@@ -636,7 +719,7 @@ export default function ErodePage() {
             KMR      - Google local listing (Perundurai, Erode); no reachable website that day,
                        so the programme cell says "see the college", not a guess
           The only distance printed is the one that was measured. */}
-      <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+      <section id="erode-comparison" className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Pharmacy Colleges in and around Erode — an Honest Comparison
@@ -892,7 +975,7 @@ export default function ErodePage() {
         name="Pharmacy College near Erode — JKKN College of Pharmacy, Komarapalayam"
         description="JKKN College of Pharmacy, 18 km from Erode on NH-544 — PCI approved. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF). Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/erode/"
-        dateModified="2026-09-22"
+        dateModified="2026-09-30"
       />
     </div>
   );

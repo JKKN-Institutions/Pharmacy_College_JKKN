@@ -1571,7 +1571,7 @@ export default function BPharmacyPage() {
             Students join our B.Pharm programme from across western Tamil Nadu. See our city admission guides:{' '}
             <a href="/salem/" className="text-[#006837] font-semibold hover:underline">Pharmacy Colleges in Salem</a>,{' '}
             <a href="/namakkal/" className="text-[#006837] font-semibold hover:underline">Pharmacy Colleges in Namakkal</a>,{' '}
-            <a href="/erode/" className="text-[#006837] font-semibold hover:underline">Pharmacy College near Erode</a>,{' '}
+            <a href="/erode/" className="text-[#006837] font-semibold hover:underline">B.Pharm College near Erode</a>,{' '}
             <a href="/tiruppur/" className="text-[#006837] font-semibold hover:underline">Tiruppur</a> and{' '}
             <a href="/coimbatore/" className="text-[#006837] font-semibold hover:underline">Coimbatore</a>.
           </p>
