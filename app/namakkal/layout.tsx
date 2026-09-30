@@ -11,6 +11,8 @@ export const metadata: Metadata = {
     'best colleges for pharmacy',
     'pharmacy colleges in namakkal',
     'b pharm college in namakkal',
+    'b pharm colleges in namakkal',
+    'b pharm colleges in namakkal district',
     'pharm d college namakkal',
     'jkkn pharmacy namakkal',
     'pci approved pharmacy college namakkal',

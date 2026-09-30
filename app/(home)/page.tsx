@@ -1298,7 +1298,7 @@ export default function Home() {
             <Link href="/erode/" className="text-[#006837] font-semibold underline">pharmacy college near Erode</Link>{' '}
             page covers bus routes, travel time and hostel options for students from Erode.
             The college is in Namakkal district — Namakkal town is 65 km away — and the{' '}
-            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy colleges in Namakkal district</Link>{' '}
+            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy and B.Pharm colleges in Namakkal district</Link>{' '}
             page compares every pharmacy college in the district.
             Salem bus stand is 57 km away (about an hour by car) — the{' '}
             <Link href="/salem/" className="text-[#006837] font-semibold underline">pharmacy college near Salem</Link>{' '}
