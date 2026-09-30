@@ -35,6 +35,15 @@
 | Framer Motion animations | Complex state interactions | Test enter/exit/hover states after changes |
 | z-index changes | Can hide/overlap other elements | Check all overlapping sections |
 
+## Careers (MyJKKN job postings)
+
+- `/careers/` and `/careers/[id]/` list **only JKKN College of Pharmacy** openings from the MyJKKN Public Careers API (`https://www.jkkn.ai/api/public/careers`). Code: `lib/careers/`, `components/careers/`.
+- Scoped by `JKKN_PHARMACY_INSTITUTION_ID` (shared with the faculty sync). If it is unset, the pages show **zero** jobs — never other colleges' jobs.
+- ISR 300 s. Applications are POSTed from the applicant's browser (MyJKKN rate-limits per IP and only allows the `https://pharmacy.jkkn.ac.in` origin). Keep `https://www.jkkn.ai` in the CSP `connect-src` in `next.config.js`.
+- Optional `NEXT_PUBLIC_MYJKKN_URL` overrides the MyJKKN host — also update `connect-src` in `next.config.js`.
+- Job URLs are added to the sitemap in `next-sitemap.config.js` → `additionalPaths`.
+- Tests: `npm test` (Vitest) covers the pure helpers in `lib/careers/`.
+
 ---
 
 # Text Size Documentation - Nursing College Website
