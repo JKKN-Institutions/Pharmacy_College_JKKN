@@ -1,6 +1,8 @@
 'use client';
 
+import { startTransition } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import Header from '@/components/Header';
 
 interface CareerDetailErrorProps {
@@ -9,6 +11,7 @@ interface CareerDetailErrorProps {
 }
 
 export default function CareerDetailError({ reset }: CareerDetailErrorProps) {
+  const router = useRouter();
   return (
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
@@ -20,7 +23,12 @@ export default function CareerDetailError({ reset }: CareerDetailErrorProps) {
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
           <button
             type="button"
-            onClick={reset}
+            onClick={() =>
+              startTransition(() => {
+                router.refresh();
+                reset();
+              })
+            }
             className="inline-flex min-h-[44px] items-center rounded-lg bg-[#7cb983] px-6 font-semibold text-white transition-colors hover:bg-[#6ba872]"
           >
             Try again

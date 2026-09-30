@@ -29,7 +29,12 @@ interface CareerDetailPageProps {
 
 export async function generateMetadata({ params }: CareerDetailPageProps): Promise<Metadata> {
   const { id } = await params;
-  const job = await getCollegeJob(id);
+  let job: Awaited<ReturnType<typeof getCollegeJob>>;
+  try {
+    job = await getCollegeJob(id);
+  } catch {
+    return { title: 'Job Opening | JKKN Pharmacy', robots: { index: false, follow: true } };
+  }
   if (!job) return { title: 'Job Opening Not Found | JKKN Pharmacy', robots: { index: false, follow: true } };
   const url = `${SITE_URL}${CAREERS_PATH}/${job.id}/`;
   const title = careerPageTitle(job.title);
