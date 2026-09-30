@@ -59,7 +59,7 @@ export default function JobCard({ job }: JobCardProps) {
         <span className="text-xs font-medium text-[#002309]/70">{positions}</span>
         <Link
           href={href}
-          aria-label={`View details and apply for ${job.title}`}
+          aria-label={`View & Apply: ${job.title}`}
           className="inline-flex min-h-[44px] items-center gap-2 rounded-lg bg-[#7cb983] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#6ba872]"
         >
           View &amp; Apply

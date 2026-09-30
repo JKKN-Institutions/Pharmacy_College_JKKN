@@ -91,6 +91,7 @@ export default async function CareerDetailPage({ params }: CareerDetailPageProps
         ]}
       />
 
+      <main>
       <div className="bg-[#006837]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 break-words">{job.title}</h1>
@@ -148,6 +149,7 @@ export default async function CareerDetailPage({ params }: CareerDetailPageProps
           </section>
         </div>
       </div>
+      </main>
     </div>
   );
 }

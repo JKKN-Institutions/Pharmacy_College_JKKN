@@ -110,6 +110,16 @@ describe('submitApplication', () => {
     });
   });
 
+  it('treats any 2xx (e.g. 200 for a duplicate) as success', async () => {
+    const result = await submitApplication('abc', body, respond(200, { reference: 'JOB-001-AB12CD34' }));
+    expect(result).toEqual({ ok: true, reference: 'JOB-001-AB12CD34' });
+  });
+
+  it('drops unknown field keys and shows the API error when nothing is highlightable on 400', async () => {
+    const result = await submitApplication('abc', body, respond(400, { error: 'Server says no', fields: { utm_source: 'bad' } }));
+    expect(result).toEqual({ ok: false, status: 400, error: 'Server says no', fields: {} });
+  });
+
   it('uses friendly messages for rate limit and closed jobs', async () => {
     const limited = await submitApplication('abc', body, respond(429, { error: 'Too many' }));
     expect(limited.ok === false && limited.error).toMatch(/try again in an hour/);

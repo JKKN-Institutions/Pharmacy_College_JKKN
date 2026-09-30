@@ -163,7 +163,7 @@ module.exports = {
     // Open MyJKKN job postings for this college (/careers/[id]). Fail-soft:
     // no institution id, API down or bad payload → skip, never break the build.
     try {
-      const institutionId = process.env.JKKN_PHARMACY_INSTITUTION_ID
+      const institutionId = process.env.JKKN_PHARMACY_INSTITUTION_ID?.trim()
       const myjkkn = (process.env.NEXT_PUBLIC_MYJKKN_URL || 'https://www.jkkn.ai').replace(/\/+$/, '')
       if (!institutionId) {
         console.warn('[next-sitemap] JKKN_PHARMACY_INSTITUTION_ID missing — skipping career openings.')

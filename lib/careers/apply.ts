@@ -144,16 +144,19 @@ export async function submitApplication(
     // Non-JSON body (e.g. gateway error page) — fall through to generic handling.
   }
 
-  if (res.status === 201) {
+  if (res.ok) {
     return { ok: true, reference: typeof body.reference === 'string' ? body.reference : '' };
   }
 
   const fields: Record<string, string> = {};
   if (body.fields && typeof body.fields === 'object') {
     for (const [key, value] of Object.entries(body.fields)) {
-      if (typeof value === 'string') fields[key] = value;
+      if (typeof value === 'string' && (APPLICATION_FIELD_ORDER as readonly string[]).includes(key)) fields[key] = value;
     }
   }
   const apiError = typeof body.error === 'string' && body.error ? body.error : null;
-  return { ok: false, status: res.status, error: STATUS_MESSAGES[res.status] ?? apiError ?? FALLBACK_ERROR, fields };
+  const noKnownFields = Object.keys(fields).length === 0;
+  const error =
+    res.status === 400 && noKnownFields ? (apiError ?? FALLBACK_ERROR) : (STATUS_MESSAGES[res.status] ?? apiError ?? FALLBACK_ERROR);
+  return { ok: false, status: res.status, error, fields };
 }
