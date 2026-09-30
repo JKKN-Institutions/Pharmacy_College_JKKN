@@ -61,7 +61,7 @@ const nextConfig = {
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               "font-src 'self' https://fonts.gstatic.com",
               "img-src 'self' data: https:",
-              "connect-src 'self' https://www.google-analytics.com",
+              "connect-src 'self' https://www.google-analytics.com https://www.jkkn.ai",
               "frame-src 'self' https://www.youtube.com https://www.google.com",
               "report-uri /api/csp-report",
             ].join('; '),

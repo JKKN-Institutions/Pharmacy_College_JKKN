@@ -5,6 +5,7 @@ import { ArrowLeft } from 'lucide-react';
 import Header from '@/components/Header';
 import CareersBreadcrumb from '@/components/careers/CareersBreadcrumb';
 import JsonLd from '@/components/careers/JsonLd';
+import ApplyForm from '@/components/careers/ApplyForm';
 import { getCollegeJob } from '@/lib/careers/api';
 import { CAREERS_PATH, COLLEGE_NAME, SITE_URL } from '@/lib/careers/config';
 import {
@@ -143,7 +144,7 @@ export default async function CareerDetailPage({ params }: CareerDetailPageProps
             <h2 id="apply-heading" className="mb-4 text-xl sm:text-2xl font-bold text-[#006837]">
               Apply for this role
             </h2>
-            {/* ApplyForm is mounted here in Task 5 */}
+            <ApplyForm jobId={job.id} jobTitle={job.title} />
           </section>
         </div>
       </div>
