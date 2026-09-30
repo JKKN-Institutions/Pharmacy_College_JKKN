@@ -132,6 +132,7 @@ module.exports = {
       { loc: '/blog', priority: 0.8, changefreq: 'daily' },
       { loc: '/faculty', priority: 0.7, changefreq: 'weekly' },
       { loc: '/gallery', priority: 0.6, changefreq: 'monthly' },
+      { loc: '/careers', priority: 0.7, changefreq: 'daily' },
     ]
     indexPages.forEach(p => paths.push({ ...p, lastmod: now }))
 
@@ -157,6 +158,36 @@ module.exports = {
       }
     } catch (err) {
       console.warn('[next-sitemap] PDF scan failed:', err.message)
+    }
+
+    // Open MyJKKN job postings for this college (/careers/[id]). Fail-soft:
+    // no institution id, API down or bad payload → skip, never break the build.
+    try {
+      const institutionId = process.env.JKKN_PHARMACY_INSTITUTION_ID
+      const myjkkn = (process.env.NEXT_PUBLIC_MYJKKN_URL || 'https://www.jkkn.ai').replace(/\/+$/, '')
+      if (!institutionId) {
+        console.warn('[next-sitemap] JKKN_PHARMACY_INSTITUTION_ID missing — skipping career openings.')
+      } else {
+        const res = await fetch(
+          `${myjkkn}/api/public/careers/jobs?institution_id=${encodeURIComponent(institutionId)}`,
+          { signal: AbortSignal.timeout(8000) }
+        )
+        const body = res.ok ? await res.json() : null
+        const jobs = Array.isArray(body?.data)
+          ? body.data.filter(j => typeof j?.id === 'string' && j?.institution?.id === institutionId)
+          : []
+        jobs.forEach(j => {
+          paths.push({
+            loc: `/careers/${j.id}`,
+            changefreq: 'weekly',
+            priority: 0.6,
+            lastmod: j.posted_at ? new Date(j.posted_at).toISOString() : now,
+          })
+        })
+        console.log(`[next-sitemap] Added ${jobs.length} career openings`)
+      }
+    } catch (err) {
+      console.warn('[next-sitemap] Careers fetch failed — continuing without job paths:', err.message)
     }
 
     // Dynamic Supabase-driven content. Fail-soft: if env vars missing or table empty,
