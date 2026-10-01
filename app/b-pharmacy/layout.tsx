@@ -56,8 +56,8 @@ const courseSchema = {
 
 
 export const metadata: Metadata = {
-  title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
+  title: 'B.Pharm Course Details 2026: Eligibility, Fees, Scope | JKKN',
+  description: 'B.Pharm course details for 2026-27: the 4-year PCI-approved programme at JKKN College of Pharmacy, Komarapalayam - 100 seats, TNMGRMU affiliation, eligibility, fees, syllabus and careers.',
   keywords: [
     'best b pharm colleges in tamilnadu',
     'b pharm colleges in tamilnadu',
@@ -83,8 +83,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/b-pharmacy/',
   },
   openGraph: {
-    title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
+    title: 'B.Pharm Course Details 2026: Eligibility, Fees, Scope | JKKN',
+    description: 'B.Pharm course details for 2026-27: the 4-year PCI-approved programme at JKKN College of Pharmacy, Komarapalayam - 100 seats, TNMGRMU affiliation, eligibility, fees, syllabus and careers.',
     url: 'https://pharmacy.jkkn.ac.in/b-pharmacy/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -94,14 +94,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Best B.Pharm College in Tamilnadu',
+        alt: 'JKKN College of Pharmacy - B.Pharm course',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best B Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Searching for the best B Pharm colleges in Tamilnadu? JKKN is a top B.Pharm college — PCI approved, NAAC A Grade & 78% placements (2024-25). Admissions 2026-27!',
+    title: 'B.Pharm Course Details 2026: Eligibility, Fees, Scope | JKKN',
+    description: 'B.Pharm course details for 2026-27: the 4-year PCI-approved programme at JKKN College of Pharmacy, Komarapalayam - 100 seats, TNMGRMU affiliation, eligibility, fees, syllabus and careers.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

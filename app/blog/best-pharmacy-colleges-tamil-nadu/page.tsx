@@ -28,7 +28,7 @@ const faqs = [
   {
     question: 'What are the top pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
-      'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). JKKN College of Pharmacy, Komarapalayam, Namakkal district, is on NIRF’s list of participating institutions rather than in the rank list; it is PCI-approved, NAAC A Grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so a NIRF rank covers only a fraction of them.',
+      'NIRF 2025 ranks eleven Tamil Nadu institutions in its Pharmacy list: JSS College of Pharmacy, Ooty (#4 nationally), SRM Institute of Science and Technology, Chennai (#10), Amrita Vishwa Vidyapeetham, Coimbatore (#14), Sri Ramachandra Institute, Chennai (#36), Annamalai University (#42), Vels Institute, Chennai (#61), PSG College of Pharmacy, Coimbatore (#65), Nandha College of Pharmacy, Erode (#77), College of Pharmacy at Madras Medical College, Chennai (#94), Arulmigu Kalasalingam College of Pharmacy, Srivilliputtur (#96) and Vinayaka Mission’s Research Foundation, Salem (#99). JKKN College of Pharmacy, Komarapalayam, Namakkal district, is on NIRF’s list of participating institutions rather than in the rank list; it is PCI-approved, NAAC A Grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. KMCH College of Pharmacy, Coimbatore is in the published 102-125 band. The Tamil Nadu Dr. M.G.R. Medical University\u2019s 2025-26 B.Pharm affiliation list alone carries 115 colleges, so a NIRF rank covers only a fraction of them.',
   },
   {
     question:
@@ -40,19 +40,19 @@ const faqs = [
     question:
       'How much are the fees for pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
-      'B.Pharm fees in Tamil Nadu range from INR 40,000 per year (government colleges) to INR 2.5 lakh per year (private colleges). SRM charges approximately INR 1.85 lakh, KMCH charges INR 1.12 lakh, and PSG charges INR 1.97 lakh annually. M.Pharm fees range from INR 50,000 to INR 3 lakh per year. Pharm.D (Doctor of Pharmacy) fees range from INR 80,000 to INR 4 lakh per year.',
+      'For B.Pharm, the Tamil Nadu Selection Committee\u2019s 2025-26 prospectus fixes tuition at Rs 3,000 a year in government colleges and Rs 43,000 a year for government-quota seats in self-financing colleges (hostel, mess and transport extra). Management-quota fees are set by each college: at JKKN College of Pharmacy, B.Pharm management-quota tuition is Rs 1,40,000 a year. Deemed universities set their own fees, so confirm the current figure with the college.',
   },
   {
     question:
       'What is the eligibility for pharmacy college admission in Tamil Nadu?',
     answer:
-      'B.Pharm eligibility requires 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% aggregate (45% for reserved categories). NEET UG score is recommended. Pharm.D requires the same 10+2 qualification. M.Pharm requires a B.Pharm degree with minimum 55% and GPAT score is preferred. D.Pharm (Diploma) requires 10+2 pass in science stream. All programs must be from PCI-approved institutions.',
+      'B.Pharm eligibility requires 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% aggregate (45% for reserved categories). NEET is not required for B.Pharm in Tamil Nadu. Pharm.D requires the same 10+2 qualification. M.Pharm requires a B.Pharm degree with minimum 55% and GPAT score is preferred. D.Pharm (Diploma) requires 10+2 pass in science stream. All programs must be from PCI-approved institutions.',
   },
   {
     question:
       'Which is the best college for pharmacy in Tamil Nadu (tamilnadu)?',
     answer:
-      'No single college is "the best" for everyone, and no body awards that title. NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy, Ooty at #4 nationally - but only eleven of the state’s 146 PCI-approved colleges carry a rank at all, so a rank cannot decide it for most applicants. Compare four published facts instead: PCI approval and university affiliation, NAAC or NBA accreditation, sanctioned seats per programme, and the placement figure the college files with NIRF. JKKN College of Pharmacy, Komarapalayam, is PCI-approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%).',
+      'No single college is "the best" for everyone, and no body awards that title. NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy, Ooty at #4 nationally - but the university’s 2025-26 B.Pharm list alone has 115 colleges and only eleven Tamil Nadu institutions carry a rank at all, so a rank cannot decide it for most applicants. Compare four published facts instead: PCI approval and university affiliation, NAAC or NBA accreditation, sanctioned seats per programme, and the placement figure the college files with NIRF. JKKN College of Pharmacy, Komarapalayam, is PCI-approved, NAAC A Grade, affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%).',
   },
   {
     question: 'Which colleges offer Pharm.D in Tamil Nadu?',
@@ -74,7 +74,22 @@ const faqs = [
     question:
       'What is the cutoff for pharmacy colleges in Tamil Nadu?',
     answer:
-      'B.Pharm admission in Tamil Nadu requires 10+2 with required subjects and minimum 50% aggregate. NEET qualification is recommended but not mandatory for all colleges. Government-quota seats are allotted by the TN Selection Committee on +2 marks in Physics, Chemistry and Mathematics or Biology, so B.Pharm has no separate entrance-exam cutoff — the merit list is built from your +2 marks and category rank. Management quota seats have separate cutoff criteria. Counselling typically runs from May to July each year.',
+      'B.Pharm admission in Tamil Nadu requires 10+2 with required subjects and minimum 50% aggregate. NEET is not required. Government-quota seats are allotted by the TN Selection Committee on +2 marks in Physics, Chemistry and Mathematics or Biology, so B.Pharm has no separate entrance-exam cutoff — the merit list is built from your +2 marks and category rank. Management quota seats have separate cutoff criteria. In 2025 the Selection Committee took applications from 17 June to 7 July and began online counselling on 30 July.',
+  },
+  {
+    question: 'How many B.Pharm colleges are there in Tamil Nadu (tamilnadu)?',
+    answer:
+      'The Tamil Nadu Dr. M.G.R. Medical University\u2019s B.Pharm affiliation list for 2025-26 (published 11 August 2026) carries 115 colleges: 2 government colleges and 113 self-financing colleges. Deemed and state universities - among them JSS (Ooty), SRM, Amrita, Sri Ramachandra, Vels and Annamalai - run B.Pharm programmes of their own and are not on that list. JKKN College of Pharmacy, Komarapalayam, is on it with 100 sanctioned seats.',
+  },
+  {
+    question: 'How many government B.Pharm colleges are there in Tamil Nadu?',
+    answer:
+      'Two on the university\u2019s affiliation list: the College of Pharmacy at Madras Medical College, Chennai and the College of Pharmacy at Madurai Medical College, with 60 sanctioned seats each (120 in all). Their tuition is Rs 3,000 a year (2025-26 prospectus). Annamalai University, a state university, runs its own pharmacy faculty outside that list.',
+  },
+  {
+    question: 'Where can I get the list of B.Pharm colleges in Tamil Nadu as a PDF?',
+    answer:
+      'The official list is the Tamil Nadu Dr. M.G.R. Medical University\u2019s "B.Pharmacy - Affiliated Colleges/Institutions for the Academic Year 2025-26" (dated 11 August 2026), published on tnmgrmu.ac.in. It gives every affiliated college with its institution code, the year it was first permitted and its sanctioned intake.',
   },
 ];
 
@@ -113,7 +128,7 @@ export default function BestPharmacyCollegesTamilNadu() {
         description="Comprehensive comparison of the top pharmacy colleges in Tamil Nadu (tamilnadu) based on NIRF 2025 rankings, NAAC grades, placement rates, and fees. Includes B.Pharm, M.Pharm, and Pharm.D programs."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
         datePublished="2026-03-18"
-        dateModified="2026-03-24"
+        dateModified="2026-10-01"
         image="https://pharmacy.jkkn.ac.in/images/logo.png"
         wordCount={2200}
       />
@@ -122,7 +137,7 @@ export default function BestPharmacyCollegesTamilNadu() {
         name="Best Pharmacy Colleges in Tamil Nadu 2026 — Rankings, Fees, Placements"
         description="Compare top pharmacy colleges in Tamil Nadu by NIRF ranking, NAAC grade, fees and placements."
         url="https://pharmacy.jkkn.ac.in/blog/best-pharmacy-colleges-tamil-nadu/"
-        dateModified="2026-03-24"
+        dateModified="2026-10-01"
         speakableCssSelectors={[
           '.speakable-summary',
           '.voice-answer',
@@ -172,7 +187,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               Pharmacy Rankings
             </span>
             <span className="text-blue-200 text-xs">
-              Updated March 24, 2026 · 10 min read
+              Updated October 1, 2026 · 10 min read
             </span>
           </div>
 
@@ -186,7 +201,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             Comprehensive comparison of top pharmacy colleges in Tamil Nadu
             based on NIRF 2025 rankings, NAAC accreditation grades, placement
             rates, and fee structures. Covers B.Pharm, M.Pharm, Pharm.D, and
-            D.Pharm programs across 146 PCI-approved institutions.
+            D.Pharm programs, from the 115 B.Pharm colleges on the Tamil Nadu Dr. M.G.R. Medical University’s 2025-26 list to the state’s deemed universities.
           </p>
         </div>
       </section>
@@ -200,12 +215,13 @@ export default function BestPharmacyCollegesTamilNadu() {
           </h2>
           <div className="speakable-summary prose prose-lg max-w-none text-gray-700">
             <p>
-              Tamil Nadu has 146 pharmacy colleges approved by the Pharmacy
-              Council of India (PCI), offering Bachelor of Pharmacy (B.Pharm),
-              Master of Pharmacy (M.Pharm), Doctor of Pharmacy (Pharm.D), and
-              Diploma in Pharmacy (D.Pharm) programs. These institutions are
-              affiliated to Tamil Nadu Dr. M.G.R. Medical University, Periyar
-              University, and Anna University.
+              The Tamil Nadu Dr. M.G.R. Medical University&apos;s B.Pharm
+              affiliation list for 2025-26 carries 115 colleges - 2 government and
+              113 self-financing - and deemed and state universities such as JSS,
+              SRM, Amrita, Sri Ramachandra, Vels and Annamalai run pharmacy
+              programmes of their own. Between them they offer Bachelor of Pharmacy
+              (B.Pharm), Master of Pharmacy (M.Pharm), Doctor of Pharmacy (Pharm.D)
+              and Diploma in Pharmacy (D.Pharm).
             </p>
             <p className="mt-4">
               The National Institutional Ranking Framework (NIRF) 2025 ranks
@@ -213,11 +229,11 @@ export default function BestPharmacyCollegesTamilNadu() {
               highest-ranked pharmacy college in Tamil Nadu. JKKN College of
               Pharmacy, Komarapalayam, Namakkal district, is PCI-approved, NAAC
               A Grade and affiliated to The Tamil Nadu Dr. M.G.R. Medical
-              University. Selection criteria
-              for pharmacy admission include 10+2 qualifications with Physics,
-              Chemistry, and Biology or Mathematics, NEET UG scores
-              (recommended), and TN Selection Committee counselling conducted
-              annually from May to July.
+              University. Pharmacy admission needs 10+2 with Physics, Chemistry,
+              and Biology or Mathematics - NEET is not required - and
+              government-quota seats are allotted by the Tamil Nadu Selection
+              Committee&apos;s online counselling after the +2 results (in 2025:
+              applications 17 June to 7 July, counselling from 30 July).
             </p>
           </div>
         </section>
@@ -230,7 +246,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
           {/* Snippet paragraph — 40-60 word summary for featured snippet extraction */}
           <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
-            NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy (Ooty, #4 nationally), SRM Institute of Science and Technology (Chennai, #10) and Amrita Vishwa Vidyapeetham (Coimbatore, #14). Tamil Nadu has 146 PCI-approved pharmacy colleges in all, so most — including JKKN College of Pharmacy, Komarapalayam, which placed 97 of 124 in 2024-25 — carry no NIRF rank. Rank is one signal; approval, accreditation, seats, fees and placement are the others.
+            NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy, led by JSS College of Pharmacy (Ooty, #4 nationally), SRM Institute of Science and Technology (Chennai, #10) and Amrita Vishwa Vidyapeetham (Coimbatore, #14). The university&apos;s 2025-26 B.Pharm list alone has 115 colleges, so most — including JKKN College of Pharmacy, Komarapalayam, which placed 97 of 124 in 2024-25 — carry no NIRF rank. Rank is one signal; approval, accreditation, seats, fees and placement are the others.
           </p>
 
           {/* Snippet-optimized table — immediately below snippet paragraph */}
@@ -314,13 +330,78 @@ export default function BestPharmacyCollegesTamilNadu() {
           </div>
 
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Tamil Nadu hosts 146 pharmacy colleges approved by the Pharmacy
-            Council of India (PCI). The top pharmacy colleges are ranked by
+            The Tamil Nadu Dr. M.G.R. Medical University lists 115 B.Pharm
+            colleges for 2025-26 (2 government, 113 self-financing). The top pharmacy colleges are ranked by
             NIRF (National Institutional Ranking Framework) and accredited by
             NAAC (National Assessment and Accreditation Council). JSS College
             of Pharmacy in Ooty leads with NIRF #4 nationally, followed by SRM
             College of Pharmacy at #10. Eight colleges hold NAAC A grade or
             above.
+          </p>
+        </section>
+
+        {/* B.Pharm colleges in Tamil Nadu (added 2026-10-01, GL6-362) - the B.Pharm slice of this page.
+            "b pharm colleges in tamilnadu" is 606 impressions in 90 days on this page alone, but no block here
+            answered how many B.Pharm colleges there are, how many are government, what they charge, or
+            where the official list is - the questions in Google's People Also Ask and related searches.
+            Sources: TNMGRMU B.Pharm affiliation list AY 2025-26 dated 11.08.2026 (115 rows: 2 government,
+            113 self-financing; JKKN = row 23, code 32, PA 1989-90, intake 100) and the DME Selection
+            Committee Prospectus for Paramedical Degree Courses 2025-26, clause 29 (tuition Rs 3,000/yr in
+            government colleges, Rs 43,000/yr for government-quota B.Pharm seats in self-financing colleges). */}
+        <section id="bpharm-colleges-tamil-nadu" className="mb-12">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+            B.Pharm Colleges in Tamil Nadu (tamilnadu) — How Many, Government vs Private, Fees
+          </h2>
+          <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
+            The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 115 B.Pharm colleges: 2 government colleges (Madras Medical College and Madurai Medical College, 60 seats each) and 113 self-financing colleges. Government-college tuition is Rs 3,000 a year; government-quota seats in self-financing colleges cost Rs 43,000 a year (2025-26 prospectus). Deemed universities admit and charge on their own terms.
+          </p>
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse text-sm sm:text-base">
+              <caption className="text-left text-xs text-gray-500 mb-2">
+                Table: B.Pharm in Tamil Nadu by type of college. Sources:{' '}
+                <a href="https://www.tnmgrmu.ac.in/wp-content/uploads/2026/08/B.Pharm-Affl.Inst-11.08.2026.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">TNMGRMU B.Pharm affiliation list 2025-26</a>{' '}and{' '}
+                <a href="https://tnmedicalselection.net/archives/22052026023111432.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">Tamil Nadu Selection Committee prospectus 2025-26</a>, clause 29.
+              </caption>
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="px-4 py-3 text-left font-semibold text-gray-800">Type</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-800">Colleges</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-800">How you get a seat</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-800">Tuition per year</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <td className="px-4 py-3 font-medium">Government</td>
+                  <td className="px-4 py-3 text-gray-700">2 (Madras Medical College, Madurai Medical College; 60 seats each)</td>
+                  <td className="px-4 py-3 text-gray-700">Selection Committee online counselling on +2 marks</td>
+                  <td className="px-4 py-3 text-gray-700">Rs 3,000</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-gray-50">
+                  <td className="px-4 py-3 font-medium">Self-financing — government quota</td>
+                  <td className="px-4 py-3 text-gray-700" rowSpan={2}>113 on the university list, including JKKN College of Pharmacy (100 seats)</td>
+                  <td className="px-4 py-3 text-gray-700">Same Selection Committee counselling</td>
+                  <td className="px-4 py-3 text-gray-700">Rs 43,000</td>
+                </tr>
+                <tr className="border-b border-gray-200">
+                  <td className="px-4 py-3 font-medium">Self-financing — management quota</td>
+                  <td className="px-4 py-3 text-gray-700">Apply to the college</td>
+                  <td className="px-4 py-3 text-gray-700">Set by each college — JKKN: Rs 1,40,000</td>
+                </tr>
+                <tr className="border-b border-gray-200 bg-gray-50">
+                  <td className="px-4 py-3 font-medium">Deemed / state universities</td>
+                  <td className="px-4 py-3 text-gray-700">JSS, SRM, Amrita, Sri Ramachandra, Vels, Annamalai and others</td>
+                  <td className="px-4 py-3 text-gray-700">The university&apos;s own process</td>
+                  <td className="px-4 py-3 text-gray-700">Set by the university</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-4 text-gray-700 leading-relaxed text-sm">
+            Hostel, mess and transport are extra in every row. JKKN College of Pharmacy (row 23 on the university list, first permitted in 1989-90) is in Komarapalayam, Namakkal district —{' '}
+            <Link href="/admissions/b.pharm" className="text-[#006837] font-semibold underline">B.Pharm admission 2026-27</Link>
+            {' '}·{' '}
+            <Link href="/b-pharmacy/" className="text-[#006837] font-semibold underline">B.Pharm course details</Link>.
           </p>
         </section>
 
@@ -356,10 +437,10 @@ export default function BestPharmacyCollegesTamilNadu() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">4 years</td>
                   <td className="px-4 py-3 text-green-700">
-                    ₹40,000–80,000/year
+                    ₹3,000/year tuition (Selection Committee 2025-26)
                   </td>
                   <td className="px-4 py-3 text-gray-700">
-                    ₹1–2.5 lakh/year
+                    ₹43,000/year government quota; management quota set by each college (JKKN ₹1,40,000/year)
                   </td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
@@ -426,9 +507,9 @@ export default function BestPharmacyCollegesTamilNadu() {
                 sub: 'JKKN College of Pharmacy (NIRF 2026)',
               },
               {
-                label: 'Total PCI Colleges',
-                value: '146',
-                sub: 'Tamil Nadu',
+                label: 'B.Pharm colleges, TNMGRMU list',
+                value: '115',
+                sub: 'Tamil Nadu 2025-26 (2 government)',
               },
             ].map((stat) => (
               <div
