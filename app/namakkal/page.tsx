@@ -48,6 +48,48 @@ export default function NamakkalPage() {
       answer:
         'Yes - in Namakkal district, not in Namakkal town. JKKN College of Pharmacy is in Komarapalayam, on the western edge of Namakkal district, on NH-544. Namakkal Bus Stand is 65 km away (about 1 hour 20 minutes by car); Erode is 18 km and Tiruchengode 26 km. Most of the district\u2019s pharmacy colleges sit on this Komarapalayam-Tiruchengode side.',
     },
+    // B.Pharm in Namakkal district (added 2026-09-30, GL6-360). "b pharm colleges in namakkal"
+    // ranks 4.9 in season (May-Jul 2026) but no block on this page answered the B.Pharm question:
+    // no fee, no cut-off, no government answer - the three things Google's related searches ask.
+    // By the user's decision these answers name no other college (the table below does that).
+    // Sources: fee = facts-master (MQ Rs 1,40,000/yr, same on /fee-structure/); cut-off method,
+    // eligibility and government colleges = DME Selection Committee, Prospectus for Paramedical
+    // Degree Courses 2025-26 (G.O.(D) No.618): sec. 6, sec. 11, Annexure III (Madras Medical
+    // College 60 + Madurai Medical College 60), self-financing list entry 24 "J.K.K. Nattraja
+    // College of Pharmacy" and entry 4 "Annai J.K.K. Sampoorani Ammal College of Pharmacy,
+    // Ethirmedu". https://tnmedicalselection.net/archives/22052026023111432.pdf
+    // Separate managements: user-confirmed 2026-09-30 (Google shows that college's Knowledge
+    // Panel on "b pharm colleges in namakkal").
+    {
+      question: 'Is there a B.Pharm college in Namakkal district with hostel?',
+      answer:
+        'Yes. JKKN College of Pharmacy in Komarapalayam, Namakkal district, offers a four-year B.Pharm with 100 seats, approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Separate hostels for male and female students are on campus, and college transport serves Tiruchengode, Komarapalayam, Rasipuram and Sankagiri.',
+    },
+    {
+      question: 'How do I choose a B.Pharm college in Namakkal district?',
+      answer:
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is on NH-544 at Komarapalayam with hostels on campus.',
+    },
+    {
+      question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
+      answer:
+        'B.Pharm tuition for management-quota seats is Rs 1,40,000 per year. Government-quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport and exam charges are extra. The full table is on the fee structure page.',
+    },
+    {
+      question: 'What is the B.Pharm cut-off in Tamil Nadu?',
+      answer:
+        'There is no fixed B.Pharm cut-off. For government-quota seats the Tamil Nadu Selection Committee (Directorate of Medical Education and Research) ranks applicants on Class 12 marks scaled to 200 - Physics and Chemistry together plus Biology or Mathematics - and allots seats by rank and reservation in online counselling, so the closing mark changes every year. The minimum is a 40% aggregate for OC, BC and MBC candidates and a pass for SC/ST candidates (2025-26 prospectus).',
+    },
+    {
+      question: 'Is there a government B.Pharm college in Namakkal district?',
+      answer:
+        'No. The Tamil Nadu Selection Committee\u2019s 2025-26 prospectus lists only two government colleges for B.Pharm - Madras Medical College, Chennai and Madurai Medical College, Madurai - with 60 seats each. Government-quota B.Pharm seats are also filled in self-financing colleges through the same counselling, and JKKN College of Pharmacy is on that list.',
+    },
+    {
+      question: 'Is JKKN College of Pharmacy the same as Annai JKK Sampoorani Ammal College of Pharmacy?',
+      answer:
+        'No. They are two separate colleges under different managements. JKKN College of Pharmacy - listed by the Tamil Nadu Selection Committee as J.K.K. Nattraja College of Pharmacy - is at Natarajapuram on NH-544, Komarapalayam. Annai J.K.K. Sampoorani Ammal College of Pharmacy is at Ethirmedu, Komarapalayam. Check the exact college name on your counselling choice list and allotment order.',
+    },
     {
       question: 'Which colleges offer Pharm.D in Namakkal district?',
       answer:
@@ -402,6 +444,53 @@ export default function NamakkalPage() {
         </div>
       </section>
 
+      {/* ── B.Pharm in Namakkal district (added 2026-09-30, GL6-360) ──
+          Answers "b pharm colleges in namakkal (district)" for JKKN only: JKKN facts against each
+          thing a family should check, no other college named (user decision 2026-09-30, same rule
+          as /erode/). Every fact is already on this page or on /admissions/b.pharm and /fee-structure/. */}
+      <section id="bpharm-namakkal-district" className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-3 text-center">
+            B.Pharm College in Namakkal District — JKKN College of Pharmacy, Komarapalayam
+          </h2>
+          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-5 sm:mb-7" />
+          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed mb-5 sm:mb-6">
+            JKKN College of Pharmacy in Komarapalayam, Namakkal district, on NH-544, offers a four-year B.Pharm with 100 seats, approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University. Management-quota tuition is Rs 1,40,000 a year; government-quota seats are allotted through the Tamil Nadu Selection Committee.
+          </p>
+
+          <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-3">
+            How to choose a B.Pharm college in Namakkal district — five checks
+          </h3>
+          <ol className="space-y-2 text-xs sm:text-sm text-gray-700 mb-5 sm:mb-6">
+            {[
+              { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
+              { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
+              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited.' },
+              { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
+              { check: 'Travel and hostel', jkkn: 'On NH-544 at Komarapalayam — 26 km from Tiruchengode, 65 km from Namakkal Bus Stand; separate hostels on campus.' },
+            ].map((item, i) => (
+              <li key={item.check} className="flex items-start gap-3 bg-[#FBFBEE] rounded-lg p-3">
+                <span className="w-6 h-6 rounded-full bg-[#006837] text-white text-[11px] font-bold flex items-center justify-center shrink-0">
+                  {i + 1}
+                </span>
+                <span>
+                  <strong className="text-gray-900">{item.check}:</strong> {item.jkkn}
+                </span>
+              </li>
+            ))}
+          </ol>
+
+          <p className="text-[11px] sm:text-xs text-gray-500 leading-relaxed">
+            B.Pharm fees and admission steps:{' '}
+            <a href="/admissions/b.pharm" className="text-[#006837] font-semibold underline">B.Pharm admission 2026-27</a>
+            {' '}· course details:{' '}
+            <a href="/b-pharmacy/" className="text-[#006837] font-semibold underline">Bachelor of Pharmacy at JKKN</a>
+            {' '}· every pharmacy college in the district:{' '}
+            <a href="#namakkal-comparison" className="text-[#006837] font-semibold underline">comparison table below</a>.
+          </p>
+        </div>
+      </section>
+
       {/* ── Placement Highlights ── */}
       <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
@@ -634,7 +723,7 @@ export default function NamakkalPage() {
             Paavai CoP - Shiksha list + Google local listing (Kalyani / Pachal, Namakkal); paavai.edu.in has no reachable pharmacy page 2026-09-22 - programmes not read
             KGPC     - kgpc.edu.in (B.Pharm, 100 seats, since 2019-20; PCI, TNMGRMU)
           The only distance printed is the one the user measured (JKKN -> Namakkal Bus Stand). */}
-      <section className="bg-white py-8 sm:py-12 px-4 sm:px-6">
+      <section id="namakkal-comparison" className="bg-white py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Pharmacy Colleges in Namakkal District — an Honest Comparison
@@ -822,7 +911,7 @@ export default function NamakkalPage() {
         name="Pharmacy Colleges in Namakkal District — JKKN College of Pharmacy, Komarapalayam"
         description="JKKN College of Pharmacy, Komarapalayam — PCI-approved pharmacy college in Namakkal district, 65 km from Namakkal town. B.Pharm, M.Pharm (90 seats), Pharm.D. 97 of 124 placed in 2024-25 (NIRF)."
         url="https://pharmacy.jkkn.ac.in/namakkal/"
-        dateModified="2026-03-27"
+        dateModified="2026-09-30"
       />
 
       {/* ── Course Schemas (AEO) ── */}
