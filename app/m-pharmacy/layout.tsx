@@ -98,13 +98,45 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Choose M.Pharm specialisation based on interests, skills, and career goals through systematic evaluation. Step 1 - Identify Interests: Do you enjoy laboratory work (Pharmaceutics/Analysis/Chemistry) or patient interaction (Pharmacy Practice) or animal studies (Pharmacology)? Step 2 - Assess Strengths: Strong in chemistry → Chemistry/Pharmaceutics, Analytical mindset → Analysis, Biology interest → Pharmacology, Communication skills → Pharmacy Practice. Step 3 - Career Goals: Want pharmaceutical industry R&D → Pharmaceutics/Chemistry, QC positions → Analysis, Drug discovery → Pharmacology/Chemistry, Hospital work → Pharmacy Practice, Teaching career → Any specialisation. Step 4 - Job Market: Maximum openings → Analysis (QC roles everywhere), Highest R&D demand → Pharmaceutics, Best growth potential → Chemistry/Pharmaceutics, Growing field → Pharmacy Practice. Step 5 - College Strength: Check which specialisations your target colleges excel in - faculty expertise, lab infrastructure, research publications, industry collaborations, placement record. Decision Framework: Choose Pharmaceutics if want versatile career in formulation R&D with high demand. Choose Analysis if want stable QC career with most job opportunities. Choose Pharmacology if fascinated by drug mechanisms and enjoy research. Choose Chemistry if strong organic chemistry background and want drug design roles. Choose Pharmacy Practice if prefer patient-focused work over laboratory research. Wrong reasons: Peer influence, perceived ease, random choice. Right approach: 2-3 month exploration - read research papers, talk to working professionals, visit labs, attend seminars in different specialisations before deciding."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How many M.Pharm colleges are there in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tamil Nadu Dr. M.G.R. Medical University's M.Pharm affiliation list for 2025-26 (dated 11 August 2026) carries 64 colleges: 2 government colleges - the College of Pharmacy at Madras Medical College, Chennai and at Madurai Medical College - and 62 self-financing colleges. Deemed and state universities such as JSS (Ooty), SRM, Amrita, Sri Ramachandra and Annamalai run M.Pharm programmes of their own and are not on that list."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the entrance exam for M.Pharm in Tamil Nadu? Is GPAT compulsory?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For government-quota seats in government colleges and self-financing colleges, the Tamil Nadu Selection Committee (Directorate of Medical Education and Research) holds its own M.Pharm entrance examination. In 2025 it was held in Chennai on 7 September: 125 objective questions, marks computed to 90, no negative marking. The Selection Committee's 2025-26 prospectus does not use GPAT. Management-quota and deemed-university admissions follow each institution's own process."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the M.Pharm fee in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Tamil Nadu Selection Committee's 2025-26 prospectus fixes M.Pharm tuition at Rs 5,000 a year in government colleges and Rs 70,000 a year for government-quota seats in self-financing colleges; special and other fees are paid at admission. Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which are the top M.Pharm colleges in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "NIRF ranks institutions, not individual courses. NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy: JSS College of Pharmacy, Ooty (#4), SRM Institute of Science and Technology (#10), Amrita Vishwa Vidyapeetham (#14), Sri Ramachandra Institute (#36), Annamalai University (#42), Vels Institute (#61), PSG College of Pharmacy (#65), Nandha College of Pharmacy (#77), College of Pharmacy, Madras Medical College (#94), Arulmigu Kalasalingam College of Pharmacy (#96) and Vinayaka Mission's Research Foundation (#99). JKKN College of Pharmacy participates in NIRF but carries no rank; compare approval, accreditation, seats, fees and the placement figure each college files with NIRF."
+      }
     }
   ]
 }
 
 export const metadata: Metadata = {
-  title: 'Top M Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'Explore top M Pharm colleges in Tamilnadu. JKKN offers 5 M.Pharm specialisations — PCI approved, NAAC A Grade, research-focused. Admissions Open 2026-27!',
+  title: 'M.Pharm Colleges in Tamilnadu 2026: Fees, Seats, Entrance | JKKN',
+  description: 'M.Pharm in Tamil Nadu: 64 colleges on the TNMGRMU 2025-26 list, government-quota fees and entrance exam, and JKKN College of Pharmacy - six specialisations, 90 seats, Komarapalayam. Admissions 2026-27.',
   keywords: [
     'top m pharm colleges in tamilnadu',
     'm pharm colleges in tamilnadu',
@@ -114,8 +146,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/m-pharmacy/',
   },
   openGraph: {
-    title: 'Top M Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Explore top M Pharm colleges in Tamilnadu. JKKN offers 5 M.Pharm specialisations — PCI approved, NAAC A Grade, research-focused. Admissions Open 2026-27!',
+    title: 'M.Pharm Colleges in Tamilnadu 2026: Fees, Seats, Entrance | JKKN',
+    description: 'M.Pharm in Tamil Nadu: 64 colleges on the TNMGRMU 2025-26 list, government-quota fees and entrance exam, and JKKN College of Pharmacy - six specialisations, 90 seats, Komarapalayam. Admissions 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/m-pharmacy/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -125,14 +157,14 @@ export const metadata: Metadata = {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
         width: 1200,
         height: 630,
-        alt: 'JKKN College of Pharmacy - Top M.Pharm College in Tamilnadu',
+        alt: 'JKKN College of Pharmacy - M.Pharm programme',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Top M Pharm Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Explore top M Pharm colleges in Tamilnadu. JKKN offers 5 M.Pharm specialisations — PCI approved, NAAC A Grade, research-focused. Admissions Open 2026-27!',
+    title: 'M.Pharm Colleges in Tamilnadu 2026: Fees, Seats, Entrance | JKKN',
+    description: 'M.Pharm in Tamil Nadu: 64 colleges on the TNMGRMU 2025-26 list, government-quota fees and entrance exam, and JKKN College of Pharmacy - six specialisations, 90 seats, Komarapalayam. Admissions 2026-27.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
