@@ -10,6 +10,8 @@ export const metadata: Metadata = {
     'pharmacy college in salem',
     'pharmacy college in salem district',
     'b pharm college in salem',
+    'b pharm colleges in salem',
+    'b pharm college near salem',
     'pharm d college salem',
     'jkkn pharmacy salem',
     'pci approved pharmacy college salem',
