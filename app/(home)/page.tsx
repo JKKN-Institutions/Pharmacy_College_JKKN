@@ -9,6 +9,9 @@ import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskC
 import React, { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
 import HomepagePopup from '@/components/HomepagePopup'
+import { EnquiryModalProvider } from '@/components/lead/EnquiryModal'
+import EnquiryButton from '@/components/lead/EnquiryButton'
+import PharmacyEnquiryForm from '@/components/lead/PharmacyEnquiryForm'
 
 export default function Home() {
   useEffect(() => {
@@ -73,6 +76,7 @@ export default function Home() {
   ];
 
   return (
+    <EnquiryModalProvider>
     <main className="overflow-x-hidden w-full">
       <HomepagePopup />
       <FaqSchema faqs={homepageFaqs} />
@@ -150,6 +154,19 @@ export default function Home() {
                 <span className="text-[#7cb983]">PCI Approved &amp; NAAC A Grade</span>
               </h1>
 
+              {/* Phones: the call-back button sits right under the heading, inside the first screen (2026-10-16) */}
+              <div className="lg:hidden mb-5">
+                <p className="text-sm text-gray-200 mb-3">Fill 3 details. Our admission team will call you within 24 hours.</p>
+                <EnquiryButton
+                  sourcePage="home-hero-btn"
+                  fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                  fallbackLabel="Start Your Application →"
+                  className="w-full bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-base min-h-[44px]"
+                >
+                  Get a Call Back
+                </EnquiryButton>
+              </div>
+
               {/* Description */}
               <p className="snippet-answer text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed">
                 JKKN College of Pharmacy (JKK Nattraja College of Pharmacy), Komarapalayam, is a PCI-approved, NAAC A Grade pharmacy college in Tamil Nadu established in 1985. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm with six specialisations, Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
@@ -158,16 +175,21 @@ export default function Home() {
 
             {/* Right Image + Stats + Buttons */}
             <div className="flex flex-col gap-6 mt-6 lg:mt-0">
-              <div className="relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
+              {/* lg and up: the 3-box enquiry card takes the photo's place (2026-10-16) */}
+              <div className="hidden lg:block rounded-2xl sm:rounded-3xl bg-[#0b3d1f]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
+                <h2 className="text-xl lg:text-2xl font-bold text-white leading-snug">Get pharmacy course fee and admission details</h2>
+                <p className="mt-1 mb-5 text-sm text-gray-200">Fill 3 details. Our admission team will call you within 24 hours.</p>
+                <PharmacyEnquiryForm sourcePage="home-hero" compact />
+              </div>
+              <div className="lg:hidden relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
                   src="/images/Pharmacy photos/IMG_6923.webp"
                   alt="JKKN College of Pharmacy Campus, Komarapalayam"
                   width={1920}
                   height={1080}
                   className="w-full h-auto object-cover"
-                  priority
                   quality={85}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
+                  sizes="100vw"
                 />
 
                 {/* Badges on Image */}
@@ -209,9 +231,6 @@ export default function Home() {
 
               {/* CTA Buttons */}
               <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
-                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=home" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
-                  Start Your Application →
-                </a>
                 <button
                   onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
                   className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
@@ -1120,6 +1139,13 @@ export default function Home() {
             </div>
           </div>
 
+          {/* The 3-box form where eligibility is read (2026-10-16) */}
+          <div className="max-w-xl mx-auto bg-[#006837] rounded-xl sm:rounded-2xl p-5 sm:p-6 mb-6 sm:mb-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">Check your eligibility with our admission team</h3>
+            <p className="mt-1 mb-5 text-sm sm:text-base text-white/80">Fill 3 details. Our admission team will call you within 24 hours.</p>
+            <PharmacyEnquiryForm sourcePage="home-admissions" compact />
+          </div>
+
           {/* Buttons */}
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
             <a href="tel:9345855001" className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
@@ -1352,5 +1378,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </EnquiryModalProvider>
   )
 }
