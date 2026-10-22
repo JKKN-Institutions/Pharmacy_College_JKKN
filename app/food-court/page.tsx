@@ -9,16 +9,16 @@ export default function FoodCourtPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Food Court
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -57,18 +57,18 @@ export default function FoodCourtPage() {
           {/* Content Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     Experience culinary delight at JKKN College of Pharmacy's vibrant food court, where an array of delectable dishes awaits. Boasting a diverse selection of food vendors, the food court serves as a bustling epicenter of gastronomic exploration. From local delicacies to global cuisines, handpicked vendors ensure a fusion of quality, hygiene, and scrumptiousness in every bite. Whether it's a swift snack, a leisurely meal, or a coffee rendezvous with friends, the well-established canteen is designed to cater to every craving and socializing need. The food court isn't just a place to eat; it's a lively hub of activity where flavors from different corners of the world converge to offer an unforgettable culinary journey. Embrace the richness of taste and the tapestry of cultures at JKKN's food court – a gateway to a world of flavors!
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     Step into JKKN College of Pharmacy's bustling food court, a haven for food enthusiasts seeking delightful culinary experiences. Here, the tantalizing aromas of diverse cuisines blend harmoniously, inviting learners and team members to embark on a gastronomic adventure like no other. The meticulously curated selection of food vendors ensures a perfect fusion of taste, quality, and hygiene in every dish. Whether craving a quick nibble or a hearty feast, the food court caters to every palate and preference, providing an inviting space for learners and team members alike. The food court isn't just about relishing scrumptious fare; it's a social haven where friendships are nurtured and conversations flow over shared meals and aromatic beverages. Come, indulge your taste buds, and be part of the vibrant tapestry of flavors and cultures that define JKKN's exceptional food court experience!
                   </span>
@@ -76,19 +76,19 @@ export default function FoodCourtPage() {
               </ul>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     JKKN College of Pharmacy has a fantastic food court, complete with a variety of food vendors offering an extensive range of cuisines and dishes.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     The well-established canteen is the perfect place for learners and team members to grab a quick snack, enjoy a full meal or catch up with friends over a cup of coffee.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     The food court is a lively hub of activity, where learners can sample everything from local delicacies to international cuisine. Vendors are handpicked for their quality and hygiene, ensuring delicious and healthy meals every time. Whether looking for a quick bite or a full meal, JKKN food court has something for everyone. Come and enjoy the vibrant food court and experience the diversity of flavors and cultures on offer!
                   </span>

@@ -51,8 +51,8 @@ function SubmenuItemComponent({
         className={cn(
           'w-full flex items-center justify-between px-4 py-3 text-left transition-colors',
           'hover:bg-gray-50 active:bg-gray-100',
-          'focus:outline-none focus:bg-gray-50 focus:ring-2 focus:ring-[#0F6B3E] focus:ring-inset',
-          isActive ? 'text-[#0F6B3E] font-medium' : 'text-gray-700',
+          'focus:outline-none focus:bg-gray-50 focus:ring-2 focus:ring-[#0b6d41] focus:ring-inset',
+          isActive ? 'text-[#0b6d41] font-medium' : 'text-gray-700',
           level > 0 && 'pl-6 border-l-2 border-gray-100'
         )}
       >

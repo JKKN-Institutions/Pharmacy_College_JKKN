@@ -9,7 +9,7 @@ export default function NIRFPage() {
       {/* NIRF Hero Section */}
       <section className="bg-[#FBFBEE] py-8 sm:py-10 md:py-12 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1400px] mx-auto">
-          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#006837] mb-4 sm:mb-6">
+          <h1 className="text-lg xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-[#0b6d41] mb-4 sm:mb-6">
             NIRF Rankings — JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mb-6 sm:mb-8">
@@ -21,7 +21,7 @@ export default function NIRFPage() {
       {/* NIRF Ranking Summary */}
       <section className="py-8 sm:py-10 md:py-12 px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="max-w-[1400px] mx-auto">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41] mb-6">
             NIRF Ranking History
           </h2>
 
@@ -29,7 +29,7 @@ export default function NIRFPage() {
           <div className="overflow-x-auto mb-8">
             <table className="w-full sm:w-auto border-collapse border border-gray-200 text-sm sm:text-base">
               <thead>
-                <tr className="bg-[#006837] text-white">
+                <tr className="bg-[#0b6d41] text-white">
                   <th className="border border-gray-200 px-4 sm:px-6 py-3 text-left font-semibold">Year</th>
                   <th className="border border-gray-200 px-4 sm:px-6 py-3 text-left font-semibold">Category</th>
                   <th className="border border-gray-200 px-4 sm:px-6 py-3 text-left font-semibold">Ranking Band</th>
@@ -40,7 +40,7 @@ export default function NIRFPage() {
                 <tr className="bg-white">
                   <td className="border border-gray-200 px-4 sm:px-6 py-3 font-medium">2024</td>
                   <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy</td>
-                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-semibold text-[#006837]">Participating institution</td>
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-semibold text-[#0b6d41]">Participating institution</td>
                   <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy, Innovation</td>
                 </tr>
                 <tr className="bg-gray-50">
@@ -60,7 +60,7 @@ export default function NIRFPage() {
           </div>
 
           {/* Key NIRF Parameters */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41] mb-6">
             NIRF Parameters — How JKKN Pharmacy is Assessed
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8">
@@ -72,30 +72,30 @@ export default function NIRFPage() {
               { title: 'Perception (PR)', description: 'Peer perception survey by academic community and employer feedback on graduate quality.' },
             ].map((param) => (
               <div key={param.title} className="bg-white rounded-lg border border-gray-100 p-4 sm:p-5 shadow-sm">
-                <h3 className="text-sm sm:text-base font-bold text-[#006837] mb-2">{param.title}</h3>
+                <h3 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-2">{param.title}</h3>
                 <p className="text-xs sm:text-sm text-gray-600">{param.description}</p>
               </div>
             ))}
           </div>
 
           {/* PDF Downloads */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-6">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41] mb-6">
             Download NIRF Submissions
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-8">
-            <Link href="/nirf/nirf-2024/" className="block bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
+            <Link href="/nirf/nirf-2024/" className="block bg-[#d4f1e4] hover:bg-[#ffea9a] text-[#0b6d41] font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
               NIRF 2024 Data
             </Link>
-            <Link href="/nirf/nirf-2025/" className="block bg-[#E8E8F0] hover:bg-[#D8D8E8] text-[#5B5B7E] font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
+            <Link href="/nirf/nirf-2025/" className="block bg-[#d4f1e4] hover:bg-[#ffea9a] text-[#0b6d41] font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
               NIRF 2025 Data
             </Link>
-            <Link href="/nirf/nirf-2026/" className="block bg-[#006837] hover:bg-[#005a2e] text-white font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
+            <Link href="/nirf/nirf-2026/" className="block bg-[#0b6d41] hover:bg-[#085032] text-white font-semibold text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-5 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg text-center">
               NIRF 2026 (Latest)
             </Link>
           </div>
 
           {/* About NIRF */}
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41] mb-4">
             What is NIRF?
           </h2>
           <p className="text-sm sm:text-base text-gray-700 max-w-3xl mb-4">

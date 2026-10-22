@@ -7,12 +7,12 @@ export default function PlacementCellPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-[#006837] text-white py-10 sm:py-16 px-4 sm:px-6">
+      <section className="bg-[#0b6d41] text-white py-10 sm:py-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto text-center">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-4">
             Placement Cell — JKKN College of Pharmacy
           </h1>
-          <p className="text-sm sm:text-base md:text-lg text-green-100 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-sm sm:text-base md:text-lg text-[#d4f1e4] max-w-3xl mx-auto leading-relaxed">
             Dedicated placement support connecting pharmacy graduates with top pharmaceutical companies, hospitals, and research organisations across India.
           </p>
         </div>
@@ -29,7 +29,7 @@ export default function PlacementCellPage() {
               { value: '97 / 124', label: 'Placed of those who sought, 2024-25' },
             ].map((stat) => (
               <div key={stat.label} className="bg-white rounded-xl p-4 sm:p-6 text-center shadow-sm border border-gray-100">
-                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837]">{stat.value}</div>
+                <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0b6d41]">{stat.value}</div>
                 <div className="text-xs sm:text-sm text-gray-500 mt-1">{stat.label}</div>
               </div>
             ))}
@@ -84,16 +84,16 @@ export default function PlacementCellPage() {
       {/* Download PDF & CTA */}
       <section className="py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="bg-[#006837] rounded-2xl p-6 sm:p-10 text-center text-white">
+          <div className="bg-[#0b6d41] rounded-2xl p-6 sm:p-10 text-center text-white">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-3">Download Placement Cell Brochure</h2>
-            <p className="text-sm sm:text-base text-green-100 mb-6 max-w-2xl mx-auto">
+            <p className="text-sm sm:text-base text-[#d4f1e4] mb-6 max-w-2xl mx-auto">
               Get detailed information about placement activities, recruiter list, training programmes, and learner success stories.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href="/pdf/brochure.pdf"
                 download
-                className="bg-white text-[#006837] font-semibold px-6 py-3 rounded-full text-sm hover:bg-gray-100 transition-colors"
+                className="bg-white text-[#0b6d41] font-semibold px-6 py-3 rounded-full text-sm hover:bg-gray-100 transition-colors"
               >
                 Download PDF Brochure
               </a>
@@ -101,7 +101,7 @@ export default function PlacementCellPage() {
                 href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=placement-cell"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#006837] transition-colors"
+                className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#0b6d41] transition-colors"
               >
                 Apply Now — 2026-27
               </a>

@@ -124,7 +124,7 @@ export default async function BlogPreviewPage({
           {!viaToken && (
             <Link
               href={`/admin/blogs/${post.id}`}
-              className="sm:ml-auto text-xs sm:text-sm font-semibold text-[#006837] underline underline-offset-2 hover:text-[#005a2e]"
+              className="sm:ml-auto text-xs sm:text-sm font-semibold text-[#0b6d41] underline underline-offset-2 hover:text-[#085032]"
             >
               Edit this post →
             </Link>

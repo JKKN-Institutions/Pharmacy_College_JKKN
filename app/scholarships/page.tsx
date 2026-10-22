@@ -10,7 +10,7 @@ export default function ScholarshipsPage() {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#002309] mb-8 sm:mb-10">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#032816] mb-8 sm:mb-10">
             Scholarship Details
           </h1>
 
@@ -18,57 +18,57 @@ export default function ScholarshipsPage() {
             <table className="w-full text-xs sm:text-sm border-collapse">
               <thead>
                 {/* Row 1 - Main section headers */}
-                <tr className="bg-[#006837] text-white">
-                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#005a2f] align-middle whitespace-nowrap">
+                <tr className="bg-[#0b6d41] text-white">
+                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#085032] align-middle whitespace-nowrap">
                     S NO
                   </th>
-                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#005a2f] align-middle">
+                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#085032] align-middle">
                     COLLEGE
                   </th>
-                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#005a2f] align-middle">
+                  <th rowSpan={3} className="px-3 py-3 text-center font-semibold border border-[#085032] align-middle">
                     COURSE
                   </th>
-                  <th colSpan={3} className="px-3 py-3 text-center font-semibold border border-[#005a2f]">
+                  <th colSpan={3} className="px-3 py-3 text-center font-semibold border border-[#085032]">
                     SC / SCA / ST / BC-CC
                   </th>
-                  <th colSpan={3} className="px-3 py-3 text-center font-semibold border border-[#005a2f]">
+                  <th colSpan={3} className="px-3 py-3 text-center font-semibold border border-[#085032]">
                     BC / MBC / DNC / BCM
                   </th>
-                  <th rowSpan={2} className="px-3 py-3 text-center font-semibold border border-[#005a2f] align-middle text-[10px] sm:text-xs leading-tight">
+                  <th rowSpan={2} className="px-3 py-3 text-center font-semibold border border-[#085032] align-middle text-[10px] sm:text-xs leading-tight">
                     ALL COMMUNITY<br />
                     <span className="font-normal">(Govt / Govt Aided School<br />6 to 12 Std) Tamil Medium</span>
                   </th>
                 </tr>
 
                 {/* Row 2 - Sub-section headers */}
-                <tr className="bg-[#006837] text-white">
-                  <th colSpan={2} className="px-3 py-2 text-center font-semibold border border-[#005a2f] text-[10px] sm:text-xs leading-tight">
+                <tr className="bg-[#0b6d41] text-white">
+                  <th colSpan={2} className="px-3 py-2 text-center font-semibold border border-[#085032] text-[10px] sm:text-xs leading-tight">
                     PMSS<br />
                     <span className="font-normal">(Community Scholarship)</span>
                   </th>
-                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#005a2f] align-middle text-[10px] sm:text-xs leading-tight">
+                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#085032] align-middle text-[10px] sm:text-xs leading-tight">
                     MAINTENANCE<br />SCHOLARSHIP<br />
                     <span className="font-normal text-[9px] sm:text-[11px]">GQ</span>
                   </th>
-                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#005a2f] align-middle text-[10px] sm:text-xs leading-tight">
+                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#085032] align-middle text-[10px] sm:text-xs leading-tight">
                     FIRST<br />GRADUATE<br />
                     <span className="font-normal text-[9px] sm:text-[11px]">GQ</span>
                   </th>
-                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#005a2f] align-middle text-[10px] sm:text-xs leading-tight">
+                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#085032] align-middle text-[10px] sm:text-xs leading-tight">
                     COMMUNITY<br />SCHOLARSHIP<br />
                     <span className="font-normal text-[9px] sm:text-[11px]">GQ</span>
                   </th>
-                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#005a2f] align-middle text-[10px] sm:text-xs leading-tight">
+                  <th rowSpan={2} className="px-3 py-2 text-center font-semibold border border-[#085032] align-middle text-[10px] sm:text-xs leading-tight">
                     TRUST<br />SCHOLARSHIP<br />(Merit Based)<br />
                     <span className="font-normal text-[9px] sm:text-[11px]">MQ / GQ</span>
                   </th>
                 </tr>
 
                 {/* Row 3 - GQ / MQ labels */}
-                <tr className="bg-[#7cb983] text-white">
-                  <th className="px-3 py-2 text-center font-semibold border border-[#6ba872]">GQ</th>
-                  <th className="px-3 py-2 text-center font-semibold border border-[#6ba872]">MQ</th>
-                  <th className="px-3 py-2 text-center font-semibold border border-[#6ba872] text-[10px] sm:text-xs">
+                <tr className="bg-[#0b6d41] text-white">
+                  <th className="px-3 py-2 text-center font-semibold border border-[#0f8f56]">GQ</th>
+                  <th className="px-3 py-2 text-center font-semibold border border-[#0f8f56]">MQ</th>
+                  <th className="px-3 py-2 text-center font-semibold border border-[#0f8f56] text-[10px] sm:text-xs">
                     TAMIL PUDHALVAN /<br />PUDHUMAI PENN<br />
                     <span className="font-normal">BOYS / GIRLS</span>
                   </th>
@@ -79,7 +79,7 @@ export default function ScholarshipsPage() {
                 {/* Row 1 - Pharm.D */}
                 <tr className="bg-white hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium">1</td>
-                  <td rowSpan={3} className="px-3 py-3 text-center border border-gray-200 font-semibold text-[#002309] align-middle">
+                  <td rowSpan={3} className="px-3 py-3 text-center border border-gray-200 font-semibold text-[#032816] align-middle">
                     PHARMACY
                   </td>
                   <td className="px-3 py-3 text-center border border-gray-200 font-medium whitespace-nowrap">Pharm.D</td>

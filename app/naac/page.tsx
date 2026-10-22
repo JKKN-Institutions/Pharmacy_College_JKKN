@@ -36,7 +36,7 @@ export default function NAACPage() {
           <aside className="lg:w-72 flex-shrink-0">
             <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
               {/* Section Header */}
-              <div className="bg-[#0F6B3E] text-white px-6 py-4">
+              <div className="bg-[#0b6d41] text-white px-6 py-4">
                 <h2 className="text-lg font-bold">OVERVIEW</h2>
               </div>
 
@@ -48,8 +48,8 @@ export default function NAACPage() {
                     onClick={() => setActiveTab(section.id)}
                     className={`block w-full text-left px-6 py-4 text-sm font-semibold transition-all border-l-4 ${
                       activeTab === section.id
-                        ? 'bg-[#D4F1E8] text-[#0F6B3E] border-[#0F6B3E]'
-                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
+                        ? 'bg-[#D4F1E8] text-[#0b6d41] border-[#0b6d41]'
+                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0b6d41] hover:border-gray-300'
                     }`}
                   >
                     {section.label}
@@ -91,7 +91,7 @@ export default function NAACPage() {
                       </p>
                       <ul className="space-y-3 mb-4">
                         <li className="flex items-start">
-                          <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">
@@ -99,7 +99,7 @@ export default function NAACPage() {
                           </span>
                         </li>
                         <li className="flex items-start">
-                          <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">
@@ -107,7 +107,7 @@ export default function NAACPage() {
                           </span>
                         </li>
                         <li className="flex items-start">
-                          <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                           </svg>
                           <span className="text-gray-700">
@@ -285,7 +285,7 @@ export default function NAACPage() {
                     <div className="mt-6">
                       <a
                         href="/pdf/IIQA-NAAC.pdf"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         View Document
                       </a>
@@ -296,11 +296,11 @@ export default function NAACPage() {
                 {/* SSR Tab Content */}
                 {activeTab === 'ssr' && (
                   <div>
-                    <h2 className="text-3xl font-bold text-[#7CAF5A] mb-6">SSR</h2>
+                    <h2 className="text-3xl font-bold text-[#0b6d41] mb-6">SSR</h2>
                     <div className="mt-6">
                       <a
                         href="/pdf/SSR-NAAC.pdf"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         View Document
                       </a>
@@ -329,28 +329,28 @@ export default function NAACPage() {
                               <td className="border border-gray-300 px-4 py-3">1.1</td>
                               <td className="border border-gray-300 px-4 py-3">Number of student's year wise during the last five years</td>
                               <td className="border border-gray-300 px-4 py-3">
-                                <a href="/pdf/1.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                <a href="/pdf/1.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                               </td>
                             </tr>
                             <tr className="bg-gray-50">
                               <td className="border border-gray-300 px-4 py-3">2.1</td>
                               <td className="border border-gray-300 px-4 py-3">Number of Teaching staff / full time teachers during the last five years (without count).</td>
                               <td className="border border-gray-300 px-4 py-3">
-                                <a href="/pdf/2.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                <a href="/pdf/2.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                               </td>
                             </tr>
                             <tr>
                               <td className="border border-gray-300 px-4 py-3">2.2</td>
                               <td className="border border-gray-300 px-4 py-3">Number of Teaching staff / full time teachers year wise during the last five years.</td>
                               <td className="border border-gray-300 px-4 py-3">
-                                <a href="/pdf/2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                <a href="/pdf/2.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                               </td>
                             </tr>
                             <tr className="bg-gray-50">
                               <td className="border border-gray-300 px-4 py-3">3.1</td>
                               <td className="border border-gray-300 px-4 py-3">Expenditure excluding salary component year wise during the last five years (INR in lakhs)</td>
                               <td className="border border-gray-300 px-4 py-3">
-                                <a href="/pdf/3.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                <a href="/pdf/3.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                               </td>
                             </tr>
                           </tbody>
@@ -380,7 +380,7 @@ export default function NAACPage() {
                                   Number of Certificate/Value added courses offered and online courses of MOOCs, SWAYAM, NPTEL etc. (where the students of the institution have enrolled and successfully completed during the last five years)
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/1.2.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/1.2.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -391,7 +391,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">1.2.2.1. Number of students enrolled in Certificate/ Value added courses and also completed online courses of MOOCs, SWAYAM, NPTEL etc. as against the total number of students during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/1.2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/1.2.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -402,7 +402,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">1.3.2.1. Number of students undertaking project work/field work / internships</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/1.3.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/1.3.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -411,7 +411,7 @@ export default function NAACPage() {
                                   Institution obtains feedback on the academic performance and ambience of the institution from various stakeholders, such as Students, Teachers, Employers, Alumni etc. and action taken report on the feedback is made available on institutional website
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/1.4.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/1.4.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -440,7 +440,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">2.1.1.2. Number of sanctioned seats year wise during last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.1.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.1.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -453,7 +453,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">2.1.2.2. Number of seats earmarked for reserved category as per GOI/ State Govt rule year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.1.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.1.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -462,7 +462,7 @@ export default function NAACPage() {
                                   Student – Full time Teacher Ratio (Data for the latest completed academic year)
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.2.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.2.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -473,7 +473,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">2.4.1.1. Number of sanctioned posts year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.4.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.4.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -484,7 +484,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">2.4.2.1. Number of full time teachers with NET/SET/SLET/Ph. D./ D.Sc. / D.Litt./L.L.D year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.4.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.4.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -495,7 +495,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">2.6.3.2. Number of final year students who appeared for the university examination year-wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/2.6.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/2.6.3-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -524,7 +524,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">3.1.1.1. Total Grants from Government and non-governmental agencies for research projects / endowments in the institution during the last five years (INR in Lakhs)</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/3.1.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/3.1.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -535,7 +535,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">3.2.2.1. Total number of workshops/seminars/conferences including programmes conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship year wise during last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/3.2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/3.2.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -546,7 +546,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">3.3.1.1. Number of research papers in the Journals notified on UGC CARE list year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/3.3.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/3.3.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -557,7 +557,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">3.3.2.1. Total number of books and chapters in edited volumes/books published and papers in national/ international conference proceedings year wise during last five years</span>
                                 </td>
                                 {/* <td className="border border-gray-300 px-4 py-3">
-                                  <a href="#" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="#" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td> */}
                               </tr>
                               <tr>
@@ -568,7 +568,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">3.4.3.1. Number of extension and outreach Programmes conducted in collaboration with industry, community, and NonGovernment Organisations through NSS/ NCC etc., year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/3.4.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/3.4.3-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -577,7 +577,7 @@ export default function NAACPage() {
                                   Number of functional MoUs/linkages with institutions/ industries in India and abroad for internship, on-the-job training, project work, student / faculty exchange and collaborative research during the last five years.
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/3.5.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/3.5.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -604,7 +604,7 @@ export default function NAACPage() {
                                   Percentage of expenditure for infrastructure development and augmentation excluding salary during the last five years 4.1.2.1. Expenditure for infrastructure development and augmentation, excluding salary year wise during last five years (INR in lakhs)
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/4.1.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/4.1.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -615,7 +615,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">4.3.2.1. Number of computers available for students usage during the latest completed academic year</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/4.3.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/4.3.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -626,7 +626,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">4.4.1.1. Expenditure incurred on maintenance of infrastructure (physical facilities and academic support facilities) excluding salary component year wise during the last five years (INR in lakhs)</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/4.4.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/4.4.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -655,7 +655,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-2 block">5.1.1.1. Number of students benefited by scholarships and freeships provided by the institution, Government and nongovernment bodies, industries, individuals, philanthropists during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.1.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.1.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -672,7 +672,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">4. ICT/computing skills</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.1.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.1.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -681,7 +681,7 @@ export default function NAACPage() {
                                   Percentage of students benefited by guidance for competitive examinations and career counselling offered by the institution during the last five years 5.1.3.1. Number of students benefited by guidance for competitive examinations and career counselling offered by the institution year wise during last five years
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.1.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.1.3-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -698,7 +698,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">4. Timely redressal of the grievances through appropriate committees</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.1.4-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.1.4-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -711,7 +711,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">5.2.1.2. Number of outgoing students year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.2.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.2.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -720,7 +720,7 @@ export default function NAACPage() {
                                   Percentage of students qualifying in state/national/ international level examinations during the last five years 5.2.2.1. Number of students qualifying in state/ national/ international level examinations year wise during last five years (eg: IIT/JAM/NET/SLET/GATE/GMAT/GPAT/CLAT/CAT/ GRE/TOEFL/ IELTS/Civil Services/State government examinations etc.)
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.2.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -729,7 +729,7 @@ export default function NAACPage() {
                                   Number of awards/medals for outstanding performance in sports/ cultural activities at University / state/ national / international level (award for a team event should be counted as one) during the last five years 5.3.1.1. Number of awards/medals for outstanding performance in sports/cultural activities at national/international level (award for a team event should be counted as one) year wise during the last five years
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.3.1-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.3.1-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -738,7 +738,7 @@ export default function NAACPage() {
                                   Average number of sports and cultural programmes in which students of the Institution participated during last five years (organised by the institution/other institutions) 5.3.2.1. Number of sports and cultural programmes in which students of the Institution participated year wise during last five years
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/5.3.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/5.3.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -773,7 +773,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">4. Examination</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/6.2.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/6.2.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -782,7 +782,7 @@ export default function NAACPage() {
                                   Percentage of teachers provided with financial support to attend conferences/workshops and towards membership fee of professional bodies during the last five years 6.3.2.1. Number of teachers provided with financial support to attend conferences/workshops and towards membership fee of professional bodies year wise during the last five years
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/6.3.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/6.3.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr>
@@ -795,7 +795,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">6.3.3.2. Number of non-teaching staff year wise during the last five years</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/6.3.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/6.3.3-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -814,7 +814,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">5. Any other quality audit/accreditation recognised by state, national or international agencies such as NAAC, NBA etc</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/6.5.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/6.5.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -851,7 +851,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">5. Disabled-friendly, barrier-free environment</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/7.1.2-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/7.1.2-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                               <tr className="bg-gray-50">
@@ -868,7 +868,7 @@ export default function NAACPage() {
                                   <span className="text-xs mt-1 block">4. Beyond the campus environmental promotion activities</span>
                                 </td>
                                 <td className="border border-gray-300 px-4 py-3">
-                                  <a href="/pdf/7.1.3-DVV-NAAC.pdf" className="text-[#0F6B3E] font-semibold hover:underline">View</a>
+                                  <a href="/pdf/7.1.3-DVV-NAAC.pdf" className="text-[#0b6d41] font-semibold hover:underline">View</a>
                                 </td>
                               </tr>
                             </tbody>
@@ -886,13 +886,13 @@ export default function NAACPage() {
                     <div className="flex flex-wrap gap-4">
                       <a
                         href="/pdf/NAAC-APPEAL.pdf"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         NAAC APPEAL
                       </a>
                       <a
                         href="/pdf/NAAC-APPEAL-ViewDocument.pdf"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         VIEW DOCUMENT
                       </a>

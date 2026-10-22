@@ -124,7 +124,7 @@ const committeeMembers = [
 function BulletItem({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span className="text-justify">{text}</span>
     </li>
   )
@@ -136,7 +136,7 @@ export default function NSSPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             National Service Scheme
@@ -149,7 +149,7 @@ export default function NSSPage() {
 
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
-            <h2 className="text-lg sm:text-xl font-semibold text-[#006837]">
+            <h2 className="text-lg sm:text-xl font-semibold text-[#0b6d41]">
               National Service Scheme (NSS)
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -170,7 +170,7 @@ export default function NSSPage() {
 
           {/* Main Objectives */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               The main objectives of National Service Scheme (NSS) are
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -191,14 +191,14 @@ export default function NSSPage() {
 
           {/* Adoption of Villages */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Adoption of Villages
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 space-y-5">
               {villageAdoptionSections.map((sectionItem, index) => (
                 <div key={index} className="space-y-3">
                   {sectionItem.heading && (
-                    <h3 className="text-base sm:text-lg font-bold text-[#006837]">
+                    <h3 className="text-base sm:text-lg font-bold text-[#0b6d41]">
                       {sectionItem.heading}
                     </h3>
                   )}
@@ -214,13 +214,13 @@ export default function NSSPage() {
 
           {/* Adoption of Slums */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Adoption of Slums
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 space-y-5">
               {slumAdoptionSections.map((sectionItem, index) => (
                 <div key={index} className="space-y-3">
-                  <h3 className="text-base sm:text-lg font-bold text-[#006837]">
+                  <h3 className="text-base sm:text-lg font-bold text-[#0b6d41]">
                     {sectionItem.heading}
                   </h3>
                   {sectionItem.paragraphs.map((para, pIndex) => (
@@ -235,7 +235,7 @@ export default function NSSPage() {
 
           {/* Coordination with Voluntary Organisations */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Coordination with Voluntary Organisations
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -247,7 +247,7 @@ export default function NSSPage() {
 
           {/* List of activities Special Camping */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               List of activities Special Camping
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -264,14 +264,14 @@ export default function NSSPage() {
 
           {/* College Level Advisory Committee */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               College Level Advisory Committee
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">S.NO</th>
                       <th className="px-6 py-4 text-center font-semibold">NAME OF THE POSITIONS</th>
                       <th className="px-6 py-4 text-center font-semibold">NAME OF THE MEMBER</th>

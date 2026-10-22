@@ -37,7 +37,7 @@ export default function IQACPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             IQAC
@@ -57,7 +57,7 @@ export default function IQACPage() {
 
           {/* Facets of IQAC */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               Facets of IQAC:
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
@@ -66,8 +66,8 @@ export default function IQACPage() {
                   key={index}
                   className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6 flex flex-col gap-2 hover:shadow-md transition-shadow duration-200"
                 >
-                  <div className="w-8 h-1 rounded-full bg-[#7cb983] mb-1" />
-                  <h3 className="text-sm sm:text-base font-semibold text-[#006837]">{facet.title}</h3>
+                  <div className="w-8 h-1 rounded-full bg-[#ffde59] mb-1" />
+                  <h3 className="text-sm sm:text-base font-semibold text-[#0b6d41]">{facet.title}</h3>
                   <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{facet.desc}</p>
                 </div>
               ))}
@@ -76,7 +76,7 @@ export default function IQACPage() {
 
           {/* Members and Their Roles */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               Members and Their Roles:
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
@@ -87,7 +87,7 @@ export default function IQACPage() {
                     index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'
                   }`}
                 >
-                  <span className="font-semibold text-[#006837] sm:w-64 shrink-0">{member.role}:</span>
+                  <span className="font-semibold text-[#0b6d41] sm:w-64 shrink-0">{member.role}:</span>
                   <span className="text-gray-700">{member.name}</span>
                 </div>
               ))}

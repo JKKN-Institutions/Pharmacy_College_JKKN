@@ -16,8 +16,8 @@ export default function CareerDetailError({ reset }: CareerDetailErrorProps) {
     <div className="min-h-screen bg-[#FBFBEE]">
       <Header />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-        <h1 className="mb-3 text-2xl md:text-3xl font-bold text-[#006837]">We couldn&apos;t load this opening</h1>
-        <p className="mb-8 text-[#002309]">
+        <h1 className="mb-3 text-2xl md:text-3xl font-bold text-[#0b6d41]">We couldn&apos;t load this opening</h1>
+        <p className="mb-8 text-[#032816]">
           The job listing service is not responding right now. Please try again in a few minutes.
         </p>
         <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -29,13 +29,13 @@ export default function CareerDetailError({ reset }: CareerDetailErrorProps) {
                 reset();
               })
             }
-            className="inline-flex min-h-[44px] items-center rounded-lg bg-[#7cb983] px-6 font-semibold text-white transition-colors hover:bg-[#6ba872]"
+            className="inline-flex min-h-[44px] items-center rounded-lg bg-[#0b6d41] px-6 font-semibold text-white transition-colors hover:bg-[#085032]"
           >
             Try again
           </button>
           <Link
             href="/careers/"
-            className="inline-flex min-h-[44px] items-center font-semibold text-[#006837] hover:underline"
+            className="inline-flex min-h-[44px] items-center font-semibold text-[#0b6d41] hover:underline"
           >
             All current openings
           </Link>

@@ -8,7 +8,7 @@ export default function CorporateRelationsPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Corporate Relation
@@ -29,7 +29,7 @@ export default function CorporateRelationsPage() {
                 'The Corporate Relations & Industry Interface (CR & II) strives to achieve excellent placement of learners each year. A proven track record of consistent high quality placements year-on-year is one of the reasons for many bright learners opting for admissions in JKKN Institutions.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -38,10 +38,10 @@ export default function CorporateRelationsPage() {
 
           {/* Mission */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Mission
             </h2>
-            <div className="bg-white rounded-2xl shadow-sm border border-l-4 border-[#7cb983] p-6 sm:p-8 md:p-10">
+            <div className="bg-white rounded-2xl shadow-sm border border-l-4 border-[#0f8f56] p-6 sm:p-8 md:p-10">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed italic">
                 &quot;To facilitate holistic career development of learners through comprehensive and systematic training on Life Skills and build competence in core areas through innovative practical applications&quot;
               </p>

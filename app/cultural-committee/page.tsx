@@ -19,7 +19,7 @@ export default function CulturalCommitteePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             cultural committee
@@ -31,7 +31,7 @@ export default function CulturalCommitteePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-10 md:space-y-14">
 
           {/* Quote */}
-          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
+          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#0f8f56] p-6 sm:p-8">
             <p className="text-base sm:text-lg font-semibold text-gray-800 italic">
               &quot;Remember – Your Greatest Talent is much more Powerful than Your Biggest Fear: So Fire up your Talent&quot;
             </p>
@@ -39,7 +39,7 @@ export default function CulturalCommitteePage() {
 
           {/* Key Objectives */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">KEY OBJECTIVES:</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">KEY OBJECTIVES:</h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <ul className="space-y-4">
                 {[
@@ -47,7 +47,7 @@ export default function CulturalCommitteePage() {
                   'To promote cultural diversity within the organisation and the wider community.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -57,7 +57,7 @@ export default function CulturalCommitteePage() {
 
           {/* Roles and Responsibilities */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">ROLES AND RESPONSIBILITIES</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">ROLES AND RESPONSIBILITIES</h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <ul className="space-y-4">
                 {[
@@ -69,7 +69,7 @@ export default function CulturalCommitteePage() {
                   'Organizing events that facilitate the exchange of cultural knowledge and practices among learners from different backgrounds.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -79,7 +79,7 @@ export default function CulturalCommitteePage() {
 
           {/* Composition */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">COMPOSITION</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">COMPOSITION</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-6">
               To ensure smooth arrangement and conduct of cultural programmes, the Institute has formulated the following committee:
             </p>
@@ -87,7 +87,7 @@ export default function CulturalCommitteePage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">S. No</th>
                       <th className="px-6 py-4 text-center font-semibold">Name</th>
                       <th className="px-6 py-4 text-center font-semibold">Designation</th>

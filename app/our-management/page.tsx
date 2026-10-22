@@ -7,16 +7,16 @@ export default function OurManagementPage() {
     <div className="min-h-screen bg-[#FBFBEE] flex flex-col">
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Leadership
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Our Management
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -30,8 +30,8 @@ export default function OurManagementPage() {
             <div className="flex flex-col md:flex-row">
 
               {/* Image Side */}
-              <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
-                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#7cb983] shadow-xl">
+              <div className="md:w-2/5 bg-[#0b6d41] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
+                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#0f8f56] shadow-xl">
                   <Image
                     src="/images/Our_Management-1.webp"
                     alt="Smt. N. Sendamaraai - Chairperson"
@@ -44,7 +44,7 @@ export default function OurManagementPage() {
                   <h2 className="text-xl sm:text-2xl font-bold text-white">
                     SMT.N.SENDAMARAAI
                   </h2>
-                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#7cb983] text-white text-sm font-semibold rounded-full">
+                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
                     Chairperson - JKKN Institutions
                   </span>
                 </div>
@@ -53,8 +53,8 @@ export default function OurManagementPage() {
               {/* Content Side */}
               <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center">
                 <div className="mb-6">
-                  <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                  <p className="text-[#006837] text-xs sm:text-sm font-semibold tracking-widest uppercase">
+                  <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                  <p className="text-[#0b6d41] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                     Message from Chairperson
                   </p>
                 </div>
@@ -75,8 +75,8 @@ export default function OurManagementPage() {
             <div className="flex flex-col md:flex-row-reverse">
 
               {/* Image Side */}
-              <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
-                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#7cb983] shadow-xl">
+              <div className="md:w-2/5 bg-[#0b6d41] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
+                <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-[#0f8f56] shadow-xl">
                   <Image
                     src="/images/Our_Management-2.webp"
                     alt="Mr. S. Ommsharravana - Director"
@@ -88,7 +88,7 @@ export default function OurManagementPage() {
                   <h2 className="text-xl sm:text-2xl font-bold text-white">
                     MR.S.OMMSHARRAVANA
                   </h2>
-                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#7cb983] text-white text-sm font-semibold rounded-full">
+                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
                     Director - JKKN Institutions
                   </span>
                 </div>
@@ -97,8 +97,8 @@ export default function OurManagementPage() {
               {/* Content Side */}
               <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center">
                 <div className="mb-6">
-                  <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                  <p className="text-[#006837] text-xs sm:text-sm font-semibold tracking-widest uppercase">
+                  <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                  <p className="text-[#0b6d41] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                     Message from Director
                   </p>
                 </div>

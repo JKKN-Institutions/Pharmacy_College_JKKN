@@ -6,7 +6,7 @@ export default function DrugInformationCenterPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Drug Information Center
@@ -28,7 +28,7 @@ export default function DrugInformationCenterPage() {
                 "The center's personnel usually do not participate directly in the decision-making process ofpatient care, but perform a valuable supportive role which culminates in improved patient care. Briefly, the ultimate goal of this Center is to ensure that the best quality health care services are made to the patients.",
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -37,7 +37,7 @@ export default function DrugInformationCenterPage() {
 
           {/* Types of Services */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               TYPES OF SERVICES OFFERED BY DRUG INFORMATION CENTER
             </h2>
             <ul className="space-y-4">
@@ -53,7 +53,7 @@ export default function DrugInformationCenterPage() {
                 'Information regarding adverse effects of drugs.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -65,7 +65,7 @@ export default function DrugInformationCenterPage() {
             <p className="text-sm sm:text-base text-gray-700 font-semibold">Send your drug related queries to</p>
             <p className="text-sm sm:text-base text-gray-700">
               <span className="font-semibold">Email:</span>{' '}
-              <span className="text-[#006837]">dic@jkkn.ac.in</span>
+              <span className="text-[#0b6d41]">dic@jkkn.ac.in</span>
             </p>
             <p className="text-sm sm:text-base text-gray-700">
               <span className="font-semibold">Contact Number:</span> 9942095377

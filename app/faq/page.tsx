@@ -259,15 +259,15 @@ export default function FaqPage() {
       <Header />
 
       {/* Hero */}
-      <section className="bg-[#006837] pt-24 pb-10 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#0b6d41] pt-24 pb-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold uppercase tracking-widest mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold uppercase tracking-widest mb-3">
             Help Centre
           </p>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-4">
             Frequently Asked Questions
           </h1>
-          <p className="text-green-100 text-sm sm:text-base max-w-2xl mx-auto">
+          <p className="text-[#d4f1e4] text-sm sm:text-base max-w-2xl mx-auto">
             Answers to common questions about admissions, programmes, placements, and campus life at JKKN College of Pharmacy.
           </p>
         </div>
@@ -283,7 +283,7 @@ export default function FaqPage() {
                 onClick={() => handleCategoryChange(cat.id)}
                 className={`flex-shrink-0 px-4 py-2 rounded-full text-xs sm:text-sm font-medium transition-colors whitespace-nowrap ${
                   activeCategory === cat.id
-                    ? 'bg-[#006837] text-white'
+                    ? 'bg-[#0b6d41] text-white'
                     : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
                 }`}
               >
@@ -317,7 +317,7 @@ export default function FaqPage() {
                   {faq.question}
                 </span>
                 <ChevronDown
-                  className={`w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] flex-shrink-0 transition-transform duration-300 ${
+                  className={`w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] flex-shrink-0 transition-transform duration-300 ${
                     expandedFAQ === index ? 'rotate-180' : ''
                   }`}
                 />
@@ -334,12 +334,12 @@ export default function FaqPage() {
       </section>
 
       {/* Contact CTA */}
-      <section className="bg-[#006837] py-10 px-4 sm:px-6 lg:px-8">
+      <section className="bg-[#0b6d41] py-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-3">
             Still have questions?
           </h2>
-          <p className="text-green-100 text-sm sm:text-base mb-6">
+          <p className="text-[#d4f1e4] text-sm sm:text-base mb-6">
             Our admissions team is happy to help. Reach us at{' '}
             <a href="tel:+919345855001" className="underline text-white font-medium">
               +91 9345855001
@@ -350,7 +350,7 @@ export default function FaqPage() {
             href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=faq"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-white text-[#006837] font-semibold px-6 py-3 rounded-lg text-sm sm:text-base hover:bg-[#FBFBEE] transition-colors"
+            className="inline-block bg-white text-[#0b6d41] font-semibold px-6 py-3 rounded-lg text-sm sm:text-base hover:bg-[#FBFBEE] transition-colors"
           >
             Apply Now
           </a>

@@ -30,7 +30,7 @@ export default function InstitutionalStrategicPlanPage() {
           <aside className="lg:w-80 flex-shrink-0">
             <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
               {/* Section Header */}
-              <div className="bg-[#0F6B3E] text-white px-6 py-4">
+              <div className="bg-[#0b6d41] text-white px-6 py-4">
                 <h2 className="text-lg font-bold">STRATEGIC PLAN</h2>
               </div>
 
@@ -42,8 +42,8 @@ export default function InstitutionalStrategicPlanPage() {
                     href={section.href}
                     className={`block w-full text-left px-6 py-4 text-sm font-semibold transition-all border-l-4 ${
                       section.id === 'overview'
-                        ? 'bg-[#D4F1E8] text-[#0F6B3E] border-[#0F6B3E]'
-                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
+                        ? 'bg-[#D4F1E8] text-[#0b6d41] border-[#0b6d41]'
+                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0b6d41] hover:border-gray-300'
                     }`}
                   >
                     {section.label}
@@ -75,7 +75,7 @@ export default function InstitutionalStrategicPlanPage() {
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -83,7 +83,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -91,7 +91,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -99,7 +99,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -107,7 +107,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -121,37 +121,37 @@ export default function InstitutionalStrategicPlanPage() {
                     <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Key Strategic Areas</h2>
                     <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">EDC - Entrepreneurship Development Cell</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">EDC - Entrepreneurship Development Cell</h3>
                         <p className="text-gray-700 text-sm">
                           Fostering entrepreneurial mindset and skills among learners and senior learners through specialised programmes and initiatives.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">COE - Center of Excellence</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">COE - Center of Excellence</h3>
                         <p className="text-gray-700 text-sm">
                           Establishing centers of excellence in specialised pharmaceutical disciplines to promote advanced learning and research.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">GC - Guidance and Counselling</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">GC - Guidance and Counselling</h3>
                         <p className="text-gray-700 text-sm">
                           Providing comprehensive guidance and counselling services to support learner academic and personal development.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">Interdisciplinary Research</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">Interdisciplinary Research</h3>
                         <p className="text-gray-700 text-sm">
                           Promoting collaborative research across multiple disciplines to address complex pharmaceutical and healthcare challenges.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">Pharmaceutical Education</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">Pharmaceutical Education</h3>
                         <p className="text-gray-700 text-sm">
                           Continuous improvement in learning framework, pedagogy, and educational delivery methods.
                         </p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h3 className="text-lg sm:text-xl font-semibold text-[#0F6B3E] mb-2 sm:mb-3">Research Enhancement</h3>
+                        <h3 className="text-lg sm:text-xl font-semibold text-[#0b6d41] mb-2 sm:mb-3">Research Enhancement</h3>
                         <p className="text-gray-700 text-sm">
                           Strengthening research infrastructure, funding, and publication output across all departments.
                         </p>
@@ -166,7 +166,7 @@ export default function InstitutionalStrategicPlanPage() {
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -174,7 +174,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -182,7 +182,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -190,7 +190,7 @@ export default function InstitutionalStrategicPlanPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">

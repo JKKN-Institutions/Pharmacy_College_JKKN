@@ -16,7 +16,7 @@ const members = [
 function BulletItem({ text }: { text: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span>{text}</span>
     </li>
   )
@@ -28,7 +28,7 @@ export default function InternalComplaintsCommitteePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Internal Complaints Committee
@@ -41,7 +41,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* ICC Title + Intro */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               INTERNAL COMPLAINTS COMMITTEE (ICC)
             </h2>
             <p className="italic text-sm sm:text-base text-gray-600">
@@ -57,7 +57,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Key Objectives */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">KEY OBJECTIVES</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">KEY OBJECTIVES</h2>
             <ul className="space-y-4">
               <BulletItem text="To establish a gender-sensitive and discrimination-free work and academic environment in the institution." />
               <BulletItem text="To ensure equal opportunities and rights for women by effectively implementing the provisions of the Act." />
@@ -69,11 +69,11 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Roles and Responsibilities */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">ROLES AND RESPONSIBILITIES OF ICC</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">ROLES AND RESPONSIBILITIES OF ICC</h2>
             <div className="space-y-6">
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Prevention &amp; Awareness:</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Prevention &amp; Awareness:</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Organizing gender sensitization programmes, awareness campaigns, and workshops for learners, senior learners, and team members." />
                   <BulletItem text="Displaying information on ICC regulations, complaint procedures, and legal provisions on notice boards and the college website." />
@@ -81,7 +81,7 @@ export default function InternalComplaintsCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Complaint Redressal &amp; Investigation:</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Complaint Redressal &amp; Investigation:</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Receiving and investigating complaints of sexual harassment in a confidential and unbiased manner." />
                   <BulletItem text="Ensuring fair hearing procedures while respecting the principles of natural justice." />
@@ -90,7 +90,7 @@ export default function InternalComplaintsCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Support &amp; Confidentiality:</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Support &amp; Confidentiality:</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Ensuring that complainants and respondents are treated fairly throughout the process." />
                   <BulletItem text="Providing counselling and support services for victims." />
@@ -99,7 +99,7 @@ export default function InternalComplaintsCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Disciplinary Actions &amp; Compliance:</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Disciplinary Actions &amp; Compliance:</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Recommending disciplinary action for offenders as per institutional policies and UGC guidelines." />
                   <BulletItem text="Submitting an annual compliance report to the institution regarding complaints received, actions taken, and preventive measures implemented." />
@@ -111,11 +111,11 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* ICC Redressal Mechanism */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">ICC REDRESSAL MECHANISM</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">ICC REDRESSAL MECHANISM</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
               The ICC follows a structured and time-bound redressal process for handling complaints of sexual harassment:
             </p>
-            <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-5">Complaint Handling Procedure</h3>
+            <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-5">Complaint Handling Procedure</h3>
             <div className="space-y-4">
               {[
                 { step: 'Step 1: Complaint Submission:', text: 'A written complaint or a complaint submitted via QR code scanning must be filed within three months of the incident, with an extension of up to six months under special circumstances.' },
@@ -126,7 +126,7 @@ export default function InternalComplaintsCommitteePage() {
                 { step: 'Step 6: Follow-Up & Documentation:', text: 'Confidential records are maintained, and necessary support/counselling is provided.' },
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#006837] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#0b6d41] mt-2" />
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
                     <strong>{item.step}</strong> {item.step === 'Step 4: Resolution & Recommendations:' ? <>Inquiry is completed within <strong>90 days</strong>, and recommendations are submitted to the institution&apos;s authority.</> : item.text}
                   </p>
@@ -137,12 +137,12 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Composition Table */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">COMPOSITION</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">COMPOSITION</h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-6">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">Sl. No</th>
                       <th className="px-6 py-4 text-center font-semibold">NAME</th>
                       <th className="px-6 py-4 text-center font-semibold">DESIGNATION</th>
@@ -171,7 +171,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* Consequences of Non-Compliance */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">CONSEQUENCES OF NON-COMPLIANCE</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">CONSEQUENCES OF NON-COMPLIANCE</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-5">
               Failure to comply with ICC regulations can lead to:
             </p>
@@ -199,7 +199,7 @@ export default function InternalComplaintsCommitteePage() {
 
           {/* ICC's Redressal Mechanism */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">ICC&apos;S REDRESSAL MECHANISM</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">ICC&apos;S REDRESSAL MECHANISM</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
               The ICC&apos;s redressal mechanism aims to provide a fair, transparent, and supportive process for addressing complaints of sexual harassment and creating a safe environment for women and girl learners.
             </p>

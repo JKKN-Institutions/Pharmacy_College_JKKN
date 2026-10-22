@@ -9,16 +9,16 @@ export default function NSSPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             National Service Scheme
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -29,8 +29,8 @@ export default function NSSPage() {
 
           {/* Intro Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
               National Service Scheme (NSS)
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -46,7 +46,7 @@ export default function NSSPage() {
               <ul className="space-y-3">
                 {['an accomplished social leader', 'an efficient administrator', 'a person who understands human nature'].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                    <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                     <span className="text-sm sm:text-base text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -56,8 +56,8 @@ export default function NSSPage() {
 
           {/* Objectives Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-6">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-6">
               The main objectives of National Service Scheme (NSS) are
             </h3>
             <ul className="space-y-3">
@@ -73,7 +73,7 @@ export default function NSSPage() {
                 'Develop capacity to meet emergencies and natural disasters and practice national integration and social harmony.',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}
@@ -86,8 +86,8 @@ export default function NSSPage() {
           {/* Adoption of Villages Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12 space-y-6">
             <div>
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-3">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-3">
                 Adoption of Villages
               </h3>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -98,7 +98,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Contacting Village/Area Leaders
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -109,7 +109,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Survey of the Village/Area
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -120,7 +120,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Identification of Problem(s)
               </h4>
               <div className="space-y-3">
@@ -139,7 +139,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Completion of Projects
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -150,7 +150,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Evaluation of Project
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -162,8 +162,8 @@ export default function NSSPage() {
           {/* Adoption of Slums Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12 space-y-6">
             <div>
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-3">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-3">
                 Adoption of Slums
               </h3>
             </div>
@@ -171,7 +171,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Survey of the Slum
               </h4>
               <div className="space-y-3">
@@ -187,7 +187,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Services in Slums
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -198,7 +198,7 @@ export default function NSSPage() {
             <div className="border-t border-gray-100" />
 
             <div>
-              <h4 className="text-sm sm:text-base font-bold text-[#006837] mb-3 pb-2 border-b border-[#7cb983]/30">
+              <h4 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-3 pb-2 border-b border-[#0f8f56]/30">
                 Coordination with Voluntary Organisations
               </h4>
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -209,8 +209,8 @@ export default function NSSPage() {
 
           {/* Special Camping Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">
               List of activities Special Camping
             </h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
@@ -227,7 +227,7 @@ export default function NSSPage() {
                 'Education and Recreations',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}
@@ -236,15 +236,15 @@ export default function NSSPage() {
 
           {/* Committee Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
               COLLEGE LEVEL ADVISORY COMMITTEE
             </h2>
             <div className="overflow-x-auto -mx-4 sm:mx-0">
               <div className="min-w-full inline-block align-middle px-4 sm:px-0">
                 <table className="w-full border-collapse border border-gray-300 text-xs sm:text-sm md:text-base">
                   <thead>
-                    <tr className="bg-[#006837]">
+                    <tr className="bg-[#0b6d41]">
                       <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-bold text-white">S.no</th>
                       <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-bold text-white">NAME OF THE POSITIONS</th>
                       <th className="border border-gray-300 px-2 sm:px-4 py-2 sm:py-3 text-left font-bold text-white">NAME OF THE MEMBER</th>

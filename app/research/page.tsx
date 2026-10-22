@@ -17,7 +17,7 @@ export default function ResearchPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 text-center">
           <div className="inline-block px-4 py-2 bg-white/10 rounded-full mb-4">
             <span className="text-white text-xs sm:text-sm font-semibold tracking-widest">RESEARCH EXCELLENCE</span>
@@ -35,7 +35,7 @@ export default function ResearchPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-12 md:space-y-16">
 
           {/* Research Impact Stats */}
-          <section className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-6 sm:p-8 text-white">
+          <section className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-6 sm:p-8 text-white">
             <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Research Impact</h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
@@ -63,7 +63,7 @@ export default function ResearchPage() {
 
           {/* Research Activities */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Research Activities:
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
@@ -75,7 +75,7 @@ export default function ResearchPage() {
 
           {/* Key Research Areas */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Key Research Areas
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
@@ -90,7 +90,7 @@ export default function ResearchPage() {
                 'Formulation Development',
               ].map((area, index) => (
                 <div key={index} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 flex flex-col gap-2 hover:shadow-md transition-shadow duration-200">
-                  <div className="w-8 h-1 rounded-full bg-[#7cb983] mb-1" />
+                  <div className="w-8 h-1 rounded-full bg-[#ffde59] mb-1" />
                   <span className="text-sm sm:text-base text-gray-700 font-medium">{area}</span>
                 </div>
               ))}
@@ -99,7 +99,7 @@ export default function ResearchPage() {
 
           {/* Publications */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Publications:
             </h2>
             <div className="space-y-6">
@@ -111,7 +111,7 @@ export default function ResearchPage() {
 
               {/* Publication Highlights */}
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-lg font-bold text-[#006837] mb-4">Publication Highlights</h3>
+                <h3 className="text-lg font-bold text-[#0b6d41] mb-4">Publication Highlights</h3>
                 <ul className="space-y-3">
                   {[
                     { label: 'High-Impact Journals:', desc: 'Publications in peer-reviewed national and international journals' },
@@ -120,7 +120,7 @@ export default function ResearchPage() {
                     { label: 'Global Visibility:', desc: 'Senior learners maintain active Google Scholar and ResearchGate profiles' },
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700">
-                      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                       <span><strong>{item.label}</strong> {item.desc}</span>
                     </li>
                   ))}
@@ -132,7 +132,7 @@ export default function ResearchPage() {
                 <div className="overflow-x-auto">
                   <table className="w-full text-sm sm:text-base">
                     <thead>
-                      <tr className="bg-[#006837] text-white">
+                      <tr className="bg-[#0b6d41] text-white">
                         <th className="px-6 py-4 text-left font-semibold">Academic Year</th>
                         <th className="px-6 py-4 text-left font-semibold">Total No. of Publications</th>
                         <th className="px-6 py-4 text-left font-semibold">Document</th>
@@ -144,11 +144,11 @@ export default function ResearchPage() {
                           <td className="px-6 py-4 text-gray-700">{row.year}</td>
                           <td className="px-6 py-4 text-gray-700">{row.count}</td>
                           <td className="px-6 py-4">
-                            <a href={row.pdf} target="_blank" rel="noopener noreferrer" className="text-[#006837] font-semibold hover:underline">View Document</a>
+                            <a href={row.pdf} target="_blank" rel="noopener noreferrer" className="text-[#0b6d41] font-semibold hover:underline">View Document</a>
                           </td>
                         </tr>
                       ))}
-                      <tr className="bg-[#006837]/10">
+                      <tr className="bg-[#0b6d41]/10">
                         <td className="px-6 py-4 text-gray-900 font-bold">Total</td>
                         <td className="px-6 py-4 text-gray-900 font-bold">98</td>
                         <td className="px-6 py-4 text-gray-700 italic">7 Years of Research Excellence</td>
@@ -162,14 +162,14 @@ export default function ResearchPage() {
 
           {/* Research Facilities */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Research Facilities:
             </h2>
             <a
               href="/pdf/Research-and-Development-Cell.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-[#006837] text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg hover:bg-[#005a2f] transition-colors duration-200"
+              className="inline-flex items-center gap-2 bg-[#0b6d41] text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-lg hover:bg-[#085032] transition-colors duration-200"
             >
               Research and Development Cell
             </a>
@@ -177,7 +177,7 @@ export default function ResearchPage() {
 
           {/* Institutional Ethics Committee */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Institutional Ethics Committee
             </h2>
             <div className="space-y-6">
@@ -195,7 +195,7 @@ export default function ResearchPage() {
                     'All research proposals of funded and non-funded studies involving human subjects i.e. PG dissertation or research, UG research, Ph.D and any other research studies',
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700">
-                      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -206,7 +206,7 @@ export default function ResearchPage() {
                 <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
                   If you would like to submit a research proposal for review by the committee, please contact.
                 </p>
-                <div className="bg-[#f4f9f6] rounded-xl p-5 border border-[#7cb983]/30">
+                <div className="bg-[#f4f9f6] rounded-xl p-5 border border-[#0f8f56]/30">
                   <p className="text-gray-700 font-semibold">The Member Secretary</p>
                   <p className="text-gray-700">Institutional Ethics Committee</p>
                   <p className="text-gray-700">JKKN College of Pharmacy,</p>
@@ -221,7 +221,7 @@ export default function ResearchPage() {
 
           {/* Collaborations */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Collaborations:
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
@@ -233,7 +233,7 @@ export default function ResearchPage() {
 
           {/* Conferences and Symposia */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Conferences and Symposia:
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">

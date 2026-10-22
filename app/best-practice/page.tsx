@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 function BulletItem({ text }: { text: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span>{text}</span>
     </li>
   )
@@ -15,7 +15,7 @@ export default function BestPracticePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Best Practice
@@ -30,7 +30,7 @@ export default function BestPracticePage() {
 
           {/* Header + Intro */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               BEST PRACTICE AT J.K.K. NATTRAJA COLLEGE OF PHARMACY
             </h2>
             <p className="text-sm sm:text-base text-gray-700 font-semibold leading-relaxed text-justify">
@@ -47,7 +47,7 @@ export default function BestPracticePage() {
 
           {/* 2. Objectives */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">2. Objectives of the Practice</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">2. Objectives of the Practice</h3>
             <ul className="space-y-4">
               <BulletItem text={<><strong>Alignment with NAAC Criteria:</strong> The practice aims to align the tasks and activities of the Committees and Working Groups with the specific requirements of each criterion set by NAAC. This ensures a targeted approach to fulfilling the accreditation criteria.</>} />
               <BulletItem text={<><strong>Enhanced task planning and management:</strong> By implementing the OKR framework along with Agile methodology, the practice aims to improve task planning, coordination, and management within the Committees and Working Groups. This includes breaking down objectives into actionable tasks, setting shorter iterative deadlines, and using Agile practices to adapt to changing requirements.</>} />
@@ -59,7 +59,7 @@ export default function BestPracticePage() {
 
           {/* 3. The Context */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">3. The Context</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">3. The Context</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               The contextual features and challenging issues in the best practice of OKR-driven NAAC Criteria Committees and Working Groups with Agile Methodology include:
             </p>
@@ -75,7 +75,7 @@ export default function BestPracticePage() {
 
           {/* 4. The Practice */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">4. The Practice</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">4. The Practice</h3>
             <ul className="space-y-4">
               <BulletItem text="The practice of OKR-driven NAAC Criteria Committees and Working Groups with Agile Methodology in the context of higher education in India involves utilizing the OKR framework along with Agile methodologies to enhance task planning, collaboration, and accreditation processes." />
               <BulletItem text="The practice begins by aligning tasks with the NAAC criteria and setting shorter iterative deadlines using Agile methodologies. This ensures that committees are focused on achieving key results in incremental steps while remaining aligned with the accreditation requirements. Regular IQAC meetings are conducted following Agile principles, such as daily stand-ups, sprint reviews, and retrospectives, to foster effective communication, adaptability, and continuous improvement." />
@@ -86,7 +86,7 @@ export default function BestPracticePage() {
 
           {/* 5. Evidence of Success */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">5. Evidence of Success</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">5. Evidence of Success</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               Evidence of the success of the OKR-driven NAAC Criteria Committees and Working Groups with Agile Methodology can be observed through various performance indicators and outcomes:
             </p>
@@ -100,7 +100,7 @@ export default function BestPracticePage() {
 
           {/* 6. Problems Encountered and Resources Required */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">6. Problems Encountered and Resources Required</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">6. Problems Encountered and Resources Required</h3>
             <p className="text-sm sm:text-base font-bold text-gray-700 mb-4">Problems Encountered:</p>
             <ul className="space-y-4 mb-8">
               <BulletItem text={<><strong>Resistance to change:</strong> Implementing the OKR framework, Agile methodologies, and collaboration tools may face resistance from stakeholders accustomed to traditional methods of accreditation. Effective change management strategies, communication, and training programmes are necessary to address this challenge.</>} />
@@ -121,7 +121,7 @@ export default function BestPracticePage() {
 
           {/* 7. Notes */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">7. Notes:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">7. Notes:</h3>
             <ul className="space-y-4">
               <BulletItem text="When adopting and implementing the best practice of OKR-driven NAAC Criteria Committees and Working Groups with Agile Methodology in other institutions, the following additional information may be relevant:" />
               <BulletItem text={<><strong>Customization to institutional context:</strong> Each institution has its unique context, goals, and accreditation requirements. It is essential to customize the practice to align with the specific needs and characteristics of the institution. Considerations should be given to the institution&apos;s mission, vision, culture, and strategic priorities when implementing the OKR framework, Agile methodologies, and collaboration tools.</>} />
@@ -147,7 +147,7 @@ export default function BestPracticePage() {
 
           {/* BP II: Objectives */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">Objectives of the Practice:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">Objectives of the Practice:</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               The primary objectives of this best practice are as follows:
             </p>
@@ -162,7 +162,7 @@ export default function BestPracticePage() {
 
           {/* BP II: The Context */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">The Context:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">The Context:</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               JKKN College of Pharmacy, Komarapalayam, is dedicated to fostering a dynamic educational environment that prioritizes experiential learning as a pivotal component of its pharmacy education framework. Recognizing the significance of bridging the gap between theoretical knowledge and practical application in the field of pharmacy, the institution has undertaken a concerted effort to develop and implement a robust experiential learning programme. This programme aims to equip pharmacy learners by providing them with hands-on opportunities to engage with real-world healthcare scenarios, thereby enhancing their practical competence, nurturing patient-centered care values, and fostering critical thinking skills. Through this experiential learning approach, the institution endeavors to align academic pursuits with professional realities, equipping learners with the holistic skills and interdisciplinary perspectives required to excel as competent and compassionate pharmacists in today&apos;s evolving healthcare landscape.
             </p>
@@ -170,7 +170,7 @@ export default function BestPracticePage() {
 
           {/* BP II: The Practice */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">The Practice:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">The Practice:</h3>
             <div className="space-y-4">
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
                 At JKKN College of Pharmacy, Komarapalayam, the institution has established an Adverse Drug Monitoring Centre under the Pharmacovigilance Programme of India, endorsed by the Ministry of Health &amp; Family Welfare, Government of India, Ghaziabad. This initiative stands as a testament to the college&apos;s commitment to empowering learners through experiential learning, effectively bridging the gap between theoretical knowledge and practical application. By engaging learners in the real-world processes of pharmacovigilance, adverse drug event identification, assessment, and reporting, the institution provides them with invaluable hands-on experience within the realm of pharmaceutical care and drug safety. This holistic approach not only enriches their academic journey but also equips them with essential skills, fostering a deeper understanding of the healthcare landscape and nurturing competent professionals capable of ensuring drug safety and patient well-being.
@@ -186,7 +186,7 @@ export default function BestPracticePage() {
 
           {/* BP II: Evidence of Success */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">Evidence of Success:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">Evidence of Success:</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               The success of &quot;Empowering Learners Through Experiential Learning: Bridging Theory and Practice&quot; is evident through various indicators:
             </p>
@@ -210,7 +210,7 @@ export default function BestPracticePage() {
 
           {/* BP II: Problems Encountered and Resources Required */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">Problems Encountered and Resources Required</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">Problems Encountered and Resources Required</h3>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               Several challenges may be encountered during the implementation of this practice:
             </p>
@@ -234,7 +234,7 @@ export default function BestPracticePage() {
 
           {/* BP II: Notes */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-5">Notes:</h3>
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-5">Notes:</h3>
             <ul className="space-y-4">
               <BulletItem text={<><strong>Tailored Approach:</strong> Every community has unique health challenges; tailor interventions to address specific needs.</>} />
               <BulletItem text={<><strong>Community-Centered:</strong> Empower communities by involving them in decision-making and implementation.</>} />

@@ -162,10 +162,10 @@ export default function BestPharmacyCollegesTamilNadu() {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white">
+      <section className="relative bg-gradient-to-br from-[#032816] via-[#085032] to-[#032816] text-white">
         <div className="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24">
-          <div className="flex items-center gap-2 text-blue-200 text-sm mb-4">
+          <div className="flex items-center gap-2 text-[#d4f1e4] text-sm mb-4">
             <Link href="/" className="hover:text-white transition-colors">
               Home
             </Link>
@@ -183,10 +183,10 @@ export default function BestPharmacyCollegesTamilNadu() {
           </div>
 
           <div className="flex items-center gap-3 mb-6">
-            <span className="px-3 py-1 bg-blue-700/50 rounded-full text-xs font-medium text-blue-100">
+            <span className="px-3 py-1 bg-[#085032]/50 rounded-full text-xs font-medium text-[#d4f1e4]">
               Pharmacy Rankings
             </span>
-            <span className="text-blue-200 text-xs">
+            <span className="text-[#d4f1e4] text-xs">
               Updated October 1, 2026 · 10 min read
             </span>
           </div>
@@ -197,7 +197,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             Placements, Admission
           </h1>
 
-          <p className="mt-6 text-base sm:text-lg text-blue-100 max-w-3xl leading-relaxed">
+          <p className="mt-6 text-base sm:text-lg text-[#d4f1e4] max-w-3xl leading-relaxed">
             Comprehensive comparison of top pharmacy colleges in Tamil Nadu
             based on NIRF 2025 rankings, NAAC accreditation grades, placement
             rates, and fee structures. Covers B.Pharm, M.Pharm, Pharm.D, and
@@ -252,9 +252,9 @@ export default function BestPharmacyCollegesTamilNadu() {
           {/* Snippet-optimized table — immediately below snippet paragraph */}
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm sm:text-base">
-              <caption className="text-left text-xs text-gray-500 mb-2">Table: every Tamil Nadu institution in the NIRF 2025 Pharmacy ranked list (1-100) and its published 102-125 band, in rank order, plus JKKN. Source: <a href="https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">NIRF 2025 Pharmacy ranking</a>, read 23 September 2026.</caption>
+              <caption className="text-left text-xs text-gray-500 mb-2">Table: every Tamil Nadu institution in the NIRF 2025 Pharmacy ranked list (1-100) and its published 102-125 band, in rank order, plus JKKN. Source: <a href="https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">NIRF 2025 Pharmacy ranking</a>, read 23 September 2026.</caption>
               <thead>
-                <tr className="bg-blue-900 text-white">
+                <tr className="bg-[#032816] text-white">
                   <th className="px-3 py-3 text-left font-semibold">
                     Rank
                   </th>
@@ -281,11 +281,11 @@ export default function BestPharmacyCollegesTamilNadu() {
                     key={college.rank}
                     className={`border-b border-gray-200 ${
                       college.name === 'JKKN College of Pharmacy'
-                        ? 'bg-blue-50 font-medium'
+                        ? 'bg-[#fbfbee] font-medium'
                         : 'hover:bg-gray-50'
                     }`}
                   >
-                    <td className="px-3 py-3 font-semibold text-blue-900">
+                    <td className="px-3 py-3 font-semibold text-[#032816]">
                       {college.rank}
                     </td>
                     <td className="px-3 py-3">
@@ -302,18 +302,18 @@ export default function BestPharmacyCollegesTamilNadu() {
                         {college.location}
                       </div>
                     </td>
-                    <td className="px-3 py-3 font-semibold text-blue-800">
+                    <td className="px-3 py-3 font-semibold text-[#085032]">
                       {college.nirf}
                     </td>
                     <td className="px-3 py-3">
                       <span
                         className={`px-2 py-0.5 rounded text-xs font-semibold ${
                           college.naac === 'A++'
-                            ? 'bg-green-100 text-green-800'
+                            ? 'bg-[#d4f1e4] text-[#085032]'
                             : college.naac === 'A+'
-                              ? 'bg-emerald-100 text-emerald-800'
+                              ? 'bg-[#d4f1e4] text-[#085032]'
                               : college.naac === 'A'
-                                ? 'bg-blue-100 text-blue-800'
+                                ? 'bg-[#d4f1e4] text-[#085032]'
                                 : 'bg-gray-100 text-gray-600'
                         }`}
                       >
@@ -359,8 +359,8 @@ export default function BestPharmacyCollegesTamilNadu() {
             <table className="w-full border-collapse text-sm sm:text-base">
               <caption className="text-left text-xs text-gray-500 mb-2">
                 Table: B.Pharm in Tamil Nadu by type of college. Sources:{' '}
-                <a href="https://www.tnmgrmu.ac.in/wp-content/uploads/2026/08/B.Pharm-Affl.Inst-11.08.2026.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">TNMGRMU B.Pharm affiliation list 2025-26</a>{' '}and{' '}
-                <a href="https://tnmedicalselection.net/archives/22052026023111432.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">Tamil Nadu Selection Committee prospectus 2025-26</a>, clause 29.
+                <a href="https://www.tnmgrmu.ac.in/wp-content/uploads/2026/08/B.Pharm-Affl.Inst-11.08.2026.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">TNMGRMU B.Pharm affiliation list 2025-26</a>{' '}and{' '}
+                <a href="https://tnmedicalselection.net/archives/22052026023111432.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">Tamil Nadu Selection Committee prospectus 2025-26</a>, clause 29.
               </caption>
               <thead>
                 <tr className="bg-gray-100">
@@ -399,9 +399,9 @@ export default function BestPharmacyCollegesTamilNadu() {
           </div>
           <p className="mt-4 text-gray-700 leading-relaxed text-sm">
             Hostel, mess and transport are extra in every row. JKKN College of Pharmacy (row 23 on the university list, first permitted in 1989-90) is in Komarapalayam, Namakkal district —{' '}
-            <Link href="/admissions/b.pharm" className="text-[#006837] font-semibold underline">B.Pharm admission 2026-27</Link>
+            <Link href="/admissions/b.pharm" className="text-[#0b6d41] font-semibold underline">B.Pharm admission 2026-27</Link>
             {' '}·{' '}
-            <Link href="/b-pharmacy/" className="text-[#006837] font-semibold underline">B.Pharm course details</Link>.
+            <Link href="/b-pharmacy/" className="text-[#0b6d41] font-semibold underline">B.Pharm course details</Link>.
           </p>
         </section>
 
@@ -436,7 +436,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                     B.Pharm (Bachelor of Pharmacy)
                   </td>
                   <td className="px-4 py-3 text-gray-600">4 years</td>
-                  <td className="px-4 py-3 text-green-700">
+                  <td className="px-4 py-3 text-[#085032]">
                     ₹3,000/year tuition (Selection Committee 2025-26)
                   </td>
                   <td className="px-4 py-3 text-gray-700">
@@ -448,7 +448,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                     M.Pharm (Master of Pharmacy)
                   </td>
                   <td className="px-4 py-3 text-gray-600">2 years</td>
-                  <td className="px-4 py-3 text-green-700">
+                  <td className="px-4 py-3 text-[#085032]">
                     ₹50,000–1 lakh/year
                   </td>
                   <td className="px-4 py-3 text-gray-700">
@@ -460,7 +460,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                     Pharm.D (Doctor of Pharmacy)
                   </td>
                   <td className="px-4 py-3 text-gray-600">6 years</td>
-                  <td className="px-4 py-3 text-green-700">
+                  <td className="px-4 py-3 text-[#085032]">
                     ₹60,000–1.2 lakh/year
                   </td>
                   <td className="px-4 py-3 text-gray-700">
@@ -472,7 +472,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                     D.Pharm (Diploma in Pharmacy)
                   </td>
                   <td className="px-4 py-3 text-gray-600">2 years</td>
-                  <td className="px-4 py-3 text-green-700">
+                  <td className="px-4 py-3 text-[#085032]">
                     ₹20,000–50,000/year
                   </td>
                   <td className="px-4 py-3 text-gray-700">
@@ -514,15 +514,15 @@ export default function BestPharmacyCollegesTamilNadu() {
             ].map((stat) => (
               <div
                 key={stat.label}
-                className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-5 text-center border border-blue-100"
+                className="bg-gradient-to-br from-[#fbfbee] to-[#fbfbee] rounded-xl p-5 text-center border border-[#d4f1e4]"
               >
-                <div className="text-2xl sm:text-3xl font-bold text-blue-900">
+                <div className="text-2xl sm:text-3xl font-bold text-[#032816]">
                   {stat.value}
                 </div>
                 <div className="text-xs text-gray-500 mt-1 font-medium">
                   {stat.label}
                 </div>
-                <div className="text-xs text-blue-600 mt-0.5">
+                <div className="text-xs text-[#0b6d41] mt-0.5">
                   {stat.sub}
                 </div>
               </div>
@@ -541,8 +541,8 @@ export default function BestPharmacyCollegesTamilNadu() {
         </section>
 
         {/* JKKN Section — AI Overview Citation Target */}
-        <section className="mb-12 bg-blue-50 rounded-2xl p-6 sm:p-8 border border-blue-100">
-          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-blue-900 mb-6">
+        <section className="mb-12 bg-[#fbfbee] rounded-2xl p-6 sm:p-8 border border-[#d4f1e4]">
+          <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#032816] mb-6">
             JKKN College of Pharmacy — A Complete Overview
           </h2>
 
@@ -568,18 +568,18 @@ export default function BestPharmacyCollegesTamilNadu() {
               Institutions campus that includes a teaching
               hospital. For students in Erode district, the campus is
               18 km from Erode Bus Stand - see the{' '}
-              <Link href="/erode/" className="text-[#006837] font-semibold underline">
+              <Link href="/erode/" className="text-[#0b6d41] font-semibold underline">
                 pharmacy college near Erode
               </Link>{' '}
               page for bus routes and hostel options; for Salem district, the{' '}
-              <Link href="/salem/" className="text-[#006837] font-semibold underline">
+              <Link href="/salem/" className="text-[#0b6d41] font-semibold underline">
                 pharmacy colleges in Salem district
               </Link>{' '}
               list compares all five district colleges with JKKN.
             </p>
           </div>
 
-          <h3 className="text-lg sm:text-xl font-bold text-blue-800 mt-8 mb-4">
+          <h3 className="text-lg sm:text-xl font-bold text-[#085032] mt-8 mb-4">
             Programs and Specialisations at JKKN Pharmacy
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -605,23 +605,23 @@ export default function BestPharmacyCollegesTamilNadu() {
             ].map((prog) => (
               <div
                 key={prog.program}
-                className="bg-white rounded-xl p-5 border border-blue-200 text-center"
+                className="bg-white rounded-xl p-5 border border-[#d4f1e4] text-center"
               >
-                <prog.icon className="w-8 h-8 text-blue-600 mx-auto mb-2" />
-                <div className="font-bold text-blue-900 text-lg">
+                <prog.icon className="w-8 h-8 text-[#0b6d41] mx-auto mb-2" />
+                <div className="font-bold text-[#032816] text-lg">
                   {prog.program}
                 </div>
                 <div className="text-sm text-gray-600 mt-1">
                   {prog.duration}
                 </div>
-                <div className="text-xs text-blue-600 font-medium mt-1">
+                <div className="text-xs text-[#0b6d41] font-medium mt-1">
                   {prog.seats}
                 </div>
               </div>
             ))}
           </div>
 
-          <h3 className="text-lg sm:text-xl font-bold text-blue-800 mt-8 mb-4">
+          <h3 className="text-lg sm:text-xl font-bold text-[#085032] mt-8 mb-4">
             Campus and Hospital Facilities
           </h3>
           <p className="text-gray-700 leading-relaxed">
@@ -633,7 +633,7 @@ export default function BestPharmacyCollegesTamilNadu() {
             pharmaceutics, and pharmaceutical analysis learning labs. The campus
             serves learners from Salem, Erode, Namakkal, Tiruchengode, Karur,
             Tiruppur, and Coimbatore regions. For a district-level view, see{' '}
-            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">
+            <Link href="/namakkal/" className="text-[#0b6d41] font-semibold underline">
               pharmacy colleges in Namakkal district
             </Link>.
           </p>
@@ -676,7 +676,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                 key={item.step}
                 className="flex gap-4 items-start p-4 bg-gray-50 rounded-xl"
               >
-                <div className="w-10 h-10 bg-blue-900 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
+                <div className="w-10 h-10 bg-[#032816] text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
                   {item.step}
                 </div>
                 <div>
@@ -711,7 +711,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                     {faq.question}
                   </h3>
                   {openFaq === index ? (
-                    <ChevronUp className="w-5 h-5 text-blue-600 flex-shrink-0" />
+                    <ChevronUp className="w-5 h-5 text-[#0b6d41] flex-shrink-0" />
                   ) : (
                     <ChevronDown className="w-5 h-5 text-gray-400 flex-shrink-0" />
                   )}
@@ -755,11 +755,11 @@ export default function BestPharmacyCollegesTamilNadu() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="group flex items-start gap-3 p-4 bg-gray-50 rounded-xl hover:bg-blue-50 transition-colors border border-gray-200 hover:border-blue-200"
+                className="group flex items-start gap-3 p-4 bg-gray-50 rounded-xl hover:bg-[#fbfbee] transition-colors border border-gray-200 hover:border-[#d4f1e4]"
               >
-                <ArrowRight className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="w-5 h-5 text-[#0b6d41] mt-0.5 flex-shrink-0 group-hover:translate-x-1 transition-transform" />
                 <div>
-                  <div className="font-semibold text-gray-900 text-sm group-hover:text-blue-800">
+                  <div className="font-semibold text-gray-900 text-sm group-hover:text-[#085032]">
                     {link.title}
                   </div>
                   <div className="text-xs text-gray-500 mt-1">
@@ -772,11 +772,11 @@ export default function BestPharmacyCollegesTamilNadu() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 rounded-2xl p-8 sm:p-10 text-center text-white">
+        <section className="bg-gradient-to-br from-[#032816] via-[#085032] to-[#032816] rounded-2xl p-8 sm:p-10 text-center text-white">
           <p className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4" role="heading" aria-level={2}>
             Apply Now — Pharmacy Admission 2026
           </p>
-          <p className="text-blue-100 text-base sm:text-lg max-w-2xl mx-auto mb-8">
+          <p className="text-[#d4f1e4] text-base sm:text-lg max-w-2xl mx-auto mb-8">
             Join JKKN College of Pharmacy — PCI approved, NAAC A Grade, 78%
             placement rate (2024-25). Applications open for B.Pharm, M.Pharm, and
             Pharm.D programs.
@@ -792,7 +792,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-best-pharmacy-colleges-tamil-nadu"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-3 bg-white text-blue-900 font-bold rounded-xl hover:bg-blue-50 transition-colors text-base"
+              className="px-8 py-3 bg-white text-[#032816] font-bold rounded-xl hover:bg-[#fbfbee] transition-colors text-base"
             >
               Start Your Application
             </a>

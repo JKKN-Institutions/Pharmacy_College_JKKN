@@ -26,7 +26,7 @@ export default function PharmacyCouncilPage() {
           <aside className="lg:w-72 flex-shrink-0">
             <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
               {/* Section Header */}
-              <div className="bg-[#0F6B3E] text-white px-6 py-4">
+              <div className="bg-[#0b6d41] text-white px-6 py-4">
                 <h2 className="text-lg font-bold">AFFILIATION DETAILS</h2>
               </div>
 
@@ -38,8 +38,8 @@ export default function PharmacyCouncilPage() {
                     href={section.href}
                     className={`block w-full text-left px-6 py-4 text-sm font-semibold transition-all border-l-4 ${
                       section.id === 'pharmacy-council'
-                        ? 'bg-[#D4F1E8] text-[#0F6B3E] border-[#0F6B3E]'
-                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
+                        ? 'bg-[#D4F1E8] text-[#0b6d41] border-[#0b6d41]'
+                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0b6d41] hover:border-gray-300'
                     }`}
                   >
                     {section.label}
@@ -71,7 +71,7 @@ export default function PharmacyCouncilPage() {
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -79,7 +79,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -87,7 +87,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -95,7 +95,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -184,7 +184,7 @@ export default function PharmacyCouncilPage() {
                     </p>
                     <ul className="space-y-3 mb-4">
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -192,7 +192,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -200,7 +200,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -208,7 +208,7 @@ export default function PharmacyCouncilPage() {
                         </span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">
@@ -223,13 +223,13 @@ export default function PharmacyCouncilPage() {
                     <div className="flex flex-wrap gap-4">
                       <a
                         href="#"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         PCI Approval Letter
                       </a>
                       <a
                         href="#"
-                        className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors"
+                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
                       >
                         PCI Inspection Report
                       </a>

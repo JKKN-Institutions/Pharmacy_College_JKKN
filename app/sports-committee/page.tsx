@@ -16,7 +16,7 @@ export default function SportsCommitteePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Sports Committee
@@ -43,7 +43,7 @@ export default function SportsCommitteePage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">NAME</th>
                       <th className="px-6 py-4 text-center font-semibold">NATURE</th>
                       <th className="px-6 py-4 text-center font-semibold">ROLE</th>
@@ -65,7 +65,7 @@ export default function SportsCommitteePage() {
 
           {/* Key Objectives */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Key Objectives
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -81,7 +81,7 @@ export default function SportsCommitteePage() {
                   'To screen and select learners with high spirit in sports and games, and subsequently encourage them to participate in inter college sports competitions',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                     <span>{item}</span>
                   </li>
                 ))}

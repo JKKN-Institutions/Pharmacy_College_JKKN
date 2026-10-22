@@ -24,7 +24,7 @@ export default function COEPage() {
         <div className="flex flex-col lg:flex-row gap-4 sm:gap-6 md:gap-8">
           <aside className="lg:w-80 flex-shrink-0">
             <div className="bg-[#FBFBEE] rounded-lg shadow-sm overflow-hidden sticky top-4">
-              <div className="bg-[#0F6B3E] text-white px-6 py-4">
+              <div className="bg-[#0b6d41] text-white px-6 py-4">
                 <h2 className="text-lg font-bold">STRATEGIC PLAN</h2>
               </div>
               <nav className="divide-y divide-gray-200">
@@ -34,8 +34,8 @@ export default function COEPage() {
                     href={section.href}
                     className={`block w-full text-left px-6 py-4 text-sm font-semibold transition-all border-l-4 ${
                       section.id === 'coe'
-                        ? 'bg-[#D4F1E8] text-[#0F6B3E] border-[#0F6B3E]'
-                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0F6B3E] hover:border-gray-300'
+                        ? 'bg-[#D4F1E8] text-[#0b6d41] border-[#0b6d41]'
+                        : 'bg-[#FBFBEE] text-gray-700 border-transparent hover:bg-gray-50 hover:text-[#0b6d41] hover:border-gray-300'
                     }`}
                   >
                     {section.label}
@@ -67,31 +67,31 @@ export default function COEPage() {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Strategic Objectives</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">Establish specialised centers in key pharmaceutical disciplines</span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">Attract experienced faculty and researchers in specialised fields</span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">Develop well-equipped infrastructure and research facilities</span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">Foster collaborations with leading pharmaceutical companies and research institutions</span>
                       </li>
                       <li className="flex items-start">
-                        <svg className="w-5 h-5 text-[#6B9E4E] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg className="w-5 h-5 text-[#0b6d41] mt-1 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                         </svg>
                         <span className="text-sm sm:text-base text-gray-700">Promote high-impact research and publications in specialised areas</span>
@@ -103,15 +103,15 @@ export default function COEPage() {
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Proposed Centers of Excellence</h3>
                     <div className="space-y-3 sm:space-y-4">
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Drug Discovery and Development</h4>
+                        <h4 className="text-lg font-semibold text-[#0b6d41] mb-2">Drug Discovery and Development</h4>
                         <p className="text-gray-700 text-sm">Advanced research in novel drug discovery, formulation development, and pharmaceutical technology.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Clinical Pharmacy and Healthcare</h4>
+                        <h4 className="text-lg font-semibold text-[#0b6d41] mb-2">Clinical Pharmacy and Healthcare</h4>
                         <p className="text-gray-700 text-sm">Specialised training and research in clinical pharmacy practice, pharmacotherapy, and patient care.</p>
                       </div>
                       <div className="bg-[#f5f0e8] p-4 sm:p-6 rounded-lg">
-                        <h4 className="text-lg font-semibold text-[#0F6B3E] mb-2">Pharmaceutical Analysis and Quality Assurance</h4>
+                        <h4 className="text-lg font-semibold text-[#0b6d41] mb-2">Pharmaceutical Analysis and Quality Assurance</h4>
                         <p className="text-gray-700 text-sm">Advanced analytical techniques, quality control, and regulatory affairs in pharmaceutical industry.</p>
                       </div>
                     </div>
@@ -152,7 +152,7 @@ export default function COEPage() {
                   <div>
                     <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-3 sm:mb-4">Download Documents</h3>
                     <div className="flex flex-wrap gap-4">
-                      <a href="#" className="inline-block px-6 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors">
+                      <a href="#" className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors">
                         COE Strategic Plan Document
                       </a>
                     </div>

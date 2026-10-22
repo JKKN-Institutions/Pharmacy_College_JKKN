@@ -32,7 +32,7 @@ export default async function BlogPage() {
       <Header />
 
       {/* Hero Banner */}
-      <section className="bg-[#006837] py-16 sm:py-20 text-center px-4">
+      <section className="bg-[#0b6d41] py-16 sm:py-20 text-center px-4">
         <p className="text-[#FFD700] text-xs sm:text-sm font-semibold uppercase tracking-widest mb-3">
           JKKN College of Pharmacy
         </p>
@@ -94,7 +94,7 @@ export default async function BlogPage() {
                         </div>
                       )}
                       {/* Category badge */}
-                      <span className="absolute top-3 left-3 bg-[#3B82F6] text-white text-xs font-semibold px-3 py-1 rounded-full">
+                      <span className="absolute top-3 left-3 bg-[#0b6d41] text-white text-xs font-semibold px-3 py-1 rounded-full">
                         {cat}
                       </span>
                     </div>
@@ -115,7 +115,7 @@ export default async function BlogPage() {
                         {/* Author */}
                         <div className="flex items-center gap-1.5 flex-shrink-0">
                           <div className="w-7 h-7 rounded-full bg-[#d1e8da] flex items-center justify-center flex-shrink-0">
-                            <span className="text-[10px] font-bold text-[#006837]">{authorInitials}</span>
+                            <span className="text-[10px] font-bold text-[#0b6d41]">{authorInitials}</span>
                           </div>
                           <span className="text-xs text-gray-600">{authorShort}</span>
                         </div>
@@ -145,7 +145,7 @@ export default async function BlogPage() {
       {!hasCampusPosts && (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex flex-col items-center justify-center text-center">
           <div className="w-20 h-20 rounded-full bg-[#e8f0ec] flex items-center justify-center mb-6">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-[#006837]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 text-[#0b6d41]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6l4 2m6-2a10 10 0 11-20 0 10 10 0 0120 0z" />
             </svg>
           </div>

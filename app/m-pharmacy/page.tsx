@@ -18,7 +18,7 @@ export default function MPharmacyPage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3">M.Pharm — Master of Pharmacy at JKKN College of Pharmacy, Tamil Nadu</h1>
           <p className="text-[9px] xs:text-[10px] sm:text-xs text-gray-100">6 PCI-Approved Specialisations • NAAC A Grade • Research Excellence • GPAT/GATE Pathway</p>
@@ -27,12 +27,12 @@ export default function MPharmacyPage() {
 
       {/* What is M.Pharm Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">What is M.Pharm (Master of Pharmacy)?</h2>
+        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#0f8f56]">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">What is M.Pharm (Master of Pharmacy)?</h2>
 
           <div className="snippet-answer speakable-summary text-xs sm:text-sm text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
-              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#006837] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 6 major pathways: <span className="text-[#006837] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#006837] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#006837] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD programmes</Link>.
+              M.Pharm is a 2-year postgraduate degree programme in pharmaceutical sciences providing advanced education, specialised knowledge, research skills, and professional development in specific areas of pharmacy. After completing <Link href="/b-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">B.Pharm</Link>, this programme offers deep specialisation through 6 major pathways: <span className="text-[#0b6d41] font-semibold">Pharmaceutics</span> (drug formulation and delivery systems), <span className="text-[#0b6d41] font-semibold">Pharmaceutical Analysis</span> (analytical methods and quality control), <span className="text-[#0b6d41] font-semibold">Pharmacology</span> (drug action, toxicology), <span className="text-[#0b6d41] font-semibold">Pharmaceutical Chemistry</span> (medicinal chemistry and drug design), and <span className="text-[#0b6d41] font-semibold">Pharmacy Practice</span> (clinical pharmacy and patient care). The programme comprises 4 semesters with advanced coursework in Semesters 1-2 covering theoretical foundations, advanced techniques, and research methodology, followed by intensive research work and dissertation in Semesters 3-4. Graduates qualify for senior positions in pharmaceutical R&D, quality control/assurance, regulatory affairs, clinical research, hospital pharmacy, and academic institutions with significantly better career growth and salary prospects. For research-oriented careers, M.Pharm graduates can further pursue <Link href="/phd" className="text-[#0b6d41] font-semibold hover:underline">PhD programmes</Link>.
             </p>
           </div>
 
@@ -45,9 +45,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">DURATION</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">DURATION</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 0 ? 'rotate-180' : ''
                 }`}
               />
@@ -65,9 +65,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SPECIALISATIONS</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SPECIALISATIONS</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 1 ? 'rotate-180' : ''
                 }`}
               />
@@ -85,9 +85,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">STARTING SALARY</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">STARTING SALARY</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 2 ? 'rotate-180' : ''
                 }`}
               />
@@ -105,9 +105,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-[#006837] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SENIOR SALARY</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-sm pr-4">SENIOR SALARY</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 3 ? 'rotate-180' : ''
                 }`}
               />
@@ -133,8 +133,8 @@ export default function MPharmacyPage() {
           list = artefacts/keywords/nirf-2025-pharmacy-tamilnadu.json. No "top" claim for JKKN. */}
       <div id="mpharm-colleges-tamil-nadu" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-6">
-          <Landmark className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Colleges in Tamil Nadu (tamilnadu) — How Many, Fees, Entrance Exam</h2>
+          <Landmark className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">M.Pharm Colleges in Tamil Nadu (tamilnadu) — How Many, Fees, Entrance Exam</h2>
         </div>
         <p className="snippet-answer text-sm sm:text-base text-gray-800 leading-relaxed mb-6">
           The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 64 M.Pharm colleges: 2 government and 62 self-financing. Government-quota seats in both are filled through the Tamil Nadu Selection Committee&apos;s own entrance exam (not GPAT); tuition is Rs 5,000 a year in government colleges and Rs 70,000 a year for government-quota seats in self-financing colleges (2025-26 prospectus).
@@ -143,11 +143,11 @@ export default function MPharmacyPage() {
           <table className="w-full border-collapse text-xs sm:text-sm">
             <caption className="text-left text-xs text-gray-500 mb-2">
               Table: M.Pharm in Tamil Nadu by type of seat. Sources:{' '}
-              <a href="https://www.tnmgrmu.ac.in/wp-content/uploads/2026/08/M.Pharm-Affl.Inst-11.08.2026.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">TNMGRMU M.Pharm affiliation list 2025-26</a>{' '}and{' '}
-              <a href="https://tnmedicalselection.net/archives/21052026025706169.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#006837]">Tamil Nadu Selection Committee M.Pharm prospectus 2025-26</a>.
+              <a href="https://www.tnmgrmu.ac.in/wp-content/uploads/2026/08/M.Pharm-Affl.Inst-11.08.2026.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">TNMGRMU M.Pharm affiliation list 2025-26</a>{' '}and{' '}
+              <a href="https://tnmedicalselection.net/archives/21052026025706169.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">Tamil Nadu Selection Committee M.Pharm prospectus 2025-26</a>.
             </caption>
             <thead>
-              <tr className="bg-[#006837] text-white">
+              <tr className="bg-[#0b6d41] text-white">
                 <th className="px-3 py-3 text-left font-semibold">Type</th>
                 <th className="px-3 py-3 text-left font-semibold">Colleges</th>
                 <th className="px-3 py-3 text-left font-semibold">How you get a seat</th>
@@ -183,24 +183,24 @@ export default function MPharmacyPage() {
         </div>
         <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-6">
           <strong>JKKN College of Pharmacy, Komarapalayam:</strong> 90 M.Pharm seats across six specialisations, 15 each, from 2026-27. The university&apos;s 2025-26 list shows 60 seats across five branches because Pharmaceutical Regulatory Affairs is new for 2026-27. Government-quota eligibility (2025-26 prospectus): 55% in B.Pharm for OC, BC and MBC candidates, 50% for SC and ST candidates. The full NIRF 2025 table for Tamil Nadu is in our{' '}
-          <Link href="/blog/best-pharmacy-colleges-tamil-nadu/" className="text-[#006837] font-semibold underline">Tamil Nadu pharmacy colleges guide</Link>; admission steps are on the{' '}
-          <Link href="/admissions/m.pharm" className="text-[#006837] font-semibold underline">M.Pharm admission 2026-27</Link> page.
+          <Link href="/blog/best-pharmacy-colleges-tamil-nadu/" className="text-[#0b6d41] font-semibold underline">Tamil Nadu pharmacy colleges guide</Link>; admission steps are on the{' '}
+          <Link href="/admissions/m.pharm" className="text-[#0b6d41] font-semibold underline">M.Pharm admission 2026-27</Link> page.
         </p>
         <div className="space-y-3">
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-2">How many M.Pharm colleges are there in Tamil Nadu?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">How many M.Pharm colleges are there in Tamil Nadu?</h3>
               <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">The Tamil Nadu Dr. M.G.R. Medical University&apos;s M.Pharm affiliation list for 2025-26 (dated 11 August 2026) carries 64 colleges: 2 government colleges - the College of Pharmacy at Madras Medical College, Chennai and at Madurai Medical College - and 62 self-financing colleges. Deemed and state universities such as JSS (Ooty), SRM, Amrita, Sri Ramachandra and Annamalai run M.Pharm programmes of their own and are not on that list.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-2">What is the entrance exam for M.Pharm in Tamil Nadu? Is GPAT compulsory?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">What is the entrance exam for M.Pharm in Tamil Nadu? Is GPAT compulsory?</h3>
               <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">For government-quota seats in government colleges and self-financing colleges, the Tamil Nadu Selection Committee (Directorate of Medical Education and Research) holds its own M.Pharm entrance examination. In 2025 it was held in Chennai on 7 September: 125 objective questions, marks computed to 90, no negative marking. The Selection Committee&apos;s 2025-26 prospectus does not use GPAT. Management-quota and deemed-university admissions follow each institution&apos;s own process.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-2">What is the M.Pharm fee in Tamil Nadu?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">What is the M.Pharm fee in Tamil Nadu?</h3>
               <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">The Tamil Nadu Selection Committee&apos;s 2025-26 prospectus fixes M.Pharm tuition at Rs 5,000 a year in government colleges and Rs 70,000 a year for government-quota seats in self-financing colleges; special and other fees are paid at admission. Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-2">Which are the top M.Pharm colleges in Tamil Nadu?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">Which are the top M.Pharm colleges in Tamil Nadu?</h3>
               <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">NIRF ranks institutions, not individual courses. NIRF 2025 ranks eleven Tamil Nadu institutions in Pharmacy: JSS College of Pharmacy, Ooty (#4), SRM Institute of Science and Technology (#10), Amrita Vishwa Vidyapeetham (#14), Sri Ramachandra Institute (#36), Annamalai University (#42), Vels Institute (#61), PSG College of Pharmacy (#65), Nandha College of Pharmacy (#77), College of Pharmacy, Madras Medical College (#94), Arulmigu Kalasalingam College of Pharmacy (#96) and Vinayaka Mission&apos;s Research Foundation (#99). JKKN College of Pharmacy participates in NIRF but carries no rank; compare approval, accreditation, seats, fees and the placement figure each college files with NIRF.</p>
             </div>
         </div>
@@ -209,57 +209,57 @@ export default function MPharmacyPage() {
       {/* 6 M.Pharm Specialisations */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Microscope className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">6 M.Pharm Specialisations - Choose Your Path</h2>
+          <Microscope className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">6 M.Pharm Specialisations - Choose Your Path</h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 mb-6">
           {/* 1. Pharmaceutics */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">1. Pharmaceutics</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">1. Pharmaceutics</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Drug formulation, delivery systems, product development</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Novel drug delivery, nanotechnology, tablet/capsule development, sustained release, transdermal systems, quality by design</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Drug formulation, delivery systems, product development</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Novel drug delivery, nanotechnology, tablet/capsule development, sustained release, transdermal systems, quality by design</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">High R&D Demand</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">High R&D Demand</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Formulation Scientist, Product Development Manager, R&D Associate</p>
-              <Link href="/pharmaceutics" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> Formulation Scientist, Product Development Manager, R&D Associate</p>
+              <Link href="/pharmaceutics" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
           </div>
 
           {/* 2. Pharmaceutical Analysis */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">2. Pharmaceutical Analysis</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">2. Pharmaceutical Analysis</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Analytical methods, quality control, instrumentation</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> HPLC, LC-MS/MS, method development/validation, impurity profiling, bioanalytical techniques, stability testing</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Analytical methods, quality control, instrumentation</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> HPLC, LC-MS/MS, method development/validation, impurity profiling, bioanalytical techniques, stability testing</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-45K Starting</span>
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Maximum Jobs</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-45K Starting</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Maximum Jobs</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> QC Analyst, Analytical Scientist, Method Development Chemist</p>
-              <Link href="/pharmaceutical-analysis" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> QC Analyst, Analytical Scientist, Method Development Chemist</p>
+              <Link href="/pharmaceutical-analysis" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
           </div>
 
           {/* 3. Pharmacology */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">3. Pharmacology</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">3. Pharmacology</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Drug action, toxicology, preclinical research</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Drug screening, molecular pharmacology, toxicogenomics, cardiovascular/CNS/cancer pharmacology, drug safety assessment</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Drug action, toxicology, preclinical research</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Drug screening, molecular pharmacology, toxicogenomics, cardiovascular/CNS/cancer pharmacology, drug safety assessment</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Research Focus</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Research Focus</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Pharmacology Scientist, Safety Assessment Specialist, Preclinical Researcher</p>
-              <Link href="/pharmacology" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> Pharmacology Scientist, Safety Assessment Specialist, Preclinical Researcher</p>
+              <Link href="/pharmacology" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
@@ -268,51 +268,51 @@ export default function MPharmacyPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* 4. Pharmaceutical Chemistry */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">4. Pharmaceutical Chemistry</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">4. Pharmaceutical Chemistry</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Medicinal chemistry, drug design, synthesis</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Drug design, SAR studies, computational chemistry, organic synthesis, heterocyclic chemistry, natural products</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Medicinal chemistry, drug design, synthesis</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Drug design, SAR studies, computational chemistry, organic synthesis, heterocyclic chemistry, natural products</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Drug Discovery</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Drug Discovery</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Medicinal Chemist, Synthetic Chemist, Drug Design Scientist</p>
-              <Link href="/pharmaceutical-chemistry" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> Medicinal Chemist, Synthetic Chemist, Drug Design Scientist</p>
+              <Link href="/pharmaceutical-chemistry" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
           </div>
 
           {/* 5. Pharmacy Practice */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">5. Pharmacy Practice</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">5. Pharmacy Practice</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Clinical pharmacy, patient care, hospital practice</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Clinical pharmacotherapy, patient counselling, pharmacoeconomics, medication therapy management, adverse drug reactions</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Clinical pharmacy, patient care, hospital practice</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Clinical pharmacotherapy, patient counselling, pharmacoeconomics, medication therapy management, adverse drug reactions</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-40K Starting</span>
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Growing Field</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-40K Starting</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Growing Field</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Clinical Pharmacist, Hospital Pharmacist, Drug Information Specialist</p>
-              <Link href="/pharmacy-practice" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> Clinical Pharmacist, Hospital Pharmacist, Drug Information Specialist</p>
+              <Link href="/pharmacy-practice" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
           </div>
 
           {/* 6. Pharmaceutical Regulatory Affairs */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#006837] shadow-lg">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4">6. Pharmaceutical Regulatory Affairs</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0b6d41] shadow-lg">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">6. Pharmaceutical Regulatory Affairs</h3>
             <div className="space-y-3 text-xs sm:text-sm text-gray-700">
-              <p><span className="font-semibold text-[#006837]">Focus:</span> Drug approval, dossier preparation, regulatory compliance</p>
-              <p><span className="font-semibold text-[#006837]">Key Areas:</span> Drugs and Cosmetics Act, CDSCO and DCGI submissions, CTD and eCTD dossiers, clinical trial regulation, pharmacovigilance reporting, labelling compliance</p>
+              <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Drug approval, dossier preparation, regulatory compliance</p>
+              <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Drugs and Cosmetics Act, CDSCO and DCGI submissions, CTD and eCTD dossiers, clinical trial regulation, pharmacovigilance reporting, labelling compliance</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#006837] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">New for 2026-27</span>
-                <span className="bg-[#7cb983] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">15 Seats</span>
+                <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">New for 2026-27</span>
+                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">15 Seats</span>
               </div>
-              <p><span className="font-semibold text-[#006837]">Career:</span> Regulatory Affairs Associate, Dossier Writer, Drug Safety Associate, Compliance Officer</p>
-              <Link href="/pharmaceutical-regulatory-affairs" className="mt-4 inline-block bg-[#7cb983] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#6ba872] transition-colors">
+              <p><span className="font-semibold text-[#0b6d41]">Career:</span> Regulatory Affairs Associate, Dossier Writer, Drug Safety Associate, Compliance Officer</p>
+              <Link href="/pharmaceutical-regulatory-affairs" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
                 Learn More →
               </Link>
             </div>
@@ -323,14 +323,14 @@ export default function MPharmacyPage() {
       {/* M.Pharm Specialisations - Detailed Comparison */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Scale className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Specialisations - Detailed Comparison</h2>
+          <Scale className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">M.Pharm Specialisations - Detailed Comparison</h2>
         </div>
 
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-lg shadow-lg">
             <thead>
-              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+              <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                 <th className="px-4 py-4 text-left font-bold">Parameter</th>
                 <th className="px-4 py-4 text-left font-bold">Pharmaceutics</th>
                 <th className="px-4 py-4 text-left font-bold">Analysis</th>
@@ -341,7 +341,7 @@ export default function MPharmacyPage() {
             </thead>
             <tbody>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Primary Focus</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Primary Focus</td>
                 <td className="px-4 py-4">Drug formulation & delivery</td>
                 <td className="px-4 py-4">Analytical methods & QC</td>
                 <td className="px-4 py-4">Drug action & toxicology</td>
@@ -349,7 +349,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Clinical pharmacy & patient care</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Work Environment</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Work Environment</td>
                 <td className="px-4 py-4">Formulation labs, R&D centers</td>
                 <td className="px-4 py-4">QC labs, analytical R&D</td>
                 <td className="px-4 py-4">Pharmacology labs, animal facilities</td>
@@ -357,7 +357,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Hospitals, clinics, patient care</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Starting Salary</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Starting Salary</td>
                 <td className="px-4 py-4">₹30,000-50,000/month</td>
                 <td className="px-4 py-4">₹25,000-45,000/month</td>
                 <td className="px-4 py-4">₹30,000-50,000/month</td>
@@ -365,7 +365,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">₹25,000-40,000/month</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Senior Salary (10+ years)</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Senior Salary (10+ years)</td>
                 <td className="px-4 py-4">₹1,00,000-2,00,000/month</td>
                 <td className="px-4 py-4">₹70,000-1,50,000/month</td>
                 <td className="px-4 py-4">₹90,000-1,80,000/month</td>
@@ -373,7 +373,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">₹60,000-1,20,000/month</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Job Availability</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Job Availability</td>
                 <td className="px-4 py-4">High (every pharma R&D)</td>
                 <td className="px-4 py-4">Very High (QC everywhere)</td>
                 <td className="px-4 py-4">Moderate (research-focused)</td>
@@ -381,7 +381,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Growing (hospitals expanding)</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Industry Demand</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Industry Demand</td>
                 <td className="px-4 py-4">Excellent - high R&D need</td>
                 <td className="px-4 py-4">Excellent - QC mandatory</td>
                 <td className="px-4 py-4">Good - competitive field</td>
@@ -389,7 +389,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Growing - clinical services</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Career Growth</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Career Growth</td>
                 <td className="px-4 py-4">Associate Director, VP R&D</td>
                 <td className="px-4 py-4">QC/QA Head, Director Quality</td>
                 <td className="px-4 py-4">Principal Scientist, Director</td>
@@ -397,7 +397,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Chief Pharmacist, Clinical Director</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">International Scope</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">International Scope</td>
                 <td className="px-4 py-4">Excellent - global demand</td>
                 <td className="px-4 py-4">Good - QC universal</td>
                 <td className="px-4 py-4">Good - research positions</td>
@@ -405,7 +405,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Moderate - licensing barriers</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Ph.D. Pathway</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Ph.D. Pathway</td>
                 <td className="px-4 py-4">Excellent - diverse topics</td>
                 <td className="px-4 py-4">Good - analytical research</td>
                 <td className="px-4 py-4">Excellent - academic research</td>
@@ -413,7 +413,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Good - clinical pharmacy research</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Skills Required</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Skills Required</td>
                 <td className="px-4 py-4">Formulation, preformulation, QbD</td>
                 <td className="px-4 py-4">Instrumentation, method development</td>
                 <td className="px-4 py-4">In vivo/in vitro, data analysis</td>
@@ -421,7 +421,7 @@ export default function MPharmacyPage() {
                 <td className="px-4 py-4">Communication, clinical knowledge</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Best For</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Best For</td>
                 <td className="px-4 py-4">Product development enthusiasts</td>
                 <td className="px-4 py-4">Detail-oriented, analytical minds</td>
                 <td className="px-4 py-4">Research-minded, bio-interested</td>
@@ -436,12 +436,12 @@ export default function MPharmacyPage() {
       {/* How to Choose Your M.Pharm Specialisation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Target className="w-10 h-10 text-[#006837]" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">How to Choose Your M.Pharm Specialisation</h2>
+          <Target className="w-10 h-10 text-[#0b6d41]" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">How to Choose Your M.Pharm Specialisation</h2>
         </div>
 
-        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Systematic Decision-Making Framework</h3>
+        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#0f8f56]">
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Systematic Decision-Making Framework</h3>
 
           {/* Step 1 */}
           <div className="mb-8">
@@ -449,7 +449,7 @@ export default function MPharmacyPage() {
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg">
                 <thead>
-                  <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                  <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                     <th className="px-4 py-3 text-left font-bold">If You Enjoy...</th>
                     <th className="px-4 py-3 text-left font-bold">Consider...</th>
                   </tr>
@@ -457,23 +457,23 @@ export default function MPharmacyPage() {
                 <tbody>
                   <tr className="border-b border-gray-200">
                     <td className="px-4 py-3">Creating new formulations, working with tablets/capsules/creams</td>
-                    <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmaceutics</span> - Drug formulation and delivery systems</td>
+                    <td className="px-4 py-3"><span className="text-[#0b6d41] font-semibold">Pharmaceutics</span> - Drug formulation and delivery systems</td>
                   </tr>
                   <tr className="bg-[#FBFBEE] border-b border-gray-200">
                     <td className="px-4 py-3">Operating instruments (HPLC, LC-MS), method development, precision work</td>
-                    <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmaceutical Analysis</span> - Quality control and analytical methods</td>
+                    <td className="px-4 py-3"><span className="text-[#0b6d41] font-semibold">Pharmaceutical Analysis</span> - Quality control and analytical methods</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="px-4 py-3">Understanding how drugs work in body, animal studies, biological research</td>
-                    <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmacology</span> - Drug action and toxicology</td>
+                    <td className="px-4 py-3"><span className="text-[#0b6d41] font-semibold">Pharmacology</span> - Drug action and toxicology</td>
                   </tr>
                   <tr className="bg-[#FBFBEE] border-b border-gray-200">
                     <td className="px-4 py-3">Organic chemistry, synthesis, molecular design, computational work</td>
-                    <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmaceutical Chemistry</span> - Medicinal chemistry and drug design</td>
+                    <td className="px-4 py-3"><span className="text-[#0b6d41] font-semibold">Pharmaceutical Chemistry</span> - Medicinal chemistry and drug design</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="px-4 py-3">Patient interaction, counselling, clinical work, hospital environment</td>
-                    <td className="px-4 py-3"><span className="text-[#006837] font-semibold">Pharmacy Practice</span> - Clinical pharmacy and patient care</td>
+                    <td className="px-4 py-3"><span className="text-[#0b6d41] font-semibold">Pharmacy Practice</span> - Clinical pharmacy and patient care</td>
                   </tr>
                 </tbody>
               </table>
@@ -485,28 +485,28 @@ export default function MPharmacyPage() {
             <h4 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">Step 2: Align with Career Goals</h4>
             <ul className="space-y-3 text-gray-800">
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want R&D in pharmaceutical companies?</span> → Pharmaceutics or Chemistry (high demand)</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want R&D in pharmaceutical companies?</span> → Pharmaceutics or Chemistry (high demand)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want stable QC/QA career?</span> → Pharmaceutical Analysis (maximum job openings)</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want stable QC/QA career?</span> → Pharmaceutical Analysis (maximum job openings)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want research career?</span> → Pharmacology or Chemistry (strong Ph.D. pathway)</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want research career?</span> → Pharmacology or Chemistry (strong Ph.D. pathway)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want to work in hospitals?</span> → Pharmacy Practice (patient-focused)</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want to work in hospitals?</span> → Pharmacy Practice (patient-focused)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want highest salary potential?</span> → Pharmaceutics or Chemistry in MNC R&D</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want highest salary potential?</span> → Pharmaceutics or Chemistry in MNC R&D</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
-                <span><span className="text-[#006837] font-semibold">Want maximum job security?</span> → Pharmaceutical Analysis (QC needed everywhere)</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
+                <span><span className="text-[#0b6d41] font-semibold">Want maximum job security?</span> → Pharmaceutical Analysis (QC needed everywhere)</span>
               </li>
             </ul>
           </div>
@@ -514,27 +514,27 @@ export default function MPharmacyPage() {
           {/* Step 3 */}
           <div className="mb-8">
             <h4 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">Step 3: Consider Market Realities</h4>
-            <div className="bg-white rounded-lg p-6 border-l-4 border-[#7cb983]">
-              <h5 className="text-sm xs:text-base font-bold text-[#006837] mb-4">Job Market Analysis:</h5>
+            <div className="bg-white rounded-lg p-6 border-l-4 border-[#0f8f56]">
+              <h5 className="text-sm xs:text-base font-bold text-[#0b6d41] mb-4">Job Market Analysis:</h5>
               <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span><span className="font-semibold">Most Openings:</span> Pharmaceutical Analysis (every pharma company needs QC labs)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span><span className="font-semibold">Highest R&D Demand:</span> Pharmaceutics (formulation scientists always needed)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span><span className="font-semibold">Most Competitive:</span> Pharmacology (fewer positions, many applicants)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span><span className="font-semibold">Best Long-term Growth:</span> Pharmaceutics and Chemistry (Director-level positions)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span><span className="font-semibold">Growing Field:</span> Pharmacy Practice (clinical pharmacy services expanding)</span>
                 </li>
               </ul>
@@ -544,31 +544,31 @@ export default function MPharmacyPage() {
           {/* Step 4 */}
           <div className="mb-8">
             <h4 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">Step 4: Evaluate College Strength in Specialisation</h4>
-            <div className="bg-white rounded-lg p-6 border-l-4 border-[#7cb983]">
-              <p className="text-sm xs:text-base font-bold text-[#006837] mb-4">Critical Factor: Your target college's strength in specific specialisation matters more than personal preference!</p>
+            <div className="bg-white rounded-lg p-6 border-l-4 border-[#0f8f56]">
+              <p className="text-sm xs:text-base font-bold text-[#0b6d41] mb-4">Critical Factor: Your target college's strength in specific specialisation matters more than personal preference!</p>
               <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span>Check faculty expertise and publications in that specialisation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span>Verify laboratory infrastructure and instruments available</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span>Review placement records for that specific specialisation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span>Examine recent thesis topics and research publications</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] font-bold mr-2">•</span>
+                  <span className="text-[#0b6d41] font-bold mr-2">•</span>
                   <span>Investigate industry collaborations and funded projects</span>
                 </li>
               </ul>
-              <p className="text-[#006837] font-semibold mt-4">Better strategy: Strong college with average specialisation match &gt; Weak college with perfect specialisation match</p>
+              <p className="text-[#0b6d41] font-semibold mt-4">Better strategy: Strong college with average specialisation match &gt; Weak college with perfect specialisation match</p>
             </div>
           </div>
 
@@ -576,11 +576,11 @@ export default function MPharmacyPage() {
           <div className="bg-white rounded-lg p-6">
             <h4 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">Quick Decision Guide:</h4>
             <div className="space-y-3 text-xs sm:text-sm text-gray-800">
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACEUTICS if:</span> Want versatile R&D career with high demand, enjoy formulation work, interested in novel drug delivery systems, goal is pharmaceutical product development</p>
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACEUTICAL ANALYSIS if:</span> Want stable career with maximum job opportunities, enjoy instrumentation and analytical work, prefer QC over R&D, detail-oriented personality</p>
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACOLOGY if:</span> Fascinated by drug mechanisms, enjoy biological research, comfortable with animal studies, want research-focused career, planning Ph.D.</p>
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACEUTICAL CHEMISTRY if:</span> Strong organic chemistry background, enjoy synthesis and molecular design, want drug discovery roles, target innovator companies or academic research</p>
-              <p><span className="text-[#006837] font-semibold">Choose PHARMACY PRACTICE if:</span> Prefer patient interaction over laboratory work, want hospital pharmacy career, enjoy clinical and counselling work, interested in healthcare team collaboration</p>
+              <p><span className="text-[#0b6d41] font-semibold">Choose PHARMACEUTICS if:</span> Want versatile R&D career with high demand, enjoy formulation work, interested in novel drug delivery systems, goal is pharmaceutical product development</p>
+              <p><span className="text-[#0b6d41] font-semibold">Choose PHARMACEUTICAL ANALYSIS if:</span> Want stable career with maximum job opportunities, enjoy instrumentation and analytical work, prefer QC over R&D, detail-oriented personality</p>
+              <p><span className="text-[#0b6d41] font-semibold">Choose PHARMACOLOGY if:</span> Fascinated by drug mechanisms, enjoy biological research, comfortable with animal studies, want research-focused career, planning Ph.D.</p>
+              <p><span className="text-[#0b6d41] font-semibold">Choose PHARMACEUTICAL CHEMISTRY if:</span> Strong organic chemistry background, enjoy synthesis and molecular design, want drug discovery roles, target innovator companies or academic research</p>
+              <p><span className="text-[#0b6d41] font-semibold">Choose PHARMACY PRACTICE if:</span> Prefer patient interaction over laboratory work, want hospital pharmacy career, enjoy clinical and counselling work, interested in healthcare team collaboration</p>
             </div>
           </div>
         </div>
@@ -590,53 +590,53 @@ export default function MPharmacyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <ClipboardList className="w-10 h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm Eligibility & Admission Process</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">M.Pharm Eligibility & Admission Process</h2>
         </div>
 
         <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Eligibility Criteria</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Eligibility Criteria</h3>
 
           <div className="bg-[#FBFBEE] rounded-lg p-6 mb-6">
-            <h4 className="text-sm xs:text-base font-bold text-[#006837] mb-4">Educational Qualification:</h4>
+            <h4 className="text-sm xs:text-base font-bold text-[#0b6d41] mb-4">Educational Qualification:</h4>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-800">
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <span>B.Pharm degree from PCI (Pharmacy Council of India) approved/recognised university</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <span>Minimum 50% aggregate marks in B.Pharm (45% for SC/ST candidates)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <span>Pharmacy Council registration certificate (permanent or provisional)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <span>No specific subject prerequisites - all B.Pharm graduates eligible for any specialisation</span>
               </li>
             </ul>
           </div>
 
           <div className="bg-[#FBFBEE] rounded-lg p-6">
-            <h4 className="text-sm xs:text-base font-bold text-[#006837] mb-4">Entrance Examination:</h4>
+            <h4 className="text-sm xs:text-base font-bold text-[#0b6d41] mb-4">Entrance Examination:</h4>
             <ul className="space-y-3 text-gray-800">
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <div>
-                  <span className="font-semibold text-[#006837]">GPAT (Graduate Pharmacy Aptitude Test):</span> National level exam conducted by NTA, mandatory for admission to NIPER and IITs, preferred by most government colleges, valid for 3 years, conducted once annually (February), 125 questions, 500 marks, 3 hours duration
+                  <span className="font-semibold text-[#0b6d41]">GPAT (Graduate Pharmacy Aptitude Test):</span> National level exam conducted by NTA, mandatory for admission to NIPER and IITs, preferred by most government colleges, valid for 3 years, conducted once annually (February), 125 questions, 500 marks, 3 hours duration
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <div>
-                  <span className="font-semibold text-[#006837]">GATE (Graduate Aptitude Test in Engineering):</span> Accepted by NIPER, IITs, NITs, and many government institutions, Biotechnology (BT) or Life Sciences (XL - Biochemistry) papers relevant for pharmacy, valid for 3 years, conducted in February
+                  <span className="font-semibold text-[#0b6d41]">GATE (Graduate Aptitude Test in Engineering):</span> Accepted by NIPER, IITs, NITs, and many government institutions, Biotechnology (BT) or Life Sciences (XL - Biochemistry) papers relevant for pharmacy, valid for 3 years, conducted in February
                 </div>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] font-bold mr-2">•</span>
+                <span className="text-[#0b6d41] font-bold mr-2">•</span>
                 <div>
-                  <span className="font-semibold text-[#006837]">University Entrance Tests:</span> Many state universities and private colleges conduct own entrance exams, typically held May-June, subjects: pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy
+                  <span className="font-semibold text-[#0b6d41]">University Entrance Tests:</span> Many state universities and private colleges conduct own entrance exams, typically held May-June, subjects: pharmaceutics, pharmaceutical chemistry, pharmacology, pharmacognosy
                 </div>
               </li>
             </ul>
@@ -646,12 +646,12 @@ export default function MPharmacyPage() {
 
         {/* Admission Process Timeline */}
         <div className="bg-white rounded-2xl p-8 shadow-lg">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Admission Process Timeline</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Admission Process Timeline</h3>
 
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                   <th className="px-4 py-3 text-left font-bold">Month</th>
                   <th className="px-4 py-3 text-left font-bold">Activity</th>
                   <th className="px-4 py-3 text-left font-bold">Details</th>
@@ -659,32 +659,32 @@ export default function MPharmacyPage() {
               </thead>
               <tbody>
                 <tr className="border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">December-January</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">December-January</td>
                   <td className="px-4 py-3">GPAT/GATE Registration</td>
                   <td className="px-4 py-3">Register on official websites (gpat.nta.nic.in, gate.iitm.ac.in), upload documents, pay fees</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">February</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">February</td>
                   <td className="px-4 py-3">GPAT/GATE Examination</td>
                   <td className="px-4 py-3">Computer-based tests at designated centers across India</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">March</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">March</td>
                   <td className="px-4 py-3">Results Declaration</td>
                   <td className="px-4 py-3">Scorecard download, percentile/rank announced</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">April-May</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">April-May</td>
                   <td className="px-4 py-3">College Applications</td>
                   <td className="px-4 py-3">Apply to NIPER, IITs, state universities, private colleges with GPAT/GATE scorecard</td>
                 </tr>
                 <tr className="border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">May-June</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">May-June</td>
                   <td className="px-4 py-3">Counselling & Selection</td>
                   <td className="px-4 py-3">Centralized counselling for NIPER, separate for universities, document verification, specialisation choice</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                  <td className="px-4 py-3 font-semibold text-[#006837]">July-August</td>
+                  <td className="px-4 py-3 font-semibold text-[#0b6d41]">July-August</td>
                   <td className="px-4 py-3">Admission & Classes Begin</td>
                   <td className="px-4 py-3">Seat confirmation, fee payment, classes commence in July-August</td>
                 </tr>
@@ -696,12 +696,12 @@ export default function MPharmacyPage() {
 
       {/* GPAT vs GATE for M.Pharm Admission */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-8">GPAT vs GATE for M.Pharm Admission</h2>
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-8">GPAT vs GATE for M.Pharm Admission</h2>
 
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-lg shadow-lg">
             <thead>
-              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+              <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                 <th className="px-4 py-4 text-left font-bold">Aspect</th>
                 <th className="px-4 py-4 text-left font-bold">GPAT</th>
                 <th className="px-4 py-4 text-left font-bold">GATE</th>
@@ -709,42 +709,42 @@ export default function MPharmacyPage() {
             </thead>
             <tbody>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Pharmacy Specific</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Pharmacy Specific</td>
                 <td className="px-4 py-4">Yes - only for pharmacy learners</td>
                 <td className="px-4 py-4">No - engineering/science focus</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Syllabus</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Syllabus</td>
                 <td className="px-4 py-4">B.Pharm subjects (Pharmaceutics, Chemistry, Pharmacology, Pharmacognosy)</td>
                 <td className="px-4 py-4">Biotechnology or Life Sciences (not pharmacy-specific)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Difficulty</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Difficulty</td>
                 <td className="px-4 py-4">Moderate - pharmacy-focused</td>
                 <td className="px-4 py-4">High - competitive engineering exam</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">NIPER Acceptance</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">NIPER Acceptance</td>
                 <td className="px-4 py-4">Yes - primary pathway</td>
                 <td className="px-4 py-4">Yes - equally accepted</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">IIT Acceptance</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">IIT Acceptance</td>
                 <td className="px-4 py-4">Yes - GPAT accepted</td>
                 <td className="px-4 py-4">Yes - GATE preferred</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">University Acceptance</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">University Acceptance</td>
                 <td className="px-4 py-4">Universally accepted</td>
                 <td className="px-4 py-4">Accepted by most, not all</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Preparation Time</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Preparation Time</td>
                 <td className="px-4 py-4">4-6 months adequate</td>
                 <td className="px-4 py-4">6-9 months recommended</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Best For</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Best For</td>
                 <td className="px-4 py-4">Pharmacy learners wanting M.Pharm</td>
                 <td className="px-4 py-4">Those targeting IIT M.Tech later, want Ph.D. abroad, have strong biotechnology interest</td>
               </tr>
@@ -752,30 +752,30 @@ export default function MPharmacyPage() {
           </table>
         </div>
 
-        <div className="bg-[#FBFBEE] rounded-lg p-6 mt-6 border-l-4 border-[#7cb983]">
-          <h3 className="text-sm xs:text-base font-bold text-[#006837] mb-3 flex items-center gap-2">
+        <div className="bg-[#FBFBEE] rounded-lg p-6 mt-6 border-l-4 border-[#0f8f56]">
+          <h3 className="text-sm xs:text-base font-bold text-[#0b6d41] mb-3 flex items-center gap-2">
             <Lightbulb className="w-5 h-5" />
             Strategic Admission Advice:
           </h3>
           <ul className="space-y-2 text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
+              <span className="text-[#0b6d41] font-bold mr-2">•</span>
               <span><span className="font-semibold">Target GPAT for M.Pharm:</span> Pharmacy-specific syllabus, widely accepted, adequate preparation time</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
+              <span className="text-[#0b6d41] font-bold mr-2">•</span>
               <span><span className="font-semibold">Consider GATE if:</span> Targeting IIT M.Tech later, want Ph.D. abroad, have strong biotechnology interest</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
+              <span className="text-[#0b6d41] font-bold mr-2">•</span>
               <span><span className="font-semibold">Apply to Multiple Colleges:</span> NIPER (7 campuses), IITs, state universities, private colleges - cast wide net</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
+              <span className="text-[#0b6d41] font-bold mr-2">•</span>
               <span><span className="font-semibold">Research College Strengths:</span> Check specialisation-specific faculty, labs, placements before choosing</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] font-bold mr-2">•</span>
+              <span className="text-[#0b6d41] font-bold mr-2">•</span>
               <span><span className="font-semibold">Location Matters:</span> Proximity to pharmaceutical hubs (Hyderabad, Ahmedabad, Mumbai) aids placements</span>
             </li>
           </ul>
@@ -785,14 +785,14 @@ export default function MPharmacyPage() {
       {/* M.Pharm vs B.Pharm vs Ph.D */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
-          <Scale className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">M.Pharm vs B.Pharm vs Ph.D - Which to Choose?</h2>
+          <Scale className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">M.Pharm vs B.Pharm vs Ph.D - Which to Choose?</h2>
         </div>
 
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-lg shadow-lg">
             <thead>
-              <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+              <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                 <th className="px-4 py-4 text-left font-bold">Factor</th>
                 <th className="px-4 py-4 text-left font-bold">B.Pharm (4 Years)</th>
                 <th className="px-4 py-4 text-left font-bold">M.Pharm (2 Years)</th>
@@ -801,61 +801,61 @@ export default function MPharmacyPage() {
             </thead>
             <tbody>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Focus</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Focus</td>
                 <td className="px-4 py-4">Broad pharmaceutical education</td>
                 <td className="px-4 py-4">Specialised advanced knowledge</td>
                 <td className="px-4 py-4">Original research contribution</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Research Component</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Research Component</td>
                 <td className="px-4 py-4">Minimal (final year project)</td>
                 <td className="px-4 py-4">Substantial (2 semesters dissertation)</td>
                 <td className="px-4 py-4">Extensive (entire programme)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Career Options</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Career Options</td>
                 <td className="px-4 py-4">QC, production, sales, hospital, regulatory</td>
                 <td className="px-4 py-4">R&D, senior QC/QA, regulatory, teaching</td>
                 <td className="px-4 py-4">Principal Scientist, Professor, research leadership</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Starting Salary</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Starting Salary</td>
                 <td className="px-4 py-4">₹18,000-30,000/month</td>
                 <td className="px-4 py-4">₹25,000-45,000/month</td>
                 <td className="px-4 py-4">₹40,000-70,000/month (faculty), ₹50,000-80,000 (industry)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Peak Salary</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Peak Salary</td>
                 <td className="px-4 py-4">₹60,000-1,00,000/month</td>
                 <td className="px-4 py-4">₹1,00,000-2,00,000/month</td>
                 <td className="px-4 py-4">₹1,50,000-3,00,000/month</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Job Availability</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Job Availability</td>
                 <td className="px-4 py-4">Maximum - diverse sectors</td>
                 <td className="px-4 py-4">Good - specialised roles</td>
                 <td className="px-4 py-4">Limited - senior/specialised</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Industry Preference</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Industry Preference</td>
                 <td className="px-4 py-4">For junior/entry roles</td>
                 <td className="px-4 py-4">For mid-senior technical roles</td>
                 <td className="px-4 py-4">For leadership/research positions</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Teaching Eligibility</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Teaching Eligibility</td>
                 <td className="px-4 py-4">Lecturer (limited growth)</td>
                 <td className="px-4 py-4">Assistant Professor</td>
                 <td className="px-4 py-4">Associate/Full Professor</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Time to Market</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Time to Market</td>
                 <td className="px-4 py-4">4 years (fastest)</td>
                 <td className="px-4 py-4">6 years (B.Pharm + M.Pharm)</td>
                 <td className="px-4 py-4">9-11 years (B.Pharm + M.Pharm + Ph.D)</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
-                <td className="px-4 py-4 font-semibold text-[#006837]">Investment</td>
+                <td className="px-4 py-4 font-semibold text-[#0b6d41]">Investment</td>
                 <td className="px-4 py-4">₹2-8 lakhs</td>
                 <td className="px-4 py-4">Additional ₹1-5 lakhs</td>
                 <td className="px-4 py-4">Additional ₹1-3 lakhs (often fellowship)</td>
@@ -867,12 +867,12 @@ export default function MPharmacyPage() {
 
       {/* When to Do M.Pharm After B.Pharm */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#FBFBEE] via-[#e8f0e3] to-[#d4e8d4] rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#0f8f56]">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-gray-800 mb-6">When to Do M.Pharm After B.Pharm?</h2>
 
           {/* Do M.Pharm Immediately If */}
           <div className="mb-8">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4 flex items-start gap-2">
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4 flex items-start gap-2">
               <CheckCircle className="w-10 h-10" />
               <span>Do M.Pharm Immediately If:</span>
             </h3>
@@ -910,8 +910,8 @@ export default function MPharmacyPage() {
 
           {/* Consider Job First, M.Pharm Later If */}
           <div className="mb-8">
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4 flex items-start gap-2">
-              <CheckCircle className="w-6 h-6 text-[#7cb983]" />
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4 flex items-start gap-2">
+              <CheckCircle className="w-6 h-6 text-[#0b6d41]" />
               <span>Consider Job First, M.Pharm Later If:</span>
             </h3>
             <ul className="space-y-3 text-xs sm:text-sm text-gray-800 ml-8">
@@ -940,8 +940,8 @@ export default function MPharmacyPage() {
 
           {/* Skip M.Pharm If */}
           <div>
-            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] mb-4 flex items-start gap-2">
-              <HelpCircle className="w-6 h-6 text-[#006837]" />
+            <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4 flex items-start gap-2">
+              <HelpCircle className="w-6 h-6 text-[#0b6d41]" />
               <span>Skip M.Pharm If:</span>
             </h3>
             <ul className="space-y-3 text-xs sm:text-sm text-gray-800 ml-8">
@@ -971,12 +971,12 @@ export default function MPharmacyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <div className="text-4xl"><Landmark className="w-6 h-6" /></div>
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">Top Institutions for M.Pharm in India</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">Top Institutions for M.Pharm in India</h2>
         </div>
 
         {/* NIPER */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">NIPER (National Institute of Pharmaceutical Education and Research)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">NIPER (National Institute of Pharmaceutical Education and Research)</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Mohali (Flagship)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Hyderabad</div>
@@ -986,12 +986,12 @@ export default function MPharmacyPage() {
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Kolkata</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Raebareli</div>
           </div>
-          <p className="text-xs sm:text-sm text-gray-700"><span className="font-semibold text-[#006837]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, GPAT fellowship (₹12,400/month), all 5 specialisations available</p>
+          <p className="text-xs sm:text-sm text-gray-700"><span className="font-semibold text-[#0b6d41]">Why NIPER?</span> Government-funded, excellent infrastructure, strong industry connections, good placements (90%+), research focus, low fees, GPAT fellowship (₹12,400/month), all 5 specialisations available</p>
         </div>
 
         {/* IITs */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">IITs (Indian Institutes of Technology)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">IITs (Indian Institutes of Technology)</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Delhi (BSBE)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Bombay<br/>(Chemistry/BSBE)</div>
@@ -1000,12 +1000,12 @@ export default function MPharmacyPage() {
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Roorkee (Biotech)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Guwahati<br/>(Biosciences)</div>
           </div>
-          <p className="text-xs sm:text-sm text-gray-700"><span className="font-semibold text-[#006837]">Why IIT?</span> Strong brand value, interdisciplinary research, excellent labs, good stipend (₹12,400/month), international collaborations, strong alumni network, campus placements with tech companies</p>
+          <p className="text-xs sm:text-sm text-gray-700"><span className="font-semibold text-[#0b6d41]">Why IIT?</span> Strong brand value, interdisciplinary research, excellent labs, good stipend (₹12,400/month), international collaborations, strong alumni network, campus placements with tech companies</p>
         </div>
 
         {/* Central/Government Universities */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Central/Government Universities</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Central/Government Universities</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Jamia Hamdard, Delhi</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Banaras Hindu University</div>
@@ -1018,7 +1018,7 @@ export default function MPharmacyPage() {
 
         {/* Deemed Universities & Private */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">Deemed Universities & Private (Top Tier)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Deemed Universities & Private (Top Tier)</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Manipal College of<br/>Pharmaceutical Sciences</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">JSS College of Pharmacy,<br/>Ooty</div>
@@ -1031,7 +1031,7 @@ export default function MPharmacyPage() {
 
         {/* State Universities */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#006837] mb-6">State Universities (Strong Programmes)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">State Universities (Strong Programmes)</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">ICT Mumbai (UDCT)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Pune University</div>
@@ -1045,21 +1045,21 @@ export default function MPharmacyPage() {
 
       {/* Related Programmes Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
           Explore Related Programmes
         </h2>
-        <div className="border-b-4 border-[#7cb983] w-full mb-8"></div>
+        <div className="border-b-4 border-[#0f8f56] w-full mb-8"></div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {/* B.Pharmacy Card */}
-          <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+          <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
             <div className="flex items-center justify-between mb-4">
-              <GraduationCap className="w-10 h-10 text-[#006837]" />
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
             </div>
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-gray-800 mb-2">B.Pharmacy</h3>
             <p className="text-xs sm:text-sm text-gray-600 mb-3">4-year undergraduate degree in pharmaceutical sciences</p>
-            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+            <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
               <span>4 Years</span>
               <span>•</span>
               <span>After 10+2</span>
@@ -1067,14 +1067,14 @@ export default function MPharmacyPage() {
           </Link>
 
           {/* Pharm.D Card */}
-          <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+          <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
             <div className="flex items-center justify-between mb-4">
-              <GraduationCap className="w-10 h-10 text-[#006837]" />
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
             </div>
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-gray-800 mb-2">Pharm.D</h3>
             <p className="text-xs sm:text-sm text-gray-600 mb-3">6-year clinical pharmacy programme with hospital training</p>
-            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+            <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
               <span>6 Years</span>
               <span>•</span>
               <span>Clinical Focus</span>
@@ -1082,14 +1082,14 @@ export default function MPharmacyPage() {
           </Link>
 
           {/* PhD Card */}
-          <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+          <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
             <div className="flex items-center justify-between mb-4">
-              <GraduationCap className="w-10 h-10 text-[#006837]" />
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
             </div>
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-gray-800 mb-2">PhD</h3>
             <p className="text-xs sm:text-sm text-gray-600 mb-3">Research doctorate in pharmaceutical sciences</p>
-            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+            <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
               <span>3-5 Years</span>
               <span>•</span>
               <span>Research</span>
@@ -1097,14 +1097,14 @@ export default function MPharmacyPage() {
           </Link>
 
           {/* B.Pharmacy Lateral Entry Card */}
-          <Link href="/b-pharmacy-lateral-entry" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+          <Link href="/b-pharmacy-lateral-entry" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
             <div className="flex items-center justify-between mb-4">
-              <GraduationCap className="w-10 h-10 text-[#006837]" />
-              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+              <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+              <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
             </div>
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-gray-800 mb-2">B.Pharm (Lateral Entry)</h3>
             <p className="text-xs sm:text-sm text-gray-600 mb-3">Direct entry into 2nd year for D.Pharm graduates</p>
-            <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+            <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
               <span>3 Years</span>
               <span>•</span>
               <span>After D.Pharm</span>
@@ -1117,7 +1117,7 @@ export default function MPharmacyPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <HelpCircle className="w-10 h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">Frequently Asked Questions About M.Pharm</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">Frequently Asked Questions About M.Pharm</h2>
         </div>
 
         <div className="space-y-6">
@@ -1129,9 +1129,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] pr-4">Q1: What is M.Pharm course?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] pr-4">Q1: What is M.Pharm course?</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 4 ? 'rotate-180' : ''
                 }`}
               />
@@ -1151,9 +1151,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] pr-4">Q2: What are the M.Pharm specialisations available?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] pr-4">Q2: What are the M.Pharm specialisations available?</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 5 ? 'rotate-180' : ''
                 }`}
               />
@@ -1173,9 +1173,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] pr-4">Q3: Which M.Pharm specialisation has best scope?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] pr-4">Q3: Which M.Pharm specialisation has best scope?</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 6 ? 'rotate-180' : ''
                 }`}
               />
@@ -1195,9 +1195,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] pr-4">Q4: What is M.Pharm salary?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] pr-4">Q4: What is M.Pharm salary?</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 7 ? 'rotate-180' : ''
                 }`}
               />
@@ -1217,9 +1217,9 @@ export default function MPharmacyPage() {
                 expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
               }`}
             >
-              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#006837] pr-4">Q5: How to choose M.Pharm specialisation?</h3>
+              <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] pr-4">Q5: How to choose M.Pharm specialisation?</h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 8 ? 'rotate-180' : ''
                 }`}
               />
@@ -1235,7 +1235,7 @@ export default function MPharmacyPage() {
 
       {/* Final CTA Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-12 text-center text-white">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
           <p className="text-[10px] xs:text-xs sm:text-sm mb-8">Choose your specialisation and apply for M.Pharm admission 2026!</p>
 
@@ -1244,7 +1244,7 @@ export default function MPharmacyPage() {
             <div className="max-w-2xl mx-auto mb-8 text-left">
               <PharmacyEnquiryForm sourcePage="m-pharmacy" />
             </div>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=m-pharmacy" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=m-pharmacy" target="_blank" rel="noopener noreferrer" className="bg-white text-[#0b6d41] font-bold text-sm sm:text-base px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg inline-block">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
           </a>

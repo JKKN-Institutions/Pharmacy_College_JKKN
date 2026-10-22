@@ -6,7 +6,7 @@ export default function DigitalCampusPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Digital Campus — Technology Tools at JKKN College of Pharmacy
@@ -42,9 +42,9 @@ export default function DigitalCampusPage() {
                 {/* Sheets */}
                 <div className="w-10 h-10 flex items-center justify-center">
                   <svg viewBox="0 0 24 24" className="w-10 h-10">
-                    <path fill="#0F9D58" d="M3.6 0A2.4 2.4 0 0 0 1.2 2.4v19.2A2.4 2.4 0 0 0 3.6 24h16.8a2.4 2.4 0 0 0 2.4-2.4V7.2L15.6 0z"/>
+                    <path fill="#0f8f56" d="M3.6 0A2.4 2.4 0 0 0 1.2 2.4v19.2A2.4 2.4 0 0 0 3.6 24h16.8a2.4 2.4 0 0 0 2.4-2.4V7.2L15.6 0z"/>
                     <path fill="#F1F1F1" d="M15.6 0v4.8c0 1.32 1.08 2.4 2.4 2.4H22.8z"/>
-                    <path fill="#0F9D58" d="M6 12h12v1.5H6zm0 3h12v1.5H6zm0 3h12v1.5H6z"/>
+                    <path fill="#0f8f56" d="M6 12h12v1.5H6zm0 3h12v1.5H6zm0 3h12v1.5H6z"/>
                   </svg>
                 </div>
                 {/* Drive */}
@@ -104,7 +104,7 @@ export default function DigitalCampusPage() {
             {/* Taskade */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center p-8">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-red-500 via-pink-500 to-blue-500 flex items-center justify-center relative overflow-hidden">
+                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-red-500 via-[#0f8f56] to-[#0f8f56] flex items-center justify-center relative overflow-hidden">
                   <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none">
                       <circle cx="12" cy="8" r="2" fill="#000"/>
@@ -144,7 +144,7 @@ export default function DigitalCampusPage() {
           </section>
 
           {/* Green Separator */}
-          <div className="w-full h-1 bg-[#006837] rounded-full opacity-30" />
+          <div className="w-full h-1 bg-[#0b6d41] rounded-full opacity-30" />
 
           {/* Row 3: Campus Management Tools */}
           <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -176,11 +176,11 @@ export default function DigitalCampusPage() {
             {/* Koha */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 flex items-center justify-center p-8">
               <div className="flex items-center gap-2">
-                <svg className="w-10 h-10 text-[#7FB539]" viewBox="0 0 24 24" fill="currentColor">
+                <svg className="w-10 h-10 text-[#0b6d41]" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/>
                   <circle cx="12" cy="12" r="4"/>
                 </svg>
-                <span className="text-4xl font-serif italic text-[#7FB539]">koha</span>
+                <span className="text-4xl font-serif italic text-[#0b6d41]">koha</span>
               </div>
             </div>
 

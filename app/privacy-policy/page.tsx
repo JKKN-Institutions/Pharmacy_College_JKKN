@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 function BulletItem({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span>{text}</span>
     </li>
   )
@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Privacy Policy
@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Personal Information Collected */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Personal Information Collected</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Personal Information Collected</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-5">
               When visiting the college website, the following types of personal information may be collected:
             </p>
@@ -48,7 +48,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Use of Personal Information */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Use of Personal Information</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Use of Personal Information</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-5">
               Personal information collected may be used for the following purposes:
             </p>
@@ -62,7 +62,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Disclosure of Personal Information */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Disclosure of Personal Information</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Disclosure of Personal Information</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-5">
               Personal information is not disclosed to third parties without consent, except in the following circumstances:
             </p>
@@ -75,7 +75,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Security of Personal Information */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Security of Personal Information</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Security of Personal Information</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               JKKN College of Pharmacy takes reasonable measures to protect personal information from unauthorized access, use, or disclosure. However, it is important to note that no security measures are perfect or impenetrable, and the absolute security of personal information cannot be guaranteed.
             </p>
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Retention of Personal Information */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Retention of Personal Information</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Retention of Personal Information</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               Personal information is retained for as long as necessary to fulfill the purposes for which it was collected, unless a longer retention period is required by law or regulation.
             </p>
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Your Rights */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Your Rights</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Your Rights</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               You have the right to access and correct your personal information, and to request its deletion. If you wish to exercise these rights or have any questions or concerns about personal information held by the college, please use the contact information provided below.
             </p>
@@ -99,7 +99,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Updates to Privacy Policy */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Updates to Privacy Policy</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Updates to Privacy Policy</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               This Privacy Policy may be updated from time to time. Any changes will be posted on the college website with the updated effective date.
             </p>
@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
 
           {/* Contact Us */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Contact Us</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Contact Us</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-5">
               For any questions, concerns, or requests regarding this Privacy Policy or the personal information collected, the college can be reached at:
             </p>

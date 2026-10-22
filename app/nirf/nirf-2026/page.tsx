@@ -17,13 +17,13 @@ export default function NIRF2026Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 md:gap-16 lg:gap-10">
             {/* Innovation Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 Innovation
               </h2>
               <a
                 href="/pdf/NIRF-Innovation-2026.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>
@@ -31,13 +31,13 @@ export default function NIRF2026Page() {
 
             {/* Overall Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 Overall
               </h2>
               <a
                 href="/pdf/NIRF-Overall-2026.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>
@@ -45,13 +45,13 @@ export default function NIRF2026Page() {
 
             {/* Pharmacy Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 Pharmacy
               </h2>
               <a
                 href="/pdf/NIRF-Pharmacy-2026.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>
@@ -59,13 +59,13 @@ export default function NIRF2026Page() {
 
             {/* SDG Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 SDG
               </h2>
               <a
                 href="/pdf/NIRF-SDG-2026.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>

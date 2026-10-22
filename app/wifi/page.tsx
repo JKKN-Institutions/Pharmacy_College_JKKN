@@ -9,16 +9,16 @@ export default function WifiPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Wifi
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function WifiPage() {
           {/* Content Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
@@ -68,13 +68,13 @@ export default function WifiPage() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     The entire campus is Wi-Fi enabled with a high-speed internet connection to allow the learners to access the internet no matter wherever they are.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">
                     The coverage of Wi-Fi is not only restricted to learning studios but also extends to all the areas including the library, Auditorium, cafeteria, and hostels. All the websites browsed by him/her are regularly monitored
                   </span>

@@ -46,8 +46,8 @@ export default function ThePrincipalPage() {
               <div className="flex flex-col md:flex-row">
 
                 {/* Left — dark green with photo + identity */}
-                <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
-                  <div className="relative w-40 h-48 sm:w-48 sm:h-56 rounded-xl overflow-hidden border-4 border-[#7cb983] shadow-xl">
+                <div className="md:w-2/5 bg-[#0b6d41] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
+                  <div className="relative w-40 h-48 sm:w-48 sm:h-56 rounded-xl overflow-hidden border-4 border-[#0f8f56] shadow-xl">
                     <Image
                       src="/images/pharmacyprincipal.webp"
                       alt="Dr. K.L. Senthil Kumar, Principal"
@@ -60,7 +60,7 @@ export default function ThePrincipalPage() {
                     <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white leading-snug">
                       Dr. K.L. Senthil Kumar, M.Pharm., Ph.D.,
                     </h1>
-                    <span className="inline-block mt-3 px-4 py-1.5 bg-[#7cb983] text-white text-sm font-semibold rounded-full">
+                    <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
                       Principal
                     </span>
                     <p className="mt-3 text-sm text-white/80 font-medium">
@@ -74,25 +74,25 @@ export default function ThePrincipalPage() {
 
                   {/* Credential Cards */}
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30">
+                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#0f8f56]/30">
                       <div className="flex items-center gap-2 mb-2">
-                        <GraduationCap className="w-5 h-5 text-[#006837]" />
+                        <GraduationCap className="w-5 h-5 text-[#0b6d41]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Qualifications</h4>
                       </div>
                       <p className="text-sm text-gray-700 font-medium">Ph.D.</p>
                       <p className="text-xs text-gray-500 mt-1">M.Pharm • MBA • MA (Yoga)</p>
                     </div>
-                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30">
+                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#0f8f56]/30">
                       <div className="flex items-center gap-2 mb-2">
-                        <Award className="w-5 h-5 text-[#006837]" />
+                        <Award className="w-5 h-5 text-[#0b6d41]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Experience</h4>
                       </div>
                       <p className="text-sm text-gray-700 font-medium">36 Years</p>
                       <p className="text-xs text-gray-500 mt-1">Pharmaceutical Education & Research</p>
                     </div>
-                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30">
+                    <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#0f8f56]/30">
                       <div className="flex items-center gap-2 mb-2">
-                        <BookOpen className="w-5 h-5 text-[#006837]" />
+                        <BookOpen className="w-5 h-5 text-[#0b6d41]" />
                         <h4 className="font-semibold text-gray-900 text-sm">Publications</h4>
                       </div>
                       <p className="text-sm text-gray-700 font-medium">60 Research Papers</p>
@@ -103,7 +103,7 @@ export default function ThePrincipalPage() {
                   {/* Research Interests */}
                   <div>
                     <div className="flex items-center gap-2 mb-3">
-                      <BookOpen className="w-4 h-4 text-[#006837]" />
+                      <BookOpen className="w-4 h-4 text-[#0b6d41]" />
                       <h4 className="font-semibold text-gray-900 text-sm">Research Interests</h4>
                     </div>
                     <div className="flex flex-wrap gap-2">
@@ -113,7 +113,7 @@ export default function ThePrincipalPage() {
                       ].map((interest, index) => (
                         <span
                           key={index}
-                          className="px-3 py-1 bg-[#006837]/10 text-[#006837] rounded-full text-xs font-medium"
+                          className="px-3 py-1 bg-[#0b6d41]/10 text-[#0b6d41] rounded-full text-xs font-medium"
                         >
                           {interest}
                         </span>
@@ -126,14 +126,14 @@ export default function ThePrincipalPage() {
                     <h4 className="font-semibold text-gray-900 text-sm mb-3">Contact & Academic Profiles</h4>
                     <div className="space-y-2">
                       <div className="flex items-center gap-2">
-                        <Mail className="w-4 h-4 text-[#006837]" />
-                        <a href="mailto:principal@jkkn.ac.in" className="text-sm text-gray-700 hover:text-[#006837]">
+                        <Mail className="w-4 h-4 text-[#0b6d41]" />
+                        <a href="mailto:principal@jkkn.ac.in" className="text-sm text-gray-700 hover:text-[#0b6d41]">
                           principal@jkkn.ac.in
                         </a>
                       </div>
                       <div className="flex items-center gap-2">
-                        <Phone className="w-4 h-4 text-[#006837]" />
-                        <a href="tel:+919345855001" className="text-sm text-gray-700 hover:text-[#006837]">
+                        <Phone className="w-4 h-4 text-[#0b6d41]" />
+                        <a href="tel:+919345855001" className="text-sm text-gray-700 hover:text-[#0b6d41]">
                           +91 93458 55001
                         </a>
                       </div>
@@ -151,8 +151,8 @@ export default function ThePrincipalPage() {
             {/* Educational Qualifications Card */}
             <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
               <div className="mb-6">
-                <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+                <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                   Educational Qualifications
                 </h4>
               </div>
@@ -166,15 +166,15 @@ export default function ThePrincipalPage() {
                 ].map((q, index) => (
                   <div
                     key={index}
-                    className="flex items-start gap-3 bg-[#FBFBEE] rounded-xl p-4 border border-[#7cb983]/30"
+                    className="flex items-start gap-3 bg-[#FBFBEE] rounded-xl p-4 border border-[#0f8f56]/30"
                   >
-                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#006837]/10 flex items-center justify-center">
-                      <GraduationCap className="w-5 h-5 text-[#006837]" />
+                    <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-[#0b6d41]/10 flex items-center justify-center">
+                      <GraduationCap className="w-5 h-5 text-[#0b6d41]" />
                     </div>
                     <div>
                       <div className="flex items-center gap-2 flex-wrap">
                         <h5 className="font-bold text-gray-900 text-sm">{q.degree}</h5>
-                        <span className="text-xs font-semibold text-[#006837] bg-[#7cb983]/20 px-2 py-0.5 rounded-full">
+                        <span className="text-xs font-semibold text-[#0b6d41] bg-[#0f8f56]/20 px-2 py-0.5 rounded-full">
                           {q.year}
                         </span>
                       </div>
@@ -188,8 +188,8 @@ export default function ThePrincipalPage() {
             {/* Principal's Message Card */}
             <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
               <div className="mb-6">
-                <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+                <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                <h4 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                   Principal&apos;s Message
                 </h4>
               </div>
@@ -215,8 +215,8 @@ export default function ThePrincipalPage() {
             {/* Academic Contributions Card */}
             <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
               <div className="mb-6">
-                <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                <h4 className="text-lg font-bold text-[#006837]">Academic Contributions</h4>
+                <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                <h4 className="text-lg font-bold text-[#0b6d41]">Academic Contributions</h4>
               </div>
               <div className="space-y-4 text-sm text-gray-700 leading-relaxed">
                 <p>

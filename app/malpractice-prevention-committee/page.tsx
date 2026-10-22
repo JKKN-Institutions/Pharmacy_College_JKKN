@@ -15,7 +15,7 @@ export default function MalpracticePreventionCommitteePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Malpractice Prevention Committee
@@ -43,7 +43,7 @@ export default function MalpracticePreventionCommitteePage() {
                 'To make awareness among learners not to indulge in activities pertaining to malpractice.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -59,7 +59,7 @@ export default function MalpracticePreventionCommitteePage() {
                 'The candidate communicating with neighbouring candidate orally or non-verbally is strictly prohibited.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -83,7 +83,7 @@ export default function MalpracticePreventionCommitteePage() {
                 'To make awareness among learners not to indulge in activities pertaining to malpractice.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -105,7 +105,7 @@ export default function MalpracticePreventionCommitteePage() {
                 'Bringing calculator or any other electronic devices, if not advised, to the examination hall is prohibited.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -118,7 +118,7 @@ export default function MalpracticePreventionCommitteePage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">Sl. No.</th>
                       <th className="px-6 py-4 text-center font-semibold">Name of the Member</th>
                       <th className="px-6 py-4 text-center font-semibold">Designation</th>

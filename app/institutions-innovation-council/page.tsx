@@ -67,7 +67,7 @@ const nispCommitteeMembers = [
 function BulletItem({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span className="text-justify">{text}</span>
     </li>
   )
@@ -76,7 +76,7 @@ function BulletItem({ text }: { text: string }) {
 function BulletCard({ title, items }: { title: string; items: string[] }) {
   return (
     <section>
-      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
         {title}
       </h2>
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -96,7 +96,7 @@ export default function InstitutionsInnovationCouncilPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Instituition Innovation Council
@@ -137,19 +137,19 @@ export default function InstitutionsInnovationCouncilPage() {
 
           {/* National Innovation and Startup Policy (NISP) Committee */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               National Innovation and Startup Policy (NISP) Committee
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th colSpan={3} className="px-6 py-4 text-center font-semibold border-b border-white/20">
                         INSTITUTION&apos;S INNOVATION COUNCIL-6.0COUNCIL MEMBERS
                       </th>
                     </tr>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">S.NO</th>
                       <th className="px-6 py-4 text-center font-semibold">NAME</th>
                       <th className="px-6 py-4 text-center font-semibold">POSITION ASSIGNED</th>

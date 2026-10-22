@@ -6,7 +6,7 @@ export default function IncubationCentrePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Incubation Centre
@@ -19,7 +19,7 @@ export default function IncubationCentrePage() {
 
           {/* NATTRAJA INCUBATION FORUM */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-5">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               NATTRAJA INCUBATION FORUM
             </h2>
             <ul className="space-y-4">
@@ -35,7 +35,7 @@ export default function IncubationCentrePage() {
                 'NATTRAJA Incubation Forum serves as a catalyst for aspiring entrepreneurs, empowering them to turn visionary ideas into successful enterprises.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -44,7 +44,7 @@ export default function IncubationCentrePage() {
               Website :{' '}
               <a
                 href="https://nifglobal.org/"
-                className="text-[#006837] hover:underline"
+                className="text-[#0b6d41] hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >

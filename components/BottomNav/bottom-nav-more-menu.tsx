@@ -56,7 +56,7 @@ function RecursiveSubmenu({
               className={cn(
                 'w-full flex items-center justify-between px-3 py-2.5 text-left transition-colors rounded-lg',
                 'hover:bg-gray-50 active:bg-gray-100',
-                isActive ? 'text-[#0F6B3E] font-medium bg-green-50' : 'text-gray-700'
+                isActive ? 'text-[#0b6d41] font-medium bg-green-50' : 'text-gray-700'
               )}
             >
               <span className={cn('text-sm truncate flex-1', level > 0 && 'text-[13px]')}>
@@ -217,13 +217,13 @@ export function BottomNavMoreMenu({
                         <div
                           className={cn(
                             'p-2 rounded-lg',
-                            isActive ? 'bg-[#0F6B3E]/10' : 'bg-gray-100'
+                            isActive ? 'bg-[#0b6d41]/10' : 'bg-gray-100'
                           )}
                         >
                           <Icon
                             className={cn(
                               'h-4 w-4',
-                              isActive ? 'text-[#0F6B3E]' : 'text-gray-600'
+                              isActive ? 'text-[#0b6d41]' : 'text-gray-600'
                             )}
                             strokeWidth={isActive ? 2.5 : 2}
                           />
@@ -231,7 +231,7 @@ export function BottomNavMoreMenu({
                         <span
                           className={cn(
                             'font-medium text-sm flex-1 text-left',
-                            isActive ? 'text-[#0F6B3E]' : 'text-gray-800'
+                            isActive ? 'text-[#0b6d41]' : 'text-gray-800'
                           )}
                         >
                           {group.label}

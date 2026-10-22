@@ -131,7 +131,7 @@ export default function MPharmAdmissionPage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-8 sm:py-10 md:py-12 px-4">
+      <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-8 sm:py-10 md:py-12 px-4">
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-white/20 px-4 sm:px-6 py-2 rounded-full text-white font-bold text-[10px] sm:text-xs mb-4 sm:mb-6">
             <FlaskConical className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -149,7 +149,7 @@ export default function MPharmAdmissionPage() {
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-m-pharm"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white text-[#006837] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-[#FBFBEE] transition-all shadow-lg"
+              className="inline-flex items-center gap-2 bg-white text-[#0b6d41] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-[#FBFBEE] transition-all shadow-lg"
             >
               Apply Now for M.Pharm 2026
             </a>
@@ -163,30 +163,30 @@ export default function MPharmAdmissionPage() {
 
           {/* Quick Facts */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-10">
-            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#7cb983]">
-              <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] mb-2" />
+            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#0f8f56]">
+              <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] mb-2" />
               <p className="text-[10px] sm:text-xs text-gray-600">Duration</p>
               <p className="font-bold text-gray-900 text-sm sm:text-base">2 Years</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#7cb983]">
-              <Users className="w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] mb-2" />
+            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#0f8f56]">
+              <Users className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] mb-2" />
               <p className="text-[10px] sm:text-xs text-gray-600">Total Intake</p>
               <p className="font-bold text-gray-900 text-sm sm:text-base">90 Seats (6×15)</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#7cb983]">
-              <IndianRupee className="w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] mb-2" />
+            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#0f8f56]">
+              <IndianRupee className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] mb-2" />
               <p className="text-[10px] sm:text-xs text-gray-600">MQ Fee/Year</p>
               <p className="font-bold text-gray-900 text-sm sm:text-base">₹75,000</p>
             </div>
-            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#7cb983]">
-              <Award className="w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] mb-2" />
+            <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#0f8f56]">
+              <Award className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] mb-2" />
               <p className="text-[10px] sm:text-xs text-gray-600">Approval</p>
               <p className="font-bold text-gray-900 text-sm sm:text-base">PCI / NAAC A</p>
             </div>
           </div>
 
           {/* Programme Overview */}
-          <div className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 md:mb-10 border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 mb-6 sm:mb-8 md:mb-10 border-l-4 border-[#0f8f56]">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">
               About the M.Pharm Programme
             </h2>
@@ -203,23 +203,23 @@ export default function MPharmAdmissionPage() {
           {/* Specialisations */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <FlaskConical className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <FlaskConical className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               M.Pharm Specialisations Offered
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               {specialisations.map((spec, idx) => (
-                <div key={idx} className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-5 md:p-6 rounded-lg shadow-sm">
+                <div key={idx} className="bg-white border-l-4 border-[#0f8f56] p-4 sm:p-5 md:p-6 rounded-lg shadow-sm">
                   <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-2">{spec.name}</h3>
                   <p className="text-[10px] sm:text-xs md:text-sm text-gray-700 leading-relaxed mb-3">{spec.desc}</p>
-                  <div className="bg-[#FBFBEE] border border-[#7cb983]/30 rounded p-2 sm:p-3">
+                  <div className="bg-[#FBFBEE] border border-[#0f8f56]/30 rounded p-2 sm:p-3">
                     <p className="text-[10px] sm:text-xs text-gray-700"><strong>Careers:</strong> {spec.careers}</p>
                   </div>
                   <div className="mt-3 flex items-center gap-2 text-[10px] sm:text-xs text-gray-600">
-                    <Users className="w-4 h-4 text-[#7cb983]" />
+                    <Users className="w-4 h-4 text-[#0b6d41]" />
                     <span>15 Seats</span>
                     <span className="mx-1">|</span>
-                    <Clock className="w-4 h-4 text-[#7cb983]" />
+                    <Clock className="w-4 h-4 text-[#0b6d41]" />
                     <span>2 Years</span>
                   </div>
                 </div>
@@ -230,35 +230,35 @@ export default function MPharmAdmissionPage() {
           {/* Eligibility Criteria */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <ClipboardCheck className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <ClipboardCheck className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Eligibility Criteria
             </h2>
 
-            <div className="bg-white border-l-4 border-[#7cb983] p-4 sm:p-6 md:p-8 rounded-lg shadow-sm">
+            <div className="bg-white border-l-4 border-[#0f8f56] p-4 sm:p-6 md:p-8 rounded-lg shadow-sm">
               <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-gray-800 mb-4">For M.Pharm (All Specialisations)</h3>
               <ul className="space-y-3 text-[10px] sm:text-xs md:text-sm text-gray-700">
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Passed B.Pharm (4-year degree under 10+2+4 pattern) from a PCI-approved institution.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Minimum 50% aggregate in B.Pharm (45% for SC/ST candidates).</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Registered with State Pharmacy Council.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Valid GPAT score is preferred for Government Quota counselling.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Non-GPAT candidates may apply through Management Quota counselling based on B.Pharm aggregate.</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>For M.Pharm in Pharmacy Practice, preference is given to Pharm.D / Pharm.D (PB) graduates.</span>
                 </li>
               </ul>
@@ -268,14 +268,14 @@ export default function MPharmAdmissionPage() {
           {/* Fee Structure */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Fee Structure 2026
             </h2>
 
             <div className="overflow-x-auto w-full px-4 sm:px-0 -mx-4 sm:mx-0">
               <table className="w-full bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200 text-[10px] sm:text-xs md:text-sm">
                 <thead>
-                  <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                  <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Specialisation</th>
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Duration</th>
                     <th className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-left font-bold">Intake</th>
@@ -315,16 +315,16 @@ export default function MPharmAdmissionPage() {
           {/* Step-by-Step Admission Process */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Step-by-Step Admission Process
             </h2>
 
             <div className="space-y-4 sm:space-y-6">
               {admissionSteps.map((step, index) => (
-                <div key={index} className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 border-l-4 border-[#7cb983]">
+                <div key={index} className="bg-white rounded-lg shadow-sm p-4 sm:p-6 md:p-8 border-l-4 border-[#0f8f56]">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-[#006837] to-[#7cb983] text-white flex items-center justify-center text-base sm:text-lg font-bold">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white flex items-center justify-center text-base sm:text-lg font-bold">
                         {index + 1}
                       </div>
                     </div>
@@ -341,11 +341,11 @@ export default function MPharmAdmissionPage() {
           {/* Documents Required */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Documents Required
             </h2>
 
-            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
+            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#0f8f56]">
               <p className="text-[10px] sm:text-xs md:text-sm text-gray-700 mb-6">
                 Self-attested photocopies of the following documents must be submitted with the application. Originals are required during admission counselling for verification.
               </p>
@@ -365,7 +365,7 @@ export default function MPharmAdmissionPage() {
                   { title: 'Passport Photos', desc: '6 recent passport-size colour photographs' },
                 ].map((doc, idx) => (
                   <div key={idx} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-[#7cb983] flex-shrink-0 mt-1" />
+                    <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-1" />
                     <div>
                       <h4 className="font-semibold text-gray-800 text-xs sm:text-sm">{doc.title}</h4>
                       <p className="text-[10px] sm:text-xs text-gray-600">{doc.desc}</p>
@@ -385,7 +385,7 @@ export default function MPharmAdmissionPage() {
           {/* Important Dates */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <Calendar className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <Calendar className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Important Dates 2026
             </h2>
 
@@ -403,7 +403,7 @@ export default function MPharmAdmissionPage() {
                 ].map((d, idx) => (
                   <div key={idx} className="p-4 sm:p-6 hover:bg-[#F5F1E8] transition-colors">
                     <div className="flex items-start gap-4">
-                      <Clock className="w-6 h-6 text-[#7cb983] flex-shrink-0 mt-1" />
+                      <Clock className="w-6 h-6 text-[#0b6d41] flex-shrink-0 mt-1" />
                       <div className="flex-1">
                         <h3 className="font-bold text-gray-800 text-xs sm:text-sm mb-1">{d.title}</h3>
                         <p className="text-[10px] sm:text-xs md:text-sm text-gray-600">{d.date}</p>
@@ -414,7 +414,7 @@ export default function MPharmAdmissionPage() {
               </div>
             </div>
 
-            <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-400 rounded">
+            <div className="mt-4 p-4 bg-[#fbfbee] border-l-4 border-[#0f8f56] rounded">
               <p className="text-[10px] sm:text-xs md:text-sm text-gray-700">
                 <strong>Note:</strong> Exact dates will be announced through newspapers, the official website, and SMS to registered applicants. Please check pharmacy.jkkn.ac.in regularly for updates.
               </p>
@@ -424,7 +424,7 @@ export default function MPharmAdmissionPage() {
           {/* Programme Structure */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               M.Pharm Programme Structure
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -434,7 +434,7 @@ export default function MPharmAdmissionPage() {
                 { yr: 'Semester 3', topics: 'Specialisation Elective, Research Project Phase I, Journal Club, Discussion Sessions, Industrial / Hospital Training' },
                 { yr: 'Semester 4', topics: 'Full-time Research Project, Thesis Writing, Dissertation Submission, Viva-Voce Examination' },
               ].map((item, idx) => (
-                <div key={idx} className="bg-white p-4 sm:p-5 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
+                <div key={idx} className="bg-white p-4 sm:p-5 rounded-lg shadow-sm border-l-4 border-[#0f8f56]">
                   <h3 className="font-bold text-gray-800 text-sm sm:text-base mb-2">{item.yr}</h3>
                   <p className="text-[10px] sm:text-xs md:text-sm text-gray-700">{item.topics}</p>
                 </div>
@@ -445,10 +445,10 @@ export default function MPharmAdmissionPage() {
           {/* Career Opportunities */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Career Opportunities After M.Pharm
             </h2>
-            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
+            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#0f8f56]">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 text-[10px] sm:text-xs md:text-sm text-gray-700">
                 {[
                   'Formulation & Development Scientist (Pharma Industry)',
@@ -465,7 +465,7 @@ export default function MPharmAdmissionPage() {
                   'Higher Studies: PhD in Pharmaceutical Sciences',
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-2">
-                    <FlaskConical className="w-4 h-4 text-[#7cb983] flex-shrink-0 mt-0.5" />
+                    <FlaskConical className="w-4 h-4 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </div>
                 ))}
@@ -476,10 +476,10 @@ export default function MPharmAdmissionPage() {
           {/* Scholarships */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <Award className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" />
+              <Award className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
               Scholarships for M.Pharm
             </h2>
-            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#7cb983]">
+            <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#0f8f56]">
               <ul className="space-y-2 text-[10px] sm:text-xs md:text-sm text-gray-700">
                 <li>• <strong>GPAT Scholarship (AICTE):</strong> Approx. ₹12,400/month stipend for GPAT-qualified candidates throughout the M.Pharm programme.</li>
                 <li>• <strong>Post-Matric Scholarship (SC/ST) – M.Pharm:</strong> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you.</li>
@@ -496,7 +496,7 @@ export default function MPharmAdmissionPage() {
           {/* FAQs */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
-              <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#7cb983]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               M.Pharm Admission FAQs
@@ -510,7 +510,7 @@ export default function MPharmAdmissionPage() {
                   >
                     <span className="font-semibold text-gray-800 text-xs sm:text-sm md:text-base flex-1">{faq.question}</span>
                     <ChevronDown
-                      className={`w-5 h-5 sm:w-6 sm:h-6 text-[#7cb983] flex-shrink-0 transition-transform duration-300 ${expandedFAQ === index ? 'transform rotate-180' : ''}`}
+                      className={`w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41] flex-shrink-0 transition-transform duration-300 ${expandedFAQ === index ? 'transform rotate-180' : ''}`}
                     />
                   </button>
                     <div hidden={expandedFAQ !== index} className="px-4 sm:px-6 py-4 sm:py-5 bg-[#F5F1E8] border-t border-gray-200">
@@ -524,7 +524,7 @@ export default function MPharmAdmissionPage() {
           {/* Contact */}
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6">Contact for M.Pharm Admission</h2>
-            <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white rounded-lg p-6 sm:p-8 md:p-10">
+            <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white rounded-lg p-6 sm:p-8 md:p-10">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
                 <div className="flex items-start gap-4">
                   <Phone className="w-8 h-8 flex-shrink-0 mt-1" />
@@ -555,7 +555,7 @@ export default function MPharmAdmissionPage() {
           </div>
 
           {/* Final CTA */}
-          <div className="bg-gradient-to-r from-[#006837] via-[#7cb983] to-[#7cb983] text-white rounded-lg shadow-xl p-8 sm:p-10 md:p-12 text-center">
+          <div className="bg-gradient-to-r from-[#0b6d41] via-[#0f8f56] to-[#0f8f56] text-white rounded-lg shadow-xl p-8 sm:p-10 md:p-12 text-center">
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Specialise. Research. Lead.</h2>
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-[10px] xs:text-xs sm:text-sm md:text-base mb-8">Join the 2026 M.Pharm batch and pursue advanced pharmaceutical research at JKKN!</p>
@@ -563,7 +563,7 @@ export default function MPharmAdmissionPage() {
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-m-pharm"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white text-[#006837] px-8 py-4 rounded-full text-[10px] sm:text-sm md:text-base font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block"
+              className="bg-white text-[#0b6d41] px-8 py-4 rounded-full text-[10px] sm:text-sm md:text-base font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block"
             >
               <span className="lg:hidden">Apply Now</span>
               <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>

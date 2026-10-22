@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 function BulletItem({ text }: { text: string }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span>{text}</span>
     </li>
   )
@@ -15,7 +15,7 @@ export default function YouthRedCrossPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             YOUTH RED CROSS (YRC)
@@ -35,7 +35,7 @@ export default function YouthRedCrossPage() {
 
           {/* Objective of YRC */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">OBJECTIVE OF YRC</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">OBJECTIVE OF YRC</h2>
             <ul className="space-y-4">
               <BulletItem text="To act in case of armed conflict and in peace to prepare to act in all the fields covered by the Geneva Conventions within the scope of International Humanitarian Law and on behalf of all war victims, both civilian and military." />
               <BulletItem text="To contribute to the improvement of health, the prevention of disease and maternity and child care in the community." />
@@ -51,7 +51,7 @@ export default function YouthRedCrossPage() {
 
           {/* List of Events */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">LIST OF EVENTS</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">LIST OF EVENTS</h2>
             <ul className="space-y-4">
               <BulletItem text="Youth Red Cross Society of United Institute of Technology has conducted camp to identify the Deaf and Dumb children and the identified children are sent to Free Education up to their 12th standard." />
               <BulletItem text='Youth Red Cross Society of United Institute of Technology also conducted Awareness Rally about "Rights for Vote".' />
@@ -64,7 +64,7 @@ export default function YouthRedCrossPage() {
 
           {/* College Level Advisory Committee */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">COLLEGE LEVEL ADVISORY COMMITTEE</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">COLLEGE LEVEL ADVISORY COMMITTEE</h2>
             <div className="space-y-5 text-sm sm:text-base text-gray-700 leading-relaxed">
               <div>
                 <p>1. Dr. VENKATESAN M, Chairman,</p>

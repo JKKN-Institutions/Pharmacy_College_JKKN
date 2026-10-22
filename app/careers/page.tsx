@@ -41,7 +41,7 @@ interface NoticeProps {
 
 function Notice({ children }: NoticeProps) {
   return (
-    <div className="rounded-2xl border border-[#7cb983]/30 bg-white p-6 text-center text-[#002309]">{children}</div>
+    <div className="rounded-2xl border border-[#0f8f56]/30 bg-white p-6 text-center text-[#032816]">{children}</div>
   );
 }
 
@@ -55,7 +55,7 @@ export default async function CareersPage() {
 
       <main>
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">Careers</h1>
           <p className="mt-2 text-sm sm:text-base text-white/90">
@@ -68,11 +68,11 @@ export default async function CareersPage() {
       <section aria-labelledby="openings-heading" className="px-4 sm:px-6 lg:px-8 pt-8 pb-10">
         <div className="max-w-7xl mx-auto">
           <div className="mb-5 flex flex-wrap items-baseline justify-between gap-2">
-            <h2 id="openings-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837]">
+            <h2 id="openings-heading" className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41]">
               Current Openings
             </h2>
             {available && jobs.length > 0 && (
-              <p className="text-sm font-medium text-[#002309]/70">
+              <p className="text-sm font-medium text-[#032816]/70">
                 {jobs.length} open {jobs.length === 1 ? 'role' : 'roles'}
               </p>
             )}

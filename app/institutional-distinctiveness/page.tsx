@@ -8,7 +8,7 @@ export default function InstitutionalDistinctivenessPage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-10 sm:py-12 md:py-16 px-4">
+      <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-10 sm:py-12 md:py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             Institutional distinctiveness
@@ -23,23 +23,23 @@ export default function InstitutionalDistinctivenessPage() {
             <div className="space-y-6 sm:space-y-8 text-gray-700 leading-relaxed text-sm sm:text-base">
 
               {/* Subtitle */}
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#006837]">
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-semibold text-[#0b6d41]">
                 JKKN College of Pharmacy: Empowering Communities through Innovative Solutions
               </h2>
 
-              <div className="border-l-4 border-[#7cb983] pl-4 sm:pl-6">
+              <div className="border-l-4 border-[#0f8f56] pl-4 sm:pl-6">
                 <p className="text-justify">
                   JKKN College of Pharmacy, located in Komarapalayam, is committed to being a leading institution in providing innovative solutions to address the evolving needs of society. JKKN College of Pharmacy has established an innovation Incubation Center on campusselected to establish the Institution&apos;s Innovation Council (IIC) in accordance with the norms and directives of the Innovation Cell, Ministry of Human Resource Development (MHRD), Government of India. It serves as a platform for fostering creativity, critical thinking, and problem-solving skills.
                 </p>
               </div>
 
-              <div className="border-l-4 border-[#006837] pl-4 sm:pl-6">
+              <div className="border-l-4 border-[#0b6d41] pl-4 sm:pl-6">
                 <p className="text-justify">
                   Recognised Excellence: The institution&apos;s consistent 4 and 5-star ratings over the past five years in IIC, serve as a validation of its commitment to quality education and innovative practices.
                 </p>
               </div>
 
-              <div className="border-l-4 border-[#7cb983] pl-4 sm:pl-6">
+              <div className="border-l-4 border-[#0f8f56] pl-4 sm:pl-6">
                 <p className="text-justify">
                   Validation of Excellence: The institution&apos;s recognition as &quot;BAND-PROMISING&quot; by ARIIA-2021 (Atal Ranking of Institutions on Innovation Achievements) further underscores its distinctiveness. This acknowledgment highlights the institution&apos;s efforts in promoting innovation and its impact on society.
                 </p>
@@ -86,13 +86,13 @@ export default function InstitutionalDistinctivenessPage() {
 
               <div className="border-t border-gray-100" />
 
-              <div className="border-l-4 border-[#7cb983] pl-4 sm:pl-6">
+              <div className="border-l-4 border-[#0f8f56] pl-4 sm:pl-6">
                 <p className="text-justify">
                   Through various success stories, including StartupTN, TNSI, IIC, YUVA, EDII, and SDGHackathon, the institution has demonstrated its commitment to translating innovation into tangible positive outcomes. These achievements reflect the college&apos;s dedication to making a meaningful impact on society.
                 </p>
               </div>
 
-              <div className="border-l-4 border-[#006837] pl-4 sm:pl-6">
+              <div className="border-l-4 border-[#0b6d41] pl-4 sm:pl-6">
                 <p className="text-justify">
                   In conclusion, JKKN College of Pharmacy is an institution that stands out for its focus on empowering communities, fostering innovation, and promoting sustainability and social responsibility. By providing quality education, nurturing talent, and encouraging entrepreneurial endeavours, the college strives to be a leading global provider of innovative solutions for the ever-changing needs of society.
                 </p>
@@ -101,11 +101,11 @@ export default function InstitutionalDistinctivenessPage() {
               <div className="border-t border-gray-100" />
 
               {/* Section Headers */}
-              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                 IDENTITY OF THE INSTITUTION THROUGH IIC ACHIEVERS
               </h3>
 
-              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+              <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                 INFORMATION ATTACHED UNDER LINKS
               </h3>
 
@@ -113,84 +113,84 @@ export default function InstitutionalDistinctivenessPage() {
               <div className="space-y-4">
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     Awarded &quot;BAND- PROMISING&quot; by ARIIA.-2021
                   </h4>
                   <a
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/4743069129092357/?_cft_[0]=AZUwMeENk371WHLlHTD1i4y9-MaP8Sx5S02fwhx_8g9X2VfVHBwSDNnLumzVWw-6bztw2c8j6khrWfzpln8SRi2oDzT8CdjF7502-zF9K1t5Sm9T2h9K81S41ohK0HKDSq-t5lnRCBZNeVCjzHsGRNqx8&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/4743069129092357/?_cft_[0]=AZUwMeENk371WHLlHTD1i4y9-MaP8Sx5S02fwhx_8g9X2VfVHBwSDNnLumzVWw-6bztw2c8j6khrWfzpln8SRi2oDzT8CdjF7502-zF9K1t5Sm9T2h9K81S41ohK0HKDSq-t5lnRCBZNeVCjzHsGRNqx8&__tn__=EH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     ADR case report competition on 22 September 2022
                   </h4>
                   <a
                     href="https://www.facebook.com/photo/?fbid=5562180380514557&set=pcb.5562180517181210&__cft_[0]=AZXQHuCwcK3P0Pd9_Sg47ZEk-7RUF5NQ0AR275_XqOHXwwm-YxkQz9qDrtNrykE4r2skRdayEc_4cWOvOYNhKCIPYXsY_sDin4izBorFy15BZZVSBKEh8tRy1vjLt2Wk350Uj7p6IlkRXENaWCgy0CjAMsr3e7k&__tn__=*bH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/photo/?fbid=5562180380514557&set=pcb.5562180517181210&__cft_[0]=AZXQHuCwcK3P0Pd9_Sg47ZEk-7RUF5NQ0AR275_XqOHXwwm-YxkQz9qDrtNrykE4r2skRdayEc_4cWOvOYNhKCIPYXsY_sDin4izBorFy15BZZVSBKEh8tRy1vjLt2Wk350Uj7p6IlkRXENaWCgy0CjAMsr3e7k&__tn__=*bH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     4 * star rating grade  IIC 2020-21
                   </h4>
                   <a
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/4642531242479480/?__cft_[0]=AZW5co_c4lSrgH7w1ne3?wMwahZQ0OxOCC34HnaWcjd-hsGbQSW1o0afPGzOlGArbLtQXr5u6vk19MnkhAsObdavAGBWoZWQkiuRFbOuQfx-4ULxLqW-nEouBpRtlX0F7lnj3hmsg9oWd5rSjcKZnxAO8&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/4642531242479480/?__cft_[0]=AZW5co_c4lSrgH7w1ne3?wMwahZQ0OxOCC34HnaWcjd-hsGbQSW1o0afPGzOlGArbLtQXr5u6vk19MnkhAsObdavAGBWoZWQkiuRFbOuQfx-4ULxLqW-nEouBpRtlX0F7lnj3hmsg9oWd5rSjcKZnxAO8&__tn__=EH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     FOUR STAR&quot; rating  IIC 2018-19
                   </h4>
                   <a
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510167322382560/?__cft_[0]=AZVwgXBtyyz_md2K8SJBBn4fELFKa3pjWuJicRH1H7uyogYhYwysKFAS_jZRRP2c8c4tvr51rZe2tjbuHdndkM9KC1b6l0kLd6crwAAjcWpooCFgHSSmutgBioHRZ_PyBkmc&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510167322382560/?__cft_[0]=AZVwgXBtyyz_md2K8SJBBn4fELFKa3pjWuJicRH1H7uyogYhYwysKFAS_jZRRP2c8c4tvr51rZe2tjbuHdndkM9KC1b6l0kLd6crwAAjcWpooCFgHSSmutgBioHRZ_PyBkmc&__tn__=EH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     Five-star rating IIC 2019-2020
                   </h4>
                   <a
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/3426719307394019/?__cft_[0]=AZUZdgTL9A87t7Ss7PzdHrjMLBICrQBGxUQMKWlM_xGNW6u6KHO89shMzDJCukSnHMvydTdUrrrc_us9StaPZ78b_wDykhhaIwNX-3zpmCGQQcoqu4N895rKEn4LrWNCQNLFHwNyj1gn5nM1WwqJ3mB8&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/3426719307394019/?__cft_[0]=AZUZdgTL9A87t7Ss7PzdHrjMLBICrQBGxUQMKWlM_xGNW6u6KHO89shMzDJCukSnHMvydTdUrrrc_us9StaPZ78b_wDykhhaIwNX-3zpmCGQQcoqu4N895rKEn4LrWNCQNLFHwNyj1gn5nM1WwqJ3mB8&__tn__=EH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     Startup Mania 7.0 – Students Innovators Award – 2022)&quot; with a cash prize of Rs.30000.
                   </h4>
                   <a
                     href="https://www.facebook.com/photo/?fbid=5684813354917925&set=pcb.5684813584917902&__cft_[0]=AZWAZJMVPgQS8TqzuxlIQSM4aydFsBh0oH4tRmmm_f7gn8jPxkfer_A6aU5fMa5R-srTpCph1ID3uK031s_xkG8vEdynj42iaxzQg1gQr-5L5A9m4YdZ0NUQ6o_JXAZG9jY&__tn__=*bH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/photo/?fbid=5684813354917925&set=pcb.5684813584917902&__cft_[0]=AZWAZJMVPgQS8TqzuxlIQSM4aydFsBh0oH4tRmmm_f7gn8jPxkfer_A6aU5fMa5R-srTpCph1ID3uK031s_xkG8vEdynj42iaxzQg1gQr-5L5A9m4YdZ0NUQ6o_JXAZG9jY&__tn__=*bH-R
                   </a>
@@ -203,14 +203,14 @@ export default function InstitutionalDistinctivenessPage() {
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     20-22 SEP&apos;2019
                   </h4>
                   <a
                     href="https://www.facebook.com/photo/?fbid=2510171745715451&set=pcb.2510172232382069&__cft_[0]=AZVBUIfpr24EL2kgR9MltrVlMl_NqDWF8oGFL5WaSBfCMZtKw6WaMjgjwc5muqBMfndjTfDZSEJh7Lg1Pcog0OmMjKYopWqzdCtOdRPh4YOG2lICLObrvW3UPl8&__tn__=*bH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/photo/?fbid=2510171745715451&set=pcb.2510172232382069&__cft_[0]=AZVBUIfpr24EL2kgR9MltrVlMl_NqDWF8oGFL5WaSBfCMZtKw6WaMjgjwc5muqBMfndjTfDZSEJh7Lg1Pcog0OmMjKYopWqzdCtOdRPh4YOG2lICLObrvW3UPl8&__tn__=*bH-R
                   </a>
@@ -227,7 +227,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2838519166214039/?_cft_[0]=AZU9pZHTnAbSv5aUD6W7-6ARRtVjLQ81ce3hYVqx1gTnbIDcY3-quXMm9t6rrConu4IzRsCWyL1KBNyRtBoiqcPed-dCkPORUeeekmh89Ric9BGwDjWvHq_JhEypr2VekA&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/2838519166214039/?_cft_[0]=AZU9pZHTnAbSv5aUD6W7-6ARRtVjLQ81ce3hYVqx1gTnbIDcY3-quXMm9t6rrConu4IzRsCWyL1KBNyRtBoiqcPed-dCkPORUeeekmh89Ric9BGwDjWvHq_JhEypr2VekA&__tn__=EH-R
                   </a>
@@ -244,14 +244,14 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/photo/?fbid=1306347036172286&set=pcb.1306347729505550&__cft_[0]=AZWTE-3Y5nTJlEmJaUoLG0pdn42t1hmyiFCvaL9mgogVEODTLAd1qHXpxxUa5i0XswZNYTbI5K-4sl3DP5qhT7EazoihrEro5sKTV-ocT5UEl_wYCI6RUaV-wrW3zSjGeFs&__tn__=*bH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/photo/?fbid=1306347036172286&set=pcb.1306347729505550&__cft_[0]=AZWTE-3Y5nTJlEmJaUoLG0pdn42t1hmyiFCvaL9mgogVEODTLAd1qHXpxxUa5i0XswZNYTbI5K-4sl3DP5qhT7EazoihrEro5sKTV-ocT5UEl_wYCI6RUaV-wrW3zSjGeFs&__tn__=*bH-R
                   </a>
                 </div>
 
                 <div className="bg-[#FBFBEE] rounded-xl border border-gray-100 p-4 sm:p-5">
-                  <h4 className="text-base md:text-lg font-bold text-[#006837] mb-2">
+                  <h4 className="text-base md:text-lg font-bold text-[#0b6d41] mb-2">
                     STARTUP ENTERPRENEURSHIP SUMMIT AND IDEA CHALLENGE
                   </h4>
                 </div>
@@ -267,7 +267,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510171745715451/?_cft_[0]=AZW21PkLXhzQFw3TA1tsEcIjG7CDFrbVKnlAFj05juFlbyo2qA_zUQ-3XGZrfnNTygkE4r7skRdayEc_4cWOvOYNhKCIPYXsY_sDBin4izBorFv15BZZua-U19Aq-b_p5XdWrfU5yLeqlp5BSYnzidt1QmEWt2mf_Ep4QslR6FEuHpg&__tn__=EH-y-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/2510171745715451/?_cft_[0]=AZW21PkLXhzQFw3TA1tsEcIjG7CDFrbVKnlAFj05juFlbyo2qA_zUQ-3XGZrfnNTygkE4r7skRdayEc_4cWOvOYNhKCIPYXsY_sDBin4izBorFv15BZZua-U19Aq-b_p5XdWrfU5yLeqlp5BSYnzidt1QmEWt2mf_Ep4QslR6FEuHpg&__tn__=EH-y-R
                   </a>
@@ -279,7 +279,7 @@ export default function InstitutionalDistinctivenessPage() {
                       href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/5877480582317867/?__cft_[0]=AZV7r4ViFlLkGObJrV9IX6IbY_yVGYsvKksune0dHkZ4auZQJAL6iADXkywM_Onw0-PjJUCtvgiPjg4XCZVBDsjUeWSxtTsLui_k7dQ6AKFvsEC0AT0u3LPI7seIXYtBEC6JzPsZ14BPqmYjZlaRxwlm&__tn__=EH-R"
                       target="_blank"
                       rel="nofollow noopener noreferrer"
-                      className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all"
+                      className="text-[#0b6d41] hover:text-[#0b6d41] break-all"
                     >
                       https://www.facebook.com/JKKNCP/photos/a.148899628509353/5877480582317867/?__cft_[0]=AZV7r4ViFlLkGObJrV9IX6IbY_yVGYsvKksune0dHkZ4auZQJAL6iADXkywM_Onw0-PjJUCtvgiPjg4XCZVBDsjUeWSxtTsLui_k7dQ6AKFvsEC0AT0u3LPI7seIXYtBEC6JzPsZ14BPqmYjZlaRxwlm&__tn__=EH-R
                     </a>
@@ -297,7 +297,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/photo/?fbid=4525652110834061&set=pcb.4525652560834016&__cft_[0]="
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/photo/?fbid=4525652110834061&set=pcb.4525652560834016&__cft_[0]=
                   </a>
@@ -326,7 +326,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/JKKNCP/photos/a.148899628509353/5827151260684133/?__cft_[0]=AZXuTucfsLapoe306m0BMHjqLqJYcHL_VGiXP8qfOQyuSvFRumlMp0GssJlC1pZP5p1BuxhRwp2TQs0RcmrXmrAmuY0tLQTzeNYLYZT4xH5B3Fu-2BzYADjjZeGwCqmEnnp4m8eM2-DstM5GRdwCJ2P88&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/JKKNCP/photos/a.148899628509353/5827151260684133/?__cft_[0]=AZXuTucfsLapoe306m0BMHjqLqJYcHL_VGiXP8qfOQyuSvFRumlMp0GssJlC1pZP5p1BuxhRwp2TQs0RcmrXmrAmuY0tLQTzeNYLYZT4xH5B3Fu-2BzYADjjZeGwCqmEnnp4m8eM2-DstM5GRdwCJ2P88&__tn__=EH-R
                   </a>
@@ -343,7 +343,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/omm.indian/photos/a.296878653785801/1708824095924576/?__cft_[0]=AZUyloHQ3cYJwcjH2L68BYU48jQKQ9A8fjwOgtNNQ1EfS2705ijpB70BE4vzfzsLAlVx8Z9gzHUj3tWp26fdnFXp_SR1xKb7SHMRZaxiHfo8Mu2415ld22pm_f80nyHtGlU8&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/omm.indian/photos/a.296878653785801/1708824095924576/?__cft_[0]=AZUyloHQ3cYJwcjH2L68BYU48jQKQ9A8fjwOgtNNQ1EfS2705ijpB70BE4vzfzsLAlVx8Z9gzHUj3tWp26fdnFXp_SR1xKb7SHMRZaxiHfo8Mu2415ld22pm_f80nyHtGlU8&__tn__=EH-R
                   </a>
@@ -360,7 +360,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/myjkkn/photos/a.189013391111562/6633239506688886/?__cft_[0]=AZVchpILYX8i_A3n8jy4FDcRToRl5z6tXPbECFH_yoBu80O6NsLzed5R96enhM7ZaVg2Np-9H-E8Uu_cfBkkiSW5nzlV6nZTEjH0543h9aKPTkMhFREitPBaLeyQMdAkgHvnM-x4AOtEjgnETptgkU-t&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/myjkkn/photos/a.189013391111562/6633239506688886/?__cft_[0]=AZVchpILYX8i_A3n8jy4FDcRToRl5z6tXPbECFH_yoBu80O6NsLzed5R96enhM7ZaVg2Np-9H-E8Uu_cfBkkiSW5nzlV6nZTEjH0543h9aKPTkMhFREitPBaLeyQMdAkgHvnM-x4AOtEjgnETptgkU-t&__tn__=EH-R
                   </a>
@@ -377,7 +377,7 @@ export default function InstitutionalDistinctivenessPage() {
                     href="https://www.facebook.com/myjkkn/photos/a.189013391111562/2343845582294988/?__cft_[0]=AZVUTruUtLHHxcAt12P_lZ8AosqMC4wvFnGi6TYClbzwuMpomvFMlKZjp0X2bOfadpvwAum7XltK1Ghi59Glvv_rDsp_7mHNa_KuPxe5Poj_iJvkwlJlNOhbLfULLTZX8A08&__tn__=EH-R"
                     target="_blank"
                     rel="nofollow noopener noreferrer"
-                    className="text-[#0F6B3E] hover:text-[#6B9E4E] break-all text-sm lg:text-base"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] break-all text-sm lg:text-base"
                   >
                     https://www.facebook.com/myjkkn/photos/a.189013391111562/2343845582294988/?__cft_[0]=AZVUTruUtLHHxcAt12P_lZ8AosqMC4wvFnGi6TYClbzwuMpomvFMlKZjp0X2bOfadpvwAum7XltK1Ghi59Glvv_rDsp_7mHNa_KuPxe5Poj_iJvkwlJlNOhbLfULLTZX8A08&__tn__=EH-R
                   </a>

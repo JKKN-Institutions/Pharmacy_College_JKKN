@@ -104,10 +104,10 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
         }}
       />
       {/* ── Sticky Announcement Bar ── */}
-      <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#002309] text-white py-2 px-4 sm:px-6">
+      <div className="sticky top-16 sm:top-[88px] xl:top-28 z-40 bg-[#032816] text-white py-2 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto flex items-center justify-center gap-2 sm:gap-6 flex-wrap">
           <div className="flex items-center gap-1.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#7cb983] inline-block animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-[#ffde59] inline-block animate-pulse" />
             <span className="text-[10px] sm:text-xs font-medium">Admissions Open 2026-27</span>
           </div>
           <div className="flex items-center gap-2">
@@ -121,7 +121,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#7cb983] hover:bg-[#6ba872] text-white text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
+              className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
             >
               Apply Now
             </a>
@@ -130,7 +130,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
       </div>
 
       {/* ── Hero Section ── */}
-      <section className="bg-[#002309] text-white pt-7 sm:pt-10 md:pt-14 pb-0">
+      <section className="bg-[#032816] text-white pt-7 sm:pt-10 md:pt-14 pb-0">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 text-center">
           {/* Badge */}
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
@@ -143,7 +143,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           {/* H1 */}
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 leading-tight">
             Pharmacy College near{' '}
-            <span className="text-[#7cb983]">{config.city}</span> — JKKN College of Pharmacy
+            <span className="text-[#ffde59]">{config.city}</span> — JKKN College of Pharmacy
           </h1>
 
           {/* Description — Snippet Answer */}
@@ -159,9 +159,9 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               { value: config.distance.replace(' ', ''), label: `FROM ${config.city.toUpperCase()}` },
               { value: '3', label: 'PROGRAMMES' },
             ].map((stat) => (
-              <div key={stat.label} className="bg-[#006837] rounded-xl p-2.5 sm:p-3">
+              <div key={stat.label} className="bg-[#0b6d41] rounded-xl p-2.5 sm:p-3">
                 <div className="text-lg sm:text-xl md:text-2xl font-bold">{stat.value}</div>
-                <div className="text-[9px] sm:text-[10px] text-gray-300 uppercase tracking-wider mt-0.5">
+                <div className="text-[9px] sm:text-[10px] text-gray-200 uppercase tracking-wider mt-0.5">
                   {stat.label}
                 </div>
               </div>
@@ -174,7 +174,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
+              className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
             >
               Apply Now — 2026-27
             </a>
@@ -193,7 +193,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
             {['PCI', 'NAAC'].map((badge) => (
               <span
                 key={badge}
-                className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#006837] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
+                className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
               >
                 <Check className="w-3 h-3" /> {badge}
               </span>
@@ -211,8 +211,8 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#006837]">{config.distance.split(' ')[0]}</span>
-              <span className="text-lg sm:text-xl font-bold text-[#006837]">km</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">{config.distance.split(' ')[0]}</span>
+              <span className="text-lg sm:text-xl font-bold text-[#0b6d41]">km</span>
             </div>
             <div className="flex-1 text-center sm:text-left">
               <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-0.5">
@@ -226,7 +226,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               href="https://maps.google.com/?q=JKKN+College+of+Pharmacy+Komarapalayam+Namakkal"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#006837] hover:bg-[#002309] text-white font-semibold px-3 py-2.5 rounded-lg transition-colors text-xs flex flex-col items-center justify-center gap-1 min-w-[90px]"
+              className="bg-[#0b6d41] hover:bg-[#032816] text-white font-semibold px-3 py-2.5 rounded-lg transition-colors text-xs flex flex-col items-center justify-center gap-1 min-w-[90px]"
             >
               <MapPin className="w-4 h-4" />
               <span>View on Map</span>
@@ -244,37 +244,37 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm md:text-base text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
             {config.whyText}
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
               {
-                icon: <ShieldCheck className="w-7 h-7 text-[#006837] mx-auto" />,
+                icon: <ShieldCheck className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'PCI Approved',
                 desc: 'PCI-approved pharmacy college with modern pharmaceutical learning labs',
               },
               {
-                icon: <Microscope className="w-7 h-7 text-[#7cb983] mx-auto" />,
+                icon: <Microscope className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'Well-Equipped Labs',
                 desc: 'Labs for Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Pharmacognosy',
               },
               {
-                icon: <FlaskConical className="w-7 h-7 text-[#7cb983] mx-auto" />,
+                icon: <FlaskConical className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'Research Opportunities',
                 desc: 'Research opportunities for M.Pharm and Pharm.D learners',
               },
               {
-                icon: <Factory className="w-7 h-7 text-[#7cb983] mx-auto" />,
+                icon: <Factory className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'Industry Connections',
                 desc: 'Strong pharmaceutical industry connections across Tamil Nadu',
               },
               {
-                icon: <Briefcase className="w-7 h-7 text-[#7cb983] mx-auto" />,
+                icon: <Briefcase className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'Campus Placements',
                 desc: 'Campus placement support with leading pharma companies',
               },
               {
-                icon: <Bus className="w-7 h-7 text-[#7cb983] mx-auto" />,
+                icon: <Bus className="w-7 h-7 text-[#0b6d41] mx-auto" />,
                 title: 'Easy Commute',
                 desc: config.commuteText,
               },
@@ -298,12 +298,12 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Choose the right programme for your career goals
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {[
               {
-                icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
+                icon: <GraduationCap className="w-6 h-6 text-[#0b6d41]" />,
                 title: 'B.Pharm (Bachelor of Pharmacy)',
                 duration: '4 years',
                 level: 'UG',
@@ -312,7 +312,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 href: '/b-pharmacy',
               },
               {
-                icon: <GraduationCap className="w-6 h-6 text-[#006837]" />,
+                icon: <GraduationCap className="w-6 h-6 text-[#0b6d41]" />,
                 title: 'M.Pharm (Master of Pharmacy)',
                 duration: '2 years',
                 level: 'PG',
@@ -321,7 +321,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 href: '/m-pharmacy',
               },
               {
-                icon: <Stethoscope className="w-6 h-6 text-[#006837]" />,
+                icon: <Stethoscope className="w-6 h-6 text-[#0b6d41]" />,
                 title: 'Pharm.D (Doctor of Pharmacy)',
                 duration: '6 years',
                 level: 'UG (Professional)',
@@ -362,7 +362,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 </a>
                 <a
                   href={`tel:${PHONE}`}
-                  className="bg-[#FBFBEE] hover:bg-[#6ba872] text-[#006837] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#7cb983]"
+                  className="bg-[#FBFBEE] hover:bg-[#085032] text-[#0b6d41] font-semibold text-[10px] sm:text-xs py-2 px-3 rounded-lg text-center transition-colors duration-200 border border-[#0f8f56]"
                 >
                   Call to Enquire
                 </a>
@@ -384,7 +384,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             The placement cell connects learners with India&apos;s top employers
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {[
@@ -397,7 +397,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 key={stat.label}
                 className="border border-gray-200 rounded-xl p-4 sm:p-5 text-center"
               >
-                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[#006837] mb-1">
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-[#0b6d41] mb-1">
                   {stat.value}
                 </div>
                 <div className="text-[9px] sm:text-[10px] text-gray-400 uppercase tracking-wider">
@@ -420,16 +420,16 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Multiple transport options to get to campus easily
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 text-left">
-            <div className="bg-[#006837] text-white p-4 sm:p-5 flex items-center gap-3">
+            <div className="bg-[#0b6d41] text-white p-4 sm:p-5 flex items-center gap-3">
               <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />
               <div>
                 <h3 className="text-sm sm:text-base font-bold">
                   {config.city} → JKKN Pharmacy Campus
                 </h3>
-                <p className="text-[10px] sm:text-xs text-[#7cb983] mt-0.5">
+                <p className="text-[10px] sm:text-xs text-[#ffde59] mt-0.5">
                   {config.distance} • {config.travelTime}
                 </p>
               </div>
@@ -489,17 +489,17 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Everything you need for a comprehensive education experience
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
-                emoji: <Microscope className="w-5 h-5 text-[#7cb983]" />,
+                emoji: <Microscope className="w-5 h-5 text-[#0b6d41]" />,
                 title: 'Modern Labs',
                 desc: 'Advanced laboratories and smart classrooms',
               },
               {
-                emoji: <BookOpen className="w-5 h-5 text-[#7cb983]" />,
+                emoji: <BookOpen className="w-5 h-5 text-[#0b6d41]" />,
                 title: 'Digital Library',
                 desc: 'Well-stocked library with digital access and journals',
               },
@@ -509,17 +509,17 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 desc: 'Separate hostels for boys and girls with mess facility',
               },
               {
-                emoji: <Bus className="w-5 h-5 text-[#7cb983]" />,
+                emoji: <Bus className="w-5 h-5 text-[#0b6d41]" />,
                 title: 'Transport',
                 desc: `College buses connecting to ${config.city} and surrounding areas`,
               },
               {
-                emoji: <Activity className="w-5 h-5 text-[#7cb983]" />,
+                emoji: <Activity className="w-5 h-5 text-[#0b6d41]" />,
                 title: 'Sports',
                 desc: 'Playground, indoor games, gym, and annual sports events',
               },
               {
-                emoji: <Wifi className="w-5 h-5 text-[#7cb983]" />,
+                emoji: <Wifi className="w-5 h-5 text-[#0b6d41]" />,
                 title: 'WiFi Campus',
                 desc: 'High-speed internet across the entire campus',
               },
@@ -552,14 +552,14 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Pharmacy College near {config.city} — Your Questions Answered
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="space-y-2 text-left">
             {config.faqs.map((faq, index) => (
               <div
                 key={index}
                 className={`rounded-xl border overflow-hidden transition-colors duration-200 ${
-                  expandedFAQ === index ? 'border-[#7cb983]' : 'border-gray-200'
+                  expandedFAQ === index ? 'border-[#0f8f56]' : 'border-gray-200'
                 }`}
               >
                 <button
@@ -595,16 +595,16 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <p className="text-xs sm:text-sm text-gray-500 mb-2">
             Find the best pharmacy college near your city
           </p>
-          <div className="w-12 h-0.5 bg-[#7cb983] rounded-full mx-auto mb-7 sm:mb-9" />
+          <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {config.exploreCities.map((item) => (
               <a
                 key={item.city}
                 href={item.href}
-                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#7cb983] transition-colors duration-200"
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 flex items-center gap-3 shadow-sm hover:border-[#0f8f56] transition-colors duration-200"
               >
-                <span><MapPin className="w-5 h-5 text-[#006837]" /></span>
+                <span><MapPin className="w-5 h-5 text-[#0b6d41]" /></span>
                 <div className="text-left">
                   <p className="text-xs sm:text-sm font-bold text-gray-900">{item.city}</p>
                   <p className="text-[10px] sm:text-xs text-gray-400">{item.distance}</p>
@@ -615,7 +615,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
 
           <button
             onClick={() => { sessionStorage.setItem('scrollTo', 'programmes-section'); router.push('/'); }}
-            className="inline-block bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
+            className="inline-block bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-bold text-xs sm:text-sm px-6 py-3 rounded-full transition-all duration-300"
           >
             View All Programmes
           </button>

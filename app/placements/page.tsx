@@ -193,13 +193,13 @@ export default function PlacementsPage() {
       <Header />
 
       {/* ═══════════════ HERO SECTION ═══════════════ */}
-      <section className="bg-gradient-to-br from-[#006837] via-[#1a7f5a] to-[#002309] text-white py-10 sm:py-14 md:py-20 px-4 xs:px-5 sm:px-6">
+      <section className="bg-gradient-to-br from-[#0b6d41] via-[#0b6d41] to-[#032816] text-white py-10 sm:py-14 md:py-20 px-4 xs:px-5 sm:px-6">
         <div className="max-w-[1400px] mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 bg-[#7cb983] px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-4 sm:mb-6"
+            className="inline-flex items-center gap-2 bg-[#ffde59] px-4 sm:px-6 py-1.5 sm:py-2 rounded-full text-[#032816] font-bold text-[8px] xs:text-[10px] sm:text-sm mb-4 sm:mb-6"
           >
             <Briefcase className="w-3 h-3 sm:w-4 sm:h-4" />
             PLACEMENTS 2026
@@ -243,7 +243,7 @@ export default function PlacementsPage() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Training & Placement Cell
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 leading-tight">
@@ -289,7 +289,7 @@ export default function PlacementsPage() {
                 { icon: BookOpen, text: 'Certification courses in GMP, GLP, and regulatory affairs' },
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3 bg-white rounded-lg p-3 sm:p-4 shadow-sm">
-                  <item.icon className="w-4 h-4 sm:w-5 sm:h-5 text-[#006837] mt-0.5 flex-shrink-0" />
+                  <item.icon className="w-4 h-4 sm:w-5 sm:h-5 text-[#0b6d41] mt-0.5 flex-shrink-0" />
                   <span className="text-xs sm:text-sm text-gray-700">{item.text}</span>
                 </div>
               ))}
@@ -308,7 +308,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.5 }}
             className="text-center mb-6 sm:mb-8"
           >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Programme-Wise Placements
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
@@ -330,8 +330,8 @@ export default function PlacementsPage() {
                   className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-gray-100 hover:shadow-lg transition-shadow duration-300"
                 >
                   <div className="flex items-center gap-3 mb-4">
-                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#006837]/10 flex items-center justify-center">
-                      <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#006837]" />
+                    <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#0b6d41]/10 flex items-center justify-center">
+                      <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41]" />
                     </div>
                     <div>
                       <h3 className="text-base sm:text-lg font-bold text-gray-900">{course.course}</h3>
@@ -342,15 +342,15 @@ export default function PlacementsPage() {
                   {/* Stats Grid */}
                   <div className="grid grid-cols-3 gap-2 mb-4">
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
-                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.placementRate}</div>
+                      <div className="text-sm sm:text-lg font-bold text-[#0b6d41]">{course.placementRate}</div>
                       <div className="text-[8px] sm:text-[10px] text-gray-500">Placement</div>
                     </div>
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
-                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.placed}</div>
+                      <div className="text-sm sm:text-lg font-bold text-[#0b6d41]">{course.placed}</div>
                       <div className="text-[8px] sm:text-[10px] text-gray-500">Placed 2024-25</div>
                     </div>
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
-                      <div className="text-sm sm:text-lg font-bold text-[#006837]">{course.median}</div>
+                      <div className="text-sm sm:text-lg font-bold text-[#0b6d41]">{course.median}</div>
                       <div className="text-[8px] sm:text-[10px] text-gray-500">Median salary</div>
                     </div>
                   </div>
@@ -361,7 +361,7 @@ export default function PlacementsPage() {
                     <div className="space-y-1.5">
                       {course.topRoles.map((role) => (
                         <div key={role} className="flex items-center gap-2 text-xs sm:text-sm text-gray-700">
-                          <div className="w-1.5 h-1.5 rounded-full bg-[#7cb983] flex-shrink-0" />
+                          <div className="w-1.5 h-1.5 rounded-full bg-[#ffde59] flex-shrink-0" />
                           {role}
                         </div>
                       ))}
@@ -370,7 +370,7 @@ export default function PlacementsPage() {
 
                   <Link
                     href={course.link}
-                    className="inline-flex items-center gap-1 text-xs sm:text-sm text-[#006837] font-semibold hover:underline"
+                    className="inline-flex items-center gap-1 text-xs sm:text-sm text-[#0b6d41] font-semibold hover:underline"
                   >
                     View {course.course} Details <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
                   </Link>
@@ -391,7 +391,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.5 }}
             className="text-center mb-6 sm:mb-8"
           >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Industry Distribution
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
@@ -412,10 +412,10 @@ export default function PlacementsPage() {
                   variants={fadeUp}
                   className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#006837]/10 flex items-center justify-center mx-auto mb-2">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#006837]" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#0b6d41]/10 flex items-center justify-center mx-auto mb-2">
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41]" />
                   </div>
-                  <div className="text-xl sm:text-2xl font-bold text-[#006837] mb-1">{sector.percentage}%</div>
+                  <div className="text-xl sm:text-2xl font-bold text-[#0b6d41] mb-1">{sector.percentage}%</div>
                   <div className="text-[10px] sm:text-xs text-gray-600 leading-tight">{sector.sector}</div>
                 </motion.div>
               );
@@ -436,7 +436,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.5 }}
             className="text-center mb-6 sm:mb-8"
           >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Placement Training
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
@@ -457,8 +457,8 @@ export default function PlacementsPage() {
                   variants={fadeUp}
                   className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-gray-100"
                 >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#006837]/10 flex items-center justify-center mb-3 sm:mb-4">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#006837]" />
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#0b6d41]/10 flex items-center justify-center mb-3 sm:mb-4">
+                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41]" />
                   </div>
                   <h3 className="text-sm sm:text-base font-bold text-gray-900 mb-2">{program.title}</h3>
                   <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{program.description}</p>
@@ -471,7 +471,7 @@ export default function PlacementsPage() {
 
       {/* ═══════════════ TESTIMONIALS ═══════════════ */}
       {testimonials.length > 0 && (
-      <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 bg-gradient-to-br from-[#006837] via-[#7cb983] to-[#002309] text-white">
+      <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 bg-gradient-to-br from-[#0b6d41] via-[#0f8f56] to-[#032816] text-white">
         <div className="max-w-[1400px] mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -539,7 +539,7 @@ export default function PlacementsPage() {
             transition={{ duration: 0.5 }}
             className="text-center mb-6 sm:mb-8"
           >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Frequently Asked Questions
             </p>
             <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
@@ -564,7 +564,7 @@ export default function PlacementsPage() {
                 >
                   <span className="text-xs sm:text-sm md:text-base font-semibold text-gray-900 pr-4">{faq.question}</span>
                   <ChevronDown
-                    className={`w-4 h-4 sm:w-5 sm:h-5 text-[#006837] flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-4 h-4 sm:w-5 sm:h-5 text-[#0b6d41] flex-shrink-0 transition-transform duration-300 ${
                       expandedFAQ === i ? 'rotate-180' : ''
                     }`}
                   />
@@ -587,7 +587,7 @@ export default function PlacementsPage() {
       {/* ═══════════════ DUAL CTA SECTION ═══════════════ */}
       <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6 bg-white">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl sm:rounded-3xl p-6 sm:p-10 md:p-14 text-center text-white">
+          <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl sm:rounded-3xl p-6 sm:p-10 md:p-14 text-center text-white">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -597,7 +597,7 @@ export default function PlacementsPage() {
               <h2 className="text-lg xs:text-xl sm:text-2xl md:text-3xl font-bold mb-3 sm:mb-4">
                 Start Your Pharmacy Career at JKKN
               </h2>
-              <p className="text-xs sm:text-sm md:text-base text-green-100 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
+              <p className="text-xs sm:text-sm md:text-base text-[#d4f1e4] mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed">
                 Join the 78% of placement-seeking graduates placed in 2024-25. Apply for B.Pharm, M.Pharm, or Pharm.D programmes
                 for the 2026-27 academic session, or connect with our Placement Cell for more details.
               </p>
@@ -607,14 +607,14 @@ export default function PlacementsPage() {
                   href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=placements"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 bg-white text-[#006837] font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-gray-100 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-[#0b6d41] font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-gray-100 transition-colors"
                 >
                   <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5" />
                   Apply Now — 2026-27
                 </a>
                 <a
                   href="tel:+919345855001"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-white hover:text-[#006837] transition-colors"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white text-white font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-white hover:text-[#0b6d41] transition-colors"
                 >
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                   Talk to Placement Cell
