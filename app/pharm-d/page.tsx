@@ -3125,11 +3125,13 @@ export default function PharmDPage() {
           
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mb-4">Ready to Start Your Clinical Pharmacy Career with Pharm.D?</h2>
           <p className="text-xs sm:text-sm mb-4">Choose your pathway - Pharm.D or Pharm.D (PB) - and become a Doctor of Pharmacy!</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col gap-4 justify-center items-center">
+            {/* One column at every width (2026-10-22): this site's sm is 375 px, so sm:flex-row put the
+                form beside the Apply button on a phone - 79 px wide, 34 px boxes, page 410+ px wide. */}
 
             {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
                 cannot POST there directly - the endpoint sends no CORS header. */}
-            <div className="max-w-2xl mx-auto mb-8 text-left">
+            <div className="w-full max-w-2xl mx-auto mb-8 text-left">
               <PharmacyEnquiryForm sourcePage="pharm-d" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} />
             </div>
             <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharm-d" target="_blank" rel="noopener noreferrer" className="bg-white text-[#0b6d41] font-bold text-base px-10 py-4 rounded-full hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#0b6d41] transition-colors shadow-lg inline-block">
