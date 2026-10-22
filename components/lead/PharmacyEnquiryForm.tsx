@@ -7,16 +7,36 @@
 //
 // PII rule, and it is not a style preference: name and phone are collected here and NEVER sent to
 // GA4. Only the source page, the programme id and the path leave this component.
+//
+// LOOK — mockup #7 "What Happens Next", the user's pick of 10 on 2026-10-22, live on the Dental
+// site first (dental PR #18) and ported here in the same Dental colours. Every host puts this form
+// on a green section, and the old see-through card did not stand out there; a white card does. The
+// three-step strip answers the parent's first doubt ("what happens after I give my number?") and
+// the trust line answers the second ("is this college genuine?"). Fields, labels, button text and
+// the CRM payload are unchanged.
 
 "use client"
 
 import { useActionState, useEffect, useId, useRef } from "react"
+import { CheckCircle2, ChevronDown } from "lucide-react"
 import { submitPharmacyEnquiry, type PharmacyEnquiryState } from "@/app/actions/pharmacy-enquiry"
 import { PHARMACY_PROGRAMMES } from "@/lib/pharmacy-programmes"
 import { ENQUIRY_DONE_KEY, writeStore } from "@/lib/enquiry-store"
 
 const ADMISSION_PHONE = "+919345855001"
 const ADMISSION_PHONE_DISPLAY = "+91 93458 55001"
+
+// Trust line. Each item was checked on 2026-10-22 against the record of the body that issues it;
+// an item goes in only with a document behind it, so re-read the source before changing a value.
+//   NAAC 'A' Grade — NAAC's own list "Institutions accredited by NAAC having valid accreditation
+//     as on 14-08-2025" (naac.gov.in, Accreditation Status): J.K.K.NATTRAJA COLLEGE OF PHARMACY,
+//     track TNCOGN111266, AISHE C-45689, Cycle 1, CGPA 3.09, grade A, declared 08-11-2024. Valid up
+//     to 26-02-2030 per the college's NIRF 2026 submission, /pdf/NIRF-Overall-2026.pdf page 4.
+//   PCI Approved — pci.gov.in "Approved Degree Institutions u/s 12" (also its Pharm.D and M.Pharm
+//     lists): J K K Nattraja College Of Pharmacy, PCI-963, "Permanent Approved u/s 12(1)".
+//   Since 1985 — the college's NAAC IIQA, /pdf/IIQA-NAAC.pdf page 1: "Date of establishment of the
+//     Institution 14/11/1985"; the SSR, /pdf/SSR-NAAC.pdf page 2, says 1985 as well.
+const TRUST = ["NAAC 'A' Grade", "PCI Approved", "Since 1985"]
 
 type Props = {
   /** Which page this instance sits on, e.g. "pharm-d". Tags the lead in the CRM. */
@@ -28,6 +48,8 @@ type Props = {
   /** 3 boxes only (name, mobile, programme) — for the homepage popup and cards. District and
    *  the question box are optional in the CRM form, so a compact lead is still a complete lead. */
   compact?: boolean
+  /** No white card of its own — for a host that already is the white card (homepage hero, popup). */
+  bare?: boolean
 }
 
 export default function PharmacyEnquiryForm({
@@ -35,6 +57,7 @@ export default function PharmacyEnquiryForm({
   defaultProgrammeId,
   heading = "Get a Call Back",
   compact = false,
+  bare = false,
 }: Props) {
   // Unique per instance: the homepage can show this form twice (hero card + popup).
   const uid = useId()
@@ -75,23 +98,30 @@ export default function PharmacyEnquiryForm({
     }
   }, [state, sourcePage])
 
+  // min-[640px], not sm: this site sets sm to 375 px (tailwind.config.ts), so sm:grid-cols-2 put
+  // the full form in two 84 px columns on a 375 px phone. 640 px is the Dental breakpoint.
+  const surface = bare
+    ? ""
+    : "bg-white rounded-[20px] shadow-[0_18px_40px_rgba(3,40,22,0.35)] p-4 min-[640px]:p-6"
+
   if (state?.success) {
     return (
-      <div className="space-y-4 text-center" role="status" aria-live="polite">
-        <p className="text-white text-lg font-semibold">{state.message}</p>
-        <p className="text-white/70 text-sm">You can also reach us directly:</p>
+      <div className={`${surface} space-y-4 text-center`} role="status" aria-live="polite">
+        <p className="text-[#032816] text-lg font-semibold">{state.message}</p>
+        <p className="text-[#4b5563] text-sm">You can also reach us directly:</p>
         <div className="flex justify-center gap-3 flex-wrap">
           <a
             href={`tel:${ADMISSION_PHONE}`}
-            className="bg-white/20 text-white px-4 py-2 rounded-full text-sm font-semibold"
+            className="bg-[#0b6d41] text-white px-4 py-2 rounded-full text-sm font-semibold"
           >
             {ADMISSION_PHONE_DISPLAY}
           </a>
+          {/* Dark text: white on WhatsApp green is 1.98:1, below the 4.5:1 text minimum. */}
           <a
             href={`https://wa.me/${ADMISSION_PHONE.replace("+", "")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#25d366] text-white px-4 py-2 rounded-full text-sm font-semibold"
+            className="bg-[#25d366] text-[#032816] px-4 py-2 rounded-full text-sm font-semibold"
           >
             WhatsApp
           </a>
@@ -101,13 +131,18 @@ export default function PharmacyEnquiryForm({
   }
 
   const err = state?.fieldErrors
-  // Compact (homepage) boxes use 16 px text: below 16 px, iPhone Safari zooms the page on focus.
-  const inputCls = `w-full bg-white/20 border border-white/30 rounded-xl px-4 py-3 text-white placeholder-white/50 ${
-    compact ? "text-base" : "text-sm"
-  } focus:outline-none focus:border-white/60`
+  // 16 px text in every box: below 16 px, iPhone Safari zooms the page on focus (the full form
+  // used 14 px). Border #75867e is 3.84:1 on white and the hint text #5f6b66 is 5.55:1 — the
+  // WCAG minimums are 3:1 for a box edge and 4.5:1 for text.
+  const inputCls =
+    "w-full bg-white border-[1.5px] border-[#75867e] rounded-xl px-4 py-3 text-base text-[#1f2a24] placeholder:text-[#5f6b66] focus:outline-none focus:border-[#0b6d41] focus:ring-[3px] focus:ring-[#0b6d41]/20"
+  const labelCls = "block text-[#032816] text-sm font-semibold mb-1.5"
+  const errCls = "text-[#b42318] text-xs mt-1"
+  // No-break space keeps "24 hrs" on one line: at 375 px the strip box broke it as "24 / hrs".
+  const steps = [compact ? "Fill 3 details" : "Fill your details", "We call in 24 hrs", "Get fee and admission details"]
 
   return (
-    <form action={formAction} className="space-y-5">
+    <form action={formAction} className={`${surface} space-y-4 text-left`}>
       <input type="hidden" name="source_page" value={sourcePage} />
 
       {/* Honeypot. Off-screen rather than display:none - a real browser autofill will not reach
@@ -123,9 +158,26 @@ export default function PharmacyEnquiryForm({
 
       <h2 className="sr-only">{heading}</h2>
 
-      <div className={compact ? "grid grid-cols-1 gap-4" : "grid grid-cols-1 sm:grid-cols-2 gap-4"}>
+      <ol aria-label="What happens next" className="grid grid-cols-3 gap-1.5">
+        {steps.map((step, i) => (
+          <li
+            key={step}
+            className="rounded-xl bg-[#f1f7f3] px-1.5 py-2.5 text-center text-xs font-semibold leading-tight text-[#032816]"
+          >
+            <span
+              aria-hidden="true"
+              className="mx-auto mb-1.5 grid h-6 w-6 place-items-center rounded-full bg-[#ffde59] text-xs font-bold"
+            >
+              {i + 1}
+            </span>
+            {step}
+          </li>
+        ))}
+      </ol>
+
+      <div className={compact ? "grid grid-cols-1 gap-4" : "grid grid-cols-1 min-[640px]:grid-cols-2 gap-4"}>
         <div>
-          <label htmlFor={fid("name")} className="block text-white text-sm font-medium mb-1.5">
+          <label htmlFor={fid("name")} className={labelCls}>
             Your Name <span aria-hidden="true">*</span>
           </label>
           <input
@@ -138,10 +190,10 @@ export default function PharmacyEnquiryForm({
             aria-invalid={!!err?.name}
             className={inputCls}
           />
-          {err?.name && <p className="text-red-200 text-xs mt-1">{err.name}</p>}
+          {err?.name && <p className={errCls}>{err.name}</p>}
         </div>
         <div>
-          <label htmlFor={fid("phone")} className="block text-white text-sm font-medium mb-1.5">
+          <label htmlFor={fid("phone")} className={labelCls}>
             Mobile Number <span aria-hidden="true">*</span>
           </label>
           <input
@@ -155,38 +207,46 @@ export default function PharmacyEnquiryForm({
             aria-invalid={!!err?.phone}
             className={inputCls}
           />
-          {err?.phone && <p className="text-red-200 text-xs mt-1">{err.phone}</p>}
+          {err?.phone && <p className={errCls}>{err.phone}</p>}
         </div>
       </div>
 
-      <div className={compact ? "grid grid-cols-1 gap-4" : "grid grid-cols-1 sm:grid-cols-2 gap-4"}>
+      <div className={compact ? "grid grid-cols-1 gap-4" : "grid grid-cols-1 min-[640px]:grid-cols-2 gap-4"}>
         <div>
-          <label htmlFor={fid("programme")} className="block text-white text-sm font-medium mb-1.5">
+          <label htmlFor={fid("programme")} className={labelCls}>
             Programme Interested In <span aria-hidden="true">*</span>
           </label>
-          <select
-            id={fid("programme")}
-            name="programme"
-            required
-            defaultValue={defaultProgrammeId ?? ""}
-            aria-invalid={!!err?.programme}
-            className={`${inputCls} appearance-none`}
-          >
-            <option value="" disabled className="text-gray-800 bg-white">
-              Select a Programme
-            </option>
-            {PHARMACY_PROGRAMMES.map((p) => (
-              <option key={p.id} value={p.id} className="text-gray-800 bg-white">
-                {p.label}
+          {/* appearance-none hides the native arrow, so draw one: without it the box does not
+              read as a dropdown. */}
+          <div className="relative">
+            <select
+              id={fid("programme")}
+              name="programme"
+              required
+              defaultValue={defaultProgrammeId ?? ""}
+              aria-invalid={!!err?.programme}
+              className={`${inputCls} appearance-none pr-10`}
+            >
+              <option value="" disabled>
+                Select a Programme
               </option>
-            ))}
-          </select>
-          {err?.programme && <p className="text-red-200 text-xs mt-1">{err.programme}</p>}
+              {PHARMACY_PROGRAMMES.map((p) => (
+                <option key={p.id} value={p.id}>
+                  {p.label}
+                </option>
+              ))}
+            </select>
+            <ChevronDown
+              aria-hidden="true"
+              className="pointer-events-none absolute right-3.5 top-1/2 h-5 w-5 -translate-y-1/2 text-[#4b5563]"
+            />
+          </div>
+          {err?.programme && <p className={errCls}>{err.programme}</p>}
         </div>
         {!compact && (
         <div>
-          <label htmlFor={fid("district")} className="block text-white text-sm font-medium mb-1.5">
-            Your District <span className="font-normal opacity-70">(optional)</span>
+          <label htmlFor={fid("district")} className={labelCls}>
+            Your District <span className="font-normal text-[#4b5563]">(optional)</span>
           </label>
           <input
             id={fid("district")}
@@ -201,8 +261,8 @@ export default function PharmacyEnquiryForm({
 
       {!compact && (
       <div>
-        <label htmlFor={fid("question")} className="block text-white text-sm font-medium mb-1.5">
-          Any Questions? <span className="font-normal opacity-70">(optional)</span>
+        <label htmlFor={fid("question")} className={labelCls}>
+          Any Questions? <span className="font-normal text-[#4b5563]">(optional)</span>
         </label>
         <textarea
           id={fid("question")}
@@ -218,20 +278,32 @@ export default function PharmacyEnquiryForm({
       <button
         type="submit"
         disabled={isPending}
-        className="w-full bg-[#ffde59] hover:bg-[#e6c64d] disabled:opacity-60 text-[#032816] font-semibold py-4 rounded-full text-base transition-colors"
+        className="w-full bg-[#0b6d41] hover:bg-[#095a36] disabled:opacity-60 text-white font-bold py-4 rounded-full text-base transition-colors"
       >
         {isPending ? "Submitting…" : compact ? "Get a Call Back" : "Submit Enquiry — Get a Call Back"}
       </button>
 
       {state && !state.success && state.error && (
-        <p className="text-red-200 text-sm text-center" role="alert">
+        <p className="text-[#b42318] text-sm text-center" role="alert">
           {state.error}
         </p>
       )}
 
-      <p className="text-center text-white/70 text-sm">
+      <ul
+        aria-label="Recognition"
+        className="flex flex-wrap justify-center gap-x-3.5 gap-y-1.5 text-[12.5px] font-semibold text-[#032816]"
+      >
+        {TRUST.map((t) => (
+          <li key={t} className="flex items-center gap-1.5">
+            <CheckCircle2 aria-hidden="true" className="h-4 w-4 shrink-0 text-[#0b6d41]" />
+            {t}
+          </li>
+        ))}
+      </ul>
+
+      <p className="text-center text-[#4b5563] text-sm">
         Or call us directly:{" "}
-        <a href={`tel:${ADMISSION_PHONE}`} className="text-white underline">
+        <a href={`tel:${ADMISSION_PHONE}`} className="text-[#0b6d41] font-semibold underline">
           {ADMISSION_PHONE_DISPLAY}
         </a>{" "}
         •{" "}
@@ -239,14 +311,14 @@ export default function PharmacyEnquiryForm({
           href={`https://wa.me/${ADMISSION_PHONE.replace("+", "")}`}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white underline"
+          className="text-[#0b6d41] font-semibold underline"
         >
           WhatsApp
         </a>
       </p>
 
       {compact && (
-        <p className="text-center text-white/60 text-xs">
+        <p className="text-center text-[#5f6b66] text-xs">
           By submitting, you agree to be contacted by our admission team.
         </p>
       )}

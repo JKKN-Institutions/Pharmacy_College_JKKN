@@ -176,10 +176,11 @@ export default function Home() {
             {/* Right Image + Stats + Buttons */}
             <div className="flex flex-col gap-6 mt-6 lg:mt-0">
               {/* lg and up: the 3-box enquiry card takes the photo's place (2026-10-16) */}
-              <div className="hidden lg:block rounded-2xl sm:rounded-3xl bg-[#032816]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
-                <h2 className="text-xl lg:text-2xl font-bold text-white leading-snug">Get pharmacy course fee and admission details</h2>
-                <p className="mt-1 mb-5 text-sm text-gray-200">Fill 3 details. Our admission team will call you within 24 hours.</p>
-                <PharmacyEnquiryForm sourcePage="home-hero" compact />
+              {/* White card, mockup #7 (user's pick 2026-10-22): the form's own 3-step strip replaces the
+                  old sub-line, so the heading sits straight above it. */}
+              <div className="hidden lg:block rounded-[20px] bg-white shadow-[0_18px_40px_rgba(3,40,22,0.35)] p-6 lg:p-7">
+                <h2 className="mb-4 text-xl lg:text-2xl font-bold text-[#032816] leading-snug">Get pharmacy course fee and admission details</h2>
+                <PharmacyEnquiryForm sourcePage="home-hero" compact bare />
               </div>
               <div className="lg:hidden relative w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl">
                 <Image
@@ -1140,9 +1141,10 @@ export default function Home() {
           </div>
 
           {/* The 3-box form where eligibility is read (2026-10-16) */}
-          <div className="max-w-xl mx-auto bg-[#0b6d41] rounded-xl sm:rounded-2xl p-5 sm:p-6 mb-6 sm:mb-8">
-            <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">Check your eligibility with our admission team</h3>
-            <p className="mt-1 mb-5 text-sm sm:text-base text-white/80">Fill 3 details. Our admission team will call you within 24 hours.</p>
+          {/* The form is its own white card now (mockup #7, 2026-10-22) and its 3-step strip says
+              what the old sub-line said; the green box stays as the frame on this section. */}
+          <div className="max-w-xl mx-auto bg-[#0b6d41] rounded-xl sm:rounded-2xl p-3 min-[640px]:p-6 mb-6 sm:mb-8">
+            <h3 className="mb-3 px-1 min-[640px]:px-0 min-[640px]:mb-4 text-xl sm:text-2xl font-bold text-white leading-snug">Check your eligibility with our admission team</h3>
             <PharmacyEnquiryForm sourcePage="home-admissions" compact />
           </div>
 

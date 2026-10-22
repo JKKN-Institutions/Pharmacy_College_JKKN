@@ -781,11 +781,13 @@ export default function BestPharmacyCollegesTamilNadu() {
             placement rate (2024-25). Applications open for B.Pharm, M.Pharm, and
             Pharm.D programs.
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col items-center justify-center gap-4">
+            {/* One column at every width (2026-10-22): this site's sm is 375 px, so sm:flex-row put the
+                form beside the Apply button on a phone - 79 px wide, 34 px boxes, page 410+ px wide. */}
 
             {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
                 cannot POST there directly - the endpoint sends no CORS header. */}
-            <div className="max-w-2xl mx-auto mb-8 text-left">
+            <div className="w-full max-w-2xl mx-auto mb-8 text-left">
               <PharmacyEnquiryForm sourcePage="blog-best" />
             </div>
             <a
