@@ -77,7 +77,7 @@ const relatedArticles = [
       'From school teaching to curriculum development, ed-tech to school administration — discover the best career paths open to B.Ed graduates in 2026...',
     date: 'Feb 18, 2026',
     Icon: Briefcase,
-    gradient: 'from-[#6ba872] to-[#002309]',
+    gradient: 'from-[#0f8f56] to-[#032816]',
   },
   {
     category: 'B.Ed Admissions',
@@ -87,7 +87,7 @@ const relatedArticles = [
       'An honest comparison of B.Ed and D.El.Ed — course duration, eligibility, career scope, salary expectations, and which suits your teaching ambitions...',
     date: 'Feb 5, 2026',
     Icon: ArrowLeftRight,
-    gradient: 'from-[#7cb983] to-[#006837]',
+    gradient: 'from-[#0f8f56] to-[#0b6d41]',
   },
   {
     category: 'Campus Life',
@@ -97,7 +97,7 @@ const relatedArticles = [
       'Follow a typical day of a B.Ed learner at JKKN — from morning sessions and micro-teaching practice to school internships and campus activities...',
     date: 'Feb 8, 2026',
     Icon: ClipboardList,
-    gradient: 'from-[#7cb983] via-[#6ba872] to-[#006837]',
+    gradient: 'from-[#0f8f56] via-[#0f8f56] to-[#0b6d41]',
   },
 ];
 
@@ -241,7 +241,7 @@ export default function BlogDetailPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-6">
         {/* Meta row */}
         <div className="flex flex-wrap items-center gap-3 mb-5">
-          <span className="bg-[#FBFBEE] text-[#006837] text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">
+          <span className="bg-[#FBFBEE] text-[#0b6d41] text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">
             B.Ed Admissions
           </span>
           <div className="flex items-center gap-1.5 text-gray-400 text-sm">
@@ -260,7 +260,7 @@ export default function BlogDetailPage() {
         {/* Author row */}
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full bg-[#FBFBEE] flex items-center justify-center flex-shrink-0">
-            <span className="text-[#006837] font-bold text-sm">JE</span>
+            <span className="text-[#0b6d41] font-bold text-sm">JE</span>
           </div>
           <div>
             <p className="font-semibold text-gray-800 text-sm">By JKKN Education Team</p>
@@ -273,7 +273,7 @@ export default function BlogDetailPage() {
 
       {/* ── Featured Image ── */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
-        <div className="w-full rounded-2xl bg-gradient-to-br from-[#7cb983] via-[#6ba872] to-[#006837] flex flex-col items-center justify-center py-16 sm:py-20 gap-3">
+        <div className="w-full rounded-2xl bg-gradient-to-br from-[#0f8f56] via-[#0f8f56] to-[#0b6d41] flex flex-col items-center justify-center py-16 sm:py-20 gap-3">
           <BookOpen className="w-12 h-12 text-white" strokeWidth={1.5} />
           <p className="text-white font-semibold text-lg">B.Ed Admission Guide 2026 — Featured Image</p>
           <p className="text-white/70 text-sm">JKKN College of Education</p>
@@ -288,12 +288,12 @@ export default function BlogDetailPage() {
           <main className="min-w-0">
 
             {/* Quick Answer */}
-            <div className="bg-[#FBFBEE] border-l-4 border-[#006837] rounded-r-xl p-5 mb-10">
+            <div className="bg-[#FBFBEE] border-l-4 border-[#0b6d41] rounded-r-xl p-5 mb-10">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-5 h-5 rounded-full border-2 border-[#006837] flex items-center justify-center flex-shrink-0">
-                  <span className="text-[#006837] font-bold text-[10px] leading-none">i</span>
+                <div className="w-5 h-5 rounded-full border-2 border-[#0b6d41] flex items-center justify-center flex-shrink-0">
+                  <span className="text-[#0b6d41] font-bold text-[10px] leading-none">i</span>
                 </div>
-                <span className="text-[#006837] font-bold text-xs uppercase tracking-wider">
+                <span className="text-[#0b6d41] font-bold text-xs uppercase tracking-wider">
                   Quick Answer
                 </span>
               </div>
@@ -325,7 +325,7 @@ export default function BlogDetailPage() {
                 <strong>National Council for Teacher Education (NCTE)</strong> and is offered by
                 colleges affiliated to state teacher education universities. In Tamil Nadu, all
                 B.Ed colleges — including{' '}
-                <span className="text-[#006837] font-medium cursor-pointer hover:underline">
+                <span className="text-[#0b6d41] font-medium cursor-pointer hover:underline">
                   JKKN College of Education
                 </span>{' '}
                 — are affiliated to the{' '}
@@ -342,7 +342,7 @@ export default function BlogDetailPage() {
                   ['School Internship:', '16 weeks of practice teaching in partner schools'],
                 ].map(([key, val]) => (
                   <li key={key as string} className="flex items-start gap-2.5 text-gray-600 text-sm">
-                    <span className="w-2 h-2 rounded-full bg-[#006837] mt-1.5 flex-shrink-0" />
+                    <span className="w-2 h-2 rounded-full bg-[#0b6d41] mt-1.5 flex-shrink-0" />
                     <span>
                       <strong>{key}</strong> {val}
                     </span>
@@ -457,7 +457,7 @@ export default function BlogDetailPage() {
                   </tbody>
                 </table>
               </div>
-              <div className="bg-[#FBFBEE] border-l-4 border-[#006837] rounded-r-xl p-4">
+              <div className="bg-[#FBFBEE] border-l-4 border-[#0b6d41] rounded-r-xl p-4">
                 <p className="text-sm text-gray-700">
                   At <strong>JKKN College of Education</strong>, learners complete their
                   school internship at partner schools across Komarapalayam, Namakkal, and
@@ -578,7 +578,7 @@ export default function BlogDetailPage() {
                   <strong className="text-amber-700">Note:</strong> JKKN College of Education fee
                   structure for 2026-27 is subject to government fee committee regulation. Contact
                   admissions for current fees:{' '}
-                  <span className="text-[#006837] font-semibold">+91 9345855001</span>
+                  <span className="text-[#0b6d41] font-semibold">+91 9345855001</span>
                 </p>
               </div>
             </section>
@@ -637,7 +637,7 @@ export default function BlogDetailPage() {
                   ],
                 ].map(([title, desc], i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <span className="w-7 h-7 rounded-full bg-[#006837] text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="w-7 h-7 rounded-full bg-[#0b6d41] text-white font-bold text-xs flex items-center justify-center flex-shrink-0 mt-0.5">
                       {i + 1}
                     </span>
                     <span className="text-gray-600 text-sm leading-relaxed">
@@ -648,7 +648,7 @@ export default function BlogDetailPage() {
               </ol>
 
               {/* Mid-content CTA */}
-              <div className="relative rounded-2xl bg-gradient-to-br from-[#7cb983] via-[#6ba872] to-[#006837] p-8 text-center overflow-hidden">
+              <div className="relative rounded-2xl bg-gradient-to-br from-[#0f8f56] via-[#0f8f56] to-[#0b6d41] p-8 text-center overflow-hidden">
                 <div className="absolute top-3 right-6 w-20 h-20 rounded-full bg-white/10 pointer-events-none" />
                 <div className="absolute bottom-3 left-4 w-12 h-12 rounded-full bg-white/10 pointer-events-none" />
                 <h3 className="text-xl font-bold text-white mb-2 relative z-10">
@@ -659,7 +659,7 @@ export default function BlogDetailPage() {
                   TNTEU affiliated, and 98% placement rate.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center relative z-10">
-                  <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-slug" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] font-semibold px-6 py-2.5 rounded-lg text-sm hover:bg-gray-100 transition-colors">
+                  <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-slug" target="_blank" rel="noopener noreferrer" className="bg-white text-[#0b6d41] font-semibold px-6 py-2.5 rounded-lg text-sm hover:bg-gray-100 transition-colors">
                     Apply Now →
                   </a>
                   <a href="tel:+919345855001" className="border border-white/50 text-white font-semibold px-6 py-2.5 rounded-lg text-sm hover:bg-white/10 transition-colors">
@@ -708,7 +708,7 @@ export default function BlogDetailPage() {
                   },
                 ].map(({ num, title, desc }) => (
                   <div key={num} className="flex gap-4">
-                    <span className="w-8 h-8 rounded-full bg-[#006837] text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="w-8 h-8 rounded-full bg-[#0b6d41] text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                       {num}
                     </span>
                     <div>
@@ -762,7 +762,7 @@ export default function BlogDetailPage() {
                   ],
                 ].map(([bold, rest], i) => (
                   <div key={i} className="flex gap-4">
-                    <span className="w-8 h-8 rounded-full bg-[#006837] text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="w-8 h-8 rounded-full bg-[#0b6d41] text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                       {i + 1}
                     </span>
                     <p className="text-gray-600 text-sm leading-relaxed pt-1">
@@ -788,9 +788,9 @@ export default function BlogDetailPage() {
                       <span className="font-semibold text-gray-800 text-sm pr-4">{faq.q}</span>
                       <div className="w-6 h-6 rounded-full bg-[#FBFBEE] flex items-center justify-center flex-shrink-0">
                         {openFaq === i ? (
-                          <ChevronUp className="w-3.5 h-3.5 text-[#006837]" />
+                          <ChevronUp className="w-3.5 h-3.5 text-[#0b6d41]" />
                         ) : (
-                          <span className="text-[#006837] text-base font-bold leading-none">
+                          <span className="text-[#0b6d41] text-base font-bold leading-none">
                             &times;
                           </span>
                         )}
@@ -811,7 +811,7 @@ export default function BlogDetailPage() {
               </p>
               <div className="flex gap-4">
                 <div className="w-16 h-16 rounded-xl bg-[#FBFBEE] flex items-center justify-center flex-shrink-0">
-                  <span className="text-[#006837] font-bold text-lg">JE</span>
+                  <span className="text-[#0b6d41] font-bold text-lg">JE</span>
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-900 mb-1">JKKN Education Team</h4>
@@ -821,7 +821,7 @@ export default function BlogDetailPage() {
                     pathways. The senior learners include experienced teacher-educators and researchers
                     affiliated to Tamil Nadu Teachers Education University (TNTEU).
                   </p>
-                  <button className="text-[#006837] font-semibold text-sm hover:underline">
+                  <button className="text-[#0b6d41] font-semibold text-sm hover:underline">
                     More articles by this author →
                   </button>
                 </div>
@@ -888,7 +888,7 @@ export default function BlogDetailPage() {
               {/* Table of Contents */}
               <div className="border border-gray-200 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-4">
-                  <AlignLeft className="w-4 h-4 text-[#006837]" />
+                  <AlignLeft className="w-4 h-4 text-[#0b6d41]" />
                   <span className="font-bold text-gray-800 text-xs uppercase tracking-wider">
                     Table of Contents
                   </span>
@@ -900,7 +900,7 @@ export default function BlogDetailPage() {
                       onClick={() => scrollToSection(item.id)}
                       className={`w-full text-left px-2 py-1.5 rounded text-sm transition-colors ${
                         activeSection === item.id
-                          ? 'text-[#006837] font-semibold'
+                          ? 'text-[#0b6d41] font-semibold'
                           : 'text-gray-500 hover:text-gray-800'
                       }`}
                     >
@@ -911,10 +911,10 @@ export default function BlogDetailPage() {
               </div>
 
               {/* CTA Card */}
-              <div className="bg-[#FBFBEE] border border-[#7cb983]/40 rounded-xl p-5">
+              <div className="bg-[#FBFBEE] border border-[#0f8f56]/40 rounded-xl p-5">
                 <div className="flex items-center gap-1.5 mb-2">
-                  <span className="w-2 h-2 rounded-full bg-green-500" />
-                  <span className="text-green-600 text-xs font-bold uppercase tracking-wide">
+                  <span className="w-2 h-2 rounded-full bg-[#0f8f56]" />
+                  <span className="text-[#0b6d41] text-xs font-bold uppercase tracking-wide">
                     Open
                   </span>
                 </div>
@@ -922,10 +922,10 @@ export default function BlogDetailPage() {
                 <p className="text-gray-500 text-xs mb-4">
                   100 Seats Available at JKKN College of Education, Komarapalayam
                 </p>
-                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-slug" target="_blank" rel="noopener noreferrer" className="block w-full bg-[#006837] text-white font-semibold text-sm py-2.5 rounded-lg hover:bg-[#004d28] transition-colors text-center">
+                <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=blog-slug" target="_blank" rel="noopener noreferrer" className="block w-full bg-[#0b6d41] text-white font-semibold text-sm py-2.5 rounded-lg hover:bg-[#085032] transition-colors text-center">
                   Apply Now →
                 </a>
-                <a href="tel:+919345855001" className="block text-center text-[#006837] text-xs font-medium mt-3">
+                <a href="tel:+919345855001" className="block text-center text-[#0b6d41] text-xs font-medium mt-3">
                   +91 9345855001
                 </a>
               </div>
@@ -933,7 +933,7 @@ export default function BlogDetailPage() {
               {/* Email Subscribe */}
               <div className="border border-gray-200 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-1">
-                  <Mail className="w-4 h-4 text-[#006837]" />
+                  <Mail className="w-4 h-4 text-[#0b6d41]" />
                   <span className="font-bold text-gray-800 text-sm">Teacher Education Updates</span>
                 </div>
                 <p className="text-gray-400 text-xs mb-4">
@@ -942,7 +942,7 @@ export default function BlogDetailPage() {
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm mb-2 focus:outline-none focus:border-[#006837] transition-colors"
+                  className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm mb-2 focus:outline-none focus:border-[#0b6d41] transition-colors"
                 />
                 <button className="w-full bg-gray-900 text-white font-semibold text-sm py-2.5 rounded-lg hover:bg-gray-700 transition-colors">
                   Subscribe
@@ -955,7 +955,7 @@ export default function BlogDetailPage() {
               {/* Popular Posts */}
               <div className="border border-gray-200 rounded-xl p-5">
                 <div className="flex items-center gap-2 mb-4">
-                  <TrendingUp className="w-4 h-4 text-[#006837]" />
+                  <TrendingUp className="w-4 h-4 text-[#0b6d41]" />
                   <span className="font-bold text-gray-800 text-xs uppercase tracking-wider">
                     Popular Posts
                   </span>
@@ -963,10 +963,10 @@ export default function BlogDetailPage() {
                 <div className="space-y-4">
                   {popularPosts.map((post, i) => (
                     <div key={i} className="group cursor-pointer">
-                      <span className="bg-[#FBFBEE] text-[#006837] text-xs font-bold px-2 py-0.5 rounded-full">
+                      <span className="bg-[#FBFBEE] text-[#0b6d41] text-xs font-bold px-2 py-0.5 rounded-full">
                         {post.category}
                       </span>
-                      <p className="text-sm font-semibold text-gray-800 mt-1.5 mb-0.5 group-hover:text-[#006837] transition-colors leading-snug">
+                      <p className="text-sm font-semibold text-gray-800 mt-1.5 mb-0.5 group-hover:text-[#0b6d41] transition-colors leading-snug">
                         {post.title}
                       </p>
                       <p className="text-xs text-gray-400">{post.date}</p>
@@ -985,7 +985,7 @@ export default function BlogDetailPage() {
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-2xl font-bold text-gray-900">Related Articles</h2>
-            <button className="text-[#006837] font-semibold text-sm hover:underline">
+            <button className="text-[#0b6d41] font-semibold text-sm hover:underline">
               View all posts →
             </button>
           </div>
@@ -1004,7 +1004,7 @@ export default function BlogDetailPage() {
                   </div>
                   <div className="p-5">
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="bg-[#FBFBEE] text-[#006837] text-xs font-bold px-2 py-0.5 rounded-full">
+                      <span className="bg-[#FBFBEE] text-[#0b6d41] text-xs font-bold px-2 py-0.5 rounded-full">
                         {article.category}
                       </span>
                       <span className="text-gray-400 text-xs flex items-center gap-1">

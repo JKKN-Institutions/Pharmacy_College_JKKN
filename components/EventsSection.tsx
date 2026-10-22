@@ -105,10 +105,10 @@ export default function EventsSection() {
     <section className="py-8 sm:py-12 md:py-16">
       <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
         <div className="text-center mb-6 sm:mb-8">
-          <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+          <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
             Events
           </p>
-          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+          <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-2 sm:mb-3">
             Campus Events &amp; Activities
           </h2>
         </div>
@@ -131,17 +131,17 @@ export default function EventsSection() {
                 </div>
               ) : (
                 <div className="h-48 bg-[#FBFBEE] flex items-center justify-center">
-                  <Calendar className="w-12 h-12 text-[#006837]/30" />
+                  <Calendar className="w-12 h-12 text-[#0b6d41]/30" />
                 </div>
               )}
               <div className="p-4 sm:p-5">
                 {event.event_date && (
-                  <p className="text-xs text-[#7cb983] font-semibold mb-1.5 flex items-center gap-1.5">
+                  <p className="text-xs text-[#0b6d41] font-semibold mb-1.5 flex items-center gap-1.5">
                     <Calendar className="w-3.5 h-3.5" />
                     {formatDate(event.event_date)}
                   </p>
                 )}
-                <h3 className="text-sm sm:text-base font-bold text-[#006837] mb-2 line-clamp-2 group-hover:text-[#005a2e] transition-colors">
+                <h3 className="text-sm sm:text-base font-bold text-[#0b6d41] mb-2 line-clamp-2 group-hover:text-[#085032] transition-colors">
                   {event.title}
                 </h3>
                 {event.description && (

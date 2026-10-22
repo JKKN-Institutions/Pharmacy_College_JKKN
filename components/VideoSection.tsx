@@ -72,7 +72,7 @@ export default function VideoSection() {
       ))}
 
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#0b6d41] mb-2">JKKN Pharmacy — Campus &amp; Facilities</h2>
         <p className="text-sm sm:text-base text-gray-600 mb-8">Watch our campus tour, learning lab facilities, and placement success stories.</p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -89,7 +89,7 @@ export default function VideoSection() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="text-sm sm:text-base font-semibold text-[#006837] leading-snug">{v.title}</h3>
+                <h3 className="text-sm sm:text-base font-semibold text-[#0b6d41] leading-snug">{v.title}</h3>
                 <p className="text-xs text-gray-500 mt-1 line-clamp-2">{v.description}</p>
               </div>
             </div>

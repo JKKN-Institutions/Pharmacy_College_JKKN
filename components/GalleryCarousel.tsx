@@ -26,7 +26,7 @@ export default function GalleryCarousel({ albumName, albumDescription, items }: 
   return (
     <div className="mb-12">
       {/* Album heading */}
-      <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#002309] mb-2">
+      <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-[#032816] mb-2">
         {albumName}
       </h2>
       {albumDescription && (
@@ -82,7 +82,7 @@ export default function GalleryCarousel({ albumName, albumDescription, items }: 
               key={i}
               onClick={() => setPage(i)}
               className={`w-2.5 h-2.5 rounded-full transition-colors ${
-                i === page ? 'bg-[#0F6B3E]' : 'bg-gray-300'
+                i === page ? 'bg-[#0b6d41]' : 'bg-gray-300'
               }`}
               aria-label={`Go to page ${i + 1}`}
             />

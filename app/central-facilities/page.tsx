@@ -9,16 +9,16 @@ export default function CentralFacilitiesPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Central Facilities
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Intro Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
             <ul className="space-y-4 text-gray-700 leading-relaxed">
               {[
                 'The JKKN College of Pharmacy is well equipped with learning labs and equipment to give the learners hands-on training in the field of pharmacy. The college has a sufficient number of learning labs for postgraduate training in all the major areas of pharmacy. The learning labs are well furnished and designed to permit learners ample working space. All security measures have been put in place to assist in case of emergencies. The area of the laboratories complies with PCI standards (90sqM) and the types of equipment are maintained as per PCI guidelines. Every six months an audit of chemicals is conducted by the lab attendants.',
@@ -38,7 +38,7 @@ export default function CentralFacilitiesPage() {
                 'Each department also has a separate specialised instrument laboratory to fulfil individual departmental needs based on the research programmes, which includes',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-justify">{item}</span>
                 </li>
               ))}
@@ -47,7 +47,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmaceutical Analysis */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Department of Pharmaceutical Analysis</h2>
             </div>
             <ul className="p-8 space-y-3">
@@ -64,7 +64,7 @@ export default function CentralFacilitiesPage() {
                 '10. Weighing Balance',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}
@@ -73,7 +73,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmaceutics */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Department of Pharmaceutics</h2>
             </div>
             <ul className="p-8 space-y-3">
@@ -98,7 +98,7 @@ export default function CentralFacilitiesPage() {
                 '18. Friabilator',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}
@@ -107,7 +107,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmacology */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Department of Pharmacology</h2>
             </div>
             <ul className="p-8 space-y-3">
@@ -122,7 +122,7 @@ export default function CentralFacilitiesPage() {
                 '8. Open-Field test apparatus',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}
@@ -131,7 +131,7 @@ export default function CentralFacilitiesPage() {
 
           {/* Department of Pharmaceutical Chemistry */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Department of Pharmaceutical Chemistry</h2>
             </div>
             <ul className="p-8 space-y-3">
@@ -154,7 +154,7 @@ export default function CentralFacilitiesPage() {
                 '16. Mechanical stirrer',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
-                  <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">{item}</span>
                 </li>
               ))}

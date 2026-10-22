@@ -37,7 +37,7 @@ export default function EqualOpportunityCellPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Equal Opportunity Cell (Eoc)
@@ -57,12 +57,12 @@ export default function EqualOpportunityCellPage() {
 
           {/* Guidelines */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">Guidelines:</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">Guidelines:</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
               {guidelines.map((item, index) => (
                 <div key={index} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6 flex flex-col gap-2 hover:shadow-md transition-shadow duration-200">
-                  <div className="w-8 h-1 rounded-full bg-[#7cb983] mb-1" />
-                  <h3 className="text-sm sm:text-base font-semibold text-[#006837]">{item.title}</h3>
+                  <div className="w-8 h-1 rounded-full bg-[#ffde59] mb-1" />
+                  <h3 className="text-sm sm:text-base font-semibold text-[#0b6d41]">{item.title}</h3>
                   <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">{item.desc}</p>
                 </div>
               ))}
@@ -71,7 +71,7 @@ export default function EqualOpportunityCellPage() {
 
           {/* Objectives */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Objectives:</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">Objectives:</h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
               <ul className="space-y-4">
                 {[
@@ -81,7 +81,7 @@ export default function EqualOpportunityCellPage() {
                   'Evaluates policies and implements reforms to enhance fairness and accessibility.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -90,7 +90,7 @@ export default function EqualOpportunityCellPage() {
           </section>
 
           {/* Closing Statement */}
-          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
+          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#0f8f56] p-6 sm:p-8">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               The <strong>Equal Opportunity Cell</strong> at <strong>JKKNCP</strong> plays a pivotal role in shaping an environment where <strong>every individual is valued, supported, and empowered to succeed</strong>.
             </p>
@@ -102,7 +102,7 @@ export default function EqualOpportunityCellPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-left font-semibold">Sl. No.</th>
                       <th className="px-6 py-4 text-left font-semibold">Name of the Member</th>
                       <th className="px-6 py-4 text-left font-semibold">Designation</th>

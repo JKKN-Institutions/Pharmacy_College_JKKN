@@ -17,13 +17,13 @@ export default function NIRF2024Page() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-24">
             {/* Nirf Submitted Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 Nirf Submitted
               </h2>
               <a
                 href="/pdf/NIRF-2024-Nirf-Submitted.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>
@@ -31,13 +31,13 @@ export default function NIRF2024Page() {
 
             {/* Innovation-Submitted Section */}
             <div>
-              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#6B8E23] mb-6 sm:mb-8">
+              <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#0b6d41] mb-6 sm:mb-8">
                 Innovation-Submitted
               </h2>
               <a
                 href="/pdf/NIRF-2024-Innovation-Submitted.pdf"
                 download
-                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#E8E8F0] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#D8D8E8] transition-colors"
+                className="inline-block px-8 sm:px-10 md:px-12 py-3 sm:py-4 bg-[#d4f1e4] text-[#5A5A6B] font-semibold text-base sm:text-lg rounded hover:bg-[#ffea9a] transition-colors"
               >
                 Download
               </a>

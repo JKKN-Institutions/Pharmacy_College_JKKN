@@ -67,7 +67,7 @@ export default function BPharmLateralEntryPage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-6 lg:px-8">
+      <div className="relative bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Title */}
           <div className="mb-6">
@@ -88,11 +88,11 @@ export default function BPharmLateralEntryPage() {
 
           {/* Badges */}
           <div className="flex flex-wrap gap-4 mb-12">
-            <span className="bg-[#7cb983] text-white px-6 py-3 rounded-full font-semibold text-[8px] xs:text-[10px] sm:text-sm">
+            <span className="bg-[#ffde59] text-[#032816] px-6 py-3 rounded-full font-semibold text-[8px] xs:text-[10px] sm:text-sm">
               PCI Approved
             </span>
 
-            <span className="bg-[#7cb983] text-white px-6 py-3 rounded-full font-semibold text-[8px] xs:text-[10px] sm:text-sm">
+            <span className="bg-[#ffde59] text-[#032816] px-6 py-3 rounded-full font-semibold text-[8px] xs:text-[10px] sm:text-sm">
               NAAC Accredited
             </span>
           </div>
@@ -139,7 +139,7 @@ export default function BPharmLateralEntryPage() {
       </div>
 
       {/* Transform Your Future Section */}
-      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-6 lg:px-8">
+      <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">
             B.Pharm Learning Lab Facilities
@@ -159,11 +159,11 @@ export default function BPharmLateralEntryPage() {
         <div className="snippet-answer speakable-summary mb-16">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-6 h-6" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               What is B.Pharm (Bachelor of Pharmacy)?
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-4">
             <strong>Bachelor of Pharmacy (B.Pharm)</strong> is a 4-year undergraduate professional degree programme approved by the <strong>Pharmacy Council of India (PCI)</strong>. This comprehensive programme prepares Learners for diverse careers in the pharmaceutical industry, hospital pharmacy, community pharmacy, research and development, regulatory affairs, and pharmaceutical marketing.
@@ -174,7 +174,7 @@ export default function BPharmLateralEntryPage() {
           </p>
 
           {/* Why Choose B.Pharm Box */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-6 rounded-r-lg">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-6 rounded-r-lg">
             <div className="flex items-center gap-2 mb-4">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Why Choose B.Pharm?</h3>
@@ -184,37 +184,37 @@ export default function BPharmLateralEntryPage() {
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Versatile Career Options:</strong> Manufacturing, QC, QA, R&D, marketing, hospital pharmacy, regulatory affairs, academia
+                  <strong className="text-[#0b6d41]">Versatile Career Options:</strong> Manufacturing, QC, QA, R&D, marketing, hospital pharmacy, regulatory affairs, academia
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Growing Industry:</strong> India&apos;s pharmaceutical sector worth $50+ billion, growing 10-12% annually
+                  <strong className="text-[#0b6d41]">Growing Industry:</strong> India&apos;s pharmaceutical sector worth $50+ billion, growing 10-12% annually
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Global Opportunities:</strong> Indian pharmacists in demand worldwide - USA, UK, Gulf, Australia, Canada
+                  <strong className="text-[#0b6d41]">Global Opportunities:</strong> Indian pharmacists in demand worldwide - USA, UK, Gulf, Australia, Canada
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Entrepreneurship Scope:</strong> Open retail pharmacy, start manufacturing unit, or distribution business
+                  <strong className="text-[#0b6d41]">Entrepreneurship Scope:</strong> Open retail pharmacy, start manufacturing unit, or distribution business
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Higher Studies Pathway:</strong> <Link href="/m-pharmacy" className="text-[#006837] font-semibold hover:underline">M.Pharm</Link>, MBA, <Link href="/pharm-d" className="text-[#006837] font-semibold hover:underline">Pharm.D (PB)</Link>, <Link href="/phd" className="text-[#006837] font-semibold hover:underline">PhD</Link>, MS abroad
+                  <strong className="text-[#0b6d41]">Higher Studies Pathway:</strong> <Link href="/m-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">M.Pharm</Link>, MBA, <Link href="/pharm-d" className="text-[#0b6d41] font-semibold hover:underline">Pharm.D (PB)</Link>, <Link href="/phd" className="text-[#0b6d41] font-semibold hover:underline">PhD</Link>, MS abroad
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Government Jobs:</strong> Drug Inspector, Government Pharmacist, GPSC/UPSC pharmaceutical posts
+                  <strong className="text-[#0b6d41]">Government Jobs:</strong> Drug Inspector, Government Pharmacist, GPSC/UPSC pharmaceutical posts
                 </div>
               </li>
             </ul>
@@ -224,19 +224,19 @@ export default function BPharmLateralEntryPage() {
         {/* Three Facility Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           {/* Modern Pharmacy Laboratory */}
-          <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
+          <div className="bg-gradient-to-b from-[#0b6d41] to-[#0f8f56] text-white rounded-lg p-8 text-center">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Modern Pharmacy Learning Lab</h3>
             <p className="text-xs sm:text-sm font-semibold">Advanced Learning Labs</p>
           </div>
 
           {/* Industrial Training */}
-          <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
+          <div className="bg-gradient-to-b from-[#0b6d41] to-[#0f8f56] text-white rounded-lg p-8 text-center">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Industrial Training</h3>
             <p className="text-xs sm:text-sm font-semibold">Industrial Training Programme</p>
           </div>
 
           {/* Research Facilities */}
-          <div className="bg-gradient-to-b from-[#006837] to-[#7cb983] text-white rounded-lg p-8 text-center">
+          <div className="bg-gradient-to-b from-[#0b6d41] to-[#0f8f56] text-white rounded-lg p-8 text-center">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold mb-8">Research Facilities</h3>
             <p className="text-xs sm:text-sm font-semibold">Advanced Research Facilities</p>
           </div>
@@ -246,28 +246,28 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <Target className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               B.Pharm vs B.Pharm Lateral Entry - Complete Comparison
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* B.Pharm Regular */}
-            <div className="border-t-4 border-[#7cb983] bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="border-t-4 border-[#0f8f56] bg-white shadow-lg rounded-lg overflow-hidden">
               <div className="p-8">
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-center text-gray-900 mb-6">
-                  <Link href="/b-pharmacy" className="text-[#006837] hover:underline">B.Pharm (Regular)</Link>
+                  <Link href="/b-pharmacy" className="text-[#0b6d41] hover:underline">B.Pharm (Regular)</Link>
                 </h3>
                 <div className="flex justify-center mb-6">
-                  <span className="bg-[#006837] text-white px-6 py-2 rounded-full font-semibold">
+                  <span className="bg-[#0b6d41] text-white px-6 py-2 rounded-full font-semibold">
                     4 Years After 12th
                   </span>
                 </div>
 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Eligibility:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Eligibility:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -289,7 +289,7 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Programme Structure:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Programme Structure:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -311,7 +311,7 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Best For:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Best For:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -332,20 +332,20 @@ export default function BPharmLateralEntryPage() {
             </div>
 
             {/* B.Pharm Lateral Entry */}
-            <div className="border-t-4 border-[#7cb983] bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="border-t-4 border-[#0f8f56] bg-white shadow-lg rounded-lg overflow-hidden">
               <div className="p-8">
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-center text-gray-900 mb-6">
                   B.Pharm (Lateral Entry)
                 </h3>
                 <div className="flex justify-center mb-6">
-                  <span className="bg-[#7cb983] text-white px-6 py-2 rounded-full font-semibold">
+                  <span className="bg-[#ffde59] text-[#032816] px-6 py-2 rounded-full font-semibold">
                     3 Years After D.Pharm
                   </span>
                 </div>
 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Eligibility:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Eligibility:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -367,7 +367,7 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Programme Structure:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Programme Structure:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -389,7 +389,7 @@ export default function BPharmLateralEntryPage() {
                   </div>
 
                   <div>
-                    <h4 className="font-bold text-[#006837] mb-3">Best For:</h4>
+                    <h4 className="font-bold text-[#0b6d41] mb-3">Best For:</h4>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -412,7 +412,7 @@ export default function BPharmLateralEntryPage() {
         </div>
 
         {/* Key Points About B.Pharm Lateral Entry */}
-        <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg mb-16">
+        <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg mb-16">
           <div className="flex items-center gap-2 mb-6">
             <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Key Points About B.Pharm Lateral Entry:</h3>
@@ -422,31 +422,31 @@ export default function BPharmLateralEntryPage() {
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">Same Degree:</strong> Graduates receive identical B.Pharm degree - no distinction on certificate
+                <strong className="text-[#0b6d41]">Same Degree:</strong> Graduates receive identical B.Pharm degree - no distinction on certificate
               </div>
             </li>
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">Equal Recognition:</strong> PCI, employers, and universities treat regular and lateral entry graduates equally
+                <strong className="text-[#0b6d41]">Equal Recognition:</strong> PCI, employers, and universities treat regular and lateral entry graduates equally
               </div>
             </li>
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">Career Parity:</strong> Same job opportunities, salary, and growth prospects
+                <strong className="text-[#0b6d41]">Career Parity:</strong> Same job opportunities, salary, and growth prospects
               </div>
             </li>
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">M.Pharm Eligible:</strong> Both pathways eligible for GPAT and M.Pharm admission
+                <strong className="text-[#0b6d41]">M.Pharm Eligible:</strong> Both pathways eligible for GPAT and M.Pharm admission
               </div>
             </li>
             <li className="flex items-start">
               <span className="mr-3">•</span>
               <div>
-                <strong className="text-[#006837]">Prior Learning Recognised:</strong> D.Pharm foundation subjects not repeated
+                <strong className="text-[#0b6d41]">Prior Learning Recognised:</strong> D.Pharm foundation subjects not repeated
               </div>
             </li>
           </ul>
@@ -460,74 +460,74 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <BarChart className="w-10 h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               B.Pharm vs B.Pharm Lateral Entry - Parameter Comparison
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="overflow-x-auto">
             <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                   <th className="py-4 px-6 text-left font-bold">Parameter</th>
                   <th className="py-4 px-6 text-left font-bold">B.Pharm (Regular)</th>
                   <th className="py-4 px-6 text-left font-bold">B.Pharm (Lateral Entry)</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Entry Point</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entry Point</td>
                   <td className="py-4 px-6 text-gray-700">After 10+2 (12th standard)</td>
                   <td className="py-4 px-6 text-gray-700">After D.Pharm diploma</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Duration</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Duration</td>
                   <td className="py-4 px-6 text-gray-700">4 years (8 semesters)</td>
                   <td className="py-4 px-6 text-gray-700">3 years (6 semesters) - joins 2nd year</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Entrance Exam</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
                   <td className="py-4 px-6 text-gray-700">State CET/NEET (varies by state)</td>
                   <td className="py-4 px-6 text-gray-700">State Lateral Entry CET or merit-based</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Eligibility Marks</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Eligibility Marks</td>
                   <td className="py-4 px-6 text-gray-700">10+2: 50% in PCB/PCM (45% reserved)</td>
                   <td className="py-4 px-6 text-gray-700">D.Pharm: 50% aggregate (45% reserved)</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Age Limit</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
                   <td className="py-4 px-6 text-gray-700">Typically 17-25 years</td>
                   <td className="py-4 px-6 text-gray-700">No upper age limit</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Foundation Subjects</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Foundation Subjects</td>
                   <td className="py-4 px-6 text-gray-700">Covered in 1st year</td>
                   <td className="py-4 px-6 text-gray-700">Assumed from D.Pharm, not repeated</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Fees (Approximate)</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Fees (Approximate)</td>
                   <td className="py-4 px-6 text-gray-700">₹3-8 lakhs (4 years total)</td>
                   <td className="py-4 px-6 text-gray-700">₹2.25-6 lakhs (3 years)</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Degree Certificate</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Degree Certificate</td>
                   <td className="py-4 px-6 text-gray-700">Bachelor of Pharmacy (B.Pharm)</td>
                   <td className="py-4 px-6 text-gray-700">Bachelor of Pharmacy (B.Pharm) - Identical</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Career Opportunities</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Career Opportunities</td>
                   <td className="py-4 px-6 text-gray-700">All pharmacy careers</td>
                   <td className="py-4 px-6 text-gray-700">All pharmacy careers - Same</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">M.Pharm Eligibility</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">M.Pharm Eligibility</td>
                   <td className="py-4 px-6 text-gray-700">Yes, GPAT eligible</td>
                   <td className="py-4 px-6 text-gray-700">Yes, GPAT eligible - Same</td>
                 </tr>
-                <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Starting Salary</td>
+                <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Starting Salary</td>
                   <td className="py-4 px-6 text-gray-700">₹18,000 - 35,000/month</td>
                   <td className="py-4 px-6 text-gray-700">₹18,000 - 35,000/month - Same</td>
                 </tr>
@@ -537,7 +537,7 @@ export default function BPharmLateralEntryPage() {
         </div>
 
         {/* Pharmaceutical Industry Career Opportunities Section */}
-        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-8 rounded-lg mb-16">
+        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-8 rounded-lg mb-16">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-center">
             Pharmaceutical Industry Career Opportunities
           </h2>
@@ -547,45 +547,45 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Eligibility Criteria - B.Pharm Admission 2026
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           {/* B.Pharm Regular Entry Eligibility */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               B.Pharm Regular Entry Eligibility
             </h3>
 
             <div className="overflow-x-auto">
               <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
                 <thead>
-                  <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                  <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                     <th className="py-4 px-6 text-left font-bold">Criteria</th>
                     <th className="py-4 px-6 text-left font-bold">Requirement</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Educational Qualification</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Educational Qualification</td>
                     <td className="py-4 px-6 text-gray-700">10+2 (Higher Secondary) with Physics, Chemistry, and Biology OR Mathematics</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Minimum Marks</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Minimum Marks</td>
                     <td className="py-4 px-6 text-gray-700">50% aggregate in PCB/PCM (45% for SC/ST candidates)</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Entrance Exam</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
                     <td className="py-4 px-6 text-gray-700">State-level CET / NEET (varies by state)</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Age Limit</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
                     <td className="py-4 px-6 text-gray-700">Minimum 17 years as on December 31st. Maximum typically 25 years.</td>
                   </tr>
-                  <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Nationality</td>
+                  <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Nationality</td>
                     <td className="py-4 px-6 text-gray-700">Indian nationals / NRI / Foreign nationals (separate quota)</td>
                   </tr>
                 </tbody>
@@ -595,37 +595,37 @@ export default function BPharmLateralEntryPage() {
 
           {/* B.Pharm Lateral Entry Eligibility */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               B.Pharm Lateral Entry Eligibility
             </h3>
 
             <div className="overflow-x-auto">
               <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
                 <thead>
-                  <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                  <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                     <th className="py-4 px-6 text-left font-bold">Criteria</th>
                     <th className="py-4 px-6 text-left font-bold">Requirement</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Educational Qualification</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Educational Qualification</td>
                     <td className="py-4 px-6 text-gray-700">Diploma in Pharmacy (D.Pharm) from PCI-approved institution</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Minimum Marks</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Minimum Marks</td>
                     <td className="py-4 px-6 text-gray-700">50% aggregate in D.Pharm (45% for SC/ST/OBC candidates)</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Entrance Exam</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
                     <td className="py-4 px-6 text-gray-700">State Lateral Entry CET / Merit-based / Direct admission</td>
                   </tr>
-                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Age Limit</td>
+                  <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
                     <td className="py-4 px-6 text-gray-700">No upper age limit (ideal for working professionals)</td>
                   </tr>
-                  <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                    <td className="py-4 px-6 font-semibold text-[#006837]">Gap Year</td>
+                  <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                    <td className="py-4 px-6 font-semibold text-[#0b6d41]">Gap Year</td>
                     <td className="py-4 px-6 text-gray-700">Generally acceptable - check specific college requirements</td>
                   </tr>
                 </tbody>
@@ -634,7 +634,7 @@ export default function BPharmLateralEntryPage() {
           </div>
 
           {/* Documents Required */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
               <FileText className="w-6 h-6" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Documents Required for Admission:</h3>
@@ -689,11 +689,11 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               B.Pharm Learning Framework - Year-wise Subjects
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <p className="text-xs sm:text-sm leading-relaxed mb-8">
             The B.Pharm learning framework follows the <strong>Pharmacy Council of India (PCI)</strong> prescribed syllabus, ensuring uniformity and quality across all approved institutions. The programme combines theoretical knowledge with practical skills through 8 semesters of rigorous training.
@@ -703,8 +703,8 @@ export default function BPharmLateralEntryPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
             {/* Year 1 */}
             <div className="border-2 border-gray-300 rounded-lg p-6">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Year 1</h3>
-              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#006837] mb-4">Foundation Sciences</h4>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Year 1</h3>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#0b6d41] mb-4">Foundation Sciences</h4>
 
               <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-start">
@@ -740,8 +740,8 @@ export default function BPharmLateralEntryPage() {
 
             {/* Year 2 */}
             <div className="border-2 border-gray-300 rounded-lg p-6">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Year 2</h3>
-              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#006837] mb-4">Core Pharmaceutical Sciences</h4>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Year 2</h3>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#0b6d41] mb-4">Core Pharmaceutical Sciences</h4>
 
               <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-start">
@@ -777,8 +777,8 @@ export default function BPharmLateralEntryPage() {
 
             {/* Year 3 */}
             <div className="border-2 border-gray-300 rounded-lg p-6">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Year 3</h3>
-              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#006837] mb-4">Advanced Drug Sciences</h4>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Year 3</h3>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#0b6d41] mb-4">Advanced Drug Sciences</h4>
 
               <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-start">
@@ -814,8 +814,8 @@ export default function BPharmLateralEntryPage() {
 
             {/* Year 4 */}
             <div className="border-2 border-gray-300 rounded-lg p-6">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-4">Year 4</h3>
-              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#006837] mb-4">Applied Pharmacy & Practice</h4>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Year 4</h3>
+              <h4 className="text-[10px] xs:text-xs sm:text-sm font-semibold text-[#0b6d41] mb-4">Applied Pharmacy & Practice</h4>
 
               <ul className="space-y-2 text-gray-700 mb-4">
                 <li className="flex items-start">
@@ -851,7 +851,7 @@ export default function BPharmLateralEntryPage() {
           </div>
 
           {/* Practical Training Components */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
               <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Practical Training Components:</h3>
@@ -861,31 +861,31 @@ export default function BPharmLateralEntryPage() {
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Laboratory Work:</strong> Each theory subject accompanied by corresponding practical sessions
+                  <strong className="text-[#0b6d41]">Laboratory Work:</strong> Each theory subject accompanied by corresponding practical sessions
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Industrial Training:</strong> Mandatory 150+ hours in pharmaceutical manufacturing company
+                  <strong className="text-[#0b6d41]">Industrial Training:</strong> Mandatory 150+ hours in pharmaceutical manufacturing company
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Hospital Training:</strong> Exposure to hospital pharmacy operations, prescription dispensing
+                  <strong className="text-[#0b6d41]">Hospital Training:</strong> Exposure to hospital pharmacy operations, prescription dispensing
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Project Work:</strong> Final year research project under Learning Facilitator guidance
+                  <strong className="text-[#0b6d41]">Project Work:</strong> Final year research project under Learning Facilitator guidance
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Seminar Presentations:</strong> Regular presentations on current pharmaceutical topics
+                  <strong className="text-[#0b6d41]">Seminar Presentations:</strong> Regular presentations on current pharmaceutical topics
                 </div>
               </li>
             </ul>
@@ -896,11 +896,11 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Career Opportunities After B.Pharm
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-8">
             B.Pharm graduates enjoy <strong>diverse career options</strong> across multiple sectors of the healthcare and pharmaceutical industry. The degree opens doors to manufacturing, quality assurance, research, marketing, hospital pharmacy, and entrepreneurship.
@@ -912,36 +912,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Factory className="w-6 h-6" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Pharmaceutical Production</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Pharmaceutical Production</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹18K - 60K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#006837] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#0b6d41] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Manufacturing
                 </span>
-                <span className="inline-block bg-[#006837] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#0b6d41] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Industry
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Production Executive/Officer</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Manufacturing Supervisor</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Section Incharge</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Production Manager</span>
                 </li>
               </ul>
@@ -954,36 +954,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Quality Control (QC)</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Quality Control (QC)</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹20K - 70K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Testing
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Analysis
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>QC Analyst/Chemist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Analytical Development</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Stability Studies Analyst</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>QC Manager</span>
                 </li>
               </ul>
@@ -996,36 +996,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Quality Assurance (QA)</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Quality Assurance (QA)</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹22K - 80K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Compliance
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   GMP
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>QA Executive/Officer</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Documentation Specialist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Validation Engineer</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>QA Manager/Head</span>
                 </li>
               </ul>
@@ -1038,36 +1038,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <TestTube className="w-10 h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Research & Development</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Research & Development</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹25K - 90K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Innovation
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Formulation
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Formulation Development</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Analytical R&D Scientist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Process Development</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>R&D Manager</span>
                 </li>
               </ul>
@@ -1080,36 +1080,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Pill className="w-12 h-12" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Medical Representative</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Medical Representative</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹25K - 80K + Incentives
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Marketing
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Sales
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Medical Representative</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Territory Business Manager</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Area Sales Manager</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Regional Sales Manager</span>
                 </li>
               </ul>
@@ -1122,36 +1122,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Hospital className="w-10 h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Hospital Pharmacy</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Hospital Pharmacy</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹18K - 50K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Healthcare
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Clinical
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Hospital Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Clinical Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Drug Information Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Chief Pharmacist</span>
                 </li>
               </ul>
@@ -1164,36 +1164,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Store className="w-6 h-6" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Community Pharmacy</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Community Pharmacy</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹15K - 35K or Own Business
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Retail
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Business
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Retail Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Store Manager</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Own Medical Store</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Franchise Owner</span>
                 </li>
               </ul>
@@ -1206,36 +1206,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Regulatory Affairs</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Regulatory Affairs</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹25K - 80K/Month
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Documentation
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Approvals
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Regulatory Affairs Executive</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Dossier Preparation</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Drug Registration Expert</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>RA Manager</span>
                 </li>
               </ul>
@@ -1248,36 +1248,36 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-3xl"><Landmark className="w-6 h-6" /></span>
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Government Jobs</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Government Jobs</h3>
               </div>
               <div className="mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   ₹35K - 80K (7th Pay)
                 </span>
               </div>
               <div className="flex gap-2 mb-4">
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Secure
                 </span>
-                <span className="inline-block bg-[#7cb983] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Benefits
                 </span>
               </div>
               <ul className="space-y-2 text-gray-700 text-xs sm:text-sm mb-4">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Drug Inspector</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Government Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>ESIC/Railway Pharmacist</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Armed Forces Pharmacist</span>
                 </li>
               </ul>
@@ -1292,16 +1292,16 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               B.Pharm Salary - Detailed Breakdown
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="overflow-x-auto">
             <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                   <th className="py-4 px-6 text-left font-bold">Career Path</th>
                   <th className="py-4 px-6 text-left font-bold">Entry Level (0-2 Years)</th>
                   <th className="py-4 px-6 text-left font-bold">Mid Level (3-5 Years)</th>
@@ -1309,56 +1309,56 @@ export default function BPharmLateralEntryPage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Pharmaceutical Production</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Pharmaceutical Production</td>
                   <td className="py-4 px-6 text-gray-700">₹15,000 - 25,000</td>
                   <td className="py-4 px-6 text-gray-700">₹30,000 - 50,000</td>
                   <td className="py-4 px-6 text-gray-700">₹60,000 - 1,50,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Quality Control (QC)</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Quality Control (QC)</td>
                   <td className="py-4 px-6 text-gray-700">₹18,000 - 30,000</td>
                   <td className="py-4 px-6 text-gray-700">₹35,000 - 55,000</td>
                   <td className="py-4 px-6 text-gray-700">₹65,000 - 1,20,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Quality Assurance (QA)</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Quality Assurance (QA)</td>
                   <td className="py-4 px-6 text-gray-700">₹20,000 - 32,000</td>
                   <td className="py-4 px-6 text-gray-700">₹40,000 - 60,000</td>
                   <td className="py-4 px-6 text-gray-700">₹70,000 - 1,50,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Research & Development</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Research & Development</td>
                   <td className="py-4 px-6 text-gray-700">₹22,000 - 35,000</td>
                   <td className="py-4 px-6 text-gray-700">₹40,000 - 65,000</td>
                   <td className="py-4 px-6 text-gray-700">₹75,000 - 1,80,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Medical Representative</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Medical Representative</td>
                   <td className="py-4 px-6 text-gray-700">₹25,000 - 40,000 + Incentives</td>
                   <td className="py-4 px-6 text-gray-700">₹50,000 - 80,000 + Incentives</td>
                   <td className="py-4 px-6 text-gray-700">₹1,00,000 - 2,50,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Hospital Pharmacy</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Hospital Pharmacy</td>
                   <td className="py-4 px-6 text-gray-700">₹18,000 - 28,000</td>
                   <td className="py-4 px-6 text-gray-700">₹30,000 - 45,000</td>
                   <td className="py-4 px-6 text-gray-700">₹50,000 - 90,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Government Pharmacist</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Government Pharmacist</td>
                   <td className="py-4 px-6 text-gray-700">₹35,000 - 45,000</td>
                   <td className="py-4 px-6 text-gray-700">₹50,000 - 65,000</td>
                   <td className="py-4 px-6 text-gray-700">₹70,000 - 1,00,000</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Drug Inspector</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Drug Inspector</td>
                   <td className="py-4 px-6 text-gray-700">₹45,000 - 60,000</td>
                   <td className="py-4 px-6 text-gray-700">₹65,000 - 85,000</td>
                   <td className="py-4 px-6 text-gray-700">₹90,000 - 1,50,000</td>
                 </tr>
-                <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Gulf Countries</td>
+                <tr className="hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Gulf Countries</td>
                   <td className="py-4 px-6 text-gray-700">₹60,000 - 90,000 (Tax-Free)</td>
                   <td className="py-4 px-6 text-gray-700">₹90,000 - 1,20,000</td>
                   <td className="py-4 px-6 text-gray-700">₹1,20,000 - 2,00,000</td>
@@ -1368,7 +1368,7 @@ export default function BPharmLateralEntryPage() {
           </div>
 
           {/* Salary Enhancement Tips */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg mt-8">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg mt-8">
             <div className="flex items-center gap-2 mb-6">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Salary Enhancement Tips:</h3>
@@ -1378,31 +1378,31 @@ export default function BPharmLateralEntryPage() {
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Higher Studies:</strong> M.Pharm adds ₹5,000-15,000/month to starting salary
+                  <strong className="text-[#0b6d41]">Higher Studies:</strong> M.Pharm adds ₹5,000-15,000/month to starting salary
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Certifications:</strong> Six Sigma, GMP training boost employability
+                  <strong className="text-[#0b6d41]">Certifications:</strong> Six Sigma, GMP training boost employability
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Location:</strong> Mumbai, Hyderabad, Ahmedabad offer highest pharma salaries
+                  <strong className="text-[#0b6d41]">Location:</strong> Mumbai, Hyderabad, Ahmedabad offer highest pharma salaries
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Company Size:</strong> MNCs pay 20-40% higher than Indian companies
+                  <strong className="text-[#0b6d41]">Company Size:</strong> MNCs pay 20-40% higher than Indian companies
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="mr-3">•</span>
                 <div>
-                  <strong className="text-[#006837]">Marketing:</strong> Fastest salary growth with incentives; top performers earn ₹15-25L/year
+                  <strong className="text-[#0b6d41]">Marketing:</strong> Fastest salary growth with incentives; top performers earn ₹15-25L/year
                 </div>
               </li>
             </ul>
@@ -1413,15 +1413,15 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Employers of B.Pharm Graduates in India
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           {/* Leading Indian Pharmaceutical Companies */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               Leading Indian Pharmaceutical Companies
             </h3>
 
@@ -1442,9 +1442,9 @@ export default function BPharmLateralEntryPage() {
               ].map((company, index) => (
                 <div
                   key={index}
-                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#7cb983] transition-all"
+                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#0f8f56] transition-all"
                 >
-                  <p className="font-semibold text-[#006837]">{company}</p>
+                  <p className="font-semibold text-[#0b6d41]">{company}</p>
                 </div>
               ))}
             </div>
@@ -1452,7 +1452,7 @@ export default function BPharmLateralEntryPage() {
 
           {/* Multinational Pharmaceutical Companies */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               Multinational Pharmaceutical Companies
             </h3>
 
@@ -1469,9 +1469,9 @@ export default function BPharmLateralEntryPage() {
               ].map((company, index) => (
                 <div
                   key={index}
-                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#7cb983] transition-all"
+                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#0f8f56] transition-all"
                 >
-                  <p className="font-semibold text-[#006837]">{company}</p>
+                  <p className="font-semibold text-[#0b6d41]">{company}</p>
                 </div>
               ))}
             </div>
@@ -1479,7 +1479,7 @@ export default function BPharmLateralEntryPage() {
 
           {/* Hospital & Retail Chains */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               Hospital & Retail Chains
             </h3>
 
@@ -1496,9 +1496,9 @@ export default function BPharmLateralEntryPage() {
               ].map((company, index) => (
                 <div
                   key={index}
-                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#7cb983] transition-all"
+                  className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center hover:shadow-lg hover:border-[#0f8f56] transition-all"
                 >
-                  <p className="font-semibold text-[#006837]">{company}</p>
+                  <p className="font-semibold text-[#0b6d41]">{company}</p>
                 </div>
               ))}
             </div>
@@ -1506,7 +1506,7 @@ export default function BPharmLateralEntryPage() {
         </div>
 
         {/* Placement Banner */}
-        <div className="bg-[#7cb983] text-white py-16 px-8 rounded-lg mb-16">
+        <div className="bg-[#0b6d41] text-white py-16 px-8 rounded-lg mb-16">
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-center">
             Comprehensive Placement Support & Industry Connections
           </h2>
@@ -1516,39 +1516,39 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <TrendingUp className="w-6 h-6" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Higher Studies After B.Pharm
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* M.Pharm */}
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">M.Pharm</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">M.Pharm</h3>
               </div>
               <div className="mb-6">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   2 Years | GPAT Required
                 </span>
               </div>
               <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Pharmaceutics, Pharmacology, Pharma Chemistry</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>GPAT scholarship ₹12,400/month</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Top Institutes: NIPER, ICT Mumbai, Manipal</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Career: R&D, Teaching, Senior positions</span>
                 </li>
               </ul>
@@ -1558,28 +1558,28 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">MBA (Pharma)</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">MBA (Pharma)</h3>
               </div>
               <div className="mb-6">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   2 Years | CAT/MAT
                 </span>
               </div>
               <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Pharma Management, Healthcare Management</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Product Manager, Brand Manager roles</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Salary: ₹8-15 LPA starting</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Top Institutes: NIPER, SPJIMR, NMIMS</span>
                 </li>
               </ul>
@@ -1589,28 +1589,28 @@ export default function BPharmLateralEntryPage() {
             <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center gap-2 mb-4">
                 <Pill className="w-12 h-12" />
-                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837]">Pharm.D (PB)</h3>
+                <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Pharm.D (PB)</h3>
               </div>
               <div className="mb-6">
-                <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
+                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
                   3 Years | Clinical Focus
                 </span>
               </div>
               <ul className="space-y-3 text-xs sm:text-sm text-gray-700">
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Clinical pharmacy, patient care</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>2 years academic + 1 year clerkship</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Career: Clinical pharmacist in hospitals</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#006837] mr-2">✓</span>
+                  <span className="text-[#0b6d41] mr-2">✓</span>
                   <span>Eligibility: B.Pharm with 50%</span>
                 </li>
               </ul>
@@ -1622,15 +1622,15 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <FileText className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Admission Process - B.Pharm 2026
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           {/* B.Pharm Regular Admission Steps */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               B.Pharm Regular Admission Steps
             </h3>
 
@@ -1638,11 +1638,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 1 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     1
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 1: Entrance Exam Registration
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1655,11 +1655,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 2 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     2
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 2: Appear for Entrance Exam
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1672,11 +1672,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 3 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     3
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 3: Counselling Registration
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1689,11 +1689,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 4 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     4
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 4: Choice Filling & Seat Allotment
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1706,11 +1706,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 5 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     5
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 5: Document Verification & Admission
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1724,7 +1724,7 @@ export default function BPharmLateralEntryPage() {
 
           {/* B.Pharm Lateral Entry Admission Steps */}
           <div className="mb-12">
-            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-6">
+            <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">
               B.Pharm Lateral Entry Admission Steps
             </h3>
 
@@ -1732,11 +1732,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 1 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     1
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 1: D.Pharm Completion
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1749,11 +1749,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 2 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     2
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 2: Lateral Entry CET (if applicable)
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1766,11 +1766,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 3 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     3
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 3: Application & Counselling
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1783,11 +1783,11 @@ export default function BPharmLateralEntryPage() {
               {/* Step 4 */}
               <div className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-xl">
+                  <div className="flex-shrink-0 w-12 h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-xl">
                     4
                   </div>
                   <div className="flex-1">
-                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#006837] mb-2">
+                    <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] mb-2">
                       Step 4: Admission & Enrollment
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
@@ -1806,59 +1806,59 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               B.Pharm vs D.Pharm - Which to Choose?
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="overflow-x-auto mb-8">
             <table className="w-full border-collapse bg-white shadow-lg rounded-lg overflow-hidden">
               <thead>
-                <tr className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white">
+                <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                   <th className="py-4 px-6 text-left font-bold">Parameter</th>
                   <th className="py-4 px-6 text-left font-bold">B.Pharm</th>
                   <th className="py-4 px-6 text-left font-bold">D.Pharm</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Level</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Level</td>
                   <td className="py-4 px-6 text-gray-700">Undergraduate Degree</td>
                   <td className="py-4 px-6 text-gray-700">Diploma</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Duration</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Duration</td>
                   <td className="py-4 px-6 text-gray-700">4 Years</td>
                   <td className="py-4 px-6 text-gray-700">2 Years</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Industry Jobs</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Industry Jobs</td>
                   <td className="py-4 px-6 text-gray-700">Production, QC, QA, R&D - All eligible</td>
                   <td className="py-4 px-6 text-gray-700">Limited to operator roles</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Drug Inspector</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Drug Inspector</td>
                   <td className="py-4 px-6 text-gray-700">Eligible</td>
                   <td className="py-4 px-6 text-gray-700">Not eligible</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Higher Studies</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Higher Studies</td>
                   <td className="py-4 px-6 text-gray-700">M.Pharm, MBA, Ph.D. eligible</td>
                   <td className="py-4 px-6 text-gray-700">Only B.Pharm Lateral Entry</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Starting Salary</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Starting Salary</td>
                   <td className="py-4 px-6 text-gray-700">₹18,000 - 35,000/month</td>
                   <td className="py-4 px-6 text-gray-700">₹12,000 - 20,000/month</td>
                 </tr>
-                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Salary Ceiling</td>
+                <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Salary Ceiling</td>
                   <td className="py-4 px-6 text-gray-700">₹1,50,000 - 2,50,000/month</td>
                   <td className="py-4 px-6 text-gray-700">₹30,000 - 50,000/month</td>
                 </tr>
-                <tr className="hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
-                  <td className="py-4 px-6 font-semibold text-[#006837]">Investment</td>
+                <tr className="hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
+                  <td className="py-4 px-6 font-semibold text-[#0b6d41]">Investment</td>
                   <td className="py-4 px-6 text-gray-700">₹3-8 lakhs (4 years)</td>
                   <td className="py-4 px-6 text-gray-700">₹1-3 lakhs (2 years)</td>
                 </tr>
@@ -1867,7 +1867,7 @@ export default function BPharmLateralEntryPage() {
           </div>
 
           {/* Choose B.Pharm If */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg mb-6">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg mb-6">
             <div className="flex items-center gap-2 mb-6">
               <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Choose B.Pharm If:</h3>
@@ -1898,7 +1898,7 @@ export default function BPharmLateralEntryPage() {
           </div>
 
           {/* Choose D.Pharm If */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Choose D.Pharm If:</h3>
@@ -1927,21 +1927,21 @@ export default function BPharmLateralEntryPage() {
 
         {/* Related Programmes Section */}
         <div className="mb-16">
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
             Explore Related Programmes
           </h2>
-          <div className="border-b-4 border-[#7cb983] w-full mb-8"></div>
+          <div className="border-b-4 border-[#0f8f56] w-full mb-8"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {/* B.Pharmacy Card */}
-            <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <Link href="/b-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
               <div className="flex items-center justify-between mb-4">
-                <GraduationCap className="w-10 h-10 text-[#006837]" />
-                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+                <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">B.Pharmacy (Regular)</h3>
               <p className="text-xs sm:text-sm text-gray-600 mb-3">4-year undergraduate degree in pharmaceutical sciences</p>
-              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
                 <span>4 Years</span>
                 <span>•</span>
                 <span>After 10+2</span>
@@ -1949,14 +1949,14 @@ export default function BPharmLateralEntryPage() {
             </Link>
 
             {/* M.Pharmacy Card */}
-            <Link href="/m-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <Link href="/m-pharmacy" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
               <div className="flex items-center justify-between mb-4">
-                <GraduationCap className="w-10 h-10 text-[#006837]" />
-                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+                <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">M.Pharmacy</h3>
               <p className="text-xs sm:text-sm text-gray-600 mb-3">Advance your pharmacy career with 5 PG specialisations</p>
-              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
                 <span>2 Years</span>
                 <span>•</span>
                 <span>GPAT</span>
@@ -1964,14 +1964,14 @@ export default function BPharmLateralEntryPage() {
             </Link>
 
             {/* Pharm.D Card */}
-            <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <Link href="/pharm-d" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
               <div className="flex items-center justify-between mb-4">
-                <GraduationCap className="w-10 h-10 text-[#006837]" />
-                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+                <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">Pharm.D</h3>
               <p className="text-xs sm:text-sm text-gray-600 mb-3">6-year clinical pharmacy programme with hospital training</p>
-              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
                 <span>6 Years</span>
                 <span>•</span>
                 <span>Clinical Focus</span>
@@ -1979,14 +1979,14 @@ export default function BPharmLateralEntryPage() {
             </Link>
 
             {/* PhD Card */}
-            <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#7cb983] group">
+            <Link href="/phd" className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all hover:border-[#0f8f56] group">
               <div className="flex items-center justify-between mb-4">
-                <GraduationCap className="w-10 h-10 text-[#006837]" />
-                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#006837] transition-colors" />
+                <GraduationCap className="w-10 h-10 text-[#0b6d41]" />
+                <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-[#0b6d41] transition-colors" />
               </div>
               <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2">PhD</h3>
               <p className="text-xs sm:text-sm text-gray-600 mb-3">Research doctorate in pharmaceutical sciences</p>
-              <div className="flex items-center gap-2 text-[#006837] text-xs font-semibold">
+              <div className="flex items-center gap-2 text-[#0b6d41] text-xs font-semibold">
                 <span>3-5 Years</span>
                 <span>•</span>
                 <span>Research</span>
@@ -1999,11 +1999,11 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
-            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+            <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
               Frequently Asked Questions - B.Pharm
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           <div className="space-y-4">
             {/* Q1 */}
@@ -2014,11 +2014,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 0 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Is NEET required for B.Pharm admission?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 0 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2038,11 +2038,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 1 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   What is the difference between B.Pharm and Pharm.D?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 1 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2062,11 +2062,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 2 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Can I open a medical store after B.Pharm?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 2 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2086,11 +2086,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 3 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   What is GPAT and why is it important?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 3 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2110,11 +2110,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 4 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Is B.Pharm a good career choice in India?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 4 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2134,11 +2134,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 5 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Can B.Pharm work abroad?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 5 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2158,11 +2158,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 6 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   What is the scope of B.Pharm Lateral Entry?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 6 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2182,11 +2182,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 7 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   How to become a Drug Inspector?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 7 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2206,11 +2206,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 8 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Which M.Pharm specialisation is best?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 8 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2230,11 +2230,11 @@ export default function BPharmLateralEntryPage() {
                   expandedFAQ === 9 ? 'bg-green-50' : 'bg-white'
                 }`}
               >
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] pr-4">
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] pr-4">
                   Is B.Pharm difficult to pass?
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                     expandedFAQ === 9 ? 'rotate-180' : ''
                   }`}
                 />
@@ -2249,7 +2249,7 @@ export default function BPharmLateralEntryPage() {
         </div>
 
         {/* CTA Banner */}
-        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-8 rounded-lg mb-16 text-center">
+        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-8 rounded-lg mb-16 text-center">
           <GraduationCap className="w-12 h-12 mx-auto mb-4" />
           <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
             Ready to Start Your Pharmacy Career?
@@ -2257,7 +2257,7 @@ export default function BPharmLateralEntryPage() {
           <p className="text-xs sm:text-sm mb-8">
             Join JKKN College of Pharmacy - Where Learners Transform into Industry Leaders!
           </p>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=b-pharmacy-lateral-entry" target="_blank" rel="noopener noreferrer" className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold text-xs sm:text-sm px-8 py-4 rounded-full transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=b-pharmacy-lateral-entry" target="_blank" rel="noopener noreferrer" className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-bold text-xs sm:text-sm px-8 py-4 rounded-full transition-colors inline-block focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for B.Pharm Admission 2026</span>
           </a>
@@ -2275,14 +2275,14 @@ export default function BPharmLateralEntryPage() {
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-6">
             <Target className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837]">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41]">
               Final Guidance for Aspiring B.Pharm Learners
             </h2>
           </div>
-          <div className="border-t-4 border-[#7cb983] mb-8"></div>
+          <div className="border-t-4 border-[#0f8f56] mb-8"></div>
 
           {/* B.Pharm is Right Choice If */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg mb-6">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg mb-6">
             <div className="flex items-center gap-2 mb-6">
               <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">B.Pharm is Right Choice If:</h3>
@@ -2319,7 +2319,7 @@ export default function BPharmLateralEntryPage() {
    
 
           {/* Maximizing Success */}
-          <div className="bg-[#FBFBEE] border-l-4 border-[#7cb983] p-8 rounded-r-lg">
+          <div className="bg-[#FBFBEE] border-l-4 border-[#0f8f56] p-8 rounded-r-lg">
             <div className="flex items-center gap-2 mb-6">
               <Lightbulb className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
               <h3 className="text-base xs:text-lg sm:text-xl font-bold text-gray-900">Maximizing Success in B.Pharm Career:</h3>
@@ -2327,22 +2327,22 @@ export default function BPharmLateralEntryPage() {
 
             <div className="space-y-4 text-gray-700">
               <div>
-                <strong className="text-[#006837]">1. Excel Academically:</strong> Strong foundation helps in GPAT, interviews, and job performance.
+                <strong className="text-[#0b6d41]">1. Excel Academically:</strong> Strong foundation helps in GPAT, interviews, and job performance.
               </div>
               <div>
-                <strong className="text-[#006837]">2. Gain Practical Skills:</strong> Learn to operate instruments (HPLC, UV). Practical skills valued in QC/QA jobs.
+                <strong className="text-[#0b6d41]">2. Gain Practical Skills:</strong> Learn to operate instruments (HPLC, UV). Practical skills valued in QC/QA jobs.
               </div>
               <div>
-                <strong className="text-[#006837]">3. Complete Industrial Training Seriously:</strong> Network with professionals. Many companies hire from training pool.
+                <strong className="text-[#0b6d41]">3. Complete Industrial Training Seriously:</strong> Network with professionals. Many companies hire from training pool.
               </div>
               <div>
-                <strong className="text-[#006837]">4. Prepare for GPAT Early:</strong> Start from 3rd year. M.Pharm from good institution significantly boosts career.
+                <strong className="text-[#0b6d41]">4. Prepare for GPAT Early:</strong> Start from 3rd year. M.Pharm from good institution significantly boosts career.
               </div>
               <div>
-                <strong className="text-[#006837]">5. Build Industry Connections:</strong> Attend pharma conferences, workshops. Join LinkedIn. Many jobs come through referrals.
+                <strong className="text-[#0b6d41]">5. Build Industry Connections:</strong> Attend pharma conferences, workshops. Join LinkedIn. Many jobs come through referrals.
               </div>
               <div>
-                <strong className="text-[#006837]">6. Stay Updated:</strong> Pharmaceutical industry evolves - new regulations, technologies. Continuous learning essential.
+                <strong className="text-[#0b6d41]">6. Stay Updated:</strong> Pharmaceutical industry evolves - new regulations, technologies. Continuous learning essential.
               </div>
             </div>
           </div>

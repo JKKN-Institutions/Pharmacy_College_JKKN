@@ -27,7 +27,7 @@ const squadMembers = [
 function BulletItem({ text }: { text: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+      <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
       <span>{text}</span>
     </li>
   )
@@ -39,7 +39,7 @@ function StyledTable({ rows }: { rows: { no: string; name: string; designation: 
       <div className="overflow-x-auto">
         <table className="w-full text-sm sm:text-base">
           <thead>
-            <tr className="bg-[#006837] text-white">
+            <tr className="bg-[#0b6d41] text-white">
               <th className="px-6 py-4 text-center font-semibold">Sl.No</th>
               <th className="px-6 py-4 text-center font-semibold">Name</th>
               <th className="px-6 py-4 text-center font-semibold">Designation</th>
@@ -68,7 +68,7 @@ export default function AntiRaggingCommitteePage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Anti-Ragging Committee
@@ -81,7 +81,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Introduction</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Introduction</h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
               The Anti-Ragging Committee at JKKN College of Pharmacy (JKKNCP) is established in compliance with the UGC Regulations on Curbing the Menace of Ragging in Higher Educational Institutions, 2009 and the directives of the Supreme Court of India. The committee ensures that learners experience a safe, harassment-free, and inclusive learning environment.
             </p>
@@ -89,7 +89,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Objective */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Objective</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Objective</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-4">The primary objective of the Anti-Ragging Committee is to:</p>
             <ul className="space-y-3">
               <BulletItem text="Prevent and eliminate ragging in all forms within the institution." />
@@ -100,7 +100,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Scope */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Scope</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Scope</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-4">The Anti-Ragging Committee&apos;s jurisdiction extends to:</p>
             <ul className="space-y-3">
               <BulletItem text="The entire campus, including learning studios, learning labs, hostels, and libraries." />
@@ -112,7 +112,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Composition of the Committee */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Composition of the Anti-Ragging Committee</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Composition of the Anti-Ragging Committee</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-4">As per UGC Regulations, 2009, the committee consists of:</p>
             <ul className="space-y-3 mb-4">
               {[
@@ -131,11 +131,11 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Responsibilities */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Responsibilities of the Anti-Ragging Committee</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">Responsibilities of the Anti-Ragging Committee</h2>
             <div className="space-y-6">
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Prevention &amp; Awareness</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Prevention &amp; Awareness</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Conduct anti-ragging awareness programmes, orientation sessions, and sensitization workshops for learners and senior learners." />
                   <BulletItem text="Display anti-ragging posters and helpline numbers across the campus." />
@@ -144,7 +144,7 @@ export default function AntiRaggingCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Policy Formulation &amp; Compliance</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Policy Formulation &amp; Compliance</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Formulate and update institutional anti-ragging policies in line with UGC, PCI, and Supreme Court directives." />
                   <BulletItem text="Ensure that the institution adopts a zero-tolerance approach towards ragging." />
@@ -152,7 +152,7 @@ export default function AntiRaggingCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Complaint Handling &amp; Investigation</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Complaint Handling &amp; Investigation</h3>
                 <ul className="space-y-3">
                   <BulletItem text="Provide accessible and confidential channels for reporting ragging incidents." />
                   <BulletItem text="Conduct prompt and impartial investigations into reported cases." />
@@ -161,7 +161,7 @@ export default function AntiRaggingCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Disciplinary Action &amp; Legal Compliance</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Disciplinary Action &amp; Legal Compliance</h3>
                 <p className="text-sm sm:text-base text-gray-700 mb-3">✓ Take strict action against perpetrators, including:</p>
                 <ul className="space-y-3 ml-4 mb-3">
                   <BulletItem text="Verbal/written warnings" />
@@ -172,7 +172,7 @@ export default function AntiRaggingCommitteePage() {
               </div>
 
               <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Support &amp; Rehabilitation</h3>
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Support &amp; Rehabilitation</h3>
                 <p className="text-sm sm:text-base text-gray-700 mb-2">✓Provide counselling and support to victims of ragging.</p>
                 <p className="text-sm sm:text-base text-gray-700">✓ Conduct behavioural reformation programmes for offenders.</p>
               </div>
@@ -182,12 +182,12 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Redressal Mechanism */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Redressal Mechanism for Ragging Complaints</h2>
-            <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4">Step-by-Step Procedure</h3>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">Redressal Mechanism for Ragging Complaints</h2>
+            <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Step-by-Step Procedure</h3>
             <div className="space-y-5">
               <div>
                 <p className="text-sm sm:text-base text-gray-700 mb-2">
-                  <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                  <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                   <strong>Step 1: Complaint Submission</strong> – Any learner experiencing or witnessing ragging can file a complaint through:
                 </p>
                 <ul className="space-y-2 ml-6">
@@ -196,12 +196,12 @@ export default function AntiRaggingCommitteePage() {
                 </ul>
               </div>
               <p className="text-sm sm:text-base text-gray-700">
-                <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                 <strong>Step 2: Immediate Response</strong> – The committee acknowledges receipt of the complaint within 24 to 48 hours.
               </p>
               <div>
                 <p className="text-sm sm:text-base text-gray-700 mb-2">
-                  <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                  <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                   <strong>Step 3: Investigation Process</strong> – A detailed inquiry is conducted within 1 to 2 weeks, including:
                 </p>
                 <ul className="space-y-2 ml-6">
@@ -211,7 +211,7 @@ export default function AntiRaggingCommitteePage() {
               </div>
               <div>
                 <p className="text-sm sm:text-base text-gray-700 mb-2">
-                  <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                  <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                   <strong>Step 4: Decision &amp; Disciplinary Action</strong> – Based on the investigation:
                 </p>
                 <ul className="space-y-2 ml-6">
@@ -220,11 +220,11 @@ export default function AntiRaggingCommitteePage() {
                 </ul>
               </div>
               <p className="text-sm sm:text-base text-gray-700">
-                <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                 <strong>Step 5: Outcome Communication</strong> – The final decision is communicated to all parties within 2 to 4 weeks.
               </p>
               <p className="text-sm sm:text-base text-gray-700">
-                <span className="inline-block w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                <span className="inline-block w-2 h-2 bg-[#0b6d41] rounded-full mr-2"></span>
                 <strong>Step 6: Post-Resolution Monitoring</strong> – Follow-up to ensure that no retaliation or victimization occurs.
               </p>
             </div>
@@ -232,7 +232,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Preventive Measures */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">Anti-Ragging Preventive Measures</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">Anti-Ragging Preventive Measures</h2>
             <ul className="space-y-3">
               <BulletItem text={<><strong>Mandatory Affidavit Submission</strong> – Every learner and parent must sign an anti-ragging affidavit during admission.</>} />
               <BulletItem text={<><strong>Surprise Inspections &amp; Monitoring</strong> – Regular surprise checks in hostels, canteens, and other areas.</>} />
@@ -243,7 +243,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Punishment */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4">Punishment &amp; Consequences for Ragging</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4">Punishment &amp; Consequences for Ragging</h2>
             <p className="text-sm sm:text-base text-gray-700 mb-4">According to UGC Regulations, 2009, ragging may result in:</p>
             <ul className="space-y-3">
               <BulletItem text="Suspension from classes and campus activities." />
@@ -255,7 +255,7 @@ export default function AntiRaggingCommitteePage() {
           </section>
 
           {/* Zero Tolerance Statement */}
-          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#7cb983] p-6 sm:p-8">
+          <section className="bg-white rounded-2xl shadow-sm border-l-4 border-[#0f8f56] p-6 sm:p-8">
             <p className="text-sm sm:text-base text-gray-700 text-center font-medium leading-relaxed">
               JKKN College of Pharmacy maintains zero tolerance towards ragging and is committed to providing a safe, respectful, and inclusive academic environment for all learners.
             </p>
@@ -263,7 +263,7 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Mechanism Image */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 text-center">Mechanism for Anti-ragging in JKKNCP</h2>
             <div className="flex justify-center">
               <Image
                 src="/images/Mechanism-for-Anti-ragging-in-JKKNCP.png"
@@ -277,16 +277,16 @@ export default function AntiRaggingCommitteePage() {
 
           {/* Composition Tables */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-8">Composition</h2>
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-8">Composition</h2>
 
             <div className="space-y-10">
               <div>
-                <h3 className="text-lg sm:text-xl font-bold text-[#006837] mb-4">Anti-Ragging Committee</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Anti-Ragging Committee</h3>
                 <StyledTable rows={committeeMembers} />
               </div>
 
               <div>
-                <h3 className="text-lg sm:text-xl font-bold text-[#006837] mb-4">Anti-Ragging Squad</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-[#0b6d41] mb-4">Anti-Ragging Squad</h3>
                 <StyledTable rows={squadMembers} />
               </div>
             </div>

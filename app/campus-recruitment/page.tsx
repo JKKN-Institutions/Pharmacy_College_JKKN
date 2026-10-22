@@ -8,7 +8,7 @@ export default function CampusRecruitmentPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Campus - Recruitment
@@ -21,8 +21,8 @@ export default function CampusRecruitmentPage() {
 
           {/* EPI Source India Pvt */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <div className="w-10 h-1 rounded-full bg-[#7cb983] mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="w-10 h-1 rounded-full bg-[#ffde59] mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               EPI Source India Pvt
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -32,8 +32,8 @@ export default function CampusRecruitmentPage() {
 
           {/* Vee Technologies */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <div className="w-10 h-1 rounded-full bg-[#7cb983] mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="w-10 h-1 rounded-full bg-[#ffde59] mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Vee Technologies
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -43,8 +43,8 @@ export default function CampusRecruitmentPage() {
 
           {/* SKN organics */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <div className="w-10 h-1 rounded-full bg-[#7cb983] mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="w-10 h-1 rounded-full bg-[#ffde59] mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               SKN organics Pvt ltd, Pudhucherry
             </h2>
             <div className="space-y-4">
@@ -59,8 +59,8 @@ export default function CampusRecruitmentPage() {
 
           {/* Alembic pharmaceuticals */}
           <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
-            <div className="w-10 h-1 rounded-full bg-[#7cb983] mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="w-10 h-1 rounded-full bg-[#ffde59] mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Alembic pharmaceuticals limited, Mumbai
             </h2>
             <ul className="space-y-3">
@@ -76,7 +76,7 @@ export default function CampusRecruitmentPage() {
                 'Mrs. Aditi Shetye, Senior Executive(HR) and Mr.Harihara Sudhan, Reginonal Manager-Coimbatore(Marketing) were the recruiters team from Alembic Pharmaceuticals Limited, Mumbai.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}

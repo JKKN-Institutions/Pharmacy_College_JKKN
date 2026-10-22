@@ -9,16 +9,16 @@ export default function OurTrustPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Legacy & Foundation
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Our Trust
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -32,7 +32,7 @@ export default function OurTrustPage() {
             <div className="flex flex-col md:flex-row">
 
               {/* Left — dark green with portrait + identity */}
-              <div className="md:w-2/5 bg-[#006837] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
+              <div className="md:w-2/5 bg-[#0b6d41] flex flex-col items-center justify-center p-8 sm:p-10 md:p-12">
                 <div className="relative w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64">
                   <Image
                     src="/images/Our_Trust.webp"
@@ -46,7 +46,7 @@ export default function OurTrustPage() {
                   <h2 className="text-lg sm:text-xl font-bold text-white">
                     SHRI. J.K.K.NATTARAJAH
                   </h2>
-                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#7cb983] text-white text-sm font-semibold rounded-full">
+                  <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
                     Founder J.K.K. Rangammal Charitable Trust
                   </span>
                 </div>
@@ -55,8 +55,8 @@ export default function OurTrustPage() {
               {/* Right — description paragraphs */}
               <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center">
                 <div className="mb-6">
-                  <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-                  <p className="text-[#006837] text-xs sm:text-sm font-semibold tracking-widest uppercase">
+                  <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+                  <p className="text-[#0b6d41] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                     About the Founder
                   </p>
                 </div>
@@ -73,8 +73,8 @@ export default function OurTrustPage() {
           {/* Trust Details Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <p className="text-[#006837] text-xs sm:text-sm font-semibold tracking-widest uppercase">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <p className="text-[#0b6d41] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                 The Trust
               </p>
             </div>

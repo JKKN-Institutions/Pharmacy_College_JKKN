@@ -8,16 +8,16 @@ export default function LibraryPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Library
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -48,11 +48,11 @@ export default function LibraryPage() {
 
           {/* Library Details Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
               Library details
             </h2>
-            <h3 className="text-base sm:text-lg font-semibold text-[#006837] mb-4">
+            <h3 className="text-base sm:text-lg font-semibold text-[#0b6d41] mb-4">
               JKKN College of Pharmacy Library
             </h3>
             <div className="space-y-4 text-gray-700 leading-relaxed">
@@ -67,8 +67,8 @@ export default function LibraryPage() {
 
           {/* Learning Resources Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Learning Resources
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -78,8 +78,8 @@ export default function LibraryPage() {
 
           {/* Technology and Connectivity Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Technology and Connectivity
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -89,8 +89,8 @@ export default function LibraryPage() {
 
           {/* Supporting Research Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Supporting Research and Academic Growth
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -100,8 +100,8 @@ export default function LibraryPage() {
 
           {/* Library Timing Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Library Timing
             </h2>
             <div className="space-y-2 text-sm sm:text-base text-gray-700">
@@ -112,15 +112,15 @@ export default function LibraryPage() {
 
           {/* E-resources Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6">
               List of Subscribed E-resources
             </h2>
             <div className="overflow-x-auto -mx-4 sm:mx-0">
               <div className="min-w-full inline-block align-middle px-4 sm:px-0">
                 <table className="w-full border-collapse border border-gray-300 text-xs sm:text-sm md:text-base">
                   <thead>
-                    <tr className="bg-[#006837]">
+                    <tr className="bg-[#0b6d41]">
                       <th className="border border-gray-300 px-3 sm:px-6 py-2 sm:py-4 text-center font-bold text-white">
                         Name
                       </th>
@@ -139,7 +139,7 @@ export default function LibraryPage() {
                           href="http://www.delnet.in"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#006837] hover:underline break-all"
+                          className="text-[#0b6d41] hover:underline break-all"
                         >
                           delnet.in
                         </a>
@@ -154,7 +154,7 @@ export default function LibraryPage() {
                           href="http://www.eurekaselect.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#006837] hover:underline break-all"
+                          className="text-[#0b6d41] hover:underline break-all"
                         >
                           eurekaselect.com
                         </a>
@@ -169,7 +169,7 @@ export default function LibraryPage() {
                           href="https://www.micromedexsolutions.com"
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[#006837] hover:underline break-all"
+                          className="text-[#0b6d41] hover:underline break-all"
                         >
                           micromedexsolutions.com
                         </a>

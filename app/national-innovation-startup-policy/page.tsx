@@ -8,7 +8,7 @@ export default function NationalInnovationStartupPolicyPage() {
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12">
         {/* Page Title */}
-        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-4 sm:mb-6 md:mb-8">
+        <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0b6d41] mb-4 sm:mb-6 md:mb-8">
           The National Innovation And Startup Policy
         </h1>
 
@@ -26,7 +26,7 @@ export default function NationalInnovationStartupPolicyPage() {
             </h2>
             <a
               href="#"
-              className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
+              className="inline-block px-8 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors text-center"
             >
               View JKKN Entrepreneurship Policy
             </a>
@@ -39,7 +39,7 @@ export default function NationalInnovationStartupPolicyPage() {
             </h2>
             <a
               href="#"
-              className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
+              className="inline-block px-8 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors text-center"
             >
               View TN Startup Policy
             </a>
@@ -52,7 +52,7 @@ export default function NationalInnovationStartupPolicyPage() {
             </h2>
             <a
               href="#"
-              className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
+              className="inline-block px-8 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors text-center"
             >
               View National Startup Policy
             </a>
@@ -65,7 +65,7 @@ export default function NationalInnovationStartupPolicyPage() {
             </h2>
             <a
               href="#"
-              className="inline-block px-8 py-3 bg-[#7CAF5A] text-white font-semibold rounded hover:bg-[#6B9E4E] transition-colors text-center"
+              className="inline-block px-8 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors text-center"
             >
               View JKKN Innovation Policy
             </a>

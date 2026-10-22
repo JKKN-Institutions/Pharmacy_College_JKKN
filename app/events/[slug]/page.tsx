@@ -40,7 +40,7 @@ export default async function EventDetailPage({
       <Header />
       <main className="min-h-screen bg-[#f5f5e8]">
         {/* Green Hero Banner */}
-        <div className="bg-[#006837] w-full px-6 sm:px-10 md:px-16 py-12 sm:py-16">
+        <div className="bg-[#0b6d41] w-full px-6 sm:px-10 md:px-16 py-12 sm:py-16">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
               {event.title}
@@ -74,7 +74,7 @@ export default async function EventDetailPage({
           {/* About This Event Card */}
           {event.description && (
             <div className="bg-white rounded-2xl p-6 sm:p-8">
-              <h2 className="text-xl sm:text-2xl font-bold text-[#006837] mb-4">
+              <h2 className="text-xl sm:text-2xl font-bold text-[#0b6d41] mb-4">
                 About This Event
               </h2>
               <div className="text-gray-700 leading-relaxed text-sm sm:text-base whitespace-pre-wrap">

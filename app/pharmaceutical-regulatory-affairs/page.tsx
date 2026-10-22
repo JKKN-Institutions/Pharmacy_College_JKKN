@@ -95,9 +95,9 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       <Header />
 
       {/* HERO */}
-      <div className="bg-gradient-to-br from-[#006837] via-[#0a7a44] to-[#002309] text-white py-12 sm:py-16">
+      <div className="bg-gradient-to-br from-[#0b6d41] via-[#0b6d41] to-[#032816] text-white py-12 sm:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#ffde59] px-6 py-2 rounded-full text-[#032816] font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
             <Scale className="w-8 h-8" />
             NEW SPECIALISATION 2026-27
           </div>
@@ -113,24 +113,24 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       {/* KEY FACTS */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
-            <Clock className="w-7 h-7 text-[#006837] mb-2" />
-            <p className="text-lg font-bold text-[#002309]">2 Years</p>
+          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#0b6d41]">
+            <Clock className="w-7 h-7 text-[#0b6d41] mb-2" />
+            <p className="text-lg font-bold text-[#032816]">2 Years</p>
             <p className="text-xs text-[#4a5a51]">4 semesters, full time</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
-            <GraduationCap className="w-7 h-7 text-[#006837] mb-2" />
-            <p className="text-lg font-bold text-[#002309]">15 Seats</p>
+          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#0b6d41]">
+            <GraduationCap className="w-7 h-7 text-[#0b6d41] mb-2" />
+            <p className="text-lg font-bold text-[#032816]">15 Seats</p>
             <p className="text-xs text-[#4a5a51]">of 90 across 6 M.Pharm specialisations</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
-            <IndianRupee className="w-7 h-7 text-[#006837] mb-2" />
-            <p className="text-lg font-bold text-[#002309]">&#8377;75,000/year</p>
+          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#0b6d41]">
+            <IndianRupee className="w-7 h-7 text-[#0b6d41] mb-2" />
+            <p className="text-lg font-bold text-[#032816]">&#8377;75,000/year</p>
             <p className="text-xs text-[#4a5a51]">management quota tuition</p>
           </div>
-          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#006837]">
-            <BookOpen className="w-7 h-7 text-[#006837] mb-2" />
-            <p className="text-lg font-bold text-[#002309]">B.Pharm, 50%</p>
+          <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#0b6d41]">
+            <BookOpen className="w-7 h-7 text-[#0b6d41] mb-2" />
+            <p className="text-lg font-bold text-[#032816]">B.Pharm, 50%</p>
             <p className="text-xs text-[#4a5a51]">45% for SC/ST, GPAT preferred</p>
           </div>
         </div>
@@ -139,18 +139,18 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       {/* WHAT IS IT */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
-          <HelpCircle className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+          <HelpCircle className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
             What is M.Pharm Pharmaceutical Regulatory Affairs?
           </h2>
         </div>
-        <p className="text-xs sm:text-sm text-[#002309] mb-4 leading-relaxed">
+        <p className="text-xs sm:text-sm text-[#032816] mb-4 leading-relaxed">
           A medicine cannot be sold because it works. It can be sold because a regulator has been
           shown, in a prescribed format, that it works, that it is safe, and that it is made under
           controlled conditions. Assembling that proof and defending it is the work of regulatory
           affairs.
         </p>
-        <p className="text-xs sm:text-sm text-[#002309] mb-4 leading-relaxed">
+        <p className="text-xs sm:text-sm text-[#032816] mb-4 leading-relaxed">
           M.Pharm Pharmaceutical Regulatory Affairs is a two-year postgraduate specialisation that
           teaches the law, the formats and the submission routes that govern a pharmaceutical
           product from development through approval and across its whole marketed life. Learners
@@ -160,16 +160,16 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           pharmacovigilance and periodic safety reporting, labelling and packaging compliance, and
           the pathways of the international agencies Indian exporters file with.
         </p>
-        <div className="bg-[#d4f1e4] border-l-4 border-[#006837] rounded-r-lg p-4">
-          <p className="text-xs sm:text-sm text-[#002309]">
+        <div className="bg-[#d4f1e4] border-l-4 border-[#0b6d41] rounded-r-lg p-4">
+          <p className="text-xs sm:text-sm text-[#032816]">
             <span className="font-semibold">Who this suits.</span> Regulatory affairs is a writing,
             reading and compliance discipline more than a laboratory one. It rewards precision,
             patience with documentation, and the ability to read a guideline and work out exactly
             what it demands. If you would rather be at a bench than at a desk, consider{' '}
-            <Link href="/pharmaceutics/" className="font-semibold text-[#006837] underline">Pharmaceutics</Link>,{' '}
-            <Link href="/pharmacology/" className="font-semibold text-[#006837] underline">Pharmacology</Link>{' '}
+            <Link href="/pharmaceutics/" className="font-semibold text-[#0b6d41] underline">Pharmaceutics</Link>,{' '}
+            <Link href="/pharmacology/" className="font-semibold text-[#0b6d41] underline">Pharmacology</Link>{' '}
             or{' '}
-            <Link href="/pharmaceutical-chemistry/" className="font-semibold text-[#006837] underline">Pharmaceutical Chemistry</Link>{' '}
+            <Link href="/pharmaceutical-chemistry/" className="font-semibold text-[#0b6d41] underline">Pharmaceutical Chemistry</Link>{' '}
             instead.
           </p>
         </div>
@@ -178,22 +178,22 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       {/* COURSE STRUCTURE */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
-          <ClipboardList className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+          <ClipboardList className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
             Course Structure &mdash; 4 Semesters
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-4">
           {semesters.map((s, i) => (
-            <div key={i} className="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#7cb983]">
+            <div key={i} className="bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
               <div className="flex items-center justify-between mb-2">
-                <h3 className="text-sm md:text-base font-bold text-[#006837]">{s.sem}</h3>
-                <span className="text-xs bg-[#d4f1e4] text-[#002309] px-3 py-1 rounded-full font-semibold">{s.focus}</span>
+                <h3 className="text-sm md:text-base font-bold text-[#0b6d41]">{s.sem}</h3>
+                <span className="text-xs bg-[#d4f1e4] text-[#032816] px-3 py-1 rounded-full font-semibold">{s.focus}</span>
               </div>
               <ul className="mt-3 space-y-2">
                 {s.topics.map((t, j) => (
-                  <li key={j} className="flex items-start gap-2 text-xs sm:text-sm text-[#002309]">
-                    <CheckCircle className="w-4 h-4 text-[#006837] flex-none mt-0.5" />
+                  <li key={j} className="flex items-start gap-2 text-xs sm:text-sm text-[#032816]">
+                    <CheckCircle className="w-4 h-4 text-[#0b6d41] flex-none mt-0.5" />
                     <span>{t}</span>
                   </li>
                 ))}
@@ -212,15 +212,15 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       <div className="bg-[#FBFBEE] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
-            <Scale className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+            <Scale className="w-8 h-8 text-[#0b6d41]" />
+            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
               Regulatory Agencies Covered
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             {agencies.map((a, i) => (
-              <div key={i} className="bg-white rounded-lg shadow p-5 border-l-4 border-[#006837]">
-                <h3 className="text-sm font-bold text-[#002309] mb-1">{a.name}</h3>
+              <div key={i} className="bg-white rounded-lg shadow p-5 border-l-4 border-[#0b6d41]">
+                <h3 className="text-sm font-bold text-[#032816] mb-1">{a.name}</h3>
                 <p className="text-xs text-[#4a5a51]">{a.scope}</p>
               </div>
             ))}
@@ -236,8 +236,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       {/* CAREERS */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
-          <Briefcase className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+          <Briefcase className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
             Career Roles After M.Pharm Regulatory Affairs
           </h2>
         </div>
@@ -245,10 +245,10 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           {careers.map((c, i) => {
             const Icon = c.icon;
             return (
-              <div key={i} className="bg-white rounded-lg shadow p-5 flex items-start gap-3 border-l-4 border-[#7cb983]">
-                <Icon className="w-6 h-6 text-[#006837] flex-none mt-1" />
+              <div key={i} className="bg-white rounded-lg shadow p-5 flex items-start gap-3 border-l-4 border-[#0f8f56]">
+                <Icon className="w-6 h-6 text-[#0b6d41] flex-none mt-1" />
                 <div>
-                  <h3 className="text-sm font-bold text-[#002309]">{c.role}</h3>
+                  <h3 className="text-sm font-bold text-[#032816]">{c.role}</h3>
                   <p className="text-xs text-[#4a5a51] mt-1">{c.where}</p>
                 </div>
               </div>
@@ -256,11 +256,11 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           })}
         </div>
 
-        <div className="mt-6 bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#006837]">
-          <h3 className="text-sm md:text-base font-bold text-[#006837] mb-2">
+        <div className="mt-6 bg-white rounded-lg shadow-lg p-6 border-l-4 border-[#0b6d41]">
+          <h3 className="text-sm md:text-base font-bold text-[#0b6d41] mb-2">
             What our M.Pharm graduates actually earned
           </h3>
-          <p className="text-xs sm:text-sm text-[#002309]">
+          <p className="text-xs sm:text-sm text-[#032816]">
             The median salary of placed M.Pharm graduates from JKKN College of Pharmacy was{' '}
             <span className="font-bold">&#8377;6,23,000</span> for the 2023-24 graduating batch, with
             37 of 49 graduates placed and 6 continuing to higher studies.
@@ -268,7 +268,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           <p className="text-xs text-[#4a5a51] mt-2">
             Source: JKKN College of Pharmacy NIRF 2025 submission to the Ministry of Education,
             published at{' '}
-            <a href="/pdf/NIRF-2025-Pharmacy.pdf" className="underline text-[#006837]">
+            <a href="/pdf/NIRF-2025-Pharmacy.pdf" className="underline text-[#0b6d41]">
               /pdf/NIRF-2025-Pharmacy.pdf
             </a>
             . This is the college-wide M.Pharm figure; Regulatory Affairs is a new specialisation and
@@ -281,14 +281,14 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       <div className="bg-[#FBFBEE] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
-            <GraduationCap className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+            <GraduationCap className="w-8 h-8 text-[#0b6d41]" />
+            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
               Eligibility, Seats and Fees
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg shadow p-6">
-              <h3 className="text-sm font-bold text-[#006837] mb-3">Eligibility</h3>
+              <h3 className="text-sm font-bold text-[#0b6d41] mb-3">Eligibility</h3>
               <ul className="space-y-2">
                 {[
                   "B.Pharm degree from a PCI approved institution",
@@ -297,35 +297,35 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   "Pharmacy Council registration, permanent or provisional",
                   "No upper age limit"
                 ].map((e, i) => (
-                  <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-[#002309]">
-                    <CheckCircle className="w-4 h-4 text-[#006837] flex-none mt-0.5" />
+                  <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-[#032816]">
+                    <CheckCircle className="w-4 h-4 text-[#0b6d41] flex-none mt-0.5" />
                     <span>{e}</span>
                   </li>
                 ))}
               </ul>
             </div>
             <div className="bg-white rounded-lg shadow p-6">
-              <h3 className="text-sm font-bold text-[#006837] mb-3">Seats and fees</h3>
+              <h3 className="text-sm font-bold text-[#0b6d41] mb-3">Seats and fees</h3>
               <table className="w-full text-xs sm:text-sm">
                 <tbody>
                   <tr className="border-b border-gray-200">
-                    <td className="py-2 font-semibold text-[#002309]">Seats, this specialisation</td>
+                    <td className="py-2 font-semibold text-[#032816]">Seats, this specialisation</td>
                     <td className="py-2 text-right">15</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                    <td className="py-2 font-semibold text-[#002309]">Total M.Pharm intake</td>
+                    <td className="py-2 font-semibold text-[#032816]">Total M.Pharm intake</td>
                     <td className="py-2 text-right">90 across 6 specialisations</td>
                   </tr>
                   <tr className="border-b border-gray-200">
-                    <td className="py-2 font-semibold text-[#002309]">Tuition, management quota</td>
+                    <td className="py-2 font-semibold text-[#032816]">Tuition, management quota</td>
                     <td className="py-2 text-right">&#8377;75,000 / year</td>
                   </tr>
                   <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                    <td className="py-2 font-semibold text-[#002309]">Tuition, government quota</td>
+                    <td className="py-2 font-semibold text-[#032816]">Tuition, government quota</td>
                     <td className="py-2 text-right">Tamil Nadu fee committee norms</td>
                   </tr>
                   <tr>
-                    <td className="py-2 font-semibold text-[#002309]">Duration</td>
+                    <td className="py-2 font-semibold text-[#032816]">Duration</td>
                     <td className="py-2 text-right">2 years, 4 semesters</td>
                   </tr>
                 </tbody>
@@ -333,7 +333,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
               <p className="text-xs text-[#4a5a51] mt-3">
                 Hostel, transport and examination fees are additional. Confirm the current year fee
                 on{' '}
-                <Link href="/fee-structure/" className="underline text-[#006837]">the fee structure page</Link>{' '}
+                <Link href="/fee-structure/" className="underline text-[#0b6d41]">the fee structure page</Link>{' '}
                 or on +91 93458 55001.
               </p>
             </div>
@@ -344,8 +344,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       {/* SIX SPECIALISATIONS */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
-          <Building2 className="w-8 h-8 text-[#006837]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+          <Building2 className="w-8 h-8 text-[#0b6d41]" />
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
             All 6 M.Pharm Specialisations at JKKN
           </h2>
         </div>
@@ -358,23 +358,23 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
             { n: "Pharmacy Practice", h: "/pharmacy-practice/", d: "Clinical pharmacy and patient care" },
             { n: "Pharmaceutical Regulatory Affairs", h: "/pharmaceutical-regulatory-affairs/", d: "Drug approval, dossiers and compliance", current: true }
           ].map((s, i) => (
-            <div key={i} className={`rounded-lg shadow-lg p-5 border-l-4 ${s.current ? 'bg-[#d4f1e4] border-[#006837]' : 'bg-white border-[#7cb983]'}`}>
-              <h3 className="text-sm font-bold text-[#002309] mb-1">
+            <div key={i} className={`rounded-lg shadow-lg p-5 border-l-4 ${s.current ? 'bg-[#d4f1e4] border-[#0b6d41]' : 'bg-white border-[#0f8f56]'}`}>
+              <h3 className="text-sm font-bold text-[#032816] mb-1">
                 {s.n}{s.current ? ' (this page)' : ''}
               </h3>
               <p className="text-xs text-[#4a5a51] mb-2">{s.d}</p>
-              <p className="text-xs font-semibold text-[#006837]">15 seats</p>
+              <p className="text-xs font-semibold text-[#0b6d41]">15 seats</p>
               {!s.current && (
-                <Link href={s.h} className="text-xs font-semibold text-[#006837] underline">Learn more &rarr;</Link>
+                <Link href={s.h} className="text-xs font-semibold text-[#0b6d41] underline">Learn more &rarr;</Link>
               )}
             </div>
           ))}
         </div>
         <p className="text-xs text-[#4a5a51] mt-3">
           Six specialisations, 15 seats each, 90 seats in total. See the{' '}
-          <Link href="/m-pharmacy/" className="underline text-[#006837]">M.Pharm programme page</Link>{' '}
+          <Link href="/m-pharmacy/" className="underline text-[#0b6d41]">M.Pharm programme page</Link>{' '}
           for a full comparison, or the{' '}
-          <Link href="/admissions/m.pharm" className="underline text-[#006837]">M.Pharm admission page</Link>{' '}
+          <Link href="/admissions/m.pharm" className="underline text-[#0b6d41]">M.Pharm admission page</Link>{' '}
           for the 2026-27 application process.
         </p>
       </div>
@@ -383,8 +383,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       <div className="bg-[#FBFBEE] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
-            <HelpCircle className="w-8 h-8 text-[#006837]" />
-            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309]">
+            <HelpCircle className="w-8 h-8 text-[#0b6d41]" />
+            <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">
               Frequently Asked Questions
             </h2>
           </div>
@@ -396,11 +396,11 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   className="w-full flex items-center justify-between gap-3 p-4 text-left"
                   aria-expanded={expandedFAQ === i}
                 >
-                  <h3 className="text-xs sm:text-sm font-bold text-[#002309]">{f.question}</h3>
-                  <ChevronDown className={`w-5 h-5 text-[#006837] flex-none transition-transform ${expandedFAQ === i ? 'rotate-180' : ''}`} />
+                  <h3 className="text-xs sm:text-sm font-bold text-[#032816]">{f.question}</h3>
+                  <ChevronDown className={`w-5 h-5 text-[#0b6d41] flex-none transition-transform ${expandedFAQ === i ? 'rotate-180' : ''}`} />
                 </button>
                   <div hidden={expandedFAQ !== i} className="px-4 pb-4">
-                    <p className="text-xs sm:text-sm text-[#002309] leading-relaxed">{f.answer}</p>
+                    <p className="text-xs sm:text-sm text-[#032816] leading-relaxed">{f.answer}</p>
                   </div>
               </div>
             ))}
@@ -409,7 +409,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       </div>
 
       {/* CTA */}
-      <div className="bg-gradient-to-br from-[#006837] to-[#002309] text-white py-10">
+      <div className="bg-gradient-to-br from-[#0b6d41] to-[#032816] text-white py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold mb-3">
             M.Pharm Regulatory Affairs Admission 2026-27
@@ -420,7 +420,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmaceutical-regulatory-affairs"
-              className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-bold px-6 py-3 rounded-lg text-xs sm:text-sm"
+              className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-bold px-6 py-3 rounded-lg text-xs sm:text-sm"
             >
               Apply Now &mdash; 2026-27
             </a>
@@ -433,7 +433,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
 
       {/* RELATED */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#002309] mb-4">
+        <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816] mb-4">
           Explore Related Programmes
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -443,10 +443,10 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
             { n: "Pharm.D", h: "/pharm-d/", d: "6-year clinical pharmacy programme", t: "6 Years" },
             { n: "Ph.D", h: "/phd/", d: "Research doctorate in pharmaceutical sciences", t: "3-5 Years" }
           ].map((r, i) => (
-            <Link key={i} href={r.h} className="bg-white rounded-lg shadow p-5 border-l-4 border-[#7cb983] block">
-              <h3 className="text-sm font-bold text-[#002309]">{r.n}</h3>
+            <Link key={i} href={r.h} className="bg-white rounded-lg shadow p-5 border-l-4 border-[#0f8f56] block">
+              <h3 className="text-sm font-bold text-[#032816]">{r.n}</h3>
               <p className="text-xs text-[#4a5a51] mt-1">{r.d}</p>
-              <p className="text-xs font-semibold text-[#006837] mt-2">{r.t}</p>
+              <p className="text-xs font-semibold text-[#0b6d41] mt-2">{r.t}</p>
             </Link>
           ))}
         </div>

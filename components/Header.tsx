@@ -224,7 +224,7 @@ export default function Header() {
                   sourcePage="home-header"
                   fallbackHref={APPLY_HREF}
                   fallbackLabel="Apply Now"
-                  className="bg-[#0F6B3E] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
+                  className="bg-[#0b6d41] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
                 >
                   Enquire Now
                 </EnquiryButton>
@@ -256,7 +256,7 @@ export default function Header() {
               sourcePage="home-header"
               fallbackHref={APPLY_HREF}
               fallbackLabel="Apply Now"
-              className="bg-[#0F6B3E] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
+              className="bg-[#0b6d41] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
             >
               Enquire Now
             </EnquiryButton>
@@ -395,7 +395,7 @@ export default function Header() {
                 sourcePage="home-header"
                 fallbackHref={APPLY_HREF}
                 fallbackLabel="Apply Now"
-                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0F6B3E] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity text-sm md:text-base"
+                className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0b6d41] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity text-sm md:text-base"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Enquire Now

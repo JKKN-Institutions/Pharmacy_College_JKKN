@@ -35,12 +35,12 @@ function ItemLink({ item }: { item: SubmenuItem }) {
   const doc = isDocument(item.href)
   const cls =
     'group flex items-start gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3 ' +
-    'transition-colors hover:border-[#006837] hover:bg-[#F5F1E8] focus:border-[#006837] focus:outline-none'
+    'transition-colors hover:border-[#0b6d41] hover:bg-[#F5F1E8] focus:border-[#0b6d41] focus:outline-none'
 
   const body = (
     <>
-      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#7cb983]" />
-      <span className="text-sm text-gray-700 group-hover:text-[#006837]">
+      <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#ffde59]" />
+      <span className="text-sm text-gray-700 group-hover:text-[#0b6d41]">
         {item.label}
         {doc && <span className="ml-2 text-[11px] uppercase tracking-wide text-gray-400">PDF</span>}
       </span>
@@ -72,7 +72,7 @@ function Group({ item }: { item: SubmenuItem }) {
 
   return (
     <div className="sm:col-span-2">
-      <h3 className="mb-3 mt-2 text-sm font-bold uppercase tracking-wide text-[#006837]">
+      <h3 className="mb-3 mt-2 text-sm font-bold uppercase tracking-wide text-[#0b6d41]">
         {item.href === '#' ? item.label : <Link href={item.href}>{item.label}</Link>}
       </h3>
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
@@ -103,14 +103,14 @@ export default function SectionHub({
     <div className="flex min-h-screen flex-col bg-[#FBFBEE]">
       <Header />
 
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#7cb983] sm:text-sm">
+          <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-[#ffde59] sm:text-sm">
             {eyebrow}
           </p>
           <h1 className="text-2xl font-bold text-white md:text-3xl lg:text-4xl">{heading}</h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 rounded-full bg-[#7cb983]" />
+            <div className="h-1 w-16 rounded-full bg-[#ffde59]" />
           </div>
         </div>
       </section>

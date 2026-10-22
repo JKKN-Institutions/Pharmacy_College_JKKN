@@ -137,7 +137,7 @@ export default function Home() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-[#006837] text-white py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] text-white py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Left Content */}
@@ -151,7 +151,7 @@ export default function Home() {
               {/* Main Heading */}
               <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
                 Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy,{' '}
-                <span className="text-[#7cb983]">PCI Approved &amp; NAAC A Grade</span>
+                <span className="text-[#ffde59]">PCI Approved &amp; NAAC A Grade</span>
               </h1>
 
               {/* Phones: the call-back button sits right under the heading, inside the first screen (2026-10-16) */}
@@ -161,7 +161,7 @@ export default function Home() {
                   sourcePage="home-hero-btn"
                   fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
                   fallbackLabel="Start Your Application →"
-                  className="w-full bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-base min-h-[44px]"
+                  className="w-full bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-base min-h-[44px]"
                 >
                   Get a Call Back
                 </EnquiryButton>
@@ -176,7 +176,7 @@ export default function Home() {
             {/* Right Image + Stats + Buttons */}
             <div className="flex flex-col gap-6 mt-6 lg:mt-0">
               {/* lg and up: the 3-box enquiry card takes the photo's place (2026-10-16) */}
-              <div className="hidden lg:block rounded-2xl sm:rounded-3xl bg-[#0b3d1f]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
+              <div className="hidden lg:block rounded-2xl sm:rounded-3xl bg-[#032816]/60 border border-white/15 shadow-2xl p-6 lg:p-7">
                 <h2 className="text-xl lg:text-2xl font-bold text-white leading-snug">Get pharmacy course fee and admission details</h2>
                 <p className="mt-1 mb-5 text-sm text-gray-200">Fill 3 details. Our admission team will call you within 24 hours.</p>
                 <PharmacyEnquiryForm sourcePage="home-hero" compact />
@@ -195,15 +195,15 @@ export default function Home() {
                 {/* Badges on Image */}
                 <div className="absolute top-3 left-3 sm:top-4 sm:left-4 flex flex-col gap-2">
                   <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
-                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]">PCI Approved</span>
+                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#0b6d41]">PCI Approved</span>
                   </div>
                   <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
-                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#006837]">NAAC Accredited</span>
+                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#0b6d41]">NAAC Accredited</span>
                   </div>
                 </div>
 
                 <div className="absolute bottom-3 right-3 sm:bottom-4 sm:right-4">
-                  <div className="bg-[#7cb983]/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
+                  <div className="bg-[#0f8f56]/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
                     <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-white">Excellence in Education</span>
                   </div>
                 </div>
@@ -212,20 +212,20 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">700+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Learners</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">700+</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Learners</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">78%</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Placement (2024-25)</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">78%</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Placement (2024-25)</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">30+</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Recruiters</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">30+</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Recruiters</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#7cb983]">6</div>
-                  <div className="text-xs sm:text-sm text-gray-300 uppercase mt-1">Programmes</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">6</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Programmes</div>
                 </div>
               </div>
 
@@ -233,7 +233,7 @@ export default function Home() {
               <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4">
                 <button
                   onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#006837] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
+                  className="border-2 border-white hover:bg-[#FBFBEE] hover:text-[#0b6d41] text-white font-semibold px-5 xs:px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 text-sm sm:text-base md:text-lg"
                 >
                   Explore Programmes
                 </button>
@@ -251,14 +251,14 @@ export default function Home() {
           </h3>
           <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6 md:gap-8">
             <div className="text-center w-20 xs:w-24 sm:w-auto">
-              <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-[#d4f1e4] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
                 <Pill className="w-8 h-8 xs:w-9 xs:h-9 sm:w-10 sm:h-10" />
               </div>
               <p className="text-[10px] xs:text-xs sm:text-sm font-medium text-gray-700">PCI</p>
             </div>
 
             <div className="text-center w-20 xs:w-24 sm:w-auto">
-              <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-12 h-12 xs:w-14 xs:h-14 sm:w-16 sm:h-16 bg-[#d4f1e4] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
                 <BookOpen className="w-7 h-7 xs:w-8 xs:h-8 sm:w-9 sm:h-9" />
               </div>
               <p className="text-[10px] xs:text-xs sm:text-sm font-medium text-gray-700 max-w-[100px] sm:max-w-none mx-auto">TNMGRMU</p>
@@ -279,10 +279,10 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             {/* Left Content */}
             <div className="order-1 lg:order-1">
-              <p className="text-xs sm:text-sm md:text-base font-bold text-[#7cb983] uppercase tracking-wider mb-3 sm:mb-4">
+              <p className="text-xs sm:text-sm md:text-base font-bold text-[#0b6d41] uppercase tracking-wider mb-3 sm:mb-4">
                 About JKKN College of Pharmacy
               </p>
-              <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-4 sm:mb-6 leading-tight">
+              <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4 sm:mb-6 leading-tight">
                 Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
@@ -292,7 +292,7 @@ export default function Home() {
                 Located in Komarapalayam, Namakkal District, Tamil Nadu, JKKN College of Pharmacy offers an ideal
                 environment for focused pharmaceutical learning. Approved by the Pharmacy Council of India (PCI) and accredited NAAC A Grade, the college produces competent
                 pharmacists ready to serve the healthcare industry. Read the detailed comparison of{' '}
-                <Link href="/blog/best-pharmacy-colleges-tamil-nadu" className="text-[#006837] font-semibold hover:underline">
+                <Link href="/blog/best-pharmacy-colleges-tamil-nadu" className="text-[#0b6d41] font-semibold hover:underline">
                   best pharmacy colleges in Tamil Nadu
                 </Link>.
               </p>
@@ -310,7 +310,7 @@ export default function Home() {
                     className="w-full h-auto"
                   />
                   {/* 41 Years Badge */}
-                  <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#7cb983] text-white rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
+                  <div className="absolute bottom-4 right-4 sm:bottom-6 sm:right-6 bg-[#ffde59] text-[#032816] rounded-xl sm:rounded-full w-28 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 flex flex-col items-center justify-center shadow-xl px-2 py-1 sm:px-3 sm:py-2">
                     <div className="text-xl xs:text-2xl sm:text-3xl md:text-4xl font-bold leading-none">41</div>
                     <div className="text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs font-semibold uppercase text-center leading-tight">
                       <div>YEARS</div>
@@ -323,27 +323,27 @@ export default function Home() {
               {/* Features Grid */}
               <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4 mt-6 sm:mt-8 mb-6 sm:mb-8">
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">PCI & NAAC Approved</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">University Affiliated</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">Modern Pharma Learning Labs</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">Hospital Training</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">6 M.Pharm Specialisations</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
-                  <span className="text-green-500 text-base sm:text-xl flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
                   <span className="text-gray-700 font-medium text-sm sm:text-base">78% Placement Record 2024-25</span>
                 </div>
               </div>
@@ -351,7 +351,7 @@ export default function Home() {
               {/* Button */}
               <button
                 onClick={() => document.getElementById('programmes-section')?.scrollIntoView({ behavior: 'smooth' })}
-                className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                className="w-full xs:w-auto bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
               >
                 Explore Programmes →
               </button>
@@ -364,10 +364,10 @@ export default function Home() {
       <section id="programmes-section" className="bg-[#FBFBEE] py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-8 sm:mb-12">
-            <p className="text-[10px] sm:text-xs md:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] sm:text-xs md:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Academic Programmes
             </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-2 sm:mb-3">
               Comprehensive Pharmaceutical Education Programmes
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
@@ -381,7 +381,7 @@ export default function Home() {
 
             {/* Bachelor of Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <GraduationCap className="w-7 h-7 xs:w-8 xs:h-8" />
@@ -399,24 +399,24 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Pharmaceutics, Pharmacology & Chemistry</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Drug formulation & quality control</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Industrial training & research projects</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837]">100</span>
+                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#0b6d41]">100</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
-                  <Link href="/b-pharmacy" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/b-pharmacy" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -425,7 +425,7 @@ export default function Home() {
 
               {/* B.Pharmacy Lateral Entry */}
               <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <Pill className="w-8 h-8" />
@@ -442,24 +442,24 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Advanced entry into 2nd year for Diploma in Pharmacy graduates</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Focus on pharmaceutical chemistry, formulation & clinical applications</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Hands-on training in learning labs and industry-oriented projects</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl font-bold text-[#006837]">10</span>
+                    <span className="text-lg xs:text-xl font-bold text-[#0b6d41]">10</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
-                  <Link href="/b-pharmacy-lateral-entry" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/b-pharmacy-lateral-entry" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -468,7 +468,7 @@ export default function Home() {
 
                {/* Doctor of Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <User className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8" />
@@ -485,24 +485,24 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Clinical pharmacy & patient counselling</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Hospital rotations & internship</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Therapeutic drug monitoring</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837]">30</span>
+                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#0b6d41]">30</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
-                  <Link href="/pharm-d" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/pharm-d" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -511,7 +511,7 @@ export default function Home() {
 
                 {/* Pharm.D (PB)*/}
                 <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <Microscope className="w-7 h-7 xs:w-8 xs:h-8" />
@@ -528,24 +528,24 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Must have completed B.Pharm</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Research-oriented learning framework</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Industry & academic career paths</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
                 <div>
-                    <span className="text-lg xs:text-xl font-bold text-[#006837]">10</span>
+                    <span className="text-lg xs:text-xl font-bold text-[#0b6d41]">10</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
-                  <Link href="/pharm-d" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/pharm-d" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -554,7 +554,7 @@ export default function Home() {
 
             {/* Master of Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <Microscope className="w-7 h-7 xs:w-8 xs:h-8" />
@@ -571,24 +571,24 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">6 specialisations available</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Research-oriented learning framework</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Industry & academic career paths</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#006837]">90</span>
+                    <span className="text-lg xs:text-xl sm:text-2xl font-bold text-[#0b6d41]">90</span>
                     <span className="text-gray-600 ml-1 text-xs sm:text-sm">Seats</span>
                   </div>
-                  <Link href="/m-pharmacy" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/m-pharmacy" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -597,7 +597,7 @@ export default function Home() {
 
             {/* Phd*/}
             <div className="bg-[#FBFBEE] rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-              <div className="bg-gradient-to-br from-[#006837] to-[#7cb983] p-3 sm:p-4">
+              <div className="bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] p-3 sm:p-4">
                 <div className="flex flex-col xs:flex-row items-start xs:items-center gap-2 xs:gap-3 mb-2 sm:mb-3">
                   <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#FBFBEE]/20 rounded-full flex items-center justify-center flex-shrink-0">
                     <User className="w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8" />
@@ -615,20 +615,20 @@ export default function Home() {
                 </p>
                 <ul className="space-y-1 sm:space-y-1.5 mb-3 sm:mb-4">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Original research & thesis</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">Supervised by senior faculty</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#7cb983] mt-0.5 flex-shrink-0">✓</span>
+                    <span className="text-[#0b6d41] mt-0.5 flex-shrink-0">✓</span>
                     <span className="text-gray-700 text-xs sm:text-sm">GPAT / NET / GATE entry route</span>
                   </li>
                 </ul>
                 <div className="flex items-center justify-between">
-                  <Link href="/phd" className="text-[#7cb983] hover:text-[#6ba872] font-semibold flex items-center gap-2 text-xs sm:text-sm">
+                  <Link href="/phd" className="text-[#0b6d41] hover:text-[#0b6d41] font-semibold flex items-center gap-2 text-xs sm:text-sm">
                     Learn More →
                   </Link>
                 </div>
@@ -642,7 +642,7 @@ export default function Home() {
       <section className="py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#006837] mb-3 sm:mb-4">
+            <h2 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0b6d41] mb-3 sm:mb-4">
               M.Pharm Specialisations Offered
             </h2>
           </div>
@@ -650,10 +650,10 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
             {/* Pharmaceutics */}
             <Link href="/pharmaceutics" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
-              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-pink-100 rounded-full flex items-center justify-center mb-2 sm:mb-3">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
                 <Pill className="w-8 h-8" />
               </div>
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-1.5 sm:mb-2">Pharmaceutics</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmaceutics</h3>
               <p className="text-xs sm:text-sm text-gray-600">
                 Drug delivery systems, formulation development, novel drug delivery
               </p>
@@ -661,10 +661,10 @@ export default function Home() {
 
             {/* Pharmacology */}
             <Link href="/pharmacology" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
-              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-blue-100 rounded-full flex items-center justify-center mb-2 sm:mb-3">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
                 <TestTube className="w-7 h-7" />
               </div>
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-1.5 sm:mb-2">Pharmacology</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmacology</h3>
               <p className="text-xs sm:text-sm text-gray-600">
                 Drug action mechanisms, toxicology, experimental pharmacology
               </p>
@@ -672,10 +672,10 @@ export default function Home() {
 
             {/* Pharmaceutical Chemistry */}
             <Link href="/pharmaceutical-chemistry" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
-              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-green-100 rounded-full flex items-center justify-center mb-2 sm:mb-3">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
                 <FlaskConical className="w-7 h-7" />
               </div>
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-1.5 sm:mb-2">Pharmaceutical Chemistry</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmaceutical Chemistry</h3>
               <p className="text-xs sm:text-sm text-gray-600">
                 Drug synthesis, medicinal chemistry, computational drug design
               </p>
@@ -683,10 +683,10 @@ export default function Home() {
 
                {/* Pharmaceutical Practice */}
                <Link href="/pharmacy-practice" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
-              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-green-100 rounded-full flex items-center justify-center mb-2 sm:mb-3">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
                 <FlaskConical className="w-7 h-7" />
               </div>
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-1.5 sm:mb-2">Pharmaceutical Practice</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmaceutical Practice</h3>
               <p className="text-xs sm:text-sm text-gray-600">
               Clinical pharmacy, patient care, medication management, hospital & community pharmacy practice
               </p>
@@ -694,10 +694,10 @@ export default function Home() {
 
                   {/* Pharmaceutical Analysis */}
                   <Link href="/pharmaceutical-analysis" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
-              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-green-100 rounded-full flex items-center justify-center mb-2 sm:mb-3">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
                 <FlaskConical className="w-7 h-7" />
               </div>
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-1.5 sm:mb-2">Pharmaceutical Analysis</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmaceutical Analysis</h3>
               <p className="text-xs sm:text-sm text-gray-600">
               Drug testing, quality assurance, analytical techniques, validation & regulatory standards
               </p>
@@ -710,10 +710,10 @@ export default function Home() {
       <section className="bg-[#FBFBEE] py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="text-center mb-8 sm:mb-12">
-            <p className="text-[10px] sm:text-xs md:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] sm:text-xs md:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Career Opportunities
             </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-2 sm:mb-3">
               Diverse Career Paths After Pharmacy
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
@@ -725,10 +725,10 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
             {/* Pharma Industry */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <Factory className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharma<br className="xs:hidden" /> Industry</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Pharma<br className="xs:hidden" /> Industry</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Manufacturing, production, quality control & assurance
               </p>
@@ -736,10 +736,10 @@ export default function Home() {
 
             {/* Research & Development */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <Microscope className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Research &<br className="xs:hidden" /> Development</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Research &<br className="xs:hidden" /> Development</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug discovery, formulation R&D, clinical trials
               </p>
@@ -747,10 +747,10 @@ export default function Home() {
 
             {/* Hospital Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <Hospital className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Clinical pharmacist, drug information, patient care
               </p>
@@ -758,10 +758,10 @@ export default function Home() {
 
             {/* Community Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <Briefcase className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Community<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Community<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Retail pharmacy, own pharmacy business
               </p>
@@ -769,10 +769,10 @@ export default function Home() {
 
             {/* Regulatory Affairs */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <ClipboardList className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Regulatory<br className="xs:hidden" /> Affairs</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Regulatory<br className="xs:hidden" /> Affairs</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug registration, compliance, documentation
               </p>
@@ -780,10 +780,10 @@ export default function Home() {
 
             {/* Pharmacovigilance */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <Search className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmacovigilance</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Pharmacovigilance</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Drug safety monitoring, adverse event reporting
               </p>
@@ -791,10 +791,10 @@ export default function Home() {
 
             {/* Medical Writing */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <FileText className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Medical<br className="xs:hidden" /> Writing</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Medical<br className="xs:hidden" /> Writing</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Clinical documentation, regulatory writing
               </p>
@@ -802,10 +802,10 @@ export default function Home() {
 
             {/* Pharma Marketing */}
             <div className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-2 xs:p-3 sm:p-4 text-center shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#7cb983] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-11 sm:h-11 md:w-12 md:h-12 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-1.5 sm:mb-2 text-[#032816]">
                 <BarChart className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharma<br className="xs:hidden" /> Marketing</h3>
+              <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Pharma<br className="xs:hidden" /> Marketing</h3>
               <p className="text-gray-600 text-xs sm:text-sm hidden xs:block">
                 Medical representative, product management
               </p>
@@ -815,7 +815,7 @@ export default function Home() {
       </section>
 
       {/* Training & Placements Section */}
-      <section className="bg-gradient-to-br from-[#006837] via-[#7cb983] to-[#002309] text-white py-12 sm:py-16 md:py-20">
+      <section className="bg-gradient-to-br from-[#0b6d41] via-[#0f8f56] to-[#032816] text-white py-12 sm:py-16 md:py-20">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             {/* Left Content */}
@@ -865,10 +865,10 @@ export default function Home() {
       <section className="py-8 sm:py-12 md:py-16">
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
           <div className="text-center mb-6 sm:mb-8">
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Infrastructure
             </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-2 sm:mb-3">
               Advanced Pharmaceutical Facilities
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
@@ -879,10 +879,10 @@ export default function Home() {
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2 sm:gap-3 md:gap-4 lg:gap-5">
             {/* Pharmaceutics Lab */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-purple-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Pill className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmaceutics<br className="xs:hidden" /> Learning Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Pharmaceutics<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Tablet press, coating machines, formulation equipment
               </p>
@@ -890,10 +890,10 @@ export default function Home() {
 
             {/* Chemistry Lab */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-green-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <FlaskConical className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Chemistry<br className="xs:hidden" /> Learning Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Chemistry<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 HPLC, UV-Vis spectrophotometer, analytical instruments
               </p>
@@ -901,10 +901,10 @@ export default function Home() {
 
             {/* Pharmacology Lab */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-blue-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <TestTube className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Pharmacology<br className="xs:hidden" /> Learning Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Pharmacology<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Animal house, organ bath, experimental pharmacology
               </p>
@@ -912,10 +912,10 @@ export default function Home() {
 
             {/* Medicinal Garden */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-green-200 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Leaf className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Medicinal<br className="xs:hidden" /> Garden</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Medicinal<br className="xs:hidden" /> Garden</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 300+ medicinal plants for hands-on learning
               </p>
@@ -926,7 +926,7 @@ export default function Home() {
               <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-gray-200 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Landmark className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Drug<br className="xs:hidden" /> Museum</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Drug<br className="xs:hidden" /> Museum</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 500+ drug specimens, crude drugs collection
               </p>
@@ -934,10 +934,10 @@ export default function Home() {
 
             {/* Computer Lab */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-blue-200 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Laptop className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 md:w-8 md:h-8" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Digital<br className="xs:hidden" /> Learning Lab</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Digital<br className="xs:hidden" /> Learning Lab</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Drug design software, molecular modeling tools
               </p>
@@ -945,10 +945,10 @@ export default function Home() {
 
             {/* Digital Library */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-pink-100 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <BookOpen className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Digital<br className="xs:hidden" /> Library</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Digital<br className="xs:hidden" /> Library</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Journals, e-books, research databases
               </p>
@@ -956,10 +956,10 @@ export default function Home() {
 
             {/* Hospital Pharmacy */}
             <div className="bg-[#FBFBEE] rounded-lg sm:rounded-xl p-2 xs:p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300">
-              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-purple-200 rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
+              <div className="w-8 h-8 xs:w-10 xs:h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-1.5 sm:mb-3">
                 <Hospital className="w-10 h-10" />
               </div>
-              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#006837] mb-1 sm:mb-2 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
+              <h3 className="text-sm sm:text-base md:text-lg font-bold text-[#0b6d41] mb-1 sm:mb-2 leading-tight">Hospital<br className="xs:hidden" /> Pharmacy</h3>
               <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm hidden xs:block">
                 Clinical training, patient counselling practice
               </p>
@@ -975,10 +975,10 @@ export default function Home() {
         <div className="max-w-[1400px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
           {/* Hero Section */}
           <div className="text-center mb-6 sm:mb-8">
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               Admissions 2026-27
             </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-3 sm:mb-4 leading-tight">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-3 sm:mb-4 leading-tight">
               Begin Your Pharmaceutical Journey at JKKN
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -990,18 +990,18 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {/* B.Pharm Eligibility */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">B.Pharm Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">B.Pharm Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">10+2 with Physics, Chemistry & Biology/Mathematics</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% marks (45% for reserved)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Counselling or Management quota</span>
                 </li>
               </ul>
@@ -1009,14 +1009,14 @@ export default function Home() {
 
             {/* B.Pharm Lateral Entry */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">B.Pharm (Lateral Entry) Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">B.Pharm (Lateral Entry) Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Diploma in Pharmacy</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum pass marks</span>
                 </li>
               </ul>
@@ -1024,14 +1024,14 @@ export default function Home() {
 
             {/* M.Pharm  Eligibility */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">M.Pharm Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">M.Pharm Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% aggregate marks</span>
                 </li>
               </ul>
@@ -1039,18 +1039,18 @@ export default function Home() {
 
             {/*  Pharm.D Eligibility */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">Pharm.D Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">Pharm.D Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">10+2 with Physics, Chemistry & Biology/Mathematics</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% marks (45% for reserved)</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Counselling or Management quota</span>
                 </li>
               </ul>
@@ -1058,14 +1058,14 @@ export default function Home() {
 
             {/* Pharm.D PB Eligibility */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">Pharm.D (Post Baccalaureate) Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">Pharm.D (Post Baccalaureate) Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">B.Pharm from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% aggregate marks</span>
                 </li>
               </ul>
@@ -1073,14 +1073,14 @@ export default function Home() {
 
             {/* PhD Eligibility */}
             <div className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-sm">
-              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#006837] mb-2 sm:mb-3">Ph.D Eligibility</h3>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-2 sm:mb-3">Ph.D Eligibility</h3>
               <ul className="space-y-1.5 sm:space-y-2">
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">M.Pharm and Pharm.D from PCI-recognised institution</span>
                 </li>
                 <li className="flex items-start gap-2">
-                  <span className="text-[#7cb983] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
+                  <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
                   <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% aggregate marks</span>
                 </li>
               </ul>
@@ -1089,49 +1089,49 @@ export default function Home() {
 
           {/* Admission Process - Full Width */}
           <div className="bg-white rounded-xl sm:rounded-2xl p-4 xs:p-5 sm:p-6 md:p-8 shadow-xl mb-6 sm:mb-8">
-            <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-[#006837] mb-4 sm:mb-6 text-center">Admission Process</h3>
+            <h3 className="text-base xs:text-lg sm:text-xl md:text-2xl font-bold text-[#0b6d41] mb-4 sm:mb-6 text-center">Admission Process</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
               <div className="flex flex-col items-center text-center">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   1
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Check Eligibility</h4>
+                <h4 className="font-bold text-[#0b6d41] mb-1.5 sm:mb-2 text-xs xs:text-sm">Check Eligibility</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
                   Verify academic requirements for your chosen programme
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   2
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Apply Online</h4>
+                <h4 className="font-bold text-[#0b6d41] mb-1.5 sm:mb-2 text-xs xs:text-sm">Apply Online</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
                   Submit application via counselling portal or JKKN website
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   3
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Counselling / Selection</h4>
+                <h4 className="font-bold text-[#0b6d41] mb-1.5 sm:mb-2 text-xs xs:text-sm">Counselling / Selection</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
                   Participate in TN Selection Committee/GPAT counselling or direct admission
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   4
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Document Verification</h4>
+                <h4 className="font-bold text-[#0b6d41] mb-1.5 sm:mb-2 text-xs xs:text-sm">Document Verification</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
                   Submit original documents for verification
                 </p>
               </div>
               <div className="flex flex-col items-center text-center">
-                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] text-white rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
+                <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] text-[#032816] rounded-full flex items-center justify-center font-bold text-base sm:text-lg mb-2 sm:mb-3">
                   5
                 </div>
-                <h4 className="font-bold text-[#006837] mb-1.5 sm:mb-2 text-xs xs:text-sm">Fee Payment & Enrollment</h4>
+                <h4 className="font-bold text-[#0b6d41] mb-1.5 sm:mb-2 text-xs xs:text-sm">Fee Payment & Enrollment</h4>
                 <p className="text-gray-600 text-[10px] xs:text-xs sm:text-sm leading-snug">
                   Complete payment and secure your admission
                 </p>
@@ -1140,7 +1140,7 @@ export default function Home() {
           </div>
 
           {/* The 3-box form where eligibility is read (2026-10-16) */}
-          <div className="max-w-xl mx-auto bg-[#006837] rounded-xl sm:rounded-2xl p-5 sm:p-6 mb-6 sm:mb-8">
+          <div className="max-w-xl mx-auto bg-[#0b6d41] rounded-xl sm:rounded-2xl p-5 sm:p-6 mb-6 sm:mb-8">
             <h3 className="text-xl sm:text-2xl font-bold text-white leading-snug">Check your eligibility with our admission team</h3>
             <p className="mt-1 mb-5 text-sm sm:text-base text-white/80">Fill 3 details. Our admission team will call you within 24 hours.</p>
             <PharmacyEnquiryForm sourcePage="home-admissions" compact />
@@ -1148,10 +1148,10 @@ export default function Home() {
 
           {/* Buttons */}
           <div className="flex flex-col xs:flex-row flex-wrap justify-center gap-3 sm:gap-4">
-            <a href="tel:9345855001" className="w-full xs:w-auto bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+            <a href="tel:9345855001" className="w-full xs:w-auto bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
               Talk to Admissions
             </a>
-            <a href="mailto:pharmacy@jkkn.ac.in" className="w-full xs:w-auto border-2 border-[#006837] hover:bg-[#006837] hover:text-white text-[#006837] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+            <a href="mailto:pharmacy@jkkn.ac.in" className="w-full xs:w-auto border-2 border-[#0b6d41] hover:bg-[#0b6d41] hover:text-white text-[#0b6d41] font-semibold px-5 sm:px-8 py-3 sm:py-4 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
               Email Us
             </a>
           </div>
@@ -1164,13 +1164,13 @@ export default function Home() {
       {/* Program Overview Table - for AI/SEO extraction */}
       <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-white" aria-label="Pharmacy Programs Overview">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Pharmacy Programmes at JKKN College of Pharmacy</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#0b6d41] mb-2">Pharmacy Programmes at JKKN College of Pharmacy</h2>
           <p className="text-sm sm:text-base text-gray-600 mb-6">Overview of all PCI-approved pharmacy programmes offered at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
               <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 1: Overview of B.Pharm, Pharm.D, M.Pharm, and Ph.D programs at JKKN College of Pharmacy</caption>
               <thead>
-                <tr className="bg-[#006837] text-white">
+                <tr className="bg-[#0b6d41] text-white">
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Program</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Duration</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Eligibility</th>
@@ -1202,13 +1202,13 @@ export default function Home() {
       {/* Placement Statistics Table - for AI/SEO extraction */}
       <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-[#f9fafb]" aria-label="Placement Statistics">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Placement Statistics — JKKN College of Pharmacy</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#0b6d41] mb-2">Placement Statistics — JKKN College of Pharmacy</h2>
           <p className="text-sm sm:text-base text-gray-600 mb-6">Year-wise placement data for pharmacy graduates from JKKN College of Pharmacy, Komarapalayam.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '600px' }}>
               <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 2: Year-wise placement statistics from the NIRF 2026 submission (graduates, placed, higher studies, median salary of placed graduates)</caption>
               <thead>
-                <tr className="bg-[#006837] text-white">
+                <tr className="bg-[#0b6d41] text-white">
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Year</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Graduates</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Placed</th>
@@ -1244,13 +1244,13 @@ export default function Home() {
       {/* Fee Structure Table - for AI/SEO extraction */}
       <section className="py-10 sm:py-14 px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20 bg-white" aria-label="Fee Structure">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#006837] mb-2">Fee Structure — JKKN College of Pharmacy 2026–27</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold text-[#0b6d41] mb-2">Fee Structure — JKKN College of Pharmacy 2026–27</h2>
           <p className="text-sm sm:text-base text-gray-600 mb-6">Annual and total fee details for all pharmacy programs at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu.</p>
           <div style={{ overflowX: 'auto' }}>
             <table className="w-full border-collapse text-sm sm:text-base" style={{ minWidth: '500px' }}>
               <caption className="text-left text-xs text-gray-500 mb-2 caption-bottom mt-2">Table 3: Fee structure for B.Pharm, Pharm.D, and M.Pharm programs at JKKN College of Pharmacy</caption>
               <thead>
-                <tr className="bg-[#006837] text-white">
+                <tr className="bg-[#0b6d41] text-white">
                   <th scope="col" className="text-left px-4 py-3 font-semibold">Programme</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">GQ</th>
                   <th scope="col" className="text-left px-4 py-3 font-semibold">MQ</th>
@@ -1281,10 +1281,10 @@ export default function Home() {
       <section className="bg-[#FBFBEE] py-8 sm:py-12 md:py-16">
         <div className="max-w-[1000px] mx-auto px-4 xs:px-5 sm:px-6 md:px-10 lg:px-16 xl:px-20">
           <div className="text-center mb-6 sm:mb-8">
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#7cb983] uppercase tracking-wider mb-2 sm:mb-3">
+            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
               FAQS
             </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-2 sm:mb-3">
+            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-2 sm:mb-3">
               Frequently Asked Questions
             </h2>
             <p className="text-xs sm:text-sm text-gray-600 max-w-3xl mx-auto px-2">
@@ -1299,9 +1299,9 @@ export default function Home() {
                 schema on 5 of 12 answers. */}
             {homepageFaqs.map((faq) => (
               <details key={faq.question} className="bg-white rounded-lg sm:rounded-xl p-3 xs:p-4 sm:p-5 shadow-md group">
-                <summary className="font-bold text-[#006837] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
+                <summary className="font-bold text-[#0b6d41] text-xs xs:text-sm sm:text-base cursor-pointer flex items-center justify-between gap-2">
                   <span>{faq.question}</span>
-                  <span className="text-[#7cb983] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
+                  <span className="text-[#0b6d41] text-lg sm:text-xl group-open:rotate-45 transition-transform flex-shrink-0">+</span>
                 </summary>
                 <p className="voice-answer text-gray-600 mt-2 sm:mt-3 leading-relaxed text-xs sm:text-sm">
                   {faq.answer}
@@ -1315,22 +1315,22 @@ export default function Home() {
       {/* Locations / City Pages Section */}
       <section className="py-8 sm:py-12 md:py-16" aria-label="Pharmacy College Near Your City">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#006837] mb-2">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#0b6d41] mb-2">
             Pharmacy College Near Your City
           </h2>
           <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto">
             JKKN College of Pharmacy in Komarapalayam is easily accessible from major cities across western Tamil Nadu via NH-544.
             The nearest city is Erode — 18 km from Erode Bus Stand, about 30 minutes by car — and the{' '}
-            <Link href="/erode/" className="text-[#006837] font-semibold underline">pharmacy college near Erode</Link>{' '}
+            <Link href="/erode/" className="text-[#0b6d41] font-semibold underline">pharmacy college near Erode</Link>{' '}
             page covers bus routes, travel time and hostel options for students from Erode.
             The college is in Namakkal district — Namakkal town is 65 km away — and the{' '}
-            <Link href="/namakkal/" className="text-[#006837] font-semibold underline">pharmacy and B.Pharm colleges in Namakkal district</Link>{' '}
+            <Link href="/namakkal/" className="text-[#0b6d41] font-semibold underline">pharmacy and B.Pharm colleges in Namakkal district</Link>{' '}
             page compares every pharmacy college in the district.
             Salem bus stand is 57 km away (about an hour by car) — the{' '}
-            <Link href="/salem/" className="text-[#006837] font-semibold underline">pharmacy college near Salem</Link>{' '}
+            <Link href="/salem/" className="text-[#0b6d41] font-semibold underline">pharmacy college near Salem</Link>{' '}
             page lists every pharmacy college in Salem district alongside JKKN, with road distances from each taluk.
             Looking at the whole state? The{' '}
-            <Link href="/blog/best-pharmacy-colleges-tamil-nadu/" className="text-[#006837] font-semibold underline">top pharmacy colleges in Tamil Nadu (tamilnadu)</Link>{' '}
+            <Link href="/blog/best-pharmacy-colleges-tamil-nadu/" className="text-[#0b6d41] font-semibold underline">top pharmacy colleges in Tamil Nadu (tamilnadu)</Link>{' '}
             guide lists every Tamil Nadu institution NIRF 2025 ranks, with NAAC grade, seats and fees.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 sm:gap-4">
@@ -1344,10 +1344,10 @@ export default function Home() {
               <Link
                 key={item.city}
                 href={item.href}
-                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 shadow-sm hover:border-[#7cb983] transition-colors duration-200 text-left"
+                className="bg-white border border-gray-100 rounded-xl p-3.5 sm:p-4 shadow-sm hover:border-[#0f8f56] transition-colors duration-200 text-left"
               >
                 <p className="text-sm sm:text-base font-bold text-gray-900">{item.city}</p>
-                <p className="text-[11px] sm:text-xs text-[#006837] mt-0.5">{item.label}</p>
+                <p className="text-[11px] sm:text-xs text-[#0b6d41] mt-0.5">{item.label}</p>
                 <p className="text-[10px] sm:text-xs text-gray-400 mt-0.5">{item.distance} from campus</p>
               </Link>
             ))}
@@ -1368,7 +1368,7 @@ export default function Home() {
               { city: 'Trichy', href: '/trichy/' },
             ].map((item, i, arr) => (
               <React.Fragment key={item.city}>
-                <Link href={item.href} className="text-[#006837] font-semibold hover:underline">
+                <Link href={item.href} className="text-[#0b6d41] font-semibold hover:underline">
                   {item.city}
                 </Link>
                 {i < arr.length - 2 ? ', ' : i === arr.length - 2 ? ' and ' : '.'}

@@ -9,17 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'jkkn-green': '#1a7f5a',
+        'jkkn-green': '#0b6d41',
         'jkkn-pink': '#d4145a',
         primary: {
-          DEFAULT: '#1a7f5a',
-          light: '#2e9d74',
-          dark: '#0d5f3f',
+          DEFAULT: '#0b6d41',
+          light: '#0f8f56',
+          dark: '#085032',
         },
         secondary: {
-          DEFAULT: '#FFC107',
-          light: '#FFD54F',
-          dark: '#FFA000',
+          DEFAULT: '#ffde59',
+          light: '#ffea9a',
+          dark: '#e6c64d',
         },
       },
       screens: {

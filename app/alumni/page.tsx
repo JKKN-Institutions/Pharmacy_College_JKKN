@@ -6,7 +6,7 @@ export default function AlumniPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Alumni Association
@@ -29,7 +29,7 @@ export default function AlumniPage() {
                 'They focus on current corporate demands/opportunities and sharing their experiences to provide a platform for placement for learners. The alumni have played a critical role in exchanging ideas and motivating learners to choose the right career path. To this end, the JKKN College of Pharmacy campus has hosted various alumni meets where alumni have given valuable suggestions.',
               ].map((item, index) => (
                 <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                   <span>{item}</span>
                 </li>
               ))}
@@ -38,7 +38,7 @@ export default function AlumniPage() {
 
           {/* Key Objectives */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               The key objectives of the Alumni Committee of JKKN College of Pharmacy are as follows:
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
@@ -52,7 +52,7 @@ export default function AlumniPage() {
                 'To open a way for making a strong relationship between the alumni and current learners.',
               ].map((objective, index) => (
                 <div key={index} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 sm:p-6 flex gap-4">
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#006837] text-white text-xs font-bold flex items-center justify-center mt-0.5">
+                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-[#0b6d41] text-white text-xs font-bold flex items-center justify-center mt-0.5">
                     {index + 1}
                   </span>
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{objective}</p>
@@ -77,7 +77,7 @@ export default function AlumniPage() {
                 href="/pdf/Alumni-activities.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#006837] text-white text-sm sm:text-base font-semibold px-5 py-3 rounded-lg hover:bg-[#005a2f] transition-colors duration-200"
+                className="inline-flex items-center gap-2 bg-[#0b6d41] text-white text-sm sm:text-base font-semibold px-5 py-3 rounded-lg hover:bg-[#085032] transition-colors duration-200"
               >
                 <span>📌</span>
                 Click for more details and Alumni activities
@@ -87,7 +87,7 @@ export default function AlumniPage() {
 
           {/* Alumni Network and Contributions */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               ALUMNI NETWORK AND CONTRIBUTIONS
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10">
@@ -101,7 +101,7 @@ export default function AlumniPage() {
                   'In conclusion, the alumni network of the pharmacy college plays a crucial role in the institution\'s journey towards overall excellence. Their contributions in terms of feedback, industry connections, knowledge-sharing, financial support, and fostering a strong sense of community have a lasting positive impact on the college\'s growth and reputation.',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+                    <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
                     <span>{item}</span>
                   </li>
                 ))}
@@ -111,14 +111,14 @@ export default function AlumniPage() {
 
           {/* Composition Table */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6 sm:mb-8">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               Composition
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-left font-semibold">Sl. No</th>
                       <th className="px-6 py-4 text-left font-semibold">Name</th>
                       <th className="px-6 py-4 text-left font-semibold">Designation</th>

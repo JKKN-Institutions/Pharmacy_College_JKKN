@@ -9,16 +9,16 @@ export default function HostelPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Hostel
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -29,7 +29,7 @@ export default function HostelPage() {
 
           {/* Boys Hostel Card */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Boys Hostel</h2>
             </div>
             <div className="p-8 sm:p-10 md:p-12">
@@ -52,7 +52,7 @@ export default function HostelPage() {
                     'Unwind and relax in the recreation rooms equipped with TVs, the perfect entertainment escape after a long day.',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-4">
-                      <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -62,7 +62,7 @@ export default function HostelPage() {
 
           {/* Girls Hostel Card */}
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="bg-[#006837] px-8 py-5">
+            <div className="bg-[#0b6d41] px-8 py-5">
               <h2 className="text-base sm:text-lg font-bold text-white">Girls Hostel</h2>
             </div>
             <div className="p-8 sm:p-10 md:p-12">
@@ -83,7 +83,7 @@ export default function HostelPage() {
                     'The girls\' hostel sits inside the JKKN campus, a short walk from the college block, with resident wardens and round-the-clock security.',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-4">
-                      <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -93,8 +93,8 @@ export default function HostelPage() {
 
           {/* Hostel Facilities Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-2">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-2">
               JKKN College of Pharmacy Hostel Facilities
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-8">
@@ -105,7 +105,7 @@ export default function HostelPage() {
 
               {/* Accommodation */}
               <div>
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-2 pb-2 border-b border-[#7cb983]/30">
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-2 pb-2 border-b border-[#0f8f56]/30">
                   Accommodation
                 </h3>
                 <p className="text-sm sm:text-base text-gray-700 font-semibold mb-4">
@@ -119,7 +119,7 @@ export default function HostelPage() {
                     '24/7 high-speed Wi-Fi connectivity throughout the hostels to support academic needs.',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -128,7 +128,7 @@ export default function HostelPage() {
 
               {/* Infrastructure & Amenities */}
               <div>
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4 pb-2 border-b border-[#0f8f56]/30">
                   Infrastructure &amp; Amenities
                 </h3>
                 <ul className="space-y-3">
@@ -141,7 +141,7 @@ export default function HostelPage() {
                     'Stationary shops within the campus premises',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -150,7 +150,7 @@ export default function HostelPage() {
 
               {/* Dining & Food Services */}
               <div>
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4 pb-2 border-b border-[#0f8f56]/30">
                   Dining &amp; Food Services
                 </h3>
                 <ul className="space-y-3">
@@ -160,7 +160,7 @@ export default function HostelPage() {
                     'Mineral water is provided to all, ensuring safe drinking water',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -169,7 +169,7 @@ export default function HostelPage() {
 
               {/* Health & Wellness */}
               <div>
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4 pb-2 border-b border-[#0f8f56]/30">
                   Health &amp; Wellness
                 </h3>
                 <ul className="space-y-3">
@@ -179,7 +179,7 @@ export default function HostelPage() {
                     'Regular yoga sessions for mental wellness',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}
@@ -188,7 +188,7 @@ export default function HostelPage() {
 
               {/* Management & Security */}
               <div>
-                <h3 className="text-base sm:text-lg font-bold text-[#006837] mb-4 pb-2 border-b border-[#7cb983]/30">
+                <h3 className="text-base sm:text-lg font-bold text-[#0b6d41] mb-4 pb-2 border-b border-[#0f8f56]/30">
                   Management &amp; Security
                 </h3>
                 <ul className="space-y-3">
@@ -199,7 +199,7 @@ export default function HostelPage() {
                     'Bus facility available for the Drop and pickup from campus',
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <CheckCircle className="w-4 h-4 text-[#7cb983] mt-0.5 shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
                       <span className="text-sm sm:text-base text-gray-700">{item}</span>
                     </li>
                   ))}

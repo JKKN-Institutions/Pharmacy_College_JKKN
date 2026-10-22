@@ -30,7 +30,7 @@ export default function StudyMaterialPage() {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
           {/* Page Title */}
-          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0F6B3E] mb-6 sm:mb-8 md:mb-12">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0b6d41] mb-6 sm:mb-8 md:mb-12">
             Study Material
           </h1>
 
@@ -47,7 +47,7 @@ export default function StudyMaterialPage() {
                 </h2>
 
                 {/* Download Button */}
-                <button className="bg-[#82b974] hover:bg-[#72a564] text-white font-semibold px-8 py-3 rounded transition-all duration-300 whitespace-nowrap self-start sm:self-auto">
+                <button className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-8 py-3 rounded transition-all duration-300 whitespace-nowrap self-start sm:self-auto">
                   Download Material
                 </button>
               </div>

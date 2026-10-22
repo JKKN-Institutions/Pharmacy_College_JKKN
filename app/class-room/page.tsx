@@ -9,16 +9,16 @@ export default function ClassRoomPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Learning Studio
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -57,7 +57,7 @@ export default function ClassRoomPage() {
           {/* Content Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
             </div>
             <div className="space-y-6 text-gray-700 leading-relaxed">
               <p className="text-sm sm:text-base text-justify">
@@ -68,19 +68,19 @@ export default function ClassRoomPage() {
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
                     The college prides itself on staying at the forefront of technology in education.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
                     The college's commitment to providing the latest instructional technologies in learning studios and learning labs is unwavering. The smart learning studios are equipped with modern multimedia facilities, including LCD projectors, Tabs, and audio-visual systems.
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700">
                     This technology enhances the teaching-learning experience, making it easier for learners to absorb information and for senior learners to present it effectively.
                   </span>

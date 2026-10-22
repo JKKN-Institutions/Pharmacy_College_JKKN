@@ -38,7 +38,7 @@ export function BottomNavItem({
         'relative flex flex-col items-center justify-center px-1 py-2 min-w-[50px] xs:min-w-[60px] sm:min-w-[70px] flex-1',
         'transition-colors duration-150',
         'focus:outline-none rounded',
-        isActive ? 'text-[#0F6B3E]' : 'text-gray-500'
+        isActive ? 'text-[#0b6d41]' : 'text-gray-500'
       )}
       whileTap={{ scale: 0.92 }}
       transition={tapSpring}
@@ -81,7 +81,7 @@ export function BottomNavItem({
       {isActive && (
         <motion.div
           layoutId="bottomNavActiveIndicator"
-          className="absolute bottom-0 h-0.5 w-8 rounded-full bg-[#0F6B3E]"
+          className="absolute bottom-0 h-0.5 w-8 rounded-full bg-[#0b6d41]"
           transition={indicatorSpring}
         />
       )}

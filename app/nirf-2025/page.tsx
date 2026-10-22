@@ -16,7 +16,7 @@ export default function NIRF2025Page() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12 mb-4 sm:mb-6 md:mb-8 lg:mb-12">
           {/* Pharmacy Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0F6B3E] mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0b6d41] mb-4 sm:mb-6">
               Pharmacy
             </h2>
             <a
@@ -29,7 +29,7 @@ export default function NIRF2025Page() {
 
           {/* Innovation Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0F6B3E] mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0b6d41] mb-4 sm:mb-6">
               Innovation
             </h2>
             <a
@@ -42,7 +42,7 @@ export default function NIRF2025Page() {
 
           {/* SDG Section */}
           <div>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0F6B3E] mb-4 sm:mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#0b6d41] mb-4 sm:mb-6">
               SDG
             </h2>
             <a

@@ -31,16 +31,16 @@ export default function PEOsPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Academic Framework
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             State The Programme educational objectives (PEOs)
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function PEOsPage() {
 
           {/* Subtitle Card */}
           <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
             <p className="text-sm sm:text-base text-gray-700">
               Following are the Programme Educational Objectives:
             </p>
@@ -62,13 +62,13 @@ export default function PEOsPage() {
             <div key={peo.id} className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="flex flex-col sm:flex-row">
                 {/* ID Badge */}
-                <div className="bg-[#006837] flex items-center justify-center px-6 py-5 sm:py-0 sm:w-28 shrink-0">
+                <div className="bg-[#0b6d41] flex items-center justify-center px-6 py-5 sm:py-0 sm:w-28 shrink-0">
                   <span className="text-lg sm:text-xl font-bold text-white tracking-wide">
                     {peo.id}
                   </span>
                 </div>
                 {/* Content */}
-                <div className="flex-1 p-6 sm:p-8 flex items-center border-l-0 sm:border-l-4 border-[#7cb983]">
+                <div className="flex-1 p-6 sm:p-8 flex items-center border-l-0 sm:border-l-4 border-[#0f8f56]">
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
                     {peo.text}
                   </p>

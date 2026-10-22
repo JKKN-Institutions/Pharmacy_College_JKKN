@@ -9,16 +9,16 @@ export default function GeneralRulesPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Learner Guidelines
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Rules And Regulations
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -30,8 +30,8 @@ export default function GeneralRulesPage() {
           {/* General Rules Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <p className="text-[#006837] text-xs sm:text-sm font-semibold tracking-widest uppercase">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <p className="text-[#0b6d41] text-xs sm:text-sm font-semibold tracking-widest uppercase">
                 General Rules
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function GeneralRulesPage() {
                 'Learners should have a minimum of 85% attendance in both theory and practical separately in each subject, to be eligible for the University exam. Candidates with less than 85% attendance will not be allowed to appear for the university exams.',
               ].map((rule, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{rule}</p>
                 </li>
               ))}
@@ -53,8 +53,8 @@ export default function GeneralRulesPage() {
           {/* Dress Code Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                 Dress Code
               </h2>
             </div>
@@ -66,7 +66,7 @@ export default function GeneralRulesPage() {
                 'During lab sessions, Learners should wear the prescribed white lab coat over the regular uniform and closed footwear.',
               ].map((rule, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{rule}</p>
                 </li>
               ))}
@@ -76,8 +76,8 @@ export default function GeneralRulesPage() {
           {/* Code of Conduct Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                 Code of Conduct
               </h2>
             </div>
@@ -99,7 +99,7 @@ export default function GeneralRulesPage() {
                 'Learners who travel to the institution by vehicles should have a copy of their driving license, Insurance and Registration. Those who travel by two-wheelers must wear helmet while coming to college in their vehicle.',
               ].map((rule, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{rule}</p>
                 </li>
               ))}
@@ -109,8 +109,8 @@ export default function GeneralRulesPage() {
           {/* Ragging Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
             <div className="mb-6">
-              <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837]">
+              <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+              <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">
                 Ragging
               </h2>
             </div>
@@ -129,7 +129,7 @@ export default function GeneralRulesPage() {
                 'If any learner found to violate this, the learners will be punished in accordance with the anti-ragging act (1987), Govt. of India.',
               ].map((rule, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <p className="text-sm sm:text-base text-gray-700 leading-relaxed">{rule}</p>
                 </li>
               ))}

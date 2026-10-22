@@ -41,7 +41,7 @@ export default function CareersBreadcrumb({ items }: CareersBreadcrumbProps) {
                 {index === 0 ? (
                   <Link
                     href="/"
-                    className="text-[#006837] hover:text-[#7cb983] transition-colors flex items-center gap-1.5"
+                    className="text-[#0b6d41] hover:text-[#0b6d41] transition-colors flex items-center gap-1.5"
                   >
                     <Home className="w-3 h-3 sm:w-4 sm:h-4" aria-hidden="true" />
                     <span>{crumb.name}</span>

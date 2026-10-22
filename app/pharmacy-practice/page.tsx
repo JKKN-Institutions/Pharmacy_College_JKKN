@@ -62,9 +62,9 @@ export default function PharmacyPracticePage() {
       <Header />
 
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] text-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 bg-[#7cb983] px-6 py-2 rounded-full text-white font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
+        <div className="inline-flex items-center gap-2 bg-[#ffde59] px-6 py-2 rounded-full text-[#032816] font-bold text-[8px] xs:text-[10px] sm:text-sm mb-6">
             <GraduationCap className="w-10 h-10" />
             DOCTORAL PROGRAMME 2026
           </div>
@@ -75,8 +75,8 @@ export default function PharmacyPracticePage() {
 
       {/* What is M.Pharm in Pharmacy Practice Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#7cb983] shadow-sm">
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-6 border-b-4 border-[#7cb983] pb-3 inline-block">What is M.Pharm in Pharmacy Practice?</h2>
+        <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 border-l-4 border-[#0f8f56] shadow-sm">
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-6 border-b-4 border-[#0f8f56] pb-3 inline-block">What is M.Pharm in Pharmacy Practice?</h2>
 
           <div className="text-gray-800 leading-relaxed space-y-4 mb-8">
             <p>
@@ -87,25 +87,25 @@ export default function PharmacyPracticePage() {
           {/* Info Cards */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">DURATION</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">DURATION</h3>
               <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                 2 Years (4 Semesters)
               </p>
             </div>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">ELIGIBILITY</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">ELIGIBILITY</h3>
               <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                 B.Pharm + GPAT/Entrance Exam
               </p>
             </div>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">SPECIALISATION FOCUS</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">SPECIALISATION FOCUS</h3>
               <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                 Clinical Pharmacy & Patient Care
               </p>
             </div>
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#006837] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">AVERAGE SALARY</h3>
+              <h3 className="text-[#0b6d41] font-bold text-[10px] sm:text-xs md:text-sm mb-3 uppercase">AVERAGE SALARY</h3>
               <p className="text-gray-900 font-semibold text-xs sm:text-sm">
                 ₹4-10 Lakhs/Year
               </p>
@@ -118,167 +118,167 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Target className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Core Clinical Competencies & Skills Developed</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Core Clinical Competencies & Skills Developed</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Clinical Pharmacy Practice */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Pharmacy Practice</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Clinical Pharmacy Practice</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Medication Therapy Management (MTM)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Drug Therapy Optimisation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Therapeutic Drug Monitoring (TDM)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Adverse Drug Reaction (ADR) Management</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Drug-Drug Interaction Assessment</span>
               </li>
             </ul>
           </div>
 
           {/* Patient Care Services */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Patient Care Services</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Patient Care Services</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Patient Counselling & Education</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Medication Adherence Improvement</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Disease State Management</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Patient Assessment & Follow-up</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Health Screening & Wellness Programmes</span>
               </li>
             </ul>
           </div>
 
           {/* Hospital Pharmacy Management */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Hospital Pharmacy Management</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Hospital Pharmacy Management</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Ward-Based Clinical Pharmacy Services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Drug Utilization Evaluation (DUE)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Formulary Management</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Antimicrobial Stewardship</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Medication Error Prevention</span>
               </li>
             </ul>
           </div>
 
           {/* Evidence-Based Medicine */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Evidence-Based Medicine</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Evidence-Based Medicine</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Clinical Literature Evaluation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Drug Information Services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Clinical Guidelines Implementation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Pharmacotherapy Decision Making</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Case-Based Clinical Reasoning</span>
               </li>
             </ul>
           </div>
 
           {/* Clinical Research */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Research</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Clinical Research</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Clinical Trial Coordination</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Protocol Development & Review</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Pharmacovigilance & Drug Safety</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Pharmacoepidemiology Studies</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Pharmacoeconomics & Outcomes Research</span>
               </li>
             </ul>
           </div>
 
           {/* Communication & Collaboration */}
-          <div className="bg-white rounded-xl p-6 border-2 border-[#7cb983] shadow-lg">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Communication & Collaboration</h3>
+          <div className="bg-white rounded-xl p-6 border-2 border-[#0f8f56] shadow-lg">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Communication & Collaboration</h3>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Interprofessional Healthcare Teamwork</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Patient-Pharmacist Communication</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Medical Documentation & Reporting</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Physician Collaboration</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-2">•</span>
+                <span className="text-[#0b6d41] mr-2">•</span>
                 <span>Healthcare Presentations</span>
               </li>
             </ul>
@@ -290,7 +290,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Eligibility Criteria & Admission Requirements</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Eligibility Criteria & Admission Requirements</h2>
         </div>
 
         <div className="bg-white rounded-xl p-8 lg:p-10">
@@ -298,35 +298,35 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>B.Pharm degree from PCI-approved institution</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)
+                <span className="font-bold text-[#0b6d41]">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">GPAT score:</span> Preferred for government colleges and merit-based scholarship (not always mandatory)
+                <span className="font-bold text-[#0b6d41]">GPAT score:</span> Preferred for government colleges and merit-based scholarship (not always mandatory)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Registration with State Pharmacy Council:</span> Beneficial but not always required
+                <span className="font-bold text-[#0b6d41]">Registration with State Pharmacy Council:</span> Beneficial but not always required
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>No age limit for M.Pharm admission</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Aptitude:</span> Interest in patient care and healthcare settings essential
+                <span className="font-bold text-[#0b6d41]">Clinical Aptitude:</span> Interest in patient care and healthcare settings essential
               </div>
             </li>
           </ul>
@@ -337,31 +337,31 @@ export default function PharmacyPracticePage() {
 
       {/* GPAT & Alternative Entrance Exams */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-8">GPAT & Alternative Entrance Exams</h2>
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-8">GPAT & Alternative Entrance Exams</h2>
 
         <div className="overflow-x-auto rounded-xl shadow-lg">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-[#7cb983] text-white">
+              <tr className="bg-[#ffde59] text-[#032816]">
                 <th className="px-6 py-4 text-left font-bold">Entrance Exam</th>
                 <th className="px-6 py-4 text-left font-bold">Details</th>
               </tr>
             </thead>
             <tbody>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">GPAT (Graduate Pharmacy Aptitude Test)</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">GPAT (Graduate Pharmacy Aptitude Test)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">National level exam by NTA. 125 MCQs, 3 hours, CBT mode. Valid for 3 years. Provides GPAT scholarship eligibility (₹12,400/month). Mandatory for government colleges.</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">State-Level Pharmacy PG Entrance</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">State-Level Pharmacy PG Entrance</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Karnataka PGCET, Maharashtra MCET, AP PGECET, TS PGECET. Required for state government college admissions.</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">University Entrance Exams</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">University Entrance Exams</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Manipal MET, BITS HD, JNTU, Anna University entrance tests. For admission to respective universities.</td>
               </tr>
               <tr className="bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Direct Admission (Management Quota)</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Direct Admission (Management Quota)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Some private colleges offer direct admission based on B.Pharm marks. Higher fees than merit seats.</td>
               </tr>
             </tbody>
@@ -373,16 +373,16 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <BookOpen className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">M.Pharm Pharmacy Practice - Course Structure with Clinical Training</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">M.Pharm Pharmacy Practice - Course Structure with Clinical Training</h2>
         </div>
 
         {/* Semester 1 */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Semester 1 - Foundation & Clinical Basics</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Semester 1 - Foundation & Clinical Basics</h3>
           <div className="overflow-x-auto rounded-xl shadow-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-[#7cb983] text-white">
+                <tr className="bg-[#ffde59] text-[#032816]">
                   <th className="px-6 py-4 text-left font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left font-bold">Subject</th>
                   <th className="px-6 py-4 text-left font-bold">Credits</th>
@@ -426,11 +426,11 @@ export default function PharmacyPracticePage() {
 
         {/* Semester 2 */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Semester 2 - Advanced Therapeutics & Patient Care</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Semester 2 - Advanced Therapeutics & Patient Care</h3>
           <div className="overflow-x-auto rounded-xl shadow-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-[#7cb983] text-white">
+                <tr className="bg-[#ffde59] text-[#032816]">
                   <th className="px-6 py-4 text-left font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left font-bold">Subject</th>
                   <th className="px-6 py-4 text-left font-bold">Credits</th>
@@ -474,11 +474,11 @@ export default function PharmacyPracticePage() {
 
         {/* Semester 3 */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Semester 3 - Clinical Rotations & Research Phase I</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Semester 3 - Clinical Rotations & Research Phase I</h3>
           <div className="overflow-x-auto rounded-xl shadow-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-[#7cb983] text-white">
+                <tr className="bg-[#ffde59] text-[#032816]">
                   <th className="px-6 py-4 text-left font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left font-bold">Subject</th>
                   <th className="px-6 py-4 text-left font-bold">Credits</th>
@@ -512,11 +512,11 @@ export default function PharmacyPracticePage() {
 
         {/* Semester 4 */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Semester 4 - Advanced Clinical Practice & Research Phase II</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Semester 4 - Advanced Clinical Practice & Research Phase II</h3>
           <div className="overflow-x-auto rounded-xl shadow-lg">
             <table className="w-full bg-white">
               <thead>
-                <tr className="bg-[#7cb983] text-white">
+                <tr className="bg-[#ffde59] text-[#032816]">
                   <th className="px-6 py-4 text-left font-bold">Course Code</th>
                   <th className="px-6 py-4 text-left font-bold">Subject</th>
                   <th className="px-6 py-4 text-left font-bold">Credits</th>
@@ -546,7 +546,7 @@ export default function PharmacyPracticePage() {
 
       {/* Clinical Rotation Details */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 lg:p-10">
+        <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
             <Hospital className="w-8 h-8" />
             <h2 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Clinical Rotation Details (Total: 20 weeks minimum)</h2>
@@ -558,51 +558,51 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">General Medicine (4 weeks):</span> Ward rounds, medication chart review, patient counselling, ADR monitoring
+                <span className="font-bold text-[#0b6d41]">General Medicine (4 weeks):</span> Ward rounds, medication chart review, patient counselling, ADR monitoring
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">General Surgery (2 weeks):</span> Pre & post-operative medication management, pain management, wound care
+                <span className="font-bold text-[#0b6d41]">General Surgery (2 weeks):</span> Pre & post-operative medication management, pain management, wound care
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Pediatrics (3 weeks):</span> Pediatric dosing, immunization counselling, pediatric emergency care
+                <span className="font-bold text-[#0b6d41]">Pediatrics (3 weeks):</span> Pediatric dosing, immunization counselling, pediatric emergency care
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Cardiology (3 weeks):</span> Cardiac medication therapy, anticoagulation management, cardiac rehabilitation
+                <span className="font-bold text-[#0b6d41]">Cardiology (3 weeks):</span> Cardiac medication therapy, anticoagulation management, cardiac rehabilitation
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">ICU/Critical Care (3 weeks):</span> Critically ill patient management, IV medications, emergency protocols
+                <span className="font-bold text-[#0b6d41]">ICU/Critical Care (3 weeks):</span> Critically ill patient management, IV medications, emergency protocols
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Oncology/Endocrinology/Nephrology (3 weeks):</span> Specialised therapy areas based on hospital availability
+                <span className="font-bold text-[#0b6d41]">Oncology/Endocrinology/Nephrology (3 weeks):</span> Specialised therapy areas based on hospital availability
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Community Pharmacy Practice (2 weeks):</span> Community health programmes, medication therapy management services
+                <span className="font-bold text-[#0b6d41]">Community Pharmacy Practice (2 weeks):</span> Community health programmes, medication therapy management services
               </div>
             </li>
           </ul>
 
           <p className="text-xs sm:text-sm text-gray-800 mt-6 font-semibold">
-            <span className="text-[#006837]">Assessment:</span> Clinical rotation performance evaluated through logbooks, case presentations, preceptor feedback, and practical examinations.
+            <span className="text-[#0b6d41]">Assessment:</span> Clinical rotation performance evaluated through logbooks, case presentations, preceptor feedback, and practical examinations.
           </p>
         </div>
       </div>
@@ -617,35 +617,35 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Medication adherence patterns in chronic disease patients (diabetes, hypertension, asthma)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Drug-related problems in elderly patients (polypharmacy, inappropriate prescribing)</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Clinical pharmacist intervention outcomes in intensive care units</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Pharmacoeconomic evaluation of treatment regimens in cancer therapy</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Adverse drug reaction monitoring and reporting in tertiary care hospitals</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Impact of patient counselling on treatment outcomes in cardiovascular diseases</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Antimicrobial resistance patterns and stewardship programme effectiveness</span>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <span>Drug utilization evaluation studies in specific therapeutic areas</span>
             </li>
           </ul>
@@ -656,245 +656,245 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Briefcase className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Career Opportunities After M.Pharm Pharmacy Practice</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Career Opportunities After M.Pharm Pharmacy Practice</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Clinical Pharmacist (Hospital) */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Pharmacist (Hospital)</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Clinical Pharmacist (Hospital)</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Provide ward-based clinical pharmacy services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Review medication charts and identify drug-related problems</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Participate in ward rounds with medical teams</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Counsel patients on medication use</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Monitor and report adverse drug reactions</span>
               </li>
             </ul>
           </div>
 
           {/* Drug Information Specialist */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Drug Information Specialist</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Drug Information Specialist</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-9 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-9 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Operate drug information center in hospitals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Provide evidence-based drug information to healthcare professionals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Prepare drug information bulletins and newsletters</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Conduct medication use evaluations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Answer clinical queries from physicians and nurses</span>
               </li>
             </ul>
           </div>
 
           {/* Clinical Research Coordinator */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Clinical Research Coordinator</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Clinical Research Coordinator</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Coordinate clinical trial activities at research sites</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Ensure protocol compliance and regulatory adherence</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Screen and recruit study participants</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Collect and document clinical trial data</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Coordinate with CROs, sponsors, and investigators</span>
               </li>
             </ul>
           </div>
 
           {/* Medical Writer */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Medical Writer</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Medical Writer</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-10 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹5-10 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Write clinical study reports and protocols</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Prepare regulatory submission documents</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Develop medical education materials</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Create scientific publications and manuscripts</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Work with pharmaceutical companies and CROs</span>
               </li>
             </ul>
           </div>
 
           {/* Pharmacovigilance Associate */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Pharmacovigilance Associate</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Pharmacovigilance Associate</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-7 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-7 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Monitor drug safety and adverse events</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Process and report adverse drug reactions</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Conduct signal detection and risk assessment</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Prepare periodic safety update reports (PSURs)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Coordinate with regulatory authorities</span>
               </li>
             </ul>
           </div>
 
           {/* Community Pharmacy Manager */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Community Pharmacy Manager</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Community Pharmacy Manager</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Manage retail pharmacy operations</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Provide medication therapy management services</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Conduct health screening and wellness programmes</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Counsel patients on prescription medications</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Coordinate with physicians for patient care</span>
               </li>
             </ul>
           </div>
 
           {/* Medical Affairs Specialist */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Medical Affairs Specialist</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Medical Affairs Specialist</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹6-12 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹6-12 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Bridge medical and commercial teams in pharma companies</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Provide scientific support for products</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Engage with key opinion leaders (KOLs)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Develop medical education programmes</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Review promotional materials for accuracy</span>
               </li>
             </ul>
           </div>
 
           {/* Academic Faculty / Researcher */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Academic Faculty / Researcher</h3>
+          <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Academic Faculty / Researcher</h3>
             <div className="mb-4">
-              <span className="inline-block bg-[#7cb983] text-white px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
+              <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full font-bold text-xs sm:text-sm">₹4-8 Lakhs/Year</span>
             </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Teach pharmacy practice to learners</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Guide M.Pharm research projects</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Conduct clinical pharmacy research</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Publish papers in peer-reviewed journals</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#7cb983] mr-2">✓</span>
+                <span className="text-[#0b6d41] mr-2">✓</span>
                 <span>Supervise clinical training rotations</span>
               </li>
             </ul>
@@ -904,7 +904,7 @@ export default function PharmacyPracticePage() {
 
       {/* Salary Progression */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 lg:p-10">
+        <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-xl p-8 lg:p-10">
           <div className="flex items-center gap-3 mb-6">
             <IndianRupee className="w-8 h-8" />
             <h2 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Salary Progression for Pharmacy Practice Specialists</h2>
@@ -912,33 +912,33 @@ export default function PharmacyPracticePage() {
 
           <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Entry Level (0-2 Years):</span> ₹4-6 lakhs per annum (Clinical Pharmacist, PV Associate, CRC)
+                <span className="font-bold text-[#0b6d41]">Entry Level (0-2 Years):</span> ₹4-6 lakhs per annum (Clinical Pharmacist, PV Associate, CRC)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Mid Level (3-5 Years):</span> ₹6-10 lakhs per annum (Senior Clinical Pharmacist, Medical Writer, DI Specialist)
+                <span className="font-bold text-[#0b6d41]">Mid Level (3-5 Years):</span> ₹6-10 lakhs per annum (Senior Clinical Pharmacist, Medical Writer, DI Specialist)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Senior Level (6-10 Years):</span> ₹10-18 lakhs per annum (Clinical Pharmacy Manager, Medical Affairs Manager)
+                <span className="font-bold text-[#0b6d41]">Senior Level (6-10 Years):</span> ₹10-18 lakhs per annum (Clinical Pharmacy Manager, Medical Affairs Manager)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Expert Level (10+ Years):</span> ₹18-30 lakhs per annum (Head of Clinical Services, Medical Director)
+                <span className="font-bold text-[#0b6d41]">Expert Level (10+ Years):</span> ₹18-30 lakhs per annum (Head of Clinical Services, Medical Director)
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">International (Gulf/USA/UK):</span> ₹15-30 lakhs (Gulf tax-free), $50,000-80,000 (USA), £35,000-55,000 (UK)
+                <span className="font-bold text-[#0b6d41]">International (Gulf/USA/UK):</span> ₹15-30 lakhs (Gulf tax-free), $50,000-80,000 (USA), £35,000-55,000 (UK)
               </div>
             </li>
           </ul>
@@ -949,15 +949,15 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <Building2 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Employers of M.Pharm Pharmacy Practice Graduates in India</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Employers of M.Pharm Pharmacy Practice Graduates in India</h2>
         </div>
 
         {/* Corporate Hospital Chains */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Corporate Hospital Chains - Clinical Pharmacy Departments</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Corporate Hospital Chains - Clinical Pharmacy Departments</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Apollo Hospitals', 'Fortis Healthcare', 'Max Healthcare', 'Manipal Hospitals', 'Medanta Medicity', 'Aster DM Healthcare', 'Narayana Health', 'Artemis Hospitals', 'Kokilaben Dhirubhai Ambani Hospital'].map((hospital) => (
-              <div key={hospital} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
+              <div key={hospital} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#0f8f56] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{hospital}</p>
               </div>
             ))}
@@ -966,10 +966,10 @@ export default function PharmacyPracticePage() {
 
         {/* Government Medical Colleges & Teaching Hospitals */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Government Medical Colleges & Teaching Hospitals</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Government Medical Colleges & Teaching Hospitals</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['AIIMS (All India Institute of Medical Sciences)', 'PGIMER Chandigarh', 'JIPMER Puducherry', 'CMC Vellore', 'SGPGI Lucknow', 'KMC Manipal', 'KGMU Lucknow', 'GSVM Medical College'].map((hospital) => (
-              <div key={hospital} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
+              <div key={hospital} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#0f8f56] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{hospital}</p>
               </div>
             ))}
@@ -978,10 +978,10 @@ export default function PharmacyPracticePage() {
 
         {/* Pharmaceutical Companies - Medical Affairs & Drug Safety */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Pharmaceutical Companies - Medical Affairs & Drug Safety</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Pharmaceutical Companies - Medical Affairs & Drug Safety</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Sun Pharmaceutical', 'Dr. Reddy\'s Laboratories', 'Cipla Limited', 'Lupin Pharmaceuticals', 'GSK (GlaxoSmithKline)', 'Pfizer India', 'Novartis', 'Abbott India', 'Sanofi India', 'AstraZeneca'].map((company) => (
-              <div key={company} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
+              <div key={company} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#0f8f56] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{company}</p>
               </div>
             ))}
@@ -990,10 +990,10 @@ export default function PharmacyPracticePage() {
 
         {/* Contract Research Organisations (CROs) */}
         <div className="mb-10">
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Contract Research Organisations (CROs)</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Contract Research Organisations (CROs)</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['IQVIA', 'Fortrea', 'Parexel International', 'ICON plc', 'PPD (Pharmaceutical Product Development)', 'Lambda Therapeutic Research', 'Syngene International', 'Veeda Clinical Research'].map((cro) => (
-              <div key={cro} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
+              <div key={cro} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#0f8f56] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{cro}</p>
               </div>
             ))}
@@ -1002,10 +1002,10 @@ export default function PharmacyPracticePage() {
 
         {/* Pharmacy Retail Chains - Clinical Services */}
         <div>
-          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Pharmacy Retail Chains - Clinical Services</h3>
+          <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Pharmacy Retail Chains - Clinical Services</h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {['Apollo Pharmacy', 'MedPlus Health Services', 'Wellness Forever', 'NetMeds (Reliance)', '1mg (Tata)', 'PharmEasy'].map((pharmacy) => (
-              <div key={pharmacy} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#7cb983] transition-colors">
+              <div key={pharmacy} className="bg-white rounded-lg p-4 shadow-md text-center border-2 border-gray-200 hover:border-[#0f8f56] transition-colors">
                 <p className="text-gray-800 font-semibold text-xs sm:text-sm">{pharmacy}</p>
               </div>
             ))}
@@ -1017,101 +1017,101 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Scale className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Pharm.D vs M.Pharm Pharmacy Practice - Detailed Comparison</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Pharm.D vs M.Pharm Pharmacy Practice - Detailed Comparison</h2>
         </div>
 
         <div className="overflow-x-auto rounded-xl shadow-lg">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-[#7cb983] text-white">
+              <tr className="bg-[#ffde59] text-[#032816]">
                 <th className="px-6 py-4 text-left font-bold">Aspect</th>
                 <th className="px-6 py-4 text-left font-bold">
                   <div className="flex items-center gap-2">
                     M.Pharm Pharmacy Practice
-                    <span className="bg-[#7cb983] text-white px-3 py-1 rounded-full text-xs">2 Years PG</span>
+                    <span className="bg-[#ffde59] text-[#032816] px-3 py-1 rounded-full text-xs">2 Years PG</span>
                   </div>
                 </th>
                 <th className="px-6 py-4 text-left font-bold">
                   <div className="flex items-center gap-2">
                     Pharm.D
-                    <span className="bg-[#006837] text-white px-3 py-1 rounded-full text-xs">6 Years UG+PG</span>
+                    <span className="bg-[#0b6d41] text-white px-3 py-1 rounded-full text-xs">6 Years UG+PG</span>
                   </div>
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Entry Point</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Entry Point</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">After B.Pharm (4 years UG completed)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">After 12th standard (10+2 with PCB/M)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Duration</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Duration</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">2 years (4 semesters)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years (5 years + 1 year internship)</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Degree Level</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Degree Level</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Postgraduate (Master's)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Professional Doctoral (Doctor of Pharmacy)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Clinical Training</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Clinical Training</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">20-24 weeks clinical rotations in hospitals</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">1 full year (12 months) clinical internship</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Title</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Title</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">M.Pharm (cannot use "Dr." prefix)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Pharm.D (can use "Dr." prefix - academic)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Research Component</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Research Component</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Mandatory research project & thesis</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Limited research, more clinical practice focus</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Clinical Depth</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Clinical Depth</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate clinical exposure (6 months)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Extensive clinical exposure (full year internship)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Job Roles</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Job Roles</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Clinical Pharmacist, Medical Writer, Research, Academic</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Clinical Pharmacist, Hospital Pharmacist, Patient Care</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Starting Salary</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Starting Salary</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹4-7 lakhs per annum</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹4-8 lakhs per annum</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Academic Career</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Academic Career</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Excellent (can directly pursue Ph.D, become faculty)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Good (Ph.D eligibility with additional requirements)</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Total Investment</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Total Investment</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">B.Pharm fees + M.Pharm fees (₹6-12 lakhs total)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹6-25 lakhs (full 6-year programme)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Time to Job Market</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Time to Job Market</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years total (4 years B.Pharm + 2 years M.Pharm)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">6 years (direct entry after 12th)</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Hospital Preference</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Hospital Preference</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Moderate (some hospitals prefer Pharm.D)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">High (specifically designed for clinical roles)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">Ph.D Eligibility</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Ph.D Eligibility</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Direct eligibility (postgraduate degree)</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Requires additional PG qualification in some cases</td>
               </tr>
               <tr className="bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">Best For</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">Best For</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">B.Pharm graduates wanting clinical specialisation + research</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">12th passouts wanting direct clinical pharmacy career</td>
               </tr>
@@ -1122,66 +1122,66 @@ export default function PharmacyPracticePage() {
 
       {/* Key Decision Factors */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 border-l-4 border-[#0f8f56]">
           <div className="flex items-start gap-3 mb-6">
             <Lightbulb className="w-6 h-6" />
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-gray-800">Key Decision Factors:</h3>
           </div>
 
           <div className="mb-6">
-            <h4 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Choose M.Pharm Pharmacy Practice if:</h4>
+            <h4 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Choose M.Pharm Pharmacy Practice if:</h4>
             <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You already have B.Pharm degree and want clinical specialisation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You're interested in research along with clinical practice</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You want to pursue Ph.D and academic career</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You prefer shorter programme duration (2 years vs 6 years)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You want diverse career options (clinical, research, medical writing, academia)</span>
               </li>
             </ul>
           </div>
 
           <div className="mb-6">
-            <h4 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">Choose Pharm.D if:</h4>
+            <h4 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Choose Pharm.D if:</h4>
             <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You're currently in 12th standard and want direct clinical pharmacy career</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You want extensive clinical training (1 full year internship)</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You prefer doctoral degree with "Dr." prefix</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You want to focus primarily on patient care without research emphasis</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#006837] mr-3 mt-1">•</span>
+                <span className="text-[#0b6d41] mr-3 mt-1">•</span>
                 <span>You're willing to invest 6 years in clinical pharmacy education</span>
               </li>
             </ul>
           </div>
 
           <p className="text-xs sm:text-sm text-gray-800 font-semibold">
-            <span className="text-[#006837]">Career Outcomes:</span> Both degrees lead to similar job roles and comparable salaries. Hospitals hire both M.Pharm Pharmacy Practice and Pharm.D graduates for clinical pharmacist positions. The choice depends on your current education status, career timeline, and preference for research vs. clinical practice.
+            <span className="text-[#0b6d41]">Career Outcomes:</span> Both degrees lead to similar job roles and comparable salaries. Hospitals hire both M.Pharm Pharmacy Practice and Pharm.D graduates for clinical pharmacist positions. The choice depends on your current education status, career timeline, and preference for research vs. clinical practice.
           </p>
         </div>
       </div>
@@ -1190,93 +1190,93 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <GraduationCap className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Higher Education & Research Opportunities</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Higher Education & Research Opportunities</h2>
         </div>
 
-        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D in Pharmaceutical Sciences - Pharmacy Practice Specialisation</h3>
+        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Ph.D in Pharmaceutical Sciences - Pharmacy Practice Specialisation</h3>
 
-        <div className="bg-white rounded-xl p-8 lg:p-10 mb-10 border-l-4 border-[#7cb983]">
+        <div className="bg-white rounded-xl p-8 lg:p-10 mb-10 border-l-4 border-[#0f8f56]">
           <h4 className="text-[10px] xs:text-xs sm:text-sm font-bold text-gray-800 mb-4">Research Areas in Pharmacy Practice:</h4>
           <ul className="space-y-3 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Pharmacy Practice Research:</span> Intervention outcomes, pharmaceutical care models, clinical services impact
+                <span className="font-bold text-[#0b6d41]">Clinical Pharmacy Practice Research:</span> Intervention outcomes, pharmaceutical care models, clinical services impact
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Pharmacoepidemiology:</span> Drug utilization patterns, prescription trends, disease epidemiology
+                <span className="font-bold text-[#0b6d41]">Pharmacoepidemiology:</span> Drug utilization patterns, prescription trends, disease epidemiology
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Pharmacoeconomics:</span> Cost-effectiveness analysis, health economics, pharmacoeconomic modeling
+                <span className="font-bold text-[#0b6d41]">Pharmacoeconomics:</span> Cost-effectiveness analysis, health economics, pharmacoeconomic modeling
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Medication Safety:</span> Adverse drug reactions, medication errors, patient safety interventions
+                <span className="font-bold text-[#0b6d41]">Medication Safety:</span> Adverse drug reactions, medication errors, patient safety interventions
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Pharmacovigilance Research:</span> Signal detection, post-marketing surveillance, drug safety assessment
+                <span className="font-bold text-[#0b6d41]">Pharmacovigilance Research:</span> Signal detection, post-marketing surveillance, drug safety assessment
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Patient Outcomes Research:</span> Quality of life, treatment adherence, patient-reported outcomes
+                <span className="font-bold text-[#0b6d41]">Patient Outcomes Research:</span> Quality of life, treatment adherence, patient-reported outcomes
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Healthcare Quality Improvement:</span> Clinical guidelines, antimicrobial stewardship, quality indicators
+                <span className="font-bold text-[#0b6d41]">Healthcare Quality Improvement:</span> Clinical guidelines, antimicrobial stewardship, quality indicators
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Social & Behavioral Pharmacy:</span> Medication adherence, health beliefs, patient behavior
+                <span className="font-bold text-[#0b6d41]">Social & Behavioral Pharmacy:</span> Medication adherence, health beliefs, patient behavior
               </div>
             </li>
           </ul>
         </div>
 
-        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-6">Ph.D Entrance Examinations & Fellowships</h3>
+        <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-6">Ph.D Entrance Examinations & Fellowships</h3>
         <div className="overflow-x-auto rounded-xl shadow-lg">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-[#7cb983] text-white">
+              <tr className="bg-[#ffde59] text-[#032816]">
                 <th className="px-6 py-4 text-left font-bold">Examination</th>
                 <th className="px-6 py-4 text-left font-bold">Eligibility & Fellowship</th>
               </tr>
             </thead>
             <tbody>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">CSIR-NET</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">CSIR-NET</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Life Sciences paper. Fellowship: ₹31,000/month (JRF) → ₹35,000/month (SRF)</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">UGC-NET</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">UGC-NET</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Pharmacy paper. Fellowship: ₹31,000/month (JRF) → ₹35,000/month (SRF)</td>
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">ICMR-JRF</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">ICMR-JRF</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Biomedical sciences. Fellowship: ₹31,000/month → ₹35,000/month</td>
               </tr>
               <tr className="border-b border-gray-200">
-                <td className="px-6 py-4 font-bold text-[#006837]">GATE</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">GATE</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Biotechnology/Life Sciences. MHRD Fellowship: ₹31,000/month</td>
               </tr>
               <tr className="bg-[#FBFBEE]">
-                <td className="px-6 py-4 font-bold text-[#006837]">University Entrance</td>
+                <td className="px-6 py-4 font-bold text-[#0b6d41]">University Entrance</td>
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Individual university exams (AIIMS, JIPMER, medical colleges). University fellowships.</td>
               </tr>
             </tbody>
@@ -1286,32 +1286,32 @@ export default function PharmacyPracticePage() {
 
       {/* International Opportunities */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-8">International Opportunities</h2>
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-8">International Opportunities</h2>
 
-        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10 border-l-4 border-[#4CAF50]">
+        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#d4f1e4] rounded-xl p-8 lg:p-10 border-l-4 border-[#0f8f56]">
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">MS/Ph.D in Clinical Pharmacy (USA):</span> Universities like University of Southern California, University of Michigan, Purdue. Duration: 2-5 years. Assistantships/Fellowships: $25,000-35,000/year. Focus: Pharmaceutical outcomes research, patient safety, medication therapy.
+                <span className="font-bold text-[#0b6d41]">MS/Ph.D in Clinical Pharmacy (USA):</span> Universities like University of Southern California, University of Michigan, Purdue. Duration: 2-5 years. Assistantships/Fellowships: $25,000-35,000/year. Focus: Pharmaceutical outcomes research, patient safety, medication therapy.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Pharmacy Residency (USA):</span> PGY1 & PGY2 residency programmes in US hospitals. Requires NAPLEX (pharmacist licensure exam). Stipend: $45,000-55,000/year. Leads to board-certified clinical pharmacist roles.
+                <span className="font-bold text-[#0b6d41]">Clinical Pharmacy Residency (USA):</span> PGY1 & PGY2 residency programmes in US hospitals. Requires NAPLEX (pharmacist licensure exam). Stipend: $45,000-55,000/year. Leads to board-certified clinical pharmacist roles.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Ph.D in Healthcare/Pharmacy Practice (UK/Europe):</span> Universities like University of Manchester, Utrecht University. Duration: 3-4 years. Funding: £15,000-20,000/year. Research in pharmaceutical care, health services.
+                <span className="font-bold text-[#0b6d41]">Ph.D in Healthcare/Pharmacy Practice (UK/Europe):</span> Universities like University of Manchester, Utrecht University. Duration: 3-4 years. Funding: £15,000-20,000/year. Research in pharmaceutical care, health services.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Clinical Pharmacist Positions (Gulf Countries):</span> UAE, Saudi Arabia, Qatar hospitals actively recruit. Salary: ₹15-25 lakhs per annum (tax-free). Requirements: M.Pharm + 2-3 years experience + licensing exam.
+                <span className="font-bold text-[#0b6d41]">Clinical Pharmacist Positions (Gulf Countries):</span> UAE, Saudi Arabia, Qatar hospitals actively recruit. Salary: ₹15-25 lakhs per annum (tax-free). Requirements: M.Pharm + 2-3 years experience + licensing exam.
               </div>
             </li>
           </ul>
@@ -1320,37 +1320,37 @@ export default function PharmacyPracticePage() {
 
       {/* Professional Certifications */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-8">Professional Certifications</h2>
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-8">Professional Certifications</h2>
 
         <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Board Certified Pharmacotherapy Specialist (BCPS):</span> International certification by Board of Pharmacy Specialties (USA). Enhances credibility for clinical roles.
+              <span className="font-bold text-[#0b6d41]">Board Certified Pharmacotherapy Specialist (BCPS):</span> International certification by Board of Pharmacy Specialties (USA). Enhances credibility for clinical roles.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Certified Clinical Research Coordinator (CCRC):</span> By ACRP or SoCRA. Essential for clinical research positions.
+              <span className="font-bold text-[#0b6d41]">Certified Clinical Research Coordinator (CCRC):</span> By ACRP or SoCRA. Essential for clinical research positions.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Pharmacovigilance Certification:</span> By DIA, ISPE, or other bodies. Valuable for drug safety roles.
+              <span className="font-bold text-[#0b6d41]">Pharmacovigilance Certification:</span> By DIA, ISPE, or other bodies. Valuable for drug safety roles.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Medical Writing Certification:</span> By AMWA (American Medical Writers Association). Enhances medical writing career prospects.
+              <span className="font-bold text-[#0b6d41]">Medical Writing Certification:</span> By AMWA (American Medical Writers Association). Enhances medical writing career prospects.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Medication Therapy Management (MTM) Certification:</span> Specialised training in comprehensive medication review services.
+              <span className="font-bold text-[#0b6d41]">Medication Therapy Management (MTM) Certification:</span> Specialised training in comprehensive medication review services.
             </div>
           </li>
         </ul>
@@ -1360,82 +1360,82 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <FileText className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Admission Process & Timeline</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Admission Process & Timeline</h2>
         </div>
 
         <div className="space-y-6">
           {/* Step 1 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">1</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">1</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Decide on Career Path & Check Eligibility (September-October 2025)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Decide on Career Path & Check Eligibility (September-October 2025)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Confirm interest in patient-facing clinical pharmacy career. Verify B.Pharm eligibility (50% marks). Assess communication skills and patient care aptitude. Research colleges with good hospital tie-ups for clinical rotations.</p>
               </div>
             </div>
           </div>
 
           {/* Step 2 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">2</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">2</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">GPAT Registration (October-November 2025)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">GPAT Registration (October-November 2025)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Register on NTA GPAT website if targeting government colleges or merit-based scholarship. Some private colleges accept direct admission without GPAT. Pay fees (₹1,400 General, ₹700 SC/ST/OBC).</p>
               </div>
             </div>
           </div>
 
           {/* Step 3 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">3</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">3</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">GPAT Examination / Alternative Entrance (January-February 2026)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">GPAT Examination / Alternative Entrance (January-February 2026)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Appear for GPAT or state-level entrance exams. Focus on Pharmacology and Pharmacy Practice topics. Alternatively, apply directly to colleges accepting B.Pharm marks.</p>
               </div>
             </div>
           </div>
 
           {/* Step 4 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">4</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">4</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Result Declaration & College Research (March-May 2026)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Check GPAT results. Research M.Pharm Pharmacy Practice programmes. <span className="font-bold text-[#006837]">Critical:</span> Verify hospital partnerships for clinical rotations. Visit colleges to check if they have active clinical pharmacy departments in affiliated hospitals.</p>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Result Declaration & College Research (March-May 2026)</h3>
+                <p className="text-xs sm:text-sm text-gray-700">Check GPAT results. Research M.Pharm Pharmacy Practice programmes. <span className="font-bold text-[#0b6d41]">Critical:</span> Verify hospital partnerships for clinical rotations. Visit colleges to check if they have active clinical pharmacy departments in affiliated hospitals.</p>
               </div>
             </div>
           </div>
 
           {/* Step 5 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">5</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">5</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Counselling & College Selection (May-July 2026)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Counselling & College Selection (May-July 2026)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Register for counselling (state-level). Submit preferences with Pharmacy Practice specialisation. Prioritize colleges with strong hospital networks. Accept seat allotment and pay fees.</p>
               </div>
             </div>
           </div>
 
           {/* Step 6 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">6</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">6</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Document Verification & Admission (July-August 2026)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Document Verification & Admission (July-August 2026)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Submit original documents (B.Pharm degree, mark sheets, GPAT scorecard). Complete admission formalities. Sign hospital rotation agreements. Apply for GPAT scholarship if eligible.</p>
               </div>
             </div>
           </div>
 
           {/* Step 7 */}
-          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#7cb983]">
+          <div className="bg-white rounded-xl p-6 shadow-lg border-l-4 border-[#0f8f56]">
             <div className="flex items-start gap-4">
-              <div className="bg-[#7cb983] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">7</div>
+              <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">7</div>
               <div className="flex-1">
-                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-2">Classes & Clinical Training Begins (August 2026)</h3>
+                <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Classes & Clinical Training Begins (August 2026)</h3>
                 <p className="text-xs sm:text-sm text-gray-700">Attend orientation. Start learning in the learning studio. Prepare for clinical rotations. Learn medical terminology and patient communication skills. Get introduced to hospital preceptors.</p>
               </div>
             </div>
@@ -1449,13 +1449,13 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">M.Pharm Pharmacy Practice - Fee Structure</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">M.Pharm Pharmacy Practice - Fee Structure</h2>
         </div>
 
         <div className="overflow-x-auto rounded-xl shadow-lg mb-8">
           <table className="w-full bg-white">
             <thead>
-              <tr className="bg-[#7cb983] text-white">
+              <tr className="bg-[#ffde59] text-[#032816]">
                 <th className="px-6 py-4 text-left font-bold">College Type</th>
                 <th className="px-6 py-4 text-left font-bold">Total Fees (2 Years)</th>
                 <th className="px-6 py-4 text-left font-bold">Annual Fees</th>
@@ -1491,7 +1491,7 @@ export default function PharmacyPracticePage() {
           </table>
         </div>
 
-        <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
+        <div className="bg-gradient-to-br from-[#0f8f56] to-[#0f8f56] rounded-xl p-8 border-l-4 border-[#0f8f56]">
           <h3 className="text-sm xs:text-base sm:text-lg font-bold text-white mb-4">Additional Expenses:</h3>
           <ul className="space-y-3 text-xs sm:text-sm text-white">
             <li className="flex items-start">
@@ -1530,50 +1530,50 @@ export default function PharmacyPracticePage() {
 
       {/* Scholarships & Financial Aid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-8">Scholarships & Financial Aid</h2>
+        <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-8">Scholarships & Financial Aid</h2>
 
-        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#A5D6A7] rounded-xl p-8 lg:p-10 border-l-4 border-[#4CAF50]">
+        <div className="bg-gradient-to-br from-[#C8E6C9] to-[#d4f1e4] rounded-xl p-8 lg:p-10 border-l-4 border-[#0f8f56]">
           <ul className="space-y-4 text-xs sm:text-sm text-gray-800">
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified learners in approved colleges.
+                <span className="font-bold text-[#0b6d41]">GPAT Scholarship:</span> ₹12,400/month for 24 months (Total: ₹2,97,600) for GPAT qualified learners in approved colleges.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Merit Scholarships:</span> Government colleges offer 25-100% fee waivers based on GPAT percentile (typically 80+ percentile).
+                <span className="font-bold text-[#0b6d41]">Merit Scholarships:</span> Government colleges offer 25-100% fee waivers based on GPAT percentile (typically 80+ percentile).
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Hospital Stipends:</span> Some teaching hospitals provide stipends (₹5,000-10,000/month) during clinical rotations to M.Pharm learners.
+                <span className="font-bold text-[#0b6d41]">Hospital Stipends:</span> Some teaching hospitals provide stipends (₹5,000-10,000/month) during clinical rotations to M.Pharm learners.
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
+                <span className="font-bold text-[#0b6d41]">Post-Matric Scholarship (SC/ST):</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">BC/MBC/DNC Scholarship:</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
+                <span className="font-bold text-[#0b6d41]">BC/MBC/DNC Scholarship:</span> Amounts are fixed by the Tamil Nadu Government and revised each year - contact the JKKN scholarship cell on +91 93458 55001 for the rate that applies to you
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Research Assistantships:</span> Senior learners may offer part-time research assistant roles (₹3,000-8,000/month).
+                <span className="font-bold text-[#0b6d41]">Research Assistantships:</span> Senior learners may offer part-time research assistant roles (₹3,000-8,000/month).
               </div>
             </li>
             <li className="flex items-start">
-              <span className="text-[#006837] mr-3 mt-1">•</span>
+              <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#006837]">Educational Loans:</span> Banks offer up to ₹10 lakhs without collateral. Interest rates: 8-12% per annum. Repayment after course + 1 year.
+                <span className="font-bold text-[#0b6d41]">Educational Loans:</span> Banks offer up to ₹10 lakhs without collateral. Interest rates: 8-12% per annum. Repayment after course + 1 year.
               </div>
             </li>
           </ul>
@@ -1584,7 +1584,7 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <HelpCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Frequently Asked Questions</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Frequently Asked Questions</h2>
         </div>
 
         <div className="space-y-4">
@@ -1596,11 +1596,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 10 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 What is M.Pharm in Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 10 ? 'rotate-180' : ''
                 }`}
               />
@@ -1620,11 +1620,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 11 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 What is the difference between Pharm.D and M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 11 ? 'rotate-180' : ''
                 }`}
               />
@@ -1644,11 +1644,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 12 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 What is the salary after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 12 ? 'rotate-180' : ''
                 }`}
               />
@@ -1668,11 +1668,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 13 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Is hospital training mandatory in M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 13 ? 'rotate-180' : ''
                 }`}
               />
@@ -1692,11 +1692,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 14 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Can I do PhD after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 14 ? 'rotate-180' : ''
                 }`}
               />
@@ -1716,11 +1716,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 15 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Which is better: M.Pharm Pharmacy Practice or Pharmaceutics?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 15 ? 'rotate-180' : ''
                 }`}
               />
@@ -1740,11 +1740,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 16 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Are there jobs for M.Pharm Pharmacy Practice in India?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 16 ? 'rotate-180' : ''
                 }`}
               />
@@ -1764,11 +1764,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 17 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Can I work in community pharmacy after M.Pharm Pharmacy Practice?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 17 ? 'rotate-180' : ''
                 }`}
               />
@@ -1788,11 +1788,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 18 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 Is M.Pharm Pharmacy Practice worth it compared to B.Pharm?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 18 ? 'rotate-180' : ''
                 }`}
               />
@@ -1812,11 +1812,11 @@ export default function PharmacyPracticePage() {
                 expandedFAQ === 19 ? 'bg-[#FBFBEE]' : 'bg-white'
               }`}
             >
-              <h3 className="text-sm font-bold text-[#006837] pr-4">
+              <h3 className="text-sm font-bold text-[#0b6d41] pr-4">
                 What is the scope of Pharmacy Practice abroad?
               </h3>
               <ChevronDown
-                className={`w-6 h-6 text-[#006837] flex-shrink-0 transition-transform ${
+                className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
                   expandedFAQ === 19 ? 'rotate-180' : ''
                 }`}
               />
@@ -1834,49 +1834,49 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex items-center gap-3 mb-8">
           <Star className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Why Choose M.Pharm in Pharmacy Practice?</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Why Choose M.Pharm in Pharmacy Practice?</h2>
         </div>
 
         <div className="space-y-6">
           {/* Reason 1 */}
-          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">1. Direct Patient Impact & Meaningful Work</h3>
+          <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">1. Direct Patient Impact & Meaningful Work</h3>
             <p className="text-xs sm:text-sm text-gray-800">Unlike laboratory-based specialisations, Pharmacy Practice allows you to directly interact with patients, counsel them on medications, solve drug-related problems, and see immediate impact of your interventions. Helping a patient understand their diabetes medications, preventing an adverse drug interaction, or improving medication adherence provides immense job satisfaction that laboratory work cannot offer.</p>
           </div>
 
           {/* Reason 2 */}
-          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">2. Growing Demand in Healthcare Sector</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">2. Growing Demand in Healthcare Sector</h3>
             <p className="text-xs sm:text-sm text-gray-800">Indian healthcare is evolving. NABH (National Accreditation Board for Hospitals) accreditation increasingly requires clinical pharmacy services. Corporate hospital chains are establishing dedicated clinical pharmacy departments. Government initiatives promote rational drug use and medication safety. This creates sustainable demand for clinical pharmacists, unlike cyclical manufacturing jobs dependent on industry conditions.</p>
           </div>
 
           {/* Reason 3 */}
-          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">3. Work-Life Balance & Regular Hours</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">3. Work-Life Balance & Regular Hours</h3>
             <p className="text-xs sm:text-sm text-gray-800">Clinical pharmacy positions in hospitals typically follow day shifts (9 AM - 6 PM) without production pressures or night shifts common in manufacturing. Regular hours allow better work-life balance, family time, and personal development. Unlike quality control, there's no batch release pressure. Unlike formulation, there are no project deadlines. Clinical work is steady, predictable, and less stressful.</p>
           </div>
 
           {/* Reason 4 */}
-          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">4. Diverse Career Pathways</h3>
+          <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">4. Diverse Career Pathways</h3>
             <p className="text-xs sm:text-sm text-gray-800">Pharmacy Practice opens multiple career doors: hospital clinical pharmacist, drug information specialist, clinical research coordinator, medical writer, pharmacovigilance specialist, medical affairs, community pharmacy services, academic faculty, healthcare quality consultant, and pharmaceutical outcomes researcher. This diversity provides career flexibility and prevents monotony. You can switch between patient care, research, and industry roles throughout your career.</p>
           </div>
 
           {/* Reason 5 */}
-          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">5. Interprofessional Healthcare Teamwork</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">5. Interprofessional Healthcare Teamwork</h3>
             <p className="text-xs sm:text-sm text-gray-800">Work alongside physicians, nurses, and other healthcare professionals. Participate in multidisciplinary ward rounds, contribute to treatment decisions, and be part of patient care teams. This collaborative environment is intellectually stimulating and professionally enriching. You're not isolated in a laboratory; you're part of the broader healthcare system making a difference.</p>
           </div>
 
           {/* Reason 6 */}
-          <div className="bg-white rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">6. Strong International Recognition</h3>
+          <div className="bg-white rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">6. Strong International Recognition</h3>
             <p className="text-xs sm:text-sm text-gray-800">Clinical pharmacy is well-established globally. Pharmacy Practice qualification is recognised in USA, UK, Canada, Australia, and Gulf countries. International migration is easier compared to manufacturing-focused specialisations. Clinical pharmacy skills are universal – medication therapy management, patient counselling, and drug information services translate across healthcare systems. This provides excellent mobility for international career opportunities.</p>
           </div>
 
           {/* Reason 7 */}
-          <div className="bg-gradient-to-br from-[#7cb983] to-[#6ba872] rounded-xl p-8 border-l-4 border-[#7cb983]">
-            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#006837] mb-4">7. Academic & Research Opportunities</h3>
+          <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-xl p-8 border-l-4 border-[#0f8f56]">
+            <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">7. Academic & Research Opportunities</h3>
             <p className="text-xs sm:text-sm text-gray-800">M.Pharm Pharmacy Practice provides strong foundation for academic careers. Pharmacy Practice faculty are in demand as more colleges establish clinical pharmacy programmes. Research opportunities abound in pharmacoepidemiology, patient outcomes, medication safety, and healthcare quality. Ph.D positions are available at medical colleges, public health institutes, and pharmacy schools. Academic positions offer job security, intellectual freedom, and satisfaction of training next generation.</p>
           </div>
         </div>
@@ -1884,10 +1884,10 @@ export default function PharmacyPracticePage() {
 
       {/* Ready to Make a Difference in Patient Care? */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#006837] to-[#7cb983] rounded-2xl p-12 text-center shadow-xl">
+        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-12 text-center shadow-xl">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-white mb-4 border-b-4 border-white pb-4 inline-block">Ready to Make a Difference in Patient Care?</h2>
           <p className="text-white text-xs sm:text-sm mb-8 mt-8">Enrol in the M.Pharm Pharmacy Practice programme at JKKN College of Pharmacy and become a clinical pharmacy professional!</p>
-          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmacy-practice" target="_blank" rel="noopener noreferrer" className="bg-white text-[#006837] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#006837] focus:ring-offset-2">
+          <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmacy-practice" target="_blank" rel="noopener noreferrer" className="bg-white text-[#0b6d41] px-8 py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-gray-100 transition-colors shadow-lg inline-block focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
@@ -1899,44 +1899,44 @@ export default function PharmacyPracticePage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pb-16">
         <div className="flex items-center gap-3 mb-8">
           <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
-          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] border-b-4 border-[#7cb983] pb-2">Accreditation & Quality Standards</h2>
+          <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] border-b-4 border-[#0f8f56] pb-2">Accreditation & Quality Standards</h2>
         </div>
 
         <ul className="space-y-4 text-xs sm:text-sm text-gray-800 mb-8">
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programmes. PCI ensures adequate faculty, infrastructure, and hospital tie-ups for clinical rotations. Verify on pci.nic.in.
+              <span className="font-bold text-[#0b6d41]">Pharmacy Council of India (PCI) Approval:</span> Mandatory for all M.Pharm programmes. PCI ensures adequate faculty, infrastructure, and hospital tie-ups for clinical rotations. Verify on pci.nic.in.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Hospital Affiliations:</span> College must have active MoUs with PCI-approved teaching hospitals (minimum 500 beds) for clinical pharmacy services. Verify hospital partnerships before admission.
+              <span className="font-bold text-[#0b6d41]">Hospital Affiliations:</span> College must have active MoUs with PCI-approved teaching hospitals (minimum 500 beds) for clinical pharmacy services. Verify hospital partnerships before admission.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">Clinical Preceptor Availability:</span> Hospitals must have qualified clinical pharmacists or physicians willing to supervise learner rotations. Check if supervisors are actually available.
+              <span className="font-bold text-[#0b6d41]">Clinical Preceptor Availability:</span> Hospitals must have qualified clinical pharmacists or physicians willing to supervise learner rotations. Check if supervisors are actually available.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">PCI Approval:</span> Required for scholarship eligibility and programme recognition. Verify on pci.nic.in.
+              <span className="font-bold text-[#0b6d41]">PCI Approval:</span> Required for scholarship eligibility and programme recognition. Verify on pci.nic.in.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">University Affiliation:</span> Programme must be affiliated with UGC-recognised university authorized to award M.Pharm degrees.
+              <span className="font-bold text-[#0b6d41]">University Affiliation:</span> Programme must be affiliated with UGC-recognised university authorized to award M.Pharm degrees.
             </div>
           </li>
           <li className="flex items-start">
-            <span className="text-[#006837] mr-3 mt-1">•</span>
+            <span className="text-[#0b6d41] mr-3 mt-1">•</span>
             <div>
-              <span className="font-bold text-[#006837]">NAAC/NBA Accreditation:</span> Quality certification indicating good infrastructure and teaching standards. Grade A preferred.
+              <span className="font-bold text-[#0b6d41]">NAAC/NBA Accreditation:</span> Quality certification indicating good infrastructure and teaching standards. Grade A preferred.
             </div>
           </li>
         </ul>

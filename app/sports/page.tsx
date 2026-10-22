@@ -9,16 +9,16 @@ export default function SportsPage() {
       <Header />
 
       {/* Page Header Banner */}
-      <section className="bg-[#006837] py-12 sm:py-16 md:py-20">
+      <section className="bg-[#0b6d41] py-12 sm:py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-[#7cb983] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
+          <p className="text-[#ffde59] text-xs sm:text-sm font-semibold tracking-widest uppercase mb-3">
             Facilities
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             Sports
           </h1>
           <div className="mt-5 flex justify-center">
-            <div className="h-1 w-16 bg-[#7cb983] rounded-full" />
+            <div className="h-1 w-16 bg-[#ffde59] rounded-full" />
           </div>
         </div>
       </section>
@@ -44,8 +44,8 @@ export default function SportsPage() {
 
           {/* JKKN Sports Facility Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               JKKN College of Pharmacy Sports Facility
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -55,8 +55,8 @@ export default function SportsPage() {
 
           {/* Philosophy Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Philosophy on Sports &amp; Wellness
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
@@ -71,7 +71,7 @@ export default function SportsPage() {
                 'Provide opportunities for learners to discover and nurture their sporting talents.s',
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-4">
-                  <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                   <span className="text-sm sm:text-base text-gray-700 text-justify">{item}</span>
                 </li>
               ))}
@@ -80,8 +80,8 @@ export default function SportsPage() {
 
           {/* Facilities Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Facilities
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
@@ -89,23 +89,23 @@ export default function SportsPage() {
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Outdoor Sports Facilities</strong>: Spacious playgrounds for Football, Basketball, Volleyball and Athletics.</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Indoor Sports Arena</strong>: Facilities for badminton, table tennis, chess, carrom, and other indoor games</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Fitness Center</strong>: Modern gymnasium equipped with advanced fitness equipment for strength training and cardio workouts</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Specialised Training Areas</strong>: Dedicated spaces for yoga sessions and other physical activities</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Sports Equipment</strong>: High-quality sports gear and equipment available for all learners.</span>
               </li>
             </ul>
@@ -113,8 +113,8 @@ export default function SportsPage() {
 
           {/* Sports Programmes Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 sm:p-10 md:p-12">
-            <div className="h-1 w-12 bg-[#7cb983] rounded-full mb-4" />
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#006837] mb-4">
+            <div className="h-1 w-12 bg-[#ffde59] rounded-full mb-4" />
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41] mb-4">
               Sports Programmes &amp; Activities
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify mb-6">
@@ -122,19 +122,19 @@ export default function SportsPage() {
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Regular Physical Education Classes</strong>: Structured sessions integrated into the academic learning framework</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Intramural Tournaments</strong>: Regular competitions between departments and classes to foster healthy competition</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Intercollegiate Competitions</strong>: Opportunities for talented learners to represent the college at various levels</span>
               </li>
               <li className="flex items-start gap-4">
-                <CheckCircle className="w-5 h-5 text-[#7cb983] mt-0.5 shrink-0" />
+                <CheckCircle className="w-5 h-5 text-[#0b6d41] mt-0.5 shrink-0" />
                 <span className="text-sm sm:text-base text-gray-700 text-justify"><strong>Annual Sports Meet</strong>: A grand celebration of sporting excellence featuring track and field events, team sports, and individual competitions</span>
               </li>
             </ul>

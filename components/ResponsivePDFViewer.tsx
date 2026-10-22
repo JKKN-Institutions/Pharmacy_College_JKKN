@@ -52,10 +52,10 @@ export default function ResponsivePDFViewer({ pdfUrl, title, description }: Resp
         {/* Header Section */}
         <div className="mb-6 sm:mb-8">
           <div className="flex items-center gap-3 sm:gap-4 mb-3 sm:mb-4">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#7cb983] rounded-full flex items-center justify-center flex-shrink-0">
-              <FileText className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+            <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#ffde59] rounded-full flex items-center justify-center flex-shrink-0 text-[#032816]">
+              <FileText className="w-5 h-5 sm:w-6 sm:h-6 text-[#032816]" />
             </div>
-            <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#006837]">
+            <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold text-[#0b6d41]">
               {title}
             </h1>
           </div>
@@ -71,7 +71,7 @@ export default function ResponsivePDFViewer({ pdfUrl, title, description }: Resp
         <div className="flex flex-col xs:flex-row flex-wrap gap-3 sm:gap-4 mb-6 sm:mb-8">
           <button
             onClick={handleDownload}
-            className="bg-[#7cb983] hover:bg-[#6ba872] text-white font-semibold px-4 xs:px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px] w-full xs:w-auto"
+            className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-4 xs:px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base min-h-[44px] w-full xs:w-auto"
           >
             <Download className="w-4 h-4 sm:w-5 sm:h-5" />
             Download PDF
@@ -82,7 +82,7 @@ export default function ResponsivePDFViewer({ pdfUrl, title, description }: Resp
         {/* Loading State */}
         {isLoading && (
           <div className="flex flex-col items-center justify-center py-12 sm:py-16 md:py-20">
-            <div className="animate-spin rounded-full h-12 w-12 sm:h-16 sm:w-16 border-b-2 border-[#7cb983] mb-4"></div>
+            <div className="animate-spin rounded-full h-12 w-12 sm:h-16 sm:w-16 border-b-2 border-[#0f8f56] mb-4"></div>
             <p className="text-gray-600 text-sm sm:text-base">Loading PDF...</p>
           </div>
         )}
@@ -116,8 +116,8 @@ export default function ResponsivePDFViewer({ pdfUrl, title, description }: Resp
             </div>
 
             {/* Mobile Notice */}
-            <div className="block sm:hidden bg-blue-50 border-t border-blue-200 p-4">
-              <p className="text-xs text-blue-800 text-center">
+            <div className="block sm:hidden bg-[#fbfbee] border-t border-[#d4f1e4] p-4">
+              <p className="text-xs text-[#085032] text-center">
                 For better viewing experience, use the Download or Open in New Tab buttons above.
               </p>
             </div>

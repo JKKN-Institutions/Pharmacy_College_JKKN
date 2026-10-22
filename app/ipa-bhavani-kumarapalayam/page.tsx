@@ -38,7 +38,7 @@ const councilMembers = [
 function BulletListCard({ title, leadIn, items }: { title: string; leadIn: string; items: string[] }) {
   return (
     <section>
-      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
         {title}
       </h2>
       <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -48,7 +48,7 @@ function BulletListCard({ title, leadIn, items }: { title: string; leadIn: strin
         <ul className="space-y-4">
           {items.map((item, index) => (
             <li key={index} className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
-              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#7cb983] mt-2" />
+              <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
               <span className="text-justify">{item}</span>
             </li>
           ))}
@@ -64,7 +64,7 @@ export default function IPABhavaniKomarapalayamPage() {
       <Header />
 
       {/* Hero Banner */}
-      <div className="bg-[#006837]">
+      <div className="bg-[#0b6d41]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16">
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">
             IPA-Bhavani-Komarapalayam Local Branch
@@ -77,7 +77,7 @@ export default function IPABhavaniKomarapalayamPage() {
 
           {/* Introduction */}
           <section className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8 md:p-10 space-y-4">
-            <h2 className="text-lg sm:text-xl font-semibold text-[#006837]">
+            <h2 className="text-lg sm:text-xl font-semibold text-[#0b6d41]">
               INDIAN PHARMACEUTICAL ASSOCIATION -BHAVANI KOMARAPALAYAM LOCAL BRANCH
             </h2>
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">
@@ -87,7 +87,7 @@ export default function IPABhavaniKomarapalayamPage() {
 
           {/* Mission */}
           <section>
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#006837] mb-6">
+            <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6">
               Mission
             </h2>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
@@ -131,7 +131,7 @@ export default function IPABhavaniKomarapalayamPage() {
               <div className="overflow-x-auto">
                 <table className="w-full text-sm sm:text-base">
                   <thead>
-                    <tr className="bg-[#006837] text-white">
+                    <tr className="bg-[#0b6d41] text-white">
                       <th className="px-6 py-4 text-center font-semibold">S.NO</th>
                       <th className="px-6 py-4 text-center font-semibold">NAME</th>
                       <th className="px-6 py-4 text-center font-semibold">DESIGNATION</th>
