@@ -1,14 +1,16 @@
 ﻿"use client";
 
 import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { topMenuItems, bottomMenuItems, navigationMenu, type SubmenuItem, type NavItem } from "@/data/siteData";
 import { useIsMobile } from "@/hooks/use-mobile";
 import EnquiryButton from "@/components/lead/EnquiryButton"
 
-// Homepage only (2026-10-16): "Enquire Now" opens the 3-box enquiry form in place.
-// Every other page has no modal provider, so EnquiryButton renders the old link.
+// "Enquire Now" opens the 3-box enquiry form in place - on the homepage since 2026-10-16, on every
+// page since 2026-10-22 (the provider sits in app/layout.tsx). APPLY_HREF is only the fallback for a
+// page rendered without the provider. Leads keep home-header on "/" and are tagged header elsewhere.
 const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header";
 
 export default function Header() {
@@ -19,6 +21,7 @@ export default function Header() {
   const [mobileOpenMenus, setMobileOpenMenus] = useState<Set<string>>(new Set());
   const [hasHydrated, setHasHydrated] = useState(false);
   const isMobile = useIsMobile();
+  const headerSource = usePathname() === "/" ? "home-header" : "header";
 
   // Track hydration to prevent SSR mismatch
   useEffect(() => {
@@ -221,7 +224,7 @@ export default function Header() {
               {/* Apply Now Button - Right Side (spans both rows) */}
               <div className="flex items-center flex-shrink-0">
                 <EnquiryButton
-                  sourcePage="home-header"
+                  sourcePage={headerSource}
                   fallbackHref={APPLY_HREF}
                   fallbackLabel="Apply Now"
                   className="bg-[#0b6d41] text-white px-2.5 lg:px-3.5 xl:px-5 py-1.5 lg:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] flex items-center justify-center text-sm sm:text-base whitespace-nowrap"
@@ -253,7 +256,7 @@ export default function Header() {
           <div className="flex items-center gap-2 sm:gap-3">
             {/* Apply Now Button */}
             <EnquiryButton
-              sourcePage="home-header"
+              sourcePage={headerSource}
               fallbackHref={APPLY_HREF}
               fallbackLabel="Apply Now"
               className="bg-[#0b6d41] text-white px-2 xs:px-2.5 sm:px-4 py-1 xs:py-1.5 sm:py-2 rounded font-semibold hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity min-h-[40px] sm:min-h-[44px] flex items-center justify-center touch-manipulation text-sm sm:text-base"
@@ -392,7 +395,7 @@ export default function Header() {
 
               {/* Mobile Apply Now Button */}
               <EnquiryButton
-                sourcePage="home-header"
+                sourcePage={headerSource}
                 fallbackHref={APPLY_HREF}
                 fallbackLabel="Apply Now"
                 className="w-full mt-3 sm:mt-4 py-2 xs:py-2.5 px-3.5 bg-[#0b6d41] text-white font-semibold rounded flex items-center justify-center gap-2 sm:gap-3 min-h-[44px] touch-manipulation hover:opacity-90 focus:opacity-90 focus:outline-none transition-opacity text-sm md:text-base"

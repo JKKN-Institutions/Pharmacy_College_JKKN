@@ -6,6 +6,7 @@ import FooterWrapper from '@/components/FooterWrapper'
 import GoogleAnalytics from '@/components/GoogleAnalytics'
 import { ConversionTracking } from '@/components/analytics/ConversionTracking'
 import { OrganizationSchema } from '@/components/SchemaOrg'
+import { EnquiryModalProvider } from '@/components/lead/EnquiryModal'
 import dynamic from 'next/dynamic'
 
 const SchemaValidatorDev = process.env.NODE_ENV === 'development'
@@ -149,8 +150,14 @@ export default function RootLayout({
         <OrganizationSchema />
         <ConversionTracking />
         <SchemaValidatorDev />
-        {children}
-        <FooterWrapper />
+        {/* The enquiry modal provider wraps every page (user's choice 2026-10-22), so the header
+            "Enquire Now" and every jkkn.ai apply link open the same 3-box form everywhere, not only
+            on the homepage. Before, every other page fell back to the jkkn.ai link (6 boxes, the
+            college picked again). A "use client" provider can sit in this server layout. */}
+        <EnquiryModalProvider>
+          {children}
+          <FooterWrapper />
+        </EnquiryModalProvider>
       </body>
     </html>
   )

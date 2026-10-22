@@ -9,7 +9,6 @@ import { BarChart, BookOpen, Briefcase, ClipboardList, Factory, FileText, FlaskC
 import React, { useEffect } from 'react'
 import EventsSection from '@/components/EventsSection'
 import HomepagePopup from '@/components/HomepagePopup'
-import { EnquiryModalProvider } from '@/components/lead/EnquiryModal'
 import EnquiryButton from '@/components/lead/EnquiryButton'
 import PharmacyEnquiryForm from '@/components/lead/PharmacyEnquiryForm'
 
@@ -76,7 +75,6 @@ export default function Home() {
   ];
 
   return (
-    <EnquiryModalProvider>
     <main className="overflow-x-hidden w-full">
       <HomepagePopup />
       <FaqSchema faqs={homepageFaqs} />
@@ -1380,6 +1378,5 @@ export default function Home() {
         </div>
       </section>
     </main>
-    </EnquiryModalProvider>
   )
 }
