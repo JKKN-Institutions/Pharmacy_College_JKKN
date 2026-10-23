@@ -39,7 +39,7 @@ export default function StudyMaterialPage() {
             {studyMaterials.map((material, index) => (
               <div
                 key={index}
-                className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6"
+                className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 sm:gap-6"
               >
                 {/* Material Name */}
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-black">
@@ -47,7 +47,7 @@ export default function StudyMaterialPage() {
                 </h2>
 
                 {/* Download Button */}
-                <button className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-8 py-3 rounded transition-all duration-300 whitespace-nowrap self-start sm:self-auto">
+                <button className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-8 py-3 rounded transition-all duration-300 whitespace-nowrap self-start md:self-auto">
                   Download Material
                 </button>
               </div>
