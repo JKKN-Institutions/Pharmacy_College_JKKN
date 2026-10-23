@@ -8,7 +8,7 @@ export default function AdministrationPage() {
 
   useEffect(() => {
     // Redirect to the PDF file immediately
-    window.location.replace('/pdf/administration.pdf')
+    window.location.replace('/pdf/Administration.pdf')
   }, [])
 
   return (

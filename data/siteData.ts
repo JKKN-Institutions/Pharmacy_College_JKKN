@@ -32,7 +32,7 @@ export const topMenuItems: NavItem[] = [
       { label: "Our Management", href: "/our-management" },
       { label: "Our Institutions", href: "/our-institutions" },
       { label: "The Principal", href: "/the-principal" },
-      { label: "Administration", href: "/pdf/administration.pdf", target: "_blank" },
+      { label: "Administration", href: "/pdf/Administration.pdf", target: "_blank" },
       { label: "Central Public Information Officer", href: "/cpio", target: "_blank" },
       { label: "Why JKKN?", href: "/why-jkkn" },
       {

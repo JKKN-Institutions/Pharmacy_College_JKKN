@@ -99,7 +99,7 @@ const nextConfig = {
       { source: '/xmlrpc.php', destination: '/', permanent: true },
 
       // ── PDF redirects (server-side) ───────────────────────────────────────
-      { source: '/administration/', destination: '/pdf/administration.pdf', permanent: true },
+      { source: '/administration/', destination: '/pdf/Administration.pdf', permanent: true },
       { source: '/animal-house/', destination: '/pdf/ANIMAL-HOUSE-FACILITY.pdf', permanent: true },
       { source: '/attainment-cos-pos/', destination: '/pdf/ATTAINMENT-OF-COs-AND-POs.pdf', permanent: true },
       { source: '/audit-statements-finance/', destination: '/pdf/Audit-Statements-Finance.pdf', permanent: true },
