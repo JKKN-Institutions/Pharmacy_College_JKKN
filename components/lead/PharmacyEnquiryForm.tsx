@@ -162,7 +162,7 @@ export default function PharmacyEnquiryForm({
         {steps.map((step, i) => (
           <li
             key={step}
-            className="rounded-xl bg-[#f1f7f3] px-1.5 py-2.5 text-center text-xs font-semibold leading-tight text-[#032816]"
+            className="rounded-xl bg-[#f1f7f3] px-1.5 py-2.5 text-center text-xs font-semibold leading-tight text-[#032816] hyphens-auto"
           >
             <span
               aria-hidden="true"
