@@ -491,7 +491,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           </p>
           <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
                 emoji: <Microscope className="w-5 h-5 text-[#0b6d41]" />,
