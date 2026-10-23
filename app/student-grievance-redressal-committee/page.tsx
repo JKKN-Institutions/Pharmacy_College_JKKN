@@ -16,7 +16,7 @@ function BulletItem({ text }: { text: React.ReactNode }) {
   return (
     <li className="flex items-start gap-3 text-sm sm:text-base text-gray-700 leading-relaxed">
       <span className="flex-shrink-0 w-2 h-2 rounded-full bg-[#ffde59] mt-2" />
-      <span>{text}</span>
+      <span className="min-w-0 break-words">{text}</span>
     </li>
   )
 }
@@ -66,7 +66,7 @@ export default function StudentGrievanceRedressalCommitteePage() {
               {/* Step 1 */}
               <div className="flex items-start gap-3">
                 <span className="flex-shrink-0 inline-flex items-center justify-center w-7 h-7 rounded-full bg-[#0b6d41] text-white font-bold text-sm">1</span>
-                <div className="flex-1">
+                <div className="flex-1 min-w-0">
                   <p className="text-sm sm:text-base text-gray-700 mb-3">The aggrieved learner may submit a complaint:</p>
                   <ul className="space-y-3 ml-2">
                     <BulletItem text={<>Email to <a href="mailto:grievance_pharmfaculty@jkkn.ac.in" className="text-[#0b6d41] hover:underline">grievance_pharmfaculty@jkkn.ac.in</a></>} />
