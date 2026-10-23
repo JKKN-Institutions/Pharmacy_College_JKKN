@@ -167,7 +167,7 @@ export default function TiruppurPage() {
           </p>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 mb-6 sm:mb-8 max-w-xl mx-auto">
             {[
               { value: '78%', label: 'PLACEMENTS' },
               { value: '97/124', label: 'PLACED 2024-25' },
