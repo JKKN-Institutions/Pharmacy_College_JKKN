@@ -71,11 +71,11 @@ function Group({ item }: { item: SubmenuItem }) {
   }
 
   return (
-    <div className="sm:col-span-2">
+    <div className="md:col-span-2">
       <h3 className="mb-3 mt-2 text-sm font-bold uppercase tracking-wide text-[#0b6d41]">
         {item.href === '#' ? item.label : <Link href={item.href}>{item.label}</Link>}
       </h3>
-      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
         {item.submenu?.map((child) => (
           <Group key={child.label + child.href} item={child} />
         ))}
@@ -119,7 +119,7 @@ export default function SectionHub({
         <div className="mx-auto max-w-6xl space-y-8 px-4 sm:px-6 sm:space-y-10 lg:px-8">
           <div className="rounded-2xl bg-white p-6 shadow-lg sm:p-8">
             <p className="mb-6 text-sm leading-relaxed text-gray-700 sm:text-base">{intro}</p>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
               {children.map((child) => (
                 <Group key={child.label + child.href} item={child} />
               ))}
