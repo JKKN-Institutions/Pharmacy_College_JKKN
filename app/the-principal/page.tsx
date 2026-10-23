@@ -73,7 +73,7 @@ export default function ThePrincipalPage() {
                 <div className="md:w-3/5 p-8 sm:p-10 md:p-12 flex flex-col justify-center space-y-6">
 
                   {/* Credential Cards */}
-                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div className="bg-[#FBFBEE] rounded-xl p-4 border border-[#0f8f56]/30">
                       <div className="flex items-center gap-2 mb-2">
                         <GraduationCap className="w-5 h-5 text-[#0b6d41]" />
@@ -156,7 +156,7 @@ export default function ThePrincipalPage() {
                   Educational Qualifications
                 </h4>
               </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
                   { degree: "B.Pharm", institution: "JKKNCP, University of Madras", year: "1990" },
                   { degree: "M.Pharm", institution: "JSS College of Pharmacy, Ooty", year: "1993" },
