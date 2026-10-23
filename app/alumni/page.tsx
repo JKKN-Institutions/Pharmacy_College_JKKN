@@ -41,7 +41,7 @@ export default function AlumniPage() {
             <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-6 sm:mb-8">
               The key objectives of the Alumni Committee of JKKN College of Pharmacy are as follows:
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
               {[
                 'To maintain a close relation with alumni of JKKN College of Pharmacy.',
                 'To update the alumni during the alumni meet with the latest developments and academic achievements of JKKN College of Pharmacy.',
