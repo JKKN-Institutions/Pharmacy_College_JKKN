@@ -37,7 +37,7 @@ export default function MPharmacyPage() {
           </div>
 
           {/* Info Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="border border-gray-200 rounded-lg overflow-hidden">
             <button
               onClick={() => toggleFAQ(0)}
@@ -977,7 +977,7 @@ export default function MPharmacyPage() {
         {/* NIPER */}
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">NIPER (National Institute of Pharmaceutical Education and Research)</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Mohali (Flagship)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Hyderabad</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">NIPER Ahmedabad</div>
@@ -992,7 +992,7 @@ export default function MPharmacyPage() {
         {/* IITs */}
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">IITs (Indian Institutes of Technology)</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Delhi (BSBE)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT Bombay<br/>(Chemistry/BSBE)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">IIT BHU Varanasi</div>
@@ -1006,7 +1006,7 @@ export default function MPharmacyPage() {
         {/* Central/Government Universities */}
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Central/Government Universities</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Jamia Hamdard, Delhi</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Banaras Hindu University</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Panjab University,<br/>Chandigarh</div>
@@ -1019,7 +1019,7 @@ export default function MPharmacyPage() {
         {/* Deemed Universities & Private */}
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">Deemed Universities & Private (Top Tier)</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Manipal College of<br/>Pharmaceutical Sciences</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">JSS College of Pharmacy,<br/>Ooty</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">JSS College of Pharmacy,<br/>Mysore</div>
@@ -1032,7 +1032,7 @@ export default function MPharmacyPage() {
         {/* State Universities */}
         <div className="mb-10">
           <h3 className="text-sm xs:text-base sm:text-lg md:text-xl font-bold text-[#0b6d41] mb-6">State Universities (Strong Programmes)</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">ICT Mumbai (UDCT)</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Pune University</div>
             <div className="bg-white border-2 border-[#E8E8E8] rounded-lg p-4 text-center font-semibold text-gray-800">Annamalai University</div>
