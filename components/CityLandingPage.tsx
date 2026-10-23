@@ -209,12 +209,12 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
       {/* ── Distance Banner ── */}
       <section className="bg-[#FBFBEE] py-5 sm:py-7 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
+          <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col md:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
               <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">{config.distance.split(' ')[0]}</span>
               <span className="text-lg sm:text-xl font-bold text-[#0b6d41]">km</span>
             </div>
-            <div className="flex-1 text-center sm:text-left">
+            <div className="flex-1 text-center md:text-left">
               <h2 className="text-sm sm:text-base md:text-lg font-bold text-gray-900 mb-0.5">
                 From {config.city} to JKKN Pharmacy
               </h2>
