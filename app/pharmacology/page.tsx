@@ -976,7 +976,7 @@ export default function PharmacologyPage() {
         {/* Contract Research Organisations (CROs) - Preclinical Services */}
         <div className="mb-10">
           <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">Contract Research Organisations (CROs) - Preclinical Services</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-4">
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800 hover:border-[#0f8f56] hover:shadow-lg transition-all">
               Vimta Labs
             </div>
@@ -1013,7 +1013,7 @@ export default function PharmacologyPage() {
         {/* Pharmaceutical Companies - R&D & Drug Safety */}
         <div className="mb-10">
           <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-6">Pharmaceutical Companies - R&D & Drug Safety</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-4">
             <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800 hover:border-[#0f8f56] hover:shadow-lg transition-all">
               Sun Pharmaceutical R&D
             </div>
@@ -1051,8 +1051,8 @@ export default function PharmacologyPage() {
       {/* Multinational Pharmaceutical Giants */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-8">Multinational Pharmaceutical Giants</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-          <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">GSK (GlaxoSmithKline)</div>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2 md:gap-4">
+          <div className="bg-white border-2 border-gray-200 rounded-lg px-2 py-4 md:p-4 text-center font-semibold text-gray-800">GSK (GlaxoSmithKline)</div>
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">Pfizer India</div>
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">Novartis Healthcare</div>
           <div className="bg-white border-2 border-gray-200 rounded-lg p-4 text-center font-semibold text-gray-800">Sanofi India</div>
@@ -1068,7 +1068,7 @@ export default function PharmacologyPage() {
       {/* Government Research Institutions */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-8">Government Research Institutions</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
           <div className="bg-white border-2 border-gray-200 rounded-lg p-6 text-center font-semibold text-gray-800">
             CSIR-CDRI Lucknow<br/>(Central Drug Research Institute)
           </div>
