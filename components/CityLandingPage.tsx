@@ -588,7 +588,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
 
       {/* ── Explore More Cities ── */}
       <section className="bg-[#FBFBEE] py-8 sm:py-12 px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-5xl mx-auto text-center">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
             Explore More Cities
           </h2>
@@ -597,7 +597,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           </p>
           <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
             {config.exploreCities.map((item) => (
               <a
                 key={item.city}
