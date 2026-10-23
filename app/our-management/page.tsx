@@ -41,7 +41,7 @@ export default function OurManagementPage() {
                   />
                 </div>
                 <div className="mt-6 text-center">
-                  <h2 className="text-xl sm:text-2xl font-bold text-white">
+                  <h2 className="text-xl sm:text-2xl md:text-lg lg:text-2xl font-bold text-white">
                     SMT.N.SENDAMARAAI
                   </h2>
                   <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
@@ -85,7 +85,7 @@ export default function OurManagementPage() {
                   />
                 </div>
                 <div className="mt-6 text-center">
-                  <h2 className="text-xl sm:text-2xl font-bold text-white">
+                  <h2 className="text-xl sm:text-2xl md:text-lg lg:text-2xl font-bold text-white">
                     MR.S.OMMSHARRAVANA
                   </h2>
                   <span className="inline-block mt-3 px-4 py-1.5 bg-[#ffde59] text-[#032816] text-sm font-semibold rounded-full">
