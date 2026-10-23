@@ -800,7 +800,7 @@ export default function PhDPage() {
           <h2 className="text-sm xs:text-base sm:text-lg lg:text-xl font-bold text-[#0b6d41]">Trending Research Areas in Pharmacy Ph.D</h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {/* Nanotechnology */}
           <div className="h-full">
             <div className="bg-white rounded-xl p-6 shadow-lg h-full flex flex-col items-center">
