@@ -83,11 +83,11 @@ export default function IQACPage() {
               {members.map((member, index) => (
                 <div
                   key={index}
-                  className={`flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-6 px-6 py-4 text-sm ${
+                  className={`flex flex-col md:flex-row md:items-start gap-1 md:gap-6 px-6 py-4 text-sm ${
                     index % 2 === 0 ? 'bg-white' : 'bg-[#f4f9f6]'
                   }`}
                 >
-                  <span className="font-semibold text-[#0b6d41] sm:w-64 shrink-0">{member.role}:</span>
+                  <span className="font-semibold text-[#0b6d41] md:w-64 shrink-0">{member.role}:</span>
                   <span className="text-gray-700">{member.name}</span>
                 </div>
               ))}
