@@ -582,7 +582,7 @@ export default function BestPharmacyCollegesTamilNadu() {
           <h3 className="text-lg sm:text-xl font-bold text-[#085032] mt-8 mb-4">
             Programs and Specialisations at JKKN Pharmacy
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
               {
                 program: 'B.Pharm',
@@ -729,7 +729,7 @@ export default function BestPharmacyCollegesTamilNadu() {
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             Related Resources
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
               {
                 title: 'B.Pharm Course at JKKN College of Pharmacy',
