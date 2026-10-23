@@ -18,11 +18,11 @@ export default function DigitalCampusPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 md:py-16 space-y-10 md:space-y-14">
 
           {/* Rows 1 & 2: Productivity Tools */}
-          <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {/* Google Workspace */}
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center justify-center p-8 gap-4">
-              <svg className="h-8 w-auto" viewBox="0 0 272 92" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg className="h-8 w-auto" viewBox="0 0 302 92" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <text x="0" y="40" fontFamily="Poppins, sans-serif" fontSize="32" fill="#5f6368" fontWeight="400">
                   Google
                 </text>
