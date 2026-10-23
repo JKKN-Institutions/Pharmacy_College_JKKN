@@ -88,7 +88,7 @@ export default async function FacultyPage() {
                     </div>
 
                     {/* Info */}
-                    <p className="font-semibold text-gray-900 text-sm leading-snug">
+                    <p className="font-semibold text-gray-900 text-xs md:text-sm leading-snug">
                       {m.name}
                     </p>
                     {m.designation && (
