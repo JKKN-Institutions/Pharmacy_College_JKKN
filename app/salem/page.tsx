@@ -100,6 +100,11 @@ export default function SalemPage() {
         'No. The Tamil Nadu Dr. M.G.R. Medical University B.Pharm affiliation list for 2025-26 names only two government pharmacy colleges in the whole state - at Madras Medical College, Chennai and Madurai Medical College - and none in Salem district. JKKN College of Pharmacy, 57 km away in Namakkal district, is a private PCI-approved college. All four Salem-district colleges on the list are self-financing, and Vinayaka Mission’s is a private deemed-university college.',
     },
     {
+      question: 'Is JKKN College of Pharmacy a day-scholar option for students from Sankari and Edappadi?',
+      answer:
+        'Yes, by distance. JKKN College of Pharmacy at Komarapalayam is 21 km from Morur on the Sankari side, about 33 km from Sankari town and 31 km from Edappadi, all within day-scholar range. Salem city is 57 km away, about an hour each way, so for city students the on-campus hostel is the practical choice.',
+    },
+    {
       question: 'How far is JKKN Pharmacy from Salem?',
       answer:
         'Salem bus stand to JKKN College of Pharmacy is 57 km by road - about an hour by car via NH-544 (Google Maps, September 2026; the toll-free alternative is 58 km). Salem Junction is 55 km. Government and private buses on the Salem-Erode NH-544 corridor stop at Komarapalayam; ask the admissions office for the current college bus route list before deciding to commute daily.',
@@ -214,7 +219,7 @@ export default function SalemPage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats) and Pharm.D (30 seats), is NAAC accredited (A), and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
+            JKKN College of Pharmacy is at Komarapalayam, Namakkal district, 57 km from Salem bus stand but 21 km from Morur and 31 km from Edappadi on the Sankari side. Founded in 1985, it is PCI approved, NAAC Accredited (A, CGPA 3.09) and offers B.Pharm (100 seats), Pharm.D (30) and M.Pharm (90 seats). The full list of Salem district pharmacy colleges is further down this page.
           </p>
 
           {/* Stats Grid */}
@@ -729,6 +734,10 @@ export default function SalemPage() {
           <p className="text-xs sm:text-sm text-gray-500 mb-2 max-w-2xl mx-auto leading-relaxed">
             The western taluks of Salem district are close to Komarapalayam; Salem city and Attur are not.
             Road distance from the JKKN campus, so you can decide before you visit.
+          </p>
+          <p className="text-xs sm:text-sm text-gray-700 font-medium mb-2 max-w-2xl mx-auto leading-relaxed">
+            From the western taluks of Salem district, JKKN is closer than Salem city: Morur (Sankari) 21 km, about
+            20 min; Edappadi 31 km, about 30 min; Sankari town about 33 km. Salem bus stand is 57 km, about an hour.
           </p>
           <div className="w-12 h-0.5 bg-[#ffde59] rounded-full mx-auto mb-7 sm:mb-9" />
 
