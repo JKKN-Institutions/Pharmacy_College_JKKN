@@ -1891,7 +1891,7 @@ export default function PharmacyPracticePage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">PCI Approved | Hospital Partnerships | Clinical Training | NAAC Accredited</p>
+          <p className="text-white text-[10px] xs:text-xs sm:text-sm mt-6">PCI Approved | Hospital Partnerships | Clinical Training | NAAC Accredited (A)</p>
         </div>
       </div>
 

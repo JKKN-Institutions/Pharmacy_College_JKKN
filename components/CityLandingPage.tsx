@@ -136,7 +136,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved &amp; NAAC Accredited • Admissions Open
+              PCI Approved &amp; NAAC Accredited (A) • Admissions Open
             </span>
           </div>
 
@@ -190,7 +190,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"

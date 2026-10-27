@@ -1620,7 +1620,7 @@ export default function PhDPage() {
               Download Prospectus
             </a>
           </div>
-          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | NAAC Accredited | Fellowship Available | Industry Collaborations</p>
+          <p className="mt-8 text-[10px] xs:text-xs sm:text-sm">PCI Approved | NAAC Accredited (A) | Fellowship Available | Industry Collaborations</p>
         </div>
       </div>
 

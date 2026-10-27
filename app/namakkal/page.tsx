@@ -68,7 +68,7 @@ export default function NamakkalPage() {
     {
       question: 'How do I choose a B.Pharm college in Namakkal district?',
       answer:
-        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is on NH-544 at Komarapalayam with hostels on campus.',
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited (A). 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is on NH-544 at Komarapalayam with hostels on campus.',
     },
     {
       question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
@@ -108,7 +108,7 @@ export default function NamakkalPage() {
     {
       question: 'What does JKKN College of Pharmacy offer?',
       answer:
-        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, six specialisations, 90 seats), Pharm.D (6 years, 30 seats) and Ph.D. All programmes are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is NAAC accredited.',
+        'B.Pharm (4 years, 100 seats), M.Pharm (2 years, six specialisations, 90 seats), Pharm.D (6 years, 30 seats) and Ph.D. All programmes are approved by the Pharmacy Council of India (PCI) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai. The college is NAAC accredited (A).',
     },
     {
       question: 'What were the placements at JKKN College of Pharmacy in 2024-25?',
@@ -203,7 +203,7 @@ export default function NamakkalPage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved & NAAC Accredited • Admissions Open
+              NAAC Accredited (A) · PCI Approved • Admissions Open
             </span>
           </div>
 
@@ -215,7 +215,7 @@ export default function NamakkalPage() {
 
           {/* Snippet-optimized paragraph — AEO target */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited, trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited (A), trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
           </p>
 
           {/* Stats Grid */}
@@ -257,7 +257,7 @@ export default function NamakkalPage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -465,7 +465,7 @@ export default function NamakkalPage() {
             {[
               { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
               { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
-              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited.' },
+              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited (A).' },
               { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
               { check: 'Travel and hostel', jkkn: 'On NH-544 at Komarapalayam — 26 km from Tiruchengode, 65 km from Namakkal Bus Stand; separate hostels on campus.' },
             ].map((item, i) => (
@@ -746,7 +746,7 @@ export default function NamakkalPage() {
                 <tr className="bg-[#FBFBEE]">
                   <td className="p-3 sm:p-4 font-bold text-[#0b6d41]">JKKN College of Pharmacy</td>
                   <td className="p-3 sm:p-4">Komarapalayam, NH-544 — 65 km from Namakkal Bus Stand, 18 km from Erode</td>
-                  <td className="p-3 sm:p-4">B.Pharm (100 seats), B.Pharm Lateral Entry (10), M.Pharm (6 specialisations, 90 seats), Pharm.D (30), Pharm.D Post Baccalaureate (10), Ph.D — PCI approved, TNMGRMU affiliated, NAAC accredited; 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
+                  <td className="p-3 sm:p-4">B.Pharm (100 seats), B.Pharm Lateral Entry (10), M.Pharm (6 specialisations, 90 seats), Pharm.D (30), Pharm.D Post Baccalaureate (10), Ph.D — PCI approved, TNMGRMU affiliated, NAAC accredited (A); 97 of 124 placed in 2024-25 (NIRF); hostel on campus</td>
                 </tr>
                 <tr>
                   <td className="p-3 sm:p-4 font-semibold text-gray-900">Annai JKK Sampoorani Ammal College of Pharmacy</td>

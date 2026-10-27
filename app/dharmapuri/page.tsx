@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Buses operate on the Dharmapuri–Komarapalayam route, with frequent connections via Salem',
   pageTitle: 'Pharmacy College near Dharmapuri',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited residential pharmacy college about 110 km from Dharmapuri, located in Komarapalayam beyond Salem on NH-544. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) residential pharmacy college about 110 km from Dharmapuri, located in Komarapalayam beyond Salem on NH-544. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
   whyText:
     'Dharmapuri learners looking for a quality pharmacy college in the Salem–Erode belt choose JKKN for its PCI approval, on-campus teaching hospital, and full residential facilities. At about 110 km via Salem, the campus hostel makes JKKN practical, with buses for weekend travel home.',
   commuteText:
     'About 110 km from Dharmapuri via Salem — around 2-3 hours. The campus hostel is the recommended option; buses via Salem make weekend travel easy.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution in Komarapalayam, Namakkal district, about 110 km from Dharmapuri via Salem. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 110 km from Dharmapuri via Salem. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
   areaServed: ['Dharmapuri', 'Salem', 'Komarapalayam', 'Namakkal'],
   faqs: [
     {
       question: 'Which is a good pharmacy college near Dharmapuri?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam, about 110 km from Dharmapuri via Salem, is a PCI-approved, NAAC-accredited college offering B.Pharm, M.Pharm, and Pharm.D. It has a teaching hospital for clinical training, separate hostels, and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam, about 110 km from Dharmapuri via Salem, is a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D. It has a teaching hospital for clinical training, separate hostels, and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Dharmapuri?',

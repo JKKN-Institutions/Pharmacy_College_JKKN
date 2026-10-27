@@ -52,7 +52,7 @@ export default function SalemPage() {
     {
       question: 'Is JKKN College of Pharmacy in Salem?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544 (about an hour by car) - Salem district has pharmacy colleges of its own, listed on this page. JKKN is PCI-approved, NAAC-accredited and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai; it offers B.Pharm, M.Pharm and Pharm.D, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data).',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544 (about an hour by car) - Salem district has pharmacy colleges of its own, listed on this page. JKKN is PCI-approved, NAAC-accredited (A) and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai; it offers B.Pharm, M.Pharm and Pharm.D, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data).',
     },
     // B.Pharm near Salem (added 2026-10-01, GL6-361). "b pharm colleges in salem" had 12 GSC
     // impressions in 16 months (/salem/ mobile 10 at 12.4) and this page never answered the B.Pharm
@@ -72,7 +72,7 @@ export default function SalemPage() {
     {
       question: 'How do I choose a B.Pharm college near Salem?',
       answer:
-        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is 57 km from Salem bus stand, with hostels on campus.',
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited (A). 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is 57 km from Salem bus stand, with hostels on campus.',
     },
     {
       question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
@@ -202,7 +202,7 @@ export default function SalemPage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved & NAAC Accredited • Admissions Open
+              NAAC Accredited (A) · PCI Approved • Admissions Open
             </span>
           </div>
 
@@ -214,7 +214,7 @@ export default function SalemPage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats) and Pharm.D (30 seats), is NAAC accredited, and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
+            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district - not in Salem district - 57 km from Salem bus stand on NH-544 (Salem–Coimbatore Highway), about an hour by car. It offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats) and Pharm.D (30 seats), is NAAC accredited (A), and placed 97 of 124 placement-seeking graduates in 2024-25 (78%, NIRF 2026 data). The full list of Salem district pharmacy colleges is further down this page.
           </p>
 
           {/* Stats Grid */}
@@ -256,7 +256,7 @@ export default function SalemPage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -464,7 +464,7 @@ export default function SalemPage() {
             {[
               { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
               { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
-              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited.' },
+              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited (A).' },
               { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
               { check: 'Travel and hostel', jkkn: '57 km from Salem bus stand (about an hour by car), 21 km from Morur; separate hostels on campus.' },
             ].map((item, i) => (
@@ -911,7 +911,7 @@ export default function SalemPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Salem (57 km) — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy college in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544. Offers B.Pharm, M.Pharm and Pharm.D with 78% placements (2024-25); the page also lists every pharmacy college in Salem district."
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college in Komarapalayam, Namakkal district, 57 km from Salem bus stand on NH-544. Offers B.Pharm, M.Pharm and Pharm.D with 78% placements (2024-25); the page also lists every pharmacy college in Salem district."
         url="https://pharmacy.jkkn.ac.in/salem/"
         dateModified="2026-10-01"
       />

@@ -143,7 +143,7 @@ export default function Home() {
               {/* Badge */}
               <div className="inline-flex items-center gap-2 bg-[#FBFBEE]/10 backdrop-blur-sm rounded-full px-3 xs:px-4 sm:px-5 py-1.5 xs:py-2 mb-4 sm:mb-6">
                 <Star className="w-5 h-5 xs:w-6 xs:h-6 sm:w-7 sm:h-7 text-yellow-300" />
-                <span className="text-[8px] xs:text-[10px] sm:text-sm font-semibold">PCI Approved | NAAC Accredited</span>
+                <span className="text-[8px] xs:text-[10px] sm:text-sm font-semibold">PCI Approved | NAAC Accredited (A)</span>
               </div>
 
               {/* Main Heading */}
@@ -197,7 +197,7 @@ export default function Home() {
                     <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#0b6d41]">PCI Approved</span>
                   </div>
                   <div className="bg-white/95 backdrop-blur-sm rounded-full px-3 py-1.5 sm:px-4 sm:py-2 shadow-lg">
-                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#0b6d41]">NAAC Accredited</span>
+                    <span className="text-[8px] xs:text-[10px] sm:text-sm font-bold text-[#0b6d41]">NAAC Accredited (A)</span>
                   </div>
                 </div>
 

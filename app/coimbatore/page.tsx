@@ -158,7 +158,7 @@ export default function CoimbatorePage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved & NAAC Accredited • Admissions Open
+              NAAC Accredited (A) · PCI Approved • Admissions Open
             </span>
           </div>
 
@@ -170,7 +170,7 @@ export default function CoimbatorePage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 112 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 112 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), a teaching hospital for clinical training, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}
@@ -212,7 +212,7 @@ export default function CoimbatorePage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -709,7 +709,7 @@ export default function CoimbatorePage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Coimbatore — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited pharmacy institution located 112 km from Coimbatore on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
+        description="JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution located 112 km from Coimbatore on NH-544. Offers B.Pharm, M.Pharm, and Pharm.D with 78% placements (2024-25)."
         url="https://pharmacy.jkkn.ac.in/coimbatore/"
         dateModified="2026-03-27"
       />

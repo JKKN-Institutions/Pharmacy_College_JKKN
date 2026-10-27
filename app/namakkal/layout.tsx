@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
-    description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
+    description: 'PCI-approved, NAAC-accredited (A) pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/namakkal/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy Colleges in Namakkal District | JKKN College of Pharmacy, Komarapalayam',
-    description: 'PCI-approved, NAAC-accredited pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
+    description: 'PCI-approved, NAAC-accredited (A) pharmacy college in Namakkal district (Komarapalayam). B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

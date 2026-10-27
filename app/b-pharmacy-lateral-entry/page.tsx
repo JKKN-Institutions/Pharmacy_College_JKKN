@@ -93,7 +93,7 @@ export default function BPharmLateralEntryPage() {
             </span>
 
             <span className="bg-[#ffde59] text-[#032816] px-6 py-3 rounded-full font-semibold text-[8px] xs:text-[10px] sm:text-sm">
-              NAAC Accredited
+              NAAC Accredited (A)
             </span>
           </div>
 
@@ -2263,7 +2263,7 @@ export default function BPharmLateralEntryPage() {
           </a>
           <div className="mt-8 space-y-2">
             <p className="text-xs sm:text-sm">
-              PCI Approved | NAAC Accredited | 78% Placement Record 2024-25
+              PCI Approved | NAAC Accredited (A) | 78% Placement Record 2024-25
             </p>
             <p className="text-xs sm:text-sm">
               Regular Entry | Lateral Entry Available | Scholarships for Meritorious Learners

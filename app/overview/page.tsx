@@ -43,7 +43,6 @@ export default function AboutOverviewPage() {
                   <li>JKKN College of Pharmacy has grown remarkably from its humble beginnings with 40 learners and 10 senior learners to a thriving institution with approximately 700 learners and 60 expert senior learners.</li>
                   <li>Recognised by the Government of Tamil Nadu, approved by the Pharmacy Council of India (PCI), New Delhi, and affiliated with The Tamil Nadu Dr. M.G.R. Medical University, Chennai, the college offers a comprehensive academic portfolio, including <Link href="/b-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">B.Pharm</Link>, <Link href="/m-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">M.Pharm</Link>, and <Link href="/phd" className="text-[#0b6d41] font-semibold hover:underline">Ph.D.</Link> programmes.</li>
                   <li>Accredited with a NAAC A grade, the institution has been actively participating in NIRF and other national ranking frameworks since 2016, consistently submitting data to demonstrate transparency and accountability.</li>
-                  <li>The college was recognised among the top 50 pharmacy institutions by NIRF in 2016-2018.</li>
                   <li>Additionally, it holds UGC recognition under Section 2(f).</li>
                   <li>With a strong commitment to pharmaceutical education, research, and innovation, the college continues to shape future leaders in the field, fostering a dynamic learning environment and industry collaborations.</li>
                 </ul>

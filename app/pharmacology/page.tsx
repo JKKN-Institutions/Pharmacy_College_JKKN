@@ -1585,7 +1585,7 @@ export default function PharmacologyPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply Now for M.Pharm 2026</span>
           </a>
-          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Senior Learners | NAAC Accredited</p>
+          <p className="mt-6 text-[10px] xs:text-xs sm:text-sm">PCI Approved | CPCSEA Registered Animal House | Experienced Research Senior Learners | NAAC Accredited (A)</p>
         </div>
       </div>
 

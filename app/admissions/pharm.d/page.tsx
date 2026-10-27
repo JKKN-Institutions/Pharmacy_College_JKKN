@@ -544,7 +544,7 @@ export default function PharmDAdmissionPage() {
               <span className="lg:hidden">Apply Now</span>
               <span className="hidden lg:inline">Apply Now for Pharm.D 2026</span>
             </a>
-            <p className="mt-6 text-xs sm:text-sm">Admissions Open | Limited Seats | PCI Approved | NAAC A Grade</p>
+            <p className="mt-6 text-xs sm:text-sm">Admissions Open | Limited Seats | NAAC Accredited (A) · PCI Approved</p>
           </div>
         </div>
       </main>

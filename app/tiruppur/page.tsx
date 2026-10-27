@@ -41,12 +41,12 @@ export default function TiruppurPage() {
     {
       question: 'Is JKKN College of Pharmacy in Tiruppur?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 67 km from Tiruppur via NH-544 through Erode - Tiruppur has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 67 km from Tiruppur via NH-544 through Erode - Tiruppur has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited (A) pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What are the best colleges for pharmacy near Tiruppur district?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is accessible from Tiruppur district via NH-544 through Erode. It offers three PCI-approved programmes with NAAC accreditation, modern pharmaceutical learning labs, research facilities, and campus placement support with leading pharma companies.',
+        'JKKN College of Pharmacy in Komarapalayam is accessible from Tiruppur district via NH-544 through Erode. It offers three PCI-approved programmes with NAAC accreditation (A), modern pharmaceutical learning labs, research facilities, and campus placement support with leading pharma companies.',
     },
     {
       question: 'How far is JKKN Pharmacy from Tiruppur?',
@@ -151,7 +151,7 @@ export default function TiruppurPage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved & NAAC Accredited • Admissions Open
+              NAAC Accredited (A) · PCI Approved • Admissions Open
             </span>
           </div>
 
@@ -163,7 +163,7 @@ export default function TiruppurPage() {
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 67 km from Tiruppur via NH-544 through Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation, a teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 67 km from Tiruppur via NH-544 through Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), a teaching hospital for clinical training, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}
@@ -205,7 +205,7 @@ export default function TiruppurPage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -739,7 +739,7 @@ export default function TiruppurPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Tiruppur — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25). Apply 2026-27."
+        description="JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited (A). B.Pharm, M.Pharm, Pharm.D. 67 km via NH-544, 78% placements (2024-25). Apply 2026-27."
         url="https://pharmacy.jkkn.ac.in/tiruppur/"
         dateModified="2026-03-27"
       />
