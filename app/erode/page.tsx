@@ -43,6 +43,11 @@ export default function ErodePage() {
   // routing of 2026-09-12 that the contact page and llms.txt already carry.
   const faqs = [
     {
+      question: 'When was JKKN College of Pharmacy founded?',
+      answer:
+        'JKKN College of Pharmacy was founded in 1985 at Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544. It is approved by the Pharmacy Council of India, affiliated to The Tamil Nadu Dr. M.G.R. Medical University and NAAC Accredited with an A grade (CGPA 3.09) in its first cycle.',
+    },
+    {
       question: 'Is JKKN College of Pharmacy in Erode?',
       answer:
         'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem-Coimbatore highway) - about 30 minutes by car. Students from Erode either commute daily by bus or stay in the on-campus hostel.',
@@ -66,7 +71,7 @@ export default function ErodePage() {
     {
       question: 'How do I choose a B.Pharm college near Erode?',
       answer:
-        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is 18 km from Erode Bus Stand with hostels on campus.',
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC Accredited (A), CGPA 3.09. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is 18 km from Erode Bus Stand with hostels on campus.',
     },
     {
       question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
@@ -196,7 +201,7 @@ export default function ErodePage() {
           <div className="inline-flex items-center gap-1.5 bg-white/10 rounded-full px-3.5 py-1.5 mb-4 sm:mb-6">
             <Rocket className="w-4 h-4" />
             <span className="text-[10px] sm:text-xs font-medium tracking-wide">
-              PCI Approved & NAAC Accredited • Admissions Open
+              NAAC Accredited (A) · PCI Approved • Admissions Open
             </span>
           </div>
 
@@ -208,7 +213,7 @@ export default function ErodePage() {
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, Namakkal district, 18 km from Erode Bus Stand on NH-544 (Salem–Coimbatore Highway) — about 30 minutes by car. It is not inside Erode city. It offers B.Pharm, M.Pharm (six specialisations, 90 seats) and Pharm.D under The Tamil Nadu Dr. M.G.R. Medical University. In 2024-25, 97 of 124 final-year students were placed (78%, NIRF 2026 data).
+            JKKN College of Pharmacy, founded in 1985, is 18 km from Erode Bus Stand at Komarapalayam, Namakkal district, on NH-544. It is NAAC Accredited (A, CGPA 3.09) and PCI approved, offers B.Pharm (100 seats), M.Pharm (90), Pharm.D (30) and Ph.D, and placed 97 of 124 final-year students in 2024-25 (NIRF 2026).
           </p>
 
           {/* Stats Grid */}
@@ -250,7 +255,7 @@ export default function ErodePage() {
         {/* Trust Bar */}
         <div className="bg-white py-2 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap items-center justify-center gap-2 sm:gap-3">
-            {['PCI', 'NAAC'].map((badge) => (
+            {['NAAC Accredited (A)', 'PCI Approved'].map((badge) => (
               <span
                 key={badge}
                 className="inline-flex items-center gap-1 bg-[#FBFBEE] text-[#0b6d41] text-[10px] sm:text-xs font-semibold px-2.5 py-1 rounded-full"
@@ -263,6 +268,37 @@ export default function ErodePage() {
               Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai
             </span>
           </div>
+        </div>
+      </section>
+
+      {/* ── Quick facts (S6 draft #4, Change B) ──
+          ChatGPT ranks Erode pharmacy colleges on "established in 1992" and NAAC grade; this page
+          gave neither. Sources: founded 1985 = /overview/; NAAC = NAAC's list of institutions with
+          valid accreditation as on 14-08-2025 (J.K.K. Nattraja College of Pharmacy, A, CGPA 3.09,
+          declared 08-11-2024); seats = this page + /admissions/b.pharm/; fees = /fee-structure/;
+          placement = NIRF 2026; distance = Google Maps 2026-09-22 (comment at the top). */}
+      <section className="bg-white py-5 sm:py-7 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-base sm:text-lg font-bold text-gray-900 mb-3">JKKN College of Pharmacy: quick facts</h2>
+          <dl className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-2 text-xs sm:text-sm">
+            {[
+              ['Founded', '1985'],
+              ['NAAC', 'Accredited (A), CGPA 3.09, first cycle, declared 8 November 2024'],
+              ['Approval / university', 'PCI approved; The Tamil Nadu Dr. M.G.R. Medical University'],
+              ['Seats', 'B.Pharm 100 (+10 lateral entry), M.Pharm 90 in six specialisations, Pharm.D 30, Ph.D'],
+              ['B.Pharm tuition', 'Rs 1,40,000 a year (management quota)'],
+              ['2024-25 placement', '97 of 124 placed (78%); median B.Pharm Rs 4,40,000, M.Pharm Rs 6,75,000, Pharm.D Rs 4,42,000 (NIRF 2026)'],
+              ['From Erode', '18.4 km, 28 minutes by car (Google Maps, 22 September 2026)'],
+            ].map(([k, v]) => (
+              <div key={k} className="border-b border-gray-100 py-1.5">
+                <dt className="text-[10px] sm:text-xs uppercase tracking-wide text-gray-500">{k}</dt>
+                <dd className="text-gray-900">{v}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="text-[10px] sm:text-xs text-gray-500 mt-3">
+            Sources: college About and NAAC pages, NAAC list of accredited institutions (14-08-2025), NIRF 2026 submission, Google Maps 2026-09-22.
+          </p>
         </div>
       </section>
 
@@ -457,7 +493,7 @@ export default function ErodePage() {
             {[
               { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
               { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
-              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited.' },
+              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC Accredited (A), CGPA 3.09, first cycle.' },
               { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
               { check: 'Travel and hostel', jkkn: '18 km from Erode Bus Stand on NH-544, about 30 minutes by car; separate hostels on campus.' },
             ].map((item, i) => (
@@ -563,7 +599,7 @@ export default function ErodePage() {
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST AIRPORT',
-                  text: 'Coimbatore International Airport (Code: CJB) (~80 km)',
+                  text: 'Coimbatore International Airport (CJB) — 101 km by road',
                 },
                 {
                   emoji: <Building2 className="w-5 h-5 text-gray-600" />,
