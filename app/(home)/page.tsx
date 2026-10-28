@@ -323,7 +323,7 @@ export default function Home() {
               <div className="grid grid-cols-1 xs:grid-cols-2 gap-3 sm:gap-4 mt-6 sm:mt-8 mb-6 sm:mb-8">
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
-                  <span className="text-gray-700 font-medium text-sm sm:text-base">PCI & NAAC Approved</span>
+                  <span className="text-gray-700 font-medium text-sm sm:text-base">PCI Approved & NAAC Accredited (A)</span>
                 </div>
                 <div className="flex items-center gap-2 sm:gap-3">
                   <span className="text-[#0b6d41] text-base sm:text-xl flex-shrink-0">✓</span>
