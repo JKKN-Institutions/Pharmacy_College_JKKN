@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link'
 import Header from '@/components/Header'
+import PharmacyEnquiryForm from '@/components/lead/PharmacyEnquiryForm'
+import { DEFAULT_PROGRAMME_BY_PAGE } from '@/lib/pharmacy-programmes'
 import { BookOpen, Briefcase, Building2, CheckCircle, ClipboardList, Clock, FileText, GraduationCap, HelpCircle, IndianRupee, Scale, ScrollText, Shield, Target, Users, ChevronDown } from 'lucide-react'
 
 export default function PharmaceuticalRegulatoryAffairsPage() {
@@ -418,6 +420,13 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           <p className="text-xs sm:text-sm mb-6">
             15 seats &bull; PCI approved &bull; NAAC A Grade &bull; Komarapalayam, Namakkal district
           </p>
+          {/* DEP-34 - enquiry form, Regulatory Affairs pre-selected (same pattern as /b-pharmacy/). */}
+          <div className="max-w-2xl mx-auto mb-6 text-left">
+            <PharmacyEnquiryForm
+              sourcePage="pharmaceutical-regulatory-affairs"
+              defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharmaceutical-regulatory-affairs"]}
+            />
+          </div>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
               href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmaceutical-regulatory-affairs"

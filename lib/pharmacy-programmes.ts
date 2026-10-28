@@ -48,4 +48,5 @@ export const VALID_PHARMACY_PROGRAMME_IDS: ReadonlySet<string> = new Set(
 export const DEFAULT_PROGRAMME_BY_PAGE: Readonly<Record<string, string>> = {
   "pharm-d": "b3640fc2-4260-4548-b66b-1a9908e876ea",
   "b-pharmacy": "0d980d34-f945-4de6-8c88-ee97b2620b99",
+  "pharmaceutical-regulatory-affairs": "ab96b847-f9e3-41ee-bdd6-3500dd869571",
 }
