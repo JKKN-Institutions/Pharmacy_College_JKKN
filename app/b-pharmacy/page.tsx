@@ -51,7 +51,7 @@ export default function BPharmacyPage() {
     },
     {
       question: "Can I do M.Pharm after B.Pharm?",
-      answer: "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology. Learn more about the M.Pharm programme at JKKN College of Pharmacy.",
+      answer: "Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. At JKKN, M.Pharm is offered in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs. Learn more about the M.Pharm programme at JKKN College of Pharmacy.",
       link: "/m-pharmacy"
     },
     {
@@ -753,7 +753,7 @@ export default function BPharmacyPage() {
                 <tr className="hover:bg-[#FBFBEE]">
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-[#0b6d41] font-bold">M.Pharm</td>
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">2 Years</td>
-                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharmaceutics, Pharmacology, Chemistry, QA, Pharmaceutical Analysis, Pharmaceutical Chemistry, Pharmacy Practice, Regulatory Affairs</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, Pharmaceutical Regulatory Affairs</td>
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹50,000-3 Lakhs</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
@@ -1450,7 +1450,7 @@ export default function BPharmacyPage() {
               </button>
                 <div hidden={expandedFAQ !== 8} className="voice-answer p-6 bg-green-50 border-t border-gray-200">
                   <p className="text-gray-700 leading-relaxed">
-                    Yes, B.Pharm graduates can pursue <Link href="/m-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">M.Pharm (Master of Pharmacy)</Link> through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology.{' '}
+                    Yes, B.Pharm graduates can pursue <Link href="/m-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">M.Pharm (Master of Pharmacy)</Link> through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. At JKKN, M.Pharm is offered in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs.{' '}
                     <Link href="/m-pharmacy" className="text-[#0b6d41] font-semibold hover:underline">
                       Learn more about the M.Pharm programme at JKKN College of Pharmacy
                     </Link>.

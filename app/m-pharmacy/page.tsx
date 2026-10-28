@@ -1248,7 +1248,7 @@ export default function MPharmacyPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for M.Pharm Admission 2026</span>
           </a>
-          <p className="mt-6 text-xs sm:text-sm">PCI Approved | GPAT/GATE Accepted | 5 Specialisations | Research Excellence</p>
+          <p className="mt-6 text-xs sm:text-sm">PCI Approved | GPAT/GATE Accepted | 6 Specialisations | Research Excellence</p>
         </div>
       </div>
     </div>

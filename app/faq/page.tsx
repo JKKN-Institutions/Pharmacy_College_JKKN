@@ -118,7 +118,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Can I do M.Pharm after B.Pharm?',
-        answer: 'Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. M.Pharm offers specialisations in Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Quality Assurance, Regulatory Affairs, and Pharmaceutical Biotechnology.',
+        answer: 'Yes, B.Pharm graduates can pursue M.Pharm (Master of Pharmacy) through entrance exams like GPAT (Graduate Pharmacy Aptitude Test), university-specific exams, or management quota. At JKKN, M.Pharm is offered in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs.',
       },
       {
         question: 'What is the scope of B.Pharm in government sector?',
