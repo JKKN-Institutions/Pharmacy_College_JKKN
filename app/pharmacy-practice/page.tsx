@@ -304,7 +304,7 @@ export default function PharmacyPracticePage() {
             <li className="flex items-start">
               <span className="text-[#0b6d41] mr-3 mt-1">•</span>
               <div>
-                <span className="font-bold text-[#0b6d41]">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)
+                <span className="font-bold text-[#0b6d41]">Minimum aggregate:</span> 55% marks in B.Pharm (50% for SC/ST candidates)
               </div>
             </li>
             <li className="flex items-start">
@@ -1370,7 +1370,7 @@ export default function PharmacyPracticePage() {
               <div className="bg-[#ffde59] text-[#032816] rounded-full w-12 h-12 flex items-center justify-center font-bold text-base xs:text-lg sm:text-xl flex-shrink-0">1</div>
               <div className="flex-1">
                 <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-2">Decide on Career Path & Check Eligibility (September-October 2025)</h3>
-                <p className="text-xs sm:text-sm text-gray-700">Confirm interest in patient-facing clinical pharmacy career. Verify B.Pharm eligibility (50% marks). Assess communication skills and patient care aptitude. Research colleges with good hospital tie-ups for clinical rotations.</p>
+                <p className="text-xs sm:text-sm text-gray-700">Confirm interest in patient-facing clinical pharmacy career. Verify B.Pharm eligibility (55% marks; 50% for SC/ST). Assess communication skills and patient care aptitude. Research colleges with good hospital tie-ups for clinical rotations.</p>
               </div>
             </div>
           </div>

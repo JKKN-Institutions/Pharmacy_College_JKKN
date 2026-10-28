@@ -267,7 +267,7 @@ export default function PharmaceuticalAnalysisPage() {
                 <span className="text-xs sm:text-sm text-gray-700">• B.Pharm degree from PCI-approved institution</span>
               </li>
               <li className="flex items-start">
-                <span className="text-xs sm:text-sm text-[#0b6d41] font-semibold">• Minimum aggregate: 50% marks in B.Pharm (45% for SC/ST candidates)</span>
+                <span className="text-xs sm:text-sm text-[#0b6d41] font-semibold">• Minimum aggregate: 55% marks in B.Pharm (50% for SC/ST candidates)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-xs sm:text-sm text-[#0b6d41] font-semibold">• Valid GPAT score: Mandatory for government colleges and GPAT scholarship eligibility</span>

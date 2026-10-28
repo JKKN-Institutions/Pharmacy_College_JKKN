@@ -57,7 +57,7 @@
 - Duration: 2 years (4 semesters)
 - Specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice and Pharmaceutical Regulatory Affairs
 - Intake: 15 seats per specialisation, 90 total
-- Eligibility: B.Pharm with 50% marks (45% SC/ST), GPAT preferred
+- Eligibility: B.Pharm with 55% marks (50% SC/ST; 50% with 5+ years professional experience), GPAT preferred
 
 ### Pharm.D (Doctor of Pharmacy)
 - Duration: 6 years (5 years academic + 1 year internship)

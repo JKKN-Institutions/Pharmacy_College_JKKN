@@ -292,7 +292,7 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate in B.Pharm (45% for SC/ST candidates)</span>
+                  <span>Minimum 55% aggregate in B.Pharm (50% for SC/ST candidates)</span>
                 </li>
               </ul>
             </div>

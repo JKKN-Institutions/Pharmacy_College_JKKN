@@ -57,7 +57,7 @@ export default function MPharmAdmissionPage() {
   const admissionSteps = [
     {
       name: 'Check Eligibility',
-      text: 'Confirm you hold a B.Pharm (4-year degree under 10+2+4 pattern) from a PCI-approved institution with minimum 50% aggregate (45% for SC/ST). Valid GPAT/university entrance exam score is preferred.',
+      text: 'Confirm you hold a B.Pharm (4-year degree under 10+2+4 pattern) from a PCI-approved institution with minimum 55% aggregate (50% for SC/ST). Valid GPAT/university entrance exam score is preferred.',
     },
     {
       name: 'Fill Application Form',
@@ -90,7 +90,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What is the eligibility for M.Pharm at JKKN?',
       answer:
-        'Candidates must hold a B.Pharm degree (4 years under 10+2+4 pattern) from a PCI-approved institution with a minimum of 50% aggregate (45% for SC/ST). Candidates must be registered with the State Pharmacy Council. A valid GPAT score is preferred for Government Quota; non-GPAT candidates can apply through Management Quota counselling.',
+        'Candidates must hold a B.Pharm degree (4 years under 10+2+4 pattern) from a PCI-approved institution with a minimum of 55% aggregate (50% for SC/ST). Candidates must be registered with the State Pharmacy Council. A valid GPAT score is preferred for Government Quota; non-GPAT candidates can apply through Management Quota counselling.',
     },
     {
       question: 'Is GPAT mandatory for M.Pharm admission?',
@@ -243,7 +243,7 @@ export default function MPharmAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate in B.Pharm (45% for SC/ST candidates).</span>
+                  <span>Minimum 55% aggregate in B.Pharm (50% for SC/ST candidates).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />

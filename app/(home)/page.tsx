@@ -50,7 +50,7 @@ export default function Home() {
     },
     {
       question: "What M.Pharm specialisations are available?",
-      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred)."
+      answer: "JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical Analysis, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 55% marks (50% SC/ST) and GPAT score (preferred)."
     },
     {
       question: "Is hostel accommodation available?",
@@ -125,7 +125,7 @@ export default function Home() {
         name="How to Apply to JKKN College of Pharmacy, Tamil Nadu"
         description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
         steps={[
-          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 50% marks (45% for SC/ST)." },
+          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks (50% for SC/ST)." },
           { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at jkkn.ai/apply/jkkn-admission-2026. Applications open May-June annually for the academic year starting in July." },
           { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
@@ -1031,7 +1031,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% aggregate marks</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 55% aggregate marks (50% for SC/ST)</span>
                 </li>
               </ul>
             </div>
@@ -1182,7 +1182,7 @@ export default function Home() {
                 {[
                   { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB or PCM (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
-                  { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (50%)', intake: '15 Seats per specialisation, 90 total', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (55%; 50% SC/ST)', intake: '15 Seats per specialisation, 90 total', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                 ].map((p, i) => (
                   <tr key={p.name} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>

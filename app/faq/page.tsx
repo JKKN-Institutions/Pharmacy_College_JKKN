@@ -132,7 +132,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What M.Pharm specialisations are available?',
-        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 50% marks (45% SC/ST) and GPAT score (preferred).',
+        answer: 'JKKN College of Pharmacy offers 2-year M.Pharm in six specialisations: Pharmaceutics, Pharmaceutical Analysis, Pharmacology, Pharmaceutical Chemistry, Pharmacy Practice, and Pharmaceutical Regulatory Affairs. Each has 15 seats, for a total intake of 90. Eligibility requires B.Pharm with 55% marks (50% SC/ST) and GPAT score (preferred).',
       },
       {
         question: 'What is Pharm.D course?',

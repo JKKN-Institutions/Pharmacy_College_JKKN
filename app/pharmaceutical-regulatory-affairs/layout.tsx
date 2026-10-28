@@ -38,7 +38,7 @@ const REGULATORY_AFFAIRS_FAQS = [
   {
     question: 'What is the eligibility for M.Pharm Pharmaceutical Regulatory Affairs at JKKN?',
     answer:
-      'Candidates must hold a B.Pharm degree from a Pharmacy Council of India approved institution with a minimum of 50 percent aggregate marks, relaxed to 45 percent for SC and ST candidates. A valid GPAT score is preferred. Admission is through merit and the applicable Tamil Nadu counselling process for management and government quota seats.',
+      'Candidates must hold a B.Pharm degree from a Pharmacy Council of India approved institution with a minimum of 55 percent aggregate marks, relaxed to 50 percent for SC and ST candidates, under the PCI M.Pharm Regulations 2014 as amended in 2020. A valid GPAT score is preferred. Admission is through merit and the applicable Tamil Nadu counselling process for management and government quota seats.',
   },
   {
     question: 'How many seats are available in M.Pharm Pharmaceutical Regulatory Affairs at JKKN?',

@@ -359,7 +359,7 @@ export default function PharmacologyPage() {
             </li>
             <li className="flex items-start">
               <span className="text-[#0b6d41] font-bold mr-2">•</span>
-              <span><span className="text-[#0b6d41] font-semibold">Minimum aggregate:</span> 50% marks in B.Pharm (45% for SC/ST candidates)</span>
+              <span><span className="text-[#0b6d41] font-semibold">Minimum aggregate:</span> 55% marks in B.Pharm (50% for SC/ST candidates)</span>
             </li>
             <li className="flex items-start">
               <span className="text-[#0b6d41] font-bold mr-2">•</span>

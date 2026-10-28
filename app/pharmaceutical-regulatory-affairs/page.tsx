@@ -19,7 +19,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
     },
     {
       question: "What is the eligibility for M.Pharm Pharmaceutical Regulatory Affairs at JKKN?",
-      answer: "Candidates must hold a B.Pharm degree from a Pharmacy Council of India approved institution with a minimum of 50 percent aggregate marks, relaxed to 45 percent for SC and ST candidates. A valid GPAT score is preferred. Admission is through merit and the applicable Tamil Nadu counselling process for management and government quota seats."
+      answer: "Candidates must hold a B.Pharm degree from a Pharmacy Council of India approved institution with a minimum of 55 percent aggregate marks, relaxed to 50 percent for SC and ST candidates, under the PCI M.Pharm Regulations 2014 as amended in 2020. A valid GPAT score is preferred. Admission is through merit and the applicable Tamil Nadu counselling process for management and government quota seats."
     },
     {
       question: "How many seats are available in M.Pharm Pharmaceutical Regulatory Affairs at JKKN?",
@@ -130,8 +130,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           </div>
           <div className="bg-white rounded-lg shadow-lg p-5 border-l-4 border-[#0b6d41]">
             <BookOpen className="w-7 h-7 text-[#0b6d41] mb-2" />
-            <p className="text-lg font-bold text-[#032816]">B.Pharm, 50%</p>
-            <p className="text-xs text-[#4a5a51]">45% for SC/ST, GPAT preferred</p>
+            <p className="text-lg font-bold text-[#032816]">B.Pharm, 55%</p>
+            <p className="text-xs text-[#4a5a51]">50% for SC/ST, GPAT preferred</p>
           </div>
         </div>
       </div>
@@ -292,7 +292,8 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
               <ul className="space-y-2">
                 {[
                   "B.Pharm degree from a PCI approved institution",
-                  "Minimum 50% aggregate marks; 45% for SC and ST candidates",
+                  "Minimum 55% aggregate marks in B.Pharm; 50% for SC and ST candidates (PCI M.Pharm Regulations 2014, amended 2020)",
+                  "50% for candidates with 5+ years professional experience after B.Pharm",
                   "Valid GPAT score preferred, not mandatory",
                   "Pharmacy Council registration, permanent or provisional",
                   "No upper age limit"
