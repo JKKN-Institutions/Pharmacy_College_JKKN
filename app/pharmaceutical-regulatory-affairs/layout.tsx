@@ -46,6 +46,11 @@ const REGULATORY_AFFAIRS_FAQS = [
       'JKKN College of Pharmacy offers 15 seats in M.Pharm Pharmaceutical Regulatory Affairs. It is one of six M.Pharm specialisations at the college, which together carry a total sanctioned intake of 90 seats.',
   },
   {
+    question: 'Which colleges in Tamil Nadu offer M.Pharm in Regulatory Affairs?',
+    answer:
+      'JKKN College of Pharmacy in Komarapalayam, Namakkal district, offers M.Pharm Pharmaceutical Regulatory Affairs from 2026-27 with 15 seats. The college is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and Regulatory Affairs is a speciality the Pharmacy Council of India lists for M.Pharm. Management quota tuition is Rs 75,000 a year.',
+  },
+  {
     question: 'What career options exist after M.Pharm Pharmaceutical Regulatory Affairs?',
     answer:
       'Graduates work as Regulatory Affairs Associates and Executives, dossier and CMC writers, drug regulatory submission specialists, labelling and artwork compliance officers, pharmacovigilance and drug safety associates, quality assurance and compliance officers, and clinical trial regulatory coordinators. Employers include Indian and multinational pharmaceutical manufacturers, contract research organisations, regulatory consultancies and medical device companies.',
@@ -91,7 +96,7 @@ export default function PharmaceuticalRegulatoryAffairsLayout({
         name="M.Pharm Pharmaceutical Regulatory Affairs — JKKN College of Pharmacy"
         description={COURSE_DESCRIPTION}
         url="https://pharmacy.jkkn.ac.in/pharmaceutical-regulatory-affairs/"
-        dateModified="2026-08-25"
+        dateModified="2026-10-28"
       />
       <FaqSchema faqs={REGULATORY_AFFAIRS_FAQS} />
       <BreadcrumbWrapper />

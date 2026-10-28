@@ -28,6 +28,11 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
       answer: "JKKN College of Pharmacy offers 15 seats in M.Pharm Pharmaceutical Regulatory Affairs. It is one of six M.Pharm specialisations at the college, which together carry a total sanctioned intake of 90 seats."
     },
     {
+      question: "Which colleges in Tamil Nadu offer M.Pharm in Regulatory Affairs?",
+      alsoAsked: "Tamil Nadu la M.Pharm Regulatory Affairs entha college la iruku?",
+      answer: "JKKN College of Pharmacy in Komarapalayam, Namakkal district, offers M.Pharm Pharmaceutical Regulatory Affairs from 2026-27 with 15 seats. The college is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, and Regulatory Affairs is a speciality the Pharmacy Council of India lists for M.Pharm. Management quota tuition is Rs 75,000 a year."
+    },
+    {
       question: "What career options exist after M.Pharm Pharmaceutical Regulatory Affairs?",
       answer: "Graduates work as Regulatory Affairs Associates and Executives, dossier and CMC writers, drug regulatory submission specialists, labelling and artwork compliance officers, pharmacovigilance and drug safety associates, quality assurance and compliance officers, and clinical trial regulatory coordinators. Employers include Indian and multinational pharmaceutical manufacturers, contract research organisations, regulatory consultancies and medical device companies."
     },
@@ -403,6 +408,9 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   <ChevronDown className={`w-5 h-5 text-[#0b6d41] flex-none transition-transform ${expandedFAQ === i ? 'rotate-180' : ''}`} />
                 </button>
                   <div hidden={expandedFAQ !== i} className="px-4 pb-4">
+                    {f.alsoAsked && (
+                      <p className="text-xs text-[#4a5a51] italic mb-2">Also asked: {f.alsoAsked}</p>
+                    )}
                     <p className="text-xs sm:text-sm text-[#032816] leading-relaxed">{f.answer}</p>
                   </div>
               </div>
