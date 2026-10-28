@@ -50,7 +50,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
     },
     {
       question: "Which regulatory agencies does the course cover?",
-      answer: "The course covers CDSCO and the Drugs Controller General of India as the primary Indian authorities, State Licensing Authorities for manufacturing and sale licences, and the international agencies most relevant to Indian exporters — the US FDA, the European Medicines Agency, the UK MHRA, Health Canada, the TGA in Australia and WHO prequalification. ICH guidelines and the Common Technical Document format that underpins all of them are taught as the common framework."
+      answer: "The course covers CDSCO and the Drugs Controller General of India as the primary Indian authorities, State Licensing Authorities for manufacturing and sale licences, and the international agencies most relevant to Indian exporters — the US FDA, the European Medicines Agency, the UK MHRA and WHO prequalification. ICH guidelines and the Common Technical Document format that underpins all of them are taught as the common framework."
     }
   ];
 
