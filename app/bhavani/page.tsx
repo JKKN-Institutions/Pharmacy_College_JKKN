@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Very frequent local and TNSTC buses connect Bhavani and Komarapalayam throughout the day',
   pageTitle: 'Pharmacy College near Bhavani',
   snippetAnswer:
-    'JKKN College of Pharmacy is about 8 km from Bhavani, in Komarapalayam, directly across the Kaveri river. The PCI-approved, NAAC-accredited (A) college offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is about 8 km from Bhavani, in Komarapalayam, directly across the Kaveri river. The PCI-approved, NAAC-accredited (A) college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
     'Bhavani and Komarapalayam are twin towns separated only by the Kaveri river, making JKKN effectively a home-town college for Bhavani learners. A professional PCI-approved pharmacy degree is available minutes from home, with zero relocation cost.',
   commuteText:
     'Just about 8 km from Bhavani — 10-15 minutes. Walkable-close by local standards; daily commute is the natural choice.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, about 8 km from Bhavani across the Kaveri river. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, about 8 km from Bhavani across the Kaveri river. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Bhavani', 'Komarapalayam', 'Erode', 'Anthiyur'],
   faqs: [
     {
       question: 'Which pharmacy college is near Bhavani?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 8 km from Bhavani, directly across the Kaveri river. It offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 8 km from Bhavani, directly across the Kaveri river. It offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Bhavani?',

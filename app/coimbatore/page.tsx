@@ -43,12 +43,12 @@ export default function CoimbatorePage() {
     {
       question: 'Is JKKN College of Pharmacy in Coimbatore?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 112 km from Coimbatore city centre on NH-544. Coimbatore has pharmacy colleges of its own; students who choose JKKN from Coimbatore usually stay in the on-campus hostel. It is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and a teaching hospital for clinical training.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 112 km from Coimbatore city centre on NH-544. Coimbatore has pharmacy colleges of its own; students who choose JKKN from Coimbatore usually stay in the on-campus hostel. It is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25) and Pharm.D hospital training through Government Headquarters Hospital, Erode.',
     },
     {
       question: 'Why do some Coimbatore students choose JKKN College of Pharmacy?',
       answer:
-        'JKKN College of Pharmacy holds PCI approval and NAAC accreditation with 78% placement rates (2024-25) and modern infrastructure. The college is located in Komarapalayam on NH-544, offering three pharmacy programmes with clinical training at an on-campus teaching hospital and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
+        'JKKN College of Pharmacy holds PCI approval and NAAC accreditation with 78% placement rates (2024-25) and modern infrastructure. The college is located in Komarapalayam on NH-544, offering three pharmacy programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode, and campus placement support - 78% of placement-seeking graduates were placed in 2024-25 (NIRF 2026 submission).',
     },
     {
       question: 'Which pharmacy course in Coimbatore has the best career scope?',
@@ -170,7 +170,7 @@ export default function CoimbatorePage() {
 
           {/* Description — Snippet Answer */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 112 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), a teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 112 km from Coimbatore on NH-544 (Salem–Coimbatore Highway). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), Pharm.D hospital training through Government Headquarters Hospital, Erode, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}

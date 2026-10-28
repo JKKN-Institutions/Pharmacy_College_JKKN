@@ -627,8 +627,7 @@ export default function BestPharmacyCollegesTamilNadu() {
           <p className="text-gray-700 leading-relaxed">
             JKKN College of Pharmacy is part of the larger JKKN Institutions
             campus on NH-544 (Salem-Coimbatore Highway) in Komarapalayam,
-            Namakkal. Learners benefit from clinical training at the on-campus
-            teaching hospital from Year 1. The pharmacy
+            Namakkal. Pharm.D learners train in hospital through the college's collaboration with Government Headquarters Hospital, Erode. The pharmacy
             college features dedicated pharmaceutical chemistry, pharmacology,
             pharmaceutics, and pharmaceutical analysis learning labs. The campus
             serves learners from Salem, Erode, Namakkal, Tiruchengode, Karur,

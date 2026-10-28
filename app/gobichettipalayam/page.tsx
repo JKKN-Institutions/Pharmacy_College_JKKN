@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Direct buses run on the Gobichettipalayam–Komarapalayam route, with frequent connections via Bhavani and Erode',
   pageTitle: 'Pharmacy College near Gobichettipalayam',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 37 km from Gobichettipalayam, located in Komarapalayam on the Bhavani route. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 37 km from Gobichettipalayam, located in Komarapalayam on the Bhavani route. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
     'Gobichettipalayam is one of the major towns of Erode district, and JKKN is only about 37 km away via Bhavani — under an hour by road. Learners from Gobi get a PCI-approved pharmacy degree with the freedom to commute daily or stay in the campus hostel.',
   commuteText:
     'About 37 km from Gobichettipalayam via Bhavani — 45-55 minutes. Daily commute is workable; hostel is a comfortable alternative.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 37 km from Gobichettipalayam in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 37 km from Gobichettipalayam in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Gobichettipalayam', 'Bhavani', 'Erode', 'Komarapalayam'],
   faqs: [
     {
       question: 'Which pharmacy college is near Gobichettipalayam?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 37 km from Gobichettipalayam via the Bhavani route — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 37 km from Gobichettipalayam via the Bhavani route — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Gobichettipalayam?',

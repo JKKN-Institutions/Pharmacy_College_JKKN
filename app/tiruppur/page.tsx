@@ -41,7 +41,7 @@ export default function TiruppurPage() {
     {
       question: 'Is JKKN College of Pharmacy in Tiruppur?',
       answer:
-        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 67 km from Tiruppur via NH-544 through Erode - Tiruppur has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited (A) pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), a teaching hospital, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
+        'No. JKKN College of Pharmacy is in Komarapalayam, Namakkal district, about 67 km from Tiruppur via NH-544 through Erode - Tiruppur has pharmacy colleges of its own. JKKN is a PCI-approved, NAAC-accredited (A) pharmacy college that offers B.Pharm, M.Pharm, and Pharm.D programmes with 78% placements (2024-25), Pharm.D hospital training through Government Headquarters Hospital, Erode, and affiliation to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.',
     },
     {
       question: 'What are the best colleges for pharmacy near Tiruppur district?',
@@ -163,7 +163,7 @@ export default function TiruppurPage() {
 
           {/* Description */}
           <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 67 km from Tiruppur via NH-544 through Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), a teaching hospital for clinical training, and 78% campus placements (2024-25).
+            JKKN College of Pharmacy is a PCI-approved pharmacy institution in Komarapalayam, Namakkal district, Tamil Nadu, located 67 km from Tiruppur via NH-544 through Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with NAAC accreditation (A), Pharm.D hospital training through Government Headquarters Hospital, Erode, and 78% campus placements (2024-25).
           </p>
 
           {/* Stats Grid */}

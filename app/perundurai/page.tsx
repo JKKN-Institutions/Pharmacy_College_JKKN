@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Direct buses operate on the Perundurai–Komarapalayam route, with frequent connections via Erode',
   pageTitle: 'Pharmacy College near Perundurai',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 29 km from Perundurai, located in Komarapalayam near Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 29 km from Perundurai, located in Komarapalayam near Erode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
     'Perundurai is a fast-growing education and industrial hub of Erode district, and JKKN is only about 29 km away — an easy commute. Learners from Perundurai get a PCI-approved pharmacy degree close to home, with both daily-commute and hostel options.',
   commuteText:
     'About 29 km from Perundurai — 35-45 minutes. Daily commute by bus is practical; hostel is also available.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 29 km from Perundurai in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 29 km from Perundurai in Erode district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Perundurai', 'Erode', 'Komarapalayam', 'Chithode'],
   faqs: [
     {
       question: 'Which pharmacy college is near Perundurai?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 29 km from Perundurai — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 29 km from Perundurai — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Perundurai?',

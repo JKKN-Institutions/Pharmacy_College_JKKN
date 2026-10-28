@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Buses connect Trichy and Komarapalayam via Namakkal; the route is well served through the day',
   pageTitle: 'Pharmacy College near Trichy',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) residential pharmacy college about 145 km from Trichy, located in Komarapalayam in the Kongu belt near Erode. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, a teaching hospital for clinical training, and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) residential pharmacy college about 145 km from Trichy, located in Komarapalayam in the Kongu belt near Erode. The campus offers B.Pharm, M.Pharm, and Pharm.D programmes with separate hostels, Pharm.D hospital training through Government Headquarters Hospital, Erode, and 78% campus placements (2024-25).',
   whyText:
-    'Learners from Trichy who want a focused, residential pharmacy campus in the Kongu belt choose JKKN for its PCI approval, on-campus teaching hospital, and placement record. At about 145 km via Namakkal, the campus hostel is the natural option, with regular buses for travel home.',
+    'Learners from Trichy who want a focused, residential pharmacy campus in the Kongu belt choose JKKN for its PCI approval, hospital training through Government Headquarters Hospital, Erode, and placement record. At about 145 km via Namakkal, the campus hostel is the natural option, with regular buses for travel home.',
   commuteText:
     'About 145 km from Trichy via Namakkal — around 2.5-3 hours. The campus hostel is the recommended option for Trichy learners.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 145 km from Trichy (Tiruchirappalli). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 145 km from Trichy (Tiruchirappalli). The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Tiruchirappalli', 'Namakkal', 'Karur', 'Komarapalayam'],
   faqs: [
     {
       question: 'Which is a good residential pharmacy college near Trichy?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam, about 145 km from Trichy via Namakkal, is a PCI-approved, NAAC-accredited (A) residential college offering B.Pharm, M.Pharm, and Pharm.D. It has a teaching hospital for clinical training, separate hostels, and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam, about 145 km from Trichy via Namakkal, is a PCI-approved, NAAC-accredited (A) residential college offering B.Pharm, M.Pharm, and Pharm.D. Pharm.D students train in hospital through Government Headquarters Hospital, Erode; the campus has separate hostels, and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Trichy?',
@@ -34,7 +34,7 @@ const config: CityLandingConfig = {
     {
       question: 'Does JKKN Pharmacy provide hostel for Trichy learners?',
       answer:
-        'Yes. Learners from Trichy stay in the separate boys and girls hostels on campus, which include mess facilities and WiFi. The residential campus keeps learners close to labs, the teaching hospital, and the library, and buses via Namakkal make trips home easy.',
+        'Yes. Learners from Trichy stay in the separate boys and girls hostels on campus, which include mess facilities and WiFi. The residential campus keeps learners close to labs and the library, and buses via Namakkal make trips home easy.',
     },
     {
       question: 'What pharmacy courses can I study after 12th near Trichy at JKKN?',

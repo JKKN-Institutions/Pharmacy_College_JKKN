@@ -12,19 +12,19 @@ const config: CityLandingConfig = {
   busText: 'Frequent TNSTC and private buses operate between Tiruchengode and Komarapalayam throughout the day',
   pageTitle: 'Pharmacy College near Tiruchengode',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 26 km from Tiruchengode, in Komarapalayam, in the same Namakkal district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 26 km from Tiruchengode, in Komarapalayam, in the same Namakkal district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
     'Tiruchengode is a major taluk town in Namakkal district, just 26 km from JKKN — close enough for a comfortable daily commute. Learners from Tiruchengode get a PCI-approved pharmacy education in their own district without relocating to a metro city.',
   commuteText:
     'Just 26 km from Tiruchengode — about 30 minutes. Daily commute by bus or college transport is easy; hostel is also available.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 26 km from Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with clinical training at a teaching hospital.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 26 km from Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Tiruchengode', 'Komarapalayam', 'Namakkal', 'Erode'],
   faqs: [
     {
       question: 'Which pharmacy college is near Tiruchengode?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 26 km from Tiruchengode, within the same Namakkal district. It is a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with a teaching hospital for clinical training and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 26 km from Tiruchengode, within the same Namakkal district. It is a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Tiruchengode?',
