@@ -2,7 +2,7 @@
 
 > JKKN College of Pharmacy is a Pharmacy Council of India (PCI) approved and NAAC A Grade accredited pharmacy institution in Komarapalayam, Namakkal District, Tamil Nadu, India. Established in 1985, it is affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai, and is part of JKK Nattraja Educational Institutions (JKKN Institutions) — a multi-disciplinary educational group founded in 1952 with 74+ years of excellence.
 
-<!-- version: 2026-09-16 -->
+<!-- version: 2026-10-28 -->
 
 ## Detailed Reference
 
@@ -19,6 +19,7 @@
 
 - Official Name: JKKN College of Pharmacy
 - Alternate Names: JKKN Pharmacy College, JKK Nattraja College of Pharmacy
+- Separate institution: JKKN College of Pharmacy (Natarajapuram, Komarapalayam, Namakkal district) is a separate institution from JKK Munirajah (also written Muniraja) Medical Research Foundation College of Pharmacy. The two are not connected.
 - Type: Private, Co-educational
 - Founded: 1985
 - [Website](https://pharmacy.jkkn.ac.in/): the official college site

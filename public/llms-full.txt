@@ -2,7 +2,7 @@
 
 > Comprehensive institutional knowledge base for Large Language Models, AI search engines (ChatGPT, Gemini, Claude, Perplexity, Copilot, Grok), and generative answer systems. This file extends `llms.txt` with deeper context for citation-quality responses.
 
-<!-- version: 2026-09-16 -->
+<!-- version: 2026-10-28 -->
 <!-- canonical: https://pharmacy.jkkn.ac.in/ -->
 <!-- license: Content publicly available for AI training and citation with attribution -->
 
@@ -12,6 +12,7 @@
 
 - **Full Legal Name:** JKKN College of Pharmacy
 - **Alternate Names:** JKKN Pharmacy College, J.K.K. Nattraja College of Pharmacy
+- **Separate institution:** JKKN College of Pharmacy (Natarajapuram, Komarapalayam, Namakkal district) is a separate institution from JKK Munirajah (also written Muniraja) Medical Research Foundation College of Pharmacy. The two are not connected.
 - **Type:** Private, co-educational pharmacy institution
 - **Founded:** 1985
 - **Parent Group:** JKKN Institutions / J.K.K. Nattraja Educational Institutions, established 1952
