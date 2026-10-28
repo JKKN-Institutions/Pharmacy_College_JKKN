@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
@@ -293,7 +294,7 @@ export default function MPharmAdmissionPage() {
                     'M.Pharm (Pharmaceutical Regulatory Affairs)',
                   ].map((spec, idx) => (
                     <tr key={idx} className="hover:bg-[#F5F1E8]">
-                      <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">{spec}</td>
+                      <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">{spec.includes('Regulatory Affairs') ? <Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">{spec}</Link> : spec}</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>

@@ -148,7 +148,7 @@ export default function PharmacyCouncilPage() {
                             <td className="border border-gray-300 px-4 py-3">Yes</td>
                           </tr>
                           <tr>
-                            <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - Pharmaceutical Regulatory Affairs</td>
+                            <td className="border border-gray-300 px-4 py-3">Master of Pharmacy (M. Pharm) - <Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">Pharmaceutical Regulatory Affairs</Link></td>
                             <td className="border border-gray-300 px-4 py-3">2 Years</td>
                             <td className="border border-gray-300 px-4 py-3">Yes - new for 2026-27</td>
                           </tr>

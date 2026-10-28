@@ -151,7 +151,7 @@ export default function UniversityAffiliationPage() {
                             <td className="border border-gray-300 px-4 py-3">Affiliated</td>
                           </tr>
                           <tr>
-                            <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmaceutical Regulatory Affairs)</td>
+                            <td className="border border-gray-300 px-4 py-3">M. Pharmacy (<Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">Pharmaceutical Regulatory Affairs</Link>)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
                             <td className="border border-gray-300 px-4 py-3">Affiliated</td>
                           </tr>

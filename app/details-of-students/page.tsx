@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 import Header from '@/components/Header'
 import { CheckCircle } from 'lucide-react'
@@ -57,7 +58,7 @@ export default function DetailsOfStudentsPage() {
               ].map((branch, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <CheckCircle className="w-4 h-4 text-[#0b6d41] mt-0.5 shrink-0" />
-                  <span className="text-sm sm:text-base text-gray-700">{branch}</span>
+                  <span className="text-sm sm:text-base text-gray-700">{branch.startsWith('Pharm. Regulatory Affairs') ? <Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">{branch}</Link> : branch}</span>
                 </li>
               ))}
             </ul>

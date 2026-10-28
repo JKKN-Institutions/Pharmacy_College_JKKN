@@ -312,8 +312,8 @@ export default function MPharmacyPage() {
                 <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">15 Seats</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> Regulatory Affairs Associate, Dossier Writer, Drug Safety Associate, Compliance Officer</p>
-              <Link href="/pharmaceutical-regulatory-affairs" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
-                Learn More →
+              <Link href="/pharmaceutical-regulatory-affairs/" className="mt-4 inline-block bg-[#ffde59] text-[#032816] font-semibold px-6 py-2 rounded-full hover:bg-[#e6c64d] transition-colors">
+                M.Pharm Regulatory Affairs details →
               </Link>
             </div>
           </div>

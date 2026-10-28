@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 
 import Header from '@/components/Header'
 
@@ -116,7 +117,7 @@ export default function FeeStructurePage() {
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
-                  <td className="px-4 py-3 border border-gray-200">Pharma. Regulatory Affairs</td>
+                  <td className="px-4 py-3 border border-gray-200"><Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">Pharma. Regulatory Affairs</Link></td>
                   <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200 text-sm">New for 2026-27</td>
