@@ -37,6 +37,7 @@ const pageNameMap: Record<string, string> = {
   'pharmaceutical-chemistry': 'Pharmaceutical Chemistry',
   'pharmacy-practice': 'Pharmacy Practice',
   'pharmaceutics': 'Pharmaceutics',
+  'pharmaceutical-regulatory-affairs': 'Pharmaceutical Regulatory Affairs',
   'pharmaceutical-education': 'Pharmaceutical Education',
 
   // Academic
@@ -165,6 +166,7 @@ const hierarchyMap: Record<string, string[]> = {
   'pharmaceutical-chemistry': ['programmes', 'm-pharmacy'],
   'pharmacy-practice': ['programmes', 'm-pharmacy'],
   'pharmaceutics': ['programmes', 'm-pharmacy'],
+  'pharmaceutical-regulatory-affairs': ['programmes', 'm-pharmacy'],
 
   // Academic pages
   'admissions': ['academic'],
