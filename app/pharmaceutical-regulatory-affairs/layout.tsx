@@ -6,9 +6,9 @@ const COURSE_DESCRIPTION =
   'Master of Pharmacy in Pharmaceutical Regulatory Affairs at JKKN College of Pharmacy, Komarapalayam — drug regulatory affairs specialisation covering CDSCO and DCGI submissions, dossier preparation, CTD/eCTD, pharmacovigilance reporting and global regulatory pathways. PCI approved, NAAC A Grade.'
 
 export const metadata: Metadata = {
-  title: 'M.Pharm Pharmaceutical Regulatory Affairs | JKKN',
+  title: 'M.Pharm Regulatory Affairs in Tamil Nadu: Fees, Seats | JKKN',
   description:
-    'M.Pharm in Pharmaceutical Regulatory Affairs at JKKN College of Pharmacy, Tamil Nadu. Drug regulatory affairs, CDSCO and DCGI submissions, CTD dossier preparation, 15 seats, admissions open 2026-27.',
+    'M.Pharm Pharmaceutical Regulatory Affairs at JKKN College of Pharmacy, Namakkal: 15 seats, Rs 75,000 a year (management quota), CTD and CDSCO dossier training.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/pharmaceutical-regulatory-affairs/',
   },
