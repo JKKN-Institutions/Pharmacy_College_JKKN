@@ -42,7 +42,8 @@ export default function NamakkalPage() {
   // by the user on 2026-09-22 (alternative route 61.7 km / 1 hr 28 min). Written as "65 km, about
   // 1 hr 20 min". Salem Junction 55 km and Coimbatore airport 101 km are the named-landmark routing
   // of 2026-09-12 already carried by llms.txt and the contact page.
-  const faqs = [
+  // voice = the spoken Tanglish form, printed under the answer as "Also asked"; it is not part of the JSON-LD.
+  const faqs: { question: string; answer: string; voice?: string }[] = [
     {
       question: 'Is JKKN College of Pharmacy in Namakkal?',
       answer:
@@ -68,7 +69,7 @@ export default function NamakkalPage() {
     {
       question: 'How do I choose a B.Pharm college in Namakkal district?',
       answer:
-        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited (A). 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is on NH-544 at Komarapalayam with hostels on campus.',
+        'Check five things. 1. PCI approval - JKKN College of Pharmacy is PCI approved. 2. University affiliation - JKKN is affiliated to The Tamil Nadu Dr. M.G.R. Medical University. 3. NAAC accreditation - JKKN is NAAC accredited (A), CGPA 3.09, first cycle. 4. Published placement data - 97 of 124 JKKN students were placed in 2024-25 (NIRF). 5. Travel and hostel - JKKN is on NH-544 at Komarapalayam with hostels on campus.',
     },
     {
       question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
@@ -124,6 +125,18 @@ export default function NamakkalPage() {
       question: 'Does JKKN College of Pharmacy provide hostel for students from Namakkal?',
       answer:
         'Yes. Separate hostels for male and female students are on campus with mess facility. Students from Namakkal town and the eastern side of the district usually stay in the hostel; students from Tiruchengode, Komarapalayam, Rasipuram and Sankagiri often commute daily by college transport.',
+    },
+    {
+      question: 'What NAAC grade does JKKN College of Pharmacy hold?',
+      answer:
+        "JKKN College of Pharmacy is accredited by NAAC with an 'A' grade, CGPA 3.09, in its first cycle, declared on 8 November 2024 in NAAC's list of accredited institutions. It is also approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.",
+      voice: 'JKKN Pharmacy NAAC grade enna?',
+    },
+    {
+      question: 'When was JKKN College of Pharmacy started?',
+      answer:
+        "JKKN College of Pharmacy was founded in 1985 at Komarapalayam, Namakkal district, under Shri J.K.K. Natarajah, founder of the J.K.K. Rangammal Charitable Trust. Today it offers B.Pharm, M.Pharm in six specialisations, Pharm.D and Ph.D, all approved by the Pharmacy Council of India.",
+      voice: 'JKKN Pharmacy eppo aarambichadhu?',
     },
     {
       question: 'How can a student from Namakkal apply to JKKN College of Pharmacy?',
@@ -214,8 +227,14 @@ export default function NamakkalPage() {
           </h1>
 
           {/* Snippet-optimized paragraph — AEO target */}
-          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
-            JKKN College of Pharmacy is a PCI-approved pharmacy college in Komarapalayam, on the western edge of Namakkal district, on NH-544 (Salem–Coimbatore Highway). Namakkal Bus Stand is 65 km away — about 1 hour 20 minutes by car — while Erode is 18 km and Tiruchengode 26 km. The college offers B.Pharm (100 seats), M.Pharm (six specialisations, 90 seats), Pharm.D and Ph.D, is NAAC accredited (A), trains students in the teaching hospital on the JKKN campus, and placed 97 of 124 final-year students in 2024-25 (78%, NIRF 2026 data).
+          <p className="snippet-answer text-xs sm:text-sm md:text-base text-gray-300 mb-3 sm:mb-4 max-w-xl mx-auto leading-relaxed">
+            JKKN College of Pharmacy, founded in 1985 at Komarapalayam on NH-544, is a PCI-approved, NAAC &apos;A&apos; grade (CGPA 3.09, first cycle) pharmacy college in Namakkal district. It offers B.Pharm (100 seats), M.Pharm (90 seats), Pharm.D (30 seats) and Ph.D, and placed 97 of 124 final-year students in 2024-25 (NIRF 2026 data).
+          </p>
+          {/* Hospital training: the college's NAAC self-study report (public/pdf/SSR-NAAC.pdf, pp. 3 and 82)
+              names the collaboration with Government Headquarters Hospital, Erode. No on-campus teaching
+              hospital is documented, so none is claimed (user's choice 2026-10-28). */}
+          <p className="text-xs sm:text-sm text-gray-300 mb-6 sm:mb-8 max-w-xl mx-auto leading-relaxed">
+            Pharm.D students train in hospital through the college&apos;s collaboration with Government Headquarters Hospital, Erode. Namakkal Bus Stand is 65 km away, about 1 hour 20 minutes by car.
           </p>
 
           {/* Stats Grid */}
@@ -465,7 +484,7 @@ export default function NamakkalPage() {
             {[
               { check: 'PCI approval', jkkn: 'JKKN College of Pharmacy is approved by the Pharmacy Council of India.' },
               { check: 'University affiliation', jkkn: 'Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.' },
-              { check: 'NAAC accreditation', jkkn: 'JKKN College of Pharmacy is NAAC accredited (A).' },
+              { check: 'NAAC accreditation', jkkn: "JKKN College of Pharmacy holds NAAC 'A' grade (CGPA 3.09, first cycle)." },
               { check: 'Published placement data', jkkn: '97 of 124 students placed in 2024-25; median B.Pharm salary Rs 4,40,000 (NIRF 2026).' },
               { check: 'Travel and hostel', jkkn: 'On NH-544 at Komarapalayam — 26 km from Tiruchengode, 65 km from Namakkal Bus Stand; separate hostels on campus.' },
             ].map((item, i) => (
@@ -844,6 +863,7 @@ export default function NamakkalPage() {
                     <p className="text-xs sm:text-sm text-gray-500 leading-relaxed">
                       {faq.answer}
                     </p>
+                    {faq.voice && <p className="mt-2 text-xs text-[#0b6d41]">Also asked: {faq.voice}</p>}
                   </div>
               </div>
             ))}
