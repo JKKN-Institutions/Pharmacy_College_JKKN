@@ -110,6 +110,10 @@ export default function UniversityAffiliationPage() {
 
                   <div>
                     <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Affiliated Programmes</h2>
+                    <p className="text-sm sm:text-base text-gray-700 mb-4">
+                      The university lists the college as J.K.K. Natarajah College of Pharmacy, institution code 32. Sanctioned intake on the university lists: B.Pharm 100 (2026-27), Pharm.D 30 and Pharm.D (Post Baccalaureate) 10 (2025-26). Year of PA issued: B.Pharm 1989-90, M.Pharm 2004-05, Pharm.D 2009-10, Pharm.D (Post Baccalaureate) 2019-20. Source: The Tamil Nadu Dr. M.G.R. Medical University{' '}
+                      <a href="https://www.tnmgrmu.ac.in/affiliation/affiliated-institutions/" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">affiliated institutions lists</a>.
+                    </p>
                     <div className="overflow-x-auto">
                       <table className="w-full border-collapse border border-gray-300">
                         <thead>
@@ -123,42 +127,47 @@ export default function UniversityAffiliationPage() {
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">B. Pharmacy</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2026-27)</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmaceutics)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmacology)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmaceutical Analysis)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmaceutical Chemistry)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (Pharmacy Practice)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                           <tr>
                             <td className="border border-gray-300 px-4 py-3">M. Pharmacy (<Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">Pharmaceutical Regulatory Affairs</Link>)</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">New for 2026-27 - listed in the Selection Committee&apos;s 2026-27 counselling; not on the university&apos;s 2025-26 list</td>
                           </tr>
                           <tr className="bg-gray-50">
                             <td className="border border-gray-300 px-4 py-3">Pharm. D</td>
                             <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
-                            <td className="border border-gray-300 px-4 py-3">Affiliated</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
+                          </tr>
+                          <tr>
+                            <td className="border border-gray-300 px-4 py-3">Pharm. D (Post Baccalaureate)</td>
+                            <td className="border border-gray-300 px-4 py-3">The Tamil Nadu Dr. M.G.R. Medical University</td>
+                            <td className="border border-gray-300 px-4 py-3">Affiliated - status CCPA 2024-25 (university list 2025-26)</td>
                           </tr>
                         </tbody>
                       </table>
