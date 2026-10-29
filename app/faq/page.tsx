@@ -44,7 +44,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
     faqs: [
       {
         question: 'What is the admission process for B.Pharm/Pharm.D?',
-        answer: 'B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually.',
+        answer: 'B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics - a pass is enough: the PCI regulations and the Tamil Nadu 2026-27 prospectus set no minimum percentage. Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually.',
       },
       {
         question: 'When do admissions open for JKKN Pharmacy College?',

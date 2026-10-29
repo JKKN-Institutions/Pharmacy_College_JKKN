@@ -101,7 +101,7 @@ export default function BPharmacyPage() {
             </div>
             <div className="bg-white p-3 xs:p-4 sm:p-5 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-xs mb-3 uppercase">Eligibility</h3>
-              <p className="text-gray-800 text-[10px] sm:text-xs font-semibold">+2 with PCM/B (50%)</p>
+              <p className="text-gray-800 text-[10px] sm:text-xs font-semibold">+2 pass with PCM/B</p>
             </div>
             <div className="bg-white p-3 xs:p-4 sm:p-5 rounded-lg shadow-sm border border-gray-200">
               <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-xs mb-3 uppercase">Governing Body</h3>
@@ -133,7 +133,7 @@ export default function BPharmacyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-gray-700 text-xs sm:text-sm">
-                  • <span className="text-[#0b6d41] font-bold">Minimum aggregate:</span> 50% marks (45% for SC/ST/OBC candidates)
+                  • <span className="text-[#0b6d41] font-bold">Minimum aggregate:</span> no minimum percentage - a pass (PCI B.Pharm Regulations, 2014; Tamil Nadu prospectus 2026-27)
                 </span>
               </li>
             </ul>

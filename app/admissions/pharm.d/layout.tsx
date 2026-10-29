@@ -3,7 +3,7 @@ import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/
 
 export const metadata: Metadata = {
   title: 'Pharm.D Admission 2026 | JKKN College of Pharmacy',
-  description: 'Apply for Pharm.D (6 years) and Pharm.D Post Baccalaureate (3 years) at JKKN 2026. PCI approved, NAAC A grade. Eligibility 10+2 with Physics, Chemistry and Biology or Mathematics (50%), or B.Pharm.',
+  description: 'Apply for Pharm.D (6 years) and Pharm.D Post Baccalaureate (3 years) at JKKN 2026. PCI approved, NAAC A grade. Eligibility: pass in 10+2 with Physics, Chemistry and Biology or Mathematics, or B.Pharm.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admissions/pharm.d/',
   },
@@ -49,7 +49,7 @@ export default function PharmDAdmissionLayout({ children }: { children: React.Re
         name="How to Apply for Pharm.D Admission at JKKN 2026-27"
         description="Step-by-step admission process for Pharm.D and Pharm.D Post Baccalaureate at JKKN College of Pharmacy, Komarapalayam."
         steps={[
-          { name: 'Check Eligibility', text: 'Pharm.D: 10+2 with Physics, Chemistry & Biology (50%). Pharm.D PB: B.Pharm degree from a PCI-approved institution.' },
+          { name: 'Check Eligibility', text: 'Pharm.D: pass in 10+2 with Physics, Chemistry & Biology or Mathematics. Pharm.D PB: B.Pharm degree from a PCI-approved institution.' },
           { name: 'Submit Application', text: 'Fill the online application at jkkn.ai/apply/jkkn-admission-2026. Application fee ₹1,000. Forms open May-June 2026.' },
           { name: 'Upload Documents', text: '+2 / B.Pharm mark sheet, transfer certificate, community certificate, Aadhaar card, passport-size photographs.' },
           { name: 'Attend Counselling', text: 'Selection based on merit (+2 PCB marks for Pharm.D; B.Pharm aggregate for Pharm.D PB).' },

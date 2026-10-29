@@ -31,7 +31,7 @@ export default function BPharmAdmissionPage() {
   const admissionSteps = [
     {
       name: 'Check Eligibility',
-      text: 'Confirm you have passed 10+2 with Physics, Chemistry and Mathematics/Biology with a minimum aggregate of 50% (45% for SC/ST/OBC). Lateral Entry candidates must hold a D.Pharm from a PCI-approved institution.',
+      text: 'Confirm you have passed 10+2 with Physics, Chemistry and Mathematics/Biology - a pass is enough; no minimum percentage is set by the PCI or the Tamil Nadu 2026-27 prospectus. Lateral Entry candidates must hold a D.Pharm from a PCI-approved institution.',
     },
     {
       name: 'Fill Application Form',
@@ -59,7 +59,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'What is the eligibility for B.Pharm admission at JKKN?',
       answer:
-        'Candidates must have passed 10+2 with Physics, Chemistry and Mathematics/Biology with a minimum aggregate of 50% in PCM/B subjects. SC/ST/OBC candidates get a 5% relaxation (45% aggregate). Admission is granted through TN Selection Committee counselling for Government Quota seats and college counselling for Management Quota seats.',
+        'Candidates must have passed 10+2 with Physics, Chemistry and Mathematics/Biology with English as a subject. The PCI B.Pharm Regulations, 2014 and the Tamil Nadu Selection Committee 2026-27 prospectus set no minimum percentage - a pass is enough. Candidates must be 17 by 31 December of the admission year. Admission is granted through TN Selection Committee counselling for Government Quota seats and college counselling for Management Quota seats.',
     },
     {
       question: 'Is NEET required for B.Pharm admission in Tamil Nadu?',
@@ -190,7 +190,7 @@ export default function BPharmAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate marks in PCM/B subjects (45% for SC/ST/OBC candidates).</span>
+                  <span>No minimum percentage - a pass in these subjects (PCI B.Pharm Regulations, 2014; Tamil Nadu prospectus 2026-27).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />

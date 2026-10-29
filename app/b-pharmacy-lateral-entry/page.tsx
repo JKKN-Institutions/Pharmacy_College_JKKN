@@ -271,7 +271,7 @@ export default function BPharmLateralEntryPage() {
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
-                        <span>10+2 with PCB/PCM minimum 50% (45% SC/ST)</span>
+                        <span>10+2 pass with PCB/PCM - no minimum percentage</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -488,12 +488,12 @@ export default function BPharmLateralEntryPage() {
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                   <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
-                  <td className="py-4 px-6 text-gray-700">State CET/NEET (varies by state)</td>
+                  <td className="py-4 px-6 text-gray-700">Tamil Nadu: none - merit on +2 marks (Selection Committee)</td>
                   <td className="py-4 px-6 text-gray-700">State Lateral Entry CET or merit-based</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                   <td className="py-4 px-6 font-semibold text-[#0b6d41]">Eligibility Marks</td>
-                  <td className="py-4 px-6 text-gray-700">10+2: 50% in PCB/PCM (45% reserved)</td>
+                  <td className="py-4 px-6 text-gray-700">10+2: a pass in PCB/PCM - no minimum percentage</td>
                   <td className="py-4 px-6 text-gray-700">D.Pharm: 50% aggregate (45% reserved)</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
@@ -574,11 +574,11 @@ export default function BPharmLateralEntryPage() {
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Minimum Marks</td>
-                    <td className="py-4 px-6 text-gray-700">50% aggregate in PCB/PCM (45% for SC/ST candidates)</td>
+                    <td className="py-4 px-6 text-gray-700">A pass in PCB/PCM - no minimum percentage (PCI B.Pharm Regulations, 2014; Tamil Nadu prospectus 2026-27)</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
-                    <td className="py-4 px-6 text-gray-700">State-level CET / NEET (varies by state)</td>
+                    <td className="py-4 px-6 text-gray-700">Tamil Nadu: none - merit on +2 marks (Selection Committee)</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
@@ -1611,7 +1611,7 @@ export default function BPharmLateralEntryPage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
-                  <span>Eligibility: B.Pharm with 50%</span>
+                  <span>Eligibility: B.Pharm pass</span>
                 </li>
               </ul>
             </div>

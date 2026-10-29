@@ -34,7 +34,7 @@ export default function Home() {
     },
     {
       question: "What is the admission process for B.Pharm/Pharm.D?",
-      answer: "B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually."
+      answer: "B.Pharm and Pharm.D admission at JKKN College of Pharmacy requires +2 with Physics, Chemistry, and Biology or Mathematics - a pass is enough: the PCI regulations and the Tamil Nadu 2026-27 prospectus set no minimum percentage. Admission is through TN Selection Committee counselling or management quota. Applications open May-June annually."
     },
     {
       question: "What is the placement record at JKKN Pharmacy College?",
@@ -125,7 +125,7 @@ export default function Home() {
         name="How to Apply to JKKN College of Pharmacy, Tamil Nadu"
         description="Step-by-step admission process for B.Pharm, Pharm.D, M.Pharm, and Ph.D programmes at JKKN College of Pharmacy, Komarapalayam, Namakkal District, Tamil Nadu."
         steps={[
-          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% marks (45% for reserved categories). M.Pharm requires B.Pharm with 55% marks (50% for SC/ST)." },
+          { name: "Check Eligibility", text: "Verify academic requirements for your chosen programme. B.Pharm and Pharm.D require 10+2 with Physics, Chemistry, and Biology or Mathematics (a pass; no minimum percentage under the PCI regulations). M.Pharm requires B.Pharm with 55% marks (50% for SC/ST)." },
           { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at jkkn.ai/apply/jkkn-admission-2026. Applications open May-June annually for the academic year starting in July." },
           { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
@@ -997,7 +997,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% marks (45% for reserved)</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">A pass - no minimum percentage (PCI)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
@@ -1046,7 +1046,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% marks (45% for reserved)</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">A pass - no minimum percentage (PCI)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
@@ -1065,7 +1065,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 50% aggregate marks</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">A pass in B.Pharm - no minimum percentage (PCI)</span>
                 </li>
               </ul>
             </div>
@@ -1180,8 +1180,8 @@ export default function Home() {
               </thead>
               <tbody>
                 {[
-                  { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 with PCB/PCM (50%)', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
-                  { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 with PCB or PCM (50%)', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'B.Pharm', fullName: 'Bachelor of Pharmacy', duration: '4 Years', eligibility: '10+2 pass with PCB/PCM', intake: '100 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
+                  { name: 'Pharm.D', fullName: 'Doctor of Pharmacy', duration: '6 Years (5+1 Internship)', eligibility: '10+2 pass with PCB or PCM', intake: '30 Seats', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'M.Pharm', fullName: 'Master of Pharmacy', duration: '2 Years', eligibility: 'B.Pharm (55%; 50% SC/ST)', intake: '15 Seats per specialisation, 90 total', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                   { name: 'Ph.D', fullName: 'Doctor of Philosophy (Pharmaceutical Sciences)', duration: '3–5 Years', eligibility: 'M.Pharm', intake: 'Limited', university: 'Tamil Nadu Dr. M.G.R. Medical University' },
                 ].map((p, i) => (

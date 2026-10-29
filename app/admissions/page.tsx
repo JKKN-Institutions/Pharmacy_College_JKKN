@@ -16,7 +16,7 @@ export default function AdmissionProcessPage() {
   const admissionSteps = [
     {
       name: "Check Eligibility",
-      text: "Verify you meet the eligibility criteria for your chosen programme - B.Pharm requires +2 with PCM/B (50%), M.Pharm requires B.Pharm degree, Pharm.D requires +2 with Physics, Chemistry and Biology or Mathematics (50%)."
+      text: "Verify you meet the eligibility criteria for your chosen programme - B.Pharm requires a pass in +2 with PCM/B, M.Pharm requires B.Pharm degree, Pharm.D requires a pass in +2 with Physics, Chemistry and Biology or Mathematics."
     },
     {
       name: "Fill Application Form",
@@ -247,7 +247,7 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum aggregate of 50% marks in PCM/B subjects (45% for SC/ST/OBC candidates)</span>
+                  <span>A pass in these subjects - the PCI regulations and the Tamil Nadu 2026-27 prospectus set no minimum percentage</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
@@ -308,7 +308,7 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% marks in Physics, Chemistry and Biology or Mathematics (45% for SC/ST candidates)</span>
+                  <span>A pass in Physics, Chemistry and Biology or Mathematics - no minimum percentage (PCI, Tamil Nadu 2026-27)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />

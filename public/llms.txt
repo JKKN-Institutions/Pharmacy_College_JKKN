@@ -45,7 +45,7 @@
 ### B.Pharm (Bachelor of Pharmacy)
 - Duration: 4 years (8 semesters)
 - Intake: 100 seats
-- Eligibility: 10+2 with Physics, Chemistry, and Mathematics/Biology (50% minimum)
+- Eligibility: a pass in 10+2 with English, Physics, Chemistry and Mathematics/Biology; no minimum percentage (PCI B.Pharm Regulations 2014; Tamil Nadu Selection Committee prospectus 2026-27); minimum age 17 by 31 December
 - Affiliation: The Tamil Nadu Dr. M.G.R. Medical University
 
 ### B.Pharm (Lateral Entry)
@@ -63,13 +63,13 @@
 ### Pharm.D (Doctor of Pharmacy)
 - Duration: 6 years (5 years academic + 1 year internship)
 - Intake: 30 seats
-- Eligibility: 10+2 with PCM/PCB (50% minimum)
+- Eligibility: a pass in 10+2 with Physics and Chemistry plus Mathematics or Biology, or a PCI-approved D.Pharm; no minimum percentage (PCI Pharm.D Regulations 2008). Tamil Nadu government-quota seats are allotted on +2 marks, not NEET
 - Focus: Clinical pharmacy, patient care, pharmaceutical care services
 
 ### Pharm.D (Post Baccalaureate)
 - Duration: 3 years (2 years academic + 1 year clinical clerkship)
 - Intake: 10 seats
-- Eligibility: B.Pharm from a recognised university
+- Eligibility: a pass in B.Pharm from a PCI-approved institution; no minimum percentage (PCI Pharm.D Regulations 2008)
 
 ### Ph.D (Doctor of Philosophy in Pharmaceutical Sciences)
 - Research programme in pharmaceutical sciences
@@ -144,7 +144,7 @@ Named and allowed there: GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-
 ## Key Links
 
 - [Homepage](https://pharmacy.jkkn.ac.in/): overview of the college
-- [B.Pharm](https://pharmacy.jkkn.ac.in/b-pharmacy/): 4 years, 100 seats, PCM or PCB with 50%
+- [B.Pharm](https://pharmacy.jkkn.ac.in/b-pharmacy/): 4 years, 100 seats, a pass in PCM or PCB
 - [M.Pharm](https://pharmacy.jkkn.ac.in/m-pharmacy/): 2 years, six specialisations, 15 seats each, 90 total
 - [Pharm.D](https://pharmacy.jkkn.ac.in/pharm-d/): 6 years, 30 seats, 5 academic plus 1 clerkship
 - [Admissions](https://pharmacy.jkkn.ac.in/admissions/): the intake and fee table, and the authority where sources disagree

@@ -3,7 +3,7 @@ import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/
 
 export const metadata: Metadata = {
   title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
-  description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility 10+2 PCM/B (50%), fee ₹1,40,000 MQ. TN Selection Committee & Management Quota.',
+  description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility: pass in 10+2 PCM/B, fee ₹1,40,000 MQ. TN Selection Committee & Management Quota.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/',
   },
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/',
     title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
-    description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility 10+2 PCM/B (50%), fee ₹1,40,000 MQ.',
+    description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility: pass in 10+2 PCM/B, fee ₹1,40,000 MQ.',
     images: [
       {
         url: '/images/Pharmacy-Homepage-Hero-Banner-Image.webp',
@@ -49,7 +49,7 @@ export default function BPharmAdmissionLayout({ children }: { children: React.Re
         name="How to Apply for B.Pharm Admission at JKKN College of Pharmacy 2026-27"
         description="Step-by-step admission process for the 4-year Bachelor of Pharmacy programme at JKKN College of Pharmacy, Komarapalayam, Tamil Nadu."
         steps={[
-          { name: 'Check Eligibility', text: '10+2 with Physics, Chemistry, and Mathematics/Biology with minimum 50% marks (45% for reserved categories).' },
+          { name: 'Check Eligibility', text: '10+2 pass with Physics, Chemistry, and Mathematics/Biology - no minimum percentage.' },
           { name: 'Submit Application', text: 'Fill the online application at jkkn.ai/apply/jkkn-admission-2026 or visit campus. Application fee ₹1,000. Forms open May-June 2026.' },
           { name: 'Upload Documents', text: '10th and 12th marksheets, transfer certificate, community certificate, Aadhaar card, and 6 passport-size photos.' },
           { name: 'Attend Counselling', text: 'TN Selection Committee counselling for Government Quota; college counselling for Management Quota — based on +2 PCM/B merit.' },

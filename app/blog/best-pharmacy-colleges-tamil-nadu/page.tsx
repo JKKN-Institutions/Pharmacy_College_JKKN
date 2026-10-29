@@ -46,7 +46,7 @@ const faqs = [
     question:
       'What is the eligibility for pharmacy college admission in Tamil Nadu?',
     answer:
-      'B.Pharm eligibility requires 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% aggregate (45% for reserved categories). NEET is not required for B.Pharm in Tamil Nadu. Pharm.D requires the same 10+2 qualification. M.Pharm requires a B.Pharm degree with minimum 55% and GPAT score is preferred. D.Pharm (Diploma) requires 10+2 pass in science stream. All programs must be from PCI-approved institutions.',
+      'B.Pharm eligibility requires 10+2 with Physics, Chemistry, and Biology or Mathematics - a pass; the PCI regulations and the Selection Committee prospectus set no minimum percentage. NEET is not required for B.Pharm in Tamil Nadu. Pharm.D requires the same 10+2 qualification. M.Pharm requires a B.Pharm degree with minimum 55% and GPAT score is preferred. D.Pharm (Diploma) requires 10+2 pass in science stream. All programs must be from PCI-approved institutions.',
   },
   {
     question:
@@ -74,7 +74,7 @@ const faqs = [
     question:
       'What is the cutoff for pharmacy colleges in Tamil Nadu?',
     answer:
-      'B.Pharm admission in Tamil Nadu requires 10+2 with required subjects and minimum 50% aggregate. NEET is not required. Government-quota seats are allotted by the TN Selection Committee on +2 marks in Physics, Chemistry and Mathematics or Biology, so B.Pharm has no separate entrance-exam cutoff — the merit list is built from your +2 marks and category rank. Management quota seats have separate cutoff criteria. In 2025 the Selection Committee took applications from 17 June to 7 July and began online counselling on 30 July.',
+      'B.Pharm admission in Tamil Nadu requires a pass in 10+2 with the required subjects; the PCI regulations and the Selection Committee prospectus set no minimum percentage. NEET is not required. Government-quota seats are allotted by the TN Selection Committee on +2 marks in Physics, Chemistry and Mathematics or Biology, so B.Pharm has no separate entrance-exam cutoff — the merit list is built from your +2 marks and category rank. Management quota seats have separate cutoff criteria. In 2025 the Selection Committee took applications from 17 June to 7 July and began online counselling on 30 July.',
   },
   {
     question: 'How many B.Pharm colleges are there in Tamil Nadu (tamilnadu)?',
@@ -648,7 +648,7 @@ export default function BestPharmacyCollegesTamilNadu() {
               {
                 step: '1',
                 title: 'Academic Qualification',
-                text: 'Complete 10+2 with Physics, Chemistry, and Biology or Mathematics with minimum 50% aggregate marks.',
+                text: 'Complete 10+2 with Physics, Chemistry, and Biology or Mathematics (a pass; no minimum percentage).',
               },
               {
                 step: '2',

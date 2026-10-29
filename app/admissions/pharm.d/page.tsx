@@ -31,7 +31,7 @@ export default function PharmDAdmissionPage() {
   const admissionSteps = [
     {
       name: 'Check Eligibility',
-      text: 'For Pharm.D: 10+2 with Physics, Chemistry and Biology or Mathematics with a minimum of 50% aggregate. For Pharm.D (Post Baccalaureate): B.Pharm degree from a PCI-approved institution with minimum 50% aggregate.',
+      text: 'For Pharm.D: a pass in 10+2 with Physics, Chemistry and Biology or Mathematics. For Pharm.D (Post Baccalaureate): a pass in B.Pharm from a PCI-approved institution. No minimum percentage is set by the PCI or the Tamil Nadu 2026-27 prospectus.',
     },
     {
       name: 'Fill Application Form',
@@ -64,7 +64,7 @@ export default function PharmDAdmissionPage() {
     {
       question: 'What is the eligibility for Pharm.D at JKKN?',
       answer:
-        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics and Chemistry plus either Biology or Mathematics, with a minimum 50% aggregate (45% for SC/ST). For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution with a minimum of 50% aggregate.',
+        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics and Chemistry plus either Biology or Mathematics, or a D.Pharm from a PCI-approved institution. For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution. The PCI Pharm.D Regulations, 2008 and the Tamil Nadu 2026-27 prospectus set no minimum percentage.',
     },
     {
       question: 'Is NEET required for Pharm.D admission in Tamil Nadu?',
@@ -190,7 +190,7 @@ export default function PharmDAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate marks in those subjects (45% for SC/ST candidates).</span>
+                  <span>No minimum percentage - a pass is enough (PCI Pharm.D Regulations, 2008; Tamil Nadu prospectus 2026-27).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
@@ -212,7 +212,7 @@ export default function PharmDAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 50% aggregate in B.Pharm (45% for SC/ST candidates).</span>
+                  <span>No minimum percentage - a pass in B.Pharm is enough (PCI Pharm.D Regulations, 2008).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
