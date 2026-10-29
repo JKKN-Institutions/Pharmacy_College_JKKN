@@ -65,7 +65,7 @@ The college is in Namakkal DISTRICT but Namakkal town itself is 65 km away (Nama
 |---|---|
 | Pharmacy Council of India (PCI) | Approved |
 | The Tamil Nadu Dr. M.G.R. Medical University, Chennai | Affiliated |
-| National Assessment and Accreditation Council (NAAC) | A Grade, Cycle 1 |
+| National Assessment and Accreditation Council (NAAC) | A Grade, CGPA 3.09, Cycle 1, declared 8 November 2024 (NAAC list of institutions with valid accreditation as on 14-08-2025) |
 | National Institutional Ranking Framework (NIRF) | Pharmacy category, participating institution; 2024, 2025 and 2026 submissions filed. NIRF publishes Pharmacy ranks 1-100 plus a 101-125 band and JKKN is in neither, so no rank or band is claimed. |
 
 - Recognition and approvals: https://pharmacy.jkkn.ac.in/recognition-approval-and-accreditation/
@@ -281,7 +281,7 @@ The college publishes admission guidance pages for students travelling from each
 A: Yes. It is approved by the Pharmacy Council of India and affiliated to The Tamil Nadu Dr. M.G.R. Medical University, Chennai.
 
 **Q: What is the NAAC grade of JKKN College of Pharmacy?**
-A: NAAC A Grade.
+A: NAAC A Grade, CGPA 3.09, first cycle, declared on 8 November 2024.
 
 **Q: Which programmes does JKKN College of Pharmacy offer?**
 A: Six — B.Pharm, B.Pharm Lateral Entry, M.Pharm across six specialisations, Pharm.D, Pharm.D Post Baccalaureate, and Ph.D in Pharmaceutical Sciences.
