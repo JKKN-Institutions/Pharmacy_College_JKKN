@@ -332,6 +332,10 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                     <td className="py-2 font-semibold text-[#032816]">Tuition, government quota</td>
                     <td className="py-2 text-right">&#8377;75,000 / year (TN 2026-27)</td>
                   </tr>
+                  <tr className="border-b border-gray-200">
+                    <td className="py-2 font-semibold text-[#032816]">Government-quota seats, 2026-27</td>
+                    <td className="py-2 text-right">8 (tentative, 7 Sep 2026)</td>
+                  </tr>
                   <tr>
                     <td className="py-2 font-semibold text-[#032816]">Duration</td>
                     <td className="py-2 text-right">2 years, 4 semesters</td>
@@ -343,6 +347,10 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                 on{' '}
                 <Link href="/fee-structure/" className="underline text-[#0b6d41]">the fee structure page</Link>{' '}
                 or on +91 93458 55001.
+              </p>
+              <p className="text-xs text-[#4a5a51] mt-2">
+                The Tamil Nadu Selection Committee&apos;s 2026-27 M.Pharm counselling list includes JKKN College of Pharmacy under Pharmaceutical Regulatory Affairs, with 8 government-quota seats (
+                <a href="https://tnmedicalselection.net/news/07092026055727.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">tentative list, 7 September 2026</a>).
               </p>
             </div>
           </div>

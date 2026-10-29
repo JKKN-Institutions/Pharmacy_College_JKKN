@@ -1994,7 +1994,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">4</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Counselling Registration</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Online single-window counselling by the Selection Committee allots government-quota seats in government and self-financing colleges, following the Tamil Nadu rule of reservation. Management-quota seats are applied for directly at the college.</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Online single-window counselling by the Selection Committee allots government-quota seats in government and self-financing colleges, following the Tamil Nadu rule of reservation. Management-quota seats are applied for directly at the college. In 2026-27 JKKN College of Pharmacy offered 15 government-quota Pharm.D seats and 5 Pharm.D (PB) seats (Selection Committee tentative vacancy list, 7 September 2026).</p>
               </div>
             </div>
 

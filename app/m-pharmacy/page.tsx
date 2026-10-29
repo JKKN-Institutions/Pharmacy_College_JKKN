@@ -182,7 +182,7 @@ export default function MPharmacyPage() {
           </table>
         </div>
         <p className="text-xs sm:text-sm text-gray-700 leading-relaxed mb-6">
-          <strong>JKKN College of Pharmacy, Komarapalayam:</strong> 90 M.Pharm seats across six specialisations, 15 each, from 2026-27. The university&apos;s 2025-26 list shows 60 seats across five branches because Pharmaceutical Regulatory Affairs is new for 2026-27. Government-quota eligibility (2026-27 prospectus): 55% in B.Pharm for OC, BC, BCM, MBC and DNC candidates, 50% for SC, SCA and ST candidates. The full NIRF 2025 table for Tamil Nadu is in our{' '}
+          <strong>JKKN College of Pharmacy, Komarapalayam:</strong> 90 M.Pharm seats across six specialisations, 15 each, from 2026-27. The university&apos;s 2025-26 list shows 60 seats across five branches because Pharmaceutical Regulatory Affairs is new for 2026-27. Government-quota eligibility (2026-27 prospectus): 55% in B.Pharm for OC, BC, BCM, MBC and DNC candidates, 50% for SC, SCA and ST candidates. In the 2026-27 counselling the Selection Committee listed 8 government-quota seats in each of JKKN&apos;s six specialisations, including Pharmaceutical Regulatory Affairs (tentative list, 7 September 2026). The full NIRF 2025 table for Tamil Nadu is in our{' '}
           <Link href="/blog/best-pharmacy-colleges-tamil-nadu/" className="text-[#0b6d41] font-semibold underline">Tamil Nadu pharmacy colleges guide</Link>; admission steps are on the{' '}
           <Link href="/admissions/m.pharm" className="text-[#0b6d41] font-semibold underline">M.Pharm admission 2026-27</Link> page.
         </p>
