@@ -26,7 +26,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'Where is JKKN College of Pharmacy located?',
-        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 20 km from Tiruchengode, 57 km from Salem bus stand and 65 km from Namakkal town.',
+        answer: 'JKKN College of Pharmacy is located at Natarajapuram, NH-544 (Salem-Coimbatore National Highway), Komarapalayam, Namakkal District, Tamil Nadu 638183. The campus is on NH-544 about 18 km from Erode Bus Stand, 26 km from Tiruchengode, 57 km from Salem bus stand and 65 km from Namakkal town.',
       },
       {
         question: 'Is JKKN among the best pharmacy colleges in Tamil Nadu?',
