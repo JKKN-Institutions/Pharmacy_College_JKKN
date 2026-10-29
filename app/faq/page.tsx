@@ -76,7 +76,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'How are seats allocated for different categories?',
-        answer: 'Seat allocation at JKKN Pharmacy College follows Tamil Nadu Government reservation policy: 18% for SC, 1% for ST, 30% for MBC, 20% for BC, 7.5% for BCM (Muslim), and 3.5% for SCA (Arunthathiyar). Additionally, 3% horizontal reservation for differently-abled candidates. Selection is based on merit within each category using the roster method. TN Selection Committee counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications.',
+        answer: 'Seat allocation at JKKN Pharmacy College follows the Tamil Nadu reservation in the Selection Committee prospectus: Open Competition 31%, Backward Class 30% (of which 3.5% for BC Muslims), Most Backward Class and Denotified Communities 20%, Scheduled Caste 18% (16% of these seats for Arunthathiyars) and Scheduled Tribe 1%. Seats for special categories, including persons with benchmark disability, are allotted as horizontal reservation. Selection is based on merit within each category using the roster method. TN Selection Committee counselling determines seat allocation based on +2 marks and category rank. Separate registers maintain reserved category applications.',
       },
       {
         question: 'What is the fee structure for B.Pharm at JKKN Pharmacy College?',
