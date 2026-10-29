@@ -739,7 +739,7 @@ export default function TiruppurPage() {
       {/* ── Speakable WebPage Schema (AEO/GEO) ── */}
       <SpeakableWebPageSchema
         name="Pharmacy College near Tiruppur — JKKN College of Pharmacy, Komarapalayam"
-        description="JKKN College of Pharmacy near Tiruppur — PCI approved, NAAC accredited (A). B.Pharm, M.Pharm, Pharm.D. 65 km via NH-544, 78% placements (2024-25). Apply 2026-27."
+        description="Pharmacy college near Tiruppur: JKKN College of Pharmacy, 65 km from Tiruppur. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D."
         url="https://pharmacy.jkkn.ac.in/tiruppur/"
         dateModified="2026-03-27"
       />

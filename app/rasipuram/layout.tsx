@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy College near Rasipuram 2026 — Admission Open | JKKN',
-  description: 'PCI-approved, NAAC-accredited (A) pharmacy college in Namakkal district, 60 km from Rasipuram via Tiruchengode. B.Pharm, M.Pharm & Pharm.D, hostel available. Admissions open 2026-27 — call +91-9345855001.',
+  description: 'Pharmacy college near Rasipuram: JKKN College of Pharmacy, 59 km from Rasipuram. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
   keywords: [
     'pharmacy college near rasipuram',
     'pharmacy college in rasipuram',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College near Rasipuram 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) pharmacy college in Namakkal district, 60 km from Rasipuram. B.Pharm, M.Pharm & Pharm.D, hostel available. Admissions open 2026-27.',
+    description: 'Pharmacy college near Rasipuram: JKKN College of Pharmacy, 59 km from Rasipuram. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     url: 'https://pharmacy.jkkn.ac.in/rasipuram/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College near Rasipuram 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) pharmacy college in Namakkal district, 60 km from Rasipuram. B.Pharm, M.Pharm & Pharm.D, hostel available.',
+    description: 'Pharmacy college near Rasipuram: JKKN College of Pharmacy, 59 km from Rasipuram. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

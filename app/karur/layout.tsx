@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy College near Karur 2026 — Admission Open | JKKN',
-  description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 80 km from Karur in Komarapalayam near Erode. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25). Admissions open 2026-27 — call +91-9345855001.',
+  description: 'Pharmacy college near Karur: JKKN College of Pharmacy, 84 km from Karur. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D. Apply 2026-27.',
   keywords: [
     'pharmacy college near karur',
     'pharmacy college in karur',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College near Karur 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 80 km from Karur. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25). Admissions open 2026-27.',
+    description: 'Pharmacy college near Karur: JKKN College of Pharmacy, 84 km from Karur. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D. Apply 2026-27.',
     url: 'https://pharmacy.jkkn.ac.in/karur/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College near Karur 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 80 km from Karur. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25).',
+    description: 'Pharmacy college near Karur: JKKN College of Pharmacy, 84 km from Karur. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D. Apply 2026-27.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

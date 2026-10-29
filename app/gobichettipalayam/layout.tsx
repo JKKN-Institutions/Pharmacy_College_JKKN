@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy College near Gobichettipalayam 2026 — Admission | JKKN',
-  description: 'PCI-approved, NAAC-accredited (A) pharmacy college 33 km from Gobichettipalayam via Bhavani. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27 — call +91-9345855001.',
+  description: 'Pharmacy college near Gobichettipalayam: JKKN College of Pharmacy, 37 km from Gobi. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
   keywords: [
     'pharmacy college near gobichettipalayam',
     'pharmacy college in gobichettipalayam',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College near Gobichettipalayam 2026 — Admission | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) pharmacy college 33 km from Gobichettipalayam via Bhavani. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25). Admissions open 2026-27.',
+    description: 'Pharmacy college near Gobichettipalayam: JKKN College of Pharmacy, 37 km from Gobi. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     url: 'https://pharmacy.jkkn.ac.in/gobichettipalayam/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College near Gobichettipalayam 2026 — Admission | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) pharmacy college 33 km from Gobichettipalayam via Bhavani. B.Pharm, M.Pharm & Pharm.D with 78% placements (2024-25).',
+    description: 'Pharmacy college near Gobichettipalayam: JKKN College of Pharmacy, 37 km from Gobi. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

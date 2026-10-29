@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: "Pharmacy College Near Coimbatore — B.Pharm, Pharm.D | JKKN",
-  description: "JKKN College of Pharmacy is 105 km from Coimbatore on NH-544. PCI approved, NAAC A Grade. B.Pharm, M.Pharm and Pharm.D. Apply for 2026-27.",
+  description: 'Pharmacy college near Coimbatore: JKKN College of Pharmacy, 112 km from Coimbatore. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
   keywords: [
     'best pharmacy colleges in coimbatore',
     'coimbatore pharmacy colleges',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College near Coimbatore | JKKN College of Pharmacy, Komarapalayam',
-    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited. B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 78% placements (2024-25). Apply 2026-27.',
+    description: 'Pharmacy college near Coimbatore: JKKN College of Pharmacy, 112 km from Coimbatore. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     url: 'https://pharmacy.jkkn.ac.in/coimbatore/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College near Coimbatore | JKKN College of Pharmacy, Komarapalayam',
-    description: 'JKKN College of Pharmacy near Coimbatore — PCI approved, NAAC accredited (A). B.Pharm, M.Pharm, Pharm.D. 105 km via NH-544, 78% placements (2024-25).',
+    description: 'Pharmacy college near Coimbatore: JKKN College of Pharmacy, 112 km from Coimbatore. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }

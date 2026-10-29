@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Pharmacy College near Dharmapuri 2026 — Admission Open | JKKN',
-  description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 100 km from Dharmapuri via Salem. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25). Admissions open 2026-27 — call +91-9345855001.',
+  description: 'Pharmacy college near Dharmapuri: JKKN College of Pharmacy, 110 km from Dharmapuri. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
   keywords: [
     'pharmacy college near dharmapuri',
     'pharmacy college in dharmapuri',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Pharmacy College near Dharmapuri 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 100 km from Dharmapuri via Salem. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25). Admissions open 2026-27.',
+    description: 'Pharmacy college near Dharmapuri: JKKN College of Pharmacy, 110 km from Dharmapuri. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     url: 'https://pharmacy.jkkn.ac.in/dharmapuri/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Pharmacy College near Dharmapuri 2026 — Admission Open | JKKN',
-    description: 'PCI-approved, NAAC-accredited (A) residential pharmacy college 100 km from Dharmapuri via Salem. B.Pharm, M.Pharm & Pharm.D with hostel and 78% placements (2024-25).',
+    description: 'Pharmacy college near Dharmapuri: JKKN College of Pharmacy, 110 km from Dharmapuri. PCI approved, NAAC A, 78% placed (2024-25). B.Pharm, M.Pharm, Pharm.D.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
