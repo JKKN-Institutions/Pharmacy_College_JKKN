@@ -758,7 +758,7 @@ export default function SalemPage() {
                   { t: 'Sankari town', d: 'about 33 km', m: 'about 25 min', w: 'day-scholar range' },
                   { t: 'Omalur', d: '57 km', m: 'about 50 min', w: 'hostel; commute possible' },
                   { t: 'Salem city (bus stand)', d: '57 km', m: 'about 1 hour (Google Maps)', w: 'hostel; commute possible' },
-                  { t: 'Mettur', d: '58 km', m: 'about 45 min', w: 'hostel; commute possible' },
+                  { t: 'Mettur', d: '46 km', m: 'about 35 min', w: 'hostel; commute possible' },
                   { t: 'Attur', d: '108 km', m: 'about 1 hr 20 min', w: 'hostel' },
                 ].map((r) => (
                   <tr key={r.t}>
@@ -837,7 +837,7 @@ export default function SalemPage() {
             {[
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Erode', distance: '18 km', href: '/erode/' },
-              { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Tiruppur', distance: '65 km', href: '/tiruppur/' },
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Coimbatore', distance: '112 km', href: '/coimbatore/' },
             ].map((item) => (
               <a

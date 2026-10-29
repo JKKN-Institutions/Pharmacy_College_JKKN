@@ -233,7 +233,7 @@ export default function CoimbatorePage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col md:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">105</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">112</span>
               <span className="text-lg sm:text-xl font-bold text-[#0b6d41]">km</span>
             </div>
             <div className="flex-1 text-center md:text-left">
@@ -627,7 +627,7 @@ export default function CoimbatorePage() {
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Namakkal', distance: '65 km', href: '/namakkal/' },
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Salem', distance: '57 km', href: '/salem/' },
               { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Erode', distance: '18 km', href: '/erode/' },
-              { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
+              { emoji: <MapPin className="w-5 h-5 text-[#0b6d41]" />, city: 'Tiruppur', distance: '65 km', href: '/tiruppur/' },
             ].map((item) => (
               <a
                 key={item.city}

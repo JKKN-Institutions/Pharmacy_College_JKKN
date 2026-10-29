@@ -6,35 +6,35 @@ const config: CityLandingConfig = {
   city: 'Rasipuram',
   slug: 'rasipuram',
   district: 'Namakkal',
-  distance: '60 km',
+  distance: '59 km',
   travelTime: '~1 hour 15 minutes',
   routeText: 'Rasipuram–Tiruchengode–Komarapalayam road, within Namakkal district',
   busText: 'Buses connect Rasipuram and Komarapalayam via Tiruchengode through the day',
   pageTitle: 'Pharmacy College near Rasipuram',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college in Komarapalayam — in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college in Komarapalayam — in the same Namakkal district as Rasipuram, about 59 km away via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
-    'Rasipuram learners can study pharmacy within their own Namakkal district at JKKN, about 60 km away via Tiruchengode. With separate boys and girls hostels on campus, learners stay close to home while getting a PCI-approved professional degree.',
+    'Rasipuram learners can study pharmacy within their own Namakkal district at JKKN, about 59 km away via Tiruchengode. With separate boys and girls hostels on campus, learners stay close to home while getting a PCI-approved professional degree.',
   commuteText:
-    'About 60 km from Rasipuram via Tiruchengode — around 1 hour 15 minutes. Most learners prefer the campus hostel; weekend travel home is easy.',
+    'About 59 km from Rasipuram via Tiruchengode — around 1 hour 15 minutes. Most learners prefer the campus hostel; weekend travel home is easy.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 60 km from Rasipuram via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 59 km from Rasipuram via Tiruchengode. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Rasipuram', 'Namakkal', 'Tiruchengode', 'Komarapalayam'],
   faqs: [
     {
       question: 'Which pharmacy college is near Rasipuram?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is in the same Namakkal district as Rasipuram, about 60 km away via Tiruchengode. It is a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is in the same Namakkal district as Rasipuram, about 59 km away via Tiruchengode. It is a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Rasipuram?',
       answer:
-        'JKKN College of Pharmacy is approximately 60 km from Rasipuram, around 1 hour 15 minutes by road on the Rasipuram–Tiruchengode–Komarapalayam route. Buses connect the towns via Tiruchengode through the day.',
+        'JKKN College of Pharmacy is approximately 59 km from Rasipuram, around 1 hour 15 minutes by road on the Rasipuram–Tiruchengode–Komarapalayam route. Buses connect the towns via Tiruchengode through the day.',
     },
     {
       question: 'Should learners from Rasipuram stay in hostel at JKKN Pharmacy?',
       answer:
-        'Most learners from Rasipuram prefer the campus hostel, since the 60 km journey takes over an hour each way. JKKN provides separate hostels for boys and girls with mess facilities and WiFi, and going home on weekends is easy via Tiruchengode.',
+        'Most learners from Rasipuram prefer the campus hostel, since the 59 km journey takes over an hour each way. JKKN provides separate hostels for boys and girls with mess facilities and WiFi, and going home on weekends is easy via Tiruchengode.',
     },
     {
       question: 'What pharmacy courses can I study after 12th near Rasipuram?',

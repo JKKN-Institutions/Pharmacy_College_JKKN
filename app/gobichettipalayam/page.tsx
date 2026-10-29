@@ -56,7 +56,7 @@ const config: CityLandingConfig = {
     { city: 'Bhavani', distance: '8 km', href: '/bhavani/' },
     { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Perundurai', distance: '29 km', href: '/perundurai/' },
-    { city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
+    { city: 'Tiruppur', distance: '65 km', href: '/tiruppur/' },
   ],
   dateModified: '2026-07-09',
 };

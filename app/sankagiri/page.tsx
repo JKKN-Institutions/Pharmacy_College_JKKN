@@ -56,7 +56,7 @@ const config: CityLandingConfig = {
     { city: 'Salem', distance: '57 km', href: '/salem/' },
     { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Tiruchengode', distance: '26 km', href: '/tiruchengode/' },
-    { city: 'Mettur', distance: '45 km', href: '/mettur/' },
+    { city: 'Mettur', distance: '46 km', href: '/mettur/' },
   ],
   dateModified: '2026-07-09',
 };

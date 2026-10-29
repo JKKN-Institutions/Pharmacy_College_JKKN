@@ -54,9 +54,9 @@ const config: CityLandingConfig = {
   ],
   exploreCities: [
     { city: 'Salem', distance: '57 km', href: '/salem/' },
-    { city: 'Mettur', distance: '45 km', href: '/mettur/' },
+    { city: 'Mettur', distance: '46 km', href: '/mettur/' },
     { city: 'Attur', distance: '108 km', href: '/attur/' },
-    { city: 'Rasipuram', distance: '60 km', href: '/rasipuram/' },
+    { city: 'Rasipuram', distance: '59 km', href: '/rasipuram/' },
   ],
   dateModified: '2026-07-09',
 };

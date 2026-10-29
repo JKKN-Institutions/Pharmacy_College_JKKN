@@ -55,7 +55,7 @@ const config: CityLandingConfig = {
   exploreCities: [
     { city: 'Erode', distance: '18 km', href: '/erode/' },
     { city: 'Gobichettipalayam', distance: '37 km', href: '/gobichettipalayam/' },
-    { city: 'Tiruppur', distance: '67 km', href: '/tiruppur/' },
+    { city: 'Tiruppur', distance: '65 km', href: '/tiruppur/' },
     { city: 'Coimbatore', distance: '112 km', href: '/coimbatore/' },
   ],
   dateModified: '2026-07-09',

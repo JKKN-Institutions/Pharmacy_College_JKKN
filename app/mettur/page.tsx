@@ -6,35 +6,35 @@ const config: CityLandingConfig = {
   city: 'Mettur',
   slug: 'mettur',
   district: 'Salem',
-  distance: '45 km',
+  distance: '46 km',
   travelTime: '~1 hour',
   routeText: 'Mettur–Bhavani–Komarapalayam road along the Kaveri belt',
   busText: 'Buses connect Mettur and Komarapalayam via the Bhavani route through the day',
   pageTitle: 'Pharmacy College near Mettur',
   snippetAnswer:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 45 km from Mettur, located in Komarapalayam on the Kaveri belt via Bhavani. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy college about 46 km from Mettur, located in Komarapalayam on the Kaveri belt via Bhavani. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% campus placements (2024-25).',
   whyText:
-    'Mettur, the dam town of Salem district, is about 45 km from JKKN — roughly an hour along the Kaveri belt via Bhavani. Learners from Mettur can commute or use the campus hostel, getting a PCI-approved pharmacy education without moving to a metro city.',
+    'Mettur, the dam town of Salem district, is about 46 km from JKKN — roughly an hour along the Kaveri belt via Bhavani. Learners from Mettur can commute or use the campus hostel, getting a PCI-approved pharmacy education without moving to a metro city.',
   commuteText:
-    'About 45 km from Mettur via Bhavani — around 1 hour. Daily commute is possible; many learners prefer the campus hostel.',
+    'About 46 km from Mettur via Bhavani — around 1 hour. Daily commute is possible; many learners prefer the campus hostel.',
   schemaDescription:
-    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 45 km from Mettur in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
+    'JKKN College of Pharmacy is a PCI-approved, NAAC-accredited (A) pharmacy institution in Komarapalayam, Namakkal district, about 46 km from Mettur in Salem district. The college offers B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode.',
   areaServed: ['Mettur', 'Bhavani', 'Salem', 'Komarapalayam'],
   faqs: [
     {
       question: 'Which pharmacy college is near Mettur?',
       answer:
-        'JKKN College of Pharmacy in Komarapalayam is about 45 km from Mettur via the Bhavani route — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
+        'JKKN College of Pharmacy in Komarapalayam is about 46 km from Mettur via the Bhavani route — a PCI-approved, NAAC-accredited (A) college offering B.Pharm, M.Pharm, and Pharm.D programmes with Pharm.D hospital training through Government Headquarters Hospital, Erode and 78% placements (2024-25).',
     },
     {
       question: 'How far is JKKN Pharmacy from Mettur?',
       answer:
-        'JKKN College of Pharmacy is approximately 45 km from Mettur, around one hour by road along the Mettur–Bhavani–Komarapalayam corridor. Buses connect the two towns via Bhavani through the day.',
+        'JKKN College of Pharmacy is approximately 46 km from Mettur, around one hour by road along the Mettur–Bhavani–Komarapalayam corridor. Buses connect the two towns via Bhavani through the day.',
     },
     {
       question: 'Should learners from Mettur commute daily or stay in hostel?',
       answer:
-        'Both options work. The 45 km journey takes about an hour each way, so some learners commute daily while many prefer the separate boys and girls hostels on campus with mess facilities and WiFi, saving two hours of daily travel.',
+        'Both options work. The 46 km journey takes about an hour each way, so some learners commute daily while many prefer the separate boys and girls hostels on campus with mess facilities and WiFi, saving two hours of daily travel.',
     },
     {
       question: 'What pharmacy courses can I study after 12th near Mettur?',

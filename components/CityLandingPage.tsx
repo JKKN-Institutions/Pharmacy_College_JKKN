@@ -455,7 +455,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
                 {
                   emoji: <Plane className="w-5 h-5 text-gray-600" />,
                   label: 'NEAREST AIRPORT',
-                  text: 'Salem Airport (limited flights) / Coimbatore International Airport (~110 km)',
+                  text: 'Coimbatore International Airport (CJB) — 101 km by road; Salem Airport (limited flights) — 63 km',
                 },
                 {
                   emoji: <Building2 className="w-5 h-5 text-gray-600" />,
