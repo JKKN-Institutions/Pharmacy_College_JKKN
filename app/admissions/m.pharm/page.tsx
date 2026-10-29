@@ -101,7 +101,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What is the M.Pharm fee structure at JKKN for 2026?',
       answer:
-        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all six specialisations. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
+        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all six specialisations. Government Quota tuition in self-financing colleges is ₹75,000 per year under the Tamil Nadu Selection Committee 2026-27 prospectus. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
     },
     {
       question: 'How many M.Pharm seats are available at JKKN?',
