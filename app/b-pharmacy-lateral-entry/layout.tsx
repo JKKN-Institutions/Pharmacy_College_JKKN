@@ -57,7 +57,7 @@ const faqs = [
   {
     question: 'What is the eligibility for B.Pharm Lateral Entry at JKKN?',
     answer:
-      'Candidates must hold a D.Pharm qualification with a minimum of 50% marks from a Pharmacy Council of India approved institution to be eligible for lateral entry admission.',
+      'Candidates must hold a D.Pharm from a Pharmacy Council of India approved institution. For Tamil Nadu government-quota seats the 2026-27 prospectus asks for 40% aggregate in the D.Pharm examinations (35% for SC, SCA and ST).',
   },
   {
     question: 'What are the career benefits of B.Pharm Lateral Entry?',

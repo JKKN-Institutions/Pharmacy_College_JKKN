@@ -353,7 +353,7 @@ export default function BPharmLateralEntryPage() {
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
-                        <span>Minimum 50% aggregate (45% SC/ST/OBC)</span>
+                        <span>40% aggregate in D.Pharm (35% for SC/SCA/ST) for Tamil Nadu government-quota seats</span>
                       </li>
                       <li className="flex items-start">
                         <span className="mr-2">•</span>
@@ -489,12 +489,12 @@ export default function BPharmLateralEntryPage() {
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                   <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
                   <td className="py-4 px-6 text-gray-700">Tamil Nadu: none - merit on +2 marks (Selection Committee)</td>
-                  <td className="py-4 px-6 text-gray-700">State Lateral Entry CET or merit-based</td>
+                  <td className="py-4 px-6 text-gray-700">Tamil Nadu: none - merit on D.Pharm marks (Selection Committee)</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                   <td className="py-4 px-6 font-semibold text-[#0b6d41]">Eligibility Marks</td>
                   <td className="py-4 px-6 text-gray-700">10+2: a pass in PCB/PCM - no minimum percentage</td>
-                  <td className="py-4 px-6 text-gray-700">D.Pharm: 50% aggregate (45% reserved)</td>
+                  <td className="py-4 px-6 text-gray-700">D.Pharm pass; 40% aggregate (35% SC/SCA/ST) for Tamil Nadu government quota</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                   <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
@@ -614,11 +614,11 @@ export default function BPharmLateralEntryPage() {
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Minimum Marks</td>
-                    <td className="py-4 px-6 text-gray-700">50% aggregate in D.Pharm (45% for SC/ST/OBC candidates)</td>
+                    <td className="py-4 px-6 text-gray-700">40% aggregate in the D.Pharm 1st and 2nd year examinations (35% for SC/SCA/ST) - Tamil Nadu prospectus 2026-27</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Entrance Exam</td>
-                    <td className="py-4 px-6 text-gray-700">State Lateral Entry CET / Merit-based / Direct admission</td>
+                    <td className="py-4 px-6 text-gray-700">Tamil Nadu: none - merit on D.Pharm marks out of 100 (Selection Committee)</td>
                   </tr>
                   <tr className="border-b border-gray-200 hover:bg-[#FBFBEE] bg-[#FBFBEE] focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                     <td className="py-4 px-6 font-semibold text-[#0b6d41]">Age Limit</td>
@@ -1740,7 +1740,7 @@ export default function BPharmLateralEntryPage() {
                       Step 1: D.Pharm Completion
                     </h4>
                     <p className="text-xs sm:text-sm text-gray-700">
-                      Ensure D.Pharm from PCI-approved institution with minimum 50% aggregate.
+                      Ensure D.Pharm from a PCI-approved institution, with 40% aggregate (35% for SC/SCA/ST) for Tamil Nadu government-quota seats.
                     </p>
                   </div>
                 </div>
