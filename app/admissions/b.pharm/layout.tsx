@@ -3,7 +3,7 @@ import { HowToSchema, SpeakableWebPageSchema, CourseSchema } from '@/components/
 
 export const metadata: Metadata = {
   title: 'B.Pharm Admission 2026-27 - Fees, Eligibility, Seats',
-  description: 'Apply for B.Pharm admission at JKKN 2026. 4-year degree, PCI approved, NAAC A grade. Eligibility: pass in 10+2 PCM/B, fee ₹1,40,000 MQ. TN Selection Committee & Management Quota.',
+  description: 'Apply for B.Pharm 2026-27 at JKKN: 4-year PCI-approved degree, NAAC A. Eligibility: pass in 10+2 PCM/B. MQ fee ₹1,40,000; GQ via TN Selection Committee.',
   alternates: {
     canonical: 'https://pharmacy.jkkn.ac.in/admissions/b.pharm/',
   },
