@@ -25,7 +25,7 @@ export default function PharmDPage() {
     },
     {
       question: "What is the difference between Pharm.D and Pharm.D (PB)?",
-      answer: "Pharm.D is 6 years after 12th (5 years academic + 1 year clerkship), requiring NEET. Pharm.D (PB) is 3 years after B.Pharm (2 years academic + 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities, salary ranges, and eligibility for residency programmes. Choose Pharm.D for a clinical career from 12th; choose Pharm.D (PB) if you already hold B.Pharm."
+      answer: "Pharm.D is 6 years after 12th (5 years academic + 1 year clerkship); in Tamil Nadu, government-quota seats are allotted on +2 marks, not NEET. Pharm.D (PB) is 3 years after B.Pharm (2 years academic + 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities, salary ranges, and eligibility for residency programmes. Choose Pharm.D for a clinical career from 12th; choose Pharm.D (PB) if you already hold B.Pharm."
     },
     {
       question: "Is Pharm.D better than B.Pharm or M.Pharm?",
@@ -127,15 +127,15 @@ export default function PharmDPage() {
                 <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>10+2 with PCB/PCM minimum 50% (45% SC/ST)</span>
+                    <span>Pass in 10+2 with Physics and Chemistry plus Biology or Mathematics - no minimum percentage</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>NEET qualification mandatory</span>
+                    <span>No NEET for Tamil Nadu government-quota seats - merit on +2 marks</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Age limit: 17-25 years typically</span>
+                    <span>Minimum age 17 years on or before 31 December of the year of admission</span>
                   </li>
                 </ul>
               </div>
@@ -171,7 +171,7 @@ export default function PharmDPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Those who completed 12th with NEET</span>
+                    <span>Those who have just completed 12th with science</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
@@ -199,11 +199,11 @@ export default function PharmDPage() {
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>Minimum 50% aggregate (45% SC/ST)</span>
+                    <span>No minimum percentage - a pass in B.Pharm</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
-                    <span>GPAT preferred but not mandatory</span>
+                    <span>No GPAT for Tamil Nadu government-quota seats - merit on B.Pharm marks</span>
                   </li>
                   <li className="flex items-start">
                     <span className="mr-2">•</span>
@@ -299,7 +299,7 @@ export default function PharmDPage() {
 
           <div className="mt-6 bg-[#FBFBEE] rounded-lg p-3 border-l-4 border-[#0f8f56]">
             <p className="text-xs sm:text-sm text-[#032816] font-semibold">
-              <span className="text-[#0b6d41]">Decision Factor:</span> Choose based on where you are in education journey. Just finished 12th with NEET? → Pharm.D. Already have B.Pharm? → Pharm.D (PB). Final outcome identical.
+              <span className="text-[#0b6d41]">Decision Factor:</span> Choose based on where you are in education journey. Just finished 12th? → Pharm.D. Already have B.Pharm? → Pharm.D (PB). Final outcome identical.
             </p>
           </div>
         </div>
@@ -334,13 +334,13 @@ export default function PharmDPage() {
               </tr>
               <tr className="border-b border-[#0f8f56]/20">
                 <td className="px-3 py-3 font-semibold text-[#0b6d41]">Entrance Exam</td>
-                <td className="px-3 py-3">NEET mandatory</td>
-                <td className="px-3 py-3">GPAT preferred, not mandatory. Some colleges conduct own entrance.</td>
+                <td className="px-3 py-3">None for Tamil Nadu government quota - merit on +2 science marks out of 200</td>
+                <td className="px-3 py-3">None for Tamil Nadu government quota - merit on B.Pharm marks out of 100</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
                 <td className="px-3 py-3 font-semibold text-[#0b6d41]">Eligibility Marks</td>
-                <td className="px-3 py-3">10+2: 50% in PCB/PCM (45% SC/ST)</td>
-                <td className="px-3 py-3">B.Pharm: 50% aggregate (45% SC/ST)</td>
+                <td className="px-3 py-3">10+2 pass with Physics, Chemistry and Biology or Mathematics - no minimum percentage</td>
+                <td className="px-3 py-3">B.Pharm pass from a PCI-approved institution - no minimum percentage</td>
               </tr>
               <tr className="border-b border-[#0f8f56]/20">
                 <td className="px-3 py-3 font-semibold text-[#0b6d41]">Age Limit</td>
@@ -1600,7 +1600,7 @@ export default function PharmDPage() {
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816] ml-4">
                 <li className="flex items-start">
                   <span className="mr-2">✓</span>
-                  <span>Just completed 12th with NEET qualification</span>
+                  <span>Just completed 12th with Physics, Chemistry and Biology or Mathematics</span>
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2">✓</span>
@@ -1970,23 +1970,23 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">1</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Eligibility Check</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Passed 10+2 (Physics, Chemistry, Biology/Mathematics) with minimum 50% marks (45% for SC/ST candidates). Completed from recognised board (CBSE, State Boards, etc.).</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Passed 10+2 with Physics and Chemistry plus Biology or Mathematics, or a D.Pharm from a PCI-approved institution. The PCI Pharm.D Regulations, 2008 and the Tamil Nadu 2026-27 prospectus set no minimum percentage. Minimum age: 17 years on or before 31 December of the year of admission.</p>
               </div>
             </div>
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">2</div>
               <div className="flex-1 bg-white rounded-lg p-6">
-                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Entrance Exam Registration</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Register for NEET (for central government colleges and many state/private colleges) OR State-level entrance exams (varies by state - Maharashtra has MHT-CET, Karnataka has KCET, etc.) OR Institute-specific entrance tests. Registration typically opens December-February. Keep Aadhar card, 10th & 12th mark sheets, photographs ready.</p>
+                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Apply to the Selection Committee</h4>
+                <p className="text-xs sm:text-sm text-[#032816]">For government-quota seats in Tamil Nadu, apply online to the Selection Committee of the Directorate of Medical Education and Research (tnmedicalselection.net) when the Pharm.D prospectus is released. There is no entrance exam and no NEET.</p>
               </div>
             </div>
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">3</div>
               <div className="flex-1 bg-white rounded-lg p-6">
-                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Appear for Entrance Exam</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">NEET typically conducted in May. State exams usually April-May. Download admit card 1-2 weeks before exam. Exam covers Physics, Chemistry, Biology (Botany & Zoology).</p>
+                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Merit List</h4>
+                <p className="text-xs sm:text-sm text-[#032816]">The Selection Committee ranks applicants on their +2 marks in Physics and Chemistry with Biology, Botany and Zoology, or Mathematics, reduced to 200, and publishes the merit list on its website.</p>
               </div>
             </div>
 
@@ -1994,7 +1994,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">4</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Counselling Registration</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">After results announced (typically June), register for counselling. Central counselling for government colleges (through MCC - Medical Counselling Committee). State counselling for state quota seats. Private college direct counselling or state-level process.</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Online single-window counselling by the Selection Committee allots government-quota seats in government and self-financing colleges, following the Tamil Nadu rule of reservation. Management-quota seats are applied for directly at the college.</p>
               </div>
             </div>
 
@@ -2002,7 +2002,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">5</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Choice Filling & Seat Allotment</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Fill college/course preferences online. Research colleges carefully - consider location, hospital affiliations, clinical exposure. Allotment based on rank, category, preferences. Multiple rounds typically conducted (June-August).</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Fill college/course preferences online. Research colleges carefully - consider location, hospital affiliations, clinical exposure. Allotment based on rank, category, preferences. Several rounds are held.</p>
               </div>
             </div>
 
@@ -2010,7 +2010,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">6</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Document Verification & Admission</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Report to allotted college with original documents. Required: 10th & 12th mark sheets & certificates, Transfer Certificate, Migration Certificate, NEET scorecard & admit card, Category certificate (if applicable), Domicile certificate, Aadhar card, Passport size photographs. Pay admission fee and complete formalities. Classes typically start August-September.</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Report to allotted college with original documents. Required: 10th & 12th mark sheets & certificates, Transfer Certificate, Migration Certificate, Category certificate (if applicable), Domicile certificate, Aadhar card, Passport size photographs. Pay admission fee and complete formalities. Classes typically start August-September.</p>
               </div>
             </div>
           </div>
@@ -2025,15 +2025,15 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">1</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Eligibility Verification</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Completed B.Pharm degree from PCI-approved institution. Minimum 50% aggregate marks (45% for SC/ST). Registered with State Pharmacy Council (registration certificate required).</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Completed B.Pharm from a PCI-approved institution. The PCI Pharm.D Regulations, 2008 and the Tamil Nadu 2026-27 prospectus set no minimum percentage.</p>
               </div>
             </div>
 
             <div className="flex items-start">
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">2</div>
               <div className="flex-1 bg-white rounded-lg p-6">
-                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Entrance Exam / Application</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Some colleges conduct entrance exam (GPAT scores may be accepted). Many institutions have direct admission based on B.Pharm marks. Check individual college websites for specific requirements. Application period typically March-June.</p>
+                <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Application</h4>
+                <p className="text-xs sm:text-sm text-[#032816]">For government-quota seats in Tamil Nadu, apply to the Selection Committee under the same Pharm.D prospectus. No entrance exam or GPAT score is used.</p>
               </div>
             </div>
 
@@ -2041,7 +2041,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">3</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Merit List & Selection</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Colleges publish merit lists based on: B.Pharm percentage, Entrance exam score (if applicable), Work experience in clinical settings (bonus points at some institutions). Multiple selection rounds may be conducted.</p>
+                <p className="text-xs sm:text-sm text-[#032816]">The Selection Committee ranks applicants on total B.Pharm marks converted to 100 and allots seats in online counselling.</p>
               </div>
             </div>
 
@@ -2049,7 +2049,7 @@ export default function PharmDPage() {
               <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-[#0b6d41] to-[#0f8f56] text-white rounded-full flex items-center justify-center font-bold text-lg mr-6">4</div>
               <div className="flex-1 bg-white rounded-lg p-6">
                 <h4 className="font-bold text-sm xs:text-base sm:text-lg text-[#032816] mb-3">Document Submission & Admission</h4>
-                <p className="text-xs sm:text-sm text-[#032816]">Required documents: B.Pharm degree certificate & all semester mark sheets, 10th & 12th certificates, State Pharmacy Council registration certificate, Transfer Certificate, GPAT scorecard (if applicable), Category & domicile certificates, Experience certificates (if any). Complete admission formalities and fee payment. Programme typically starts July-August.</p>
+                <p className="text-xs sm:text-sm text-[#032816]">Required documents: B.Pharm degree certificate & all semester mark sheets, 10th & 12th certificates, State Pharmacy Council registration certificate, Transfer Certificate, Category & domicile certificates, Experience certificates (if any). Complete admission formalities and fee payment. Programme typically starts July-August.</p>
               </div>
             </div>
           </div>
@@ -2067,62 +2067,37 @@ export default function PharmDPage() {
               <thead>
                 <tr className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] text-white">
                   <th className="px-6 py-4 text-left text-xs sm:text-sm font-bold">Activity</th>
-                  <th className="px-6 py-4 text-left text-xs sm:text-sm font-bold">Tentative Timeline</th>
+                  <th className="px-6 py-4 text-left text-xs sm:text-sm font-bold">2026-27 (as notified)</th>
                   <th className="px-6 py-4 text-left text-xs sm:text-sm font-bold">Remarks</th>
                 </tr>
               </thead>
               <tbody>
                 <tr className="border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">NEET Registration</td>
-                  <td className="px-6 py-4">February 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">For 6-year Pharm.D aspirants</td>
+                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Prospectus and online application</td>
+                  <td className="px-6 py-4">June 2026</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Pharm.D and Pharm.D (PB) prospectus, G.O.(D) No.658 dated 03.06.2026</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">NEET Exam</td>
-                  <td className="px-6 py-4">First week of May 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Physics, Chemistry, Biology</td>
+                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Merit list</td>
+                  <td className="px-6 py-4">After the application window</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">+2 science marks out of 200; B.Pharm marks out of 100 for Pharm.D (PB)</td>
                 </tr>
                 <tr className="border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">NEET Results</td>
-                  <td className="px-6 py-4">Early June 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Rank card & scorecard released</td>
+                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Online counselling and allotment</td>
+                  <td className="px-6 py-4">September - October 2026</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Vacancy list 7 September 2026; allotment list 28 October 2026</td>
                 </tr>
                 <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Counselling Registration</td>
-                  <td className="px-6 py-4">Mid June 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Central & State counselling</td>
-                </tr>
-                <tr className="border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Choice Filling</td>
-                  <td className="px-6 py-4">Late June - July 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Select college preferences</td>
-                </tr>
-                <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Seat Allotment (Round 1)</td>
-                  <td className="px-6 py-4">Mid July 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">First allotment round</td>
-                </tr>
-                <tr className="border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Reporting & Admission</td>
-                  <td className="px-6 py-4">Late July - August 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Document verification at colleges</td>
-                </tr>
-                <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Pharm.D PB Applications</td>
-                  <td className="px-6 py-4">March - June 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Direct to individual institutions</td>
-                </tr>
-                <tr className="border-b border-[#0f8f56]/20">
-                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Classes Commence</td>
-                  <td className="px-6 py-4">August - September 2026</td>
-                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Academic session 2026-27</td>
+                  <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Reporting &amp; Admission</td>
+                  <td className="px-6 py-4">As per the allotment order</td>
+                  <td className="px-6 py-4 text-xs sm:text-sm text-[#032816]">Document verification at the college</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
           <div className="mt-6 bg-[#FBFBEE] rounded-lg p-3 border-l-4 border-[#0f8f56]">
-            <p className="text-xs sm:text-sm text-[#032816]"><span className="font-semibold">Note:</span> These are tentative dates based on previous year patterns. Official dates will be announced by NTA (for NEET) and respective state counselling authorities. Always check official websites for confirmed schedules.</p>
+            <p className="text-xs sm:text-sm text-[#032816]"><span className="font-semibold">Note:</span> Dates are from the Selection Committee notices for 2026-27. Dates for 2027-28 will be announced on tnmedicalselection.net.</p>
           </div>
         </div>
       </div>
@@ -2901,7 +2876,7 @@ export default function PharmDPage() {
                 />
               </button>
                 <div hidden={expandedFAQ !== 2} className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#0f8f56]/20">
-                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#032816]">Pharm.D and Pharm.D (PB) differ in duration, eligibility, and entry point but lead to same clinical pharmacist qualification. Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard, requires NEET qualification, integrated programme covering basic pharmaceutical sciences before clinical focus, suitable for learners wanting clinical career directly after 12th, total investment 6 years. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory, advanced clinical focus assuming pharmacy knowledge, for graduates wanting clinical specialisation, total investment 7 years (4 years B.Pharm + 3 years PB). Both programmes: Same clinical pharmacist designation, equivalent career opportunities, similar salary ranges, eligible for residency programmes, can practice as clinical pharmacists in hospitals, recognised by Pharmacy Council of India. Career outcomes identical - no preference for Pharm.D over PB or vice versa. Choose Pharm.D if: Want clinical career from start, just completed 12th with NEET. Choose Pharm.D (PB) if: Already have B.Pharm, want clinical shift without research-heavy M.Pharm.</p>
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#032816]">Pharm.D and Pharm.D (PB) differ in duration, eligibility, and entry point but lead to same clinical pharmacist qualification. Pharm.D: 6 years total (5 years academic + 1 year clerkship), after 12th standard (Tamil Nadu government-quota seats are allotted on +2 marks, not NEET), integrated programme covering basic pharmaceutical sciences before clinical focus, suitable for learners wanting clinical career directly after 12th, total investment 6 years. Pharm.D (PB): 3 years total (2 years academic + 1 year clerkship), after B.Pharm degree, GPAT preferred not mandatory, advanced clinical focus assuming pharmacy knowledge, for graduates wanting clinical specialisation, total investment 7 years (4 years B.Pharm + 3 years PB). Both programmes: Same clinical pharmacist designation, equivalent career opportunities, similar salary ranges, eligible for residency programmes, can practice as clinical pharmacists in hospitals, recognised by Pharmacy Council of India. Career outcomes identical - no preference for Pharm.D over PB or vice versa. Choose Pharm.D if: Want clinical career from start, just completed 12th. Choose Pharm.D (PB) if: Already have B.Pharm, want clinical shift without research-heavy M.Pharm.</p>
                 </div>
             </div>
 
@@ -3057,7 +3032,7 @@ export default function PharmDPage() {
             <span className="lg:hidden">Apply Now</span>
             <span className="hidden lg:inline">Apply for Pharm.D Admission 2026</span>
           </a>
-          <p className="mt-6 text-white text-xs">PCI Approved | NEET/GPAT Accepted | Hospital Partnerships | Clinical Training Excellence</p>
+          <p className="mt-6 text-white text-xs">PCI Approved | TN Selection Committee Counselling | Hospital Partnerships | Clinical Training Excellence</p>
         </div>
       </div>
 

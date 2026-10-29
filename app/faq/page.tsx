@@ -144,7 +144,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is the difference between Pharm.D and Pharm.D (PB)?',
-        answer: 'Pharm.D is 6 years after 12th (5 years academic + 1 year clerkship), requiring NEET. Pharm.D (PB) is 3 years after B.Pharm (2 years academic + 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities, salary ranges, and eligibility for residency programmes. Choose Pharm.D for a clinical career from 12th; choose Pharm.D (PB) if you already hold B.Pharm.',
+        answer: 'Pharm.D is 6 years after 12th (5 years academic + 1 year clerkship); in Tamil Nadu, government-quota seats are allotted on +2 marks, not NEET. Pharm.D (PB) is 3 years after B.Pharm (2 years academic + 1 year clerkship). Both lead to the same clinical pharmacist qualification with equivalent career opportunities, salary ranges, and eligibility for residency programmes. Choose Pharm.D for a clinical career from 12th; choose Pharm.D (PB) if you already hold B.Pharm.',
       },
       {
         question: 'What is the salary after Pharm.D?',
