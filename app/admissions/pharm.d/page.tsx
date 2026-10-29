@@ -74,7 +74,7 @@ export default function PharmDAdmissionPage() {
     {
       question: 'What is the Pharm.D fee structure at JKKN for 2026?',
       answer:
-        'Pharm.D (6 years) Management Quota fee: ₹2,75,000/year (Day Scholar) or ₹3,25,000/year (with Hostel). Pharm.D (Post Baccalaureate) Management Quota fee: ₹70,000/year (Day Scholar) or ₹1,50,000/year (with Hostel). Government Quota seats follow Tamil Nadu Government norms. Mess, transport, exam, library fees are additional.',
+        'Pharm.D (6 years) Management Quota fee: ₹2,75,000/year (Day Scholar) or ₹3,25,000/year (with Hostel). Pharm.D (Post Baccalaureate) Management Quota fee: ₹70,000/year (Day Scholar) or ₹1,50,000/year (with Hostel). For Government Quota seats in self-financing colleges, the Tamil Nadu Selection Committee 2026-27 Pharm.D prospectus prints tuition of ₹2,00,000 plus other fees. Mess, transport, exam, library fees are additional.',
     },
     {
       question: 'How many Pharm.D seats are available at JKKN?',

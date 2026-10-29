@@ -69,7 +69,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'What is the B.Pharm fee structure at JKKN for 2026?',
       answer:
-        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota seats follow Tamil Nadu Government fee norms. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC learners are eligible for Tamil Nadu government scholarships.',
+        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota fee in self-financing colleges is ₹50,000 per year, covering tuition and other college fees, under the Tamil Nadu Selection Committee 2026-27 prospectus. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC learners are eligible for Tamil Nadu government scholarships.',
     },
     {
       question: 'How many B.Pharm seats are available at JKKN?',

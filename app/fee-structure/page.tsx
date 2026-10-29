@@ -16,7 +16,7 @@ export default function FeeStructurePage() {
           </h1>
 
           <p className="text-sm sm:text-base text-gray-600 mb-8 sm:mb-10">
-            Management-quota tuition fees for the academic year 2026-27. Government-quota fees follow Tamil Nadu Government norms.
+            Fees for the academic year 2026-27. Government-quota (GQ) fees are the amounts in the Tamil Nadu Selection Committee&apos;s 2026-27 prospectuses; management-quota (MQ) fees are the college&apos;s tuition.
           </p>
 
           <div className="overflow-x-auto rounded-lg border border-gray-200 shadow-sm">
@@ -42,13 +42,13 @@ export default function FeeStructurePage() {
                     BACHELOR PHARMACY UG
                   </td>
                   <td className="px-4 py-3 border border-gray-200">B.Pharm</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹50,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹1,40,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">B.Pharm (LE)</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹50,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹1,00,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
@@ -59,13 +59,13 @@ export default function FeeStructurePage() {
                     DOCTOR OF PHARMACY UG
                   </td>
                   <td className="px-4 py-3 border border-gray-200">Pharm.D</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹2,00,000 + other fees*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹2,75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200 text-sm">Dayscholar</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">Pharm.D</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹2,00,000 + other fees*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹3,25,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200 text-sm">With Hostel</td>
                 </tr>
@@ -88,37 +88,37 @@ export default function FeeStructurePage() {
                     PHARMACY PG (M.PHARM)
                   </td>
                   <td className="px-4 py-3 border border-gray-200">Pharmaceutics</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">Pharma. Chemistry</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-white hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">Pharmacology</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">Pharma. Analysis</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-white hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200">Pharmacy Practice</td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200">—</td>
                 </tr>
                 <tr className="bg-[#f9fdf9] hover:bg-[#f0f7f0] transition-colors">
                   <td className="px-4 py-3 border border-gray-200"><Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">Pharma. Regulatory Affairs</Link></td>
-                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">As Per Govt Norms</td>
+                  <td className="px-4 py-3 text-center border border-gray-200 text-[#0b6d41] font-medium text-xs sm:text-sm">₹75,000*</td>
                   <td className="px-4 py-3 text-center border border-gray-200 font-semibold">₹75,000</td>
                   <td className="px-4 py-3 text-center border border-gray-200 text-sm">New for 2026-27</td>
                 </tr>
@@ -127,7 +127,14 @@ export default function FeeStructurePage() {
           </div>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            * Fees shown are tuition only, per annum, for the academic year 2026-27. Hostel, mess, transport, examination and caution-deposit charges are additional and are not included above. GQ — Government Quota. MQ — Management Quota.
+            MQ fees shown are tuition only, per annum, for the academic year 2026-27. Hostel, mess, transport, examination and caution-deposit charges are additional and are not included above. GQ — Government Quota. MQ — Management Quota.
+          </p>
+          <p className="mt-3 text-xs sm:text-sm text-gray-500">
+            * GQ: government-quota seats in self-financing colleges, 2026-27. B.Pharm and B.Pharm (LE): &#8377;50,000 a year including tuition, admission, special, laboratory, library, sports and other recurring fees; hostel, transport and mess are extra. Pharm.D: tuition &#8377;2,00,000 plus other fees, as printed in the prospectus. M.Pharm: tuition &#8377;75,000 a year; special and other fees are paid at admission. Pharm.D (PB): the prospectus prints no separate figure. Any change fixed by the Fee Fixation Committee for 2026-27 is announced during or after counselling. Sources: Selection Committee, Directorate of Medical Education and Research, Tamil Nadu -{' '}
+            <a href="https://tnmedicalselection.net/news/20062026234247.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">B.Pharm</a>,{' '}
+            <a href="https://tnmedicalselection.net/news/28082026050032.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">B.Pharm (LE)</a>,{' '}
+            <a href="https://tnmedicalselection.net/news/20062026232658.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">Pharm.D</a> and{' '}
+            <a href="https://tnmedicalselection.net/news/14082026004705.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">M.Pharm</a> prospectuses 2026-27.
           </p>
 
         </div>
