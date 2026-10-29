@@ -226,7 +226,7 @@ export default function TiruppurPage() {
         <div className="max-w-3xl mx-auto">
           <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-4 sm:p-6 flex flex-col md:flex-row items-center gap-4 sm:gap-6">
             <div className="flex items-baseline gap-0.5 shrink-0">
-              <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">67</span>
+              <span className="text-4xl sm:text-5xl font-bold text-[#0b6d41]">65</span>
               <span className="text-lg sm:text-xl font-bold text-[#0b6d41]">km</span>
             </div>
             <div className="flex-1 text-center md:text-left">
