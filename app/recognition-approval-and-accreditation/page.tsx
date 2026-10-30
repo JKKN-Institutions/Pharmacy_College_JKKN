@@ -150,8 +150,10 @@ export default function RecognitionApprovalAccreditationPage() {
               <a href={SRC.scMPharmSeats} target="_blank" rel="noopener noreferrer" className={A}>M.Pharm (7 September 2026)</a> and{' '}
               <a href={SRC.scLateralSeats} target="_blank" rel="noopener noreferrer" className={A}>B.Pharm Lateral Entry (9 October 2026)</a>.
               Minimum qualifications: PCI{' '}
-              <a href={SRC.pciBPharmRegs} target="_blank" rel="noopener noreferrer" className={A}>B.Pharm Regulations, 2014</a> and{' '}
-              <a href={SRC.pciPharmDRegs} target="_blank" rel="noopener noreferrer" className={A}>Pharm.D Regulations, 2008</a>.
+              <a href={SRC.pciBPharmRegs} target="_blank" rel="noopener noreferrer" className={A}>B.Pharm Regulations, 2014</a>,{' '}
+              <a href={SRC.pciPharmDRegs} target="_blank" rel="noopener noreferrer" className={A}>Pharm.D Regulations, 2008</a> and{' '}
+              <a href={SRC.pciMPharmRegs} target="_blank" rel="noopener noreferrer" className={A}>M.Pharm Regulations, 2014</a>{' '}
+              (<a href={SRC.pciMPharmAmend2020} target="_blank" rel="noopener noreferrer" className={A}>2020 amendment</a>: 50% for SC/ST and for 5+ years professional experience after B.Pharm).
             </Src>
           </Section>
 

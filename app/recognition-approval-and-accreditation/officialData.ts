@@ -4,6 +4,8 @@
 
 export const CHECKED_ON = '29 October 2026'
 
+import { PCI_MPHARM_REGS, PCI_MPHARM_AMEND_2020 } from '@/lib/pci-mpharm'
+
 const TNMGRMU = 'https://www.tnmgrmu.ac.in/wp-content/uploads/'
 const SC = 'https://tnmedicalselection.net/news/'
 
@@ -11,6 +13,8 @@ export const SRC = {
   pci: 'https://www.pci.nic.in/approved_degree_institutes_us__12.html',
   pciBPharmRegs: 'https://www.pci.nic.in/pdf/B.Pharm%20Regulations.pdf',
   pciPharmDRegs: 'https://www.pci.nic.in/pdf/PharmD_regu_2008.pdf',
+  pciMPharmRegs: PCI_MPHARM_REGS,
+  pciMPharmAmend2020: PCI_MPHARM_AMEND_2020,
   tnmgrmu: 'https://www.tnmgrmu.ac.in/affiliation/affiliated-institutions/',
   tnmgrmuBPharm: TNMGRMU + '2026/09/BPharmsep92026.pdf',
   tnmgrmuMPharm: TNMGRMU + '2026/08/M.Pharm-Affl.Inst-11.08.2026.pdf',
