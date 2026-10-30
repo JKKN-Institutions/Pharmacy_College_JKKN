@@ -4,6 +4,10 @@ import Link from 'next/link'
 import Header from '@/components/Header'
 
 // Navigation sections data
+// PCI approval letter and inspection report: the buttons linked to "#" until 2026-10-30. Hidden until the
+// college office sends the PDFs - add { label: 'PCI Approval Letter', href: '/pdf/<file>.pdf' } here to show them.
+const PCI_DOCS: { label: string; href: string }[] = []
+
 const navigationSections = [
   { id: 'overview', label: 'Overview', href: '/about/affiliation-details' },
   { id: 'pharmacy-council', label: 'Pharmacy Council Approval', href: '/pharmacy-council' },
@@ -218,23 +222,24 @@ export default function PharmacyCouncilPage() {
                     </ul>
                   </div>
 
-                  <div>
-                    <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Download PCI Approval Documents</h2>
-                    <div className="flex flex-wrap gap-4">
-                      <a
-                        href="#"
-                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
-                      >
-                        PCI Approval Letter
-                      </a>
-                      <a
-                        href="#"
-                        className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
-                      >
-                        PCI Inspection Report
-                      </a>
+                  {PCI_DOCS.length > 0 && (
+                    <div>
+                      <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-4 sm:mb-6">Download PCI Approval Documents</h2>
+                      <div className="flex flex-wrap gap-4">
+                        {PCI_DOCS.map((doc) => (
+                          <a
+                            key={doc.label}
+                            href={doc.href}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-6 py-3 bg-[#ffde59] text-[#032816] font-semibold rounded hover:bg-[#e6c64d] transition-colors"
+                          >
+                            {doc.label}
+                          </a>
+                        ))}
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               </div>
             </div>
