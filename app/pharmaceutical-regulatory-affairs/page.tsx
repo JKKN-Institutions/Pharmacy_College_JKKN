@@ -1,5 +1,6 @@
 'use client'
 
+import PciMPharmSource from '@/components/PciMPharmSource'
 import React, { useState } from 'react';
 import Link from 'next/link'
 import Header from '@/components/Header'
@@ -299,7 +300,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
               <ul className="space-y-2">
                 {[
                   "B.Pharm degree from a PCI approved institution",
-                  "Minimum 55% aggregate marks in B.Pharm; 50% for SC and ST candidates (PCI M.Pharm Regulations 2014, amended 2020)",
+                  "Minimum 55% aggregate marks in B.Pharm; 50% for SC and ST candidates",
                   "50% for candidates with 5+ years professional experience after B.Pharm",
                   "Valid GPAT score preferred, not mandatory",
                   "Pharmacy Council registration, permanent or provisional",
@@ -311,6 +312,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   </li>
                 ))}
               </ul>
+              <PciMPharmSource className="mt-3" />
             </div>
             <div className="bg-white rounded-lg shadow p-6">
               <h3 className="text-sm font-bold text-[#0b6d41] mb-3">Seats and fees</h3>

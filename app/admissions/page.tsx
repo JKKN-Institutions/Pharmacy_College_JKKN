@@ -1,4 +1,5 @@
 'use client'
+import PciMPharmSource from '@/components/PciMPharmSource'
 import Link from 'next/link'
 
 import { useState } from 'react'
@@ -293,9 +294,10 @@ export default function AdmissionProcessPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Minimum 55% aggregate in B.Pharm (50% for SC/ST candidates)</span>
+                  <span>Minimum 55% aggregate in B.Pharm (50% for SC/ST candidates, and for candidates with 5+ years professional experience after B.Pharm)</span>
                 </li>
               </ul>
+              <PciMPharmSource className="mt-3" />
             </div>
 
             {/* Pharm.D Eligibility */}

@@ -1,5 +1,6 @@
 ﻿'use client'
 
+import PciMPharmSource from '@/components/PciMPharmSource'
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
@@ -605,7 +606,7 @@ export default function MPharmacyPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-[#0b6d41] font-bold mr-2">•</span>
-                <span>Minimum 55% aggregate marks in B.Pharm (50% for SC/ST candidates)</span>
+                <span>Minimum 55% aggregate marks in B.Pharm (50% for SC/ST candidates, and for candidates with 5+ years professional experience after B.Pharm)</span>
               </li>
               <li className="flex items-start">
                 <span className="text-[#0b6d41] font-bold mr-2">•</span>
@@ -616,6 +617,7 @@ export default function MPharmacyPage() {
                 <span>No specific subject prerequisites - all B.Pharm graduates eligible for any specialisation</span>
               </li>
             </ul>
+            <PciMPharmSource className="mt-3" />
           </div>
 
           <div className="bg-[#FBFBEE] rounded-lg p-6">

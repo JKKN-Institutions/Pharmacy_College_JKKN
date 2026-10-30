@@ -1,5 +1,6 @@
 ﻿'use client'
 
+import PciMPharmSource from '@/components/PciMPharmSource'
 import Header from '@/components/Header'
 import { FaqSchema, SpeakableWebPageSchema, BreadcrumbListSchema, CourseSchema, ItemListSchema, HowToSchema } from '@/components/SchemaOrg'
 import VideoSection from '@/components/VideoSection'
@@ -1031,9 +1032,10 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#0b6d41] mt-0.5 sm:mt-1 flex-shrink-0">✓</span>
-                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 55% aggregate marks (50% for SC/ST)</span>
+                  <span className="text-gray-700 text-xs sm:text-sm">Minimum 55% aggregate marks (50% for SC/ST, and with 5+ years professional experience)</span>
                 </li>
               </ul>
+              <PciMPharmSource className="mt-2" />
             </div>
 
             {/*  Pharm.D Eligibility */}
