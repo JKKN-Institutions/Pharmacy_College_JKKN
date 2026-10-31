@@ -11,7 +11,7 @@ import EnquiryButton from "@/components/lead/EnquiryButton"
 // "Enquire Now" opens the 3-box enquiry form in place - on the homepage since 2026-10-16, on every
 // page since 2026-10-22 (the provider sits in app/layout.tsx). APPLY_HREF is only the fallback for a
 // page rendered without the provider. Leads keep home-header on "/" and are tagged header elsewhere.
-const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-header";
+const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=components-header";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

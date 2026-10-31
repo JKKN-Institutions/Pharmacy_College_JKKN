@@ -120,7 +120,7 @@ export default function PharmDAdmissionPage() {
 
           <div className="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center justify-center">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-pharm-d"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=admissions-pharm-d"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-[#0b6d41] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-[#FBFBEE] transition-all shadow-lg"
@@ -536,7 +536,7 @@ export default function PharmDAdmissionPage() {
               <PharmacyEnquiryForm sourcePage="pharm-d" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} />
             </div>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=admissions-pharm-d"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=admissions-pharm-d"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white text-[#0b6d41] px-8 py-4 rounded-full text-[10px] sm:text-sm md:text-base font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block"

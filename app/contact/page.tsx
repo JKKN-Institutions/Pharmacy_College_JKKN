@@ -116,7 +116,7 @@ export default function ContactPage() {
                 <PharmacyEnquiryForm sourcePage="contact" />
               </div>
                 <a
-                  href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=contact"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=contact"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-8 sm:px-10 py-3 sm:py-4 bg-[#ffde59] text-[#032816] font-semibold text-sm sm:text-base rounded-lg hover:bg-[#e6c64d] focus:outline-none focus:ring-2 focus:ring-[#0f8f56] focus:ring-offset-2 transition-colors"

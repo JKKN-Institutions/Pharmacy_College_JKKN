@@ -1613,7 +1613,7 @@ export default function PhDPage() {
           </h2>
           <p className="text-xs sm:text-sm mb-6">Join the Ph.D programme at JKKN College of Pharmacy and transform into a pharmaceutical researcher shaping the future of healthcare. Expert Learning Facilitators, advanced facilities, and industry connections await you.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=phd" target="_blank" rel="noopener noreferrer" className="bg-[#ffde59] text-[#032816] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#e6c64d] transition-colors shadow-lg">
+            <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=phd" target="_blank" rel="noopener noreferrer" className="bg-[#ffde59] text-[#032816] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-[#e6c64d] transition-colors shadow-lg">
               Apply for Ph.D 2026
             </a>
             <a href="/pdf/brochure.pdf" download className="bg-white text-[#0b6d41] font-bold text-xs sm:text-sm px-10 py-4 rounded-full hover:bg-gray-100 transition-colors shadow-lg">

@@ -158,7 +158,7 @@ export default function Home() {
                 <p className="text-sm text-gray-200 mb-3">Fill 3 details. Our admission team will call you within 24 hours.</p>
                 <EnquiryButton
                   sourcePage="home-hero-btn"
-                  fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=home"
+                  fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=home"
                   fallbackLabel="Start Your Application →"
                   className="w-full bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-base min-h-[44px]"
                 >

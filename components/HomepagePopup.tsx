@@ -41,7 +41,7 @@ export default function HomepagePopup() {
         >
           <X className="w-5 h-5 text-gray-700" />
         </button>
-        <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-homepagepopup" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=components-homepagepopup" target="_blank" rel="noopener noreferrer">
           <Image
             src="/images/pharmacy-pop-up-poster.webp"
             alt="JKKN College of Pharmacy admission poster"

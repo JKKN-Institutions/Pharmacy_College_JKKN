@@ -21,7 +21,7 @@ import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm"
 import { sendGaEvent } from "@/lib/ga-event"
 import { campaignTagsSnapshot, parseCampaignTags, tagApplyHref } from "@/lib/campaign-tags"
 
-const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic"
+const APPLY_HREF = "https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in"
 const SITE_HOST = "pharmacy.jkkn.ac.in"
 
 type OpenOptions = { withPoster?: boolean }

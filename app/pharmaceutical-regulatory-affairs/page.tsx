@@ -447,7 +447,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
           </div>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=pharmaceutical-regulatory-affairs"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=pharmaceutical-regulatory-affairs"
               className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-bold px-6 py-3 rounded-lg text-xs sm:text-sm"
             >
               Apply Now &mdash; 2026-27

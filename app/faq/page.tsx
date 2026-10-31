@@ -347,7 +347,7 @@ export default function FaqPage() {
             or visit the campus.
           </p>
           <a
-            href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=faq"
+            href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=faq"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-[#0b6d41] font-semibold px-6 py-3 rounded-lg text-sm sm:text-base hover:bg-[#FBFBEE] transition-colors"

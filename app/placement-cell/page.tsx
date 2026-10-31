@@ -98,7 +98,7 @@ export default function PlacementCellPage() {
                 Download PDF Brochure
               </a>
               <a
-                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=placement-cell"
+                href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=placement-cell"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border-2 border-white text-white font-semibold px-6 py-3 rounded-full text-sm hover:bg-white hover:text-[#0b6d41] transition-colors"

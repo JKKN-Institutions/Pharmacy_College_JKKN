@@ -604,7 +604,7 @@ export default function PlacementsPage() {
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
                 <a
-                  href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=placements"
+                  href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=placements"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-white text-[#0b6d41] font-semibold px-6 sm:px-8 py-3 sm:py-3.5 rounded-full text-sm sm:text-base hover:bg-gray-100 transition-colors"

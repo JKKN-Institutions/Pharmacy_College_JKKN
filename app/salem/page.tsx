@@ -34,7 +34,7 @@ export default function SalemPage() {
     const msg = encodeURIComponent(
       `Hi, I'm from ${form.city} and interested in ${form.programme || 'a pharmacy programme'} at JKKN Pharmacy.\nName: ${form.name}\nMobile: ${form.mobile}${form.question ? `\nQuestion: ${form.question}` : ''}`
     );
-    window.open('https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=salem', '_blank');
+    window.open('https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=salem', '_blank');
   };
 
   // One measured distance on this page: Salem bus stand -> JKKN College of Pharmacy, 56.9 km / 57 min
@@ -189,7 +189,7 @@ export default function SalemPage() {
               Call Now
             </a>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=salem"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=salem"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
@@ -242,7 +242,7 @@ export default function SalemPage() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center mb-7 sm:mb-9">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=salem"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=salem"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"

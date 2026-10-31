@@ -118,7 +118,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
               Call Now
             </a>
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] text-[10px] sm:text-xs font-semibold px-2.5 sm:px-4 py-1 rounded-full transition-colors duration-200 border border-white"
@@ -171,7 +171,7 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center mb-7 sm:mb-9">
             <a
-              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_medium=organic&utm_campaign=components-citylandingpage"
+              href="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=components-citylandingpage"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm"
