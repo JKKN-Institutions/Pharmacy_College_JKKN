@@ -138,6 +138,22 @@ const faqSchema = {
         "@type": "Answer",
         "text": "Pharmacy residency is specialised 1-2 year postgraduate clinical training programme after Pharm.D. Types: (1) General Pharmacy Practice Residency (PGY1 equivalent) - broad clinical training across specialties, foundation for advanced practice, (2) Specialised Residency (PGY2 equivalent) - Critical Care, Oncology, Infectious Diseases, Cardiology, Pediatrics. Available in India at: JSS College of Pharmacy Ooty, Manipal College, Apollo Hospitals, Manipal Hospitals, Tata Memorial Hospital (oncology), PGIMER Chandigarh (clinical training). Benefits: (1) ₹10-20K/month higher starting salary after completion, (2) Specialised expertise in critical care/oncology/infectious diseases, (3) Preferred for senior positions in corporate hospitals, (4) Enhanced clinical decision-making skills, (5) Strong professional network with physicians and administrators, (6) Essential for teaching positions in Pharm.D programmes. Stipend during residency: ₹15,000-30,000/month depending on institution. Eligibility: Completed Pharm.D/Pharm.D (PB) with 60-65% minimum, strong clerkship performance, good recommendations. Application: Applications typically November-January for June-July start, competitive (10-20 applicants per position), written test + interview selection. Commitment: Intensive programme - long hours including call duties, multiple clinical rotations, comprehensive exams, research project, case presentations. Worth it: Yes for those serious about clinical pharmacy career, wanting specialised practice, seeking academic positions, or aiming for senior clinical roles. Not necessary: For general hospital staff pharmacist positions, pharmaceutical industry roles, or those preferring work-life balance immediately after degree. Consider residency as equivalent to medical residency - rigorous but significantly enhances career trajectory and earning potential."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How many Pharm.D colleges are there in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "52, all self-financing, with 30 sanctioned seats each (1,560 in total), on The Tamil Nadu Dr. M.G.R. Medical University’s Pharm.D list for 2025-26 (dated 11.08.2026). In 2026-27, the Selection Committee offered 976 government-quota Pharm.D seats in 51 of these colleges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a government Pharm.D college in Tamil Nadu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No government college is on the university’s 2025-26 Pharm.D list, and the 2026-27 Selection Committee prospectus admits Pharm.D students only to self-financing colleges. Government-quota seats are inside those colleges, allotted on +2 marks through online counselling."
+      }
     }
   ]
 }

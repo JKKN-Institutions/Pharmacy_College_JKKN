@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { PHARMD_COLLEGES_TN, PHARMD_DISTRICTS, TNMGRMU_PHARMD_LIST_URL, DME_NOTIFICATIONS_URL } from '@/lib/pharmd-colleges-tn';
 import { AlertTriangle, BookOpen, Briefcase, Building2, Calendar, CheckCircle, ClipboardCheck, ClipboardList, Globe, GraduationCap, IndianRupee, Lightbulb, Pill, Scale, Search, Target, TrendingUp, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
 import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
@@ -9,6 +10,8 @@ import { DEFAULT_PROGRAMME_BY_PAGE } from "@/lib/pharmacy-programmes";
 
 export default function PharmDPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
+  const [pdDistrict, setPdDistrict] = useState('All');
+  const pdShown = pdDistrict === 'All' ? PHARMD_COLLEGES_TN : PHARMD_COLLEGES_TN.filter((c) => c.district === pdDistrict);
 
   const toggleFAQ = (index: number) => {
     setExpandedFAQ(expandedFAQ === index ? null : index);
@@ -2318,11 +2321,19 @@ export default function PharmDPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
           <Building2 className="w-8 h-8 text-[#0b6d41]" />
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">Top Institutions Offering Pharm.D Programmes</h2>
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-[#032816]">Pharm.D Colleges in Tamil Nadu: Official List and Seats</h2>
+        </div>
+
+        <div className="bg-white border-l-4 border-[#0b6d41] rounded-lg p-4 mb-6 shadow-sm">
+          <p className="text-xs sm:text-sm text-[#032816]">
+            <strong>Quick answer:</strong> Tamil Nadu has 52 Pharm.D colleges affiliated to The Tamil Nadu Dr. M.G.R. Medical University,
+            with 1,560 sanctioned seats (30 each) in the 2025-26 list. All 52 are self-financing; the list has no government
+            college. In 2026-27, the Selection Committee offered 976 government-quota Pharm.D seats in 51 of them.
+          </p>
         </div>
 
         <div className="mb-4">
-          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#0b6d41] mb-4">Pharm.D Colleges in Tamil Nadu and India</h3>
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#0b6d41] mb-4">How many Pharm.D colleges are in Tamil Nadu?</h3>
 
           <p className="text-xs sm:text-sm text-[#032816] mb-4">
             The Tamil Nadu Dr. M.G.R. Medical University&rsquo;s Pharm.D affiliation list for 2025-26
@@ -2380,106 +2391,90 @@ export default function PharmDPage() {
             <a href="/salem/" className="text-[#0b6d41] underline">Salem</a>.
           </p>
 
+          {/* Full official list - TNMGRMU Pharm.D list 2025-26 (11.08.2026) + DME 2026-27 round-1 seat matrix
+              (07.09.2026). Data and source notes: lib/pharmd-colleges-tn.ts */}
+          <h3 id="pharmd-colleges-list" className="text-sm md:text-base lg:text-lg font-bold text-[#0b6d41] mt-8 mb-3">All 52 Pharm.D Colleges in Tamil Nadu (Official List)</h3>
+          <div className="flex flex-wrap items-center gap-2 mb-3">
+            <label htmlFor="pd-district" className="text-xs sm:text-sm font-semibold text-[#032816]">District</label>
+            <select
+              id="pd-district"
+              value={pdDistrict}
+              onChange={(e) => setPdDistrict(e.target.value)}
+              className="border border-[#0f8f56] rounded-md px-3 py-2 text-xs sm:text-sm bg-white text-[#032816] min-h-[40px]"
+            >
+              <option value="All">All districts ({PHARMD_COLLEGES_TN.length})</option>
+              {PHARMD_DISTRICTS.map((d) => (
+                <option key={d.name} value={d.name}>{d.name} ({d.count})</option>
+              ))}
+            </select>
+            <span className="text-[11px] sm:text-xs text-gray-600">
+              {pdShown.length} {pdShown.length === 1 ? 'college' : 'colleges'} &middot; {pdShown.reduce((a, c) => a + c.seats, 0)} Pharm.D seats
+            </span>
+          </div>
+          <div className="overflow-x-auto max-h-[480px] overflow-y-auto border border-gray-200 rounded-lg">
+            <table className="min-w-full text-left text-[11px] sm:text-xs bg-white">
+              <thead className="bg-[#0b6d41] text-white sticky top-0">
+                <tr>
+                  <th className="px-3 py-2.5 font-semibold">College</th>
+                  <th className="px-3 py-2.5 font-semibold">District</th>
+                  <th className="px-3 py-2.5 font-semibold">Pharm.D seats</th>
+                  <th className="px-3 py-2.5 font-semibold">Govt-quota seats 2026-27*</th>
+                  <th className="px-3 py-2.5 font-semibold">Since**</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 text-gray-800">
+                {pdShown.map((c) => (
+                  <tr key={c.name} className={c.jkkn ? 'bg-[#FBFBEE] font-semibold' : ''}>
+                    <td className="px-3 py-2 align-top">{c.name}</td>
+                    <td className="px-3 py-2 align-top">{c.district}</td>
+                    <td className="px-3 py-2 align-top">{c.seats}</td>
+                    <td className="px-3 py-2 align-top">{c.gq === null ? 'Not in the round 1 list' : c.gq}</td>
+                    <td className="px-3 py-2 align-top">{c.since}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-[11px] sm:text-xs text-gray-500 mt-2">
+            Sources: The Tamil Nadu Dr. M.G.R. Medical University,{' '}
+            <a href={TNMGRMU_PHARMD_LIST_URL} target="_blank" rel="noopener noreferrer" className="text-[#0b6d41] underline">Pharm.D affiliated colleges 2025-26</a>{' '}
+            (dated 11.08.2026) - college, district, seats. *Selection Committee, DME Tamil Nadu, Pharm.D 2026-27 round 1 seat matrix
+            (07.09.2026, 976 seats in 51 colleges) on the{' '}
+            <a href={DME_NOTIFICATIONS_URL} target="_blank" rel="noopener noreferrer" className="text-[#0b6d41] underline">notifications page</a>.
+            **The university list&rsquo;s &ldquo;Year of PA issued&rdquo;. The rest of the 30 seats in each college are management quota.
+          </p>
+
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#0b6d41] mt-8 mb-3">Is there a government Pharm.D college in Tamil Nadu?</h3>
+          <p className="text-xs sm:text-sm text-[#032816] mb-4">
+            No government college is on the university&rsquo;s 2025-26 Pharm.D list, and the Selection Committee&rsquo;s 2026-27 Pharm.D
+            prospectus admits students only to self-financing colleges. &ldquo;Government quota&rdquo; means seats inside these colleges,
+            allotted by the Selection Committee on +2 marks through online counselling, at the government-quota fee (tuition
+            &#8377;2,00,000 plus other fees in the 2026-27 prospectus). See the{' '}
+            <a href="/blog/campus/pharmd-counselling-tamil-nadu-2026-guide/" className="text-[#0b6d41] underline">Pharm.D counselling guide</a>.
+          </p>
+
+          <h3 className="text-sm md:text-base lg:text-lg font-bold text-[#0b6d41] mt-6 mb-3">Is there an official &ldquo;top 10&rdquo; list of Pharm.D colleges?</h3>
+          <p className="text-xs sm:text-sm text-[#032816] mb-2">
+            No. NIRF, the government ranking, ranks pharmacy institutions as a whole, not the Pharm.D course alone, and the
+            &ldquo;top 10&rdquo; pages on listing sites are those sites&rsquo; own picks. Check any college on three official points instead:
+          </p>
+          <ol className="list-decimal pl-5 space-y-1 text-xs sm:text-sm text-[#032816] mb-6">
+            <li><strong>PCI approval</strong> for Pharm.D - the Pharmacy Council of India&rsquo;s approved-institutions list on pci.nic.in.</li>
+            <li><strong>University affiliation</strong> - the college must be on The Tamil Nadu Dr. M.G.R. Medical University&rsquo;s Pharm.D list (the table above).</li>
+            <li><strong>Hospital training</strong> - Pharm.D ends with a one-year internship or residency; ask which hospital and for how long.</li>
+          </ol>
+          <p className="text-xs sm:text-sm text-[#032816] mb-6">
+            How to read each official source:{' '}
+            <a href="/blog/campus/where-the-official-pharm-d-college-list-comes-from/" className="text-[#0b6d41] underline">where the Pharm.D college list comes from</a>.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0b6d41]">
               <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">JKKN College of Pharmacy, Komarapalayam</h4>
               <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Self-financing, PCI approved, NAAC A Grade</p>
               <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Komarapalayam, Namakkal district, Tamil Nadu</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Pharm.D 30 seats and Pharm.D (Post Baccalaureate) 10 seats, affiliated to Tamil Nadu Dr. M.G.R. Medical University</p>
+              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Pharm.D 30 seats and Pharm.D (Post Baccalaureate) 10 seats, affiliated to Tamil Nadu Dr. M.G.R. Medical University. Government-quota seats offered in 2026-27 round 1: 15 (Pharm.D) and 5 (Pharm.D PB).</p>
               <p className="text-xs font-semibold text-[#0b6d41]">Fee: ₹2,75,000/year day scholar, ₹3,25,000/year with hostel (management quota)</p>
-            </div>
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">JSS College of Pharmacy, Ooty</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Excellent hospital affiliations, Strong clinical training, Residency programmes available</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹2.5-3 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Manipal College of Pharmaceutical Sciences</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Manipal, Karnataka</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> NAAC A+ accredited, Manipal Hospital network access, International collaborations</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹2.8-3.2 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">JSS College of Pharmacy, Mysore</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> JSS Hospital affiliation, Strong industry connections, Research facilities</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹2-2.5 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Tamil Nadu Dr. MGR Medical University</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> State University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Chennai, Tamil Nadu</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Multiple affiliated colleges, Government & private options, Clinical rotation network</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ₹50K-2L/year (varies by college)</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Rajiv Gandhi University of Health Sciences</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> State University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Bangalore, Karnataka</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Multiple affiliated colleges, Good government college options, Bangalore healthcare network</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ₹60K-2.5L/year (varies)</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Annamalai University</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> State University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Chidambaram, Tamil Nadu</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Long-standing pharmacy programme, Hospital attached to university, Affordable fees</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹80,000-1.2 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">KLE College of Pharmacy, Belgaum</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Private (Deemed University)</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Belgaum, Karnataka</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> KLE Hospital access, Good clinical exposure, Established institution</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹1.5-2 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Madras Medical College <span className="text-[10px] font-normal text-gray-500">(B.Pharm / M.Pharm &mdash; not on the university&rsquo;s 2025-26 Pharm.D list)</span></h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Government College</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Chennai, Tamil Nadu</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Highly subsidized fees, Excellent hospital exposure, Competitive admission</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹50,000-80,000/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Bombay College of Pharmacy</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Government-aided</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Mumbai, Maharashtra</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Established institution, Mumbai hospital network, Research focus</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹1-1.5 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">NIPER (various campuses)</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Institute of National Importance</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Locations:</span> Mohali, Hyderabad, Ahmedabad</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> M.S. Pharm (equivalent to Pharm.D PB), Research-oriented, GPAT fellowship</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹50,000-1 lakh/year + fellowship</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Bharati Vidyapeeth University</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Pune, Maharashtra</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> Hospital attached, Clinical focus, Good placement record</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹1.8-2.2 lakhs/year</p>
-            </div>
-
-            <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0f8f56]">
-              <h4 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-3">Amrita School of Pharmacy</h4>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Type:</span> Deemed University</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-2"><span className="font-semibold">Location:</span> Kochi, Kerala</p>
-              <p className="text-xs sm:text-sm text-[#032816] mb-3"><span className="font-semibold">Highlights:</span> AMRITA Hospital access, Modern facilities, International exposure</p>
-              <p className="text-xs font-semibold text-[#0b6d41]">Fee: ~₹2-2.5 lakhs/year</p>
             </div>
           </div>
         </div>
@@ -2508,7 +2503,7 @@ export default function PharmDPage() {
               <p className="text-xs sm:text-sm text-[#032816] mb-4">Check placement records for clinical pharmacist positions (not just pharma company jobs). Strong alumni working in hospital pharmacy can open doors. College relationships with hospital chains (Apollo, Fortis, Manipal, etc.).</p>
 
               <h4 className="font-bold text-base text-[#0b6d41] mb-3">Fee vs Outcomes Balance</h4>
-              <p className="text-xs sm:text-sm text-[#032816]">High fees acceptable if clinical training quality is genuinely superior. Government colleges = lower fees but intense competition. Private colleges = easier admission but verify hospital quality first!</p>
+              <p className="text-xs sm:text-sm text-[#032816]">High fees acceptable if clinical training quality is genuinely superior. Government-quota seats = the government-quota fee, allotted through Selection Committee counselling; management-quota seats = the college fee. Either way, verify hospital training first!</p>
             </div>
           </div>
 
@@ -3017,6 +3012,46 @@ export default function PharmDPage() {
               </button>
                 <div hidden={expandedFAQ !== 9} className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#0f8f56]/20">
                   <p className="text-[10px] xs:text-xs sm:text-xs text-[#032816]">Pharmacy residency is specialised 1-2 year postgraduate clinical training programme after Pharm.D. Types: (1) General Pharmacy Practice Residency (PGY1 equivalent) - broad clinical training across specialties, foundation for advanced practice, (2) Specialised Residency (PGY2 equivalent) - Critical Care, Oncology, Infectious Diseases, Cardiology, Pediatrics. Available in India at: JSS College of Pharmacy Ooty, Manipal College, Apollo Hospitals, Manipal Hospitals, Tata Memorial Hospital (oncology), PGIMER Chandigarh (clinical training). Benefits: (1) ₹10-20K/month higher starting salary after completion, (2) Specialised expertise in critical care/oncology/infectious diseases, (3) Preferred for senior positions in corporate hospitals, (4) Enhanced clinical decision-making skills, (5) Strong professional network with physicians and administrators, (6) Essential for teaching positions in Pharm.D programmes. Stipend during residency: ₹15,000-30,000/month depending on institution. Eligibility: Completed Pharm.D/Pharm.D (PB) with 60-65% minimum, strong clerkship performance, good recommendations. Application: Applications typically November-January for June-July start, competitive (10-20 applicants per position), written test + interview selection. Commitment: Intensive programme - long hours including call duties, multiple clinical rotations, comprehensive exams, research project, case presentations. Worth it: Yes for those serious about clinical pharmacy career, wanting specialised practice, seeking academic positions, or aiming for senior clinical roles. Not necessary: For general hospital staff pharmacist positions, pharmaceutical industry roles, or those preferring work-life balance immediately after degree. Consider residency as equivalent to medical residency - rigorous but significantly enhances career trajectory and earning potential.</p>
+                </div>
+            </div>
+
+            {/* Q11 */}
+            <div className="border border-[#0f8f56]/20 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(10)}
+                className={`w-full p-3 sm:p-4 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 10 ? 'bg-[#FBFBEE]' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-xs font-bold text-[#0b6d41] pr-4">Q11: How many Pharm.D colleges are there in Tamil Nadu?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 10 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+                <div hidden={expandedFAQ !== 10} className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#0f8f56]/20">
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#032816]">52, all self-financing, with 30 sanctioned seats each (1,560 in total), on The Tamil Nadu Dr. M.G.R. Medical University&rsquo;s Pharm.D list for 2025-26 (dated 11.08.2026). In 2026-27, the Selection Committee offered 976 government-quota Pharm.D seats in 51 of these colleges.</p>
+                </div>
+            </div>
+
+            {/* Q12 */}
+            <div className="border border-[#0f8f56]/20 rounded-lg overflow-hidden">
+              <button
+                onClick={() => toggleFAQ(11)}
+                className={`w-full p-3 sm:p-4 text-left flex justify-between items-center transition-colors ${
+                  expandedFAQ === 11 ? 'bg-[#FBFBEE]' : 'bg-white'
+                }`}
+              >
+                <h3 className="text-xs font-bold text-[#0b6d41] pr-4">Q12: Is there a government Pharm.D college in Tamil Nadu?</h3>
+                <ChevronDown
+                  className={`w-6 h-6 text-[#0b6d41] flex-shrink-0 transition-transform ${
+                    expandedFAQ === 11 ? 'rotate-180' : ''
+                  }`}
+                />
+              </button>
+                <div hidden={expandedFAQ !== 11} className="voice-answer p-3 sm:p-4 bg-[#FBFBEE] border-t border-[#0f8f56]/20">
+                  <p className="text-[10px] xs:text-xs sm:text-xs text-[#032816]">No government college is on the university&rsquo;s 2025-26 Pharm.D list, and the 2026-27 Selection Committee prospectus admits Pharm.D students only to self-financing colleges. Government-quota seats are inside those colleges, allotted on +2 marks through online counselling.</p>
                 </div>
             </div>
           </div>
