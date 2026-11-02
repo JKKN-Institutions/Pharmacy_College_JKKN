@@ -109,6 +109,13 @@ export default function PharmDPage() {
         </div>
       </div>
 
+      {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat 75.6 of 78.8 screens down. */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        <div className="max-w-xl mx-auto">
+          <PharmacyEnquiryForm sourcePage="pharm-d-top" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} compact heading="Pharm.D at JKKN - Get a Call Back" />
+        </div>
+      </div>
+
       {/* Pharm.D vs Pharm.D (Post Baccalaureate) - Complete Comparison */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center gap-3 mb-4">
@@ -2467,6 +2474,11 @@ export default function PharmDPage() {
             How to read each official source:{' '}
             <a href="/blog/campus/where-the-official-pharm-d-college-list-comes-from/" className="text-[#0b6d41] underline">where the Pharm.D college list comes from</a>.
           </p>
+
+          {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat far below the colleges list a list-search visitor came for. */}
+          <div className="max-w-xl mx-auto mb-6">
+            <PharmacyEnquiryForm sourcePage="pharm-d-list" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} compact heading="Considering JKKN? Get a Call Back" />
+          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="bg-gradient-to-br from-[#d4f1e4] to-[#d4f1e4] rounded-lg shadow-lg p-6 border-l-4 border-[#0b6d41]">

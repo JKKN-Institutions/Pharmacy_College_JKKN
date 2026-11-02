@@ -238,6 +238,11 @@ export default function BestPharmacyCollegesTamilNadu() {
           </div>
         </section>
 
+        {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat 18.2 of 21.2 screens down. */}
+        <div className="max-w-xl mx-auto mb-12">
+          <PharmacyEnquiryForm sourcePage="blog-best-top" compact heading="Pharmacy admission at JKKN - Get a Call Back" />
+        </div>
+
         {/* SNIPPET TARGET — Exact Query Match as H2 */}
         <section className="mb-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6">

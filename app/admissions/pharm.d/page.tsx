@@ -138,6 +138,11 @@ export default function PharmDAdmissionPage() {
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
 
+          {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat 14.1 of 16.9 screens down. */}
+          <div className="max-w-xl mx-auto mb-8 sm:mb-10">
+            <PharmacyEnquiryForm sourcePage="admissions-pharm-d-top" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} compact heading="Pharm.D 2027-28 - Get a Call Back" />
+          </div>
+
           {/* Quick Facts */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-10">
             <div className="bg-white rounded-lg shadow-sm p-4 sm:p-5 border-l-4 border-[#0f8f56]">
