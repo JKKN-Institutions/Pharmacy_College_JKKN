@@ -28,30 +28,33 @@ export default function PharmDAdmissionPage() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null)
   const toggleFAQ = (index: number) => setExpandedFAQ(expandedFAQ === index ? null : index)
 
+  // Government-quota route, from the Selection Committee (DME, Tamil Nadu) Pharm.D prospectus 2026-27
+  // (G.O.(D) No.658, 03.06.2026) and its Round 1 / Round 2 counselling schedules. Re-check when the
+  // 2027-28 prospectus is published.
   const admissionSteps = [
     {
       name: 'Check Eligibility',
-      text: 'For Pharm.D: a pass in 10+2 with Physics, Chemistry and Biology or Mathematics. For Pharm.D (Post Baccalaureate): a pass in B.Pharm from a PCI-approved institution. No minimum percentage is set by the PCI or the Tamil Nadu 2026-27 prospectus.',
+      text: 'Native of Tamil Nadu, a pass in +2 with Physics and Chemistry plus Biology (or Botany and Zoology) or Mathematics, and 17 years of age by 31 December of the admission year. Pharm.D (Post Baccalaureate): a pass in B.Pharm from a PCI-approved institution. No minimum percentage is set.',
     },
     {
-      name: 'Fill Application Form',
-      text: 'Complete the online application at jkkn.ai/apply/jkkn-admission-2026 or visit campus. Application fee is ₹1,000 (concessions for SC/ST with community certificate).',
+      name: 'Apply Online to the Selection Committee',
+      text: 'Apply at tnmedicalselection.org when the notification is out (2026-27: 21.06.2026 to 03.07.2026, 5 PM). The application fee is ₹1,000. Upload the certificates listed below with the form.',
     },
     {
-      name: 'Submit Required Documents',
-      text: 'Upload self-attested photocopies of +2 / B.Pharm mark sheet, transfer certificate, community certificate (if applicable), and other documents from the checklist.',
+      name: 'Merit List',
+      text: 'Pharm.D rank is on +2 science marks scaled to 200 (Physics and Chemistry with Biology, Botany and Zoology, or Mathematics), first-attempt marks only. Pharm.D (Post Baccalaureate) rank is on B.Pharm marks scaled to 100.',
     },
     {
-      name: 'Application Screening',
-      text: 'The Admission Committee screens applications using merit-based selection and the roster method as per Tamil Nadu Government norms.',
+      name: 'Online Counselling',
+      text: 'Pay the ₹500 counselling processing fee, then fill and lock your choice of colleges in the scheduled window. Seats are allotted on rank, applying the Tamil Nadu rule of reservation.',
     },
     {
-      name: 'Counselling & Selection',
-      text: 'Attend the counselling on the announced dates. Selection is based on +2 PCB marks (Pharm.D) or B.Pharm aggregate (Pharm.D PB).',
+      name: 'Allotment & Reporting',
+      text: 'Download the provisional allotment order and join the allotted college in person before the date and time printed on it, with original certificates. The college holds a medical examination, and a Hepatitis-B vaccination certificate is required.',
     },
     {
-      name: 'Fee Payment & Enrolment',
-      text: 'Pay admission fees within 7 days of seat allotment. Submit original documents for verification and complete enrolment formalities.',
+      name: 'Later Rounds',
+      text: 'Vacancies are filled in further online rounds, and candidates who joined in round 1 can register for re-allotment. Round dates are posted only on the Selection Committee website.',
     },
   ]
 
@@ -64,15 +67,15 @@ export default function PharmDAdmissionPage() {
     {
       question: 'What is the eligibility for Pharm.D at JKKN?',
       answer:
-        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics and Chemistry plus either Biology or Mathematics, or a D.Pharm from a PCI-approved institution. For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution. The PCI Pharm.D Regulations, 2008 and the Tamil Nadu 2026-27 prospectus set no minimum percentage.',
+        'For Pharm.D (6 years): Candidates must have passed 10+2 with Physics and Chemistry plus either Biology or Mathematics. D.Pharm holders can also apply, but they are ranked on their +2 marks and still study six years (Tamil Nadu prospectus 2026-27). For Pharm.D Post Baccalaureate (3 years): Candidates must hold a B.Pharm degree from a PCI-approved institution. The PCI Pharm.D Regulations, 2008 and the Tamil Nadu 2026-27 prospectus set no minimum percentage.',
     },
     {
       question: 'Is NEET required for Pharm.D admission in Tamil Nadu?',
       answer:
-        'No, NEET is not mandatory for Pharm.D admission at JKKN College of Pharmacy in Tamil Nadu. Admission is granted based on +2 marks in Physics, Chemistry and Biology or Mathematics, through college counselling. NEET may be required in some other states.',
+        'No, NEET is not mandatory for Pharm.D admission at JKKN College of Pharmacy in Tamil Nadu. Government-quota seats are allotted on +2 marks in Physics, Chemistry and Biology or Mathematics, through the Selection Committee online counselling. NEET may be required in some other states.',
     },
     {
-      question: 'What is the Pharm.D fee structure at JKKN for 2026?',
+      question: 'What is the Pharm.D fee structure at JKKN for 2026-27?',
       answer:
         'Pharm.D (6 years) Management Quota fee: ₹2,75,000/year (Day Scholar) or ₹3,25,000/year (with Hostel). Pharm.D (Post Baccalaureate) Management Quota fee: ₹70,000/year (Day Scholar) or ₹1,50,000/year (with Hostel). For Government Quota seats in self-financing colleges, the Tamil Nadu Selection Committee 2026-27 Pharm.D prospectus prints tuition of ₹2,00,000 plus other fees. Mess, transport, exam, library fees are additional.',
     },
@@ -109,10 +112,10 @@ export default function PharmDAdmissionPage() {
         <div className="max-w-7xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 bg-white/20 px-4 sm:px-6 py-2 rounded-full text-white font-bold text-[10px] sm:text-xs mb-4 sm:mb-6">
             <Stethoscope className="w-5 h-5 sm:w-6 sm:h-6" />
-            PHARM.D ADMISSIONS OPEN 2026
+            PHARM.D ADMISSION 2027-28
           </div>
           <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
-            Pharm.D Admission 2026
+            Pharm.D Admission 2027-28
           </h1>
           <p className="text-xs sm:text-sm md:text-base text-gray-100 max-w-3xl mx-auto">
             Doctor of Pharmacy (6 Years) &amp; Pharm.D Post Baccalaureate (3 Years) at JKKN College of Pharmacy — PCI approved, NAAC A Grade
@@ -125,7 +128,7 @@ export default function PharmDAdmissionPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-white text-[#0b6d41] px-6 sm:px-8 py-3 sm:py-4 rounded-full text-xs sm:text-sm font-bold hover:bg-[#FBFBEE] transition-all shadow-lg"
             >
-              Apply Now for Pharm.D 2026
+              Enquire for Pharm.D 2027-28
             </a>
           </div>
         </div>
@@ -194,7 +197,7 @@ export default function PharmDAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Selection based on +2 PCB merit through college counselling.</span>
+                  <span>Government-quota seats: open to natives of Tamil Nadu, ranked on +2 science marks (out of 200) in the Selection Committee online counselling (Tamil Nadu prospectus 2026-27).</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
@@ -216,10 +219,6 @@ export default function PharmDAdmissionPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
-                  <span>Registered with State Pharmacy Council.</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-0.5" />
                   <span>Direct entry into the 4th year (Pharm.D Year 4 equivalent) of the Pharm.D programme.</span>
                 </li>
               </ul>
@@ -230,7 +229,7 @@ export default function PharmDAdmissionPage() {
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <IndianRupee className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
-              Fee Structure 2026
+              Fee Structure 2026-27
             </h2>
 
             <div className="overflow-x-auto w-full px-4 sm:px-0 -mx-4 sm:mx-0">
@@ -273,7 +272,7 @@ export default function PharmDAdmissionPage() {
             </div>
 
             <div className="mt-4 space-y-2 text-[10px] sm:text-xs text-gray-600">
-              <p>* Application form cost: ₹1,000 (concessions for SC/ST with community certificate).</p>
+              <p>* Selection Committee application fee: ₹1,000 (Tamil Nadu prospectus 2026-27).</p>
               <p>* Mess, transport, exam, library, and other fees are charged separately.</p>
               <p>* Fees are subject to revision as per university/government directives.</p>
               <p>* Detailed fee breakdown is available in the official prospectus.</p>
@@ -304,6 +303,12 @@ export default function PharmDAdmissionPage() {
                 </div>
               ))}
             </div>
+
+            <div className="mt-4 p-4 bg-[#fbfbee] border-l-4 border-[#0f8f56] rounded">
+              <p className="text-[10px] sm:text-xs md:text-sm text-gray-700">
+                <strong>Management-quota seats</strong> are admitted by the college, not by the Selection Committee. Call the admission office on +91 93458 55001 for the current process.
+              </p>
+            </div>
           </div>
 
           {/* Documents Required */}
@@ -315,22 +320,20 @@ export default function PharmDAdmissionPage() {
 
             <div className="bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-sm border-l-4 border-[#0f8f56]">
               <p className="text-[10px] sm:text-xs md:text-sm text-gray-700 mb-6">
-                Self-attested photocopies of the following documents must be submitted with the application. Originals are required during admission counselling for verification.
+                Upload these with the online application to the Selection Committee (Tamil Nadu prospectus 2026-27, clause 11). Bring the originals and copies when you report to the college.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {[
-                  { title: '+2 Mark Sheet (Pharm.D)', desc: 'With Physics, Chemistry and Biology or Mathematics' },
-                  { title: 'B.Pharm Mark Sheets (Pharm.D PB)', desc: 'All-semester mark sheets and degree certificate' },
-                  { title: '10th Mark Sheet', desc: 'For date of birth proof' },
-                  { title: 'Transfer Certificate', desc: 'Original TC from the last institution attended' },
-                  { title: 'Community Certificate', desc: 'For SC/ST/MBC/BC/OBC candidates' },
-                  { title: 'Conduct Certificate', desc: 'From the last institution attended' },
-                  { title: 'Aadhaar Card', desc: 'Photocopy with self-attestation' },
-                  { title: 'Eligibility Certificate', desc: 'For learners from other state boards/universities' },
-                  { title: 'State Pharmacy Council Registration', desc: 'Pharm.D PB applicants only' },
-                  { title: 'Passport Photos', desc: '6 recent passport-size colour photographs' },
-                  { title: 'Special Quota Proof', desc: 'Differently abled / Sports / NCC / Ex-Servicemen' },
-                  { title: 'Income Certificate', desc: 'For scholarship applications (if applicable)' },
+                  { title: '+2 (HSC) Mark Sheet(s)', desc: 'Endorsed by the competent authority, both sides' },
+                  { title: '10th Mark Sheet', desc: 'X standard mark sheet' },
+                  { title: 'Transfer Certificate', desc: 'Issued after completing +2 (HSC)' },
+                  { title: 'Nativity Certificate', desc: 'From the competent Revenue Authority of Tamil Nadu' },
+                  { title: 'Community Certificate', desc: 'From the Revenue Authority of Tamil Nadu, to claim reservation' },
+                  { title: 'Parent Community Certificate', desc: 'Either parent, from the Revenue Authority of Tamil Nadu' },
+                  { title: 'Proof of Study, 6th to 12th Std', desc: 'For candidates who studied in Tamil Nadu' },
+                  { title: 'First Graduate Certificate', desc: 'Only if claiming first-graduate status' },
+                  { title: 'Eligibility Certificate', desc: 'From The Tamil Nadu Dr. M.G.R. Medical University, for other boards' },
+                  { title: 'B.Pharm Mark Sheets (Pharm.D PB)', desc: 'Pharm.D (PB) rank is on B.Pharm marks' },
                 ].map((doc, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-[#0b6d41] flex-shrink-0 mt-1" />
@@ -344,7 +347,7 @@ export default function PharmDAdmissionPage() {
 
               <div className="mt-6 p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded">
                 <p className="text-[10px] sm:text-xs md:text-sm text-gray-700">
-                  <strong>Important:</strong> All originals should be presented during admission. Failure to submit required documents may result in admission cancellation.
+                  <strong>Important:</strong> All originals must be produced at the time of admission, or the selection is cancelled. A Hepatitis-B vaccination certificate is also required (Tamil Nadu prospectus 2026-27, clauses 30 and 35).
                 </p>
               </div>
             </div>
@@ -354,20 +357,20 @@ export default function PharmDAdmissionPage() {
           <div className="mb-6 sm:mb-8 md:mb-10">
             <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-gray-900 mb-4 sm:mb-6 flex items-center gap-3">
               <Calendar className="w-6 h-6 sm:w-8 sm:h-8 text-[#0b6d41]" />
-              Important Dates 2026
+              Pharm.D Counselling Dates (Official)
             </h2>
 
             <div className="bg-white rounded-lg shadow-sm overflow-hidden border border-gray-200">
               <div className="divide-y divide-gray-200">
                 {[
-                  { title: 'Application Form Release', date: 'Five days before +2 results — Expected May 2026' },
-                  { title: 'Application Submission Window', date: 'After +2 results — May to June 2026' },
-                  { title: 'Last Date to Apply', date: 'To be announced (late applications considered subject to seat availability)' },
-                  { title: 'Pharm.D Counselling', date: 'Expected June-July 2026 (announced via website and SMS)' },
-                  { title: 'Pharm.D Post Baccalaureate Counselling', date: 'July-August 2026 (after B.Pharm result publication)' },
-                  { title: 'Document Verification', date: 'During counselling — bring all original documents' },
-                  { title: 'Fee Payment Deadline', date: 'Within 7 days of seat allotment' },
-                  { title: 'Classes Commencement', date: 'Expected August 2026 (per academic calendar)' },
+                  { title: '2027-28 session', date: 'Not announced yet. The Selection Committee posts it on tnmedicalselection.org (the 2026-27 notification came on 21.06.2026).' },
+                  { title: '2026-27: Notification and online application', date: '21.06.2026 (12.01 PM) to 03.07.2026 (5.00 PM)' },
+                  { title: '2026-27: Provisional rank list', date: 'Notice posted 12.08.2026' },
+                  { title: '2026-27 Round 1: Registration, payment, choice filling', date: '07.09.2026 (10 AM) to 09.09.2026 (5 PM)' },
+                  { title: '2026-27 Round 1: Result and allotment order', date: 'Result 11.09.2026, allotment order 12.09.2026, report to college by 15.09.2026 (5 PM)' },
+                  { title: '2026-27 Round 2: Registration and payment', date: '23.10.2026 (10 AM) to 24.10.2026 (5 PM)' },
+                  { title: '2026-27 Round 2: Choice filling and locking', date: '25.10.2026 (10 AM) to 26.10.2026 (5 PM)' },
+                  { title: '2026-27 Round 2: Result and allotment order', date: '28.10.2026, report to college by 31.10.2026 (5 PM)' },
                 ].map((d, idx) => (
                   <div key={idx} className="p-4 sm:p-6 hover:bg-[#F5F1E8] transition-colors">
                     <div className="flex items-start gap-4">
@@ -384,7 +387,10 @@ export default function PharmDAdmissionPage() {
 
             <div className="mt-4 p-4 bg-[#fbfbee] border-l-4 border-[#0f8f56] rounded">
               <p className="text-[10px] sm:text-xs md:text-sm text-gray-700">
-                <strong>Note:</strong> Exact dates will be announced through newspapers, the official website, and SMS to registered applicants. Please check pharmacy.jkkn.ac.in regularly for updates.
+                <strong>Source:</strong> Selection Committee, Directorate of Medical Education and Research, Tamil Nadu - Pharm.D prospectus 2026-27 (G.O.(D) No.658, 03.06.2026) and the Round 1 and Round 2 counselling schedules, on the{' '}
+                <a href="https://tnmedicalselection.net/Notification.aspx" target="_blank" rel="noopener noreferrer" className="text-[#0b6d41] underline">Selection Committee notifications page</a>.
+                {' '}Step-by-step guide:{' '}
+                <a href="/blog/campus/pharmd-counselling-tamil-nadu-2026-guide/" className="text-[#0b6d41] underline">Pharm.D Counselling 2027 in Tamil Nadu</a>.
               </p>
             </div>
           </div>
@@ -528,7 +534,7 @@ export default function PharmDAdmissionPage() {
           <div className="bg-gradient-to-r from-[#0b6d41] via-[#0f8f56] to-[#0f8f56] text-white rounded-lg shadow-xl p-8 sm:p-10 md:p-12 text-center">
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Become a Doctor of Pharmacy</h2>
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
-            <p className="text-[10px] xs:text-xs sm:text-sm md:text-base mb-8">Join the 2026 Pharm.D batch and earn the "Dr." prefix as a Clinical Pharmacist!</p>
+            <p className="text-[10px] xs:text-xs sm:text-sm md:text-base mb-8">Join the 2027-28 Pharm.D batch and earn the "Dr." prefix as a Clinical Pharmacist!</p>
 
             {/* DEP-34 - enquiry form. Posts to the CRM from the server; a browser
                 cannot POST there directly - the endpoint sends no CORS header. */}
@@ -541,10 +547,10 @@ export default function PharmDAdmissionPage() {
               rel="noopener noreferrer"
               className="bg-white text-[#0b6d41] px-8 py-4 rounded-full text-[10px] sm:text-sm md:text-base font-bold hover:bg-[#FBFBEE] transition-all shadow-lg inline-block"
             >
-              <span className="lg:hidden">Apply Now</span>
-              <span className="hidden lg:inline">Apply Now for Pharm.D 2026</span>
+              <span className="lg:hidden">Enquire Now</span>
+              <span className="hidden lg:inline">Enquire for Pharm.D 2027-28</span>
             </a>
-            <p className="mt-6 text-xs sm:text-sm">Admissions Open | Limited Seats | NAAC Accredited (A) · PCI Approved</p>
+            <p className="mt-6 text-xs sm:text-sm">NAAC Accredited (A) · PCI Approved</p>
           </div>
         </div>
       </main>
