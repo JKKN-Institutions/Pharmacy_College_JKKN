@@ -143,8 +143,8 @@ const faqSchema = {
 }
 
 export const metadata: Metadata = {
-  title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
-  description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
+  title: 'Pharm D Colleges in Tamilnadu: 6-Year PCI Course | JKKN',
+  description: 'Pharm D at JKKN, Komarapalayam: TN govt-quota seats on +2 marks, no NEET. 6-year PCI-approved course with 1-year hospital clerkship. Enquire now.',
   keywords: [
     'best pharm d colleges in tamilnadu',
     'pharm d colleges in tamilnadu',
@@ -161,8 +161,8 @@ export const metadata: Metadata = {
     canonical: 'https://pharmacy.jkkn.ac.in/pharm-d/',
   },
   openGraph: {
-    title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
+    title: 'Pharm D Colleges in Tamilnadu: 6-Year PCI Course | JKKN',
+    description: 'Pharm D at JKKN, Komarapalayam: TN govt-quota seats on +2 marks, no NEET. 6-year PCI-approved course with 1-year hospital clerkship. Enquire now.',
     url: 'https://pharmacy.jkkn.ac.in/pharm-d/',
     siteName: 'JKKN College of Pharmacy',
     locale: 'en_IN',
@@ -178,8 +178,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Pharm D Colleges in Tamilnadu | JKKN Pharmacy College',
-    description: 'Looking for the best Pharm D colleges in Tamilnadu? JKKN offers a 6-year PCI-approved Pharm.D course — a top Pharm.D college. Admissions Open 2026-27!',
+    title: 'Pharm D Colleges in Tamilnadu: 6-Year PCI Course | JKKN',
+    description: 'Pharm D at JKKN, Komarapalayam: TN govt-quota seats on +2 marks, no NEET. 6-year PCI-approved course with 1-year hospital clerkship. Enquire now.',
     images: ['/images/Pharmacy-Homepage-Hero-Banner-Image.webp'],
   },
 }
