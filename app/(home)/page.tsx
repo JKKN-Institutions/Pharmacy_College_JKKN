@@ -153,16 +153,19 @@ export default function Home() {
                 <span className="text-[#ffde59]">PCI Approved &amp; NAAC A Grade</span>
               </h1>
 
-              {/* Phones: the call-back button sits right under the heading, inside the first screen (2026-10-16) */}
+              {/* Phones: the call button sits right under the heading, inside the first screen (2026-10-16).
+                  Renamed "Get a Call Back" -> "Call Counsellor" 2026-11-04: it is now a call gate,
+                  form then dialer in the same tap (lib/call-gate.ts), as on the Dental site. */}
               <div className="lg:hidden mb-5">
-                <p className="text-sm text-gray-200 mb-3">Fill 3 details. Our admission team will call you within 24 hours.</p>
+                <p className="text-sm text-gray-200 mb-3">Fill 3 details, then talk to our admission counsellor right away.</p>
                 <EnquiryButton
-                  sourcePage="home-hero-btn"
+                  sourcePage="call-gate-home-hero"
+                  intent="call"
                   fallbackHref="https://www.jkkn.ai/apply/jkkn-admission-2026?utm_source=pharmacy.jkkn.ac.in&utm_campaign=home"
                   fallbackLabel="Start Your Application →"
                   className="w-full bg-[#ffde59] hover:bg-[#e6c64d] text-[#032816] font-semibold px-6 py-3 rounded-full transition-all duration-300 flex items-center justify-center gap-2 text-base min-h-[44px]"
                 >
-                  Get a Call Back
+                  Call Counsellor
                 </EnquiryButton>
               </div>
 
