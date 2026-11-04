@@ -9,6 +9,11 @@ import { OrganizationSchema } from '@/components/SchemaOrg'
 import { EnquiryModalProvider } from '@/components/lead/EnquiryModal'
 import dynamic from 'next/dynamic'
 
+// ANALYTICS_OFF=1 at build time is for a LOCAL test build only (the 2026-11-04 test of the Call /
+// WhatsApp gate runs `next start` on this laptop). Vercel never sets it.
+const IS_PRODUCTION_BUILD =
+  process.env.NODE_ENV === 'production' && process.env.ANALYTICS_OFF !== '1'
+
 const SchemaValidatorDev = process.env.NODE_ENV === 'development'
   ? dynamic(() => import('@/components/SchemaValidatorDev'))
   : () => null
@@ -65,6 +70,10 @@ export const metadata: Metadata = {
     'last-modified': '2026-03-24',
     'article:modified_time': '2026-03-24',
   },
+  // iPhone Safari turns any phone number in plain text into a dial link of its own, which skipped
+  // the Call / WhatsApp form gate (2026-11-04, same as the Dental site: those taps must also go
+  // form -> dialer). Off here; EnquiryModal's plain-number tap listener takes those taps instead.
+  formatDetection: { telephone: false },
   icons: {
     icon: '/images/logo.png',
     shortcut: '/images/logo.png',
@@ -120,9 +129,13 @@ export default function RootLayout({
         <link rel="alternate" type="text/plain" href="/llms.txt" title="llms.txt" />
         <link rel="alternate" type="text/plain" href="/llms-full.txt" title="llms-full.txt" />
       </head>
+      {/* Analytics load only in a real production build (2026-11-04): a local test - the Call /
+          WhatsApp gate test included - must not write test taps into the live GA4 property or the
+          Meta pixel. Vercel production and preview builds are unaffected. */}
       {/* Google Analytics (GA4) — tracks SPA route changes */}
-      <GoogleAnalytics />
+      {IS_PRODUCTION_BUILD && <GoogleAnalytics />}
       {/* Meta Pixel */}
+      {IS_PRODUCTION_BUILD && (
       <Script id="meta-pixel" strategy="afterInteractive">
         {`
           !function(f,b,e,v,n,t,s)
@@ -137,7 +150,9 @@ export default function RootLayout({
           fbq('track', 'PageView');
         `}
       </Script>
+      )}
       <body className={poppins.className} suppressHydrationWarning>
+        {IS_PRODUCTION_BUILD && (
         <noscript>
           <img
             height="1"
@@ -147,6 +162,7 @@ export default function RootLayout({
             alt=""
           />
         </noscript>
+        )}
         <OrganizationSchema />
         <ConversionTracking />
         <SchemaValidatorDev />
