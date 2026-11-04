@@ -140,7 +140,7 @@ export default function PharmDAdmissionPage() {
 
           {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat 14.1 of 16.9 screens down. */}
           <div className="max-w-xl mx-auto mb-8 sm:mb-10">
-            <PharmacyEnquiryForm sourcePage="admissions-pharm-d-top" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} compact heading="Pharm.D 2027-28 - Get a Call Back" />
+            <PharmacyEnquiryForm sourcePage="admissions-pharm-d-top" defaultProgrammeId={DEFAULT_PROGRAMME_BY_PAGE["pharm-d"]} compact heading="Pharm.D 2027-28 - Talk to Our Admission Team" />
           </div>
 
           {/* Quick Facts */}

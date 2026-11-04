@@ -240,7 +240,7 @@ export default function BestPharmacyCollegesTamilNadu() {
 
         {/* Step 4 of the 10,300-lead plan (2026-11-02): a compact form high on the page - on a phone the only form sat 18.2 of 21.2 screens down. */}
         <div className="max-w-xl mx-auto mb-12">
-          <PharmacyEnquiryForm sourcePage="blog-best-top" compact heading="Pharmacy admission at JKKN - Get a Call Back" />
+          <PharmacyEnquiryForm sourcePage="blog-best-top" compact heading="Pharmacy admission at JKKN - Talk to Our Admission Team" />
         </div>
 
         {/* SNIPPET TARGET — Exact Query Match as H2 */}
