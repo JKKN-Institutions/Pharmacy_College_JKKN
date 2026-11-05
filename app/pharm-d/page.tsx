@@ -1,5 +1,6 @@
 ﻿'use client'
 
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { PHARMD_COLLEGES_TN, PHARMD_DISTRICTS, TNMGRMU_PHARMD_LIST_URL, DME_NOTIFICATIONS_URL } from '@/lib/pharmd-colleges-tn';
@@ -3163,6 +3164,7 @@ export default function PharmDPage() {
             <a href="/pdf/brochure.pdf" download className="bg-[#ffde59] text-[#032816] font-bold text-base px-10 py-4 rounded-full hover:bg-[#e6c64d] focus:outline-none focus:ring-2 focus:ring-[#0f8f56] focus:ring-offset-2 focus:ring-offset-[#0b6d41] transition-colors shadow-lg">
               Download Brochure
             </a>
+            <BrochureWhatsAppLink className="bg-[#ffde59] text-[#032816] font-bold text-base px-10 py-4 rounded-full hover:bg-[#e6c64d] focus:outline-none focus:ring-2 focus:ring-[#0f8f56] focus:ring-offset-2 focus:ring-offset-[#0b6d41] transition-colors shadow-lg" />
           </div>
           <p className="mt-6 text-xs">PCI Approved | Clinical Excellence | Hospital Practice | Patient Care Focus</p>
         </div>

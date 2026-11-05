@@ -1,4 +1,5 @@
 'use client'
+import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import PciMPharmSource from '@/components/PciMPharmSource'
 import Link from 'next/link'
 
@@ -864,6 +865,7 @@ export default function AdmissionProcessPage() {
               <FileText className="w-5 h-5" />
               Download Prospectus
             </a>
+            <BrochureWhatsAppLink label="Get Prospectus on WhatsApp" className="inline-flex items-center gap-2 px-6 sm:px-8 py-3 sm:py-4 bg-[#0b6d41] text-white text-xs sm:text-sm lg:text-base font-semibold rounded hover:bg-[#085032] transition-colors" />
           </div>
         </div>
       </main>
