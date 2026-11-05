@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
 import CampusBlogContent from './CampusBlogContent';
+import { inlineCtaFor } from '@/lib/blog-inline-cta';
 import { buildPostBody } from '@/lib/blog-render';
 
 export const revalidate = 300;
@@ -175,6 +176,8 @@ export default async function CampusBlogPost({
         popularPosts={popularPosts ?? []}
         relatedPosts={relatedPosts ?? []}
         initialComments={initialComments ?? []}
+        /* Enquiry box inside every post (lead option 2, 2026-11-05) - place from lib/blog-inline-cta.ts. */
+        inlineCta={inlineCtaFor(slug, processedHtml)}
       />
 
       <ScrollToTop />
