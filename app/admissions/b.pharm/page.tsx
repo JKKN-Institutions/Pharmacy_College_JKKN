@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import BlogEnquiryBox from '@/components/lead/BlogEnquiryBox'
 import { FaqSchema } from '@/components/SchemaOrg'
 import {
   GraduationCap,
@@ -134,6 +135,9 @@ export default function BPharmAdmissionPage() {
       {/* Main Content */}
       <main className="flex-1">
         <div className="max-w-7xl mx-auto px-4 xs:px-5 sm:px-6 lg:px-8 py-8 sm:py-10 md:py-12 lg:py-16">
+
+          {/* Enquiry box near the top (lead option, 2026-11-06): the page's only form sat far down, or there was none */}
+          <BlogEnquiryBox sourcePage="admissions-b-pharm-top" programmeId={DEFAULT_PROGRAMME_BY_PAGE["b-pharmacy"]} title="Get B.Pharm Fee & Admission Details" />
 
           {/* Quick Facts */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-10">

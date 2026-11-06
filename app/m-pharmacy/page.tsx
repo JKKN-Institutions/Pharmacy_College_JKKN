@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { GraduationCap, Landmark, Microscope, Scale, Target, ClipboardList, Lightbulb, CheckCircle, IndianRupee, HelpCircle, ChevronDown, ArrowRight } from 'lucide-react'
 import Header from '@/components/Header'
+import BlogEnquiryBox from '@/components/lead/BlogEnquiryBox'
 import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm";
 
 export default function MPharmacyPage() {
@@ -24,6 +25,12 @@ export default function MPharmacyPage() {
           <h1 className="text-base xs:text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-3">M.Pharm — Master of Pharmacy at JKKN College of Pharmacy, Tamil Nadu</h1>
           <p className="text-[9px] xs:text-[10px] sm:text-xs text-gray-100">6 PCI-Approved Specialisations • NAAC A Grade • Research Excellence • GPAT/GATE Pathway</p>
         </div>
+      </div>
+
+      {/* Enquiry box near the top (lead option, 2026-11-06): the page's form sat 34 phone screens down.
+          M.Pharm: no pre-select - six specialisations, the parent picks. */}
+      <div className="px-4">
+        <BlogEnquiryBox sourcePage="m-pharmacy-top" title="Get M.Pharm Fee & Admission Details" />
       </div>
 
       {/* What is M.Pharm Section */}
