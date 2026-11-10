@@ -72,6 +72,11 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // ── Broken internal links (Link Guard run 2026-11-09, fixed 2026-11-10) ─────────────
+      // Internal links pointed at these dead URLs. Each destination answered HTTP 200 on 2026-11-10
+      // (live check). Both slash forms listed; Next's own trailing-slash 308 answers one of them first.
+      { source: '/about/affiliation-details/pharmacy-council', destination: '/affiliation-details/', permanent: true },
+      { source: '/about/affiliation-details/pharmacy-council/', destination: '/affiliation-details/', permanent: true },
       // ── Existing fixes ────────────────────────────────────────────────────
       { source: '/nacc', destination: '/naac', permanent: true },
       { source: '/doctor-of-philosophy-phd', destination: '/phd', permanent: true },
