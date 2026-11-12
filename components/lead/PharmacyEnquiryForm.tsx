@@ -36,6 +36,17 @@ import { GATE_PHONE_DISPLAY, telGateUrl, whatsappGateUrl, type GateIntent, type 
 const ADMISSION_PHONE = "+919345855001"
 const ADMISSION_PHONE_DISPLAY = "+91 93458 55001"
 
+// Browser autofill fills a saved number as "07000000001" (Chrome 156, tel-national, India trunk 0 -
+// measured 2026-11-12 on this live form) or "+91 ...". The box and the server both accept exactly 10
+// digits from 6-9, so keep digits only and drop a leading 91 / 0 - otherwise a one-tap fill fails the
+// pattern check and the visitor has to retype it. Same helper as Dental (b879bd4).
+export function toTenDigitMobile(raw: string): string {
+  const digits = raw.replace(/\D/g, "")
+  if (digits.length === 12 && digits.startsWith("91")) return digits.slice(2)
+  if (digits.length === 11 && digits.startsWith("0")) return digits.slice(1)
+  return digits
+}
+
 // Trust line. Each item was checked on 2026-10-22 against the record of the body that issues it;
 // an item goes in only with a document behind it, so re-read the source before changing a value.
 //   NAAC 'A' Grade — NAAC's own list "Institutions accredited by NAAC having valid accreditation
@@ -342,6 +353,7 @@ export default function PharmacyEnquiryForm({
             id={fid("name")}
             type="text"
             name="name"
+            autoComplete="name"
             required
             minLength={2}
             placeholder="Enter your full name"
@@ -358,6 +370,12 @@ export default function PharmacyEnquiryForm({
             id={fid("phone")}
             type="tel"
             name="phone"
+            autoComplete="tel-national"
+            onInput={(e) => {
+              const box = e.currentTarget
+              const tenDigits = toTenDigitMobile(box.value)
+              if (tenDigits !== box.value) box.value = tenDigits
+            }}
             required
             inputMode="numeric"
             pattern="[6-9][0-9]{9}"
