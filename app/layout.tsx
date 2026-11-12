@@ -7,6 +7,7 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 import { ConversionTracking } from '@/components/analytics/ConversionTracking'
 import { OrganizationSchema } from '@/components/SchemaOrg'
 import { EnquiryModalProvider } from '@/components/lead/EnquiryModal'
+import WhatsAppButton from '@/components/WhatsAppButton'
 import dynamic from 'next/dynamic'
 
 // ANALYTICS_OFF=1 at build time is for a LOCAL test build only (the 2026-11-04 test of the Call /
@@ -173,6 +174,8 @@ export default function RootLayout({
         <EnquiryModalProvider>
           {children}
           <FooterWrapper />
+          {/* Floating WhatsApp, every page (user 2026-11-13). Inside the provider so the gate catches it. */}
+          <WhatsAppButton />
         </EnquiryModalProvider>
       </body>
     </html>
