@@ -47,7 +47,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
     },
     {
       question: "Does JKKN offer M.Pharm Regulatory Affairs under management quota?",
-      answer: "Yes. Seats are available under both government and management quota. The management quota tuition fee is Rs 75,000 per year, the same as the other five M.Pharm specialisations at JKKN. Government-quota tuition in self-financing colleges is Rs 75,000 a year under the Tamil Nadu Selection Committee 2026-27 prospectus. Admission enquiries can be made on +91 93458 55001."
+      answer: "Yes. Seats are available under both government and management quota. The management quota tuition fee is Rs 75,000 per year, the same as the other five M.Pharm specialisations at JKKN. Government-quota fee is As Per Government Norm. Admission enquiries can be made on +91 93458 55001."
     },
     {
       question: "Which regulatory agencies does the course cover?",
@@ -332,7 +332,7 @@ export default function PharmaceuticalRegulatoryAffairsPage() {
                   </tr>
                   <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                     <td className="py-2 font-semibold text-[#032816]">Tuition, government quota</td>
-                    <td className="py-2 text-right">&#8377;75,000 / year (TN 2026-27)</td>
+                    <td className="py-2 text-right">As Per Government Norm</td>
                   </tr>
                   <tr className="border-b border-gray-200">
                     <td className="py-2 font-semibold text-[#032816]">Government-quota seats, 2026-27</td>

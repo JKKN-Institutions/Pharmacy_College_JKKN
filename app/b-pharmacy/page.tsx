@@ -977,11 +977,11 @@ export default function BPharmacyPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="hover:bg-[#FBFBEE]">
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Government Colleges</td>
-                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹20,000 - ₹1,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">As Per Government Norm</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">State Government Colleges</td>
-                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">₹50,000 - ₹2,00,000</td>
+                  <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-700">As Per Government Norm</td>
                 </tr>
                 <tr className="hover:bg-[#FBFBEE]">
                   <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-gray-800">Private Colleges (Aided)</td>

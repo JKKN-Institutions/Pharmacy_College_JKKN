@@ -136,7 +136,7 @@ export default function MPharmacyPage() {
           M.Pharm in India". Sources: TNMGRMU M.Pharm affiliation list AY 2025-26 dated 11.08.2026 (64
           institutions, 2 government; JKKN = row 16, five branches, 60) and the DME Selection Committee
           Prospectus for M.Pharmacy 2025-26, G.O.(D) No.946 dated 13.08.2025 (own entrance exam, 55% / 50%
-          eligibility, tuition Rs 5,000 govt / Rs 70,000 GQ self-financing). JKKN 90 = six x 15 from 2026-27,
+          eligibility; fees not quoted on the site - As Per Government Norm, user 2026-11-13). JKKN 90 = six x 15 from 2026-27,
           confirmed by the college office 2026-09-22 (the university list predates Regulatory Affairs). NIRF
           list = artefacts/keywords/nirf-2025-pharmacy-tamilnadu.json. No "top" claim for JKKN. */}
       <div id="mpharm-colleges-tamil-nadu" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -145,7 +145,7 @@ export default function MPharmacyPage() {
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold text-[#0b6d41]">M.Pharm Colleges in Tamil Nadu (tamilnadu) — How Many, Fees, Entrance Exam</h2>
         </div>
         <p className="snippet-answer text-sm sm:text-base text-gray-800 leading-relaxed mb-6">
-          The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 64 M.Pharm colleges: 2 government and 62 self-financing. Government-quota seats in both are filled through the Tamil Nadu Selection Committee&apos;s own entrance exam (not GPAT); tuition is Rs 5,000 a year in government colleges and Rs 75,000 a year for government-quota seats in self-financing colleges (2026-27 prospectus).
+          The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 64 M.Pharm colleges: 2 government and 62 self-financing. Government-quota seats in both are filled through the Tamil Nadu Selection Committee&apos;s own entrance exam (not GPAT); the fee in both is As Per Government Norm (2026-27 prospectus).
         </p>
         <div className="overflow-x-auto mb-6">
           <table className="w-full border-collapse text-xs sm:text-sm">
@@ -205,7 +205,7 @@ export default function MPharmacyPage() {
             </div>
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">What is the M.Pharm fee in Tamil Nadu?</h3>
-              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">The Tamil Nadu Selection Committee&apos;s 2026-27 prospectus fixes M.Pharm tuition at Rs 5,000 a year in government colleges and Rs 75,000 a year for government-quota seats in self-financing colleges; special and other fees are paid at admission. Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year.</p>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">M.Pharm fees for government-quota seats, in government colleges and in self-financing colleges, are As Per Government Norm (Tamil Nadu Selection Committee 2026-27 prospectus). Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year.</p>
             </div>
             <div className="border border-gray-200 rounded-lg p-4 sm:p-5 bg-white">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-2">Which are the top M.Pharm colleges in Tamil Nadu?</h3>

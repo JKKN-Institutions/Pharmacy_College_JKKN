@@ -59,7 +59,7 @@ export default function Home() {
     },
     {
       question: "What is the fee structure for B.Pharm at JKKN Pharmacy College?",
-      answer: "B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
+      answer: "B.Pharm fee at JKKN College of Pharmacy is As Per Government Norm for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details."
     },
     {
       question: "Is JKKN Pharmacy College NAAC accredited?",
@@ -130,7 +130,7 @@ export default function Home() {
           { name: "Apply Online", text: "Submit your application via the TN Selection Committee counselling portal or the JKKN admissions website at jkkn.ai/apply/jkkn-admission-2026. Applications open May-June annually for the academic year starting in July." },
           { name: "Counselling or Selection", text: "Participate in TN Selection Committee or GPAT counselling for government quota seats, or apply through management quota for direct admission to JKKN College of Pharmacy." },
           { name: "Document Verification", text: "Submit original documents including 10+2 mark sheets, transfer certificate, community certificate, and identity proof for verification at the JKKN College of Pharmacy admission office." },
-          { name: "Fee Payment and Enrollment", text: "Complete fee payment as per Tamil Nadu government norms for government quota or management quota rates. Secure your admission and receive your enrollment confirmation from JKKN College of Pharmacy." }
+          { name: "Fee Payment and Enrollment", text: "Complete fee payment: As Per Government Norm for government quota, or management quota rates. Secure your admission and receive your enrollment confirmation from JKKN College of Pharmacy." }
         ]}
       />
       <Header />
@@ -1264,10 +1264,10 @@ export default function Home() {
               </thead>
               <tbody>
                 {[
-                  { program: 'B.Pharm', gq: 'As Per Govt Norms', mq: '₹1,40,000', remarks: '' },
-                  { program: 'Pharm.D', gq: 'As Per Govt Norms', mq: '₹2,75,000 (Day) / ₹3,25,000 (Hostel)', remarks: '' },
-                  { program: 'M.Pharm', gq: 'As Per Govt Norms', mq: '₹75,000', remarks: 'All Specialisations' },
-                  { program: 'Ph.D', gq: 'As Per Govt Norms', mq: 'As per University', remarks: '' },
+                  { program: 'B.Pharm', gq: 'As Per Government Norm', mq: '₹1,40,000', remarks: '' },
+                  { program: 'Pharm.D', gq: 'As Per Government Norm', mq: '₹2,75,000 (Day) / ₹3,25,000 (Hostel)', remarks: '' },
+                  { program: 'M.Pharm', gq: 'As Per Government Norm', mq: '₹75,000', remarks: 'All Specialisations' },
+                  { program: 'Ph.D', gq: 'As Per Government Norm', mq: 'As per University', remarks: '' },
                 ].map((row, i) => (
                   <tr key={row.program} className={i % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
                     <td className="px-4 py-3 font-medium">{row.program}</td>

@@ -76,7 +76,7 @@ The college is in Namakkal DISTRICT but Namakkal town itself is 65 km away (Nama
 
 ## Academic Programmes
 
-Six programmes are offered. Intake and management-quota fees below are as published on the college's own admissions page; government-quota fees follow Tamil Nadu government norms in every case.
+Six programmes are offered. Intake and management-quota fees below are as published on the college's own admissions page; government-quota fees are As Per Government Norm in every case.
 
 | Programme | Duration | Intake | Management Quota fee per year |
 |---|---|---|---|
@@ -92,7 +92,7 @@ Six programmes are offered. Intake and management-quota fees below are as publis
 | Pharm.D (Post Baccalaureate) | 3 years | 10 | Rs 70,000 (day scholar) / Rs 1,50,000 (with hostel) |
 | Ph.D in Pharmaceutical Sciences | 3 years and above | limited | see the Ph.D page |
 
-Government-quota seats in self-financing colleges, 2026-27 (Tamil Nadu Selection Committee prospectuses): B.Pharm and B.Pharm (LE) Rs 50,000 a year including tuition and other college fees; Pharm.D tuition Rs 2,00,000 plus other fees; M.Pharm tuition Rs 75,000 a year. Sources: https://tnmedicalselection.net/news/20062026234247.pdf, https://tnmedicalselection.net/news/28082026050032.pdf, https://tnmedicalselection.net/news/20062026232658.pdf, https://tnmedicalselection.net/news/14082026004705.pdf
+Government-quota fees for B.Pharm, B.Pharm (LE), Pharm.D, Pharm.D (PB) and M.Pharm: As Per Government Norm (Tamil Nadu Selection Committee prospectuses 2026-27). Sources: https://tnmedicalselection.net/news/20062026234247.pdf, https://tnmedicalselection.net/news/28082026050032.pdf, https://tnmedicalselection.net/news/20062026232658.pdf, https://tnmedicalselection.net/news/14082026004705.pdf
 
 Fees are subject to revision by the college and the affiliating university. The fee page carries the current figures: https://pharmacy.jkkn.ac.in/fee-structure/
 
@@ -296,7 +296,7 @@ A: Six - Pharmaceutics, Pharmacology, Pharmaceutical Chemistry, Pharmaceutical A
 A: Pharm.D is 6 years after 12th standard — 5 years academic plus a 1-year clinical clerkship, 30 seats. Pharm.D Post Baccalaureate is 3 years after B.Pharm — 2 years academic plus a 1-year clerkship, 10 seats.
 
 **Q: What is the B.Pharm fee at JKKN College of Pharmacy?**
-A: Rs 1,40,000 per year under management quota. Government quota fees follow Tamil Nadu government norms. Current figures are at https://pharmacy.jkkn.ac.in/fee-structure/.
+A: Rs 1,40,000 per year under management quota. Government quota fees are As Per Government Norm. Current figures are at https://pharmacy.jkkn.ac.in/fee-structure/.
 
 **Q: What is the placement record?**
 A: 78% of eligible graduates were placed for the 2024-25 batch - 97 of the 124 who sought placement, from the college's NIRF 2026 submission. 155 students graduated in total and 31 went to higher studies, so the all-graduates ratio in the same document is 62.6%. Highest package Rs 8 LPA, average Rs 3.5 LPA, across 30+ recruiters including Sun Pharma, Cipla, Dr. Reddy's, Lupin and Apollo Pharmacy.

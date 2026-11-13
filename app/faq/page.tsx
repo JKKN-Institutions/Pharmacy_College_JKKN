@@ -81,7 +81,7 @@ const categories: { id: string; label: string; faqs: Faq[] }[] = [
       },
       {
         question: 'What is the fee structure for B.Pharm at JKKN Pharmacy College?',
-        answer: 'B.Pharm fee at JKKN College of Pharmacy is as per Tamil Nadu government norms for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
+        answer: 'B.Pharm fee at JKKN College of Pharmacy is As Per Government Norm for government quota seats and management quota rates for management seats. The published fee is tuition only. Hostel, mess, transport, examination and caution-deposit charges are additional. Scholarships are available for merit learners and economically weaker sections. Contact the admission office at +91 9345855001 for the latest fee details.',
       },
     ],
   },

@@ -70,7 +70,7 @@ export default function BPharmAdmissionPage() {
     {
       question: 'What is the B.Pharm fee structure at JKKN for 2026?',
       answer:
-        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota fee in self-financing colleges is ₹50,000 per year, covering tuition and other college fees, under the Tamil Nadu Selection Committee 2026-27 prospectus. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC learners are eligible for Tamil Nadu government scholarships.',
+        'B.Pharm tuition fee for Management Quota is ₹1,40,000 per year. Government Quota fee is As Per Government Norm. Hostel, mess, transport, exam, and other charges are additional. SC/ST/BC/MBC learners are eligible for Tamil Nadu government scholarships.',
     },
     {
       question: 'How many B.Pharm seats are available at JKKN?',
@@ -249,14 +249,14 @@ export default function BPharmAdmissionPage() {
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">4 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">100 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,40,000 / year</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">B.Pharm (Lateral Entry)</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">3 Years</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">10 Seats</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,00,000 / year</td>
                   </tr>
                 </tbody>

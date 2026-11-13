@@ -40,7 +40,7 @@ const faqs = [
     question:
       'How much are the fees for pharmacy colleges in Tamil Nadu (tamilnadu)?',
     answer:
-      'For B.Pharm, the Tamil Nadu Selection Committee\u2019s 2025-26 prospectus fixes tuition at Rs 3,000 a year in government colleges and Rs 43,000 a year for government-quota seats in self-financing colleges (hostel, mess and transport extra). Management-quota fees are set by each college: at JKKN College of Pharmacy, B.Pharm management-quota tuition is Rs 1,40,000 a year. Deemed universities set their own fees, so confirm the current figure with the college.',
+      'For B.Pharm, the fee in government colleges and for government-quota seats in self-financing colleges is As Per Government Norm (hostel, mess and transport extra). Management-quota fees are set by each college: at JKKN College of Pharmacy, B.Pharm management-quota tuition is Rs 1,40,000 a year. Deemed universities set their own fees, so confirm the current figure with the college.',
   },
   {
     question:
@@ -84,7 +84,7 @@ const faqs = [
   {
     question: 'How many government B.Pharm colleges are there in Tamil Nadu?',
     answer:
-      'Two on the university\u2019s affiliation list: the College of Pharmacy at Madras Medical College, Chennai and the College of Pharmacy at Madurai Medical College, with 60 sanctioned seats each (120 in all). Their tuition is Rs 3,000 a year (2025-26 prospectus). Annamalai University, a state university, runs its own pharmacy faculty outside that list.',
+      'Two on the university\u2019s affiliation list: the College of Pharmacy at Madras Medical College, Chennai and the College of Pharmacy at Madurai Medical College, with 60 sanctioned seats each (120 in all). Their fee is As Per Government Norm. Annamalai University, a state university, runs its own pharmacy faculty outside that list.',
   },
   {
     question: 'Where can I get the list of B.Pharm colleges in Tamil Nadu as a PDF?',
@@ -351,14 +351,14 @@ export default function BestPharmacyCollegesTamilNadu() {
             where the official list is - the questions in Google's People Also Ask and related searches.
             Sources: TNMGRMU B.Pharm affiliation list AY 2025-26 dated 11.08.2026 (115 rows: 2 government,
             113 self-financing; JKKN = row 23, code 32, PA 1989-90, intake 100) and the DME Selection
-            Committee Prospectus for Paramedical Degree Courses 2025-26, clause 29 (tuition Rs 3,000/yr in
-            government colleges, Rs 43,000/yr for government-quota B.Pharm seats in self-financing colleges). */}
+            Committee Prospectus for Paramedical Degree Courses 2025-26, clause 29 (fees not quoted on the site:
+            As Per Government Norm, user 2026-11-13). */}
         <section id="bpharm-colleges-tamil-nadu" className="mb-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6">
             B.Pharm Colleges in Tamil Nadu (tamilnadu) — How Many, Government vs Private, Fees
           </h2>
           <p className="snippet-answer text-gray-800 leading-relaxed mb-6">
-            The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 115 B.Pharm colleges: 2 government colleges (Madras Medical College and Madurai Medical College, 60 seats each) and 113 self-financing colleges. Government-college tuition is Rs 3,000 a year; government-quota seats in self-financing colleges cost Rs 43,000 a year (2025-26 prospectus). Deemed universities admit and charge on their own terms.
+            The Tamil Nadu Dr. M.G.R. Medical University&apos;s 2025-26 list carries 115 B.Pharm colleges: 2 government colleges (Madras Medical College and Madurai Medical College, 60 seats each) and 113 self-financing colleges. Government-college fees and government-quota fees in self-financing colleges are As Per Government Norm. Deemed universities admit and charge on their own terms.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse text-sm sm:text-base">
@@ -380,13 +380,13 @@ export default function BestPharmacyCollegesTamilNadu() {
                   <td className="px-4 py-3 font-medium">Government</td>
                   <td className="px-4 py-3 text-gray-700">2 (Madras Medical College, Madurai Medical College; 60 seats each)</td>
                   <td className="px-4 py-3 text-gray-700">Selection Committee online counselling on +2 marks</td>
-                  <td className="px-4 py-3 text-gray-700">Rs 3,000</td>
+                  <td className="px-4 py-3 text-gray-700">As Per Government Norm</td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
                   <td className="px-4 py-3 font-medium">Self-financing — government quota</td>
                   <td className="px-4 py-3 text-gray-700" rowSpan={2}>113 on the university list, including JKKN College of Pharmacy (100 seats)</td>
                   <td className="px-4 py-3 text-gray-700">Same Selection Committee counselling</td>
-                  <td className="px-4 py-3 text-gray-700">Rs 43,000</td>
+                  <td className="px-4 py-3 text-gray-700">As Per Government Norm</td>
                 </tr>
                 <tr className="border-b border-gray-200">
                   <td className="px-4 py-3 font-medium">Self-financing — management quota</td>
@@ -442,10 +442,10 @@ export default function BestPharmacyCollegesTamilNadu() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">4 years</td>
                   <td className="px-4 py-3 text-[#085032]">
-                    ₹3,000/year tuition (Selection Committee 2025-26)
+                    As Per Government Norm
                   </td>
                   <td className="px-4 py-3 text-gray-700">
-                    ₹43,000/year government quota; management quota set by each college (JKKN ₹1,40,000/year)
+                    Government quota: As Per Government Norm; management quota set by each college (JKKN ₹1,40,000/year)
                   </td>
                 </tr>
                 <tr className="border-b border-gray-200 bg-gray-50">
@@ -454,7 +454,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">2 years</td>
                   <td className="px-4 py-3 text-[#085032]">
-                    ₹50,000–1 lakh/year
+                    As Per Government Norm
                   </td>
                   <td className="px-4 py-3 text-gray-700">
                     ₹1–3 lakh/year
@@ -466,7 +466,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">6 years</td>
                   <td className="px-4 py-3 text-[#085032]">
-                    ₹60,000–1.2 lakh/year
+                    As Per Government Norm
                   </td>
                   <td className="px-4 py-3 text-gray-700">
                     ₹80,000–4 lakh/year
@@ -478,7 +478,7 @@ export default function BestPharmacyCollegesTamilNadu() {
                   </td>
                   <td className="px-4 py-3 text-gray-600">2 years</td>
                   <td className="px-4 py-3 text-[#085032]">
-                    ₹20,000–50,000/year
+                    As Per Government Norm
                   </td>
                   <td className="px-4 py-3 text-gray-700">
                     ₹40,000–1.5 lakh/year

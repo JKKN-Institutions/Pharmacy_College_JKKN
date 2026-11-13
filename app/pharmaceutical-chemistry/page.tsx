@@ -1530,8 +1530,8 @@ export default function PharmaceuticalChemistryPage() {
             <tbody className="divide-y divide-gray-200">
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                 <td className="px-6 py-4 text-gray-900 font-semibold">Government Colleges</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹50,000 - ₹1,50,000</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹25,000 - ₹75,000</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
               </tr>
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                 <td className="px-6 py-4 text-gray-900 font-semibold">NIPER / IITs / ICT</td>
@@ -1540,8 +1540,8 @@ export default function PharmaceuticalChemistryPage() {
               </tr>
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                 <td className="px-6 py-4 text-gray-900 font-semibold">State Government Colleges</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹80,000 - ₹2,00,000</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹40,000 - ₹1,00,000</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
               </tr>
               <tr className="hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-[#0b6d41] focus:ring-offset-2">
                 <td className="px-6 py-4 text-gray-900 font-semibold">Private Colleges (Affiliated)</td>

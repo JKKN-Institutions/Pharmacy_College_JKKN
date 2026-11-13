@@ -2138,8 +2138,8 @@ export default function PharmDPage() {
                 <tbody>
                   <tr className="border-b border-[#0f8f56]/20">
                     <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Government Colleges</td>
-                    <td className="px-6 py-4">₹50,000 - ₹1,00,000</td>
-                    <td className="px-6 py-4 text-[#0b6d41] font-bold">₹3,00,000 - ₹6,00,000</td>
+                    <td className="px-6 py-4">As Per Government Norm</td>
+                    <td className="px-6 py-4 text-[#0b6d41] font-bold">As Per Government Norm</td>
                     <td className="px-6 py-4 text-xs sm:text-sm">JSS Ooty, Govt colleges in TN, Karnataka</td>
                   </tr>
                   <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
@@ -2182,8 +2182,8 @@ export default function PharmDPage() {
                 <tbody>
                   <tr className="border-b border-[#0f8f56]/20">
                     <td className="px-6 py-4 font-semibold text-xs sm:text-sm text-[#032816]">Government Colleges</td>
-                    <td className="px-6 py-4">₹40,000 - ₹80,000</td>
-                    <td className="px-6 py-4 text-[#0b6d41] font-bold">₹1,20,000 - ₹2,40,000</td>
+                    <td className="px-6 py-4">As Per Government Norm</td>
+                    <td className="px-6 py-4 text-[#0b6d41] font-bold">As Per Government Norm</td>
                     <td className="px-6 py-4 text-xs sm:text-sm">Govt pharmacy colleges</td>
                   </tr>
                   <tr className="bg-[#FBFBEE] border-b border-[#0f8f56]/20">
@@ -2456,8 +2456,7 @@ export default function PharmDPage() {
           <p className="text-xs sm:text-sm text-[#032816] mb-4">
             No government college is on the university&rsquo;s 2025-26 Pharm.D list, and the Selection Committee&rsquo;s 2026-27 Pharm.D
             prospectus admits students only to self-financing colleges. &ldquo;Government quota&rdquo; means seats inside these colleges,
-            allotted by the Selection Committee on +2 marks through online counselling, at the government-quota fee (tuition
-            &#8377;2,00,000 plus other fees in the 2026-27 prospectus). See the{' '}
+            allotted by the Selection Committee on +2 marks through online counselling, at the government-quota fee (As Per Government Norm). See the{' '}
             <a href="/blog/campus/pharmd-counselling-tamil-nadu-2026-guide/" className="text-[#0b6d41] underline">Pharm.D counselling guide</a>.
           </p>
 

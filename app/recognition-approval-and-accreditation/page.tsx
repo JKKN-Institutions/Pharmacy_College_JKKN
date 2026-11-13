@@ -128,9 +128,9 @@ export default function RecognitionApprovalAccreditationPage() {
 
           <Section title="Government-quota admission, 2026-27">
             <p>
-              For government-quota seats in self-financing colleges, the Tamil Nadu Selection Committee&apos;s 2026-27 prospectuses fix
-              B.Pharm and B.Pharm (Lateral Entry) at Rs 50,000 a year (tuition and other college fees; hostel, transport and mess extra),
-              Pharm.D tuition at Rs 2,00,000 plus other fees, and M.Pharm tuition at Rs 75,000 a year. B.Pharm, Pharm.D and Pharm.D
+              For government-quota seats, the fee for B.Pharm, B.Pharm (Lateral Entry), Pharm.D and M.Pharm is
+              As Per Government Norm (Tamil Nadu Selection Committee 2026-27 prospectuses).
+              B.Pharm, Pharm.D and Pharm.D
               (Post Baccalaureate) need a pass in the qualifying examination with no minimum percentage; B.Pharm (Lateral Entry) needs
               40% in D.Pharm (35% for SC, SCA and ST); M.Pharm needs 55% in B.Pharm (50% for SC, SCA and ST).
             </p>

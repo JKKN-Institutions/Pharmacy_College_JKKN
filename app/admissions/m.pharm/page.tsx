@@ -103,7 +103,7 @@ export default function MPharmAdmissionPage() {
     {
       question: 'What is the M.Pharm fee structure at JKKN for 2026?',
       answer:
-        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all six specialisations. Government Quota tuition in self-financing colleges is ₹75,000 per year under the Tamil Nadu Selection Committee 2026-27 prospectus. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
+        'M.Pharm tuition fee for Management Quota is ₹75,000 per year across all six specialisations. Government Quota fee is As Per Government Norm. Hostel, mess, transport, exam, library, and other charges are additional. GPAT-qualified candidates may be eligible for AICTE stipend and fee concessions.',
     },
     {
       question: 'How many M.Pharm seats are available at JKKN?',
@@ -304,7 +304,7 @@ export default function MPharmAdmissionPage() {
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">{spec.includes('Regulatory Affairs') ? <Link href="/pharmaceutical-regulatory-affairs/" className="text-[#0b6d41] underline">{spec}</Link> : spec}</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">2 Years</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">15 Seats</td>
-                      <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                      <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                       <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹75,000 / year</td>
                     </tr>
                   ))}

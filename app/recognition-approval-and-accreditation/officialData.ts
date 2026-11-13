@@ -59,7 +59,7 @@ export const FAQS: { question: string; alsoAsked: string; answer: string }[] = [
   {
     question: 'What is the government-quota fee for B.Pharm at JKKN in 2026-27?',
     alsoAsked: 'Government quota la B.Pharm fees evlo?',
-    answer: 'For a government-quota B.Pharm seat in a self-financing college such as JKKN College of Pharmacy, the Tamil Nadu Selection Committee\'s 2026-27 prospectus fixes Rs 50,000 a year. It covers tuition and the other college fees; hostel, transport and mess are extra. Management-quota fees are on the fee structure page.',
+    answer: 'For a government-quota B.Pharm seat in a self-financing college such as JKKN College of Pharmacy, the fee is As Per Government Norm; hostel, transport and mess are extra. Management-quota fees are on the fee structure page.',
   },
   {
     question: 'Is NEET required for Pharm.D at JKKN College of Pharmacy?',

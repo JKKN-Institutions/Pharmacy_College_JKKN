@@ -77,7 +77,7 @@ export default function ErodePage() {
     {
       question: 'What is the B.Pharm fee at JKKN College of Pharmacy?',
       answer:
-        'B.Pharm tuition for management-quota seats is Rs 1,40,000 per year. Government-quota seats follow Tamil Nadu Government fee norms. Tuition is the same for day scholars from Erode and hostel students; hostel, mess, transport and exam charges are extra. The full table is on the fee structure page.',
+        'B.Pharm tuition for management-quota seats is Rs 1,40,000 per year. Government-quota fees are As Per Government Norm. Tuition is the same for day scholars from Erode and hostel students; hostel, mess, transport and exam charges are extra. The full table is on the fee structure page.',
     },
     {
       question: 'What is the B.Pharm cut-off in Tamil Nadu?',

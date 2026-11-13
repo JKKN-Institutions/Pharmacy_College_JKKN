@@ -1258,8 +1258,8 @@ export default function PharmaceuticalAnalysisPage() {
               <tbody>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-4 py-3">Government Colleges</td>
-                  <td className="border border-gray-300 px-4 py-3">₹50,000 - ₹1,50,000</td>
-                  <td className="border border-gray-300 px-4 py-3">₹25,000 - ₹75,000</td>
+                  <td className="border border-gray-300 px-4 py-3">As Per Government Norm</td>
+                  <td className="border border-gray-300 px-4 py-3">As Per Government Norm</td>
                 </tr>
                 <tr className="bg-[#FBFBEE]">
                   <td className="border border-gray-300 px-4 py-3">Government Medical Colleges (NITs)</td>
@@ -1268,8 +1268,8 @@ export default function PharmaceuticalAnalysisPage() {
                 </tr>
                 <tr className="bg-white">
                   <td className="border border-gray-300 px-4 py-3">State Government Colleges</td>
-                  <td className="border border-gray-300 px-4 py-3">₹80,000 - ₹2,00,000</td>
-                  <td className="border border-gray-300 px-4 py-3">₹40,000 - ₹1,00,000</td>
+                  <td className="border border-gray-300 px-4 py-3">As Per Government Norm</td>
+                  <td className="border border-gray-300 px-4 py-3">As Per Government Norm</td>
                 </tr>
                 <tr className="bg-[#FBFBEE]">
                   <td className="border border-gray-300 px-4 py-3">Private Colleges (Affiliated)</td>

@@ -120,7 +120,7 @@ const faqSchema = {
       "name": "What is the M.Pharm fee in Tamil Nadu?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The Tamil Nadu Selection Committee's 2026-27 prospectus fixes M.Pharm tuition at Rs 5,000 a year in government colleges and Rs 75,000 a year for government-quota seats in self-financing colleges; special and other fees are paid at admission. Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year."
+        "text": "M.Pharm fees for government-quota seats, in government colleges and in self-financing colleges, are As Per Government Norm (Tamil Nadu Selection Committee 2026-27 prospectus). Management-quota fees are set by each college: at JKKN College of Pharmacy, M.Pharm management-quota tuition is Rs 75,000 a year."
       }
     },
     {

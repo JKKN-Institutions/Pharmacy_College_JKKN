@@ -77,7 +77,7 @@ export default function PharmDAdmissionPage() {
     {
       question: 'What is the Pharm.D fee structure at JKKN for 2026-27?',
       answer:
-        'Pharm.D (6 years) Management Quota fee: ₹2,75,000/year (Day Scholar) or ₹3,25,000/year (with Hostel). Pharm.D (Post Baccalaureate) Management Quota fee: ₹70,000/year (Day Scholar) or ₹1,50,000/year (with Hostel). For Government Quota seats in self-financing colleges, the Tamil Nadu Selection Committee 2026-27 Pharm.D prospectus prints tuition of ₹2,00,000 plus other fees. Mess, transport, exam, library fees are additional.',
+        'Pharm.D (6 years) Management Quota fee: ₹2,75,000/year (Day Scholar) or ₹3,25,000/year (with Hostel). Pharm.D (Post Baccalaureate) Management Quota fee: ₹70,000/year (Day Scholar) or ₹1,50,000/year (with Hostel). Government Quota fee is As Per Government Norm. Mess, transport, exam, library fees are additional.',
     },
     {
       question: 'How many Pharm.D seats are available at JKKN?',
@@ -250,25 +250,25 @@ export default function PharmDAdmissionPage() {
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹2,75,000 / year</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">Day Scholar</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹3,25,000 / year</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">With Hostel</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D (Post Baccalaureate)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹70,000 / year</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">Day Scholar</td>
                   </tr>
                   <tr className="hover:bg-[#F5F1E8]">
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 font-semibold text-gray-800">Pharm.D (Post Baccalaureate)</td>
-                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Govt Norms</td>
+                    <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">As Per Government Norm</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">₹1,50,000 / year</td>
                     <td className="px-2 xs:px-3 sm:px-4 md:px-6 py-3 sm:py-4 text-gray-700">With Hostel</td>
                   </tr>
@@ -277,7 +277,7 @@ export default function PharmDAdmissionPage() {
             </div>
 
             <div className="mt-4 space-y-2 text-[10px] sm:text-xs text-gray-600">
-              <p>* Selection Committee application fee: ₹1,000 (Tamil Nadu prospectus 2026-27).</p>
+              <p>* Selection Committee application fee: As Per Government Norm.</p>
               <p>* Mess, transport, exam, library, and other fees are charged separately.</p>
               <p>* Fees are subject to revision as per university/government directives.</p>
               <p>* Detailed fee breakdown is available in the official prospectus.</p>

@@ -1359,8 +1359,8 @@ export default function PharmaceuticsPage() {
             <tbody>
               <tr className="border-b border-gray-200">
                 <td className="px-6 py-4">Government Colleges (State Universities)</td>
-                <td className="px-6 py-4">₹50,000 - ₹1,50,000</td>
-                <td className="px-6 py-4">₹25,000 - ₹75,000</td>
+                <td className="px-6 py-4">As Per Government Norm</td>
+                <td className="px-6 py-4">As Per Government Norm</td>
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-6 py-4">NIPER (All 7 Campuses)</td>
@@ -1374,8 +1374,8 @@ export default function PharmaceuticsPage() {
               </tr>
               <tr className="bg-[#FBFBEE] border-b border-gray-200">
                 <td className="px-6 py-4">State Government Colleges</td>
-                <td className="px-6 py-4">₹80,000 - ₹2,00,000</td>
-                <td className="px-6 py-4">₹40,000 - ₹1,00,000</td>
+                <td className="px-6 py-4">As Per Government Norm</td>
+                <td className="px-6 py-4">As Per Government Norm</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="px-6 py-4">Private Colleges (University-Affiliated)</td>
