@@ -1,4 +1,5 @@
-﻿import Header from '@/components/Header'
+﻿import EnquirySection from '@/components/lead/EnquirySection'
+import Header from '@/components/Header'
 import Link from 'next/link'
 
 export default function PlacementCellPage() {
@@ -109,6 +110,9 @@ export default function PlacementCellPage() {
           </div>
         </div>
       </section>
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="placement-cell" heading="Ask About Placements and Admission" />
+
     </div>
   )
 }

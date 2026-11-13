@@ -1,5 +1,7 @@
 ﻿'use client'
 
+import EnquirySection from '@/components/lead/EnquirySection'
+import { DEFAULT_PROGRAMME_BY_PAGE } from '@/lib/pharmacy-programmes'
 import React, { useState } from 'react';
 import Header from '@/components/Header'
 import { FaqSchema } from '@/components/SchemaOrg'
@@ -1943,6 +1945,9 @@ export default function PharmacyPracticePage() {
 
    
       </div>
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="pharmacy-practice" programmeId={DEFAULT_PROGRAMME_BY_PAGE["pharmacy-practice"]} />
+
     </div>
   )
 }

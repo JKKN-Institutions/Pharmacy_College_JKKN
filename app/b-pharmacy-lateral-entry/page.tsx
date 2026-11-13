@@ -1,5 +1,7 @@
 ﻿'use client'
 
+import EnquirySection from '@/components/lead/EnquirySection'
+import { DEFAULT_PROGRAMME_BY_PAGE } from '@/lib/pharmacy-programmes'
 import { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
@@ -2348,6 +2350,9 @@ export default function BPharmLateralEntryPage() {
           </div>
         </div>
       </div>
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="b-pharmacy-lateral-entry" programmeId={DEFAULT_PROGRAMME_BY_PAGE["b-pharmacy-lateral-entry"]} />
+
     </div>
   )
 }

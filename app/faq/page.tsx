@@ -1,5 +1,6 @@
 'use client'
 
+import EnquirySection from '@/components/lead/EnquirySection'
 import { useState } from 'react'
 import Header from '@/components/Header'
 import { FaqSchema, BreadcrumbListSchema } from '@/components/SchemaOrg'
@@ -356,6 +357,9 @@ export default function FaqPage() {
           </a>
         </div>
       </section>
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="faq" />
+
     </div>
   )
 }

@@ -49,4 +49,12 @@ export const DEFAULT_PROGRAMME_BY_PAGE: Readonly<Record<string, string>> = {
   "pharm-d": "b3640fc2-4260-4548-b66b-1a9908e876ea",
   "b-pharmacy": "0d980d34-f945-4de6-8c88-ee97b2620b99",
   "pharmaceutical-regulatory-affairs": "ab96b847-f9e3-41ee-bdd6-3500dd869571",
+  // Added 2026-11-13 with the page forms: each of these pages is about exactly one CRM row (H1 read
+  // live, ids re-checked against the CRM form definition the same day), so the default is not a guess.
+  "b-pharmacy-lateral-entry": "771422d3-c867-4ebc-9126-15207d5a757e",
+  "pharmaceutics": "e56b6ef9-6266-4097-9287-7c7920b3822e",
+  "pharmacology": "81857fa8-1481-49d6-939b-f4e601616734",
+  "pharmaceutical-chemistry": "4965ac96-222b-4a5f-a671-001807dd19ab",
+  "pharmaceutical-analysis": "3b440c7a-6a95-40c9-9811-e6a325408669",
+  "pharmacy-practice": "08d25ceb-a761-4a64-9789-e2cc7cc87f5f",
 }

@@ -1,5 +1,6 @@
 'use client';
 
+import EnquirySection from '@/components/lead/EnquirySection'
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ChevronDown, MapPin, Rocket, Check, ShieldCheck, Microscope, FlaskConical, Factory, Briefcase, Bus, GraduationCap, Stethoscope, Navigation, Train, Plane, Building2, BookOpen, Activity, Wifi } from 'lucide-react';
@@ -683,6 +684,9 @@ export default function CityLandingPage({ config }: { config: CityLandingConfig 
         url={pageUrl}
         dateModified={config.dateModified}
       />
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage={`city-${config.slug}`} />
+
     </div>
   );
 }

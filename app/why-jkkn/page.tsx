@@ -1,5 +1,6 @@
 'use client'
 
+import EnquirySection from '@/components/lead/EnquirySection'
 import Header from '@/components/Header'
 import { CheckCircle } from 'lucide-react'
 
@@ -52,6 +53,9 @@ export default function WhyJKKNPage() {
           </div>
         </div>
       </main>
+
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="why-jkkn" />
 
     </div>
   )

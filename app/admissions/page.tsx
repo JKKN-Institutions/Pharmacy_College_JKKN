@@ -1,4 +1,5 @@
 'use client'
+import EnquirySection from '@/components/lead/EnquirySection'
 import BrochureWhatsAppLink from "@/components/lead/BrochureWhatsAppLink";
 import PciMPharmSource from '@/components/PciMPharmSource'
 import Link from 'next/link'
@@ -869,6 +870,9 @@ export default function AdmissionProcessPage() {
           </div>
         </div>
       </main>
+      {/* Enquiry form (user's call 2026-11-13): an admission page with no form of its own. */}
+      <EnquirySection sourcePage="admissions" />
+
     </div>
   )
 }
