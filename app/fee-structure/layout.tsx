@@ -8,7 +8,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Fee Structure 2026-27 | JKKN College of Pharmacy',
   description:
-    'Management-quota tuition fees for 2026-27 at JKKN College of Pharmacy, Komarapalayam: B.Pharm, B.Pharm Lateral Entry, Pharm.D, Pharm.D (PB) and M.Pharm. Government-quota fees follow Tamil Nadu Government norms.',
+    'Management-quota tuition fees for 2026-27 at JKKN College of Pharmacy, Komarapalayam: B.Pharm, B.Pharm Lateral Entry, Pharm.D, Pharm.D (PB) and M.Pharm. Government-quota fees: As Per Government Norm.',
   alternates: { canonical: 'https://pharmacy.jkkn.ac.in/fee-structure/' },
   openGraph: {
     title: 'Fee Structure 2026-27 | JKKN College of Pharmacy',
