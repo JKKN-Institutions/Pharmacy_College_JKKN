@@ -1471,8 +1471,8 @@ export default function PharmacyPracticePage() {
               </tr>
               <tr className="border-b border-gray-200 bg-[#FBFBEE]">
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">Government Medical Colleges</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹1,00,000 - ₹2,00,000</td>
-                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">₹50,000 - ₹1,00,000</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
+                <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">As Per Government Norm</td>
               </tr>
               <tr className="border-b border-gray-200">
                 <td className="px-6 py-4 text-xs sm:text-sm text-gray-700">State Government Colleges</td>
