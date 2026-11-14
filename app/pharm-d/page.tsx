@@ -2217,7 +2217,7 @@ export default function PharmDPage() {
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#032816] mb-4">Post-Matric Scholarship (SC/ST)</h3>
               <ul className="space-y-3 text-xs sm:text-sm text-[#032816]">
                 <li><span className="font-semibold text-[#0b6d41]">Management Quota:</span> As per Govt norms</li>
-                <li><span className="font-semibold text-[#0b6d41]">Government Quota:</span> As per govt norms</li>
+                <li><span className="font-semibold text-[#0b6d41]">Government Quota:</span> As Per Government Norm</li>
               </ul>
             </div>
 
