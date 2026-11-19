@@ -2,20 +2,43 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Calendar, Clock } from 'lucide-react';
 import { createClient } from '@/lib/supabase/server';
+import { blogFromMyJkkn, listPosts } from '@/lib/blog/myjkkn';
 
 export const revalidate = 60;
 
+/** What a blog card needs; both sources give this shape. */
+interface CardPost {
+  id: string;
+  title: string;
+  slug: string;
+  excerpt: string | null;
+  author_name: string | null;
+  category: string | null;
+  cover_image_url: string | null;
+  published_at: string | null;
+  created_at: string;
+  read_time: string | null;
+}
+
 export default async function BlogPage() {
-  // Fetch admin-created posts from Supabase
-  const supabase = await createClient();
-  const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
-  const { data: campusPosts } = await supabase
-    .from('blogs')
-    .select('id, title, slug, excerpt, author_name, category, cover_image_url, published_at, created_at, read_time')
-    .eq('college_id', collegeId)
-    .eq('is_published', true)
-    .order('created_at', { ascending: false })
-    .limit(9);
+  // BLOG_SOURCE=myjkkn: posts are written in MyJKKN (Website Blog) and read from its API.
+  // Otherwise: this site's own `blogs` table, as before.
+  let campusPosts: CardPost[];
+  if (blogFromMyJkkn()) {
+    campusPosts = (await listPosts(9)).posts;
+  } else {
+    // Fetch admin-created posts from Supabase
+    const supabase = await createClient();
+    const collegeId = process.env.NEXT_PUBLIC_COLLEGE_ID!;
+    const { data } = await supabase
+      .from('blogs')
+      .select('id, title, slug, excerpt, author_name, category, cover_image_url, published_at, created_at, read_time')
+      .eq('college_id', collegeId)
+      .eq('is_published', true)
+      .order('created_at', { ascending: false })
+      .limit(9);
+    campusPosts = data ?? [];
+  }
 
   const hasCampusPosts = campusPosts && campusPosts.length > 0;
 

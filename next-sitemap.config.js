@@ -215,6 +215,43 @@ module.exports = {
       console.warn('[next-sitemap] Careers fetch failed — continuing without job paths:', err.message)
     }
 
+    // BLOG_SOURCE=myjkkn: blog posts are written in MyJKKN (Website Blog) and read from its
+    // public API instead of this site's `blogs` table (same switch as lib/blog/myjkkn.ts).
+    // Fail-soft: API down or bad payload → skip, never break the build.
+    const blogFromMyJkkn = process.env.BLOG_SOURCE === 'myjkkn'
+    if (blogFromMyJkkn) {
+      try {
+        const myjkkn = (process.env.NEXT_PUBLIC_MYJKKN_URL || 'https://www.jkkn.ai').replace(/\/+$/, '')
+        const site = process.env.BLOG_SITE_KEY?.trim() || 'pharmacy'
+        let seen = 0
+        let added = 0
+        for (let page = 1; page <= 40; page++) {
+          const res = await fetch(
+            `${myjkkn}/api/public/blog/posts?site=${encodeURIComponent(site)}&limit=50&page=${page}`,
+            { signal: AbortSignal.timeout(8000) }
+          )
+          if (!res.ok) throw new Error(`HTTP ${res.status}`)
+          const body = await res.json()
+          const posts = Array.isArray(body?.posts) ? body.posts : []
+          seen += posts.length
+          posts.forEach(p => {
+            if (typeof p?.slug !== 'string' || !p.slug || p?.seo?.noindex) return
+            paths.push({
+              loc: `/blog/campus/${p.slug}`,
+              changefreq: 'monthly',
+              priority: 0.7,
+              lastmod: new Date(p.updated_at || p.published_at || now).toISOString(),
+            })
+            added++
+          })
+          if (posts.length === 0 || seen >= (body?.total ?? 0)) break
+        }
+        console.log(`[next-sitemap] Added ${added} campus blog posts from MyJKKN`)
+      } catch (err) {
+        console.warn('[next-sitemap] MyJKKN blog fetch failed — continuing without blog post paths:', err.message)
+      }
+    }
+
     // Dynamic Supabase-driven content. Fail-soft: if env vars missing or table empty,
     // skip these — never break the build.
     try {
@@ -230,12 +267,14 @@ module.exports = {
       const { createClient } = require('@supabase/supabase-js')
       const supabase = createClient(supabaseUrl, supabaseKey)
 
-      // Campus blog posts
-      const { data: blogs } = await supabase
-        .from('blogs')
-        .select('slug, updated_at, created_at')
-        .eq('college_id', collegeId)
-        .eq('is_published', true)
+      // Campus blog posts (BLOG_SOURCE=myjkkn: already added above from MyJKKN)
+      const { data: blogs } = blogFromMyJkkn
+        ? { data: null }
+        : await supabase
+            .from('blogs')
+            .select('slug, updated_at, created_at')
+            .eq('college_id', collegeId)
+            .eq('is_published', true)
       if (blogs?.length) {
         blogs.forEach(b => {
           if (!b.slug) return
