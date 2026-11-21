@@ -229,7 +229,6 @@ export default function MPharmacyPage() {
               <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Drug formulation, delivery systems, product development</p>
               <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Novel drug delivery, nanotechnology, tablet/capsule development, sustained release, transdermal systems, quality by design</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
                 <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">High R&D Demand</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> Formulation Scientist, Product Development Manager, R&D Associate</p>
@@ -246,7 +245,6 @@ export default function MPharmacyPage() {
               <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Analytical methods, quality control, instrumentation</p>
               <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> HPLC, LC-MS/MS, method development/validation, impurity profiling, bioanalytical techniques, stability testing</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-45K Starting</span>
                 <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Maximum Jobs</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> QC Analyst, Analytical Scientist, Method Development Chemist</p>
@@ -263,7 +261,6 @@ export default function MPharmacyPage() {
               <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Drug action, toxicology, preclinical research</p>
               <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Drug screening, molecular pharmacology, toxicogenomics, cardiovascular/CNS/cancer pharmacology, drug safety assessment</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
                 <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Research Focus</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> Pharmacology Scientist, Safety Assessment Specialist, Preclinical Researcher</p>
@@ -282,7 +279,6 @@ export default function MPharmacyPage() {
               <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Medicinal chemistry, drug design, synthesis</p>
               <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Drug design, SAR studies, computational chemistry, organic synthesis, heterocyclic chemistry, natural products</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹30-50K Starting</span>
                 <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Drug Discovery</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> Medicinal Chemist, Synthetic Chemist, Drug Design Scientist</p>
@@ -299,7 +295,6 @@ export default function MPharmacyPage() {
               <p><span className="font-semibold text-[#0b6d41]">Focus:</span> Clinical pharmacy, patient care, hospital practice</p>
               <p><span className="font-semibold text-[#0b6d41]">Key Areas:</span> Clinical pharmacotherapy, patient counselling, pharmacoeconomics, medication therapy management, adverse drug reactions</p>
               <div className="flex flex-wrap gap-2 my-3">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">₹25-40K Starting</span>
                 <span className="bg-[#0b6d41] text-white text-[10px] sm:text-xs font-semibold px-3 py-1 rounded-full">Growing Field</span>
               </div>
               <p><span className="font-semibold text-[#0b6d41]">Career:</span> Clinical Pharmacist, Hospital Pharmacist, Drug Information Specialist</p>

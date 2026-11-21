@@ -99,12 +99,12 @@ export default function PharmDPage() {
               <p className="text-[#032816] font-semibold text-xs sm:text-sm">3 Years (2 Academic + 1 Clerkship)</p>
             </div>
             <div className="bg-white rounded-lg p-3 shadow-sm">
-              <h3 className="text-[#0b6d41] font-bold text-[7px] xs:text-[8px] sm:text-[10px] mb-2">ENTRY SALARY</h3>
-              <p className="text-[#032816] font-semibold text-xs sm:text-sm">₹25K-60K/Month</p>
+              <h3 className="text-[#0b6d41] font-bold text-[7px] xs:text-[8px] sm:text-[10px] mb-2">MEDIAN SALARY (PLACED, 2024-25)</h3>
+              <p className="text-[#032816] font-semibold text-xs sm:text-sm">₹4.42 L · NIRF 2026</p>
             </div>
             <div className="bg-white rounded-lg p-3 shadow-sm">
-              <h3 className="text-[#0b6d41] font-bold text-[7px] xs:text-[8px] sm:text-[10px] mb-2">SENIOR SALARY</h3>
-              <p className="text-[#032816] font-semibold text-xs sm:text-sm">₹60K-1.5L/Month</p>
+              <h3 className="text-[#0b6d41] font-bold text-[7px] xs:text-[8px] sm:text-[10px] mb-2">PLACED 2024-25</h3>
+              <p className="text-[#032816] font-semibold text-xs sm:text-sm">21 of 28 · NIRF 2026</p>
             </div>
           </div>
         </div>
@@ -891,10 +891,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Clinical Pharmacist (Hospital)</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹25K-60K/Month Entry</span>
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹60K-1.5L/Month Senior</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -933,9 +929,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Critical Care/ICU Pharmacist</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹35K-70K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -970,9 +963,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Oncology/Hematology Pharmacist</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹40K-80K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -1007,9 +997,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Clinical Research Associate/Coordinator</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹30K-60K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -1044,9 +1031,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Drug Safety/Pharmacovigilance Specialist</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹30K-55K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -1081,9 +1065,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Medical Affairs/MSL (Medical Science Liaison)</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹50K-90K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -1118,9 +1099,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Regulatory Affairs Specialist</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹35K-65K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>
@@ -1155,9 +1133,6 @@ export default function PharmDPage() {
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-4">Assistant Professor (Pharmacy Practice)</h3>
             <div className="space-y-3">
-              <div className="flex flex-wrap gap-2">
-                <span className="bg-[#ffde59] text-[#032816] text-[10px] font-semibold px-3 py-1 rounded-full">₹50K-70K/Month</span>
-              </div>
               <ul className="space-y-2 text-xs sm:text-sm text-[#032816]">
                 <li className="flex items-start">
                   <span className="mr-2 text-[#0b6d41]">✓</span>

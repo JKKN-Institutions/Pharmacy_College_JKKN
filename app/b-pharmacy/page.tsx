@@ -108,8 +108,8 @@ export default function BPharmacyPage() {
               <p className="text-gray-800 text-[10px] sm:text-xs font-semibold">Pharmacy Council of India</p>
             </div>
             <div className="bg-white p-3 xs:p-4 sm:p-5 rounded-lg shadow-sm border border-gray-200">
-              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-xs mb-3 uppercase">Average Salary</h3>
-              <p className="text-gray-800 text-[10px] sm:text-xs font-semibold">₹3-6 Lakhs/Year</p>
+              <h3 className="text-[#0b6d41] font-bold text-[9px] xs:text-[10px] sm:text-xs mb-3 uppercase">Median Salary (Placed, 2024-25)</h3>
+              <p className="text-gray-800 text-[10px] sm:text-xs font-semibold">₹4.4 L · NIRF 2026 submission</p>
             </div>
           </div>
         </div>
@@ -319,11 +319,6 @@ export default function BPharmacyPage() {
             {/* Hospital Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Hospital Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹3.5-5 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -347,11 +342,6 @@ export default function BPharmacyPage() {
             {/* MRB Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">MRB Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4-6 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -375,11 +365,6 @@ export default function BPharmacyPage() {
             {/* RRB Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">RRB Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4-5.5 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -403,11 +388,6 @@ export default function BPharmacyPage() {
             {/* ESIC Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">ESIC Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4.5-6.5 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -431,11 +411,6 @@ export default function BPharmacyPage() {
             {/* AIIMS Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">AIIMS Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹5-7 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -459,11 +434,6 @@ export default function BPharmacyPage() {
             {/* BSF Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">BSF Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4-5.5 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -487,11 +457,6 @@ export default function BPharmacyPage() {
             {/* Drug Inspector */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Drug Inspector</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4-7 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -515,11 +480,6 @@ export default function BPharmacyPage() {
             {/* Research Scientist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Research Scientist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹4-8 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -543,11 +503,6 @@ export default function BPharmacyPage() {
             {/* Medical Representative */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Medical Representative</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹3-6 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -571,11 +526,6 @@ export default function BPharmacyPage() {
             {/* Production Executive */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Production Executive</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹3.5-6 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -599,11 +549,6 @@ export default function BPharmacyPage() {
             {/* Community Pharmacist */}
             <div className="bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-xl transition-shadow border border-gray-200">
               <h3 className="text-xs xs:text-sm sm:text-base font-bold text-[#0b6d41] mb-3 sm:mb-4">Community Pharmacist</h3>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full text-[10px] sm:text-sm font-bold">
-                  ₹3-4.5 Lakhs/Year
-                </span>
-              </div>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>

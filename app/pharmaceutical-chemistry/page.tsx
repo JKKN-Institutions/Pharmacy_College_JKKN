@@ -707,9 +707,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Medicinal Chemist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Medicinal Chemist</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹6-10 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -737,9 +734,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Synthetic Chemist (R&D) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Synthetic Chemist (R&D)</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -767,9 +761,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Drug Discovery Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Drug Discovery Scientist</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹7-12 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -797,9 +788,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Process Chemist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Process Chemist</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹5-10 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -827,9 +815,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Analytical Research Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Analytical Research Scientist</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -857,9 +842,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Computational Chemist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Computational Chemist</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹6-11 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -887,9 +869,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Research Scientist (Natural Products) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Research Scientist (Natural Products)</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -917,9 +896,6 @@ export default function PharmaceuticalChemistryPage() {
           {/* Academic Faculty / Researcher */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Academic Faculty / Researcher</h3>
-            <div className="bg-[#ffde59] text-[#032816] px-4 py-2 rounded-full inline-block text-xs sm:text-sm font-bold mb-4">
-              ₹60,000-80,000/month
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>

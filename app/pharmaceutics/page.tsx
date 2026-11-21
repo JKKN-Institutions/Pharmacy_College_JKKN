@@ -101,8 +101,8 @@ export default function PharmaceuticsPage() {
               <p className="text-gray-900 font-semibold text-xs xs:text-sm sm:text-base">Drug Formulation & NDDS</p>
             </div>
             <div className="bg-white rounded-lg p-3 sm:p-4 shadow-sm">
-              <h3 className="text-[#0b6d41] font-bold text-[8px] xs:text-[9px] sm:text-[10px] mb-1">AVERAGE SALARY</h3>
-              <p className="text-gray-900 font-semibold text-xs xs:text-sm sm:text-base">₹4-12 Lakhs/Year</p>
+              <h3 className="text-[#0b6d41] font-bold text-[8px] xs:text-[9px] sm:text-[10px] mb-1">M.PHARM MEDIAN (PLACED, 2024-25)</h3>
+              <p className="text-gray-900 font-semibold text-xs xs:text-sm sm:text-base">₹6.75 L · NIRF 2026</p>
             </div>
           </div>
         </div>
@@ -619,9 +619,6 @@ export default function PharmaceuticsPage() {
           {/* Formulation Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Formulation Scientist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-8 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -649,9 +646,6 @@ export default function PharmaceuticsPage() {
           {/* Product Development Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Product Development Scientist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹6-10 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -679,9 +673,6 @@ export default function PharmaceuticsPage() {
           {/* R&D Manager / Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">R&D Manager / Scientist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹8-12 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -709,9 +700,6 @@ export default function PharmaceuticsPage() {
           {/* Production Manager */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Production Manager</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹6-10 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -739,9 +727,6 @@ export default function PharmaceuticsPage() {
           {/* Regulatory Affairs Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Regulatory Affairs Specialist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹6-11 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -769,9 +754,6 @@ export default function PharmaceuticsPage() {
           {/* Technical Services Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Technical Services Specialist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -799,9 +781,6 @@ export default function PharmaceuticsPage() {
           {/* Quality by Design (QbD) Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Quality by Design (QbD) Specialist</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹7-11 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>
@@ -829,9 +808,6 @@ export default function PharmaceuticsPage() {
           {/* Academic Faculty / Researcher */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Academic Faculty / Researcher</h3>
-            <div className="bg-[#ffde59] text-[#032816] text-xs sm:text-sm font-bold px-4 py-2 rounded-full inline-block mb-4">
-              ₹4-8 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-xs sm:text-sm text-gray-700">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2 mt-1">✓</span>

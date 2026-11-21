@@ -113,8 +113,8 @@ export default function PharmaceuticalAnalysisPage() {
             </div>
 
             <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#0b6d41] mb-3 uppercase">Average Salary</h3>
-              <p className="text-gray-900 font-semibold">₹4-10 Lakhs/Year</p>
+              <h3 className="text-[10px] sm:text-xs md:text-sm font-bold text-[#0b6d41] mb-3 uppercase">M.Pharm Median Salary (Placed, 2024-25)</h3>
+              <p className="text-gray-900 font-semibold">₹6.75 L · all specialisations, NIRF 2026</p>
             </div>
           </div>
         </div>
@@ -546,9 +546,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Quality Control Analyst */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Quality Control Analyst</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹4-6 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -576,9 +573,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Method Development Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Method Development Scientist</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹5-8 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -606,9 +600,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Analytical Research Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Analytical Research Scientist</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹5-9 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -636,9 +627,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Regulatory Affairs Specialist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Regulatory Affairs Specialist</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹6-10 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -666,9 +654,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Stability Testing Specialist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Stability Testing Specialist</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹4-7 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -696,9 +681,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Quality Assurance Manager */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Quality Assurance Manager</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹7-12 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -726,9 +708,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Bioanalytical Scientist */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Bioanalytical Scientist</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹6-10 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>
@@ -756,9 +735,6 @@ export default function PharmaceuticalAnalysisPage() {
             {/* Academic / Research Faculty */}
             <div className="border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-3">Academic / Research Faculty</h3>
-              <div className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[8px] xs:text-[10px] sm:text-sm font-bold mb-4">
-                ₹4-8 Lakhs/Year
-              </div>
               <ul className="space-y-2">
                 <li className="flex items-start">
                   <span className="text-[#0b6d41] mr-2">✓</span>

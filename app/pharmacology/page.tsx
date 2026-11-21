@@ -696,9 +696,6 @@ export default function PharmacologyPage() {
           {/* Research Scientist (CROs) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Research Scientist (CROs)</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -726,9 +723,6 @@ export default function PharmacologyPage() {
           {/* Toxicologist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Toxicologist</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-10 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -756,9 +750,6 @@ export default function PharmacologyPage() {
           {/* Medical Writer (Scientific) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Medical Writer (Scientific)</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-12 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -786,9 +777,6 @@ export default function PharmacologyPage() {
           {/* Drug Safety Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Drug Safety Scientist</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹5-9 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -816,9 +804,6 @@ export default function PharmacologyPage() {
           {/* Regulatory Affairs Specialist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Regulatory Affairs Specialist</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹6-11 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -846,9 +831,6 @@ export default function PharmacologyPage() {
           {/* Academic Faculty / Researcher */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Academic Faculty / Researcher</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹60K-80K/Month
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -876,9 +858,6 @@ export default function PharmacologyPage() {
           {/* Drug Discovery Scientist */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Drug Discovery Scientist</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹6-12 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>
@@ -906,9 +885,6 @@ export default function PharmacologyPage() {
           {/* Quality Assurance (Preclinical Studies) */}
           <div className="bg-white rounded-xl p-6 shadow-lg border-t-4 border-[#0f8f56]">
             <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-3">Quality Assurance (Preclinical Studies)</h3>
-            <div className="bg-[#0f8f56] text-white text-[8px] xs:text-[10px] sm:text-sm font-semibold px-4 py-2 rounded-full inline-block mb-4">
-              ₹4-8 Lakhs/Year
-            </div>
             <ul className="space-y-2 text-gray-700 mb-4">
               <li className="flex items-start">
                 <span className="text-[#0b6d41] mr-2">✓</span>

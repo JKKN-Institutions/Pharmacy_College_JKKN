@@ -120,8 +120,8 @@ export default function PhDPage() {
             </div>
             <div className="bg-white rounded-xl p-2 sm:p-3 shadow-md border border-gray-200 text-center">
               <BarChart className="w-8 h-8" />
-              <h3 className="text-[#0b6d41] font-bold text-[10px] xs:text-[11px] sm:text-xs mb-1 uppercase">Career Salary</h3>
-              <p className="text-gray-900 font-semibold text-xs xs:text-sm sm:text-base">₹10-40 LPA (Professor/Scientist)</p>
+              <h3 className="text-[#0b6d41] font-bold text-[10px] xs:text-[11px] sm:text-xs mb-1 uppercase">Career Paths</h3>
+              <p className="text-gray-900 font-semibold text-xs xs:text-sm sm:text-base">Faculty, Scientist, Regulatory</p>
             </div>
             <div className="bg-white rounded-xl p-2 sm:p-3 shadow-md border border-gray-200 text-center">
               <FileText className="w-8 h-8" />
@@ -944,9 +944,6 @@ export default function PhDPage() {
           <div className="bg-white rounded-xl p-8 shadow-lg">
             <ClipboardList className="w-10 h-10" />
             <h3 className="text-sm xs:text-base sm:text-lg font-bold text-[#0b6d41] mb-4">Regulatory Affairs Expert</h3>
-            <div className="mb-4">
-              <span className="bg-[#0b6d41] text-white text-[10px] xs:text-xs sm:text-sm font-semibold px-4 py-2 rounded-full">₹12-30 LPA</span>
-            </div>
             <p className="text-gray-700 mb-4 text-xs sm:text-sm">Navigate complex drug approval processes</p>
             <ul className="space-y-2 text-gray-700 text-xs sm:text-sm">
               <li className="flex items-start">

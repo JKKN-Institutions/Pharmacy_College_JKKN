@@ -119,22 +119,22 @@ export default function BPharmLateralEntryPage() {
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">3 Years (6 Semesters)</p>
             </div>
 
-            {/* ENTRY SALARY */}
+            {/* B.PHARM MEDIAN SALARY (NIRF 2026 submission, 2024-25) */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-5 text-center border border-white/20">
               <IndianRupee className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
               <h3 className="text-[9px] sm:text-[10px] md:text-xs uppercase tracking-wider mb-2 font-semibold">
-                ENTRY SALARY
+                B.PHARM MEDIAN (PLACED, 2024-25)
               </h3>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">₹18K - 35K/Month</p>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">₹4.4 L</p>
             </div>
 
-            {/* SENIOR SALARY */}
+            {/* B.PHARM PLACED (NIRF 2026 submission, 2024-25) */}
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-5 text-center border border-white/20">
               <BarChart className="w-8 h-8" />
               <h3 className="text-[9px] sm:text-[10px] md:text-xs uppercase tracking-wider mb-2 font-semibold">
-                SENIOR SALARY
+                B.PHARM PLACED 2024-25
               </h3>
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">₹60K - 2L/Month</p>
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold">42 of 84</p>
             </div>
           </div>
         </div>
@@ -916,11 +916,6 @@ export default function BPharmLateralEntryPage() {
                 <Factory className="w-6 h-6" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Pharmaceutical Production</h3>
               </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹18K - 60K/Month
-                </span>
-              </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#0b6d41] text-white px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Manufacturing
@@ -957,11 +952,6 @@ export default function BPharmLateralEntryPage() {
               <div className="flex items-center gap-2 mb-4">
                 <Microscope className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Quality Control (QC)</h3>
-              </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹20K - 70K/Month
-                </span>
               </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
@@ -1000,11 +990,6 @@ export default function BPharmLateralEntryPage() {
                 <CheckCircle className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Quality Assurance (QA)</h3>
               </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹22K - 80K/Month
-                </span>
-              </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Compliance
@@ -1041,11 +1026,6 @@ export default function BPharmLateralEntryPage() {
               <div className="flex items-center gap-2 mb-4">
                 <TestTube className="w-10 h-10" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Research & Development</h3>
-              </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹25K - 90K/Month
-                </span>
               </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
@@ -1084,11 +1064,6 @@ export default function BPharmLateralEntryPage() {
                 <Pill className="w-12 h-12" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Medical Representative</h3>
               </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹25K - 80K + Incentives
-                </span>
-              </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Marketing
@@ -1125,11 +1100,6 @@ export default function BPharmLateralEntryPage() {
               <div className="flex items-center gap-2 mb-4">
                 <Hospital className="w-10 h-10" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Hospital Pharmacy</h3>
-              </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹18K - 50K/Month
-                </span>
               </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
@@ -1168,11 +1138,6 @@ export default function BPharmLateralEntryPage() {
                 <Store className="w-6 h-6" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Community Pharmacy</h3>
               </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹15K - 35K or Own Business
-                </span>
-              </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Retail
@@ -1210,11 +1175,6 @@ export default function BPharmLateralEntryPage() {
                 <ClipboardList className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10" />
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Regulatory Affairs</h3>
               </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹25K - 80K/Month
-                </span>
-              </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
                   Documentation
@@ -1251,11 +1211,6 @@ export default function BPharmLateralEntryPage() {
               <div className="flex items-center gap-2 mb-4">
                 <span className="text-3xl"><Landmark className="w-6 h-6" /></span>
                 <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41]">Government Jobs</h3>
-              </div>
-              <div className="mb-4">
-                <span className="inline-block bg-[#ffde59] text-[#032816] px-4 py-1 rounded-full text-[10px] xs:text-xs sm:text-sm font-semibold">
-                  ₹35K - 80K (7th Pay)
-                </span>
               </div>
               <div className="flex gap-2 mb-4">
                 <span className="inline-block bg-[#ffde59] text-[#032816] px-3 py-1 rounded text-[8px] xs:text-[10px] sm:text-sm font-semibold">
