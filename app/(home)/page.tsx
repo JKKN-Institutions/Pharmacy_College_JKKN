@@ -81,7 +81,7 @@ export default function Home() {
       <FaqSchema faqs={homepageFaqs} />
       <BreadcrumbListSchema items={[{ name: 'Home', url: 'https://pharmacy.jkkn.ac.in/' }]} />
       <SpeakableWebPageSchema
-        name="Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy, PCI Approved &amp; NAAC A Grade"
+        name="JKKN College of Pharmacy, Tamil Nadu — PCI Approved &amp; NAAC A Grade"
         description="JKKN College of Pharmacy is a PCI-approved, NAAC A grade pharmacy institution in Komarapalayam, Tamil Nadu, offering B.Pharm, M.Pharm, and Pharm.D programmes since 1985."
         url="https://pharmacy.jkkn.ac.in/"
         dateModified="2026-03-24"
@@ -149,7 +149,7 @@ export default function Home() {
 
               {/* Main Heading */}
               <h1 className="text-xl xs:text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
-                Best Pharmacy Colleges in Tamil Nadu — JKKN College of Pharmacy,{' '}
+                JKKN College of Pharmacy, Tamil Nadu —{' '}
                 <span className="text-[#ffde59]">PCI Approved &amp; NAAC A Grade</span>
               </h1>
 
@@ -286,7 +286,7 @@ export default function Home() {
                 About JKKN College of Pharmacy
               </p>
               <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#0b6d41] mb-4 sm:mb-6 leading-tight">
-                Best Pharmacy Colleges in Tamil Nadu — 41 Years of Excellence Since 1985
+                Pharmacy Education in Tamil Nadu — 41 Years Since 1985
               </h2>
               <p className="speakable-summary text-sm sm:text-base text-gray-600 mb-4 sm:mb-6 leading-relaxed">
                 JKKN College of Pharmacy is a PCI-approved, NAAC A Grade pharmaceutical institution established in 1985 at Komarapalayam, Namakkal District, Tamil Nadu. Affiliated to The Tamil Nadu Dr. M.G.R. Medical University, the college offers B.Pharm, M.Pharm (6 specialisations), Pharm.D, and Ph.D programmes with 78% of placement-seeking graduates placed in 2024-25 (97 of 124, NIRF 2026 submission).
