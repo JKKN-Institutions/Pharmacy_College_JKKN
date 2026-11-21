@@ -229,7 +229,7 @@ export default function AdmissionProcessPage() {
               </table>
             </div>
             <p className="text-[10px] sm:text-xs text-gray-600 mt-4">
-              * Fees are subject to change. Hostel fees, exam fees, and other charges are additional. For detailed fee structure, please refer to the prospectus or contact the admission office.
+              * Fees are subject to change. The Pharm.D and Pharm.D (PB) &quot;Hostel&quot; amounts include hostel (college fee schedule); for every other row hostel is extra. Mess, exam fees and other charges are additional. For the detailed fee structure, please refer to the prospectus or contact the admission office.
             </p>
           </div>
 

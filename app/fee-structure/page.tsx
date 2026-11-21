@@ -128,7 +128,7 @@ export default function FeeStructurePage() {
           </div>
 
           <p className="mt-6 text-xs sm:text-sm text-gray-500">
-            MQ fees shown are tuition only, per annum, for the academic year 2026-27. Hostel, mess, transport, examination and caution-deposit charges are additional and are not included above. GQ — Government Quota. MQ — Management Quota.
+            MQ fees shown are per annum for the academic year 2026-27. The Pharm.D and Pharm.D (PB) &quot;With Hostel&quot; rows include hostel, as listed in the college fee schedule; every other MQ amount is tuition only, and hostel is extra. Mess, transport, examination and caution-deposit charges are not included in any row - confirm them with the admission office. GQ — Government Quota. MQ — Management Quota.
           </p>
           <p className="mt-3 text-xs sm:text-sm text-gray-500">
             * GQ: Government Quota fee - As Per Government Norm. Sources: Selection Committee, Directorate of Medical Education and Research, Tamil Nadu -{' '}
