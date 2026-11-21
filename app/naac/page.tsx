@@ -87,6 +87,9 @@ export default function NAACPage() {
                         JKKN College of Pharmacy is <strong>accredited with an "A" grade by the National Assessment and Accreditation Council (NAAC) in Cycle 1</strong>, with a CGPA of 3.09, declared on 8 November 2024 (<a href="https://www.naac.gov.in/index.php/en/2-uncategorised/32-accreditation-status" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">NAAC list of institutions with valid accreditation as on 14 August 2025</a>). This recognition reflects the college's commitment to <strong>academic excellence, quality education, research, and institutional development</strong>.
                       </p>
                       <p className="text-gray-700 leading-relaxed mb-4">
+                        <strong>Final-year university results:</strong> 91 of 106 final-year students passed The Tamil Nadu Dr. M.G.R. Medical University examination in 2022-23, and 116 of 125 in 2021-22. Across the five years 2018-19 to 2022-23, 443 of 572 passed (77.4%, excluding backlog students). These are the figures as corrected during NAAC data validation, metric 2.6.3 (<a href="/pdf/2.6.3-DVV-NAAC.pdf" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">DVV clarification</a>).
+                      </p>
+                      <p className="text-gray-700 leading-relaxed mb-4">
                         The NAAC accreditation underscores:
                       </p>
                       <ul className="space-y-3 mb-4">
