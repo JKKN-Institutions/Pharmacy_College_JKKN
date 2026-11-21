@@ -215,16 +215,16 @@ export default function Home() {
               {/* Statistics */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">700+</div>
-                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Learners</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">650</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Learners (2024-25)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">78%</div>
                   <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Placement (2024-25)</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">30+</div>
-                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">Recruiters</div>
+                  <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">31 of 40</div>
+                  <div className="text-xs sm:text-sm text-gray-200 uppercase mt-1">M.Pharm Placed (2024-25)</div>
                 </div>
                 <div className="text-center">
                   <div className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-[#ffde59]">6</div>
