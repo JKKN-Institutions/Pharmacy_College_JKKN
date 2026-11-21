@@ -40,6 +40,18 @@ const nirfSchema = {
   "hasCredential": [
     {
       "@type": "EducationalOccupationalCredential",
+      "name": "NIRF India Rankings 2022 (Pharmacy) - rank-band 102-125",
+      "credentialCategory": "ranking",
+      "description": "In NIRF India Rankings 2022, Pharmacy category, J. K. K. Nattraja College of Pharmacy, Komarapalayam, is listed in the rank-band 102-125.",
+      "recognizedBy": {
+        "@type": "GovernmentOrganization",
+        "name": "Ministry of Education, Government of India",
+        "url": "https://www.nirfindia.org"
+      },
+      "url": "https://www.nirfindia.org/Rankings/2022/PharmacyRanking150.html"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
       "name": "NIRF Pharmacy - JKKN participating institution 2024, 2025, 2026",
       "credentialCategory": "ranking",
       "description": "JKKN College of Pharmacy is a participating institution in the NIRF Pharmacy category of the Ministry of Education, Government of India.",

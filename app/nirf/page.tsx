@@ -13,7 +13,7 @@ export default function NIRFPage() {
             NIRF Rankings — JKKN College of Pharmacy
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mb-6 sm:mb-8">
-            JKKN College of Pharmacy participates in the National Institutional Ranking Framework (NIRF) by the Ministry of Education, Government of India. It has filed Pharmacy submissions for the 2024, 2025 and 2026 cycles and appears on NIRF’s List of Participating Institutions for Pharmacy in 2024 and 2025. NIRF publishes Pharmacy ranks 1 to 100 plus a single band (101-125 in 2024, 102-125 in 2025); JKKN does not appear in either, so the college claims no NIRF rank or band.
+            JKKN College of Pharmacy participates in the National Institutional Ranking Framework (NIRF) by the Ministry of Education, Government of India. It has filed Pharmacy submissions for the 2024, 2025 and 2026 cycles and appears on NIRF’s List of Participating Institutions for Pharmacy in 2024 and 2025. NIRF publishes Pharmacy ranks 1 to 100 plus a single band (101-125 in 2024, 102-125 in 2025); JKKN does not appear in either. Earlier, in NIRF India Rankings 2022 (Pharmacy), J. K. K. Nattraja College of Pharmacy, Komarapalayam, was listed in the rank-band 102-125 (<a href="https://www.nirfindia.org/Rankings/2022/PharmacyRanking150.html" target="_blank" rel="noopener noreferrer" className="underline text-[#0b6d41]">NIRF 2022 rank-band list</a>); it was not in the 2023 band.
           </p>
         </div>
       </section>
@@ -37,6 +37,12 @@ export default function NIRFPage() {
                 </tr>
               </thead>
               <tbody>
+                <tr className="bg-gray-50">
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-medium">2022</td>
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy</td>
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3 font-semibold text-[#0b6d41]"><a href="https://www.nirfindia.org/Rankings/2022/PharmacyRanking150.html" target="_blank" rel="noopener noreferrer" className="underline">Rank-band 102-125</a></td>
+                  <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy</td>
+                </tr>
                 <tr className="bg-white">
                   <td className="border border-gray-200 px-4 sm:px-6 py-3 font-medium">2024</td>
                   <td className="border border-gray-200 px-4 sm:px-6 py-3">Pharmacy</td>

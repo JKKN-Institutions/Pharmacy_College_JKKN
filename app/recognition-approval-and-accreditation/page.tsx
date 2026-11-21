@@ -115,14 +115,16 @@ export default function RecognitionApprovalAccreditationPage() {
             <p>
               JKKN College of Pharmacy is a participating institution in the National Institutional Ranking Framework (NIRF), Pharmacy
               category, in 2024 and 2025. NIRF publishes Pharmacy ranks 1-100 and one rank band (101-125 in 2024, 102-125 in 2025);
-              JKKN is not in either, so no rank or band is claimed. Submissions are on the{' '}
+              JKKN is not in either. In NIRF India Rankings 2022 (Pharmacy) the college was listed in the rank-band 102-125.
+              Submissions are on the{' '}
               <Link href="/nirf/" className={A}>NIRF page</Link>.
             </p>
             <Src>
               NIRF (Ministry of Education) -{' '}
               <a href={SRC.nirfRanks2025} target="_blank" rel="noopener noreferrer" className={A}>India Rankings 2025: Pharmacy</a>,{' '}
               <a href={SRC.nirfParticipants2025} target="_blank" rel="noopener noreferrer" className={A}>participating institutions 2025</a> and{' '}
-              <a href={SRC.nirfParticipants2024} target="_blank" rel="noopener noreferrer" className={A}>2024</a>.
+              <a href={SRC.nirfParticipants2024} target="_blank" rel="noopener noreferrer" className={A}>2024</a>;{' '}
+              <a href={SRC.nirfBand2022} target="_blank" rel="noopener noreferrer" className={A}>India Rankings 2022: Pharmacy, rank-band 102-125</a>.
             </Src>
           </Section>
 

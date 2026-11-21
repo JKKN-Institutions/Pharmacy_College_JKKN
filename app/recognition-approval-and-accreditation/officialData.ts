@@ -24,6 +24,7 @@ export const SRC = {
   nirfRanks2025: 'https://www.nirfindia.org/Rankings/2025/PharmacyRanking.html',
   nirfParticipants2025: 'https://www.nirfindia.org/Rankings/2025/PharmacyRankingALL.html',
   nirfParticipants2024: 'https://www.nirfindia.org/Rankings/2024/PharmacyRankingALL.html',
+  nirfBand2022: 'https://www.nirfindia.org/Rankings/2022/PharmacyRanking150.html',
   scBPharm: SC + '20062026234247.pdf',
   scPharmD: SC + '20062026232658.pdf',
   scMPharm: SC + '14082026004705.pdf',
@@ -42,7 +43,7 @@ export const KEY_FACTS: string[] = [
   'AISHE ID: C-45689.',
   'Pharmacy Council of India: on the list of degree institutions approved under section 12 of the Pharmacy Act, PCI code 963.',
   'University-listed intake: B.Pharm 100 (2026-27); Pharm.D 30 and Pharm.D (Post Baccalaureate) 10 (2025-26). M.Pharm: 90 seats in six specialisations from 2026-27 (college office).',
-  'NIRF: participating institution in the Pharmacy category in 2024 and 2025; JKKN is not in the ranked list or the rank band, so no rank is claimed.',
+  'NIRF: listed in the Pharmacy rank-band 102-125 in India Rankings 2022; participating institution in the Pharmacy category in 2024 and 2025, where JKKN is not in the ranked list or the rank band.',
 ]
 
 export const FAQS: { question: string; alsoAsked: string; answer: string }[] = [
