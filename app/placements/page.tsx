@@ -10,7 +10,7 @@ import {
   TrendingUp, Award, Briefcase, Users, GraduationCap, Building2,
   ChevronDown, Phone, ArrowRight, BookOpen, Target, Star,
   Beaker, Pill, Microscope, HeartPulse, ShieldCheck, FileText,
-  Lightbulb, MessageSquare, UserCheck, BarChart3, Globe
+  Lightbulb, MessageSquare, UserCheck, BarChart3
 } from 'lucide-react';
 
 /* ──────────────────────────── DATA ──────────────────────────── */
@@ -29,7 +29,9 @@ const courseWiseData = [
   {
     course: 'B.Pharm',
     duration: '4 Years',
-    placementRate: '50%',
+    // 2026-11-21: shown as 42 placed + 28 higher studies of 84 (the bare 50% hid the 28).
+    placementRate: '28',
+    rateLabel: 'Higher Studies 2024-25',
     placed: '42 of 84',
     median: 'Rs 4.4 L',
     topRoles: ['Quality Control Analyst', 'Medical Representative', 'Production Chemist', 'Hospital Pharmacist'],
@@ -108,14 +110,8 @@ const testimonials: {
 
 const placementFaqs = PLACEMENT_FAQS;
 
-const sectorBreakdown = [
-  { sector: 'Pharmaceutical Manufacturing', percentage: 35, icon: Pill },
-  { sector: 'Hospital & Clinical Pharmacy', percentage: 20, icon: HeartPulse },
-  { sector: 'Quality Control & QA', percentage: 15, icon: ShieldCheck },
-  { sector: 'Research & Development', percentage: 10, icon: Microscope },
-  { sector: 'Marketing & Sales', percentage: 10, icon: Globe },
-  { sector: 'Regulatory & Others', percentage: 10, icon: FileText },
-];
+// The 'Where Our Graduates Work' sector percentages (35 / 20 / 15 / 10 / 10 / 10) were removed on
+// 2026-11-21: no filed document gives them (perception audit fix F7).
 
 /* ──────────────────────────── COUNTER HOOK ──────────────────────────── */
 
@@ -344,7 +340,7 @@ export default function PlacementsPage() {
                   <div className="grid grid-cols-3 gap-2 mb-4">
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
                       <div className="text-sm sm:text-lg font-bold text-[#0b6d41]">{course.placementRate}</div>
-                      <div className="text-[8px] sm:text-[10px] text-gray-500">Placement</div>
+                      <div className="text-[8px] sm:text-[10px] text-gray-500">{course.rateLabel ?? 'Placement'}</div>
                     </div>
                     <div className="text-center bg-white rounded-lg p-2 sm:p-3">
                       <div className="text-sm sm:text-lg font-bold text-[#0b6d41]">{course.placed}</div>
@@ -375,49 +371,6 @@ export default function PlacementsPage() {
                   >
                     View {course.course} Details <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4" />
                   </Link>
-                </motion.div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* ═══════════════ SECTOR-WISE BREAKDOWN ═══════════════ */}
-      <section className="py-8 sm:py-12 md:py-16 px-4 xs:px-5 sm:px-6">
-        <div className="max-w-[1400px] mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="text-center mb-6 sm:mb-8"
-          >
-            <p className="text-[10px] xs:text-xs sm:text-sm font-bold text-[#0b6d41] uppercase tracking-wider mb-2 sm:mb-3">
-              Industry Distribution
-            </p>
-            <h2 className="text-lg xs:text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 leading-tight">
-              Where Our Graduates Work
-            </h2>
-          </motion.div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
-            {sectorBreakdown.map((sector, i) => {
-              const Icon = sector.icon;
-              return (
-                <motion.div
-                  key={sector.sector}
-                  custom={i}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  variants={fadeUp}
-                  className="bg-white rounded-xl p-3 sm:p-4 text-center shadow-sm hover:shadow-md transition-shadow"
-                >
-                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-[#0b6d41]/10 flex items-center justify-center mx-auto mb-2">
-                    <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-[#0b6d41]" />
-                  </div>
-                  <div className="text-xl sm:text-2xl font-bold text-[#0b6d41] mb-1">{sector.percentage}%</div>
-                  <div className="text-[10px] sm:text-xs text-gray-600 leading-tight">{sector.sector}</div>
                 </motion.div>
               );
             })}
