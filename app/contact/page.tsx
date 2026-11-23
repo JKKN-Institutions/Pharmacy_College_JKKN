@@ -112,7 +112,7 @@ export default function ContactPage() {
                   cannot POST there directly - the endpoint sends no CORS header.
                   The form is its own white card now (mockup #7, 2026-10-22); the green box stays
                   as the frame, with less padding so the boxes keep their width on a phone. */}
-              <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-3 min-[640px]:p-6 mb-8 text-left">
+              <div className="[&_form_div.grid.gap-4]:grid-cols-[repeat(auto-fit,minmax(min(100%,200px),1fr))] [&_form_div.grid.gap-4]:items-end bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-3 min-[640px]:p-6 mb-8 text-left">
                 <PharmacyEnquiryForm sourcePage="contact" />
               </div>
                 <a
