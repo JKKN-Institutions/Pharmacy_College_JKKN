@@ -15,6 +15,7 @@
 "use client"
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from "react"
+import { useDialogScrollLock } from "@/lib/use-dialog-scroll-lock"
 import Image from "next/image"
 import { X } from "lucide-react"
 import PharmacyEnquiryForm from "@/components/lead/PharmacyEnquiryForm"
@@ -330,6 +331,7 @@ function EnquiryDialog({
   topic?: GateTopic
   onClose: () => void
 }) {
+  useDialogScrollLock()
   const title =
     intent === "call"
       ? "Talk to our admission counsellor"
@@ -360,7 +362,7 @@ function EnquiryDialog({
         role="dialog"
         aria-modal="true"
         aria-labelledby="enquiry-dialog-title"
-        className={`relative w-full max-h-[90vh] overflow-y-auto rounded-[20px] bg-white p-5 min-[640px]:p-6 shadow-2xl ${
+        className={`relative w-full max-h-[90vh] overflow-y-auto overscroll-contain rounded-[20px] bg-white p-5 min-[640px]:p-6 shadow-2xl ${
           withPoster ? "max-w-sm md:max-w-3xl" : "max-w-sm lg:max-w-md"
         }`}
       >
