@@ -333,7 +333,7 @@ export default function PharmacyEnquiryForm({
             : heading}
       </h2>
 
-      <ol aria-label="What happens next" className="grid grid-cols-3 gap-1.5">
+      <ol aria-label="What happens next" className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,5.5rem),1fr))] gap-1.5">
         {steps.map((step, i) => (
           <li
             key={step}
