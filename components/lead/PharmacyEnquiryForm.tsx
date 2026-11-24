@@ -247,8 +247,8 @@ export default function PharmacyEnquiryForm({
           }}
           className={
             isCall
-              ? "w-full bg-[#0b6d41] hover:bg-[#095a36] text-white font-bold py-4 rounded-full text-base transition-colors"
-              : "w-full bg-[#25d366] hover:bg-[#1ebe5a] text-[#032816] font-bold py-4 rounded-full text-base transition-colors"
+              ? "w-full bg-[#0b6d41] hover:bg-[#095a36] text-white font-bold py-4 rounded-full text-[16px] leading-6 transition-colors"
+              : "w-full bg-[#25d366] hover:bg-[#1ebe5a] text-[#032816] font-bold py-4 rounded-full text-[16px] leading-6 transition-colors"
           }
         >
           {isCall ? `Did not open? Call ${GATE_PHONE_DISPLAY}` : "Did not open? Open WhatsApp"}
@@ -291,9 +291,11 @@ export default function PharmacyEnquiryForm({
   const err = state?.fieldErrors
   // 16 px text in every box: below 16 px, iPhone Safari zooms the page on focus (the full form
   // used 14 px). Border #75867e is 3.84:1 on white and the hint text #5f6b66 is 5.55:1 — the
-  // WCAG minimums are 3:1 for a box edge and 4.5:1 for text.
+  // WCAG minimums are 3:1 for a box edge and 4.5:1 for text. text-[16px] leading-6, not text-base: this
+  // site's text-base grows to 18 px with a 1.75 line height (tailwind.config.ts), which made boxes 54-58 px
+  // and buttons 60-64 px against 50 / 56 on the other seven sites (form UI audit, 2026-11-23).
   const inputCls =
-    "w-full bg-white border-[1.5px] border-[#75867e] rounded-xl px-4 py-3 text-base text-[#1f2a24] placeholder:text-[#5f6b66] focus:outline-none focus:border-[#0b6d41] focus:ring-[3px] focus:ring-[#0b6d41]/20"
+    "w-full bg-white border-[1.5px] border-[#75867e] rounded-xl px-4 py-3 text-[16px] leading-6 text-[#1f2a24] placeholder:text-[#5f6b66] focus:outline-none focus:border-[#0b6d41] focus:ring-[3px] focus:ring-[#0b6d41]/20"
   const labelCls = "block text-[#032816] text-sm font-semibold mb-1.5"
   const errCls = "text-[#b42318] text-xs mt-1"
   // The 3-step strip says what the buttons do (the old "We call in 24 hrs" step went with the
@@ -485,8 +487,8 @@ export default function PharmacyEnquiryForm({
           }}
           className={
             intent === "whatsapp"
-              ? "w-full bg-[#25d366] hover:bg-[#1ebe5a] disabled:opacity-60 text-[#032816] font-bold py-4 rounded-full text-base transition-colors"
-              : "w-full bg-[#0b6d41] hover:bg-[#095a36] disabled:opacity-60 text-white font-bold py-4 rounded-full text-base transition-colors"
+              ? "w-full bg-[#25d366] hover:bg-[#1ebe5a] disabled:opacity-60 text-[#032816] font-bold py-4 rounded-full text-[16px] leading-6 transition-colors"
+              : "w-full bg-[#0b6d41] hover:bg-[#095a36] disabled:opacity-60 text-white font-bold py-4 rounded-full text-[16px] leading-6 transition-colors"
           }
         >
           {isPending ? "Submitting…" : intent === "call" ? "Call Counsellor" : "Chat on WhatsApp"}
