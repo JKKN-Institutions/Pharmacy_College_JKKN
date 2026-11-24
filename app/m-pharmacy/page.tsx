@@ -1239,7 +1239,7 @@ export default function MPharmacyPage() {
 
       {/* Final CTA Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl p-12 text-center text-white">
+        <div className="bg-gradient-to-r from-[#0b6d41] to-[#0f8f56] rounded-2xl px-4 py-8 md:p-12 text-center text-white">
           <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Advance Your Pharmacy Career with M.Pharm?</h2>
           <p className="text-[10px] xs:text-xs sm:text-sm mb-8">Choose your specialisation and apply for M.Pharm admission 2026!</p>
 

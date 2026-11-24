@@ -1469,7 +1469,7 @@ export default function BPharmacyPage() {
 
         {/* CTA Section */}
         <div className="mb-4 sm:mb-6 md:mb-8">
-          <div className="bg-gradient-to-r from-[#0b6d41] via-[#0f8f56] to-[#0f8f56] text-white rounded-lg shadow-xl p-12 text-center">
+          <div className="bg-gradient-to-r from-[#0b6d41] via-[#0f8f56] to-[#0f8f56] text-white rounded-lg shadow-xl px-4 py-8 md:p-12 text-center">
             <h2 className="text-base xs:text-lg sm:text-xl lg:text-2xl font-bold mb-4">Ready to Start Your Pharmacy Career?</h2>
             <div className="border-b-2 border-white w-32 mx-auto mb-6"></div>
             <p className="text-[10px] xs:text-xs sm:text-sm mb-8">Join the next batch of B.Pharm and become a licensed pharmacist in 4 years!</p>
