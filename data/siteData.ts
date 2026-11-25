@@ -84,7 +84,8 @@ export const topMenuItems: NavItem[] = [
               { label: "Pharmaceutical Analysis", href: "/pharmaceutical-analysis" },
               { label: "Pharmaceutical Chemistry", href: "/pharmaceutical-chemistry" },
               { label: "Pharmacy Practice", href: "/pharmacy-practice" },
-              { label: "Pharmaceutics", href: "/pharmaceutics" }
+              { label: "Pharmaceutics", href: "/pharmaceutics" },
+              { label: "Pharmaceutical Regulatory Affairs", href: "/pharmaceutical-regulatory-affairs" }
             ]
           },
           { label: "Pharm.D & Pharm.D (Post Baccalaureate)", href: "/pharm-d" },
