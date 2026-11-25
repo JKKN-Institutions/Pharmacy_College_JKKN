@@ -705,6 +705,19 @@ export default function Home() {
               Drug testing, quality assurance, analytical techniques, validation & regulatory standards
               </p>
             </Link>
+
+            {/* Pharmaceutical Regulatory Affairs - the sixth specialisation, new for 2026-27 (15 seats, college
+                office 2026-09-22; listed in the TN Selection Committee 2026-27 M.Pharm vacancy list). It had its own
+                page from 2026-08-25 but no card here or in the top menu until 2026-11-25. Copy = /m-pharmacy/ card. */}
+            <Link href="/pharmaceutical-regulatory-affairs/" className="bg-[#FBFBEE] rounded-xl sm:rounded-2xl p-3 sm:p-4 md:p-5 shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer">
+              <div className="w-10 h-10 xs:w-11 xs:h-11 sm:w-12 sm:h-12 bg-[#d4f1e4] rounded-full flex items-center justify-center mb-2 sm:mb-3">
+                <ClipboardList className="w-7 h-7" />
+              </div>
+              <h3 className="text-base xs:text-lg sm:text-xl font-bold text-[#0b6d41] mb-1.5 sm:mb-2">Pharmaceutical Regulatory Affairs</h3>
+              <p className="text-xs sm:text-sm text-gray-600">
+                Drug approval, dossier preparation, regulatory compliance
+              </p>
+            </Link>
           </div>
         </div>
       </section>
